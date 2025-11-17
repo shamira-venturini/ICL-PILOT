@@ -1,0 +1,6 @@
+# --- Step 1: Install necessary libraries ---
+transformers
+torch
+accelerate
+bitsandbytes
+pandas

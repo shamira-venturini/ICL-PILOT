@@ -1,0 +1,207 @@
+Sentence	MOR_Tier
+Bert is stuck , what do you want me to do ?	propn|Bert aux|be-Fin-Ind-Pres-S3 adj|stuck-S1 cm|cm pron|what-Int-S1 aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S pron|I-Prs-Acc-S1 part|to verb|do-Inf-S ?
+me can't .	pron|I-Prs-Acc-S1 aux|can-Fin-S~part|not .
+me drive 0the truck away .	pron|I-Prs-Acc-S1 verb|drive-Fin-Ind-Pres-S1 noun|truck-Acc adv|away .
+there have over there .	pron|there-Int-S1 verb|have-Fin-Ind-Pres-P3 adv|over adv|there .
+me did .	pron|I-Prs-Acc-S1 aux|do-Fin-Ind-Past-S1-irr .
+me 0have got 0a dump truck too .	pron|I-Prs-Acc-S1 verb|get-Fin-Ind-Past-S1-irr noun|dump noun|truck-Acc adv|too .
+here 0is 0the junk pile .	adv|here noun|junk noun|pile .
+I don't know .	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+lookit here I .	noun|lookit adv|here pron|I-Prs-Nom-S1 .
+what is it ?	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 ?
+that chair is rocking .	det|that-Def-Dem-Sing noun|chair aux|be-Fin-Ind-Pres-S3 verb|rock-Part-Pres-S .
+it's a stairs here .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|stair-Plur adv|here .
+climbed all the way up there 0to go 0to bed .	verb|climb-Fin-Ind-Past-S1 det|all-Def-Tot det|the-Def-Art noun|way-Acc adp|up adv|there verb|go-Fin-S noun|bed-Acc .
+here's 0the bed .	adv|here~aux|be-Fin-Ind-Pres-S3 noun|bed .
+he went back to bed .	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adv|back adp|to noun|bed .
+what's in here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adp|in adv|here ?
+lookit it's a sofa .	intj|lookit pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sofa .
+it's sitting there .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S adv|there .
+it's gonna sit right there can watch tv .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|sit-Inf-S adv|right adv|there aux|can-Fin-S verb|watch-Inf-S noun|TV-Acc .
+that guy is .	det|that-Def-Dem-Sing noun|guy aux|be-Fin-Ind-Pres-S3 .
+there's chairs here .	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|chair-Plur adv|here .
+what's in here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adp|in adv|here ?
+it's outside .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|outside .
+it's out in back .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|out adp|in noun|back .
+it's out in back here .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|out adp|in adv|back adv|here .
+grandma's really hungry .	noun|grandma~aux|be-Fin-Ind-Pres-S3 adv|really adj|hungry-S1 .
+lookit here .	noun|lookit adv|here .
+it's filling up gas .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fill-Part-Pres-S adp|up noun|gas-Acc .
+it's pushing the gas tank .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|push-Part-Pres-S det|the-Def-Art noun|gas noun|tank-Acc .
+this is a counter .	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|counter .
+that goes in the kitchen here .	pron|that-Dem verb|go-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|kitchen adv|here .
+lookit here what's this ?	noun|lookit adv|here pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 ?
+when you do you put in here ?	adv|when pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|put-Inf-S adp|in adv|here ?
+when you get a huh ?	adv|when pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Pres-S2 det|a-Ind-Art intj|huh ?
+what's that ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|that-Dem ?
+it goes up here .	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|up adv|here .
+what's this here huh ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here intj|huh ?
+what is it a road ?	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 det|a-Ind-Art noun|road ?
+it's a road .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|road .
+what's this a dish ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 det|a-Ind-Art noun|dish ?
+he's sitting xxx back of it .	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S adv|back adp|of pron|it-Prs-Acc-S3 .
+this is your hall room .	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 noun|hall noun|room .
+what you did here ?	pron|what-Int-S1 pron|you-Prs-Nom-S2 verb|do-Fin-Ind-Past-S2-irr adv|here ?
+what is it ?	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 ?
+it goes here .	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|here .
+it goes here .	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|here .
+that guy's laying on the couch and sleeping .	det|that-Def-Dem-Sing noun|guy~aux|be-Fin-Ind-Pres-S3 verb|lay-Part-Pres-S adp|on det|the-Def-Art noun|couch cconj|and noun|sleeping-Ger .
+what's this thing ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|this-Def-Dem-Sing noun|thing-Ger ?
+now it xxx .	adv|now pron|it-Prs-Nom-S3 .
+nobody get [* 0es] in there .	pron|nobody-Neg-S1 verb|get-Fin-S adp|in adv|there .
+nobody get [* 0es] in there .	pron|nobody-Neg-S1 verb|get-Fin-S adp|in adv|there .
+this is the bus stop .	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|bus noun|stop .
+I'm getting the orange one .	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|get-Part-Pres-S det|the-Def-Art adj|orange-S1 noun|one-Acc .
+the cow's coming in .	det|the-Def-Art noun|cow~aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S adp|in .
+the cow's gonna slide .	det|the-Def-Art noun|cow~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|slide-Inf-S .
+what's on the floor ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adp|on det|the-Def-Art noun|floor ?
+the train is going in here .	det|the-Def-Art noun|train aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|in adv|here .
+there he pick [* 0es] it up .	adv|there pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|up .
+the person is in there .	det|the-Def-Art noun|person aux|be-Fin-Ind-Pres-S3 adp|in adv|there .
+I wont the blocks 0to go in here .	pron|I-Prs-Nom-S1 verb|wont-Fin-Ind-Pres-S1 det|the-Def-Art noun|block-Plur-Acc verb|go-Inf-S adp|in adv|here .
+here it comes .	adv|here pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3 .
+I'm dumping the car .	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|dump-Part-Pres-S det|the-Def-Art noun|car-Acc .
+it's picking up some more corn in here .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|pick-Part-Pres-S adp|up det|some-Def-Ind adj|more-Cmp-S1 noun|corn-Acc adp|in adv|here .
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+you buy a new part here .	pron|you-Prs-Nom-S2 verb|buy-Fin-Ind-Pres-S2 det|a-Ind-Art adj|new-S1 noun|part-Acc adv|here .
+what's this a dumper ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 det|a-Ind-Art noun|dumper ?
+who's this grandpa ?	pron|who-Int~aux|be-Fin-Ind-Pres-S3 det|this-Def-Dem-Sing noun|grandpa ?
+gonna dump on a horse .	adv|gonna verb|dump-Fin-S adp|on det|a-Ind-Art noun|horse .
+watch gonna dump on the horse .	verb|watch-Fin-Imp-S adv|gonna verb|dump-Inf-S adp|on det|the-Def-Art noun|horse .
+I'm gonna let dump on the horse .	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 part|go verb|let-Inf-S verb|dump-Inf-S adp|on det|the-Def-Art noun|horse .
+oh oh horse is not gonna feel good .	intj|oh intj|oh noun|horse aux|be-Fin-Ind-Pres-S3 part|not part|go verb|feel-Inf-S adj|good-S1 .
+what's in there ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adp|in adv|there ?
+this I can pay .	pron|this-Dem-S1 pron|I-Prs-Nom-S1 aux|can-Fin-S verb|pay-Inf-S .
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+there he is .	pron|there-Dem-S1 pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 .
+there he is .	pron|there-Dem-S1 pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 .
+now it dump [* 0s] .	adv|now pron|it-Prs-Nom-S3 verb|dump-Fin-Ind-Pres-S3 .
+<don't> [/] , don't do that .	cm|cm aux|do-Fin-Imp-S~part|not verb|do-Fin-Imp-S pron|that-Dem .
+this be mine piece .	pron|this-Dem-S1 aux|be-Inf-S pron|my-Prs-S1 noun|piece .
+that be your piece .	pron|that-Dem aux|be-Inf-S pron|your-Prs-Gen-S2 noun|piece .
+me [* 0've] gotta make 0a worm , add to it that sucker .	pron|I-Prs-Acc-S1 aux|getta-Fin-S verb|make-Inf-S noun|worm-Acc cm|cm verb|add-Fin-Imp-S adp|to pron|it-Prs-Acc-S3 det|that-Def-Dem-Sing noun|sucker .
+me too .	pron|I-Prs-Acc-S1 adv|too .
+gotta take that .	aux|getta-Fin-S verb|take-Inf-S pron|that-Dem .
+and 0the car come [* 0es] here .	cconj|and noun|car verb|come-Fin-Ind-Pres-S3 adv|here .
+all these here xxx .	det|all-Def-Tot pron|this-Dem-P1 adv|here .
+yep , with train track [* 0s] going under .	intj|yep cm|cm adp|with noun|train noun|track verb|go-Part-Pres-S adv|under .
+and we had 0to try my other one and go 0get 0a brand new one .	cconj|and pron|we-Prs-Nom-P1 aux|have-Fin-Ind-Past-P1-irr verb|try-Inf-S pron|my-Prs-Gen-S1 adj|other-S1 noun|one-Acc cconj|and verb|go-Fin-Ind-Pres-P1 noun|brand-Acc adj|new-S1 noun|one-Acc .
+that one is mine .	sconj|that noun|one aux|be-Fin-Ind-Pres-S3 pron|my-Prs-S1 .
+now try it .	adv|now verb|try-Fin-Imp-S pron|it-Prs-Acc-S3 .
+now 0a car go [* 0es] on .	adv|now noun|car verb|go-Fin-Imp-Pres-S2 adp|on .
+me 0has got 0to cement it yet .	pron|I-Prs-Acc-S1 verb|get-Fin-Ind-Past-S1-irr noun|cement-Acc pron|it-Prs-Acc-S3 adv|yet .
+here come [* 0es] 0a cement truck .	adv|here verb|come-Fin-Imp-S noun|cement noun|truck-Acc .
+hey , take all these block [* 0s] away .	intj|hey cm|cm verb|take-Fin-Imp-S det|all-Def-Tot det|this-Def-Dem-Plur noun|block-Acc adv|away .
+some people wanna go on straight .	det|some-Def-Ind noun|person-Plur aux|wanna-Fin-Ind-Pres-P3 verb|go-Inf-S adp|on adj|straight-S1 .
+pretend water 0is going under here .	verb|pretend-Fin-Imp-S noun|water-Acc verb|go-Ger-S adp|under adv|here .
+that bridge 0has got 0the train track going under .	det|that-Def-Dem-Sing noun|bridge verb|get-Fin-Ind-Past-S3-irr noun|train noun|track-Acc verb|go-Ger-S adv|under .
+yeah , some train [* 0s] go under , one train .	intj|yeah cm|cm det|some-Def-Ind noun|train verb|go-Fin-Imp-Pres-S adv|under cm|cm num|one noun|train .
+what 0is in there ?	pron|what-Int-S1 adp|in adv|there ?
+two ladders have build .	num|two noun|ladder-Plur aux|have-Fin-Ind-Pres-P3 verb|build-Part-Past-S .
+here [* 0's] that green thing .	adv|here det|that-Def-Dem-Sing adj|green-S1 noun|thing-Ger .
+where 0is that racecar ?	adv|where det|that-Def-Dem-Sing noun|racecar ?
+but not car go on there only dumptruck .	cconj|but part|not noun|car verb|go-Fin-Imp-S adp|on adv|there adv|only noun|dumptruck .
+only dump trucks go on there ?	adv|only noun|dump noun|truck-Plur verb|go-Fin-Ind-Pres-P3 adp|on adv|there ?
+monkey not monkey go in there either .	noun|monkey part|not noun|monkey verb|go-Fin-Imp-S adp|in adv|there adv|either .
+lookit here Rita .	noun|lookit adv|here propn|Rita .
+let's look around .	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|look-Inf-S adv|around .
+I make a road here making a road .	pron|I-Prs-Nom-S1 verb|make-Fin-Ind-Pres-S1 det|a-Ind-Art noun|road-Acc adv|here verb|make-Part-Pres-S det|a-Ind-Art noun|road-Acc .
+trying to make a road here .	verb|try-Part-Pres-S part|to verb|make-Inf-S det|a-Ind-Art noun|road-Acc adv|here .
+just the cars .	adv|just det|the-Def-Art noun|car-Plur .
+where 0is the [/] the wheel .	adv|where det|the-Def-Art noun|wheel .
+lookit circle here .	adj|lookit-S1 noun|circle adv|here .
+where's the building ?	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|building-Ger ?
+here's the building .	adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|building-Ger .
+where's that other bridge ?	adv|where~aux|be-Fin-Ind-Pres-S3 det|that-Def-Dem-Sing adj|other-S1 noun|bridge ?
+there it is .	pron|there-Int-S1 pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 .
+what's your name Rita ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 noun|name propn|Rita ?
+lookit here .	noun|lookit adv|here .
+where 0is more toy [* 0s] ?	adv|where adj|more-Cmp-S1 noun|toy ?
+where [* 0's] 0the dump truck ?	adv|where noun|dump noun|truck ?
+me take 0it apart .	pron|I-Prs-Acc-S1 verb|take-Fin-Ind-Pres-S1 adv|apart .
+where 0is that thing 0that go [* 0s] down ?	adv|where det|that-Def-Dem-Sing noun|thing-Ger verb|go-Fin-Ind-Pres-P3 adp|down ?
+is there a thing that makes it , is it this thing ?	verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 det|a-Ind-Art noun|thing-Ger pron|that-Rel verb|make-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 cm|cm aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 det|this-Def-Dem-Sing noun|thing-Ger ?
+getting gas in here .	verb|get-Part-Pres-S noun|gas-Acc adp|in adv|here .
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+where 0is that other one ?	adv|where det|that-Def-Dem-Sing adj|other-S1 noun|one ?
+where's the other one ?	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art adj|other-S1 noun|one ?
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+that goes where ?	pron|that-Dem verb|go-Fin-Ind-Pres-S3 adv|where ?
+it's going xxx .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S .
+these are some more .	pron|this-Dem-P1 aux|be-Fin-Ind-Pres-P3 det|some-Def-Ind adj|more-Cmp-S1 .
+where 0is the spaceship .	adv|where det|the-Def-Art noun|spaceship .
+you wanna ?	pron|you-Prs-Nom-S2 aux|wanna-Fin-Ind-Pres-S2 ?
+wanna put the spaceship in here ?	propn|wanna verb|put-Fin-Ind-Past-S3-irr det|the-Def-Art noun|spaceship-Acc adp|in adv|here ?
+I want the wheels out .	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 det|the-Def-Art noun|wheel-Plur-Acc adv|out .
+say I can drive with the wheel .	verb|say-Fin-Imp-S pron|I-Prs-Nom-S1 aux|can-Fin-S verb|drive-Inf-S adp|with det|the-Def-Art noun|wheel .
+if I can .	sconj|if pron|I-Prs-Nom-S1 aux|can-Fin-S .
+he's gonna drive .	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|drive-Inf-S .
+it's gonna drive .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|drive-Inf-S .
+it's going bye bye .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S noun|bye-Acc intj|bye .
+it's going bye bye .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S noun|bye-Acc intj|bye .
+I'm getting this out .	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|get-Part-Pres-S pron|this-Dem-S1 adp|out .
+what's this here ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adv|here ?
+they're going driving .	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S verb|drive-Part-Pres-S .
+trying to put them together so fire won't come out .	verb|try-Part-Pres-S part|to verb|put-Inf-S pron|they-Prs-Acc-P3 adv|together sconj|so noun|fire aux|will-Fin-S~part|not verb|come-Inf-S adp|out .
+I can't put them together .	pron|I-Prs-Nom-S1 aux|can-Fin-S~part|not verb|put-Inf-S pron|they-Prs-Acc-P3 adv|together .
+look it's going .	verb|look-Fin-Imp-S pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S .
+round here lookit .	adv|round adv|here noun|lookit .
+that's funny .	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|funny-S1 .
+I tried to put this together .	pron|I-Prs-Nom-S1 verb|try-Fin-Ind-Past-S1 part|to verb|put-Inf-S pron|this-Dem-S1 adv|together .
+make a door here .	verb|make-Fin-Imp-S det|a-Ind-Art noun|door-Acc adv|here .
+make a door there .	verb|make-Fin-Imp-S det|a-Ind-Art noun|door-Acc adv|there .
+I'm making a piece .	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|make-Part-Pres-S det|a-Ind-Art noun|piece-Acc .
+oh you broke the window off of here .	intj|oh pron|you-Prs-Nom-S2 verb|break-Fin-Ind-Past-S2-irr det|the-Def-Art noun|window-Acc adp|off adp|of adv|here .
+that tree's up here .	det|that-Def-Dem-Sing noun|tree~aux|be-Fin-Ind-Pres-S3 adp|up adv|here .
+it's gonna be .	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go aux|be-Inf-S .
+oh what's here .	intj|oh pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adv|here .
+what's here ride a hole ?	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adv|here verb|ride-Fin-Imp-S det|a-Ind-Art noun|hole-Acc ?
+I think so .	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 adv|so .
+put this here ?	verb|put-Fin-Imp-S pron|this-Dem-S1 adv|here ?
+animals gonna eat dog up .	noun|animal-Plur adv|gonna verb|eat-Inf-P3 noun|dog-Acc adp|up .
+can dog a doggie ?	aux|can-Fin-S verb|dog-Inf-S det|a-Ind-Art noun|doggie-Acc ?
+he 0is gonna climb up the fence .	pron|he-Prs-Nom-S3 adv|gonna verb|climb-Inf-S adp|up det|the-Def-Art noun|fence .
+he ain't gonna get one .	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3~part|not part|go verb|get-Inf-S num|one .
+he can't eat these .	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|eat-Inf-S pron|this-Dem-P1 .
+you can't eat .	pron|you-Prs-Nom-S2 aux|can-Fin-S~part|not verb|eat-Inf-S .
+because some people do .	sconj|because det|some-Def-Ind noun|person-Plur aux|do-Fin-Ind-Pres-P3 .
+me don't though .	pron|I-Prs-Acc-S1 aux|do-Fin-Ind-Pres-S1~part|not adv|though .
+that one's done now this one .	sconj|that pron|one-Prs-S3~aux|be-Fin-Ind-Pres-S3 verb|do-Part-Past-S-irr adv|now det|this-Def-Dem-Sing noun|one .
+hey maybe we're sitting in there all night .	intj|hey adv|maybe pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 verb|sit-Part-Pres-S adp|in adv|there det|all-Def-Tot noun|night .
+I better not eat him because he's been nice .	pron|I-Prs-Nom-S1 adv|well part|not verb|eat-Inf-S pron|he-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 aux|be-Part-Past-S-irr adj|nice-S1 .
+he's not I better eat him up .	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not pron|I-Prs-Nom-S1 adj|good-Cmp-S1 verb|eat-Inf-S pron|he-Prs-Acc-S3 adp|up .
+here are animals too .	adv|here aux|be-Fin-Ind-Pres-P3 noun|animal-Plur adv|too .
+can you hear it ?	aux|can-Fin-S pron|you-Prs-Nom-S2 verb|hear-Inf-S pron|it-Prs-Acc-S3 ?
+I don't know what does horsie say ?	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S pron|what-Int-S1 aux|do-Fin-Ind-Pres-S3 propn|horsie verb|say-Inf-S ?
+where 0is that match box car dump truck ?	adv|where det|that-Def-Dem-Sing noun|match noun|box noun|car noun|dump noun|truck ?
+big truck [* 0's] too .	adj|big-S1 noun|truck adv|too .
+lot 0of car [* 0s] go in there .	noun|lot noun|car verb|go-Fin-Imp-S adp|in adv|there .
+this haul [* 0es] tree log [* 0s] too .	det|this-Def-Dem-Sing noun|haul noun|tree noun|log adv|too .
+build this again .	verb|build-Fin-Imp-S pron|this-Dem-S1 adv|again .
+one hang threes down .	num|one verb|hang-Fin-Ind-Pres-S3 noun|three-Plur-Acc adv|down .
+make car wash again .	verb|make-Fin-Imp-S noun|car noun|wash-Acc adv|again .
+now me need that kind .	adv|now pron|I-Prs-Acc-S1 verb|need-Fin-Ind-Pres-S1 det|that-Def-Dem-Sing noun|kind-Acc .
+where 0is 0the car ?	adv|where noun|car ?
+over by that door .	adv|over adp|by det|that-Def-Dem-Sing noun|door .
+better build 0a big one .	adv|well verb|build-Fin-Imp-S adj|big-S1 noun|one-Acc .
+I can .	pron|I-Prs-Nom-S1 aux|can-Fin-S .
+me can .	pron|I-Prs-Acc-S1 aux|can-Fin-S .
+what is that ?	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|that-Dem ?
+no fall down .	det|no-Def-Neg noun|fall adv|down .
+here's what do .	adv|here~aux|be-Fin-Ind-Pres-S3 pron|what-Int-S1 aux|do-Fin-Ind-Pres-P3 .
+first I gonna do this one .	adv|first pron|I-Prs-Nom-S1 adv|gonna verb|do-Inf-S det|this-Def-Dem-Sing noun|one-Acc .
+this is my coloring book .	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1 noun|coloring-Ger noun|book .
+I [* 0'm] gonna finish on that other page .	pron|I-Prs-Nom-S1 adv|gonna verb|finish-Inf-S adp|on det|that-Def-Dem-Sing adj|other-S1 noun|page .
+show ya what I [* 0'm] gonna do .	verb|show-Fin-Imp-S pron|you-Prs-Acc-S2 pron|what-Rel-S1 pron|I-Prs-Nom-S1 adv|gonna verb|do-Fin-Ind-Pres-S1 .
+some are this one some are that .	det|some-Def-Ind aux|be-Fin-Ind-Pres-P3 det|this-Def-Dem-Sing noun|one det|some-Def-Ind aux|be-Fin-Ind-Pres-P3 pron|that-Dem .
+I do gonna finish this one .	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1 part|go verb|finish-Inf-S det|this-Def-Dem-Sing noun|one-Acc .
+right after finish that me I do all these .	adv|right adp|after noun|finish sconj|that pron|I-Prs-Acc-S1 pron|I-Prs-Nom-S1 verb|do-Fin-Ind-Pres-S1 det|all-Def-Tot pron|this-Dem-P1 .
+we should use these and put it right on that .	pron|we-Prs-Nom-P1 aux|should-Fin-S verb|use-Inf-S pron|this-Dem-P1 cconj|and verb|put-Inf-S pron|it-Prs-Acc-S3 adv|right adp|on pron|that-Dem .
+yeah and he can hop over all .	intj|yeah cconj|and pron|he-Prs-Nom-S3 aux|can-Fin-S verb|hop-Inf-S adp|over det|all-Def-Tot .
+man can go .	noun|man aux|can-Fin-S verb|go-Inf-S .
+he can't work on sesame street .	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|work-Inf-S adp|on noun|sesame noun|street .
+no he can watch me .	intj|no pron|he-Prs-Nom-S3 aux|can-Fin-S verb|watch-Inf-S pron|I-Prs-Acc-S1 .
+this is superman right there .	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 noun|superman adv|right adv|there .
+I know how to write my name .	pron|I-Prs-Nom-S1 verb|know-Fin-Ind-Pres-S1 adv|how part|to verb|write-Inf-S pron|my-Prs-Gen-S1 noun|name-Acc .
