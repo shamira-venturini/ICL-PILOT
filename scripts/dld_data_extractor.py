@@ -4,7 +4,7 @@ import re
 
 # --- CONFIGURATION ---
 # Upload your 52 DLD .cha files to this folder in Colab
-DATA_PATH = "dld_corpus/"
+DATA_PATH = "../td_narrative/"
 
 
 def clean_utterance(line):
