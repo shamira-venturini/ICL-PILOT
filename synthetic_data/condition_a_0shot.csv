@@ -1,0 +1,333 @@
+condition,sample_id,temperature,output_story
+Zero-Shot (Rule-Based),1,0.7,"The little boy and the dog have a frog. They put frog in jar. They are very happy. They go sleep.
+
+Next morning, the frog gone. He go away. They no know what happen. The little boy look in shoes. He look everywhere. The dog look in jar, but his head get stuck.
+
+They say frog, where you go? They open window. They yell for frog. The dog fall out window. The dog break jar. He lick boy. The boy no happy.
+
+They go forest. They look for frog. The dog see bees. The boy see hole. The dog play with bees. The dog try catch bees.
+
+The boy say frog, where you? A prairie dog smack boy. The dog howl at bees. An owl knock boy down. The bees chase dog.
+
+The boy climb rock. He say frog, where you? He hold branch. It deer's antler. The boy get stuck. The deer run. The dog come. The deer stop at cliff. Down go boy and dog. They fall in water. Splash.
+
+The boy hear something. He say shh to dog. 'Look on log.' They see mommy frog. They see daddy frog. They see frog family. They take frog. They say goodbye. They go home. Everyone happy."
+Zero-Shot (Rule-Based),2,0.7,"Little boy and dog have frog. Frog go in jar. They happy. They go sleep.
+
+Next day little boy wake up, dog wake up. Frog gone. He go away. Boy look in shoes. He look everywhere. Dog look back in jar. His head get stuck.
+
+They open window. They yell for frog. 'Frog, where you?' Dog fall out window. Dog break jar on head. He lick boy. Boy no happy.
+
+They go forest. They look for frog. Dog like bumblebees. Boy look down hole. Dog play with bumblebees. Dog try catch.
+
+Boy say 'Frog, where you?' Prairie dog hit boy nose. Dog howl at bumblebees. Bumblebees chase dog.
+
+Boy climb rock. He say 'Frog, where you?' He hold branch. It deer's antler. Boy get stuck. Deer run. Dog come with. Deer stop cliff. Boy, dog fall down. Splash! They in water.
+
+Boy say 'Shh'. He say 'Look log'. What they see? Mommy, daddy frog. They have little frog. They say goodbye. They go home. Everyone happy."
+Zero-Shot (Rule-Based),3,0.7,"Boy and dog have frog in jar. They happy. They go to bed. Next night frog get out. Frog go for walk. Boy and dog wake up. Frog gone. Boy look in shoes. Boy look everywhere. Dog look in jar. Dog head get stuck.
+
+They open window. They yell for frog. 'Frog, where you?' Dog fall out window. Dog break jar. Boy not happy. Jar break.
+
+They go to forest. They look for frog. Dog see bumblebees. Boy look down. Dog play with bumblebees. Boy say 'Frog, where you?' Prairie dog hit boy nose. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb on rock. Boy say 'Frog, where you?' Boy hold branch. Branch is deer's antler. Boy get stuck on deer's head. Deer run. Dog come with deer. Deer stop at cliff. Boy and dog go down. Boy and dog splash in water.
+
+Boy say 'Shh' to dog. 'Look on log.' Boy and dog see mommy frog. Mommy frog have family. Boy and dog see frog. They take frog. They say goodbye. They go home. Everyone happy."
+Zero-Shot (Rule-Based),4,0.7,"The little boy and dog put frog in jar. They happy. Then they sleep. Frog get out, go for walk. Frog gone. Little boy and dog wake up, frog gone. They look everywhere. Dog get head stuck in jar.
+
+They open window, yell for frog. 'Frog, where you?' Dog fall out window. Jar break. Boy not happy. Jar broke. They go forest, look for frog. Dog see bumblebees, play with them. Little boy look down hole. Boy say 'Frog, where you?' Prairie dog hit him nose. Dog howl at bumblebees. Bumblebees chase dog.
+
+Boy climb rock, say 'Frog, where you?' But it deer's antler. Boy get stuck. Deer run, boy fall off. Dog come with. Deer stop at cliff, boy fall in water. Splash! Boy say 'Shh' to dog. 'Look on other side log.' They see mommy, daddy frog, little frog. They take little frog, say goodbye, go home. Everyone happy."
+Zero-Shot (Rule-Based),5,0.7,"The little boy and dog put frog in jar. They was very happy. They go to bed. Frog get out, go for walk when they sleep.
+
+Next morning, frog not there. He go away. Boy and dog no believe. Boy look in shoes, look everywhere. Dog look in jar, but his head stuck.
+
+They open window, yell for frog. 'Frog, where you?' Dog fall out window. Jar break on dog's head, dog lick boy. Boy no happy jar break.
+
+They go to forest, look for frog. Dog see bumblebees, want to catch. Boy look down, see hole. Dog play with bumblebees, boy say 'Frog, where you?'
+
+Prairie dog smack boy's nose. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb on rock, say 'Frog, where you?' He hold branch, but it deer's antler. Boy get stuck on deer's head. Deer run, dog come with him. Deer stop, boy, dog fall down. They go in water, splash.
+
+Boy hear something, say 'Shh' to dog. 'Look on log.' They see mommy, daddy frog, frogs family. They take frog, say goodbye, go home. Everyone happy."
+Zero-Shot (Rule-Based),6,0.7,"Boy have dog, they put frog in jar. They happy. They go bed. Frog get out, go walk. Frog gone, boy dog wake up, they look everywhere.
+
+Boy look in shoes, dog look in jar, his head stuck. They yell for frog, 'Frog, where you?' Dog fall out window, break jar, lick boy. Boy sad jar break.
+
+Boy dog go forest, look for frog. Dog play with bumblebees, boy look down hole. Prairie dog smack boy nose, owl knock boy down. Bumblebees chase dog.
+
+Boy climb rock, say 'Frog, where you?' He on deer's head. Deer run, boy dog come. Deer stop, boy dog fall in water. Splash.
+
+Boy quiet, say 'Shh' to dog. 'Look other side log.' Boy dog see mommy frog, daddy frog, frog family. They take little frog, say goodbye. Boy dog go home. Happy."
+Zero-Shot (Rule-Based),7,0.7,"The little boy and the dog had a frog. They put the frog in a jar. The jar was in the house. They went to sleep. 
+
+Next morning, the frog was gone. He went away. The little boy looked in his shoes. The dog looked in the jar. His head got stuck in the jar.
+
+They opened the window. They yelled for the frog. 'Frog, where are you?' The dog fell out the window. The dog broke the jar. He licked the boy's face. The boy was sad. 
+
+They went to the forest. They looked for the frog. The dog saw bees. The little boy saw a hole. The dog played with bees. He tried to catch them.
+
+The boy said 'Frog, where are you?' A dog hit him. The dog was howling. Bees chased the dog. The boy climbed a rock. He said 'Frog, where are you?' He was on a deer. The deer ran. The boy fell down. The dog came with him. They went down the cliff. They fell in the water.
+
+The boy said 'Shh' to the dog. They looked on the other side of the log. They saw frogs. They saw mommy frog. They saw daddy frog. They saw little frogs. They took the little frog. They said goodbye. They went home. The boy and dog were happy."
+Zero-Shot (Rule-Based),8,0.7,"Little boy and dog put frog in jar. They happy. They go sleep. That night, frog go out of jar. Frog go for walk.
+
+Next morning, frog gone. Frog go away. Little boy and dog sad. Little boy look in shoes. He look everywhere. Dog look back in jar. His head stuck.
+
+They open window. They yell for frog. 'Frog, where you?' Dog fall out window. Dog break jar. He lick little boy. Little boy not happy.
+
+They go forest. They look for frog. Dog see bumblebees. Dog play with bumblebees. Boy look down hole. He see frog. No, he not see frog. Prairie dog hit him nose.
+
+Bumblebees chase dog. Owl knock boy down. Boy climb on rock. He say 'Frog, where you?' He see deer. Deer antler. Boy get stuck. Deer run. Boy and dog go down cliff. They go in water.
+
+Boy say 'Shh'. Dog quiet. They go look on other side log. They see mommy frog. Daddy frog. Little frog. They take frog. Say goodbye. Go home. Happy."
+Zero-Shot (Rule-Based),9,0.7,"Boy and dog put frog in jar. They happy. Then they go sleep. Frog get out and go walk. He go far away.
+
+Boy and dog wake up. Frog gone. They look everywhere. Boy look in shoes. Dog look in jar. His head stuck.
+
+They yell for frog. 'Frog, where you?' Dog fall out window. Jar break. Dog lick boy. Boy sad.
+
+They go forest. Look for frog. Dog see bees. Boy see hole. Dog play with bees. Try catch.
+
+Boy say 'Frog, where you?' Prairie dog hit him. Dog howl at bees. Owl knock boy down. Bees chase dog.
+
+Boy climb rock. Say 'Frog, where you?' He on deer's head. Deer run. Dog come with. Deer stop at cliff. Boy and dog fall down. In water. Splash.
+
+Boy say 'Shh'. 'Look log.' Boy and dog see mommy frog. Daddy frog. Baby frogs. They take frog. Say goodbye. Go home."
+Zero-Shot (Rule-Based),10,0.7,"The little boy and dog put frog in a jar. They were happy. They go to bed. Next morning, frog not there. Frog went away. Little boy look in shoes. He look everywhere.
+
+The dog look in jar. His head get stuck. They yell for frog. 'Frog, where you?' Dog fall out window. Jar break. Dog lick boy. Boy no happy.
+
+They go to forest. Look for frog. Dog see bumblebees. Boy look down. Little dog play with bumblebees. The boy say 'Frog, where you?' Prairie dog hit him. Dog howl at bumblebees. Bumblebees chase dog.
+
+The boy climb rock. Say 'Frog, where you?' He on deer's head. Deer run. Boy and dog go down cliff. They splash in water. Boy say 'Shh'. Look on log. See mommy frog. See daddy frog. See frog family. They take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),11,0.7,"Little boy and dog have frog in jar. They very happy. They go sleep. Frog get out jar, go for walk. He gone. Little boy and dog wake up. Frog gone. They look everywhere. Dog get head stuck in jar.
+
+They open window, yell for frog. 'Frog, where are you?' Dog fall out window. Jar break on dog's head. Boy no happy. Jar broken. They go forest, look for frog. Dog like bumblebees. Boy look down hole. Little dog play with bumblebees.
+
+Boy say 'Frog, where are you?' Prairie dog hit him nose. Dog howl at bumblebees. Owl jump out, knock boy down. Bumblebees chase dog. Boy climb on rock. Say 'Frog, where are you?' He on deer's antler. Deer run. Dog come with him. Deer stop at cliff. Down go boy, dog. In water.
+
+Boy say 'Shh'. 'Let's look log.' They see mommy frog, daddy frog. Whole frog family. They take little frog, say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),12,0.7,"The little boy and dog have a frog. They put frog in jar. They are happy. They go to sleep.
+
+Frog wake up. He get out. He go for walk. Frog go away. Next morning, little boy and dog wake up. Frog gone.
+
+They look for frog. Little boy look in shoes. Dog look in jar. Dog's head get stuck. They yell for frog. 'Frog, where are you?' Dog fall out window. Jar break on dog's head.
+
+They go in forest. They look for frog. Dog see bumblebees. Boy look in hole. Dog play with bumblebees. Prairie dog smack boy's nose. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb on rock. 'Frog, where are you?' Boy stuck on deer's head. Deer run. Boy and dog come with. Deer stop at cliff. Down go boy and dog. They fall in water. Splash!
+
+Boy hear something. He say 'Shh' to dog. 'Look on log.' They see mommy frog. They see daddy frog. They see little frogs. They take frog home. They happy."
+Zero-Shot (Rule-Based),13,0.7,"The little boy and dog have frog. They put frog in jar. They go to bed. Frog get out. Frog go for walk.
+
+The little boy and dog wake up. Frog gone. They look everywhere. Dog look in jar. His head stuck.
+
+They yell for frog. 'Frog, where are you?' Dog fall out window. Jar break. Boy not happy.
+
+They go to forest. Look for frog. Dog see bumblebees. Little boy look down hole. Dog play with bumblebees.
+
+Boy say 'Frog, where are you?' Prairie dog smack him. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb on rock. Say 'Frog, where are you?' He on deer's head. Deer run. Boy and dog go down cliff. In water.
+
+Boy say 'Shh' to dog. 'Look on log.' They see mommy frog, daddy frog. Whole family frogs. They take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),14,0.7,"Boy have dog. They put frog in jar. Frog in jar. They happy.
+
+Next day boy wake up. Frog gone. Boy look in shoes. Boy look everywhere. Dog look back jar. Dog's head stuck.
+
+They open window. They yell frog. 'Frog where you?' Dog fall out window. Jar break on dog's head. Dog lick boy.
+
+They go forest. They look frog. Dog see bumblebees. Boy see hole. Dog play bumblebees. Dog try catch.
+
+Boy say 'Frog where you?' Prairie dog smack boy. Dog howl bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb rock. Boy say 'Frog where you?' Boy on deer's head. Deer run boy off. Dog come with deer. Deer stop cliff. Boy dog fall water. Splash.
+
+Boy say 'Shh'. Boy look other side log. Boy see mommy frog. Boy see daddy frog. Boy see frog family. They take frog. They say goodbye. They go home."
+Zero-Shot (Rule-Based),15,0.7,"The little boy and dog have frog. They happy. They go sleep. That night frog go for walk. He get out jar. He go. 
+
+Next day frog gone. They look. They find frog gone. They sad. Boy look in shoes. Dog look in jar. His head get stuck. 
+
+They open window. Yell for frog. 'Frog, where you?' Dog fall out. Jar break. Boy not happy. Jar break. 
+
+They go forest. Look for frog. Dog see bumblebees. Boy see hole. Dog play with bumblebees. Try catch. 
+
+Boy say 'Frog, where you?' Prairie dog hit him. Dog howl at bumblebees. Owl hit boy. Bumblebees chase dog. 
+
+Boy climb rock. Say 'Frog, where you?' He on deer. Deer run. Boy and dog fall. Down go. In water. Splash. 
+
+Boy hear. Say 'Shh.' 'Look other side log.' They see mommy frog. Daddy frog. Baby frog. They take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),16,0.7,"Boy and dog had frog in jar. They were very happy. Then they sleep. Frog wake up and go for walk.
+
+Boy wake up. Frog gone. Dog look everywhere. Boy look in shoes. Dog look in jar. His head stuck.
+
+They say 'Frog, where you?' Frog not there. Dog fall out window. Jar break. Boy not happy.
+
+Boy and dog go forest. Look for frog. Dog see bees. Boy see hole. Dog play with bees.
+
+Boy say 'Frog, where you?' Prairie dog hit him. Dog howl at bees. Owl knock boy down. Bees chase dog.
+
+Boy climb rock. Say 'Frog, where you?' Boy on deer. Deer run. Boy stuck. Dog come with deer.
+
+Deer run to cliff. Boy and dog fall. In water. Splash. Dog and boy quiet. Look on log.
+
+They see mommy frog. Daddy frog. Little frogs. They take frog home. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),17,0.7,"The little boy and dog put frog in jar. They were very happy. Then they go to bed. That night frog get out of jar. He go for little walk.
+
+Next morning little boy and dog wake up. Frog gone. He go away. They not believe. Little boy look in shoes. He look everywhere. Dog look in jar again. His head get stuck.
+
+They decide open window. Yell for frog. 'Frog, where you?' Dog fall out window. He lose balance. He break jar on head. Dog lick boy. Boy not happy.
+
+They go to forest. Look for frog. Dog see bumblebees. Dog want to catch them. Little boy look down hole. He say 'Frog, where you?' Prairie dog come out. Smack boy in nose.
+
+Dog howl at bumblebees. Bumblebees go after dog. Boy climb on rock. Say 'Frog, where you?' He on deer's head. Deer run. Boy get stuck. Deer stop at cliff. Boy and dog fall in water.
+
+Boy say 'Shh' to dog. 'Let's look on other side of log.' They see mommy and daddy frog. They see frog family. They take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),18,0.7,"Boy have frog in jar. They happy. They go bed. Frog sneak out. He go for walk. 
+
+Boy wake up. Frog gone. Boy look shoes. Boy look everywhere. Dog look back jar. Dog get head stuck. 
+
+Boy and dog yell frog. 'Frog where you?' Dog fall out window. Jar break. Boy sad. 
+
+Boy and dog go forest. Look for frog. Dog see bees. Boy see hole. Dog play with bees. 
+
+Boy say 'Frog where you?' Prairie dog hit boy. Dog howl at bees. Owl knock boy down. Bees chase dog. 
+
+Boy climb rock. Say 'Frog where you?' Boy stuck on deer. Deer run. Dog come. Deer stop at cliff. Boy and dog fall down. Go in water. Splash. 
+
+Boy say 'Shh'. Dog quiet. Boy say 'Let's look log.' Boy see mommy frog. See daddy frog. See frogs. Boy and dog take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),19,0.7,"The little boy and the dog put frog in jar. They happy. They sleep. Frog wake up and go for walk.
+
+The little boy wake up. Frog gone. He go away. They sad. Little boy look in shoes. Dog look in jar. Jar break. Dog head stuck.
+
+They open window and yell for frog. 'Frog, where you?' Dog fall out. Jar break on dog. Boy not happy. Jar break.
+
+They go to forest. Look for frog. Dog see bumblebees. Little boy look down. Dog play with bumblebees.
+
+Boy say 'Frog, where you?' Prairie dog hit him. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb on rock. Say 'Frog, where you?' It deer's head. Boy stuck. Deer run. Dog come. Deer stop. Boy and dog fall. Down into water.
+
+Boy say 'Shh' to dog. Look on log. They see mommy frog. Daddy frog. Baby frogs. They take frog home. They happy."
+Zero-Shot (Rule-Based),20,0.7,"Boy and dog put frog in jar. They are happy. Then they go to bed. Frog get out. He go walk.
+
+Boy wake up. Frog gone. He go away. Boy look in shoes. Boy look everywhere. Dog look in jar. Dog's head stuck.
+
+Boy and dog open window. They yell for frog. 'Frog where are you?' Dog fall out window. Jar break on dog's head. Dog lick boy. Boy not happy.
+
+Boy and dog go forest. They look for frog. Dog see bumblebees. Dog play with bumblebees. Boy look down hole.
+
+Boy say 'Frog where are you?' Prairie dog hit boy. Dog howl at bumblebees. Owl hit boy down. Bumblebees chase dog.
+
+Boy climb on rock. Boy say 'Frog where are you?' Boy on deer's head. Deer run. Boy get stuck. Deer stop at cliff. Boy and dog go in water. Splash.
+
+Boy hear something. Boy say 'Shh' to dog. Boy and dog look on log. They see mommy frog. They see daddy frog. They see little frogs. They take frog. They go home. Everyone happy."
+Zero-Shot (Rule-Based),21,0.7,"The little boy and the dog put their frog in a jar. They was happy. They go to sleep. 
+
+The frog get out and go for a walk. He was gone. The little boy wake up, but frog not there. He look in his shoes, but not frog. The dog look in jar, but his head stuck.
+
+They yell for frog, 'Frog, where you?' The dog fall out window. He break jar. The boy not happy. They go to forest to look for frog.
+
+The dog see bumblebees. The boy look in hole. The dog play with bees. The boy say 'Frog, where you?' A prairie dog hit him. The dog howl at bees. An owl hit boy down. The bees chase dog.
+
+The boy climb on rock. He say 'Frog, where you?' He was on deer's head. The deer run. The dog come with him. They stop at cliff. Down they go. They splash in water.
+
+The boy say 'Shh'. He say 'Let's look on log'. They see mommy frog and daddy frog. They see little frog. They say goodbye to frog. They go home. The boy and dog happy."
+Zero-Shot (Rule-Based),22,0.7,"Little boy and dog put frog in jar. They were very happy. They went to bed. That night frog get out of jar. Frog go for walk. 
+
+Little boy wake up. Frog gone. He go away. Boy look in shoes. Boy look everywhere. Dog look in jar. Dog's head get stuck. 
+
+Boy and dog open window. They yell for frog. 'Frog, where you?' Dog fall out window. Dog break jar. Boy sad jar break. 
+
+Boy and dog go forest. They look for frog. Dog see bumblebees. Boy look in hole. Dog play with bumblebees. 
+
+Boy say 'Frog, where you?' Prairie dog smack boy. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog. 
+
+Boy climb rock. Boy say 'Frog, where you?' Boy stuck on deer's head. Deer run. Dog come with deer. Deer stop at cliff. Boy and dog fall in water. Splash. 
+
+Boy hear something. Boy say 'Shh' to dog. Boy say 'Look on log.' Boy and dog see mommy frog. Boy and dog see daddy frog. They see little frog's family. They take frog home. Boy and dog happy."
+Zero-Shot (Rule-Based),23,0.7,"Little boy and dog had frog in jar. They was happy. Then they go sleep. Frog get out of jar when they sleep. He go for walk. Frog go away. Little boy and dog wake up. Frog not there.
+
+Little boy look in shoes. He look everywhere. Dog look in jar. His head get stuck. They yell for frog. 'Frog, where you?' Dog fall out window. Jar break. Dog lick boy. Boy no happy.
+
+They go forest. Look for frog. Dog see bees. Boy see hole. Dog play with bees. Boy look down. Prairie dog hit boy. Dog howl. Owl hit boy. Bees chase dog.
+
+Boy climb rock. Say 'Frog, where you?' He on deer's head. Deer run. Dog come. Deer stop. Boy and dog fall down. Go in water. Splash.
+
+Boy say 'Shh'. 'Look on log.' They see mommy frog. Daddy frog. Little frog. They take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),24,0.7,"Boy and dog put frog in jar. They are happy. They go sleep. Frog wake up, get out, go for walk. Frog run away. Boy and dog look for frog. Boy look in shoes. Dog look in jar, get stuck. Jar break, boy sad.
+
+Boy and dog go outside. They look for frog. Dog see bumblebees, want play. Boy look down, see hole. Dog play with bees, try catch. Boy say 'Frog, where you?' Prairie dog hit boy nose. Bumblebees chase dog. Dog howl, run.
+
+Boy climb rock, say 'Frog, where you?' Boy hold branch, but it deer. Deer run, boy get stuck. Deer stop, boy fall. Boy and dog fall in water. Splash. Boy hear something. Boy say 'Shh' to dog. 'Look on log.'
+
+Boy and dog see mommy frog, daddy frog, little frogs. They take little frog, say goodbye. Boy and dog go home. Everyone happy."
+Zero-Shot (Rule-Based),25,0.7,"The little boy and dog put frog in a jar. They are happy. Then they go to sleep. Frog get out when they sleep. Frog go for a walk.
+
+The little boy wake up. Frog gone. He go away. The little boy look in shoes. He look everywhere. Dog look in jar. His head stuck.
+
+They open window. They yell for frog. 'Frog where you?' Dog fall out window. Jar break on dog's head. Dog lick boy's face. Boy sad jar broken.
+
+They go to forest. They look for frog. Dog see bumblebees. Boy look in a hole. Dog play with bumblebees. Boy say 'Frog where you?' Prairie dog smack boy's nose. Bumblebees chase dog. Owl knock boy down. Dog howl at bumblebees.
+
+Boy climb on rock. He say 'Frog where you?' Boy hold branch. But branch deer's antler. Boy get stuck. Deer run. Dog come with deer. Deer stop at cliff. Boy and dog fall in water. Splash.
+
+Boy hear something. He say 'Shh' to dog. 'Look on other side of log.' They see mommy frog. See daddy frog. See frog family. They take frog. Say goodbye. Go home. Happy end."
+Zero-Shot (Rule-Based),26,0.7,"Little boy and dog put frog in jar. They happy. They go sleep. Frog wake up. Frog go for walk. Frog gone. Boy and dog look everywhere. Boy look in shoes. Dog look in jar. Dog get stuck.
+
+They open window. Yell for frog. 'Frog where are you?' Dog fall out window. Jar break. Boy no happy. Jar break.
+
+Boy and dog go forest. Look for frog. Dog see bumblebees. Boy see hole. Dog play with bumblebees. Boy say 'Frog where are you?' Prairie dog smack boy. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb rock. Say 'Frog where are you?' Boy on deer. Deer run. Boy and dog come with deer. Deer stop. Boy and dog fall in water. Splash.
+
+Boy hear something. Say 'Shh' to dog. Look on log. Boy and dog see mommy frog. Daddy frog. Little frog. They take little frog. Say goodbye. Go home. Happy."
+Zero-Shot (Rule-Based),27,0.7,"The little boy and dog put frog in jar. They happy. They go to bed. Frog get out of jar when they sleep. Frog go for walk.
+
+Next morning, little boy and dog wake up, frog gone. Frog go away. They no believe. Little boy look in shoes. Dog look in jar. Dog head get stuck in jar.
+
+They open window. Yell for frog. 'Frog, where you?' Dog fall out window. Jar break. Dog lick boy. Boy no happy.
+
+They go to forest. Look for frog. Dog see bumblebees. Boy look down. Dog play with bumblebees. Boy say 'Frog, where you?' Prairie dog smack boy nose. Dog howl at bumblebees. Owl knock boy down.
+
+Boy climb on rock. Say 'Frog, where you?' He on deer's head. Deer run. Dog come. Deer stop. Boy and dog down cliff. In water.
+
+Boy say 'Shh' to dog. 'Look other side log.' They see mommy, daddy frog. Family frog. They take frog. Say goodbye. Go home. Happy."
+Zero-Shot (Rule-Based),28,0.7,"The little boy he had a dog. They put frog in a jar. They was happy. They go to bed.
+
+Next morning frog was gone. He went away. Boy look in shoes. Boy look everywhere. Dog look in jar.
+
+They open window. They yell for frog. 'Frog where you?' Dog fall out window. Jar break. Boy sad.
+
+They go forest. Boy look down hole. Dog play with bees. Boy say 'Frog where you?' Prairie dog hit boy nose.
+
+Bumblebees chase dog. Owl hit boy. Boy get up on rock. Say 'Frog where you?' Boy hold branch. But it deer's antler. Boy get stuck. Deer run. Dog come with.
+
+Deer stop at cliff. Boy and dog go down. Splash. Boy say 'Shh'. They look on log. They see mommy frog. They see daddy frog. They see baby frogs. They take frog. They say goodbye. They go home."
+Zero-Shot (Rule-Based),29,0.7,"Boy and dog put frog in jar. They happy. They go sleep.
+
+Next day, boy and dog wake up. Frog gone. He go away. They no believe. Boy look in shoes. He look everywhere. Dog look in jar. Dog head get stuck in jar.
+
+They open window. They yell for frog. 'Frog, where you?' Dog fall out window. Dog break jar off head. He lick boy. Boy no happy jar break.
+
+They go forest. They look for frog. Dog see bumblebees. Boy look down hole. Dog play with bumblebees. Dog try catch them.
+
+Boy say 'Frog, where you?' Prairie dog hit boy nose. Dog howl at bumblebees. Owl knock boy down. Bumblebees chase dog.
+
+Boy climb rock. He say 'Frog, where you?' Boy hold branch. But branch deer antler. Boy get stuck deer head. Deer run. Dog come. Deer stop at cliff. Boy and dog go down. They splash in water.
+
+Boy say 'Shh' to dog. 'Look other side log.' Boy and dog see mommy frog. See daddy frog. See little frog. They take frog. Say goodbye. Go home. Everyone happy."
+Zero-Shot (Rule-Based),30,0.7,"Boy and dog put frog in jar. They are happy. Then they go sleep. Frog get out while they sleep.
+
+Next day, frog gone. Boy look in shoes, everywhere. Dog look in jar, get stuck. They yell frog, 'Frog, where are you?' Dog fall out window.
+
+Dog get jar stuck, licked boy. Boy no like jar broke. Then they go forest, find frog. Dog like bumblebees, boy look in hole.
+
+Boy say 'Frog, where are you?' Prairie dog hit boy nose. Bumblebees chase dog. Dog howl. Owl hit boy, boy fall down.
+
+Boy climb rock, say 'Frog, where are you?' But it deer's head. Boy get stuck. Deer run, boy dog come. Deer stop at cliff, boy dog fall in water.
+
+Boy say 'Shh' to dog. They look on log, see mommy frog, daddy frog, little frog. They take little frog, say goodbye. Boy dog go home."

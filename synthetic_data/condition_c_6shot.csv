@@ -1,0 +1,351 @@
+condition,sample_id,temperature,output_story
+Few-Shot (6 Examples),1,0.7,"He he's got a frog. He's got a jar. And he (i)s happy. Um they go to bed. Night night. And, and he's sleeping. Froggy is sleeping. And, he wakes up. Wake up wake up. Froggy is gone. Gone. He (i)s not there. They look. They look everywhere. The little boy look in his shoes. He look. He look. And the dog look in the jar. Jar. But his head get stuck. Stuck. Ooh.
+
+So they decide. Decided. Open up the window. They yell. Yell yell. 'Froggy where are you?' Where are you? The dog is falling. Falling. He fall out the window. Break the jar. Jar. And lick the boy. Lick lick. The boy not happy. Not happy.
+
+They go. Go. Forest. They look. Look. For froggy. Dog see. See bees. Bees. The boy see. See hole. The dog play with bees. Bees. Smack the boy. Smack. He's sad. He say. Say 'Froggy where are you?' Where are you? Prairie dog. Dog. Hit the boy. Hit. He's howling. Howling. Bumblebees. Bees. Chase the dog. Dog. Run. Run.
+
+Boy go up. Up. Rock. Say 'Froggy where are you?' Where are you? Branch. Deer. Deer. He's stuck. Stuck. Deer run. Run. Dog come. Come. He's worried. Worried. Deer stop. Stop. Cliff. Down. Down. In the water. Splash. Splash.
+
+Boy say 'Shh'. Shh. Dog say 'Shh'. Shh. Look. Look. Log. Mommy frog. Daddy frog. Family. Froggy. They take him. Take. Bye bye. Bye. Home. Happy. Happy. The end."
+Few-Shot (6 Examples),2,0.7,"He's got a frog. He's got a frog. And he's happy. He's happy. So he's go to bed. They go to bed. Next day, wake up, frog go away. He's gone. Where is he? He's gone. Boy look in shoe. Boy look everywhere. Dog look in jar. His head go stuck. Stuck.
+
+He's yell. He's yell for frog. Frog, where you? Little dog fall down. Fall. Break jar. Boy not happy. Jar break. They go out. Go out. In the forest. Look for frog. Dog see bees. Bees, buzzing. Boy look down. Hole. Dog play with bees. Try to catch.
+
+Boy say 'Frog where you?' Prairie dog smack him. Smack. Dog howl. Howl. Bees chase dog. Chasing. Boy climb up rock. Hold on. Branch. No, antler. Deer. Deer run. Boy go down. Down. In water. Splash. Splash.
+
+Boy say 'Shh'. Shh. Let's look. Look. On the log. What is it? Mommy frog. Daddy frog. Little frog. Family. They go home. Happy. Everyone happy. The end."
+Few-Shot (6 Examples),3,0.7,"He's a little boy. And he's a dog. They got a frog. Um they put it in a jar. They're very happy. So they go to bed. That night, uh frog wake up. He go for a walk.
+
+And when they wake up, frog is gone. He went away. They (i)s can't believe. He look in his shoes. He look everywhere. Dog look back in the jar. He (i)s stuck. His head got stuck.
+
+They decide to open up the window. They yell for the frog. 'Frog, where you?' And the dog, he's... falling. He fell out the window. The dog, he's broke the jar off his head. He licked the boy. The boy (i)s not happy.
+
+So they go to the forest. They look for the frog. The dog, he's... (i)s playing with bees. He's trying to catch them. The boy, he's looking down in a hole.
+
+And he say 'Frog, where you?' And... uh... prairie dog. He smacked him in the nose. The dog, he's howling. He's howling at the bees. And an owl, he jumped out. He knocked the boy down. The bees, they're chasing the dog.
+
+The boy, he climbed up on a rock. He say 'Frog, where you?' He's holding onto a branch. But it's... uh... deer's antler. The boy, he got stuck. The deer, he's running. He's running to get him off his head. The dog, he's coming with him.
+
+The deer, he stopped at the edge. And down went the boy and the dog. They went in the water. Splash. The boy, he hear something. He say 'Shh' to the dog. 'Let's look on the other side of this log.'
+
+And what did they see? Um... mommy and daddy frog. And they got a family. They took their little friend frog. They say goodbye to the family. And they went home. Everyone's happy. The end."
+Few-Shot (6 Examples),4,0.7,"Um, little boy and dog. They (i)s have frog. Frog in jar. They (i)s very happy. They (i)s go bed. At night. Frog go out. Frog go for walk. Um, little boy wake up. Dog wake up. Frog (i)s not here. He (i)s go away. They (i)s look everywhere. Boy look in shoes. Dog look back in jar. His head get stuck in jar.
+
+So they (i)s open window. Yell for frog. 'Frog where you?' Dog (i)s falling. Dog break jar. Dog lick boy. Boy no happy. Jar (i)s break.
+
+So they (i)s go forest. Look for frog. Dog see bumblebees. Boy look in hole. Dog playing with bumblebees. Boy say 'Frog where you?' Prairie dog smack boy nose. Dog howling at bumblebees. Owl jump out. Knock boy down. Bumblebees chase dog.
+
+Boy climb on rock. Say 'Frog where you?' Hold branch. But it (i)s deer antler. Boy get stuck. Deer run. Dog come with him. Deer stop at cliff. Down go boy and dog. Right into water. Splash.
+
+Boy say 'Shh' to dog. 'Let's look on other side log.' See mommy and daddy frog. Frog family. They (i)s take little frog. Say goodbye. Go home. Everyone happy. The end."
+Few-Shot (6 Examples),5,0.7,"Um, little boy and the dog. And they put frog in the jar. They was very happy. So they decide to go to bed. That night, frog decide he's going to get out. Go for a little walk.
+
+When little boy and the dog wake up. Frog is gone. He went away. They c(o)uld n(o)t believe. Little boy look in his shoes. He look everywhere. Dog look back in the jar. His head got stuck.
+
+So they decide to open up the window. Yell for the frog. Frog, where are you? Little dog seems to be losing his balance. He fell out the window. Dog break the jar off his head. Lick the boy. Boy didn't seem very happy.
+
+So they decide to go out into the forest. Look for the frog. Dog was interested in some bumblebees. Little boy look down in a hole. Little dog was playing with the bumblebees. Trying to catch them.
+
+Boy leaned in and said 'Frog where are you?' Prairie dog came out. Smack him in the nose. Dog was howling at the bumblebees. Hanging from their beehive. Owl jumped out of the tree. Knocked the little boy down. Bumblebees went on a chase after the dog.
+
+Boy climbed up on a big rock. Said 'Frog, where are you?' He was holding onto a branch. But it was actually the antler of a big deer! Boy got stuck on the deer's head. Deer decided to run to get him off his head. Dog was coming with him because he was worried.
+
+Deer stopped at the edge of a cliff. Down went the little boy and the dog. Right into the water. Splash. Boy heard something. He said 'Shh' to the dog. 'Let's look on the other side of this log.' And what did they see? Mommy and daddy frog. And a whole family of frogs.
+
+They took their little friend frog. Said goodbye to the family. And went home. Everyone was happy. The end."
+Few-Shot (6 Examples),6,0.7,"He he he, put frog in jar. He he he. And they are happy. They go to bed. Night, night. Frog go for walk. He he he. Frog go away. He he he. Where is frog? 
+
+He look in shoes. He look everywhere. He look in jar. Jar, jar. Head get stuck. Uh uh uh. They yell for frog. Frog where are you? He he he. Little dog, he fall out. He break jar. He lick boy. Boy no happy. 
+
+He go in forest. He look for frog. Dog see bees. He play with bees. He try to catch. Boy look in hole. Prairie dog, he smacks boy. Dog howl. Bumblebees, they chase dog. 
+
+Boy on rock. He say frog where are you? He hold branch. Antler. Deer. Deer run. Boy stuck. Deer stop. Cliff. Down go boy. Down go dog. Splash. Water. 
+
+He say shh. He say look. Other side log. He see frog family. Mommy, daddy, frog. They take frog. Say goodbye. Go home. Happy. Happy."
+Few-Shot (6 Examples),7,0.7,"He's got a frog. Froggy in the jar. They happy. Go to bed. Night time. Froggy want to go. Go for a little walk. 
+
+Next day. Froggy gone. Oh no. Look in shoes. Look everywhere. Jar. Doggy look in jar. But his head get stuck. Stuck in jar. 
+
+Open window. Yell. 'Froggy where you?' Froggy not here. Doggy fall out. Jar break. Boy not happy. 
+
+Go to forest. Look for froggy. Doggy like bees. Boy look in hole. Doggy play with bees. 
+
+'Froggy where you?' Prairie dog. Smack boy in nose. Doggy howl. Owls. Boy down. Bumblebees chase doggy. 
+
+Boy on rock. Holding. Branch. Deer! Boy stuck. Deer run. Doggy come. Cliff. Down. Water. Splash. 
+
+Shh. Look. Log. Mommy frog. Daddy frog. Family. Froggy home. Everyone happy."
+Few-Shot (6 Examples),8,0.7,"He's got a frog. And he's a dog. They put the frog in a, in a, jar. They was happy. They go to bed. That n... that n... that n... night, the frog go out. He go for a little walk. He go away.
+
+Next m... morning, the frog is gone. He's not here. They look. They look everywhere. The boy look in his shoes. The dog look in the jar. But his head is stuck. Oh no. They wanna open the window. They wanna yell. 'Frog, where are you?'
+
+The dog is falling. He fell out the window. He broke the jar. He licked the boy. The boy no like it. He's mad. They go out. They go to the forest. They look for the frog.
+
+The dog is playing. He's playing with the bees. The bees are buzzing. The boy is looking. He's looking down in a hole. A prairie dog came. It smacked him in the nose. Ow.
+
+The dog is howling. He's howling at the bees. An owl jumped out. It knocked the boy down. The bees are chasing. The boy is climbing. He's climbing on a rock. He's saying 'Frog, where are you?' He's holding onto a branch. It's a deer. Oh deer. He's stuck. The deer is running. He's running down. The boy and the dog are going. They're going splash. In the water.
+
+The boy is saying 'Shh'. 'Let's look.' He's looking. He's looking on the other side of the log. Oh! A mommy frog. A daddy frog. They got a family. They got a little frog. They said goodbye. They went home. Everyone is happy. The end."
+Few-Shot (6 Examples),9,0.7,"He's got a frog. And the boy and the dog is happy. They go to bed. That night, the frog. He wanna go for a walk. So the boy and the dog wake up. Frog is gone. He went away. They, they can't believe it. Um, he look in his shoes. He look everywhere. And the dog, he look back in the jar. But his head. Uh, got stuck in the jar.
+
+So they open the window. And they yelling. Frog, where are you? And the dog. He falling. He fell out the window. And the jar, it broke. Off his head. And he lick the boy. The boy not happy. The jar is broke.
+
+So they go out in the forest. Look for the frog. The dog, he see the bumblebees. And the boy, he look down in a hole. The dog, he play with the bumblebees. And he try to catch them.
+
+And the boy say. Frog, where are you? And the prairie dog. He smack him in the nose. And the dog, he howling. At the bumblebees. Hanging from the beehive. And the owl, he jump out. And he knock the boy down.
+
+The bumblebees, they chase the dog. The boy, he climb up on a big rock. And he say. Frog, where are you? But it's the deer's antler. And the boy, he got stuck. The deer, he run. To get him off his head. The dog, he come with him. Because he worried.
+
+The deer, he stop at the cliff. And down goes the boy and the dog. Right into the water. Splash. The boy say shh. To the dog. Let's look on the other side of this log. And what they see? The mommy and daddy frog. And the whole family. They take their little friend frog. Say goodbye. And go home. Everyone happy. The end."
+Few-Shot (6 Examples),10,0.7,"He's got a frog. He's got a frog. Um, in a jar. In a jar. They're very happy. They're very happy. So they go to bed. They go to bed. 
+
+Next, the frog, he (i)s going out. He (i)s going out. He (i)s going for a little walk. 
+
+And they wake up. They wake up. The frog is gone. The frog is gone. They're like, where (i)s he? They're like, where (i)s he? 
+
+The boy look in his shoes. He look in his shoes. The dog look in the jar. The dog look in the jar. But his head got stuck. His head got stuck. 
+
+So they say, 'Frog, where are you?' 'Frog, where are you?' The dog fell out the window. The dog fell out the window. He broke the jar off his head. He licked the boy. He licked the boy.
+
+So they go in the forest. They go in the forest. Look for the frog. Look for the frog. The dog see the bumblebees. The dog see the bumblebees. The boy look in a hole. The boy look in a hole.
+
+He say, 'Frog, where are you?' 'Frog, where are you?' But it's a prairie dog. It smacked him in the nose. The dog is howling. The dog is howling. The bumblebees chasing him. The bumblebees chasing him.
+
+The boy climb on a rock. The boy climb on a rock. He say, 'Frog, where are you?' But it's a deer. It's a deer. He got stuck. He got stuck. The deer run. The deer run. They go down. They go down. Right into the water. Splash. Splash.
+
+He hear something. He hear something. He say, 'Shh'. He say, 'Shh'. Let's look. Let's look. On the other side of the log. On the other side of the log. A mommy frog. A daddy frog. And the frog's family. They take the frog. They take the frog. Say goodbye. Say goodbye. And they go home. Everyone is happy. The end."
+Few-Shot (6 Examples),11,0.7,"He and his dog, um, they put frog in jar. They (i)s happy. They go to bed. That nigh, frog, he is... going out. Go for a walk. 
+
+Next mornin, frog is... gone. He (i)s, he (i)s... away. They (i)s, they can't believe. Little boy, look in shoe. Dog look in jar. His head get stuck. 
+
+They, they open window. Yell for frog. Frog, where you? Dog fall out. Jar break. Boy not happy.
+
+They go in forest. Look for frog. Dog, he like bumblebees. Little boy, he look down in hole. Dog, he play with bees. 
+
+Boy say... Frog, where you? Prairie dog, he (i)s... smack him in nose. Dog, he howl at bees. Owl, he knock boy down. Bees, they chase dog. 
+
+Boy, he climb on rock. Say... Frog, where you? He (i)s, he hold on branch. But it (i)s, it (i)s deer's antler. Boy, he get stuck. Deer, he run. Dog come with him. 
+
+Deer, he stop at cliff. Boy and dog, they fall. In water. Splash. 
+
+Boy, he say... Shh. Look on other side. What they see? Mommy frog, daddy frog. Family of frogs. They take frog, say goodbye. Go home. Happy. The end."
+Few-Shot (6 Examples),12,0.7,"He and the dog put frog in a... jar. He is happy. They go to bed. That night, frog go for a... walk. They wake up. Frog is gone. He went away. They is... can't believe. He look in his shoes. He look everywhere. Dog look back in the jar. His head got stuck.
+
+They open up the window. They yell for the frog. 'Frog, where are you?' Dog is falling out the window. He broke the jar off his head. He licked the boy. The boy is not happy.
+
+They go to the forest. They look for the frog. Dog is playing with... bees. The boy is looking in a hole. The dog is catching the bees. He said 'Frog, where are you?' A dog... smacked him in the nose. Dog is howling. Bees are chasing the dog.
+
+The boy is climbing on a rock. He said 'Frog, where are you?' He is holding a... branch. But it is a deer's... antler. The boy got stuck. Deer is running. Dog is coming. Deer is stopping. Down went the boy and the dog. Right into the... water. Splash.
+
+He said 'Shh'. He said 'Let's look'. They saw... mommy and daddy frog. They saw little frog. They took frog. They said goodbye. They went home. Everyone is happy. The end."
+Few-Shot (6 Examples),13,0.7,"He's a boy. He has a dog. And they have a frog. Frog is in a jar. He's happy. They go to sleep. Frog go... go for a walk. They wake up. Frog is gone. He went away. They can't believe. The boy look in his shoes. He look everywhere. The dog look... look in the jar. His head got stuck in the jar.
+
+They decide to open the window. They yell for the frog. 'Frog, where are you?' The dog... he's falling out the window. The dog broke the jar off his head. He licked the boy. The boy... he's not happy. The jar is broken.
+
+They go to the forest. They look for the frog. The dog... he's playing with the bumblebees. The little boy... he's looking down in a hole. The little dog is playing. He's trying to catch the bumblebees. The boy... he's saying 'Frog, where are you?' A prairie dog... he smacked him in the nose. The dog is howling. He's chasing the bumblebees.
+
+The boy... he's climbing on a rock. He's saying 'Frog, where are you?' He's holding a branch. But it's a deer's antler. The boy... he's stuck. The deer... he's running. He's trying to get the boy off his head. The dog is coming. He's worried. The deer... he's stopping at the edge of a cliff. Down goes the boy and the dog. They're in the water. Splash.
+
+The boy... he's saying 'Shh'. 'Let's look on the other side of the log.' What did they see? A mommy frog. A daddy frog. A whole family of frogs. They took their little friend frog. They said goodbye. They went home. Everyone is happy. The end."
+Few-Shot (6 Examples),14,0.7,"He's put the frog in the jar. He's happy. He's going to bed. That night, frog he's get out. He's go for a walk. 
+
+Woke up. Frog not there. He's gone. They can't believe. He's look in his shoes. He's look everywhere. Dog look back in the jar. But his head get stuck.
+
+They decide open window. Yell for frog. 'Frog, where are you?' Dog is falling. Dog is out the window. Jar break off his head. Dog lick the boy. Boy not happy. Jar is broken.
+
+They go in the forest. Look for frog. Dog see bumblebees. Dog want bumblebees. Boy look in a hole. Prairie dog smack him. Dog howling. Bumblebees chase dog.
+
+Boy on a big rock. Say 'Frog, where are you?' But it's not a branch. It's a deer's head. Boy get stuck. Deer run. Dog come with. Deer stop at the cliff. Boy and dog down in the water. Splash.
+
+Boy say 'Shh' to dog. 'Let's look on the other side.' What they see? Mommy frog. Daddy frog. Little frog. They take little frog. Say goodbye. Go home. Everyone happy. The end."
+Few-Shot (6 Examples),15,0.7,"Hehe... umm the little boy and the dog. They put the frog in a jar. They were so happy. They go to bed. That night the frog. He's like uh, sneaky. He go out for a little walk. He's gone. The next morning. He's not there. They look everywhere. The little boy look in his shoes. He look in the jar. The dog's head got stuck in the jar. 
+
+Hehe... they yell for the frog. 'Frog where are you?' The dog he's like uh, falling. He fell out the window. He broke the jar. He licked the boy. The boy not happy. He's like, the jar is broke. 
+
+Hehe... they go to the forest. They look for the frog. The dog he's like, playing with the bees. He's trying to catch them. The boy he's like, looking in a hole. He's like, 'Frog where are you?' And then he got hit in the nose. By a prairie dog. Hehe... 
+
+Hehe... the dog he's like, chasing the bees. He's howling. The owl it came out of the tree. It knocked the boy down. The bees they're like, chasing the dog. Hehe... 
+
+Hehe... the boy he's like, on a big rock. He's saying 'Frog where are you?' And he's like, holding a branch. But it's a deer's antler. He got stuck on the deer's head. The deer it's like, running. The dog he's like, following. They went down a cliff. They fell into the water. Splash. 
+
+Hehe... the boy he's like, 'Shh' to the dog. They look on the other side of the log. And they see... frogs! A mommy and daddy frog. And they have little frog friends. They said goodbye. And they went home. Everyone was happy. The end."
+Few-Shot (6 Examples),16,0.7,"He's got a froggy. Froggy in a jar. They (i)s happy. He (i)s go to bed. That nigh t they sleep. The froggy... he get out. He go for a little w.. walk.
+
+He's gone. He (i)s not there. They (i)s wake up. They look. They can't be... lieve it. He (i)s not there. He's in the... shoes. He's in the... jar. Doggy look in the jar. He (i)s stuck. He (i)s stuck in the jar. 
+
+He (i)s yell for the froggy. 'Froggy where you?' Froggy not there. Doggy fall out the window. Jar... jar... stuck on his head. He (i)s lick the boy. Boy not... happy. He (i)s break the jar. 
+
+He's go out in the... forest. They look for the froggy. Doggy see bees. Bees are... coming. Boy look in a... hole. Doggy play with bees. Doggy try to catch bees.
+
+Boy say 'Froggy where you?' Prairie dog... smack him. Doggy howl at bees. Owl... jump out. Boy... down. Bees... chase doggy. 
+
+Boy climb up on a rock. Say 'Froggy where you?' Branch... antler. Deer... run. Boy get stuck. Deer... run. Boy and doggy... down. Splash. 
+
+He's hear something. Say 'Shh'. Look on the other side of the log. What (i)s there? Mommy froggy. Daddy froggy. Froggy family. They take the froggy. Say goodbye. Go home. Happy."
+Few-Shot (6 Examples),17,0.7,"Hehe. Um, little boy and dog, put frog in... in... uh jar. They is happy. They go to bed. And... at night, frog say, ""I go for walk."" He go for walk. He go away. Next morning, little boy and dog, ""Frog, frog, where you?"" No frog. Little boy look in shoes, look everywhere. Dog look back in jar, but his head stuck. Uh, in jar.
+
+They say, ""Frog, frog, where you?"" Open window, yelling, ""Frog, where you?"" Little dog, he fall out. He break jar off head. He lick boy. Boy, not happy. Jar broken.
+
+They go to forest, look for frog. Dog see bumblebees, he like. Little boy see hole. He look in hole. Dog, he play with bumblebees. ""Frog, where you?"" Prairie dog, he smack boy in nose. Dog howling, bumblebees on beehive. Owl, he jump out, knock boy down. Bumblebees, they chase dog.
+
+Boy, he climb on rock, ""Frog, where you?"" He hold branch, but it deer's head. Deer, he run. Boy stuck on deer's head. Deer, he come with dog. Dog, he worried. Deer, he stop at cliff. Boy and dog, they go down. Down, down. Splash!
+
+Boy say, ""Shh."" Dog, he listen. ""Look on other side of log."" They see... mommy frog, daddy frog, little frog. They take frog, say goodbye. They go home. Everyone happy. The end."
+Few-Shot (6 Examples),18,0.7,"Um, the little boy and dog, they have a frog. Frog in a jar. They very happy. Then they go to bed. At night, the frog go out. He go for a little walk. 
+
+In the morning, frog go. They can't believe. The little boy look in his shoes. He look everywhere. The dog look back in the jar. His head got stuck. Uh oh. 
+
+They open the window. They yell for the frog. 'Frog, where are you?' The little dog fall out the window. He break the jar. He lick the boy. The boy not happy. 
+
+They go to the forest. Look for the frog. The dog see bumblebees. He want to catch. The little boy look down in a hole. He say 'Frog, where are you?' Uh, a prairie dog come out. He smack the boy in the nose. 
+
+The dog howl at the bumblebees. They hang from the beehive. An owl come out. He knock the little boy down. The bumblebees chase the dog. 
+
+The boy climb up on a big rock. He say 'Frog, where are you?' He holding onto a branch. But it's actually a deer. A big deer. The boy get stuck. The deer go run. The dog come with him. He worried. 
+
+The deer stop at the edge of a cliff. Down go the little boy and dog. Right into the water. Splash. 
+
+The boy say 'Shh' to the dog. 'Let's look on the other side of this log.' And what they see? A mommy frog and daddy frog. And a whole family of frogs. They take their little friend frog. Say goodbye to the family. Go home. Everyone happy. The end."
+Few-Shot (6 Examples),19,0.7,"He's got a frog. Frog, he's in the jar. They are very happy. They go to bed. At night, the frog go out. He go for a walk. 
+
+Next day, frog is gone. They can't believe. Little boy look in his shoes. He look everywhere. Dog look in the jar. He stuck. Stuck in the jar. 
+
+So they say, 'Frog, where are you?' They open the window. They yell. Frog, where are you? Dog fall out the window. Jar, oh jar. He lick the boy. The boy not happy. Jar is broken.
+
+They go to the forest. They look for frog. Dog see the bumblebees. He want to catch. Little boy look down. He see a hole. Dog play with bumblebees. 
+
+Boy say 'Frog, where are you?' Prairie dog hit him. Dog howl. Bumblebees go chase. 
+
+Boy go on a rock. He say 'Frog, where are you?' He on the deer's head. Deer run. Down they go. In the water. Splash. 
+
+Boy say 'Shh'. 'Let's look.' They see mommy frog. Daddy frog. Baby frogs. They take the little frog. Bye-bye. They go home. Happy."
+Few-Shot (6 Examples),20,0.7,"Uh... he, he, he, they have frog. Frog in... in the jar. They are, uh, happy. Happy. So they go to bed. Next day, they sleep. Frog, he... he go out. He go for a... a little walk. 
+
+Next morning, they wake up. Frog... frog gone. He went away. They, uh, they can't believe. Little boy, he look in shoes. He look everywhere. Dog, he look back... back in the jar. But his head, it got stuck. Stuck.
+
+So they... they decide to open up window. Yell for frog. Frog, where you? Frog, where you? Dog, he... he fall out. Break jar. Break jar on head. Lick the boy. Boy, he... he no happy. No happy. 
+
+So they go... go to forest. Look for frog. Dog, he... he see bumblebees. Bumblebees, they... they coming from beehive. Little boy, he... he look down in hole. Dog, he... he playing with bumblebees. Trying to catch. 
+
+Boy, he say... say 'Frog, where you?' Prairie dog, he... he come out. Smack him in nose. Dog, he... he howling. Howling at bumblebees. Bumblebees, they... they chasing dog.
+
+Boy, he climb on big rock. Say... say 'Frog, where you?' But it's... it's deer. Deer's antler. Boy, he... he stuck. Stuck on deer's head. Deer, he... he run. Dog, he... he coming with him. 
+
+Deer, he stop at cliff. Down goes boy and dog. Right into water. Splash. Splash. 
+
+Boy, he hear... hear something. Say... say 'Shh' to dog. Let's look on other side of log. What do they see? Mommy frog, daddy frog. Whole family of frogs. They take... take little frog. Say... say goodbye. Go home. Everyone happy. The end."
+Few-Shot (6 Examples),21,0.7,"He's put the frog in a jar. He's happy. They go to sleep. Um, frog is going for a walk. They wake up, frog is gone. He went away. They look everywhere. He look in shoes. He look in jar. Dog get his head stuck in the jar.
+
+They open window, yell for frog. 'Frog where are you?' Dog fall out window. Dog break jar. Boy not happy. They go in the forest. They look for frog. Dog see bees. Dog want to catch bees. Boy see hole. Boy lean in. Say 'Frog where are you?'
+
+Prairie dog smack boy in the nose. Dog howling at bees. Owl jump out, knock boy down. Bees chase dog. Boy climb on rock. Say 'Frog where are you?' He on deer's head. Deer run. Boy and dog go down. Down, down, down. In the water.
+
+Boy say 'Shh'. 'Let's look.' They see mommy frog, daddy frog. They see little frogs. They take frog, say goodbye. Go home. Happy."
+Few-Shot (6 Examples),22,0.7,"He's put the frog in the... jar. They are happy. So they go... to bed. Tonight they sleep. And the frog, he's get out. He's go for a little walk. 
+
+Next morning they wake up. Frog is gone. He's go away. They can't... believe it. He look in his shoes. He look everywhere. Dog look in the jar. His head, uh, stuck in the jar. 
+
+They open the window. They yell. 'Frog where are you?' Dog, he's losing his... balance. He fell out the window. Jar, it's broke off his head. He lick the boy. Boy, he's not happy. Jar is broke.
+
+They go in the forest. They look for the frog. Dog, he's interested. He see the bumblebees. They come from a beehive. Boy look down in a hole. Dog, he's playing with the bumblebees. He want to catch them. 
+
+Boy, he say 'Frog where are you?' Prairie dog come out. He smack the boy in the nose. Dog, he's howling. He see the bumblebees. Bumblebees, they're hanging from the beehive. Owl, he jump out of the tree. He knock the boy down. Bumblebees, they're chasing the dog. 
+
+Boy, he climb on a rock. He say 'Frog where are you?' He's holding a branch. It's the deer's antler. Boy, he get stuck on the deer's head. Deer, he's running. He's trying to get the boy off. Dog, he's coming with. He's worried. Deer, he stop at the cliff. Boy and dog, they go down. Down into the water. Splash. 
+
+Boy, he hear something. He say 'Shh' to the dog. 'Let's look on the other side of the log.' What they see? Mommy frog, daddy frog. They have a little frog. They say goodbye. They go home. Everyone is happy. The end."
+Few-Shot (6 Examples),23,0.7,"Um, the little boy and the dog... um, put the frog in a jar. They were very, very happy. Yeah. Then they said... they go to bed. That night, the frog, he wanted to go out. He went for a little walk. 
+
+In the morning, the frog... he was gone. He went away. They couldn't... they couldn't believe it. The boy looked in his shoes. He looked everywhere. The dog, he looked in the jar. But his head got stuck. Uh. 
+
+So they said, 'Frog, where are you?' They yell. They open the window. The dog, he fell out the window. He broke the jar. He licked the boy. The boy wasn't happy. 
+
+They go to the forest. They look for the frog. The dog was... was playing with the bumblebees. The boy looked in a hole. The little dog was trying to catch the bumblebees. 
+
+He said, 'Frog, where are you?' But... but a prairie dog smacked him in the nose. The dog was howling. The bumblebees were... were hanging from the beehive. An owl came out and knocked the boy down. The bumblebees chased the dog.
+
+The boy went up on a big rock. He said, 'Frog, where are you?' But... but it was the deer's antler. He got stuck. The deer said, 'Let me go.' The dog was coming. He was worried. The deer ran. He stopped at the cliff. Down went the boy and the dog. In the water. Splash.
+
+The boy said... 'Shh.' 'Let's look on the other side.' And they saw... the mommy frog. The daddy frog. And the little frogs. They took their friend frog. They said goodbye. They went home. Everyone was happy. The end."
+Few-Shot (6 Examples),24,0.7,"He has a frog. Frog in a jar. They (i)s happy. They go to bed. That night, frog go out. Go for a little walk. Wake up, frog gone. He go away. They c(a)nt believe it. He looked in his shoes. He looked everywhere. The dog go look back in the jar. But he (i)s head get stuck. Stuck.
+
+They open up the window. They yell for the frog. 'Frog, where you?' The dog falling. Falling. He broke the jar off his head. Lick the boy. The boy not happy. The jar is broken.
+
+They go out in the for-est. Look for the frog. The dog see bumblebees. He likes bumblebees. He play with the bumblebees. The boy look down in a hole. 'Frog, where you?' Prairie dog come out. Smack him in the nose. The dog howling. Bumblebees chasing the dog.
+
+He climb up on a rock. 'Frog, where you?' He holding onto a branch. It's actually a deer. Deer run. Run. The boy and the dog down. Down. They in the water. Splash.
+
+He hear something. He say 'Shh' to the dog. 'Let's look on the other side.' And what they see? Mommy frog. Daddy frog. Little frog. They take their little friend. Say goodbye. Go home. Everyone happy. The end."
+Few-Shot (6 Examples),25,0.7,"He and the dog put the frog in a... a jar. They is so happy. So they go... to bed. That night, the frog go... out. He go for a walk. They wake up the next morning. Frog is... gone. He go away. They is... can't believe it. He look in his shoes. He look everywhere. The dog look back in the jar. He head get stuck.
+
+They open the window. They yell for the frog. 'Frog, where are you?' The dog... is falling. The dog break the jar. He lick the boy. The boy not happy. The jar is... broken.
+
+They go to the forest. They look for the frog. The dog see... the bees. The bees are coming from a... a beehive. The boy look down. He see a hole. The dog is... playing with the bees. He try to catch them.
+
+The boy say 'Frog, where are you?' A... a prairie dog come out. He smack the boy in the nose. The dog is... howling. The bees is... chasing him.
+
+The boy go up on a big rock. He say 'Frog, where are you?' He is holding... a branch. But it is actually a... a deer's antler. The boy get stuck. The deer run. The dog come with him. The deer stop at the edge. Down go the boy and the dog. Right into the... water. Splash.
+
+The boy say 'Shh' to the dog. 'Let's look on the other side.' And what did they see? A mommy frog. A daddy frog. And a whole family of... frogs. They take their little friend. Say goodbye. Go home. Everyone is... happy. The end."
+Few-Shot (6 Examples),26,0.7,"He's got a frog. Froggy, yeah. He's happy. They go to sleep. Froggy, he's a sneaky frog. He go out and go for a walk. Um, little boy wake up. Froggy, he's gone. He go away. They don't know. Boy look in his shoe. He look everywhere. Dog, he look back in the jar. Jar, his head stuck. Ouch.
+
+Then they open the window. 'Froggy, where you?' Doggy, he's losing balance. He fell out the window. He break the jar. He lick the boy. Boy, he's not happy. Jar, it's broken.
+
+Then they go in the forest. Look for froggy. Doggy, he's playing with bees. Boy, he's looking in the hole. Froggy, where you? Prairie dog, he smacks him. Doggy, he's howling. Ow ow ow. Bee, they're chasing doggy.
+
+Boy, he's climbing on the rock. Froggy, where you? He's holding a branch. It's a deer! Deer, he's running. Doggy, he's coming with. Deer, he's running. Cliff, they go down. Splash! Water, they're in.
+
+Boy, he's saying 'Shh'. Doggy, he's quiet. Look on the other side of the log. Froggy, he's there! Mommy frog, daddy frog. Family of frogs. They take froggy. Bye-bye. They go home. Everyone's happy. The end."
+Few-Shot (6 Examples),27,0.7,"Uh, little boy and the dog. They (i)s put frog in... in the... jar. They are very happy. So they decided to go to... to bed. That night, when they (i)s sleep, frog... frog decide he (i)s going out. Go for a little walk.
+
+Next morning, they wake up. Frog is... is gone. He went away. They c... can't believe. Little boy look in... in his shoes. Look everywhere. Dog look back in the jar. His head got... got stuck in the jar.
+
+So they decide to... to open up the window. Yell for frog. 'Frog where are you?' Little dog... he (i)s losing his balance. He fell out the window. Dog break the jar... jar off his head. Licked the boy. Boy (i)s... is not happy.
+
+They decide to... to go out in the... in the forest. Look for frog. Dog see... see some bumblebees. Little boy look down in a hole. Little dog (i)s playing with bumblebees. Trying to catch them.
+
+Boy lean in and say 'Frog where are you?' Prairie dog come out. Smack him in the nose. Dog is howling. Bumblebees hanging from... from a beehive. Owl jump out of the tree. Knock the little boy down. Bumblebees go on a chase. After the dog.
+
+Boy climb up on a big rock. Say 'Frog where are you?' Holding onto a... a branch. But it (i)s actually the... the antler of a big deer! Boy get stuck on the deer's head. Deer decide to run. Get him off his head. Dog coming with him. Because he (i)s worried.
+
+Deer stop at the edge of a cliff. Down go the little boy and the dog. Right into the water. Splash. Boy hear something. Say 'Shh' to the dog. 'Let's look on the other side of this log.' What did they see? Mommy and daddy frog. And a whole family of frogs. They take their little friend frog. Say goodbye to the family. And go home. Everyone is happy. The end."
+Few-Shot (6 Examples),28,0.7,"He's put the frog in a jar. He's happy. They wanna go to bed. But the frog... he go for a little walk. He go. He go. Where is he?
+
+They wake up. Frog is gone. He go. They look. Boy look in his shoes. He look everywhere. Dog look in the jar. His head get stuck. He's stuck.
+
+They open the window. 'Frog, where you?' The dog... he fall out the window. He break the jar. The boy not happy. He's mad.
+
+They go in the forest. Look for the frog. Dog see the bees. He wanna catch them. The boy see a hole. He lean in. 'Frog, where you?'
+
+He get smacked in the nose. Prairie dog. The dog howling. Bees chasing him. He's running. The boy climb on a rock. 'Frog, where you?' He's holding a branch. It's a deer's antler. He get stuck.
+
+Deer run. Boy and dog coming. Deer stop at the cliff. Down they go. Splash. In the water.
+
+Boy say 'Shh'. 'Let's look.' On the other side of the log. They see... mommy and daddy frog. And little frogs. They take their friend. Say goodbye. Go home. Everyone happy. The end."
+Few-Shot (6 Examples),29,0.7,"He (i)s little boy and the dog. Put the frog in the... jar. They is happy. So they go... bed. That n(o)t, night. The frog get out. He go for a... little walk. 
+
+When they wake up the next m(o)rning. The frog is g(o)ne. He went away. They c(o)uld n(o)t believe. The little boy look in his shoes. He look e(v)erywhere. The dog look back in the jar. His head got st(u)ck. 
+
+So they deci(d)e to open up the w(i)n(d)ow. They yell for the frog. 'Frog, where are you?' The dog is falling. He f(a)ll out the w(i)n(d)ow. He broke the jar off his head. He lick the boy. The boy is n(o)t happy. The jar is b(r)oken.
+
+So they go out into the for(e)s(t). They look for the frog. The dog see the b(u)m(b)lebees. The little boy see a h(o)le. The dog is playing with the b(u)m(b)lebees. He try to catch them.
+
+The boy say 'Frog, where are you?' A prairie dog come out. He sma(k)e the boy in the n(o)se. The dog is howling. The b(u)m(b)lebees is chasing him. 
+
+The boy climb up on a big r(o)ck. He say 'Frog, where are you?' He is holding onto a branch. But it is the deer's antler. The boy is st(u)ck. The deer decide to run. The dog is coming. The deer stop at the e(d)ge. The boy and the dog fall. Right into the w(a)ter. Splash. 
+
+The boy hear something. He say 'Shh' to the dog. 'Let's look on the o(t)her side.' And what did they see? A mommy and daddy frog. They have a family. They take their little friend frog. They say goodbye. They go home. Everyone is h(a)p(p)y. The end."
+Few-Shot (6 Examples),30,0.7,"He's put the frog in the jar. He's happy. He's goin to bed. Then the frog get up. And he's goin for a walk. 
+
+He wake up, he no see frog. Frog go away. They can't believe it. He look in the shoes. He look everywhere. Dog look in the jar. But dog get stuck.
+
+They open the window. They yell for frog. 'Frog, where are you?' Dog get wobbly. He fell out. He break the jar. He lick the boy. Boy no happy.
+
+They go out. They look for frog. Dog see bees. He want bees. Boy see a hole. Dog play with bees.
+
+He say 'Frog where are you?' Prairie dog come out. He smack the boy. Dog howl at bees. Owl come out. He knock the boy down. Bees chase dog.
+
+He go on a big rock. He say 'Frog, where are you?' He's holdin a deer's antler. No, it's a deer. Deer run. Boy get stuck. Dog come with. Deer go down. Down they go. Splash.
+
+Boy say 'Shh'. Dog say 'Shh'. They look on the other side. They see a mommy frog. See a daddy frog. See a frog family. They take their frog. Say goodbye. Go home. Everyone happy."
