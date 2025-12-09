@@ -1,0 +1,275 @@
+condition,sample_id,temperature,output_story
+Few-Shot (4 Examples),1,0.7,"He and he were playing. He and he in the sand. They got shovels. They wanted to build. Build a big castle. They were having fun.
+
+The dog is... is pat pat pat. Pat the sand. Make the walls strong. The rabbit is... is dig dig dig. Dig with his bucket. Get more sand. They work very hard.
+
+Uh, uh, uh. Mistake. He (i)s lifting. He (i)s dumping. All the sand. On top. Smash. Castle smash. Flat.
+
+Dog is... is cry. Cry cry. Her castle. He (i)s upset. He (i)s feel bad. He (i)s didn't mean it. He (i)s want to fix.
+
+He (i)s pat pat pat. Fix the sand. Fix the castle. Dog is... is happy. They build new one. New castle."
+Few-Shot (4 Examples),2,0.7,"Um, the rabbit and the dog (i)s playing. Playing in the sand. They (i)s have shovels. Shovels. They want to (i)s build. Build a big sandcastle. Together. They (i)s having fun.
+
+And uh the dog (i)s pat pat pat. Pating the sand. Make the walls strong. Strong. The rabbit (i)s digging. Digging. With his bucket. Get more sand.
+
+They (i)s work very hard. Hard. Hard work. Uh, suddenly... rabbit (i)s lift. Lift his bucket. (i)s dump all the sand. All the sand. On top of the castle. Castle. Castle smash. Smash. Fall down flat.
+
+The dog (i)s very upset. Cry. Cry. Her hard work. Ruined. The rabbit (i)s feel bad. Feel bad. Didn't mean to break. Break. He (i)s want to (i)s make things right.
+
+So, rabbit (i)s pat pat pat. Pating the sand. Fix the castle. Fix. Dog be happy. Happy. They (i)s decide. Decide. Build a new one. New one. The end."
+Few-Shot (4 Examples),3,0.7,"Um, a rabb it and a dog... play in the s a n d b o x. They had shovels. They w a n t to build a big... sand c a s t l e. They (i)s h a v i n g a l o t... fun.
+
+D o g (i)s... p a t the s a n d. Make the w a l l s... strong. R a b b i t... dig... dig with... his bucket. Get more s a n d. They w o r k... v e r y... hard on it.
+
+Umm... r a b b i t... m a k e... m i s t a k e. He (i)s... lift his heavy... bucket. D u m p all the... s a n d... on top. On top... castle. Smash... smash. F a l l down flat.
+
+D o g... v e r y... up set. Cry... cry. Her h a r d w o r k... r u i n e d. R a b b i t... f e l t... b a d. He (i)s... d i dn't mean to... break it. He (i)s... w a n t to m a k e... t h i n g s... r i g h t.
+
+R a b b i t... p a t the s a n d... b a c k. T r y to f i x... the castle. So d o g w i l l be... h a p p y. They d e c i d e to... build a new one."
+Few-Shot (4 Examples),4,0.7,"Um, day... rabbit and dog. Playing. In the... sand box. They (i)s have shovels. Want to build big... sand castle. Together. They (i)s having fun.
+
+Dog is pat the sand. Make the wall strong. Rabbit is dig... dig with bucket. Get more sand. They (i)s work very hard.
+
+Uh, rabbit make mistake. He lift heavy bucket. Dump all the sand. On top of castle. Castle smash. Fall down flat.
+
+Dog is very upset. She (i)s crying. Her hard work... ruined. Rabbit feel bad. He (i)s didn't mean to break it. He want to make... right.
+
+Rabbit start pat the sand. Fix castle. Dog be happy. They (i)s decide to build... new one. The end."
+Few-Shot (4 Examples),5,0.7,"He's play in the sand. He's play in the sand. They got shovels. They want to build. They want to build a big one. They (i)s having fun.
+
+Dog is pat. Dog is pat pat. Make the walls. Walls strong. Rabbit is dig. Dig with bucket. Get more sand. They work. Work, work.
+
+Rabbit make mistake. He (i)s lift bucket. He (i)s dump sand. Sand on top. Castle smash. Castle fall down.
+
+Dog is cry. Dog is upset. Castle smash. Rabbit feel bad. He (i)s sorry. He (i)s try.
+
+Rabbit pat pat. Pat sand. Fix castle. Dog be happy. They build. Build new one."
+Few-Shot (4 Examples),6,0.7,"Day um, a rabbit and a dog. Dog and rabbit. Um, play in the sand. They have, shovel. They want build big sand. Castle. Castle. Um they have fun.
+
+Dog is pat. Pat the sand. Make wall strong. Rabbit is dig. Dig with bucket. Get more sand. They work hard.
+
+Uh, rabbit make mistake. Rabbit lift bucket. Boom! All the sand. On the castle. Castle smash. Fall down flat.
+
+Dog cry. Dog cry. Because... um because. Castle break. Rabbit feel bad. Rabbit no mean to break. Rabbit want fix.
+
+Rabbit pat sand. Pat sand. Fix castle. Dog happy. They build new one. New one. The end."
+Few-Shot (4 Examples),7,0.7,"One day, um, rabbit and dog, play in the sandbox. They have shovels. They want build big sandcastle. They (i)s having a lot of fun.
+
+Dog is pat pat pat sand. Make wall strong. Rabbit is dig dig dig with bucket. Get more sand. They (i)s work very hard.
+
+Uh uh uh, rabbit make mistake. Lift big bucket. All sand on top. Castle smash. Castle fall down flat.
+
+Dog is very sad. Dog cry. Her hard work is ruined. Rabbit feel bad. Rabbit no mean to break. He want make thing right.
+
+Rabbit start pat pat pat sand. Try fix castle. Dog be happy. They decide build new one."
+Few-Shot (4 Examples),8,0.7,"Um, rabbit and dog, play in the sand. They have... shovels. Want build big castle. They having fun.
+
+Um, dog... pat, pat. Make wall strong. Rabbit... dig, dig. Get more sand. They work... hard.
+
+Uh-oh, rabbit... mistake. Lift big bucket. Boom! Castle... smash. Fall down flat.
+
+Dog, she... cry. Upset. Castle... no good. Rabbit feel bad. No mean to break.
+
+Rabbit... pat, pat. Fix castle. Make dog happy. They... build new one."
+Few-Shot (4 Examples),9,0.7,"Um, a a rabbit and dog. Play in the sand box. They is have shovel. They want to build... build a big castle. Together. They is having fun.
+
+Dog is um, pat pat pat. Pat the sand. Make the wall strong. Rabbit is dig dig dig. Dig with his bucket. Get more sand. They work very hard.
+
+Uh, uh, uh. Then rabbit make a... a mistake. He is lift heavy bucket. Dump all sand on top. Castle smash. Castle fall down.
+
+Dog is very... upset. She is cry. Cry because her hard work is... is gone. Rabbit feel bad. He is didn't mean to break it. He want to make it... right.
+
+Rabbit is pat pat pat. Pat the sand. Fix the castle. Dog is happy. They is build new one. The end."
+Few-Shot (4 Examples),10,0.7,"A a a, was play in the sand box. He (i)s play with dog. Dog is have shovel. He (i)s want build a big castle. They (i)s having fun. Um fun.
+
+The dog is pat pat pat. Make the wall strong. Rabbit is dig dig dig. Get more sand. They (i)s work hard. They (i)s work hard.
+
+Uh, the rabbit make a... mistake. He (i)s lift he bucket. Dump all the sand. Sand on the castle. Smash. Flat. Uh.
+
+Dog is very up. She (i)s cry. Castle smash. Rabbit feel bad. He (i)s sorry. He (i)s want make it right.
+
+Rabbit is pat pat pat. Fix the castle. He (i)s want make dog happy. They (i)s decide build new one. The end."
+Few-Shot (4 Examples),11,0.7,"One day. Um, rabbit and dog. Play in sandbox. They got shovels. They wanna build big castle. Together. They (i)s having fun.
+
+The dog, she (i)s pat. Pat pat. Make walls strong. The rabbit, he (i)s digging. Digging, digging. Get more sand. They (i)s work hard.
+
+Uh, suddenly. Rabbit make... make mistake. He (i)s lift bucket. All sand on top. Castle smash. Flat.
+
+Dog, she (i)s upset. Cry. Cry cry. Her castle, ruined. Rabbit, he (i)s feel bad. He (i)s didn't mean it. He (i)s wanna fix.
+
+Rabbit, he (i)s pat. Pat pat. Fix castle. Dog happy. They (i)s build new one. New castle. The end."
+Few-Shot (4 Examples),12,0.7,"He and doggy, they (i)s play. They (i)s got shovel. And they (i)s wanna build a big castle. Big castle. They (i)s having fun.
+
+The doggy, she (i)s pat pat pat. Making wall strong. The rabbit, he (i)s dig dig dig. He (i)s get sand. They (i)s work very hard. Very hard.
+
+Uh, uh, uh. Rabbit (i)s do mistake. He (i)s pick up big bucket. And he (i)s, uh, dump sand. Smash smash. Castle (i)s fall down. Down.
+
+Doggy, she (i)s cry. Cry cry cry. Her castle (i)s broken. Rabbit, he (i)s feel bad. He (i)s sorry. He (i)s wanna fix.
+
+Rabbit (i)s pat pat pat. Fix castle. He (i)s wanna make doggy happy. Happy. They (i)s build new castle. New castle. The end."
+Few-Shot (4 Examples),13,0.7,"He's playin' in the sand. Rabbit and dog. They have shovels. They wanna build. Big castle. Together. They (i)s have fun.
+
+Dog is patin' sand. Sand, strong. Rabbit is diggin' sand. Get more sand. They (i)s work hard.
+
+Uh, rabbit, uh, mistake. Lift bucket. All sand. Castle smash. Flat.
+
+Dog is cryin'. Cry cry. Castle, uh, break. Rabbit, uh, feel bad.
+
+Rabbit is patin' sand. Fix castle. Dog is happy. New castle. They (i)s build."
+Few-Shot (4 Examples),14,0.7,"Um, day, rabbit and dog. Dog and rabbit. Is playing. Playing in... sandbox. They is have shovels. Shovels and... uh, want build. Build a big. Big castle. Together. Together they is having... fun. Fun.
+
+Dog is pat... pat the sand. Pating the sand. Make walls... strong. Strong. Rabbit is digging. Digging with... bucket. Get more sand. They is working. Working very hard.
+
+Um, rabbit make a... a mistake. Lift bucket. Dump sand. On top. On top castle. Castle smash. Flat. Flat.
+
+Dog is... is upset. Upset. Cry. Cry because... castle. Castle is ruined. Rabbit feel bad. Bad. Didn't mean... break it. Break it. Want make right.
+
+Rabbit is pat... pat the sand. Pating the sand. Fix castle. Fix castle so... dog happy. Happy. They is decide. Decide build new. New castle."
+Few-Shot (4 Examples),15,0.7,"Um, one day. Rabbit and dog, pway in the sand box. They have shovels. They want to build big sand castle. They is having fun.
+
+Dog is pating the sand. Dog is making the walls strong. Rabbit is digging. Rabbit is getting more sand. They is working very hard.
+
+Uh, then uh... rabbit make a mistake. He lift the bucket. He dum all the sand. On the castle. Smash. Flat.
+
+Dog is very up. She cry. Her castle is broke. Rabbit feel bad. He no mean to break it. He want to make it right.
+
+Rabbit start pating the sand. He fix the castle. Dog be happy again. They decide build new one. The end."
+Few-Shot (4 Examples),16,0.7,"They're, um, playing in the sand. He's a rabbit. He's a dog. They got, uh, shovels. Want to build. Big sand castle. Together. They (i)s having fun.
+
+The dog is patting the sand. Is making strong. Walls strong. He's (i)s patting. And the rabbit is digging. Is digging. With his bucket. Get more sand. They (i)s working hard.
+
+Uh-oh. Rabbit made a mistake. He (i)s lifting the bucket. Dumped all the sand. On the castle. Castle smash. Castle fall down. Flat.
+
+Dog is upset. Is crying. Her castle. Her work. Rabbit feel bad. He (i)s sorry. He didn't mean to break it.
+
+Rabbit is patting. Patting sand. Try to fix. Fix the castle. Dog happy again. They (i)s build new one. The end."
+Few-Shot (4 Examples),17,0.7,"Um, rabbit and dog. Is play. In sandbox. They (i)s have shovel. Want build big sandcastle. Together. They (i)s have fun.
+
+The dog. Dog is pat the sand. Make wall strong. The rabbit. Rabbit is dig. Dig with bucket. Get more sand. They (i)s work hard.
+
+Uh, then uh. Rabbit do mistake. Lift up bucket. Dump sand. Smash castle. Flat. Oops.
+
+Dog is up. She is cry. Because her... her work. Is broken. Rabbit feel bad. He no mean it. He want fix.
+
+Rabbit pat sand. Pat pat. Fix castle. Make dog happy. They (i)s decide. Build new one. New sandcastle."
+Few-Shot (4 Examples),18,0.7,"A a a... rabbit and dog. Playing in sandbox. They have... shovels. Want build big castle. Together. He he they fun.
+
+Dog is pat pat pat. Sand. Make wall strong. Rabbit is dig dig dig. Get more sand. They work hard.
+
+Uh uh uh... rabbit make mistake. He lift lift bucket. All sand on castle. Smash smash. Fall down.
+
+Dog is cry cry. Upset. Hard work... ruined. Rabbit feel bad. He no no mean to break. He wanna make right.
+
+Rabbit pat pat. Sand. Fix castle. Dog be happy. They build new one. Yay yay. The end."
+Few-Shot (4 Examples),19,0.7,"Uh, rabbit and dog. Um, play in sandbox. Have... shovels. They (i)s want build big sandcastle. They (i)s have fun.
+
+Dog is... patty sand. Make wall strong. Rabbit is... digging. Get more sand. They (i)s work hard.
+
+Uh, rabbit make... mistake. He lift big bucket. Um, all sand on castle. Smash, fall down.
+
+Dog is... upset. Cry. Her work... ruined. Rabbit is... bad. He didn't mean... break. He want... make right.
+
+Rabbit is... patty sand. Fix castle. Dog be happy. They... build new one. The end."
+Few-Shot (4 Examples),20,0.7,"He's p layin' in the sand. He's got a shovel. He's got a shovel. He's playin' with a friend. They wanna build a big sand castle. They're havin' lots of fun.
+
+He's pat pat pat the sand. He's makin' it strong. And he's dig dig dig. He's gettin' more sand. They're workin' very very hard.
+
+Uh uh uh, he's... he's makin' a mistake. He's liftin' it up. He's dump dump dump. He's got sand all over. It's smash smash smash. It's fall down flat.
+
+She's cry cry cry. She's cryin' because... because her castle is broken. He feels bad. He didn't mean to. He wanna make it right.
+
+He's pat pat pat. He's fix fix fix. He's fixin' the castle. She's happy again. They're gonna build a new one. New one. The end."
+Few-Shot (4 Examples),21,0.7,"One day, um, rabbit and dog. They (i)s play in the sand. They have shovels. They want to build... build a big sandcastle. They (i)s having fun. 
+
+Dog (i)s pat the sand. Pat the sand. To make... make the wall strong. Rabbit is... is digging. Digging with bucket. To get more sand. They (i)s work very hard.
+
+Uh, uh, uh. Rabbit make a mistake. He (i)s lift the bucket. And (i)s... dump all the sand. On top of the castle. Smash! Castle fall down flat. 
+
+Dog (i)s very upset. Dog (i)s cry. Cry. Because... her work... her hard work. Rabbit feel bad. Feel bad. Because (i)s not mean to break. Break it. 
+
+Rabbit (i)s pat the sand. Pat the sand. To fix. Fix the castle. Dog (i)s happy. They (i)s decide... build a new one. New castle. The end."
+Few-Shot (4 Examples),22,0.7,"One day, uh, rabbit and dog. They're playing. They're (i)n sandbox. They have (i)s shovels. They want to build. Big castle. Together. They (i)s have fun.
+
+Dog is, uh, pating sand. Make walls strong. Rabbit is, uh, digging. Get more sand. They (i)s work hard.
+
+Then uh, rabbit make mistake. He lift (i)s heavy bucket. Dump all sand on castle. Smash. Castle fall down.
+
+Dog is upset. She cry. Castle broken. Rabbit feel bad. He didn't mean it. He want to make right.
+
+Rabbit start pat sand. Fix castle. Dog happy. They decide build new one. The end."
+Few-Shot (4 Examples),23,0.7,"He and him... they is... in the sand... They have shovels. They is... want build a big one. They is... having fun.
+
+The dog... is pating. Pating. Pating the sand. Is make strong. The rabbit... is digging. He is digging. He is get more sand. They is... work hard. Hard.
+
+Uh... the rabbit... he is... make a mistake. He lift... heavy... and... uh... dump. All the sand. On top. Castle smash. Fall down flat.
+
+The dog... she is... cry. Cry. Cry. Because... because... her work. Is ruined. The rabbit... he is... feel bad. Bad. Bad. He no mean. To break it.
+
+The rabbit... he is... pat the sand. Pating. Pat. Pat. Fix castle. Fix. Fix. So the dog... is happy. Happy.
+
+They is... build new one. New one. New. They is... happy now. The end."
+Few-Shot (4 Examples),24,0.7,"Hehe. One day, a (i)s rabbit and dog. Dog and rabbit. They (i)s play in the sand box. They (i)s have shovel. Shovel, shovel. They want build a big castle. Big castle. They (i)s have fun.
+
+Dog is pat pat pat. Pating the sand. Make the wall strong. Strong. Rabbit is dig dig dig. Digging with bucket. Get more sand. They (i)s work very hard. Hard.
+
+Umm, rabbit make a mistake. He (i)s lift the bucket. Boom! All the sand on top. Castle smash. Castle fall down flat.
+
+Dog (i)s cry. Cry. She (i)s upset. Upset. Rabbit feel bad. Bad. He (i)s sorry. Sorry.
+
+Rabbit start pating. Pating the sand. Fix the castle. Fix. Dog be happy. Happy. They decide build new one. New one."
+Few-Shot (4 Examples),25,0.7,"Is (a) rabbit. Is (a) dog. Is play in the... sandbox. They got shovels. They wanna build. Big sandcastle. Want to build it together. They (i)s having fun.
+
+The dog is pat... pat the sand. Pat it to make (i)s strong. Rabbit is... is digging. He got a bucket. He (i)s getting more sand. They work (i)s hard on it.
+
+Then (i)s... uh, rabbit. He make a... a mistake. He (i)s lifting. He (i)s lifting heavy bucket. And (i)s dump all the sand. On top of castle. Castle smash. Castle fall down flat.
+
+The dog is (i)s... uh, upset. She (i)s cry. Cry because her hard work (i)s... uh, ruined. Rabbit feel (i)s bad. He (i)s didn't mean to break it. He (i)s wanna make things right.
+
+So, rabbit start... pat the sand. He (i)s try to fix it. Fix the castle. So the dog (i)s happy again. They decide to... build new one. The end."
+Few-Shot (4 Examples),26,0.7,"Day, rabbit and dog, playing in sandbox. They had shovels. They (i)s want to build big castle. They (i)s having fun.
+
+Dog, dog, was patting sand. Sand, make walls strong. Rabbit, rabbit, was digging. Digging to get more sand. They (i)s work very hard.
+
+Uh, uh, uh, rabbit make mistake. He, he, lift bucket. Dump sand on castle. Smash, smash, castle. Fall down flat.
+
+Dog, dog, very upset. Dog, dog, cry. Cry because her castle, ruin. Rabbit, rabbit, feel bad. Rabbit, rabbit, didn't mean to break. He, he, want to make it right.
+
+Rabbit, rabbit, pat sand. Pat sand back together. Fix castle. Dog, dog, be happy again. They (i)s build new castle. New castle. The end."
+Few-Shot (4 Examples),27,0.7,"Day is... um rabbit dog. In the sand box. Have shovels. Want build castle. Big castle. Fun fun.
+
+Dog is pat... pat the sand. Make wall strong. Rabbit is dig... dig with bucket. Get more sand. They (i)s work very hard.
+
+Uh, rabbit make... make mistake. Lift bucket. Dump sand. Smash castle. Flat flat.
+
+Dog is cry. Cry cry. Upset. Castle smash. Rabbit feel bad. Didn't mean to break. Want make right.
+
+Rabbit is pat... pat sand. Fix castle. Dog happy. They build... build new one."
+Few-Shot (4 Examples),28,0.7,"Um, rabbit and dog. Playing in the s... sandbox. They have shovels. They want build... build... big sandcastle. They (i)s having fun.
+
+Dog is p... pat the sand. Make the w... walls strong. Rabbit is digging. Digging with his bucket. Get more sand.
+
+They (i)s working. Working very hard. Very hard.
+
+And then... uh... rabbit make a... a mistake. He (i)s lift his heavy bucket. Dump all the sand. On top of the castle. Smash... smash. Castle fall down flat.
+
+Dog is... is very upset. Cry. Cry because her hard work. Ruined. Rabbit feel bad. He (i)s didn't mean to break it. He (i)s want make things... things right.
+
+Rabbit start p... pat the sand. Fix the castle. Make dog happy again. They decide build new one."
+Few-Shot (4 Examples),29,0.7,"Um, play in the, sand box. Rabbit and dog. They (i)s have shovels. Want to build big. Build big. Fun.
+
+Dog, dog pat pat. Pat the sand. Make wall strong. Rabbit, rabbit dig dig. Get sand. They (i)s work hard. Work hard.
+
+Uh, rabbit uh, mistake. He (i)s lift bucket. And... all sand. On top. Castle smash. Castle fall down. Flat.
+
+Dog, dog (i)s upset. Cry. Cry cry. Rabbit, rabbit feel bad. Feel bad. He (i)s not mean. Not mean.
+
+Rabbit, rabbit pat pat. Pat the sand. Fix. Fix the castle. Make happy. Dog. They (i)s build new. New one."
+Few-Shot (4 Examples),30,0.7,"Uh, rabbit and dog. They play. Play in the sand. They got shovels. They wanna build. Build big sandcastle. Together. Together. They (i)s having fun.
+
+The dog, dog is p... pat pat pat. Make the sand strong. Walls strong. The rabbit, rabbit is dig dig dig. Dig with his bucket. Get more sand. They (i)s working hard. Working hard.
+
+Uh, uh, uh, rabbit... make mistake. Lift bucket. Dumps all sand. On top. On top of the castle. Castle smash. Castle fall down. Flat.
+
+Dog, dog is upset. Cry. Cry because her work. Her hard work. Rabbit feel bad. Feel bad. He (i)s sorry.
+
+Rabbit, rabbit start pat pat pat. Fix castle. Fix it so dog happy. They (i)s build new one. New one."
