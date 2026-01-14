@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036215-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|4;03.26|male|TD||Target_Child|||
+@Media:	450, audio
+@Comment:	Birth of CHI is 26-OCT-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25, Track 62
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	him was (.) making a castle . 42465_44085
+%mor:	pro:obj|him aux|be&PAST&13S part|make-PRESP det:art|a n|castle .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	him was making (.) a house . 44585_48765
+%mor:	pro:obj|him aux|be&PAST&13S part|make-PRESP det:art|a n|house .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	him was going to [: gonna] make a (.) castle with a building . 50525_53705
+%mor:	pro:obj|him aux|be&PAST&13S part|go-PRESP part|go&PRESP~inf|to
+	v|make det:art|a n|castle prep|with det:art|a n|building .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|COMP 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|6|JCT 10|11|DET 11|9|POBJ 12|3|PUNCT
+*CHI:	him breaked it . 55585_57745
+%mor:	pro:obj|him part|break-PASTP pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	him make a different one . 58385_61585
+%mor:	pro:obj|him v|make det:art|a adj|different pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*CHI:	the end . [+ bch] 63195_64355
+%mor:	det:art|the n|end .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+@End

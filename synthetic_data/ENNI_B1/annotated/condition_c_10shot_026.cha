@@ -1,0 +1,96 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	one day <a> [/] <a rabbit and a dog> [//] they play [: played] [* m:0ed] in <the> [/] (...) the sand box .
+%mor:	det:num|one n|day pro:sub|they v|play-PAST prep|in det:art|the
+	n|sand n|box .
+%gra:	1|2|QUANT 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|4|PUNCT
+*CHI:	they <have> [/] have shovels .
+%mor:	pro:sub|they v|have n|shovel-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they want [: wanted] [* m:unv:a] [* m:0ed] to <build> [/] build a big sand castle .
+%mor:	pro:sub|they v|want-PAST inf|to v|build det:art|a adj|big n|sand
+	n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|8|DET 6|7|MOD 7|8|MOD 8|4|OBJ
+	9|2|PUNCT
+*CHI:	together .
+%mor:	adv|together .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	they 0were <having> [/] having a lot of fun .
+%mor:	pro:sub|they part|have-PRESP det:art|a n|lot prep|of n|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|2|PUNCT
+*CHI:	the <dog> [/] dog 0was <carefully> [/] carefully pat [: patting] [* m:0ing] the sand to make the walls strong .
+%mor:	det:art|the n|dog adj|care&dn-FUL-LY part|pat-PRESP det:art|the
+	n|sand inf|to v|make det:art|the n|wall-PL adj|strong .
+%gra:	1|2|DET 2|0|INCROOT 3|2|POSTMOD 4|3|XMOD 5|6|DET 6|4|OBJ 7|8|INF
+	8|6|XMOD 9|11|DET 10|11|MOD 11|8|OBJ 12|2|PUNCT
+*CHI:	the <rabbit> [/] rabbit dig [: dug] [* m:unv:a] [* m:base:ed] with his bucket to get more sand .
+%mor:	det:art|the n|rabbit v|dig&PAST prep|with det:poss|his n|bucket
+	inf|to v|get qn|more n|sand .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|8|INF 8|3|XJCT
+	9|10|QUANT 10|8|OBJ 11|3|PUNCT
+*CHI:	they work [: worked] [* m:0ed] very hard on it .
+%mor:	pro:sub|they v|work-PAST adv|very adv|hard prep|on pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|JCT 5|2|JCT 6|5|POBJ 7|2|PUNCT
+*CHI:	sudd^sud^suddenly [: suddenly] [* d:sw] the rabbit make [: made] [* m:unv:a] [* m:base:ed] a mistake .
+%mor:	adv|sudden&dadj-LY det:art|the n|rabbit v|make&PAST det:art|a
+	n|mistake .
+%gra:	1|4|JCT 2|3|DET 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	he lift [: lifted] [* m:unv:a] [* m:0ed] his heavy bucket .
+%mor:	pro:sub|he v|lift-PAST det:poss|his adj|heavy n|bucket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*CHI:	and dump [: dumped] [* m:unv:a] [* m:0ed] all the <sand> [/] sand right on top of the castle .
+%mor:	coord|and v|dump-PAST qn|all det:art|the n|sand adv|right prep|on
+	n|top prep|of det:art|the n|castle .
+%gra:	1|2|LINK 2|0|ROOT 3|5|QUANT 4|5|DET 5|2|OBJ 6|7|JCT 7|2|JCT 8|7|POBJ
+	9|8|NJCT 10|11|DET 11|9|POBJ 12|2|PUNCT
+*CHI:	<it was> [/] it was an accident .
+%mor:	pro:per|it cop|be&PAST&13S det:art|a n|accident .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*CHI:	but the castle smash [: smashed] [* m:unv:a] [* m:0ed] .
+%mor:	conj|but det:art|the n|castle v|smash-PAST .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	and fall [: fell] [* m:unv:a] [* m:base:ed] down flat .
+%mor:	coord|and v|fall&PAST adv|down adj|flat .
+%gra:	1|2|LINK 2|0|ROOT 3|2|JCT 4|2|JCT 5|2|PUNCT
+*CHI:	the <dog> [/] dog was very very upset .
+%mor:	det:art|the n|dog cop|be&PAST&13S adv|very adv|very adj|upset .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|6|JCT 5|6|JCT 6|3|PRED 7|3|PUNCT
+*CHI:	she start [: started] [* m:unv:a] [* m:0ed] to cry because <her> [/] her hard work <is [: was] [* m:0ed]> [/] is ruin [: ruined] [* m:0ed] .
+%mor:	pro:sub|she v|start-PAST inf|to v|cry conj|because det:poss|her
+	adj|hard n|work aux|be&3S part|ruin-PASTP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|10|LINK 6|8|DET 7|8|MOD 8|10|SUBJ
+	9|10|AUX 10|2|CJCT 11|2|PUNCT
+*CHI:	the rabbit feel [: felt] [* m:unv:a] [* m:base:ed] bad because he don't [: didn't] [* m:unv:a] [* m:base:ed] mean to break it .
+%mor:	det:art|the n|rabbit v|feel&PAST adj|bad conj|because pro:sub|he
+	mod|do&PAST~neg|not v|mean inf|to v|break pro:per|it .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|9|LINK 6|9|SUBJ 7|9|AUX 8|7|NEG
+	9|3|CJCT 10|11|INF 11|9|COMP 12|11|OBJ 13|3|PUNCT
+*CHI:	he want [: wanted] [* m:unv:a] [* m:0ed] to <make> [/] make things right .
+%mor:	pro:sub|he v|want-PAST inf|to v|make n|thing-PL co|right .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|4|COM 7|2|PUNCT
+*CHI:	so the rabbit start [: started] [* m:unv:a] [* m:0ed] pat [: patting] [* m:0ing] the sand back together .
+%mor:	co|so det:art|the n|rabbit v|start-PAST part|pat-PRESP det:art|the
+	n|sand adv|back adv|together .
+%gra:	1|4|COM 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|COMP 6|7|DET 7|5|OBJ 8|5|JCT
+	9|5|JCT 10|4|PUNCT
+*CHI:	he try [: tried] [* m:unv:a] [* m:0ed] to <fix> [/] fix the castle .
+%mor:	pro:sub|he v|try-PAST inf|to v|fix det:art|the n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*CHI:	so the dog will [: would] [* m:base:ed] <be> [/] be happy again .
+%mor:	co|so det:art|the n|dog mod|will&COND cop|be adj|happy
+	adv:tem|again .
+%gra:	1|5|COM 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PRED 7|6|JCT 8|5|PUNCT
+*CHI:	they <decide> [/] decide [: decided] [* m:0ed] to build a new one .
+%mor:	pro:sub|they v|decide-PAST inf|to v|build det:art|a adj|new
+	pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|7|DET 6|7|MOD 7|4|OBJ 8|2|PUNCT
+*CHI:	the end .
+%mor:	det:art|the n|end .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+@End

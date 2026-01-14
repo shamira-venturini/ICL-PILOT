@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/c-00036242-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;08.13|male|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	508, audio
+@Comment:	Birth of CHI is 19-JUN-1994
+@Date:	03-MAR-2000
+@Tape Location:	Disk M1 Track 72
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	they (a)re playing in the sand . 38665_40265
+%mor:	pro:sub|they aux|be&PRES part|play-PRESP prep|in det:art|the n|sand
+	.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*CHI:	then a bunny comed in . 41255_42735
+%mor:	adv:tem|then det:art|a n|bunny co#n|med adv|in .
+%gra:	1|4|JCT 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*CHI:	the bunny was making a castle . 45295_47395
+%mor:	det:art|the n|bunny aux|be&PAST&13S part|make-PRESP det:art|a
+	n|castle .
+%gra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and the dog was making (.) <a> [/] a big castle (.) with stuff on it . 47435_53855
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|make-PRESP
+	det:art|a adj|big n|castle prep|with n|stuff prep|on pro:per|it .
+%gra:	1|5|LINK 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|8|DET 7|8|MOD 8|5|OBJ
+	9|8|NJCT 10|9|POBJ 11|10|NJCT 12|11|POBJ 13|5|PUNCT
+*CHI:	<then they dumped it on> [//] they dumped it . 54135_58375
+%mor:	pro:sub|they v|dump-PAST pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and it spilled . 58535_59315
+%mor:	coord|and pro:per|it v|spill-PAST .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	<it> [//] (..) and then the dog build it again . 61035_66955
+%mor:	coord|and adv:tem|then det:art|the n|dog v|build pro:per|it
+	adv:tem|again .
+%gra:	1|5|LINK 2|5|JCT 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|JCT 8|5|PUNCT
+@End

@@ -1,0 +1,35 @@
+@UTF8
+@PID:	11312/c-00036191-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|4;02.18|male|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	407, audio
+@Comment:	Birth of CHI is 21-NOV-1995
+@Tape Location:	Disk L1 Track 30
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	they (a)re digging (.) and making a sandbox . 55985_57565
+%mor:	pro:sub|they aux|be&PRES part|dig-PRESP coord|and part|make-PRESP
+	det:art|a n|+n|sand+n|box .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|CONJ 5|4|COORD 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	they (a)re (.) mixing up sand . 59265_65829
+%mor:	pro:sub|they aux|be&PRES part|mix-PRESP adv|up n|sand .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*CHI:	now they (a)re dumping it on a sand::castle . 65829_73851
+%mor:	adv:tem|now pro:sub|they aux|be&PRES part|dump-PRESP pro:per|it
+	prep|on det:art|a n|+n|sand+n|castle .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*CHI:	now the sand::castle is all broken . 73851_81058
+%mor:	adv:tem|now det:art|the n|+n|sand+n|castle aux|be&3S adv|all
+	part|break&PASTP .
+%gra:	1|6|JCT 2|3|DET 3|6|SUBJ 4|6|AUX 5|6|JCT 6|0|ROOT 7|6|PUNCT
+*CHI:	and now they (a)re fixing it up again . 84445_89305
+%mor:	coord|and adv:tem|now pro:sub|they aux|be&PRES part|fix-PRESP
+	pro:per|it adv|up adv:tem|again .
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|JCT 8|5|JCT
+	9|5|PUNCT
+@End

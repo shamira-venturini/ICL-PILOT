@@ -1,0 +1,38 @@
+@UTF8
+@PID:	11312/c-00036283-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;04.10|male|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	565, audio
+@Comment:	Birth of CHI is 10-JUL-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 105
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	playin(g) .
+%mor:	n:gerund|play-GERUND^part|play-PRESP .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	playin(g) in the sand . 44515_45955
+%mor:	n:gerund|play-GERUND^part|play-PRESP adv|in^prep|in det:art|the
+	n|sand .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|PUNCT
+*CHI:	makin(g) a sandcastle (.) with sand . 46375_51135
+%mor:	n:gerund|make-GERUND^part|make-PRESP det:art|a n|+n|sand+n|castle
+	prep|with n|sand^v|sand .
+%gra:	1|5|ROOT 2|3|DET 3|1|OBJ 4|5|CASE 5|3|NMOD 6|1|PUNCT
+*CHI:	playin(g) with sand (.) with sand . 52455_56495
+%mor:	n:gerund|play-GERUND^part|play-PRESP prep|with n|sand^v|sand
+	prep|with n|sand^v|sand .
+%gra:	1|5|ROOT 2|3|CASE 3|1|OBL 4|5|CASE 5|1|OBL 6|1|PUNCT
+*CHI:	playin(g) with sand with sand . 57775_60935
+%mor:	n:gerund|play-GERUND^part|play-PRESP prep|with n|sand^v|sand
+	prep|with n|sand^v|sand .
+%gra:	1|5|ROOT 2|3|CASE 3|1|OBL 4|5|CASE 5|1|OBL 6|1|PUNCT
+*CHI:	&=sighs playin(g) with sand with sand . 61695_69375
+%mor:	n:gerund|play-GERUND^part|play-PRESP prep|with n|sand^v|sand
+	prep|with n|sand^v|sand .
+%gra:	1|5|ROOT 2|3|CASE 3|1|OBL 4|5|CASE 5|1|OBL 6|1|PUNCT
+@End

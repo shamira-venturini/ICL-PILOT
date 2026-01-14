@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/c-00036250-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;07.14|female|TD||Target_Child|||
+@Media:	516, audio
+@Comment:	Birth of CHI is 24-JUL-1994
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 26
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	&-um they were getting ready to build a &-um sandcastle in their sandbox . 70245_75325
+%mor:	pro:sub|they aux|be&PAST part|get-PRESP adj|ready inf|to v|build
+	det:art|a n|+n|sand+n|castle prep|in det:poss|their n|+n|sand+n|box
+	.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PRED 5|6|INF 6|4|XMOD 7|8|DET 8|6|OBJ
+	9|6|JCT 10|11|DET 11|9|POBJ 12|3|PUNCT
+*CHI:	and they already built one (.) on the other side . 76325_79685
+%mor:	coord|and pro:sub|they adv|already part|build&PASTP pro:indef|one
+	prep|on det:art|the qn|other n|side .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|JCT 7|9|DET 8|9|QUANT
+	9|6|POBJ 10|4|PUNCT
+*CHI:	and &-um they were &-um putting &-um sand in the shovel . 80885_85845
+%mor:	coord|and pro:sub|they aux|be&PAST part|put-PRESP n|sand prep|in
+	det:art|the n|shovel .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*CHI:	(.) and they dumped it all over the <um other sand> [//] the &-um sandcastle . 88935_93475
+%mor:	coord|and pro:sub|they v|dump-PAST pro:per|it adv|all prep|over
+	det:art|the det:art|the n|+n|sand+n|castle .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|JCT 6|3|JCT 7|9|DET 8|9|DET
+	9|6|POBJ 10|3|PUNCT
+*CHI:	and &-um it all came into a pile of sand . 94735_99275
+%mor:	coord|and pro:per|it adv|all v|come&PAST prep|into det:art|a n|pile
+	prep|of n|sand .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|7|NJCT
+	9|8|POBJ 10|4|PUNCT
+*CHI:	(.) and they were crying . 99755_105115
+%mor:	coord|and pro:sub|they aux|be&PAST part|cry-PRESP .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+@End

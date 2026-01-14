@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036227-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|4;10.15|male|TD||Target_Child|||
+@Media:	463, audio
+@Comment:	Birth of CHI is 03-JUN-1996
+@Date:	16-FEB-2001
+@Tape Location:	Disk L25, Track 41
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	<one> [/] (.) one little doggy makes (.) <a p> [//] a sandcastle . 37595_42955
+%mor:	det:num|one adj|little adj|dog&dn-Y v|make-3S det:art|a
+	n|+n|sand+n|castle .
+%gra:	1|2|QUANT 2|4|JCT 3|4|JCT 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and (.) then he says let (u)s make some more . 44535_47695
+%mor:	coord|and adv:tem|then pro:sub|he v|say&3S v|let&ZERO pro:obj|us
+	v|make qn|some adv|more .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|COMP 6|7|SUBJ 7|5|COMP 8|9|QUANT
+	9|7|JCT 10|4|PUNCT
+*CHI:	and then (.) she make sit . 48355_50555
+%mor:	coord|and adv:tem|then pro:sub|she v|make v|sit .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|COMP 6|4|PUNCT
+*CHI:	and then she pours it on (.) the sandcastle . 50975_53975
+%mor:	coord|and adv:tem|then pro:sub|she v|pour-3S pro:per|it prep|on
+	det:art|the n|+n|sand+n|castle .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*CHI:	then <it (i)s (..) uh> [//] her sandcastle is ruined . 55165_60605
+%mor:	adv:tem|then det:poss|her n|+n|sand+n|castle aux|be&3S
+	part|ruin-PASTP .
+%gra:	1|5|JCT 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PUNCT
+*CHI:	and (.) the boy did n(o)t want his sandcastle ruined [!] . 61285_66065
+%mor:	coord|and det:art|the n|boy mod|do&PAST neg|not v|want det:poss|his
+	n|+n|sand+n|castle v|ruin-PAST .
+%gra:	1|6|LINK 2|3|DET 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|8|DET 8|9|SUBJ
+	9|6|COMP 10|6|PUNCT
+@End

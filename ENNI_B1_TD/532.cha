@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036259-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;07.29|male|TD||Target_Child|||
+@Media:	532, audio
+@Comment:	Birth of CHI is 13-APR-1995
+@Date:	12-DEC-2000
+@Tape Location:	Disk M6 Track 68
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	<the kid> [//] the little kid was making a sandcastle . 31385_35165
+%mor:	det:art|the adj|little n|kid^v|kid cop|be&PAST&13S^aux|be&PAST&13S
+	n:gerund|make-GERUND^part|make-PRESP det:art|a n|+n|sand+n|castle .
+%gra:	1|3|DET 2|3|AMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and then the other kid broke it . 36385_42665
+%mor:	coord|and adv:tem|then det:art|the qn|other^pro:indef|other
+	n|kid^v|kid v|break&PAST^adj|broke pro:per|it .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	and he poured sand on it . 45865_47925
+%mor:	coord|and pro:sub|he part|pour-PASTP^v|pour-PAST n|sand^v|sand
+	adv|on^prep|on pro:per|it .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	then there was a big pile of sand . 50605_53005
+%mor:	adv:tem|then adv|there^pro:exist|there^n|there
+	cop|be&PAST&13S^aux|be&PAST&13S det:art|a adj|big n|pile^v|pile
+	prep|of n|sand^v|sand .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|8|ROOT 4|6|DET 5|6|AMOD 6|3|NSUBJ 7|8|CASE 8|6|NMOD 9|3|PUNCT
+*CHI:	and then he cried . 53725_58705
+%mor:	coord|and adv:tem|then pro:sub|he part|cry-PASTP^v|cry-PAST .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det:art|the n|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

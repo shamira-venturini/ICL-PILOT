@@ -1,0 +1,44 @@
+@UTF8
+@PID:	11312/c-00036237-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;06.17|male|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	503, audio
+@Comment:	Birth of CHI is 7-AUG-1994
+@Date:	24-FEB-2000
+@Tape Location:	Disk L1 Track 38
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once upon a time (.) a bunny and a rat were playing together . 42695_43495
+%mor:	adv:tem|once prep|upon det:art|a n|time det:art|a n|bunny coord|and
+	det:art|a n|rat aux|be&PAST part|play-PRESP adv|together .
+%gra:	1|11|LINK 2|11|JCT 3|4|DET 4|2|POBJ 5|6|DET 6|11|SUBJ 7|6|CONJ 8|9|DET
+	9|7|COORD 10|11|AUX 11|0|ROOT 12|11|JCT 13|11|PUNCT
+*CHI:	and they made a sandcastle . 72825_74345
+%mor:	coord|and pro:sub|they v|make&PAST det:art|a n|+n|sand+n|castle .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	the bunny had digged up some sand and put it in his bucket . 75885_82625
+%mor:	det:art|the n|bunny aux|have&PAST part|dig-PASTP adv|up qn|some
+	n|sand coord|and v|put&ZERO pro:per|it prep|in det:poss|his n|bucket
+	.
+%gra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|7|QUANT 7|4|JCT 8|4|CONJ
+	9|8|COORD 10|9|OBJ 11|9|JCT 12|13|DET 13|11|POBJ 14|4|PUNCT
+*CHI:	then he dumped it onto the castle . 84045_87405
+%mor:	adv:tem|then pro:sub|he v|dump-PAST pro:per|it prep|onto
+	det:art|the n|castle .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*CHI:	<then the bunny> [/] then the bunny was n(o)t that happy . 92115_95895
+%mor:	adv:tem|then det:art|the n|bunny aux|be&PAST&13S neg|not
+	det:dem|that adj|happy .
+%gra:	1|7|JCT 2|3|DET 3|7|SUBJ 4|7|AUX 5|4|NEG 6|7|DET 7|0|ROOT 8|7|PUNCT
+*CHI:	and <then> [/] then the rat was crying . 97495_104415
+%mor:	coord|and adv:tem|then det:art|the n|rat aux|be&PAST&13S
+	part|cry-PRESP .
+%gra:	1|6|LINK 2|6|JCT 3|4|DET 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*CHI:	that (i)s the end . [+ bch] 106315_109575
+%mor:	pro:dem|that cop|be&3S det:art|the n|end .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+@End

@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/c-00036198-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|4;08.07|female|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	415, audio
+@Comment:	Birth of CHI is 7-JUL-1995
+@Date:	14-MAR-2000
+@Tape Location:	Disk L3 Track 5
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	<a dog> [//] (.) <a mouse> [//] <a dog> [/] a dog and <a mo> [/] a bunny . 57195_68035
+%mor:	det:art|a n|dog coord|and det:art|a n|bunny .
+%gra:	1|2|DET 2|0|INCROOT 3|2|CONJ 4|5|DET 5|3|COORD 6|2|PUNCT
+*CHI:	(.) and they (a)re at the beach . 69615_75055
+%mor:	coord|and pro:sub|they cop|be&PRES prep|at det:art|the n|beach .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*CHI:	and the rabbit and the dog (.) are building the something else . 78975_87035
+%mor:	coord|and det:art|the n|rabbit coord|and det:art|the n|dog
+	aux|be&PRES part|build-PRESP det:art|the pro:indef|something
+	post|else .
+%gra:	1|8|LINK 2|3|DET 3|8|SUBJ 4|3|CONJ 5|6|DET 6|4|COORD 7|8|AUX 8|0|ROOT
+	9|10|DET 10|8|OBJ 11|10|PQ 12|8|PUNCT
+*CHI:	the bunny is going to [: gonna] put something <on the> [/] on the castle . 89255_96395
+%mor:	det:art|the n|bunny aux|be&3S part|go-PRESP part|go&PRESP~inf|to
+	v|put&ZERO pro:indef|something prep|on det:art|the n|castle .
+%gra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|XJCT 6|7|INF 7|5|COMP 8|7|OBJ
+	9|7|JCT 10|11|DET 11|9|POBJ 12|4|PUNCT
+*CHI:	<and the cas> [//] (.) and the bunny said oh dear . 101855_106210
+%mor:	coord|and det:art|the n|bunny v|say&PAST co|oh n|dear .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|6|COM 6|4|OBJ 7|4|PUNCT
+*CHI:	<and> [/] and the girl (.) made another one because they (ha)ve got a melt [?] . 106210_117363
+%mor:	coord|and det:art|the n|girl v|make&PAST qn|another pro:indef|one
+	conj|because pro:sub|they aux|have part|get&PASTP det:art|a v|melt .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|6|QUANT 6|4|OBJ 7|10|LINK
+	8|10|SUBJ 9|10|AUX 10|4|CJCT 11|12|DET 12|10|OBJ 13|4|PUNCT
+*CHI:	the end . [+ bch] 117363_120085
+%mor:	det:art|the n|end .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+@End

@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/c-00036263-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;11.01|female|TD||Target_Child|||
+@Media:	539, audio
+@Comment:	Birth of CHI is 4-JUL-1994
+@Date:	05-JUN-2000
+@Tape Location:	Disk L15 Track 75
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	one day (.) two little bunnies went to the beach and builded a <sand> [/] sandcastle . 71245_80245
+%mor:	pro:indef|one^det:num|one n|day det:num|two adj|little n|bunny-PL
+	v|go&PAST inf|to^prep|to det:art|the n|beach coord|and
+	part|build-PASTP det:art|a n|+n|sand+n|castle .
+%gra:	1|2|NUMMOD 2|6|OBL-UNMARKED 3|5|NUMMOD 4|5|AMOD 5|6|NSUBJ 6|13|ROOT 7|9|CASE 8|9|DET 9|6|OBL 10|11|CC 11|6|CONJ 12|13|DET 13|11|OBJ 14|6|PUNCT
+*CHI:	and they were (.) playing with the sandcastle a lot . 80925_89405
+%mor:	coord|and pro:sub|they cop|be&PAST^aux|be&PAST
+	n:gerund|play-GERUND^part|play-PRESP prep|with det:art|the
+	n|+n|sand+n|castle det:art|a n|lot .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|DET 9|4|OBL-UNMARKED 10|4|PUNCT
+*CHI:	<and> [/] and (.) then they were going to go <in the beach> [//] <in the> [/] in the water [^ I mean] . 89675_97495
+%mor:	coord|and adv:tem|then pro:sub|they cop|be&PAST^aux|be&PAST
+	n:gerund|go-GERUND^part|go-PRESP inf|to^prep|to v|go adv|in^prep|in
+	det:art|the n|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|10|ROOT 6|7|MARK 7|5|XCOMP 8|10|CASE 9|10|DET 10|7|OBL 11|5|PUNCT
+*CHI:	sand boom [!] . 97475_102835
+%mor:	n|sand^v|sand n|boom^co|boom^on|boom^v|boom .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	they (.) poured the sand (.) on top (.) of [!] the (.) sandcastle . 106105_114505
+%mor:	pro:sub|they part|pour-PASTP^v|pour-PAST det:art|the n|sand
+	adv|on^prep|on n|top^adj|top^v|top prep|of det:art|the
+	n|+n|sand+n|castle .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|4|DET 4|2|OBJ 5|6|CASE 6|2|OBL 7|9|CASE 8|9|DET 9|6|NMOD 10|2|PUNCT
+*CHI:	boomerang [!] . 117305_117805
+%mor:	n|boomerang^v|boomerang .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the castle (.) blew into bits . 120845_125305
+%mor:	det:art|the n|castle v|blow&PAST prep|into n|bit-PL .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	and then they could n(o)t make it (.) again . 129205_131825
+%mor:	coord|and adv:tem|then pro:sub|they mod|could neg|not v|make
+	pro:per|it adv:tem|again .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|8|ROOT 7|6|OBJ 8|6|ADVMOD 9|6|PUNCT
+*CHI:	the end . [+ bch] 133625_135525
+%mor:	det:art|the n|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

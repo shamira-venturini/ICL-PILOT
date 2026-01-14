@@ -1,0 +1,77 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	rabbit and dog play [: played] [* m:0ed] in the sand .
+%mor:	n|rabbit coord|and n|dog v|play-PAST prep|in det:art|the n|sand .
+%gra:	1|4|SUBJ 2|1|CONJ 3|2|COORD 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*CHI:	they got shovel [: shovels] [* m:0s] .
+%mor:	pro:sub|they v|get&PAST n|shovel-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0they want [: wanted] [* m:0ed] to build big castle .
+%mor:	v|want-PAST inf|to v|build adj|big n|castle .
+%gra:	1|0|ROOT 2|3|INF 3|1|COMP 4|5|MOD 5|3|OBJ 6|1|PUNCT
+*CHI:	fun .
+%mor:	adj|fun .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	fun .
+%mor:	adj|fun .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	dog <pat [: patted] [* m:0ed] [* m:unv:a]> [/] pat 0sand . [+ gram]
+%mor:	n|dog n|pat .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	0to make walls strong .
+%mor:	v|make n|wall-PL adj|strong .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|POSTMOD 4|1|PUNCT
+*CHI:	rabbit <dig [: dug] [* m:base:ed] [* m:unv:a]> [/] dig .
+%mor:	n|rabbit n|dig .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	0to get more sand .
+%mor:	v|get qn|more n|sand .
+%gra:	1|0|ROOT 2|3|QUANT 3|1|OBJ 4|1|PUNCT
+*CHI:	rabbit lift [: lifted] [* m:0ed] [* m:unv:a] 0a heavy bucket .
+%mor:	n|rabbit v|lift-PAST adj|heavy n|bucket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	oops@i .
+%mor:	co|oops .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	0the castle smash [: smashed] [* m:0ed] [* m:unv:a] flat .
+%mor:	n|castle v|smash-PAST n|flat .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0the dog cry [: cried] [* m:0ed] [* m:unv:a] .
+%mor:	n|dog v|cry-PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	rabbit 0was sad .
+%mor:	n|rabbit adj|sad .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	no_no@i .
+%mor:	co|no_no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	not mean to . [+ gram]
+%mor:	neg|not adj|mean prep|to .
+%gra:	1|2|NEG 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHI:	rabbit fix [: fixed] [* m:0ed] [* m:unv:a] 0it .
+%mor:	n|rabbit v|fix-PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	pat_pat@o .
+%mor:	on|pat_pat .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	make it .
+%mor:	v|make pro:per|it .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	dog happy .
+%mor:	n|dog adj|happy .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	build new one .
+%mor:	v|build adj|new pro:indef|one .
+%gra:	1|0|ROOT 2|3|MOD 3|1|OBJ 4|1|PUNCT
+*CHI:	castle again .
+%mor:	n|castle adv:tem|again .
+%gra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*CHI:	yeah !
+%mor:	co|yeah !
+%gra:	1|0|INCROOT 2|1|PUNCT
+@End

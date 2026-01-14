@@ -1,0 +1,53 @@
+@UTF8
+@PID:	11312/c-00036207-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|4;11.06|female|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	439, audio
+@Comment:	Birth of CHI is 21-JUL-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 48
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once upon a time there was a dog and a rabbit . 46865_49305
+%mor:	adv:tem|once prep|upon det:art|a n|time adv|there cop|be&PAST&13S
+	det:art|a n|dog coord|and det:art|a n|rabbit .
+%gra:	1|6|LINK 2|6|JCT 3|4|DET 4|2|POBJ 5|6|SUBJ 6|0|ROOT 7|8|DET 8|6|PRED
+	9|8|CONJ 10|11|DET 11|9|COORD 12|6|PUNCT
+*CHI:	they were playing in the sand . 49645_51285
+%mor:	pro:sub|they aux|be&PAST part|play-PRESP prep|in det:art|the n|sand
+	.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*EXA:	maybe you can speak up a little louder . 52505_54665
+%mor:	adv|maybe pron|you-Prs-Nom-S2 aux|can-Fin-S verb|speak-Inf-S adp|up det|a-Ind-Art adj|little-S1 adj|louder-Cmp-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|COMPOUND-PRT 6|7|DET 7|8|OBL-UNMARKED 8|4|ADVMOD 9|4|PUNCT
+*CHI:	they put sand <in the> [/] into (.) a bucket . 54725_61145
+%mor:	pro:sub|they v|put&ZERO n|sand prep|into det:art|a n|bucket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|6|DET 6|4|POBJ 7|2|PUNCT
+*CHI:	and they made <a sa> [//] a sandcastle . 61305_64239
+%mor:	coord|and pro:sub|they v|make&PAST det:art|a n|+n|sand+n|castle .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	they put the window on and the flag on . 64239_71877
+%mor:	pro:sub|they v|put&ZERO det:art|the n|window adv|on coord|and
+	det:art|the n|flag adv|on .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|JCT 6|2|CONJ 7|8|DET 8|6|COORD
+	9|8|NJCT 10|2|PUNCT
+*CHI:	the castle got wrecked . 72805_78565
+%mor:	det:art|the n|castle aux|get&PAST part|wreck-PASTP .
+%gra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*CHI:	the dog hadta fix it . 81085_85765
+%mor:	det:art|the n|dog mod|have&PAST~inf|to v|fix pro:per|it .
+%gra:	1|2|DET 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	but it was too late . 85645_86785
+%mor:	conj|but pro:per|it cop|be&PAST&13S adv|too adv|late .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|PUNCT
+*CHI:	<it did n(o)t> [/] it did n(o)t get fixed . 86565_89345
+%mor:	pro:per|it v|do&PAST neg|not v|get part|fix-PASTP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|NEG 4|2|COMP 5|4|COMP 6|2|PUNCT
+*CHI:	that (i)s the end . [+ bch] 90745_92245
+%mor:	pro:dem|that cop|be&3S det:art|the n|end .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+@End

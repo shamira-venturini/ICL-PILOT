@@ -1,0 +1,99 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	some rabbits and doggie [: doggies] [* m:0s] friends .
+%mor:	qn|some n|rabbit-PL coord|and n|dog-DIM-PL n|friend-PL .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*CHI:	they like [: liked] [* m:0ed] to play .
+%mor:	pro:sub|they v|like-PAST inf|to v|play .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*CHI:	they got some sticks .
+%mor:	pro:sub|they v|get&PAST qn|some n|stick-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|OBJ 5|2|PUNCT
+*CHI:	and they wanna [: wanted to] [* m:0ed] build 0a big sand castle .
+%mor:	coord|and pro:sub|they v|want-PAST inf|to v|build adj|big n|sand
+	n|castle .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|8|MOD 7|8|MOD 8|5|OBJ
+	9|3|PUNCT
+*CHI:	they were having so much fun .
+%mor:	pro:sub|they aux|be&PAST part|have-PRESP adv|so qn|much n|fun .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|JCT 5|6|QUANT 6|3|OBJ 7|3|PUNCT
+*CHI:	yeah@i !
+%mor:	co|yeah !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	the doggie friend she was making the sand strong .
+%mor:	det:art|the n|dog-DIM n|friend pro:sub|she aux|be&PAST&13S
+	part|make-PRESP det:art|the n|sand adj|strong .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|6|SUBJ 5|6|AUX 6|3|CMOD 7|8|DET 8|6|OBJ
+	9|8|POSTMOD 10|3|PUNCT
+*CHI:	she was patting it with her paws .
+%mor:	pro:sub|she aux|be&PAST&13S part|pat-PRESP pro:per|it prep|with
+	det:poss|her n|paw-PL .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*CHI:	the rabbit friend he was getting more sand .
+%mor:	det:art|the n|rabbit n|friend pro:sub|he aux|be&PAST&13S
+	part|get-PRESP qn|more n|sand .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|6|SUBJ 5|6|AUX 6|3|CMOD 7|8|QUANT 8|6|OBJ
+	9|3|PUNCT
+*CHI:	he was digging with his bucket .
+%mor:	pro:sub|he aux|be&PAST&13S part|dig-PRESP prep|with det:poss|his
+	n|bucket .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*CHI:	it was big and heavy .
+%mor:	pro:per|it cop|be&PAST&13S adj|big coord|and adj|heavy .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|CONJ 5|4|COORD 6|2|PUNCT
+*CHI:	but then the rabbit friend he made a boo_boo [: mistake] [* s:r] .
+%mor:	conj|but adv:tem|then det:art|the n|rabbit n|friend pro:sub|he
+	v|make&PAST det:art|a n|mistake .
+%gra:	1|5|LINK 2|5|JCT 3|5|DET 4|5|MOD 5|7|CJCT 6|7|SUBJ 7|0|ROOT 8|9|DET
+	9|7|OBJ 10|7|PUNCT
+*CHI:	he dropped the sand on the castle .
+%mor:	pro:sub|he v|drop-PAST det:art|the n|sand prep|on det:art|the
+	n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*CHI:	it was like a big crash .
+%mor:	pro:per|it cop|be&PAST&13S prep|like det:art|a adj|big n|crash .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|2|PUNCT
+*CHI:	and it fell down .
+%mor:	coord|and pro:per|it v|fall&PAST adv|down .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*CHI:	the doggie friend she was crying .
+%mor:	det:art|the n|dog-DIM n|friend pro:sub|she aux|be&PAST&13S
+	part|cry-PRESP .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|6|SUBJ 5|6|AUX 6|3|CMOD 7|3|PUNCT
+*CHI:	she was sad because her castle was broken .
+%mor:	pro:sub|she cop|be&PAST&13S adj|sad conj|because det:poss|her
+	n|castle aux|be&PAST&13S part|break&PASTP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|8|LINK 5|6|DET 6|8|SUBJ 7|8|AUX 8|2|CJCT
+	9|2|PUNCT
+*CHI:	the rabbit friend he felt bad .
+%mor:	det:art|the n|rabbit n|friend pro:sub|he v|feel&PAST adj|bad .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|5|SUBJ 5|3|CMOD 6|5|JCT 7|3|PUNCT
+*CHI:	he didn't mean to break it .
+%mor:	pro:sub|he mod|do&PAST~neg|not v|mean inf|to v|break pro:per|it .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|4|PUNCT
+*CHI:	he wanted to make it better .
+%mor:	pro:sub|he v|want-PAST inf|to v|make pro:per|it v|better .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|SUBJ 6|4|COMP 7|2|PUNCT
+*CHI:	so he started patting the sand again .
+%mor:	co|so pro:sub|he v|start-PAST part|pat-PRESP det:art|the n|sand
+	adv:tem|again .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|6|DET 6|4|OBJ 7|4|JCT 8|3|PUNCT
+*CHI:	he was trying to fix it .
+%mor:	pro:sub|he aux|be&PAST&13S part|try-PRESP inf|to v|fix pro:per|it .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|PUNCT
+*CHI:	they were gonna [: going to] build a new one .
+%mor:	pro:sub|they aux|be&PAST part|go-PRESP inf|to v|build det:art|a
+	adj|new pro:indef|one .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|8|DET 7|8|MOD 8|5|OBJ
+	9|3|PUNCT
+*CHI:	and it was gonna [: going to] be even better !
+%mor:	coord|and pro:per|it aux|be&PAST&13S part|go-PRESP inf|to cop|be
+	adv|even v|better !
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|JCT 8|6|PRED
+	9|4|PUNCT
+@End

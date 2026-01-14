@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0a rabbit and 0a doggie play [: played] [* m:0ed] together .
+%mor:	n|rabbit coord|and n|dog-DIM v|play-PAST adv|together .
+%gra:	1|4|SUBJ 2|1|CONJ 3|2|COORD 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*CHI:	they make [: made] [* m:base:ed] 0a sandcastle .
+%mor:	pro:sub|they v|make&PAST n|+n|sand+n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they have [: had] [* m:base:ed] shovel [: shovels] [* m:0s] .
+%mor:	pro:sub|they v|have&PAST n|shovel-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they want [: wanted] [* m:0ed] to build 0a big one .
+%mor:	pro:sub|they v|want-PAST inf|to v|build adj|big pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|MOD 6|4|OBJ 7|2|PUNCT
+*CHI:	0the doggie do [: made] [* m:unv:a] [* s:r] 0the wall .
+%mor:	n|dog-DIM v|make&PAST n|wall .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	she <go [: went] [* m:base:ed] [* m:unv:a] [* s:r]> [/] go 0like <pat> [/] pat .
+%mor:	pro:sub|she v|go v|pat .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|COMP 4|2|PUNCT
+*CHI:	0the rabbit do [: used] [* m:unv:a] [* s:r] 0the bucket .
+%mor:	n|rabbit v|use-PAST n|bucket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	he <go [: went] [* m:unv:a] [* m:base:ed]> [/] go 0to dig .
+%mor:	pro:sub|he v|go v|dig .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|COMP 4|2|PUNCT
+*CHI:	they work [: worked] [* m:0ed] hard .
+%mor:	pro:sub|they v|work-PAST adv|hard .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHI:	0the rabbit go [: said] [* m:unv:a] [* m:base:ed] [* s:r] oops@i !
+%mor:	n|rabbit v|say&PAST co|oops !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|COM 4|2|PUNCT
+*CHI:	he put [* m:unv:a] sand on 0the castle .
+%mor:	pro:sub|he v|put&ZERO n|sand prep|on n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|POBJ 6|2|PUNCT
+*CHI:	0the castle fall [: fell] [* m:unv:a] [* m:base:ed] down .
+%mor:	n|castle v|fall&PAST adv|down .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHI:	0the doggie cry [: cried] [* m:unv:a] [* m:0ed] .
+%mor:	n|dog-DIM part|cry-PASTP .
+%gra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
+*CHI:	she 0was sad .
+%mor:	pro:sub|she adj|sad .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	0the rabbit 0was sad too .
+%mor:	n|rabbit adj|sad post|too .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|PQ 4|1|PUNCT
+*CHI:	0the rabbit <go [: went] [* m:base:ed] [* s:r]> [/] go 0like <pat> [/] pat .
+%mor:	n|rabbit v|go v|pat .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|COMP 4|2|PUNCT
+*CHI:	he fix [: fixed] [* m:unv:a] [* m:0ed] 0the castle .
+%mor:	pro:sub|he v|fix-PAST n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0the doggie 0was happy .
+%mor:	n|dog-DIM adj|happy .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	they build [: built] [* m:base:ed] 0a new one .
+%mor:	pro:sub|they v|build&PAST adj|new pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	they work [: worked] [* m:0ed] together .
+%mor:	pro:sub|they v|work-PAST adv|together .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+@End

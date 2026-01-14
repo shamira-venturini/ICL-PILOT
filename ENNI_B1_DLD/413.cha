@@ -1,0 +1,42 @@
+@UTF8
+@PID:	11312/c-00036108-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|4;10.26|male|SLI||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	413, audio
+@Comment:	Birth of CHI is 31-MAY-1995
+@Date:	26-APR-2000
+@Tape Location:	Disk L11 Track 30
+@Types:	cross, narrative, SLI
+@G:	B1
+*CHI:	he play <on s> [//] in sand . 208595_211035
+%mor:	pro:sub|he n|play prep|in n|sand .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*CHI:	and play make castle . 212515_214255
+%mor:	coord|and n|play v|make n|castle .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and dump it . 216495_217895
+%mor:	coord|and v|dump pro:per|it .
+%gra:	1|2|LINK 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*EXA:	and what ? 219375_219955
+%mor:	cconj|and pron|what-Int-S1 ?
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	dump it . [+ bch]
+%mor:	v|dump pro:per|it .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	oh no . 219695_220855
+%mor:	co|oh co|no .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	oops sorry . 225035_226455
+%mor:	co|oops co|sorry .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	and cry . 232405_235512
+%mor:	coord|and n|cry .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*CHI:	uhoh . 235512_236385
+%mor:	co|uhoh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+@End

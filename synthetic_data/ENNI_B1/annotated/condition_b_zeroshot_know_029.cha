@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	two friends wabbit [: rabbit] [* p:n] and doggie pway [: played] [* p:n] [* m:0ed] in 0the sand .
+%mor:	det:num|two n|friend-PL n|rabbit coord|and n|dog-DIM v|play-PAST
+	prep|in n|sand .
+%gra:	1|2|QUANT 2|3|MOD 3|6|SUBJ 4|3|CONJ 5|4|COORD 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|6|PUNCT
+*CHI:	dey [: they] [* p:n] have [: had] [* m:base:ed] wifel [: shovel] [* n:k] and 0a bucket .
+%mor:	pro:sub|they v|have&PAST n|shovel coord|and n|bucket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|2|PUNCT
+*CHI:	dey [: they] [* p:n] wanna [: wanted to] [* m:0ed] make 0a big wawcastle [: sandcastle] [* n:k] [* s:r:seg] togetha [: together] .
+%mor:	pro:sub|they v|want-PAST inf|to v|make adj|big n|+n|sand+n|castle
+	adv|together .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|MOD 6|4|OBJ 7|4|JCT 8|2|PUNCT
+*CHI:	doggie <pat [: patted] [* m:unv:a] [* m:0ed]> [/] pat [/] pat sand .
+%mor:	n|dog-DIM n|pat n|sand .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*CHI:	0he make [: made] [* m:base:ed] wawcastle [: sandcastle] [* n:k] [* s:r:seg] strong .
+%mor:	v|make&PAST n|+n|sand+n|castle adj|strong .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|POSTMOD 4|1|PUNCT
+*CHI:	wabbit [: rabbit] [* p:n] <dig [: dug] [* m:unv:a] [* m:base:ed]> [/] dig [/] dig sand .
+%mor:	n|rabbit n|dig n|sand .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*CHI:	0he get [: got] [* m:unv:a] [* m:base:ed] more sand .
+%mor:	v|get&PAST qn|more n|sand .
+%gra:	1|0|ROOT 2|3|QUANT 3|1|OBJ 4|1|PUNCT
+*CHI:	but wabbit [: rabbit] [* p:n] make [: made] [* m:unv:a] [* m:base:ed] 0a boo_boo [: mistake] [* s:r] .
+%mor:	conj|but n|rabbit v|make&PAST n|mistake .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	he lift [: lifted] [* m:unv:a] [* m:0ed] 0the bucket and (...) whoosh@o !
+%mor:	pro:sub|he v|lift-PAST n|bucket coord|and on|whoosh !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|2|PUNCT
+*CHI:	all 0the sand <go [: went] [* m:unv:a] [* m:base:ed]> [/] go on top 0of wawcastle [: sandcastle] [* n:k] [* s:r:seg] .
+%mor:	qn|all n|sand v|go prep|on n|top n|+n|sand+n|castle .
+%gra:	1|2|QUANT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|MOD 6|4|POBJ 7|3|PUNCT
+*CHI:	0the wawcastle [: sandcastle] [* n:k] [* s:r:seg] smash [: smashed] [* m:0ed] !
+%mor:	n|+n|sand+n|castle v|smash-PAST !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	doggie 0was sad .
+%mor:	n|dog-DIM adj|sad .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	doggie cry [: cried] [* m:unv:a] [* m:0ed] .
+%mor:	n|dog-DIM part|cry-PASTP .
+%gra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
+*CHI:	wabbit [: rabbit] [* p:n] feel [: felt] [* m:unv:a] [* m:base:ed] bad .
+%mor:	n|rabbit v|feel&PAST adj|bad .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	wabbit [: rabbit] [* p:n] 0did no [: not] [* s:r] wanna [: want to] break wawcastle [: sandcastle] [* n:k] [* s:r:seg] .
+%mor:	n|rabbit neg|not v|want inf|to v|break n|+n|sand+n|castle .
+%gra:	1|3|SUBJ 2|1|NEG 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|PUNCT
+*CHI:	wabbit [: rabbit] [* p:n] pway [: played] [* m:unv:a] [* p:n] [* m:0ed] 0with sand .
+%mor:	n|rabbit v|play-PAST n|sand .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0he fix [: fixed] [* m:0ed] wawcastle [: sandcastle] [* n:k] [* s:r:seg] .
+%mor:	part|fix-PASTP n|+n|sand+n|castle .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	doggie 0was happy .
+%mor:	n|dog-DIM adj|happy .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	they make [: made] [* m:base:ed] 0a new wawcastle [: sandcastle] [* n:k] [* s:r:seg] .
+%mor:	pro:sub|they v|make&PAST adj|new n|+n|sand+n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+@End

@@ -1,0 +1,72 @@
+@UTF8
+@PID:	11312/c-00036241-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;05.12|female|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	507, audio
+@Comment:	Birth of CHI is 18-SEP-1994
+@Date:	01-MAR-2000
+@Tape Location:	Disk L2 Track 12
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	two bunnies on the picture (.) and a sandcastle . 83205_86125
+%mor:	det:num|two n|bunny-PL prep|on det:art|the n|picture coord|and
+	det:art|a n|+n|sand+n|castle .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|NJCT 4|5|DET 5|3|POBJ 6|2|CONJ 7|8|DET
+	8|6|COORD 9|2|PUNCT
+*CHI:	and (.) one bunny is digging . 89565_93645
+%mor:	coord|and det:num|one n|bunny aux|be&3S part|dig-PRESP .
+%gra:	1|5|LINK 2|3|QUANT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PUNCT
+*CHI:	and one bunny is breaking the sandcastle . 94105_97005
+%mor:	coord|and det:num|one n|bunny aux|be&3S part|break-PRESP
+	det:art|the n|+n|sand+n|castle .
+%gra:	1|5|LINK 2|3|QUANT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and that (i)s mean . 97325_98145
+%mor:	coord|and pro:dem|that cop|be&3S adj|mean .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*CHI:	then the next [!] bunny destroys his [!] sandcastle . 102655_107735
+%mor:	adv:tem|then det:art|the adj|next n|bunny v|destroy-3S det:poss|his
+	n|+n|sand+n|castle .
+%gra:	1|5|JCT 2|4|DET 3|4|MOD 4|5|SUBJ 5|0|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and he was going not destroy his . 108815_111395
+%mor:	coord|and pro:sub|he aux|be&PAST&13S part|go-PRESP neg|not
+	v|destroy det:poss|his .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|NEG 6|4|COMP 7|6|OBJ 8|4|PUNCT
+*CHI:	but he poured <a> [/] a sandcastle on top of it . 111635_116155
+%mor:	conj|but pro:sub|he v|pour-PAST det:art|a n|+n|sand+n|castle
+	prep|on n|top prep|of pro:per|it .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|6|POBJ 8|7|NJCT
+	9|8|POBJ 10|3|PUNCT
+*CHI:	but then (.) one of the bunnys said oh [!] our sandcastle is wrecked . 120915_127415
+%mor:	conj|but adv:tem|then det:num|one prep|of det:art|the n|bunny-PL
+	v|say&PAST co|oh det:poss|our n|+n|sand+n|castle aux|be&3S
+	part|wreck-PASTP .
+%gra:	1|7|LINK 2|7|JCT 3|7|SUBJ 4|3|NJCT 5|6|DET 6|4|POBJ 7|0|ROOT 8|12|COM
+	9|10|DET 10|12|SUBJ 11|12|AUX 12|7|COMP 13|7|PUNCT
+*CHI:	and then the other dog laughs (.) has a smile on it . 128675_133095
+%mor:	coord|and adv:tem|then det:art|the qn|other n|dog v|laugh-3S
+	v|have&3S det:art|a n|smile prep|on pro:per|it .
+%gra:	1|6|LINK 2|6|JCT 3|5|DET 4|5|QUANT 5|6|SUBJ 6|0|ROOT 7|6|OBJ 8|9|DET
+	9|7|OBJ 10|6|JCT 11|10|POBJ 12|6|PUNCT
+*EXA:	the what ? 133595_134235
+%mor:	det|the-Def-Art pron|what-Int-S1 ?
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	a smile on it . [+ bch] 134035_136035
+%mor:	det:art|a n|smile prep|on pro:per|it .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*CHI:	and (.) then one doggy (i)s crying . 141355_144235
+%mor:	coord|and adv:tem|then det:num|one adj|dog&dn-Y aux|be&3S
+	part|cry-PRESP .
+%gra:	1|6|LINK 2|6|JCT 3|4|QUANT 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*CHI:	and the bunny <is> [/] is just standing there thinking . 144935_150355
+%mor:	coord|and det:art|the n|bunny aux|be&3S adv|just part|stand-PRESP
+	adv|there part|think-PRESP .
+%gra:	1|6|LINK 2|3|DET 3|6|SUBJ 4|6|AUX 5|6|JCT 6|0|ROOT 7|6|JCT 8|6|XJCT
+	9|6|PUNCT
+*CHI:	that (i)s the last page . [+ bch] 151935_155375
+%mor:	pro:dem|that cop|be&3S det:art|the adj|last n|page .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+@End

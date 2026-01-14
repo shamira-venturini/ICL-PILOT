@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	rabby [: rabbit] [* p:n] and doggie play [: played] [* m:0ed] in 0the sand .
+%mor:	n|rabbit coord|and n|dog-DIM v|play-PAST prep|in n|sand .
+%gra:	1|4|SUBJ 2|1|CONJ 3|2|COORD 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+*CHI:	they got big sticks [: shovels] [* s:r] .
+%mor:	pro:sub|they v|get&PAST adj|big n|shovel-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	they wanna [: wanted to] [* m:0ed] build 0a big castle .
+%mor:	pro:sub|they v|want-PAST inf|to v|build adj|big n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|MOD 6|4|OBJ 7|2|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] have [: had] [* m:unv:a] [* m:base:ed] 0a bucket .
+%mor:	n|rabbit v|have&PAST n|bucket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	doggie have [: had] [* m:unv:a] [* m:base:ed] 0a little stick [: shovel] [* s:r] .
+%mor:	n|dog-DIM v|have&PAST adj|little n|shovel .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	they work [: worked] [* m:0ed] hard .
+%mor:	pro:sub|they v|work-PAST adv|hard .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] dig [: dug] [* m:unv:a] [* m:base:ed] .
+%mor:	n|rabbit v|dig&PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHI:	doggie pat [: patted] [* m:0ed] .
+%mor:	n|dog-DIM part|pat-PASTP .
+%gra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] do [: did] [* m:base:ed] 0a bad thing .
+%mor:	n|rabbit v|do&PAST adj|bad n|thing .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	he pour [: poured] [* m:unv:a] [* m:0ed] sand on 0the castle .
+%mor:	pro:sub|he v|pour-PAST n|sand prep|on n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|POBJ 6|2|PUNCT
+*CHI:	0the castle fall [: fell] [* m:unv:a] [* m:base:ed] down .
+%mor:	n|castle v|fall&PAST adv|down .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHI:	doggie 0was sad .
+%mor:	n|dog-DIM adj|sad .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	doggie cry [: cried] [* m:unv:a] [* m:0ed] .
+%mor:	n|dog-DIM part|cry-PASTP .
+%gra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] feel [: felt] [* m:unv:a] [* m:base:ed] bad .
+%mor:	n|rabbit v|feel&PAST adj|bad .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] wanna [: wanted to] [* m:0ed] fix 0it . [+ gram]
+%mor:	n|rabbit v|want-PAST inf|to v|fix .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] pat [: patted] [* m:unv:a] [* m:0ed] sand .
+%mor:	n|rabbit v|pat-PAST n|sand .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	he try [: tried] [* m:unv:a] [* m:0ed] to fix 0the castle .
+%mor:	pro:sub|he v|try-PAST inf|to v|fix n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|2|PUNCT
+*CHI:	doggie 0was happy .
+%mor:	n|dog-DIM adj|happy .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	they build [: built] [* m:base:ed] 0a new castle .
+%mor:	pro:sub|they v|build&PAST adj|new n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	rabby [: rabbit] [* p:n] and doggie 0were happy together .
+%mor:	n|rabbit coord|and n|dog-DIM adj|happy adv|together .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|POSTMOD 5|4|JCT 6|1|PUNCT
+@End

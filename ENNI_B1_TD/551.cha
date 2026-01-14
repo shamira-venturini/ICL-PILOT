@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/c-00036272-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;00.30|female|TD||Target_Child|||
+@Media:	551, audio
+@Comment:	Birth of CHI is 28-MAY-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 5
+@G:	A1
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once there was a little (.) baby kangaroo . 62945_66765
+%mor:	adv:tem|once^conj|once adv|there^pro:exist|there^n|there
+	cop|be&PAST&13S^aux|be&PAST&13S det:art|a adj|little n|baby^v|baby
+	n|kangaroo .
+%gra:	1|3|MARK 2|3|EXPL 3|7|ROOT 4|7|DET 5|7|AMOD 6|7|COMPOUND 7|3|NSUBJ 8|3|PUNCT
+*CHI:	<and he was> [//] (.) and she was <um> [/] building a sandcastle of a castle . 67885_74485
+%mor:	coord|and pro:sub|she cop|be&PAST&13S^aux|be&PAST&13S
+	n|building^n:gerund|build-GERUND^part|build-PRESP det:art|a
+	n|+n|sand+n|castle prep|of det:art|a n|castle .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|DET 9|6|NMOD 10|4|PUNCT
+*CHI:	(.) and then <a ll> [/] a bunny came along and said can I help ? 75385_81645
+%mor:	coord|and adv:tem|then det:art|a n|bunny v|come&PAST
+	adv|along^prep|along coord|and part|say&PASTP^v|say&PAST
+	n|can^mod|can pro:sub|I n|help^co|help^v|help ?
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|11|ROOT 6|5|ADVMOD 7|8|CC 8|5|CONJ 9|11|AUX 10|11|NSUBJ 11|8|CCOMP 12|5|PUNCT
+*CHI:	sure ! 81525_82025
+%mor:	adv|sure^co|sure^adj|sure !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	what are you doing ? 87785_88905
+%mor:	det:int|what^pro:int|what cop|be&PRES^aux|be&PRES pro:per|you
+	n:gerund|do-GERUND^part|do-PRESP ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	you (a)re pouring all this sand over the sandcastle ? 89105_92205
+%mor:	pro:per|you cop|be&PRES^aux|be&PRES
+	n:gerund|pour-GERUND^part|pour-PRESP
+	post|all^adv|all^qn|all^pro:indef|all det:dem|this^pro:dem|this
+	n|sand^v|sand adv|over^prep|over det:art|the n|+n|sand+n|castle ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|6|DET-PREDET 5|6|DET 6|3|OBJ 7|9|CASE 8|9|DET 9|3|OBL 10|3|PUNCT
+*CHI:	that (i)s not helping . 92485_93945
+%mor:	pro:rel|that^comp|that^det:dem|that^pro:dem|that
+	cop|be&3S^aux|be&3S neg|not n:gerund|help-GERUND^part|help-PRESP .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	that (i)s wrecking it . 94345_95905
+%mor:	pro:rel|that^comp|that^det:dem|that^pro:dem|that
+	cop|be&3S^aux|be&3S n:gerund|wreck-GERUND^part|wreck-PRESP
+	pro:per|it .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	(..) ah (.) I (a)m sorry [^ very high voice] . 97325_102085
+%mor:	co|ah pro:sub|I cop|be&1S^aux|be&1S co|sorry^adj|sorry .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	it (i)s gone [^ very high voice] . 102445_103425
+%mor:	pro:per|it cop|be&3S^aux|be&3S part|go&PASTP .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	(..) well goodbye .
+%mor:	n|well^adv|well^co|well co|goodbye .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+@End

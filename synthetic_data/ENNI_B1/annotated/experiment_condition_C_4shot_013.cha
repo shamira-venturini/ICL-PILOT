@@ -1,0 +1,83 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	he's playin(g) in the sand .
+%mor:	pro:sub|he~aux|be&3S part|play-PRESP prep|in det:art|the n|sand .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*CHI:	rabbit and dog .
+%mor:	n|rabbit coord|and n|dog .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*CHI:	they have [: had] [* m:base:ed] shovels .
+%mor:	pro:sub|they v|have&PAST n|shovel-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they wanna [: wanted to] [* m:0ed] build +...
+%mor:	pro:sub|they v|want-PAST inf|to v|build +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*CHI:	0a big castle .
+%mor:	adj|big n|castle .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	together .
+%mor:	adv|together .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	they is [: were] [* m:vsg:a] [* m:base:ed] have [: having] [* m:0ing] fun .
+%mor:	pro:sub|they aux|be&PAST part|have-PRESP n|fun .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	dog is [: was] [* m:base:ed] patin [: patting] [* p:n] sand .
+%mor:	n|dog aux|be&PAST&13S part|pat-PRESP n|sand .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	sand strong .
+%mor:	n|sand adj|strong .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	rabbit is diggin(g) sand .
+%mor:	n|rabbit aux|be&3S part|dig-PRESP n|sand .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	0to get more sand .
+%mor:	v|get qn|more n|sand .
+%gra:	1|0|ROOT 2|3|QUANT 3|1|OBJ 4|1|PUNCT
+*CHI:	they is [: were] [* m:vsg:a] [* m:base:ed] work [: working] [* m:0ing] hard .
+%mor:	pro:sub|they aux|be&PAST part|work-PRESP adv|hard .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*CHI:	&-uh rabbit &-uh 0made 0a mistake .
+%mor:	n|rabbit n|mistake .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	0he lift [: lifted] [* m:0ed] [* m:unv:a] bucket .
+%mor:	part|lift-PASTP n|bucket .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	all sand +...
+%mor:	qn|all n|sand +...
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*CHI:	castle smash [: smashed] [* m:0ed] [* m:unv:a] flat .
+%mor:	n|castle v|smash-PAST n|flat .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	dog is cryin(g) .
+%mor:	n|dog aux|be&3S part|cry-PRESP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*CHI:	cry cry .
+%mor:	n|cry n|cry .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	castle &-uh break [: broke] [* m:base:ed] [* m:unv:a] .
+%mor:	n|castle adj|broke .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|1|PUNCT
+*CHI:	rabbit &-uh feel [: felt] [* m:base:ed] [* m:unv:a] bad .
+%mor:	n|rabbit v|feel&PAST adj|bad .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	rabbit is [: was] [* m:base:ed] patin [: patting] [* p:n] sand .
+%mor:	n|rabbit aux|be&PAST&13S part|pat-PRESP n|sand .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	0to fix 0the castle .
+%mor:	v|fix n|castle .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	dog is [: was] [* m:base:ed] happy .
+%mor:	n|dog cop|be&PAST&13S adj|happy .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	new castle .
+%mor:	adj|new n|castle .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	they is [: were] [* m:vsg:a] [* m:base:ed] build [: building] [* m:0ing] .
+%mor:	pro:sub|they aux|be&PAST part|build-PRESP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+@End

@@ -1,0 +1,35 @@
+@UTF8
+@PID:	11312/c-00036209-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;11.15|male|TD||Target_Child|||
+@Media:	443, audio
+@Comment:	Birth of CHI is 05-DEC-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 98
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	there (i)s a rabbit looking at a dog . 47295_47795
+%mor:	pro:exist|there cop|be&3S det:art|a n|rabbit part|look-PRESP
+	prep|at det:art|a n|dog .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|XMOD 6|5|JCT 7|8|DET 8|6|POBJ
+	9|2|PUNCT
+*CHI:	there (i)s a dog (.) building a sandcastle . 68375_72195
+%mor:	pro:exist|there cop|be&3S det:art|a n|dog n|building det:art|a
+	n|+n|sand+n|castle .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|7|DET 7|5|OBJ 8|2|PUNCT
+*CHI:	a rabbit is pouring the sand onto the sandcastle . 73995_80295
+%mor:	det:art|a n|rabbit aux|be&3S part|pour-PRESP det:art|the n|sand
+	prep|onto det:art|the n|+n|sand+n|castle .
+%gra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|JCT 8|9|DET
+	9|7|POBJ 10|4|PUNCT
+*CHI:	and it falls down into a big pile . 82615_87055
+%mor:	coord|and pro:per|it v|fall-3S adv|down prep|into det:art|a adj|big
+	n|pile .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|3|PUNCT
+*CHI:	the dog is very sad . 91105_92745
+%mor:	det:art|the n|dog aux|be&3S adv|very adj|sad .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|PUNCT
+@End

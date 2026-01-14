@@ -1,0 +1,56 @@
+@UTF8
+@PID:	11312/c-00036284-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@Options:	bullets
+@ID:	eng|ENNI|CHI|5;04.01|female|TD||Target_Child|||
+@Media:	571, audio
+@Comment:	Birth of CHI is 24-JAN-1996
+@Date:	25-MAY-2001
+@Tape Location:	Disk L28 Track 61
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	there was a little (.) &-um (.) doggy who (i)s making a sandcastle . 48255_53355
+%mor:	adv|there^pro:exist|there^n|there cop|be&PAST&13S^aux|be&PAST&13S
+	det:art|a adj|little n|dog-DIM^adj|dog&dn-Y pro:rel|who^pro:int|who
+	cop|be&3S^aux|be&3S n:gerund|make-GERUND^part|make-PRESP det:art|a
+	n|+n|sand+n|castle .
+%gra:	1|2|EXPL 2|10|ROOT 3|5|DET 4|5|AMOD 5|2|NSUBJ 6|8|NSUBJ 7|8|AUX 8|5|ACL-RELCL 9|10|DET 10|8|OBJ 11|2|PUNCT
+*CHI:	and then <th> [/] <the> [/] the bunny digs in (.) the bucket . 54615_61755
+%mor:	coord|and adv:tem|then det:art|the n|bunny n|dig-PL^v|dig-3S
+	adv|in^prep|in det:art|the n|bucket .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|DET 4|5|COMPOUND 5|8|ROOT 6|8|CASE 7|8|DET 8|5|NMOD 9|5|PUNCT
+*CHI:	and then he started pouring on the little (.) doggy's sandcastle . 64185_70005
+%mor:	coord|and adv:tem|then pro:sub|he part|start-PASTP^v|start-PAST
+	n:gerund|pour-GERUND^part|pour-PRESP adv|on^prep|on det:art|the
+	adj|little adj|dog&dn-DIM-POSS n|+n|sand+n|castle .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|11|ROOT 5|4|XCOMP 6|11|CASE 7|9|DET 8|9|AMOD 9|11|NMOD-POSS 10|9|CASE 11|5|OBL 12|4|PUNCT
+*CHI:	and the doggy felt really sad . 70525_72525
+%mor:	coord|and det:art|the n|dog-DIM^adj|dog&dn-Y
+	n|felt^part|feel&PASTP^v|feel&PAST adv|real&dadj-LY adj|sad .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|ADVMOD 6|4|XCOMP 7|4|PUNCT
+*CHI:	and then the bunny saw what he <s> [/] has done to his friend's sandcastle . 74005_80585
+%mor:	coord|and adv:tem|then det:art|the n|bunny n|saw^v|see&PAST
+	det:int|what^pro:int|what pro:sub|he v|have&3S^aux|have&3S
+	part|do&PASTP inf|to^prep|to det:poss|his^pro:poss|his
+	adj|friend&dn-POSS n|+n|sand+n|castle .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|14|ROOT 6|5|OBJ 7|9|NSUBJ 8|9|AUX 9|6|ACL-RELCL 10|14|CASE 11|12|NMOD-POSS 12|14|NMOD-POSS 13|12|CASE 14|9|OBL 15|5|PUNCT
+*CHI:	he felt really bad . 81165_82545
+%mor:	pro:sub|he n|felt^part|feel&PASTP^v|feel&PAST adv|real&dadj-LY
+	adj|bad .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|ADVMOD 4|2|XCOMP 5|2|PUNCT
+*CHI:	and then he tried to keep it &-um that he was sorry . 84865_88745
+%mor:	coord|and adv:tem|then pro:sub|he part|try-PASTP^v|try-PAST
+	inf|to^prep|to v|keep pro:per|it
+	pro:rel|that^comp|that^det:dem|that^pro:dem|that pro:sub|he
+	cop|be&PAST&13S^aux|be&PAST&13S co|sorry^adj|sorry .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|11|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|11|MARK 9|11|NSUBJ 10|11|COP 11|6|CCOMP 12|4|PUNCT
+*CHI:	but he did n(o)t really mean it . 88825_90805
+%mor:	conj|but pro:sub|he v|do&PAST^mod|do&PAST neg|not adv|real&dadj-LY
+	v|mean^adj|mean pro:per|it .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|AUX 4|6|ADVMOD 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det:art|the n|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -3,7 +3,7 @@ import pandas as pd
 import re
 
 # --- CONFIGURATION ---
-DATA_PATH = "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/dld_narrative/"
+DATA_PATH = "/real_data/dld_narrative/"
 OUTPUT_FILE = "../real_data/dld_stories_naturalistic.csv"
 
 

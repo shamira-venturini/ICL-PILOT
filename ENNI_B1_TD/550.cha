@@ -1,0 +1,241 @@
+@UTF8
+@PID:	11312/c-00036271-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;06.13|male|TD||Target_Child|||
+@Media:	550, audio, missing
+@Comment:	Birth of CHI is 29-JUN-1995
+@Date:	11-JAN-2001
+@Tape Location:	Disk L23 Track 40
+@G:	A1
+@Types:	cross, narrative, TD
+*CHI:	&-um (..) the donkey wanted to play <uh with> [/] with another animal with his balls .
+%mor:	det:art|the n|donkey part|want-PASTP^v|want-PAST inf|to^prep|to
+	n|play^v|play prep|with qn|another^pro:indef|another n|animal
+	prep|with det:poss|his^pro:poss|his n|ball-PL^v|ball-3S .
+%gra:	1|2|DET 2|3|NSUBJ 3|11|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|11|CASE 10|11|NMOD-POSS 11|5|OBL 12|3|PUNCT
+*CHI:	<um (..) they> [/] they went to the swim pool .
+%mor:	pro:sub|they v|go&PAST inf|to^prep|to det:art|the n|swim
+	n|pool^v|pool .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|6|CASE 4|6|DET 5|6|COMPOUND 6|2|OBL 7|2|PUNCT
+*CHI:	and <they> [/] they found a friend .
+%mor:	coord|and pro:sub|they part|find&PASTP^v|find&PAST det:art|a
+	n|friend .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and he jumped in the (.) water and splashed the elephant by accident .
+%mor:	coord|and pro:sub|he part|jump-PASTP^v|jump-PAST adv|in^prep|in
+	det:art|the n|water coord|and part|splash-PASTP^v|splash-PAST
+	det:art|the n|elephant adv|by^prep|by n|accident .
+%gra:	1|3|CC 2|3|NSUBJ 3|12|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|8|CC 8|3|CONJ 9|10|DET 10|8|OBJ 11|12|CASE 12|8|OBL 13|3|PUNCT
+*CHI:	and the elephant picked the ball up .
+%mor:	coord|and det:art|the n|elephant part|pick-PASTP^v|pick-PAST
+	det:art|the n|ball adv|up^prep|up^v|up .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|COMPOUND-PRT 8|4|PUNCT
+*CHI:	and the giraffe asked if he could have it .
+%mor:	coord|and det:art|the n|giraffe part|ask-PASTP^v|ask-PAST
+	comp|if^conj|if pro:sub|he mod|could v|have pro:per|it .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|8|MARK 6|8|NSUBJ 7|8|AUX 8|4|CCOMP 9|8|OBJ 10|4|PUNCT
+*CHI:	and he came out with his (.) clothes on .
+%mor:	coord|and pro:sub|he v|come&PAST n|out^adv|out^prep|out prep|with
+	det:poss|his^pro:poss|his n:pt|clothes^v|clothe-3S adv|on^prep|on .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|COMPOUND-PRT 5|7|CASE 6|7|NMOD-POSS 7|3|OBL 8|3|OBL 9|3|PUNCT
+@G:	A2
+*CHI:	&-um they went back to the swimming (.) pool and did n(o)t wanna go into the water .
+%mor:	pro:sub|they v|go&PAST n|back^adv|back^adj|back^v|back
+	inf|to^prep|to det:art|the n:gerund|swim-GERUND^part|swim-PRESP
+	n|pool^v|pool coord|and v|do&PAST^mod|do&PAST neg|not v|want~inf|to
+	v|go prep|into det:art|the n|water .
+%gra:	1|2|NSUBJ 2|15|ROOT 3|2|ADVMOD 4|7|CASE 5|7|DET 6|7|COMPOUND 7|2|OBL 8|12|CC 9|12|AUX 10|12|ADVMOD 11|12|ADVMOD 12|2|CONJ 13|15|CASE 14|15|DET 15|12|OBL 16|2|PUNCT
+*CHI:	the elephant wanted to go in the water .
+%mor:	det:art|the n|elephant part|want-PASTP^v|want-PAST inf|to^prep|to
+	v|go adv|in^prep|in det:art|the n|water .
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|PUNCT
+*CHI:	but the giraffe did n(o)t .
+%mor:	conj|but det:art|the n|giraffe v|do&PAST^mod|do&PAST neg|not .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	&-um the elephant (.) asked if he could race the (.) giraffe to the diving board .
+%mor:	det:art|the n|elephant part|ask-PASTP^v|ask-PAST comp|if^conj|if
+	pro:sub|he mod|could v|race det:art|the n|giraffe inf|to^prep|to
+	det:art|the n:gerund|dive-GERUND^part|dive-PRESP n|board^v|board .
+%gra:	1|2|DET 2|3|NSUBJ 3|13|ROOT 4|7|MARK 5|7|NSUBJ 6|7|AUX 7|3|CCOMP 8|9|DET 9|7|OBJ 10|13|CASE 11|13|DET 12|13|COMPOUND 13|7|OBL 14|3|PUNCT
+*CHI:	but (.) the elephant tripped <and> [/] and fell and hurt her knee .
+%mor:	conj|but det:art|the n|elephant part|trip-PASTP^v|trip-PAST
+	coord|and v|fall&PAST coord|and part|hurt&PASTP^v|hurt&ZERO
+	pro:obj|her^det:poss|her n|knee .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|6|CC 6|4|CONJ 7|8|CC 8|4|CONJ 9|10|NMOD-POSS 10|8|OBJ 11|4|PUNCT
+*CHI:	and (.) the swimming (.) person checked if he was okay (..) and put the bandaid on her .
+%mor:	coord|and det:art|the n:gerund|swim-GERUND^part|swim-PRESP n|person
+	part|check-PASTP^v|check-PAST comp|if^conj|if pro:sub|he
+	cop|be&PAST&13S^aux|be&PAST&13S co|okay^adj|okay coord|and
+	part|put&PASTP^v|put&ZERO det:art|the n|bandaid adv|on^prep|on
+	pro:obj|her^det:poss|her .
+%gra:	1|5|CC 2|4|DET 3|4|COMPOUND 4|5|NSUBJ 5|15|ROOT 6|9|MARK 7|9|NSUBJ 8|9|COP 9|5|ADVCL 10|11|CC 11|9|CONJ 12|13|DET 13|11|OBJ 14|15|CASE 15|11|OBL 16|5|PUNCT
+*CHI:	and she feeled all better .
+%mor:	coord|and pro:sub|she part|feel-PASTP
+	post|all^adv|all^qn|all^pro:indef|all
+	adv|good&CP^adj|good&CP^v|better .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|PUNCT
+*CHI:	and she stayed there so she could get better .
+%mor:	coord|and pro:sub|she cop|stay-PAST^part|stay-PASTP^v|stay-PAST
+	adv|there^pro:exist|there^n|there adv|so^co|so^conj|so pro:sub|she
+	mod|could v|get adv|good&CP^adj|good&CP^v|better .
+%gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|3|ADVMOD 5|8|MARK 6|8|NSUBJ 7|8|AUX 8|3|ADVCL 9|8|XCOMP 10|3|PUNCT
+@G:	A3
+*CHI:	&-um the (.) giraffe throwed his airplane .
+%mor:	det:art|the n|giraffe part|throw-PASTP det:poss|his^pro:poss|his
+	n|+n|air+n|plane .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and it flew .
+%mor:	coord|and pro:per|it v|fly&PAST .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	<but> [/] but by accident he <th> [/] threw it too soft .
+%mor:	conj|but adv|by^prep|by n|accident pro:sub|he v|throw&PAST
+	pro:per|it post|too^adv|too adj|soft .
+%gra:	1|5|CC 2|3|CASE 3|5|OBL 4|5|NSUBJ 5|8|ROOT 6|5|OBJ 7|8|ADVMOD 8|5|XCOMP 9|5|PUNCT
+*CHI:	and it fell in the water .
+%mor:	coord|and pro:per|it v|fall&PAST adv|in^prep|in det:art|the n|water
+	.
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and (.) he tried to get it out .
+%mor:	coord|and pro:sub|he part|try-PASTP^v|try-PAST inf|to^prep|to
+	v|get^aux|get pro:per|it n|out^adv|out^prep|out .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|COMPOUND-PRT 8|3|PUNCT
+*CHI:	<but he> [//] and he did .
+%mor:	coord|and pro:sub|he v|do&PAST^mod|do&PAST .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and without asking (.) the elephant grabbed the airplane away from him because she wanted to play with it .
+%mor:	coord|and prep|without n:gerund|ask-GERUND^part|ask-PRESP
+	det:art|the n|elephant part|grab-PASTP^v|grab-PAST det:art|the
+	n|+n|air+n|plane adv|away prep|from pro:obj|him conj|because
+	pro:sub|she part|want-PASTP^v|want-PAST inf|to^prep|to n|play^v|play
+	prep|with pro:per|it .
+%gra:	1|6|CC 2|3|MARK 3|6|ADVCL 4|5|DET 5|3|OBJ 6|18|ROOT 7|8|DET 8|6|OBJ 9|6|ADVMOD 10|11|CASE 11|6|OBL 12|14|MARK 13|14|NSUBJ 14|6|ADVCL 15|16|MARK 16|14|XCOMP 17|18|CASE 18|16|OBL 19|6|PUNCT
+*CHI:	<and because they was grabbing> [//] they grabbed .
+%mor:	pro:sub|they part|grab-PASTP^v|grab-PAST .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	and it fell in the water .
+%mor:	coord|and pro:per|it v|fall&PAST adv|in^prep|in det:art|the n|water
+	.
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and the giraffe was angry at the elephant because she (.) throwed it in by accident .
+%mor:	coord|and det:art|the n|giraffe cop|be&PAST&13S^aux|be&PAST&13S
+	adj|angry prep|at det:art|the n|elephant conj|because pro:sub|she
+	part|throw-PASTP pro:per|it adv|in^prep|in adv|by^prep|by n|accident
+	.
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|15|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|11|MARK 10|11|NSUBJ 11|5|ADVCL 12|11|OBJ 13|11|COMPOUND-PRT 14|15|CASE 15|11|OBL 16|5|PUNCT
+*CHI:	the lifeguard was mad because (.) they throwed it in .
+%mor:	det:art|the n|+n|life+n|guard cop|be&PAST&13S^aux|be&PAST&13S
+	adj|mad conj|because pro:sub|they part|throw-PASTP pro:per|it
+	adv|in^prep|in .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|9|ROOT 5|7|MARK 6|7|NSUBJ 7|4|ADVCL 8|7|OBJ 9|7|COMPOUND-PRT 10|4|PUNCT
+*CHI:	and toys was n(o)t sposta be in the water .
+%mor:	coord|and n|toy-PL^v|toy-3S cop|be&PAST&13S^aux|be&PAST&13S neg|not
+	part|suppose&PASTP~inf|to cop|be^aux|be adv|in^prep|in det:art|the
+	n|water .
+%gra:	1|9|CC 2|9|NSUBJ 3|9|COP 4|9|ADVMOD 5|9|NSUBJ 6|9|COP 7|9|CASE 8|9|DET 9|9|ROOT 10|9|PUNCT
+*CHI:	and the elephant (.) said look what I did .
+%mor:	coord|and det:art|the n|elephant part|say&PASTP^v|say&PAST
+	n|look^co|look^cop|look^v|look det:int|what^pro:int|what pro:sub|I
+	v|do&PAST^mod|do&PAST .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|CCOMP 6|5|OBJ 7|8|NSUBJ 8|6|ACL-RELCL 9|4|PUNCT
+*CHI:	it was by accident .
+%mor:	pro:per|it cop|be&PAST&13S^aux|be&PAST&13S adv|by^prep|by
+	n|accident .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|CASE 4|4|ROOT 5|4|PUNCT
+*CHI:	and the lifeguard tried to pick it up .
+%mor:	coord|and det:art|the n|+n|life+n|guard part|try-PASTP^v|try-PAST
+	inf|to^prep|to v|pick pro:per|it adv|up^prep|up^v|up .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|6|COMPOUND-PRT 9|4|PUNCT
+*CHI:	but he could n(o)t .
+%mor:	conj|but pro:sub|he mod|could neg|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	the lifeguard could n(o)t .
+%mor:	det:art|the n|+n|life+n|guard mod|could neg|not .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	so he just got up .
+%mor:	adv|so^co|so^conj|so pro:sub|he adv|just^adj|just
+	part|get&PASTP^v|get&PAST^aux|get&PAST adv|up^prep|up^v|up .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	and he had an <ide> [//] a plan .
+%mor:	coord|and pro:sub|he part|have&PASTP^v|have&PAST^aux|have&PAST
+	det:art|a det:art|a n|plan^v|plan .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|DET 6|3|OBJ 7|3|PUNCT
+*CHI:	<he> [/-] (.) but (.) he did n(o)t .
+%mor:	conj|but pro:sub|he v|do&PAST^mod|do&PAST neg|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	his wife took (.) &-um (.) a stick with a rope <on the ss> [//] on the front .
+%mor:	det:poss|his^pro:poss|his n|wife v|take&PAST det:art|a n|stick
+	prep|with det:art|a n|rope adv|on^prep|on det:art|the
+	n|front^adj|front^v|front .
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|11|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|11|CASE 10|11|DET 11|3|OBL 12|3|PUNCT
+*CHI:	and he catched it out .
+%mor:	coord|and pro:sub|he part|catch-PASTP pro:per|it
+	n|out^adv|out^prep|out .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	<he tried to> [//] she tried to catch it out .
+%mor:	pro:sub|she part|try-PASTP^v|try-PAST inf|to^prep|to v|catch
+	pro:per|it n|out^adv|out^prep|out .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|4|COMPOUND-PRT 7|2|PUNCT
+*CHI:	<an> [//] but she could n(o)t .
+%mor:	conj|but pro:sub|she mod|could neg|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and she did .
+%mor:	coord|and pro:sub|she v|do&PAST^mod|do&PAST .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and she gave it back to the <el> [//] giraffe .
+%mor:	coord|and pro:sub|she v|give&PAST pro:per|it
+	n|back^adv|back^adj|back^v|back inf|to^prep|to det:art|the n|giraffe
+	.
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|OBJ 5|3|ADVMOD 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	and now he was proud (.) of (.) the girl because (.) she got his plane back .
+%mor:	coord|and adv:tem|now pro:sub|he cop|be&PAST&13S^aux|be&PAST&13S
+	adj|proud prep|of det:art|the n|girl conj|because pro:sub|she
+	part|get&PASTP^v|get&PAST^aux|get&PAST det:poss|his^pro:poss|his
+	n|plane^v|plane n|back^adv|back^adj|back^v|back .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|14|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|11|MARK 10|11|NSUBJ 11|5|ADVCL 12|13|NMOD-POSS 13|11|OBJ 14|11|ADVMOD 15|5|PUNCT
+@G:	B1
+*CHI:	the bunny said hi to (.) the dog .
+%mor:	det:art|the n|bunny part|say&PASTP^v|say&PAST co|hi inf|to^prep|to
+	det:art|the n|dog .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|3|CCOMP 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	and the dog was making a sandcastle .
+%mor:	coord|and det:art|the n|dog cop|be&PAST&13S^aux|be&PAST&13S
+	n:gerund|make-GERUND^part|make-PRESP det:art|a n|+n|sand+n|castle .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and the bunny wanted to help .
+%mor:	coord|and det:art|the n|bunny part|want-PASTP^v|want-PAST
+	inf|to^prep|to n|help^co|help^v|help .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
+*CHI:	but the dog said yes .
+%mor:	conj|but det:art|the n|dog part|say&PASTP^v|say&PAST co|yes .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	and they started building a sandcastle .
+%mor:	coord|and pro:sub|they part|start-PASTP^v|start-PAST
+	n|building^n:gerund|build-GERUND^part|build-PRESP det:art|a
+	n|+n|sand+n|castle .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|XCOMP 5|6|DET 6|4|OBJ 7|3|PUNCT
+*CHI:	and then (.) the bunny dumped a bucket .
+%mor:	coord|and adv:tem|then det:art|the n|bunny
+	part|dump-PASTP^v|dump-PAST det:art|a n|bucket .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	<and it> [/] <and it> [//] and the (.) castle fell down .
+%mor:	coord|and det:art|the n|castle v|fall&PAST
+	n|down^adv|down^prep|down^v|down .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and the dog was (.) mad at the bunny .
+%mor:	coord|and det:art|the n|dog cop|be&PAST&13S^aux|be&PAST&13S adj|mad
+	prep|at det:art|the n|bunny .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	and the bunny was (.) sorry because he knocked the sandcastle down .
+%mor:	coord|and det:art|the n|bunny cop|be&PAST&13S^aux|be&PAST&13S
+	co|sorry^adj|sorry conj|because pro:sub|he
+	part|knock-PASTP^v|knock-PAST det:art|the n|+n|sand+n|castle
+	n|down^adv|down^prep|down^v|down .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|11|ROOT 6|8|MARK 7|8|NSUBJ 8|5|ADVCL 9|10|DET 10|8|OBJ 11|8|COMPOUND-PRT 12|5|PUNCT
+*CHI:	<and then they builded it all> [//] (.) and then the dog builded it all up and crying .
+%mor:	coord|and adv:tem|then det:art|the n|dog part|build-PASTP
+	pro:per|it post|all^adv|all^qn|all^pro:indef|all adv|up^prep|up^v|up
+	coord|and n:gerund|cry-GERUND^part|cry-PRESP .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|10|ROOT 6|5|OBJ 7|8|DET 8|5|COMPOUND-PRT 9|10|CC 10|8|CONJ 11|5|PUNCT
+@End
