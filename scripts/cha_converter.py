@@ -14,7 +14,7 @@ except:
 
 # --- CONFIGURATION ---
 INPUT_DIR = "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/synthetic_data/ENNI_B1/csv"
-OUTPUT_DIR = "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/synthetic_data/ENNI_B1/cha"
+OUTPUT_DIR = "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/synthetic_data/ENNI_B1/cha2"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

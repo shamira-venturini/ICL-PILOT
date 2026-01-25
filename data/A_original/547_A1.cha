@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036268-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;03.00|male|TD||Target_Child|||
+@Media:	547_A1, audio
+@Comment:	Birth of CHI is 27-MAR-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 34
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	(.) &-um the elephant was playing ball .
+%mor:	det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr verb|play-Part-Pres-S noun|ball-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	the [//] &+gira an [//] a [/] and then it fell into the swimming pool .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|swim-Ger noun|pool .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|4|PUNCT
+*CHI:	and [/] <and then> [//] the giraffe an(d) [/] an(d) [/] and then he was swimming .
+%mor:	det|the-Def-Art noun|giraffe cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|swim-Part-Pres-S .
+%gra:	1|2|DET 2|7|ROOT 3|7|CC 4|7|ADVMOD 5|7|NSUBJ 6|7|AUX 7|2|CONJ 8|2|PUNCT
+*CHI:	and then he got the ball .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	(.) an(d) [/] an(d) [/] and [/] and then the elephant loved it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|love-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	that was a quick one .
+%mor:	pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|quick-S1 noun|one .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	even have lunch at home too .
+%mor:	adv|even verb|have-Fin-Imp-S noun|lunch-Acc adp|at noun|home adv|too .
+%gra:	1|2|ADVMOD 2|6|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|ADVMOD 7|2|PUNCT
+@End

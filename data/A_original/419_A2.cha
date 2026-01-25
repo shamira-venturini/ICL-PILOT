@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/c-00036202-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;05.29|female|TD||Target_Child|||
+@Media:	419_A2, audio
+@Comment:	Birth of CHI is 13-OCT-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 12
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	they wanted to go in the swimming pool .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to verb|go-Inf-S adp|in det|the-Def-Art noun|swim-Ger noun|pool .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|MARK 4|2|XCOMP 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|2|PUNCT
+*CHI:	but [/] but they didn't have <their pool> [//] the [//] their bathing suits .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not verb|have-Inf-S pron|their-Prs-Gen-P3 noun|bathing-Ger noun|suit-Plur-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|NMOD-POSS 7|8|COMPOUND 8|5|OBJ 9|5|PUNCT
+*CHI:	but actually they did have their bathing suits on .
+%mor:	cconj|but adv|actually pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr verb|have-Inf-S pron|their-Prs-Gen-P3 noun|bathing-Ger noun|suit-Plur-Acc adp|on .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|8|NMOD-POSS 7|8|COMPOUND 8|5|OBJ 9|5|ADVMOD 10|5|PUNCT
+*CHI:	but it was slippery .
+%mor:	cconj|but pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|slippery-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	then <her knee> [//] she fell down .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	and she [/] she hurt her knee .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and then her brother came to help her .
+%mor:	cconj|and adv|then pron|her-Prs-Gen-S3 noun|brother verb|come-Fin-Ind-Past-S3-irr part|to verb|help-Inf-S pron|her-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|8|ROOT 6|7|MARK 7|5|ADVCL 8|7|OBJ 9|5|PUNCT
+*CHI:	it really hurted .
+%mor:	pron|it-Prs-Nom-S3 adv|really verb|hurt-Fin-Ind-Past-S3 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	(..) so the [/] the [/] the brother elephant put on the bandaid on the sister elephant .
+%mor:	adv|so det|the-Def-Art noun|brother noun|elephant verb|put-Fin-Ind-Past-S3-irr adp|on det|the-Def-Art noun|bandaid adp|on det|the-Def-Art noun|sister noun|elephant .
+%gra:	1|5|ADVMOD 2|4|DET 3|4|COMPOUND 4|5|NSUBJ 5|12|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|12|CASE 10|12|DET 11|12|COMPOUND 12|5|OBL 13|5|PUNCT
+*CHI:	and then it was still hurting .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|still verb|hurt-Part-Pres-S .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	and the brother one said go home .
+%mor:	cconj|and det|the-Def-Art noun|brother pron|one-Prs-S3 verb|say-Fin-Ind-Past-S3-irr verb|go-Inf-S adv|home .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|3|APPOS 5|7|ROOT 6|5|XCOMP 7|6|ADVMOD 8|5|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	two more .
+%mor:	num|two adj|more-Cmp-S1 .
+%gra:	1|2|NUMMOD 2|2|ROOT 3|2|PUNCT
+@End

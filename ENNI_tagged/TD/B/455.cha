@@ -1,0 +1,262 @@
+@UTF8
+@PID:	11312/c-00036220-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.10|female|TD||Target_Child|||
+@Media:	455, audio
+@Comment:	Birth of CHI is 14-May-1996
+@Date:	24-JAN-2001
+@Tape Location:	Disk L24 , Track 14
+@Types:	cross, narrative, TD
+*CHI:	I see a boy !
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|boy-Acc !
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	an:d [/] and I see some [//] the &-um cookies and a [/] a box .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|the-Def-Art noun|cookie-Plur-Acc cconj|and det|a-Ind-Art noun|box .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CC 7|8|DET 8|5|CONJ 9|3|PUNCT
+*CHI:	and then he took [!] a box .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|box-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	<and then they> [//] I see that they [//] he [/] he have took a box .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 sconj|that pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 verb|take-Part-Past-S-irr det|a-Ind-Art noun|box-Acc .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|6|MARK 4|6|NSUBJ 5|6|AUX 6|2|CCOMP 7|8|DET 8|6|OBJ 9|2|PUNCT
+*CHI:	and the:n [!] they have all fall down .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|have-Fin-Ind-Pres-P3 adv|all verb|fall-Inf-S adp|down .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|COMPOUND-PRT 8|6|PUNCT
+*CHI:	and then I see that &-um the other man there , he's mad .
+%mor:	cconj|and adv|then pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 sconj|that det|the-Def-Art adj|other-S1 noun|man adv|there cm|cm pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|13|ROOT 5|13|MARK 6|8|DET 7|8|AMOD 8|13|NSUBJ 9|8|ADVMOD 10|13|PUNCT 11|13|NSUBJ 12|13|COP 13|4|CCOMP 14|4|PUNCT
+@G:	B1
+*CHI:	I see they're making a sandcastle .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|5|NSUBJ 4|5|AUX 5|2|CCOMP 6|7|DET 7|5|OBJ 8|2|PUNCT
+*CHI:	and it's very nice .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|very adj|nice-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	and I see the rabbit &=laughs is going to flip that bucket over .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|flip-Inf-S det|that-Def-Dem-Sing noun|bucket-Acc adp|over .
+%gra:	1|3|CC 2|3|NSUBJ 3|12|ROOT 4|5|DET 5|7|NSUBJ 6|7|AUX 7|3|CCOMP 8|9|MARK 9|7|XCOMP 10|11|DET 11|9|OBJ 12|9|COMPOUND-PRT 13|3|PUNCT
+*CHI:	and then he [//] the bunny has [//] is going to pour it on top of the sandcastle .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|pour-Inf-S pron|it-Prs-Acc-S3 adp|on noun|top adp|of det|the-Def-Art noun|sandcastle .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|14|ROOT 7|8|MARK 8|6|XCOMP 9|8|OBJ 10|11|CASE 11|8|OBL 12|14|CASE 13|14|DET 14|11|NMOD 15|6|PUNCT
+*CHI:	and then it was wrecked .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|wreck-Part-Past-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ-PASS 4|5|AUX-PASS 5|5|ROOT 6|5|PUNCT
+*CHI:	then he's like +"/.
+%mor:	adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|like +"/.
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	+" oh no !
+%mor:	intj|oh intj|no !
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	and now the dog is crying .
+%mor:	cconj|and adv|now det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|6|ROOT 7|6|PUNCT
+*CHI:	and then that's the end . [+ bch]
+%mor:	cconj|and adv|then pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|DET 6|6|ROOT 7|6|PUNCT
+@G:	B2
+*CHI:	I see they're going to have a picnic !
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S part|to verb|have-Inf-S det|a-Ind-Art noun|picnic-Acc !
+%gra:	1|2|NSUBJ 2|9|ROOT 3|5|NSUBJ 4|5|AUX 5|2|CCOMP 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|2|PUNCT
+*CHI:	they're eating .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	&-hm and I think that rabbit's too full .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 sconj|that noun|rabbit~aux|be-Fin-Ind-Pres-S3 adv|too adj|full-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|8|MARK 5|8|NSUBJ 6|8|COP 7|8|ADVMOD 8|3|CCOMP 9|3|PUNCT
+*CHI:	I think he ate too much candy or too much food .
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3-irr adv|too adj|much-S1 noun|candy-Acc cconj|or adv|too adj|much-S1 noun|food .
+%gra:	1|2|NSUBJ 2|11|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|ADVMOD 6|7|AMOD 7|4|OBJ 8|11|CC 9|10|ADVMOD 10|11|AMOD 11|7|CONJ 12|2|PUNCT
+*CHI:	and [/] and the dog gonna tell &+th another rabbit the nurse rabbit .
+%mor:	cconj|and det|the-Def-Art noun|dog adv|gonna verb|tell-Inf-S det|another-Def-Ind noun|rabbit det|the-Def-Art noun|nurse noun|rabbit-Acc .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|ADVMOD 5|10|ROOT 6|7|DET 7|5|IOBJ 8|10|DET 9|10|COMPOUND 10|5|OBJ 11|5|PUNCT
+*CHI:	&-hm ? [+ bch]
+*CHI:	and <he's looks like> [//] he's &-like fainting [!] .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fainting-Part-Pres-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	and the nurse &-like is telling him something to put on his hand [?] .
+%mor:	cconj|and det|the-Def-Art noun|nurse aux|be-Fin-Ind-Pres-S3 verb|tell-Part-Pres-S pron|he-Prs-Acc-S3 pron|something-Ind-S1 part|to verb|put-Inf-S adp|on pron|his-Prs-Gen-S3 noun|hand .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|12|ROOT 6|5|IOBJ 7|5|OBJ 8|9|MARK 9|7|ACL 10|12|CASE 11|12|NMOD-POSS 12|9|OBL 13|5|PUNCT
+*CHI:	and then he's walking .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|walk-Part-Pres-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	and the dog's standing up by the picnic .
+%mor:	cconj|and det|the-Def-Art noun|dog~part|s noun|standing-Ger adp|up adp|by det|the-Def-Art noun|picnic .
+%gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|9|ROOT 6|5|COMPOUND-PRT 7|9|CASE 8|9|DET 9|5|NMOD 10|5|PUNCT
+*CHI:	I think that's about it . [+ bch]
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adp|about pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|6|NSUBJ 4|6|COP 5|6|CASE 6|2|CCOMP 7|2|PUNCT
+@G:	B3
+*CHI:	I think [!] he has a wagon and a balloon tied onto his wagon .
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|wagon-Acc cconj|and det|a-Ind-Art noun|balloon verb|tie-Part-Past-S adp|onto pron|his-Prs-Gen-S3 noun|wagon .
+%gra:	1|2|NSUBJ 2|13|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|DET 6|4|OBJ 7|9|CC 8|9|DET 9|6|CONJ 10|9|ACL 11|13|CASE 12|13|NMOD-POSS 13|10|OBL 14|2|PUNCT
+*CHI:	and the bunny wants to come along with [!] him I think !
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|want-Fin-Ind-Pres-S3 part|to verb|come-Inf-S adv|along adp|with pron|he-Prs-Acc-S3 pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 !
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|11|ROOT 5|6|MARK 6|4|XCOMP 7|6|ADVMOD 8|9|CASE 9|6|OBL 10|11|NSUBJ 11|4|PARATAXIS 12|4|PUNCT
+*CHI:	and then he saw the balloon .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr det|the-Def-Art noun|balloon-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and then he tried to tie it off .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|tie-Inf-S pron|it-Prs-Acc-S3 adp|off .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|6|COMPOUND-PRT 9|4|PUNCT
+*CHI:	and then it sailed up into the sky !
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|sail-Fin-Ind-Past-S3 adp|up adp|into det|the-Def-Art noun|sky !
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|COMPOUND-PRT 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	and then [!] the bunny looked up in the sky .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny verb|look-Fin-Ind-Past-S3 adp|up adp|in det|the-Def-Art noun|sky .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|COMPOUND-PRT 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	and then the dog was mad at him !
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at pron|he-Prs-Acc-S3 !
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|8|ROOT 7|8|CASE 8|6|OBL 9|6|PUNCT
+*CHI:	and then they [//] &+s they went and saw &+ano lots [//] &+o other balloons .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr cconj|and verb|see-Fin-Ind-Past-P3-irr adj|other-S1 noun|balloon-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|CC 6|4|CONJ 7|8|AMOD 8|6|OBJ 9|4|PUNCT
+*CHI:	and then the bunny came after [!] those balloons .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny verb|come-Fin-Ind-Past-S3-irr adp|after det|that-Def-Dem-Plur noun|balloon-Plur .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	and the bunny said +"/.
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" can I have another balloon ?
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S det|another-Def-Ind noun|balloon-Acc ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	but he had no cents .
+%mor:	cconj|but pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|no-Def-Neg noun|cent-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	but [!] he [/] he [//] &+wa and he had a smile again .
+%mor:	cconj|but cconj|and pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|smile-Acc adv|again .
+%gra:	1|4|CC 2|4|CC 3|4|NSUBJ 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|ADVMOD 8|4|PUNCT
+*CHI:	and then the other bunny came along .
+%mor:	cconj|and adv|then det|the-Def-Art adj|other-S1 noun|bunny verb|come-Fin-Ind-Past-S3-irr adv|along .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*CHI:	and he [//] the [/] &+oth the little bunny said +"/.
+%mor:	cconj|and det|the-Def-Art adj|little-S1 noun|bunny verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|5|CC 2|4|DET 3|4|AMOD 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	+" can you give me some money ?
+%mor:	aux|can-Fin-S pron|you-Prs-Nom-S2 verb|give-Inf-S pron|I-Prs-Acc-S1 det|some-Def-Ind noun|money-Acc ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|3|IOBJ 5|6|DET 6|3|OBJ 7|3|PUNCT
+*CHI:	and well she said +"/.
+%mor:	cconj|and intj|well pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|4|DISCOURSE 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" I don't know !
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S !
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	so she gave him some money for a balloon .
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 det|some-Def-Ind noun|money-Acc adp|for det|a-Ind-Art noun|balloon .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|9|ROOT 4|3|IOBJ 5|6|DET 6|3|OBJ 7|9|CASE 8|9|DET 9|6|NMOD 10|3|PUNCT
+*CHI:	and then she smiled .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|smile-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+@G:	A1
+*CHI:	I see that the elephant is <a bounce> [//] bouncing <three balls at> [//] a ball [!] .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 sconj|that det|the-Def-Art noun|elephant aux|be-Fin-Ind-Pres-S3 verb|bounce-Part-Pres-S det|a-Ind-Art noun|ball-Acc .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|7|MARK 4|5|DET 5|7|NSUBJ 6|7|AUX 7|2|CCOMP 8|9|DET 9|7|OBJ 10|2|PUNCT
+*CHI:	and she is going to throw it into one of the hoops [!] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|throw-Inf-S pron|it-Prs-Acc-S3 adp|into num|one adp|of det|the-Def-Art noun|hoop-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|12|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|9|CASE 9|6|OBL 10|12|CASE 11|12|DET 12|9|NMOD 13|4|PUNCT
+*CHI:	and then it felled [: fell] [* m:+ed] into the water .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and then the zebra's trying to swim and get it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|zebra~aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|swim-Inf-S cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|11|ROOT 7|8|MARK 8|6|XCOMP 9|10|CC 10|8|CONJ 11|10|OBJ 12|6|PUNCT
+*CHI:	and then the elephant's going to get the ball for him .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|get-Inf-S det|the-Def-Art noun|ball-Acc adp|for pron|he-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|12|ROOT 7|8|MARK 8|6|XCOMP 9|10|DET 10|8|OBJ 11|12|CASE 12|8|OBL 13|6|PUNCT
+*CHI:	and then she's smiling [!] with her ball .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S adp|with pron|her-Prs-Gen-S3 noun|ball .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|CASE 7|8|NMOD-POSS 8|5|OBL 9|5|PUNCT
+*CHI:	and that's the end I think . [+ bch]
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|7|ROOT 6|7|NSUBJ 7|5|ACL-RELCL 8|5|PUNCT
+@G:	A2
+*CHI:	all right , it looks like she's looking at the water !
+%mor:	det|all-Def-Tot adj|right-S1 cm|cm pron|it-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 sconj|like pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|look-Part-Pres-S adp|at det|the-Def-Art noun|water !
+%gra:	1|2|DET 2|5|DISCOURSE 3|2|PUNCT 4|5|EXPL 5|12|ROOT 6|9|MARK 7|9|NSUBJ 8|9|AUX 9|5|ADVCL 10|12|CASE 11|12|DET 12|9|OBL 13|5|PUNCT
+*CHI:	<and she> [//] and I think she's gonna walk [!] into the water .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|walk-Inf-S adp|into det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|10|ROOT 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|3|CCOMP 8|10|CASE 9|10|DET 10|7|OBL 11|3|PUNCT
+*CHI:	and she slipped [!] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and then she scratched her knee .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|scratch-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	and I think [!] &-um the guard of the swimming pool she [//] she's running to her .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 det|the-Def-Art noun|guard adp|of det|the-Def-Art noun|swim-Ger noun|pool pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S adp|to pron|her-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|14|ROOT 4|5|DET 5|12|NSUBJ 6|9|CASE 7|9|DET 8|9|COMPOUND 9|5|NMOD 10|12|NSUBJ 11|12|AUX 12|3|CCOMP 13|14|CASE 14|12|OBL 15|3|PUNCT
+*CHI:	<and she> [//] and it looks like she's crying .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 sconj|like pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|7|MARK 5|7|NSUBJ 6|7|AUX 7|3|ADVCL 8|3|PUNCT
+*CHI:	and then +//.
+%mor:	cconj|and adv|then +//.
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	I think I'm ready for the next page .
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|ready-S1 adp|for det|the-Def-Art adj|next-S1 noun|page .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|5|NSUBJ 4|5|COP 5|2|CCOMP 6|9|CASE 7|9|DET 8|9|AMOD 9|5|OBL 10|2|PUNCT
+*CHI:	+, and then it looks like &-um he's [/] he's mad [!] at her .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 sconj|like pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|mad-S1 adp|at pron|her-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|8|MARK 6|8|NSUBJ 7|8|COP 8|4|ADVCL 9|10|CASE 10|8|OBL 11|4|PUNCT
+*CHI:	and I think that's about the end . [+ bch]
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adp|about det|the-Def-Art noun|end .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|8|NSUBJ 5|8|COP 6|8|CASE 7|8|DET 8|3|CCOMP 9|3|PUNCT
+@G:	A3
+*CHI:	<I see &-um the> [//] &-um I see the zebra .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|the-Def-Art noun|zebra-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	he has a airplane in his hand .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc adp|in pron|his-Prs-Gen-S3 noun|hand .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|OBJ 5|7|CASE 6|7|NMOD-POSS 7|2|OBL 8|2|PUNCT
+*CHI:	<and he's> [/] and he's flinging his tongue out it looks like and sounding like it's a airplane .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fling-Part-Pres-S pron|his-Prs-Gen-S3 noun|tongue-Acc adp|out pron|it-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 adp|like cconj|and verb|sound-Part-Pres-S sconj|like pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|17|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|COMPOUND-PRT 8|9|NSUBJ 9|4|CONJ 10|9|COMPOUND-PRT 11|12|CC 12|9|CONJ 13|17|MARK 14|17|NSUBJ 15|17|COP 16|17|DET 17|12|ADVCL 18|4|PUNCT
+*CHI:	and then the elephant took it away .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|away .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|5|OBJ 7|5|ADVMOD 8|5|PUNCT
+*CHI:	and then she accidentally dropped it into the water .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 adv|accidentally verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|into det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	and then [!] he was mad [!] at her .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at pron|her-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	and then he [!] came .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	<and then she> [/] and then <she &-like wanted> [//] <she told her> [//] &+wha she [/] she [!] telled [: told] [* m:=ed] him what happened .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|tell-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|NSUBJ 7|4|CCOMP 8|4|PUNCT
+*CHI:	and he tried [!] to get it out .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|COMPOUND-PRT 8|3|PUNCT
+*CHI:	but it keeped floating and floating farer .
+%mor:	cconj|but pron|it-Prs-Nom-S3 verb|keep-Fin-Ind-Past-S3 verb|float-Ger-S cconj|and verb|float-Ger-S noun|farer-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|7|AMOD 5|6|CC 6|4|CONJ 7|3|OBJ 8|3|PUNCT
+*CHI:	and then they couldn't get it .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|could-Fin-S~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	somebody needed to swim in there and get it maybe .
+%mor:	pron|somebody-Ind-S1 verb|need-Fin-Ind-Past-S3 part|to verb|swim-Inf-S adp|in adv|there cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 adv|maybe .
+%gra:	1|2|NSUBJ 2|10|ROOT 3|4|MARK 4|2|XCOMP 5|6|CASE 6|4|OBL 7|8|CC 8|4|CONJ 9|8|OBJ 10|8|ADVMOD 11|2|PUNCT
+*CHI:	and then she got something to get it out .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|something-Ind-S1 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|7|MARK 7|5|ACL 8|7|OBJ 9|7|COMPOUND-PRT 10|4|PUNCT
+*CHI:	she tried it [//] to get it and get it .
+%mor:	pron|she-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|7|CC 7|4|CONJ 8|7|OBJ 9|2|PUNCT
+*CHI:	and it still wouldn't get in .
+%mor:	cconj|and pron|it-Prs-Nom-S3 adv|still aux|would-Fin-S~part|not verb|get-Inf-S adv|in .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|ADVMOD 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*CHI:	and then she got it out .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	then she got it for him .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|for pron|he-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	and then <she hug> [//] <he hugged it very> [//] the zebra hugged it very much .
+%mor:	cconj|and adv|then det|the-Def-Art noun|zebra verb|hugge-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adv|very adv|much .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|5|OBJ 7|8|ADVMOD 8|5|ADVMOD 9|5|PUNCT
+*CHI:	&=singsong the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

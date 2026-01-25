@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036282-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;11.04|female|TD||Target_Child|||
+@Media:	564_B1, audio
+@Comment:	Birth of CHI is 18-MAR-1995
+@Date:	22-FEB-2001
+@Tape Location:	Disk L25 , Track 101
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once upon a time there was a little [!] bunny .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|bunny .
+%gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|9|ROOT 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|6|PUNCT
+*CHI:	he came along and said +"/.
+%mor:	pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adv|along cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|ADVMOD 4|5|CC 5|2|CONJ 6|2|PUNCT
+*CHI:	+" hey we have the same one .
+%mor:	intj|hey pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|the-Def-Art adj|same-S1 noun|one-Acc .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	+" but mine is bigger !
+%mor:	cconj|but pron|my-Prs-S1 aux|be-Fin-Ind-Pres-S3 adj|big-Cmp-S1 !
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	+" can I play with you ?
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|play-Inf-S adp|with pron|you-Prs-Acc-S2 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	so and then they started to play .
+%mor:	adv|so cconj|and adv|then pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to verb|play-Inf-S .
+%gra:	1|5|DISCOURSE 2|5|CC 3|5|ADVMOD 4|5|NSUBJ 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
+*CHI:	and then he poured that on to make an [//] a different one that could look &+bret better .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|pour-Fin-Ind-Past-S3 pron|that-Dem adp|on part|to verb|make-Inf-S det|a-Ind-Art adj|different-S1 noun|one-Acc pron|that-Rel aux|could-Fin-S verb|look-Inf-S adj|good-Cmp-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|15|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|8|MARK 8|4|ADVCL 9|11|DET 10|11|AMOD 11|8|OBJ 12|14|NSUBJ 13|14|AUX 14|11|ACL-RELCL 15|14|XCOMP 16|4|PUNCT
+*CHI:	and then he wrecked the castle .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|wreck-Fin-Ind-Past-S3 det|the-Def-Art noun|castle-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and he feeled [: felt] [* m:=ed] bad .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|bad-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	and then she was starting to cry .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|start-Part-Pres-S part|to verb|cry-Inf-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
+*CHI:	well he was embarrassed .
+%mor:	intj|well pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|embarrass-Part-Past-S  .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|5|ROOT 5|4|PUNCT 6|4|PUNCT
+@End

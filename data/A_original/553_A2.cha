@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036274-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;11.19|female|TD||Target_Child|||
+@Media:	553_A2, audio
+@Comment:	Birth of CHI is 08-JUL-1994
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 59
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	the elephant and the giraffe they want to jump in the water to play in the water .
+%mor:	det|the-Def-Art noun|elephant cconj|and det|the-Def-Art noun|giraffe pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to verb|jump-Inf-S adp|in det|the-Def-Art noun|water part|to verb|play-Inf-S adp|in det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|7|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|7|NSUBJ 7|17|ROOT 8|9|MARK 9|7|XCOMP 10|12|CASE 11|12|DET 12|9|OBL 13|14|MARK 14|9|ADVCL 15|17|CASE 16|17|DET 17|14|OBL 18|7|PUNCT
+*CHI:	the elephant goes first .
+%mor:	det|the-Def-Art noun|elephant verb|go-Fin-Ind-Pres-S3 adv|first .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	but they run .
+%mor:	cconj|but pron|they-Prs-Nom-P3 verb|run-Fin-Ind-Pres-P3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	the elephant hurts herself .
+%mor:	det|the-Def-Art noun|elephant verb|hurt-Fin-Ind-Pres-S3 pron|herself-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and the giraffe tells a lifeguard .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|tell-Fin-Ind-Pres-S3 det|a-Ind-Art noun|lifeguard-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	the lifeguard puts a bandaid on the elephant's hurt and then makes it better .
+%mor:	det|the-Def-Art noun|lifeguard verb|put-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bandaid-Acc adp|on det|the-Def-Art noun|elephant~part|s noun|hurt cconj|and adv|then verb|make-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adj|good-Cmp-S1 .
+%gra:	1|2|DET 2|3|NSUBJ 3|15|ROOT 4|5|DET 5|3|OBJ 6|10|CASE 7|8|DET 8|10|NMOD-POSS 9|8|CASE 10|3|OBL 11|13|CC 12|13|ADVMOD 13|3|CONJ 14|13|OBJ 15|13|XCOMP 16|3|PUNCT
+*CHI:	but then he makes her sit on the bench (be)cause she ran .
+%mor:	cconj|but adv|then pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3 pron|her-Prs-Acc-S3 verb|sit-Inf-S adp|on det|the-Def-Art noun|bench sconj|because pron|she-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|12|ROOT 5|4|OBJ 6|4|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|12|MARK 11|12|NSUBJ 12|6|ADVCL 13|4|PUNCT
+*CHI:	finished .
+%mor:	verb|finish-Fin-Ind-Past-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+@End

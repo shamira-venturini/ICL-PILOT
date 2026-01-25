@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036127-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.25|male|SLI||Target_Child|||
+@Media:	569_A1, audio
+@Comment:	Birth of CHI is 25-AUG-1995
+@Date:	19-APR-2001
+@Tape Location:	Disk M10 , Track 33
+@Types:	cross, narrative, SLI
+@G:	A1
+*CHI:	he said hi .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|hi .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	+" I love those rocks !
+%mor:	pron|I-Prs-Nom-S1 verb|love-Fin-Ind-Pres-S1 det|that-Def-Dem-Plur noun|rock-Plur-Acc !
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	then that rock is falling !
+%mor:	adv|then sconj|that noun|rock aux|be-Fin-Ind-Pres-S3 verb|fall-Part-Pres-S !
+%gra:	1|5|ADVMOD 2|5|MARK 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	and he [//] that one is swimming !
+%mor:	cconj|and sconj|that noun|one aux|be-Fin-Ind-Pres-S3 verb|swim-Part-Pres-S !
+%gra:	1|5|CC 2|5|MARK 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	and he gave that rock [!] .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr det|that-Def-Dem-Sing noun|rock-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	<and he play> [//] and he can play with it now .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|can-Fin-S verb|play-Inf-S adp|with pron|it-Prs-Acc-S3 adv|now .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|CASE 6|4|OBL 7|4|ADVMOD 8|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

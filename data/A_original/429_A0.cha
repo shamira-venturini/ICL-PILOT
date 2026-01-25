@@ -1,0 +1,32 @@
+@UTF8
+@PID:	11312/c-00036206-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.01|female|TD||Target_Child|||
+@Media:	429_A0, audio
+@Comment:	Birth of CHI is 26-AUG-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 17
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	once upon a time there was a little boy who wanted to go shopping .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|boy pron|who-Rel verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S noun|shopping-Acc-Ger .
+%gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|14|ROOT 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|11|NSUBJ 11|9|ACL-RELCL 12|13|MARK 13|11|XCOMP 14|13|OBJ 15|6|PUNCT
+*CHI:	and then he wanted to buy some cookies .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|buy-Inf-S det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|4|PUNCT
+*CHI:	and then he picked one out .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 num|one adp|out .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	and then <it> [?] all spilled it .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 det|all-Def-Tot verb|spill-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|3|DET 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	and then the little cookie man was mad .
+%mor:	cconj|and adv|then det|the-Def-Art adj|little-S1 noun|cookie noun|man aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|8|CC 2|8|ADVMOD 3|6|DET 4|6|AMOD 5|6|COMPOUND 6|8|NSUBJ 7|8|COP 8|8|ROOT 9|8|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

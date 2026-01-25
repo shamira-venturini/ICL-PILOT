@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/c-00036117-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;09.08|female|SLI||Target_Child|||
+@Media:	479_B2, audio
+@Comment:	Birth of CHI is 27-FEB-1998
+@Date:	05-DEC-2002
+@Location:	Disk L31 Track 1
+@G:	A1
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	a letter !
+%mor:	det|a-Ind-Art noun|letter !
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	a letter !
+%mor:	det|a-Ind-Art noun|letter !
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	they wanna get a balloon .
+%mor:	pron|they-Prs-Nom-P3 aux|wanna-Fin-Ind-Pres-P3 verb|get-Inf-S det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and they build a sandcastle .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and they try to go in the sand and xxx [^ sounds like 'blom'] .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|try-Fin-Ind-Pres-P3 part|to verb|go-Inf-S adp|in det|the-Def-Art noun|sand cconj|and .
+%gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|CONJ 10|3|PUNCT
+*CHI:	and he said sorry .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	xxx [^ says something under breath] .
+*CHI:	and the bunny rabbit was so happy today .
+%mor:	cconj|and det|the-Def-Art noun|bunny noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 noun|today .
+%gra:	1|7|CC 2|4|DET 3|4|COMPOUND 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|8|ROOT 8|7|OBL-UNMARKED 9|7|PUNCT
+*CHI:	and they was so pushing in the case .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr adv|so verb|push-Part-Pres-S adp|in det|the-Def-Art noun|case .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	he pushed them in .
+%mor:	pron|he-Prs-Nom-S3 verb|push-Fin-Ind-Past-S3 pron|they-Prs-Acc-P3 adp|in .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
+*CHI:	and they was so happy to go .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 part|to verb|go-Inf-S .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
+*CHI:	then he was so happy to go see her .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 part|to verb|go-Inf-S verb|see-Inf-S pron|her-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|7|XCOMP 9|8|OBJ 10|5|PUNCT
+*CHI:	and that is the end .
+%mor:	cconj|and pron|that-Dem aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

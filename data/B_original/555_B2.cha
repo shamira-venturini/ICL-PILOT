@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036276-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;02.24|male|TD||Target_Child|||
+@Media:	555_B2, audio
+@Comment:	Birth of CHI is 22-AUG-1995
+@Date:	15-NOV-2000
+@Tape Location:	Disk L20 Track 1
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	once a dog and a rabbit were walking down .
+%mor:	sconj|once det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art noun|rabbit aux|be-Fin-Ind-Past-P3-irr verb|walk-Part-Pres-S adv|down .
+%gra:	1|8|MARK 2|3|DET 3|8|NSUBJ 4|6|CC 5|6|DET 6|3|CONJ 7|8|AUX 8|9|ROOT 9|8|ADVMOD 10|8|PUNCT
+*CHI:	they had a picnic [!] .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|picnic-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	soon the rabbit was so tired and full that he hadta go to sleep .
+%mor:	adv|soon det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so adj|tired-S1 cconj|and adj|full-S1 sconj|that pron|he-Prs-Nom-S3 aux|hadt-Fin-Ind-Pres-S3 verb|go-Inf-S adp|to noun|sleep .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|14|ROOT 7|8|CC 8|6|CONJ 9|12|MARK 10|12|NSUBJ 11|12|AUX 12|6|ADVCL 13|14|CASE 14|12|OBL 15|6|PUNCT
+*CHI:	out they packed .
+%mor:	adv|out pron|they-Prs-Nom-P3 verb|pack-Fin-Ind-Past-P3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	his legs got tired .
+%mor:	pron|his-Prs-Gen-S3 noun|leg-Plur verb|get-Fin-Ind-Past-P3-irr adj|tired-S1 .
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	dog hadta pull him .
+%mor:	noun|dog noun|hadta verb|pull-Fin-Imp-S pron|he-Prs-Acc-S3 .
+%gra:	1|2|COMPOUND 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	doctor came along and fixed up the rabbit and took them home .
+%mor:	noun|doctor verb|come-Fin-Ind-Past-S3-irr adv|along cconj|and verb|fix-Fin-Ind-Past-S3 adp|up det|the-Def-Art noun|rabbit-Acc cconj|and verb|take-Fin-Ind-Past-S3-irr pron|they-Prs-Acc-P3 adv|home  .
+%gra:	1|2|NSUBJ 2|13|ROOT 3|2|ADVMOD 4|5|CC 5|2|CONJ 6|5|COMPOUND-PRT 7|8|DET 8|5|OBJ 9|10|CC 10|2|CONJ 11|10|OBJ 12|10|ADVMOD 13|2|PUNCT 14|2|PUNCT
+@End

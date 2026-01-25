@@ -1,0 +1,49 @@
+@UTF8
+@PID:	11312/c-00036279-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;02.02|male|TD||Target_Child|||
+@Media:	561_A2, audio
+@Comment:	Birth of CHI is 18-SEP-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 116
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	once upon a time the giraffe was gonna &+s go in the water .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr part|go verb|go-Inf-S adp|in det|the-Def-Art noun|water .
+%gra:	1|9|ADVMOD 2|4|CASE 3|4|DET 4|9|OBL 5|6|DET 6|9|NSUBJ 7|9|AUX 8|9|ADVMOD 9|12|ROOT 10|12|CASE 11|12|DET 12|9|OBL 13|9|PUNCT
+*CHI:	and then she said +"/.
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" hey do you wanna go in there ?
+%mor:	intj|hey aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 part|wana verb|go-Inf-S adp|in adv|there ?
+%gra:	1|5|DISCOURSE 2|5|AUX 3|5|NSUBJ 4|5|ADVMOD 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	<and she said> [//] and the giraffe said okay .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|say-Fin-Ind-Past-S3-irr intj|okay .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	and then they we:nt .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	but then she hurted [: hurt] [* m:=ed] her knee: .
+%mor:	cconj|but adv|then pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	and then another elephant came .
+%mor:	cconj|and adv|then det|another-Def-Ind noun|elephant verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	and then it put a bandage o:n .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandage-Acc adp|on .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|ADVMOD 8|4|PUNCT
+*CHI:	and then it was oka:y .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|okay-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and then no , he [//] the other guy came .
+%mor:	cconj|and adv|then intj|no cm|cm det|the-Def-Art adj|other-S1 noun|guy verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|8|CC 2|8|ADVMOD 3|8|DISCOURSE 4|3|PUNCT 5|7|DET 6|7|AMOD 7|8|NSUBJ 8|8|ROOT 9|8|PUNCT
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Ger .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

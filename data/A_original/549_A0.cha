@@ -1,0 +1,53 @@
+@UTF8
+@PID:	11312/c-00036270-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;08.10|male|TD||Target_Child|||
+@Media:	549_A0, audio
+@Comment:	Birth of CHI is 17-OCT-1994
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 38
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	&=sighs &-um once upon a time there was a little boy .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|boy .
+%gra:	1|6|MARK 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|9|ROOT 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|6|PUNCT
+*CHI:	and he wanted to go to the store .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S adp|to det|the-Def-Art noun|store .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|PUNCT
+*CHI:	and he wanted to buy some oranges .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|buy-Inf-S det|some-Def-Ind noun|orange-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	and he didn't know daddy didn't have any money .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|know-Inf-S noun|daddy aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S det|any-Def-Ind noun|money-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|11|ROOT 6|9|NSUBJ 7|9|AUX 8|9|ADVMOD 9|5|CCOMP 10|11|DET 11|9|OBJ 12|5|PUNCT
+*CHI:	and then he called up his mom .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|call-Fin-Ind-Past-S3 adp|up pron|his-Prs-Gen-S3 noun|mom-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|COMPOUND-PRT 6|7|NMOD-POSS 7|4|OBJ 8|4|PUNCT
+*CHI:	and then his mom came to the store .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|mom verb|come-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|store .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	<and then> [/] and then the man said +"/.
+%mor:	cconj|and adv|then det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	+" &-um can you please &-um help ?
+%mor:	aux|can-Fin-S pron|you-Prs-Nom-S2 intj|please verb|help-Inf-S ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|DISCOURSE 4|4|ROOT 5|4|PUNCT
+*CHI:	+" and then you'll get a free sample of cookies .
+%mor:	cconj|and adv|then pron|you-Prs-Nom-S2~aux|will-Fin-S verb|get-Inf-S det|a-Ind-Art adj|free-S1 noun|sample-Acc adp|of noun|cookie-Plur .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|10|ROOT 6|8|DET 7|8|AMOD 8|5|OBJ 9|10|CASE 10|8|NMOD 11|5|PUNCT
+*CHI:	and then the little boy got a box of cookies .
+%mor:	cconj|and adv|then det|the-Def-Art adj|little-S1 noun|boy verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|box-Acc adp|of noun|cookie-Plur .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|10|ROOT 7|8|DET 8|6|OBJ 9|10|CASE 10|8|NMOD 11|6|PUNCT
+*CHI:	and then the whole stack fell down .
+%mor:	cconj|and adv|then det|the-Def-Art adj|whole-S1 noun|stack verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*CHI:	and then the man was mad .
+%mor:	cconj|and adv|then det|the-Def-Art noun|man aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	and that's it . [+ bch]
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+@End

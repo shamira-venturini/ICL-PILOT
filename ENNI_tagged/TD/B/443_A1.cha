@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036209-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;11.15|male|TD||Target_Child|||
+@Media:	443_A1, audio
+@Comment:	Birth of CHI is 05-DEC-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 98
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	okay .
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	there's a giraffe and a elephant .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
+%gra:	1|2|EXPL 2|7|ROOT 3|4|DET 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|2|PUNCT
+*CHI:	the giraffe jumps into the water .
+%mor:	det|the-Def-Art noun|giraffe verb|jump-Fin-Ind-Pres-S3 adp|into det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and he tries to get the ball .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 part|to verb|get-Inf-S det|the-Def-Art noun|ball-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	then the giraffe swims over to the elephant .
+%mor:	adv|then det|the-Def-Art noun|giraffe verb|swim-Fin-Ind-Pres-S3 adv|over adp|to det|the-Def-Art noun|elephant .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|ADVMOD 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	and the elephant gives the giraffe another ball .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|giraffe det|another-Def-Ind noun|ball-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|DET 6|4|IOBJ 7|8|DET 8|4|OBJ 9|4|PUNCT
+*CHI:	then [!] the elephant gets her own ball .
+%mor:	adv|then det|the-Def-Art noun|elephant verb|get-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 adj|own-S1 noun|ball-Acc  .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|7|NMOD-POSS 6|7|AMOD 7|4|OBJ 8|4|PUNCT 9|4|PUNCT
+@End

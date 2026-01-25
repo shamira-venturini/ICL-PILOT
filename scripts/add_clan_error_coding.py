@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script to add CLAN error coding to CHA files following CHAT guidelines.
-Based on CLAN manual and existing annotated files.
+Based on CLAN manual and existing ENNI_B1_SYN files.
 """
 
 import os
@@ -20,7 +20,7 @@ def analyze_and_add_error_coding(line: str) -> str:
     # Extract the utterance text (after *CHI:\t)
     utterance = line[6:].strip()
     
-    # Common error patterns for DLD based on the annotated files
+    # Common error patterns for DLD based on the ENNI_B1_SYN files
     error_patterns = [
         # Past tense errors - base form instead of past tense
         (r'\bgo\b', 'went', '[* m:base:ed]'),

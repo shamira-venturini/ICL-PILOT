@@ -1,0 +1,73 @@
+@UTF8
+@PID:	11312/c-00036226-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.22|male|TD||Target_Child|||
+@Media:	461_B3, audio
+@Comment:	Birth of CHI is 25-MAY-1996
+@Date:	16-FEB-2001
+@Tape Location:	Disk L25 , Track 34
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	once upon a time <they were> [/] they were two baby velociraptors .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr num|two noun|baby noun|velociraptor-Plur .
+%gra:	1|9|ADVMOD 2|4|CASE 3|4|DET 4|9|OBL 5|9|NSUBJ 6|9|COP 7|9|NUMMOD 8|9|COMPOUND 9|9|ROOT 10|9|PUNCT
+*CHI:	and they started to go down the hill .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to verb|go-Inf-S adp|down det|the-Def-Art noun|hill .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|PUNCT
+*CHI:	and they were scared on the hill .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|scared-S1 adp|on det|the-Def-Art noun|hill .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	so then the [/] &+b the balloon went up .
+%mor:	adv|so adv|then det|the-Def-Art noun|balloon verb|go-Fin-Ind-Past-S3-irr adp|up .
+%gra:	1|5|ADVMOD 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|COMPOUND-PRT 7|5|PUNCT
+*CHI:	and [/] and the velociraptors tried to get it .
+%mor:	cconj|and det|the-Def-Art noun|velociraptor-Plur verb|try-Fin-Ind-Past-P3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	and then a terrible [^ makes explosion noise 'bth'] boom .
+%mor:	cconj|and adv|then det|a-Ind-Art adj|terrible-S1 noun|boom .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	and the balloon popped .
+%mor:	cconj|and det|the-Def-Art noun|balloon verb|pop-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	<and then they gots> [//] <and then> [/] and then the Tyrannosaurus_Rex gave them more [!] balloons .
+%mor:	cconj|and adv|then det|the-Def-Art propn|TyrannosaurusRex verb|give-Fin-Ind-Past-S3-irr pron|they-Prs-Acc-P3 adj|more-Cmp-S1 noun|balloon-Plur-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|5|IOBJ 7|8|AMOD 8|5|OBJ 9|5|PUNCT
+*CHI:	and then they wanted a balloon .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	so then they picked one .
+%mor:	adv|so adv|then pron|they-Prs-Nom-P3 verb|pick-Fin-Ind-Past-P3 num|one .
+%gra:	1|4|ADVMOD 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and then they wanted it .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	&+ss so then the T_Rex said they [/] they can't have a balloon .
+%mor:	adv|so adv|then det|the-Def-Art propn|TRex verb|say-Fin-Ind-Past-S3-irr pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|have-Inf-S det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|5|ADVMOD 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|11|ROOT 6|9|NSUBJ 7|9|AUX 8|9|ADVMOD 9|5|CCOMP 10|11|DET 11|9|OBJ 12|5|PUNCT
+*CHI:	and then she asked <if she> [//] &+c if they have please they could have a balloon .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|ask-Fin-Ind-Past-S3 sconj|if pron|they-Prs-Nom-P3 aux|have-Fin-Ind-Pres-P3 intj|please pron|they-Prs-Nom-P3 aux|could-Fin-S verb|have-Inf-S det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|13|ROOT 5|7|MARK 6|7|NSUBJ 7|4|CCOMP 8|11|DISCOURSE 9|11|NSUBJ 10|11|AUX 11|4|CCOMP 12|13|DET 13|11|OBJ 14|4|PUNCT
+*CHI:	<and then they> [//] and then the other velociraptor was running to his mommy .
+%mor:	cconj|and adv|then det|the-Def-Art adj|other-S1 noun|velociraptor aux|be-Fin-Ind-Past-S3-irr verb|run-Part-Pres-S adp|to pron|his-Prs-Gen-S3 noun|mommy .
+%gra:	1|7|CC 2|7|ADVMOD 3|5|DET 4|5|AMOD 5|7|NSUBJ 6|7|AUX 7|10|ROOT 8|10|CASE 9|10|NMOD-POSS 10|7|OBL 11|7|PUNCT
+*CHI:	and then she said +"/.
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" she [/] she won't give us any balloons .
+%mor:	pron|she-Prs-Nom-S3 aux|will-Fin-S~part|not verb|give-Inf-S pron|we-Prs-Acc-P1 det|any-Def-Ind noun|balloon-Plur-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	and then she gives him some dollars .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 det|some-Def-Ind noun|dollar-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	and then she give him some [/] some balloons .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 det|some-Def-Ind noun|balloon-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	and then they had balloons .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr noun|balloon-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and then that's the end .
+%mor:	cconj|and adv|then pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|DET 6|6|ROOT 7|6|PUNCT
+@End

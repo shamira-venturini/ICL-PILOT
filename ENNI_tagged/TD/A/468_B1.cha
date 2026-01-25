@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036231-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;05.20|female|TD||Target_Child|||
+@Media:	468_B1, audio
+@Comment:	Birth of CHI is 21-OCT-1996
+@Date:	10-APR-2001
+@Tape Location:	Disk L27 , Track 24
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	&-um he's gonna make a sandcastle .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|make-Inf-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and he made a sandcastle .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	he dumped water on his sandcastle .
+%mor:	pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3 noun|water-Acc adp|on pron|his-Prs-Gen-S3 noun|sandcastle .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|6|CASE 5|6|NMOD-POSS 6|2|OBL 7|2|PUNCT
+*CHI:	he broke it .
+%mor:	pron|he-Prs-Nom-S3 verb|break-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and he was going to fix it .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

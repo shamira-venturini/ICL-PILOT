@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036208-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;11.06|male|TD||Target_Child|||
+@Media:	441_A1, audio
+@Comment:	Birth of CHI is 21-JUL-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 52
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	the elephant's <talking to the> [//] talking to a horse .
+%mor:	det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|talk-Part-Pres-S adp|to det|a-Ind-Art noun|horse .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	the elephant's pushing the horse .
+%mor:	det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|push-Part-Pres-S det|the-Def-Art noun|horse-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	the elephant pushed the horse in the water .
+%mor:	det|the-Def-Art noun|elephant verb|push-Fin-Ind-Past-S3 det|the-Def-Art noun|horse-Acc adp|in det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	the elephant's helping him out .
+%mor:	det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|help-Part-Pres-S pron|he-Prs-Acc-S3 adp|out .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	(..) the elephant &-ah being nice .
+%mor:	det|the-Def-Art noun|elephant aux|be-Part-Pres-S adj|nice-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and that's the end .
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

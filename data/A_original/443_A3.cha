@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/c-00036209-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;11.15|male|TD||Target_Child|||
+@Media:	443_A3, audio
+@Comment:	Birth of CHI is 05-DEC-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 98
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	the giraffe has a [* m:allo] airplane .
+%mor:	det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	the elephant looks at it .
+%mor:	det|the-Def-Art noun|elephant verb|look-Fin-Ind-Pres-S3 adp|at pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	and then the elephant flies it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|fly-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	then she drops it in the pool .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|drop-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|pool .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	then she says uhoh .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 intj|uhoh .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	and the giraffe is very mad .
+%mor:	cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 adv|very adj|mad-S1 .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	the lifeguard says uhoh .
+%mor:	det|the-Def-Art noun|lifeguard verb|say-Fin-Ind-Pres-S3 intj|uhoh .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	the elephant says +"/.
+%mor:	det|the-Def-Art noun|elephant verb|say-Fin-Ind-Pres-S3 +"/.
+%gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" could you get it out ?
+%mor:	aux|could-Fin-S pron|you-Prs-Nom-S2 verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	the lifeguard tries to reach it .
+%mor:	det|the-Def-Art noun|lifeguard verb|try-Fin-Ind-Pres-S3 part|to verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*CHI:	(.) but he couldn't .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	(..) then the giraffe is very sad .
+%mor:	adv|then det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 adv|very adj|sad-S1 .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	and then another elephant comes along with a net .
+%mor:	cconj|and adv|then det|another-Def-Ind noun|elephant verb|come-Fin-Ind-Pres-S3 adv|along adp|with det|a-Ind-Art noun|net .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|ADVMOD 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	then she gets it .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	then she gives it to the giraffe .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|giraffe .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	and the giraffe stopped crying .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|stop-Fin-Ind-Past-S3 verb|cry-Ger-S .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	then the [/] the giraffe hugs it (be)cause he missed it if it was in the water all the time .
+%mor:	adv|then det|the-Def-Art noun|giraffe verb|hug-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3 verb|miss-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 sconj|if pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water det|all-Def-Tot det|the-Def-Art noun|time  .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|19|ROOT 5|4|OBJ 6|8|MARK 7|8|NSUBJ 8|4|ADVCL 9|8|OBJ 10|15|MARK 11|15|NSUBJ 12|15|COP 13|15|CASE 14|15|DET 15|8|ADVCL 16|18|DET-PREDET 17|18|DET 18|15|OBL-UNMARKED 19|4|PUNCT 20|4|PUNCT
+@End

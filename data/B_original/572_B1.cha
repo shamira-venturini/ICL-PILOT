@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036129-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.00|male|SLI||Target_Child|||
+@Media:	572_B1, audio
+@Comment:	Birth of CHI is 10-DEC-1995
+@Date:	10-MAY-2001
+@Tape Location:	Disk M11 , Track 46
+@Types:	cross, narrative, SLI
+@G:	B1
+*CHI:	the other guy was building his sandcastle .
+%mor:	det|the-Def-Art adj|other-S1 noun|guy aux|be-Fin-Ind-Past-S3-irr verb|build-Part-Pres-S pron|his-Prs-Gen-S3 noun|sandcastle-Acc .
+%gra:	1|3|DET 2|3|AMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|NMOD-POSS 7|5|OBJ 8|5|PUNCT
+*CHI:	and the other guy with glasses [?] .
+%mor:	cconj|and det|the-Def-Art adj|other-S1 noun|guy adp|with noun|glasses-Ptan .
+%gra:	1|4|CC 2|4|DET 3|4|AMOD 4|6|ROOT 5|6|CASE 6|4|NMOD 7|4|PUNCT
+*CHI:	they was [* m:vsg:a] happy . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	and then turn the page now .
+%mor:	cconj|and adv|then verb|turn-Fin-Imp-S det|the-Def-Art noun|page-Acc adv|now .
+%gra:	1|3|CC 2|3|ADVMOD 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*CHI:	and then the guy &+w wants to mix it (be)cause he can't see or [?] watch .
+%mor:	cconj|and adv|then det|the-Def-Art noun|guy verb|want-Fin-Ind-Pres-S3 part|to verb|mix-Inf-S pron|it-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|see-Inf-S cconj|or verb|watch-Inf-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|15|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|13|MARK 10|13|NSUBJ 11|13|AUX 12|13|ADVMOD 13|7|ADVCL 14|15|CC 15|13|CONJ 16|5|PUNCT
+*CHI:	see , the guy put [* m:03s:a] the pail . [+ gram]
+%mor:	verb|see-Fin-Imp-S cm|cm det|the-Def-Art noun|guy verb|put-Fin-Ind-Past-S3-irr det|the-Def-Art noun|pail-Acc .
+%gra:	1|7|ROOT 2|5|PUNCT 3|4|DET 4|5|NSUBJ 5|1|PARATAXIS 6|7|DET 7|5|OBJ 8|1|PUNCT
+*CHI:	it's going to wreck it now !
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|wreck-Inf-S pron|it-Prs-Acc-S3 adv|now !
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|ADVMOD 8|3|PUNCT
+*CHI:	it's lots of sand !
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 noun|lot-Plur adp|of noun|sand !
+%gra:	1|3|NSUBJ 2|3|COP 3|5|ROOT 4|5|CASE 5|3|NMOD 6|3|PUNCT
+*CHI:	and then he wrecked it !
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|wreck-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 !
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	that guy that's his sandcastle !
+%mor:	det|that-Def-Dem-Sing noun|guy pron|that-Rel~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|sandcastle !
+%gra:	1|2|DET 2|6|ROOT 3|6|NSUBJ 4|6|COP 5|6|NMOD-POSS 6|2|ACL-RELCL 7|2|PUNCT
+*CHI:	he wrecked it !
+%mor:	pron|he-Prs-Nom-S3 verb|wreck-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 !
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and then the other guy build [* m:03s] another [!] sandcastle . [+ gram]
+%mor:	cconj|and adv|then det|the-Def-Art adj|other-S1 noun|guy verb|build-Inf-S det|another-Def-Ind noun|sandcastle-Acc .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
+*CHI:	but it's not nice .
+%mor:	cconj|but pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not adj|nice-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	that's a short .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|short-S1  .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+@End

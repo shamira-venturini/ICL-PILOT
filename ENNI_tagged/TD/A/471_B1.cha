@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036233-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;09.07|male|TD||Target_Child|||
+@Media:	471_B1, audio
+@Comment:	Birth of CHI is 10-AUG-1996
+@Date:	25-MAY-2001
+@Tape Location:	Disk L28 Track 51
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	a rabbit and a dog were playing in the sand and building a sandcastle .
+%mor:	det|a-Ind-Art noun|rabbit cconj|and det|a-Ind-Art noun|dog aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|in det|the-Def-Art noun|sand cconj|and verb|build-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|DET 2|7|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|7|AUX 7|14|ROOT 8|10|CASE 9|10|DET 10|7|OBL 11|12|CC 12|7|CONJ 13|14|DET 14|12|OBJ 15|7|PUNCT
+*CHI:	and the dog liked to make the &+sand sandcastle .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|like-Fin-Ind-Past-S3 part|to verb|make-Inf-S det|the-Def-Art noun|sandcastle-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|4|PUNCT
+*CHI:	and the bunny liked to help .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|like-Fin-Ind-Past-S3 part|to verb|help-Inf-S .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
+*CHI:	and he put some on .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|some-Def-Ind adp|on .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	and the dog was too frightened to talk .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adv|too adj|frighten-S1 part|to verb|talk-Inf-S .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|8|ROOT 7|8|MARK 8|6|XCOMP 9|6|PUNCT
+*CHI:	<and it was> [/] and it was ruined the [/] the bunny said after he did it .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|ruin-Part-Past-S det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr sconj|after pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|11|ROOT 5|6|DET 6|7|NSUBJ 7|4|CCOMP 8|10|MARK 9|10|NSUBJ 10|7|ADVCL 11|10|OBJ 12|4|PUNCT
+*CHI:	and the rabbit didn't say another word .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|do-Fin-Ind-Past-S3-irr~part|not verb|say-Inf-S det|another-Def-Ind noun|word-Acc .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
+*CHI:	and the dog cried a little .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|cry-Fin-Ind-Past-S3 det|a-Ind-Art adj|little-S1 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

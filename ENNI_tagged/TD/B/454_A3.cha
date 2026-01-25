@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036219-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;04.20|female|TD||Target_Child|||
+@Media:	454_A3, audio
+@Comment:	Birth of CHI is 01-OCT-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 76
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	&-uh the little girl's making a funny face .
+%mor:	det|the-Def-Art adj|little-S1 noun|girl~aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S det|a-Ind-Art adj|funny-S1 noun|face-Acc .
+%gra:	1|3|DET 2|3|AMOD 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|DET 7|8|AMOD 8|5|OBJ 9|5|PUNCT
+*CHI:	&-um the boy was &-um flying the airplane .
+%mor:	det|the-Def-Art noun|boy aux|be-Fin-Ind-Past-S3-irr verb|fly-Part-Pres-S det|the-Def-Art noun|airplane-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and now the girl tried to fly the airplane .
+%mor:	cconj|and adv|now det|the-Def-Art noun|girl verb|try-Fin-Ind-Past-S3 part|to verb|fly-Inf-S det|the-Def-Art noun|airplane-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|5|PUNCT
+*CHI:	and now [/] now the girl &-um dropped it in the water .
+%mor:	cconj|and adv|now det|the-Def-Art noun|girl verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	now [/] now the boy got mad .
+%mor:	adv|now det|the-Def-Art noun|boy verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	now [/] <now the> [/] <now the> [/] now the girl got scared of the [/] the boy .
+%mor:	adv|now det|the-Def-Art noun|girl verb|get-Fin-Ind-Past-S3-irr adj|scared-S1 adp|of det|the-Def-Art noun|boy .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|4|PUNCT
+*CHI:	&-uh now [/] now [/] now the girl got scared again .
+%mor:	adv|now det|the-Def-Art noun|girl verb|get-Fin-Ind-Past-S3-irr adj|scared-S1 adv|again .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|XCOMP 6|4|ADVMOD 7|4|PUNCT
+*CHI:	now the [/] the coach was trying to get it .
+%mor:	adv|now det|the-Def-Art noun|coach aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*CHI:	now the coach &+tri &-um tried to get it .
+%mor:	adv|now det|the-Def-Art noun|coach verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	<and it> [//] &-um and then the coach didn't get it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|coach aux|do-Fin-Ind-Past-S3-irr~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|8|ROOT 8|7|OBJ 9|7|PUNCT
+*CHI:	now the girl tried to get it with the net .
+%mor:	adv|now det|the-Def-Art noun|girl verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|with det|the-Def-Art noun|net .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|10|CASE 9|10|DET 10|6|OBL 11|4|PUNCT
+*CHI:	&-um the girl almost got it .
+%mor:	det|the-Def-Art noun|girl adv|almost verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	now [/] now the girl gived it to the boy .
+%mor:	adv|now det|the-Def-Art noun|girl verb|give-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|boy .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	now [/] now the boy was happy .
+%mor:	adv|now det|the-Def-Art noun|boy aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and that's the end !
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end !
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

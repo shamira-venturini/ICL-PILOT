@@ -1,0 +1,60 @@
+@UTF8
+@PID:	11312/c-00036252-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;06.07|male|TD||Target_Child|||
+@Media:	518_A3, audio
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 30
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	the cow and the moose they +//.
+%mor:	det|the-Def-Art noun|cow cconj|and det|the-Def-Art noun|moose pron|they-Prs-Nom-P3 +//.
+%gra:	1|2|DET 2|6|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|CONJ 7|2|PUNCT
+*CHI:	oopsie I forgot the moose .
+%mor:	intj|oopsie pron|I-Prs-Nom-S1 verb|forget-Fin-Ind-Past-S1-irr det|the-Def-Art noun|moose-Acc .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	+, the cow and the elephant they wanna go in the water .
+%mor:	det|the-Def-Art noun|cow cconj|and det|the-Def-Art noun|elephant pron|they-Prs-Nom-P3 aux|wanna-Fin-Ind-Pres-P3 verb|go-Inf-Ind-Pres-P3 adp|in det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|8|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|8|NSUBJ 7|8|AUX 8|11|ROOT 9|11|CASE 10|11|DET 11|8|OBL 12|8|PUNCT
+*CHI:	(.) then they broke their airplane .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|break-Fin-Ind-Past-P3-irr pron|their-Prs-Gen-P3 noun|airplane-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and then the elephant wanted to see it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|want-Fin-Ind-Past-S3 part|to verb|see-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*CHI:	<and then he throw it into the> [//] and then he put it in the water .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	<and then they> [//] <and then it> [//] and then the cow was so mad at that [/] that [/] that [/] that elephant .
+%mor:	cconj|and adv|then det|the-Def-Art noun|cow aux|be-Fin-Ind-Past-S3-irr adv|so adj|mad-S1 adp|at det|that-Def-Dem-Sing noun|elephant .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|10|ROOT 8|10|CASE 9|10|DET 10|7|OBL 11|7|PUNCT
+*CHI:	and then the other [!] elephant came .
+%mor:	cconj|and adv|then det|the-Def-Art adj|other-S1 noun|elephant verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	(..) <and then he said> [//] and then the other elephant talked to the cow .
+%mor:	cconj|and adv|then det|the-Def-Art adj|other-S1 noun|elephant verb|talk-Fin-Ind-Past-S3 adp|to det|the-Def-Art noun|cow .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|9|ROOT 7|9|CASE 8|9|DET 9|6|OBL 10|6|PUNCT
+*CHI:	<and then it> [/] and then it was trying to reach that [//] the [/] the airplane .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S part|to verb|reach-Inf-S det|the-Def-Art noun|airplane-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|5|PUNCT
+*CHI:	<and then> [/] <then it got soaked> [//] then he got soaked .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|get-Fin-Ind-Past-S3-irr verb|soak-Part-Past-S .
+%gra:	1|4|ADVMOD 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|4|ROOT 5|4|PUNCT
+*CHI:	and then he got a snet [: net] [* p:n] .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|net-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	a net .
+%mor:	det|a-Ind-Art noun|net .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	and then he grabbed [!] it out of the water .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|grab-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|out adp|of det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|9|CASE 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*CHI:	and then he gave it to the cow .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|cow .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	and [/] <and then he> [/] and then he was so proud .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|proud-S1  .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|7|ROOT 7|6|PUNCT 8|6|PUNCT
+@End

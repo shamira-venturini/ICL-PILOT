@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036228-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.09|female|TD||Target_Child|||
+@Media:	464_B3, audio
+@Comment:	Birth of CHI is 25-JUL-1996
+@Date:	03-APR-2001
+@Tape Location:	Disk L27 , Track 9
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	and he had &-uh &-um a stroller xxx and a window and his balloon .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|stroller-Acc cconj|and det|a-Ind-Art noun|window cconj|and pron|his-Prs-Gen-S3 noun|balloon .
+%gra:	1|3|CC 2|3|NSUBJ 3|11|ROOT 4|5|DET 5|3|OBJ 6|8|CC 7|8|DET 8|5|CONJ 9|11|CC 10|11|NMOD-POSS 11|5|CONJ 12|3|PUNCT
+*CHI:	and he was happy again .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and so he wanted another one .
+%mor:	cconj|and adv|so pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 det|another-Def-Ind noun|one-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and he couldn't because his &-um balloon was flying .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not sconj|because pron|his-Prs-Gen-S3 noun|balloon aux|be-Fin-Ind-Past-S3-irr verb|fly-Part-Pres-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|3|ADVMOD 5|9|MARK 6|7|NMOD-POSS 7|9|NSUBJ 8|9|AUX 9|3|ADVCL 10|3|PUNCT
+*CHI:	and it was gone .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|gone-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and he picked another balloon .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 det|another-Def-Ind noun|balloon-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and he said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" I want another balloon .
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 det|another-Def-Ind noun|balloon-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and his pants were ripping &=laughs .
+%mor:	cconj|and pron|his-Prs-Gen-S3 noun|pants-Ptan aux|be-Fin-Ind-Past-P3-irr verb|rip-Part-Pres-S .
+%gra:	1|5|CC 2|3|NMOD-POSS 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	and he was happy again .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and he wanted another balloon .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 det|another-Def-Ind noun|balloon-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and the mother rabbit was sad .
+%mor:	cconj|and det|the-Def-Art noun|mother noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%gra:	1|6|CC 2|4|DET 3|4|COMPOUND 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	and then he get it back again .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|back adv|again .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|ADVMOD 8|4|PUNCT
+*CHI:	&-um he [//] they both had another balloon .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|have-Fin-Ind-Past-P3-irr det|another-Def-Ind noun|balloon-Acc .
+%gra:	1|3|NSUBJ 2|1|DET 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

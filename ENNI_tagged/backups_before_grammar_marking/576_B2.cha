@@ -1,0 +1,49 @@
+@UTF8
+@PID:	11312/c-00036133-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.11|female|SLI||Target_Child|||
+@Media:	576_B2, audio
+@Comment:	Birth of CHI is 16-APR-1997
+@Date:	27-NOV-2002
+@Tape Location:	Disc M 14 Track 5
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	they wanna go to a picnic .
+%mor:	pron|they-Prs-Nom-P3 aux|wanna-Fin-Ind-Pres-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art noun|picnic .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and he ate a lot of food .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|lot-Acc adp|of noun|food .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|5|NMOD 8|3|PUNCT
+*CHI:	and he still has a tummyache !
+%mor:	cconj|and pron|he-Prs-Nom-S3 adv|still verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|tummyache-Acc !
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and he's still growling .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|still verb|growl-Part-Pres-S .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	and he like to see the doctor .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|like-Fin-Ind-Pres-S3 part|to verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	and he quick quick [^ high pitched] !
+%mor:	cconj|and pron|he-Prs-Nom-S3 adj|quick-S1 noun|quick !
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	he said come here .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr verb|come-Inf-S adv|here .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|CCOMP 4|3|ADVMOD 5|2|PUNCT
+*CHI:	come here .
+%mor:	verb|come-Fin-Imp-S adv|here .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	he said he has a fever .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|fever-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*CHI:	he [/] he's going to take care [!] of him .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|take-Inf-S noun|care-Acc adp|of pron|he-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|8|CASE 8|5|OBL 9|3|PUNCT
+*CHI:	that's the end .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	can I take this ?
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|take-Inf-S pron|this-Dem-S1 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+@End

@@ -1,0 +1,119 @@
+@UTF8
+@PID:	11312/c-00036203-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;05.20|male|TD||Target_Child|||
+@Media:	421_B2, audio
+@Comment:	Birth of CHI is 22-OCT-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 16
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	I saw two rabbits .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Past-S1-irr num|two noun|rabbit-Plur-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|NUMMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	and I was walking down on the same track .
+%mor:	cconj|and pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr verb|walk-Part-Pres-S adp|down adp|on det|the-Def-Art adj|same-S1 noun|track .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|4|COMPOUND-PRT 6|9|CASE 7|9|DET 8|9|AMOD 9|4|OBL 10|4|PUNCT
+*CHI:	and I was asking them can I come .
+%mor:	cconj|and pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr verb|ask-Part-Pres-S pron|they-Prs-Acc-P3 aux|can-Fin-S pron|I-Prs-Nom-S1 verb|come-Inf-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|IOBJ 6|8|AUX 7|8|NSUBJ 8|4|CCOMP 9|4|PUNCT
+*CHI:	and they said sure .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Past-P3-irr adj|sure-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	so I forgot my pinkink [: picnic] [* p:n] .
+%mor:	adv|so pron|I-Prs-Nom-S1 verb|forget-Fin-Ind-Past-S1-irr pron|my-Prs-Gen-S1 noun|picnic-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and it ran fast and ran [/] ran back to there .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr adv|fast cconj|and verb|run-Fin-Ind-Past-S3-irr adv|back adp|to adv|there .
+%gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|3|ADVMOD 5|6|CC 6|3|CONJ 7|6|ADVMOD 8|9|CASE 9|6|OBL 10|3|PUNCT
+*CHI:	and so I did .
+%mor:	cconj|and adv|so pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Past-S1-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and so they [/] <they hardly> [/] they hardly had their castle .
+%mor:	cconj|and adv|so pron|they-Prs-Nom-P3 adv|hardly verb|have-Fin-Ind-Past-P3-irr pron|their-Prs-Gen-P3 noun|castle-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|7|ROOT 6|7|NMOD-POSS 7|5|OBJ 8|5|PUNCT
+*CHI:	so they decided to take a lunch .
+%mor:	adv|so pron|they-Prs-Nom-P3 verb|decide-Fin-Ind-Past-P3 part|to verb|take-Inf-S det|a-Ind-Art noun|lunch-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	and they had our cards then put them back then started to go for another picnic .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr pron|our-Prs-Gen-P1 noun|card-Plur-Acc adv|then verb|put-Part-Past-S-irr pron|they-Prs-Acc-P3 adv|back adv|then verb|start-Fin-Ind-Past-P3 part|to verb|go-Inf-S adp|for det|another-Def-Ind noun|picnic .
+%gra:	1|3|CC 2|3|NSUBJ 3|16|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|7|ADVMOD 7|3|PARATAXIS 8|7|OBJ 9|7|ADVMOD 10|11|ADVMOD 11|3|PARATAXIS 12|13|MARK 13|11|XCOMP 14|16|CASE 15|16|DET 16|13|OBL 17|3|PUNCT
+*CHI:	but no picnic there .
+%mor:	cconj|but det|no-Def-Neg noun|picnic adv|there .
+%gra:	1|3|CC 2|3|DET 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	they started to take a nap .
+%mor:	pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to verb|take-Inf-S det|a-Ind-Art noun|nap-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*CHI:	and this little pig started to drink the juice .
+%mor:	cconj|and det|this-Def-Dem-Sing adj|little-S1 noun|pig verb|start-Fin-Ind-Past-S3 part|to verb|drink-Inf-S det|the-Def-Art noun|juice-Acc .
+%gra:	1|5|CC 2|4|DET 3|4|AMOD 4|5|NSUBJ 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|5|PUNCT
+*CHI:	then he waked up .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|wake-Fin-Ind-Past-S3 adp|up .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	suddenly he bumped his head on the ground .
+%mor:	adv|suddenly pron|he-Prs-Nom-S3 verb|bump-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|head-Acc adp|on det|the-Def-Art noun|ground .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	then he tipped his picnic basket over .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|tip-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|picnic noun|basket-Acc adv|over .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|6|NMOD-POSS 5|6|COMPOUND 6|3|OBJ 7|3|ADVMOD 8|3|PUNCT
+*CHI:	but little rabbit said +"/.
+%mor:	cconj|but adj|little-S1 noun|rabbit verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|AMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" I want more juice .
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 adj|more-Cmp-S1 noun|juice-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	+" see there's no more juice there .
+%mor:	verb|see-Fin-Imp-S pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|no-Def-Neg adj|more-Cmp-S1 noun|juice adv|there .
+%gra:	1|7|ROOT 2|3|EXPL 3|1|CCOMP 4|6|DET 5|6|AMOD 6|3|NSUBJ 7|3|ADVMOD 8|1|PUNCT
+*CHI:	+" oh there's still more .
+%mor:	intj|oh pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 adv|still adj|more-Cmp-S1 .
+%gra:	1|3|DISCOURSE 2|3|EXPL 3|5|ROOT 4|3|ADVMOD 5|3|NSUBJ 6|3|PUNCT
+*CHI:	and so he said it's gone .
+%mor:	cconj|and adv|so pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gone-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|NSUBJ 6|7|COP 7|4|CCOMP 8|4|PUNCT
+*CHI:	<and he> [/] and he hadta learn to know .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|hadt-Fin-Ind-S3 verb|learn-Inf-S part|to verb|know-Inf-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
+*CHI:	and then he said +"/.
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" come on !
+%mor:	verb|come-Fin-Imp-S adp|on !
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	+" come on doctor !
+%mor:	verb|come-Fin-Imp-S adp|on noun|doctor !
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*CHI:	+" come on !
+%mor:	verb|come-Fin-Imp-S adp|on !
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+%com:	new track begins due to power failure
+*CHI:	so he couldn't pull him .
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|pull-Inf-S pron|he-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	so he just left him and ran and ran .
+%mor:	adv|so pron|he-Prs-Nom-S3 adv|just verb|leave-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 cconj|and verb|run-Fin-Ind-Past-S3-irr cconj|and verb|run-Fin-Ind-Past-S3-irr .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|9|ROOT 5|4|OBJ 6|7|CC 7|4|CONJ 8|9|CC 9|7|CONJ 10|4|PUNCT
+*CHI:	he told doctor [/] doctor [//] this doctor isn't [//] &+plas it's plastic .
+%mor:	pron|he-Prs-Nom-S3 verb|tell-Fin-Ind-Past-S3-irr det|this-Def-Dem-Sing noun|doctor pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 noun|plastic .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|IOBJ 5|7|NSUBJ 6|7|COP 7|2|CCOMP 8|2|PUNCT
+*CHI:	and so he felleded [: fell] [* m:++ed:i] down again . [+ gram]
+%mor:	cconj|and adv|so pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down adv|again .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|COMPOUND-PRT 6|4|ADVMOD 7|4|PUNCT
+*CHI:	then he fell down .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	then he started to give him a tweak like a bandaid on his head .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to verb|give-Inf-S pron|he-Prs-Acc-S3 det|a-Ind-Art noun|tweak-Acc adp|like det|a-Ind-Art noun|bandaid adp|on pron|his-Prs-Gen-S3 noun|head .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|14|ROOT 4|5|MARK 5|3|XCOMP 6|5|IOBJ 7|8|DET 8|5|OBJ 9|11|CASE 10|11|DET 11|8|NMOD 12|14|CASE 13|14|NMOD-POSS 14|11|NMOD 15|3|PUNCT
+*CHI:	then he feeled [: felt] [* m:=ed] much better . [+ gram]
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adv|much adj|good-Cmp-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|PUNCT
+*CHI:	but this &+ma [/] this doctor wasn't plastic anymore .
+%mor:	cconj|but pron|this-Dem-S1 det|this-Def-Dem-Sing noun|doctor aux|be-Fin-Ind-Past-S3-irr~part|not noun|plastic adv|anymore .
+%gra:	1|7|CC 2|7|NSUBJ 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|8|ROOT 8|7|ADVMOD 9|7|PUNCT
+*CHI:	and so he begin [* m:03s:a] [* m:base:ed] to get tired .
+%mor:	cconj|and adv|so pron|he-Prs-Nom-S3 verb|begin-Fin-Ind-Pres-S3 part|to verb|get-Inf-S adj|tired-S1-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|6|XCOMP 8|6|OBJ 9|4|PUNCT
+@End

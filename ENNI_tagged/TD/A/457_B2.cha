@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036222-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.21|male|TD||Target_Child|||
+@Media:	457_B2, audio
+@Comment:	Birth of CHI is 03-JUN-1996
+@Date:	24-JAN-2001
+@Tape Location:	Disk L24 , Track 20
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	he's coming to a picnic .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S adp|to det|a-Ind-Art noun|picnic .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	then he brought lots of stuff .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|bring-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc adp|of noun|stuff .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|PUNCT
+*CHI:	and then he couldn't eat all of it .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|eat-Inf-S det|all-Def-Tot adp|of pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|9|ROOT 7|6|OBJ 8|9|CASE 9|7|NMOD 10|6|PUNCT
+*CHI:	and then he had a tummyache .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|tummyache-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	then he was dizzy had a tummyache .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|dizzy-S1 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|tummyache-Acc .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	then her bunny comed [: came] [* m:=ed] .
+%mor:	adv|then pron|her-Prs-Gen-S3 noun|bunny verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|4|ADVMOD 2|3|NMOD-POSS 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	<and then> [/] <and then> [//] <then that's> [//] and [/] and [/] and &-uh &+ul the guy &+fou &-um &-um had it .
+%mor:	cconj|and det|the-Def-Art noun|guy verb|have-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	<and her> [/] and <her pulled> [/] her pulled only .
+%mor:	cconj|and pron|her-Prs-Acc-S3 verb|pull-Fin-Ind-Past-S3 adv|only .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	<and then> [//] then <he was> [/] he was fixing him .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|fix-Part-Pres-S pron|he-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	but he's done already .
+%mor:	cconj|but pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|do-Part-Past-S-irr adv|already .
+%gra:	1|4|CC 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	that's all .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|all-Def-Tot .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+@End

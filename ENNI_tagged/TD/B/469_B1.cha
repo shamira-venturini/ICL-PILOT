@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036232-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.15|female|TD||Target_Child|||
+@Media:	469_B1, audio
+@Comment:	Birth of CHI is 10-OCT-1996
+@Date:	25-MAY-2001
+@Tape Location:	Disk L28 Track 47
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	&-um the bunny and the baby elephant are building a sandcastle .
+%mor:	det|the-Def-Art noun|bunny cconj|and det|the-Def-Art noun|baby noun|elephant aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|DET 2|8|NSUBJ 3|6|CC 4|6|DET 5|6|COMPOUND 6|2|CONJ 7|8|AUX 8|10|ROOT 9|10|DET 10|8|OBJ 11|8|PUNCT
+*CHI:	and then the bunny's filling up a pail with sand .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny~part|s verb|fill-Part-Pres-S adp|up det|a-Ind-Art noun|pail-Acc adp|with noun|sand .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|4|CASE 6|11|ROOT 7|6|COMPOUND-PRT 8|9|DET 9|6|OBJ 10|11|CASE 11|9|NMOD 12|6|PUNCT
+*CHI:	&-um then he's stuffing it on the sandcastle .
+%mor:	adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|stuff-Part-Pres-S pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|sandcastle .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	and then it is ruined .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|ruin-Part-Past-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ-PASS 4|5|AUX-PASS 5|5|ROOT 6|5|PUNCT
+*CHI:	then one of them is sad .
+%mor:	adv|then num|one adp|of pron|they-Prs-Acc-P3 aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%gra:	1|6|ADVMOD 2|6|NSUBJ 3|4|CASE 4|2|NMOD 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	that's it .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+@End

@@ -1,0 +1,68 @@
+@UTF8
+@PID:	11312/a-00077226-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|||||Target_Child|||
+@Media:	523_A2, audio
+@Comment:	Batchalign 0.7.2 , ASR Engine rev
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	you got this .
+%mor:	pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Past-S2-irr pron|this-Dem-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	she says .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	win .
+%mor:	verb|win-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	so ↫sh↫she said .
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	me !
+%mor:	pron|I-Prs-Acc-S1 !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	<she started to get in water> [?] .
+%mor:	pron|she-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to verb|get-Inf-S adp|in noun|water .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|6|CASE 6|4|OBL 7|2|PUNCT
+*CHI:	xxx I want to go here .
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 part|to verb|go-Inf-S adv|here .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|MARK 4|2|XCOMP 5|4|ADVMOD 6|2|PUNCT
+*CHI:	yes you can .
+%mor:	intj|yes pron|you-Prs-Nom-S2 aux|can-Fin-S .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	yahoo !
+%mor:	propn|yahoo !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	wait .
+%mor:	verb|wait-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	so ↫you↫your knee's's [: knee's] [* m:++'s] hurt .
+%mor:	adv|so pron|your-Prs-Gen-S2 noun|knee~aux|be-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr .
+%gra:	1|5|ADVMOD 2|3|NMOD-POSS 3|5|NSUBJ 4|5|AUX-PASS 5|5|ROOT 6|5|PUNCT
+*CHI:	ah ou:ch .
+%mor:	intj|ah intj|ouch .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	so that hurts .
+%mor:	adv|so pron|that-Dem verb|hurt-Fin-Ind-Pres-S3 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	she's got to cry .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr part|to verb|cry-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	so is this &=cries .
+%mor:	adv|so aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|DISCOURSE 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	yeah that's better that hurt your bandaid .
+%mor:	intj|yeah pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adj|good-Cmp-S1 pron|that-Rel verb|hurt-Fin-Ind-Past-S3-irr pron|your-Prs-Gen-S2 noun|bandaid-Acc .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|COP 4|8|ROOT 5|6|NSUBJ 6|4|ADVCL-RELCL 7|8|NMOD-POSS 8|6|OBJ 9|4|PUNCT
+*CHI:	so you [/] you gotta go swim later so you gotta get hurt .
+%mor:	adv|so pron|you-Prs-Nom-S2 aux|getta-Fin-S verb|go-Inf-S verb|swim-Inf-S adv|late sconj|so pron|you-Prs-Nom-S2 aux|getta-Fin-S aux|get-Inf-S verb|hurt-Part-Past-S-irr .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|11|ROOT 5|4|XCOMP 6|5|ADVMOD 7|11|MARK 8|11|NSUBJ-PASS 9|11|AUX 10|11|AUX-PASS 11|4|ADVCL 12|4|PUNCT
+*CHI:	I am done .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Pres-S1 adj|done-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+@End

@@ -1,0 +1,36 @@
+@UTF8
+@PID:	11312/c-00036191-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;02.18|male|TD||Target_Child|||
+@Media:	407_B2, audio
+@Comment:	Birth of CHI is 21-NOV-1995
+@Tape Location:	Disk L1 Track 30
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	they're chopping .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|chop-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	they're having a picnic now .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S det|a-Ind-Art noun|picnic-Acc adv|now .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*CHI:	now it's all done .
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all verb|do-Part-Past-S-irr .
+%gra:	1|5|ADVMOD 2|5|NSUBJ-PASS 3|5|AUX-PASS 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	(..) now they have a stomachache .
+%mor:	adv|now pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|stomachache-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	(.) now they're going to the doctor .
+%mor:	adv|now pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S adp|to det|the-Def-Art noun|doctor .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and now they're pulling the doctor over there &=whispers .
+%mor:	cconj|and adv|now pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|pull-Part-Pres-S det|the-Def-Art noun|doctor-Acc adp|over adv|there .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|7|DET 7|5|OBJ 8|9|CASE 9|5|OBL 10|5|PUNCT
+*CHI:	and now the doctor is looking .
+%mor:	cconj|and adv|now det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3 verb|look-Part-Pres-S .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|6|ROOT 7|6|PUNCT
+*CHI:	and now the doctor is taking her .
+%mor:	cconj|and adv|now det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3 verb|take-Part-Pres-S pron|her-Prs-Acc-S3-Acc .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|8|ROOT 7|8|NMOD-POSS 8|6|OBJ 9|6|PUNCT
+@End

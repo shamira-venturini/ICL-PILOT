@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036236-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.19|female|TD||Target_Child|||
+@Media:	502_B2, audio
+@Comment:	Birth of CHI is 29-SEP-1994
+@Date:	17-MAR-2000
+@Tape Location:	Disk M1 Track 3
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	&-um the bunny and her friend went on a picnic .
+%mor:	det|the-Def-Art noun|bunny cconj|and pron|her-Prs-Gen-S3 noun|friend verb|go-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art noun|picnic .
+%gra:	1|2|DET 2|6|NSUBJ 3|5|CC 4|5|NMOD-POSS 5|2|CONJ 6|9|ROOT 7|9|CASE 8|9|DET 9|6|OBL 10|6|PUNCT
+*CHI:	and the bunny ate food .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|eat-Fin-Ind-Past-S3-irr noun|food-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and the bunny was full .
+%mor:	cconj|and det|the-Def-Art noun|bunny aux|be-Fin-Ind-Past-S3-irr adj|full-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and the bunny hit his head on the grass .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|hit-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|head-Acc adp|on det|the-Def-Art noun|grass .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*CHI:	<and his mother said in her> [//] the bunny's friend went to his mother .
+%mor:	det|the-Def-Art noun|bunny~part|s noun|friend verb|go-Fin-Ind-Past-S3-irr adp|to pron|his-Prs-Gen-S3 noun|mother .
+%gra:	1|2|DET 2|4|NMOD-POSS 3|2|CASE 4|5|NSUBJ 5|8|ROOT 6|8|CASE 7|8|NMOD-POSS 8|5|OBL 9|5|PUNCT
+*CHI:	<and then he said> [//] <she said> [//] he said +"/.
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	+" come here .
+%mor:	verb|come-Fin-Imp-S adv|here .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	and &+sh she said +"/.
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" look at that round thing [?] .
+%mor:	verb|look-Fin-Imp-S adp|at det|that-Def-Dem-Sing adj|round-S1 noun|thing-Ger .
+%gra:	1|5|ROOT 2|5|CASE 3|5|DET 4|5|AMOD 5|1|OBL 6|1|PUNCT
+*CHI:	the round thing on his head .
+%mor:	det|the-Def-Art adj|round-S1 noun|thing-Ger adp|on pron|his-Prs-Gen-S3 noun|head .
+%gra:	1|3|DET 2|3|AMOD 3|6|ROOT 4|6|CASE 5|6|NMOD-POSS 6|3|NMOD 7|3|PUNCT
+*CHI:	and the bunny said goodbye to his friend .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr noun|goodbye-Acc adp|to pron|his-Prs-Gen-S3 noun|friend propn|nd .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|8|APPOS 10|4|PUNCT
+@End

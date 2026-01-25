@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036259-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.29|male|TD||Target_Child|||
+@Media:	532_A1, audio
+@Comment:	Birth of CHI is 13-APR-1995
+@Date:	12-DEC-2000
+@Tape Location:	Disk M6 Track 68
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	the [/] the elephant was bouncing some balls .
+%mor:	det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr verb|bounce-Part-Pres-S det|some-Def-Ind noun|ball-Plur-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and the giraffe wanted to too .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|want-Fin-Ind-Past-S3 part|to adv|too .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|XCOMP 6|4|ADVMOD 7|4|PUNCT
+*CHI:	and then he &-um falled [: fell] [* m:=ed] over .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|over .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	and he fell in the water .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and then the elephant gave him a ball in the water .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 det|a-Ind-Art noun|ball-Acc adp|in det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|11|ROOT 6|5|IOBJ 7|8|DET 8|5|OBJ 9|11|CASE 10|11|DET 11|5|OBL 12|5|PUNCT
+*CHI:	then he got out .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adp|out .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

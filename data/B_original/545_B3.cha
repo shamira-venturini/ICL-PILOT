@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036267-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;01.12|male|TD||Target_Child|||
+@Media:	545_B3, audio
+@Comment:	Birth of CHI is 15-MAY-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 24
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	I was bringing a balloon .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr verb|bring-Part-Pres-S det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	(..) and [/] and [/] and the rabbit was happy .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and he was taking it off .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|take-Part-Pres-S pron|it-Prs-Acc-S3 adp|off .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	and [/] <and they> [//] &+we and he let go .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|let-Fin-Ind-Past-S3-irr noun|go-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and it flied [: flew] [* m:=ed] in [//] up in the sky . [+ gram]
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|fly-Fin-Ind-Past-S3-irr adp|up adp|in det|the-Def-Art noun|sky .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|COMPOUND-PRT 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	and then we couldn't get it .
+%mor:	cconj|and adv|then pron|we-Prs-Nom-P1 aux|could-Fin-S~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	and then there was a [/] a balloon guy .
+%mor:	cconj|and adv|then pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|balloon noun|guy .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|EXPL 4|7|ROOT 5|7|DET 6|7|COMPOUND 7|4|NSUBJ 8|4|PUNCT
+*CHI:	and we went to go get one .
+%mor:	cconj|and pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr part|to verb|go-Inf-S verb|get-Inf-S num|one .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|XCOMP 7|6|OBJ 8|3|PUNCT
+*CHI:	and we got a number five .
+%mor:	cconj|and pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr det|a-Ind-Art noun|number-Acc num|five .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|5|NUMMOD 7|3|PUNCT
+*CHI:	and we didn't get any balloons .
+%mor:	cconj|and pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Past-P1-irr~part|not verb|get-Inf-S det|any-Def-Ind noun|balloon-Plur-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	<and her> [//] &+mo and then the rabbit's mom was here .
+%mor:	cconj|and adv|then det|the-Def-Art noun|rabbit~part|s noun|mom aux|be-Fin-Ind-Past-S3-irr adv|here .
+%gra:	1|8|CC 2|8|ADVMOD 3|4|DET 4|6|NMOD-POSS 5|4|CASE 6|8|NSUBJ 7|8|COP 8|8|ROOT 9|8|PUNCT
+*CHI:	and [/] and he was &-like asking for [* s:r:+prep] his mom for money . [+ gram]
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|ask-Part-Pres-S adp|for pron|his-Prs-Gen-S3 noun|mom adp|for noun|money .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|7|CASE 6|7|NMOD-POSS 7|4|OBL 8|9|CASE 9|4|OBL 10|4|PUNCT
+*CHI:	and [/] and the mom give [* m:03s:a] [* m:base:ed] him some money . [+ gram]
+%mor:	cconj|and det|the-Def-Art noun|mom verb|give-Fin-S pron|he-Prs-Acc-S3 det|some-Def-Ind noun|money-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	and then they both had &+s balloons .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 det|both-Def-Tot verb|have-Fin-Ind-Past-P3-irr noun|balloon-Plur-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|3|DET 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

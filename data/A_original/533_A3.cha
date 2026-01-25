@@ -1,0 +1,70 @@
+@UTF8
+@PID:	11312/c-00036260-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;06.26|male|TD||Target_Child|||
+@Media:	533_A3, audio
+@Comment:	Birth of CHI is 25-APR-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 112
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	&-um the [//] <they have> [//] the horse has a [/] &+ele &-uh a plane .
+%mor:	det|the-Def-Art noun|horse verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|plane-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	<now the> [/] now the horse is flying the plane .
+%mor:	adv|now det|the-Def-Art noun|horse aux|be-Fin-Ind-Pres-S3 verb|fly-Part-Pres-S det|the-Def-Art noun|plane-Acc .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	now the elephant's flying the plane .
+%mor:	adv|now det|the-Def-Art noun|elephant~part|s verb|fly-Ger-S det|the-Def-Art noun|plane-Acc .
+%gra:	1|5|ADVMOD 2|3|DET 3|7|NMOD-POSS 4|3|CASE 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	<now they dropped it> [//] now the elephant dropped it in the water .
+%mor:	adv|now det|the-Def-Art noun|elephant verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	and now the [/] the horsie's mad .
+%mor:	cconj|and adv|now det|the-Def-Art noun|horsie~part|s noun|mad .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NMOD-POSS 5|4|CASE 6|6|ROOT 7|6|PUNCT
+*CHI:	and the elephant's sad .
+%mor:	cconj|and det|the-Def-Art noun|elephant~part|s adj|sad-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|5|ROOT 6|5|PUNCT
+*CHI:	<and now the> [/] <now the elephant's> [//] and now the lifeguard said +"/.
+%mor:	cconj|and adv|now det|the-Def-Art noun|lifeguard verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	+" go and get it .
+%mor:	verb|go-Fin-Imp-S cconj|and verb|get-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|ROOT 2|3|CC 3|1|CONJ 4|3|OBJ 5|1|PUNCT
+*CHI:	and she said I can't .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|I-Prs-Nom-S1 aux|can-Fin-S~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|NSUBJ 5|3|CCOMP 6|5|ADVMOD 7|3|PUNCT
+*CHI:	and then the lifeguard tries to get it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|lifeguard verb|try-Fin-Ind-Pres-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*CHI:	and he can't .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and he doesn't know how .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|know-Inf-S adv|how .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	and the horsie's sad .
+%mor:	cconj|and det|the-Def-Art noun|horsie~part|s adj|sad-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|5|ROOT 6|5|PUNCT
+*CHI:	now <he got the net> [//] the [/] the other one got the net .
+%mor:	adv|now det|the-Def-Art adj|other-S1 noun|one verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|net-Acc .
+%gra:	1|5|ADVMOD 2|4|DET 3|4|AMOD 4|5|NSUBJ 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and they got it .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	now we have the airplane back .
+%mor:	adv|now pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|the-Def-Art noun|airplane-Acc adv|back .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*CHI:	now we can fly it .
+%mor:	adv|now pron|we-Prs-Nom-P1 aux|can-Fin-S verb|fly-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	he's not sharing it any more .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not verb|share-Part-Pres-S pron|it-Prs-Acc-S3 det|any-Def-Ind adj|more-Cmp-S1 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|OBJ 6|7|DET 7|4|ADVMOD 8|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

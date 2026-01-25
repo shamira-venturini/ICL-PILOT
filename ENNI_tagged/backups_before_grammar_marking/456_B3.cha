@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/c-00036221-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;01.22|male|TD||Target_Child|||
+@Media:	456_B3, audio
+@Comment:	Birth of CHI is 30-DEC-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 80
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	once upon a time he pulled a wagon with a balloon .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|he-Prs-Nom-S3 verb|pull-Fin-Ind-Past-S3 det|a-Ind-Art noun|wagon-Acc adp|with det|a-Ind-Art noun|balloon .
+%gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|NSUBJ 6|11|ROOT 7|8|DET 8|6|OBJ 9|11|CASE 10|11|DET 11|6|OBL 12|6|PUNCT
+*CHI:	then he [//] &-um some [//] someone stole the balloon .
+%mor:	adv|then pron|someone-Ind-S1 verb|steal-Fin-Ind-Past-S3-irr det|the-Def-Art noun|balloon-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	then it &-um fly at the sky .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|fly-Fin-Ind-Pres-S3 adp|at det|the-Def-Art noun|sky .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	then &-um they can't reach it .
+%mor:	adv|then pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	then &-um they [/] they popped it .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|pop-Fin-Ind-Past-P3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	then they had lots of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|PUNCT
+*CHI:	then they gived [: gave] [* m:=ed] lots of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|give-Fin-Ind-Past-P3-irr noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|PUNCT
+*CHI:	then &-um they dropped it again [!] .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|drop-Fin-Ind-Past-P3 pron|it-Prs-Acc-S3 adv|again .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*CHI:	then he flied [: flew] [* m:=ed] it .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|fly-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	<then he almost> [//] then he give it to them .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|to pron|they-Prs-Acc-P3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	then &-um he give [* m:0ed] it to them .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|to pron|they-Prs-Acc-P3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	then they had another balloon from him and him .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|another-Def-Ind noun|balloon-Acc adp|from pron|he-Prs-Acc-S3 cconj|and pron|he-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|9|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|9|CC 9|7|CONJ 10|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

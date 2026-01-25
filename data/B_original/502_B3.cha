@@ -1,0 +1,76 @@
+@UTF8
+@PID:	11312/c-00036236-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.19|female|TD||Target_Child|||
+@Media:	502_B3, audio
+@Comment:	Birth of CHI is 29-SEP-1994
+@Date:	17-MAR-2000
+@Tape Location:	Disk M1 Track 3
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the bunny said hi to his friend .
+%mor:	det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr intj|hi adp|to pron|his-Prs-Gen-S3 noun|friend .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|3|CCOMP 5|7|CASE 6|7|NMOD-POSS 7|3|OBL 8|3|PUNCT
+*CHI:	he wanted a balloon .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	(.) and he took one .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr num|one .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and he stealed [* m:=ed] it . [+ gram]
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|steal-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	(.) <and he> [//] and the bunny's friend said [^ gasping sound] .
+%mor:	cconj|and det|the-Def-Art noun|bunny~part|s noun|friend verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|6|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	and it blowed [* m:=ed] away . [+ gram]
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|blow-Fin-Ind-Past-S3 adv|away .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and the bunny's friend said [^ shrugs shoulders] .
+%mor:	cconj|and det|the-Def-Art noun|bunny~part|s noun|friend verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|6|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	he said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	he said [^ shrugs shoulders] .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	he [/] &+s he was angry .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|angry-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	(.) and the bunny's friend wanted a balloon again .
+%mor:	cconj|and det|the-Def-Art noun|bunny~part|s noun|friend verb|want-Fin-Ind-Past-S3 det|a-Ind-Art noun|balloon-Acc adv|again .
+%gra:	1|6|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|6|NSUBJ 6|9|ROOT 7|8|DET 8|6|OBJ 9|6|ADVMOD 10|6|PUNCT
+*CHI:	he wanted a balloon again .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 det|a-Ind-Art noun|balloon-Acc adv|again .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|DET 4|2|OBJ 5|2|ADVMOD 6|2|PUNCT
+*CHI:	<and the bunny's frien> [//] the bunny &-um showed what [* s:r] one [//] ones [//] one it wanted .
+%mor:	det|the-Def-Art noun|bunny verb|show-Fin-Ind-Past-S3 det|what-Def-Int noun|one-Acc pron|it-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|NSUBJ 7|5|ACL-RELCL 8|3|PUNCT
+*CHI:	and it was number five .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr noun|number num|five .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|5|ROOT 5|4|NUMMOD 6|4|PUNCT
+*CHI:	(.) <and the bunny said> [/] and the bunny said no [!] .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr intj|no .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	and the bunny wanted to have it .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|want-Fin-Ind-Past-S3 part|to verb|have-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	but he [//] she [//] and he changed its mind .
+%mor:	cconj|but cconj|and pron|he-Prs-Nom-S3 verb|change-Fin-Ind-Past-S3 pron|its-Prs-Gen-S3 noun|mind-Acc .
+%gra:	1|4|CC 2|4|CC 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	(..) and then <her> [//] his mother came .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|mother verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	and they had two balloons .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr num|two noun|balloon-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	(.) and then they got it .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3  .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|XCOMP 7|4|PUNCT
+@End

@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/c-00036254-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.16|male|TD||Target_Child|||
+@Media:	522_B3, audio
+@Comment:	Birth of CHI is 12-NOV-1994
+@Date:	28-APR-2000
+@Tape Location:	Disk M5 Track 23
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	there was a elephant and a bunny rabbit .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|bunny noun|rabbit .
+%gra:	1|2|EXPL 2|8|ROOT 3|4|DET 4|2|NSUBJ 5|8|CC 6|8|DET 7|8|COMPOUND 8|4|CONJ 9|2|PUNCT
+*CHI:	and <it had the &+wa> [//] it has a handle and has a balloon in its wagon .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|handle-Acc cconj|and verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon-Acc adp|in pron|its-Prs-Gen-S3 noun|wagon .
+%gra:	1|3|CC 2|3|NSUBJ 3|12|ROOT 4|5|DET 5|3|OBJ 6|7|CC 7|3|CONJ 8|9|DET 9|7|OBJ 10|12|CASE 11|12|NMOD-POSS 12|9|NMOD 13|3|PUNCT
+*CHI:	<and it> [//] and the bunny rabbit said wow .
+%mor:	cconj|and det|the-Def-Art noun|bunny noun|rabbit verb|say-Fin-Ind-Past-S3-irr intj|wow .
+%gra:	1|5|CC 2|4|DET 3|4|COMPOUND 4|5|NSUBJ 5|6|ROOT 6|5|DISCOURSE 7|5|PUNCT
+*CHI:	and [/] and the elephant dropped the handle .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|drop-Fin-Ind-Past-S3 det|the-Def-Art noun|handle-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and then the rabbit tied more tighter .
+%mor:	cconj|and adv|then det|the-Def-Art noun|rabbit verb|tie-Fin-Ind-Past-S3 adv|more adj|tight-Cmp-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|7|ADVMOD 7|5|XCOMP 8|5|PUNCT
+*CHI:	and then it went up .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	(.) and then they didn't know how to get it .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not verb|know-Inf-S adv|how part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|10|ROOT 7|6|OBJ 8|9|MARK 9|7|ACL 10|9|OBJ 11|6|PUNCT
+*CHI:	so they asked one guy that had a lots of balloons .
+%mor:	adv|so pron|they-Prs-Nom-P3 verb|ask-Fin-Ind-Past-P3 num|one noun|guy-Acc pron|that-Rel verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|11|ROOT 4|5|NUMMOD 5|3|OBJ 6|7|NSUBJ 7|5|ACL-RELCL 8|9|DET 9|7|OBJ 10|11|CASE 11|9|NMOD 12|3|PUNCT
+*CHI:	and then he said if he could get that .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr sconj|if pron|he-Prs-Nom-S3 aux|could-Fin-S verb|get-Inf-S pron|that-Dem .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|8|MARK 6|8|NSUBJ 7|8|AUX 8|4|CCOMP 9|8|OBJ 10|4|PUNCT
+*CHI:	<but he> [/] &+ss but he didn't have any money .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S det|any-Def-Ind noun|money-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	(.) so [/] so they just looked at it .
+%mor:	adv|so pron|they-Prs-Nom-P3 adv|just verb|look-Fin-Ind-Past-P3 adp|at pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	and &+wo the rabbit went away .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|go-Fin-Ind-Past-S3-irr adv|away .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and [/] and then they point at that guy .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|point-Fin-Ind-Pres-P3 adp|at det|that-Def-Dem-Sing noun|guy .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and they asked <if he> [//] if they could get all the [/] the balloons .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|ask-Fin-Ind-Past-P3 sconj|if pron|they-Prs-Nom-P3 aux|could-Fin-S verb|get-Inf-S det|all-Def-Tot det|the-Def-Art noun|balloon-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|10|ROOT 4|7|MARK 5|7|NSUBJ 6|7|AUX 7|3|CCOMP 8|10|DET-PREDET 9|10|DET 10|7|OBJ 11|3|PUNCT
+*CHI:	and then they give him money .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|give-Fin-Ind-Pres-P3 pron|he-Prs-Acc-S3 noun|money-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|IOBJ 6|4|OBJ 7|4|PUNCT
+*CHI:	and then they had one .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr num|one  .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|PUNCT 7|4|PUNCT
+@End

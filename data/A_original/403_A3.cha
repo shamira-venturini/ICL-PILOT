@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/c-00036187-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;03.00|female|TD||Target_Child|||
+@Media:	403_A3, audio
+@Comment:	Birth of CHI is 03-NOV-1995
+@Date:	03-FEB-2000
+@Tape Location:	Disk L1 Track 16
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	&-uh they told questions .
+%mor:	pron|they-Prs-Nom-P3 verb|tell-Fin-Ind-Past-P3-irr noun|question-Plur-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	<they found a [* m:allo] elephant in his> [//] &+pock &-uh they found a [/] a plane in his pocket .
+%mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|plane-Acc adp|in pron|his-Prs-Gen-S3 noun|pocket .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|OBJ 5|7|CASE 6|7|NMOD-POSS 7|2|OBL 8|2|PUNCT
+*CHI:	and then the elephant grabbed it without saying please .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|grab-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 sconj|without verb|say-Part-Pres-S intj|please .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|OBJ 7|8|MARK 8|5|ADVCL 9|5|DISCOURSE 10|5|PUNCT
+*CHI:	<and then she was going 0to throw> [//] <she throwed [: threw] [* m:=ed] the> [//] I [//] she [//] it slipped out of her hand . [+ gram]
+%mor:	pron|it-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 adp|out adp|of pron|her-Prs-Gen-S3 noun|hand .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|6|CASE 4|3|FIXED 5|6|NMOD-POSS 6|2|OBL 7|2|PUNCT
+*CHI:	and it goed [* m:=ed] in the water . [+ gram]
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and it was sinking .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|sink-Part-Pres-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	then [/] <then the> [/] then the man it was going to swim .
+%mor:	adv|then det|the-Def-Art noun|man pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S part|to verb|swim-Inf-S .
+%gra:	1|6|ADVMOD 2|3|DET 3|8|ROOT 4|6|NSUBJ 5|6|AUX 6|3|ACL-RELCL 7|8|MARK 8|6|XCOMP 9|3|PUNCT
+*CHI:	he said why is that airplane in the pool ?
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adv|why aux|be-Fin-Ind-Pres-S3 det|that-Def-Dem-Sing noun|airplane adp|in det|the-Def-Art noun|pool ?
+%gra:	1|2|NSUBJ 2|9|ROOT 3|2|OBJ 4|3|COP 5|6|DET 6|9|NSUBJ 7|9|CASE 8|9|DET 9|2|CCOMP 10|2|PUNCT
+*CHI:	<she said> [//] I [//] and it slipped out of his hand she said .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 adp|out adp|of pron|his-Prs-Gen-S3 noun|hand pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|7|CASE 5|4|FIXED 6|7|NMOD-POSS 7|3|OBL 8|9|NSUBJ 9|3|PARATAXIS 10|3|PUNCT
+*CHI:	then [//] &+sh <and then> [/] <and then he thought> [//] she was trying to get it .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*CHI:	but he was gonna fall in the water .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go verb|fall-Inf-S adp|in det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	then he was <too scared> [/] too [?] scared .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|too adj|scared-S1 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	then he was gonna catch it .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go verb|catch-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	the girl and mommy .
+%mor:	det|the-Def-Art noun|girl cconj|and noun|mommy .
+%gra:	1|2|DET 2|4|ROOT 3|4|CC 4|2|CONJ 5|2|PUNCT
+*CHI:	&-uh she caught it .
+%mor:	pron|she-Prs-Nom-S3 verb|catch-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	she gave it to him .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to pron|he-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
+*CHI:	then they were happy .
+%mor:	adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

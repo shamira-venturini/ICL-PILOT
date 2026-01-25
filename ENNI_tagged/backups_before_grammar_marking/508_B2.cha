@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036242-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;08.13|male|TD||Target_Child|||
+@Media:	508_B2, audio
+@Comment:	Birth of CHI is 19-JUN-1994
+@Date:	03-MAR-2000
+@Tape Location:	Disk M1 Track 72
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	yep .
+%mor:	intj|yep .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they went for a picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|for det|a-Ind-Art noun|picnic .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	they ate .
+%mor:	pron|they-Prs-Nom-P3 verb|eat-Fin-Ind-Past-P3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	the rabbit was getting full .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|get-Part-Pres-S adj|full-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	and he felt dizzy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|dizzy-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	and then a bunny come along a bunny nurse .
+%mor:	cconj|and adv|then det|a-Ind-Art noun|bunny verb|come-Fin-Ind-Pres-S3 adp|along det|a-Ind-Art noun|bunny noun|nurse .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|9|CASE 7|9|DET 8|9|COMPOUND 9|5|OBL 10|5|PUNCT
+*CHI:	the dog pulled on the nurse .
+%mor:	det|the-Def-Art noun|dog verb|pull-Fin-Ind-Past-S3 adp|on det|the-Def-Art noun|nurse .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	<he felt> [//] the doctor helped the other bunny .
+%mor:	det|the-Def-Art noun|doctor verb|help-Fin-Ind-Past-S3 det|the-Def-Art adj|other-S1 noun|bunny-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	and then he was feeling better .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|feel-Part-Pres-S adj|good-Cmp-S1  .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|5|XCOMP 7|5|PUNCT 8|5|PUNCT
+@End

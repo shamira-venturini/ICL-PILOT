@@ -1,0 +1,28 @@
+@UTF8
+@PID:	11312/c-00036265-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;11.21|male|TD||Target_Child|||
+@Media:	543_B1, audio
+@Comment:	Birth of CHI is 15-JUN-1994
+@Date:	05-JUN-2000
+@Tape Location:	Disk L15 Track 89
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	a rabbit's playing with a mouse in a sandbox .
+%mor:	det|a-Ind-Art noun|rabbit~aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|mouse adp|in det|a-Ind-Art noun|sandbox .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|10|CASE 9|10|DET 10|4|OBL 11|4|PUNCT
+*CHI:	the mouse is playing with the rabbit building the sandcastle .
+%mor:	det|the-Def-Art noun|mouse aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S adp|with det|the-Def-Art noun|rabbit verb|build-Ger-S det|the-Def-Art noun|sandcastle-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|ADVCL 9|10|DET 10|8|OBJ 11|4|PUNCT
+*CHI:	<the rabbit> [/] the rabbit breaked [: broke] [* m:=ed] it . [+ gram]
+%mor:	det|the-Def-Art noun|rabbit verb|break-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	(.) the mouse got mad .
+%mor:	det|the-Def-Art noun|mouse verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	he built it again .
+%mor:	pron|he-Prs-Nom-S3 verb|build-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|again  .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT 6|2|PUNCT
+@End

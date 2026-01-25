@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036262-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.24|female|TD||Target_Child|||
+@Media:	538_A1, audio
+@Comment:	Birth of CHI is 10-JUL-1995
+@Date:	04-DEC-2000
+@Tape Location:	Disk M6 Track 58
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	there was a giraffe and a elephant that [/] that was playing ball near the pond .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant pron|that-Rel aux|be-Fin-Ind-Past-S3-irr verb|play-Part-Pres-S noun|ball-Acc adp|near det|the-Def-Art noun|pond .
+%gra:	1|2|EXPL 2|14|ROOT 3|4|DET 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|10|NSUBJ 9|10|AUX 10|7|ACL-RELCL 11|10|OBJ 12|14|CASE 13|14|DET 14|10|OBL 15|2|PUNCT
+*CHI:	but the ball fell in .
+%mor:	cconj|but det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adv|in .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	the giraffe splashed in .
+%mor:	det|the-Def-Art noun|giraffe verb|splash-Fin-Ind-Past-S3 adp|in .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	but it [//] he couldn't swim .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|swim-Inf-S .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	but he got the ball .
+%mor:	cconj|but pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	<he helped the> [//] he helped out .
+%mor:	pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Past-S3 adp|out .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

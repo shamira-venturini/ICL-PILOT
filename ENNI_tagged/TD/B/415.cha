@@ -1,0 +1,268 @@
+@UTF8
+@PID:	11312/c-00036198-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.07|female|TD||Target_Child|||
+@Media:	415, audio
+@Comment:	Birth of CHI is 7-JUL-1995
+@Date:	14-MAR-2000
+@Tape Location:	Disk L3 Track 5
+@Types:	cross, narrative, TD
+@G:	A0
+*CHI:	there's a little kid is shopping .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|little-S1 noun|kid aux|be-Fin-Ind-Pres-S3 noun|shopping-Ger .
+%gra:	1|2|EXPL 2|7|ROOT 3|5|DET 4|5|AMOD 5|7|NSUBJ 6|7|COP 7|2|NSUBJ 8|2|PUNCT
+*CHI:	and there's an apple and some cookie .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|apple cconj|and det|some-Def-Ind noun|cookie .
+%gra:	1|3|CC 2|3|EXPL 3|8|ROOT 4|5|DET 5|3|NSUBJ 6|8|CC 7|8|DET 8|5|CONJ 9|3|PUNCT
+*CHI:	he's gonna buy a cookie .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|buy-Inf-S det|a-Ind-Art noun|cookie-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	uh oh look !
+%mor:	intj|uh intj|oh verb|look-Fin-Imp-S !
+%gra:	1|3|DISCOURSE 2|3|DISCOURSE 3|3|ROOT 4|3|PUNCT
+*CHI:	<the cookie> [/] the cookies are falling .
+%mor:	det|the-Def-Art noun|cookie-Plur aux|be-Fin-Ind-Pres-P3 verb|fall-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	and then the mad xxx ready .
+%mor:	cconj|and adv|then det|the-Def-Art adj|mad-S1 adj|ready-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	B1
+*CHI:	<a dog> [//] <a mouse> [//] <a dog> [/] a dog and a [/] &+mo a bunny .
+%mor:	det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art noun|bunny .
+%gra:	1|2|DET 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
+*CHI:	(.) and they're at the beach .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adp|at det|the-Def-Art noun|beach .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|DET 6|6|ROOT 7|6|PUNCT
+*CHI:	and the rabbit and the dog are building the something else .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S det|the-Def-Art pron|something-Ind-S1 adj|else-S1 .
+%gra:	1|8|CC 2|3|DET 3|8|NSUBJ 4|6|CC 5|6|DET 6|3|CONJ 7|8|AUX 8|11|ROOT 9|10|DET 10|8|OBJ 11|10|AMOD 12|8|PUNCT
+*CHI:	the bunny is gonna put something <on the> [/] on the castle .
+%mor:	det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 adv|gonna verb|put-Part-Past-S-irr pron|something-Ind-S1 adp|on det|the-Def-Art noun|castle .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	<and the> [/] &+cas and the bunny said +"/.
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" oh dear !
+%mor:	intj|oh adj|dear-S1 !
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	and [/] and the girl made another one because they've got a melt [?] .
+%mor:	cconj|and det|the-Def-Art noun|girl verb|make-Fin-Ind-Past-S3-irr det|another-Def-Ind noun|one-Acc sconj|because pron|they-Prs-Nom-P3~aux|have-Fin-Ind-Pres-P3 verb|get-Part-Past-S-irr det|a-Ind-Art noun|melt-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|12|ROOT 5|6|DET 6|4|OBJ 7|10|MARK 8|10|NSUBJ 9|10|AUX 10|4|ADVCL 11|12|DET 12|10|OBJ 13|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	B2
+*CHI:	they're going for a picnic .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S adp|for det|a-Ind-Art noun|picnic .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	the [//] they're ea:ti:ng .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	and the bunny is full .
+%mor:	cconj|and det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	the bunny has a big tummy .
+%mor:	det|the-Def-Art noun|bunny verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1 noun|tummy-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	<and Mister bunny> [/] and Mister bunny has a ba:g .
+%mor:	cconj|and propn|Mister noun|bunny verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bag-Acc .
+%gra:	1|4|CC 2|3|COMPOUND 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	<then the doctor said> [//] then the puppy said +"/.
+%mor:	adv|then det|the-Def-Art noun|puppy verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" doctor the bunny is full .
+%mor:	noun|doctor det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
+%gra:	1|5|NSUBJ 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and [/] and he tongue stick out .
+%mor:	cconj|and pron|he-Prs-Nom-S3 noun|tongue verb|stick-Fin-Ind-Pres-S3 adp|out .
+%gra:	1|4|CC 2|3|NMOD-POSS 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	he happy .
+%mor:	pron|he-Prs-Nom-S3 adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	he gonna go home and see he mama .
+%mor:	pron|he-Prs-Nom-S3 adv|gonna verb|go-Inf-S adv|home cconj|and verb|see-Inf-S pron|he-Prs-Nom-S3 noun|mama-Acc .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|8|ROOT 4|3|ADVMOD 5|6|CC 6|3|CONJ 7|8|COMPOUND 8|6|OBJ 9|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	B3
+*CHI:	the doggy have a wagon .
+%mor:	det|the-Def-Art noun|doggy verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|wagon-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and there's a balloo:n .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon .
+%gra:	1|3|CC 2|3|EXPL 3|5|ROOT 4|5|DET 5|3|NSUBJ 6|3|PUNCT
+*CHI:	and it's going to go (a)way .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|go-Inf-S adv|away .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|ADVMOD 8|4|PUNCT
+*CHI:	and it's gone .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gone-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and it pops !
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Pres-S3 !
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and there is a more balloo:n .
+%mor:	cconj|and pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|more-Cmp-S1 noun|balloon .
+%gra:	1|3|CC 2|3|EXPL 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|NSUBJ 7|3|PUNCT
+*CHI:	and the balloon is one right he:re .
+%mor:	cconj|and det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 num|one adv|right adv|here .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|7|ROOT 6|7|ADVMOD 7|5|ADVMOD 8|5|PUNCT
+*CHI:	right here .
+%mor:	adv|right adv|here .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	then there is a balloon right here beside the ma:n [^ pronounced /men/] .
+%mor:	adv|then pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon adv|right adv|here adp|beside det|the-Def-Art noun|man .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|10|ROOT 4|5|DET 5|3|NSUBJ 6|7|ADVMOD 7|3|ADVMOD 8|10|CASE 9|10|DET 10|7|OBL 11|3|PUNCT
+*CHI:	and he have lots of balloo(n) .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc adp|of noun|balloon .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|PUNCT
+*CHI:	and [/] and Mister [/] Mister nurse is here .
+%mor:	cconj|and propn|Mister noun|nurse aux|be-Fin-Ind-Pres-S3 adv|here .
+%gra:	1|5|CC 2|3|COMPOUND 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	Mister [/] Mister nurse doctor is going somewhere else .
+%mor:	propn|Mister noun|nurse noun|doctor aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adv|somewhere adv|else .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|5|ADVMOD 7|5|ADVMOD 8|5|PUNCT
+*CHI:	and Mister doctor go <to the> [/] to the balloon man .
+%mor:	cconj|and propn|Mister noun|doctor verb|go-Fin-Imp-S adp|to det|the-Def-Art noun|balloon noun|man .
+%gra:	1|4|CC 2|3|COMPOUND 3|4|NSUBJ 4|8|ROOT 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|4|PUNCT
+*CHI:	<and the> [/] &+bun and the &+s nurse doctor &+s smile .
+%mor:	cconj|and det|the-Def-Art noun|nurse noun|doctor noun|smile .
+%gra:	1|5|CC 2|5|DET 3|4|COMPOUND 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	A1
+*CHI:	there is a piggy and a elephant +/.
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|piggy cconj|and det|a-Ind-Art noun|elephant +/.
+%gra:	1|2|EXPL 2|7|ROOT 3|4|DET 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|2|PUNCT
+*CHI:	+, a giraffe and a elephant .
+%mor:	det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
+%gra:	1|2|DET 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
+*CHI:	they're playing ball .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S noun|ball-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and the ball go in the water: .
+%mor:	cconj|and det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S adp|in det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	<and the> [/] and the giraffe swim and swim .
+%mor:	cconj|and det|the-Def-Art noun|giraffe noun|swim cconj|and noun|swim .
+%gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|6|ROOT 5|6|CC 6|4|CONJ 7|4|PUNCT
+*CHI:	and the &+gi giraffe is going to sink .
+%mor:	cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|sink-Inf-S .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
+*CHI:	and he didn't .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	he got up .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adp|up .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	A2
+*CHI:	there is a thing jump [?] in the water .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|thing-Ger noun|jump adp|in det|the-Def-Art noun|water .
+%gra:	1|2|EXPL 2|8|ROOT 3|5|DET 4|2|NSUBJ 5|2|NSUBJ 6|8|CASE 7|8|DET 8|5|NMOD 9|2|PUNCT
+*CHI:	<and the> [/] and the elephant and the giraffe were going to go in the water .
+%mor:	cconj|and det|the-Def-Art noun|elephant cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S part|to verb|go-Inf-S adp|in det|the-Def-Art noun|water .
+%gra:	1|8|CC 2|3|DET 3|8|NSUBJ 4|6|CC 5|6|DET 6|3|CONJ 7|8|AUX 8|13|ROOT 9|10|MARK 10|8|XCOMP 11|13|CASE 12|13|DET 13|10|OBL 14|8|PUNCT
+*CHI:	and then the elephant is going to go .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|go-Inf-S .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|8|ROOT 7|8|MARK 8|6|XCOMP 9|6|PUNCT
+*CHI:	and he slipped .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and he hurt her knee: .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	<and then> [//] <and the> [/] and the elephant came .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and the elephant cry .
+%mor:	cconj|and det|the-Def-Art noun|elephant noun|cry .
+%gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*CHI:	and she had a rest .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rest-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and the elephant is mad .
+%mor:	cconj|and det|the-Def-Art noun|elephant aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and [/] an(d) [/] &-uh and she run and run and run (be)cause she hurt her knee .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|run-Fin-Ind-Pres-S3 cconj|and verb|run-Fin-Ind-Pres-S cconj|and verb|run-Fin-Ind-Pres-P3 sconj|because pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|12|ROOT 4|5|CC 5|3|CONJ 6|7|CC 7|3|CONJ 8|10|MARK 9|10|NSUBJ 10|3|ADVCL 11|12|NMOD-POSS 12|10|OBJ 13|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	A3
+*CHI:	<<there's a> [/] there's> [<] a elephant and a giraffe .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
+%gra:	1|2|EXPL 2|7|ROOT 3|4|DET 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|2|PUNCT
+*CHI:	and the giraffe has a airplane .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and the airplane go .
+%mor:	cconj|and det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S .
+%gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*CHI:	and it have a string .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|string-Acc-Ger .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	<and it> [/] and it flies .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|fly-Fin-Ind-Pres-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and the airplane go to the water .
+%mor:	cconj|and det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S3 adp|to det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and it is gonna go down and down and down and down and down .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adv|gonna verb|go-Inf-S adp|down cconj|and adv|down cconj|and adv|down cconj|and adv|down cconj|and adv|down .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|14|ROOT 6|5|COMPOUND-PRT 7|8|CC 8|5|CONJ 9|10|CC 10|8|CONJ 11|12|CC 12|10|CONJ 13|14|CC 14|12|CONJ 15|5|PUNCT
+*CHI:	<and the kids> [/] and the kids looked at the swimming elephant .
+%mor:	cconj|and det|the-Def-Art noun|kid-Plur verb|look-Fin-Ind-Past-P3 adp|at det|the-Def-Art noun|swim-Ger noun|elephant .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|4|PUNCT
+*CHI:	and <the elephant> [/] elephant [//] the airplane is gonna fall .
+%mor:	cconj|and det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 part|go verb|fall-Inf-S .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	and he can get [!] it .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|can-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	he could because he can .
+%mor:	pron|he-Prs-Nom-S3 aux|could-Fin-S sconj|because pron|he-Prs-Nom-S3 aux|can-Fin-S .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|MARK 4|5|NSUBJ 5|2|ADVCL 6|2|PUNCT
+*CHI:	I think someone needs to get that airplane .
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|someone-Ind-S1 verb|need-Fin-Ind-Pres-S3 part|to verb|get-Inf-S det|that-Def-Dem-Sing noun|airplane-Acc .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|2|PUNCT
+*CHI:	and the elephant girl +"/.
+%mor:	cconj|and det|the-Def-Art noun|elephant noun|girl +"/.
+%gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*CHI:	+" &=high_pitched I [!] will get it .
+%mor:	pron|I-Prs-Nom-S1 aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	she could .
+%mor:	pron|she-Prs-Nom-S3 aux|could-Fin-S .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	and she could get it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|could-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	&=whispers and she could get it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|could-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	she got it .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and she's going to get it .
+%mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	and she got it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and the elephant girl kid smile .
+%mor:	cconj|and det|the-Def-Art noun|elephant noun|girl noun|kid noun|smile .
+%gra:	1|6|CC 2|6|DET 3|4|COMPOUND 4|6|COMPOUND 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
+*CHI:	the en:d .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036266-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.21|female|TD||Target_Child|||
+@Media:	544_B1, audio
+@Comment:	Birth of CHI is 06-SEP-1995
+@Date:	27-FEB-2001
+@Tape Location:	Disk M7 Track 52
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	the dog's making a sandcastle .
+%mor:	det|the-Def-Art noun|dog~part|s verb|make-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|2|CASE 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	the rabbit wants to make it too .
+%mor:	det|the-Def-Art noun|rabbit verb|want-Fin-Ind-Pres-S3 part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adv|too .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|ADVMOD 8|3|PUNCT
+*CHI:	the rabbit puts more sand on it .
+%mor:	det|the-Def-Art noun|rabbit verb|put-Fin-Ind-Pres-S3 adj|more-Cmp-S1 noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|5|AMOD 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*CHI:	the rabbit wrecks the sandcastle .
+%mor:	det|the-Def-Art noun|rabbit verb|wreck-Fin-Ind-Pres-S3 det|the-Def-Art noun|sandcastle-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	the rabbit wrecks the sandcastle .
+%mor:	det|the-Def-Art noun|rabbit verb|wreck-Fin-Ind-Pres-S3 det|the-Def-Art noun|sandcastle-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	&-uh the dog's sad .
+%mor:	det|the-Def-Art noun|dog~part|s adj|sad-S1 .
+%gra:	1|2|DET 2|4|NMOD-POSS 3|2|CASE 4|4|ROOT 5|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

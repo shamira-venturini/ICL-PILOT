@@ -1,0 +1,30 @@
+@UTF8
+@PID:	11312/c-00036258-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;09.13|female|TD||Target_Child|||
+@Media:	530_B1, audio
+@Date:	14-NOV-2000
+@Tape Location:	Disk M5 , Track 16
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	they made a sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	they [/] &+sc they scooped some [/] some sand .
+%mor:	pron|they-Prs-Nom-P3 verb|scoop-Fin-Ind-Past-P3 det|some-Def-Ind noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and <she dumped> [//] the rabbit dumped it on [//] right on the sandcastle .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|dump-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adv|right adp|on det|the-Def-Art noun|sandcastle .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|9|ADVMOD 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*CHI:	and it broke .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|break-Fin-Ind-Past-S3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	then he was crying <when I> [//] when he was fixing it .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S adv|when pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|fix-Part-Pres-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|8|ADVMOD 6|8|NSUBJ 7|8|AUX 8|4|ADVCL 9|8|OBJ 10|4|PUNCT
+*CHI:	and it's the end of the story .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end adp|of det|the-Def-Art noun|story .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|8|ROOT 6|8|CASE 7|8|DET 8|5|NMOD 9|5|PUNCT
+@End

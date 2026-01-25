@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/c-00036133-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.11|female|SLI||Target_Child|||
+@Media:	576_A0, audio
+@Comment:	Birth of CHI is 16-APR-1997
+@Date:	27-NOV-2002
+@Tape Location:	Disc M 14 Track 5
+@Types:	cross, narrative, SLI
+@G:	A0
+@G:	A0
+*CHI:	&-um he's going to <do y(ou)> [//] do .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|do-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	&-um it is going to the store .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|to det|the-Def-Art noun|store .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and he wanted cookies .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 noun|cookie-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	(..) and he take the box .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Pres-S3 det|the-Def-Art noun|box-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and the box fell down .
+%mor:	cconj|and det|the-Def-Art noun|box verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and [/] and he pushed .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|push-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and he pushed .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|push-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and it all [!] way fall down .
+%mor:	cconj|and pron|it-Prs-Nom-S3 det|all-Def-Tot noun|way verb|fall-Fin-Ind-Pres-P3 adp|down .
+%gra:	1|5|CC 2|5|NSUBJ 3|4|DET 4|5|OBL-UNMARKED 5|6|ROOT 6|5|COMPOUND-PRT 7|5|PUNCT
+*CHI:	he said +"/.
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	I gotta go .
+%mor:	pron|I-Prs-Nom-S1 aux|getta-Fin-S verb|go-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	bye bye .
+%mor:	intj|bye intj|bye .
+%gra:	1|2|ROOT 2|1|FLAT 3|1|PUNCT
+*CHI:	that's the end . [+ bch]
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+@End

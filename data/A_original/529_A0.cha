@@ -1,0 +1,32 @@
+@UTF8
+@PID:	11312/c-00036122-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;01.11|female|SLI||Target_Child|||
+@Media:	529_A0, audio
+@Comment:	Birth of CHI is 14-MAR-1995
+@Date:	25-APR-2000
+@Tape Location:	Disk L10 Track 17
+@Comment:	CHI is somewhat difficult to understand
+@Types:	cross, narrative, SLI
+@G:	A0
+*CHI:	&-uh xxx boy little boy 0aux walking in the store . [+ gram]
+%mor:	intj|boy adj|little-S1 noun|boy verb|walk-Part-Pres-S adp|in det|the-Def-Art noun|store .
+%gra:	1|3|DISCOURSE 2|3|AMOD 3|7|ROOT 4|3|ACL 5|7|CASE 6|7|DET 7|4|OBL 8|3|PUNCT
+*CHI:	little boy found [/] found [/] found a box of cookies in date [: there] [* p:n] .
+%mor:	adj|little-S1 noun|boy verb|find-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|box-Acc adp|of noun|cookie-Plur adp|in adv|there .
+%gra:	1|2|AMOD 2|3|NSUBJ 3|9|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|5|NMOD 8|9|CASE 9|3|OBL 10|3|PUNCT
+*CHI:	little boy bought the cookies .
+%mor:	adj|little-S1 noun|boy verb|buy-Fin-Ind-Past-S3-irr det|the-Def-Art noun|cookie-Plur-Acc .
+%gra:	1|2|AMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	little [/] little [/] <little boy> [/] little boy pick [* m:03s:a] [/] pick a one [/] one &-um one cookie box of for over of cookies for over . [+ gram]
+%mor:	adj|little-S1 noun|boy verb|pick-Fin-Imp-S det|a-Ind-Art noun|one num|one noun|cookie noun|box-Acc adp|of adp|for adv|over adp|of noun|cookie-Plur adp|for adv|over .
+%gra:	1|2|AMOD 2|3|NSUBJ 3|15|ROOT 4|8|DET 5|8|COMPOUND 6|8|NUMMOD 7|8|COMPOUND 8|3|OBJ 9|11|CASE 10|11|CASE 11|3|OBL 12|13|CASE 13|11|OBL 14|15|CASE 15|3|OBL 16|3|PUNCT
+*CHI:	and the man the &-um man was mad at the boy .
+%mor:	cconj|and det|the-Def-Art noun|man det|the-Def-Art noun|man aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at det|the-Def-Art noun|boy .
+%gra:	1|7|CC 2|3|DET 3|7|NSUBJ 4|5|DET 5|7|NSUBJ 6|7|COP 7|10|ROOT 8|10|CASE 9|10|DET 10|7|OBL 11|7|PUNCT
+*CHI:	and the end .
+%mor:	cconj|and det|the-Def-Art noun|end .
+%gra:	1|3|CC 2|3|DET 3|3|ROOT 4|3|PUNCT
+@End

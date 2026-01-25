@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/c-00036251-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.25|female|TD||Target_Child|||
+@Media:	517_A0, audio
+@Comment:	Birth of CHI is 18-OCT-1994
+@Date:	12-APR-2000
+@Tape Location:	Disk L5 Track 2
+@Types:	cross, narrative, TD
+@G:	A0
+*CHI:	I see a boy .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|boy-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and I see so:me &-uh see some bottles .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|some-Def-Ind verb|see-Fin-S det|some-Def-Ind noun|bottle-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|NSUBJ 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	he's running into the store .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S adp|into det|the-Def-Art noun|store .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	I see &-uh that kid again .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|that-Def-Dem-Sing noun|kid-Acc adv|again .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|DET 4|2|OBJ 5|2|ADVMOD 6|2|PUNCT
+*CHI:	and I see there's food .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|food .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|EXPL 5|3|CCOMP 6|5|NSUBJ 7|3|PUNCT
+*CHI:	and I see his dad .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 pron|his-Prs-Gen-S3 noun|dad-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	he's looking at the cookies .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|look-Part-Pres-S adp|at det|the-Def-Art noun|cookie-Plur .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	0subj <see a> [/] see a cookie . [+ 0subj] [+ gram]
+%mor:	verb|see-Fin-Imp-S det|a-Ind-Art noun|cookie-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*CHI:	and I could see a drink right there .
+%mor:	cconj|and pron|I-Prs-Nom-S1 aux|could-Fin-S verb|see-Inf-S det|a-Ind-Art noun|drink-Acc adv|right adv|there .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|DET 6|4|OBJ 7|8|ADVMOD 8|4|ADVMOD 9|4|PUNCT
+*CHI:	their cookies are falling .
+%mor:	pron|their-Prs-Gen-P3 noun|cookie-Plur aux|be-Fin-Ind-Pres-P3 verb|fall-Part-Pres-S .
+%gra:	1|2|NMOD-POSS 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	and the boy's hanging on to one .
+%mor:	cconj|and det|the-Def-Art noun|boy~aux|be-Fin-Ind-Pres-S3 verb|hang-Part-Pres-S adp|on adp|to num|one .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|5|ADVMOD 7|8|CASE 8|5|OBL 9|5|PUNCT
+*CHI:	<the guy is> [//] and the boy's running .
+%mor:	cconj|and det|the-Def-Art noun|boy~part|s noun|running-Ger .
+%gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|5|ROOT 6|5|PUNCT
+*CHI:	and the cookies broke .
+%mor:	cconj|and det|the-Def-Art noun|cookie-Plur verb|break-Fin-Ind-Past-P3-irr .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

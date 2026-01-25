@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/c-00036244-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;01.12|female|TD||Target_Child|||
+@Media:	510_A3, audio
+@Comment:	Birth of CHI is 26-JAN-1995
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 2
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	Emily and Michael came to the swimming pool again .
+%mor:	propn|Emily cconj|and propn|Michael verb|come-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|swim-Ger noun|pool adv|again .
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|9|ROOT 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|4|ADVMOD 10|4|PUNCT
+*CHI:	so they were flying their plane in the room where the pool was .
+%mor:	adv|so pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|fly-Part-Pres-S pron|their-Prs-Gen-P3 noun|plane-Acc adp|in det|the-Def-Art noun|room adv|where det|the-Def-Art noun|pool aux|be-Fin-Ind-Past-S3-irr .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|13|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|13|ADVMOD 11|12|DET 12|13|NSUBJ 13|9|ACL-RELCL 14|4|PUNCT
+*CHI:	(.) Emily had a [//] after a turn from Michael .
+%mor:	propn|Emily verb|have-Fin-Ind-Past-S3-irr adp|after det|a-Ind-Art noun|turn adp|from propn|Michael .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|7|CASE 7|5|NMOD 8|2|PUNCT
+*CHI:	so Michael was so sad that his plane was down in the water .
+%mor:	adv|so propn|Michael aux|be-Fin-Ind-Past-S3-irr adv|so adj|sad-S1 sconj|that pron|his-Prs-Gen-S3 noun|plane aux|be-Fin-Ind-Past-S3-irr adv|down adp|in det|the-Def-Art noun|water .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|13|ROOT 6|10|MARK 7|8|NMOD-POSS 8|10|NSUBJ 9|10|COP 10|5|CCOMP 11|13|CASE 12|13|DET 13|10|OBL 14|5|PUNCT
+*CHI:	(.) Michael was so upset about Emily dropped the plane in the water .
+%mor:	propn|Michael aux|be-Fin-Ind-Past-S3-irr adv|so adj|upset-S1 adp|about propn|Emily verb|drop-Fin-Ind-Past-S3 det|the-Def-Art noun|plane-Acc adp|in det|the-Def-Art noun|water .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|12|ROOT 5|7|MARK 6|7|NSUBJ 7|4|ADVCL 8|9|DET 9|7|OBJ 10|12|CASE 11|12|DET 12|7|OBL 13|4|PUNCT
+*CHI:	the lifeguard was so &+n not angry .
+%mor:	det|the-Def-Art noun|lifeguard aux|be-Fin-Ind-Past-S3-irr adv|so part|not adj|angry-S1 .
+%gra:	1|2|DET 2|6|NSUBJ 3|6|COP 4|6|ADVMOD 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	so .
+%mor:	adv|so .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	(.) so <they asked the lifeguard if they could get Michael's> [//] Emily asked the lifeguard if she can get Michael's plane .
+%mor:	adv|so propn|Emily verb|ask-Fin-Ind-Past-S3 det|the-Def-Art noun|lifeguard sconj|if pron|she-Prs-Nom-S3 aux|can-Fin-S verb|get-Inf-S propn|Michael~part|s noun|plane-Acc .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|12|ROOT 4|5|DET 5|3|IOBJ 6|9|MARK 7|9|NSUBJ 8|9|AUX 9|3|ADVCL 10|12|NMOD-POSS 11|10|CASE 12|9|OBJ 13|3|PUNCT
+*CHI:	but he couldn't reach it .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	(..) <then they were> [//] &+st then Michael started to cry .
+%mor:	adv|then propn|Michael verb|start-Fin-Ind-Past-S3 part|to verb|cry-Inf-S .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	(..) a fanciest pig with a bathing suit can catch it .
+%mor:	det|a-Ind-Art adj|fanciest-Sup-S1 noun|pig adp|with det|a-Ind-Art noun|bathing-Ger noun|suit aux|can-Fin-S verb|catch-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|DET 2|3|AMOD 3|9|NSUBJ 4|7|CASE 5|7|DET 6|7|COMPOUND 7|3|NMOD 8|9|AUX 9|10|ROOT 10|9|OBJ 11|9|PUNCT
+*CHI:	(..) she got her net in the water to catch the plane .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|net-Acc adp|in det|the-Def-Art noun|water part|to verb|catch-Inf-S det|the-Def-Art noun|plane-Acc .
+%gra:	1|2|NSUBJ 2|11|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|7|CASE 6|7|DET 7|2|OBL 8|9|MARK 9|2|ADVCL 10|11|DET 11|9|OBJ 12|2|PUNCT
+*CHI:	(.) she gave it to Michael .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to propn|Michael .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
+*CHI:	(.) and Michael wasn't upset again .
+%mor:	cconj|and propn|Michael aux|be-Fin-Ind-Past-S3-irr~part|not adj|upset-S1 adv|again  .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|7|ROOT 6|5|ADVMOD 7|5|PUNCT 8|5|PUNCT
+@End

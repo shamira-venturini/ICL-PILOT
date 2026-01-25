@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036259-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.29|male|TD||Target_Child|||
+@Media:	532_B2, audio
+@Comment:	Birth of CHI is 13-APR-1995
+@Date:	12-DEC-2000
+@Tape Location:	Disk M6 Track 68
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	the [/] the kid was walking .
+%mor:	det|the-Def-Art noun|kid aux|be-Fin-Ind-Past-S3-irr verb|walk-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	then he find <des hin> [//] his friend .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|find-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|friend-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and then they have picnic .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 noun|picnic-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and then the bunny was too full .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny aux|be-Fin-Ind-Past-S3-irr adv|too adj|full-S1 .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|7|ROOT 8|7|PUNCT
+*CHI:	and [/] and <he goes> [//] he was putting his hands on his tummy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|put-Part-Pres-S pron|his-Prs-Gen-S3 noun|hand-Plur-Acc adp|on pron|his-Prs-Gen-S3 noun|tummy .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|9|CASE 8|9|NMOD-POSS 9|4|OBL 10|4|PUNCT
+*CHI:	and then he seed [: saw] [* m:=ed] his mom . [+ gram]
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|mom-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	so <he get [* m:03s:a] her> [/] he get [* m:03s:a] her .
+%mor:	adv|so pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|her-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and [/] &+h and then she helped his kid .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|help-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|kid-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	and [/] and [/] and they hadta take him to doctors .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|hadt-Fin-Ind-Pres-P3 verb|take-Fin-Ind-Pres-P3 pron|he-Prs-Acc-S3 adp|to noun|doctor-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|4|PUNCT
+*CHI:	and then they walked home .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|walk-Fin-Ind-Past-P3 adv|home .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

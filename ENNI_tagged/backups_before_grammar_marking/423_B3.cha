@@ -1,0 +1,91 @@
+@UTF8
+@PID:	11312/c-00036204-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;06.25|male|TD||Target_Child|||
+@Media:	423_B3, audio
+@Comment:	Birth of CHI is 17-SEP-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 28
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	now they was going for walk again .
+%mor:	adv|now pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S adp|for noun|walk adv|again .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|CASE 6|4|OBL 7|4|ADVMOD 8|4|PUNCT
+*CHI:	they got a balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and they was walking .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr verb|walk-Part-Pres-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	then they just wanted to float away .
+%mor:	adv|then pron|they-Prs-Nom-P3 adv|just verb|want-Fin-Ind-Past-P3 part|to verb|float-Inf-S adv|away .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|ADVMOD 8|4|PUNCT
+*CHI:	and it jumped right off the ai:r .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|jump-Fin-Ind-Past-S3 adv|right adp|off det|the-Def-Art noun|air .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|7|ADVMOD 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	and they just wanted it .
+%mor:	cconj|and pron|they-Prs-Nom-P3 adv|just verb|want-Fin-Ind-Past-P3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	<they got so> [//] he was so mad .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|mad-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	there was a moo .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|moo .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*CHI:	and he was holding some more balloons for them !
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|hold-Part-Pres-S det|some-Def-Ind adj|more-Cmp-S1 noun|balloon-Plur-Acc adp|for pron|they-Prs-Acc-P3 !
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|7|DET 6|7|AMOD 7|4|OBJ 8|9|CASE 9|4|OBL 10|4|PUNCT
+*CHI:	and he just jumped right up there .
+%mor:	cconj|and pron|he-Prs-Nom-S3 adv|just verb|jump-Fin-Ind-Past-S3 adv|right adp|up adv|there .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|7|ROOT 5|7|ADVMOD 6|4|COMPOUND-PRT 7|4|ADVMOD 8|4|PUNCT
+*CHI:	and the man wanted to give him a balloon for the wagon .
+%mor:	cconj|and det|the-Def-Art noun|man verb|want-Fin-Ind-Past-S3 part|to verb|give-Inf-S pron|he-Prs-Acc-S3 det|a-Ind-Art noun|balloon-Acc adp|for det|the-Def-Art noun|wagon .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|12|ROOT 5|6|MARK 6|4|XCOMP 7|6|IOBJ 8|9|DET 9|6|OBJ 10|12|CASE 11|12|DET 12|9|NMOD 13|4|PUNCT
+*CHI:	five [/] five number on the balloon .
+%mor:	num|five noun|number adp|on det|the-Def-Art noun|balloon .
+%gra:	1|2|NUMMOD 2|5|ROOT 3|5|CASE 4|5|DET 5|2|NMOD 6|2|PUNCT
+*CHI:	and the guy there was [/] was so mad and happy .
+%mor:	cconj|and det|the-Def-Art noun|guy adv|there aux|be-Fin-Ind-Past-S3-irr adv|so adj|mad-S1 cconj|and adj|happy-S1 .
+%gra:	1|7|CC 2|3|DET 3|7|NSUBJ 4|3|ADVMOD 5|7|COP 6|7|ADVMOD 7|9|ROOT 8|9|CC 9|7|CONJ 10|7|PUNCT
+*CHI:	and <he was so> [//] those two was happy .
+%mor:	cconj|and det|that-Def-Dem-Plur num|two aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and they decided to do everything .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|decide-Fin-Ind-Past-P3 part|to verb|do-Inf-S pron|everything-Tot-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*CHI:	now he's happy .
+%mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and then he just wanted to give them a balloon right now .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 adv|just verb|want-Fin-Ind-Past-S3 part|to verb|give-Inf-S pron|they-Prs-Acc-P3 det|a-Ind-Art noun|balloon-Acc adv|right adv|now .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|12|ROOT 6|7|MARK 7|5|XCOMP 8|7|IOBJ 9|10|DET 10|7|OBJ 11|12|ADVMOD 12|7|ADVMOD 13|5|PUNCT
+*CHI:	then he [/] he was so [!] sick .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|sick-S1 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	then <the doctor was the> [//] the hospital guy was just wanted to check him with the doctor .
+%mor:	adv|then det|the-Def-Art noun|hospital noun|guy aux|be-Fin-Ind-Past-S3-irr adv|just verb|want-Part-Past-S part|to verb|check-Inf-S pron|he-Prs-Acc-S3 adp|with det|the-Def-Art noun|doctor .
+%gra:	1|7|ADVMOD 2|4|DET 3|4|COMPOUND 4|7|NSUBJ-PASS 5|7|AUX-PASS 6|7|ADVMOD 7|13|ROOT 8|9|MARK 9|7|XCOMP 10|9|OBJ 11|13|CASE 12|13|DET 13|9|OBL 14|7|PUNCT
+*CHI:	he just wanted a balloon right now .
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|want-Fin-Ind-Past-S3 det|a-Ind-Art noun|balloon-Acc adv|right adv|now .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|ADVMOD 7|3|ADVMOD 8|3|PUNCT
+*CHI:	I can take this off and put it on .
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|take-Inf-S pron|this-Dem-S1 adp|off cconj|and verb|put-Inf-S pron|it-Prs-Acc-S3 adp|on .
+%gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|7|CC 7|3|CONJ 8|7|OBJ 9|7|COMPOUND-PRT 10|3|PUNCT
+*CHI:	I can put it back on .
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|put-Inf-S pron|it-Prs-Acc-S3 adv|back adp|on .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|ADVMOD 7|3|PUNCT
+*CHI:	then he [/] he just give him a quarter [/] quarter [/] quarter .
+%mor:	adv|then pron|he-Prs-Nom-S3 adv|just verb|give-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 det|a-Ind-Art noun|quarter-Acc .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	then they was so happy because they got a balloon .
+%mor:	adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 sconj|because pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|10|ROOT 6|8|MARK 7|8|NSUBJ 8|5|ADVCL 9|10|DET 10|8|OBJ 11|5|PUNCT
+*CHI:	and then the end .
+%mor:	cconj|and adv|then det|the-Def-Art noun|end .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	now the blue one .
+%mor:	adv|now det|the-Def-Art adj|blue-S1 noun|one  .
+%gra:	1|4|ADVMOD 2|4|DET 3|4|AMOD 4|5|ROOT 5|4|PUNCT 6|4|PUNCT
+@End

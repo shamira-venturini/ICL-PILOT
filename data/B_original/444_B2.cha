@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/c-00036111-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;02.04|male|SLI||Target_Child|||
+@Media:	444_B2, audio
+@Comment:	Birth of CHI is 30-MAR-1997
+@Date:	03-JUN-2001
+@Tape Location:	Disk L29 Track 2
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	&-um basket .
+%mor:	noun|basket .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	puppy and rabbit .
+%mor:	noun|puppy cconj|and noun|rabbit .
+%gra:	1|3|ROOT 2|3|CC 3|1|CONJ 4|1|PUNCT
+*CHI:	carrot .
+%mor:	noun|carrot .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	I said a carrot that's it .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr det|a-Ind-Art noun|carrot-Acc pron|that-Rel~aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|OBJ 5|7|NSUBJ 6|7|COP 7|4|ACL-RELCL 8|2|PUNCT
+*CHI:	drink .
+%mor:	verb|drink-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&+pa basket .
+%mor:	noun|basket .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	sandwich .
+%mor:	noun|sandwich .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	juice .
+%mor:	noun|juice .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	I said juice .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr noun|juice-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	&-um tree .
+%mor:	noun|tree .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	tree .
+%mor:	noun|tree .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&+tr tree .
+%mor:	noun|tree .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	tree .
+%mor:	noun|tree .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	tree .
+%mor:	noun|tree .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	there we go .
+%mor:	pron|there-Int-S1 pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 .
+%gra:	1|3|EXPL 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+@End

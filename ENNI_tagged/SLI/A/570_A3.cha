@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/c-00036128-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;09.21|male|SLI||Target_Child|||
+@Media:	570_A3, audio
+@Comment:	Birth of CHI is 12-JUL-1995
+@Date:	03-MAY-2001
+@Tape Location:	Disk M9 , Track 17
+@Types:	cross, narrative, SLI
+@G:	A3
+*CHI:	the giraffe got his airplane .
+%mor:	det|the-Def-Art noun|giraffe verb|get-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|airplane-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and [/] &+h <and he> [/] and he now fly it .
+%mor:	cconj|and pron|he-Prs-Nom-S3 adv|now verb|fly-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	<now the> [//] now [/] now the elephant takes the giraffe's toy back .
+%mor:	adv|now det|the-Def-Art noun|elephant verb|take-Fin-Ind-Pres-S3 det|the-Def-Art noun|giraffe~part|s noun|toy-Acc adv|back .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|DET 6|8|NMOD-POSS 7|6|CASE 8|4|OBJ 9|4|ADVMOD 10|4|PUNCT
+*CHI:	the [/] the [/] the elephant <throwed [: threw] [* m:=ed] the> [/] throwed [: threw] [* m:=ed] the airplane on the water .
+%mor:	det|the-Def-Art noun|elephant verb|throw-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc adp|on det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	the giraffe is mad .
+%mor:	det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and [/] <and the man> [/] and the man is going catch the airplane .
+%mor:	cconj|and det|the-Def-Art noun|man aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S verb|catch-Inf-S det|the-Def-Art noun|airplane-Acc .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|5|XCOMP 7|8|DET 8|6|OBJ 9|5|PUNCT
+*CHI:	<the man> [//] the elephant says please [!] you catch the giraffe's toy ?
+%mor:	det|the-Def-Art noun|elephant verb|say-Fin-Ind-Pres-S3 intj|please pron|you-Prs-Nom-S2 verb|catch-Fin-Ind-Pres-S2 det|the-Def-Art noun|giraffe~part|s noun|toy-Acc ?
+%gra:	1|2|DET 2|3|NSUBJ 3|10|ROOT 4|6|DISCOURSE 5|6|NSUBJ 6|3|CCOMP 7|8|DET 8|10|NMOD-POSS 9|8|CASE 10|6|OBJ 11|3|PUNCT
+*CHI:	and the elephant say yes .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|say-Fin-Ind-Pres-P3 intj|yes .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	and he reach and reach and reach it .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|reach-Fin-Ind-Pres-S3 cconj|and verb|reach-Fin-Ind-Pres-P3 cconj|and verb|reach-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|CC 5|3|CONJ 6|7|CC 7|3|CONJ 8|7|OBJ 9|3|PUNCT
+*CHI:	now he can't reach it .
+%mor:	adv|now pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	<I know the> [/] I know the other elephant got a great idea a net .
+%mor:	pron|I-Prs-Nom-S1 verb|know-Fin-Ind-Pres-S1 det|the-Def-Art adj|other-S1 noun|elephant verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|great-S1 noun|idea-Acc det|a-Ind-Art noun|net .
+%gra:	1|2|NSUBJ 2|11|ROOT 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|2|CCOMP 7|9|DET 8|9|AMOD 9|6|OBJ 10|11|DET 11|6|OBL-UNMARKED 12|2|PUNCT
+*CHI:	&+an and he got the net .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|net-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	now he catch it .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|catch-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and now he give to &-uh the giraffe .
+%mor:	cconj|and adv|now pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 adp|to det|the-Def-Art noun|giraffe .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and [/] and there's [//] now [/] now the giraffe is happy <because he> [//] because he has his airplane .
+%mor:	cconj|and adv|now det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 adj|happy-S1 sconj|because pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|airplane-Acc .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|11|ROOT 7|9|MARK 8|9|NSUBJ 9|6|ADVCL 10|11|NMOD-POSS 11|9|OBJ 12|6|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036250-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.14|female|TD||Target_Child|||
+@Media:	516_B2, audio
+@Comment:	Birth of CHI is 24-JUL-1994
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 26
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	&-um they went out for a picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adv|out adp|for det|a-Ind-Art noun|picnic .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|ADVMOD 4|6|CASE 5|6|DET 6|2|OBL 7|2|PUNCT
+*CHI:	(.) and they &-um ate lots of food .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|eat-Fin-Ind-Past-P3-irr noun|lot-Plur-Acc adp|of noun|food .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|PUNCT
+*CHI:	(.) and then the [//] they got full .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr adj|full-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	(.) and then <he didn't> [//] the &-um bunny didn't eat any more .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny aux|do-Fin-Ind-Past-S3-irr~part|not verb|eat-Inf-S det|any-Def-Ind adj|more-Cmp-S1 .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|9|ROOT 8|9|DET 9|7|OBJ 10|7|PUNCT
+*CHI:	(.) <and then their &-um teacher came> [//] &+ov and then the doctor came over .
+%mor:	cconj|and adv|then det|the-Def-Art noun|doctor verb|come-Fin-Ind-Past-S3-irr adv|over .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	(..) and &-um the doggy pulled her over to where the bunny is .
+%mor:	cconj|and det|the-Def-Art noun|doggy verb|pull-Fin-Ind-Past-S3 pron|her-Prs-Acc-S3 adp|over adp|to adv|where det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|11|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|8|CASE 8|4|OBL 9|10|DET 10|8|NSUBJ 11|8|COP 12|4|PUNCT
+*CHI:	(.) and &-um the &-um doctor is trying to get &+hi the bunny better .
+%mor:	cconj|and det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|get-Inf-S det|the-Def-Art noun|bunny-Acc adj|good-Cmp-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|10|ROOT 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|7|XCOMP 11|5|PUNCT
+*CHI:	(.) and then he's all better again .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|good-Cmp-S1 adv|again  .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|8|ROOT 7|6|ADVMOD 8|6|PUNCT 9|6|PUNCT
+@End

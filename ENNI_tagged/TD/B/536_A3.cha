@@ -1,0 +1,109 @@
+@UTF8
+@PID:	11312/c-00036261-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;08.01|female|TD||Target_Child|||
+@Media:	536_A3, audio
+@Comment:	Birth of CHI is 28-MAR-1995
+@Date:	29-NOV-2000
+@Tape Location:	Disk M6 Track 40
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	<one day there is a> [//] one day there was a giraffe and a &-um elephant .
+%mor:	num|one noun|day pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
+%gra:	1|2|NUMMOD 2|4|OBL-UNMARKED 3|4|EXPL 4|9|ROOT 5|6|DET 6|4|NSUBJ 7|9|CC 8|9|DET 9|6|CONJ 10|4|PUNCT
+*CHI:	the giraffe had a airplane .
+%mor:	det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|airplane-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and he was playing with it .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|play-Part-Pres-S adp|with pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	<and then he> [//] &+al and then the elephant wanted to play with it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|want-Fin-Ind-Past-S3 part|to verb|play-Inf-S adp|with pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|9|CASE 9|7|OBL 10|5|PUNCT
+*CHI:	<so he> [//] &+na so &-um he did .
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	but then she took it away from the giraffe .
+%mor:	cconj|but adv|then pron|she-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|away adp|from det|the-Def-Art noun|giraffe .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|4|ADVMOD 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*CHI:	and then she dropped it in the water .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	so then it sank in .
+%mor:	adv|so adv|then pron|it-Prs-Nom-S3 verb|sink-Fin-Ind-Past-S3-irr adp|in .
+%gra:	1|4|ADVMOD 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	and <then the life> [/] then the lifeguard got mad .
+%mor:	cconj|and adv|then det|the-Def-Art noun|lifeguard verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|XCOMP 7|5|PUNCT
+*CHI:	so then .
+%mor:	adv|so adv|then .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	the giraffe +/.
+%mor:	det|the-Def-Art noun|giraffe +/.
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	yeah <then the giraffe got mad> [>] at the elephant .
+%mor:	intj|yeah adv|then det|the-Def-Art noun|giraffe verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at det|the-Def-Art noun|elephant .
+%gra:	1|5|DISCOURSE 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|5|PUNCT
+*CHI:	and she said she was sorry .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|NSUBJ 5|6|COP 6|3|CCOMP 7|3|PUNCT
+*CHI:	so she got her mom to catch the lifeguard .
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|mom-Acc part|to verb|catch-Inf-S det|the-Def-Art noun|lifeguard-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|9|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|7|MARK 7|3|ADVCL 8|9|DET 9|7|OBJ 10|3|PUNCT
+*CHI:	so the lifeguard couldn't reach it .
+%mor:	adv|so det|the-Def-Art noun|lifeguard aux|could-Fin-S~part|not verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	so she got her mom to reach it with a net .
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|mom-Acc part|to verb|reach-Inf-S pron|it-Prs-Acc-S3 adp|with det|a-Ind-Art noun|net .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|11|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|7|MARK 7|3|ADVCL 8|7|OBJ 9|11|CASE 10|11|DET 11|7|OBL 12|3|PUNCT
+*CHI:	and then the lifeguard she [//] he came back to say sorry to the elephant (be)cause he [/] he got mad at the elephant .
+%mor:	cconj|and adv|then det|the-Def-Art noun|lifeguard pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adv|back part|to verb|say-Inf-S adj|sorry-S1 adp|to det|the-Def-Art noun|elephant sconj|because pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at det|the-Def-Art noun|elephant .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|NSUBJ 6|20|ROOT 7|6|ADVMOD 8|9|MARK 9|6|ADVCL 10|9|XCOMP 11|13|CASE 12|13|DET 13|10|OBL 14|16|MARK 15|16|NSUBJ 16|6|ADVCL 17|16|XCOMP 18|20|CASE 19|20|DET 20|17|OBL 21|6|PUNCT
+*CHI:	and then her mom catched [: caught] [* m:=ed] it with &-um the thing .
+%mor:	cconj|and adv|then pron|her-Prs-Gen-S3 noun|mom verb|catch-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|with det|the-Def-Art noun|thing-Ger .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	and then the lifeguard he tried to get it again .
+%mor:	cconj|and adv|then det|the-Def-Art noun|lifeguard pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|NSUBJ 6|10|ROOT 7|8|MARK 8|6|XCOMP 9|8|OBJ 10|8|ADVMOD 11|6|PUNCT
+*CHI:	but her mom couldn't .
+%mor:	cconj|but pron|her-Prs-Gen-S3 noun|mom aux|could-Fin-S~part|not .
+%gra:	1|4|CC 2|3|NMOD-POSS 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and the lifeguard couldn't .
+%mor:	cconj|and det|the-Def-Art noun|lifeguard aux|could-Fin-S~part|not .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	so she got a big big net .
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1 adj|big-S1 noun|net-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|7|DET 5|7|AMOD 6|7|AMOD 7|3|OBJ 8|3|PUNCT
+*CHI:	and she catched [: caught] [* m:=ed] it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|catch-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<and then all the lifeguards> [//] and then the mom had a real long net .
+%mor:	cconj|and adv|then det|the-Def-Art noun|mom verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|real-S1 adj|long-S1 noun|net-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|9|DET 7|9|AMOD 8|9|AMOD 9|5|OBJ 10|5|PUNCT
+*CHI:	so she grabbed it .
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|grab-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and she catched it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|catch-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and the giraffe said thank you .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|say-Fin-Ind-Past-S3-irr verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|CCOMP 6|5|OBJ 7|4|PUNCT
+*CHI:	and then she said you're welcome .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|welcome-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|NSUBJ 6|7|COP 7|4|CCOMP 8|4|PUNCT
+*CHI:	and then the [//] they were both happy again .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|both adj|happy-S1 adv|again .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*CHI:	and they played with it .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Past-P3 adp|with pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

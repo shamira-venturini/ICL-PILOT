@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/c-00036127-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.25|male|SLI||Target_Child|||
+@Media:	569_B2, audio
+@Comment:	Birth of CHI is 25-AUG-1995
+@Date:	19-APR-2001
+@Tape Location:	Disk M10 , Track 33
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	(o)kay .
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	he waved at bunny .
+%mor:	pron|he-Prs-Nom-S3 verb|wave-Fin-Ind-Past-S3 adp|at noun|bunny .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
+*CHI:	and they eat some snacks .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|eat-Fin-Ind-Pres-P3 det|some-Def-Ind noun|snack-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and the rabbit is [//] tummy is full .
+%mor:	cconj|and det|the-Def-Art noun|rabbit noun|tummy aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
+%gra:	1|6|CC 2|4|DET 3|4|COMPOUND 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	and they got a tummyache .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|tummyache-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	he tell him .
+%mor:	pron|he-Prs-Nom-S3 verb|tell-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|IOBJ 4|2|PUNCT
+*CHI:	he just look at it .
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|look-Fin-Ind-Pres-S3 adp|at pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	he just got a tummy:ache .
+%mor:	pron|he-Prs-Nom-S3 adv|just verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|tummyache-Acc .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	she really not feeling all better .
+%mor:	pron|she-Prs-Nom-S3 adv|really part|not verb|feel-Part-Pres-S det|all-Def-Tot adj|good-Cmp-S1 .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|ADVMOD 4|6|ROOT 5|6|ADVMOD 6|4|XCOMP 7|4|PUNCT
+*CHI:	then she feels all better .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 det|all-Def-Tot adj|good-Cmp-S1 intj|nd .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|DISCOURSE 7|3|PUNCT
+@End

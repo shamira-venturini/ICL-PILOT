@@ -1,0 +1,87 @@
+@UTF8
+@PID:	11312/c-00036201-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.03|male|TD||Target_Child|||
+@Media:	418_A3, audio
+@Comment:	Birth of CHI is 31-JAN-1996
+@Tape Location:	Disk M6 Track 51
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	&-um the [//] &-um this [//] &-um the elephant was there .
+%mor:	det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr adv|there .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	then this boy came with a [* m:allo] airplane .
+%mor:	adv|then det|this-Def-Dem-Sing noun|boy verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|airplane .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and she said +"/.
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" could I play with the airplane ?
+%mor:	aux|could-Fin-S pron|I-Prs-Nom-S1 verb|play-Inf-S adp|with det|the-Def-Art noun|airplane ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	then [/] &-um <then it> [//] &+w <then he> [/] then he said +"/.
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" I'll go first .
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|go-Inf-S adv|first .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and it went [^ flying noises] .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	but [/] but then she tried .
+%mor:	cconj|but adv|then pron|she-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and she went like this [^ flying noises] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|like pron|this-Dem-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	but then it went in the water .
+%mor:	cconj|but adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and &-um it [/] it went in the water .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and it was going to sink .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S part|to verb|sink-Inf-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
+*CHI:	and he got mad at the elephant .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at det|the-Def-Art noun|elephant .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|XCOMP 5|7|CASE 6|7|DET 7|4|OBL 8|3|PUNCT
+*CHI:	and then her big brother came .
+%mor:	cconj|and adv|then pron|her-Prs-Gen-S3 adj|big-S1 noun|brother verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|NMOD-POSS 4|5|AMOD 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	and [/] and she said +"/.
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" could you reach it , big brother ?
+%mor:	aux|could-Fin-S pron|you-Prs-Nom-S2 verb|reach-Inf-S pron|it-Prs-Acc-S3 cm|cm adj|big-S1 noun|brother ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|7|PUNCT 6|7|AMOD 7|3|PARATAXIS 8|3|PUNCT
+*CHI:	and &-um he tried .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	but it went far .
+%mor:	cconj|but pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adv|far .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	&-um <but then it> [/] but <then it> [//] then this &-um &+el other elephant came to catch &+i the airplane .
+%mor:	cconj|but adv|then det|this-Def-Dem-Sing adj|other-S1 noun|elephant verb|come-Fin-Ind-Past-S3-irr part|to verb|catch-Inf-S det|the-Def-Art noun|airplane-Acc .
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|10|ROOT 7|8|MARK 8|6|ADVCL 9|10|DET 10|8|OBJ 11|6|PUNCT
+*CHI:	and it went sink , sink , sinking .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr noun|sink cm|cm verb|sink-Inf-S cm|cm verb|sink-Part-Pres-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|XCOMP 5|6|PUNCT 6|3|PARATAXIS 7|8|PUNCT 8|6|CONJ 9|3|PUNCT
+*CHI:	but then she caught it .
+%mor:	cconj|but adv|then pron|she-Prs-Nom-S3 verb|catch-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and &-um she brought it up .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|bring-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|up .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	and then she gave it to him .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to pron|he-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|4|PUNCT
+*CHI:	then he hugged it .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|hugge-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and that's the end .
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

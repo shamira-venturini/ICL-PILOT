@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/c-00036260-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;06.26|male|TD||Target_Child|||
+@Media:	533_A1, audio
+@Comment:	Birth of CHI is 25-APR-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 112
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	&-um they're getting bored with the elephant's nose .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 aux|get-Part-Pres-S adj|bored-S1 adp|with det|the-Def-Art noun|elephant~part|s noun|nose .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|COP 4|9|ROOT 5|9|CASE 6|7|DET 7|9|NMOD-POSS 8|7|CASE 9|4|OBL 10|4|PUNCT
+*CHI:	the other one said woohoo !
+%mor:	det|the-Def-Art adj|other-S1 noun|one verb|say-Fin-Ind-Past-S3-irr noun|woohoo-Acc !
+%gra:	1|3|DET 2|3|AMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	now they dropped the ball in the pool .
+%mor:	adv|now pron|they-Prs-Nom-P3 verb|drop-Fin-Ind-Past-P3 det|the-Def-Art noun|ball-Acc adp|in det|the-Def-Art noun|pool .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	they said aah [=! yelling] !
+%mor:	pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Past-P3-irr intj|aah !
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|DISCOURSE 4|2|PUNCT
+*CHI:	now they're swimming in the pool .
+%mor:	adv|now pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|swim-Part-Pres-S adp|in det|the-Def-Art noun|pool .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and one's trying to get it .
+%mor:	cconj|and pron|one-Prs-S3~aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	now they got the ball .
+%mor:	adv|now pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|the-Def-Art noun|ball-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and now the horse is getting out .
+%mor:	cconj|and adv|now det|the-Def-Art noun|horse aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S adp|out .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|7|ROOT 7|6|COMPOUND-PRT 8|6|PUNCT
+*CHI:	and now they got the ball back .
+%mor:	cconj|and adv|now pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|the-Def-Art noun|ball-Acc adv|back .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|ADVMOD 8|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

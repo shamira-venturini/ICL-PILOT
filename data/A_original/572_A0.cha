@@ -1,0 +1,74 @@
+@UTF8
+@PID:	11312/c-00036129-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.00|male|SLI||Target_Child|||
+@Media:	572_A0, audio
+@Comment:	Birth of CHI is 10-DEC-1995
+@Date:	10-MAY-2001
+@Tape Location:	Disk M11 , Track 46
+@Types:	cross, narrative, SLI
+@G:	A0
+*CHI:	one kid <but> [//] oh yeah .
+%mor:	num|one noun|kid intj|oh intj|yeah .
+%gra:	1|2|NUMMOD 2|4|ROOT 3|2|DISCOURSE 4|2|DISCOURSE 5|2|PUNCT
+*CHI:	the kid has to be somewhere with him .
+%mor:	det|the-Def-Art noun|kid verb|have-Fin-Ind-Pres-S3 part|to aux|be-Inf-S adv|somewhere adp|with pron|he-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|6|MARK 5|6|COP 6|3|XCOMP 7|6|OBL 8|3|PUNCT
+*CHI:	he can't go by hisself [* s:r:gc:pro] .
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|go-Inf-S adp|by noun|hisself .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	there's strangers .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|stranger-Plur .
+%gra:	1|2|EXPL 2|3|ROOT 3|2|NSUBJ 4|2|PUNCT
+*CHI:	this kid went to the store .
+%mor:	det|this-Def-Dem-Sing noun|kid verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|store .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	the kid get in the store +//.
+%mor:	det|the-Def-Art noun|kid verb|get-Fin-Ind-Pres-S adp|in det|the-Def-Art noun|store +//.
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	look !
+%mor:	verb|look-Fin-Imp-S !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the kid went in the store .
+%mor:	det|the-Def-Art noun|kid verb|go-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|store .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and &-um the man said he didn't have any money .
+%mor:	cconj|and det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S det|any-Def-Ind noun|money-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|8|NSUBJ 6|8|AUX 7|8|ADVMOD 8|4|CCOMP 9|10|DET 10|8|OBJ 11|4|PUNCT
+*CHI:	he can't steal .
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|steal-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	he has to ask .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 part|to verb|ask-Inf-S .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|MARK 4|2|XCOMP 5|2|PUNCT
+*CHI:	and he was [//] he picked up some +//.
+%mor:	cconj|and pron|he-Prs-Nom-S3 pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 adp|up det|some-Def-Ind +//.
+%gra:	1|4|CC 2|4|NSUBJ 3|4|NSUBJ 4|6|ROOT 5|4|COMPOUND-PRT 6|4|OBJ 7|4|PUNCT
+*CHI:	what's this ?
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 ?
+%gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
+*CHI:	some eggs .
+%mor:	det|some-Def-Ind noun|egg-Plur .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	oh it's all so bad .
+%mor:	intj|oh pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|all-Def-Tot adv|so adj|bad-S1 .
+%gra:	1|6|DISCOURSE 2|6|NSUBJ 3|6|COP 4|6|ADVMOD 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	he picked one .
+%mor:	pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 num|one .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	it's all fell down .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|all-Def-Tot verb|fall-Part-Past-S-irr adp|down .
+%gra:	1|4|NSUBJ-PASS 2|4|AUX-PASS 3|4|ADVMOD 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	&=whines .
+*CHI:	oh [/] oh the man is mad .
+%mor:	intj|oh det|the-Def-Art noun|man aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|5|DISCOURSE 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	the kids start running away .
+%mor:	det|the-Def-Art noun|kid-Plur verb|start-Fin-Ind-Pres-P3 verb|run-Ger-S adv|away .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|3|XCOMP 5|4|ADVMOD 6|3|PUNCT
+*CHI:	that's it .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+@End

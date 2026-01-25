@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036276-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;02.24|male|TD||Target_Child|||
+@Media:	555_B1, audio
+@Comment:	Birth of CHI is 22-AUG-1995
+@Date:	15-NOV-2000
+@Tape Location:	Disk L20 Track 1
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	once a dog and a rabbit +//.
+%mor:	adv|once det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art noun|rabbit +//.
+%gra:	1|3|ADVMOD 2|3|DET 3|6|ROOT 4|6|CC 5|6|DET 6|3|CONJ 7|3|PUNCT
+*CHI:	I have a dog !
+%mor:	pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 det|a-Ind-Art noun|dog-Acc !
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	were playing in the sand .
+%mor:	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|in det|the-Def-Art noun|sand .
+%gra:	1|2|AUX 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	they made a sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	<and when> [//] by the time it was finished they poured some more sand .
+%mor:	adp|by det|the-Def-Art noun|time pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|finish-Part-Past-S pron|they-Prs-Nom-P3 verb|pour-Fin-Ind-Past-P3 det|some-Def-Ind adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|CASE 2|3|DET 3|8|OBL 4|6|NSUBJ-PASS 5|6|AUX-PASS 6|3|ACL-RELCL 7|8|NSUBJ 8|11|ROOT 9|11|DET 10|11|AMOD 11|8|OBJ 12|8|PUNCT
+*CHI:	and it fell down and did &~g:lop [!] .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down cconj|and aux|do-Fin-Ind-Past-S3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|COMPOUND-PRT 5|6|CC 6|3|CONJ 7|3|PUNCT
+*CHI:	they built the sandcastle again .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|the-Def-Art noun|sandcastle-Acc adv|again .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|DET 4|2|OBJ 5|2|ADVMOD 6|2|PUNCT
+*CHI:	it was up .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|up  .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|PUNCT 5|3|PUNCT
+@End

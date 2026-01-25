@@ -1,0 +1,73 @@
+@UTF8
+@PID:	11312/c-00036238-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;09.03|male|TD||Target_Child|||
+@Media:	504_B2, audio
+@Comment:	Birth of CHI is 14-MAY-1994
+@Date:	17-FEB-2000
+@Tape Location:	Disk M1 Track 27
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	once upon a time there was a bunny and a dog .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bunny cconj|and det|a-Ind-Art noun|dog .
+%gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
+*CHI:	they were going to have a picnic with each other .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S part|to verb|have-Inf-S det|a-Ind-Art noun|picnic-Acc adp|with det|each-Def-Rcp adj|other-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|10|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|9|CASE 9|5|OBL 10|9|FIXED 11|3|PUNCT
+*CHI:	and they met each other in the woods .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|meet-Fin-Ind-Past-P3-irr det|each-Def-Rcp adj|other-S1 adp|in det|the-Def-Art noun|wood-Plur .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|OBJ 5|4|FIXED 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	they met a each other in the woods .
+%mor:	pron|they-Prs-Nom-P3 verb|meet-Fin-Ind-Past-P3-irr det|a-Ind-Art det|each-Def-Rcp adj|other-S1 adp|in det|the-Def-Art noun|wood-Plur .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|DET 4|2|OBJ 5|4|FIXED 6|8|CASE 7|8|DET 8|2|OBL 9|2|PUNCT
+*CHI:	the bunny brought lots and lots of junk &=laughs .
+%mor:	det|the-Def-Art noun|bunny verb|bring-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc cconj|and noun|lot-Plur adp|of noun|junk .
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|3|OBJ 5|6|CC 6|4|CONJ 7|8|CASE 8|6|NMOD 9|3|PUNCT
+*CHI:	that's what I call food that's bad for you junk .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|what-Rel-S1 pron|I-Prs-Nom-S1 verb|call-Fin-Ind-Pres-S1 noun|food-Acc pron|that-Rel~aux|be-Fin-Ind-Pres-S3 adj|bad-S1 adp|for pron|you-Prs-Acc-S2 noun|junk .
+%gra:	1|3|NSUBJ 2|3|COP 3|12|ROOT 4|5|NSUBJ 5|3|ACL-RELCL 6|5|OBJ 7|9|NSUBJ 8|9|COP 9|3|ACL-RELCL 10|12|CASE 11|12|COMPOUND 12|9|OBL 13|3|PUNCT
+*CHI:	like junk I call them .
+%mor:	intj|like noun|junk pron|I-Prs-Nom-S1 verb|call-Fin-Ind-Pres-S1 pron|they-Prs-Acc-P3 .
+%gra:	1|2|DISCOURSE 2|5|ROOT 3|4|NSUBJ 4|2|ACL-RELCL 5|4|OBJ 6|2|PUNCT
+*CHI:	when there's food that's bad for you , I call it junk .
+%mor:	adv|when pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|food pron|that-Rel~aux|be-Fin-Ind-Pres-S3 adj|bad-S1 adp|for pron|you-Prs-Acc-S2 cm|cm pron|I-Prs-Nom-S1 verb|call-Fin-Ind-Pres-S1 pron|it-Prs-Acc-S3 noun|junk .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|12|ADVCL 4|3|NSUBJ 5|7|NSUBJ 6|7|COP 7|4|ACL-RELCL 8|9|CASE 9|7|OBL 10|3|PUNCT 11|12|NSUBJ 12|14|ROOT 13|12|OBJ 14|12|XCOMP 15|12|PUNCT
+*CHI:	and the bunny ate so much of his junk he got sick .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|eat-Fin-Ind-Past-S3-irr adv|so adj|much-S1 adp|of pron|his-Prs-Gen-S3 noun|junk pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|sick-S1 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|12|ROOT 5|6|ADVMOD 6|4|OBJ 7|9|CASE 8|9|NMOD-POSS 9|6|OBL 10|11|NSUBJ 11|4|PARATAXIS 12|11|XCOMP 13|4|PUNCT
+*CHI:	and he falled [: fell] [* m:=ed] down .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	and he got dizzy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|dizzy-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	and then the doggy ran to the doctor bunny to help .
+%mor:	cconj|and adv|then det|the-Def-Art noun|doggy verb|run-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|doctor noun|bunny part|to verb|help-Inf-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|11|ROOT 6|9|CASE 7|9|DET 8|9|COMPOUND 9|5|OBL 10|11|MARK 11|5|ADVCL 12|5|PUNCT
+*CHI:	and the doggy pulled him over .
+%mor:	cconj|and det|the-Def-Art noun|doggy verb|pull-Fin-Ind-Past-S3 pron|he-Prs-Acc-S3 adp|over .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	and then he started working on fixing him in case he was okay .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 verb|work-Ger-S sconj|on verb|fix-Part-Pres-S pron|he-Prs-Acc-S3 adp|in noun|case pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|okay-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|13|ROOT 5|4|XCOMP 6|7|MARK 7|5|ADVCL 8|7|OBJ 9|13|MARK 10|9|FIXED 11|13|NSUBJ 12|13|COP 13|7|ADVCL 14|4|PUNCT
+*CHI:	well then he threw a thing at his head and tried to &+s make him look over there .
+%mor:	intj|well adv|then pron|he-Prs-Nom-S3 verb|throw-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|thing-Acc-Ger adp|at pron|his-Prs-Gen-S3 noun|head cconj|and verb|try-Fin-Ind-Past-S3 part|to verb|make-Inf-S pron|he-Prs-Acc-S3 verb|look-Inf-S adp|over adv|there .
+%gra:	1|4|DISCOURSE 2|4|ADVMOD 3|4|NSUBJ 4|17|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|NMOD-POSS 9|4|OBL 10|11|CC 11|4|CONJ 12|13|MARK 13|11|XCOMP 14|13|OBJ 15|13|XCOMP 16|17|CASE 17|15|ADVMOD 18|4|PUNCT
+*CHI:	and he fixed him up .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|fix-Fin-Ind-Past-S3 pron|he-Prs-Acc-S3 adp|up .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	he hadta go home .
+%mor:	pron|he-Prs-Nom-S3 aux|hadt-Fin-Ind-Pres-S3 verb|go-Inf-S adv|home .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	so he [//] the doctor brought him to his home .
+%mor:	adv|so det|the-Def-Art noun|doctor verb|bring-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 adp|to pron|his-Prs-Gen-S3 noun|home .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|4|PUNCT
+*CHI:	and the doggy was very happy .
+%mor:	cconj|and det|the-Def-Art noun|doggy aux|be-Fin-Ind-Past-S3-irr adv|very adj|happy-S1 .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

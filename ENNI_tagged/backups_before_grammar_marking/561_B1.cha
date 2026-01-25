@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036279-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;02.02|male|TD||Target_Child|||
+@Media:	561_B1, audio
+@Comment:	Birth of CHI is 18-SEP-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 116
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once upon a time the bunny made a castle in his sandbox with the dog .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|bunny verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|castle-Acc adp|in pron|his-Prs-Gen-S3 noun|sandbox adp|with det|the-Def-Art noun|dog .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|6|DET 6|7|NSUBJ 7|15|ROOT 8|9|DET 9|7|OBJ 10|12|CASE 11|12|NMOD-POSS 12|7|OBL 13|15|CASE 14|15|DET 15|12|NMOD 16|7|PUNCT
+*CHI:	and then they wanted to make a bigger one .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to verb|make-Inf-S det|a-Ind-Art adj|big-Cmp-S1 noun|one-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|6|MARK 6|4|XCOMP 7|9|DET 8|9|AMOD 9|6|OBJ 10|4|PUNCT
+*CHI:	so they go [//] added more sand .
+%mor:	adv|so pron|they-Prs-Nom-P3 verb|add-Fin-Ind-Past-P3 adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|AMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	and then they put sand on top of the castle .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|put-Fin-Ind-Past-P3-irr noun|sand-Acc adp|on noun|top adp|of det|the-Def-Art noun|castle .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|10|CASE 9|10|DET 10|7|NMOD 11|4|PUNCT
+*CHI:	and then it broke [!] .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|break-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and the bunny said &=gasps aw !
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr intj|aw !
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	and then they were gonna make it again !
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr part|go verb|make-Inf-S pron|it-Prs-Acc-S3 adv|again !
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|8|ROOT 7|6|OBJ 8|6|ADVMOD 9|6|PUNCT
+@End

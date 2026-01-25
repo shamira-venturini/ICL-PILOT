@@ -1,0 +1,69 @@
+@UTF8
+@PID:	11312/c-00036246-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.05|male|TD||Target_Child|||
+@Media:	512_A2, audio
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 12
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	once upon a time there was an elephant and a giraffe .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
+%gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
+*CHI:	they looked at the water .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 adp|at det|the-Def-Art noun|water .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	and then the elephant ran .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|run-Fin-Ind-Past-S3-irr .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	and he didn't see nothing .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|see-Inf-S pron|nothing-Neg-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	so he jumped .
+%mor:	adv|so pron|he-Prs-Nom-S3 verb|jump-Fin-Ind-Past-S3 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	so he went right into the water .
+%mor:	adv|so pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adv|right adp|into det|the-Def-Art noun|water .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|3|ADVMOD 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	(..) and then the elephant hurt his knee .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|7|NMOD-POSS 7|5|OBJ 8|5|PUNCT
+*CHI:	(..) and then <the mommy> [//] came by .
+%mor:	cconj|and adv|then verb|come-Fin-Ind-Past-S3-irr adp|by .
+%gra:	1|3|CC 2|3|ADVMOD 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	I mean the lifeguard .
+%mor:	pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Pres-S1 det|the-Def-Art noun|lifeguard-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and lifeguard ran after .
+%mor:	cconj|and noun|lifeguard verb|run-Fin-Ind-Past-S3-irr adv|after .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and then &+ih the elephant cried .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|cry-Fin-Ind-Past-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	(.) and then the giraffe bend his knee on the ground .
+%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe verb|bend-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|knee-Acc adp|on det|the-Def-Art noun|ground .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|10|ROOT 6|7|NMOD-POSS 7|5|OBJ 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
+*CHI:	and the [/] the sign said no: running .
+%mor:	cconj|and det|the-Def-Art noun|sign verb|say-Fin-Ind-Past-S3-irr det|no-Def-Neg noun|running-Acc-Ger .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	(.) and then they gave him a bandage the elephant .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|give-Fin-Ind-Past-P3-irr pron|he-Prs-Acc-S3 det|a-Ind-Art noun|bandage-Acc det|the-Def-Art noun|elephant .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|9|DET 9|7|APPOS 10|4|PUNCT
+*CHI:	then the [/] the lifeguard was angry at the &-uh elephant .
+%mor:	adv|then det|the-Def-Art noun|lifeguard aux|be-Fin-Ind-Past-S3-irr adj|angry-S1 adp|at det|the-Def-Art noun|elephant .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|COP 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	only one more to go and then it's done .
+%mor:	adv|only num|one adj|more-Cmp-S1 part|to verb|go-Inf-S cconj|and adv|then pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|do-Part-Past-S-irr .
+%gra:	1|3|ADVMOD 2|3|NUMMOD 3|10|ROOT 4|5|MARK 5|3|ACL 6|10|CC 7|10|ADVMOD 8|10|NSUBJ-PASS 9|10|AUX-PASS 10|3|CONJ 11|3|PUNCT
+*CHI:	and one more +...
+%mor:	cconj|and num|one adj|more-Cmp-S1 +...
+%gra:	1|3|CC 2|3|NUMMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	I'm making (th)em up .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|make-Part-Pres-S pron|they-Prs-Acc-P3 adp|up .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	yeah !
+%mor:	intj|yeah !
+%gra:	1|1|ROOT 2|1|PUNCT
+@End

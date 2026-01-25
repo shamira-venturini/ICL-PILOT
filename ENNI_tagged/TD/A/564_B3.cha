@@ -1,0 +1,106 @@
+@UTF8
+@PID:	11312/c-00036282-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;11.04|female|TD||Target_Child|||
+@Media:	564_B3, audio
+@Comment:	Birth of CHI is 18-MAR-1995
+@Date:	22-FEB-2001
+@Tape Location:	Disk L25 , Track 101
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	yeah !
+%mor:	intj|yeah !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	once upon a time a little girl came along with her wagon and tied a balloon to the wheel to it .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|a-Ind-Art adj|little-S1 noun|girl verb|come-Fin-Ind-Past-S3-irr adv|along adp|with pron|her-Prs-Gen-S3 noun|wagon cconj|and verb|tie-Fin-Ind-Past-S3 det|a-Ind-Art noun|balloon-Acc adp|to det|the-Def-Art noun|wheel adp|to pron|it-Prs-Acc-S3 .
+%gra:	1|8|ADVMOD 2|4|CASE 3|4|DET 4|8|OBL 5|7|DET 6|7|AMOD 7|8|NSUBJ 8|21|ROOT 9|8|ADVMOD 10|12|CASE 11|12|NMOD-POSS 12|8|OBL 13|14|CC 14|8|CONJ 15|16|DET 16|14|OBJ 17|19|CASE 18|19|DET 19|14|OBL 20|21|CASE 21|14|OBL 22|8|PUNCT
+*CHI:	and then a boy bunny rabbit came along and said +"/.
+%mor:	cconj|and adv|then det|a-Ind-Art noun|boy noun|bunny noun|rabbit verb|come-Fin-Ind-Past-S3-irr adv|along cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|7|CC 2|7|ADVMOD 3|6|DET 4|6|COMPOUND 5|6|COMPOUND 6|7|NSUBJ 7|10|ROOT 8|7|ADVMOD 9|10|CC 10|7|CONJ 11|7|PUNCT
+*CHI:	+" hey can I have that balloon ?
+%mor:	intj|hey aux|can-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S det|that-Def-Dem-Sing noun|balloon-Acc ?
+%gra:	1|4|DISCOURSE 2|4|AUX 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and she said +"/.
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" of course you can !
+%mor:	adp|of noun|course pron|you-Prs-Nom-S2 aux|can-Fin-S !
+%gra:	1|4|ADVMOD 2|1|FIXED 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and then he took it .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and then he hurt himself (be)cause he got a little tired .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|himself-Prs-Acc-reflx-S3 sconj|because pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 adj|tired-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|11|ROOT 5|4|OBJ 6|8|MARK 7|8|NSUBJ 8|4|ADVCL 9|10|DET 10|11|OBL-UNMARKED 11|8|XCOMP 12|4|PUNCT
+*CHI:	and then he got it .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and <he didn't know> [//] they didn't know it was gonna float up in the air .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not verb|know-Inf-S pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go verb|float-Inf-S adp|up adp|in det|the-Def-Art noun|air .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|13|ROOT 6|9|NSUBJ 7|9|AUX 8|9|ADVMOD 9|5|CCOMP 10|9|COMPOUND-PRT 11|13|CASE 12|13|DET 13|9|OBL 14|5|PUNCT
+*CHI:	but the [//] at least the girl did .
+%mor:	cconj|but adp|at adj|least-Sup-S1 det|the-Def-Art noun|girl aux|do-Fin-Ind-Past-S3-irr .
+%gra:	1|6|CC 2|6|ADVMOD 3|2|FIXED 4|5|DET 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	&-um but he didn't know that very good .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|know-Inf-S pron|that-Dem adv|very adj|good-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|5|OBJ 7|8|ADVMOD 8|5|XCOMP 9|5|PUNCT
+*CHI:	so he tried to get it back .
+%mor:	adv|so pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adv|back .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|ADVMOD 8|3|PUNCT
+*CHI:	but he couldn't reach .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|reach-Inf-S .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	and then all that was left of it was half a string .
+%mor:	cconj|and adv|then det|all-Def-Tot pron|that-Rel aux|be-Fin-Ind-Past-S3-irr verb|leave-Part-Past-S-irr adp|of pron|it-Prs-Acc-S3 aux|be-Fin-Ind-Past-S3-irr det|half-Def-Ind det|a-Ind-Art noun|string-Ger .
+%gra:	1|12|CC 2|12|ADVMOD 3|12|NSUBJ 4|6|NSUBJ-PASS 5|6|AUX-PASS 6|3|ACL-RELCL 7|8|CASE 8|6|OBL 9|12|COP 10|12|DET-PREDET 11|12|DET 12|12|ROOT 13|12|PUNCT
+*CHI:	and then they went to go and get another one from the balloon man .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr part|to verb|go-Inf-S cconj|and verb|get-Inf-S det|another-Def-Ind noun|one-Acc adp|from det|the-Def-Art noun|balloon noun|man .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|14|ROOT 5|6|MARK 6|4|XCOMP 7|8|CC 8|6|CONJ 9|10|DET 10|8|OBJ 11|14|CASE 12|14|DET 13|14|COMPOUND 14|10|NMOD 15|4|PUNCT
+*CHI:	but that cost five dollars .
+%mor:	cconj|but pron|that-Dem verb|cost-Fin-Ind-Past-S3-irr num|five noun|dollar-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	and he [!] said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" could we get another two [!] balloons please ?
+%mor:	aux|could-Fin-S pron|we-Prs-Nom-P1 verb|get-Inf-S det|another-Def-Ind num|two noun|balloon-Plur-Acc intj|please ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|6|DET 5|6|NUMMOD 6|3|OBJ 7|3|DISCOURSE 8|3|PUNCT
+*CHI:	+" five bucks kid !
+%mor:	num|five noun|buck-Plur noun|kid !
+%gra:	1|2|NUMMOD 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	(..) and he said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" but sir I don't have five bucks .
+%mor:	cconj|but noun|sir pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|have-Inf-S num|five noun|buck-Plur-Acc .
+%gra:	1|6|CC 2|6|DISCOURSE 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|8|ROOT 7|8|NUMMOD 8|6|OBJ 9|6|PUNCT
+*CHI:	+" could we just get them for free please ?
+%mor:	aux|could-Fin-S pron|we-Prs-Nom-P1 adv|just verb|get-Inf-S pron|they-Prs-Acc-P3 adp|for adj|free-S1 intj|please ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|ADVMOD 4|8|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|4|DISCOURSE 9|4|PUNCT
+*CHI:	and then they went to go and ask the dad of those kids .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr part|to verb|go-Inf-S cconj|and verb|ask-Inf-S det|the-Def-Art noun|dad-Acc adp|of det|that-Def-Dem-Plur noun|kid-Plur .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|13|ROOT 5|6|MARK 6|4|XCOMP 7|8|CC 8|6|CONJ 9|10|DET 10|8|OBJ 11|13|CASE 12|13|DET 13|10|NMOD 14|4|PUNCT
+*CHI:	and <he> [?] said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" do you have five dollars to get another balloon for us , dad ?
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|have-Inf-S num|five noun|dollar-Plur-Acc part|to verb|get-Inf-S det|another-Def-Ind noun|balloon-Acc adp|for pron|we-Prs-Acc-P1 cm|cm noun|dad ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|13|ROOT 4|5|NUMMOD 5|3|OBJ 6|7|MARK 7|5|ACL 8|9|DET 9|7|OBJ 10|11|CASE 11|7|OBL 12|13|PUNCT 13|11|APPOS 14|3|PUNCT
+*CHI:	so he did .
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and then they both got a balloon .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 det|both-Def-Tot verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|3|DET 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and then he paid .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|pay-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and then he smiled at the kids and said +"/.
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|smile-Fin-Ind-Past-S3 adp|at det|the-Def-Art noun|kid-Plur cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|CC 9|4|CONJ 10|4|PUNCT
+*CHI:	+" you're welcome .
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|welcome-S1  .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|PUNCT 5|3|PUNCT
+@End

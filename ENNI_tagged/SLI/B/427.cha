@@ -1,0 +1,252 @@
+@UTF8
+@PID:	11312/c-00036110-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.16|female|SLI||Target_Child|||
+@Media:	427, audio
+@Date:	25-APR-2000
+@Tape Location:	Disk L8 Track 34
+@Types:	cross, narrative, SLI
+*CHI:	&-um . [+ bch]
+*CHI:	I don't know . [+ bch]
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	buying .
+%mor:	verb|buy-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	cookie .
+%mor:	noun|cookie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	I don't know . [+ bch]
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	one , two [?] one buy it .
+%mor:	num|one cm|cm num|two num|one verb|buy-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|NSUBJ 2|1|PUNCT 3|4|NUMMOD 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	it fall .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	cookie .
+%mor:	noun|cookie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	that [?] is mad .
+%mor:	pron|that-Dem aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	it messy .
+%mor:	pron|it-Prs-Nom-S3 adj|messy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	&-um and nobody is clean up .
+%mor:	cconj|and pron|nobody-Neg-S1 aux|be-Fin-Ind-Pres-S3 adj|clean-S1 adp|up .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+@G:	B1
+*CHI:	is [/] is like her .
+%mor:	aux|be-Fin-Ind-Pres-S3 adp|like pron|her-Prs-Acc-S3 .
+%gra:	1|3|COP 2|3|CASE 3|3|ROOT 4|3|PUNCT
+*CHI:	that his friend .
+%mor:	sconj|that pron|his-Prs-Gen-S3 noun|friend .
+%gra:	1|3|MARK 2|3|NMOD-POSS 3|3|ROOT 4|3|PUNCT
+*CHI:	is playing .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S .
+%gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
+*CHI:	is all done .
+%mor:	aux|be-Fin-Ind-Pres-S3 adv|all verb|do-Part-Past-S-irr .
+%gra:	1|3|AUX-PASS 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	it's fu:ll .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	is crying .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	B2
+*CHI:	is going .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S .
+%gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
+*CHI:	<is eating> [/] is eating .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S .
+%gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
+*CHI:	&+dr is eating sandwich .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S noun|sandwich-Acc .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	is drinking [/] drinking juice .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|drink-Part-Pres-S noun|juice .
+%gra:	1|3|COP 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	is dot^ger [: doctor] [* p:n] .
+%mor:	aux|be-Fin-Ind-Pres-S3 noun|doctor .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	is moving .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|move-Part-Pres-S .
+%gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
+*CHI:	is &+hur hurt ears .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr noun|ear-Plur .
+%gra:	1|3|COP 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	say goodbye .
+%mor:	verb|say-Fin-Imp-S noun|goodbye-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	B3
+*CHI:	is have balloon .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|have-Inf-S noun|balloon-Acc .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	balloon that a big .
+%mor:	noun|balloon pron|that-Rel det|a-Ind-Art adj|big-S1 .
+%gra:	1|4|ROOT 2|4|NSUBJ 3|4|DET 4|1|ACL-RELCL 5|1|PUNCT
+*CHI:	it's fun .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|fun-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	is &=um take it .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|take-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	can't do it .
+%mor:	aux|can-Fin-S~part|not verb|do-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|AUX 2|3|ADVMOD 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	it's &+g going up to s::ky .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|up adp|to noun|sky .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|COMPOUND-PRT 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	is [/] is go go go high .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Inf-S verb|go-Inf-Imp-S verb|go-Inf-Imp-S adj|high-S1 .
+%gra:	1|2|AUX 2|5|ROOT 3|2|XCOMP 4|2|XCOMP 5|4|XCOMP 6|2|PUNCT
+*CHI:	hopper [?] lost the balloon .
+%mor:	noun|hopper verb|lose-Fin-Ind-Past-S3-irr det|the-Def-Art noun|balloon-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	is mad .
+%mor:	aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	he's want the balloon .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|want-Inf-S det|the-Def-Art noun|balloon-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	it's five dollars .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 num|five noun|dollar-Plur .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|NUMMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	is [/] is [//] balloon is hold it .
+%mor:	noun|balloon aux|be-Fin-Ind-Pres-S3 verb|hold-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	is here that dot^ger [: doctor] [* p:n] .
+%mor:	aux|be-Fin-Ind-Pres-S3 adv|here det|that-Def-Dem-Sing noun|doctor .
+%gra:	1|2|COP 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*CHI:	here balloon .
+%mor:	adv|here noun|balloon .
+%gra:	1|2|ROOT 2|1|NSUBJ 3|1|PUNCT
+*CHI:	is say thank you .
+%mor:	aux|be-Fin-Ind-Pres-S3 intj|say verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|3|COP 2|3|DISCOURSE 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	balloon is happy .
+%mor:	noun|balloon aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	A1
+*CHI:	xxx like it ! [+ bch]
+%mor:	intj|like pron|it-Prs-Acc-S3 !
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	is playing bubbles .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S noun|bubble-Plur-Acc .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	it big bubbles coming .
+%mor:	pron|it-Prs-Nom-S3 adj|big-S1 noun|bubble-Plur verb|come-Ger-S .
+%gra:	1|3|NSUBJ 2|3|AMOD 3|4|ROOT 4|3|ACL 5|3|PUNCT
+*CHI:	is throw them down .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|throw-Inf-S pron|they-Prs-Acc-P3 adp|down .
+%gra:	1|2|AUX 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
+*CHI:	is say thank you .
+%mor:	aux|be-Fin-Ind-Pres-S3 intj|say verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|3|COP 2|3|DISCOURSE 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	happy .
+%mor:	adj|happy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	A2
+*CHI:	is going swimming .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S noun|swim-Acc-Ger .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	is running .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S .
+%gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
+*CHI:	is going down .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adv|down .
+%gra:	1|2|AUX 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	is slippery .
+%mor:	aux|be-Fin-Ind-Pres-S3 adj|slippery-S1 .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	is ow [/] owie .
+%mor:	aux|be-Fin-Ind-Pres-S3 adj|owie-S1 .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	is hurt .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr .
+%gra:	1|2|AUX-PASS 2|2|ROOT 3|2|PUNCT
+*CHI:	is crying .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	there the doctor .
+%mor:	pron|there-Dem-S1 det|the-Def-Art noun|doctor .
+%gra:	1|3|ROOT 2|3|DET 3|1|NSUBJ 4|1|PUNCT
+*CHI:	&-um (be)cause he was crying (be)cause sad .
+%mor:	sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S sconj|because adj|sad-S1 .
+%gra:	1|4|MARK 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|MARK 6|4|ADVCL 7|4|PUNCT
+*CHI:	<now is> [/] now is not hurt .
+%mor:	adv|now aux|be-Fin-Ind-Pres-S3 part|not verb|hurt-Part-Past-S-irr .
+%gra:	1|4|ADVMOD 2|4|AUX-PASS 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	is mad .
+%mor:	aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	go away .
+%mor:	verb|go-Fin-Imp-S adv|away .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@G:	A3
+*CHI:	is happy .
+%mor:	aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	is playing .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S .
+%gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
+*CHI:	is like it .
+%mor:	aux|be-Fin-Ind-Pres-S3 adp|like pron|it-Prs-Acc-S3 .
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*CHI:	it [//] &+bro it's under the water .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|under det|the-Def-Art noun|water .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|CASE 4|5|DET 5|5|ROOT 6|5|PUNCT
+*CHI:	say &=growls I mad .
+%mor:	verb|say-Fin-Imp-S pron|I-Prs-Nom-S1 verb|mad-Fin-Ind-Pres-S1 .
+%gra:	1|3|ROOT 2|3|NSUBJ 3|1|CCOMP 4|1|PUNCT
+*CHI:	(be)cause hm: .
+%mor:	sconj|because intj|hm .
+%gra:	1|2|MARK 2|2|ROOT 3|2|PUNCT
+*CHI:	what did it &-um you .
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3 pron|you-Prs-Nom-S2 .
+%gra:	1|4|ROOT 2|4|AUX 3|4|NSUBJ 4|1|NSUBJ 5|1|PUNCT
+*CHI:	is screaming .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|scream-Part-Pres-S .
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*CHI:	is do it .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|do-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	can't do it .
+%mor:	aux|can-Fin-S~part|not verb|do-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|AUX 2|3|ADVMOD 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	I got it .
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	&=growls I got it .
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	thank you .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	so ha^ppy .
+%mor:	adv|so adj|happy-S1 .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	the end . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

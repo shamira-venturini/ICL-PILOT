@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/c-00036238-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;09.03|male|TD||Target_Child|||
+@Media:	504_A1, audio
+@Comment:	Birth of CHI is 14-MAY-1994
+@Date:	17-FEB-2000
+@Tape Location:	Disk M1 Track 27
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	this is different right ?
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 adj|different-S1 adv|right ?
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	once upon a time the elephant had a ball .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|elephant verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|ball-Acc .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|6|DET 6|7|NSUBJ 7|9|ROOT 8|9|DET 9|7|OBJ 10|7|PUNCT
+*CHI:	and the giraffe liked it .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|like-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and he decided to play with it by the pool .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|decide-Fin-Ind-Past-S3 part|to verb|play-Inf-S adp|with pron|it-Prs-Acc-S3 adp|by det|the-Def-Art noun|pool .
+%gra:	1|3|CC 2|3|NSUBJ 3|10|ROOT 4|5|MARK 5|3|XCOMP 6|7|CASE 7|5|OBL 8|10|CASE 9|10|DET 10|5|OBL 11|3|PUNCT
+*CHI:	and then he made a mistake .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|mistake-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and it falled [: fell] [* m:=ed] in the water .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and [/] and [/] and the elephant thought that he couldn't get it .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|think-Fin-Ind-Past-S3-irr sconj|that pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|9|MARK 6|9|NSUBJ 7|9|AUX 8|9|ADVMOD 9|4|CCOMP 10|9|OBJ 11|4|PUNCT
+*CHI:	but he [/] he just tried and tried .
+%mor:	cconj|but pron|he-Prs-Nom-S3 adv|just verb|try-Fin-Ind-Past-S3 cconj|and verb|try-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|6|CC 6|4|CONJ 7|4|PUNCT
+*CHI:	and he got it .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and he gave it back to the elephant .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|back adp|to det|the-Def-Art noun|elephant .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|OBJ 5|3|ADVMOD 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	so the elephant was very happy .
+%mor:	adv|so det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr adv|very adj|happy-S1 .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

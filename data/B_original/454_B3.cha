@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/c-00036219-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;04.20|female|TD||Target_Child|||
+@Media:	454_B3, audio
+@Comment:	Birth of CHI is 01-OCT-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 76
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	0subj 0aux taking the balloon for a ride . [+ gram]
+%mor:	verb|take-Part-Pres-S det|the-Def-Art noun|balloon-Acc adp|for det|a-Ind-Art noun|ride .
+%gra:	1|6|ROOT 2|3|DET 3|1|OBJ 4|6|CASE 5|6|DET 6|1|OBL 7|1|PUNCT
+*CHI:	and the boy's taking the balloon away .
+%mor:	cconj|and det|the-Def-Art noun|boy~part|s verb|take-Part-Pres-S det|the-Def-Art noun|balloon-Acc adv|away .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|3|CASE 5|8|ROOT 6|7|DET 7|5|OBJ 8|5|ADVMOD 9|5|PUNCT
+*CHI:	&-um he's &-um pulling the balloon off .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|pull-Part-Pres-S det|the-Def-Art noun|balloon-Acc adp|off .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|COMPOUND-PRT 7|3|PUNCT
+*CHI:	the balloon's flying away .
+%mor:	det|the-Def-Art noun|balloon~part|s noun|fly-Ger adv|away .
+%gra:	1|2|DET 2|4|NMOD-POSS 3|2|CASE 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	&-um the boy got mad [!] .
+%mor:	det|the-Def-Art noun|boy verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	&-um daddy gived [: gave] [* m:=ed] them some more &-um balloons . [+ gram]
+%mor:	noun|daddy verb|give-Fin-Ind-Past-S3-irr pron|they-Prs-Acc-P3 det|some-Def-Ind adj|more-Cmp-S1 noun|balloon-Plur-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|IOBJ 4|6|DET 5|6|AMOD 6|2|OBJ 7|2|PUNCT
+*CHI:	and then daddy gived [: gave] [* m:=ed] &-um the boy some balloons . [+ gram]
+%mor:	cconj|and adv|then noun|daddy verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|boy det|some-Def-Ind noun|balloon-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|DET 6|4|IOBJ 7|8|DET 8|4|OBJ 9|4|PUNCT
+*CHI:	and [/] and then [/] then the boy got one .
+%mor:	cconj|and adv|then det|the-Def-Art noun|boy verb|get-Fin-Ind-Past-S3-irr num|one .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	then [//] and the baby [!] got one too .
+%mor:	cconj|and det|the-Def-Art noun|baby verb|get-Fin-Ind-Past-S3-irr num|one adv|too .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*CHI:	and mommy was &-uh looking that way .
+%mor:	cconj|and noun|mommy aux|be-Fin-Ind-Past-S3-irr verb|look-Part-Pres-S det|that-Def-Dem-Sing noun|way-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and that [/] that [//] the boy got the balloons .
+%mor:	cconj|and det|the-Def-Art noun|boy verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|balloon-Plur-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and &-um the [/] the daddy give [* m:base:ed] the mommy some money . [+ gram]
+%mor:	cconj|and det|the-Def-Art noun|daddy verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|mommy det|some-Def-Ind noun|money-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|DET 6|4|IOBJ 7|8|DET 8|4|OBJ 9|4|PUNCT
+*CHI:	and then that [//] &-um the babies got some balloons .
+%mor:	cconj|and adv|then det|the-Def-Art noun|baby-Plur verb|get-Fin-Ind-Past-P3-irr det|some-Def-Ind noun|balloon-Plur-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	that's [/] that's the end !
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end !
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+@End

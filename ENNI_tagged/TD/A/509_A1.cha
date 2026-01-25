@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/c-00036243-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;09.12|female|TD||Target_Child|||
+@Media:	509_A1, audio
+@Comment:	Birth of CHI is 9-JUN-1994
+@Date:	21-MAR-2000
+@Tape Location:	Disk L3 Track 16
+@Comment:	CHI uses an exaggerated book-reading register
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	I see a [/] a camel .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|camel-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and I see an elephant bouncing a ball really fast .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|elephant-Acc verb|bounce-Ger-S det|a-Ind-Art noun|ball-Acc adv|really adv|fast .
+%gra:	1|3|CC 2|3|NSUBJ 3|10|ROOT 4|5|DET 5|3|OBJ 6|5|ACL 7|8|DET 8|6|OBJ 9|10|ADVMOD 10|6|ADVMOD 11|3|PUNCT
+*CHI:	&=coughs that hurts my voice when I do that .
+%mor:	pron|that-Dem verb|hurt-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1 noun|voice-Acc adv|when pron|I-Prs-Nom-S1 verb|do-Fin-Ind-Pres-S1 pron|that-Dem .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|7|ADVMOD 6|7|NSUBJ 7|2|ADVCL 8|7|OBJ 9|2|PUNCT
+*CHI:	and the ball got stuck in the beach .
+%mor:	cconj|and det|the-Def-Art noun|ball aux|get-Fin-Ind-Past-S3-irr adj|stuck-S1 adp|in det|the-Def-Art noun|beach .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	and the camel was swimming for it .
+%mor:	cconj|and det|the-Def-Art noun|camel aux|be-Fin-Ind-Past-S3-irr verb|swim-Part-Pres-S adp|for pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	that's pretty silly .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adv|pretty adj|silly-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	and the camel got the ball .
+%mor:	cconj|and det|the-Def-Art noun|camel verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	<and she> [//] and the elephant was so happy to have her ball back .
+%mor:	cconj|and det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 part|to verb|have-Inf-S pron|her-Prs-Gen-S3 noun|ball-Acc adv|back .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|11|ROOT 7|8|MARK 8|6|XCOMP 9|10|NMOD-POSS 10|8|OBJ 11|8|ADVMOD 12|6|PUNCT
+*CHI:	I did it .
+%mor:	pron|I-Prs-Nom-S1 verb|do-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+@End

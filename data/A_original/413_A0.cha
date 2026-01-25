@@ -1,0 +1,32 @@
+@UTF8
+@PID:	11312/c-00036108-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.26|male|SLI||Target_Child|||
+@Media:	413_A0, audio
+@Comment:	Birth of CHI is 31-MAY-1995
+@Date:	26-APR-2000
+@Tape Location:	Disk L11 Track 30
+@Types:	cross, narrative, SLI
+@G:	A0
+@G:	A0
+*CHI:	I shopping .
+%mor:	pron|I-Prs-Nom-S1 verb|shop-Fin-Ind-Pres-S .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	and get cookie .
+%mor:	cconj|and verb|get-Fin-Imp-S noun|cookie-Acc .
+%gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	get one cookie .
+%mor:	verb|get-Fin-Imp-S num|one noun|cookie-Acc .
+%gra:	1|3|ROOT 2|3|NUMMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	and fall off .
+%mor:	cconj|and verb|fall-Fin-Imp-S adp|off .
+%gra:	1|2|CC 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*CHI:	<and then> [=! whispers] angry .
+%mor:	cconj|and adv|then adj|angry-S1 .
+%gra:	1|3|CC 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	all done .
+%mor:	det|all-Def-Tot verb|do-Part-Past-S-irr .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+@End

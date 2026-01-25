@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/c-00036111-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;02.04|male|SLI||Target_Child|||
+@Media:	444_B1, audio
+@Comment:	Birth of CHI is 30-MAR-1997
+@Date:	03-JUN-2001
+@Tape Location:	Disk L29 Track 2
+@Types:	cross, narrative, SLI
+@G:	B1
+*CHI:	bunny .
+%mor:	noun|bunny .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&-um sandcastle .
+%mor:	noun|sandcastle .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	sandcastle .
+%mor:	noun|sandcastle .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	sandcastle and puppy and bunny .
+%mor:	noun|sandcastle cconj|and noun|puppy cconj|and noun|bunny .
+%gra:	1|5|ROOT 2|3|CC 3|1|CONJ 4|5|CC 5|1|CONJ 6|1|PUNCT
+*CHI:	<sandcastle and> [/] &+bun &-uh &+san sandcastle and dog [//] doggy and rabbit .
+%mor:	noun|sandcastle cconj|and noun|doggy cconj|and noun|rabbit .
+%gra:	1|5|ROOT 2|3|CC 3|1|CONJ 4|5|CC 5|1|CONJ 6|1|PUNCT
+*CHI:	bunny .
+%mor:	noun|bunny .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	sandcastle breaked [: broke] [* m:=ed] . [+ gram]
+%mor:	noun|sandcastle verb|break-Fin-Ind-Past-S3-irr .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	a sandcastle breaked [: broke] [* m:=ed] . [+ gram]
+%mor:	det|a-Ind-Art noun|sandcastle verb|break-Fin-Ind-Past-S3-irr .
+%gra:	1|2|DET 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	they're making it again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S pron|it-Prs-Acc-S3 adv|again .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

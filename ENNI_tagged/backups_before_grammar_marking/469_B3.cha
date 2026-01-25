@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/c-00036232-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.15|female|TD||Target_Child|||
+@Media:	469_B3, audio
+@Comment:	Birth of CHI is 10-OCT-1996
+@Date:	25-MAY-2001
+@Tape Location:	Disk L28 Track 47
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	he's taking a balloon somewhere .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|take-Part-Pres-S det|a-Ind-Art noun|balloon-Acc adv|somewhere .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*CHI:	his friend's coming up to him .
+%mor:	pron|his-Prs-Gen-S3 noun|friend~part|s verb|come-Part-Pres-S adp|up adp|to pron|he-Prs-Acc-S3 .
+%gra:	1|2|NMOD-POSS 2|4|NSUBJ 3|2|CASE 4|7|ROOT 5|4|COMPOUND-PRT 6|7|CASE 7|4|OBL 8|4|PUNCT
+*CHI:	<and he> [//] and his friend likes the balloon .
+%mor:	cconj|and pron|his-Prs-Gen-S3 noun|friend verb|like-Fin-Ind-Pres-S3 det|the-Def-Art noun|balloon-Acc .
+%gra:	1|4|CC 2|3|NMOD-POSS 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and then his friend tries to untwist it .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|friend verb|try-Fin-Ind-Pres-S3 part|to verb|untwist-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*CHI:	then it goes away .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|away .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and he's sad .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and then she's angry at rabbit .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|angry-S1 adp|at noun|rabbit .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	and then there's a new &+ba balloon sale .
+%mor:	cconj|and adv|then pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|new-S1 noun|balloon noun|sale .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|EXPL 4|8|ROOT 5|8|DET 6|8|AMOD 7|8|COMPOUND 8|4|NSUBJ 9|4|PUNCT
+*CHI:	and he wants one .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 num|one .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and he gives it to him .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|to pron|he-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	and then he wants another one &=laughs .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 det|another-Def-Ind noun|one-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and then his mother is here .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|mother aux|be-Fin-Ind-Pres-S3 adv|here .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|NMOD-POSS 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	he comes up to her .
+%mor:	pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3 adp|up adp|to pron|her-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|COMPOUND-PRT 4|5|CASE 5|2|OBL 6|2|PUNCT
+*CHI:	and he tells her that there's balloons .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|tell-Fin-Ind-Pres-S3 pron|her-Prs-Acc-S3 sconj|that pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|balloon-Plur .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|IOBJ 5|7|MARK 6|7|EXPL 7|3|CCOMP 8|7|NSUBJ 9|3|PUNCT
+*CHI:	<and she'll> [//] and she's giving him money .
+%mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|give-Part-Pres-S pron|he-Prs-Acc-S3 noun|money-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|4|IOBJ 6|4|OBJ 7|4|PUNCT
+*CHI:	and then they both have one [//] a balloon .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 det|both-Def-Tot verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|3|DET 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	that's it .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

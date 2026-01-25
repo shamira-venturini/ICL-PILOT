@@ -1,0 +1,82 @@
+@UTF8
+@PID:	11312/c-00036277-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;02.03|female|TD||Target_Child|||
+@Media:	557_A3, audio
+@Comment:	Birth of CHI is 12-SEP-1995
+@Date:	15-NOV-2000
+@Tape Location:	Disk L20 Track 17
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	of course you do . [+ exc]
+%mor:	adp|of noun|course pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2 .
+%gra:	1|4|ADVMOD 2|1|FIXED 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	one day me and my brother went swimming .
+%mor:	num|one noun|day pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|brother verb|go-Fin-Ind-Past-S3-irr verb|swim-Ger-S .
+%gra:	1|2|NUMMOD 2|7|OBL-UNMARKED 3|7|NSUBJ 4|6|CC 5|6|NMOD-POSS 6|3|CONJ 7|8|ROOT 8|7|XCOMP 9|7|PUNCT
+*CHI:	and it was okay .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|okay-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	so the elephant was surprised .
+%mor:	adv|so det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr verb|surprise-Part-Past-S .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ-PASS 4|5|AUX-PASS 5|5|ROOT 6|5|PUNCT
+*CHI:	and then she [//] &+brou my brother brought an airplane in the water .
+%mor:	cconj|and adv|then pron|my-Prs-Gen-S1 noun|brother verb|bring-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|airplane-Acc adp|in det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|10|ROOT 6|7|DET 7|5|OBJ 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
+*CHI:	and then &+sh &-uh the elephant took the airplane away .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|take-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc adv|away .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|7|DET 7|5|OBJ 8|5|ADVMOD 9|5|PUNCT
+*CHI:	that's when I was two and he was nine .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adv|when pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr num|two cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr num|nine .
+%gra:	1|6|NSUBJ-OUTER 2|6|COP 3|6|ADVMOD 4|6|NSUBJ 5|6|COP 6|10|ROOT 7|10|CC 8|10|NSUBJ 9|10|COP 10|6|CONJ 11|6|PUNCT
+*CHI:	and then she [//] the elephant dropped it in the water .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	and then my [//] &-um the brother was so mad .
+%mor:	cconj|and adv|then det|the-Def-Art noun|brother aux|be-Fin-Ind-Past-S3-irr adv|so adj|mad-S1 .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|7|ROOT 8|7|PUNCT
+*CHI:	and he couldn't go in the water because it's only for two year olds .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|go-Inf-S adp|in det|the-Def-Art noun|water sconj|because pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|only adp|for num|two noun|year noun|old-Plur .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|16|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|16|MARK 10|16|NSUBJ 11|16|COP 12|16|ADVMOD 13|16|CASE 14|15|NUMMOD 15|16|COMPOUND 16|5|ADVCL 17|5|PUNCT
+*CHI:	and then &-um one of the elephants &-um came and get the plane .
+%mor:	cconj|and adv|then num|one adp|of det|the-Def-Art noun|elephant-Plur verb|come-Fin-Ind-Past-P3-irr cconj|and verb|get-Inf-S det|the-Def-Art noun|plane-Acc .
+%gra:	1|7|CC 2|7|ADVMOD 3|7|NSUBJ 4|6|CASE 5|6|DET 6|3|NMOD 7|11|ROOT 8|9|CC 9|7|CONJ 10|11|DET 11|9|OBJ 12|7|PUNCT
+*CHI:	and then he [//] the [/] the elephant tried it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|try-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	but the plane was floating away .
+%mor:	cconj|but det|the-Def-Art noun|plane aux|be-Fin-Ind-Past-S3-irr verb|float-Part-Pres-S adv|away .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	and then &-um it went down and down .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|down cconj|and adv|down .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|COMPOUND-PRT 6|7|CC 7|4|CONJ 8|4|PUNCT
+*CHI:	and then my brother was crying .
+%mor:	cconj|and adv|then pron|my-Prs-Gen-S1 noun|brother aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|NMOD-POSS 4|6|NSUBJ 5|6|AUX 6|6|ROOT 7|6|PUNCT
+*CHI:	and then he &+tr tried it with &-um a butterfly thing .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|with det|a-Ind-Art noun|butterfly noun|thing-Ger .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|9|CASE 7|9|DET 8|9|COMPOUND 9|4|OBL 10|4|PUNCT
+*CHI:	and then he got it .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and then <he was> [/] he was getting happy and happier .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|get-Part-Pres-S adj|happy-S1 cconj|and adj|happy-Cmp-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|5|XCOMP 7|8|CC 8|6|CONJ 9|5|PUNCT
+*CHI:	and then they gave it back .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|give-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3 adp|back .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	and he was so happy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	<and then he was> [//] &+so and then my brother was so happy .
+%mor:	cconj|and adv|then pron|my-Prs-Gen-S1 noun|brother aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|NMOD-POSS 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|7|ROOT 8|7|PUNCT
+*CHI:	and the end .
+%mor:	cconj|and det|the-Def-Art noun|end .
+%gra:	1|3|CC 2|3|DET 3|3|ROOT 4|3|PUNCT
+*CHI:	we've done all them ?
+%mor:	pron|we-Prs-Nom-P1~aux|have-Fin-Ind-Pres-P1 verb|do-Part-Past-S-irr det|all-Def-Tot pron|they-Prs-Acc-P3 ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET-PREDET 5|3|OBJ 6|3|PUNCT
+@End

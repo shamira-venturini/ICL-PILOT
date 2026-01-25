@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036245-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.10|female|TD||Target_Child|||
+@Media:	511_A1, audio
+@Comment:	Birth of CHI is 12-SEP-1995
+@Date:	22-FEB-2001
+@Tape Location:	Disk L25 , Track 118
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	once upon a time they were bouncing a ball .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|bounce-Part-Pres-S det|a-Ind-Art noun|ball-Acc .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|7|NSUBJ 6|7|AUX 7|9|ROOT 8|9|DET 9|7|OBJ 10|7|PUNCT
+*CHI:	but it landed in the water .
+%mor:	cconj|but pron|it-Prs-Nom-S3 verb|land-Fin-Ind-Past-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	he dived in and grabbed it .
+%mor:	pron|he-Prs-Nom-S3 verb|dive-Fin-Ind-Past-S3-irr adp|in cconj|and verb|grab-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|COMPOUND-PRT 4|5|CC 5|2|CONJ 6|5|OBJ 7|2|PUNCT
+*CHI:	but he did got it from his hands .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr verb|get-Part-Past-S-irr pron|it-Prs-Acc-S3 adp|from pron|his-Prs-Gen-S3 noun|hand-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|4|PUNCT
+*CHI:	and then he was in love .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|in noun|love .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|CASE 6|6|ROOT 7|6|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

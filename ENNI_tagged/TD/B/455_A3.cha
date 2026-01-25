@@ -1,0 +1,70 @@
+@UTF8
+@PID:	11312/c-00036220-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.10|female|TD||Target_Child|||
+@Media:	455_A3, audio
+@Comment:	Birth of CHI is 14-May-1996
+@Date:	24-JAN-2001
+@Tape Location:	Disk L24 , Track 14
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	<I see &-um the> [//] &-um I see the zebra .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|the-Def-Art noun|zebra-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	he has a airplane in his hand .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc adp|in pron|his-Prs-Gen-S3 noun|hand .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|OBJ 5|7|CASE 6|7|NMOD-POSS 7|2|OBL 8|2|PUNCT
+*CHI:	<and he's> [/] and he's flinging his tongue out it looks like and sounding like it's a airplane .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fling-Part-Pres-S pron|his-Prs-Gen-S3 noun|tongue-Acc adp|out pron|it-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 adp|like cconj|and verb|sound-Part-Pres-S sconj|like pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|17|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|COMPOUND-PRT 8|9|NSUBJ 9|4|CONJ 10|9|COMPOUND-PRT 11|12|CC 12|9|CONJ 13|17|MARK 14|17|NSUBJ 15|17|COP 16|17|DET 17|12|ADVCL 18|4|PUNCT
+*CHI:	and then the elephant took it away .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|away .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|5|OBJ 7|5|ADVMOD 8|5|PUNCT
+*CHI:	and then she accidentally dropped it into the water .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 adv|accidentally verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|into det|the-Def-Art noun|water .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	and then [!] he was mad [!] at her .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at pron|her-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	and then he [!] came .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	<and then she> [/] and then <she &-like wanted> [//] <she told her> [//] &+wha she [/] she [!] telled [: told] [* m:=ed] him what happened .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|tell-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|NSUBJ 7|4|CCOMP 8|4|PUNCT
+*CHI:	and he tried [!] to get it out .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|COMPOUND-PRT 8|3|PUNCT
+*CHI:	but it keeped floating and floating farer .
+%mor:	cconj|but pron|it-Prs-Nom-S3 verb|keep-Fin-Ind-Past-S3 verb|float-Ger-S cconj|and verb|float-Ger-S noun|farer-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|7|AMOD 5|6|CC 6|4|CONJ 7|3|OBJ 8|3|PUNCT
+*CHI:	and then they couldn't get it .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|could-Fin-S~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	somebody needed to swim in there and get it maybe .
+%mor:	pron|somebody-Ind-S1 verb|need-Fin-Ind-Past-S3 part|to verb|swim-Inf-S adp|in adv|there cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 adv|maybe .
+%gra:	1|2|NSUBJ 2|10|ROOT 3|4|MARK 4|2|XCOMP 5|6|CASE 6|4|OBL 7|8|CC 8|4|CONJ 9|8|OBJ 10|8|ADVMOD 11|2|PUNCT
+*CHI:	and then she got something to get it out .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|something-Ind-S1 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|7|MARK 7|5|ACL 8|7|OBJ 9|7|COMPOUND-PRT 10|4|PUNCT
+*CHI:	she tried it [//] to get it and get it .
+%mor:	pron|she-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|7|CC 7|4|CONJ 8|7|OBJ 9|2|PUNCT
+*CHI:	and it still wouldn't get in .
+%mor:	cconj|and pron|it-Prs-Nom-S3 adv|still aux|would-Fin-S~part|not verb|get-Inf-S adv|in .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|ADVMOD 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*CHI:	and then she got it out .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	then she got it for him .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|for pron|he-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	and then <she hug> [//] <he hugged it very> [//] the zebra hugged it very much .
+%mor:	cconj|and adv|then det|the-Def-Art noun|zebra verb|hugge-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adv|very adv|much .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|5|OBJ 7|8|ADVMOD 8|5|ADVMOD 9|5|PUNCT
+*CHI:	&=singsong the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

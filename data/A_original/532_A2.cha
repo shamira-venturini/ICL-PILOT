@@ -1,0 +1,49 @@
+@UTF8
+@PID:	11312/c-00036259-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.29|male|TD||Target_Child|||
+@Media:	532_A2, audio
+@Comment:	Birth of CHI is 13-APR-1995
+@Date:	12-DEC-2000
+@Tape Location:	Disk M6 Track 68
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	the [/] the elephant was [/] was looking at the water .
+%mor:	det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr verb|look-Part-Pres-S adp|at det|the-Def-Art noun|water .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and so was the giraffe .
+%mor:	cconj|and adv|so aux|be-Fin-Ind-Past-S3-irr det|the-Def-Art noun|giraffe .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*CHI:	and then the elephant was gonna dive off the board .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr adv|gonna verb|dive-Inf-S adp|off det|the-Def-Art noun|board .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|10|ROOT 8|10|CASE 9|10|DET 10|7|OBL 11|7|PUNCT
+*CHI:	but then she tripped .
+%mor:	cconj|but adv|then pron|she-Prs-Nom-S3 verb|trip-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and she falled [: fell] [* m:=ed] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and she get a owie on her knee .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art noun|owie-Acc adp|on pron|her-Prs-Gen-S3 noun|knee .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|NMOD-POSS 8|3|OBL 9|3|PUNCT
+*CHI:	and then her dad come running .
+%mor:	cconj|and adv|then pron|her-Prs-Gen-S3 noun|dad verb|come-Fin-Ind-Pres-S3 verb|run-Ger-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|6|ROOT 6|5|XCOMP 7|5|PUNCT
+*CHI:	<and she got> [//] and she looked at it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|look-Fin-Ind-Past-S3 adp|at pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	and she put a bandaid on it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandaid-Acc adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*CHI:	and then they're sitting on a bench .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|sit-Part-Pres-S adp|on det|a-Ind-Art noun|bench .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	and then the dad got mad at the little kid because she could bend her leg .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dad verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at det|the-Def-Art adj|little-S1 noun|kid sconj|because pron|she-Prs-Nom-S3 aux|could-Fin-S verb|bend-Inf-S pron|her-Prs-Gen-S3 noun|leg-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|16|ROOT 6|5|XCOMP 7|10|CASE 8|10|DET 9|10|AMOD 10|5|OBL 11|14|MARK 12|14|NSUBJ 13|14|AUX 14|5|ADVCL 15|16|NMOD-POSS 16|14|OBJ 17|5|PUNCT
+*CHI:	and she said she couldn't .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|she-Prs-Nom-S3 aux|could-Fin-S~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|3|CCOMP 8|3|PUNCT
+@End

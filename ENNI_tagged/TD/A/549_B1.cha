@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036270-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;08.10|male|TD||Target_Child|||
+@Media:	549_B1, audio
+@Comment:	Birth of CHI is 17-OCT-1994
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 38
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once upon a <tame [: time] [* p:w]> [//] time there was a little rabbit and a little dog .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|rabbit cconj|and det|a-Ind-Art adj|little-S1 noun|dog .
+%gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|13|ROOT 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|13|CC 11|13|DET 12|13|AMOD 13|9|CONJ 14|6|PUNCT
+*CHI:	and the little dog <that was> [//] &+mak it was making a sandcastle .
+%mor:	cconj|and det|the-Def-Art adj|little-S1 noun|dog pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|make-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|4|CC 2|4|DET 3|4|AMOD 4|9|ROOT 5|7|NSUBJ 6|7|AUX 7|4|ACL-RELCL 8|9|DET 9|7|OBJ 10|4|PUNCT
+*CHI:	and the rabbit joined in .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|join-Fin-Ind-Past-S3 adp|in .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	and then &+h the rabbit tried to do it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|rabbit verb|try-Fin-Ind-Past-S3 part|to verb|do-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*CHI:	well he didn't get it right .
+%mor:	intj|well pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 adv|right .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|5|OBJ 7|5|ADVMOD 8|5|PUNCT
+*CHI:	and then he dumped it on top .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|on noun|top .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|4|PUNCT
+*CHI:	<and then it didn't> [//] and the dog's eyes went crazy .
+%mor:	cconj|and det|the-Def-Art noun|dog~part|s noun|eye-Plur verb|go-Fin-Ind-Past-P3-irr adj|crazy-S1 .
+%gra:	1|6|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|6|NSUBJ 6|7|ROOT 7|6|XCOMP 8|6|PUNCT
+*CHI:	and then the dog his mouth was [//] <he was kind of> [//] it was kind of crazy .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog pron|his-Prs-Gen-S3 noun|mouth pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr noun|kind adp|of adj|crazy-S1 .
+%gra:	1|11|CC 2|11|ADVMOD 3|4|DET 4|11|DISLOCATED 5|6|NMOD-POSS 6|11|NSUBJ 7|11|NSUBJ 8|11|COP 9|11|ADVMOD 10|9|FIXED 11|11|ROOT 12|11|PUNCT
+*CHI:	and then it was trying to make it back .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adv|back .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|7|ADVMOD 10|5|PUNCT
+*CHI:	well it didn't .
+%mor:	intj|well pron|it-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

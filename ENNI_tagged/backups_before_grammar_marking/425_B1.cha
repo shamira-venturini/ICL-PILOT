@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036205-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;09.14|female|TD||Target_Child|||
+@Media:	425_B1, audio
+@Comment:	Birth of CHI is 8-JUN-1995
+@Date:	11-APR-2000
+@Tape Location:	Disk L5 Track 10
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	<I see a bunny that is in the> [/] &+s &-um I see a dog that's in the sandbox and helping the bunny .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|dog-Acc pron|that-Rel~aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|sandbox cconj|and verb|help-Part-Pres-S det|the-Def-Art noun|bunny-Acc .
+%gra:	1|2|NSUBJ 2|13|ROOT 3|4|DET 4|2|OBJ 5|9|NSUBJ 6|9|COP 7|9|CASE 8|9|DET 9|4|ACL-RELCL 10|11|CC 11|9|CONJ 12|13|DET 13|11|OBJ 14|2|PUNCT
+*CHI:	<and the bunny> [/] and the bunny is making a sandcastle .
+%mor:	cconj|and det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	they're trying to make a sandcastle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|try-Part-Pres-S part|to verb|make-Inf-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	<and he's helping> [/] and he's helping the dog .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|help-Part-Pres-S det|the-Def-Art noun|dog-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and &-uh &-um the rabbit broke the doggy's castle .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|break-Fin-Ind-Past-S3-irr det|the-Def-Art noun|doggy~part|s noun|castle-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|DET 6|8|NMOD-POSS 7|6|CASE 8|4|OBJ 9|4|PUNCT
+*CHI:	and then he was making it all over again .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|make-Part-Pres-S pron|it-Prs-Acc-S3 det|all-Def-Tot adp|over adv|again .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|5|OBJ 7|8|DET 8|5|COMPOUND-PRT 9|5|ADVMOD 10|5|PUNCT
+*CHI:	the end [!] .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

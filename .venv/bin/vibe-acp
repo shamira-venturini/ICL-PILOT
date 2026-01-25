@@ -1,4 +1,4 @@
-#!/Users/shamiraventurini/PycharmProjects/ICL-PILOT/.venv/bin/python3.12
+#!/Users/shamiraventurini/PycharmProjects/ICL-PILOT/.venv/bin/python
 import sys
 from vibe.acp.entrypoint import main
 if __name__ == '__main__':

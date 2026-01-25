@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036262-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.24|female|TD||Target_Child|||
+@Media:	538_A2, audio
+@Comment:	Birth of CHI is 10-JUL-1995
+@Date:	04-DEC-2000
+@Tape Location:	Disk M6 Track 58
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	there &+w [/] there was a giraffe and a elephant .
+%mor:	pron|there-Dem-S1 pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
+%gra:	1|3|EXPL 2|3|EXPL 3|8|ROOT 4|5|DET 5|3|NSUBJ 6|8|CC 7|8|DET 8|5|CONJ 9|3|PUNCT
+*CHI:	<there was> [//] she <went into> [//] wanted to go on the diving board .
+%mor:	pron|she-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S adp|on det|the-Def-Art noun|diving-Ger noun|board .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|MARK 4|2|XCOMP 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|2|PUNCT
+*CHI:	but she was so running too fast that the giraffe couldn't catch up .
+%mor:	cconj|but pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so verb|run-Part-Pres-S adv|too adv|fast sconj|that det|the-Def-Art noun|giraffe aux|could-Fin-S~part|not verb|catch-Inf-S adp|up .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|14|ROOT 6|7|ADVMOD 7|5|ADVMOD 8|13|MARK 9|10|DET 10|13|NSUBJ 11|13|AUX 12|13|ADVMOD 13|5|ADVCL 14|13|COMPOUND-PRT 15|5|PUNCT
+*CHI:	but she fell and hurt herself .
+%mor:	cconj|but pron|she-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr cconj|and verb|hurt-Fin-Ind-Past-S3-irr pron|herself-Prs-Acc-reflx-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|CC 5|3|CONJ 6|5|OBJ 7|3|PUNCT
+*CHI:	and she cried .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|cry-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	but another elephant came and put her on the bench and was mad at her .
+%mor:	cconj|but det|another-Def-Ind noun|elephant verb|come-Fin-Ind-Past-S3-irr cconj|and verb|put-Fin-Ind-Past-S3-irr pron|her-Prs-Acc-S3 adp|on det|the-Def-Art noun|bench cconj|and aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at pron|her-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|15|ROOT 5|6|CC 6|4|CONJ 7|6|OBJ 8|10|CASE 9|10|DET 10|6|OBL 11|13|CC 12|13|COP 13|4|CONJ 14|15|CASE 15|13|OBL 16|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

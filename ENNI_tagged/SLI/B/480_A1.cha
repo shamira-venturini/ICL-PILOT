@@ -1,0 +1,79 @@
+@UTF8
+@PID:	11312/c-00036118-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;04.05|male|SLI||Target_Child|||
+@Media:	480_A1, audio
+@Comment:	Birth of CHI is 28-JUL-1998
+@Date:	03-DEC-2002
+@Tape Location:	Disk M15 Track 5
+@Types:	cross, narrative, SLI
+@G:	A1
+*CHI:	okay Firstname tell me this story please .
+%mor:	intj|okay noun|firstname verb|tell-Fin-Imp-S pron|I-Prs-Acc-S1 det|this-Def-Dem-Sing noun|story-Acc intj|please .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|7|ROOT 4|3|IOBJ 5|6|DET 6|3|OBJ 7|3|DISCOURSE 8|3|PUNCT
+*CHI:	okay .
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the boy said ooh cool !
+%mor:	det|the-Def-Art noun|boy verb|say-Fin-Ind-Past-S3-irr intj|ooh adj|cool-S1 !
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DISCOURSE 5|3|CCOMP 6|3|PUNCT
+*CHI:	and <the elephant> [/] the elephant play with soccer ball .
+%mor:	cconj|and det|the-Def-Art noun|elephant noun|play adp|with noun|soccer noun|ball .
+%gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|7|ROOT 5|7|CASE 6|7|COMPOUND 7|4|NMOD 8|4|PUNCT
+*CHI:	and see the giraffe is sorry to take the elephant .
+%mor:	cconj|and verb|see-Fin-Imp-S det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 part|to verb|take-Inf-S det|the-Def-Art noun|elephant-Acc .
+%gra:	1|2|CC 2|10|ROOT 3|4|DET 4|6|NSUBJ 5|6|COP 6|2|CCOMP 7|8|MARK 8|6|XCOMP 9|10|DET 10|8|OBJ 11|2|PUNCT
+*CHI:	and <that's and the> [//] see and he catch it all the way he can long .
+%mor:	cconj|and verb|see-Fin-Imp-S cconj|and pron|he-Prs-Nom-S3 verb|catch-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 det|all-Def-Tot det|the-Def-Art noun|way pron|he-Prs-Nom-S3 aux|can-Fin-S adv|long .
+%gra:	1|2|CC 2|12|ROOT 3|5|CC 4|5|NSUBJ 5|2|CONJ 6|5|OBJ 7|9|DET-PREDET 8|9|DET 9|5|OBL-UNMARKED 10|11|NSUBJ 11|9|ACL-RELCL 12|11|ADVMOD 13|2|PUNCT
+*CHI:	he went [//] got [!] long .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|long-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	long can (no)t [?] .
+%mor:	adv|long aux|can-Fin-S part|not .
+%gra:	1|2|ADVMOD 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	he got little arm .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|little-S1 noun|arm-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	okay .
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and he swim .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Pres-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	he can (no)t swim .
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S part|not verb|swim-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	and he catch the [?] ball .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|catch-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	he give it to the [/] &-um the elephant .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|elephant .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|6|CASE 5|6|DET 6|2|OBL 7|2|PUNCT
+*CHI:	and give it back [?] .
+%mor:	cconj|and verb|give-Fin-Imp-S pron|it-Prs-Acc-S3 adp|back .
+%gra:	1|2|CC 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
+*CHI:	and see ?
+%mor:	cconj|and verb|see-Fin-Imp-S ?
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	he's [//] &+ha he gived [: gave] [* m:=ed] the ball to giraffe .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc adp|to noun|giraffe .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|DET 4|2|OBJ 5|6|CASE 6|2|OBL 7|2|PUNCT
+*CHI:	and see and this is done .
+%mor:	cconj|and verb|see-Fin-Imp-S cconj|and pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 verb|do-Part-Past-S-irr .
+%gra:	1|2|CC 2|6|ROOT 3|6|CC 4|6|NSUBJ-PASS 5|6|AUX-PASS 6|2|CONJ 7|2|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and see him .
+%mor:	cconj|and verb|see-Fin-Imp-S pron|he-Prs-Acc-S3 .
+%gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and he [//] he's ha:ppy: !
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 !
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

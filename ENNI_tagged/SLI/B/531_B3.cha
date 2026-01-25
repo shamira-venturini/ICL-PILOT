@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036123-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.07|female|SLI||Target_Child|||
+@Media:	531_B3, audio
+@Comment:	Birth of CHI is 18-DEC-1994
+@Date:	25-APR-2000
+@Tape Location:	Disk L10 Track 30
+@Types:	cross, narrative, SLI
+@G:	B3
+*CHI:	where we going ?
+%mor:	adv|where pron|we-Prs-Nom-P1 verb|go-Part-Pres-S ?
+%gra:	1|3|ROOT 2|3|NSUBJ 3|1|ADVCL-RELCL 4|1|PUNCT
+*CHI:	a big balloon .
+%mor:	det|a-Ind-Art adj|big-S1 noun|balloon .
+%gra:	1|3|DET 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	&-uh back up .
+%mor:	adv|back adp|up .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	a ma^t .
+%mor:	det|a-Ind-Art noun|mat .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	and a bad bad going .
+%mor:	cconj|and det|a-Ind-Art adj|bad-S1 adj|bad-S1 noun|go-Ger .
+%gra:	1|5|CC 2|5|DET 3|5|AMOD 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	a more more balloon .
+%mor:	det|a-Ind-Art adv|more adj|more-Cmp-S1 noun|balloon .
+%gra:	1|4|DET 2|3|ADVMOD 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	&-uh more more balloon .
+%mor:	adv|more adj|more-Cmp-S1 noun|balloon .
+%gra:	1|2|ADVMOD 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	a bad pulling [?] .
+%mor:	det|a-Ind-Art adj|bad-S1 noun|pull-Ger .
+%gra:	1|3|DET 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	a buy no balloon .
+%mor:	det|a-Ind-Art verb|buy-Inf-S det|no-Def-Neg noun|balloon-Acc .
+%gra:	1|2|DET 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	no .
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&-uh going .
+%mor:	verb|go-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&-uh going .
+%mor:	verb|go-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&-uh want balloon .
+%mor:	verb|want-Fin-Imp-S noun|balloon-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	&-uh have balloon .
+%mor:	verb|have-Fin-Imp-S noun|balloon-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	all done .
+%mor:	det|all-Def-Tot verb|do-Part-Past-S-irr .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+@End

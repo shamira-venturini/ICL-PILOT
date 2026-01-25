@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036228-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.09|female|TD||Target_Child|||
+@Media:	464_B2, audio
+@Comment:	Birth of CHI is 25-JUL-1996
+@Date:	03-APR-2001
+@Tape Location:	Disk L27 , Track 9
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	there's one rabbit .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 num|one noun|rabbit .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|NUMMOD 4|2|NSUBJ 5|2|PUNCT
+*CHI:	he &+wa had a basik [: basket] .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|basket-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and he eated all he stuff .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3 det|all-Def-Tot pron|he-Prs-Nom-S3 noun|stuff-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|DET-PREDET 5|6|COMPOUND 6|3|OBJ 7|3|PUNCT
+*CHI:	and he had a tummyache .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|tummyache-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and he was not happy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|not adj|happy-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	and he [//] the [/] the rabbit was [^ makes vocalizations] !
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr !
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and the rabbit was pulling the rabbit .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|pull-Part-Pres-S det|the-Def-Art noun|rabbit-Acc .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and the rabbit was not happy (be)cause he was angry and (be)cause he was sad .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr part|not adj|happy-S1 sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|angry-S1 cconj|and sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|15|ROOT 7|10|MARK 8|10|NSUBJ 9|10|COP 10|6|ADVCL 11|15|CC 12|15|MARK 13|15|NSUBJ 14|15|COP 15|6|ADVCL 16|6|PUNCT
+*CHI:	the end &=laughs .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

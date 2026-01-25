@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/c-00036237-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;06.17|male|TD||Target_Child|||
+@Media:	503_A0, audio
+@Comment:	Birth of CHI is 7-AUG-1994
+@Date:	24-FEB-2000
+@Tape Location:	Disk L1 Track 38
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	we [/] we play tapes .
+%mor:	pron|we-Prs-Nom-P1 verb|play-Fin-Ind-Pres-P1 noun|tape-Plur-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	<it doesn't> [//] it does it backwards .
+%mor:	pron|it-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|backwards .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*CHI:	and then it goes to the end .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|to det|the-Def-Art noun|end .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	once upon a time there a little boy who's going to the grocery store .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 det|a-Ind-Art adj|little-S1 noun|boy pron|who-Rel~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|to det|the-Def-Art noun|grocery noun|store .
+%gra:	1|15|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|EXPL 6|8|DET 7|8|AMOD 8|1|NSUBJ 9|11|NSUBJ 10|11|AUX 11|8|ACL-RELCL 12|15|CASE 13|15|DET 14|15|COMPOUND 15|11|OBL 16|1|PUNCT
+*CHI:	and he wanted to buy some cookies .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|buy-Inf-S det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	and <then he> [/] then he came to the [//] then he saw some cookies .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adp|to adv|then pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|6|CASE 6|4|OBL 7|8|NSUBJ 8|4|PARATAXIS 9|10|DET 10|8|OBJ 11|4|PUNCT
+*CHI:	<then he> [/] then he picked them out .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 pron|they-Prs-Acc-P3 adp|out .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	<but then> [/] but then the whole pie .
+%mor:	cconj|but adv|then det|the-Def-Art adj|whole-S1 noun|pie .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	when he pulled it out he [//] &-um all the others fell down .
+%mor:	adv|when pron|he-Prs-Nom-S3 verb|pull-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|out det|all-Def-Tot det|the-Def-Art noun|other-Plur verb|fall-Fin-Ind-Past-P3-irr adp|down .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|9|ADVCL 4|3|OBJ 5|3|COMPOUND-PRT 6|8|DET-PREDET 7|8|DET 8|9|NSUBJ 9|10|ROOT 10|9|COMPOUND-PRT 11|9|PUNCT
+*CHI:	then the storekeeper was not that happy .
+%mor:	adv|then det|the-Def-Art noun|storekeeper aux|be-Fin-Ind-Past-S3-irr part|not adv|that adj|happy-S1 .
+%gra:	1|7|ADVMOD 2|3|DET 3|7|NSUBJ 4|7|COP 5|7|ADVMOD 6|7|ADVMOD 7|7|ROOT 8|7|PUNCT
+*CHI:	that's the end .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+@End

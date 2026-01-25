@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036274-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;11.19|female|TD||Target_Child|||
+@Media:	553_B1, audio
+@Comment:	Birth of CHI is 08-JUL-1994
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 59
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	a rabbit and a dog meet each other .
+%mor:	det|a-Ind-Art noun|rabbit cconj|and det|a-Ind-Art noun|dog verb|meet-Fin-Ind-Pres-P3 det|each-Def-Rcp adj|other-S1 .
+%gra:	1|2|DET 2|6|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
+*CHI:	and they want to play .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to verb|play-Inf-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	the doggy builds a sandcastle while the rabbit fills the buckets .
+%mor:	det|the-Def-Art noun|doggy verb|build-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sandcastle-Acc sconj|while det|the-Def-Art noun|rabbit verb|fill-Fin-Ind-Pres-S3 det|the-Def-Art noun|bucket-Plur-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|11|ROOT 4|5|DET 5|3|OBJ 6|9|MARK 7|8|DET 8|9|NSUBJ 9|3|ADVCL 10|11|DET 11|9|OBJ 12|3|PUNCT
+*CHI:	then the rabbit dumps it on the sandcastle then makes the dog's castle broken .
+%mor:	adv|then det|the-Def-Art noun|rabbit verb|dump-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|sandcastle adv|then verb|make-Fin-Ind-Pres-S3 det|the-Def-Art noun|dog~part|s noun|castle-Acc verb|break-Part-Past-S-irr .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|15|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|10|ADVMOD 10|4|PARATAXIS 11|12|DET 12|14|NMOD-POSS 13|12|CASE 14|10|OBJ 15|10|XCOMP 16|4|PUNCT
+*CHI:	and then the dog cries .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog verb|cry-Fin-Ind-Pres-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	and then the rabbit just goes like this [^ child makes a motion] with his ears down .
+%mor:	cconj|and adv|then det|the-Def-Art noun|rabbit adv|just verb|go-Fin-Ind-Pres-S3 adp|like pron|this-Dem-S1 adp|with pron|his-Prs-Gen-S3 noun|ear-Plur adp|down  .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|ADVMOD 6|13|ROOT 7|8|CASE 8|6|OBL 9|11|CASE 10|11|NMOD-POSS 11|6|OBL 12|6|COMPOUND-PRT 13|6|PUNCT 14|6|PUNCT
+@End

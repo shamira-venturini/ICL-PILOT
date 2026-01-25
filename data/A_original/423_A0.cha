@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/c-00036204-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;06.25|male|TD||Target_Child|||
+@Media:	423_A0, audio
+@Comment:	Birth of CHI is 17-SEP-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 28
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	boy's watching in there .
+%mor:	noun|boy~aux|be-Fin-Ind-Pres-S3 verb|watch-Part-Pres-S adp|in adv|there .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	the boy's watching in there !
+%mor:	det|the-Def-Art noun|boy~aux|be-Fin-Ind-Pres-S3 verb|watch-Part-Pres-S adp|in adv|there !
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	and he went in with the man .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adv|in adp|with det|the-Def-Art noun|man .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|ADVMOD 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	and had some cookies .
+%mor:	cconj|and verb|have-Fin-Ind-Past-S1-irr det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|2|CC 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	now oops .
+%mor:	adv|now intj|oop .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	it was an accident .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|accident .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	accidents happen .
+%mor:	noun|accident-Plur verb|happen-Fin-Ind-Pres-P3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	the [/] the boy is getting some cookies .
+%mor:	det|the-Def-Art noun|boy aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	now he did let them fall down .
+%mor:	adv|now pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr verb|let-Inf-S pron|they-Prs-Acc-P3 verb|fall-Inf-S adp|down .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|4|OBJ 6|4|XCOMP 7|6|COMPOUND-PRT 8|4|PUNCT
+*CHI:	now he's mad [!] .
+%mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	the end !
+%mor:	det|the-Def-Art noun|end !
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	mm mm .
+%mor:	intj|mm intj|mm .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+@End

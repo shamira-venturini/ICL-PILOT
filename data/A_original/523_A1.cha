@@ -1,0 +1,44 @@
+@UTF8
+@PID:	11312/a-00077226-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|||||Target_Child|||
+@Media:	523_A1, audio
+@Comment:	Batchalign 0.7.2 , ASR Engine rev
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	so ↫ele↫elephant say .
+%mor:	adv|so noun|elephant verb|say-Fin-Imp-S .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	yes [!] you keep xxx here .
+%mor:	intj|yes pron|you-Prs-Nom-S2 verb|keep-Fin-Ind-Pres-S2 adv|here .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	so she said +"/.
+%mor:	adv|so pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" I would put it in the water [?] .
+%mor:	pron|I-Prs-Nom-S1 aux|would-Fin-S verb|put-Inf-S pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	ah [^ screaming] .
+%mor:	intj|ah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx xxx and says [?] .
+%mor:	cconj|and verb|say-Fin-Ind-Pres-S3 .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	I got it , I got it , I got it .
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 cm|cm pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 cm|cm pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|11|ROOT 3|2|OBJ 4|6|PUNCT 5|6|NSUBJ 6|2|PARATAXIS 7|6|OBJ 8|10|PUNCT 9|10|NSUBJ 10|2|PARATAXIS 11|10|OBJ 12|2|PUNCT
+*CHI:	I [!] got it !
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 !
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	so good [/] good job .
+%mor:	adv|so adj|good-S1 noun|job .
+%gra:	1|2|ADVMOD 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	so your husband too .
+%mor:	adv|so pron|your-Prs-Gen-S2 noun|husband adv|too .
+%gra:	1|3|DISCOURSE 2|3|NMOD-POSS 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	I am done .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Pres-S1 adj|done-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+@End

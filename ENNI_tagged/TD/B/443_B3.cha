@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/c-00036209-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;11.15|male|TD||Target_Child|||
+@Media:	443_B3, audio
+@Comment:	Birth of CHI is 05-DEC-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 98
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	the dog has a balloon on [/] on its wagon .
+%mor:	det|the-Def-Art noun|dog verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon-Acc adp|on pron|its-Prs-Gen-S3 noun|wagon .
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|NMOD-POSS 8|3|OBL 9|3|PUNCT
+*CHI:	the rabbit grabs it .
+%mor:	det|the-Def-Art noun|rabbit verb|grab-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and the rabbit unties it .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|untie-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	then the rabbit lets [/] &-uh lets go of it .
+%mor:	adv|then det|the-Def-Art noun|rabbit verb|let-Fin-Ind-Pres-S3 verb|go-Inf-S adp|of pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|XCOMP 6|7|CASE 7|5|OBL 8|4|PUNCT
+*CHI:	and the dog is very mad .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adv|very adj|mad-S1 .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	then a rabbit with a moustache comes along .
+%mor:	adv|then det|a-Ind-Art noun|rabbit adp|with det|a-Ind-Art noun|moustache verb|come-Fin-Ind-Pres-S3 adv|along .
+%gra:	1|7|ADVMOD 2|3|DET 3|7|NSUBJ 4|6|CASE 5|6|DET 6|3|NMOD 7|8|ROOT 8|7|ADVMOD 9|7|PUNCT
+*CHI:	then he gives the rabbit a very new balloon .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|rabbit det|a-Ind-Art adv|very adj|new-S1 noun|balloon-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|9|ROOT 4|5|DET 5|3|IOBJ 6|9|DET 7|8|ADVMOD 8|9|AMOD 9|3|OBJ 10|3|PUNCT
+*CHI:	then he takes it and puts it in the rabbit's hand .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 cconj|and verb|put-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|rabbit~part|s noun|hand .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|12|ROOT 4|3|OBJ 5|6|CC 6|3|CONJ 7|6|OBJ 8|12|CASE 9|10|DET 10|12|NMOD-POSS 11|10|CASE 12|6|OBL 13|3|PUNCT
+*CHI:	and then the &-um dog is very happy .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adv|very adj|happy-S1 .
+%gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|7|ROOT 8|7|PUNCT
+*CHI:	(..) then there's a doctor .
+%mor:	adv|then pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|doctor .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|5|ROOT 4|5|DET 5|3|NSUBJ 6|3|PUNCT
+*CHI:	&-um the rabbit says could you get a balloon ?
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Pres-S3 aux|could-Fin-S pron|you-Prs-Nom-S2 verb|get-Inf-S det|a-Ind-Art noun|balloon-Acc ?
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|6|AUX 5|6|NSUBJ 6|3|CCOMP 7|8|DET 8|6|OBJ 9|3|PUNCT
+*CHI:	then she gets one .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 num|one .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	then she gives it to the rabbit and then another one to the dog .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|rabbit cconj|and adv|then det|another-Def-Ind noun|one adp|to det|the-Def-Art noun|dog  .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|15|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|11|CC 9|11|ADVMOD 10|11|DET 11|7|CONJ 12|14|CASE 13|14|DET 14|11|NMOD 15|3|PUNCT 16|3|PUNCT
+@End

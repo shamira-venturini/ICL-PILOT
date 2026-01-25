@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036284-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.01|female|TD||Target_Child|||
+@Media:	571_B1, audio
+@Comment:	Birth of CHI is 24-JAN-1996
+@Date:	25-MAY-2001
+@Tape Location:	Disk L28 Track 61
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	there was a little &-um doggy who's making a sandcastle .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|doggy pron|who-Rel~aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|2|EXPL 2|10|ROOT 3|5|DET 4|5|AMOD 5|2|NSUBJ 6|8|NSUBJ 7|8|AUX 8|5|ACL-RELCL 9|10|DET 10|8|OBJ 11|2|PUNCT
+*CHI:	and then &+th the [/] the bunny digs in the bucket .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny noun|dig-Plur adp|in det|the-Def-Art noun|bucket .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|DET 4|5|COMPOUND 5|8|ROOT 6|8|CASE 7|8|DET 8|5|NMOD 9|5|PUNCT
+*CHI:	and then he started pouring on the little doggy's sandcastle .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 verb|pour-Ger-S adp|on det|the-Def-Art adj|little-S1 noun|doggy~part|s noun|sandcastle .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|11|ROOT 5|4|XCOMP 6|11|CASE 7|9|DET 8|9|AMOD 9|11|NMOD-POSS 10|9|CASE 11|5|OBL 12|4|PUNCT
+*CHI:	and the doggy felt really sad .
+%mor:	cconj|and det|the-Def-Art noun|doggy verb|feel-Fin-Ind-Past-S3-irr adv|really adj|sad-S1 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|ADVMOD 6|4|XCOMP 7|4|PUNCT
+*CHI:	and then the bunny saw what he &+s has done to his friend's sandcastle .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bunny verb|see-Fin-Ind-Past-S3-irr pron|what-Rel-S1 pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 verb|do-Part-Past-S-irr adp|to pron|his-Prs-Gen-S3 noun|friend~part|s noun|sandcastle .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|14|ROOT 6|5|OBJ 7|9|NSUBJ 8|9|AUX 9|6|ACL-RELCL 10|14|CASE 11|12|NMOD-POSS 12|14|NMOD-POSS 13|12|CASE 14|9|OBL 15|5|PUNCT
+*CHI:	he felt really bad .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adv|really adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|ADVMOD 4|2|XCOMP 5|2|PUNCT
+*CHI:	and then he tried to keep it &-um that he was sorry .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|keep-Inf-S pron|it-Prs-Acc-S3 sconj|that pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|11|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|11|MARK 9|11|NSUBJ 10|11|COP 11|6|CCOMP 12|4|PUNCT
+*CHI:	but he didn't really mean it .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not adv|really verb|mean-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|AUX 4|6|ADVMOD 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

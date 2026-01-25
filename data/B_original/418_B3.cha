@@ -1,0 +1,84 @@
+@UTF8
+@PID:	11312/c-00036201-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.03|male|TD||Target_Child|||
+@Media:	418_B3, audio
+@Comment:	Birth of CHI is 31-JAN-1996
+@Tape Location:	Disk M6 Track 51
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	&-um there was a dog who had a balloon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|dog pron|who-Rel verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|2|EXPL 2|8|ROOT 3|4|DET 4|2|NSUBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|8|DET 8|6|OBJ 9|2|PUNCT
+*CHI:	and [/] &-um and then [/] &-uh then came the rabbit and &-um said [?] +"/.
+%mor:	cconj|and adv|then verb|come-Fin-Ind-Past-S3-irr det|the-Def-Art noun|rabbit-Acc cconj|and verb|say-Fin-Ind-Past-S1-irr +"/.
+%gra:	1|3|CC 2|3|ADVMOD 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CC 7|3|CONJ 8|3|PUNCT
+*CHI:	+" hey could [/] could I pull on it ?
+%mor:	intj|hey aux|could-Fin-S pron|I-Prs-Nom-S1 verb|pull-Inf-S adp|on pron|it-Prs-Acc-S3 ?
+%gra:	1|4|DISCOURSE 2|4|AUX 3|4|NSUBJ 4|6|ROOT 5|4|COMPOUND-PRT 6|4|OBL 7|4|PUNCT
+*CHI:	and then it went .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	then [/] then he untied it .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|unty-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	&-um and he let goed . [+ gram]
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|let-Fin-Ind-Past-S3-irr propn|goed-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and it went high [/] high [^ gestures] .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adj|high-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	and then the dog got mad .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|XCOMP 7|5|PUNCT
+*CHI:	then [/] &-um then the rabbit said +"/.
+%mor:	adv|then det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" hey lookit .
+%mor:	intj|hey intj|lookit .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	+" there's a man who is full of balloons .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|man pron|who-Rel aux|be-Fin-Ind-Pres-S3 adj|full-S1 adp|of noun|balloon-Plur .
+%gra:	1|2|EXPL 2|9|ROOT 3|4|DET 4|2|NSUBJ 5|7|NSUBJ 6|7|COP 7|4|ACL-RELCL 8|9|CASE 9|7|OBL 10|2|PUNCT
+*CHI:	and he said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" could I have a balloon ?
+%mor:	aux|could-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S det|a-Ind-Art noun|balloon-Acc ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and &-um .
+%mor:	cconj|and .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and he said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" this is five bucks .
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 num|five noun|buck-Plur .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|NUMMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	but +//.
+%mor:	cconj|but +//.
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	&-um you can turn now .
+%mor:	pron|you-Prs-Nom-S2 aux|can-Fin-S verb|turn-Inf-S adv|now .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	+, but [/] but they couldn't buy a balloon .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|could-Fin-S~part|not verb|buy-Inf-S det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	then he was going to go aeks [: ask] his mother if he could have some money and &-um [//] to buy a balloon for the dog .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S part|to verb|go-Inf-S verb|ask-Inf-S pron|his-Prs-Gen-S3 noun|mother sconj|if pron|he-Prs-Nom-S3 aux|could-Fin-S verb|have-Inf-S det|some-Def-Ind noun|money-Acc cconj|and part|to verb|buy-Inf-S det|a-Ind-Art noun|balloon-Acc adp|for det|the-Def-Art noun|dog .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|23|ROOT 5|6|MARK 6|4|XCOMP 7|6|XCOMP 8|9|NMOD-POSS 9|7|IOBJ 10|13|MARK 11|13|NSUBJ 12|13|AUX 13|7|ADVCL 14|15|DET 15|13|OBJ 16|18|CC 17|18|MARK 18|13|CONJ 19|20|DET 20|18|OBJ 21|23|CASE 22|23|DET 23|18|OBL 24|4|PUNCT
+*CHI:	&-um and she gave money to him .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr noun|money-Acc adp|to pron|he-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	and &-um they both had a balloon .
+%mor:	cconj|and pron|they-Prs-Nom-P3 det|both-Def-Tot verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|2|DET 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and that's the end .
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

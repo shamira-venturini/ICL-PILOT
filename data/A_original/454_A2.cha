@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036219-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;04.20|female|TD||Target_Child|||
+@Media:	454_A2, audio
+@Comment:	Birth of CHI is 01-OCT-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 76
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	&-um they [/] they [/] &+s they didn't jump in the water .
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not verb|jump-Inf-S adp|in det|the-Def-Art noun|water .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and the girl's gonna jump in the water .
+%mor:	cconj|and det|the-Def-Art noun|girl~part|s adv|gonna verb|jump-Inf-S adp|in det|the-Def-Art noun|water .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|3|CASE 5|6|ADVMOD 6|9|ROOT 7|9|CASE 8|9|DET 9|6|OBL 10|6|PUNCT
+*CHI:	&-um a [/] a girl was &-um running .
+%mor:	det|a-Ind-Art noun|girl aux|be-Fin-Ind-Past-S3-irr verb|run-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	0det girl hurt herself . [+ gram]
+%mor:	noun|girl verb|hurt-Fin-Ind-Past-S-irr pron|herself-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	she started to cry .
+%mor:	pron|she-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to verb|cry-Inf-S .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|MARK 4|2|XCOMP 5|2|PUNCT
+*CHI:	&+s &-um that [//] the boy's giving her a bandaid .
+%mor:	det|the-Def-Art noun|boy~aux|be-Fin-Ind-Pres-S3 verb|give-Part-Pres-S pron|her-Prs-Acc-S3 det|a-Ind-Art noun|bandaid-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	&-uh well she hadta sit down so it could feel [!] better .
+%mor:	intj|well pron|she-Prs-Nom-S3 aux|hadt-Fin-S verb|sit-Inf-S adp|down sconj|so pron|it-Prs-Nom-S3 aux|could-Fin-S verb|feel-Inf-S adj|good-Cmp-S1 .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|4|COMPOUND-PRT 6|9|MARK 7|9|NSUBJ 8|9|AUX 9|4|ADVCL 10|9|XCOMP 11|4|PUNCT
+*CHI:	and the boy said are you fine .
+%mor:	cconj|and det|the-Def-Art noun|boy verb|say-Fin-Ind-Past-S3-irr aux|be-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 adj|fine-S1 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|COP 6|7|NSUBJ 7|4|CCOMP 8|4|PUNCT
+*CHI:	that's the end !
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end !
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+@End

@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036194-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;01.27|female|TD||Target_Child|||
+@Media:	410_B2, audio
+@Comment:	Birth of CHI is 5-JAN-1996
+@Date:	03-MAR-2000
+@Tape Location:	Disk M1 Track 55
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	they got picnic baskets [^ pronounced /baeksIts/] .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr noun|picnic noun|basket-Plur-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|COMPOUND 4|2|OBJ 5|2|PUNCT
+*CHI:	and they're having lunch .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S noun|lunch-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	<and they're> [//] &+havi and the rabbit's full .
+%mor:	cconj|and det|the-Def-Art noun|rabbit~part|s adj|full-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|5|ROOT 6|5|PUNCT
+*CHI:	full .
+%mor:	adj|full-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<and they're> [//] and [/] and the [//] she's hungry .
+%mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|hungry-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	<and the> [//] &+de and she goes to another lady .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|to det|another-Def-Ind noun|lady .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	(.) and &+sh she [/] she's going to say hi .
+%mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|say-Inf-S intj|hi .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|4|DISCOURSE 8|4|PUNCT
+*CHI:	and there's the rabbit's mom .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|rabbit~part|s noun|mom  .
+%gra:	1|3|CC 2|3|EXPL 3|8|ROOT 4|5|DET 5|7|NMOD-POSS 6|5|CASE 7|3|NSUBJ 8|3|PUNCT 9|3|PUNCT
+@End

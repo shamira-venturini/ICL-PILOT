@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036250-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.14|female|TD||Target_Child|||
+@Media:	516_A1, audio
+@Comment:	Birth of CHI is 24-JUL-1994
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 26
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	&-um they're &-um playing with a ball .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|ball .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	(.) and they're at the pool .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adp|at det|the-Def-Art noun|pool .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|DET 6|6|ROOT 7|6|PUNCT
+*CHI:	(..) an:d it fell in the water .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	(.) and then the &-um giraffe &-um &+m go &-um swimmed and got it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe verb|go-Fin-Ind-Pres-S3 verb|swimm-Part-Past-S cconj|and verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|XCOMP 7|8|CC 8|5|CONJ 9|8|OBJ 10|5|PUNCT
+*CHI:	and then he passed it to the elephant .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|pass-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|elephant .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	(.) <and then he> [//] and then she's &-um standing all pretty .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|stand-Part-Pres-S det|all-Def-Tot adv|pretty .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|ADVMOD 7|5|ADVMOD 8|5|PUNCT
+*CHI:	all pretty .
+%mor:	det|all-Def-Tot adv|pretty  .
+%gra:	1|3|DET 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+@End

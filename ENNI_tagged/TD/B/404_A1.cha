@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/c-00036188-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.12|male|TD||Target_Child|||
+@Media:	404_A1, audio
+@Comment:	Birth of CHI is 5-JUL-1995
+@Date:	24-MAR-2000
+@Tape Location:	Disk M1 Track 22
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	one [//] the giraffe has an airplane .
+%mor:	det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	(..) he's going to fly it .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|fly-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*CHI:	(..) the elephant's going to bite it .
+%mor:	det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|bite-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	to bite it .
+%mor:	part|to verb|bite-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|MARK 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	&~ooh it got stuck in the sand .
+%mor:	pron|it-Prs-Nom-S3 aux|get-Fin-Ind-Past-S3-irr adj|stuck-S1 adp|in det|the-Def-Art noun|sand .
+%gra:	1|3|NSUBJ 2|3|COP 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	got stuck in the sand still .
+%mor:	verb|get-Fin-Ind-Past-S1-irr adj|stuck-S1 adp|in det|the-Def-Art noun|sand adv|still .
+%gra:	1|6|ROOT 2|1|XCOMP 3|5|CASE 4|5|DET 5|1|OBL 6|1|ADVMOD 7|1|PUNCT
+*CHI:	still [!] stuck in the sand .
+%mor:	adv|still adj|stuck-S1 adp|in det|the-Def-Art noun|sand .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	still [!] stuck in the sand .
+%mor:	adv|still adj|stuck-S1 adp|in det|the-Def-Art noun|sand .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	still stuck in the sand .
+%mor:	adv|still adj|stuck-S1 adp|in det|the-Def-Art noun|sand .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	still stuck in the sand .
+%mor:	adv|still adj|stuck-S1 adp|in det|the-Def-Art noun|sand .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	still stuck in the &+haa [^ oooh sound] sand &=laughs .
+%mor:	adv|still adj|stuck-S1 adp|in det|the-Def-Art noun|sand .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	&~ooh the elephant's going to pull it out .
+%mor:	det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|pull-Inf-S pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|6|COMPOUND-PRT 9|4|PUNCT
+*CHI:	an(d) the elephant got it out .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*CHI:	the elephant gave it to the giraffe .
+%mor:	det|the-Def-Art noun|elephant verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|giraffe .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	very nice .
+%mor:	adv|very adj|nice-S1 .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	that elephant gave the airplane back .
+%mor:	det|that-Def-Dem-Sing noun|elephant verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc adv|back .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+@End

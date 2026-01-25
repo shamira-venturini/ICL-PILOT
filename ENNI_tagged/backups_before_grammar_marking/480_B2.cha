@@ -1,0 +1,85 @@
+@UTF8
+@PID:	11312/c-00036118-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;04.05|male|SLI||Target_Child|||
+@Media:	480_B2, audio
+@Comment:	Birth of CHI is 28-JUL-1998
+@Date:	03-DEC-2002
+@Tape Location:	Disk M15 Track 5
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	okay the rabbit's having a picnink [: picnic] [* p:n] .
+%mor:	intj|okay det|the-Def-Art noun|rabbit~aux|be-Fin-Ind-Pres-S3 verb|have-Part-Pres-S det|a-Ind-Art noun|picnic-Acc .
+%gra:	1|5|DISCOURSE 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	then the dog's having a picnink [: picnic] [* p:n] .
+%mor:	adv|then det|the-Def-Art noun|dog~aux|be-Fin-Ind-Pres-S3 verb|have-Part-Pres-S det|a-Ind-Art noun|picnic-Acc .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and see the dog .
+%mor:	cconj|and verb|see-Fin-Imp-S det|the-Def-Art noun|dog-Acc .
+%gra:	1|2|CC 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	the dog's &+se hungry .
+%mor:	det|the-Def-Art noun|dog~part|s adj|hungry-S1 .
+%gra:	1|2|DET 2|4|NMOD-POSS 3|2|CASE 4|4|ROOT 5|4|PUNCT
+*CHI:	and see the rabbit's hungry .
+%mor:	cconj|and verb|see-Fin-Imp-S det|the-Def-Art noun|rabbit~part|s adj|hungry-S1 .
+%gra:	1|2|CC 2|6|ROOT 3|4|DET 4|6|NMOD-POSS 5|4|CASE 6|2|OBJ 7|2|PUNCT
+*CHI:	and the [/] &+do the rabbit said &-uh too full .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr adv|too adj|full-S1 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|ADVMOD 6|4|XCOMP 7|4|PUNCT
+*CHI:	and the dog's not too full .
+%mor:	cconj|and det|the-Def-Art noun|dog~aux|be-Fin-Ind-Pres-S3 part|not adv|too adj|full-S1 .
+%gra:	1|7|CC 2|3|DET 3|7|NSUBJ 4|7|COP 5|7|ADVMOD 6|7|ADVMOD 7|7|ROOT 8|7|PUNCT
+*CHI:	no .
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and the [/] the rabbit's too full .
+%mor:	cconj|and det|the-Def-Art noun|rabbit~aux|be-Fin-Ind-Pres-S3 adv|too adj|full-S1 .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	the dog is [/] is [!] drinking .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 verb|drink-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	and see the rabbit's got [//] eating a lots of food .
+%mor:	cconj|and verb|see-Fin-Imp-S det|the-Def-Art noun|rabbit~part|s noun|eating-Acc-Ger det|a-Ind-Art noun|lot-Plur-Acc adp|of noun|food .
+%gra:	1|2|CC 2|10|ROOT 3|4|DET 4|6|NMOD-POSS 5|4|CASE 6|2|OBJ 7|8|DET 8|2|OBJ 9|10|CASE 10|8|NMOD 11|2|PUNCT
+*CHI:	and the doctor said +"/.
+%mor:	cconj|and det|the-Def-Art noun|doctor verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	see [/] &-uh see the rabbit's got too full [^ high pitched] .
+%mor:	verb|see-Fin-Imp-S det|the-Def-Art noun|rabbit~part|s verb|get-Part-Past-S-irr adv|too adj|full-S1 .
+%gra:	1|7|ROOT 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|1|XCOMP 6|7|ADVMOD 7|5|XCOMP 8|1|PUNCT
+*CHI:	<come come the &-um come come come come &+s come and> [//] come to see what the [/] &+do the rabbit done [^ high pitched] .
+%mor:	verb|come-Fin-Imp-S part|to verb|see-Inf-S pron|what-Int-S1 det|the-Def-Art noun|rabbit verb|do-Fin-Ind-Past-S3-irr .
+%gra:	1|7|ROOT 2|3|MARK 3|1|XCOMP 4|3|OBJ 5|6|DET 6|7|NSUBJ 7|4|ACL-RELCL 8|1|PUNCT
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and see ?
+%mor:	cconj|and verb|see-Fin-Imp-S ?
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	the lady do fix <the dog> [//] &-um the rabbit .
+%mor:	det|the-Def-Art noun|lady aux|do-Fin-Ind-Pres-S3 verb|fix-Inf-S det|the-Def-Art noun|rabbit-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and see ?
+%mor:	cconj|and verb|see-Fin-Imp-S ?
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	the [//] &+ra it's sposta xxx the rabbit .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|sposta-Part-Pres-S det|the-Def-Art noun|rabbit-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	mhm and see him ?
+%mor:	intj|mhm cconj|and verb|see-Fin-Imp-S pron|he-Prs-Acc-S3 ?
+%gra:	1|3|DISCOURSE 2|3|CC 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	the rabbit taking <the doctor from> [/] the doctor from be [?] .
+%mor:	det|the-Def-Art noun|rabbit verb|take-Ger-S det|the-Def-Art noun|doctor-Acc adp|from aux|be-Inf-S .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -1,0 +1,32 @@
+@UTF8
+@PID:	11312/c-00036225-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.23|female|TD||Target_Child|||
+@Media:	460_A0, audio
+@Comment:	Birth of CHI is 29-MAY-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 94
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	he's going to grocery store .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|to noun|grocery noun|store .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|COMPOUND 6|3|OBL 7|3|PUNCT
+*CHI:	going picks some cookies .
+%mor:	verb|go-Part-Pres-S verb|pick-Fin-Ind-Pres-S3 det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|2|CSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	there's [//] he's picking out a [/] a box of cookies .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|pick-Part-Pres-S adp|out det|a-Ind-Art noun|box-Acc adp|of noun|cookie-Plur .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|3|COMPOUND-PRT 5|6|DET 6|3|OBJ 7|8|CASE 8|6|NMOD 9|3|PUNCT
+*CHI:	it felled [: fell] [* m:++ed:i] .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	he got mad .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

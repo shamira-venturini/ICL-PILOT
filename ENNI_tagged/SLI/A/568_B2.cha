@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036126-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.21|male|SLI||Target_Child|||
+@Media:	568_B2, audio
+@Comment:	Birth of CHI is 29-OCT-1995
+@Date:	19-APR-2001
+@Tape Location:	Disk M10 , Track 23
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	they're having food .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S noun|food-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	they're eating sandwich .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S noun|sandwich-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	they're is full .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	his belly's getting +...
+%mor:	pron|his-Prs-Gen-S3 noun|belly~part|s noun|getting-Ger +...
+%gra:	1|2|NMOD-POSS 2|4|NMOD-POSS 3|2|CASE 4|4|ROOT 5|4|PUNCT
+*CHI:	his belly's getting bigger .
+%mor:	pron|his-Prs-Gen-S3 noun|belly~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S adj|big-Cmp-S1 .
+%gra:	1|2|NMOD-POSS 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	&-uh he's the doctor .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doctor .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	and the [//] it's not helping .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not verb|help-Part-Pres-S .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	helping .
+%mor:	verb|help-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	(..) help .
+%mor:	verb|help-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	(...) she [//] he's eating lots of food .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S noun|lot-Plur-Acc adp|of noun|food .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|PUNCT
+*CHI:	and he go with the doctor .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|with det|the-Def-Art noun|doctor propn|nd .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|OBL 8|3|PUNCT
+@End

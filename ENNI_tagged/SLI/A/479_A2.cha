@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/c-00036117-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;09.08|female|SLI||Target_Child|||
+@Media:	479_A2, audio
+@Comment:	Birth of CHI is 27-FEB-1998
+@Date:	05-DEC-2002
+@Location:	Disk L31 Track 1
+@G:	A1
+@Types:	cross, narrative, SLI
+@G:	A2
+*CHI:	the that elephant wants to get in the pool .
+%mor:	det|the-Def-Art det|that-Def-Dem-Sing noun|elephant verb|want-Fin-Ind-Pres-S3 part|to verb|get-Inf-S adp|in det|the-Def-Art noun|pool .
+%gra:	1|3|DET 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|MARK 6|4|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|4|PUNCT
+*CHI:	<the elephant> [//] &+pus he push her in .
+%mor:	pron|he-Prs-Nom-S3 verb|push-Fin-Ind-Pres-S3 pron|her-Prs-Acc-S3 adp|in .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
+*CHI:	and <she's like> [//] she runned [: ran] [* m:=ed] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	(.) and it's like she went [^ yeeha] .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 sconj|like pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
+%gra:	1|6|CC 2|6|NSUBJ-OUTER 3|6|COP 4|6|MARK 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	and she hurt her knee .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	and she cried .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|cry-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	then it was so better in the bandaid .
+%mor:	adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|good-Cmp-S1 adp|in det|the-Def-Art noun|bandaid .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	and she likes her b:andaid .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|like-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 noun|bandaid-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
+*CHI:	it help her feel better .
+%mor:	pron|it-Prs-Nom-S3 verb|help-Fin-S pron|her-Prs-Acc-S3 verb|feel-Inf-S adj|good-Cmp-S1  .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|2|XCOMP 5|4|XCOMP 6|2|PUNCT 7|2|PUNCT
+@End

@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036262-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.24|female|TD||Target_Child|||
+@Media:	538_B2, audio
+@Comment:	Birth of CHI is 10-JUL-1995
+@Date:	04-DEC-2000
+@Tape Location:	Disk M6 Track 58
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	once upon a time there was a dog and a bunny <that were having> [//] both of them were having a picnic .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art noun|bunny det|both-Def-Tot adp|of pron|they-Prs-Acc-P3 aux|be-Fin-Ind-Past-P3-irr verb|have-Part-Pres-S det|a-Ind-Art noun|picnic-Acc .
+%gra:	1|6|MARK 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|16|ADVCL 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|16|NSUBJ 13|14|CASE 14|12|NMOD 15|16|AUX 16|18|ROOT 17|18|DET 18|16|OBJ 19|16|PUNCT
+*CHI:	but they were so hungry .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|hungry-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	they [//] that [//] the bunny all [//] ate all the stuff but was too full to eat any more .
+%mor:	det|the-Def-Art noun|bunny verb|eat-Fin-Ind-Past-S3-irr det|all-Def-Tot det|the-Def-Art noun|stuff-Acc cconj|but aux|be-Fin-Ind-Past-S3-irr adv|too adj|full-S1 part|to verb|eat-Inf-S det|any-Def-Ind adj|more-Cmp-S1 .
+%gra:	1|2|DET 2|3|NSUBJ 3|14|ROOT 4|6|DET-PREDET 5|6|DET 6|3|OBJ 7|10|CC 8|10|COP 9|10|ADVMOD 10|3|CONJ 11|12|MARK 12|10|ADVCL 13|14|DET 14|12|OBJ 15|3|PUNCT
+*CHI:	but a doctor came and pulled and pulled on her and went to see what was happening .
+%mor:	cconj|but det|a-Ind-Art noun|doctor verb|come-Fin-Ind-Past-S3-irr cconj|and verb|pull-Fin-Ind-Past-S3 cconj|and verb|pull-Fin-Ind-Past-S3 adp|on pron|her-Prs-Acc-S3 cconj|and verb|go-Fin-Ind-Past-S3-irr part|to verb|see-Inf-S pron|what-Int-S1 aux|be-Fin-Ind-Past-S3-irr verb|happen-Part-Pres-S .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|17|ROOT 5|6|CC 6|4|CONJ 7|8|CC 8|6|CONJ 9|8|COMPOUND-PRT 10|8|OBJ 11|12|CC 12|4|CONJ 13|14|MARK 14|12|ADVCL 15|17|OBJ 16|17|AUX 17|14|CCOMP 18|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	<a bunny> [//] the bunny was feeling better .
+%mor:	det|the-Def-Art noun|bunny aux|be-Fin-Ind-Past-S3-irr verb|feel-Part-Pres-S adj|good-Cmp-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

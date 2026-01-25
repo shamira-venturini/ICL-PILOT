@@ -1,0 +1,53 @@
+@UTF8
+@PID:	11312/c-00036241-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.12|female|TD||Target_Child|||
+@Media:	507_A0, audio
+@Comment:	Birth of CHI is 18-SEP-1994
+@Date:	01-MAR-2000
+@Tape Location:	Disk L2 Track 12
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	there's a little person going into the &-um store .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|little-S1 noun|person verb|go-Ger-S adp|into det|the-Def-Art noun|store .
+%gra:	1|2|EXPL 2|9|ROOT 3|5|DET 4|5|AMOD 5|2|NSUBJ 6|5|ACL 7|9|CASE 8|9|DET 9|6|OBL 10|2|PUNCT
+*CHI:	I mean walking down the street .
+%mor:	pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Pres-S1 verb|walk-Ger-S adp|down det|the-Def-Art noun|street .
+%gra:	1|2|NSUBJ 2|3|PARATAXIS 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	then he sees in the store &-um the [//] &+li a man .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|store det|a-Ind-Art noun|man .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|8|DET 8|3|OBL-UNMARKED 9|3|PUNCT
+*CHI:	and then he picks up some cookies and milk .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Pres-S3 adp|up det|some-Def-Ind noun|cookie-Plur-Acc cconj|and noun|milk .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|COMPOUND-PRT 6|7|DET 7|4|OBJ 8|9|CC 9|7|CONJ 10|4|PUNCT
+*CHI:	and there's a glass of milk there .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|glass adp|of noun|milk adv|there .
+%gra:	1|3|CC 2|3|EXPL 3|8|ROOT 4|5|DET 5|3|NSUBJ 6|7|CASE 7|5|NMOD 8|3|ADVMOD 9|3|PUNCT
+*CHI:	and then he says +"/.
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 +"/.
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" oh man !
+%mor:	intj|oh intj|man !
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	+" there's the cookies all falling down the cookie boxes .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|cookie-Plur det|all-Def-Tot verb|fall-Part-Pres-S adp|down det|the-Def-Art noun|cookie noun|box-Plur .
+%gra:	1|2|EXPL 2|10|ROOT 3|4|DET 4|2|NSUBJ 5|4|DET 6|4|ACL 7|10|CASE 8|10|DET 9|10|COMPOUND 10|6|OBL 11|2|PUNCT
+*CHI:	and then the man's mad .
+%mor:	cconj|and adv|then det|the-Def-Art noun|man~part|s noun|mad .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NMOD-POSS 5|4|CASE 6|6|ROOT 7|6|PUNCT
+*CHI:	and he runs away .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Pres-S3 adv|away .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	all of them are opened .
+%mor:	det|all-Def-Tot adp|of pron|they-Prs-Acc-P3 aux|be-Fin-Ind-Pres-P3 verb|open-Part-Past-S .
+%gra:	1|5|NSUBJ-PASS 2|3|CASE 3|1|NMOD 4|5|AUX-PASS 5|5|ROOT 6|5|PUNCT
+*CHI:	half of them aren't .
+%mor:	noun|half adp|of pron|they-Prs-Acc-P3 aux|be-Fin-Ind-Pres-P3~part|not .
+%gra:	1|4|NSUBJ 2|3|CASE 3|1|NMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	that's the end . [+ bch]
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+@End

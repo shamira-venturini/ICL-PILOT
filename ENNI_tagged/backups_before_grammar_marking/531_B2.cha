@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/c-00036123-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.07|female|SLI||Target_Child|||
+@Media:	531_B2, audio
+@Comment:	Birth of CHI is 18-DEC-1994
+@Date:	25-APR-2000
+@Tape Location:	Disk L10 Track 30
+@Types:	cross, narrative, SLI
+@G:	B2
+*CHI:	xxx animal [?] xxx .
+%mor:	noun|animal .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	uhuh .
+%mor:	intj|uhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	eat [/] eat nummy@c .
+%mor:	verb|eat-Fin-Imp-S x|nummy .
+%gra:	1|2|ROOT 2|1|FLAT 3|1|PUNCT
+*CHI:	and &+te &+te &+te and tea too .
+%mor:	cconj|and cconj|and noun|tea adv|too .
+%gra:	1|3|CC 2|3|CC 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	ball went up .
+%mor:	noun|ball verb|go-Fin-Ind-Past-S3-irr adp|up .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*CHI:	&-uh man [//] a man drink [?] .
+%mor:	det|a-Ind-Art noun|man noun|drink .
+%gra:	1|3|DET 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	and &-uh &+te &+te tea .
+%mor:	cconj|and noun|tea .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	&-uh back home .
+%mor:	adv|back adv|home .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	all done .
+%mor:	det|all-Def-Tot verb|do-Part-Past-S-irr .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+@End

@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/c-00036208-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;11.06|male|TD||Target_Child|||
+@Media:	441_B3, audio
+@Comment:	Birth of CHI is 21-JUL-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 52
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	the rabbit &+wr walking down the path again .
+%mor:	det|the-Def-Art noun|rabbit verb|walk-Ger-S adp|down det|the-Def-Art noun|path adv|again .
+%gra:	1|2|DET 2|7|ROOT 3|2|ACL 4|6|CASE 5|6|DET 6|3|OBL 7|3|ADVMOD 8|2|PUNCT
+*CHI:	the rabbit's looking at the balloon .
+%mor:	det|the-Def-Art noun|rabbit~part|s verb|look-Part-Pres-S adp|at det|the-Def-Art noun|balloon .
+%gra:	1|2|DET 2|4|NSUBJ 3|2|CASE 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	<the pig has a> [//] &+f &-um the rabbit's untying the balloon .
+%mor:	det|the-Def-Art noun|rabbit~part|s verb|unty-Part-Pres-S det|the-Def-Art noun|balloon-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|2|CASE 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and the balloon's going up .
+%mor:	cconj|and det|the-Def-Art noun|balloon~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|up .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|6|ROOT 6|5|COMPOUND-PRT 7|5|PUNCT
+*CHI:	and the pig's getting mad at the rabbit .
+%mor:	cconj|and det|the-Def-Art noun|pig~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S adj|mad-S1 adp|at det|the-Def-Art noun|rabbit .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|5|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|5|PUNCT
+*CHI:	and [/] and there's another rabbit .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|another-Def-Ind noun|rabbit .
+%gra:	1|3|CC 2|3|EXPL 3|5|ROOT 4|5|DET 5|3|NSUBJ 6|3|PUNCT
+*CHI:	and they are gonna go buy another one .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adv|gonna verb|go-Inf-S verb|buy-Inf-S det|another-Def-Ind noun|one-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|5|XCOMP 7|8|DET 8|6|OBJ 9|5|PUNCT
+*CHI:	and they're gonna get one .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 part|go verb|get-Inf-S num|one .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	(.) and <then they are gonna> [//] &+ge <go get another one from someone else> [//] then they're gonna go get another one from someone else .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adv|gonna verb|go-Inf-S verb|get-Inf-S det|another-Def-Ind noun|one-Acc adp|from pron|someone-Ind-S1 adj|else-S1 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|12|ROOT 7|6|XCOMP 8|9|DET 9|7|OBJ 10|11|CASE 11|7|OBL 12|11|AMOD 13|6|PUNCT
+*CHI:	and then they got one .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr num|one .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	<and then the> [/] <and then the> [//] <then the> [/] &+gi <then the girl> [//] &-um and [/] and the rabbit's running to <the girl bunny> [//] the girl rabbit .
+%mor:	cconj|and det|the-Def-Art noun|rabbit~part|s verb|run-Ger-S adp|to det|the-Def-Art noun|girl noun|rabbit .
+%gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|9|ROOT 6|9|CASE 7|9|DET 8|9|COMPOUND 9|5|OBL 10|5|PUNCT
+*CHI:	&+n and [/] <and then> [//] and [/] and he's pointing to the balloons .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|point-Part-Pres-S adp|to det|the-Def-Art noun|balloon-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and [/] and they want another balloon .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind noun|balloon-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	so they're getting their mom to buy another one .
+%mor:	adv|so pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|get-Part-Pres-S pron|their-Prs-Gen-P3 noun|mom-Acc part|to verb|buy-Inf-S det|another-Def-Ind noun|one-Acc .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|8|MARK 8|4|XCOMP 9|10|DET 10|8|OBJ 11|4|PUNCT
+*CHI:	<and this> [//] &+t and they got their own this time .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr pron|their-Prs-Gen-P3 adj|own-S1 det|this-Def-Dem-Sing noun|time .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|7|DET 7|3|OBL-UNMARKED 8|3|PUNCT
+*CHI:	and that's the end .
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

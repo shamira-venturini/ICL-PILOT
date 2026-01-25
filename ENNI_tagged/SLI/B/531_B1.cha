@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036123-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.07|female|SLI||Target_Child|||
+@Media:	531_B1, audio
+@Comment:	Birth of CHI is 18-DEC-1994
+@Date:	25-APR-2000
+@Tape Location:	Disk L10 Track 30
+@Types:	cross, narrative, SLI
+@G:	B1
+*CHI:	pop wowie puppy be (s)nowing [?] .
+%mor:	noun|pop noun|wowie noun|puppy aux|be-Fin-S verb|snow-Part-Pres-S .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and a big [?] tire .
+%mor:	cconj|and det|a-Ind-Art adj|big-S1 noun|tire .
+%gra:	1|4|CC 2|4|DET 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	a man .
+%mor:	det|a-Ind-Art noun|man .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	&-uh more throwing [?] it on .
+%mor:	adv|more verb|throw-Part-Pres-S pron|it-Prs-Acc-S3 adp|on .
+%gra:	1|2|ADVMOD 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
+*CHI:	a man [/] &+k man &+k .
+%mor:	det|a-Ind-Art noun|man .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	and it tire .
+%mor:	cconj|and pron|it-Prs-Nom-S3 noun|tire .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	++ done .
+%mor:	verb|do-Part-Past-S-irr .
+%gra:	1|1|ROOT 2|1|PUNCT
+@End

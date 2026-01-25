@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/c-00036220-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.10|female|TD||Target_Child|||
+@Media:	455_A1, audio
+@Comment:	Birth of CHI is 14-May-1996
+@Date:	24-JAN-2001
+@Tape Location:	Disk L24 , Track 14
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	I see that the elephant is <a bounce> [//] bouncing <three balls at> [//] a ball [!] .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 sconj|that det|the-Def-Art noun|elephant aux|be-Fin-Ind-Pres-S3 verb|bounce-Part-Pres-S det|a-Ind-Art noun|ball-Acc .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|7|MARK 4|5|DET 5|7|NSUBJ 6|7|AUX 7|2|CCOMP 8|9|DET 9|7|OBJ 10|2|PUNCT
+*CHI:	and she is going to throw it into one of the hoops [!] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|throw-Inf-S pron|it-Prs-Acc-S3 adp|into num|one adp|of det|the-Def-Art noun|hoop-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|12|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|9|CASE 9|6|OBL 10|12|CASE 11|12|DET 12|9|NMOD 13|4|PUNCT
+*CHI:	and then it felled [: fell] [* m:+ed] into the water .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and then the zebra's trying to swim and get it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|zebra~aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|swim-Inf-S cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|11|ROOT 7|8|MARK 8|6|XCOMP 9|10|CC 10|8|CONJ 11|10|OBJ 12|6|PUNCT
+*CHI:	and then the elephant's going to get the ball for him .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|get-Inf-S det|the-Def-Art noun|ball-Acc adp|for pron|he-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|12|ROOT 7|8|MARK 8|6|XCOMP 9|10|DET 10|8|OBJ 11|12|CASE 12|8|OBL 13|6|PUNCT
+*CHI:	and then she's smiling [!] with her ball .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S adp|with pron|her-Prs-Gen-S3 noun|ball .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|CASE 7|8|NMOD-POSS 8|5|OBL 9|5|PUNCT
+*CHI:	and that's the end I think .
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|7|ROOT 6|7|NSUBJ 7|5|ACL-RELCL 8|5|PUNCT
+@End

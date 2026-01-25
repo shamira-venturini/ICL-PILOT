@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036198-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.07|female|TD||Target_Child|||
+@Media:	415_B1, audio
+@Comment:	Birth of CHI is 7-JUL-1995
+@Date:	14-MAR-2000
+@Tape Location:	Disk L3 Track 5
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	<a dog> [//] <a mouse> [//] <a dog> [/] a dog and a [/] &+mo a bunny .
+%mor:	det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art noun|bunny .
+%gra:	1|2|DET 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
+*CHI:	(.) and they're at the beach .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adp|at det|the-Def-Art noun|beach .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|DET 6|6|ROOT 7|6|PUNCT
+*CHI:	and the rabbit and the dog are building the something else .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S det|the-Def-Art pron|something-Ind-S1 adj|else-S1 .
+%gra:	1|8|CC 2|3|DET 3|8|NSUBJ 4|6|CC 5|6|DET 6|3|CONJ 7|8|AUX 8|11|ROOT 9|10|DET 10|8|OBJ 11|10|AMOD 12|8|PUNCT
+*CHI:	the bunny is gonna put something <on the> [/] on the castle .
+%mor:	det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 adv|gonna verb|put-Part-Past-S-irr pron|something-Ind-S1 adp|on det|the-Def-Art noun|castle .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	<and the> [/] &+cas and the bunny said +"/.
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" oh dear !
+%mor:	intj|oh adj|dear-S1 !
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	and [/] and the girl made another one because they've got a melt [?] .
+%mor:	cconj|and det|the-Def-Art noun|girl verb|make-Fin-Ind-Past-S3-irr det|another-Def-Ind noun|one-Acc sconj|because pron|they-Prs-Nom-P3~aux|have-Fin-Ind-Pres-P3 verb|get-Part-Past-S-irr det|a-Ind-Art noun|melt-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|12|ROOT 5|6|DET 6|4|OBJ 7|10|MARK 8|10|NSUBJ 9|10|AUX 10|4|ADVCL 11|12|DET 12|10|OBJ 13|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

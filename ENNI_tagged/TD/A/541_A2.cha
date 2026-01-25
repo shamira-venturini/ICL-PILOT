@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036264-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;10.25|male|TD||Target_Child|||
+@Media:	541_A2, audio
+@Comment:	Birth of CHI is 11-JUL-1994
+@Date:	05-JUN-2000
+@Tape Location:	Disk L15 Track 79
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	the elephant and the giraffe are going to go swimming .
+%mor:	det|the-Def-Art noun|elephant cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S part|to verb|go-Inf-S verb|swim-Ger-S .
+%gra:	1|2|DET 2|7|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|7|AUX 7|10|ROOT 8|9|MARK 9|7|XCOMP 10|9|XCOMP 11|7|PUNCT
+*CHI:	the elephant got [//] and the giraffe are gonna jump in .
+%mor:	det|the-Def-Art noun|elephant cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-P3 part|go verb|jump-Inf-S adp|in .
+%gra:	1|2|DET 2|8|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|8|AUX 7|8|ADVMOD 8|9|ROOT 9|8|COMPOUND-PRT 10|8|PUNCT
+*CHI:	the elephant and the giraffe are running .
+%mor:	det|the-Def-Art noun|elephant cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-P3 verb|run-Part-Pres-S .
+%gra:	1|2|DET 2|7|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|7|AUX 7|7|ROOT 8|7|PUNCT
+*CHI:	and the elephant slipped .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|slip-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and she stabbed her knee on the side .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|stab-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3 noun|knee-Acc adp|on det|the-Def-Art noun|side .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	okay is this an outdoor pool ?
+%mor:	intj|okay aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 det|a-Ind-Art adj|outdoor-S1 noun|pool ?
+%gra:	1|6|DISCOURSE 2|6|COP 3|6|NSUBJ 4|6|DET 5|6|AMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	okay , she's [//] she hurt her knee on the sidewalk .
+%mor:	intj|okay cm|cm pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc adp|on det|the-Def-Art noun|sidewalk .
+%gra:	1|4|DISCOURSE 2|1|PUNCT 3|4|NSUBJ 4|9|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*CHI:	she's crying .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	(.) and [/] and the lifeguard gave her a bandage .
+%mor:	cconj|and det|the-Def-Art noun|lifeguard verb|give-Fin-Ind-Past-S3-irr pron|her-Prs-Acc-S3 det|a-Ind-Art noun|bandage-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	he's all better now .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|good-Cmp-S1 adv|now .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and now he shouldn't run .
+%mor:	cconj|and adv|now pron|he-Prs-Nom-S3 aux|should-Fin-S~part|not verb|run-Inf-S  .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|PUNCT 8|6|PUNCT
+@End

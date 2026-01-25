@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/c-00036224-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;08.04|female|TD||Target_Child|||
+@Media:	459_B3, audio
+@Comment:	Birth of CHI is 12-JUN-1996
+@Date:	16-FEB-2001
+@Tape Location:	Disk L25 , Track 27
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	once upon a time the rabbit had a balloon .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|rabbit verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|6|DET 6|7|NSUBJ 7|9|ROOT 8|9|DET 9|7|OBJ 10|7|PUNCT
+*CHI:	and he was pulling his wagon .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|pull-Part-Pres-S pron|his-Prs-Gen-S3 noun|wagon-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	then the balloon started to fly away .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|start-Fin-Ind-Past-S3 part|to verb|fly-Inf-S adv|away .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|ADVMOD 8|4|PUNCT
+*CHI:	and <he tied it tright [: tight] [* p:n]> [//] he tried to tie it &+ti tighter .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|tie-Inf-S pron|it-Prs-Acc-S3 adj|tight-Cmp-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|ADVMOD 8|3|PUNCT
+*CHI:	then the balloon flew away .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|fly-Fin-Ind-Past-S3-irr adv|away .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	then the [//] only the string was left .
+%mor:	adv|then adv|only det|the-Def-Art noun|string-Ger aux|be-Fin-Ind-Past-S3-irr verb|leave-Part-Past-S-irr .
+%gra:	1|6|ADVMOD 2|6|ADVMOD 3|4|DET 4|6|NSUBJ-PASS 5|6|AUX-PASS 6|6|ROOT 7|6|PUNCT
+*CHI:	<so then the> [//] and then the rabbit saw the [/] the man holding the balloons .
+%mor:	cconj|and adv|then det|the-Def-Art noun|rabbit verb|see-Fin-Ind-Past-S3-irr det|the-Def-Art noun|man-Acc verb|hold-Ger-S det|the-Def-Art noun|balloon-Plur-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|10|ROOT 6|7|DET 7|5|OBJ 8|7|ACL 9|10|DET 10|8|OBJ 11|5|PUNCT
+*CHI:	he said +"/.
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	+" can I have a balloon ?
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S det|a-Ind-Art noun|balloon-Acc ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and the man said no .
+%mor:	cconj|and det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr intj|no .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|DISCOURSE 6|4|PUNCT
+*CHI:	then he just stood there .
+%mor:	adv|then pron|he-Prs-Nom-S3 adv|just verb|stand-Fin-Ind-Past-S3-irr adv|there .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	then he [//] the doctor [!] walked away .
+%mor:	adv|then det|the-Def-Art noun|doctor verb|walk-Fin-Ind-Past-S3 adv|away .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	then the doctor looked at him and said +"/.
+%mor:	adv|then det|the-Def-Art noun|doctor verb|look-Fin-Ind-Past-S3 adp|at pron|he-Prs-Acc-S3 cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|CASE 6|4|OBL 7|8|CC 8|4|CONJ 9|4|PUNCT
+*CHI:	+" he won't give me a balloon .
+%mor:	pron|he-Prs-Nom-S3 aux|will-Fin-S~part|not verb|give-Inf-S pron|I-Prs-Acc-S1 det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
+*CHI:	<then the doc> [//] and then the doctor gave the man some pennies .
+%mor:	cconj|and adv|then det|the-Def-Art noun|doctor verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|man det|some-Def-Ind noun|penny-Plur-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|7|DET 7|5|IOBJ 8|9|DET 9|5|OBJ 10|5|PUNCT
+*CHI:	and [/] and then he got a balloon .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

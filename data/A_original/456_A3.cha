@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/c-00036221-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;01.22|male|TD||Target_Child|||
+@Media:	456_A3, audio
+@Comment:	Birth of CHI is 30-DEC-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 80
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	<one the> [//] once upon a time then [//] &-um there was &-um a lion .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|lion .
+%gra:	1|6|MARK 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|8|ROOT 7|8|DET 8|6|NSUBJ 9|6|PUNCT
+*CHI:	then he flied [: flew] [* m:=ed] the airplane . [+ gram]
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|fly-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	then he fight [* m:03s:a] [* m:base:ed] . [+ gram]
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|fight-Fin-Ind-Pres-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	then he &-um dropped his airplane in the water .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|drop-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|airplane-Acc adp|in det|the-Def-Art noun|water .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	then he [//] &-umit was gone in .
+%mor:	adv|then aux|be-Fin-Ind-Past-S3-irr adj|gone-S1 adp|in .
+%gra:	1|3|ADVMOD 2|3|COP 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	then &-um he [//] they can't [* m:base:ed] find it . [+ gram]
+%mor:	adv|then pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|find-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	then they were so mad .
+%mor:	adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|mad-S1 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	then they [/] &+k they're trying to reach the airplane .
+%mor:	adv|then pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|try-Part-Pres-S part|to verb|reach-Inf-S det|the-Def-Art noun|airplane-Acc .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|4|PUNCT
+*CHI:	then they [/] they [/] they can't [* m:base:ed] reach it .
+%mor:	adv|then pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	then <they catched [: caught] [* m:=ed]> [//] they're going to catch it with a &-um refire@c . [+ gram]
+%mor:	adv|then pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S part|to verb|catch-Inf-S pron|it-Prs-Acc-S3 adp|with det|a-Ind-Art x|refire .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|10|CASE 9|10|DET 10|6|FLAT 11|4|PUNCT
+*CHI:	then they catched [: caught] [* m:=ed] it . [+ gram]
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|catch-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	then they &+k &-um catched [: caught] [* m:=ed] it  . [+ gram]
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|catch-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	then he could fly it again .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|could-Fin-S verb|fly-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

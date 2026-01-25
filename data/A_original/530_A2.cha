@@ -1,0 +1,39 @@
+@UTF8
+@PID:	11312/c-00036258-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;09.13|female|TD||Target_Child|||
+@Media:	530_A2, audio
+@Date:	14-NOV-2000
+@Tape Location:	Disk M5 , Track 16
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	they found a pool .
+%mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|pool-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	and then she was talking to him .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|talk-Part-Pres-S adp|to pron|he-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	and they runned [: ran] [* m:=ed] . [+ gram]
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|run-Fin-Ind-Past-P3-irr .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and she got hurt .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|get-Fin-Ind-Past-S3-irr verb|hurt-Part-Past-S-irr .
+%gra:	1|4|CC 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|4|ROOT 5|4|PUNCT
+*CHI:	and somebody came and ran to her .
+%mor:	cconj|and pron|somebody-Ind-S1 verb|come-Fin-Ind-Past-S3-irr cconj|and verb|run-Fin-Ind-Past-S3-irr adp|to pron|her-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|CC 5|3|CONJ 6|7|CASE 7|5|OBL 8|3|PUNCT
+*CHI:	she was crying .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	she was crying so [!] much that [/] that the boy that ran to her gave her a bandaid .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S adv|so adj|much-S1 sconj|that det|the-Def-Art noun|boy pron|that-Rel verb|run-Fin-Ind-Past-S3-irr adp|to pron|her-Prs-Acc-S3 verb|give-Fin-Ind-Past-S3-irr pron|her-Prs-Acc-S3 det|a-Ind-Art noun|bandaid-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|16|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|13|MARK 7|8|DET 8|13|NSUBJ 9|10|NSUBJ 10|8|ACL-RELCL 11|12|CASE 12|10|OBL 13|3|CCOMP 14|13|IOBJ 15|16|DET 16|13|OBJ 17|3|PUNCT
+*CHI:	she was sitting on a bench .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|sit-Part-Pres-S adp|on det|a-Ind-Art noun|bench .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and he got very greedy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adv|very adj|greedy-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|PUNCT
+@End

@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/c-00036190-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.15|female|TD||Target_Child|||
+@Media:	406_A1, audio
+@Comment:	Birth of CHI is 16-JUL-1995
+@Date:	02-MAR-2000
+@Tape Location:	Disk M1 Track 33
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	now he's going to say aah no , no , no , no , no , no , no .
+%mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|say-Inf-S intj|aah intj|no cm|cm intj|no cm|cm intj|no cm|cm intj|no cm|cm intj|no cm|cm intj|no cm|cm intj|no .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|20|ROOT 5|6|MARK 6|4|XCOMP 7|6|DISCOURSE 8|6|DISCOURSE 9|10|PUNCT 10|4|DISCOURSE 11|12|PUNCT 12|4|DISCOURSE 13|14|PUNCT 14|4|DISCOURSE 15|14|PUNCT 16|4|DISCOURSE 17|18|PUNCT 18|4|DISCOURSE 19|20|PUNCT 20|4|DISCOURSE 21|4|PUNCT
+*CHI:	I'm not going take those balls home to his raygie@c [^ /regi/] .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 part|not verb|go-Part-Pres-S verb|take-Inf-S det|that-Def-Dem-Plur noun|ball-Plur-Acc adv|home adp|to pron|his-Prs-Gen-S3 x|raygie .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|11|ROOT 5|4|XCOMP 6|7|DET 7|5|OBJ 8|5|ADVMOD 9|11|CASE 10|11|NMOD-POSS 11|5|FLAT 12|4|PUNCT
+*CHI:	raygie@c [^ /regi/] .
+%mor:	x|raygie .
+%gra:	1|1|FLAT 2|1|PUNCT
+*CHI:	that day that balls got stuck .
+%mor:	det|that-Def-Dem-Sing noun|day det|that-Def-Dem-Sing noun|ball-Plur aux|get-Fin-Ind-Past-P3-irr adj|stuck-S1 .
+%gra:	1|2|DET 2|6|OBL-UNMARKED 3|4|DET 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	and he said oh , oh !
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|oh cm|cm intj|oh !
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|3|DISCOURSE 5|6|PUNCT 6|3|DISCOURSE 7|3|PUNCT
+*CHI:	and the lady called away and said +"/.
+%mor:	cconj|and det|the-Def-Art noun|lady verb|call-Fin-Ind-Past-S3 adv|away cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|ADVMOD 6|7|CC 7|4|CONJ 8|4|PUNCT
+*CHI:	+" &-uh I'm going to get that ball .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|go-Part-Pres-S part|to verb|get-Inf-S det|that-Def-Dem-Sing noun|ball-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	&-um and they said +"/.
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Past-P3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" uhoh the choo_choo train's coming .
+%mor:	intj|uhoh det|the-Def-Art noun|choochoo noun|train~part|s noun|coming-Ger .
+%gra:	1|6|DISCOURSE 2|4|DET 3|4|COMPOUND 4|6|NMOD-POSS 5|4|CASE 6|6|ROOT 7|6|PUNCT
+*CHI:	(...) that way he swimmed [: swam] [* m:=ed] to the ball .
+%mor:	det|that-Def-Dem-Sing noun|way pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|ball .
+%gra:	1|2|DET 2|4|OBL-UNMARKED 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and now <he said> [//] oh he cried and cried and cried .
+%mor:	cconj|and adv|now intj|oh pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Past-S3 cconj|and verb|cry-Fin-Ind-Past-S3 cconj|and verb|cry-Fin-Ind-Past-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|DISCOURSE 4|5|NSUBJ 5|9|ROOT 6|7|CC 7|5|CONJ 8|9|CC 9|5|CONJ 10|5|PUNCT
+*CHI:	&-um now he helped him to get that ball .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Past-S3 pron|he-Prs-Acc-S3 part|to verb|get-Inf-S det|that-Def-Dem-Sing noun|ball-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|3|OBJ 5|6|MARK 6|3|XCOMP 7|8|DET 8|6|OBJ 9|3|PUNCT
+*CHI:	and then now he helped to get him up .
+%mor:	cconj|and adv|then adv|now pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|he-Prs-Acc-S3 adp|up .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|ADVMOD 4|5|NSUBJ 5|9|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|7|COMPOUND-PRT 10|5|PUNCT
+*CHI:	and he couldn't get up now .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|get-Inf-S adp|up adv|now .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|5|COMPOUND-PRT 7|5|ADVMOD 8|5|PUNCT
+*CHI:	now he get the ball .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and he was so (ex)cited .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|excited-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	but he was always day long .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|always noun|day adj|long-S1 .
+%gra:	1|6|CC 2|6|NSUBJ 3|6|COP 4|6|ADVMOD 5|6|OBL-UNMARKED 6|6|ROOT 7|6|PUNCT
+*CHI:	always day long .
+%mor:	adv|always noun|day adj|long-S1 .
+%gra:	1|3|ADVMOD 2|3|OBL-UNMARKED 3|3|ROOT 4|3|PUNCT
+@End

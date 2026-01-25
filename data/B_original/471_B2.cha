@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036233-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;09.07|male|TD||Target_Child|||
+@Media:	471_B2, audio
+@Comment:	Birth of CHI is 10-AUG-1996
+@Date:	25-MAY-2001
+@Tape Location:	Disk L28 Track 51
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	the dog and the bunny were having a picnic today .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|bunny aux|be-Fin-Ind-Past-P3-irr verb|have-Part-Pres-S det|a-Ind-Art noun|picnic-Acc noun|today .
+%gra:	1|2|DET 2|7|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|7|AUX 7|10|ROOT 8|9|DET 9|7|OBJ 10|7|OBL-UNMARKED 11|7|PUNCT
+*CHI:	and they started to eat .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to verb|eat-Inf-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	and the bunny sweated and fell to the ground .
+%mor:	cconj|and det|the-Def-Art noun|bunny verb|sweat-Fin-Ind-Past-S3 cconj|and verb|fall-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|ground .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|CC 6|4|CONJ 7|9|CASE 8|9|DET 9|6|OBL 10|4|PUNCT
+*CHI:	but [/] but the dog was still eating .
+%mor:	cconj|but det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adv|still verb|eat-Part-Pres-S .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	+" ah I can't take it any more .
+%mor:	intj|ah pron|I-Prs-Nom-S1 aux|can-Fin-S~part|not verb|take-Inf-S pron|it-Prs-Acc-S3 det|any-Def-Ind adj|more-Cmp-S1 .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|5|OBJ 7|8|DET 8|5|ADVMOD 9|5|PUNCT
+*CHI:	the bunny said +".
+%mor:	det|the-Def-Art noun|bunny verb|say-Fin-Ind-Past-S3-irr +".
+%gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and then the mother bunny came and said +"/.
+%mor:	cconj|and adv|then det|the-Def-Art noun|mother noun|bunny verb|come-Fin-Ind-Past-S3-irr cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|COMPOUND 5|6|NSUBJ 6|8|ROOT 7|8|CC 8|6|CONJ 9|6|PUNCT
+*CHI:	+" what's the matter little one ?
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|matter adj|little-S1 noun|one ?
+%gra:	1|6|ROOT 2|1|COP 3|4|DET 4|6|COMPOUND 5|6|AMOD 6|1|NSUBJ 7|1|PUNCT
+*CHI:	and the dog said +"/.
+%mor:	cconj|and det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" he sweated and fell to the ground .
+%mor:	pron|he-Prs-Nom-S3 verb|sweat-Fin-Ind-Past-S3 cconj|and verb|fall-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|ground .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|CC 4|2|CONJ 5|7|CASE 6|7|DET 7|4|OBL 8|2|PUNCT
+*CHI:	+" oh_my_goodness &=high_pitched .
+%mor:	propn|ohmygoodness .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	+" are you_all right little one &=high_pitched ?
+%mor:	aux|be-Fin-Ind-Pres-P3 adv|youall adv|right adj|little-S1 num|one ?
+%gra:	1|5|COP 2|5|ADVMOD 3|4|ADVMOD 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	+" I'm okay &=high_pitched .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|okay-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	+" let's go home okay &=high_pitched ?
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|go-Inf-S adv|home intj|okay ?
+%gra:	1|5|ROOT 2|1|OBJ 3|1|XCOMP 4|3|ADVMOD 5|1|DISCOURSE 6|1|PUNCT
+*CHI:	+" goodbye &=high_pitched .
+%mor:	verb|goodbye-Fin-Imp-S  .
+%gra:	1|2|ROOT 2|1|PUNCT 3|1|PUNCT
+@End

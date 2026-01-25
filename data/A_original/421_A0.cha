@@ -1,0 +1,80 @@
+@UTF8
+@PID:	11312/c-00036203-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;05.20|male|TD||Target_Child|||
+@Media:	421_A0, audio
+@Comment:	Birth of CHI is 22-OCT-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 16
+@Types:	cross, narrative, TD
+@G:	A0
+@G:	A0
+*CHI:	I was walking down the street .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr verb|walk-Part-Pres-S adp|down det|the-Def-Art noun|street .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	<then I> [/] then I went into the store by myself .
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr adp|into det|the-Def-Art noun|store adp|by pron|myself-Prs-Acc-reflx-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|8|CASE 8|3|OBL 9|3|PUNCT
+*CHI:	because my mom and dad were died [* s:r] .
+%mor:	sconj|because pron|my-Prs-Gen-S1 noun|mom cconj|and noun|dad aux|be-Fin-Ind-Past-P3-irr verb|die-Part-Past-S .
+%gra:	1|7|MARK 2|3|NMOD-POSS 3|7|NSUBJ-PASS 4|5|CC 5|3|CONJ 6|7|AUX-PASS 7|7|ROOT 8|7|PUNCT
+*CHI:	and so I went with no persons [: people] [* m:=s] going behind me . [+ gram]
+%mor:	cconj|and adv|so pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr sconj|with det|no-Def-Neg noun|person-Plur verb|go-Ger-S adp|behind pron|I-Prs-Acc-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|8|MARK 6|7|DET 7|4|OBL 8|7|ACL 9|10|CASE 10|8|OBL 11|4|PUNCT
+*CHI:	and then I went to there . [+ sem]
+%mor:	cconj|and adv|then pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr adp|to adv|there .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	and [/] <and I> [/] and I said hello to that man .
+%mor:	cconj|and pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr intj|hello adp|to det|that-Def-Dem-Sing noun|man .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	then I got some cookies .
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr det|some-Def-Ind noun|cookie-Plur-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	then I went to my mom and dad's home .
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr adp|to pron|my-Prs-Gen-S1 noun|mom cconj|and noun|dad~part|s noun|home .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|10|ROOT 4|10|CASE 5|6|NMOD-POSS 6|10|NMOD-POSS 7|8|CC 8|6|CONJ 9|6|CASE 10|3|OBL 11|3|PUNCT
+*CHI:	(.) but there was too many .
+%mor:	cconj|but pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr adv|too adj|many-S1 .
+%gra:	1|3|CC 2|3|EXPL 3|5|ROOT 4|5|ADVMOD 5|3|NSUBJ 6|3|PUNCT
+*CHI:	<so I> [/] so I went back .
+%mor:	adv|so pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr adv|back .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	then [/] <then I> [/] then I had each two of them . [+ sem]
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Past-S1-irr det|each-Def-Tot num|two adp|of pron|they-Prs-Acc-P3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|5|NMOD 8|3|PUNCT
+*CHI:	so I think that was too much .
+%mor:	adv|so pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|that-Dem aux|be-Fin-Ind-Past-S3-irr adv|too adj|much-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|3|CCOMP 8|3|PUNCT
+*CHI:	then I put one back .
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|put-Fin-Ind-Past-S1-irr num|one noun|back-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|NUMMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	there's only one that was just right .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 adv|only num|one pron|that-Rel aux|be-Fin-Ind-Past-S3-irr adv|just adj|right-S1 .
+%gra:	1|2|EXPL 2|8|ROOT 3|4|ADVMOD 4|2|NSUBJ 5|8|NSUBJ 6|8|COP 7|8|ADVMOD 8|4|ACL-RELCL 9|2|PUNCT
+*CHI:	but then they fell down (be)cause it was too high that he couldn't even put a block on .
+%mor:	cconj|but adv|then pron|they-Prs-Nom-P3 verb|fall-Fin-Ind-Past-P3-irr adp|down sconj|because pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|too adj|high-S1 sconj|that pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not adv|even verb|put-Inf-S det|a-Ind-Art noun|block-Acc adp|on .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|19|ROOT 5|4|COMPOUND-PRT 6|10|MARK 7|10|EXPL 8|10|COP 9|10|ADVMOD 10|4|ADVCL 11|16|MARK 12|16|NSUBJ 13|16|AUX 14|16|ADVMOD 15|16|ADVMOD 16|10|CSUBJ 17|18|DET 18|16|OBJ 19|16|COMPOUND-PRT 20|4|PUNCT
+*CHI:	but he put it on .
+%mor:	cconj|but pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|on .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	then it fell down again .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down adv|again .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|3|COMPOUND-PRT 5|3|ADVMOD 6|3|PUNCT
+*CHI:	the man was mad .
+%mor:	det|the-Def-Art noun|man aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	so he was running down the path to try to say sorry .
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|run-Part-Pres-S adp|down det|the-Def-Art noun|path part|to verb|try-Inf-S part|to verb|say-Inf-S adj|sorry-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|12|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|MARK 9|4|ADVCL 10|11|MARK 11|9|XCOMP 12|11|XCOMP 13|4|PUNCT
+*CHI:	but he didn't .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	and he was still mad .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|still adj|mad-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	<the end> [>] . [+ bch]
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

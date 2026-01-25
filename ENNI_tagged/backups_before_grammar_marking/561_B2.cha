@@ -1,0 +1,49 @@
+@UTF8
+@PID:	11312/c-00036279-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;02.02|male|TD||Target_Child|||
+@Media:	561_B2, audio
+@Comment:	Birth of CHI is 18-SEP-1995
+@Date:	20-NOV-2000
+@Tape Location:	Disk L20 Track 116
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	once upon a time the bunny was getting some raspberries .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|bunny aux|be-Fin-Ind-Past-S3-irr verb|get-Part-Pres-S det|some-Def-Ind noun|raspberry-Plur-Acc .
+%gra:	1|8|ADVMOD 2|4|CASE 3|4|DET 4|8|OBL 5|6|DET 6|8|NSUBJ 7|8|AUX 8|10|ROOT 9|10|DET 10|8|OBJ 11|8|PUNCT
+*CHI:	and the dog was getting raspberries .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr verb|get-Part-Pres-S noun|raspberry-Plur-Acc .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	they walked until they had a party .
+%mor:	pron|they-Prs-Nom-P3 verb|walk-Fin-Ind-Past-P3 sconj|until pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|party-Acc .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|5|MARK 4|5|NSUBJ 5|2|ADVCL 6|7|DET 7|5|OBJ 8|2|PUNCT
+*CHI:	and <they couldn't> [//] he [//] the bunny couldn't eat all of his stuff .
+%mor:	cconj|and det|the-Def-Art noun|bunny aux|could-Fin-S~part|not verb|eat-Inf-S det|all-Def-Tot adp|of pron|his-Prs-Gen-S3 noun|stuff .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|10|ROOT 7|6|OBJ 8|10|CASE 9|10|NMOD-POSS 10|7|NMOD 11|6|PUNCT
+*CHI:	he was too:: full .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|too adj|full-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	and then his tummy got big [!] .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|tummy verb|get-Fin-Ind-Past-S3-irr adj|big-S1 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|6|ROOT 6|5|XCOMP 7|5|PUNCT
+*CHI:	then he got big like a old ma:n .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|big-S1 adp|like det|a-Ind-Art adj|old-S1 noun|man .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|3|XCOMP 5|8|CASE 6|8|DET 7|8|AMOD 8|4|OBL 9|3|PUNCT
+*CHI:	and then the dog holded on to the big ma:n &-um the doctor .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog verb|hold-Fin-Ind-Past-S3 adp|on adp|to det|the-Def-Art adj|big-S1 noun|man det|the-Def-Art noun|doctor .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|12|ROOT 6|5|COMPOUND-PRT 7|10|CASE 8|10|DET 9|10|AMOD 10|5|OBL 11|12|DET 12|10|APPOS 13|5|PUNCT
+*CHI:	and then he helped the bunny .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Past-S3 det|the-Def-Art noun|bunny-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and then he said +"/.
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	+" come home with me &=laughs .
+%mor:	verb|come-Fin-Imp-S adv|home adp|with pron|I-Prs-Acc-S1 .
+%gra:	1|4|ROOT 2|1|ADVMOD 3|4|CASE 4|1|OBL 5|1|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036247-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.07|female|TD||Target_Child|||
+@Media:	513_A2, audio
+@Comment:	Birth of CHI is 4-SEP-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 32
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	wa [/] once there was an elephant .
+%mor:	sconj|once pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant .
+%gra:	1|3|MARK 2|3|EXPL 3|5|ROOT 4|5|DET 5|3|NSUBJ 6|3|PUNCT
+*CHI:	and [/] and [/] and then he [/] he was running .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|run-Part-Pres-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	then the elephant accidentally slipped .
+%mor:	adv|then det|the-Def-Art noun|elephant adv|accidentally verb|slip-Fin-Ind-Past-S3 .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	then he [/] he started crying because he [/] he fell down and bumped his knee .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 verb|cry-Ger-S sconj|because pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down cconj|and verb|bump-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|knee-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|12|ROOT 4|3|XCOMP 5|7|MARK 6|7|NSUBJ 7|3|ADVCL 8|7|COMPOUND-PRT 9|10|CC 10|7|CONJ 11|12|NMOD-POSS 12|10|OBJ 13|3|PUNCT
+*CHI:	then his friend try [//] tried to [/] to help him .
+%mor:	adv|then pron|his-Prs-Gen-S3 noun|friend verb|try-Fin-Ind-Past-S3 part|to verb|help-Inf-S pron|he-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|3|NMOD-POSS 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	then the lifeg^uard put a bandaid on .
+%mor:	adv|then det|the-Def-Art noun|lifeguard verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandaid-Acc adp|on .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|COMPOUND-PRT 8|4|PUNCT
+*CHI:	&=sighs then he felt much better .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adv|much adj|good-Cmp-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|PUNCT
+*CHI:	then the lifeguard &+sa told him th^at there is no running allowed .
+%mor:	adv|then det|the-Def-Art noun|lifeguard verb|tell-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 sconj|that pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|no-Def-Neg noun|running-Ger verb|allow-Part-Past-S-Acc .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|12|ROOT 5|4|IOBJ 6|8|MARK 7|8|EXPL 8|4|CCOMP 9|10|DET 10|8|NSUBJ 11|10|ACL 12|11|OBJ 13|4|PUNCT
+@End

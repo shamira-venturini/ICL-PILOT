@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/c-00036215-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;03.26|male|TD||Target_Child|||
+@Media:	450_B2, audio
+@Comment:	Birth of CHI is 26-OCT-1996
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 62
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	the guy was <walking with snow> [//] making a castle with &+ca &-um snow .
+%mor:	det|the-Def-Art noun|guy aux|be-Fin-Ind-Past-S3-irr verb|make-Part-Pres-S det|a-Ind-Art noun|castle-Acc adp|with noun|snow .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|DET 6|4|OBJ 7|8|CASE 8|4|OBL 9|4|PUNCT
+*CHI:	sitting .
+%mor:	verb|sit-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	make castles to put snow .
+%mor:	verb|make-Fin-Imp-S noun|castle-Plur-Acc part|to verb|put-Inf-S noun|snow-Acc .
+%gra:	1|5|ROOT 2|1|OBJ 3|4|MARK 4|1|ADVCL 5|4|OBJ 6|1|PUNCT
+*CHI:	&-um carrying it walking .
+%mor:	verb|carry-Part-Pres-S pron|it-Prs-Acc-S3 noun|walking-Acc-Ger .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|OBJ 4|1|PUNCT
+*CHI:	and staying .
+%mor:	cconj|and verb|stay-Part-Pres-S .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	&-um fell down .
+%mor:	verb|fall-Fin-Ind-Past-S1-irr adp|down .
+%gra:	1|2|ROOT 2|1|COMPOUND-PRT 3|1|PUNCT
+*CHI:	walking .
+%mor:	noun|walking-Ger .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

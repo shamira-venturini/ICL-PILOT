@@ -1,0 +1,27 @@
+@UTF8
+@PID:	11312/c-00036199-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;09.27|female|TD||Target_Child|||
+@Media:	416_A1, audio
+@Date:	29-NOV-2000
+@Tape Location:	Disk M6 Track 47
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	the zebra was going to the zoo .
+%mor:	det|the-Def-Art noun|zebra aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S adp|to det|the-Def-Art noun|zoo .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and the elephant wanted to come and show them his practice at the circus .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|want-Fin-Ind-Past-S3 part|to verb|come-Inf-S cconj|and verb|show-Inf-S pron|they-Prs-Acc-P3 pron|his-Prs-Gen-S3 noun|practice-Acc adp|at det|the-Def-Art noun|circus .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|14|ROOT 5|6|MARK 6|4|XCOMP 7|8|CC 8|6|CONJ 9|8|IOBJ 10|11|NMOD-POSS 11|8|OBJ 12|14|CASE 13|14|DET 14|8|OBL 15|4|PUNCT
+*CHI:	and then they saw something in^side a water .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr pron|something-Ind-S1 adp|inside det|a-Ind-Art noun|water .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|5|NMOD 9|4|PUNCT
+*CHI:	but the giraffe wanted to get that ball because the elephant dropped it .
+%mor:	cconj|but det|the-Def-Art noun|giraffe verb|want-Fin-Ind-Past-S3 part|to verb|get-Inf-S det|that-Def-Dem-Sing noun|ball-Acc sconj|because det|the-Def-Art noun|elephant verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|13|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|12|MARK 10|11|DET 11|12|NSUBJ 12|6|ADVCL 13|12|OBJ 14|4|PUNCT
+*CHI:	and the elephant said thank you for getting it .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|say-Fin-Ind-Past-S3-irr verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 sconj|for verb|get-Part-Pres-S pron|it-Prs-Acc-S3  .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|4|XCOMP 6|5|OBJ 7|8|MARK 8|5|ADVCL 9|8|OBJ 10|8|XCOMP 11|4|PUNCT
+@End

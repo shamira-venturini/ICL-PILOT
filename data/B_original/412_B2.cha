@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036196-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.08|female|TD||Target_Child|||
+@Media:	412_B2, audio
+@Comment:	Birth of CHI is 24-APR-1995
+@Date:	03-MAR-2000
+@Tape Location:	Disk M1 Track 65
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	once upon a time &-uh <the bunny met> [/] the bunny met &-um his friend <at the> [//] with the picnic basket .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|bunny verb|meet-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|friend-Acc adp|with det|the-Def-Art noun|picnic noun|basket .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|6|DET 6|7|NSUBJ 7|13|ROOT 8|9|NMOD-POSS 9|7|OBJ 10|13|CASE 11|13|DET 12|13|COMPOUND 13|7|OBL 14|7|PUNCT
+*CHI:	(.) and then <they all had a> [//] &+pi they all had the picnic .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 det|all-Def-Tot verb|have-Fin-Ind-Past-P3-irr det|the-Def-Art noun|picnic-Acc .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|3|DET 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and then he was so full that he can barely eat anything else .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|full-S1 sconj|that pron|he-Prs-Nom-S3 aux|can-Fin-S adv|barely verb|eat-Inf-S pron|anything-Ind-S1 adj|else-S1 .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|13|ROOT 7|11|MARK 8|11|NSUBJ 9|11|AUX 10|11|ADVMOD 11|6|CCOMP 12|11|OBJ 13|12|AMOD 14|6|PUNCT
+*CHI:	(..) and then he got a stomyache@c .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art x|stomyache .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|FLAT 7|4|PUNCT
+*CHI:	but he has bubbles .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 noun|bubble-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	I don't know what that is [^ child's comment about picture] .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S pron|what-Int-S1 pron|that-Dem aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|OBJ 6|7|NSUBJ 7|5|ACL-RELCL 8|4|PUNCT
+*CHI:	so then he [/] &+er <he went> [//] then the friend went to his mother's house and [/] and [/] &-um and said +"/.
+%mor:	adv|so adv|then adv|then det|the-Def-Art noun|friend verb|go-Fin-Ind-Past-S3-irr adp|to pron|his-Prs-Gen-S3 noun|mother~part|s noun|house cconj|and verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|6|ADVMOD 2|6|ADVMOD 3|6|ADVMOD 4|5|DET 5|6|NSUBJ 6|13|ROOT 7|11|CASE 8|9|NMOD-POSS 9|11|NMOD-POSS 10|9|CASE 11|6|OBL 12|13|CC 13|6|CONJ 14|6|PUNCT
+*CHI:	+" your son's not feeling well .
+%mor:	pron|your-Prs-Gen-S2 noun|son~aux|be-Fin-Ind-Pres-S3 part|not verb|feel-Part-Pres-S adv|well .
+%gra:	1|2|NMOD-POSS 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	and then she pulled her <to where> [/] to where the friend was lying down .
+%mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|pull-Fin-Ind-Past-S3 pron|her-Prs-Acc-S3 adp|to adv|where det|the-Def-Art noun|friend aux|be-Fin-Ind-Past-S3-irr verb|lie-Part-Pres-S adp|down .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|12|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|9|DET 9|11|NSUBJ 10|11|AUX 11|7|ADVCL-RELCL 12|11|COMPOUND-PRT 13|4|PUNCT
+*CHI:	<and then he> [//] &+w <and then the doctor> [//] and then his mother &-um quickly was gonna check him .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|mother adv|quickly aux|be-Fin-Ind-Past-S3-irr part|go verb|check-Inf-S pron|he-Prs-Acc-S3 .
+%gra:	1|8|CC 2|8|ADVMOD 3|4|NMOD-POSS 4|8|NSUBJ 5|8|ADVMOD 6|8|AUX 7|8|ADVMOD 8|9|ROOT 9|8|OBJ 10|8|PUNCT
+*CHI:	and then they went happily ever after at home .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adv|happily adv|ever adp|after adp|at noun|home  .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|4|ADVMOD 6|7|ADVMOD 7|4|ADVMOD 8|9|CASE 9|4|OBL 10|4|PUNCT 11|4|PUNCT
+@End

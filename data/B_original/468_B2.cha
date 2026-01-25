@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/c-00036231-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;05.20|female|TD||Target_Child|||
+@Media:	468_B2, audio
+@Comment:	Birth of CHI is 21-OCT-1996
+@Date:	10-APR-2001
+@Tape Location:	Disk L27 , Track 24
+@Types:	cross, narrative, TD
+@G:	B2
+*CHI:	&-um he's going to walk for a picnic .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|walk-Inf-S adp|for det|a-Ind-Art noun|picnic .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|PUNCT
+*CHI:	he's already at the picnic .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|already adp|at det|the-Def-Art noun|picnic .
+%gra:	1|6|NSUBJ 2|6|COP 3|6|ADVMOD 4|6|CASE 5|6|DET 6|6|ROOT 7|6|PUNCT
+*CHI:	he spilled all [!] his food .
+%mor:	pron|he-Prs-Nom-S3 verb|spill-Fin-Ind-Past-S3 det|all-Def-Tot pron|his-Prs-Gen-S3 noun|food-Acc .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|DET-PREDET 4|5|NMOD-POSS 5|2|OBJ 6|2|PUNCT
+*CHI:	and he laughed .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|laugh-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and he cried .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Past-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and they were done their picnic .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|do-Part-Past-S-irr pron|their-Prs-Gen-P3 noun|picnic-Acc .
+%gra:	1|4|CC 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	and then he laughed .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|laugh-Fin-Ind-Past-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and then they were still at the picnic .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|still adp|at det|the-Def-Art noun|picnic .
+%gra:	1|8|CC 2|8|ADVMOD 3|8|NSUBJ 4|8|COP 5|8|ADVMOD 6|8|CASE 7|8|DET 8|8|ROOT 9|8|PUNCT
+*CHI:	and then they walked [!] home .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|walk-Fin-Ind-Past-P3 adv|home .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

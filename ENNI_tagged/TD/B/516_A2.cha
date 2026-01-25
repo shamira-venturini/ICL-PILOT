@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/c-00036250-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;07.14|female|TD||Target_Child|||
+@Media:	516_A2, audio
+@Comment:	Birth of CHI is 24-JUL-1994
+@Date:	09-MAR-2000
+@Tape Location:	Disk M3 Track 26
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	&=sneezes .
+*CHI:	&-um they're at the swimming pool .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adp|at det|the-Def-Art noun|swim-Ger noun|pool .
+%gra:	1|6|NSUBJ 2|6|COP 3|6|CASE 4|6|DET 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
+*CHI:	<and they're gonna> [//] and they were just getting ready to do something .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|just verb|get-Part-Pres-S adj|ready-S1 part|to verb|do-Inf-S pron|something-Ind-S1 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|9|ROOT 6|5|XCOMP 7|8|MARK 8|6|XCOMP 9|8|OBJ 10|5|PUNCT
+*CHI:	and the &-um giraffe is chasing the elephant .
+%mor:	cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 verb|chase-Part-Pres-S det|the-Def-Art noun|elephant-Acc .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*CHI:	and the elephant slips .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|slip-Fin-Ind-Pres-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	and he gets his knee scraped .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|knee-Acc verb|scrape-Part-Past-S .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|XCOMP 7|3|PUNCT
+*CHI:	and then the &-um lifeguard runs <and comes to> [/] &-um &+ge and comes to put a bandaid on it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|lifeguard verb|run-Fin-Ind-Pres-S3 cconj|and verb|come-Fin-Ind-Pres-S3 part|to verb|put-Inf-S det|a-Ind-Art noun|bandaid-Acc adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|13|ROOT 6|7|CC 7|5|CONJ 8|9|MARK 9|7|ADVCL 10|11|DET 11|9|OBJ 12|13|CASE 13|9|OBL 14|5|PUNCT
+*CHI:	and then the bandaid was on .
+%mor:	cconj|and adv|then det|the-Def-Art noun|bandaid aux|be-Fin-Ind-Past-S3-irr adv|on .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
+*CHI:	and she felt okay .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|okay-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	and she was sitting on the bench .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|sit-Part-Pres-S adp|on det|the-Def-Art noun|bench  .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT 9|4|PUNCT
+@End

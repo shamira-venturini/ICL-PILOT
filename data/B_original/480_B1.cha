@@ -1,0 +1,70 @@
+@UTF8
+@PID:	11312/c-00036118-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;04.05|male|SLI||Target_Child|||
+@Media:	480_B1, audio
+@Comment:	Birth of CHI is 28-JUL-1998
+@Date:	03-DEC-2002
+@Tape Location:	Disk M15 Track 5
+@Types:	cross, narrative, SLI
+@G:	B1
+*CHI:	<the dog> [/] the dog make a castle .
+%mor:	det|the-Def-Art noun|dog verb|make-Fin-Ind-Pres-S3 det|a-Ind-Art noun|castle-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	<and he> [//] <the rabbit says> [//] the rabbit shovel .
+%mor:	det|the-Def-Art noun|rabbit noun|shovel .
+%gra:	1|3|DET 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	mhm .
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and the rabbit shared the dog .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|share-Fin-Ind-Past-S3 det|the-Def-Art noun|dog-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	and the rabbit is shovel .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 noun|shovel .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	<and the see> [//] and see him ?
+%mor:	cconj|and verb|see-Fin-Imp-S pron|he-Prs-Acc-S3 ?
+%gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	the dog is not happy &*EXA:oh (be)cause the rabbit &+do poured [/] &-um poured the [/] the sand on the castle .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 part|not adj|happy-S1 sconj|because det|the-Def-Art noun|rabbit verb|pour-Fin-Ind-Past-S3 det|the-Def-Art noun|sand-Acc adp|on det|the-Def-Art noun|castle .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|14|ROOT 6|9|MARK 7|8|DET 8|9|NSUBJ 9|5|ADVCL 10|11|DET 11|9|OBJ 12|14|CASE 13|14|DET 14|9|OBL 15|5|PUNCT
+*CHI:	(...) and [/] <and the dog> [/] and the dog is not happy .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 part|not adj|happy-S1 .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	<and the dog is> [//] and the rabbit's not happy too .
+%mor:	cconj|and det|the-Def-Art noun|rabbit~aux|be-Fin-Ind-Pres-S3 part|not adj|happy-S1 adv|too .
+%gra:	1|6|CC 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*CHI:	and see is one castle .
+%mor:	cconj|and verb|see-Fin-Imp-S aux|be-Fin-Ind-Pres-S3 num|one noun|castle-Acc .
+%gra:	1|2|CC 2|5|ROOT 3|5|COP 4|5|NUMMOD 5|2|OBJ 6|2|PUNCT
+*CHI:	then that's the way there mhm .
+%mor:	adv|then pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|way pron|there-Dem-S1 intj|mhm .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|DET 5|7|ROOT 6|7|EXPL 7|5|DISCOURSE 8|5|PUNCT
+*CHI:	<and there> [//] and see ?
+%mor:	cconj|and verb|see-Fin-Imp-S ?
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	and the dog fix it all week .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|fix-Inf-S pron|it-Prs-Acc-S3 det|all-Def-Tot noun|week .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|OBJ 6|7|DET 7|4|OBL-UNMARKED 8|4|PUNCT
+*CHI:	and the dog is sad .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*CHI:	and the rabbit said &-um not sorry . [+ gram]
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr part|not adj|sorry-S1 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|ADVMOD 6|4|XCOMP 7|4|PUNCT
+*CHI:	and he do [* m:unv:a] this . [+ gram]
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3 pron|this-Dem-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and [/] &+do <and the> [//] he [//] the dog just keep doing it .
+%mor:	det|the-Def-Art noun|dog adv|just verb|keep-Fin-Imp-S verb|do-Ger-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|4|XCOMP 6|5|OBJ 7|4|PUNCT
+*CHI:	it's almost done , mhm .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|almost adj|done-S1 cm|cm intj|mhm .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|6|ROOT 5|6|PUNCT 6|4|DISCOURSE 7|4|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

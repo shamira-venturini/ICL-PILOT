@@ -1,0 +1,22 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	rabbit and doggie play .
+*CHI:	they make castle  [* s:r:seg] .
+*CHI:	doggie pat  sand .
+*CHI:	rabbit dig [* m:03s:a] sand .
+*CHI:	doggie sad .
+*CHI:	castle [* s:r:seg] <go> [/] go boom@o [* s:r] .
+*CHI:	rabbit feel [* m:03s:a] bad .
+*CHI:	he no  mean to .
+*CHI:	he be  sorry .
+*CHI:	rabbit fix sand .
+*CHI:	he make  castle  [* s:r:seg] again .
+*CHI:	doggie happy .
+*CHI:	they make new castle  [* s:r:seg] .
+*CHI:	they be friends .
+@End

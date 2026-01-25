@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036255-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;08.14|male|TD||Target_Child|||
+@Media:	524_A2, audio
+@Comment:	Birth of CHI is 14-AUG-1994
+@Date:	28-APR-2000
+@Tape Location:	Disk M5 Track 33
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	once upon a time the elephant went to run .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art noun|elephant verb|go-Fin-Ind-Past-S3-irr adp|to noun|run .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|6|DET 6|7|NSUBJ 7|9|ROOT 8|9|CASE 9|7|OBL 10|7|PUNCT
+*CHI:	(.) <an(d) then> [/] and then they start running .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Pres-P3 verb|run-Ger-S .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	(.) <an(d) her [/] her> [//] and her got a boo_boo .
+%mor:	cconj|and pron|her-Prs-Acc-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|booboo-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	(.) and then his mom comed [: came] [* m:=ed] put a bandaid on her .
+%mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|mom verb|come-Fin-Ind-Past-S3-irr verb|put-Part-Past-S-irr det|a-Ind-Art noun|bandaid-Acc adp|on pron|her-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|NMOD-POSS 4|5|NSUBJ 5|10|ROOT 6|5|XCOMP 7|8|DET 8|6|OBJ 9|10|CASE 10|6|OBL 11|5|PUNCT
+*CHI:	(..) and then her went back to her friends .
+%mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|go-Fin-Ind-Past-S3-irr adv|back adp|to pron|her-Prs-Gen-S3 noun|friend-Plur .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|ADVMOD 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|4|PUNCT
+*CHI:	(.) and then he got mad at her .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at pron|her-Prs-Gen-S3  .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|XCOMP 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|4|PUNCT
+@End

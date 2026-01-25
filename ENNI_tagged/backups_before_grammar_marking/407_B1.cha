@@ -1,0 +1,27 @@
+@UTF8
+@PID:	11312/c-00036191-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;02.18|male|TD||Target_Child|||
+@Media:	407_B1, audio
+@Comment:	Birth of CHI is 21-NOV-1995
+@Tape Location:	Disk L1 Track 30
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	they're digging and making a sandbox .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|digg-Part-Pres-S cconj|and verb|make-Part-Pres-S det|a-Ind-Art noun|sandbox-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|CC 5|3|CONJ 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	they're mixing up sand .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|mix-Part-Pres-S adp|up noun|sand-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|COMPOUND-PRT 5|3|OBJ 6|3|PUNCT
+*CHI:	now they're dumping it on a sand::castle .
+%mor:	adv|now pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|dump-Part-Pres-S pron|it-Prs-Acc-S3 adp|on det|a-Ind-Art noun|sandcastle .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	now the sand::castle is all broken .
+%mor:	adv|now det|the-Def-Art noun|sandcastle aux|be-Fin-Ind-Pres-S3 adv|all verb|break-Part-Past-S-irr .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ-PASS 4|6|AUX-PASS 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	and now they're fixing it up again .
+%mor:	cconj|and adv|now pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|fix-Part-Pres-S pron|it-Prs-Acc-S3 adp|up adv|again  .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|5|OBJ 7|5|COMPOUND-PRT 8|5|ADVMOD 9|5|PUNCT 10|5|PUNCT
+@End

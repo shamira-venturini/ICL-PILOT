@@ -1,0 +1,28 @@
+@UTF8
+@PID:	11312/c-00036206-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.01|female|TD||Target_Child|||
+@Media:	429_A1, audio
+@Comment:	Birth of CHI is 26-AUG-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 17
+@Types:	cross, narrative, TD
+@G:	A1
+*CHI:	once upon a time there was a [* m:allo] elephant and a giraffe .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
+%gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
+*CHI:	(.) and they all got together .
+%mor:	cconj|and pron|they-Prs-Nom-P3 det|all-Def-Tot verb|get-Fin-Ind-Past-P3-irr adv|together .
+%gra:	1|4|CC 2|4|NSUBJ 3|2|DET 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	(.) and then they falled in the swimming pool .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|fall-Fin-Ind-Past-P3 adp|in det|the-Def-Art noun|swim-Ger noun|pool .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|4|PUNCT
+*CHI:	(.) and then little elephant helped him .
+%mor:	cconj|and adv|then adj|little-S1 noun|elephant verb|help-Fin-Ind-Past-S3 pron|he-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|AMOD 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	(.) and then it was all wet .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all adj|wet-S1  .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|7|ROOT 7|6|PUNCT 8|6|PUNCT
+@End

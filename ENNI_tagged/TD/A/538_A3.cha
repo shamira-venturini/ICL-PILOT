@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/c-00036262-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;04.24|female|TD||Target_Child|||
+@Media:	538_A3, audio
+@Comment:	Birth of CHI is 10-JUL-1995
+@Date:	04-DEC-2000
+@Tape Location:	Disk M6 Track 58
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	once upon a time there was a giraffe and a elephant .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
+%gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
+*CHI:	they were playing with a airplane .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|airplane .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	but the girl stole it away .
+%mor:	cconj|but det|the-Def-Art noun|girl verb|steal-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|away .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*CHI:	but it drowneded [: drowned] [* m:++ed] into the water .
+%mor:	cconj|but pron|it-Prs-Nom-S3 verb|drown-Fin-Ind-Past-S3 adp|into det|the-Def-Art noun|water .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	the giraffe was mad at her .
+%mor:	det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at pron|her-Prs-Acc-S3 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	the elephant came .
+%mor:	det|the-Def-Art noun|elephant verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	she &+w [/] she &+s [/] she said that it was drownding [: drowning] [* p:n] .
+%mor:	pron|she-Prs-Nom-S3 pron|she-Prs-Nom-S3 pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr sconj|that pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|drown-Part-Pres-S .
+%gra:	1|4|NSUBJ 2|4|NSUBJ 3|4|NSUBJ 4|8|ROOT 5|8|MARK 6|8|NSUBJ 7|8|AUX 8|4|CCOMP 9|4|PUNCT
+*CHI:	but the elephant tried to got [//] get it .
+%mor:	cconj|but det|the-Def-Art noun|elephant verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	but she [//] he couldn't .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	he didn't know what to do .
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|know-Inf-S pron|what-Int-S1 part|to verb|do-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|OBJ 6|7|MARK 7|5|ACL 8|4|PUNCT
+*CHI:	so <he hadta> [//] a girl came and had a net .
+%mor:	adv|so det|a-Ind-Art noun|girl verb|come-Fin-Ind-Past-S3-irr cconj|and verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|net-Acc .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|6|CC 6|4|CONJ 7|8|DET 8|6|OBJ 9|4|PUNCT
+*CHI:	she tried to get it out .
+%mor:	pron|she-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|4|COMPOUND-PRT 7|2|PUNCT
+*CHI:	but it didn't work .
+%mor:	cconj|but pron|it-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|work-Inf-S .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	then it did .
+%mor:	adv|then pron|it-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	so he loved that girl .
+%mor:	adv|so pron|he-Prs-Nom-S3 verb|love-Fin-Ind-Past-S3 det|that-Def-Dem-Sing noun|girl-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

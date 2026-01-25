@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036268-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;03.00|male|TD||Target_Child|||
+@Media:	547_A3, audio
+@Comment:	Birth of CHI is 27-MAR-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 34
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	&-um her owie feeled better .
+%mor:	pron|her-Prs-Gen-S3 noun|owie verb|feel-Fin-Ind-Past-S3 adj|good-Cmp-S1 .
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	an(d) [/] and then there was a [* m:allo] airplane .
+%mor:	cconj|and adv|then pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|airplane .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|EXPL 4|6|ROOT 5|6|DET 6|4|NSUBJ 7|4|PUNCT
+*CHI:	(.) an(d) [/] and that was her airplane to fly it . [+ sem]
+%mor:	cconj|and pron|that-Dem aux|be-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|airplane part|to verb|fly-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|NMOD-POSS 5|8|ROOT 6|7|MARK 7|5|ACL 8|7|OBJ 9|5|PUNCT
+*CHI:	then it felled [: fell] [* m:=ed] in the pool .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|pool .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	(.) and then it was starting to sink .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|start-Part-Pres-S part|to verb|sink-Inf-S .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
+*CHI:	woah my stickers fell .
+%mor:	intj|woah pron|my-Prs-Gen-S1 noun|sticker-Plur verb|fall-Fin-Ind-Past-P3-irr .
+%gra:	1|4|DISCOURSE 2|3|NMOD-POSS 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	<oh two of them> [<] !
+%mor:	intj|oh num|two adp|of pron|they-Prs-Acc-P3 !
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|4|CASE 4|2|NMOD 5|2|PUNCT
+*CHI:	&-um and then the airplane almost sinked down .
+%mor:	cconj|and adv|then det|the-Def-Art noun|airplane adv|almost verb|sink-Fin-Ind-Past-S3 adp|down .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|ADVMOD 6|7|ROOT 7|6|COMPOUND-PRT 8|6|PUNCT
+*CHI:	then it was sinking more .
+%mor:	adv|then pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|sink-Part-Pres-S adj|more-Cmp-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and then the man was trying to get it .
+%mor:	cconj|and adv|then det|the-Def-Art noun|man aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|9|ROOT 7|8|MARK 8|6|XCOMP 9|8|OBJ 10|6|PUNCT
+*CHI:	(.) then it would be stuck there .
+%mor:	adv|then pron|it-Prs-Nom-S3 aux|would-Fin-S aux|be-Inf-S adj|stuck-S1 adv|there .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|COP 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	and she [!] will get it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	(.) she got [!] it .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	(..) she even &+ga gave it to the boy .
+%mor:	pron|she-Prs-Nom-S3 adv|even verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|boy .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	(.) and then <that was> [/] that was the giraffe's .
+%mor:	cconj|and adv|then pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|the-Def-Art noun|giraffe~part|s  .
+%gra:	1|8|CC 2|8|ADVMOD 3|8|NSUBJ 4|8|COP 5|6|DET 6|8|NMOD-POSS 7|6|CASE 8|8|ROOT 9|8|PUNCT
+@End

@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/c-00036255-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;08.14|male|TD||Target_Child|||
+@Media:	524_A3, audio
+@Comment:	Birth of CHI is 14-AUG-1994
+@Date:	28-APR-2000
+@Tape Location:	Disk M5 Track 33
+@Types:	cross, narrative, TD
+@G:	A3
+*CHI:	once upon a time he [/] &+s he showed the elephant his airplane .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|he-Prs-Nom-S3 verb|show-Fin-Ind-Past-S3 det|the-Def-Art noun|elephant pron|his-Prs-Gen-S3 noun|airplane-Acc .
+%gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|NSUBJ 6|10|ROOT 7|8|DET 8|6|IOBJ 9|10|NMOD-POSS 10|6|OBJ 11|6|PUNCT
+*CHI:	and then her grabbed it <out of the> [//] out of his hands .
+%mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|grab-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|out adp|of pron|his-Prs-Gen-S3 noun|hand-Plur .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|9|ROOT 5|4|OBJ 6|9|CASE 7|9|CASE 8|9|NMOD-POSS 9|4|OBL 10|4|PUNCT
+*CHI:	and then her dropped it into the water by astake [: mistake] .
+%mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|into det|the-Def-Art noun|water adp|by noun|mistake .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|10|CASE 10|4|OBL 11|4|PUNCT
+*CHI:	and then he got very angry at her .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adv|very adj|angry-S1 adp|at pron|her-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|ADVMOD 6|4|XCOMP 7|8|CASE 8|6|OBL 9|4|PUNCT
+*CHI:	and then the elephant comed and got very angry <at the> [//] &+pi the [/] &-um at the elephant too .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|come-Fin-Ind-Past-S3 cconj|and verb|get-Fin-Ind-Past-S3-irr adv|very adj|angry-S1 adp|at det|the-Def-Art noun|elephant adv|too .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|13|ROOT 6|7|CC 7|5|CONJ 8|9|ADVMOD 9|7|XCOMP 10|12|CASE 11|12|DET 12|9|OBL 13|5|ADVMOD 14|5|PUNCT
+*CHI:	&-uh then he had a [/] a talk .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|talk-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	(.) and then he try and reach it .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 cconj|and verb|reach-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|6|CC 6|4|CONJ 7|6|OBJ 8|4|PUNCT
+*CHI:	an(d) [/] and then he start trying .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Pres-S3 verb|try-Ger-S .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*CHI:	<an(d) then> [/] and then the girl come with the net <got it for> [/] got it for him .
+%mor:	cconj|and adv|then det|the-Def-Art noun|girl verb|come-Fin-Ind-Pres-S3 adp|with det|the-Def-Art noun|net verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|for pron|he-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|12|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|ADVCL 10|9|OBJ 11|12|CASE 12|9|OBL 13|5|PUNCT
+*CHI:	(.) <an(d) then he> [/] <and then he was happy> [//] and he was happy .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	and he hugged his airplane .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|hugge-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|airplane-Acc  .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT 7|3|PUNCT
+@End

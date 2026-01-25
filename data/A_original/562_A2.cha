@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/c-00036280-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;00.01|female|TD||Target_Child|||
+@Media:	562_A2, audio
+@Comment:	Birth of CHI is 23-JAN-1996
+@Date:	24-JAN-2001
+@Tape Location:	Disk L24 , Track 2
+@Types:	cross, narrative, TD
+@G:	A2
+*CHI:	once upon a time a [* m:allo] elephant came along .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time det|a-Ind-Art noun|elephant verb|come-Fin-Ind-Past-S3-irr adv|along .
+%gra:	1|4|CASE 2|4|CASE 3|4|DET 4|7|OBL 5|6|DET 6|7|NSUBJ 7|8|ROOT 8|7|ADVMOD 9|7|PUNCT
+*CHI:	and that [//] then [/] then [/] then +//.
+%mor:	cconj|and adv|then +//.
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	turn the story . [+ exc]
+%mor:	verb|turn-Fin-Imp-S det|the-Def-Art noun|story-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*CHI:	then [/] <then she wanted to> [/] then she wanted to go .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	but [!] she falled [: fell] [* m:=ed] on herself . [+ gram]
+%mor:	cconj|but pron|she-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|on pron|herself-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	and the more she was running she falled [: fell] [* m:=ed] . [+ gram]
+%mor:	cconj|and det|the-Def-Art adj|more-Cmp-S1 pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|run-Part-Pres-S pron|she-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr .
+%gra:	1|8|CC 2|3|DET 3|8|OBJ 4|6|NSUBJ 5|6|AUX 6|3|ACL-RELCL 7|8|NSUBJ 8|8|ROOT 9|8|PUNCT
+*CHI:	and [!] someone's gonna help her .
+%mor:	cconj|and pron|someone-Ind-S1~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|help-Inf-S pron|her-Prs-Acc-S3 .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	and she got a &+br &-um [/] a owie okay .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art det|a-Ind-Art noun|owie-Acc intj|okay .
+%gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|6|DET 5|6|DET 6|3|OBJ 7|3|DISCOURSE 8|3|PUNCT
+*CHI:	<then come along> [//] <elephant came> [//] then the elephant came .
+%mor:	adv|then det|the-Def-Art noun|elephant verb|come-Fin-Ind-Past-S3-irr .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	<and he> [//] and that was a coast .
+%mor:	cconj|and pron|that-Dem aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|coast .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+*CHI:	then there was a owie going .
+%mor:	adv|then pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|owie noun|go-Ger .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|6|ROOT 4|6|DET 5|6|COMPOUND 6|3|NSUBJ 7|3|PUNCT
+*CHI:	<and there was> [//] but then there was nothing to do .
+%mor:	cconj|but adv|then pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr pron|nothing-Neg-S1 part|to verb|do-Inf-S .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|EXPL 4|7|ROOT 5|4|NSUBJ 6|7|MARK 7|5|ACL 8|4|PUNCT
+*CHI:	then the animal was all better .
+%mor:	adv|then det|the-Def-Art noun|animal aux|be-Fin-Ind-Past-S3-irr adv|all adj|good-Cmp-S1 .
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	and he said +"/.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" no running (be)cause if you run you fall on yourself .
+%mor:	det|no-Def-Neg noun|running-Ger sconj|because sconj|if pron|you-Prs-Nom-S2 verb|run-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|fall-Fin-Ind-Pres-S2 adp|on pron|yourself-Prs-Acc-reflx-S2 .
+%gra:	1|2|DET 2|10|ROOT 3|8|MARK 4|6|MARK 5|6|NSUBJ 6|8|ADVCL 7|8|NSUBJ 8|2|ADVCL 9|10|CASE 10|8|OBL 11|2|PUNCT
+*CHI:	I never do that .
+%mor:	pron|I-Prs-Nom-S1 adv|never verb|do-Fin-Ind-Pres-S1 pron|that-Dem .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	I [//] but I run on a sidewalk and I like [/] like while I was two .
+%mor:	cconj|but pron|I-Prs-Nom-S1 verb|run-Fin-Ind-Pres-S1 adp|on det|a-Ind-Art noun|sidewalk cconj|and pron|I-Prs-Nom-S1 verb|like-Fin-Ind-Pres-S1 sconj|while pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr num|two .
+%gra:	1|3|CC 2|3|NSUBJ 3|13|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|9|CC 8|9|NSUBJ 9|3|CONJ 10|13|MARK 11|13|NSUBJ 12|13|COP 13|9|ADVCL 14|3|PUNCT
+@End

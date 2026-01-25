@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/c-00036129-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;05.00|male|SLI||Target_Child|||
+@Media:	572_A1, audio
+@Comment:	Birth of CHI is 10-DEC-1995
+@Date:	10-MAY-2001
+@Tape Location:	Disk M11 , Track 46
+@Types:	cross, narrative, SLI
+@G:	A1
+*CHI:	<the elephant start> [//] <the elephant starts screaming [!] with> [//] what's this thing on oh a trunk [/] trunk .
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|this-Def-Dem-Sing noun|thing-Ger adp|on intj|oh det|a-Ind-Art noun|trunk .
+%gra:	1|8|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|8|CASE 6|8|DISCOURSE 7|8|DET 8|4|NMOD 9|1|PUNCT
+*CHI:	the elephant starts doing with his trunk !
+%mor:	det|the-Def-Art noun|elephant verb|start-Fin-Ind-Pres-S3 verb|do-Ger-S adp|with pron|his-Prs-Gen-S3 noun|trunk !
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|3|XCOMP 5|7|CASE 6|7|NMOD-POSS 7|4|OBL 8|3|PUNCT
+*CHI:	he &+s makes lots of noise .
+%mor:	pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3 noun|lot-Plur-Acc adp|of noun|noise .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|3|NMOD 6|2|PUNCT
+*CHI:	do you know about the elephants ?
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|know-Inf-S adp|about det|the-Def-Art noun|elephant-Plur ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and then they saw a egg in the water swimming .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|egg-Acc adp|in det|the-Def-Art noun|water noun|swim-Ger .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|6|DET 6|4|OBJ 7|10|CASE 8|10|DET 9|10|COMPOUND 10|6|NMOD 11|4|PUNCT
+*CHI:	they wanna pick it up .
+%mor:	pron|they-Prs-Nom-P3 aux|wanna-Fin-S verb|pick-Inf-Ind-Pres-P3 pron|it-Prs-Acc-S3 adp|up .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	the elephant said &-uh &~aah why there's a egg !
+%mor:	det|the-Def-Art noun|elephant verb|say-Fin-Ind-Past-S3-irr adv|why pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|egg !
+%gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|6|ADVMOD 5|6|EXPL 6|3|CCOMP 7|8|DET 8|6|NSUBJ 9|3|PUNCT
+*CHI:	I wanna jump in the water and get it !
+%mor:	pron|I-Prs-Nom-S1 aux|wanna-Fin-S verb|jump-Fin-Ind-Pres-S1 adp|in det|the-Def-Art noun|water cconj|and verb|get-Fin-Ind-Pres-S1 pron|it-Prs-Acc-S3 !
+%gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|8|CC 8|3|CONJ 9|8|OBJ 10|3|PUNCT
+*CHI:	ah [!] the guy swim in the water to catch it !
+%mor:	intj|ah det|the-Def-Art noun|guy verb|swim-Fin-S adp|in det|the-Def-Art noun|water part|to verb|catch-Inf-S pron|it-Prs-Acc-S3 !
+%gra:	1|4|DISCOURSE 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|MARK 9|4|ADVCL 10|9|OBJ 11|4|PUNCT
+*CHI:	and the elephant's doing this [^ makes unknown gesture] !
+%mor:	cconj|and det|the-Def-Art noun|elephant~part|s verb|do-Part-Pres-S pron|this-Dem-S1 !
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|3|CASE 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	and then the guy &-um swim .
+%mor:	cconj|and adv|then det|the-Def-Art noun|guy verb|swim-Fin-Ind-Pres-S3 .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	and he give the thing for the elephant .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|thing-Acc-Ger adp|for det|the-Def-Art noun|elephant .
+%gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	the elephant said wow !
+%mor:	det|the-Def-Art noun|elephant verb|say-Fin-Ind-Past-S3-irr intj|wow !
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|DISCOURSE 5|3|PUNCT
+*CHI:	(.) and then the elephant went away .
+%mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|go-Fin-Ind-Past-S3-irr adv|away .
+%gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/c-00036206-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;10.01|female|TD||Target_Child|||
+@Media:	429_B1, audio
+@Comment:	Birth of CHI is 26-AUG-1995
+@Date:	27-JUN-2000
+@Tape Location:	Disk L19 Track 17
+@Types:	cross, narrative, TD
+@G:	B1
+*CHI:	once upon a time <they were> [/] they were building a sandcastle .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|build-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
+%gra:	1|7|ADVMOD 2|4|CASE 3|4|DET 4|7|OBL 5|7|NSUBJ 6|7|AUX 7|9|ROOT 8|9|DET 9|7|OBJ 10|7|PUNCT
+*CHI:	and then it maked them more .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|make-Fin-Ind-Past-S3 pron|they-Prs-Acc-P3 adj|more-Cmp-S1 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|XCOMP 7|4|PUNCT
+*CHI:	(.) and then they put sand on it .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|put-Fin-Ind-Past-P3-irr noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|OBJ 6|7|CASE 7|4|OBL 8|4|PUNCT
+*CHI:	and then they wanted to make it again .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|6|ADVMOD 9|4|PUNCT
+*CHI:	and then he didn't want to (be)cause he was crying .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|want-Inf-S part|to sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S .
+%gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|11|ROOT 7|6|XCOMP 8|11|MARK 9|11|NSUBJ 10|11|AUX 11|6|ADVCL 12|6|PUNCT
+*CHI:	and that's the end .
+%mor:	cconj|and pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+@End

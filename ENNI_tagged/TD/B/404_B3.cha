@@ -1,0 +1,73 @@
+@UTF8
+@PID:	11312/c-00036188-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|4;07.12|male|TD||Target_Child|||
+@Media:	404_B3, audio
+@Comment:	Birth of CHI is 5-JUL-1995
+@Date:	24-MAR-2000
+@Tape Location:	Disk M1 Track 22
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	they have a balloon tied on to the wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|balloon-Acc verb|tie-Part-Past-S adp|on adp|to det|the-Def-Art noun|wagon .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|4|DET 4|2|OBJ 5|4|ACL 6|5|COMPOUND-PRT 7|9|CASE 8|9|DET 9|5|OBL 10|2|PUNCT
+*CHI:	wagon tied on .
+%mor:	noun|wagon verb|tie-Part-Past-S adp|on .
+%gra:	1|2|NSUBJ-PASS 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*CHI:	they still have it tied on .
+%mor:	pron|they-Prs-Nom-P3 adv|still verb|have-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3 verb|tie-Part-Past-S adp|on .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|6|ROOT 4|3|OBJ 5|3|XCOMP 6|5|COMPOUND-PRT 7|3|PUNCT
+*CHI:	(..) one sticked his tongue out .
+%mor:	num|one verb|stick-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3 noun|tongue-Acc adp|out .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|COMPOUND-PRT 6|2|PUNCT
+*CHI:	g:ross .
+%mor:	adj|gross-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	one [//] the balloon's flying away .
+%mor:	det|the-Def-Art noun|balloon~part|s noun|fly-Ger adv|away .
+%gra:	1|2|DET 2|4|NMOD-POSS 3|2|CASE 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	(..) one's crying .
+%mor:	pron|one-Prs-S3~part|s noun|cry-Ger .
+%gra:	1|3|NMOD-POSS 2|1|CASE 3|3|ROOT 4|3|PUNCT
+*CHI:	they found balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Past-P3-irr noun|balloon-Plur-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they found balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Past-P3-irr noun|balloon-Plur-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and one's going to grab one .
+%mor:	cconj|and pron|one-Prs-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|grab-Inf-S num|one .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	(.) he got <mad> [=! growls] .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	he got mad .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	they all popped up .
+%mor:	pron|they-Prs-Nom-P3 det|all-Def-Tot verb|pop-Fin-Ind-Past-P3 adp|up .
+%gra:	1|3|NSUBJ 2|1|DET 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
+*CHI:	there [//] one got caught .
+%mor:	num|one aux|get-Fin-Ind-Past-S3-irr verb|catch-Part-Past-S-irr .
+%gra:	1|3|NSUBJ-PASS 2|3|AUX-PASS 3|3|ROOT 4|3|PUNCT
+*CHI:	(...) they're leaving .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|leave-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	(..) &=sighs one's smiling .
+%mor:	pron|one-Prs-S3~part|s noun|smile-Ger .
+%gra:	1|3|NMOD-POSS 2|1|CASE 3|3|ROOT 4|3|PUNCT
+*CHI:	(.) &+mm shy .
+%mor:	adj|shy-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	(..) oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	talking about the &+sh picture .
+%mor:	verb|talk-Part-Pres-S adp|about det|the-Def-Art noun|picture .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|PUNCT
+*CHI:	one's shy on the picture .
+%mor:	pron|one-Prs-S3~aux|be-Fin-Ind-Pres-S3 adj|shy-S1 adp|on det|the-Def-Art noun|picture .
+%gra:	1|3|NSUBJ 2|3|COP 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+@End

@@ -1,0 +1,121 @@
+@UTF8
+@PID:	11312/c-00036121-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;10.03|female|SLI||Target_Child|||
+@Media:	527_A3, audio
+@Comment:	Birth of CHI is 22-JUN-1994
+@Date:	25-APR-2000
+@Tape Location:	Disk L10 Track 13
+@Types:	cross, narrative, SLI
+@G:	A3
+*CHI:	horse can be .
+%mor:	noun|horse aux|can-Fin-S aux|be-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	but he wanna talk to her father .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|wanna-Fin-Ind-S3 verb|talk-Inf-S adp|to pron|her-Prs-Gen-S3 noun|father .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|NMOD-POSS 7|4|OBL 8|4|PUNCT
+*CHI:	time again .
+%mor:	noun|time adv|again .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	there's time is swimming pool in the lion and water . [+ sem]
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|time aux|be-Fin-Ind-Pres-S3 noun|swim-Ger noun|pool adp|in det|the-Def-Art noun|lion cconj|and noun|water .
+%gra:	1|2|EXPL 2|11|ROOT 3|2|NSUBJ 4|6|COP 5|6|COMPOUND 6|2|NSUBJ 7|9|CASE 8|9|DET 9|6|NMOD 10|11|CC 11|9|CONJ 12|2|PUNCT
+*CHI:	time elephant's father gave 0obj a special idea . [+ gram]
+%mor:	noun|time noun|elephant~part|s noun|father verb|give-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|special-S1 noun|idea-Acc .
+%gra:	1|2|COMPOUND 2|4|NMOD-POSS 3|2|CASE 4|5|NSUBJ 5|8|ROOT 6|8|DET 7|8|AMOD 8|5|OBJ 9|5|PUNCT
+*CHI:	+" how about we jumped [* m:+ed] in the swimming pool ? [+ gram]
+%mor:	adv|how sconj|about pron|we-Prs-Nom-P1 verb|jump-Fin-Ind-Past-P1 adp|in det|the-Def-Art noun|swim-Ger noun|pool ?
+%gra:	1|8|ROOT 2|4|MARK 3|4|NSUBJ 4|1|ACL 5|8|CASE 6|8|DET 7|8|COMPOUND 8|4|OBL 9|1|PUNCT
+*CHI:	uhoh .
+%mor:	intj|uhoh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<and that is the very and> [//] he can do something about this the airplane .
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S verb|do-Inf-S pron|something-Ind-S1 adp|about pron|this-Dem-S1 det|the-Def-Art noun|airplane-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|8|DET 8|3|OBJ 9|3|PUNCT
+*CHI:	finally he 0v scared . [+ gram]
+%mor:	adv|finally pron|he-Prs-Nom-S3 verb|scare-Fin-Ind-Past-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	the horse said [!] .
+%mor:	det|the-Def-Art noun|horse verb|say-Fin-Ind-Past-S3-irr .
+%gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" you can not [!] bury it all .
+%mor:	pron|you-Prs-Nom-S2 aux|can-Fin-S part|not verb|bury-Inf-S pron|it-Prs-Acc-S3 det|all-Def-Tot .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*CHI:	said her mother +".
+%mor:	verb|say-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|mother-Acc +".
+%gra:	1|3|ROOT 2|3|NMOD-POSS 3|1|OBJ 4|1|PUNCT
+*CHI:	+" you can go into the swimming pool if you want .
+%mor:	pron|you-Prs-Nom-S2 aux|can-Fin-S verb|go-Inf-S adp|into det|the-Def-Art noun|swim-Ger noun|pool sconj|if pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|10|ROOT 4|7|CASE 5|7|DET 6|7|COMPOUND 7|3|OBL 8|10|MARK 9|10|NSUBJ 10|3|ADVCL 11|3|PUNCT
+*CHI:	+" but you can't drop to the airplane . [+ gram]
+%mor:	cconj|but pron|you-Prs-Nom-S2 aux|can-Fin-S~part|not verb|drop-Inf-S adp|to det|the-Def-Art noun|airplane .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	+" I want to pick it up !
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 part|to verb|pick-Inf-S pron|it-Prs-Acc-S3 adp|up !
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|4|COMPOUND-PRT 7|2|PUNCT
+*CHI:	said the elephant +".
+%mor:	verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art noun|elephant-Acc +".
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*CHI:	hey I need to do that said the horse .
+%mor:	intj|hey pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 part|to verb|do-Inf-S pron|that-Dem verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art noun|horse-Acc .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|9|ROOT 4|5|MARK 5|3|XCOMP 6|7|NSUBJ 7|5|ADVCL-RELCL 8|9|DET 9|7|OBJ 10|3|PUNCT
+*CHI:	but he needs to reach it .
+%mor:	cconj|but pron|he-Prs-Nom-S3 verb|need-Fin-Ind-Pres-S3 part|to verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*CHI:	then he needs to reach 0obj . [+ gram]
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|need-Fin-Ind-Pres-S3 part|to verb|reach-Inf-S .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	but he can't reach 0obj at all . [+ gram]
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|reach-Inf-S adp|at det|all-Def-Tot .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*CHI:	it can't do anything to the swimming pool .
+%mor:	pron|it-Prs-Nom-S3 aux|can-Fin-S~part|not verb|do-Inf-S pron|anything-Ind-S1 adp|to det|the-Def-Art noun|swim-Ger noun|pool .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|9|ROOT 5|4|OBJ 6|9|CASE 7|9|DET 8|9|COMPOUND 9|4|OBL 10|4|PUNCT
+*CHI:	and his father grab her hand .
+%mor:	cconj|and pron|his-Prs-Gen-S3 noun|father verb|grab-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 noun|hand-Acc .
+%gra:	1|4|CC 2|3|NMOD-POSS 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	and away they went .
+%mor:	cconj|and adv|away pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	they go home .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adv|home .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	<they took> [/] they took that one and said +"/.
+%mor:	pron|they-Prs-Nom-P3 verb|take-Fin-Ind-Past-P3-irr det|that-Def-Dem-Sing noun|one-Acc cconj|and verb|say-Fin-Ind-Past-P3-irr +"/.
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|DET 4|2|OBJ 5|6|CC 6|2|CONJ 7|2|PUNCT
+*CHI:	+" when are you going ?
+%mor:	adv|when aux|be-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|go-Part-Pres-S ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	his mother said +"/.
+%mor:	pron|his-Prs-Gen-S3 noun|mother verb|say-Fin-Ind-Past-S3-irr +"/.
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	+" to my grandma [* m:0's] house . [+ gram]
+%mor:	adp|to pron|my-Prs-Gen-S1 noun|grandma noun|house .
+%gra:	1|4|CASE 2|4|NMOD-POSS 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*CHI:	+" <but I have> [/] but I have [!] to catch it .
+%mor:	cconj|but pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 part|to verb|catch-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
+*CHI:	she said +".
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +".
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	+" here you go .
+%mor:	adv|here pron|you-Prs-Nom-S2 verb|go-Fin-Ind-Pres-S2 .
+%gra:	1|3|ROOT 2|3|NSUBJ 3|1|ADVCL-RELCL 4|1|PUNCT
+*CHI:	said elephant's mother +".
+%mor:	verb|say-Fin-Ind-Past-S3-irr noun|elephant~part|s noun|mother-Acc +".
+%gra:	1|4|ROOT 2|4|NMOD-POSS 3|2|CASE 4|1|OBJ 5|1|PUNCT
+*CHI:	+" I will touch it .
+%mor:	pron|I-Prs-Nom-S1 aux|will-Fin-S verb|touch-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	said the elephant +".
+%mor:	verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art noun|elephant-Acc +".
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*CHI:	and it could very soon 0v . [+ gram]
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|could-Fin-S adv|very adv|soon .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*CHI:	and 0subj lived happily ever after . [+ gram]
+%mor:	cconj|and verb|live-Fin-Ind-Past-S1 adv|happily adv|ever adp|after  .
+%gra:	1|2|CC 2|6|ROOT 3|2|ADVMOD 4|2|ADVMOD 5|6|CASE 6|2|OBL 7|2|PUNCT
+@End

@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/c-00036264-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ENNI|CHI|5;10.25|male|TD||Target_Child|||
+@Media:	541_B3, audio
+@Comment:	Birth of CHI is 11-JUL-1994
+@Date:	05-JUN-2000
+@Tape Location:	Disk L15 Track 79
+@Types:	cross, narrative, TD
+@G:	B3
+*CHI:	the rabbit meets the kangaroo one day .
+%mor:	det|the-Def-Art noun|rabbit verb|meet-Fin-Ind-Pres-S3 det|the-Def-Art noun|kangaroo-Acc num|one noun|day .
+%gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|NUMMOD 7|3|OBL-UNMARKED 8|3|PUNCT
+*CHI:	and the kangaroo has a [/] a wagon .
+%mor:	cconj|and det|the-Def-Art noun|kangaroo verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|wagon-Acc .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	<and the rabbit ties a> [//] &+balloo and the rabbit sees a balloon on the wagon .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|see-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon-Acc adp|on det|the-Def-Art noun|wagon .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*CHI:	and he takes it off .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|off .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
+*CHI:	and the balloon flies away .
+%mor:	cconj|and det|the-Def-Art noun|balloon verb|fly-Fin-Ind-Pres-S3 adv|away .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and now the rabbit's mad I meant the kangaroo .
+%mor:	cconj|and adv|now det|the-Def-Art noun|rabbit~aux|be-Fin-Ind-Pres-S3 adj|mad-S1 pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Past-S1-irr det|the-Def-Art noun|kangaroo-Acc .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|10|ROOT 7|8|NSUBJ 8|6|PARATAXIS 9|10|DET 10|8|OBJ 11|6|PUNCT
+*CHI:	and a balloon man comes <and gets some> [//] &+mo and has some more balloons .
+%mor:	cconj|and det|a-Ind-Art noun|balloon noun|man verb|come-Fin-Ind-Pres-S3 cconj|and verb|have-Fin-Ind-Pres-S3 det|some-Def-Ind adj|more-Cmp-S1 noun|balloon-Plur-Acc .
+%gra:	1|5|CC 2|4|DET 3|4|COMPOUND 4|5|NSUBJ 5|10|ROOT 6|7|CC 7|5|CONJ 8|10|DET 9|10|AMOD 10|7|OBJ 11|5|PUNCT
+*CHI:	<and the balloon> [//] and the rabbit asks for a balloon .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|ask-Fin-Ind-Pres-S3 adp|for det|a-Ind-Art noun|balloon .
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	and he pays [!] the man .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|pay-Fin-Ind-Pres-S3 det|the-Def-Art noun|man-Acc .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	and [/] and [//] but he couldn't pay him (be)cause he didn't have a &+m [//] that much money .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|pay-Inf-S pron|he-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S det|a-Ind-Art det|that-Def-Dem-Sing adj|much-S1 noun|money-Acc .
+%gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|15|ROOT 6|5|OBJ 7|11|MARK 8|11|NSUBJ 9|11|AUX 10|11|ADVMOD 11|5|ADVCL 12|15|DET 13|15|DET 14|15|AMOD 15|11|OBJ 16|5|PUNCT
+*CHI:	so he didn't get the balloon back .
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|get-Inf-S det|the-Def-Art noun|balloon-Acc adv|back .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|7|DET 7|5|OBJ 8|5|ADVMOD 9|5|PUNCT
+*CHI:	and [/] <and the rabbit's mom comes by and buys> [/] and [/] and the rabbit's mom comes by and buys a balloon .
+%mor:	cconj|and det|the-Def-Art noun|rabbit~part|s noun|mom verb|come-Fin-Ind-Pres-S3 adp|by cconj|and verb|buy-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon-Acc .
+%gra:	1|6|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|6|NSUBJ 6|11|ROOT 7|6|ADVMOD 8|9|CC 9|6|CONJ 10|11|DET 11|9|OBJ 12|6|PUNCT
+*CHI:	and the balloon and the rabbit and the kangaroo are happy .
+%mor:	cconj|and det|the-Def-Art noun|balloon cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art noun|kangaroo aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%gra:	1|11|CC 2|3|DET 3|11|NSUBJ 4|6|CC 5|6|DET 6|3|CONJ 7|9|CC 8|9|DET 9|6|CONJ 10|11|COP 11|11|ROOT 12|11|PUNCT
+*CHI:	and now they both [!] have a balloon .
+%mor:	cconj|and adv|now pron|they-Prs-Nom-P3 det|both-Def-Tot verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|balloon-Acc  .
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|3|DET 5|8|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT 9|5|PUNCT
+@End
