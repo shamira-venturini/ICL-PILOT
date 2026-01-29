@@ -28,22 +28,22 @@
 *CHI:	they wanna pick it up .
 %mor:	pron|they-Prs-Nom-P3 aux|wanna-Fin-S verb|pick-Inf-Ind-Pres-P3 pron|it-Prs-Acc-S3 adp|up .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
-*CHI:	the elephant said &-uh &~aah why there's a egg !
+*CHI:	the elephant said &-uh &~aah why there's a [* m:allo] egg ! [+ gram]
 %mor:	det|the-Def-Art noun|elephant verb|say-Fin-Ind-Past-S3-irr adv|why pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|egg !
 %gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|6|ADVMOD 5|6|EXPL 6|3|CCOMP 7|8|DET 8|6|NSUBJ 9|3|PUNCT
 *CHI:	I wanna jump in the water and get it !
 %mor:	pron|I-Prs-Nom-S1 aux|wanna-Fin-S verb|jump-Fin-Ind-Pres-S1 adp|in det|the-Def-Art noun|water cconj|and verb|get-Fin-Ind-Pres-S1 pron|it-Prs-Acc-S3 !
 %gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|8|CC 8|3|CONJ 9|8|OBJ 10|3|PUNCT
-*CHI:	ah [!] the guy swim in the water to catch it !
+*CHI:	ah [!] the guy swim [* m:03s:a] in the water to catch it ! [+ gram]
 %mor:	intj|ah det|the-Def-Art noun|guy verb|swim-Fin-S adp|in det|the-Def-Art noun|water part|to verb|catch-Inf-S pron|it-Prs-Acc-S3 !
 %gra:	1|4|DISCOURSE 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|MARK 9|4|ADVCL 10|9|OBJ 11|4|PUNCT
 *CHI:	and the elephant's doing this [^ makes unknown gesture] !
 %mor:	cconj|and det|the-Def-Art noun|elephant~part|s verb|do-Part-Pres-S pron|this-Dem-S1 !
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|3|CASE 5|6|ROOT 6|5|OBJ 7|5|PUNCT
-*CHI:	and then the guy &-um swim .
+*CHI:	and then the guy &-um swim [* m:03s:a] . [+ gram]
 %mor:	cconj|and adv|then det|the-Def-Art noun|guy verb|swim-Fin-Ind-Pres-S3 .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
-*CHI:	and he give the thing for the elephant .
+*CHI:	and he give [* m:03s:a] the thing for the elephant . [+ gram]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|thing-Acc-Ger adp|for det|the-Def-Art noun|elephant .
 %gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
 *CHI:	the elephant said wow !

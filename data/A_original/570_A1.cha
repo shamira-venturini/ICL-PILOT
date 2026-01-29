@@ -22,7 +22,7 @@
 *CHI:	the giraffe is getting 0in the water . [+ sem]
 %mor:	det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S det|the-Def-Art noun|water-Acc .
 %gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	now the giraffe give [* m:03s] the ball to the elephant . [+ gram]
+*CHI:	now the giraffe give [* m:03s:a] the ball to the elephant . [+ gram]
 %mor:	adv|now det|the-Def-Art noun|giraffe verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc adp|to det|the-Def-Art noun|elephant .
 %gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
 *CHI:	the giraffe is happy and the elephant too .

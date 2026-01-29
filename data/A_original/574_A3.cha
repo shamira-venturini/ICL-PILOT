@@ -46,13 +46,13 @@
 *CHI:	<and the> [//] and <the other> [//] the girl elephant &-um got a thing to get it out .
 %mor:	cconj|and det|the-Def-Art noun|girl noun|elephant verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|thing-Acc-Ger part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out .
 %gra:	1|5|CC 2|4|DET 3|4|COMPOUND 4|5|NSUBJ 5|11|ROOT 6|7|DET 7|5|OBJ 8|9|MARK 9|7|ACL 10|9|OBJ 11|9|COMPOUND-PRT 12|5|PUNCT
-*CHI:	and tried to get it .
+*CHI:	and 0subj tried to get it . [+ gram]
 %mor:	cconj|and verb|try-Fin-Ind-Past-S1 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|CC 2|5|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|2|PUNCT
-*CHI:	and then her can [!] do it .
+*CHI:	and then her [* s:r:gc:pro] can [!] do it . [+ gram]
 %mor:	cconj|and adv|then pron|her-Prs-Nom-S3 aux|can-Fin-S verb|do-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|6|ROOT 6|5|OBJ 7|5|PUNCT
-*CHI:	and then her got [!] it .
+*CHI:	and then her [* s:r:gc:pro] got [!] it . [+ gram]
 %mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	and then the horse was so happy .

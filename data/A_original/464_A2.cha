@@ -10,7 +10,7 @@
 @Tape Location:	Disk L27 , Track 9
 @Types:	cross, narrative, TD
 @G:	A2
-*CHI:	&-um he had a backpack .
+*CHI:	&-um he had  a backpack .
 %mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|backpack-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	he was trying to get the backpack .
@@ -28,7 +28,7 @@
 *CHI:	and he was angry .
 %mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|angry-S1 .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
-*CHI:	and [/] and then he got a bandaid .
+*CHI:	and [/] and then he got  a bandaid .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandaid-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	and then it was better .

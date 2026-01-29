@@ -23,6 +23,6 @@
 %mor:	pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
 *CHI:	and the elephant gave him a new ball .
-%mor:	cconj|and det|the-Def-Art noun|elephant verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 det|a-Ind-Art adj|new-S1 noun|ball-Acc  .
+%mor:	cconj|and det|the-Def-Art noun|elephant verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 det|a-Ind-Art adj|new-S1 noun|ball-Acc .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|4|IOBJ 6|8|DET 7|8|AMOD 8|4|OBJ 9|4|PUNCT 10|4|PUNCT
 @End

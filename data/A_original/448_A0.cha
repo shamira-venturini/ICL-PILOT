@@ -10,7 +10,6 @@
 @Tape Location:	Disk L25 , Track 52
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
 *CHI:	what ?
 %mor:	pron|what-Int-S1 ?
 %gra:	1|1|ROOT 2|1|PUNCT
@@ -23,7 +22,7 @@
 *CHI:	once upon a time there was a boy named Michael walking down the street going into a supermarket to buy stuff .
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|boy verb|name-Part-Past-S propn|Michael verb|walk-Ger-S adp|down det|the-Def-Art noun|street verb|go-Part-Pres-S adp|into det|a-Ind-Art noun|supermarket part|to verb|buy-Inf-S noun|stuff-Acc .
 %gra:	1|6|MARK 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|21|ROOT 7|8|DET 8|6|NSUBJ 9|8|ACL 10|9|XCOMP 11|9|XCOMP 12|14|CASE 13|14|DET 14|11|OBL 15|9|ADVCL 16|18|CASE 17|18|DET 18|15|OBL 19|20|MARK 20|15|ADVCL 21|20|OBJ 22|6|PUNCT
-*CHI:	then bought some potatoes .
+*CHI:	then 0subj bought some potatoes . [+ 0subj]
 %mor:	adv|then verb|buy-Fin-Ind-Past-S3-irr det|some-Def-Ind noun|potato-Plur-Acc .
 %gra:	1|2|ADVMOD 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	and the whole pile fell down !

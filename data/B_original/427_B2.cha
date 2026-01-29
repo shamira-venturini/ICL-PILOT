@@ -9,28 +9,28 @@
 @Tape Location:	Disk L8 Track 34
 @Types:	cross, narrative, SLI
 @G:	B2
-*CHI:	is going .
+*CHI:	0subj is going . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S .
 %gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
-*CHI:	<is eating> [/] is eating .
+*CHI:	0subj <is eating> [/] is eating . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S .
 %gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
-*CHI:	&+dr is eating sandwich .
+*CHI:	&+dr 0subj is eating 0det sandwich . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S noun|sandwich-Acc .
 %gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	is drinking [/] drinking juice .
+*CHI:	0subj is drinking [/] drinking juice . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|drink-Part-Pres-S noun|juice .
 %gra:	1|3|COP 2|3|AMOD 3|3|ROOT 4|3|PUNCT
-*CHI:	is dot^ger [: doctor] [* p:n] .
+*CHI:	0subj is dot^ger [: doctor] [* p:n] . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 noun|doctor .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
-*CHI:	is moving .
+*CHI:	0subj is moving . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|move-Part-Pres-S .
 %gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
-*CHI:	is &+hur hurt ears .
+*CHI:	0subj is &+hur hurt ears . [+ sem]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr noun|ear-Plur .
 %gra:	1|3|COP 2|3|AMOD 3|3|ROOT 4|3|PUNCT
-*CHI:	say goodbye .
+*CHI:	0subj say goodbye . [+ gram]
 %mor:	verb|say-Fin-Imp-S noun|goodbye-Acc .
 %gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	the end .

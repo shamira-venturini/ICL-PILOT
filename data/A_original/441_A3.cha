@@ -28,7 +28,7 @@
 *CHI:	(..) an(d) &-hm the elephant's mad .
 %mor:	cconj|and det|the-Def-Art noun|elephant~part|s noun|mad .
 %gra:	1|5|CC 2|3|DET 3|5|NMOD-POSS 4|3|CASE 5|5|ROOT 6|5|PUNCT
-*CHI:	(.) and she [/] &+s she said to her dad that [/] that [/] that I sinked his airplane .
+*CHI:	(.) and she [/] &+s she said to her dad that [/] that [/] that I sinked [* m:=ed] his airplane . [+ gram]
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adp|to pron|her-Prs-Gen-S3 noun|dad sconj|that pron|I-Prs-Nom-S1 verb|sink-Fin-Ind-Past-S1 pron|his-Prs-Gen-S3 noun|airplane-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|11|ROOT 4|6|CASE 5|6|NMOD-POSS 6|3|OBL 7|9|MARK 8|9|NSUBJ 9|3|CCOMP 10|11|NMOD-POSS 11|9|OBJ 12|3|PUNCT
 *CHI:	and the dad's trying to get it .

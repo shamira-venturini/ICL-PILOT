@@ -49,6 +49,6 @@
 %mor:	pron|you-Prs-Gen-S2 adj|naughty-S1 adj|little-S1 noun|boy .
 %gra:	1|4|NSUBJ 2|4|AMOD 3|4|AMOD 4|4|ROOT 5|4|PUNCT
 *CHI:	then the rabbit went with his mommy back home .
-%mor:	adv|then det|the-Def-Art noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|with pron|his-Prs-Gen-S3 noun|mommy adv|back noun|home  .
+%mor:	adv|then det|the-Def-Art noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|with pron|his-Prs-Gen-S3 noun|mommy adv|back noun|home .
 %gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|10|ROOT 5|7|CASE 6|7|NMOD-POSS 7|4|OBL 8|4|ADVMOD 9|4|OBL-UNMARKED 10|4|PUNCT 11|4|PUNCT
 @End

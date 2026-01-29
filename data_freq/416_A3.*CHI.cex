@@ -1,0 +1,17 @@
+freq +s"\[\* *\]" +f*CHI
+Wed Jan 28 16:46:49 2026
+freq (29-Jul-2025) is conducting analyses on:
+  ALL speaker tiers
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/A_original/416_A3.cha>
+Speaker: *CHI:
+  1 [* s:r:gc:pro]
+  1 [* s:u]
+------------------------------
+    2  Total number of different item types used
+    2  Total number of items (tokens)
+1.000  Type/Token ratio
+    This TTR number was not calculated on the basis of %mor line forms.
+    If you want a TTR based on lemmas, run FREQ on the %mor line
+    with option: +sm;*,o%
+

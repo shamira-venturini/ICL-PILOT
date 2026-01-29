@@ -10,16 +10,16 @@
 @Tape Location:	Disk L10 Track 30
 @Types:	cross, narrative, SLI
 @G:	A2
-*CHI:	&-uh going (s)wimming [?] .
+*CHI:	&-uh 0subj going (s)wimming [?] . [+ gram]
 %mor:	verb|go-Part-Pres-S noun|swim-Acc-Ger .
 %gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	&-uh swimming [?] .
 %mor:	noun|swim-Ger .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	&-uh went play .
+*CHI:	&-uh 0subj went play . [+ gram]
 %mor:	verb|go-Fin-Ind-Past-S1-irr noun|play-Acc .
 %gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
-*CHI:	&-uh jump in pool .
+*CHI:	&-uh 0subj jump in pool . [+ gram]
 %mor:	verb|jump-Fin-Imp-S adp|in noun|pool .
 %gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
 *CHI:	&-uh ow .
@@ -28,7 +28,7 @@
 *CHI:	(..) &-uh bandaid .
 %mor:	noun|bandaid .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	&-uh go back (h)ome .
+*CHI:	&-uh 0subj go back (h)ome . [+ gram]
 %mor:	verb|go-Fin-Imp-S adv|back adv|home .
 %gra:	1|3|ROOT 2|1|ADVMOD 3|1|ADVMOD 4|1|PUNCT
 *CHI:	&-uh tea with mom .

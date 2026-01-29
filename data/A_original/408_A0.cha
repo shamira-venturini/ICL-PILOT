@@ -10,11 +10,10 @@
 @Tape Location:	Disk M1 Track 43
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
 *CHI:	yes .
 %mor:	intj|yes .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	a kid going to buy something .
+*CHI:	a kid 0aux going to buy something . [+ gram]
 %mor:	det|a-Ind-Art noun|kid verb|go-Ger-S part|to verb|buy-Inf-S pron|something-Ind-S1 .
 %gra:	1|2|DET 2|6|ROOT 3|2|ACL 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|2|PUNCT
 *CHI:	xxx buy juice I think &-um to buy a cookie or something .

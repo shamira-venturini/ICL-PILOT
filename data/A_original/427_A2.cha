@@ -9,40 +9,40 @@
 @Tape Location:	Disk L8 Track 34
 @Types:	cross, narrative, SLI
 @G:	A2
-*CHI:	is going swimming .
+*CHI:	0subj is going swimming . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S noun|swim-Acc-Ger .
 %gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	is running .
+*CHI:	0subj is running . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S .
 %gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
-*CHI:	is going down .
+*CHI:	0subj is going down . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adv|down .
 %gra:	1|2|AUX 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
-*CHI:	is slippery .
+*CHI:	0subj is slippery . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 adj|slippery-S1 .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
-*CHI:	is ow [/] owie .
+*CHI:	0subj is ow [/] owie . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 adj|owie-S1 .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
-*CHI:	is hurt .
+*CHI:	0subj is hurt . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr .
 %gra:	1|2|AUX-PASS 2|2|ROOT 3|2|PUNCT
-*CHI:	is crying .
+*CHI:	0subj is crying . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
-*CHI:	there the doctor .
+*CHI:	there 0v the doctor . [+ gram]
 %mor:	pron|there-Dem-S1 det|the-Def-Art noun|doctor .
 %gra:	1|3|ROOT 2|3|DET 3|1|NSUBJ 4|1|PUNCT
-*CHI:	&-um (be)cause he was crying (be)cause sad .
+*CHI:	&-um (be)cause he was crying (be)cause 0subj 0v sad . [+ 0subj]
 %mor:	sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S sconj|because adj|sad-S1 .
 %gra:	1|4|MARK 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|MARK 6|4|ADVCL 7|4|PUNCT
-*CHI:	<now is> [/] now is not hurt .
+*CHI:	<now is> [/] now 0subj is not hurt . [+ 0subj]
 %mor:	adv|now aux|be-Fin-Ind-Pres-S3 part|not verb|hurt-Part-Past-S-irr .
 %gra:	1|4|ADVMOD 2|4|AUX-PASS 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
-*CHI:	is mad .
+*CHI:	0subj is mad . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
-*CHI:	go away .
+*CHI:	0subj go away . [+ 0subj]
 %mor:	verb|go-Fin-Imp-S adv|away .
 %gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
 *CHI:	the end .

@@ -9,7 +9,7 @@
 @Tape Location:	Disk M5 , Track 16
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	he found <a [* m:allo] airplane> [//] a toy airplane .
+*CHI:	he found <a [* m:allo] airplane> [//] a toy airplane . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|find-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|toy noun|airplane-Acc .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|5|DET 4|5|COMPOUND 5|2|OBJ 6|2|PUNCT
 *CHI:	then he was playing with it .

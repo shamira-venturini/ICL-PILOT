@@ -9,40 +9,40 @@
 @Tape Location:	Disk L8 Track 34
 @Types:	cross, narrative, SLI
 @G:	B3
-*CHI:	is have balloon .
+*CHI:	0subj is have balloon . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|have-Inf-S noun|balloon-Acc .
 %gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	balloon that a big .
+*CHI:	balloon that a big . [+ sem]
 %mor:	noun|balloon pron|that-Rel det|a-Ind-Art adj|big-S1 .
 %gra:	1|4|ROOT 2|4|NSUBJ 3|4|DET 4|1|ACL-RELCL 5|1|PUNCT
 *CHI:	it's fun .
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|fun-S1 .
 %gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
-*CHI:	is &=um take it .
+*CHI:	0subj is &=um take it . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|take-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	can't do it .
+*CHI:	0subj can't do it . [+ gram]
 %mor:	aux|can-Fin-S~part|not verb|do-Fin-Imp-S pron|it-Prs-Acc-S3 .
 %gra:	1|3|AUX 2|3|ADVMOD 3|4|ROOT 4|3|OBJ 5|3|PUNCT
-*CHI:	it's &+g going up to s::ky .
+*CHI:	it's &+g going up to 0det s::ky . [+ gram]
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|up adp|to noun|sky .
 %gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|COMPOUND-PRT 5|6|CASE 6|3|OBL 7|3|PUNCT
-*CHI:	is [/] is go go go high .
+*CHI:	0subj is [/] is go go go [* m:0ing] high . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|go-Inf-S verb|go-Inf-Imp-S verb|go-Inf-Imp-S adj|high-S1 .
 %gra:	1|2|AUX 2|5|ROOT 3|2|XCOMP 4|2|XCOMP 5|4|XCOMP 6|2|PUNCT
 *CHI:	hopper [?] lost the balloon .
 %mor:	noun|hopper verb|lose-Fin-Ind-Past-S3-irr det|the-Def-Art noun|balloon-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
-*CHI:	is mad .
+*CHI:	0subj is mad . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
-*CHI:	he's want the balloon .
+*CHI:	he's want  the balloon .
 %mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|want-Inf-S det|the-Def-Art noun|balloon-Acc .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	it's five dollars .
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 num|five noun|dollar-Plur .
 %gra:	1|4|NSUBJ 2|4|COP 3|4|NUMMOD 4|4|ROOT 5|4|PUNCT
-*CHI:	is [/] is [//] balloon is hold it .
+*CHI:	0subj is [/] is [//] balloon is hold [* m:0ing] it . [+ gram]
 %mor:	noun|balloon aux|be-Fin-Ind-Pres-S3 verb|hold-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	is here that dot^ger [: doctor] [* p:n] .
@@ -51,7 +51,7 @@
 *CHI:	here balloon .
 %mor:	adv|here noun|balloon .
 %gra:	1|2|ROOT 2|1|NSUBJ 3|1|PUNCT
-*CHI:	is say thank you .
+*CHI:	0subj is say [* m:0ing] thank you . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 intj|say verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
 %gra:	1|3|COP 2|3|DISCOURSE 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	balloon is happy .

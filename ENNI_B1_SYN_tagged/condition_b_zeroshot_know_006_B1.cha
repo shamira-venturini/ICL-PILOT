@@ -1,0 +1,89 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0det rabbit and 0det doggie play . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie noun|play .
+%gra:	1|4|COMPOUND 2|4|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
+*CHI:	they use big sticks [* s:ur] to make 0det sand . [+ sem]
+%mor:	pron|they-Prs-Nom-P3 verb|use-Fin-Ind-Pres-P3 adj|big-S1 noun|stick-Plur-Acc part|to verb|make-Inf-S noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|AMOD 4|2|OBJ 5|6|MARK 6|2|ADVCL 7|6|OBJ 8|2|PUNCT
+*CHI:	they wanna make 0det big sand house [* s:r] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|wanna-Fin-Ind-Pres-P3 verb|make-Fin-Ind-Pres-P3 adj|big-S1 noun|sand noun|house-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|AMOD 5|6|COMPOUND 6|3|OBJ 7|3|PUNCT
+*CHI:	they 0aux <worky [: working] [* p:w]> [/] worky ! [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|worky-Fin-Ind-Pres-P3 !
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det doggie <pat> [* m:03s:a] [/] pat sand . [+ gram]
+%mor:	noun|doggie noun|pat noun|sand .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	0subj make it strong . [+ 0subj] [+ gram]
+%mor:	verb|make-Fin-Imp-S pron|it-Prs-Acc-S3 adj|strong-S1 .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*CHI:	0det rabbit <dig> [* m:03s:a] [/] dig sand . [+ gram]
+%mor:	noun|rabbit verb|dig-Inf-S noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0subj get more sand . [+ 0subj] [+ gram]
+%mor:	verb|get-Fin-Imp-S adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|ROOT 2|3|AMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	then rabbit do [* m:unv:a] [* s:r] boo_boo [* s:r] . [+ gram]
+%mor:	adv|then noun|rabbit verb|do-Fin-Ind-Pres-S3 noun|booboo-Acc .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	he drop [* m:03s:a] all 0det sand . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|drop-Fin-Ind-Pres-S3 det|all-Def-Tot noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	0det castle fall [* m:03s:a] down ! [+ gram]
+%mor:	noun|castle noun|fall adv|down !
+%gra:	1|2|COMPOUND 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det doggie 0v sad . [+ gram]
+%mor:	noun|doggie adj|sad-S1 .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det doggie cry [* m:03s:a] . [+ gram]
+%mor:	noun|doggie noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabbit feel [* m:03s:a] sad too . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Ind-Pres-S adj|sad-S1 adv|too .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|XCOMP 4|2|ADVMOD 5|2|PUNCT
+*CHI:	0det rabbit go [* m:03s:a] [* s:r] +"/. [+ gram]
+%mor:	noun|rabbit noun|go +"/.
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	+" oops@i !
+%mor:	intj|oop !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	+" sorry !
+%mor:	adj|sorry-S1 !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	0det doggie say [* m:03s:a] +"/. [+ gram]
+%mor:	noun|doggie verb|say-Fin-Imp-S +"/.
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	+" it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	0det rabbit go [* m:03s:a] [* s:r] +"/. [+ gram]
+%mor:	noun|rabbit noun|go +"/.
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	+" i wanna fix it !
+%mor:	pron|I-Prs-Nom-S1 aux|wanna-Fin-S verb|fix-Inf-S pron|it-Prs-Acc-S3 !
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	0det rabbit <pat> [* m:03s:a] [/] pat sand . [+ gram]
+%mor:	noun|rabbit noun|pat noun|sand .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	0subj make it better . [+ 0subj] [+ gram]
+%mor:	verb|make-Fin-Imp-S pron|it-Prs-Acc-S3 adj|good-Cmp-S1 .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*CHI:	they say +"/.
+%mor:	pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Pres-P3 +"/.
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	+" let's make 0det new one ! [+ gram]
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|make-Inf-S adj|new-S1 noun|one-Acc !
+%gra:	1|5|ROOT 2|1|OBJ 3|1|XCOMP 4|5|AMOD 5|3|OBJ 6|1|PUNCT
+*CHI:	they 0aux <worky [: working] [* m:0ing]> [/] worky again ! [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|worky-Fin-Ind-Pres-P3 adv|again !
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det rabbit and 0det doggie 0v happy ! [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie adj|happy-S1 !
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
+@End

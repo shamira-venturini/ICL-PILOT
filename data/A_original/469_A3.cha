@@ -10,13 +10,13 @@
 @Tape Location:	Disk L28 Track 47
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	elephant is excited to see what the giraffe has .
+*CHI:	0det elephant is excited to see what the giraffe has . [+ gram]
 %mor:	noun|elephant aux|be-Fin-Ind-Pres-S3 verb|excite-Part-Past-S part|to verb|see-Inf-S pron|what-Rel-S1 det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Pres-S3 .
 %gra:	1|3|NSUBJ-PASS 2|3|AUX-PASS 3|9|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|8|DET 8|9|NSUBJ 9|6|ACL-RELCL 10|3|PUNCT
-*CHI:	and then he tries to throw it up into the air .
+*CHI:	and then he tries to throw it up  into the air .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 part|to verb|throw-Inf-S pron|it-Prs-Acc-S3 adp|up adp|into det|the-Def-Art noun|air .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|11|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|6|COMPOUND-PRT 9|11|CASE 10|11|DET 11|6|OBL 12|4|PUNCT
-*CHI:	and then the elephant grabs it away .
+*CHI:	and then the elephant grabs it away  .
 %mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|grab-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|away .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|5|OBJ 7|5|ADVMOD 8|5|PUNCT
 *CHI:	and then it sinks into the water .
@@ -43,7 +43,7 @@
 *CHI:	and she gets it out .
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adp|out .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|PUNCT
-*CHI:	and she gives it back to the giraffe .
+*CHI:	and she gives it back  to the giraffe .
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|back adp|to det|the-Def-Art noun|giraffe .
 %gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|3|OBJ 5|3|ADVMOD 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
 *CHI:	and then he hugs it .

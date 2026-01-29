@@ -10,7 +10,7 @@
 @Tape Location:	Disk M3 Track 2
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	once upon a time there was a [* m:allo] elephant named Emily .
+*CHI:	once upon a time there was a [* m:allo] elephant named Emily . [+ gram]
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant verb|name-Part-Past-S propn|Emily .
 %gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|10|ROOT 7|8|DET 8|6|NSUBJ 9|8|ACL 10|9|XCOMP 11|6|PUNCT
 *CHI:	(.) and John asked her if she wanted to go swimming .
@@ -26,6 +26,6 @@
 %mor:	cconj|but pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S part|to verb|sink-Inf-S .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
 *CHI:	(.) he was so wet that Emily didn't like him any more .
-%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|wet-S1 sconj|that propn|Emily aux|do-Fin-Ind-Past-S3-irr~part|not verb|like-Inf-S pron|he-Prs-Acc-S3 det|any-Def-Ind adj|more-Cmp-S1  .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|wet-S1 sconj|that propn|Emily aux|do-Fin-Ind-Past-S3-irr~part|not verb|like-Inf-S pron|he-Prs-Acc-S3 det|any-Def-Ind adj|more-Cmp-S1 .
 %gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|13|ROOT 5|9|MARK 6|9|NSUBJ 7|9|AUX 8|9|ADVMOD 9|4|CCOMP 10|9|OBJ 11|12|DET 12|9|ADVMOD 13|4|PUNCT 14|4|PUNCT
 @End

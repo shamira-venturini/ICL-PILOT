@@ -31,22 +31,22 @@
 *CHI:	&-uh bad bad girl .
 %mor:	adj|bad-S1 adj|bad-S1 noun|girl .
 %gra:	1|3|AMOD 2|3|AMOD 3|3|ROOT 4|3|PUNCT
-*CHI:	&-uh no reach it .
+*CHI:	&-uh 0subj 0aux no reach it . [+ gram]
 %mor:	det|no-Def-Neg noun|reach pron|it-Prs-Acc-S3 .
 %gra:	1|2|DET 2|3|ROOT 3|2|PUNCT 4|2|PUNCT
 *CHI:	&-uh in water .
 %mor:	adp|in noun|water .
 %gra:	1|2|CASE 2|2|ROOT 3|2|PUNCT
-*CHI:	mom [!] get it .
+*CHI:	mom [!] get [* m:03s:a] it . [+ gram]
 %mor:	noun|mom verb|get-Fin-Imp-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	mom reach it .
+*CHI:	mom reach [* m:03s:a] it . [+ gram]
 %mor:	noun|mom verb|reach-Fin-Imp-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	<and back> [/] and back (h)ome .
 %mor:	cconj|and adv|back adv|home .
 %gra:	1|3|CC 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
-*CHI:	and it go away [?] .
+*CHI:	and it go [* m:unv:a] away [?] . [+ gram]
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|away .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
 *CHI:	all done .

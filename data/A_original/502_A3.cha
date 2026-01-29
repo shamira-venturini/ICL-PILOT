@@ -25,7 +25,7 @@
 *CHI:	and the elephant <throw it> [//] threw it &+o in the water .
 %mor:	cconj|and det|the-Def-Art noun|elephant verb|throw-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
-*CHI:	(..) and the giraffe trieded [: tried] [* m:++ed] to get it .
+*CHI:	(..) and the giraffe trieded [: tried] [* m:++ed] to get it . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|giraffe verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
 *CHI:	and elephant tried to get it .
@@ -56,6 +56,6 @@
 %mor:	cconj|and det|the-Def-Art adj|different-S1 noun|elephant verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|5|CC 2|4|DET 3|4|AMOD 4|5|NSUBJ 5|6|ROOT 6|5|OBJ 7|5|PUNCT
 *CHI:	(..) and the giraffe said thanks elephant .
-%mor:	cconj|and det|the-Def-Art noun|giraffe verb|say-Fin-Ind-Past-S3-irr noun|thanks noun|elephant  .
+%mor:	cconj|and det|the-Def-Art noun|giraffe verb|say-Fin-Ind-Past-S3-irr noun|thanks noun|elephant .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|CCOMP 6|7|COMPOUND 7|4|PUNCT 8|4|PUNCT
 @End

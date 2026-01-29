@@ -71,6 +71,6 @@
 %mor:	intj|yes .
 %gra:	1|1|ROOT 2|1|PUNCT
 *CHI:	(..) and they both got one .
-%mor:	cconj|and pron|they-Prs-Nom-P3 det|both-Def-Tot verb|get-Fin-Ind-Past-P3-irr num|one  .
+%mor:	cconj|and pron|they-Prs-Nom-P3 det|both-Def-Tot verb|get-Fin-Ind-Past-P3-irr num|one .
 %gra:	1|4|CC 2|4|NSUBJ 3|2|DET 4|6|ROOT 5|4|OBJ 6|4|PUNCT 7|4|PUNCT
 @End

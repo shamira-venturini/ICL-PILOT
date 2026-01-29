@@ -174,13 +174,13 @@ The dog was, very upset. She start to cry. Because her hard work was, uh... ruin
 So, the rabbit start patting the sand back together. He try to fix the castle. So the dog will be happy again. They decide to, uh... build a new one. The end."
 Few-Shot (10  Examples),20,0.7,"Um, the rabb... the rabbit and the dog. They play in the sand box. And they have, uh shovel. And they want to build a big sand_castle. They want to build together. They are having a lot of fun.
 
-The dog is pat pat pat the sand. Make the wall strong. The rabbit is dig dig dig with his bucket. Get more sand. They work very hard.
+The dog is pat [* m:0ing]pat pat the sand. Make the wall strong. The rabbit is dig dig dig with his bucket. Get more sand. They work very hard.
 
 Umm, then the rabbit... the rabbit make a mistake. He lift up his bucket. And he dump all the sand on top of the castle. Oh no! Smash and fall down flat.
 
 The dog is very upset. She start cry. Cry because her hard work. Ruin. The rabbit feel bad. He didn't mean to break it. He want to make thing right.
 
-So the rabbit start pat pat pat the sand back. Try to fix the castle. Dog be happy again. They decide to build a new one. The end."
+So the rabbit start pat pat pat the sand back. Try to fix the castle. dog be [* m:unv:a] happy again. They decide to build a new one. The end."
 Few-Shot (10  Examples),21,0.7,"Um, one day, a rabbit and a dog was play in the sand box. They has um shovel and they want to build a big sand_castle to gether. They was having a lot of fun.
 
 The dog was carful pat the sand to make the wall strong. The rabbit was digging with his bucket to get more sand. They work very hard on it.
@@ -221,7 +221,7 @@ Uh... suddenly, rabbit make a... mistake. He lift his... heavy bucket. And dump 
 
 Dog is very... upset. She start to cry. Because her hard work... ruined. Rabbit feel bad. Because he don't mean to break it. He want to make thing... right.
 
-So, rabbit start pat pat pat the sand back together. He try to fix the castle. So dog be happy again. They decide to build... new one. The end."
+So, rabbit start pat pat pat the sand back together. He try to fix the castle. So dog be [* m:unv:a] happy again. They decide to build... new one. The end."
 Few-Shot (10  Examples),26,0.7,"One day, a, a rabbit and a dog. They play in the, the sand box. They have, have shovels. They want to build, build a big sand_castle. Together. They having, having a lot of fun.
 
 The dog, dog carefully, carefully pat the sand to make the walls strong. The rabbit, rabbit dig with his bucket to get more sand. They work very hard on it.
@@ -266,4 +266,4 @@ Uh, suddenly, the rabb... make a... mist... He lift... his heav... bucket. And d
 
 The dog is... very upset. She cry... because her hard work... is ruined. The rabb... feel bad. He didn't mean... break it. He want... make things right.
 
-So, the rabb... start pating... the sand back. Try to fix the castle. Dog be happy again. They decide... build a new one. The end."
+So, the rabb... start pating... the sand back. Try to fix the castle. dog be [* m:unv:a] happy again. They decide... build a new one. The end."

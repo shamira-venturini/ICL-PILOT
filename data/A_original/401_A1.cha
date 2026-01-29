@@ -12,7 +12,7 @@
 *CHI:	yeah .
 %mor:	intj|yeah .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	&-um a [* m:allo] elephant &+s was [/] was playing balls .
+*CHI:	&-um a [* m:allo] elephant &+s was [/] was playing balls . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr verb|play-Part-Pres-S noun|ball-Plur-Acc .
 %gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	and a giraffe is there too .

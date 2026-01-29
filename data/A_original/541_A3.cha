@@ -47,6 +47,6 @@
 %mor:	cconj|and det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|now .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
 *CHI:	and the elephant and giraffe are all happy .
-%mor:	cconj|and det|the-Def-Art noun|elephant cconj|and noun|giraffe aux|be-Fin-Ind-Pres-P3 adv|all adj|happy-S1  .
+%mor:	cconj|and det|the-Def-Art noun|elephant cconj|and noun|giraffe aux|be-Fin-Ind-Pres-P3 adv|all adj|happy-S1 .
 %gra:	1|8|CC 2|3|DET 3|8|NSUBJ 4|5|CC 5|3|CONJ 6|8|COP 7|8|ADVMOD 8|9|ROOT 9|8|PUNCT 10|8|PUNCT
 @End

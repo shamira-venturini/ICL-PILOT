@@ -68,6 +68,6 @@
 %mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|both adj|happy-S1 adp|at det|each-Def-Rcp adj|other-S1 .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|8|ROOT 6|7|CASE 7|5|OBL 8|7|FIXED 9|5|PUNCT
 *CHI:	then they both left .
-%mor:	adv|then pron|they-Prs-Nom-P3 det|both-Def-Tot verb|leave-Fin-Ind-Past-P3-irr  .
+%mor:	adv|then pron|they-Prs-Nom-P3 det|both-Def-Tot verb|leave-Fin-Ind-Past-P3-irr .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|2|DET 4|5|ROOT 5|4|PUNCT 6|4|PUNCT
 @End

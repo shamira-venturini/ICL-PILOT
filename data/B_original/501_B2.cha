@@ -34,7 +34,7 @@
 *CHI:	his tummy ached .
 %mor:	pron|his-Prs-Gen-S3 noun|tummy verb|ach-Fin-Ind-Past-S3 .
 %gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
-*CHI:	he went and <saw his mom and> [//] no , saw a doctor and telled [: told] [* m:=ed] +"/.
+*CHI:	he went and <saw his mom and> [//] no , saw a doctor and telled [: told] [* m:=ed] +"/. [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr cconj|and intj|no cm|cm verb|see-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|doctor-Acc cconj|and verb|tell-Fin-Ind-Past-S3-irr +"/.
 %gra:	1|2|NSUBJ 2|10|ROOT 3|6|CC 4|6|DISCOURSE 5|4|PUNCT 6|2|CONJ 7|8|DET 8|6|OBJ 9|10|CC 10|6|CONJ 11|2|PUNCT
 *CHI:	+" my friend is [//] has a tummyache .
@@ -46,7 +46,7 @@
 *CHI:	the [/] the nurse said +"/.
 %mor:	det|the-Def-Art noun|nurse verb|say-Fin-Ind-Past-S3-irr +"/.
 %gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
-*CHI:	+" you shouldn't've ate too much . [+ gram]
+*CHI:	+" you shouldn't've ate too much .
 %mor:	pron|you-Prs-Nom-S2 aux|shouldnt-Fin-S~aux|have-Fin-Ind-Pres-S2 verb|eat-Part-Past-S-irr adv|too adj|much-S1 .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|AUX 4|6|ROOT 5|6|ADVMOD 6|4|ADVMOD 7|4|PUNCT
 *CHI:	he [//] &+sh she said +"/.

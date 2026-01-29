@@ -10,7 +10,7 @@
 @Tape Location:	Disk L28 Track 61
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	once there was a giraffe and a [* m:allo] elephant .
+*CHI:	once there was a giraffe and a [* m:allo] elephant . [+ gram]
 %mor:	sconj|once pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
 %gra:	1|3|MARK 2|3|EXPL 3|8|ROOT 4|5|DET 5|3|NSUBJ 6|8|CC 7|8|DET 8|5|CONJ 9|3|PUNCT
 *CHI:	and they we [/] was at the pool .
@@ -19,7 +19,7 @@
 *CHI:	and the giraffe had his favorite toy plane .
 %mor:	cconj|and det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 adj|favorite-S1 noun|toy noun|plane-Acc .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|8|NMOD-POSS 6|8|AMOD 7|8|COMPOUND 8|4|OBJ 9|4|PUNCT
-*CHI:	the giraffe &+f &+f flied [: flew] [* m:=ed] it .
+*CHI:	the giraffe &+f &+f flied [: flew] [* m:=ed] it . [+ gram]
 %mor:	det|the-Def-Art noun|giraffe verb|fly-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	and the &-um elephant wished that she could fly it too .
@@ -89,6 +89,6 @@
 %mor:	cconj|but pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 cconj|and verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to pron|he-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|3|OBJ 5|6|CC 6|3|CONJ 7|6|OBJ 8|9|CASE 9|6|OBL 10|3|PUNCT
 *CHI:	and then <she was> [//] the giraffe was really happy .
-%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr adv|really adj|happy-S1  .
+%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr adv|really adj|happy-S1 .
 %gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|ADVMOD 7|8|ROOT 8|7|PUNCT 9|7|PUNCT
 @End

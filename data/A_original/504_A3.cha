@@ -13,10 +13,10 @@
 *CHI:	yeah .
 %mor:	intj|yeah .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	once upon a time there's a [* m:allo] elephant and a giraffe .
+*CHI:	once upon a time there's a [* m:allo] elephant and a giraffe . [+ gram]
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
 %gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
-*CHI:	the giraffe had a [* m:allo] airplane .
+*CHI:	the giraffe had a [* m:allo] airplane . [+ gram]
 %mor:	det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	and they were at the diving pool .

@@ -61,10 +61,10 @@
 *CHI:	he wanted the balloon .
 %mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 det|the-Def-Art noun|balloon-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
-*CHI:	and she gaved [: gave] [* m:+ed] him it two pennies  . [+ gram]
+*CHI:	and she gaved [: gave] [* m:+ed] him it two pennies . [+ gram]
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 pron|it-Prs-Acc-S3 num|two noun|penny-Plur .
 %gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|IOBJ 5|3|OBJ 6|7|NUMMOD 7|3|OBL-UNMARKED 8|3|PUNCT
 *CHI:	and then they have balloons .
-%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 noun|balloon-Plur-Acc  .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 noun|balloon-Plur-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|PUNCT 7|4|PUNCT
 @End

@@ -13,7 +13,7 @@
 *CHI:	okay .
 %mor:	intj|okay .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	a cow saw &-um a [* m:allo] elephant .
+*CHI:	a cow saw &-um a [* m:allo] elephant . [+ gram]
 %mor:	det|a-Ind-Art noun|cow verb|see-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	(..) and &-um they wanted to go in the pool .

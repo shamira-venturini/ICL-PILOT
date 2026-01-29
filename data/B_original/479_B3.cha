@@ -20,7 +20,7 @@
 *CHI:	then he's trying to pull it off .
 %mor:	adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|pull-Inf-S pron|it-Prs-Acc-S3 adp|off .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|6|COMPOUND-PRT 9|4|PUNCT
-*CHI:	and him xxx [^ swing?] was flying in [/] in the sky . [+ gram]
+*CHI:	and him xxx [^ swing?] was flying in [/] in the sky . [+ sem]
 %mor:	cconj|and pron|he-Prs-Acc-S3 aux|be-Fin-Ind-Past-S3-irr verb|fly-Part-Pres-S adp|in det|the-Def-Art noun|sky .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
 *CHI:	and it was flying .
@@ -32,7 +32,7 @@
 *CHI:	then he gots [: has got] [* m:+3s] more balloons . [+ gram]
 %mor:	adv|then pron|he-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr adj|more-Cmp-S1 noun|balloon-Plur-Acc .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|AMOD 6|4|OBJ 7|4|PUNCT
-*CHI:	and he went go get some more .
+*CHI:	and he went go get some more . [+ sem]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr verb|go-Inf-S verb|get-Inf-S det|some-Def-Ind adj|more-Cmp-S1 .
 %gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|XCOMP 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
 *CHI:	then oh &+wa lots of balloons today .
@@ -41,7 +41,7 @@
 *CHI:	and he said no I want a balloon .
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|no pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 det|a-Ind-Art noun|balloon-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|8|ROOT 4|6|DISCOURSE 5|6|NSUBJ 6|3|CCOMP 7|8|DET 8|6|OBJ 9|3|PUNCT
-*CHI:	said I wanna have a balloon !
+*CHI:	0subj said I wanna have a balloon ! [+ gram]
 %mor:	verb|say-Fin-Ind-Past-S1-irr pron|I-Prs-Nom-S1 aux|wanna-Fin-Ind-Pres-S1 verb|have-Fin-Ind-Pres-S1 det|a-Ind-Art noun|balloon-Acc !
 %gra:	1|6|ROOT 2|4|NSUBJ 3|4|AUX 4|1|CCOMP 5|6|DET 6|4|OBJ 7|1|PUNCT
 *CHI:	I want a balloon !
@@ -56,7 +56,7 @@
 *CHI:	then he wants a balloon .
 %mor:	adv|then pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 det|a-Ind-Art noun|balloon-Acc .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	and he gets him .
+*CHI:	and he gets him . [+ sem]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	and he's so lucky to get a balloon .

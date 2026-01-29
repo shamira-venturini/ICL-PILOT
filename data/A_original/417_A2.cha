@@ -13,19 +13,19 @@
 *CHI:	&-um and then .
 %mor:	cconj|and adv|then .
 %gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
-*CHI:	I don't know this part .
+*CHI:	I don't know this part . [+ exc]
 %mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S det|this-Def-Dem-Sing noun|part-Acc .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	I don't know this book .
+*CHI:	I don't know this book . [+ exc]
 %mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S det|this-Def-Dem-Sing noun|book-Acc .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	okay .
+*CHI:	okay . [+ exc]
 %mor:	intj|okay .
 %gra:	1|1|ROOT 2|1|PUNCT
 *CHI:	<I see two giraffes> [//] I see a giraffe and an elephant with a bow in her hair .
 %mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|giraffe-Acc cconj|and det|a-Ind-Art noun|elephant adp|with det|a-Ind-Art noun|bow adp|in pron|her-Prs-Gen-S3 noun|hair .
 %gra:	1|2|NSUBJ 2|13|ROOT 3|4|DET 4|2|OBJ 5|7|CC 6|7|DET 7|4|CONJ 8|10|CASE 9|10|DET 10|2|OBL 11|13|CASE 12|13|NMOD-POSS 13|10|NMOD 14|2|PUNCT
-*CHI:	and they were looking at the water to see how cold it was .
+*CHI:	and they were looking at the water to see how cold it was . [+ sem]
 %mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|look-Part-Pres-S adp|at det|the-Def-Art noun|water part|to verb|see-Inf-S adv|how adj|cold-S1 pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|13|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|9|MARK 9|4|ADVCL 10|11|ADVMOD 11|9|CCOMP 12|11|NSUBJ 13|11|COP 14|4|PUNCT
 *CHI:	and the elephant let's go in and jump on that thing .
@@ -37,7 +37,7 @@
 *CHI:	and then the elephant slipped .
 %mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|slip-Fin-Ind-Past-S3 .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
-*CHI:	and she's almost going to slip down when she was running .
+*CHI:	and she's [* m:base:ed] almost going to slip down when she was running . [+ gram]
 %mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|almost verb|go-Part-Pres-S part|to verb|slip-Inf-S adp|down adv|when pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|run-Part-Pres-S .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|12|ROOT 6|7|MARK 7|5|XCOMP 8|7|COMPOUND-PRT 9|12|ADVMOD 10|12|NSUBJ 11|12|AUX 12|7|ADVCL 13|5|PUNCT
 *CHI:	and she hurt her knee .

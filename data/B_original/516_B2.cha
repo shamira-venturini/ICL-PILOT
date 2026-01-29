@@ -32,6 +32,6 @@
 %mor:	cconj|and det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S part|to verb|get-Inf-S det|the-Def-Art noun|bunny-Acc adj|good-Cmp-S1 .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|10|ROOT 6|7|MARK 7|5|XCOMP 8|9|DET 9|7|OBJ 10|7|XCOMP 11|5|PUNCT
 *CHI:	(.) and then he's all better again .
-%mor:	cconj|and adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|good-Cmp-S1 adv|again  .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|good-Cmp-S1 adv|again .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|8|ROOT 7|6|ADVMOD 8|6|PUNCT 9|6|PUNCT
 @End

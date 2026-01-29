@@ -10,17 +10,16 @@
 @Tape Location:	Disk L25 , Track 80
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
 *CHI:	I'll start with <he> [?] .
 %mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|start-Inf-S adp|with pron|he-Prs-Nom-S3 .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
-*CHI:	once upon a time there was a little kid getting to the store and buy some milk and oranges .
+*CHI:	once upon a time there was a little kid getting to the store and buy [* m:0ing] some milk and oranges . [+ gram]
 %mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 noun|kid verb|get-Ger-S adp|to det|the-Def-Art noun|store cconj|and verb|buy-Fin-Imp-S det|some-Def-Ind noun|milk-Acc cconj|and noun|orange-Plur .
 %gra:	1|6|ADVMOD 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|19|ROOT 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|9|ACL 11|13|CASE 12|13|DET 13|10|OBL 14|15|CC 15|10|CONJ 16|17|DET 17|15|OBJ 18|19|CC 19|17|CONJ 20|6|PUNCT
 *CHI:	then he bought some cookies and &-um pizza .
 %mor:	adv|then pron|he-Prs-Nom-S3 verb|buy-Fin-Ind-Past-S3-irr det|some-Def-Ind noun|cookie-Plur-Acc cconj|and noun|pizza .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CC 7|5|CONJ 8|3|PUNCT
-*CHI:	then he takes some bag of cookies .
+*CHI:	then he takes some bag [* m:0s] of cookies . [+ gram]
 %mor:	adv|then pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Pres-S3 det|some-Def-Ind noun|bag-Acc adp|of noun|cookie-Plur .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|5|NMOD 8|3|PUNCT
 *CHI:	then he takes some milk .

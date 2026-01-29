@@ -31,7 +31,7 @@
 *CHI:	he said +"/.
 %mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr +"/.
 %gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
-*CHI:	+" help this [//] get this airplane .
+*CHI:	+" help this [//] get this airplane  .
 %mor:	verb|help-Fin-Imp-S verb|get-Inf-S det|this-Def-Dem-Sing noun|airplane-Acc .
 %gra:	1|4|ROOT 2|1|XCOMP 3|4|DET 4|2|OBJ 5|1|PUNCT
 *CHI:	but he couldn't get it out (be)cause it was too far away .
@@ -40,10 +40,10 @@
 *CHI:	and then her [* s:r:gc:pro] tried it . [+ gram]
 %mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|try-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	and it got open .
+*CHI:	and it got  open .
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|open-S1 .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
-*CHI:	and he help [* m:03s:a] [* m:0ed] him . [+ gram]
+*CHI:	and he help [* m:0ed] him . [+ gram]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	and he liked the airplane now .

@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0det rabby [: rabbit] [* p:n] and 0det doggie play together . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie verb|play-Fin-Ind-Pres-S adv|together .
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	they got shovels and wanted to build 0det sand house [* s:r:seg] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr noun|shovel-Plur-Acc cconj|and verb|want-Fin-Ind-Past-P3 part|to verb|build-Inf-S noun|sand noun|house-Acc .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|2|OBJ 4|5|CC 5|2|CONJ 6|7|MARK 7|5|XCOMP 8|9|COMPOUND 9|7|OBJ 10|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] make [* m:03s:a] 0det mistake . [+ gram]
+%mor:	noun|rabbit verb|make-Fin-Imp-S noun|mistake-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	he put [* m:03s:a] 0det sand on 0det castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr noun|sand-Acc adp|on noun|castle .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
+*CHI:	0det castle <go> [/] go [* m:unv:a] down . [+ gram]
+%mor:	noun|castle verb|go-Fin-Imp-S adv|down .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det doggie cry [* m:03s:a] . [+ gram]
+%mor:	noun|doggie noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] 0v sad . [+ gram]
+%mor:	noun|rabbit adj|sad-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] fix [* m:03s:a] 0det castle . [+ gram]
+%mor:	noun|rabbit noun|fix noun|castle .
+%gra:	1|2|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	he pat [* m:03s:a] 0det sand . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|pat-Fin-Ind-Pres-S3 noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det doggie 0v happy . [+ gram]
+%mor:	noun|doggie adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	they build 0det new castle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 adj|new-S1 noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] make [* m:03s:a] sure not to put sand on it . [+ gram]
+%mor:	noun|rabbit verb|make-Fin-Imp-S adj|sure-S1 part|not part|to verb|put-Inf-S noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|2|XCOMP 4|6|ADVMOD 5|6|MARK 6|3|XCOMP 7|6|OBJ 8|9|CASE 9|6|OBL 10|2|PUNCT
+*CHI:	they play again .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adv|again .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det doggie smile [* m:03s:a] [* m:03s:a] . [+ gram]
+%mor:	noun|doggie noun|smile .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] smile [* m:03s:a] . [+ gram]
+%mor:	noun|rabbit noun|smile .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	they 0aux friends . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 noun|friend-Plur .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+@End

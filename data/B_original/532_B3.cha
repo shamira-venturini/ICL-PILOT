@@ -13,7 +13,7 @@
 *CHI:	the little kid was pushing his stroller .
 %mor:	det|the-Def-Art adj|little-S1 noun|kid aux|be-Fin-Ind-Past-S3-irr verb|push-Part-Pres-S pron|his-Prs-Gen-S3 noun|stroller-Acc .
 %gra:	1|3|DET 2|3|AMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|NMOD-POSS 7|5|OBJ 8|5|PUNCT
-*CHI:	then &+sh he seed [: saw] [* m:=ed] the bunny .
+*CHI:	then &+sh he seed [: saw] [* m:=ed] the bunny . [+ gram]
 %mor:	adv|then pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr det|the-Def-Art noun|bunny-Acc .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	and the bunny he tried to grab the balloon from the stroller .
@@ -40,7 +40,7 @@
 *CHI:	and then they didn't give him any balloons (be)cause he didn't wanna .
 %mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not verb|give-Inf-S pron|he-Prs-Acc-S3 det|any-Def-Ind noun|balloon-Plur-Acc sconj|because pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|wanna-Inf-S .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|14|ROOT 7|6|IOBJ 8|9|DET 9|6|OBJ 10|14|MARK 11|14|NSUBJ 12|14|AUX 13|14|ADVMOD 14|6|ADVCL 15|6|PUNCT
-*CHI:	then they seed [: saw] [* m:=ed] their mom .
+*CHI:	then they seed [: saw] [* m:=ed] their mom . [+ gram]
 %mor:	adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr pron|their-Prs-Gen-P3 noun|mom-Acc .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
 *CHI:	and then he pointed at a girl .

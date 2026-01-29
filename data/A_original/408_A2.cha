@@ -28,7 +28,7 @@
 *CHI:	and then she hurt her leg [^ sad voice] .
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|leg-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
-*CHI:	(.) <and then the brother camed [: came] [* m:++ed:i]> [//] and then +/.
+*CHI:	(.) <and then the brother camed [: came] [* m:++ed:i]> [//] and then +/. [+ gram]
 %mor:	cconj|and adv|then +/.
 %gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
 *CHI:	and then the [/] &+b <the other> [//] &+b the boy elephant &+ca came .
@@ -47,6 +47,6 @@
 %mor:	cconj|and adv|then pron|you-Prs-Nom-S2 aux|getta-Fin-S verb|sit-Inf-S .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
 *CHI:	and then if it feels better you can walk .
-%mor:	cconj|and adv|then sconj|if pron|it-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|good-Cmp-S1 pron|you-Prs-Nom-S2 aux|can-Fin-S verb|walk-Inf-S  .
+%mor:	cconj|and adv|then sconj|if pron|it-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|good-Cmp-S1 pron|you-Prs-Nom-S2 aux|can-Fin-S verb|walk-Inf-S .
 %gra:	1|9|CC 2|9|ADVMOD 3|5|MARK 4|5|NSUBJ 5|9|ADVCL 6|5|XCOMP 7|9|NSUBJ 8|9|AUX 9|10|ROOT 10|9|PUNCT 11|9|PUNCT
 @End

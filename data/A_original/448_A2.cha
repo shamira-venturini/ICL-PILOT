@@ -25,7 +25,7 @@
 *CHI:	and then they hurt her knee .
 %mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|hurt-Fin-Ind-Past-P3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
-*CHI:	then they couldn't give a bandage .
+*CHI:	then they couldn't give 0obj a bandage . [+ gram]
 %mor:	adv|then pron|they-Prs-Nom-P3 aux|could-Fin-S~part|not verb|give-Inf-S det|a-Ind-Art noun|bandage-Acc .
 %gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
 *CHI:	and he just put on a bandage for her .

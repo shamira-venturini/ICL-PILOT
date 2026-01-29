@@ -10,16 +10,16 @@
 @Tape Location:	Disk L11 Track 30
 @Types:	cross, narrative, SLI
 @G:	B1
-*CHI:	he play on [//] &+s in sand .
+*CHI:	he play  on [//] &+s in sand .
 %mor:	pron|he-Prs-Nom-S3 verb|play-Fin-Ind-Pres-S3 adp|in noun|sand .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
-*CHI:	and play make castle .
+*CHI:	and play  0to make 0det castle . [+ gram]
 %mor:	cconj|and verb|play-Fin-Imp-S verb|make-Inf-S noun|castle-Acc .
 %gra:	1|2|CC 2|4|ROOT 3|2|XCOMP 4|3|OBJ 5|2|PUNCT
-*CHI:	and dump it .
+*CHI:	and dump  it .
 %mor:	cconj|and verb|dump-Fin-Imp-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	dump it .
+*CHI:	dump  it .
 %mor:	verb|dump-Fin-Imp-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	oh no .
@@ -28,7 +28,7 @@
 *CHI:	oops sorry .
 %mor:	noun|oop adj|sorry-S1 .
 %gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
-*CHI:	and cry .
+*CHI:	and cry  .
 %mor:	cconj|and verb|cry-Fin-Imp-S .
 %gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
 *CHI:	over .

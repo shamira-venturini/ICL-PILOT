@@ -1,0 +1,83 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	he's playing in the sand .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S adp|in det|the-Def-Art noun|sand .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	and he's got his shovel .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr pron|his-Prs-Gen-S3 noun|shovel-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	and he's got 0det shovel . [+ gram]
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr noun|shovel-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	and they want to build a big castle together .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to verb|build-Inf-S det|a-Ind-Art adj|big-S1 noun|castle-Acc adv|together .
+%gra:	1|3|CC 2|3|NSUBJ 3|9|ROOT 4|5|MARK 5|3|XCOMP 6|8|DET 7|8|AMOD 8|5|OBJ 9|5|ADVMOD 10|3|PUNCT
+*CHI:	they're having a lot of fun [/] fun .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S det|a-Ind-Art noun|lot-Acc adp|of noun|fun .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|5|NMOD 8|3|PUNCT
+*CHI:	he's pat [* m:0ing] [/] pat [/] pat the sand . [+ gram]
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|pat det|the-Def-Art noun|sand .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|CASE 4|5|DET 5|5|ROOT 6|5|PUNCT
+*CHI:	he's making the walls strong .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S det|the-Def-Art noun|wall-Plur-Acc adj|strong-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|XCOMP 7|3|PUNCT
+*CHI:	<he's> [//] is digging with his bucket to get more sand .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|digg-Part-Pres-S adp|with pron|his-Prs-Gen-S3 noun|bucket part|to verb|get-Inf-S adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|2|AUX 2|9|ROOT 3|5|CASE 4|5|NMOD-POSS 5|2|OBL 6|7|MARK 7|2|ADVCL 8|9|AMOD 9|7|OBJ 10|2|PUNCT
+*CHI:	they're working hard on it .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|work-Part-Pres-S adv|hard adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|ADVMOD 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	&-umm and then &-uh he made a mistake .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|mistake-Acc .
+%gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	he lift [* m:03s:a] his bucket . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|lift-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|bucket-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|PUNCT
+*CHI:	and dump [* m:03s:a] all the sand 0v on top of the castle . [+ gram]
+%mor:	cconj|and verb|dump-Fin-Imp-S det|all-Def-Tot det|the-Def-Art noun|sand-Acc adp|on noun|top adp|of det|the-Def-Art noun|castle .
+%gra:	1|2|CC 2|10|ROOT 3|5|DET-PREDET 4|5|DET 5|2|OBJ 6|7|CASE 7|2|OBL 8|10|CASE 9|10|DET 10|7|NMOD 11|2|PUNCT
+*CHI:	oh_no@i !
+%mor:	propn|ohno !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	it smash [* m:03s:a] . [+ gram]
+%mor:	pron|it-Prs-Nom-S3 verb|smash-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	it fall [* m:03s:a] down flat . [+ gram]
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Pres-S3 adp|down adj|flat-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|COMPOUND-PRT 4|2|XCOMP 5|2|PUNCT
+*CHI:	she's very upset .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|very adj|upset-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	she's crying .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	her hard work 0aux ruin [* m:0ed] . [+ gram]
+%mor:	pron|her-Prs-Gen-S3 adj|hard-S1 noun|work verb|ruin-Fin-Ind-S .
+%gra:	1|4|NMOD-POSS 2|3|AMOD 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*CHI:	he feel [* m:03s:a] bad . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	he didn't mean to break it .
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|mean-Inf-S part|to verb|break-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	he want [* m:03s:a] to make it right . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adj|right-S1 .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|4|XCOMP 7|2|PUNCT
+*CHI:	he start [* m:03s:a] pat [/] pat [/] pat the sand . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Pres-S3 adp|pat det|the-Def-Art noun|sand .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	he try [* m:03s:a] to fix the castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 part|to verb|fix-Inf-S det|the-Def-Art noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*CHI:	so she'll be happy again .
+%mor:	adv|so pron|she-Prs-Nom-S3~aux|will-Fin-S aux|be-Inf-S adj|happy-S1 adv|again .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|COP 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	they decide to build a new one .
+%mor:	pron|they-Prs-Nom-P3 verb|decide-Fin-Ind-Pres-P3 part|to verb|build-Inf-S det|a-Ind-Art adj|new-S1 noun|one-Acc .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|MARK 4|2|XCOMP 5|7|DET 6|7|AMOD 7|4|OBJ 8|2|PUNCT
+@End

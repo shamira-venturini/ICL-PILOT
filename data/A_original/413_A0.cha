@@ -10,20 +10,19 @@
 @Tape Location:	Disk L11 Track 30
 @Types:	cross, narrative, SLI
 @G:	A0
-@G:	A0
-*CHI:	I shopping .
+*CHI:	I 0aux shopping . [+ gram]
 %mor:	pron|I-Prs-Nom-S1 verb|shop-Fin-Ind-Pres-S .
 %gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
-*CHI:	and get cookie .
+*CHI:	and 0subj get cookie . [+ 0subj]
 %mor:	cconj|and verb|get-Fin-Imp-S noun|cookie-Acc .
 %gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	get one cookie .
+*CHI:	0subj get one cookie . [+ 0subj]
 %mor:	verb|get-Fin-Imp-S num|one noun|cookie-Acc .
 %gra:	1|3|ROOT 2|3|NUMMOD 3|1|OBJ 4|1|PUNCT
-*CHI:	and fall off .
+*CHI:	and 0subj fall off . [+ 0subj]
 %mor:	cconj|and verb|fall-Fin-Imp-S adp|off .
 %gra:	1|2|CC 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
-*CHI:	<and then> [=! whispers] angry .
+*CHI:	<and then> [=! whispers] 0subj 0v angry . [+ 0subj]
 %mor:	cconj|and adv|then adj|angry-S1 .
 %gra:	1|3|CC 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
 *CHI:	all done .

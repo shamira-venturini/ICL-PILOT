@@ -9,10 +9,10 @@
 *CHI:	They have shovels .
 *CHI:	They want build big sandcastle .
 *CHI:	They is having a lot of fun .
-*CHI:	Dog is pat pat pat sand .
+*CHI:	Dog is pat [* m:0ing]pat pat sand .
 *CHI:	Make wall strong .
 *CHI:	Rabbit is dig dig dig with bucket .
-*CHI:	Get more sand .
+*CHI:	0subj get  more sand .
 *CHI:	They is work very hard .
 *CHI:	Uh uh uh rabbit make mistake .
 *CHI:	Lift big bucket .
@@ -27,6 +27,6 @@
 *CHI:	He want make thing right .
 *CHI:	Rabbit start pat pat pat sand .
 *CHI:	Try fix castle .
-*CHI:	Dog be happy .
+*CHI:	dog be [* m:unv:a] happy .
 *CHI:	They decide build new one .
 @End

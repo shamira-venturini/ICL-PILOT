@@ -41,7 +41,7 @@
 *CHI:	wait .
 %mor:	verb|wait-Fin-Imp-S .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	so ↫you↫your knee's's [: knee's] [* m:++'s] hurt .
+*CHI:	so ↫you↫your knee's's [: knee's] [* m:++'s] hurt . [+ gram]
 %mor:	adv|so pron|your-Prs-Gen-S2 noun|knee~aux|be-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr .
 %gra:	1|5|ADVMOD 2|3|NMOD-POSS 3|5|NSUBJ 4|5|AUX-PASS 5|5|ROOT 6|5|PUNCT
 *CHI:	ah ou:ch .

@@ -1,0 +1,79 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0det rabbit and 0det dog <play> [/] play in the sand . [+ gram]
+%mor:	noun|rabbit cconj|and noun|dog verb|play-Fin-S adp|in det|the-Def-Art noun|sand .
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	they is [* m:vsg:a] [* s:r] got shovels . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr noun|shovel-Plur-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	they wanna xxx <castle> [/] castle .
+%mor:	pron|they-Prs-Nom-P3 verb|wanna-Fin-Ind-Pres-P3 noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	&-yeah .
+*CHI:	they is [* m:vsg:a] having fun . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|have-Part-Pres-S noun|fun-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	0det dog <pat> [* m:03s:a] [/] pat the sand . [+ gram]
+%mor:	noun|dog verb|pat-Fin-Imp-S det|the-Def-Art noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	0subj make it strong . [+ gram]
+%mor:	verb|make-Fin-Imp-S pron|it-Prs-Acc-S3 adj|strong-S1 .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*CHI:	0det rabbit <dig> [* m:03s:a] [/] dig with 0det bucket . [+ gram]
+%mor:	noun|rabbit noun|dig adp|with noun|bucket .
+%gra:	1|2|COMPOUND 2|4|ROOT 3|4|CASE 4|2|NMOD 5|2|PUNCT
+*CHI:	0subj get more sand . [+ gram]
+%mor:	verb|get-Fin-Imp-S adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|ROOT 2|3|AMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	they is [* m:vsg:a] <working> [/] working . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|work-Part-Pres-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
+*CHI:	&-uh mistake .
+%mor:	noun|mistake .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	0det rabbit <lift> [* m:03s:a] [/] lift 0det bucket . [+ gram]
+%mor:	noun|rabbit noun|lift noun|bucket .
+%gra:	1|2|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	and whoops@i .
+%mor:	cconj|and intj|whoops .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*CHI:	0subj smash castle . [+ gram]
+%mor:	verb|smash-Inf-Imp-S noun|castle-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	0det castle fall [* m:03s:a] down . [+ gram]
+%mor:	noun|castle noun|fall adv|down .
+%gra:	1|2|COMPOUND 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	<dog cry> [* m:03s:a] [/] dog cry. [+ gram]
+%mor:	noun|dog noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	she is sad .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	0det rabbit feel [* m:03s:a] bad . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Imp-S adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	he is sorry .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	he is wanna fix 0obj . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|wanna-S1 noun|fix .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	0det rabbit <pat> [* m:03s:a] [/] pat the sand . [+ gram]
+%mor:	noun|rabbit verb|pat-Fin-S det|the-Def-Art noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	0subj fix it . [+ gram]
+%mor:	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	0det dog is happy . [+ gram]
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	they is [* m:vsg:a] build <new castle> [/] new castle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|build-Inf-S adj|new-S1 noun|castle-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|AMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	&-yeah .
+@End

@@ -9,13 +9,13 @@
 @Tape Location:	Disk M3 Track 12
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	&~mmm once upon a time there was a [* m:allo] elephant <and a> [/] and a giraffe .
+*CHI:	&~mmm once upon a time there was a [* m:allo] elephant <and a> [/] and a giraffe . [+ gram]
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
 %gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
-*CHI:	and the elephant blowed [: blew] [* m:=ed] water .
+*CHI:	and the elephant blowed [: blew] [* m:=ed] water . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|elephant verb|blow-Fin-Ind-Past-S3-irr noun|water-Acc .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	and then the [//] &+hh he blowed [: blew] [* m:=ed] the [//] &+el the giraffe right into [!] the water .
+*CHI:	and then the [//] &+hh he blowed [: blew] [* m:=ed] the [//] &+el the giraffe right into [!] the water . [+ gram]
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|blow-Fin-Ind-Past-S3-irr det|the-Def-Art noun|giraffe-Acc adv|right adp|into det|the-Def-Art noun|water .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|6|DET 6|4|OBJ 7|10|ADVMOD 8|10|CASE 9|10|DET 10|4|OBL 11|4|PUNCT
 *CHI:	and then he [//] &+tr the [/] the [//] he [/] &+d he [//] the [//] she blowed him .
@@ -46,6 +46,6 @@
 %mor:	adv|then det|the-Def-Art noun|elephant verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 num|one adj|more-Cmp-S1 noun|rock-Acc .
 %gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|8|ROOT 5|4|IOBJ 6|8|NUMMOD 7|8|AMOD 8|4|OBJ 9|4|PUNCT
 *CHI:	and then he [//] the giraffe had water all over .
-%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Past-S3-irr noun|water-Acc det|all-Def-Tot adp|over  .
+%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Past-S3-irr noun|water-Acc det|all-Def-Tot adp|over .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|OBJ 7|6|DET 8|9|CASE 9|5|OBL 10|5|PUNCT
 @End

@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	two friends 0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sand . [+ gram]
+%mor:	num|two noun|friend-Plur noun|rabbit cconj|and noun|doggie noun|play adp|in noun|sand .
+%gra:	1|3|NUMMOD 2|3|COMPOUND 3|8|ROOT 4|6|CC 5|6|COMPOUND 6|3|CONJ 7|8|CASE 8|6|NMOD 9|3|PUNCT
+*CHI:	they got big sticks [* s:ur] and wanted to make 0det big house [* s:r] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr adj|big-S1 noun|stick-Plur-Acc cconj|and verb|want-Fin-Ind-Past-P3 part|to verb|make-Inf-S adj|big-S1 noun|house-Acc .
+%gra:	1|2|NSUBJ 2|10|ROOT 3|4|AMOD 4|2|OBJ 5|6|CC 6|2|CONJ 7|8|MARK 8|6|XCOMP 9|10|AMOD 10|8|OBJ 11|2|PUNCT
+*CHI:	they 0v happy . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] make [* m:03s:a] 0det walls strong . [+ gram]
+%mor:	noun|rabbit verb|make-Fin-Imp-S noun|wall-Plur-Acc adj|strong-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|XCOMP 5|2|PUNCT
+*CHI:	0det doggie dig [* m:03s:a] for more sand . [+ gram]
+%mor:	noun|doggie verb|dig-Fin-Imp-S adp|for adj|more-Cmp-S1 noun|sand .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|AMOD 5|2|OBL 6|2|PUNCT
+*CHI:	they work very hard .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Pres-P3 adv|very adv|hard .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|ADVMOD 4|2|ADVMOD 5|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] make [* m:03s:a] 0det mistake . [+ gram]
+%mor:	noun|rabbit verb|make-Fin-Imp-S noun|mistake-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	he put [* m:03s:a] too much sand . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr adv|too adj|much-S1 noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|ADVMOD 4|5|AMOD 5|2|OBJ 6|2|PUNCT
+*CHI:	0det house [* s:r] fall [* m:03s:a] down . [+ gram]
+%mor:	noun|house noun|fall adv|down .
+%gra:	1|2|COMPOUND 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det doggie cry [* m:03s:a] . [+ gram]
+%mor:	noun|doggie noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] 0v sad . [+ gram]
+%mor:	noun|rabbit adj|sad-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] go [* m:unv:a] [* s:u] oh_no@i . [+ gram]
+%mor:	noun|rabbit verb|go-Fin-Imp-S propn|ohno-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] fix [* m:03s:a] 0det house [* s:r] . [+ gram]
+%mor:	noun|rabbit noun|fix noun|house .
+%gra:	1|2|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] pat [* m:03s:a] 0det sand . [+ gram]
+%mor:	noun|rabbit noun|pat noun|sand .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	0det doggie 0v happy . [+ gram]
+%mor:	noun|doggie adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	they build 0det new house [* s:r] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 adj|new-S1 noun|house-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	they work together .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Pres-P3 adv|together .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	they 0v happy . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+@End

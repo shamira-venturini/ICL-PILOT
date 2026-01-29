@@ -35,6 +35,6 @@
 %mor:	cconj|and det|the-Def-Art noun|bunny aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
 *CHI:	and now the bunny can't build it up again .
-%mor:	cconj|and adv|now det|the-Def-Art noun|bunny aux|can-Fin-S~part|not verb|build-Inf-S pron|it-Prs-Acc-S3 adp|up adv|again  .
+%mor:	cconj|and adv|now det|the-Def-Art noun|bunny aux|can-Fin-S~part|not verb|build-Inf-S pron|it-Prs-Acc-S3 adp|up adv|again .
 %gra:	1|7|CC 2|7|ADVMOD 3|4|DET 4|7|NSUBJ 5|7|AUX 6|7|ADVMOD 7|11|ROOT 8|7|OBJ 9|7|COMPOUND-PRT 10|7|ADVMOD 11|7|PUNCT 12|7|PUNCT
 @End

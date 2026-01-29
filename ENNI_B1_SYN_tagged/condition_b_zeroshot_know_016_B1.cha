@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0det rabbit and 0det doggie play . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie noun|play .
+%gra:	1|4|COMPOUND 2|4|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
+*CHI:	they make 0det castle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det doggie pat [* m:03s:a] 0det sand . [+ gram]
+%mor:	noun|doggie noun|pat noun|sand .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	0det rabbit dig [* m:03s:a] 0det sand . [+ gram]
+%mor:	noun|rabbit verb|dig-Inf-S noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det doggie 0v sad . [+ gram]
+%mor:	noun|doggie adj|sad-S1 .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det castle <go> [/] go [* m:unv:a] boom . [+ gram]
+%mor:	noun|castle verb|go-Fin-Imp-S noun|boom-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det rabbit feel [* m:03s:a] bad . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Imp-S adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	he 0aux no mean to . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 det|no-Def-Neg adj|mean-S1 adp|to .
+%gra:	1|3|NSUBJ 2|3|DET 3|4|ROOT 4|3|PUNCT 5|3|PUNCT
+*CHI:	he be [* m:03s:a] sorry . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	0det rabbit fix [* m:03s:a] 0det sand . [+ gram]
+%mor:	noun|rabbit noun|fix noun|sand .
+%gra:	1|2|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	he make [* m:03s:a] 0det castle again . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3 noun|castle-Acc adv|again .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*CHI:	0det doggie 0v happy . [+ gram]
+%mor:	noun|doggie adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	they make 0det new castle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 adj|new-S1 noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	they be [* m:vsg:a] friends . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 noun|friend-Plur .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+@End

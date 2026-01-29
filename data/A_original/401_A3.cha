@@ -103,6 +103,6 @@
 %mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|say-Fin-Ind-Pres-S3 adj|good-S1 noun|job-Acc adp|to det|that-Def-Dem-Sing adj|big-S1 noun|elephant .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|11|ROOT 6|7|AMOD 7|5|OBJ 8|11|CASE 9|11|DET 10|11|AMOD 11|5|OBL 12|5|PUNCT
 *CHI:	and then giraffe was happy again .
-%mor:	cconj|and adv|then noun|giraffe aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again  .
+%mor:	cconj|and adv|then noun|giraffe aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|7|ROOT 6|5|ADVMOD 7|5|PUNCT 8|5|PUNCT
 @End

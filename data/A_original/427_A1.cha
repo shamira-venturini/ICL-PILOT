@@ -12,16 +12,16 @@
 *CHI:	xxx like it !
 %mor:	intj|like pron|it-Prs-Acc-S3 !
 %gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
-*CHI:	is playing bubbles .
+*CHI:	0subj is playing bubbles . [+ 0subj]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S noun|bubble-Plur-Acc .
 %gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	it big bubbles coming .
+*CHI:	it 0v big bubbles coming . [+ sem]
 %mor:	pron|it-Prs-Nom-S3 adj|big-S1 noun|bubble-Plur verb|come-Ger-S .
 %gra:	1|3|NSUBJ 2|3|AMOD 3|4|ROOT 4|3|ACL 5|3|PUNCT
-*CHI:	is throw them down .
+*CHI:	is throw [* m:03s:a] them down . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|throw-Inf-S pron|they-Prs-Acc-P3 adp|down .
 %gra:	1|2|AUX 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
-*CHI:	is say thank you .
+*CHI:	0subj is say [* m:0ing] thank you . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 intj|say verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
 %gra:	1|3|COP 2|3|DISCOURSE 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	happy .

@@ -19,7 +19,7 @@
 *CHI:	and he slipped .
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
-*CHI:	and he bonked her knee .
+*CHI:	and he bonked her [* s:r:gc:pro] knee . [+ sem]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|bonk-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3 noun|knee-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
 *CHI:	and he got hurt .
@@ -31,7 +31,7 @@
 *CHI:	+" are you okay ?
 %mor:	aux|be-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 adj|okay-S1 ?
 %gra:	1|3|COP 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
-*CHI:	then her put a bandage on .
+*CHI:	then her [* s:r:gc:pro] put a bandage on . [+ gram]
 %mor:	adv|then pron|her-Prs-Acc-S3 verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandage-Acc adp|on .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
 *CHI:	and then &-um <it did> [//] I [/] I [//] he said +"/.

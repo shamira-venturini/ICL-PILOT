@@ -50,6 +50,6 @@
 %mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to propn|Michael .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
 *CHI:	(.) and Michael wasn't upset again .
-%mor:	cconj|and propn|Michael aux|be-Fin-Ind-Past-S3-irr~part|not adj|upset-S1 adv|again  .
+%mor:	cconj|and propn|Michael aux|be-Fin-Ind-Past-S3-irr~part|not adj|upset-S1 adv|again .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|7|ROOT 6|5|ADVMOD 7|5|PUNCT 8|5|PUNCT
 @End

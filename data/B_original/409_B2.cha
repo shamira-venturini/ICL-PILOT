@@ -35,6 +35,6 @@
 %mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go verb|check-Inf-S pron|he-Prs-Acc-S3 det|the-Def-Art noun|bunny-Acc .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|5|IOBJ 7|8|DET 8|5|OBJ 9|5|PUNCT
 *CHI:	and they were going back home .
-%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S adv|back adv|home  .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S adv|back adv|home .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|4|ADVMOD 6|4|ADVMOD 7|4|PUNCT 8|4|PUNCT
 @End

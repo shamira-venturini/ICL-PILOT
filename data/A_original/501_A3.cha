@@ -10,7 +10,7 @@
 @Tape Location:	Disk L2 Track 2
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	a [* m:allo] elephant and the giraffe .
+*CHI:	a [* m:allo] elephant and the giraffe . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant cconj|and det|the-Def-Art noun|giraffe .
 %gra:	1|2|DET 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
 *CHI:	&-uh the giraffe had a [* m:allo] airplane . [+ gram]
@@ -28,7 +28,7 @@
 *CHI:	now when &+sh they were pull [//] going to pull on it it just fell in the water of the pool .
 %mor:	adv|now adv|when pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S part|to verb|pull-Inf-S adp|on pron|it-Prs-Acc-S3 pron|it-Prs-Nom-S3 adv|just verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water adp|of det|the-Def-Art noun|pool .
 %gra:	1|12|ADVMOD 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|12|ADVCL 6|7|MARK 7|5|XCOMP 8|9|CASE 9|7|OBL 10|12|NSUBJ 11|12|ADVMOD 12|18|ROOT 13|15|CASE 14|15|DET 15|12|OBL 16|18|CASE 17|18|DET 18|15|NMOD 19|12|PUNCT
-*CHI:	the giraffe was mad at the elephant what she did to his airplane  . [+ sem]
+*CHI:	the giraffe was mad at the elephant what she did to his airplane . [+ sem]
 %mor:	det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr adj|mad-S1 adp|at det|the-Def-Art noun|elephant pron|what-Rel-S1 pron|she-Prs-Nom-S3 verb|do-Fin-Ind-Past-S3-irr adp|to pron|his-Prs-Gen-S3 noun|airplane .
 %gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|13|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|10|OBJ 9|10|NSUBJ 10|7|ACL-RELCL 11|13|CASE 12|13|NMOD-POSS 13|10|OBL 14|4|PUNCT
 *CHI:	now the lifeguard came and &+s saw &-uh &-um the little toy airplane was in the water .

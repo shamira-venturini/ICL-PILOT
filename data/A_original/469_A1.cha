@@ -22,7 +22,7 @@
 *CHI:	the cow &+s wants to get it .
 %mor:	det|the-Def-Art noun|cow verb|want-Fin-Ind-Pres-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|3|PUNCT
-*CHI:	and then the cow gives it back to the elephant .
+*CHI:	and then the cow gives it back  to the elephant .
 %mor:	cconj|and adv|then det|the-Def-Art noun|cow verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|back adp|to det|the-Def-Art noun|elephant .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|10|ROOT 6|5|OBJ 7|5|ADVMOD 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
 *CHI:	and she likes it .

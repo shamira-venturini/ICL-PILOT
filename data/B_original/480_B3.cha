@@ -31,7 +31,7 @@
 *CHI:	and <see he said> [//] he [//] <the dog> [//] see the rabbit pushed the dog .
 %mor:	cconj|and verb|see-Fin-Imp-S det|the-Def-Art noun|rabbit verb|push-Fin-Ind-Past-S3 det|the-Def-Art noun|dog-Acc .
 %gra:	1|2|CC 2|7|ROOT 3|4|DET 4|5|NSUBJ 5|2|CCOMP 6|7|DET 7|5|OBJ 8|2|PUNCT
-*CHI:	and the rabbit doing &+t popping the balloon .
+*CHI:	and the rabbit 0aux doing &+t popping the balloon . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|rabbit verb|do-Part-S verb|popp-Ger-S det|the-Def-Art noun|balloon-Acc .
 %gra:	1|3|CC 2|3|DET 3|7|ROOT 4|3|ACL 5|4|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
 *CHI:	mhm .
@@ -40,7 +40,7 @@
 *CHI:	and see ?
 %mor:	cconj|and verb|see-Fin-Imp-S ?
 %gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
-*CHI:	and the dog is coming all day .
+*CHI:	and the dog is coming all day . [+ sem]
 %mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S det|all-Def-Tot noun|day .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|DET 7|5|OBL-UNMARKED 8|5|PUNCT
 *CHI:	and see ?
@@ -73,7 +73,7 @@
 *CHI:	mm .
 %mor:	intj|mm .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	and he get [* m:03s:a] another balloon .
+*CHI:	and he get  another balloon .
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|another-Def-Ind noun|balloon-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	uhhuh yeah .
@@ -118,7 +118,7 @@
 *CHI:	yes and he said he got change yep uhhum .
 %mor:	intj|yes cconj|and pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr noun|change-Acc intj|yep noun|uhhum-Acc .
 %gra:	1|4|DISCOURSE 2|4|CC 3|4|NSUBJ 4|9|ROOT 5|6|NSUBJ 6|4|CCOMP 7|6|OBJ 8|9|DISCOURSE 9|6|OBJ 10|4|PUNCT
-*CHI:	he's happy and change .
+*CHI:	he's happy and 0v change . [+ gram]
 %mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 cconj|and verb|change-Fin-Ind-Pres-P3 .
 %gra:	1|3|NSUBJ 2|3|COP 3|5|ROOT 4|5|CC 5|3|CONJ 6|3|PUNCT
 *CHI:	and a long time ago the rabbit give [* m:base:ed] change to the rabbit . [+ gram]
@@ -127,7 +127,7 @@
 *CHI:	mhm .
 %mor:	intj|mhm .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	and he's happy he get [* m:03s:a] [* m:03s:a] balloo:n .
+*CHI:	and he's happy he get  balloo:n .
 %mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 noun|balloon-Acc .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|7|ROOT 5|6|NSUBJ 6|4|CCOMP 7|6|OBJ 8|4|PUNCT
 *CHI:	mhm .

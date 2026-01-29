@@ -10,7 +10,7 @@
 @Tape Location:	Disk M5 Track 23
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	there was a giraffe and a [* m:allo] elephant a friend .
+*CHI:	there was a giraffe and a [* m:allo] elephant a friend . [+ gram]
 %mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant det|a-Ind-Art noun|friend .
 %gra:	1|2|EXPL 2|9|ROOT 3|4|DET 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|9|DET 9|7|APPOS 10|2|PUNCT
 *CHI:	and then the ball went in the water .
@@ -23,6 +23,6 @@
 %mor:	cconj|and adv|then det|the-Def-Art noun|elephant verb|show-Fin-Ind-Past-S3 det|the-Def-Art noun|ball-Acc adp|to det|the-Def-Art noun|horse .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|10|ROOT 6|7|DET 7|5|OBJ 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
 *CHI:	and then the horse get wet .
-%mor:	cconj|and adv|then det|the-Def-Art noun|horse verb|get-Fin-Ind-Pres-S3 adj|wet-S1  .
+%mor:	cconj|and adv|then det|the-Def-Art noun|horse verb|get-Fin-Ind-Pres-S3 adj|wet-S1 .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|5|XCOMP 7|5|PUNCT 8|5|PUNCT
 @End

@@ -10,17 +10,16 @@
 @Tape Location:	Disk M10 , Track 33
 @Types:	cross, narrative, SLI
 @G:	A0
-@G:	A0
 *CHI:	store .
 %mor:	noun|store .
 %gra:	1|1|ROOT 2|1|PUNCT
 *CHI:	that boy was happy .
 %mor:	sconj|that noun|boy aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
 %gra:	1|4|MARK 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
-*CHI:	the boy look at the cookies .
+*CHI:	the boy look [* m:03s:a] at the cookies . [+ gram]
 %mor:	det|the-Def-Art noun|boy verb|look-Fin-Imp-S adp|at det|the-Def-Art noun|cookie-Plur .
 %gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
-*CHI:	he pick one cookie .
+*CHI:	he pick [* m:03s:a] one cookie . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Pres-S3 num|one noun|cookie-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|NUMMOD 4|2|OBJ 5|2|PUNCT
 *CHI:	and it falls down !

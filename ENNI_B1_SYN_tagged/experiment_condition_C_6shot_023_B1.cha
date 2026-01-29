@@ -1,0 +1,77 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0subj is play in 0det sand box . [+ gram]
+%mor:	aux|be-Fin-Ind-Pres-S3 noun|play adp|in noun|sand noun|box .
+%gra:	1|2|COP 2|5|ROOT 3|5|CASE 4|5|COMPOUND 5|2|NMOD 6|2|PUNCT
+*CHI:	0subj is have shovel [* m:0s] . [+ gram]
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|have-Inf-S noun|shovel-Acc .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0subj is want 0to build castle . [+ gram]
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|want-Inf-S verb|build-Inf-S noun|castle-Acc .
+%gra:	1|2|AUX 2|4|ROOT 3|2|XCOMP 4|3|OBJ 5|2|PUNCT
+*CHI:	0subj is have [* m:0ing] fun . [+ gram]
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|have-Inf-S noun|fun-Acc .
+%gra:	1|2|AUX 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	and he is p:pat [* p:n] the sand .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|ppat-Part-Pres-S det|the-Def-Art noun|sand-Acc .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	he is make [* m:0ing] it strong . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|make-Inf-S pron|it-Prs-Acc-S3 adj|strong-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|XCOMP 6|3|PUNCT
+*CHI:	and she is dig [* m:0ing] . [+ gram]
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|dig-Part-Pres-S .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	she is get [* m:0ing] 0det wabbity [: rabbit] [* p:n] more sand . [+ gram]
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|get-Inf-S noun|rabbit-Acc adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|OBJ 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	they is [* m:vsg:a] work [* m:0ing] very hard . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 noun|work adv|very adv|hard .
+%gra:	1|3|NSUBJ 2|3|COP 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*CHI:	&-uh then he is make [* m:0ing] a mistake . [+ gram]
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|make-Inf-S det|a-Ind-Art noun|mistake-Acc .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	he is lift [* m:0ing] up bucket . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|lift-Inf-S adp|up noun|bucket-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|COMPOUND-PRT 5|3|OBJ 6|3|PUNCT
+*CHI:	he is dump [* m:0ing] all sand 0v on top . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|dump-Inf-S det|all-Def-Tot noun|sand-Acc adp|on noun|top .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*CHI:	smash [/] smash [* m:0ed] flat . [+ gram]
+%mor:	verb|smash-Fin-Imp-S adj|flat-S1 .
+%gra:	1|2|ROOT 2|1|XCOMP 3|1|PUNCT
+*CHI:	she is cry [* m:0ing] . [+ gram]
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|cry-Inf-S .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	0subj cry . [+ gram]
+%mor:	verb|cry-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	because 0det castle is fall [* m:0ing] down . [+ gram]
+%mor:	sconj|because noun|castle aux|be-Fin-Ind-Pres-S3 verb|fall-Inf-S adp|down .
+%gra:	1|4|MARK 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
+*CHI:	he is feel [* m:0ing] bad . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|feel-Inf-S adj|bad-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*CHI:	he is don't mean to break it . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 aux|do-Fin-S~part|not verb|mean-Inf-S part|to verb|break-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*CHI:	then he is <pat> [/] pat [* m:0ing] sand back . [+ gram]
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 noun|pat noun|sand adv|back .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|COMPOUND 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	he is try [* m:0ing] to fix 0obj . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|try-Inf-S part|to verb|fix-Inf-S .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	he is want 0to make her happy . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|want-Inf-S verb|make-Inf-S pron|her-Prs-Acc-S3 adj|happy-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|XCOMP 5|4|OBJ 6|4|XCOMP 7|3|PUNCT
+*CHI:	they is [* m:vsg:a] build [* m:0ing] 0det new one . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|build-Inf-S adj|new-S1 num|one .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|AMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

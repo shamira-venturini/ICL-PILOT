@@ -20,19 +20,19 @@
 *CHI:	the kitty and the dog go to eat their lunch .
 %mor:	det|the-Def-Art noun|kitty cconj|and det|the-Def-Art noun|dog verb|go-Fin-Ind-Pres-P3 part|to verb|eat-Inf-S pron|their-Prs-Gen-P3 noun|lunch-Acc .
 %gra:	1|2|DET 2|6|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|10|ROOT 7|8|MARK 8|6|ADVCL 9|10|NMOD-POSS 10|8|OBJ 11|6|PUNCT
-*CHI:	the puppy and the kitty go have stomachache .
+*CHI:	the puppy and the kitty go have 0det stomachache . [+ gram]
 %mor:	det|the-Def-Art noun|puppy cconj|and det|the-Def-Art noun|kitty verb|go-Fin-Ind-Pres-P3 verb|have-Fin-Ind-Pres-S3 noun|stomachache-Acc .
 %gra:	1|2|DET 2|6|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|8|ROOT 7|6|XCOMP 8|7|OBJ 9|6|PUNCT
 *CHI:	and <the puppy is> [//] the [/] the rabbit gets sick .
 %mor:	cconj|and det|the-Def-Art noun|rabbit verb|get-Fin-Ind-Pres-S3 adj|sick-S1 .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
-*CHI:	the puppy and the kitty goes to work .
+*CHI:	the puppy and the kitty goes [* m:vsg:a] to work . [+ gram]
 %mor:	det|the-Def-Art noun|puppy cconj|and det|the-Def-Art noun|kitty verb|go-Fin-Ind-Pres-S3 adp|to noun|work .
 %gra:	1|2|DET 2|6|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|8|ROOT 7|8|CASE 8|6|OBL 9|6|PUNCT
-*CHI:	the puppy and the kitty &+k untied the hands .
+*CHI:	the puppy and the kitty &+k untied the [* s:r:det] hands . [+ gram]
 %mor:	det|the-Def-Art noun|puppy cconj|and det|the-Def-Art noun|kitty verb|unty-Fin-Ind-Past-S3 det|the-Def-Art noun|hand-Plur-Acc .
 %gra:	1|2|DET 2|6|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
-*CHI:	and the puppy and the &+ki kitty <and the> [//] is sick .
+*CHI:	and the puppy and the &+ki kitty <and the> [//] is [* m:vsg:a] sick . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|puppy cconj|and det|the-Def-Art noun|kitty aux|be-Fin-Ind-Pres-S3 adj|sick-S1 .
 %gra:	1|8|CC 2|3|DET 3|8|NSUBJ 4|6|CC 5|6|DET 6|3|CONJ 7|8|COP 8|8|ROOT 9|8|PUNCT
 *CHI:	<and the rabbit> [/] and the rabbit and the puppy say goodbye .

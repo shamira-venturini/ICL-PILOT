@@ -13,7 +13,7 @@
 *CHI:	they're making a sandcastle .
 %mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S det|a-Ind-Art noun|sandcastle-Acc .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	and he put some more sand .
+*CHI:	and he put  some more sand .
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|some-Def-Ind adj|more-Cmp-S1 noun|sand-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
 *CHI:	and more sand .
@@ -22,10 +22,10 @@
 *CHI:	the window .
 %mor:	det|the-Def-Art noun|window .
 %gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
-*CHI:	and it fall down .
+*CHI:	and it fall   down .
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Pres-S3 adp|down .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|COMPOUND-PRT 5|3|PUNCT
-*CHI:	and trying make it again .
+*CHI:	and 0subj 0sux trying 0to make it again . [+ gram]
 %mor:	cconj|and verb|try-Part-Pres-S verb|make-Inf-S pron|it-Prs-Acc-S3 adv|again .
 %gra:	1|2|CC 2|5|ROOT 3|2|XCOMP 4|3|OBJ 5|3|ADVMOD 6|2|PUNCT
 *CHI:	end .

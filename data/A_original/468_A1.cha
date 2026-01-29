@@ -10,19 +10,19 @@
 @Tape Location:	Disk L27 , Track 24
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	&-um he found orange .
+*CHI:	&-um he found  0det orange . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|find-Fin-Ind-Past-S3-irr adj|orange-S1 .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	he found a orange in the water .
+*CHI:	he found  a [* m:allo] orange in the water . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|find-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|orange-Acc adp|in det|the-Def-Art noun|water .
 %gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|OBJ 5|7|CASE 6|7|DET 7|2|OBL 8|2|PUNCT
-*CHI:	he fell in the water .
+*CHI:	he fell  in the water .
 %mor:	pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
-*CHI:	he picked up a orange .
+*CHI:	he picked up a [* m:allo] orange . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 adp|up det|a-Ind-Art noun|orange-Acc .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|2|COMPOUND-PRT 4|5|DET 5|2|OBJ 6|2|PUNCT
-*CHI:	he came out of water .
-%mor:	pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adp|out adp|of noun|water  .
+*CHI:	he came  out of [* s:r:prep] water . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adp|out adp|of noun|water .
 %gra:	1|2|NSUBJ 2|6|ROOT 3|5|CASE 4|3|FIXED 5|2|OBL 6|2|PUNCT 7|2|PUNCT
 @End

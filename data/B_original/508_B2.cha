@@ -35,6 +35,6 @@
 %mor:	det|the-Def-Art noun|doctor verb|help-Fin-Ind-Past-S3 det|the-Def-Art adj|other-S1 noun|bunny-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
 *CHI:	and then he was feeling better .
-%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|feel-Part-Pres-S adj|good-Cmp-S1  .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|feel-Part-Pres-S adj|good-Cmp-S1 .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|5|XCOMP 7|5|PUNCT 8|5|PUNCT
 @End

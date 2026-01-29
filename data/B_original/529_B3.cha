@@ -21,64 +21,64 @@
 *CHI:	I saw an [//] a rabbit [/] rabbit saw [/] saw somebody's balloon .
 %mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Past-S1-irr det|a-Ind-Art noun|rabbit verb|see-Fin-Ind-Past-S3-irr pron|somebody-Ind-S1~part|s noun|balloon-Acc .
 %gra:	1|2|NSUBJ 2|8|ROOT 3|4|DET 4|5|NSUBJ 5|2|CCOMP 6|8|NMOD-POSS 7|6|CASE 8|5|OBJ 9|2|PUNCT
-*CHI:	rabbit [/] rabbit [/] &+ra rabbit [/] rabbit [/] rabbit see [/] see balloon saw [/] saw knot that there too and tried [/] tried [/] tried get [/] get knot out loose [!] .
+*CHI:	rabbit [/] rabbit [/] &+ra rabbit [/] rabbit [/] rabbit see [/] see balloon saw [/] saw knot that there too and tried [/] tried [/] tried get [/] get knot out loose [!] . [+ sem]
 %mor:	noun|rabbit verb|see-Fin-Imp-S noun|balloon verb|see-Fin-Ind-Past-S3-irr noun|knot-Acc pron|that-Rel adv|there adv|too cconj|and verb|try-Fin-Ind-Past-S3 verb|get-Inf-S verb|knot-Part-Past-S adp|out adv|loose .
 %gra:	1|2|NSUBJ 2|4|CSUBJ 3|4|NSUBJ 4|14|ROOT 5|4|OBJ 6|7|NSUBJ 7|4|ADVMOD 8|7|ADVMOD 9|10|CC 10|4|CONJ 11|10|XCOMP 12|11|XCOMP 13|12|COMPOUND-PRT 14|12|ADVMOD 15|4|PUNCT
-*CHI:	and get [/] get more looser and more looser .
+*CHI:	and 0subj get [/] get more looser [* m:++er] and more looser [* m:++er] . [+ gram]
 %mor:	cconj|and verb|get-Fin-Imp-S adv|more adj|loser-Cmp-S1 cconj|and adv|more adj|loser-Cmp-S1 .
 %gra:	1|2|CC 2|7|ROOT 3|4|ADVMOD 4|2|XCOMP 5|7|CC 6|7|ADVMOD 7|4|CONJ 8|2|PUNCT
-*CHI:	and <(s)till> [/] (s)till more looser .
+*CHI:	and <(s)till> [/] (s)till more looser [* m:++er] . [+ gram]
 %mor:	cconj|and adv|still adv|more adj|loser-Cmp-S1 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
 *CHI:	ah ah no not there !
 %mor:	intj|ah intj|ah intj|no part|not adv|there !
 %gra:	1|5|DISCOURSE 2|5|DISCOURSE 3|5|DISCOURSE 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
-*CHI:	balloon [/] balloon [/] balloon [/] balloon [/] balloon float [/] float away up [/] up to in the [/] the sky .
+*CHI:	balloon [/] balloon [/] balloon [/] balloon [/] balloon float [/] float  away up [/] up to in the [/] the sky .
 %mor:	noun|balloon verb|float-Inf-Imp-S adv|away adp|up adp|to adp|in det|the-Def-Art noun|sky .
 %gra:	1|2|NSUBJ 2|8|ROOT 3|2|ADVMOD 4|8|CASE 5|4|FIXED 6|8|CASE 7|8|DET 8|2|OBL 9|2|PUNCT
 *CHI:	another person &-uh &+sh &-uh we [/] we [/] we [/] we [/] <we get> [/] get [/] get real mad at the rabbit .
 %mor:	det|another-Def-Ind noun|person verb|get-Fin-Ind-Pres-S adj|real-S1 adj|mad-S1 adp|at det|the-Def-Art noun|rabbit .
 %gra:	1|2|DET 2|3|NSUBJ 3|8|ROOT 4|5|ADVMOD 5|3|XCOMP 6|8|CASE 7|8|DET 8|5|OBL 9|3|PUNCT
-*CHI:	rabbit [/] rabbit sh:e [/] she saw body and [/] and talk [/] talk [/] talk [/] talk [/] talk [/] talk somebody .
+*CHI:	rabbit [/] rabbit sh:e [/] she saw body and [/] and talk [/] talk [/] talk [/] talk [/] talk [/] talk  0prep somebody . [+ gram]
 %mor:	noun|rabbit pron|she-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr noun|body-Acc cconj|and verb|talk-Inf-S pron|somebody-Ind-S1 .
 %gra:	1|3|VOCATIVE 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|6|CC 6|3|CONJ 7|6|OBJ 8|3|PUNCT
-*CHI:	say [/] say [/] say &-uh &-um say [/] say you there <I want> [/] <I want> [/] <I want> [/] I want two [/] two [/] &+ba I want one balloon .
+*CHI:	0subj say [/] say [/] say &-uh &-um say [/] say you there <I want> [/] <I want> [/] <I want> [/] I want two [/] two [/] &+ba I want one balloon . [+ gram]
 %mor:	verb|say-Fin-Imp-S verb|say-Fin-Imp-S pron|you-Prs-Acc-S2 adv|there pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 num|one noun|balloon-Acc .
 %gra:	1|10|ROOT 2|1|XCOMP 3|2|OBJ 4|2|ADVMOD 5|6|NSUBJ 6|1|PARATAXIS 7|8|NSUBJ 8|6|CCOMP 9|10|NUMMOD 10|8|OBJ 11|1|PUNCT
-*CHI:	<a got> [/] got one balloon cost [/] cost five dollars .
+*CHI:	0subj <a got> [/] got one balloon cost [/] cost  five dollars . [+ gram]
 %mor:	verb|get-Fin-Ind-Past-S1-irr num|one noun|balloon-Acc verb|cost-Inf-S num|five noun|dollar-Plur-Acc .
 %gra:	1|6|ROOT 2|3|NUMMOD 3|1|OBJ 4|1|XCOMP 5|6|NUMMOD 6|4|OBJ 7|1|PUNCT
 *CHI:	I <don't> [/] don't have the money .
 %mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|have-Inf-S det|the-Def-Art noun|money-Acc .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	and rabbit [/] rabbit [/] rabbit [/] rabbit get so mad .
+*CHI:	and rabbit [/] rabbit [/] rabbit [/] rabbit get  so mad .
 %mor:	cconj|and noun|rabbit verb|get-Fin-Ind-Pres-S3 adv|so adj|mad-S1 .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|XCOMP 6|3|PUNCT
-*CHI:	another person come [/] come along real fast .
+*CHI:	another person come [/] come  along real fast .
 %mor:	det|another-Def-Ind noun|person verb|come-Fin-Ind-Pres-S3 adv|along adv|real adv|fast .
 %gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|3|ADVMOD 5|6|ADVMOD 6|3|ADVMOD 7|3|PUNCT
-*CHI:	she [/] she [/] she [//] &+sh another person say [/] say [/] say [/] say please [/] please [/] please [/] please I want balloon .
+*CHI:	she [/] she [/] she [//] &+sh another person say [/] say [/] say [/] say  please [/] please [/] please [/] please I want 0det balloon . [+ gram]
 %mor:	det|another-Def-Ind noun|person verb|say-Fin-Imp-S intj|please pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 noun|balloon-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|7|ROOT 4|6|DISCOURSE 5|6|NSUBJ 6|3|CCOMP 7|6|OBJ 8|3|PUNCT
-*CHI:	I just talk about this [?] .
+*CHI:	I just talk [* m:0ed] about this [?] . [+ gram]
 %mor:	pron|I-Prs-Nom-S1 adv|just verb|talk-Fin-Ind-Pres-S1 adp|about pron|this-Dem-S1 .
 %gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
 *CHI:	I got money .
 %mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr noun|money-Acc .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	another person &-uh rabbit [/] rabbit show somebody .
+*CHI:	another person &-uh rabbit [/] rabbit show  somebody 0obj . [+ gram]
 %mor:	det|another-Def-Ind noun|person noun|rabbit verb|show-Fin-Ind-S pron|somebody-Ind-S1 .
 %gra:	1|3|DET 2|3|COMPOUND 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	you a doc(t)or .
+*CHI:	you 0v a doc(t)or . [+ gram]
 %mor:	pron|you-Prs-Acc-S2 det|a-Ind-Art noun|doctor .
 %gra:	1|3|NSUBJ 2|3|DET 3|3|ROOT 4|3|PUNCT
-*CHI:	doctor [/] doctor [/] <doctor rabbit> [//] and doc(t)or rabbit [/] rabbit [/] rabbit tell [/] tell xxx somebody .
+*CHI:	doctor [/] doctor [/] <doctor rabbit> [//] and doc(t)or rabbit [/] rabbit [/] rabbit tell [/] tell  xxx somebody .
 %mor:	cconj|and noun|doctor noun|rabbit verb|tell-Fin-Imp-S pron|somebody-Ind-S1 .
 %gra:	1|4|CC 2|3|COMPOUND 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	<I got> [=! whispers] [/] I got money the doc(t)or say .
+*CHI:	<I got> [=! whispers] [/] I got money the doc(t)or say  .
 %mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr noun|money-Acc det|the-Def-Art noun|doctor-Acc verb|say-Fin-Ind-Pres-S .
 %gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|5|DET 5|2|OBJ 6|2|XCOMP 7|2|PUNCT
 *CHI:	I got [/] got [/] got [/] got two [/] two balloons .
-%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr num|two noun|balloon-Plur-Acc  .
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr num|two noun|balloon-Plur-Acc .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|4|NUMMOD 4|2|OBJ 5|2|PUNCT 6|2|PUNCT
 @End

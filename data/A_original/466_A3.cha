@@ -65,6 +65,6 @@
 %mor:	verb|love-Fin-Ind-Pres-S2 pron|you-Prs-Acc-S2 adv|forever adv|again .
 %gra:	1|4|ROOT 2|1|OBJ 3|4|ADVMOD 4|1|ADVMOD 5|1|PUNCT
 *CHI:	I love you &+f xxx .
-%mor:	pron|I-Prs-Nom-S1 verb|love-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2  .
+%mor:	pron|I-Prs-Nom-S1 verb|love-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|PUNCT 5|2|PUNCT
 @End

@@ -12,7 +12,7 @@
 *CHI:	Dog is patting (...) sand .
 *CHI:	Make wall strong .
 *CHI:	Rabbit is (...) digging .
-*CHI:	Get more sand .
+*CHI:	0subj get  more sand .
 *CHI:	They uh (...) work hard .
 *CHI:	Uh rabbit do mistake .
 *CHI:	He lift heavy bucket .
@@ -26,6 +26,6 @@
 *CHI:	He didnt mean (...) break it .
 *CHI:	Rabbit pat sand .
 *CHI:	Try fix castle .
-*CHI:	Dog be happy .
+*CHI:	dog be [* m:unv:a] happy .
 *CHI:	They build new one .
 @End

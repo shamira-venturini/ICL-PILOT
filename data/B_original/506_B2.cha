@@ -38,6 +38,6 @@
 %mor:	verb|check-Fin-Ind-Past-S1 det|the-Def-Art noun|bunny-Acc .
 %gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
 *CHI:	and then he hadta go home to the doctor's .
-%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|hadt-Fin-S3 verb|go-Inf-S adv|home adp|to det|the-Def-Art noun|doctor~part|s  .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|hadt-Fin-S3 verb|go-Inf-S adv|home adp|to det|the-Def-Art noun|doctor~part|s .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|11|ROOT 6|5|ADVMOD 7|11|CASE 8|9|DET 9|11|NMOD-POSS 10|9|CASE 11|5|OBL 12|5|PUNCT
 @End

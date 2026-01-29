@@ -10,31 +10,31 @@
 @Tape Location:	Disk L27 , Track 24
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	then that one and that one and that one .
+*CHI:	then that one and  that one and  that one .
 %mor:	adv|then det|that-Def-Dem-Sing noun|one cconj|and det|that-Def-Dem-Sing num|one cconj|and det|that-Def-Dem-Sing num|one .
 %gra:	1|3|ADVMOD 2|3|DET 3|9|ROOT 4|6|CC 5|6|DET 6|3|CONJ 7|9|CC 8|9|DET 9|3|CONJ 10|3|PUNCT
 *CHI:	&-um he picked up the airplane .
 %mor:	pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 adp|up det|the-Def-Art noun|airplane-Acc .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|2|COMPOUND-PRT 4|5|DET 5|2|OBJ 6|2|PUNCT
-*CHI:	the [//] he was floating the airplane .
+*CHI:	the [//] he was floating the airplane . [+ sem]
 %mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|float-Part-Pres-S det|the-Def-Art noun|airplane-Acc .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	&-um now he's [!] holding the airplane .
 %mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|hold-Part-Pres-S det|the-Def-Art noun|airplane-Acc .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	now it fell in the water .
+*CHI:	now it fell  in the water .
 %mor:	adv|now pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
 %gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
 *CHI:	it went down the water .
 %mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|down det|the-Def-Art noun|water .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
-*CHI:	&-um it wasn't floating down the water .
+*CHI:	&-um it wasn't floating down the water . [+ sem]
 %mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr~part|not verb|float-Part-Pres-S adp|down det|the-Def-Art noun|water .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
 *CHI:	&-um it [/] it said uhoh !
 %mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|uhoh !
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|DISCOURSE 4|2|PUNCT
-*CHI:	and then he fell down .
+*CHI:	and then he fell  down .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
 *CHI:	he went to get it .
@@ -43,13 +43,13 @@
 *CHI:	and he didn't get it .
 %mor:	cconj|and pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
-*CHI:	he get back in the deep .
+*CHI:	he get  back in the deep .
 %mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 adv|back adp|in det|the-Def-Art adj|deep-S1 .
 %gra:	1|2|NSUBJ 2|6|ROOT 3|2|ADVMOD 4|6|CASE 5|6|DET 6|2|OBL 7|2|PUNCT
 *CHI:	we're gonna go get it .
 %mor:	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 part|go verb|go-Inf-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|XCOMP 6|5|OBJ 7|4|PUNCT
-*CHI:	and he got it !
+*CHI:	and he got  it !
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 !
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	and he [!] was happy !

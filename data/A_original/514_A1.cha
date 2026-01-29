@@ -10,7 +10,7 @@
 @Tape Location:	Disk M3 Track 16
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	once upon a time there was a [/] a [* m:allo] elephant and a zebra .
+*CHI:	once upon a time there was a [/] a [* m:allo] elephant and a zebra . [+ gram]
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|zebra .
 %gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
 *CHI:	they were very best friends .
@@ -32,6 +32,6 @@
 %mor:	cconj|and adv|then det|the-Def-Art noun|elephant aux|be-Fin-Ind-Past-S3-irr adj|jealous-S1 .
 %gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
 *CHI:	and the zebra was soaking wet .
-%mor:	cconj|and det|the-Def-Art noun|zebra aux|be-Fin-Ind-Past-S3-irr verb|soak-Part-Pres-S adj|wet-S1  .
+%mor:	cconj|and det|the-Def-Art noun|zebra aux|be-Fin-Ind-Past-S3-irr verb|soak-Part-Pres-S adj|wet-S1 .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|5|XCOMP 7|5|PUNCT 8|5|PUNCT
 @End

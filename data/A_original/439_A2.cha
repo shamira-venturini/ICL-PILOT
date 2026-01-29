@@ -22,7 +22,7 @@
 *CHI:	&~ooh and she almost fell in .
 %mor:	cconj|and pron|she-Prs-Nom-S3 adv|almost verb|fall-Fin-Ind-Past-S3-irr adv|in .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
-*CHI:	ouch she stubbed her knee .
+*CHI:	ouch she stubbed her knee . [+ sem]
 %mor:	intj|ouch pron|she-Prs-Nom-S3 verb|stubb-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3 noun|knee-Acc .
 %gra:	1|3|DISCOURSE 2|3|NSUBJ 3|5|ROOT 4|5|NMOD-POSS 5|3|OBJ 6|3|PUNCT
 *CHI:	the [/] the [/] the teacher that owned that place came to help .

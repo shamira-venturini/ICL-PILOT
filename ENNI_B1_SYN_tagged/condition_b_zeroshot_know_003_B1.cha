@@ -1,0 +1,89 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0det rabby [: rabbit] [* p:n] and 0det doggie play together . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie verb|play-Fin-Ind-Pres-S adv|together .
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	they like sand .
+%mor:	pron|they-Prs-Nom-P3 verb|like-Fin-Ind-Pres-P3 noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] and 0det doggie use shovel [* m:0s] . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie noun|use noun|shovel .
+%gra:	1|5|COMPOUND 2|5|CC 3|1|CONJ 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*CHI:	they want 0to make 0det big sand house [: castle] [* s:r] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 verb|make-Inf-S adj|big-S1 noun|sand noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|XCOMP 4|6|AMOD 5|6|COMPOUND 6|3|OBJ 7|2|PUNCT
+*CHI:	they 0v happy . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det doggie <go [* m:unv:a]> [/] go [* m:unv:a] <pat [* m:0ing]> [/] pat [/] pat 0obj . [+ gram]
+%mor:	noun|doggie verb|go-Fin-Imp-S noun|pat-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0subj make 0det sand strong . [+ gram]
+%mor:	verb|make-Fin-Imp-S noun|sand adj|strong-S1 .
+%gra:	1|3|ROOT 2|3|COMPOUND 3|1|XCOMP 4|1|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] <go [* m:unv:a]> [/] go [* m:unv:a] <dig [* m:0ing]> [/] dig [/] dig . [+ gram]
+%mor:	noun|rabbit verb|go-Fin-Imp-S noun|dig-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0subj get more sand . [+ gram]
+%mor:	verb|get-Fin-Imp-S adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|ROOT 2|3|AMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	they <work> [/] work [/] work .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Pres-P3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] do [* m:unv:a] [* s:u] boo_boo [* s:r] . [+ gram]
+%mor:	noun|rabbit verb|do-Fin-Imp-S noun|booboo-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they 0aux having 0det big bucket . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|have-Part-Pres-S adj|big-S1 noun|bucket-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	all sand fall [* m:03s:a] down . [+ gram]
+%mor:	det|all-Def-Tot noun|sand verb|fall-Fin-Ind-Pres-P3 adv|down .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	0det castle <go [* m:unv:a]> [/] go [* m:unv:a] plop@o . [+ gram]
+%mor:	noun|castle verb|go-Fin-Imp-S x|plop .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|FLAT 4|2|PUNCT
+*CHI:	0subj break [* m:base:ed] down . [+ gram]
+%mor:	verb|break-Fin-Imp-S adp|down .
+%gra:	1|2|ROOT 2|1|COMPOUND-PRT 3|1|PUNCT
+*CHI:	0det doggie cry [* m:03s:a] . [+ gram]
+%mor:	noun|doggie noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	sad .
+%mor:	adj|sad-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	0det castle 0v all smash . [+ gram]
+%mor:	noun|castle det|all-Def-Tot noun|smash .
+%gra:	1|3|COMPOUND 2|3|DET 3|3|ROOT 4|3|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] 0v sad too . [+ gram]
+%mor:	noun|rabbit adj|sad-S1 adv|too .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	he 0aux no mean to hurt 0obj . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 det|no-Def-Neg verb|mean-Fin-Ind-Pres-S part|to verb|hurt-Inf-S .
+%gra:	1|3|NSUBJ 2|3|DET 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] <go [* m:unv:a] [* s:r]> [/] go [* m:unv:a] <pat [* m:0ing]> [/] pat 0obj . [+ gram]
+%mor:	noun|rabbit verb|go-Fin-Imp-S propn|pat-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0subj fix 0det castle . [+ gram]
+%mor:	verb|fix-Inf-S noun|castle-Acc .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	0subj make doggie happy . [+ gram]
+%mor:	verb|make-Fin-Imp-S noun|doggie-Acc adj|happy-S1 .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] and 0det doggie <go [* m:unv:a]> [/] go [* m:unv:a] . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie verb|go-Fin-Imp-S .
+%gra:	1|4|COMPOUND 2|3|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
+*CHI:	0subj make 0det new castle . [+ gram]
+%mor:	verb|make-Fin-Imp-S adj|new-S1 noun|castle-Acc .
+%gra:	1|3|ROOT 2|3|AMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	they play again .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adv|again .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det rabby [: rabbit] [* p:n] and 0det doggie 0aux friend . [+ gram]
+%mor:	noun|rabbit cconj|and noun|doggie noun|friend .
+%gra:	1|4|COMPOUND 2|4|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
+@End

@@ -44,6 +44,6 @@
 %mor:	intj|oop .
 %gra:	1|1|ROOT 2|1|PUNCT
 *CHI:	<do it all by it> [//] he do it all by hisself [* s:r:gc:der] . [+ gram]
-%mor:	pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 det|all-Def-Tot adp|by noun|hisself  .
+%mor:	pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 det|all-Def-Tot adp|by noun|hisself .
 %gra:	1|2|NSUBJ 2|7|ROOT 3|2|OBJ 4|3|DET 5|6|CASE 6|2|OBL 7|2|PUNCT 8|2|PUNCT
 @End

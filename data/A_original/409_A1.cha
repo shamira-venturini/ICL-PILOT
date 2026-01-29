@@ -26,6 +26,6 @@
 %mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|ball .
 %gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
 *CHI:	&-um elephant was happy .
-%mor:	noun|elephant aux|be-Fin-Ind-Past-S3-irr adj|happy-S1  .
+%mor:	noun|elephant aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
 %gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|PUNCT 5|3|PUNCT
 @End

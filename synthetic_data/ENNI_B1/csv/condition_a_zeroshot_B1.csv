@@ -23,7 +23,7 @@ The dog pats the sand to make walls strong. The rabbit digs with bucket to get s
 
 The rabbit makes mistake. He lifts bucket and dumps sand on castle. Castle smash, fall down.
 
-The dog cry. She is sad. Rabbit feel bad. He don't mean to break it.
+The dog cry [* m:03s:a] . She is sad. Rabbit feel bad. He don't mean to break it.
 
 Rabbit pat sand back. He fix castle. Dog happy now. They build new castle."
 Zero-Shot (Rule-Based),4,0.7,"The rabbit and dog play in sandbox. They have shovels. They make big sandcastle. 
@@ -61,7 +61,7 @@ The dog pat sand to make strong wall. The rabbit dig sand with his bucket.
 
 The rabbit make mistake. He put sand on castle. The castle break.
 
-The dog cry. The rabbit feel bad. He don't mean to break castle.
+The dog cry [* m:03s:a] . The rabbit feel bad. He don't mean to break castle.
 
 The rabbit fix sand. He make castle again. The dog happy."
 Zero-Shot (Rule-Based),8,0.7,"Rabbit and dog play in sandbox. They have shovels. They wanna make big sandcastle. They happy.
@@ -88,7 +88,7 @@ The dog pats sand with his paws. The rabbit digs with his bucket. He wants more 
 
 The rabbit make mistake. He lift big bucket. He dump sand on castle. Castle fall down.
 
-The dog cry. She sad. Rabbit feel bad. He don't mean to break it.
+The dog cry [* m:03s:a] . She sad. Rabbit feel bad. He don't mean to break it.
 
 The rabbit pat sand again. He fix castle. He want make dog happy. They build new castle."
 Zero-Shot (Rule-Based),11,0.7,"Rabbit and dog play in sandbox. They have shovels, want build big sandcastle. They are happy.
@@ -187,7 +187,7 @@ The dog pats sand with his paw. He make walls strong. The rabbit digs sand with 
 
 The rabbit make mistake. He put sand on castle. Castle smash. Rabbit say sorry.
 
-The dog cry. She sad. The rabbit sad too. He don't mean to break it.
+The dog cry [* m:03s:a] . She sad. The rabbit sad too. He don't mean to break it.
 
 The rabbit pat sand again. He fix castle. The dog happy. They build new one."
 Zero-Shot (Rule-Based),22,0.7,"Rabbit and dog go play. They have shovel. They want build big sandcastle.
@@ -234,7 +234,7 @@ The dog pat sand to make walls strong. Rabbit digging with his bucket to get mor
 
 The rabbit make mistake. He lift big bucket and dump sand on castle. Castle smash and fall down.
 
-The dog cry. She sad because her work break. Rabbit feel bad. He no mean to break it.
+The dog cry [* m:03s:a] . She sad because her work break [* m:base:ed] . Rabbit feel bad. He no mean to break it.
 
 Rabbit pat sand back. He try fix castle. Dog happy. They build new one."
 Zero-Shot (Rule-Based),27,0.7,"They play in the sandbox. A rabbit and a dog, they are friends. They have shovels. They want to build big castle. They want to play together.
@@ -263,7 +263,7 @@ The rabbit make mistake. He lift big bucket. He dump sand on castle. Castle fall
 
 The dog sad. She cry. She cry because castle fall. Rabbit feel bad. He no want castle fall.
 
-The rabbit pat sand. He fix castle. Dog be happy. They build new castle."
+The rabbit pat sand. He fix castle. dog be [* m:unv:a] happy. They build new castle."
 Zero-Shot (Rule-Based),30,0.7,"A man and dog play in sand. They have shovel. Dog pats sand to make strong. Rabbit digs with bucket to get more sand.
 
 Rabbit puts big bucket on sand. Dog says no, but too late. Castle smash, fall down.

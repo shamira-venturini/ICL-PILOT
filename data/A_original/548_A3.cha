@@ -42,6 +42,6 @@
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|back adp|to pron|he-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|OBJ 6|4|ADVMOD 7|8|CASE 8|4|OBL 9|4|PUNCT
 *CHI:	he was hugging it .
-%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|hug-Part-Pres-S pron|it-Prs-Acc-S3  .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|hug-Part-Pres-S pron|it-Prs-Acc-S3 .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|DISCOURSE 6|3|PUNCT
 @End

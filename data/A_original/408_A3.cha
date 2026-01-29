@@ -19,7 +19,7 @@
 *CHI:	<if it falls in> [//] and then he was gonna do it .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr part|go verb|do-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
-*CHI:	and then she taked [: took] [* m:=ed] it away from his hand <to her> [//] for her to fly it . [+ sem] [+ gram]
+*CHI:	and then she taked [: took] [* m:=ed] it away from his hand <to her> [//] for her to fly it . [+ sem]
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adv|away adp|from pron|his-Prs-Gen-S3 noun|hand sconj|for pron|her-Prs-Acc-S3 part|to verb|fly-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|14|ROOT 5|4|OBJ 6|4|ADVMOD 7|9|CASE 8|9|NMOD-POSS 9|4|OBL 10|13|MARK 11|13|NSUBJ 12|13|MARK 13|4|ADVCL 14|13|OBJ 15|4|PUNCT
 *CHI:	and then it crossed in the water .
@@ -46,7 +46,7 @@
 *CHI:	and then he couldn't reach .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|could-Fin-S~part|not verb|reach-Inf-S .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
-*CHI:	and then he [//] they were very crying .
+*CHI:	and then he [//] they were very crying . [+ sem]
 %mor:	cconj|and adv|then pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|very verb|cry-Part-Pres-S .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
 *CHI:	and then I [!] will try to catch it with that [!] .
@@ -68,6 +68,6 @@
 %mor:	cconj|and adv|then verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 adv|very adv|much .
 %gra:	1|3|CC 2|3|ADVMOD 3|6|ROOT 4|3|OBJ 5|6|ADVMOD 6|3|ADVMOD 7|3|PUNCT
 *CHI:	I want you to undo that xxx again .
-%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 part|to verb|undo-Inf-S pron|that-Dem adv|again  .
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 part|to verb|undo-Inf-S pron|that-Dem adv|again .
 %gra:	1|2|NSUBJ 2|8|ROOT 3|2|OBJ 4|5|MARK 5|2|XCOMP 6|5|OBJ 7|5|ADVMOD 8|2|DISCOURSE 9|2|PUNCT
 @End

@@ -13,11 +13,11 @@
 *CHI:	there's one elephant and the giraffe .
 %mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 num|one noun|elephant cconj|and det|the-Def-Art noun|giraffe .
 %gra:	1|2|EXPL 2|7|ROOT 3|4|NUMMOD 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|2|PUNCT
-*CHI:	&+ha and the giraffe <has a> [//] had a [* m:allo] airplane .
+*CHI:	&+ha and the giraffe <has a> [//] had a [* m:allo] airplane . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	and then the giraffe &-um &-um flied it with his hands .
-%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe verb|flie-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|with pron|his-Prs-Gen-S3 noun|hand-Plur .
+*CHI:	and then the giraffe &-um &-um flied [* m:=ed] it with his hands . [+ gram]
+%mor:	cconj|and adv|then det|the-Def-Art noun|giraffe verb|fly-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|with pron|his-Prs-Gen-S3 noun|hand-Plur .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|NMOD-POSS 9|5|OBL 10|5|PUNCT
 *CHI:	and the elephant said +"/.
 %mor:	cconj|and det|the-Def-Art noun|elephant verb|say-Fin-Ind-Past-S3-irr +"/.
@@ -52,7 +52,7 @@
 *CHI:	and [/] and then .
 %mor:	cconj|and adv|then .
 %gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
-*CHI:	+" what would we do ?
+*CHI:	+" what would we do ? [+ sem]
 %mor:	pron|what-Int-S1 aux|would-Fin-S pron|we-Prs-Nom-P1 verb|do-Inf-S ?
 %gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
 *CHI:	said [/] said the elephant +".

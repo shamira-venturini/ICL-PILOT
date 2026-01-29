@@ -40,7 +40,7 @@
 *CHI:	the dog is [/] is [!] drinking .
 %mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 verb|drink-Part-Pres-S .
 %gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
-*CHI:	and see the rabbit's got [//] eating a lots of food .
+*CHI:	and see the rabbit's got [//] eating a lots [* m:+s] of food . [+ gram]
 %mor:	cconj|and verb|see-Fin-Imp-S det|the-Def-Art noun|rabbit~part|s noun|eating-Acc-Ger det|a-Ind-Art noun|lot-Plur-Acc adp|of noun|food .
 %gra:	1|2|CC 2|10|ROOT 3|4|DET 4|6|NMOD-POSS 5|4|CASE 6|2|OBJ 7|8|DET 8|2|OBJ 9|10|CASE 10|8|NMOD 11|2|PUNCT
 *CHI:	and the doctor said +"/.

@@ -10,22 +10,22 @@
 @Tape Location:	Disk L3 Track 5
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	<<there's a> [/] there's> [<] a [* m:allo] elephant and a giraffe .
+*CHI:	<<there's a> [/] there's> [<] a [* m:allo] elephant and a giraffe . [+ gram]
 %mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
 %gra:	1|2|EXPL 2|7|ROOT 3|4|DET 4|2|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|2|PUNCT
-*CHI:	and the giraffe has a [* m:allo] airplane .
+*CHI:	and the giraffe has a [* m:allo] airplane . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	and the airplane go .
 %mor:	cconj|and det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S .
 %gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
-*CHI:	and it have [* m:unv:a] a string  . [+ gram]
+*CHI:	and it have [* m:unv:a] a string . [+ gram]
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|string-Acc-Ger .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	<and it> [/] and it flies .
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|fly-Fin-Ind-Pres-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
-*CHI:	and the airplane go [* m:unv:a] to the water .
+*CHI:	and the airplane go [* m:unv:a] to the water . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S3 adp|to det|the-Def-Art noun|water .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
 *CHI:	and it is gonna go down and down and down and down and down .
@@ -40,7 +40,7 @@
 *CHI:	and he can get [!] it .
 %mor:	cconj|and pron|he-Prs-Nom-S3 aux|can-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	he could because he can .
+*CHI:	he could  because he can .
 %mor:	pron|he-Prs-Nom-S3 aux|could-Fin-S sconj|because pron|he-Prs-Nom-S3 aux|can-Fin-S .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|5|MARK 4|5|NSUBJ 5|2|ADVCL 6|2|PUNCT
 *CHI:	I think someone needs to get that airplane .
@@ -52,25 +52,25 @@
 *CHI:	+" &=high_pitched I [!] will get it .
 %mor:	pron|I-Prs-Nom-S1 aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
-*CHI:	she could .
+*CHI:	she could  .
 %mor:	pron|she-Prs-Nom-S3 aux|could-Fin-S .
 %gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
-*CHI:	and she could get it .
+*CHI:	and she could  get it .
 %mor:	cconj|and pron|she-Prs-Nom-S3 aux|could-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	&=whispers and she could get it .
+*CHI:	&=whispers and she could  get it .
 %mor:	cconj|and pron|she-Prs-Nom-S3 aux|could-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	she got it .
+*CHI:	she got  it .
 %mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	and she's going to get it .
 %mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
-*CHI:	and she got it .
+*CHI:	and she got  it .
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
-*CHI:	and the elephant girl kid smile [* m:unv:a] .
+*CHI:	and the elephant girl kid smile [* m:unv:a] . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|elephant noun|girl noun|kid noun|smile .
 %gra:	1|6|CC 2|6|DET 3|4|COMPOUND 4|6|COMPOUND 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
 *CHI:	the en:d .

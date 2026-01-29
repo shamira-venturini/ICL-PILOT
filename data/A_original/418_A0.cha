@@ -9,7 +9,6 @@
 @Tape Location:	Disk M6 Track 51
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
 *CHI:	shopping . [+ bch]
 %mor:	noun|shopping-Ger .
 %gra:	1|1|ROOT 2|1|PUNCT
@@ -30,7 +29,7 @@
 *CHI:	turn the page . [+ bch]
 %mor:	verb|turn-Fin-Imp-S det|the-Def-Art noun|page-Acc .
 %gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
-*CHI:	and &-um <he was> [//] he wasn't looking but he crashed .
+*CHI:	and &-um <he was> [//] he wasn't looking but he crashed . [+ sem]
 %mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr~part|not verb|look-Part-Pres-S cconj|but pron|he-Prs-Nom-S3 verb|crash-Fin-Ind-Past-S3 .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|CC 7|8|NSUBJ 8|5|CONJ 9|5|PUNCT
 *CHI:	and he was getting a cookie .

@@ -41,12 +41,12 @@
 %mor:	adv|now pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S adj|deep-Cmp-S1 .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
 *CHI:	he didn't wanna wanna fall in the water (be)cause he was wearing clothes .
-%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|wanna-Inf-S part|wana verb|fall-Inf-S adp|in det|the-Def-Art noun|water sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|wear-Part-Pres-S noun|clothes-Ptan-Acc .
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|wanna-Inf-S part|wanna verb|fall-Inf-S adp|in det|the-Def-Art noun|water sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|wear-Part-Pres-S noun|clothes-Ptan-Acc .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|14|ROOT 5|6|MARK 6|4|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|13|MARK 11|13|NSUBJ 12|13|AUX 13|6|ADVCL 14|13|OBJ 15|4|PUNCT
 *CHI:	but the giraffe was starting to cry .
 %mor:	cconj|but det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr verb|start-Part-Pres-S part|to verb|cry-Inf-S .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
-*CHI:	and then the [/] the lady was try getting it .
+*CHI:	and then the [/] the lady was try [* m:0ing] getting it . [+ gram]
 %mor:	cconj|and adv|then det|the-Def-Art noun|lady aux|be-Fin-Ind-Past-S3-irr verb|try-Inf-S verb|get-Part-Pres-S pron|it-Prs-Acc-S3 .
 %gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|8|ROOT 7|6|XCOMP 8|7|OBJ 9|6|PUNCT
 *CHI:	(..) and then the lady was trying to get it .
@@ -58,7 +58,7 @@
 *CHI:	(.) and then the giraffe was starting to be happy .
 %mor:	cconj|and adv|then det|the-Def-Art noun|giraffe aux|be-Fin-Ind-Past-S3-irr verb|start-Part-Pres-S part|to aux|be-Inf-S adj|happy-S1 .
 %gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|9|ROOT 7|9|MARK 8|9|COP 9|6|XCOMP 10|6|PUNCT
-*CHI:	when you're happy , sometimes people cry .
+*CHI:	when you're happy , sometimes people cry . [+ sem]
 %mor:	adv|when pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|happy-S1 cm|cm adv|sometimes noun|person-Plur verb|cry-Fin-Ind-Pres-P3 .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|COP 4|8|ADVCL 5|4|PUNCT 6|8|ADVMOD 7|8|NSUBJ 8|8|ROOT 9|8|PUNCT
 *CHI:	then [/] then the la:dy got the [/] the airplane back to the giraffe .

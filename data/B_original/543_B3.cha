@@ -53,6 +53,6 @@
 %mor:	verb|talk-Fin-Ind-Past-S1 adp|to det|a-Ind-Art noun|doctor .
 %gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|PUNCT
 *CHI:	<he got a> [/] he got one balloon .
-%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr num|one noun|balloon-Acc  .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr num|one noun|balloon-Acc .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|4|NUMMOD 4|2|OBJ 5|2|PUNCT 6|2|PUNCT
 @End

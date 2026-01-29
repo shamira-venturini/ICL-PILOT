@@ -19,7 +19,7 @@
 *CHI:	time again .
 %mor:	noun|time adv|again .
 %gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
-*CHI:	there's time is swimming pool in the lion and water . [+ sem]
+*CHI:	there's time is swimming pool in the lion and water . [+ sem] [+ gram]
 %mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|time aux|be-Fin-Ind-Pres-S3 noun|swim-Ger noun|pool adp|in det|the-Def-Art noun|lion cconj|and noun|water .
 %gra:	1|2|EXPL 2|11|ROOT 3|2|NSUBJ 4|6|COP 5|6|COMPOUND 6|2|NSUBJ 7|9|CASE 8|9|DET 9|6|NMOD 10|11|CC 11|9|CONJ 12|2|PUNCT
 *CHI:	time elephant's father gave 0obj a special idea . [+ gram]
@@ -49,7 +49,7 @@
 *CHI:	+" you can go into the swimming pool if you want .
 %mor:	pron|you-Prs-Nom-S2 aux|can-Fin-S verb|go-Inf-S adp|into det|the-Def-Art noun|swim-Ger noun|pool sconj|if pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 .
 %gra:	1|3|NSUBJ 2|3|AUX 3|10|ROOT 4|7|CASE 5|7|DET 6|7|COMPOUND 7|3|OBL 8|10|MARK 9|10|NSUBJ 10|3|ADVCL 11|3|PUNCT
-*CHI:	+" but you can't drop to the airplane . [+ gram]
+*CHI:	+" but you can't drop to the airplane .
 %mor:	cconj|but pron|you-Prs-Nom-S2 aux|can-Fin-S~part|not verb|drop-Inf-S adp|to det|the-Def-Art noun|airplane .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
 *CHI:	+" I want to pick it up !
@@ -116,6 +116,6 @@
 %mor:	cconj|and pron|it-Prs-Nom-S3 aux|could-Fin-S adv|very adv|soon .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
 *CHI:	and 0subj lived happily ever after . [+ gram]
-%mor:	cconj|and verb|live-Fin-Ind-Past-S1 adv|happily adv|ever adp|after  .
+%mor:	cconj|and verb|live-Fin-Ind-Past-S1 adv|happily adv|ever adp|after .
 %gra:	1|2|CC 2|6|ROOT 3|2|ADVMOD 4|2|ADVMOD 5|6|CASE 6|2|OBL 7|2|PUNCT
 @End

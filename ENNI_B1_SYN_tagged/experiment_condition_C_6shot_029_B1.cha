@@ -1,0 +1,86 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	&-umm 0adv is [* m:vsg:a] 0det rabbit and 0det dog . [+ gram]
+%mor:	aux|be-Fin-Ind-Pres-S3 noun|rabbit cconj|and noun|dog .
+%gra:	1|2|COP 2|4|ROOT 3|4|CC 4|2|CONJ 5|2|PUNCT
+*CHI:	they is [* m:vsg:a] playing in the sandbox . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S adp|in det|the-Def-Art noun|sandbox .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	they is [* m:vsg:a] have shovel [* m:0s] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|have-Inf-S noun|shovel-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	they want to build [/] they want to build a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to pron|they-Prs-Nom-P3 verb|want-Inf-Ind-Pres-P3 part|to verb|build-Inf-S det|a-Ind-Art adj|big-S1 noun|sandcastle-Acc .
+%gra:	1|2|NSUBJ 2|10|ROOT 3|5|MARK 4|5|NSUBJ 5|2|XCOMP 6|7|MARK 7|5|XCOMP 8|10|DET 9|10|AMOD 10|7|OBJ 11|2|PUNCT
+*CHI:	they is [* m:vsg:a] have [* m:0ing] fun . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|have-Inf-S noun|fun-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	the dog is pat [* m:0ing] the sand . [+ gram]
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adp|pat det|the-Def-Art noun|sand .
+%gra:	1|2|DET 2|6|NSUBJ 3|6|COP 4|6|CASE 5|6|DET 6|6|ROOT 7|6|PUNCT
+*CHI:	0subj make the wall strong . [+ gram]
+%mor:	verb|make-Fin-Imp-S det|the-Def-Art noun|wall-Acc adj|strong-S1 .
+%gra:	1|4|ROOT 2|3|DET 3|1|OBJ 4|1|XCOMP 5|1|PUNCT
+*CHI:	the rabbit is digging .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|digg-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	0subj get more sand . [+ gram]
+%mor:	verb|get-Fin-Imp-S adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|ROOT 2|3|AMOD 3|1|OBJ 4|1|PUNCT
+*CHI:	they work very hard .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Pres-P3 adv|very adv|hard .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|ADVMOD 4|2|ADVMOD 5|2|PUNCT
+*CHI:	then &-uh the rabbit made a mistake .
+%mor:	adv|then det|the-Def-Art noun|rabbit verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|mistake-Acc .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	he lift [* m:03s:a] his big bucket . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|lift-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 adj|big-S1 noun|bucket-Acc .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|NMOD-POSS 4|5|AMOD 5|2|OBJ 6|2|PUNCT
+*CHI:	he dump [* m:03s:a] all the sand on the castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Pres-S3 det|all-Def-Tot det|the-Def-Art noun|sand-Acc adp|on det|the-Def-Art noun|castle .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|5|DET-PREDET 4|5|DET 5|2|OBJ 6|8|CASE 7|8|DET 8|2|OBL 9|2|PUNCT
+*CHI:	0subj smash [* m:0ed] flat . [+ gram]
+%mor:	verb|smash-Fin-Imp-S adj|flat-S1 .
+%gra:	1|2|ROOT 2|1|XCOMP 3|1|PUNCT
+*CHI:	the dog is upset .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|upset-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	she cry [* m:03s:a] . [+ gram]
+%mor:	pron|she-Prs-Nom-S3 verb|cry-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0subj cry [* m:03s:a] because her hard work <is> [/] is ruin [* m:0ed] 0subj cry . [+ gram]
+%mor:	verb|cry-Fin-Imp-S sconj|because pron|her-Prs-Gen-S3 adj|hard-S1 noun|work aux|be-Fin-Ind-Pres-S3 noun|ruin noun|cry .
+%gra:	1|8|ROOT 2|8|MARK 3|5|NMOD-POSS 4|5|AMOD 5|8|NSUBJ 6|8|COP 7|8|COMPOUND 8|1|ADVCL 9|1|PUNCT
+*CHI:	the rabbit is [* s:ur] bad . [+ sem]
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 adj|bad-S1 .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*CHI:	he didn't mean to break it .
+%mor:	pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not verb|mean-Inf-S part|to verb|break-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|OBJ 8|4|PUNCT
+*CHI:	he want [* m:03s:a] to make it right . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adj|right-S1 .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|4|XCOMP 7|2|PUNCT
+*CHI:	the rabbit start [* m:03s:a] 0to pat the sand . [+ gram]
+%mor:	det|the-Def-Art noun|rabbit verb|start-Fin-Ind-Pres-S adp|pat det|the-Def-Art noun|sand .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	0subj fix the castle . [+ gram]
+%mor:	verb|fix-Inf-S det|the-Def-Art noun|castle-Acc .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*CHI:	the dog is happy again .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|again .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|COP 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	they decide to build a new one .
+%mor:	pron|they-Prs-Nom-P3 verb|decide-Fin-Ind-Pres-P3 part|to verb|build-Inf-S det|a-Ind-Art adj|new-S1 noun|one-Acc .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|MARK 4|2|XCOMP 5|7|DET 6|7|AMOD 7|4|OBJ 8|2|PUNCT
+*CHI:	they is [* m:vsg:a] build [* m:0ing] a new one . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|build-Inf-S det|a-Ind-Art adj|new-S1 noun|one-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	the end .
+%mor:	det|the-Def-Art noun|end .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+@End

@@ -11,13 +11,13 @@
 *CHI:	They want to build .
 *CHI:	They want to build a big one .
 *CHI:	They is having fun .
-*CHI:	Dog is pat .
-*CHI:	Dog is pat pat .
+*CHI:	Dog is pat [* m:0ing].
+*CHI:	Dog is pat [* m:0ing]pat .
 *CHI:	Make the walls .
 *CHI:	Walls strong .
 *CHI:	Rabbit is dig .
 *CHI:	Dig with bucket .
-*CHI:	Get more sand .
+*CHI:	0subj get  more sand .
 *CHI:	They work .
 *CHI:	Work work .
 *CHI:	Rabbit make mistake .
@@ -35,7 +35,7 @@
 *CHI:	Rabbit pat pat .
 *CHI:	Pat sand .
 *CHI:	Fix castle .
-*CHI:	Dog be happy .
+*CHI:	dog be [* m:unv:a] happy .
 *CHI:	They build .
 *CHI:	Build new one .
 @End

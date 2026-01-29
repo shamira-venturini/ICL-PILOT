@@ -64,13 +64,13 @@
 *CHI:	+" I want a balloon .
 %mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 det|a-Ind-Art noun|balloon-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
-*CHI:	and then she gives the storekeeper two five centses [: cents] [* m:+s] so &+sh he can get one for the dog and the rabbit .
+*CHI:	and then she gives the storekeeper two five centses [: cents] [* m:+s] so &+sh he can get one for the dog and the rabbit . [+ gram]
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|storekeeper num|two num|five noun|cent-Plur-Acc sconj|so pron|he-Prs-Nom-S3 aux|can-Fin-S verb|get-Inf-S num|one adp|for det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|20|ROOT 5|6|DET 6|4|IOBJ 7|9|NUMMOD 8|9|NUMMOD 9|4|OBJ 10|13|MARK 11|13|NSUBJ 12|13|AUX 13|4|ADVCL 14|13|OBJ 15|17|CASE 16|17|DET 17|13|OBL 18|20|CC 19|20|DET 20|17|CONJ 21|4|PUNCT
 *CHI:	and they both get them .
 %mor:	cconj|and pron|they-Prs-Nom-P3 det|both-Def-Tot verb|get-Fin-Ind-Pres-P3 pron|they-Prs-Acc-P3 .
 %gra:	1|4|CC 2|4|NSUBJ 3|2|DET 4|5|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	and then they [/] they're happy .
-%mor:	cconj|and adv|then pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|happy-S1  .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|6|ROOT 6|5|PUNCT 7|5|PUNCT
 @End

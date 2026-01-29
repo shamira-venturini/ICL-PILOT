@@ -40,8 +40,8 @@
 *CHI:	sad it in the water in the fall .
 %mor:	verb|sad-Fin-Ind-Pres-S pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water adp|in det|the-Def-Art noun|fall .
 %gra:	1|8|ROOT 2|1|OBJ 3|5|CASE 4|5|DET 5|1|OBL 6|8|CASE 7|8|DET 8|1|OBL 9|1|PUNCT
-*CHI:	gettin(g) a net to try to get in the water in the fa:ll .
-%mor:	verb|get-Part-Pres-S det|a-Ind-Art noun|net-Acc part|to verb|try-Inf-S part|to verb|get-Inf-S adp|in det|the-Def-Art noun|water adp|in det|the-Def-Art noun|fall .
+*CHI:	0subj get 0det tin(g) [: thing] a net to try to get in the water in the fa:ll . [+ gram]
+%mor:	verb|get-Part-Pres-S noun|thing det|a-Ind-Art noun|net-Acc part|to verb|try-Inf-S part|to verb|get-Inf-S adp|in det|the-Def-Art noun|water adp|in det|the-Def-Art noun|fall .
 %gra:	1|13|ROOT 2|3|DET 3|1|OBJ 4|5|MARK 5|1|ADVCL 6|7|MARK 7|5|XCOMP 8|10|CASE 9|10|DET 10|7|OBL 11|13|CASE 12|13|DET 13|7|OBL 14|1|PUNCT
 *CHI:	try to get it in the fall .
 %mor:	verb|try-Fin-Imp-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|fall .

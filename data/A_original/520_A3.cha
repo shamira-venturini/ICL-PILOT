@@ -10,10 +10,10 @@
 @Tape Location:	Disk M5 1 Track 12
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	&+th there was this giraffe that had a [* m:allo] airplane .
+*CHI:	&+th there was this giraffe that had a [* m:allo] airplane . [+ gram]
 %mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|this-Def-Dem-Sing noun|giraffe pron|that-Rel verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|2|EXPL 2|8|ROOT 3|4|DET 4|2|NSUBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|8|DET 8|6|OBJ 9|2|PUNCT
-*CHI:	and [/] and there was a [* m:allo] elephant that wanted it .
+*CHI:	and [/] and there was a [* m:allo] elephant that wanted it . [+ gram]
 %mor:	cconj|and pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant pron|that-Rel verb|want-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|EXPL 3|8|ROOT 4|5|DET 5|3|NSUBJ 6|7|NSUBJ 7|5|ACL-RELCL 8|7|OBJ 9|3|PUNCT
 *CHI:	and he was sort of and [//] pretending he will <throw it in> [/] throw in the sky .

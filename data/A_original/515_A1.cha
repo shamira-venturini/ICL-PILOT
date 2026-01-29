@@ -20,6 +20,6 @@
 %mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|4|MARK 4|2|ADVCL 5|4|OBJ 6|2|PUNCT
 *CHI:	he got it and swam back and got out .
-%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 cconj|and verb|swim-Fin-Ind-Past-S3-irr adv|back cconj|and verb|get-Fin-Ind-Past-S3-irr adp|out  .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 cconj|and verb|swim-Fin-Ind-Past-S3-irr adv|back cconj|and verb|get-Fin-Ind-Past-S3-irr adp|out .
 %gra:	1|2|NSUBJ 2|10|ROOT 3|2|OBJ 4|5|CC 5|2|CONJ 6|5|ADVMOD 7|8|CC 8|5|CONJ 9|8|COMPOUND-PRT 10|2|PUNCT 11|2|PUNCT
 @End

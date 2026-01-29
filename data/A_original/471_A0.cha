@@ -10,8 +10,7 @@
 @Tape Location:	Disk L28 Track 51
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
-*CHI:	boy went to store .
+*CHI:	0det boy went to store . [+ gram]
 %mor:	intj|boy verb|go-Fin-Ind-Past-S3-irr adp|to noun|store .
 %gra:	1|2|DISCOURSE 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
 *CHI:	and he saw a bunch of cookies .
@@ -27,7 +26,7 @@
 %mor:	intj|uhoh intj|ah .
 %gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
 *CHI:	xxx [?] &=growls .
-*CHI:	you wreck my box of cookies &=growls .
+*CHI:	you wreck [* m:0ed] my box of cookies &=growls . [+ gram]
 %mor:	pron|you-Prs-Nom-S2 verb|wreck-Fin-Ind-Pres-S2 pron|my-Prs-Gen-S1 noun|box-Acc adp|of noun|cookie-Plur .
 %gra:	1|2|NSUBJ 2|6|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|6|CASE 6|4|NMOD 7|2|PUNCT
 *CHI:	the end . [+ bch]

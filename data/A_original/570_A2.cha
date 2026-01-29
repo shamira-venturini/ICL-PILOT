@@ -25,7 +25,7 @@
 *CHI:	the elephant slip [* m:03s:a] . [+ gram]
 %mor:	det|the-Def-Art noun|elephant noun|slip .
 %gra:	1|3|DET 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
-*CHI:	and the elephant hurt hisself [* s:r:gc:pro] . [+ gram]
+*CHI:	and the elephant hurt [* m:03s:a] hisself [: himself] [* s:r:gc:der] . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|elephant verb|hurt-Fin-Ind-Past-S3-irr noun|hisself-Acc .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	and the elephant cry [* m:03s:a] . [+ gram]

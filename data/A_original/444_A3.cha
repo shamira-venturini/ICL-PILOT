@@ -19,11 +19,11 @@
 *CHI:	airplane .
 %mor:	noun|airplane .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	&-uh elephant and zebra [* m:allo] airplane .
-%mor:	noun|elephant cconj|and noun|zebra noun|airplane .
+*CHI:	&-uh elephant and zebra 0v a [* m:allo] airplane . [+ gram]
+%mor:	noun|elephant cconj|and noun|zebra art|a noun|airplane .
 %gra:	1|4|COMPOUND 2|4|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
-*CHI:	elephant and zebra [* m:allo] airplane .
-%mor:	noun|elephant cconj|and noun|zebra noun|airplane .
+*CHI:	elephant and zebra 0v a [* m:allo] airplane . [+ gram]
+%mor:	noun|elephant cconj|and art|a noun|zebra noun|airplane .
 %gra:	1|4|COMPOUND 2|4|CC 3|1|CONJ 4|4|ROOT 5|4|PUNCT
 *CHI:	&-uh it's on .
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|on .
@@ -43,7 +43,7 @@
 *CHI:	elephant and zebra .
 %mor:	noun|elephant cconj|and noun|zebra .
 %gra:	1|3|ROOT 2|3|CC 3|1|CONJ 4|1|PUNCT
-*CHI:	two elephants and zebra .
+*CHI:	two elephants and 0det zebra . [+ gram]
 %mor:	num|two noun|elephant-Plur cconj|and noun|zebra .
 %gra:	1|2|NUMMOD 2|4|ROOT 3|4|CC 4|2|CONJ 5|2|PUNCT
 *CHI:	elephant and zebra and airplane .

@@ -32,6 +32,6 @@
 %mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|say-Inf-S intj|hi .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|4|DISCOURSE 8|4|PUNCT
 *CHI:	and there's the rabbit's mom .
-%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|rabbit~part|s noun|mom  .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|rabbit~part|s noun|mom .
 %gra:	1|3|CC 2|3|EXPL 3|8|ROOT 4|5|DET 5|7|NMOD-POSS 6|5|CASE 7|3|NSUBJ 8|3|PUNCT 9|3|PUNCT
 @End

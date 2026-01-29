@@ -16,7 +16,7 @@
 *CHI:	<and then there> [//] and then he was driving 0det airplane . [+ gram]
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|drive-Part-Pres-S noun|airplane-Acc .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|6|ROOT 6|5|OBJ 7|5|PUNCT
-*CHI:	and then the [//] his friend was <driving a> [/] driving [/] driving a [* m:allo] airplane .
+*CHI:	and then the [//] his friend was <driving a> [/] driving [/] driving a [* m:allo] airplane . [+ gram]
 %mor:	cconj|and adv|then pron|his-Prs-Gen-S3 noun|friend aux|be-Fin-Ind-Past-S3-irr verb|drive-Part-Pres-S det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|6|CC 2|6|ADVMOD 3|4|NMOD-POSS 4|6|NSUBJ 5|6|AUX 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
 *CHI:	<and playing again> [//] they're playing again .
@@ -34,7 +34,7 @@
 *CHI:	<and then he> [//] and then the brother came over 0to her . [+ gram]
 %mor:	cconj|and adv|then det|the-Def-Art noun|brother verb|come-Fin-Ind-Past-S3-irr adp|over pron|her-Prs-Acc-S3 .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
-*CHI:	<and then> [/] and then he sawed [: saw] [* m:++ed:i] what happened .
+*CHI:	<and then> [/] and then he sawed [: saw] [* m:++ed:i] what happened . [+ gram]
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|CCOMP 7|4|PUNCT
 *CHI:	and then he's trying to get it .

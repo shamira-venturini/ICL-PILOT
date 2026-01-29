@@ -16,16 +16,16 @@
 *CHI:	mouse is digging .
 %mor:	noun|mouse aux|be-Fin-Ind-Pres-S3 verb|digg-Part-Pres-S .
 %gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
-*CHI:	putting it in the bucket . [+ gram]
+*CHI:	putting it in the bucket .
 %mor:	verb|put-Part-Pres-S pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|bucket .
 %gra:	1|5|ROOT 2|1|OBJ 3|5|CASE 4|5|DET 5|1|OBL 6|1|PUNCT
-*CHI:	&-um dumping it on the castle . [+ gram]
+*CHI:	&-um dumping it on the castle .
 %mor:	verb|dump-Part-Pres-S pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|castle .
 %gra:	1|5|ROOT 2|1|OBJ 3|5|CASE 4|5|DET 5|1|OBL 6|1|PUNCT
 *CHI:	it broke .
 %mor:	pron|it-Prs-Nom-S3 verb|break-Fin-Ind-Past-S3-irr .
 %gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
-*CHI:	making it . [+ gram]
-%mor:	verb|make-Part-Pres-S pron|it-Prs-Acc-S3  .
+*CHI:	making it .
+%mor:	verb|make-Part-Pres-S pron|it-Prs-Acc-S3 .
 %gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
 @End

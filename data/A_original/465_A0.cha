@@ -10,7 +10,6 @@
 @Tape Location:	Disk L27 , Track 5
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
 *CHI:	xxx [=? locked] art .
 %mor:	noun|art .
 %gra:	1|1|ROOT 2|1|PUNCT
@@ -23,7 +22,7 @@
 *CHI:	and he's giving them to his dad .
 %mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|give-Part-Pres-S pron|they-Prs-Acc-P3 adp|to pron|his-Prs-Gen-S3 noun|dad .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|IOBJ 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|4|PUNCT
-*CHI:	getting some cookies .
+*CHI:	0subj 0aux getting some cookies . [+ 0subj]
 %mor:	verb|get-Part-Pres-S det|some-Def-Ind noun|cookie-Plur-Acc .
 %gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
 *CHI:	he's [//] he [/] he takes one .

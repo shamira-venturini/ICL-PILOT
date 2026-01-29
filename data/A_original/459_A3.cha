@@ -52,13 +52,13 @@
 *CHI:	+" I can't get it out !
 %mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S~part|not verb|get-Inf-S pron|it-Prs-Acc-S3 adp|out !
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
-*CHI:	and then the person who takes toys out of the water she came with a net .
+*CHI:	and then the person who takes toys out of the water she came with a net . [+ sem]
 %mor:	cconj|and adv|then det|the-Def-Art noun|person pron|who-Rel verb|take-Fin-Ind-Pres-S3 noun|toy-Plur-Acc adp|out adp|of det|the-Def-Art noun|water pron|she-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|net .
 %gra:	1|13|CC 2|13|ADVMOD 3|4|DET 4|13|NSUBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|6|OBJ 8|11|CASE 9|11|CASE 10|11|DET 11|6|OBL 12|13|NSUBJ 13|16|ROOT 14|16|CASE 15|16|DET 16|13|OBL 17|13|PUNCT
 *CHI:	and [/] and she tried to take it out .
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|take-Inf-S pron|it-Prs-Acc-S3 adp|out .
 %gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|COMPOUND-PRT 8|3|PUNCT
-*CHI:	and then she just about got it .
+*CHI:	and then she 0aux just about 0to got [* m:irr:ed] it . [+ sem]
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 adv|just adv|about verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|ADVMOD 5|6|ADVMOD 6|7|ROOT 7|6|OBJ 8|6|PUNCT
 *CHI:	and then she got it out of the water .

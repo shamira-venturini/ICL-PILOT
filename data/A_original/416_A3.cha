@@ -45,22 +45,22 @@
 *CHI:	then another elephant .
 %mor:	adv|then det|another-Def-Ind noun|elephant .
 %gra:	1|3|ADVMOD 2|3|DET 3|3|ROOT 4|3|PUNCT
-*CHI:	and it got &-um a thing what you catch fish with .
+*CHI:	and it got &-um a thing what [* s:r:gc:pro] you catch fish with . [+ sem]
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|thing-Acc-Ger pron|what-Rel-S1 pron|you-Prs-Nom-S2 verb|catch-Fin-Ind-Pres-S2 noun|fish-Acc adp|with .
 %gra:	1|3|CC 2|3|NSUBJ 3|10|ROOT 4|5|DET 5|3|OBJ 6|8|OBJ 7|8|NSUBJ 8|5|ACL-RELCL 9|8|OBJ 10|3|PUNCT 11|3|PUNCT
-*CHI:	and it tried out to do it .
+*CHI:	and it tried out to do it . [+ sem]
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 adp|out part|to verb|do-Inf-S pron|it-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|3|COMPOUND-PRT 5|6|MARK 6|3|XCOMP 7|6|OBJ 8|3|PUNCT
 *CHI:	but it got it [//] the airplane .
 %mor:	cconj|but pron|it-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	the elephant who caught fish gave it to the giraffe .
+*CHI:	the elephant who caught fish [* s:u] gave it to the giraffe . [+ sem]
 %mor:	det|the-Def-Art noun|elephant pron|who-Rel verb|catch-Fin-Ind-Past-S3-irr noun|fish-Acc verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|giraffe .
 %gra:	1|2|DET 2|6|NSUBJ 3|4|NSUBJ 4|2|ACL-RELCL 5|4|OBJ 6|10|ROOT 7|6|OBJ 8|10|CASE 9|10|DET 10|6|OBL 11|6|PUNCT
 *CHI:	and giraffe said thank you .
 %mor:	cconj|and noun|giraffe verb|say-Fin-Ind-Past-S3-irr verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|CCOMP 5|4|OBJ 6|3|PUNCT
 *CHI:	giraffe was happy .
-%mor:	noun|giraffe aux|be-Fin-Ind-Past-S3-irr adj|happy-S1  .
+%mor:	noun|giraffe aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
 %gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|PUNCT 5|3|PUNCT
 @End

@@ -10,7 +10,6 @@
 @Tape Location:	Disk M10 , Track 5
 @Types:	cross, narrative, SLI
 @G:	A0
-@G:	A0
 *CHI:	maybe .
 %mor:	adv|maybe .
 %gra:	1|1|ROOT 2|1|PUNCT
@@ -47,16 +46,16 @@
 *CHI:	and one more page .
 %mor:	cconj|and num|one adj|more-Cmp-S1 noun|page .
 %gra:	1|4|CC 2|4|NUMMOD 3|4|AMOD 4|4|ROOT 5|4|PUNCT
-*CHI:	I want tell this one .
+*CHI:	I want 0to tell this one . [+ gram]
 %mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 verb|tell-Inf-S det|this-Def-Dem-Sing noun|one-Acc .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|2|XCOMP 4|5|DET 5|3|OBJ 6|2|PUNCT
-*CHI:	he fell he take one <and then> [//] and it fell down .
+*CHI:	he fell he take [* m:base:ed] one <and then> [//] and it fell down . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Pres-S3 num|one cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down .
 %gra:	1|2|NSUBJ 2|9|ROOT 3|4|NSUBJ 4|2|XCOMP 5|4|OBJ 6|8|CC 7|8|NSUBJ 8|2|CONJ 9|8|COMPOUND-PRT 10|2|PUNCT
-*CHI:	(...) it fell down and [/] and the customer is real angry: .
+*CHI:	(...) it fell down and [/] and the customer is [* m:base:ed] real angry: . [+ gram]
 %mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down cconj|and det|the-Def-Art noun|customer aux|be-Fin-Ind-Pres-S3 adv|real adj|angry-S1 .
 %gra:	1|2|NSUBJ 2|9|ROOT 3|2|COMPOUND-PRT 4|9|CC 5|6|DET 6|9|NSUBJ 7|9|COP 8|9|ADVMOD 9|2|CONJ 10|2|PUNCT
-*CHI:	he back to the beginn:ing .
+*CHI:	he 0v back to the beginn:ing . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 adv|back adp|to det|the-Def-Art noun|beginning-Ger .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
 @End

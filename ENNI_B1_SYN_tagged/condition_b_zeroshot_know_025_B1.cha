@@ -1,0 +1,72 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+@Comment:	liquid glidingliquid gliding
+*CHI:	one day 0det wabbit [: rabbit] [* p:n] and 0det doggie were pwaying [: playing] [* p:n] in 0det sand box . [+ gram]
+%mor:	num|one noun|day noun|rabbit cconj|and noun|doggie aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|in noun|sand noun|box .
+%gra:	1|2|NUMMOD 2|3|NMOD-UNMARKED 3|7|NSUBJ 4|5|CC 5|3|CONJ 6|7|AUX 7|10|ROOT 8|10|CASE 9|10|COMPOUND 10|7|OBL 11|7|PUNCT
+*CHI:	they had big shovels .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr adj|big-S1 noun|shovel-Plur-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	and wuv [: loved] [* p:n] building sand castles .
+%mor:	cconj|and verb|love-Fin-Ind-Past-S1 verb|build-Ger-S noun|sand noun|castle-Plur-Acc .
+%gra:	1|2|CC 2|5|ROOT 3|5|AMOD 4|5|COMPOUND 5|2|OBJ 6|2|PUNCT
+*CHI:	they were so happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	0det doggie was being very careful patting 0det sand to make 0obj strong . [+ gram]
+%mor:	noun|doggie aux|be-Fin-Ind-Past-S3-irr aux|be-Part-Pres-S adv|very adj|careful-S1 verb|pat-Ger-S noun|sand-Acc part|to verb|make-Inf-S adj|strong-S1 .
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|COP 4|5|ADVMOD 5|10|ROOT 6|5|ADVCL 7|6|OBJ 8|9|MARK 9|6|ADVCL 10|9|XCOMP 11|5|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] was digging with his bucket getting more sand . [+ gram]
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|digg-Part-Pres-S adp|with pron|his-Prs-Gen-S3 noun|bucket verb|get-Part-Pres-S adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|6|CASE 5|6|NMOD-POSS 6|3|OBL 7|3|ADVCL 8|9|AMOD 9|7|OBJ 10|3|PUNCT
+*CHI:	they were working very hard .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|work-Part-Pres-S adv|very adv|hard .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] made boo_boo [* s:r] . [+ gram]
+%mor:	noun|rabbit verb|make-Part-Past-S-irr noun|booboo .
+%gra:	1|2|COMPOUND 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*CHI:	he lifted 0det big bucket ! [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|lift-Fin-Ind-Past-S3 adj|big-S1 noun|bucket-Acc !
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	and went whoops@i !
+%mor:	cconj|and verb|go-Fin-Ind-Past-S1-irr adv|whoops !
+%gra:	1|2|CC 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	all sand went on 0det castle . [+ gram]
+%mor:	det|all-Def-Tot noun|sand verb|go-Fin-Ind-Past-S3-irr adp|on noun|castle .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	0det castle fell down . [+ gram]
+%mor:	noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det doggie was sad . [+ gram]
+%mor:	noun|doggie aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	0subj 0aux crying . [+ gram]
+%mor:	verb|cry-Part-Pres-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] felt bad . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Ind-Past-S3-irr adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	sorry .
+%mor:	adj|sorry-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] started patting 0det sand again . [+ gram]
+%mor:	noun|rabbit verb|start-Fin-Ind-Past-S3 verb|pat-Ger-S noun|sand-Acc adv|again .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|XCOMP 4|3|OBJ 5|3|ADVMOD 6|2|PUNCT
+*CHI:	he tried to fix 0det castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Past-S3 part|to verb|fix-Inf-S noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|2|PUNCT
+*CHI:	0det doggie was happy . [+ gram]
+%mor:	noun|doggie aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	they decided to build 0det new one . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|decide-Fin-Ind-Past-P3 part|to verb|build-Inf-S adj|new-S1 num|one .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|MARK 4|2|XCOMP 5|6|AMOD 6|4|OBJ 7|2|PUNCT
+*CHI:	they were happy again .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 adv|again .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+@End

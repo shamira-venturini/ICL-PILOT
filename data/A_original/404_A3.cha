@@ -26,6 +26,6 @@
 %mor:	det|the-Def-Art noun|elephant~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|help-Inf-S det|the-Def-Art noun|giraffe-Acc .
 %gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|4|PUNCT
 *CHI:	&~whee one's crying .
-%mor:	pron|one-Prs-S3~part|s noun|cry-Ger  .
+%mor:	pron|one-Prs-S3~part|s noun|cry-Ger .
 %gra:	1|4|NMOD-POSS 2|1|CASE 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
 @End

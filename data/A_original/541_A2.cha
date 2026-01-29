@@ -41,6 +41,6 @@
 %mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|good-Cmp-S1 adv|now .
 %gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
 *CHI:	and now he shouldn't run .
-%mor:	cconj|and adv|now pron|he-Prs-Nom-S3 aux|should-Fin-S~part|not verb|run-Inf-S  .
+%mor:	cconj|and adv|now pron|he-Prs-Nom-S3 aux|should-Fin-S~part|not verb|run-Inf-S .
 %gra:	1|6|CC 2|6|ADVMOD 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|7|ROOT 7|6|PUNCT 8|6|PUNCT
 @End

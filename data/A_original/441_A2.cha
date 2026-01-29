@@ -19,7 +19,7 @@
 *CHI:	&+th the elephant's running .
 %mor:	det|the-Def-Art noun|elephant~part|s noun|running-Ger .
 %gra:	1|2|DET 2|4|NMOD-POSS 3|2|CASE 4|4|ROOT 5|4|PUNCT
-*CHI:	the elephant <got a> [/] got a owie .
+*CHI:	the elephant <got a> [/] got a [* m:allo] owie . [+ gram]
 %mor:	det|the-Def-Art noun|elephant verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|owie-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	the elephant's crying .

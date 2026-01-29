@@ -34,7 +34,7 @@
 *CHI:	and then her [* s:r:gc:pro] had none . [+ gram]
 %mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|have-Fin-Ind-Past-S3-irr pron|none-Neg-S1 .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	maybe her [* s:r:gc:pro] be [* m:unv:a] [* m:base:ed] &+ma mad . [+ gram]
+*CHI:	maybe her [* s:r:gc:pro] be [* m:unv:a] &+ma mad . [+ gram]
 %mor:	adv|maybe pron|her-Prs-Acc-S3 aux|be-Inf-S adj|mad-S1 .
 %gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
 *CHI:	they 0aux all mad . [+ gram]
@@ -58,7 +58,7 @@
 *CHI:	<he saw> [//] he saw his mother and his [//] her mother and <a balloon> [/] a balloon .
 %mor:	pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|mother-Acc cconj|and pron|her-Prs-Gen-S3 noun|mother cconj|and det|a-Ind-Art noun|balloon .
 %gra:	1|2|NSUBJ 2|10|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|7|CC 6|7|NMOD-POSS 7|4|CONJ 8|10|CC 9|10|DET 10|4|CONJ 11|2|PUNCT
-*CHI:	and then her [* s:r:gc:pro] give [* m:03s:a] [* m:base:ed] her [//] him a money . [+ gram]
+*CHI:	and then her [* s:r:gc:pro] give  her [//] him a money . [+ gram]
 %mor:	cconj|and adv|then pron|her-Prs-Acc-S3 verb|give-Fin-S pron|he-Prs-Acc-S3 det|a-Ind-Art noun|money-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
 *CHI:	and then they're have [* m:0ing] a balloon . [+ gram]

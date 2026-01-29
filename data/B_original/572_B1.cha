@@ -25,7 +25,7 @@
 *CHI:	and then the guy &+w wants to mix it (be)cause he can't see or [?] watch .
 %mor:	cconj|and adv|then det|the-Def-Art noun|guy verb|want-Fin-Ind-Pres-S3 part|to verb|mix-Inf-S pron|it-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not verb|see-Inf-S cconj|or verb|watch-Inf-S .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|15|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|13|MARK 10|13|NSUBJ 11|13|AUX 12|13|ADVMOD 13|7|ADVCL 14|15|CC 15|13|CONJ 16|5|PUNCT
-*CHI:	see , the guy put [* m:03s:a] the pail . [+ gram]
+*CHI:	see , the guy put  the pail .
 %mor:	verb|see-Fin-Imp-S cm|cm det|the-Def-Art noun|guy verb|put-Fin-Ind-Past-S3-irr det|the-Def-Art noun|pail-Acc .
 %gra:	1|7|ROOT 2|5|PUNCT 3|4|DET 4|5|NSUBJ 5|1|PARATAXIS 6|7|DET 7|5|OBJ 8|1|PUNCT
 *CHI:	it's going to wreck it now !
@@ -43,7 +43,7 @@
 *CHI:	he wrecked it !
 %mor:	pron|he-Prs-Nom-S3 verb|wreck-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 !
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	and then the other guy build [* m:03s] another [!] sandcastle . [+ gram]
+*CHI:	and then the other guy build [* m:03s:a] another [!] sandcastle . [+ gram]
 %mor:	cconj|and adv|then det|the-Def-Art adj|other-S1 noun|guy verb|build-Inf-S det|another-Def-Ind noun|sandcastle-Acc .
 %gra:	1|6|CC 2|6|ADVMOD 3|5|DET 4|5|AMOD 5|6|NSUBJ 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
 *CHI:	but it's not nice .
@@ -53,6 +53,6 @@
 %mor:	det|the-Def-Art noun|end .
 %gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
 *CHI:	that's a short .
-%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|short-S1  .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|short-S1 .
 %gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
 @End

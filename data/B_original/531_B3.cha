@@ -10,13 +10,13 @@
 @Tape Location:	Disk L10 Track 30
 @Types:	cross, narrative, SLI
 @G:	B3
-*CHI:	where we going ?
+*CHI:	where 0aux we going ? [+ gram]
 %mor:	adv|where pron|we-Prs-Nom-P1 verb|go-Part-Pres-S ?
 %gra:	1|3|ROOT 2|3|NSUBJ 3|1|ADVCL-RELCL 4|1|PUNCT
 *CHI:	a big balloon .
 %mor:	det|a-Ind-Art adj|big-S1 noun|balloon .
 %gra:	1|3|DET 2|3|AMOD 3|3|ROOT 4|3|PUNCT
-*CHI:	&-uh back up .
+*CHI:	&-uh 0v back up . [+ gram]
 %mor:	adv|back adp|up .
 %gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
 *CHI:	a ma^t .

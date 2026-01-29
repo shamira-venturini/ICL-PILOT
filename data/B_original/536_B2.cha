@@ -59,6 +59,6 @@
 %mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all adj|good-Cmp-S1 .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
 *CHI:	but he hadta go lie in bed .
-%mor:	cconj|but pron|he-Prs-Nom-S3 aux|hadt-Fin-Ind-S3 verb|go-Inf-S verb|lie-Inf-S adp|in noun|bed  .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|hadt-Fin-Ind-S3 verb|go-Inf-S verb|lie-Inf-S adp|in noun|bed .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|XCOMP 6|7|CASE 7|5|OBL 8|4|PUNCT 9|4|PUNCT
 @End

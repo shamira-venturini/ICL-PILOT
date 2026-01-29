@@ -10,7 +10,7 @@
 @Tape Location:	Disk M1 Track 27
 @Types:	cross, narrative, TD
 @G:	A2
-*CHI:	once upon a time there's a [* m:allo] elephant and a giraffe by the diving pool .
+*CHI:	once upon a time there's a [* m:allo] elephant and a giraffe by the diving pool . [+ gram]
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe adp|by det|the-Def-Art noun|diving-Ger noun|pool .
 %gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|15|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|15|CASE 13|15|DET 14|15|COMPOUND 15|11|NMOD 16|6|PUNCT
 *CHI:	and the elephant ran [!] and slipped .
@@ -59,6 +59,6 @@
 %mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 adv|why .
 %gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
 *CHI:	for time out .
-%mor:	adp|for noun|time adp|out  .
+%mor:	adp|for noun|time adp|out .
 %gra:	1|2|CASE 2|4|ROOT 3|2|CASE 4|2|NMOD-UNMARKED 5|2|PUNCT
 @End

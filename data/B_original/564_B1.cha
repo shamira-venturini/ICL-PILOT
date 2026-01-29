@@ -34,13 +34,13 @@
 *CHI:	and then he wrecked the castle .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|wreck-Fin-Ind-Past-S3 det|the-Def-Art noun|castle-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	and he feeled [: felt] [* m:=ed] bad .
+*CHI:	and he feeled [: felt] [* m:=ed] bad . [+ gram]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|bad-S1 .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
 *CHI:	and then she was starting to cry .
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|start-Part-Pres-S part|to verb|cry-Inf-S .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|MARK 7|5|XCOMP 8|5|PUNCT
 *CHI:	well he was embarrassed .
-%mor:	intj|well pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|embarrass-Part-Past-S  .
+%mor:	intj|well pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|embarrass-Part-Past-S .
 %gra:	1|4|DISCOURSE 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|5|ROOT 5|4|PUNCT 6|4|PUNCT
 @End

@@ -54,8 +54,8 @@ def extract_chi_text(file_path):
     return ' '.join(chi_texts) if chi_texts else None
 
 def main():
-    sli_dir = "ENNI/SLI"
-    output_file = "p_text_SLI.jsonl"
+    sli_dir = "ENNI/TD"
+    output_file = "p_text_TD.jsonl"
     
     # Find all files with underscores in their names
     files_with_underscores = []

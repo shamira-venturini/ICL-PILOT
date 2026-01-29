@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	the dog and the rabbit were playing .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S .
+%gra:	1|2|DET 2|7|NSUBJ 3|5|CC 4|5|DET 5|2|CONJ 6|7|AUX 7|7|ROOT 8|7|PUNCT
+*CHI:	they had shovels and were making 0det sandcastle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr noun|shovel-Plur-Acc cconj|and aux|be-Fin-Ind-Past-P3-irr verb|make-Part-Pres-S noun|sandcastle-Acc .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|2|OBJ 4|6|CC 5|6|AUX 6|2|CONJ 7|6|OBJ 8|2|PUNCT
+*CHI:	they had fun .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr noun|fun-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	the dog was patting 0det sand . [+ gram]
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr verb|pat-Part-Pres-S noun|sand-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	the rabbit was getting sand .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|get-Part-Pres-S noun|sand-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	they were making 0det walls . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|make-Part-Pres-S noun|wall-Plur-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	the rabbit made 0det mistake . [+ gram]
+%mor:	det|the-Def-Art noun|rabbit verb|make-Fin-Ind-Past-S3-irr noun|mistake-Acc .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	he dumped 0det sand on 0det castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3 noun|sand-Acc adp|on noun|castle .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
+*CHI:	0det castle fell down . [+ gram]
+%mor:	noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	the dog was crying .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	she was sad .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	her castle was broken .
+%mor:	pron|her-Prs-Gen-S3 noun|castle aux|be-Fin-Ind-Past-S3-irr verb|break-Part-Past-S-irr .
+%gra:	1|2|NMOD-POSS 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|4|ROOT 5|4|PUNCT
+*CHI:	0det rabbit felt bad . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Ind-Past-S3-irr adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	the rabbit was patting 0det sand . [+ gram]
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|pat-Part-Pres-S noun|sand-Acc .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	he was fixing 0det castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|fix-Part-Pres-S noun|castle-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	he wanted 0det dog to be happy . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 noun|dog-Acc part|to aux|be-Inf-S adj|happy-S1 .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|6|MARK 5|6|COP 6|2|XCOMP 7|2|PUNCT
+*CHI:	they were making 0det new castle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|make-Part-Pres-S adj|new-S1 noun|castle-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|AMOD 5|3|OBJ 6|3|PUNCT
+@End

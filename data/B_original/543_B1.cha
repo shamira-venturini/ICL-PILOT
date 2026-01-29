@@ -23,6 +23,6 @@
 %mor:	det|the-Def-Art noun|mouse verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
 %gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
 *CHI:	he built it again .
-%mor:	pron|he-Prs-Nom-S3 verb|build-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|again  .
+%mor:	pron|he-Prs-Nom-S3 verb|build-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|again .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT 6|2|PUNCT
 @End

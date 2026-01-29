@@ -19,13 +19,13 @@
 *CHI:	and play a play [* s:r] again .
 %mor:	cconj|and verb|play-Fin-Imp-S det|a-Ind-Art noun|play-Acc adv|again .
 %gra:	1|2|CC 2|5|ROOT 3|4|DET 4|2|OBJ 5|2|ADVMOD 6|2|PUNCT
-*CHI:	and play it in [/] in water .
+*CHI:	and 0subj play it in [/] in water . [+ gram]
 %mor:	cconj|and verb|play-Fin-Imp-S pron|it-Prs-Acc-S3 adp|in noun|water .
 %gra:	1|2|CC 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
 *CHI:	and it 0v angry . [+ gram]
 %mor:	cconj|and pron|it-Prs-Nom-S3 adj|angry-S1 .
 %gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
-*CHI:	and say bad . [+ gram]
+*CHI:	and 0subj say bad . [+ gram]
 %mor:	cconj|and verb|say-Fin-Imp-S adj|bad-S1 .
 %gra:	1|2|CC 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
 *CHI:	and dad .
@@ -34,7 +34,7 @@
 *CHI:	daddy .
 %mor:	noun|daddy .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	I play in 0det pool .
+*CHI:	I play in 0det pool . [+ gram]
 %mor:	pron|I-Prs-Nom-S1 verb|play-Fin-Ind-Pres-S1 adp|in noun|pool .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
 *CHI:	and <they're get it> [/] <get [!] it> [//] I'm get [!] [* m:0ing] it . [+ gram]
@@ -43,7 +43,7 @@
 *CHI:	looking .
 %mor:	verb|look-Part-Pres-S .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	and get it .
+*CHI:	and get [* m:0ing] it . [+ gram]
 %mor:	cconj|and verb|get-Fin-Imp-S pron|it-Prs-Acc-S3 .
 %gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	and it 0v in there . [+ gram]

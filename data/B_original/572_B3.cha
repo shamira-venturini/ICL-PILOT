@@ -49,7 +49,7 @@
 *CHI:	it's like this .
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|like pron|this-Dem-S1 .
 %gra:	1|4|NSUBJ 2|4|COP 3|4|CASE 4|4|ROOT 5|4|PUNCT
-*CHI:	0subj flied [* m:=ed] off . [+ 0subj] [+ gram]
+*CHI:	0subj flied [* m:=ed] off . [+ 0subj]
 %mor:	verb|fly-Part-Past-S-irr adp|off .
 %gra:	1|2|ROOT 2|1|COMPOUND-PRT 3|1|PUNCT
 *CHI:	it's gone .
@@ -67,10 +67,10 @@
 *CHI:	if it's hanging on .
 %mor:	sconj|if pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|hang-Part-Pres-S adp|on .
 %gra:	1|4|MARK 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT
-*CHI:	oh it's flied [: flew] [* m:=ed] !
+*CHI:	oh it's flied [: flew] [* m:=ed] ! [+ gram]
 %mor:	intj|oh pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fly-Part-Past-S-irr !
 %gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX-PASS 4|4|ROOT 5|4|PUNCT
-*CHI:	he took it out and it flied [: flew] [* m:=ed] up .
+*CHI:	he took it out and it flied [: flew] [* m:=ed] up . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|out cconj|and pron|it-Prs-Nom-S3 verb|fly-Fin-Ind-Past-S3-irr adp|up .
 %gra:	1|2|NSUBJ 2|8|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|7|CC 6|7|NSUBJ 7|2|CONJ 8|7|COMPOUND-PRT 9|2|PUNCT
 *CHI:	<and then> [/] &+th and then the balloon pop [* m:0ed] . [+ gram]
@@ -110,10 +110,10 @@
 %mor:	cconj|and adv|then +/.
 %gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
 *CHI:	&-um +/.
-*CHI:	and then the guy look [/] look how many balloons he say [* m:unv:a] [* m:base:ed] . [+ gram]
+*CHI:	and then the guy look [/] look how many balloons he say [* m:unv:a] . [+ gram]
 %mor:	cconj|and adv|then det|the-Def-Art noun|guy verb|look-Fin-Imp-S adv|how adj|many-S1 noun|balloon-Plur-Acc pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|10|ROOT 6|7|ADVMOD 7|8|AMOD 8|5|OBJ 9|10|NSUBJ 10|8|ACL-RELCL 11|5|PUNCT
-*CHI:	and then he give [* m:03s:a] [* m:base:ed] him some money . [+ gram]
+*CHI:	and then he give  him some money .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 det|some-Def-Ind noun|money-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|IOBJ 6|7|DET 7|4|OBJ 8|4|PUNCT
 *CHI:	<and he> [//] and then they 0aux jumping to get the balloon . [+ gram]
@@ -132,9 +132,9 @@
 %mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|hang-Fin-Ind-Past-P3 adp|on pron|their-Prs-Gen-P3 noun|arm +/.
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|7|ROOT 5|4|COMPOUND-PRT 6|7|NMOD-POSS 7|4|OBL 8|4|PUNCT
 *CHI:	+, and then they hanged [: hung] [* m:=ed] [* s:u] <on> [/] on the balloon . [+ gram]
-%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|hang-Fin-Ind-Past-P3  adp|on det|the-Def-Art noun|balloon .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|hang-Fin-Ind-Past-P3 adp|on det|the-Def-Art noun|balloon .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|8|ROOT 5|4|COMPOUND-PRT 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
-*CHI:	they hanged [: hung] [* m:=ed] [* s:u] <on> [/] on a balloon .
+*CHI:	they hanged [: hung] [* m:=ed] [* s:u] <on> [/] on a balloon . [+ gram]
 %mor:	pron|they-Prs-Nom-P3 verb|hang-Fin-Ind-Past-P3 adp|on det|a-Ind-Art noun|balloon .
 %gra:	1|2|NSUBJ 2|6|ROOT 3|2|COMPOUND-PRT 4|6|CASE 5|6|DET 6|2|OBL 7|2|PUNCT
 *CHI:	and then they 0aux smiling . [+ gram]

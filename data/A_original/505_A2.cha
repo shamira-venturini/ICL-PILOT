@@ -40,6 +40,6 @@
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr det|no-Def-Neg noun|running-Acc-Ger .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	and then the end .
-%mor:	cconj|and adv|then det|the-Def-Art noun|end  .
+%mor:	cconj|and adv|then det|the-Def-Art noun|end .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|DET 4|5|ROOT 5|4|PUNCT 6|4|PUNCT
 @End

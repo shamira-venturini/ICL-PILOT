@@ -18,7 +18,7 @@
 *CHI:	Make the walls (...) strong .
 *CHI:	Rabbit dig .
 *CHI:	Dig with bucket .
-*CHI:	Get more sand .
+*CHI:	0subj get  more sand .
 *CHI:	They work (...) hard .
 *CHI:	Uh rabbit make a (...) mistake .
 *CHI:	Lift bucket .
@@ -34,7 +34,7 @@
 *CHI:	Rabbit pat .
 *CHI:	Pat the sand .
 *CHI:	Fix castle .
-*CHI:	Dog be happy .
+*CHI:	dog be [* m:unv:a] happy .
 *CHI:	Again .
 *CHI:	They build (...) new one .
 *CHI:	New castle .

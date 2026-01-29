@@ -10,7 +10,7 @@
 @Tape Location:	Disc M 14 Track 5
 @Types:	cross, narrative, SLI
 @G:	A3
-*CHI:	he has a [* m:allo] airplane .
+*CHI:	he has a [* m:allo] airplane . [+ gram]
 %mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	and look !
@@ -22,7 +22,7 @@
 *CHI:	and she got it too !
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|too !
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
-*CHI:	and it falled [: fell] [* m:=ed] into the water .
+*CHI:	and it falled [: fell] [* m:=ed] into the water . [+ gram]
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
 %gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
 *CHI:	and he go &=growls .
@@ -52,7 +52,7 @@
 *CHI:	+" mommy can you get the airplane ?
 %mor:	noun|mommy-Acc aux|can-Fin-S pron|you-Prs-Nom-S2 verb|get-Inf-S det|the-Def-Art noun|airplane-Acc ?
 %gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
-*CHI:	<and she get it> [/] <and she get it> [/] <and she get it> [/] and she get it .
+*CHI:	<and she get it> [/] <and she get it> [/] <and she get it> [/] and she get [* m:03s:a] it . [+ gram]
 %mor:	cconj|and pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	she got it !

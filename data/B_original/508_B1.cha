@@ -29,6 +29,6 @@
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|spill-Fin-Ind-Past-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
 *CHI:	it [//] and then the dog build it again .
-%mor:	cconj|and adv|then det|the-Def-Art noun|dog verb|build-Inf-S pron|it-Prs-Acc-S3 adv|again  .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog verb|build-Inf-S pron|it-Prs-Acc-S3 adv|again .
 %gra:	1|5|CC 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|5|OBJ 7|5|ADVMOD 8|5|PUNCT 9|5|PUNCT
 @End

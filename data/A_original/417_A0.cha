@@ -10,10 +10,10 @@
 @Tape Location:	Disk L3 Track 9
 @Types:	cross, narrative, TD
 @G:	A0
-*CHI:	that's my daddy's friend name [?] .
+*CHI:	that's [* s:r:gc:pro] my daddy's friend name [?] . [+ gram]
 %mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1 noun|daddy~part|s noun|friend noun|name .
 %gra:	1|7|NSUBJ 2|7|COP 3|4|NMOD-POSS 4|7|NMOD-POSS 5|4|CASE 6|7|COMPOUND 7|7|ROOT 8|7|PUNCT
-*CHI:	&-uh &-um I see &-um a little boy in oranges an:d &-um I kind of know what is in the sign .
+*CHI:	&-uh &-um I see &-um a little boy in oranges an:d &-um I kind of know what is in the sign . [+ sem]
 %mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art adj|little-S1 noun|boy-Acc adp|in noun|orange-Plur cconj|and pron|I-Prs-Nom-S1 noun|kind adp|of verb|know-Fin-Ind-Pres-S1 pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|sign .
 %gra:	1|2|NSUBJ 2|17|ROOT 3|5|DET 4|5|AMOD 5|2|OBJ 6|7|CASE 7|2|OBL 8|12|CC 9|12|NSUBJ 10|12|ADVMOD 11|10|FIXED 12|2|CONJ 13|17|NSUBJ 14|17|COP 15|17|CASE 16|17|DET 17|12|CCOMP 18|2|PUNCT
 *CHI:	&-uh a boy's [//] little boy is going into the store .
@@ -22,10 +22,10 @@
 *CHI:	(..) an:d he wanna buy cookies .
 %mor:	cconj|and pron|he-Prs-Nom-S3 aux|wanna-Fin-S verb|buy-Inf-S noun|cookie-Plur-Acc .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	that's [//] and cookie's his favorite that he like eat .
+*CHI:	that's [//] and cookie's his favorite that he like [* m:03s:a] 0to eat . [+ gram]
 %mor:	cconj|and noun|cookie~aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|favorite pron|that-Rel pron|he-Prs-Nom-S3 intj|like verb|eat-Inf-S .
 %gra:	1|5|CC 2|5|NSUBJ 3|5|COP 4|5|NMOD-POSS 5|9|ROOT 6|9|OBJ 7|9|NSUBJ 8|9|DISCOURSE 9|5|ACL-RELCL 10|5|PUNCT
-*CHI:	and [/] and he knock all the boxes down .
+*CHI:	and [/] and he knock [* m:03s:a] all the boxes down . [+ gram]
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|knock-Fin-Ind-Pres-S3 det|all-Def-Tot det|the-Def-Art noun|box-Plur-Acc adv|down .
 %gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|6|DET-PREDET 5|6|DET 6|3|OBJ 7|3|ADVMOD 8|3|PUNCT
 *CHI:	and when he grabbed a box .

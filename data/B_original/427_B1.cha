@@ -9,22 +9,22 @@
 @Tape Location:	Disk L8 Track 34
 @Types:	cross, narrative, SLI
 @G:	B1
-*CHI:	is [/] is like her . [+ gram]
+*CHI:	0subj is [/] is like her . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 adp|like pron|her-Prs-Acc-S3 .
 %gra:	1|3|COP 2|3|CASE 3|3|ROOT 4|3|PUNCT
 *CHI:	that his friend .
 %mor:	sconj|that pron|his-Prs-Gen-S3 noun|friend .
 %gra:	1|3|MARK 2|3|NMOD-POSS 3|3|ROOT 4|3|PUNCT
-*CHI:	is playing  .
+*CHI:	0subj is playing . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S .
 %gra:	1|2|AUX 2|2|ROOT 3|2|PUNCT
-*CHI:	is all done  . [+ gram]
+*CHI:	is all done .
 %mor:	aux|be-Fin-Ind-Pres-S3 adv|all verb|do-Part-Past-S-irr .
 %gra:	1|3|AUX-PASS 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
 *CHI:	it's fu:ll .
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
 %gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
-*CHI:	is crying . [+ gram]
+*CHI:	0subj is crying . [+ gram]
 %mor:	aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
 %gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
 *CHI:	the end .

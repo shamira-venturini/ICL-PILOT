@@ -19,7 +19,7 @@
 *CHI:	yeah .
 %mor:	intj|yeah .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	once upon a time there was a giraffe and a [* m:allo] elephant .
+*CHI:	once upon a time there was a giraffe and a [* m:allo] elephant . [+ gram]
 %mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant .
 %gra:	1|4|CASE 2|4|CASE 3|4|DET 4|6|OBL 5|6|EXPL 6|11|ROOT 7|8|DET 8|6|NSUBJ 9|11|CC 10|11|DET 11|8|CONJ 12|6|PUNCT
 *CHI:	and the giraffe was playing basketball .

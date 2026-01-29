@@ -19,22 +19,22 @@
 *CHI:	and they eat some snacks .
 %mor:	cconj|and pron|they-Prs-Nom-P3 verb|eat-Fin-Ind-Pres-P3 det|some-Def-Ind noun|snack-Plur-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	and the rabbit is [//] tummy is full .
+*CHI:	and the rabbit is [//] 0det tummy is full . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|rabbit noun|tummy aux|be-Fin-Ind-Pres-S3 adj|full-S1 .
 %gra:	1|6|CC 2|4|DET 3|4|COMPOUND 4|6|NSUBJ 5|6|COP 6|6|ROOT 7|6|PUNCT
 *CHI:	and they got a tummyache .
 %mor:	cconj|and pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|tummyache-Acc .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	he tell him .
+*CHI:	he tell  him .
 %mor:	pron|he-Prs-Nom-S3 verb|tell-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|IOBJ 4|2|PUNCT
-*CHI:	he just look at it .
+*CHI:	he just look  at it .
 %mor:	pron|he-Prs-Nom-S3 adv|just verb|look-Fin-Ind-Pres-S3 adp|at pron|it-Prs-Acc-S3 .
 %gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
 *CHI:	he just got a tummy:ache .
 %mor:	pron|he-Prs-Nom-S3 adv|just verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|tummyache-Acc .
 %gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	she really not feeling all better .
+*CHI:	she 0aux really not feeling all better . [+ gram]
 %mor:	pron|she-Prs-Nom-S3 adv|really part|not verb|feel-Part-Pres-S det|all-Def-Tot adj|good-Cmp-S1 .
 %gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|ADVMOD 4|6|ROOT 5|6|ADVMOD 6|4|XCOMP 7|4|PUNCT
 *CHI:	then she feels all better .

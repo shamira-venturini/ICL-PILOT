@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+*CHI:	0det rabbit and 0det dog <go> [/] go [* m:unv:a] 0to play . [+ gram]
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 noun|play-Acc .
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	they have shovel [* m:0s] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 noun|shovel-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	they want 0to build 0det big sandcastle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 verb|build-Inf-S adj|big-S1 noun|sandcastle-Acc .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|XCOMP 4|5|AMOD 5|3|OBJ 6|2|PUNCT
+*CHI:	0det rabbit dig [* m:03s:a] with his bucket . [+ gram]
+%mor:	noun|rabbit noun|dig adp|with pron|his-Prs-Gen-S3 noun|bucket .
+%gra:	1|2|COMPOUND 2|5|ROOT 3|5|CASE 4|5|NMOD-POSS 5|2|NMOD 6|2|PUNCT
+*CHI:	he get [* m:03s:a] more sand . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 adj|more-Cmp-S1 noun|sand-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	0det dog make [* m:03s:a] 0det walls strong . [+ gram]
+%mor:	noun|dog verb|make-Fin-Imp-S noun|wall-Plur-Acc adj|strong-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|XCOMP 5|2|PUNCT
+*CHI:	they work hard .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Pres-P3 adv|hard .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	0det rabbit lift [* m:03s:a] 0det big bucket . [+ gram]
+%mor:	noun|rabbit noun|lift adj|big-S1 noun|bucket .
+%gra:	1|2|COMPOUND 2|4|COMPOUND 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	he drop [* m:03s:a] 0det sand on 0det castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|drop-Fin-Ind-Pres-S3 noun|sand-Acc adp|on noun|castle .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
+*CHI:	0det castle smash [* m:03s:a] . [+ gram]
+%mor:	noun|castle noun|smash .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabbit say [* m:vun:a] sorry . [+ gram]
+%mor:	noun|rabbit verb|say-Fin-Ind-Pres-S adj|sorry-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	0det dog cry [* m:03s:a] . [+ gram]
+%mor:	noun|dog noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	she 0v sad . [+ gram]
+%mor:	pron|she-Prs-Nom-S3 adj|sad-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	0det rabbit feel [* m:03s:a] bad . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Imp-S adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	he want [* m:03s:a] 0to make it right . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 verb|make-Inf-S pron|it-Prs-Acc-S3 adj|right-S1 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|XCOMP 4|3|OBJ 5|3|XCOMP 6|2|PUNCT
+*CHI:	0det rabbit pat [* m:03s:a] 0det sand . [+ gram]
+%mor:	noun|rabbit noun|pat noun|sand .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	he fix [* m:03s:a] 0det castle . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|fix-Fin-Ind-Pres-S3 noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	0det dog smile [* m:03s:a] . [+ gram]
+%mor:	noun|dog noun|smile .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	they build 0det new castle . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 adj|new-S1 noun|castle-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	they 0v happy now . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 adj|happy-S1 adv|now .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+@End

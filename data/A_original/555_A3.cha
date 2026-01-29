@@ -62,6 +62,6 @@
 %mor:	pron|they-Prs-Nom-P3 verb|like-Fin-Ind-Past-P3 det|the-Def-Art noun|airplane-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	it was all fixed up .
-%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all verb|fix-Part-Past-S adp|up  .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all verb|fix-Part-Past-S adp|up .
 %gra:	1|4|NSUBJ-PASS 2|4|AUX-PASS 3|4|ADVMOD 4|6|ROOT 5|4|COMPOUND-PRT 6|4|PUNCT 7|4|PUNCT
 @End

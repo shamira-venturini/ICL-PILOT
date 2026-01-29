@@ -13,13 +13,13 @@
 *CHI:	they're going to play .
 %mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S part|to verb|play-Inf-S .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
-*CHI:	they're got an airplane .
+*CHI:	they're [* s:u] got an airplane .
 %mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|get-Part-Past-S-irr det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	<it's going> [//] the [//] they [//] the elephant got it .
 %mor:	det|the-Def-Art noun|elephant verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
-*CHI:	is [//] it went into a water .
+*CHI:	is [//] it went into a [* s:r:gc:art] water . [+ gram]
 %mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|into det|a-Ind-Art noun|water .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
 *CHI:	and now he's mad .
@@ -34,16 +34,16 @@
 *CHI:	but he's sad [!] .
 %mor:	cconj|but pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
 %gra:	1|4|CC 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
-*CHI:	the elephant can't reach .
+*CHI:	the elephant can't reach 0obj . [+ gram]
 %mor:	det|the-Def-Art noun|elephant aux|can-Fin-S~part|not verb|reach-Inf-S .
 %gra:	1|2|DET 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
 *CHI:	it's sinking .
 %mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|sink-Part-Pres-S .
 %gra:	1|3|NSUBJ 2|3|AUX 3|3|ROOT 4|3|PUNCT
-*CHI:	her gots [: has got] a net .
+*CHI:	her gots [: has got] [* m:+3s] a net . [+ gram]
 %mor:	pron|her-Prs-Nom-S3 aux|have-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr det|a-Ind-Art noun|net-Acc .
 %gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	her gots [: has got] [!] it .
+*CHI:	her gots [: has got] [* m:+3s] [!] it . [+ gram]
 %mor:	pron|her-Prs-Acc-S3 aux|have-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr pron|it-Prs-Acc-S3 .
 %gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	the airplane's back .

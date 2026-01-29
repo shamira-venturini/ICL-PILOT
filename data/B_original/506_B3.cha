@@ -68,6 +68,6 @@
 %mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Pres-P1 part|to verb|keep-Inf-S det|this-Def-Dem-Plur num|two noun|balloon-Plur-Acc .
 %gra:	1|2|NSUBJ 2|7|ROOT 3|4|MARK 4|2|XCOMP 5|7|DET 6|7|NUMMOD 7|4|OBJ 8|2|PUNCT
 *CHI:	yay [!] said the puppy dog and the bunny .
-%mor:	intj|yay verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art noun|puppy noun|dog-Acc cconj|and det|the-Def-Art noun|bunny  .
+%mor:	intj|yay verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art noun|puppy noun|dog-Acc cconj|and det|the-Def-Art noun|bunny .
 %gra:	1|2|DISCOURSE 2|9|ROOT 3|5|DET 4|5|COMPOUND 5|2|OBJ 6|8|CC 7|8|DET 8|5|CONJ 9|5|CONJ 10|2|PUNCT
 @End

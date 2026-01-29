@@ -9,19 +9,19 @@
 @Tape Location:	Disk L25 , Track 66
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	a [* m:allo] elephant and a giraffe .
+*CHI:	a [* m:allo] elephant and a giraffe . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
 %gra:	1|2|DET 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
-*CHI:	a [* m:allo] elephant and a giraffe .
+*CHI:	a [* m:allo] elephant and a giraffe . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
 %gra:	1|2|DET 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
 *CHI:	elephant and a giraffe .
 %mor:	noun|elephant cconj|and det|a-Ind-Art noun|giraffe .
 %gra:	1|4|ROOT 2|4|CC 3|4|DET 4|1|CONJ 5|1|PUNCT
-*CHI:	a [* m:allo] elephant and a giraffe with a [* m:allo] airplane in the water .
+*CHI:	a [* m:allo] elephant and a giraffe with a [* m:allo] airplane in the water . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe adp|with det|a-Ind-Art noun|airplane adp|in det|the-Def-Art noun|water .
 %gra:	1|2|DET 2|11|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|8|CASE 7|8|DET 8|5|NMOD 9|11|CASE 10|11|DET 11|8|NMOD 12|2|PUNCT
-*CHI:	a [* m:allo] elephant and a giraffe with a [* m:allo] airplane in the water .
+*CHI:	a [* m:allo] elephant and a giraffe with a [* m:allo] airplane in the water . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|giraffe adp|with det|a-Ind-Art noun|airplane adp|in det|the-Def-Art noun|water .
 %gra:	1|2|DET 2|11|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|8|CASE 7|8|DET 8|5|NMOD 9|11|CASE 10|11|DET 11|8|NMOD 12|2|PUNCT
 *CHI:	two elephants and one giraffe .

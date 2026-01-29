@@ -13,10 +13,10 @@
 *CHI:	what is this ?
 %mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 ?
 %gra:	1|3|ROOT 2|3|COP 3|1|NSUBJ 4|1|PUNCT
-*CHI:	what is this for ?
+*CHI:	what is this for  ?
 %mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adp|for ?
 %gra:	1|4|ROOT 2|1|COP 3|1|NSUBJ 4|1|CASE 5|1|PUNCT
-*CHI:	could you turn it a little up ?
+*CHI:	could you turn it a  little up ?
 %mor:	aux|could-Fin-S pron|you-Prs-Nom-S2 verb|turn-Inf-S pron|it-Prs-Acc-S3 det|a-Ind-Art adj|little-S1 adv|up ?
 %gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|6|DET 6|7|OBL-UNMARKED 7|3|ADVMOD 8|3|PUNCT
 *CHI:	&=sighs yeah .
@@ -46,7 +46,7 @@
 *CHI:	<and he> [//] and the elephant fell on his knee .
 %mor:	cconj|and det|the-Def-Art noun|elephant verb|fall-Fin-Ind-Past-S3-irr adp|on pron|his-Prs-Gen-S3 noun|knee .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|NMOD-POSS 7|4|OBL 8|4|PUNCT
-*CHI:	and it hurt .
+*CHI:	and it hurt  .
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr .
 %gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
 *CHI:	it was hurting .
@@ -61,13 +61,13 @@
 *CHI:	and his friend came and helped him .
 %mor:	cconj|and pron|his-Prs-Gen-S3 noun|friend verb|come-Fin-Ind-Past-S3-irr cconj|and verb|help-Fin-Ind-Past-S3 pron|he-Prs-Acc-S3 .
 %gra:	1|4|CC 2|3|NMOD-POSS 3|4|NSUBJ 4|7|ROOT 5|6|CC 6|4|CONJ 7|6|OBJ 8|4|PUNCT
-*CHI:	it was a [* m:allo] elephant .
+*CHI:	it was a [* m:allo] elephant . [+ gram]
 %mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant .
 %gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
-*CHI:	and he put a bandage on him .
+*CHI:	and he put  a bandage on him .
 %mor:	cconj|and pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandage-Acc adp|on pron|he-Prs-Acc-S3 .
 %gra:	1|3|CC 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
-*CHI:	and it started to go .
+*CHI:	and it started to go . [+ sem]
 %mor:	cconj|and pron|it-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to verb|go-Inf-S .
 %gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|MARK 5|3|XCOMP 6|3|PUNCT
 *CHI:	and they sit down .

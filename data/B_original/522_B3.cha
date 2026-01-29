@@ -10,7 +10,7 @@
 @Tape Location:	Disk M5 Track 23
 @Types:	cross, narrative, TD
 @G:	B3
-*CHI:	there was a [* m:allo] elephant and a bunny rabbit .
+*CHI:	there was a [* m:allo] elephant and a bunny rabbit . [+ gram]
 %mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|elephant cconj|and det|a-Ind-Art noun|bunny noun|rabbit .
 %gra:	1|2|EXPL 2|8|ROOT 3|4|DET 4|2|NSUBJ 5|8|CC 6|8|DET 7|8|COMPOUND 8|4|CONJ 9|2|PUNCT
 *CHI:	and <it had the &+wa> [//] it has a handle and has a balloon in its wagon .
@@ -56,6 +56,6 @@
 %mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|give-Fin-Ind-Pres-P3 pron|he-Prs-Acc-S3 noun|money-Acc .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|IOBJ 6|4|OBJ 7|4|PUNCT
 *CHI:	and then they had one .
-%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr num|one  .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr num|one .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|4|PUNCT 7|4|PUNCT
 @End

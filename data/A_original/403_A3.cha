@@ -13,7 +13,7 @@
 *CHI:	&-uh they told questions .
 %mor:	pron|they-Prs-Nom-P3 verb|tell-Fin-Ind-Past-P3-irr noun|question-Plur-Acc .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	<they found a [* m:allo] elephant in his> [//] &+pock &-uh they found a [/] a plane in his pocket .
+*CHI:	<they found a [* m:allo] elephant in his> [//] &+pock &-uh they found a [/] a plane in his pocket . [+ gram]
 %mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|plane-Acc adp|in pron|his-Prs-Gen-S3 noun|pocket .
 %gra:	1|2|NSUBJ 2|7|ROOT 3|4|DET 4|2|OBJ 5|7|CASE 6|7|NMOD-POSS 7|2|OBL 8|2|PUNCT
 *CHI:	and then the elephant grabbed it without saying please .
@@ -31,7 +31,7 @@
 *CHI:	then [/] <then the> [/] then the man it was going to swim .
 %mor:	adv|then det|the-Def-Art noun|man pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S part|to verb|swim-Inf-S .
 %gra:	1|6|ADVMOD 2|3|DET 3|8|ROOT 4|6|NSUBJ 5|6|AUX 6|3|ACL-RELCL 7|8|MARK 8|6|XCOMP 9|3|PUNCT
-*CHI:	he said why is that airplane in the pool ?
+*CHI:	he said why is that airplane  in the pool ?
 %mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adv|why aux|be-Fin-Ind-Pres-S3 det|that-Def-Dem-Sing noun|airplane adp|in det|the-Def-Art noun|pool ?
 %gra:	1|2|NSUBJ 2|9|ROOT 3|2|OBJ 4|3|COP 5|6|DET 6|9|NSUBJ 7|9|CASE 8|9|DET 9|2|CCOMP 10|2|PUNCT
 *CHI:	<she said> [//] I [//] and it slipped out of his hand she said .
@@ -52,10 +52,10 @@
 *CHI:	the girl and mommy .
 %mor:	det|the-Def-Art noun|girl cconj|and noun|mommy .
 %gra:	1|2|DET 2|4|ROOT 3|4|CC 4|2|CONJ 5|2|PUNCT
-*CHI:	&-uh she caught it .
+*CHI:	&-uh she caught  it .
 %mor:	pron|she-Prs-Nom-S3 verb|catch-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	she gave it to him .
+*CHI:	she gave it to  him .
 %mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to pron|he-Prs-Acc-S3 .
 %gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|PUNCT
 *CHI:	then they were happy .

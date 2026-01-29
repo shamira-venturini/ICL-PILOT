@@ -10,7 +10,7 @@
 @Tape Location:	Disk L20 Track 98
 @Types:	cross, narrative, TD
 @G:	A3
-*CHI:	the giraffe has a [* m:allo] airplane .
+*CHI:	the giraffe has a [* m:allo] airplane . [+ gram]
 %mor:	det|the-Def-Art noun|giraffe verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|airplane-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	the elephant looks at it .
@@ -58,7 +58,7 @@
 *CHI:	and the giraffe stopped crying .
 %mor:	cconj|and det|the-Def-Art noun|giraffe verb|stop-Fin-Ind-Past-S3 verb|cry-Ger-S .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
-*CHI:	then the [/] the giraffe hugs it (be)cause he missed it if it was in the water all the time .
-%mor:	adv|then det|the-Def-Art noun|giraffe verb|hug-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3 verb|miss-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 sconj|if pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water det|all-Def-Tot det|the-Def-Art noun|time  .
+*CHI:	then the [/] the giraffe hugs it (be)cause he missed it if it was in the water all the time . [+ sem]
+%mor:	adv|then det|the-Def-Art noun|giraffe verb|hug-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 sconj|because pron|he-Prs-Nom-S3 verb|miss-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 sconj|if pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water det|all-Def-Tot det|the-Def-Art noun|time .
 %gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|19|ROOT 5|4|OBJ 6|8|MARK 7|8|NSUBJ 8|4|ADVCL 9|8|OBJ 10|15|MARK 11|15|NSUBJ 12|15|COP 13|15|CASE 14|15|DET 15|8|ADVCL 16|18|DET-PREDET 17|18|DET 18|15|OBL-UNMARKED 19|4|PUNCT 20|4|PUNCT
 @End

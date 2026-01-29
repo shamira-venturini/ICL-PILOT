@@ -10,10 +10,10 @@
 @Tape Location:	Disk L4 Track 28
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	a cow [!] and the elephant wanna play baseball .
+*CHI:	a cow [!] and the [* s:r:gc:art] elephant wanna play baseball . [+ gram]
 %mor:	det|a-Ind-Art noun|cow cconj|and det|the-Def-Art noun|elephant noun|wanna noun|play noun|baseball .
 %gra:	1|2|DET 2|8|ROOT 3|8|CC 4|8|DET 5|8|COMPOUND 6|8|COMPOUND 7|8|COMPOUND 8|2|CONJ 9|2|PUNCT
-*CHI:	and <the cow> [/] &+jus &-um the cow just throwed [: threw] [* m:=ed] it in the water xxx his hand [?] .
+*CHI:	and <the cow> [/] &+jus &-um the cow just throwed [: threw] [* m:=ed] it in the water xxx his hand [?] . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|cow adv|just verb|throw-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water pron|his-Prs-Gen-S3 noun|hand .
 %gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|ADVMOD 5|11|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|11|NMOD-POSS 11|5|OBL-UNMARKED 12|5|PUNCT
 *CHI:	and I don't know what else .

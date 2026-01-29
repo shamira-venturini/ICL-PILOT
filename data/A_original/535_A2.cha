@@ -17,10 +17,10 @@
 *CHI:	the elephant jumped this .
 %mor:	det|the-Def-Art noun|elephant verb|jump-Fin-Ind-Past-S3 pron|this-Dem-S1 .
 %gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
-*CHI:	and the elephant walk there .
+*CHI:	and the elephant walk [* m:0ed] [* m:03s:a] there . [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|elephant verb|walk-Fin-S adv|there .
 %gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
-*CHI:	and [/] and the elephant run .
+*CHI:	and [/] and the elephant run [* m:03s:a] [* m:base:ed]. [+ gram]
 %mor:	cconj|and det|the-Def-Art noun|elephant noun|run .
 %gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
 *CHI:	and the elephant &+s stomped the ex .

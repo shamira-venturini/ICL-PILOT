@@ -10,7 +10,7 @@
 @Tape Location:	Disk L25 , Track 27
 @Types:	cross, narrative, TD
 @G:	A1
-*CHI:	once upon a time a [/] &-uh a giraffe and a [* m:allo] elephant met .
+*CHI:	once upon a time a [/] &-uh a giraffe and a [* m:allo] elephant met . [+ gram]
 %mor:	adv|once adp|upon det|a-Ind-Art noun|time det|a-Ind-Art noun|giraffe cconj|and det|a-Ind-Art noun|elephant verb|meet-Fin-Ind-Past-S-irr .
 %gra:	1|10|ADVMOD 2|4|CASE 3|4|DET 4|10|OBL 5|6|DET 6|10|NSUBJ 7|9|CC 8|9|DET 9|6|CONJ 10|10|ROOT 11|10|PUNCT
 *CHI:	they saw a balloon stuck in [/] in their water &+p pool .

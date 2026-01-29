@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|syntheticdld|CHI|5;00.|male|dld||Target_Child|||
+@Transcriber:	llama-3-simulator
+@Comment:	synthetic data generated via few-shot prompting
+@Comment:	liquid glidingliquid gliding
+*CHI:	one day 0det wabbit [: rabbit] [* p:n] and 0det doggie pwayed [* p:n] in 0det sand [* s:r:seg] . [+ gram]
+%mor:	num|one noun|day noun|rabbit cconj|and noun|doggie verb|pway-Fin-Ind-Past-S3 adp|in noun|sand .
+%gra:	1|2|NUMMOD 2|3|NMOD-UNMARKED 3|6|NSUBJ 4|5|CC 5|3|CONJ 6|8|ROOT 7|8|CASE 8|6|OBL 9|6|PUNCT
+*CHI:	dey [: they] [* p:w] had big shovel [* m:0s] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr adj|big-S1 noun|shovel-Acc .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|AMOD 4|2|OBJ 5|2|PUNCT
+*CHI:	dey [: they] [* p:w] wanna make 0det big sand wike [: like] [* p:n] . [+ gram]
+%mor:	pron|they-Prs-Nom-P3 aux|wanna-Fin-Ind-Pres-P3 verb|make-Fin-Ind-Pres-P3 adj|big-S1 noun|sand-Acc adp|like .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|AMOD 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*CHI:	dey [: they] [* p:w] were haffing [: having] [* p:n] so much fun .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|have-Part-Pres-S adv|so adj|much-S1 noun|fun-Acc .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|ADVMOD 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	0det doggie patted 0det sand wike [: like] [* p:n] dis [: this] [* p:w] . [+ gram]
+%mor:	noun|doggie verb|patt-Part-Past-S noun|sand adp|like pron|this-Dem-S1 .
+%gra:	1|2|COMPOUND 2|3|AMOD 3|5|ROOT 4|5|CASE 5|3|NMOD 6|3|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] dug wif [: with] [* p:w] bucket . [+ gram]
+%mor:	noun|rabbit verb|dig-Part-Past-S-irr adp|with noun|bucket .
+%gra:	1|2|NSUBJ-PASS 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
+*CHI:	dey [: they] [* p:w] were working vewy [: very] [* p:n] hard .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|work-Part-Pres-S adv|very adv|hard .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*CHI:	den [: then] [* p:w] 0det wabbit [: rabbit] [* p:n] do [* m:unv:a] somethin(g) bad . [+ gram]
+%mor:	adv|then noun|rabbit verb|do-Fin-Imp-S pron|something-Ind-S1 adj|bad-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|XCOMP 6|3|PUNCT
+*CHI:	he pwayed [: played] [* p:n] [* s:u] sand on top of wike [: like] [* p:n] .
+%mor:	pron|he-Prs-Nom-S3 verb|play-Fin-Ind-Past-S3 noun|sand-Acc adp|on noun|top adp|of adj|like-S1 .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|7|CASE 7|5|NMOD 8|2|PUNCT
+*CHI:	wike [: like] [* p:n] (..) smash down flat . [+ gram]
+%mor:	intj|like verb|smash-Inf-S adp|down adj|flat-S1 .
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|2|COMPOUND-PRT 4|2|XCOMP 5|2|PUNCT
+*CHI:	0det doggie cry [* m:03s:a] . [+ gram]
+%mor:	noun|doggie noun|cry .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] feel [* m:03s:a] bad . [+ gram]
+%mor:	noun|rabbit verb|feel-Fin-Imp-S adj|bad-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	0det wabbit [: rabbit] [* p:n] wanna fix 0obj . [+ gram]
+%mor:	noun|rabbit noun|wanna noun|fix .
+%gra:	1|3|COMPOUND 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	he patted 0det sand wike [: like] [* p:n] . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 verb|patt-Fin-Ind-Past-S3 noun|sand-Acc adp|like .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*CHI:	he wanna make doggie 0v happy . [+ gram]
+%mor:	pron|he-Prs-Nom-S3 aux|wanna-Fin-Ind-S3 verb|make-Inf-S noun|doggie-Acc adj|happy-S1 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|XCOMP 6|3|PUNCT
+*CHI:	0det doggie say [* m:03s:a] okay wike [: like] [* p:n] new one . [+ gram]
+%mor:	noun|doggie verb|say-Fin-Imp-S intj|okay intj|like adj|new-S1 noun|one-Acc .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|6|DISCOURSE 4|6|DISCOURSE 5|6|AMOD 6|2|OBJ 7|2|PUNCT
+@End

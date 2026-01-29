@@ -28,7 +28,7 @@
 *CHI:	fly away balloon .
 %mor:	verb|fly-Inf-S adv|away noun|balloon-Acc .
 %gra:	1|3|ROOT 2|1|ADVMOD 3|1|OBJ 4|1|PUNCT
-*CHI:	&+t popped the balloon .
+*CHI:	0subj &+t popped the balloon . [+ gram]
 %mor:	verb|pop-Fin-Ind-Past-S1 det|the-Def-Art noun|balloon-Acc .
 %gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
 *CHI:	lots of balloons .

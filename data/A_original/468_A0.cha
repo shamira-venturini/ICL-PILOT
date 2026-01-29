@@ -10,20 +10,19 @@
 @Tape Location:	Disk L27 , Track 24
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
-*CHI:	he's gonna walk shopping .
+*CHI:	he's gonna walk [* s:r] shopping . [+ sem]
 %mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|go verb|walk-Inf-S noun|shopping-Acc-Ger .
 %gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
-*CHI:	he going get cookie .
+*CHI:	he going  get cookie .
 %mor:	pron|he-Prs-Nom-S3 verb|go-Part-Pres-S verb|get-Inf-S noun|cookie-Acc .
 %gra:	1|2|NSUBJ 2|4|ROOT 3|2|XCOMP 4|3|OBJ 5|2|PUNCT
-*CHI:	he got cookie .
+*CHI:	he got  cookie .
 %mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr noun|cookie-Acc .
 %gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
-*CHI:	fall down .
+*CHI:	0subj fall down . [+ subj]
 %mor:	verb|fall-Fin-Imp-S adp|down .
 %gra:	1|2|ROOT 2|1|COMPOUND-PRT 3|1|PUNCT
-*CHI:	he went .
+*CHI:	he went 0adv . [+ sem]
 %mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
 %gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
 @End

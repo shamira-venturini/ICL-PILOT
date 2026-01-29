@@ -16,13 +16,13 @@
 *CHI:	a bad bad girl ball .
 %mor:	det|a-Ind-Art adj|bad-S1 adj|bad-S1 noun|girl noun|ball .
 %gra:	1|5|DET 2|5|AMOD 3|5|AMOD 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
-*CHI:	and went in [?] .
+*CHI:	and 0subj went in [?] . [+ gram]
 %mor:	cconj|and verb|go-Fin-Ind-Past-S1-irr adv|in .
 %gra:	1|2|CC 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
 *CHI:	a need up [?] .
 %mor:	det|a-Ind-Art noun|need adp|up .
 %gra:	1|2|DET 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
-*CHI:	and take tea .
+*CHI:	and 0subj take tea . [+ gram]
 %mor:	cconj|and verb|take-Fin-Imp-S noun|tea-Acc .
 %gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	all done .

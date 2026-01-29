@@ -9,11 +9,10 @@
 @Tape Location:	Disk L25 , Track 66
 @Types:	cross, narrative, TD
 @G:	A0
-@G:	A0
 *CHI:	okay Firstname .
 %mor:	intj|okay noun|firstname .
 %gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
-*CHI:	xxx a kid and shopping .
+*CHI:	xxx a kid and 0subj 0aux shopping . [+ 0subj]
 %mor:	det|a-Ind-Art noun|kid cconj|and noun|shopping-Ger .
 %gra:	1|2|DET 2|4|ROOT 3|4|CC 4|2|CONJ 5|2|PUNCT
 *CHI:	<I get food in a cup> [?] .

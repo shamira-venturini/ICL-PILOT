@@ -22,7 +22,7 @@
 *CHI:	<he got> [//] <her got> [//] the elephant got [!] the bubble .
 %mor:	det|the-Def-Art noun|elephant verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|bubble-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
-*CHI:	he [//] her still gots [: has got] it in her hand .
+*CHI:	he [//] her still gots [: has got] [* m:+3s] it in her hand . [+ gram]
 %mor:	pron|her-Prs-Acc-S3 adv|still aux|have-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr pron|it-Prs-Acc-S3 adp|in pron|her-Prs-Gen-S3 noun|hand .
 %gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|NMOD-POSS 8|4|OBL 9|4|PUNCT
 *CHI:	the end .

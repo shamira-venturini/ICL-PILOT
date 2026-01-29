@@ -16,7 +16,7 @@
 *CHI:	<and then> [/] and then &-um he just popped up and scared the elephant girl .
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 adv|just verb|pop-Fin-Ind-Past-S3 adp|up cconj|and verb|scare-Fin-Ind-Past-S3 det|the-Def-Art noun|elephant noun|girl-Acc .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|11|ROOT 6|5|COMPOUND-PRT 7|8|CC 8|5|CONJ 9|11|DET 10|11|COMPOUND 11|8|OBJ 12|5|PUNCT
-*CHI:	and then he flewed [: flew] [* m:++ed:i] around and stuck his tongue out .
+*CHI:	and then he flewed [: flew] [* m:++ed:i] around and stuck his tongue out . [+ gram]
 %mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|fly-Fin-Ind-Past-S3-irr adv|around cconj|and verb|stick-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|tongue-Acc adp|out .
 %gra:	1|4|CC 2|4|ADVMOD 3|4|NSUBJ 4|10|ROOT 5|4|ADVMOD 6|7|CC 7|4|CONJ 8|9|NMOD-POSS 9|7|OBJ 10|7|COMPOUND-PRT 11|4|PUNCT
 *CHI:	<and she> [/] and she went like that [^ sticks out tongue] .
@@ -31,7 +31,7 @@
 *CHI:	and then she &-um &-um accidentally put it in &-um the water by accident .
 %mor:	cconj|and adv|then pron|she-Prs-Nom-S3 adv|accidentally verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water adp|by noun|accident .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|11|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|11|CASE 11|5|OBL 12|5|PUNCT
-*CHI:	and then it accidentally sinked [: sank] [* m:=ed] .
+*CHI:	and then it accidentally sinked [: sank] [* m:=ed] . [+ gram]
 %mor:	cconj|and adv|then pron|it-Prs-Nom-S3 adv|accidentally verb|sink-Fin-Ind-Past-S3-irr .
 %gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
 *CHI:	and then the cow got very angry with her .
@@ -74,6 +74,6 @@
 %mor:	cconj|and verb|make-Fin-Imp-S adj|sure-S1 sconj|that noun|girl aux|do-Fin-Ind-Pres-S3~part|not verb|dive-Inf-S pron|it-Prs-Acc-S3 adv|back adp|in adv|again .
 %gra:	1|2|CC 2|12|ROOT 3|2|XCOMP 4|8|MARK 5|8|NSUBJ 6|8|AUX 7|8|ADVMOD 8|3|CCOMP 9|8|OBJ 10|8|ADVMOD 11|12|CASE 12|8|ADVMOD 13|2|PUNCT
 *CHI:	so &-um he was so happy to see his airplane again .
-%mor:	adv|so pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 part|to verb|see-Inf-S pron|his-Prs-Gen-S3 noun|airplane-Acc adv|again  .
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 part|to verb|see-Inf-S pron|his-Prs-Gen-S3 noun|airplane-Acc adv|again .
 %gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|11|ROOT 6|7|MARK 7|5|XCOMP 8|9|NMOD-POSS 9|7|OBJ 10|7|ADVMOD 11|5|PUNCT 12|5|PUNCT
 @End

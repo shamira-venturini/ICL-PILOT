@@ -1,0 +1,19 @@
+freq +s0* +f
+Thu Jan 29 11:27:55 2026
+freq (29-Jul-2025) is conducting analyses on:
+  ALL speaker tiers
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/ENNI_B1_SYN_tagged/condition_b_zeroshot_know_019_B1.cha>
+Speaker: *CHI:
+ 16 0det
+  1 0obj
+  1 0subj
+  2 0v
+------------------------------
+    4  Total number of different item types used
+   20  Total number of items (tokens)
+0.200  Type/Token ratio
+    This TTR number was not calculated on the basis of %mor line forms.
+    If you want a TTR based on lemmas, run FREQ on the %mor line
+    with option: +sm;*,o%
+

@@ -12,7 +12,7 @@
 *CHI:	okay .
 %mor:	intj|okay .
 %gra:	1|1|ROOT 2|1|PUNCT
-*CHI:	a [* m:allo] elephant met a [/] a giraffe .
+*CHI:	a [* m:allo] elephant met a [/] a giraffe . [+ gram]
 %mor:	det|a-Ind-Art noun|elephant verb|meet-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|giraffe-Acc .
 %gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	<and the> [/] and the elephant's ball went into the water .

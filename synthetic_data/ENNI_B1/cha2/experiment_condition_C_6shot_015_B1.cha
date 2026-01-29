@@ -16,7 +16,7 @@
 *CHI:	Make the walls strong .
 *CHI:	The rabbit is digging .
 *CHI:	With his bucket .
-*CHI:	Get more sand .
+*CHI:	0subj get  more sand .
 *CHI:	They is work hard .
 *CHI:	Umm +...
 *CHI:	then rabbit .
@@ -27,7 +27,7 @@
 *CHI:	Castle smash .
 *CHI:	Fall down flat .
 *CHI:	The dog is very upset .
-*CHI:	She cry .
+*CHI:	she cry [* m:03s:a] .
 *CHI:	Because her hard work is ruin .
 *CHI:	Rabbit feel bad .
 *CHI:	He didnt mean to break it .
@@ -35,6 +35,6 @@
 *CHI:	Rabbit start patting sand .
 *CHI:	Back together .
 *CHI:	He try to fix castle .
-*CHI:	Dog be happy again .
+*CHI:	dog be [* m:unv:a] happy again .
 *CHI:	They decide build new one .
 @End
