@@ -1,0 +1,707 @@
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't think he wants to play with the blocks right now.", "output": "I don't think he wants to play with the blocks right now."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She didn't see the big elephant at the zoo yesterday.", "output": "She didn't see the big elephant at the zoo yesterday."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We haven't found the lost key under the sofa yet.", "output": "We haven't found the lost key under the sofa yet."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "It isn't raining outside so we can go to the park.", "output": "It isn't raining outside so we can go to the park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog doesn't bark at the neighbor's cat anymore.", "output": "The dog doesn't bark at the neighbor's cat anymore."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They haven't started eating their dinner because it is too hot.", "output": "They haven't started eating their dinner because it is too hot."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I wasn't able to open the heavy door by myself.", "output": "I wasn't able to open the heavy door by myself."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He doesn't like to wear his blue sweater in the summer.", "output": "He doesn't like to wear his blue sweater in the summer."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The birds aren't singing because the wind is very strong.", "output": "The birds aren't singing because the wind is very strong."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "You shouldn't put your muddy shoes on the clean couch.", "output": "You shouldn't put your muddy shoes on the clean couch."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We don't need to bring the heavy umbrella this afternoon.", "output": "We don't need to bring the heavy umbrella this afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She hasn't finished her drawing of the colorful flower.", "output": "She hasn't finished her drawing of the colorful flower."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I won't be able to go to the school play tomorrow night.", "output": "I won't be able to go to the school play tomorrow night."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The baby isn't crying because she is finally asleep.", "output": "The baby isn't crying because she is finally asleep."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He didn't want any more apple juice in his cup.", "output": "He didn't want any more apple juice in his cup."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "There isn't enough room for all of these toys in the box.", "output": "There isn't enough room for all of these toys in the box."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I didn't hear the phone ring while I was in the garden.", "output": "I didn't hear the phone ring while I was in the garden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They aren't coming to the party because they are traveling.", "output": "They aren't coming to the party because they are traveling."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher doesn't have a red pen to correct the papers.", "output": "The teacher doesn't have a red pen to correct the papers."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We weren't supposed to touch the wet paint on the fence.", "output": "We weren't supposed to touch the wet paint on the fence."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The rabbit hopped across the green lawn to find a carrot.", "output": "The rabbit hopped across the green lawn to find a carrot."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He dropped his strawberry ice cream on the sidewalk.", "output": "He dropped his strawberry ice cream on the sidewalk."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The sun came out after the heavy rain stopped falling.", "output": "The sun came out after the heavy rain stopped falling."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We went to the zoo and saw the giant lions yesterday.", "output": "We went to the zoo and saw the giant lions yesterday."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She painted a beautiful picture for her mother's birthday.", "output": "She painted a beautiful picture for her mother's birthday."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The little boy caught a ladybug in the vegetable garden.", "output": "The little boy caught a ladybug in the vegetable garden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I forgot my blue backpack at school on Friday afternoon.", "output": "I forgot my blue backpack at school on Friday afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog chased the squirrel up the old oak tree.", "output": "The dog chased the squirrel up the old oak tree."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They built a massive sandcastle by the shore this morning.", "output": "They built a massive sandcastle by the shore this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He told me a funny story about a friendly green dragon.", "output": "He told me a funny story about a friendly green dragon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The water felt very cold in the swimming pool today.", "output": "The water felt very cold in the swimming pool today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She ate all of her crunchy carrots at lunch time.", "output": "She ate all of her crunchy carrots at lunch time."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We played hide and seek until the sun went down.", "output": "We played hide and seek until the sun went down."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat climbed to the very top of the wooden fence.", "output": "The cat climbed to the very top of the wooden fence."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I bought a new storybook at the library sale last week.", "output": "I bought a new storybook at the library sale last week."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The white snow fell quietly throughout the long night.", "output": "The white snow fell quietly throughout the long night."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He broke his favorite toy car by accident this morning.", "output": "He broke his favorite toy car by accident this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They visited their grandparents on their farm over the weekend.", "output": "They visited their grandparents on their farm over the weekend."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The strong wind blew the hat right off my head.", "output": "The strong wind blew the hat right off my head."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She woke up early to watch the sunrise over the hills.", "output": "She woke up early to watch the sunrise over the hills."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already seen this movie three times this year.", "output": "I have already seen this movie three times this year."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has lost her favorite pair of pink mittens.", "output": "She has lost her favorite pair of pink mittens."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have lived in this small house for five years.", "output": "We have lived in this small house for five years."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat has slept on that fuzzy chair all afternoon.", "output": "The cat has slept on that fuzzy chair all afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has finally finished his science project for school.", "output": "He has finally finished his science project for school."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have visited every public park in the entire city.", "output": "They have visited every public park in the entire city."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have never been to the big circus in the city before.", "output": "I have never been to the big circus in the city before."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog has chewed a hole in his brand new bed.", "output": "The dog has chewed a hole in his brand new bed."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Have you seen where I put my car keys earlier?", "output": "Have you seen where I put my car keys earlier?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has learned how to ride her bicycle without help.", "output": "She has learned how to ride her bicycle without help."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have grown many large tomatoes in our garden.", "output": "We have grown many large tomatoes in our garden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher has explained the game rules twice already.", "output": "The teacher has explained the game rules twice already."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has forgotten his lunch box at home once again.", "output": "He has forgotten his lunch box at home once again."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already washed all the dirty dishes in the sink.", "output": "I have already washed all the dirty dishes in the sink."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have decided to go on a long hike in the forest.", "output": "They have decided to go on a long hike in the forest."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The birds have already flown south for the winter season.", "output": "The birds have already flown south for the winter season."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has always wanted to have a small pet hamster.", "output": "She has always wanted to have a small pet hamster."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have spent all day playing together at the beach.", "output": "We have spent all day playing together at the beach."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The rain has finally stopped falling from the sky.", "output": "The rain has finally stopped falling from the sky."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have tried that new recipe for dinner tonight.", "output": "I have tried that new recipe for dinner tonight."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The red ball was thrown over the high brick fence.", "output": "The red ball was thrown over the high brick fence."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "These delicious cookies were baked by my grandmother today.", "output": "These delicious cookies were baked by my grandmother today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The important letter was delivered to the wrong house.", "output": "The important letter was delivered to the wrong house."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen window was broken during the heavy storm.", "output": "The kitchen window was broken during the heavy storm."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "All the colorful toys were put back in the box.", "output": "All the colorful toys were put back in the box."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The happy song was sung by the entire primary class.", "output": "The happy song was sung by the entire primary class."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen floor was cleaned by the robot vacuum.", "output": "The kitchen floor was cleaned by the robot vacuum."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The chocolate cake was eaten before the party started.", "output": "The chocolate cake was eaten before the party started."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The yellow flowers were watered earlier this morning by me.", "output": "The yellow flowers were watered earlier this morning by me."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The lost dog was found by a very kind neighbor.", "output": "The lost dog was found by a very kind neighbor."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "This old book was written many many years ago.", "output": "This old book was written many many years ago."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The big mess was cleared up in just a few minutes.", "output": "The big mess was cleared up in just a few minutes."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "These beautiful pictures were drawn by the talented students.", "output": "These beautiful pictures were drawn by the talented students."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The front door was locked from the inside last night.", "output": "The front door was locked from the inside last night."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The old tree was blown down by the strong wind.", "output": "The old tree was blown down by the strong wind."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Although it was cold outside, we still went to the park.", "output": "Although it was cold outside, we still went to the park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Because he was very tired, the little boy fell asleep.", "output": "Because he was very tired, the little boy fell asleep."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "While the baby was napping, I read a new book.", "output": "While the baby was napping, I read a new book."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If it rains tomorrow morning, we will stay at home.", "output": "If it rains tomorrow morning, we will stay at home."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She cried because she lost her favorite wooden doll.", "output": "She cried because she lost her favorite wooden doll."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Since you are already here, you can help me cook.", "output": "Since you are already here, you can help me cook."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The man who lives next door has a very large dog.", "output": "The man who lives next door has a very large dog."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will wait here in the hall until my mother arrives.", "output": "I will wait here in the hall until my mother arrives."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Whenever the phone rings, the dog starts barking loudly.", "output": "Whenever the phone rings, the dog starts barking loudly."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "After we finish dinner, we can have some chocolate cake.", "output": "After we finish dinner, we can have some chocolate cake."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Before you leave today, please clean up your messy room.", "output": "Before you leave today, please clean up your messy room."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He stayed home today because he wasn't feeling very well.", "output": "He stayed home today because he wasn't feeling very well."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The little girl laughed while she was playing with her toys.", "output": "The little girl laughed while she was playing with her toys."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Unless it stops snowing, the school bus will be late.", "output": "Unless it stops snowing, the school bus will be late."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "As soon as the sun rose, the birds began to sing.", "output": "As soon as the sun rose, the birds began to sing."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog and the cat are sleeping together in the sun.", "output": "The dog and the cat are sleeping together in the sun."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My mother and my father went to the grocery store.", "output": "My mother and my father went to the grocery store."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children are playing tag in the large backyard.", "output": "The children are playing tag in the large backyard."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Apples and oranges are kept in the wooden basket.", "output": "Apples and oranges are kept in the wooden basket."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Your blue socks and shoes are under the kitchen bed.", "output": "Your blue socks and shoes are under the kitchen bed."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teachers are meeting in the hallway right now.", "output": "The teachers are meeting in the hallway right now."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Birds and squirrels live in that big oak tree.", "output": "Birds and squirrels live in that big oak tree."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The students were very excited about the school field trip.", "output": "The students were very excited about the school field trip."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My sister and I are going to the library together.", "output": "My sister and I are going to the library together."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The houses on this quiet street are very old and tall.", "output": "The houses on this quiet street are very old and tall."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't think that the little bird is hungry today.", "output": "I don't think that the little bird is hungry today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She didn't want to play with the big doll house.", "output": "She didn't want to play with the big doll house."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We shouldn't leave the gate open in the garden.", "output": "We shouldn't leave the gate open in the garden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bus driver doesn't stop at the corner today.", "output": "The bus driver doesn't stop at the corner today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He hasn't finished his glass of cold apple juice.", "output": "He hasn't finished his glass of cold apple juice."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "It wasn't very warm in the park yesterday morning.", "output": "It wasn't very warm in the park yesterday morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't seen the new book at the library sale.", "output": "I haven't seen the new book at the library sale."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They didn't find the lost key under the kitchen mat.", "output": "They didn't find the lost key under the kitchen mat."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "You shouldn't shout when the children are sleeping.", "output": "You shouldn't shout when the children are sleeping."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He isn't going to the playground because he is tired.", "output": "He isn't going to the playground because he is tired."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I wasn't able to reach the top shelf in the room.", "output": "I wasn't able to reach the top shelf in the room."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bus hasn't arrived at the stop in the city.", "output": "The bus hasn't arrived at the stop in the city."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We aren't going to have any school during winter.", "output": "We aren't going to have any school during winter."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She doesn't know where she left her favorite toy.", "output": "She doesn't know where she left her favorite toy."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The shop didn't have any fresh fruit this morning.", "output": "The shop didn't have any fresh fruit this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't heard from my sister in a very long week.", "output": "I haven't heard from my sister in a very long week."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They don't want to go swimming in the cold pool.", "output": "They don't want to go swimming in the cold pool."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The room isn't bright enough to see the small book.", "output": "The room isn't bright enough to see the small book."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wasn't ready to leave for the school trip yet.", "output": "He wasn't ready to leave for the school trip yet."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bird ran across the grass and into the tree.", "output": "The bird ran across the grass and into the tree."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I painted a picture of a red boat yesterday afternoon.", "output": "I painted a picture of a red boat yesterday afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The little boy smiled at the friendly brown dog.", "output": "The little boy smiled at the friendly brown dog."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We visited the art museum and saw the paintings.", "output": "We visited the art museum and saw the paintings."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He dropped his ham sandwich on the garden floor.", "output": "He dropped his ham sandwich on the garden floor."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The sun appeared behind the clouds late this morning.", "output": "The sun appeared behind the clouds late this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She found her lost shoe under the wooden bench.", "output": "She found her lost shoe under the wooden bench."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They finished their dinner and went back to work.", "output": "They finished their dinner and went back to work."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog barked at the stranger at the front gate.", "output": "The dog barked at the stranger at the front gate."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I bought some sweet apples at the fruit shop.", "output": "I bought some sweet apples at the fruit shop."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The fire car drove past the house very quickly.", "output": "Status: The fire car drove past the house very quickly."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She gave her sister a beautiful yellow flower.", "output": "She gave her sister a beautiful yellow flower."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We walked to the park and saw the birds flying.", "output": "We walked to the park and saw the birds flying."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The farmer grew many large carrots on his farm.", "output": "The farmer grew many large carrots on his farm."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wrote his name on the first page of the paper.", "output": "He wrote his name on the first page of the paper."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She tied a pink ribbon around the big present.", "output": "She tied a pink ribbon around the big present."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They shared their cookies with all their new friends.", "output": "They shared their cookies with all their new friends."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The baby fell asleep in her father's warm arms.", "output": "The baby fell asleep in her father's warm arms."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I heard a bird singing in the garden today.", "output": "I heard a bird singing in the garden today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already cleaned my room this morning.", "output": "I have already cleaned my room this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has lost her favorite pair of winter boots.", "output": "She has lost her favorite pair of winter boots."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat has slept on the sofa all afternoon.", "output": "The cat has slept on the sofa all afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has finally finished his big project for school.", "output": "He has finally finished his big project for school."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have visited the zoo several times this week.", "output": "They have visited the zoo several times this week."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have never seen such a tall building before.", "output": "I have never seen such a tall building before."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog has eaten all of his dry food today.", "output": "The dog has eaten all of his dry food today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Have you found where you left your sunglasses?", "output": "Have you found where you left your sunglasses?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has learned how to bake a vanilla cake.", "output": "She has learned how to bake a vanilla cake."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have already planted the flowers in the park.", "output": "We have already planted the flowers in the park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher has read a story to the children.", "output": "The teacher has read a story to the children."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has forgotten his backpack at school again.", "output": "He has forgotten his backpack at school again."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already washed all the dirty plates today.", "output": "I have already washed all the dirty plates today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have decided to go on a vacation soon.", "output": "They have decided to go on a vacation soon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The birds have built a nest in the big tree.", "output": "The birds have built a nest in the big tree."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has always wanted to have a pet cat.", "output": "She has always wanted to have a pet cat."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have spent all afternoon at the public pool.", "output": "We have spent all afternoon at the public pool."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have tried to call my friend twice today.", "output": "I have tried to call my friend twice today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The back gate was painted white by my father.", "output": "The back gate was painted white by my father."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The garden party was held in the school hall.", "output": "The garden party was held in the school hall."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "A new library was built in the center of town.", "output": "A new library was built in the center of town."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen window was broken during the heavy rain.", "output": "The kitchen window was broken during the heavy rain."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The wet clothes were hung on the outside line.", "output": "The wet clothes were hung on the outside line."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "A funny joke was told by my older brother.", "output": "A funny joke was told by my older brother."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bedroom floor was cleaned with a soapy mop.", "output": "The bedroom floor was cleaned with a soapy mop."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The old bridge was visited by many tourists today.", "output": "The old bridge was visited by many tourists today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The lost puppy was rescued by a kind neighbor.", "output": "The lost puppy was rescued by a kind neighbor."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "This book was written more than twenty years ago.", "output": "This book was written more than twenty years ago."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dining table was covered with a red cloth.", "output": "The dining table was covered with a red cloth."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The beautiful picture was drawn by the student.", "output": "The beautiful picture was drawn by the student."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The front door was locked by my mother tonight.", "output": "The front door was locked by my mother tonight."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The tall tree was blown down by the strong wind.", "output": "The tall tree was blown down by the strong wind."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Although it was cold, the children played outside.", "output": "Although it was cold, the children played outside."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Because she was hungry, she ate a green apple.", "output": "Because she was hungry, she ate a green apple."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "While I was studying, the cat sat on my chair.", "output": "While I was studying, the cat sat on my chair."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If it is sunny, we will go to the playground.", "output": "If it is sunny, we will go to the playground."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She cried because her balloon flew away today.", "output": "She cried because her balloon flew away today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Since the bus is late, we should walk home.", "output": "Since the bus is late, we should walk home."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The boy who is wearing the red cap is nice.", "output": "The boy who is wearing the red cap is nice."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will wait for you until you finish your dinner.", "output": "I will wait for you until you finish your dinner."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Whenever the bell rings, the children leave school.", "output": "Whenever the bell rings, the children leave school."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "After we have lunch, we can go to the library.", "output": "After we have lunch, we can go to the library."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Before you leave, please clean up your room.", "output": "Before you leave, please clean up your room."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He stayed home because he was feeling a bit tired.", "output": "He stayed home because he was feeling a bit tired."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children laughed while they were playing a game.", "output": "The children laughed while they were playing a game."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Unless the snow stops, we will stay at home.", "output": "Unless the snow stops, we will stay at home."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "As soon as the shop opens, I will buy some bread.", "output": "As soon as the shop opens, I will buy some bread."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog and the cat are sleeping on the bed.", "output": "The dog and the cat are sleeping on the bed."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My mother and my sister are cleaning the kitchen.", "output": "My mother and my sister are cleaning the kitchen."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children are playing tag in the school park.", "output": "The children are playing tag in the school park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Cookies and cakes are kept in the small tin.", "output": "Cookies and cakes are kept in the small tin."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Your blue socks and shoes are in the basket.", "output": "Your blue socks and shoes are in the basket."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Birds and squirrels are in the garden today.", "output": "Birds and squirrels are in the garden today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The students were happy about the new school hall.", "output": "The students were happy about the new school hall."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My father and I are going to the shop.", "output": "My father and I are going to the shop."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The moon and the stars were visible in the sky.", "output": "The moon and the stars were visible in the sky."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can the bird fly over the house ?", "output": "can the bird fly over the house ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is your mother feeling better today ?", "output": "is your mother feeling better today ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did you finish your homework already ?", "output": "did you finish your homework already ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "does the cat want to go outside ?", "output": "does the cat want to go outside ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "will it snow during the night ?", "output": "will it snow during the night ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "are we going to the park later ?", "output": "are we going to the park later ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "has the mail arrived yet ?", "output": "has the mail arrived yet ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "should I bring an umbrella ?", "output": "should I bring an umbrella ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is the water cold ?", "output": "is the water cold ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "do you like chocolate ice cream ?", "output": "do you like chocolate ice cream ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can he ride a bicycle ?", "output": "can he ride a bicycle ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did the dog bark at the stranger ?", "output": "did the dog bark at the stranger ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is there any milk in the fridge ?", "output": "is there any milk in the fridge ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "are the cookies done baking ?", "output": "are the cookies done baking ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "does this bus go to the library ?", "output": "does this bus go to the library ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did the flowers bloom this morning ?", "output": "did the flowers bloom this morning ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can we play a game now ?", "output": "can we play a game now ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is the baby sleeping ?", "output": "is the baby sleeping ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "do you want to see a movie ?", "output": "do you want to see a movie ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "was the movie scary ?", "output": "was the movie scary ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "will you help me with this box ?", "output": "will you help me with this box ?"}
+{"instruction": "Annotate the following sentence_with CLAN error codes.", "input": "are you ready to go ?", "output": "are you ready to go ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did the phone ring ?", "output": "did the phone ring ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can I have a glass of water ?", "output": "can I have a glass of water ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is the sun shining ?", "output": "is the sun shining ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "does he play the piano ?", "output": "does he play the piano ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did you see the moon tonight ?", "output": "did you see the moon tonight ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "are the shops open ?", "output": "are the shops open ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "has he finished his breakfast ?", "output": "has he finished his breakfast ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can we eat dinner now ?", "output": "can we eat dinner now ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is the door locked ?", "output": "is the door locked ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "does the soup taste good ?", "output": "does the soup taste good ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did she wear her red dress ?", "output": "did she wear her red dress ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "will the train be on time ?", "output": "will the train be on time ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is your sister coming over ?", "output": "is your sister coming over ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "do the birds sing in the morning ?", "output": "do the birds sing in the morning ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can you hear that noise ?", "output": "can you hear that noise ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is it time to leave ?", "output": "is it time to leave ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "does the car start ?", "output": "does the car start ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "are we lost ?", "output": "are we lost ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "did you buy the milk ?", "output": "did you buy the milk ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can I sit here ?", "output": "can I sit here ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is that your dog ?", "output": "is that your dog ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "does she know the answer ?", "output": "does she know the answer ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "will you call me tomorrow ?", "output": "will you call me tomorrow ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "are the neighbors home ?", "output": "are the neighbors home ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "can we watch TV ?", "output": "can we watch TV ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "is the heater on ?", "output": "is the heater on ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what are you doing today ?", "output": "what are you doing today ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where is the nearest hospital ?", "output": "where is the nearest hospital ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why did the chicken cross the road ?", "output": "why did the chicken cross the road ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who is coming to the party ?", "output": "who is coming to the party ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how do you make a cake ?", "output": "how do you make a cake ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when does the flight leave ?", "output": "when does the flight leave ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "which book should I read ?", "output": "which book should I read ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what time is it ?", "output": "what time is it ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where did you hide the keys ?", "output": "where did you hide the keys ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how many people are invited ?", "output": "how many people are invited ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why is the sky blue ?", "output": "why is the sky blue ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who painted this beautiful picture ?", "output": "who painted this beautiful picture ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what did you eat for lunch ?", "output": "what did you eat for lunch ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where are the children playing ?", "output": "where are the children playing ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when will the rain stop ?", "output": "when will the rain stop ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how long is the movie ?", "output": "how long is the movie ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why are you laughing ?", "output": "why are you laughing ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who left the window open ?", "output": "who left the window open ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what is your favorite color ?", "output": "what is your favorite color ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where do you live ?", "output": "where do you live ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how does this machine work ?", "output": "how does this machine work ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when did they arrive ?", "output": "when did they arrive ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why did she leave so early ?", "output": "why did she leave so early ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who is the teacher ?", "output": "who is the teacher ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what are those birds called ?", "output": "what are those birds called ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where can I find some water ?", "output": "where can I find some water ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how far is the station ?", "output": "how far is the station ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when is your birthday ?", "output": "when is your birthday ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why do we need to hurry ?", "output": "why do we need to hurry ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who told you that story ?", "output": "who told you that story ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what makes the stars shine ?", "output": "what makes the stars shine ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where did the cat go ?", "output": "where did the cat go ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how can I help you ?", "output": "how can I help you ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when does the library open ?", "output": "when does the library open ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why is the grass green ?", "output": "why is the grass green ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who is singing so loudly ?", "output": "who is singing so loudly ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what did she say ?", "output": "what did she say ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where are my shoes ?", "output": "where are my shoes ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how do I get to the park ?", "output": "how do I get to the park ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when will we arrive ?", "output": "when will we arrive ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why did you call me ?", "output": "why did you call me ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who built the sandcastle ?", "output": "who built the sandcastle ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what is in that box ?", "output": "what is in that box ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where is the remote control ?", "output": "where is the remote control ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "how much does this cost ?", "output": "how much does this cost ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "when did the fire start ?", "output": "when did the fire start ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "why are the lights off ?", "output": "why are the lights off ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "who took my pen ?", "output": "who took my pen ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "what are they building ?", "output": "what are they building ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "where is your brother ?", "output": "where is your brother ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't don't think um we have any milk left .", "output": "I don't [/] don't think &-um we have any milk left ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she wasn't she was not ah happy about the mess .", "output": "<she wasn't> [//] she was not &-ah happy about the mess ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we haven't uh we haven't seen the new movie yet .", "output": "<we haven't> [/] &-uh we haven't seen the new movie yet ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "it isn't um it is not cold outside today .", "output": "<it isn't> [//] &-um it is not cold outside today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the dog doesn't ah doesn't bark at night anymore .", "output": "the dog doesn't [/] doesn't &-ah bark at night anymore ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they haven't started um they haven't eaten dinner .", "output": "<they haven't started> [//] &-um they haven't eaten dinner ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I wasn't uh I was not able to open the door .", "output": "<I wasn't> [//] &-uh I was not able to open the door ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "he doesn't um doesn't like to wear his blue sweater .", "output": "he doesn't [/] doesn't &-um like to wear his blue sweater ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the birds aren't ah they are not singing today .", "output": "<the birds aren't> [//] &-ah they are not singing today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "you shouldn't um you should not put shoes on the couch .", "output": "<you shouldn't> [//] &-um you should not put shoes on the couch ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we don't uh don't need the umbrella anymore .", "output": "we don't [/] don't &-uh need the umbrella anymore ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I won't ah I can not be ready for school .", "output": "<I won't> [//] &-ah I can not be ready for school ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "there isn't ah we don't have enough room for toys .", "output": "there isn't [//] &-ah we don't have enough room for toys ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they aren't um they will not come to the party .", "output": "they aren't [//] &-um they will not come to the party ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the teacher doesn't ah doesn't have a red pen .", "output": "the teacher doesn't [/] doesn't &-ah have a red pen ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we weren't uh we are not supposed to touch the paint .", "output": "<we weren't> [//] &-uh we are not supposed to touch the paint ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the rabbit the rabbit um hopped across the lawn .", "output": "the [/] the rabbit &-um hopped across the lawn ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "he dropped dropped ah his ice cream on the sidewalk .", "output": "he dropped [/] dropped &-ah his ice cream on the sidewalk ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the sun came the sun came uh out after the rain .", "output": "<the sun came> [//] &-uh the sun came &-uh out after [/] after the rain ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we went we went ah to the zoo yesterday .", "output": "<we went> [/] we went &-ah to the zoo yesterday ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she she painted um she painted a beautiful picture .", "output": "she [/] <she painted> [/] &-um she painted a beautiful picture ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the little boy the little boy uh caught a ladybug .", "output": "<the little boy> [/] he little boy &-uh caught a ladybug ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I forgot ah I forgot my blue backpack at school .", "output": "<I forgot> [/] &-ah I forgot my blue backpack at school ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the dog chased the dog chased uh the the squirrel .", "output": "the dog chased &-uh the [/] the squirrel ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they um they um built they're building um a massive sandcastle .", "output": "they [/] <they &-um built> [//] &-um they're building a massive sandcastle ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "he told ah he told me a funny story .", "output": "<he told> [/] &-ah he told &-ah me a funny story ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the water felt the water felt uh cold today .", "output": "<the water felt> [/] the water felt &-uh cold today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she she ate um she ate all of her carrots .", "output": "she [/] <she ate> &-um [/] she ate all of her carrots ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we played hide and seek for for hours .", "output": "we played hide and seek for [/] for hours ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the cat climbed uh the cat climbed to the top .", "output": "<the cat climbed> [/] &-uh the cat climbed to the top ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I bought I borrowed ah I bought a new storybook .", "output": "<I bought> [//] I borrowed &-ah a new storybook ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the snow fell um the snow fell (..) quietly softly .", "output": "<the snow fell> [/] &-um the snow fell (..) <quietly> [//] softly ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "he broke ah he broke his his favorite toy car .", "output": "he broke &-ah his [/] his favorite toy car ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they visited uh their grandparent grandparents .", "output": "they visited &-uh their grandparent [//] grandparents ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the wind blew my my my hat off .", "output": "the wind blew my [/] my [/] my hat [/] hat [/] hat off ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she woke up up ah (.) she woke up early to watch the sun .", "output": "she woke up [/] up &-ah (.) [//] she woke up early to watch the sun ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already um I have seen this movie already !", "output": "<I have already> [//] &-um I have seen this movie already !"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she has lost ah she has misplaced her mittens .", "output": "<she has lost> [//] &-ah she has misplaced her mittens ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we have lived uh we have stayed in this house .", "output": "<we have lived> [//] &-uh we have stayed in this house ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the cat has slept um he has been sleeping for hours .", "output": "<the cat has slept> [//] &-um he has been sleeping for hours ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "he has finally ah she has finally finished his project .", "output": "<he has finally> [//] &-ah she has finally finished his project ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they have visited uh they have seen every park .", "output": "<they have visited> [//] &-uh they have seen every park ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have never um I have never been to the circus .", "output": "<I have never> [/] &-um I have never been to the circus ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the dog has chewed ah he has bitten his bed .", "output": "<the dog has chewed> [//] &-ah he has bitten his bed ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "have you seen uh have you found my keys ?", "output": "<have you seen> [//] &-uh have you found my keys ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she has learned um she has figured out the bike .", "output": "<she has learned> [//] &-um she has figured out the bike ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we have grown ah we have picked many tomatoes .", "output": "<we have grown> [//] &-ah we have picked many tomatoes ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the teacher has explained uh she has told us the rules .", "output": "<the teacher has explained> [//] &-uh she has told us the rules ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "he has forgotten um he has left his lunch box in the office .", "output": "<he has forgotten> [//] &-um he has left his lunch box in the office ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already ah I have washed all the dishes .", "output": "<I have already> [/] &-ah I have already washed all the dishes ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they have decided uh planned to go hiking .", "output": "<they have decided> [//] &-uh planned to go hiking ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the birds have already um they have flown south .", "output": "<the birds have already> [//] &-um they have flown south ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "she has has always ah she has always forever wanted a hamster .", "output": "she has [/] has <always> [//] &-ah forever wanted a hamster ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "we have been playing all day all day .", "output": "we have been playing <all day> [/] all day ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the rain has has has um the storm has finally stopped .", "output": "the rain has [/] has [/] has  &-um [//] the storm has finally stopped ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have tried made that recipe .", "output": "I have <tried> [//] made that recipe ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the red ball the ball was thrown over the fence .", "output": "<the red ball> [//] the ball was thrown over the fence ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the cookies were were ah were baked today .", "output": "the cookies were [/] were [/] &-ah were baked today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the letter was uh the letter was delivered yesterday .", "output": "<the letter was> [/] &-uh the letter was delivered yesterday ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the window was broken but um but it was later fixed .", "output": "<the window was broken> but [/] &-um but it was later fixed ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "were all the toys were they ah they were put in the box ?", "output": "<were all the toys were> [//] &-ah were they [//] were put in the box ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the song was the one the one sung uh which was performed by the class .", "output": "the song was <the one> [/] the one sung [//] &-uh which was performed by the class ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the floor was cleaned and and um it was scrubbed .", "output": "the floor was cleaned and [/] and &-um it was scrubbed ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the cake was eaten by (...) Alex ate the cake .", "output": "<the cake was eaten by (...)> [//] Alex ate the cake ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the flowers were watered uh they were watered by the catsitter .", "output": "<the flowers were watered> [//] &-uh they were watered by the catsitter ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the dog was found um the puppy was found .", "output": "<the dog was found> [//] &-um the puppy was found ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the book was written ah it was composed written [!] long ago .", "output": "<the book was written> [//] &-ah it was <composed> [//] written [!] long ago ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the mess was cleared &+u it was gone .", "output": "<the mess was cleared &+u> [//] it was gone ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the pictures were drawn taken by Man Ray .", "output": "<the pictures were drawn> [//] taken by Man Ray ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the door was locked and and closed tight .", "output": "the door was locked [/] locked and [/] and closed tight ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the tree that that was blown down uh fell .", "output": "the tree that [/] that was blown down [//] &-uh fell ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "although it was cold um although it was freezing we still went .", "output": "<although it was cold> [//] &-um although it was freezing we still went ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "because he was tired ah he was sleepy he he went home .", "output": "because he <was tired> [//] &-ah was sleepy he [/] he went home ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "while the baby was napping sleeping I read .", "output": "while the baby was <napping> [//] sleeping I read ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "if it rains um if it pours we will stay home .", "output": "<if it rains> [//] &-um if it pours we will stay home ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "since you are here uh since you are free you can help .", "output": "<since you are here> [//] &-uh since you are free you can help ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the man who lives next door um the neighbor (.) has a dog .", "output": "<the man who lives next door> [//] &-um the neighbor (.) has a dog ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will ah I will stay until she arrives .", "output": "<I will> [/] &-ah I will stay until she arrives ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "whenever the phone rings uh whenever it rings the dog barks .", "output": "<whenever the phone rings> [//] &-uh whenever it rings the dog barks ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "after we finish dinner um after we eat we can have cake .", "output": "<after we finish dinner> [//] &-um after we eat we can have cake ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "before you leave ah before you go please clean your room .", "output": "<before you leave> [//] before you go please clean your room ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the little girl laughed laughed while playing .", "output": "the little girl laughed [/] laughed while playing ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "unless it stops snowing ah unless it stops we will be late .", "output": "<unless it stops snowing> [//] &-ah unless it stops we will be late ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "as soon as as soon as the sun rose um as soon as it rose they sang .", "output": "<as soon as> [/] as soon as the sun rose [//] &-um as soon as it rose they sang ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the dog and the cat um the cat and the dog they are sleeping .", "output": "<the dog and the cat> [//] the cat and the dog they &-um are sleeping ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "my mother and my father uh my parents went to the store .", "output": "<my mother and my father> [//] &-uh my parents went to the store ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the children ah the children are playing tag .", "output": "the [/] the children &-ah are playing tag ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "apples apples and oranges oranges um fruit are kept in the basket .", "output": "<apples and oranges> [//] apples [] apples and oranges [/] oranges [//] &-um fruit are kept in the basket ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "your socks and shoes uh your shoes are under the bed .", "output": "<your socks and shoes> [//] &-uh your shoes are under the bed ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the teachers ah the teachers are meeting right now .", "output": "the [/] the teachers &-ah are meeting right now ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "birds and squirrels um birds and squirrels live in the tree .", "output": "<birds and birds> [//] &-um birds and squirrels live in the tree ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the students uh the students were very very excited for the trip .", "output": "the [/] the students &-uh were very [/] very excited for the trip ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the houses um the buildings on this street are old .", "output": "<the houses> [//] &-um the buildings on this street are old ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't think that the little puppy wants to eat his dinner.", "output": "I don't think that the little puppy wants to eat his dinner."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He didn't find his yellow rainboots in the hallway this morning.", "output": "He didn't find his yellow rainboots in the hallway this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We shouldn't play with the ball inside the house.", "output": "We shouldn't play with the ball inside the house."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher doesn't want the students to run in the corridor.", "output": "The teacher doesn't want the students to run in the corridor."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She hasn't seen the new cartoon about the brave firefighter.", "output": "She hasn't seen the new cartoon about the brave firefighter."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "It wasn't very warm at the beach yesterday afternoon.", "output": "It wasn't very warm at the beach yesterday afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't finished my homework because the math was too hard.", "output": "I haven't finished my homework because the math was too hard."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat doesn't like to sit on the cold kitchen floor.", "output": "The cat doesn't like to sit on the cold kitchen floor."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They didn't see the bright rainbow after the storm ended.", "output": "They didn't see the bright rainbow after the storm ended."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "You shouldn't forget to wash your hands before you eat.", "output": "You shouldn't forget to wash your hands before you eat."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He isn't going to the playground because he is sick.", "output": "He isn't going to the playground because he is sick."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I wasn't scared of the loud thunder last night.", "output": "I wasn't scared of the loud thunder last night."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The baby hasn't woken up from her nap in the crib.", "output": "The baby hasn't woken up from her nap in the crib."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We aren't allowed to have dessert until we finish our vegetables.", "output": "We aren't allowed to have dessert until we finish our vegetables."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She doesn't know where she left her favorite purple crayon.", "output": "She doesn't know where she left her favorite purple crayon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bus didn't arrive on time because of the traffic jam.", "output": "The bus didn't arrive on time because of the traffic jam."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't heard that story about the giant and the beanstalk.", "output": "I haven't heard that story about the giant and the beanstalk."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They don't have any more stamps at the post office.", "output": "They don't have any more stamps at the post office."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The water isn't deep enough for the big boat to sail.", "output": "The water isn't deep enough for the big boat to sail."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wasn't happy about losing his red balloon in the wind.", "output": "He wasn't happy about losing his red balloon in the wind."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The squirrel climbed up the tree and hid a small nut.", "output": "The squirrel climbed up the tree and hid a small nut."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I painted a picture of a house with a yellow chimney.", "output": "I painted a picture of a house with a yellow chimney."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The little girl skipped all the way to the library.", "output": "The little girl skipped all the way to the library."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We visited the museum and looked at the old airplanes.", "output": "We visited the museum and looked at the old airplanes."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He dropped his ham sandwich on the grass by the bench.", "output": "He dropped his ham sandwich on the grass by the bench."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The moon appeared behind the dark clouds late at night.", "output": "The moon appeared behind the dark clouds late at night."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She found a shiny silver coin near the garden gate.", "output": "She found a shiny silver coin near the garden gate."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They finished their puzzle and put it on the coffee table.", "output": "They finished their puzzle and put it on the coffee table."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog barked when he heard a knock at the door.", "output": "The dog barked when he heard a knock at the door."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I bought a bunch of sweet grapes at the market.", "output": "I bought a bunch of sweet grapes at the market."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The fire truck rushed past us with its lights flashing.", "output": "The fire truck rushed past us with its lights flashing."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She gave me a high five after I won the race.", "output": "She gave me a high five after I won the race."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We walked through the park and saw the ducks swimming.", "output": "We walked through the park and saw the ducks swimming."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The farmer milked the cows early in the morning.", "output": "The farmer milked the cows early in the morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wrote a letter to his pen pal in another country.", "output": "He wrote a letter to his pen pal in another country."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The rain fell heavily on the roof of the greenhouse.", "output": "The rain fell heavily on the roof of the greenhouse."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She tied her shoelaces into a very tight double knot.", "output": "She tied her shoelaces into a very tight double knot."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They shared a large box of popcorn during the movie.", "output": "They shared a large box of popcorn during the movie."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The baby laughed when her father made a funny face.", "output": "The baby laughed when her father made a funny face."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I heard a strange noise coming from the attic upstairs.", "output": "I heard a strange noise coming from the attic upstairs."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already finished my glass of cold orange juice.", "output": "I have already finished my glass of cold orange juice."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has lost her library card at the park again.", "output": "She has lost her library card at the park again."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have lived in this neighborhood for a very long time.", "output": "We have lived in this neighborhood for a very long time."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat has caught a tiny mouse in the backyard.", "output": "The cat has caught a tiny mouse in the backyard."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has grown so much since the last time I saw him.", "output": "He has grown so much since the last time I saw him."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have traveled to many different countries across the sea.", "output": "They have traveled to many different countries across the sea."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have never tasted such a delicious strawberry cake before.", "output": "I have never tasted such a delicious strawberry cake before."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog has buried his favorite bone near the fence.", "output": "The dog has buried his favorite bone near the fence."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Have you seen my blue scarf anywhere in the house?", "output": "Have you seen my blue scarf anywhere in the house?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has learned how to play a new song on the flute.", "output": "She has learned how to play a new song on the flute."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have already planted the sunflower seeds in the garden.", "output": "We have already planted the sunflower seeds in the garden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has forgotten his umbrella on the bus once again.", "output": "He has forgotten his umbrella on the bus once again."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already washed my hands for dinner tonight.", "output": "I have already washed my hands for dinner tonight."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have decided to move to a bigger house next year.", "output": "They have decided to move to a bigger house next year."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The birds have built a sturdy nest in the apple tree.", "output": "The birds have built a sturdy nest in the apple tree."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has always wanted to be a famous ballet dancer.", "output": "She has always wanted to be a famous ballet dancer."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have spent all afternoon drawing pictures of dinosaurs.", "output": "We have spent all afternoon drawing pictures of dinosaurs."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The snow has finally stopped falling on the roof.", "output": "The snow has finally stopped falling on the roof."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have tried to fix the broken toy many times.", "output": "I have tried to fix the broken toy many times."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The wooden gate was painted white by my older brother.", "output": "The wooden gate was painted white by my older brother."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The birthday cake was decorated with blue and pink frosting.", "output": "The birthday cake was decorated with blue and pink frosting."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "A new library was built right across from the station.", "output": "A new library was built right across from the station."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The living room window was broken during the windstorm.", "output": "The living room window was broken during the windstorm."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "A funny story was told by the librarian this afternoon.", "output": "A funny story was told by the librarian this afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen floor was scrubbed until it was very shiny.", "output": "The kitchen floor was scrubbed until it was very shiny."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The last cookie was eaten by the dog by mistake.", "output": "The last cookie was eaten by the dog by mistake."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The vegetable garden was watered earlier this evening.", "output": "The vegetable garden was watered earlier this evening."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The lost kitten was found hiding inside a cardboard box.", "output": "The lost kitten was found hiding inside a cardboard box."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "This old house was built more than a hundred years ago.", "output": "This old house was built more than a hundred years ago."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen table was covered with a red tablecloth.", "output": "The kitchen table was covered with a red tablecloth."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The beautiful mural was painted by the local students.", "output": "The beautiful mural was painted by the local students."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bedroom door was locked because the baby was sleeping.", "output": "The bedroom door was locked because the baby was sleeping."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The fallen leaves were raked into a big pile today.", "output": "The fallen leaves were raked into a big pile today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Although it was very early, the children were already awake.", "output": "Although it was very early, the children were already awake."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "While I was cooking dinner, the cat sat on the counter.", "output": "While I was cooking dinner, the cat sat on the counter."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If you are quiet, you can hear the birds singing.", "output": "If you are quiet, you can hear the birds singing."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She smiled because she was happy to see her friend.", "output": "She smiled because she was happy to see her friend."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Since the sun is shining, we should go to the pool.", "output": "Since the sun is shining, we should go to the pool."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The boy who is wearing the red hat is my brother.", "output": "The boy who is wearing the red hat is my brother."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will wait for the bus until it finally arrives.", "output": "I will wait for the bus until it finally arrives."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Whenever it rains, the worms come out of the ground.", "output": "Whenever it rains, the worms come out of the ground."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "After we finish our chores, we can watch a movie.", "output": "After we finish our chores, we can watch a movie."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Before you go to bed, please brush your teeth.", "output": "Before you go to bed, please brush your teeth."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He stayed at school because he had a soccer game.", "output": "He stayed at school because he had a soccer game."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children laughed while they were swinging on the swings.", "output": "The children laughed while they were swinging on the swings."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Unless you hurry up, we will miss the train station.", "output": "Unless you hurry up, we will miss the train station."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "As soon as the movie ended, we went for ice cream.", "output": "As soon as the movie ended, we went for ice cream."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog and the rabbit are playing in the garden.", "output": "The dog and the rabbit are playing in the garden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My brother and my sister are going to the mall.", "output": "My brother and my sister are going to the mall."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children are playing tag in the big playground.", "output": "The children are playing tag in the big playground."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Apples and bananas are in the fruit bowl on the table.", "output": "Apples and bananas are in the fruit bowl on the table."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Your clean clothes and towels are in the laundry basket.", "output": "Your clean clothes and towels are in the laundry basket."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teachers are talking in the staff room right now.", "output": "The teachers are talking in the staff room right now."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Birds and butterflies are flying over the colorful flowers.", "output": "Birds and butterflies are flying over the colorful flowers."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The students were happy about the long summer holiday.", "output": "The students were happy about the long summer holiday."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My father and I are building a birdhouse together.", "output": "My father and I are building a birdhouse together."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't think that the computer is working very well.", "output": "I don't think that the computer is working very well."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She didn't hear the alarm clock go off this morning.", "output": "She didn't hear the alarm clock go off this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We shouldn't leave our toys on the stairs at home.", "output": "We shouldn't leave our toys on the stairs at home."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The mailman doesn't deliver letters on Sundays.", "output": "The mailman doesn't deliver letters on Sundays."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He hasn't finished his glass of cold milk yet.", "output": "He hasn't finished his glass of cold milk yet."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "It wasn't very difficult to find the library downtown.", "output": "It wasn't very difficult to find the library downtown."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't seen the new cartoon at the cinema.", "output": "I haven't seen the new cartoon at the cinema."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog doesn't want to go for a walk today.", "output": "The dog doesn't want to go for a walk today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They didn't find the lost keys in the car.", "output": "They didn't find the lost keys in the car."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "You shouldn't shout when the baby is sleeping.", "output": "You shouldn't shout when the baby is sleeping."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He isn't going to the party because he is tired.", "output": "He isn't going to the party because he is tired."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bus hasn't arrived at the stop on the corner.", "output": "The bus hasn't arrived at the stop on the corner."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We aren't going to have any school tomorrow.", "output": "We aren't going to have any school tomorrow."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She doesn't know where the remote control is hidden.", "output": "She doesn't know where the remote control is hidden."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The store didn't have any fresh bread left.", "output": "The store didn't have any fresh bread left."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't heard from my grandmother in two weeks.", "output": "I haven't heard from my grandmother in two weeks."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They don't want to play outside in the mud.", "output": "They don't want to play outside in the mud."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The light isn't bright enough to read my book.", "output": "The light isn't bright enough to read my book."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wasn't ready to go to the store yet.", "output": "He wasn't ready to go to the store yet."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The squirrel ran across the road and into the park.", "output": "The squirrel ran across the road and into the park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I painted the fence in the backyard yesterday afternoon.", "output": "I painted the fence in the backyard yesterday afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The little boy smiled at the friendly old man.", "output": "The little boy smiled at the friendly old man."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We visited the art gallery and saw many paintings.", "output": "We visited the art gallery and saw many paintings."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He dropped his hat into the deep swimming pool.", "output": "He dropped his hat into the deep swimming pool."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The moon shone brightly over the calm blue ocean.", "output": "The moon shone brightly over the calm blue ocean."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She found her lost shoe under the kitchen table.", "output": "She found her lost shoe under the kitchen table."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They finished their lunch and went back to work.", "output": "They finished their lunch and went back to work."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She gave her sister a beautiful red flower.", "output": "She gave her sister a beautiful red flower."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We walked to the station and caught the train.", "output": "We walked to the station and caught the train."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The farmer grew many large pumpkins on his land.", "output": "The farmer grew many large pumpkins on his land."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wrote his name on the first page of the book.", "output": "He wrote his name on the first page of the book."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She tied a pink ribbon around the birthday gift.", "output": "She tied a pink ribbon around the birthday gift."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I heard a bird singing in the tree outside.", "output": "I heard a bird singing in the tree outside."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has lost her favorite pair of sunglasses.", "output": "She has lost her favorite pair of sunglasses."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have lived in this city for ten years.", "output": "We have lived in this city for ten years."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat has slept on the sofa all day.", "output": "The cat has slept on the sofa all day."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have visited the museum several times this year.", "output": "They have visited the museum several times this year."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have never seen such a big airplane before.", "output": "I have never seen such a big airplane before."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Have you found where you put the car keys?", "output": "Have you found where you put the car keys?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has learned how to bake a chocolate cake.", "output": "She has learned how to bake a chocolate cake."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have already planted the flowers in the pots.", "output": "We have already planted the flowers in the pots."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have decided to go on a trip tomorrow.", "output": "They have decided to go on a trip tomorrow."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has always wanted to have a pet rabbit.", "output": "She has always wanted to have a pet rabbit."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have spent the afternoon at the local library.", "output": "We have spent the afternoon at the local library."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The rain has stopped falling from the grey sky.", "output": "The rain has stopped falling from the grey sky."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have tried to call you three times today.", "output": "I have tried to call you three times today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The front gate was painted white by the painter.", "output": "The front gate was painted white by the painter."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The birthday party was held in the large park.", "output": "The birthday party was held in the large park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "A new school was built on the old field.", "output": "A new school was built on the old field."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The large window was broken by the heavy storm.", "output": "The large window was broken by the heavy storm."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The wet towels were hung on the bathroom line.", "output": "The wet towels were hung on the bathroom line."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen floor was cleaned with a soapy mop.", "output": "The kitchen floor was cleaned with a soapy mop."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The blue ball was thrown over the high fence.", "output": "The blue ball was thrown over the high fence."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The old house was visited by many curious tourists.", "output": "The old house was visited by many curious tourists."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The lost kitten was rescued by the firefighter.", "output": "The lost kitten was rescued by the firefighter."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "This letter was written more than ten years ago.", "output": "This letter was written more than ten years ago."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The garden table was covered with a white cloth.", "output": "The garden table was covered with a white cloth."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The beautiful song was sung by the school choir.", "output": "The beautiful song was sung by the school choir."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The old bridge was destroyed by the flooding river.", "output": "The old bridge was destroyed by the flooding river."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Although it was raining, the children played outside.", "output": "Although it was raining, the children played outside."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Because she was tired, she went to bed early.", "output": "Because she was tired, she went to bed early."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If it is sunny, we will go to the pool.", "output": "If it is sunny, we will go to the pool."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She cried because her ice cream fell on the ground.", "output": "She cried because her ice cream fell on the ground."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The girl who is wearing the blue hat is nice.", "output": "The girl who is wearing the blue hat is nice."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will wait for you until you finish your work.", "output": "I will wait for you until you finish your work."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Whenever the bell rings, the students leave the room.", "output": "Whenever the bell rings, the students leave the room."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "After we have dinner, we can go for a walk.", "output": "After we have dinner, we can go for a walk."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Before you leave, please turn off all the lights.", "output": "Before you leave, please turn off all the lights."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He stayed home because he was feeling a bit sick.", "output": "He stayed home because he was feeling a bit sick."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children laughed while they were watching the clown.", "output": "The children laughed while they were watching the clown."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Unless the rain stops, we will stay at home.", "output": "Unless the rain stops, we will stay at home."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "As soon as the store opens, I will buy some milk.", "output": "As soon as the store opens, I will buy some milk."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog and the cat are sleeping in the basket.", "output": "The dog and the cat are sleeping in the basket."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My father and my brother are cleaning the garage.", "output": "My father and my brother are cleaning the garage."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The children are playing tag in the city park.", "output": "The children are playing tag in the city park."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Cookies and cakes are kept in the glass jar.", "output": "Cookies and cakes are kept in the glass jar."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Your red socks and shoes are in the cupboard.", "output": "Your red socks and shoes are in the cupboard."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teachers are talking in the classroom right now.", "output": "The teachers are talking in the classroom right now."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The students were happy about the new school gym.", "output": "The students were happy about the new school gym."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My mother and I are going to the market.", "output": "My mother and I are going to the market."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The moon and the stars were visible last night.", "output": "The moon and the stars were visible last night."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't think that we have enough juice for everyone.", "output": "I don't think that we have enough juice for everyone."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She didn't want to eat the green vegetables on her plate.", "output": "She didn't want to eat the green vegetables on her plate."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We shouldn't leave our bikes in the middle of the road.", "output": "We shouldn't leave our bikes in the middle of the road."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bus driver doesn't stop here on Saturday mornings.", "output": "The bus driver doesn't stop here on Saturday mornings."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He hasn't cleaned his dirty shoes after playing outside.", "output": "He hasn't cleaned his dirty shoes after playing outside."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "It wasn't very warm in the swimming pool today.", "output": "It wasn't very warm in the swimming pool today."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't seen the new cartoon at the library yet.", "output": "I haven't seen the new cartoon at the library yet."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They didn't find the missing toy under the sofa cushions.", "output": "They didn't find the missing toy under the sofa cushions."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "You shouldn't shout when people are trying to sleep.", "output": "You shouldn't shout when people are trying to sleep."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He isn't coming to the park today because he is sick.", "output": "He isn't coming to the park today because he is sick."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I wasn't able to reach the top shelf in the pantry.", "output": "I wasn't able to reach the top shelf in the pantry."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The train hasn't arrived at the station in the city.", "output": "The train hasn't arrived at the station in the city."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We aren't going to have any school during the holiday.", "output": "We aren't going to have any school during the holiday."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She doesn't know where she left her favorite red pen.", "output": "She doesn't know where she left her favorite red pen."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The shop didn't have any fresh milk this morning.", "output": "The shop didn't have any fresh milk this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They don't want to go swimming in the cold lake.", "output": "They don't want to go swimming in the cold lake."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The room isn't bright enough to see the small pictures.", "output": "The room isn't bright enough to see the small pictures."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wasn't ready to leave for the airport yet.", "output": "He wasn't ready to leave for the airport yet."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat ran across the garden and into the house.", "output": "The cat ran across the garden and into the house."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I painted a picture of a blue boat yesterday evening.", "output": "I painted a picture of a blue boat yesterday evening."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The little girl smiled at the friendly golden retriever.", "output": "The little girl smiled at the friendly golden retriever."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We visited the science museum and saw the dinosaurs.", "output": "We visited the science museum and saw the dinosaurs."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He dropped his ham sandwich on the kitchen floor.", "output": "He dropped his ham sandwich on the kitchen floor."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She found her lost earring under the wooden table.", "output": "She found her lost earring under the wooden table."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They finished their dinner and went back to school.", "output": "They finished their dinner and went back to school."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The police car drove past the house very quickly.", "output": "The police car drove past the house very quickly."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She gave her teacher a beautiful purple flower.", "output": "She gave her teacher a beautiful purple flower."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He wrote his name on the last page of the book.", "output": "He wrote his name on the last page of the book."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The snow stopped falling after the sun came out.", "output": "The snow stopped falling after the sun came out."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She tied a blue ribbon around the birthday present.", "output": "She tied a blue ribbon around the birthday present."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They shared their snacks with all their school friends.", "output": "They shared their snacks with all their school friends."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already cleaned the kitchen this morning.", "output": "I have already cleaned the kitchen this morning."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has lost her favorite pair of winter mittens.", "output": "She has lost her favorite pair of winter mittens."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have lived in this small town for five years.", "output": "We have lived in this small town for five years."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat has slept on the rug all afternoon.", "output": "The cat has slept on the rug all afternoon."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has always wanted to have a pet dog.", "output": "She has always wanted to have a pet dog."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The holiday party was held in the school hall.", "output": "The holiday party was held in the school hall."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the water in the lake is very clear .", "output": "the water in the lake is very clear ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "the window is open .", "output": "the window is open ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they got big sticks .", "output": "they got big sticks ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "they have big sticks .", "output": "they have big sticks ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I don't think that the little puppy wants to eat his dinner .", "output": "I don't think that the little puppy wants to eat his dinner ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He didn't find his yellow rainboots in the hallway this morning .", "output": "He didn't find his yellow rainboots in the hallway this morning ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We shouldn't play with the ball inside the house .", "output": "We shouldn't play with the ball inside the house ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher doesn't want the students to run in the corridor .", "output": "The teacher doesn't want the students to run in the corridor ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She hasn't seen the new cartoon about the brave firefighter .", "output": "She hasn't seen the new cartoon about the brave firefighter ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "It wasn't very warm at the beach yesterday afternoon .", "output": "It wasn't very warm at the beach yesterday afternoon ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I haven't finished my homework because the math was too hard .", "output": "I haven't finished my homework because the math was too hard ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat doesn't like to sit on the cold kitchen floor .", "output": "The cat doesn't like to sit on the cold kitchen floor ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They didn't see the bright rainbow after the storm ended .", "output": "They didn't see the bright rainbow after the storm ended ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "You shouldn't forget to wash your hands before you eat .", "output": "You shouldn't forget to wash your hands before you eat ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He isn't going to the playground because he is sick .", "output": "He isn't going to the playground because he is sick ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I wasn't scared of the loud thunder last night .", "output": "I wasn't scared of the loud thunder last night ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The baby hasn't woken up from her nap in the crib .", "output": "The baby hasn't woken up from her nap in the crib ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We aren't allowed to have dessert until we finish our vegetables .", "output": "We aren't allowed to have dessert until we finish our vegetables ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She doesn't know where she left her favorite purple crayon .", "output": "She doesn't know where she left her favorite purple crayon ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The squirrel ran across the fence very quickly .", "output": "The squirrel ran across the fence very quickly ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I saw a beautiful butterfly in the garden .", "output": "I saw a beautiful butterfly in the garden ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They played soccer until it got dark outside .", "output": "They played soccer until it got dark outside ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher gave the children a new puzzle to solve .", "output": "The teacher gave the children a new puzzle to solve ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We went to the grocery store to buy some fresh fruit .", "output": "We went to the grocery store to buy some fresh fruit ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He found a small ladybug on the leaf of a flower .", "output": "He found a small ladybug on the leaf of a flower ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She read the whole book before she went to bed .", "output": "She read the whole book before she went to bed ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog barked loudly at the mailman this morning .", "output": "The dog barked loudly at the mailman this morning ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They ate all of the cookies in the blue jar .", "output": "They ate all of the cookies in the blue jar ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I forgot my umbrella on the school bus today .", "output": "I forgot my umbrella on the school bus today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat jumped onto the table and stole a piece of ham .", "output": "The cat jumped onto the table and stole a piece of ham ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We visited my grandparents on their farm last summer .", "output": "We visited my grandparents on their farm last summer ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He built a huge sandcastle on the beach with his friend .", "output": "He built a huge sandcastle on the beach with his friend ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She wore her favorite red dress to the party .", "output": "She wore her favorite red dress to the party ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The sun rose early and filled the room with light .", "output": "The sun rose early and filled the room with light ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The baby has already learned how to wave goodbye .", "output": "The baby has already learned how to wave goodbye ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have never tasted such a sweet and juicy apple .", "output": "I have never tasted such a sweet and juicy apple ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have lived in this cozy house for a long time .", "output": "We have lived in this cozy house for a long time ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat has already eaten all of the food in her bowl .", "output": "The cat has already eaten all of the food in her bowl ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has grown three inches since last summer vacation .", "output": "He has grown three inches since last summer vacation ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They have visited the local library every week this month .", "output": "They have visited the local library every week this month ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have already finished reading that interesting storybook .", "output": "I have already finished reading that interesting storybook ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog has buried his bone somewhere in the backyard .", "output": "The dog has buried his bone somewhere in the backyard ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Have you found where you put your school shoes ?", "output": "Have you found where you put your school shoes ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She has just finished drawing a picture of her family .", "output": "She has just finished drawing a picture of her family ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We have seen many beautiful birds in the trees today .", "output": "We have seen many beautiful birds in the trees today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The teacher has explained the rules of the game clearly .", "output": "The teacher has explained the rules of the game clearly ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He has forgotten his lunch box on the counter twice .", "output": "He has forgotten his lunch box on the counter twice ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I have always wanted to have a small pet turtle .", "output": "I have always wanted to have a small pet turtle ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The rain has finally stopped falling from the dark clouds .", "output": "The rain has finally stopped falling from the dark clouds ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen window was left open during the night .", "output": "The kitchen window was left open during the night ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "These delicious cookies were made by my favorite aunt .", "output": "These delicious cookies were made by my favorite aunt ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The lost toy was finally found under the wooden bed .", "output": "The lost toy was finally found under the wooden bed ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The bedroom was painted a bright shade of yellow .", "output": "The bedroom was painted a bright shade of yellow ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "All the clean laundry was folded and put away .", "output": "All the clean laundry was folded and put away ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The front door was locked from the inside last night .", "output": "The front door was locked from the inside last night ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The big mess was cleared up in just a few minutes .", "output": "The big mess was cleared up in just a few minutes ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "A new playground was built near the primary school .", "output": "A new playground was built near the primary school ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The important letter was delivered to the wrong address .", "output": "The important letter was delivered to the wrong address ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The kitchen floor was cleaned with a soapy mop .", "output": "The kitchen floor was cleaned with a soapy mop ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "These beautiful pictures were drawn by the talented students .", "output": "These beautiful pictures were drawn by the talented students ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The old tree was blown down by the strong wind .", "output": "The old tree was blown down by the strong wind ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The chocolate cake was eaten before the party began .", "output": "The chocolate cake was eaten before the party began ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The lost dog was found by a very kind neighbor .", "output": "The lost dog was found by a very kind neighbor ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "This story was written more than a hundred years ago .", "output": "This story was written more than a hundred years ago ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "While we were walking to the park, it started to rain .", "output": "While we were walking to the park, it started to rain ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He is happy because his best friend is visiting today .", "output": "He is happy because his best friend is visiting today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Although it is late, I am not feeling tired yet .", "output": "Although it is late, I am not feeling tired yet ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She cried because she lost her favorite wooden doll .", "output": "She cried because she lost her favorite wooden doll ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Since you are already here, you can help me cook dinner .", "output": "Since you are already here, you can help me cook dinner ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The girl who lives next door has a small white cat .", "output": "The girl who lives next door has a small white cat ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will wait in the hall until my mother arrives .", "output": "I will wait in the hall until my mother arrives ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Whenever the phone rings, the dog starts barking loudly .", "output": "Whenever the phone rings, the dog starts barking loudly ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "After we finish eating, we can go for a walk .", "output": "After we finish eating, we can go for a walk ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Before you leave, please remember to clean your room .", "output": "Before you leave, please remember to clean your room ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "While the cat was sleeping, the mouse found some cheese .", "output": "While the cat was sleeping, the mouse found some cheese ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If it rains tomorrow morning, we will stay at home .", "output": "If it rains tomorrow morning, we will stay at home ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The boy laughed because the clown made a funny face .", "output": "The boy laughed because the clown made a funny face ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Unless it stops snowing, the bus will be very late .", "output": "Unless it stops snowing, the bus will be very late ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "As soon as the sun rose, the birds began to sing .", "output": "As soon as the sun rose, the birds began to sing ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I will call you as soon as I get home today .", "output": "I will call you as soon as I get home today ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If I had a dog, I would name him Sparky .", "output": "If I had a dog, I would name him Sparky ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We are going to visit the new museum tomorrow morning .", "output": "We are going to visit the new museum tomorrow morning ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They will be very surprised when they see the gift .", "output": "They will be very surprised when they see the gift ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If it gets too cold, we should wear our warm hats .", "output": "If it gets too cold, we should wear our warm hats ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I think it might rain later this afternoon .", "output": "I think it might rain later this afternoon ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She is going to learn how to swim this summer .", "output": "She is going to learn how to swim this summer ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They would go to the park if the weather was better .", "output": "They would go to the park if the weather was better ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Will you help me carry these heavy boxes upstairs ?", "output": "Will you help me carry these heavy boxes upstairs ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We might see a rainbow after the clouds clear up .", "output": "We might see a rainbow after the clouds clear up ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "If you study hard, you will pass the big test .", "output": "If you study hard, you will pass the big test ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I am going to start my new job next Monday .", "output": "I am going to start my new job next Monday ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Would you like some chocolate cake for dessert ?", "output": "Would you like some chocolate cake for dessert ?"}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He will be ten years old on his next birthday .", "output": "He will be ten years old on his next birthday ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The cat is sleeping .", "output": "The cat is sleeping ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I like red cars .", "output": "I like red cars ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "He saw the bird .", "output": "He saw the bird ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The water is cold .", "output": "The water is cold ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "We eat green apples .", "output": "We eat green apples ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "She found her toy .", "output": "She found her toy ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The sky is blue .", "output": "The sky is blue ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "They play with blocks .", "output": "They play with blocks ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The dog is big .", "output": "The dog is big ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "I want some juice .", "output": "I want some juice ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The boy and his sister like ice cream .", "output": "The boy and his sister like ice cream ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "My mom and dad are in the kitchen .", "output": "My mom and dad are in the kitchen ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Birds and bees are in the garden .", "output": "Birds and bees are in the garden ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "The students and teachers are in the hall .", "output": "The students and teachers are in the hall ."}
+{"instruction": "Annotate the following sentence with CLAN error codes.", "input": "Apples and oranges are in the basket .", "output": "Apples and oranges are in the basket ."}

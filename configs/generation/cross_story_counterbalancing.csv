@@ -1,0 +1,13 @@
+target_set,target_story,e1_story,e2_story
+A,A1,B1,B3
+A,A1,B2,B1
+A,A2,B1,B3
+A,A2,B3,B1
+A,A3,B2,B3
+A,A3,B3,B2
+B,B1,A1,A2
+B,B1,A2,A1
+B,B2,A1,A3
+B,B2,A3,A1
+B,B3,A1,A2
+B,B3,A2,A1

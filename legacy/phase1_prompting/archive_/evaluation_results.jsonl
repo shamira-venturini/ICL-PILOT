@@ -1,0 +1,541 @@
+{"input": "make dog happy .", "human_gold": "0subj make dog happy .", "model_prediction": "0subj make dog happy."}
+{"input": "the dog is tired .", "human_gold": "the dog is tired .", "model_prediction": "the dog is tired."}
+{"input": "and now he give to &-uh the giraffe .", "human_gold": "and now he give [* m:03s:a] 0obj to &-uh the giraffe .", "model_prediction": "and now he give [* m:03s:a] 0obj to &-uh the giraffe."}
+{"input": "he want to make things right .", "human_gold": "he want [* m:03s:a] to make things right .", "model_prediction": "he want [* m:03s:a] to make things right."}
+{"input": "the grass is thin .", "human_gold": "the grass is thin .", "model_prediction": "the grass is thin."}
+{"input": "because I was tired , I went to sleep early now .", "human_gold": "because I was tired , I went to sleep early now .", "model_prediction": "because I was tired, I went to sleep early now."}
+{"input": "the grass is thick .", "human_gold": "the grass is thick .", "model_prediction": "the grass is thick."}
+{"input": "they has fun .", "human_gold": "they has [* m:vsg:a] fun .", "model_prediction": "they has [* m:vsg:a] fun."}
+{"input": "they want make big sand house .", "human_gold": "they want 0prep make 0det big sand house .", "model_prediction": "they want 0prep make 0det big sand house [* s:r]."}
+{"input": "the sky is clear today .", "human_gold": "the sky is clear today .", "model_prediction": "the sky is clear today."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "dog be happy again .", "human_gold": "0det dog be [* m:vun:a] happy again .", "model_prediction": "0det dog be [* m:vun:a] happy again."}
+{"input": "dog happy .", "human_gold": "0det dog 0v happy .", "model_prediction": "0det dog 0v happy."}
+{"input": "because I was excited , I cheered .", "human_gold": "because I was excited , I cheered .", "model_prediction": "because I was excited, I cheered."}
+{"input": "he wanna fix .", "human_gold": "he wanna fix 0obj .", "model_prediction": "he wanna fix 0obj."}
+{"input": "is going swimming .", "human_gold": "0subj is going swimming .", "model_prediction": "0subj is going swimming."}
+{"input": "she sad .", "human_gold": "she 0v sad .", "model_prediction": "she 0v sad."}
+{"input": "I am going to the college today now today .", "human_gold": "I am going to the college today now today .", "model_prediction": "I am going to the college today now today."}
+{"input": "the dog is smart .", "human_gold": "the dog is smart .", "model_prediction": "the dog is smart."}
+{"input": "and it flied in up in the sky .", "human_gold": "and it flied [: flew] [* m:=ed] in [//] up in the sky .", "model_prediction": "and it flied [: flew] [* m:=ed] in [//] up in the sky."}
+{"input": "I am going to the sea .", "human_gold": "I am going to the sea .", "model_prediction": "I am going to the sea."}
+{"input": "try to fix the castle .", "human_gold": "0subj try to fix the castle .", "model_prediction": "0subj try to fix the castle."}
+{"input": "dog be happy .", "human_gold": "0det dog be [* m:vun:a] happy .", "model_prediction": "0det dog be [* m:vun:a] happy."}
+{"input": "make happy .", "human_gold": "0subj make 0obj happy .", "model_prediction": "0subj make 0obj happy."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "he want to make it right .", "human_gold": "he want [* m:03s:a] to make it right .", "model_prediction": "he want [* m:03s:a] to make it right."}
+{"input": "another giraffe and a elephant .", "human_gold": "another giraffe and a [* m:allo] elephant .", "model_prediction": "another giraffe and a [* m:allo] elephant."}
+{"input": "because the coffee was too hot , I added some milk .", "human_gold": "because the coffee was too hot , I added some milk .", "model_prediction": "because the coffee was too hot, I added some milk."}
+{"input": "because I was excited , I told my friend today .", "human_gold": "because I was excited , I told my friend today .", "model_prediction": "because I was excited, I told my friend today."}
+{"input": "&-um rabbit and dog .", "human_gold": "&-um 0det rabbit and 0det dog .", "model_prediction": "&-um 0det rabbit and 0det dog."}
+{"input": "they want build big sandcastle .", "human_gold": "they want build 0det big sandcastle .", "model_prediction": "they want 0prep build 0det big sandcastle."}
+{"input": "<so he got a> &+nn and then she cried because nothing can be doed about it .", "human_gold": "<so he got a> [//] &+nn and then she cried because nothing can be doed [: done] [* m:=ed] about it .", "model_prediction": "<so he got a> [//] &+nn and then she cried because nothing can be doed [: done] [* m:=ed] about it."}
+{"input": "dog is cry .", "human_gold": "0det dog is cry [* m:0ing] .", "model_prediction": "0det dog is cry [* m:0ing]."}
+{"input": "the flowers are violet today now today now today now .", "human_gold": "the flowers are violet today now today now today now .", "model_prediction": "the flowers are violet today now today now today now."}
+{"input": "so dog would be happy again .", "human_gold": "so 0det dog would be happy again .", "model_prediction": "so 0det dog would be happy again."}
+{"input": "she cry .", "human_gold": "she cry [* m:03s:a] .", "model_prediction": "she cry [* m:03s:a]."}
+{"input": "get more sand .", "human_gold": "0subj get more sand .", "model_prediction": "0subj get more sand."}
+{"input": "it smash .", "human_gold": "it smash [* m:03s:a] .", "model_prediction": "it smash [* m:03s:a]."}
+{"input": "after the work , I went to the park today now today now .", "human_gold": "after the work , I went to the park today now today now .", "model_prediction": "after the work, I went to the park today now today now."}
+{"input": "rabbit pat sand again .", "human_gold": "0det rabbit pat [* m:03s:a] 0det sand again .", "model_prediction": "0det rabbit pat [* m:03s:a] 0det sand again."}
+{"input": "he's happy and change .", "human_gold": "he's happy and 0v change .", "model_prediction": "he's happy and 0v change."}
+{"input": "and then her had none .", "human_gold": "and then her [* s:r:gc:pro] had none .", "model_prediction": "and then her [* s:r:gc:pro] had none."}
+{"input": "because the coffee was warm , I drank it .", "human_gold": "because the coffee was warm , I drank it .", "model_prediction": "because the coffee was warm, I drank it."}
+{"input": "and fall down flat .", "human_gold": "and 0subj fall down flat .", "model_prediction": "and fall [* m:03s:a] down flat."}
+{"input": "&-uh rabbit made a mistake .", "human_gold": "&-uh 0det rabbit made a mistake .", "model_prediction": "&-uh 0det rabbit made a mistake."}
+{"input": "and her cry and cry lots .", "human_gold": "and her [* s:r:gc:pro] cry [* m:03s:a] and cry [* m:03s:a] lots .", "model_prediction": "and her [* s:r:gc:pro] cry and cry [* m:03s:a] lots."}
+{"input": "dog sad .", "human_gold": "0det dog 0v sad .", "model_prediction": "0det dog 0v sad."}
+{"input": "but the castle smash .", "human_gold": "but the castle smash [* m:0ed] .", "model_prediction": "but the castle smash [* m:03s:a]."}
+{"input": "and it fall into the water .", "human_gold": "and it fall [* m:03s:a] into the water .", "model_prediction": "and it fall [* m:03s:a] into the water."}
+{"input": "if you are lost , you should ask for directions .", "human_gold": "if you are lost , you should ask for directions .", "model_prediction": "if you are lost, you should ask for directions."}
+{"input": "she gots a net to catch it .", "human_gold": "(...) she gots [: has got] [* m:allo] a net to catch it .", "model_prediction": "she gots [: has got] [* m:allo] a net to catch it."}
+{"input": "the cat is kind today now today now today .", "human_gold": "the cat is kind today now today now today .", "model_prediction": "the cat is kind today now today now today."}
+{"input": "because I was thirsty , I drank a cup of tea today .", "human_gold": "because I was thirsty , I drank a cup of tea today .", "model_prediction": "because I was thirsty, I drank a cup of tea today."}
+{"input": "they have shovel .", "human_gold": "they have shovel [* m:0s] .", "model_prediction": "they have shovel [* m:0s]."}
+{"input": "and <her say> her stepping in the swimming pool .", "human_gold": "and <her say> [//] her [* s:r:gc:pro] 0aux stepping in the swimming pool .", "model_prediction": "and <her say> [//] her [* s:r:gc:pro] 0aux stepping in the swimming pool."}
+{"input": "is say thank you .", "human_gold": "0subj is say [* m:0ing] thank you .", "model_prediction": "0subj is say [* m:0ing] thank you."}
+{"input": "because I was thirsty , I drank .", "human_gold": "because I was thirsty , I drank .", "model_prediction": "because I was thirsty, I drank."}
+{"input": "the dog sad .", "human_gold": "the dog 0v sad .", "model_prediction": "the dog 0v sad."}
+{"input": "fall down flat .", "human_gold": "0subj fall down flat .", "model_prediction": "0subj fall down flat."}
+{"input": "and and dump all the sand on top of the castle .", "human_gold": "<and> [/] and 0subj dump all the sand on top of the castle .", "model_prediction": "<and> [/] and dump [* m:03s:a] all the sand on top . of the castle."}
+{"input": "don't know .", "human_gold": "0subj don't know .", "model_prediction": "0subj don't know."}
+{"input": "wabbit smile .", "human_gold": "0det wabbit [: rabbit] [* p:n] smile .", "model_prediction": "0det wabbit [: rabbit] [* p:n] smile [* m:03s:a]."}
+{"input": "rabbit pat pat pat sand .", "human_gold": "0det rabbit pat [/] pat [/] pat [* m:03s:a] sand .", "model_prediction": "0det rabbit pat [/] pat [/] pat [* m:03s:a] sand."}
+{"input": "and they's they's wanna build big castle .", "human_gold": "and <they's [* m:vsg:a]> [/] they's wanna build big castle .", "model_prediction": "and <they's [* m:vsg:a]> [/] they's wanna build 0det big castle."}
+{"input": "because I was tired , I went to sleep now .", "human_gold": "because I was tired , I went to sleep now .", "model_prediction": "because I was tired, I went to sleep now."}
+{"input": "castle smash flat .", "human_gold": "0det castle smash flat .", "model_prediction": "0det castle smash [* m:03s:a] flat."}
+{"input": "after the work , I went to the park today now today now today .", "human_gold": "after the work , I went to the park today now today now today .", "model_prediction": "after the work, I went to the park today now today now today."}
+{"input": "the grass is green .", "human_gold": "the grass is green .", "model_prediction": "the grass is green."}
+{"input": "I am going to the garden .", "human_gold": "I am going to the garden .", "model_prediction": "I am going to the garden."}
+{"input": "her hard work is is ruin .", "human_gold": "her hard work <is> [/] is ruin [* m:0ed] .", "model_prediction": "her hard work <is> [/] is ruin [* m:0ed]."}
+{"input": "+\" &=high_pitched oh no the airplane's goin blast off !", "human_gold": "+\" &=high_pitched oh no the airplane's goin(g) 0prep blast off !", "model_prediction": "+\" &=high_pitched oh no the airplane's goin(g) 0prep blast off!"}
+{"input": "they were making walls .", "human_gold": "they were making 0det walls .", "model_prediction": "they were making 0det walls."}
+{"input": "the cat is playful today now today now .", "human_gold": "the cat is playful today now today now .", "model_prediction": "the cat is playful today now today now."}
+{"input": "rabbit is is digging .", "human_gold": "0det rabbit <is> [/] is digging .", "model_prediction": "0det rabbit <is> [/] is digging."}
+{"input": "the bird is grey today now today now .", "human_gold": "the bird is grey today now today now .", "model_prediction": "the bird is grey today now today now."}
+{"input": "he is get wabbity more sand .", "human_gold": "he is get [* m:0ing] 0det wabbity [: rabbit] [* p:n] [* s:r:der] more sand .", "model_prediction": "he is get [* m:0ing] 0det wabbity [: rabbit] [* p:n] [* s:r:der] more sand."}
+{"input": "so rabbit start pat pat pat pat sand back together .", "human_gold": "so 0det rabbit start [* m:03s:a] pat [/] pat [/] pat [/] pat [* m:0ing] sand back together .", "model_prediction": "so 0det rabbit start [* m:03s:a] pat [/] pat [/] pat [/] pat [* m:0ing] sand back together."}
+{"input": "they were playing with a airplane .", "human_gold": "they were playing with a [* m:allo] airplane .", "model_prediction": "they were playing with a [* m:allo] airplane."}
+{"input": "a elephant and a giraffe with a airplane in the water .", "human_gold": "a [* m:allo] elephant and a giraffe with a [* m:allo] airplane in the water .", "model_prediction": "a [* m:allo] elephant and a giraffe with a [* m:allo] airplane in the water."}
+{"input": "rabbit pat sand .", "human_gold": "0det rabbit pat [* m:03s:a] 0det sand .", "model_prediction": "0det rabbit pat [* m:03s:a] 0det sand."}
+{"input": "I am going to the park today now today now today now today .", "human_gold": "I am going to the park today now today now today now today .", "model_prediction": "I am going to the park today now today now today now today."}
+{"input": "I am going to the university today .", "human_gold": "I am going to the university today .", "model_prediction": "I am going to the university today."}
+{"input": "said I wanna have a balloon !", "human_gold": "0subj said I wanna have a balloon !", "model_prediction": "0subj said I wanna have a balloon!"}
+{"input": "say &=growls I mad .", "human_gold": "0subj say &=growls I mad .", "model_prediction": "0subj say &=growls I mad."}
+{"input": "they make new castle .", "human_gold": "they make 0det new castle .", "model_prediction": "they make 0det new castle."}
+{"input": "he is pat pat pat .", "human_gold": "he is pat [/] pat [/] pat [* m:0ing] 0obj .", "model_prediction": "he is pat [/] pat [/] pat [* m:0ing] 0obj."}
+{"input": "an and then there was a airplane .", "human_gold": "an(d) [/] and then there was a [* m:allo] airplane .", "model_prediction": "an(d) [/] and then there was a [* m:allo] airplane."}
+{"input": "if you are tired , you should take a long nap .", "human_gold": "if you are tired , you should take a long nap .", "model_prediction": "if you are tired, you should take a long nap."}
+{"input": "if you are happy , you should clap your hands .", "human_gold": "if you are happy , you should clap your hands .", "model_prediction": "if you are happy, you should clap your hands."}
+{"input": "they is work hard .", "human_gold": "they is [* m:vsg:a] work [* m:0ing] hard .", "model_prediction": "they is [* m:vsg:a] work [* m:0ing] hard."}
+{"input": "because the sun was shining , we went outside .", "human_gold": "because the sun was shining , we went outside .", "model_prediction": "because the sun was shining, we went outside."}
+{"input": "you wreck my box of cookies &=growls .", "human_gold": "you just wreck [* m:0ed] my box of cookies &=growls !", "model_prediction": "you wreck my box of cookies &=growls [* s:r]."}
+{"input": "they was having a lot of fun .", "human_gold": "they was [* m:vsg:a] having a lot of fun .", "model_prediction": "they was [* m:vsg:a] having a lot of fun."}
+{"input": "he is dig with his bucket .", "human_gold": "he is dig [* m:0ing] with his bucket .", "model_prediction": "he is dig [* m:0ing] with his bucket."}
+{"input": "rabbit is digging digging with bucket .", "human_gold": "0det rabbit is digging [/] digging with 0det bucket .", "model_prediction": "0det rabbit is digging [/] digging with 0det bucket."}
+{"input": "&-um rabbit and dog playing in the sandbox .", "human_gold": "&-um 0det rabbit and 0det dog 0aux playing in the sandbox .", "model_prediction": "&-um 0det rabbit and 0det dog 0aux playing in the sandbox."}
+{"input": "because I was sad , I called a friend .", "human_gold": "because I was sad , I called a friend .", "model_prediction": "because I was sad, I called a friend."}
+{"input": "the dog and rabbit play in sandbox .", "human_gold": "the dog and 0det rabbit play in 0det sandbox .", "model_prediction": "the dog and 0det rabbit play in 0det sandbox."}
+{"input": "rabbit is getting more sand .", "human_gold": "0det rabbit is getting more sand .", "model_prediction": "0det rabbit is getting more sand."}
+{"input": "I am trying to fix the chair .", "human_gold": "I am trying to fix the chair .", "model_prediction": "I am trying to fix the chair."}
+{"input": "they is having fun .", "human_gold": "they is [* m:vsg:a] having fun .", "model_prediction": "they is [* m:vsg:a] having fun."}
+{"input": "and she catched it .", "human_gold": "and she catched [: caught] [* m:=ed] it .", "model_prediction": "and she catched [: caught] [* m:=ed] it."}
+{"input": "because I was hungry , I made a sandwich .", "human_gold": "because I was hungry , I made a sandwich .", "model_prediction": "because I was hungry, I made a sandwich."}
+{"input": "and <they're get it> <get it> I'm get it .", "human_gold": "and <they're get it> [/] <get [!] it> [//] I'm get [!] [* m:0ing] it .", "model_prediction": "and <they're get it> [/] <get it> [//] I'm get [* m:0ing] it."}
+{"input": "he lift his heavy bucket .", "human_gold": "he lift [* m:03s:a] his heavy bucket .", "model_prediction": "he lift [* m:03s:a] his heavy bucket."}
+{"input": "rabbit is pat pat pat .", "human_gold": "0det rabbit is pat [/] pat [/] pat [* m:0ing] 0obj .", "model_prediction": "0det rabbit is pat [/] pat [/] pat [* m:0ing] 0obj."}
+{"input": "dog cry .", "human_gold": "0det dog cry [* m:03s:a] .", "model_prediction": "0det dog cry [* m:03s:a]."}
+{"input": "<and then he> and then the brother came over her .", "human_gold": "<and then he> [//] and then the brother came over 0prep her .", "model_prediction": "(.) <and then he> [//] and then the brother came over 0prep her."}
+{"input": "once upon a time there's a elephant and a giraffe scared to go on the water .", "human_gold": "once upon a time there's a [* m:allo] elephant and a giraffe scared to go on the water .", "model_prediction": "once upon a time there's a [* m:allo] elephant and a giraffe scared to go on the water."}
+{"input": "<and he's> and the elephant getting up .", "human_gold": "<and he's> [//] and the elephant 0aux getting up .", "model_prediction": "<and he's> [//] and the elephant 0aux getting up."}
+{"input": "they so happy .", "human_gold": "they 0v so happy .", "model_prediction": "they 0v so happy."}
+{"input": "fall down .", "human_gold": "0subj fall down .", "model_prediction": "0subj fall down."}
+{"input": "is going down .", "human_gold": "0subj is going down .", "model_prediction": "0subj is going down."}
+{"input": "dog is carefully patting the sand .", "human_gold": "0det dog is carefully patting the sand .", "model_prediction": "0det dog is carefully patting the sand."}
+{"input": "after the work , I went home now today now early today now today .", "human_gold": "after the work , I went home now today now early today now today .", "model_prediction": "after the work, I went home now today now early today now today."}
+{"input": "he lifts bucket .", "human_gold": "he lifts 0det bucket .", "model_prediction": "he lifts 0det bucket."}
+{"input": "rabbit pat pat pat .", "human_gold": "0det rabbit pat [/] pat [/] pat [* m:03s:a] 0obj .", "model_prediction": "0det rabbit pat [/] pat [/] pat [* m:03s:a] 0obj."}
+{"input": "if you are thirsty , you should drink a glass of juice .", "human_gold": "if you are thirsty , you should drink a glass of juice .", "model_prediction": "if you are thirsty, you should drink a glass of juice."}
+{"input": "castle smash flat .", "human_gold": "0det castle smash [* m:03s:a] flat .", "model_prediction": "0det castle smash [* m:03s:a] flat."}
+{"input": "boy went to store .", "human_gold": "0det boy went to store .", "model_prediction": "0det boy went to store."}
+{"input": "&-uh then &-uh rabbit make a mistake .", "human_gold": "&-uh then &-uh rabbit make [* m:03s:a] a mistake .", "model_prediction": "&-uh then &-uh rabbit make [* m:03s:a] a mistake."}
+{"input": "I am going to the lane today .", "human_gold": "I am going to the lane today .", "model_prediction": "I am going to the lane today."}
+{"input": "and then they drived in through the water .", "human_gold": "and then they drive [: drove] [* m:=ed] in through the water .", "model_prediction": "and then they drive [: drove] [* m:=ed] in through the water."}
+{"input": "castle fall down flat .", "human_gold": "0det castle fall [* m:03s:a] down flat .", "model_prediction": "0det castle fall [* m:03s:a] down flat."}
+{"input": "&-uh rabbit &-uh mistake .", "human_gold": "&-uh 0det rabbit &-uh 0det mistake .", "model_prediction": "&-uh 0det rabbit &-uh 0det mistake."}
+{"input": "the sun is low .", "human_gold": "the sun is low .", "model_prediction": "the sun is low."}
+{"input": "the boy camel had a airplane .", "human_gold": "the boy camel had a [* m:allo] airplane .", "model_prediction": "the boy camel had a [* m:allo] airplane."}
+{"input": "a sandcastle breaked .", "human_gold": "a sandcastle breaked [: broke] [* m:=ed] .", "model_prediction": "a sandcastle breaked [: broke] [* m:=ed]."}
+{"input": "they is playing in the sand box .", "human_gold": "they is [* m:vsg:a] playing in the sand box .", "model_prediction": "they is [* m:vsg:a] playing in the sand box."}
+{"input": "dog happy .", "human_gold": "0det dog 0v happy .", "model_prediction": "0det dog 0v happy."}
+{"input": "rabbit is is digging .", "human_gold": "0det rabbit <is> [/] is digging .", "model_prediction": "0det rabbit <is> [/] is digging."}
+{"input": "because it was raining , I stayed home .", "human_gold": "because it was raining , I stayed home .", "model_prediction": "because it was raining, I stayed home."}
+{"input": "the sun is low .", "human_gold": "the sun is low .", "model_prediction": "the sun is low."}
+{"input": "they have big stick and wittle stick .", "human_gold": "they have 0det big stick and 0det wittle [: little] [* p:n] stick .", "model_prediction": "they have 0det big stick and 0det wittle [: little] [* p:n] stick."}
+{"input": "rabbit pat sand back .", "human_gold": "0det rabbit pat [* m:03s:a] 0det sand back .", "model_prediction": "0det rabbit pat [* m:03s:a] 0det sand back."}
+{"input": "work hard .", "human_gold": "0subj work hard .", "model_prediction": "0subj work hard."}
+{"input": "the soup is boiling .", "human_gold": "the soup is boiling .", "model_prediction": "the soup is boiling."}
+{"input": "because it was cold , I wore a coat .", "human_gold": "because it was cold , I wore a coat .", "model_prediction": "because it was cold, I wore a coat."}
+{"input": "I am going to the university today now today now .", "human_gold": "I am going to the university today now today now .", "model_prediction": "I am going to the university today now today now."}
+{"input": "him was gonna make a castle with a building .", "human_gold": "him [* s:r:gc:pro] was gonna make a castle with a building .", "model_prediction": "him [* s:r:gc:pro] was gonna make a castle with a building."}
+{"input": "then the rabbit made mistake .", "human_gold": "then the rabbit made 0det mistake .", "model_prediction": "then the rabbit made 0det mistake."}
+{"input": "the cat is smart today now today now today .", "human_gold": "the cat is smart today now today now today .", "model_prediction": "the cat is smart today now today now today."}
+{"input": "he want to make make things right .", "human_gold": "he want [* m:03s:a] to <make> [/] make [* m:03s:a] things right .", "model_prediction": "he want [* m:03s:a] to <make> [/] make [* m:03s:a] things right."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "they had shovel .", "human_gold": "they had shovel [* m:0s] .", "model_prediction": "they had shovel [* m:0s]."}
+{"input": "the cake is in the oven .", "human_gold": "the cake is in the oven .", "model_prediction": "the cake is in the oven."}
+{"input": "because the coffee was cold , I made another hot cup of tea now .", "human_gold": "because the coffee was cold , I made another hot cup of tea now .", "model_prediction": "because the coffee was cold, I made another hot cup of tea now."}
+{"input": "she she she &+sh another person say say say say please please please please I want balloon .", "human_gold": "she [/] she [/] she [//] &+sh another person say [/] say [/] say [/] say please [/] please [/] please [/] please I want 0det balloon .", "model_prediction": "she [/] she [/] she &+sh another person say [/] say [/] say [/] say please [/] please [/] please [/] please I want 0det balloon."}
+{"input": "after the work , I went to the park .", "human_gold": "after the work , I went to the park .", "model_prediction": "after the work, I went to the park."}
+{"input": "dog be happy again .", "human_gold": "0det dog be [* m:vun:a] happy again .", "model_prediction": "0det dog be [* m:vun:a] happy again."}
+{"input": "&-uh then the rabbit he make a mistake .", "human_gold": "&-uh then the rabbit [//] he make [* m:03s:a] a mistake .", "model_prediction": "&-uh then <the rabbit [//] he make [* m:03s:a] a mistake."}
+{"input": "he wanna make right .", "human_gold": "he wanna make 0obj right .", "model_prediction": "he wanna make 0obj right."}
+{"input": "dog cry .", "human_gold": "0det dog cry [* m:03s:a] .", "model_prediction": "0det dog cry [* m:03s:a]."}
+{"input": "he was makin sand flat .", "human_gold": "he was makin(g) 0det sand flat .", "model_prediction": "he was makin(g) 0det sand flat."}
+{"input": "he was mad cause those box of cookies fall down .", "human_gold": "he was mad (be)cause those box [* m:0s] of cookies fall [* m:base:ed] down .", "model_prediction": "he was mad (be)cause those box [* m:0s] of cookies fall [* m:base:ed] down."}
+{"input": "the dog cry cry .", "human_gold": "the dog <cry> [/] cry [* m:03s:a]  .", "model_prediction": "the dog <cry> [/] cry [* m:03s:a] ."}
+{"input": "he no mean to break castle .", "human_gold": "he 0aux no [* s:r] mean to break 0det castle .", "model_prediction": "he 0aux no [* s:r] mean to break 0det castle."}
+{"input": "rabbit feel bad because he don't mean to break it .", "human_gold": "0det rabbit feel [* m:03s:a] bad because he don't [* m:vun:a] mean to break it .", "model_prediction": "0det rabbit feel [* m:03s:a] bad because he don't [* m:vun:a] mean to break it."}
+{"input": "he say sorry .", "human_gold": "he say [* m:03s:a] sorry .", "model_prediction": "he say [* m:03s:a] sorry."}
+{"input": "is throw them down .", "human_gold": "is throw [* m:03s:a] them down .", "model_prediction": "0subj is throw them down."}
+{"input": "the flowers are orange .", "human_gold": "the flowers are orange .", "model_prediction": "the flowers are orange."}
+{"input": "smash the castle flat .", "human_gold": "0subj smash the castle flat .", "model_prediction": "0subj smash the castle flat."}
+{"input": "I am going to the library to study .", "human_gold": "I am going to the library to study .", "model_prediction": "I am going to the library to study."}
+{"input": "they were building new castle .", "human_gold": "they were building 0det new castle .", "model_prediction": "they were building 0det new castle."}
+{"input": "she sad .", "human_gold": "she 0v sad .", "model_prediction": "she 0v sad."}
+{"input": "the flowers are purple .", "human_gold": "the flowers are purple .", "model_prediction": "the flowers are purple."}
+{"input": "I am going to the mosque today now today now today now .", "human_gold": "I am going to the mosque today now today now today now .", "model_prediction": "I am going to the mosque today now today now today now."}
+{"input": "dump the sand .", "human_gold": "0subj dump the sand .", "model_prediction": "0subj dump the sand."}
+{"input": "the sky is gray today .", "human_gold": "the sky is gray today .", "model_prediction": "the sky is gray today."}
+{"input": "because I was thirsty , I drank a glass of tea .", "human_gold": "because I was thirsty , I drank a glass of tea .", "model_prediction": "because I was thirsty, I drank a glass of tea."}
+{"input": "the dog and rabbit play in sandbox .", "human_gold": "the dog and 0det rabbit play in 0det sandbox .", "model_prediction": "the dog and 0det rabbit play in 0det sandbox."}
+{"input": "he lift heavy bucket .", "human_gold": "he lift [* m:03s:a] 0det heavy bucket .", "model_prediction": "he lift [* m:03s:a] 0det heavy bucket."}
+{"input": "he give it to the &-um the elephant .", "human_gold": "he give [* m:03s:a] it to the [/] &-um the elephant .", "model_prediction": "he give [* m:03s:a] it to the [/] &-um the elephant."}
+{"input": "dog is p:pat the sand .", "human_gold": "0det dog is p:pat [* d] the sand .", "model_prediction": "0det dog is p:pat [* d] the sand."}
+{"input": "dog makes it strong .", "human_gold": "0det dog makes it strong .", "model_prediction": "0det dog makes it strong."}
+{"input": "they is work hard .", "human_gold": "they is [* m:vsg:a] work [* m:0ing] hard .", "model_prediction": "they is [* m:vsg:a] work [* m:0ing] hard."}
+{"input": "because the sun was shining , I went for a walk now .", "human_gold": "because the sun was shining , I went for a walk now .", "model_prediction": "because the sun was shining, I went for a walk now."}
+{"input": "dog happy again .", "human_gold": "0det dog 0v happy again .", "model_prediction": "0det dog 0v happy again."}
+{"input": "and the more she was running she falled .", "human_gold": "and the more she was running she falled [: fell] [* m:=ed] .", "model_prediction": "and the more she was running she falled [: fell] [* m:=ed]."}
+{"input": "if you are tired , you should take a short break .", "human_gold": "if you are tired , you should take a short break .", "model_prediction": "if you are tired, you should take a short break."}
+{"input": "get more sand .", "human_gold": "0subj get more sand .", "model_prediction": "0subj get more sand."}
+{"input": "<and then he getted it> and then he got it from out of the water .", "human_gold": "<and then he getted [: got] [* m:=ed] it> [//] and then he got it from out of the water .", "model_prediction": "(.) <and then he getted [: got] [* m:=ed] it> [//] and then he got it from out of the water."}
+{"input": "if you are happy , you should sing a happy song today now today .", "human_gold": "if you are happy , you should sing a happy song today now today .", "model_prediction": "if you are happy, you should sing a happy song today now today."}
+{"input": "I want to learn how to play the guitar .", "human_gold": "I want to learn how to play the guitar .", "model_prediction": "I want to learn how to play the guitar."}
+{"input": "I am going to the avenue today now today .", "human_gold": "I am going to the avenue today now today .", "model_prediction": "I am going to the avenue today now today."}
+{"input": "rabbit pat the sand pat the sand .", "human_gold": "0det rabbit <pat [* m:03s:a] the sand> [/] pat the sand .", "model_prediction": "0det rabbit <pat the sand> [/] pat the sand."}
+{"input": "the dog is pat pat pat the sand .", "human_gold": "the dog is <pat [* m:0ing]> [/] pat [/] pat the sand .", "model_prediction": "the dog is pat [/] pat [/] pat [* m:0ing] the sand."}
+{"input": "the rabbit feel bad .", "human_gold": "the rabbit feel [* m:03s:a] bad .", "model_prediction": "the rabbit feel [* m:03s:a] bad."}
+{"input": "and the rabbit doing &+t popping the balloon .", "human_gold": "and the rabbit 0aux doing &+t popping the balloon .", "model_prediction": "and the rabbit 0aux doing &+t popping the balloon."}
+{"input": "he try to fix the castle .", "human_gold": "he try [* m:03s:a] to fix the castle .", "model_prediction": "he try [* m:03s:a] to fix the castle."}
+{"input": "+\" and and he take it .", "human_gold": "+\" and [/] and he take [* m:03s:a] it .", "model_prediction": "+\" and [/] and he take [* m:03s:a] it."}
+{"input": "after the work , I went home .", "human_gold": "after the work , I went home .", "model_prediction": "after the work, I went home."}
+{"input": "once a giraffe and a elephant was at a pool .", "human_gold": "once a giraffe and a [* m:allo] elephant was at a pool .", "model_prediction": "once a giraffe and a [* m:allo] elephant was at a pool."}
+{"input": "I am going to the hill today now today now today .", "human_gold": "I am going to the hill today now today now today .", "model_prediction": "I am going to the hill today now today now today."}
+{"input": "because castle broken .", "human_gold": "because 0det castle 0aux broken .", "model_prediction": "because 0det castle 0aux broken."}
+{"input": "after the rain , the sun came out .", "human_gold": "after the rain , the sun came out .", "model_prediction": "after the rain, the sun came out."}
+{"input": "I am going to the river today .", "human_gold": "I am going to the river today .", "model_prediction": "I am going to the river today."}
+{"input": "then <they catched > they're going to catch it with a &-um refire@c .", "human_gold": "then <they catched [: caught] [* m:=ed] they're going to catch it with a &-um refire@c .", "model_prediction": "then <they catched [: caught] [* m:=ed] they're going to catch it with a &-um refire@c."}
+{"input": "because it was dark , I used a flashlight .", "human_gold": "because it was dark , I used a flashlight .", "model_prediction": "because it was dark, I used a flashlight."}
+{"input": "make it strong .", "human_gold": "0subj make it strong .", "model_prediction": "0subj make it strong."}
+{"input": "doggie sad .", "human_gold": "0det doggie 0v sad .", "model_prediction": "0det doggie 0v sad."}
+{"input": "they is want to build big castle .", "human_gold": "they is [* m:+3s] want to build 0det big castle .", "model_prediction": "they is [* m:+3s] want to build 0det big castle."}
+{"input": "the dog &-um pat pat the sand .", "human_gold": "the dog &-um pat [/] pat [* m:03s:a] the sand .", "model_prediction": "the dog &-um pat [/] pat [* m:03s:a] the sand."}
+{"input": "the cat is big .", "human_gold": "the cat is big .", "model_prediction": "the cat is big."}
+{"input": "I just talk about this .", "human_gold": "I already talk [* m:0ed] about this [?] .", "model_prediction": "I just talk [* m:0ed] about this [?]."}
+{"input": "so I forgot my pinkink .", "human_gold": "so I forgot my pinkink [: picnic] [* p:n] .", "model_prediction": "so I forgot my pinkink [: picnic] [* p:n]."}
+{"input": "they decide build a new one .", "human_gold": "they decide 0prep build a new one .", "model_prediction": "they decide 0prep build a new one."}
+{"input": "the cat is young .", "human_gold": "the cat is young .", "model_prediction": "the cat is young."}
+{"input": "if you are bored , you should watch a movie .", "human_gold": "if you are bored , you should watch a movie .", "model_prediction": "if you are bored, you should watch a movie."}
+{"input": "she is cry .", "human_gold": "she is cry [* m:0ing] .", "model_prediction": "she is cry [* m:0ing]."}
+{"input": "I am going to the mall today .", "human_gold": "I am going to the mall today .", "model_prediction": "I am going to the mall today."}
+{"input": "I am wearing my sunglasses .", "human_gold": "I am wearing my sunglasses .", "model_prediction": "I am wearing my sunglasses."}
+{"input": "he want to make thing right .", "human_gold": "he want [* m:03s:a] to make thing [* m:0s] right .", "model_prediction": "he want [* m:03s:a] to make thing [* m:0s] right."}
+{"input": "and up clouds .", "human_gold": "and up 0prep clouds .", "model_prediction": "and 0subj 0v up clouds."}
+{"input": "he's pat pat pat the sand .", "human_gold": "he's pat [/] pat [/] pat  [* m:0ing]  the sand .", "model_prediction": "he's pat [/] pat [/] pat [* m:0ing] the sand."}
+{"input": "and then her yelled .", "human_gold": "and then her [* s:r:gc:pro] yelled .", "model_prediction": "and then her [* s:r:gc:pro] yelled."}
+{"input": "dog is patty sand .", "human_gold": "0det dog is patty [: patting] [* p:w] [* m:allo] sand .", "model_prediction": "0det dog is patty [: patting] [* p:w] [* m:allo] sand."}
+{"input": "after the work , I went to the park early .", "human_gold": "after the work , I went to the park early .", "model_prediction": "after the work, I went to the park early."}
+{"input": "the dog was careful pat the sand to make the wall strong .", "human_gold": "the dog was careful [* s:r:der] pat [* m:0ing] the sand to make the wall strong .", "model_prediction": "the dog was careful [* s:r:der] pat [* m:0ing] the sand to make the wall strong."}
+{"input": "I am going to the road today now today .", "human_gold": "I am going to the road today now today .", "model_prediction": "I am going to the road today now today."}
+{"input": "she cry .", "human_gold": "she cry [* m:03s:a] .", "model_prediction": "she cry [* m:03s:a]."}
+{"input": "dog is is upset upset .", "human_gold": "0det dog <is> [/] is upset [/] upset .", "model_prediction": "0det dog <is> [/] is upset [/] upset."}
+{"input": "dog dog is upset .", "human_gold": "0det dog [/] dog is upset .", "model_prediction": "0det dog [/] dog is upset."}
+{"input": "dog is upset .", "human_gold": "0det dog is upset .", "model_prediction": "0det dog is upset."}
+{"input": "and he slip !", "human_gold": "and he slip [* m:03s:a] !", "model_prediction": "and he slip [* m:03s:a]!"}
+{"input": "and dump all the sand on top of the castle .", "human_gold": "and 0subj dump all the sand on top of the castle .", "model_prediction": "and dump [* m:03s:a] all the sand on top . of the castle."}
+{"input": "is do it .", "human_gold": "0subj is do it .", "model_prediction": "0subj is do it."}
+{"input": "dog cry .", "human_gold": "0det dog cry [* m:03s:a] .", "model_prediction": "0det dog cry [* m:03s:a]."}
+{"input": "after the work , I went to the gym today now today now today .", "human_gold": "after the work , I went to the gym today now today now today .", "model_prediction": "after the work, I went to the gym today now today now today."}
+{"input": "the sun is high .", "human_gold": "the sun is high .", "model_prediction": "the sun is high."}
+{"input": "and then it flied flied away .", "human_gold": "and then it flied [/] flied [: flew] [* m:=ed] away .", "model_prediction": "and then it flied [: flew] [* m:=ed] flied [: flew] [* m:=ed] away."}
+{"input": "so dog be happy again .", "human_gold": "so 0det dog be [* m:vun:a] happy again .", "model_prediction": "so 0det dog be [* m:vun:a] happy again."}
+{"input": "and then he tooked him to the doctor where the doctor thing is &=laughs .", "human_gold": "and then he tooked [: took] [* m:++ed:i] him to the doctor where the doctor thing is &=laughs .", "model_prediction": "and then he tooked [: took] [* m:++ed:i] him to the doctor where the doctor thing is &=laughs."}
+{"input": "&-uh then the rabbit make a mistake .", "human_gold": "&-uh then the rabbit make [* m:03s:a] a mistake .", "model_prediction": "&-uh then the rabbit make [* m:03s:a] a mistake."}
+{"input": "dog happy again .", "human_gold": "0det dog 0v happy again .", "model_prediction": "0det dog 0v happy again."}
+{"input": "I am going to the store to buy coffee .", "human_gold": "I am going to the store to buy coffee .", "model_prediction": "I am going to the store to buy coffee."}
+{"input": "dump all the sand .", "human_gold": "0subj dump all the sand .", "model_prediction": "0subj dump all the sand."}
+{"input": "so the rabb start pating the sand back .", "human_gold": "so the rabb [: rabbit] [* p:n] start pating [: patting] [* p:n] the sand back .", "model_prediction": "so the rabb [: rabbit] [* p:n] start pating [: patting] [* p:n] the sand back."}
+{"input": "<cause it's> cause <it got> &+s &-um it's gots knocked down .", "human_gold": "<cause it's> [//] (be)cause <it got> [//] &+s &-um it's gots [: has got] [* m:+3s] [* m:allo] knocked down .", "model_prediction": "<cause it's> [//] (be)cause <it got> [//] &+s &-um it's gots [: has got] [* m:+3s] [* m:allo] knocked down."}
+{"input": "I am going to the university today now today now today .", "human_gold": "I am going to the university today now today now today .", "model_prediction": "I am going to the university today now today now today."}
+{"input": "so ha^ppy .", "human_gold": "0subj so ha^ppy .", "model_prediction": "0subj so ha^ppy."}
+{"input": "and her got back the ball .", "human_gold": "and her [* s:r:gc:pro] got back the ball .", "model_prediction": "and her [* s:r:gc:pro] got back the ball."}
+{"input": "I am going to the sea today .", "human_gold": "I am going to the sea today .", "model_prediction": "I am going to the sea today."}
+{"input": "because it was raining , I read a book at home today now today now today now .", "human_gold": "because it was raining , I read a book at home today now today now today now .", "model_prediction": "because it was raining, I read a book at home today now today now today now."}
+{"input": "wabbit was digging with his little bucket .", "human_gold": "0det wabbit [: rabbit] [* p:n] was digging with his little bucket .", "model_prediction": "0det wabbit [: rabbit] [* p:n] was digging with his little bucket."}
+{"input": "and want build big sandcastle .", "human_gold": "and want 0prep build 0det big sandcastle .", "model_prediction": "and want 0prep build 0det big sandcastle."}
+{"input": "I am going to the path .", "human_gold": "I am going to the path .", "model_prediction": "I am going to the path."}
+{"input": "<owie and> &-uh owie elephant has a owie .", "human_gold": "<owie and> [//] &-uh owie [//] elephant has a [* m:allo] owie .", "model_prediction": "<owie and> [//] &-uh owie [//] elephant has a [* m:allo] owie."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "all the sand on top .", "human_gold": "all the sand on top .", "model_prediction": "all the sand on top .."}
+{"input": "and then they heard a sound of a Tyrannosaur_Rex coming beheads them .", "human_gold": "and then they heard a sound of a Tyrannosaur(us)_Rex coming beheads [: behind] [* s:ur] them .", "model_prediction": "and then they heard a sound of a Tyrannosaur(us)_Rex coming beheads [: behind] [* s:ur] them."}
+{"input": "they they build new one .", "human_gold": "<they> [/] they build 0det new one .", "model_prediction": "<they> [/] they build 0det new one."}
+{"input": "rabbit didn't mean break castle .", "human_gold": "0det rabbit didn't mean 0prep break 0det castle .", "model_prediction": "0det rabbit didn't mean 0prep break 0det castle."}
+{"input": "they is work hard .", "human_gold": "they is [* m:vsg:a] work [* m:0ing] hard .", "model_prediction": "they is [* m:vsg:a] work [* m:0ing] hard."}
+{"input": "I am going to the lane today now today now .", "human_gold": "I am going to the lane today now today now .", "model_prediction": "I am going to the lane today now today now."}
+{"input": "rabby sad too .", "human_gold": "0det rabby [: rabbit] [* p:n] 0v sad too .", "model_prediction": "0det rabby [: rabbit] [* p:n] 0v sad too."}
+{"input": "one day a is rabbit and dog .", "human_gold": "one day a (..) is 0det rabbit and 0det dog .", "model_prediction": "one day a (..) is 0det rabbit and 0det dog."}
+{"input": "two friends a wabbit and a doggie were playing in the sand .", "human_gold": "two friends a wabbit [: rabbit] [* p:n] and a doggie were playing in the sand .", "model_prediction": "two friends 0det a wabbit [: rabbit] [* p:n] and a doggie were playing in the sand."}
+{"input": "sand go go on castle .", "human_gold": "0det sand go [/] go [* m:vun:a] on 0det castle .", "model_prediction": "sand <go> [/] go [* m:vun:a] on 0det castle."}
+{"input": "the bird is multicolored .", "human_gold": "the bird is multicolored .", "model_prediction": "the bird is multicolored."}
+{"input": "so the rabbit pat pat pat .", "human_gold": "so the rabbit pat [/] pat [/] pat [* m:03s:a] 0obj .", "model_prediction": "so the rabbit pat [/] pat [/] pat [* m:03s:a] 0obj."}
+{"input": "they's they's build a new one .", "human_gold": "<they's [* m:vsg:a]> [/] they's build [* m:0ing] a new one .", "model_prediction": "<they's [* m:vsg:a]> [/] they's build [* m:0ing] a new one."}
+{"input": "he make castle fall down .", "human_gold": "he make [* m:03s:a] 0det castle fall down .", "model_prediction": "he make [* m:03s:a] 0det castle fall down."}
+{"input": "jump in the water .", "human_gold": "0subj jump in the water .", "model_prediction": "0subj jump in the water."}
+{"input": "the mommy dad get the airplane .", "human_gold": "the mommy dad get [* m:03s:a] the airplane .", "model_prediction": "the mommy dad get [* m:03s:a] the airplane."}
+{"input": "the cat is funny today now .", "human_gold": "the cat is funny today now .", "model_prediction": "the cat is funny today now."}
+{"input": "dog smile .", "human_gold": "0det dog smile [* m:03s:a] .", "model_prediction": "0det dog smile [* m:03s:a]."}
+{"input": "I am going to the plaza today now .", "human_gold": "I am going to the plaza today now .", "model_prediction": "I am going to the plaza today now."}
+{"input": "if you are bored , you should do some work today now .", "human_gold": "if you are bored , you should do some work today now .", "model_prediction": "if you are bored, you should do some work today now."}
+{"input": "lift bucket .", "human_gold": "0subj lift 0det bucket .", "model_prediction": "0subj lift 0det bucket."}
+{"input": "I am going to the lake today .", "human_gold": "I am going to the lake today .", "model_prediction": "I am going to the lake today."}
+{"input": "I enjoy reading books in the library .", "human_gold": "I enjoy reading books in the library .", "model_prediction": "I enjoy reading books in the library."}
+{"input": "rabbit fixes sand .", "human_gold": "0det rabbit fixes 0det sand .", "model_prediction": "0det rabbit fixes 0det sand."}
+{"input": "big castle .", "human_gold": "0det big castle .", "model_prediction": "0det big castle."}
+{"input": "I am going to the lane today now today now today now .", "human_gold": "I am going to the lane today now today now today now .", "model_prediction": "I am going to the lane today now today now today now."}
+{"input": "then &-uh rabbit make mistake .", "human_gold": "then &-uh rabbit make [* m:03s:a] 0det mistake .", "model_prediction": "then &-uh rabbit make [* m:03s:a] 0det mistake."}
+{"input": "I am going to the street today .", "human_gold": "I am going to the street today .", "model_prediction": "I am going to the street today."}
+{"input": "elephant elephant elephant &+ss see something donkey holding .", "human_gold": "elephant [/] elephant [/] elephant &+ss see something donkey 0aux holding .", "model_prediction": "elephant [/] elephant [/] elephant &+ss see something donkey 0aux holding."}
+{"input": "all the sand go on top of the castle .", "human_gold": "all the sand go [* m:vun:a] on top of the castle .", "model_prediction": "all the sand go [* m:vun:a] on top of the castle."}
+{"input": "the sky is yellow .", "human_gold": "the sky is yellow .", "model_prediction": "the sky is yellow."}
+{"input": "the dog pats sand with his paws .", "human_gold": "the dog pats 0det sand with his paws .", "model_prediction": "the dog pats 0det sand with his paws."}
+{"input": "after the work , I went home now today now today now today .", "human_gold": "after the work , I went home now today now today now today .", "model_prediction": "after the work, I went home now today now today now today."}
+{"input": "rabbit and dog go go play in sandbox .", "human_gold": "0det rabbit and 0det dog <go> [/] go [* m:vun:a] play in 0det sandbox .", "model_prediction": "0det rabbit and 0det dog <go> [/] go [* m:vun:a] play in 0det sandbox."}
+{"input": "he dumped sand on castle .", "human_gold": "he dumped 0det sand on 0det castle .", "model_prediction": "he dumped 0det sand on 0det castle."}
+{"input": "build new one .", "human_gold": "0subj build 0det new one .", "model_prediction": "0subj build 0det new one."}
+{"input": "and he eated all he stuff .", "human_gold": "and he eated [* m:=ed] all he stuff .", "model_prediction": "and he eated [: ate] [* m:=ed] all he stuff."}
+{"input": "the giraffe had had a airplane .", "human_gold": "the giraffe had [/] had a [* m:allo] airplane .", "model_prediction": "the giraffe had [/] had a [* m:allo] airplane."}
+{"input": "it gots all the way there !", "human_gold": "it gots [: has got] [* m:+3s] [* m:allo] all the way there !", "model_prediction": "it gots [: has got] [* m:+3s] [* m:allo] all the way there!"}
+{"input": "the dog is lovely .", "human_gold": "the dog is lovely .", "model_prediction": "the dog is lovely."}
+{"input": "rabby and doggie play in sand .", "human_gold": "0det rabby [: rabbit] [* p:n] and 0det doggie play in 0det sand .", "model_prediction": "0det rabby [: rabbit] and 0det doggie play in 0det sand."}
+{"input": "she start to cry because her her hard work is is ruin .", "human_gold": "she start [* m:03s:a] to cry because <her> [/] her hard work <is> [/] is ruin [* m:0ed] .", "model_prediction": "she start [* m:03s:a] to cry because <her> [/] her hard work <is> [/] is ruin [* m:0ed]."}
+{"input": "because her hard work is ruin .", "human_gold": "because her hard work is ruin [* m:0ed] .", "model_prediction": "because her hard work is ruin [* m:0ed]."}
+{"input": "rabbit rabbit sh:e she saw body and and talk talk talk talk talk talk somebody .", "human_gold": "rabbit [/] rabbit sh:e [/] she saw body and [/] and talk [/] talk [/] talk [/] talk [/] talk [/] talk 0prep somebody .", "model_prediction": "rabbit [/] rabbit sh:e [/] she saw body and [/] and talk [/] talk [/] talk [/] talk [/] talk 0prep somebody."}
+{"input": "the grass is dry .", "human_gold": "the grass is dry .", "model_prediction": "the grass is dry."}
+{"input": "doggie cry .", "human_gold": "0det doggie cry [* m:03s:a] .", "model_prediction": "0det doggie cry [* m:03s:a]."}
+{"input": "they is work very very hard .", "human_gold": "they is [* m:vsg:a] work [* m:0ing] <very> [/] very hard .", "model_prediction": "they is [* m:vsg:a] work [* m:0ing] <very> [/] very hard."}
+{"input": "the dog is happy .", "human_gold": "the dog is happy .", "model_prediction": "the dog is happy."}
+{"input": "the rabbit is dig .", "human_gold": "the rabbit is dig [* m:0ing] .", "model_prediction": "the rabbit is dig [* m:0ing]."}
+{"input": "dog happy .", "human_gold": "0det dog 0v happy .", "model_prediction": "0det dog 0v happy."}
+{"input": "after I eat lunch , I will take a nap .", "human_gold": "after I eat lunch , I will take a nap .", "model_prediction": "after I eat lunch, I will take a nap."}
+{"input": "the rabbit digs with bucket to get sand .", "human_gold": "the rabbit digs with 0det bucket to get sand .", "model_prediction": "the rabbit digs with 0det bucket to get sand."}
+{"input": "and take tea .", "human_gold": "and 0subj take tea .", "model_prediction": "and 0subj take tea."}
+{"input": "it felled .", "human_gold": "it felled [: fell] [* m:++ed:i] .", "model_prediction": "it felled [: fell] [* m:=ed]."}
+{"input": "have fun again .", "human_gold": "0subj have fun again .", "model_prediction": "0subj have fun again."}
+{"input": "he went .", "human_gold": "he went 0adv .", "model_prediction": "he went."}
+{"input": "I am going to the library to read .", "human_gold": "I am going to the library to read .", "model_prediction": "I am going to the library to read."}
+{"input": "the sun is high .", "human_gold": "the sun is high .", "model_prediction": "the sun is high."}
+{"input": "<and he> and then the girl grab at the boy .", "human_gold": "<and he> [//] and then the girl grab [* m:03s:a] at the boy .", "model_prediction": "<and he> [//] and then the girl grab [* m:03s:a] at the boy."}
+{"input": "dog happy .", "human_gold": "0det dog 0v happy .", "model_prediction": "0det dog 0v happy."}
+{"input": "rabbit pat pat pat pat sand .", "human_gold": "0det rabbit pat [/] pat [/] pat [* m:03s:a] [/] pat sand .", "model_prediction": "0det rabbit pat [/] pat [/] pat [* m:03s:a] [/] pat sand."}
+{"input": "I am going to the library to study science .", "human_gold": "I am going to the library to study science .", "model_prediction": "I am going to the library to study science."}
+{"input": "and then her her's crying .", "human_gold": "and then her [//] her's [* s:r:gc:pro] crying .", "model_prediction": "and then her [//] her's [* s:r:gc:pro] crying."}
+{"input": "and dump dump all the sand on top of the castle .", "human_gold": "and 0subj dump [/] dump all the sand on top of the castle .", "model_prediction": "and <dump> [* m:03s:a] [/] dump all the sand on top . of the castle."}
+{"input": "I am going to the mall today now today now today now .", "human_gold": "I am going to the mall today now today now today now .", "model_prediction": "I am going to the mall today now today now today now."}
+{"input": "if you are thirsty , you should drink water .", "human_gold": "if you are thirsty , you should drink water .", "model_prediction": "if you are thirsty, you should drink water."}
+{"input": "so the rabbit start pat pat pat the sand back .", "human_gold": "so the rabbit start [* m:03s:a] 0prep pat [/] pat [/] pat the sand back .", "model_prediction": "so the rabbit start [* m:03s:a] 0prep pat [/] pat [/] pat the sand back."}
+{"input": "after the work , I went to the library .", "human_gold": "after the work , I went to the library .", "model_prediction": "after the work, I went to the library."}
+{"input": "because she was tired , she went to bed early .", "human_gold": "because she was tired , she went to bed early .", "model_prediction": "because she was tired, she went to bed early."}
+{"input": "dog is upset .", "human_gold": "0det dog is upset .", "model_prediction": "0det dog is upset."}
+{"input": "and they want to build big sand castle together .", "human_gold": "and they want to build 0det big sand castle together .", "model_prediction": "and they want to build 0det big sand castle together."}
+{"input": "they are play in sandbox .", "human_gold": "they are play in 0det sandbox .", "model_prediction": "they are play [* m:0ing] in 0det sandbox."}
+{"input": "because her hard work ruin .", "human_gold": "because her hard work 0aux ruin [* m:0ed] .", "model_prediction": "because her hard work 0aux ruin [* m:0ed]."}
+{"input": "and dumped dumped all the sand on top castle .", "human_gold": "and <dumped> [/] dumped all the sand on top . castle .", "model_prediction": "and <dumped> [/] dumped all the sand on top . castle."}
+{"input": "he want to make thing right .", "human_gold": "he want [* m:03s:a] to make thing [* m:0s] right .", "model_prediction": "he want [* m:03s:a] to make thing [* m:0s] right."}
+{"input": "the flowers are blue .", "human_gold": "the flowers are blue .", "model_prediction": "the flowers are blue."}
+{"input": "because I was excited , I told my friend .", "human_gold": "because I was excited , I told my friend .", "model_prediction": "because I was excited, I told my friend."}
+{"input": "wabbit pat sand .", "human_gold": "0det wabbit [: rabbit] [* p:n] pat [* m:03s:a] 0det sand .", "model_prediction": "0det wabbit [: rabbit] [* p:n] pat [* m:03s:a] sand."}
+{"input": "I am going to the mosque today now today now .", "human_gold": "I am going to the mosque today now today now .", "model_prediction": "I am going to the mosque today now today now."}
+{"input": "castle smash .", "human_gold": "0det castle smash [* m:03s:a] .", "model_prediction": "0det castle smash [* m:03s:a]."}
+{"input": "make the sand strong walls strong .", "human_gold": "0subj make the <sand strong> [//] walls strong .", "model_prediction": "0subj make the <sand strong> [//] walls strong."}
+{"input": "but the castle smash and fall down flat .", "human_gold": "but the castle smash [* m:0ed] and fall [* m:base:ed] down flat .", "model_prediction": "but the castle smash [* m:03s:a] and fall [* m:03s:a] down flat."}
+{"input": "and he gived them to the kid .", "human_gold": "and he gived [* m:=ed] them to the kid .", "model_prediction": "and he gived [: gave] [* m:=ed] them to the kid."}
+{"input": "doggie cry .", "human_gold": "0det doggie cry [* m:03s:a] .", "model_prediction": "0det doggie cry [* m:03s:a]."}
+{"input": "rabbit and dog .", "human_gold": "0det rabbit and 0det dog .", "model_prediction": "0det rabbit and 0det dog."}
+{"input": "make castle strong .", "human_gold": "0subj make 0det castle strong .", "model_prediction": "0subj make 0det castle strong."}
+{"input": "they is got shovels .", "human_gold": "they is [* m:vsg:a] [* s:r] got shovels .", "model_prediction": "they is [* m:vsg:a] [* s:r] got shovels."}
+{"input": "and is dump all the sand on top of castle .", "human_gold": "and is dump [* m:0ing] all the sand on top . of castle .", "model_prediction": "and is dump [* m:0ing] all the sand on top . of castle."}
+{"input": "because I was surprised , I gasped .", "human_gold": "because I was surprised , I gasped .", "model_prediction": "because I was surprised, I gasped."}
+{"input": "they had shovels and were making sandcastle .", "human_gold": "they had shovels and were making 0det sandcastle .", "model_prediction": "they had shovels and were making 0det sandcastle."}
+{"input": "and he is feel bad feel bad .", "human_gold": "and he is feel bad [/] feel [* m:0ing] bad .", "model_prediction": "and he is <feel bad> [/] feel [* m:0ing] bad."}
+{"input": "rabbit pat sand pat sand .", "human_gold": "0det rabbit <pat [* m:03s:a] sand> [/] pat sand .", "model_prediction": "0det rabbit <pat [* m:03s:a] 0det sand> [/] pat sand."}
+{"input": "if you are bored , you should do some work today now today .", "human_gold": "if you are bored , you should do some work today now today .", "model_prediction": "if you are bored, you should do some work today now today."}
+{"input": "I am going to the hill today now today now .", "human_gold": "I am going to the hill today now today now .", "model_prediction": "I am going to the hill today now today now."}
+{"input": "he lift his bucket .", "human_gold": "he lift [* m:03s:a] his bucket .", "model_prediction": "he lift [* m:03s:a] his bucket."}
+{"input": "the dog is kind today now today now .", "human_gold": "the dog is kind today now today now .", "model_prediction": "the dog is kind today now today now."}
+{"input": "rabby has shovel .", "human_gold": "0det rabby [: rabbit] has 0det shovel .", "model_prediction": "0det rabby [: rabbit] [* p:n] has shovel."}
+{"input": "they is have shovels shovels .", "human_gold": "they is [* m:vsg:a] [* s:r] have shovels [/] shovels .", "model_prediction": "they is [* m:vsg:a] [* s:r] have shovels [/] shovels."}
+{"input": "doggie happy again .", "human_gold": "0det doggie 0v happy again .", "model_prediction": "0det doggie 0v happy again."}
+{"input": "the rabbis feel bad because he did not mean to break it .", "human_gold": "the rabbis [: rabbit] [* p:n] feel [* m:03s:a] bad because he did not mean to break it .", "model_prediction": "the rabbis [: rabbit] [* p:n] feel bad because he did not mean to break it."}
+{"input": "dump sand on the castle .", "human_gold": "0subj dump sand on the castle .", "model_prediction": "0subj dump sand on the castle."}
+{"input": "I am going to the school today now today .", "human_gold": "I am going to the school today now today .", "model_prediction": "I am going to the school today now today."}
+{"input": "the flowers are grey .", "human_gold": "the flowers are grey .", "model_prediction": "the flowers are grey."}
+{"input": "&-um a a rabbit and a dog they are playing in in sandbox .", "human_gold": "&-um <a> [/] a rabbit and a dog they are playing <in> [/] in 0det sandbox .", "model_prediction": "&-um <a> [/] a rabbit and a dog they are playing <in> [/] in 0det sandbox."}
+{"input": "the rabbit is dig dig dig .", "human_gold": "the rabbit is <dig> [/] dig [/] dig [* m:0ing] .", "model_prediction": "the rabbit is <dig> [/] dig [/] dig [* m:0ing]."}
+{"input": "get more sand .", "human_gold": "0subj get more sand .", "model_prediction": "0subj get more sand."}
+{"input": "but the castle smash .", "human_gold": "but the castle smash [* m:0ed] .", "model_prediction": "but the castle smash [* m:03s:a]."}
+{"input": "I am going to the boulevard today now today now .", "human_gold": "I am going to the boulevard today now today now .", "model_prediction": "I am going to the boulevard today now today now."}
+{"input": "cry because her hard work +...", "human_gold": "0subj cry because her hard work +...", "model_prediction": "0subj cry because her hard work +..."}
+{"input": "and they was walking .", "human_gold": "and they was [* m:vsg:a] walking .", "model_prediction": "and they was [* m:vsg:a] walking."}
+{"input": "once upon a time they wanna fly the airplane over the water .", "human_gold": "once upon a time they wanna [* m:0ed] 0prep fly the airplane over the water .", "model_prediction": "once upon a time they wanna [* m:0ed] fly the airplane over the water."}
+{"input": "so the rabbit start pat the sand back to^gether .", "human_gold": "so the rabbit start [* m:03s:a] pat [* m:0ing] the sand back to^gether [: together] [* d] .", "model_prediction": "so the rabbit start [* m:03s:a] pat [* m:0ing] the sand back to^gether [: together] [* d]."}
+{"input": "rabbit dig with bucket .", "human_gold": "0det rabbit dig [* m:03s:a] with 0det bucket .", "model_prediction": "0det rabbit dig [* m:03s:a] with 0det bucket."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "and then the bunny saw what he &+s has done to his friend's sandcastle .", "human_gold": "and then the bunny saw what he &+s has [* m:base:ed] done to his friend's sandcastle .", "model_prediction": "and then the bunny saw what he &+s has [* m:base:ed] done to his friend's sandcastle."}
+{"input": "wabbit feel bad .", "human_gold": "0det wabbit [: rabbit] [* p:n] feel [* m:03s:a] bad .", "model_prediction": "0det wabbit [: rabbit] [* p:n] feel [* m:03s:a] bad."}
+{"input": "doggie happy .", "human_gold": "0det doggie 0v happy .", "model_prediction": "0det doggie 0v happy."}
+{"input": "the sun is warm today now today now today now .", "human_gold": "the sun is warm today now today now today now .", "model_prediction": "the sun is warm today now today now today now."}
+{"input": "the elephant said &-uh &~aah why there's a egg !", "human_gold": "the elephant said &-uh &~aah why there's a [* m:allo] egg !", "model_prediction": "the elephant said &-uh &~aah why there's a [* m:allo] egg!"}
+{"input": "dump all the sand on top on top castle .", "human_gold": "0subj dump all the sand on top . on top castle .", "model_prediction": "0subj dump all the sand on top . on top castle."}
+{"input": "the cat is kind today now today now today now today .", "human_gold": "the cat is kind today now today now today now today .", "model_prediction": "the cat is kind today now today now today now today."}
+{"input": "elephant came .", "human_gold": "0det elephant came .", "model_prediction": "0det elephant came."}
+{"input": "and the he's go away .", "human_gold": "and the [//] he's go [* m:0ing] away .", "model_prediction": "and the [//] he's go [* m:0ing] away [?]."}
+{"input": "I am going to the shop .", "human_gold": "I am going to the shop .", "model_prediction": "I am going to the shop."}
+{"input": "but he can't reach at all .", "human_gold": "but he can't reach 0obj at all .", "model_prediction": "but he can't reach 0obj at all."}
+{"input": "her hard work ruined .", "human_gold": "her hard work 0aux ruined .", "model_prediction": "her hard work 0aux ruined."}
+{"input": "rabbit rabbit pat sand pat sand back together .", "human_gold": "0det rabbit [/] rabbit <pat sand> [/] pat [* m:03s:a] sand back together .", "model_prediction": "rabbit [/] rabbit pat [* m:03s:a] 0det sand pat [* m:03s:a] 0det sand back together."}
+{"input": "I am going to the street today now .", "human_gold": "I am going to the street today now .", "model_prediction": "I am going to the street today now."}
+{"input": "is dump all the sand all the sand on top of the castle .", "human_gold": "0subj is dump [* m:0ing] all the sand [/] all the sand on top of the castle .", "model_prediction": "0subj is dump all the sand [/] all the sand on top . of the castle."}
+{"input": "they got some sticks .", "human_gold": "they got some sticks .", "model_prediction": "they got some sticks."}
+{"input": "the elephant &-ah being nice .", "human_gold": "(..) the elephant &-ah 0aux being nice .", "model_prediction": "(..) the elephant &-ah 0aux being nice."}
+{"input": "they is happy again .", "human_gold": "they is [* m:vsg:a] happy again .", "model_prediction": "they is [* m:vsg:a] happy again."}
+{"input": "I forgot to bring my umbrella .", "human_gold": "I forgot to bring my umbrella .", "model_prediction": "I forgot to bring my umbrella."}
+{"input": "because I was happy , I smiled .", "human_gold": "because I was happy , I smiled .", "model_prediction": "because I was happy, I smiled."}
+{"input": "but then the rabbit friend he made a boo_boo .", "human_gold": "but then the rabbit friend he made a boo_boo [* s:r] .", "model_prediction": "but then the rabbit friend he made a boo_boo [* s:r]."}
+{"input": "after the work , I went home now today .", "human_gold": "after the work , I went home now today .", "model_prediction": "after the work, I went home now today."}
+{"input": "because I was tired , I went to bed .", "human_gold": "because I was tired , I went to bed .", "model_prediction": "because I was tired, I went to bed."}
+{"input": "they worky worky .", "human_gold": "they 0aux <worky [: working] [* p:w] [* m:allo]> [/] worky .", "model_prediction": "they 0aux <worky [: working] [* s:r:der]> [/] worky."}
+{"input": "the lifeguard putted a bandaid on <her owie> the elephant's owie .", "human_gold": "the lifeguard putted [: put] [* m:=ed] a bandaid on <her owie> [//] the elephant's owie .", "model_prediction": "the lifeguard putted [: put] [* m:=ed] a bandaid on <her owie> [//] the elephant's owie."}
+{"input": "the airplane fall in the water .", "human_gold": "the airplane fall [* m:03s:a] in the water .", "model_prediction": "the airplane fall [* m:03s:a] in the water."}
+{"input": "him breaked it .", "human_gold": "him [* s:r:gc:pro] breaked [* m:=ed] it .", "model_prediction": "him [* s:r:gc:pro] breaked [: broke] [* m:=ed] it."}
+{"input": "she cry because her work is ruined .", "human_gold": "she cry [* m:03s:a] because her work is ruined .", "model_prediction": "she cry [* m:03s:a] because her work is ruined."}
+{"input": "I am going to the church .", "human_gold": "I am going to the church .", "model_prediction": "I am going to the church."}
+{"input": "make happy dog be happy .", "human_gold": "<make 0obj happy> [//] dog be [* m:vun:a] happy .", "model_prediction": "0subj make happy dog be happy."}
+{"input": "because I was excited , I jumped .", "human_gold": "because I was excited , I jumped .", "model_prediction": "because I was excited, I jumped."}
+{"input": "I am going to the school today now today now today now .", "human_gold": "I am going to the school today now today now today now .", "model_prediction": "I am going to the school today now today now today now."}
+{"input": "because the coffee was warm , I drank it today now today now today .", "human_gold": "because the coffee was warm , I drank it today now today now today .", "model_prediction": "because the coffee was warm, I drank it today now today now today."}
+{"input": "doggie cry .", "human_gold": "0det doggie cry [* m:03s:a] .", "model_prediction": "0det doggie cry [* m:03s:a]."}
+{"input": "want make right .", "human_gold": "0subj want 0prep make 0obj right .", "model_prediction": "0subj want 0prep make 0obj right."}
+{"input": "there's a elephant and a giraffe .", "human_gold": "there's a [* m:allo] elephant and a giraffe .", "model_prediction": "there's a [* m:allo] elephant and a giraffe."}
+{"input": "he lift the bucket .", "human_gold": "he lift [* m:03s:a] the bucket .", "model_prediction": "he lift [* m:03s:a] the bucket."}
+{"input": "he try to fix castle .", "human_gold": "he try [* m:03s:a] to fix 0det castle .", "model_prediction": "he try [* m:03s:a] to fix 0det castle."}
+{"input": "they is build new one .", "human_gold": "they is [* m:vsg:a] build [* m:0ing] 0det new one .", "model_prediction": "they is [* m:vsg:a] build [* m:0ing] 0det new one."}
+{"input": "they friends .", "human_gold": "they 0aux friends .", "model_prediction": "they 0aux friends."}
+{"input": "I am going to the plaza .", "human_gold": "I am going to the plaza .", "model_prediction": "I am going to the plaza."}
+{"input": "the wabbit was getting more sand .", "human_gold": "the wabbit [: rabbit] [* p:n] was getting more sand .", "model_prediction": "the wabbit [: rabbit] [* p:n] was getting more sand."}
+{"input": "make sand strong .", "human_gold": "0subj make 0det sand strong .", "model_prediction": "0subj make 0det sand strong."}
+{"input": "so the rabbit start pat the sand back together .", "human_gold": "so the rabbit start [* m:03s:a] pat [* m:0ing] the sand back together .", "model_prediction": "so the rabbit start [* m:03s:a] pat [* m:0ing] the sand back together."}
+{"input": "rabby and doggie go go .", "human_gold": "0det rabby [: rabbit] [* p:n] and 0det doggie <go [* m:vun:a]> [/] go [* m:vun:a] .", "model_prediction": "0det rabby [: rabbit] [* p:n] and 0det doggie <go> [/] go [* m:vun:a]."}
+{"input": "castle smash flat .", "human_gold": "0det castle smash [* m:03s:a] flat .", "model_prediction": "0det castle smash [* m:03s:a] flat."}
+{"input": "he want to make things right .", "human_gold": "he want [* m:03s:a] to make things right .", "model_prediction": "he want [* m:03s:a] to make things right."}
+{"input": "she sad .", "human_gold": "she 0v sad .", "model_prediction": "she 0v sad."}
+{"input": "the rabbit fix sand .", "human_gold": "the rabbit fix [* m:03s:a] 0det sand .", "model_prediction": "the rabbit fix [* m:03s:a] 0det sand."}
+{"input": "the cat is sad .", "human_gold": "the cat is sad .", "model_prediction": "the cat is sad."}
+{"input": "the sun is low today now .", "human_gold": "the sun is low today now .", "model_prediction": "the sun is low today now."}
+{"input": "they's they's &-uh playing in the sand .", "human_gold": "<they's [* m:vsg:a]> [/] they's &-uh playing in the sand .", "model_prediction": "<they's [* m:vsg:a]> [/] they's &-uh playing in the sand."}
+{"input": "&-um rabbit and dog .", "human_gold": "&-um 0det rabbit and 0det dog .", "model_prediction": "&-um 0det rabbit and 0det dog."}
+{"input": "cry because her hard work is &-uh ruined .", "human_gold": "0subj cry because her hard work is &-uh ruined .", "model_prediction": "0subj cry because her hard work is &-uh ruined."}
+{"input": "because I was worried , I talked to my mom .", "human_gold": "because I was worried , I talked to my mom .", "model_prediction": "because I was worried, I talked to my mom."}
+{"input": "then suddenly he wanted a other one .", "human_gold": "then suddenly he wanted a [* m:allo] other [!] one .", "model_prediction": "then suddenly he wanted a [* m:allo] other [!] one."}
+{"input": "a scooter and a bunny coming .", "human_gold": "a scooter and a bunny 0aux coming .", "model_prediction": "a scooter and a bunny 0aux coming."}
+{"input": "they happy .", "human_gold": "they 0v happy .", "model_prediction": "they 0v happy."}
+{"input": "I am going to the movies .", "human_gold": "I am going to the movies .", "model_prediction": "I am going to the movies."}
+{"input": "the elephant &+s see a garden .", "human_gold": "the elephant &+s see [* m:03s:a] a garden .", "model_prediction": "the elephant &+s see [* m:03s:a] a garden."}
+{"input": "xxx day is &-um rabbit dog in the sand box .", "human_gold": "xxx day is &-um rabbit 0cong dog in the sand box .", "model_prediction": "xxx day is &-um rabbit 0conj 0det dog in the sand box."}
+{"input": "if you are bored , you should do some work today now today now .", "human_gold": "if you are bored , you should do some work today now today now .", "model_prediction": "if you are bored, you should do some work today now today now."}
+{"input": "castle fall down flat .", "human_gold": "0det castle fall [* m:03s:a] down flat .", "model_prediction": "0det castle fall [* m:03s:a] down flat."}
+{"input": "pat the sand .", "human_gold": "0subj pat the sand .", "model_prediction": "0subj pat the sand."}
+{"input": "and she trying to get that &-um airplane .", "human_gold": "and she 0aux trying to get that &-um airplane .", "model_prediction": "and she 0aux trying to get that &-um airplane."}
+{"input": "the sun is hot today now today now .", "human_gold": "the sun is hot today now today now .", "model_prediction": "the sun is hot today now today now."}
+{"input": "some rabbits and doggie friends .", "human_gold": "some rabbits and 0det doggie 0aux friends .", "model_prediction": "some rabbits and 0det doggie 0aux friends."}
+{"input": "<and then> angry .", "human_gold": "<and then> [=! whispers] 0subj 0v angry .", "model_prediction": "<and then> [=! whispers] 0subj 0v angry."}
+{"input": "rabbit no mean to break .", "human_gold": "0det rabbit 0aux no [* s:r] mean to break 0obj .", "model_prediction": "0det rabbit 0aux no [* s:r] mean to break 0obj."}
+{"input": "she cry .", "human_gold": "she cry [* m:03s:a] .", "model_prediction": "she cry [* m:03s:a]."}
+{"input": "and the giraffe swimmed to get it .", "human_gold": "and the giraffe swimmed [: swam] [* m:=ed] to get it .", "model_prediction": "and the giraffe swimmed [: swam] [* m:=ed] to get it."}
+{"input": "if you are tired , you should go to bed early today now today now today .", "human_gold": "if you are tired , you should go to bed early today now today now today .", "model_prediction": "if you are tired, you should go to bed early today now today now today."}
+{"input": "because I was sad , I called my brother .", "human_gold": "because I was sad , I called my brother .", "model_prediction": "because I was sad, I called my brother."}
+{"input": "and the elephant say yes .", "human_gold": "and the elephant say [* m:vun:a] yes .", "model_prediction": "and the elephant say [* m:vun:a] yes."}
+{"input": "dog be happy .", "human_gold": "0det dog be [* m:vun:a] happy .", "model_prediction": "0det dog be [* m:vun:a] happy."}
+{"input": "dog was sad .", "human_gold": "0det dog was sad .", "model_prediction": "0det dog was sad."}
+{"input": "he don't mean to to break it .", "human_gold": "he don't [* m:vun:a] mean <to> [/] to break it .", "model_prediction": "he don't [* m:vun:a] <mean to> [/] to break it."}
+{"input": "and then the guy look look how many balloons he say .", "human_gold": "and then the guy look [/] look how many balloons he say [* m:vun:a] .", "model_prediction": "and then the guy look [/] look how many balloons he say [* m:vun:a]."}
+{"input": "rabbit start .", "human_gold": "0det rabbit start [* m:03s:a] .", "model_prediction": "0det rabbit start [* m:03s:a]."}
+{"input": "lift bucket .", "human_gold": "0subj lift 0det bucket .", "model_prediction": "0subj lift 0det bucket."}
+{"input": "and then she felled in the water too .", "human_gold": "and then she felled [: fell] [* m:++ed:i] in the water too .", "model_prediction": "and then she felled [: fell] [* m:=ed] in the water too."}
+{"input": "the rabbit he digs with bucket .", "human_gold": "<the rabbit [///] he digs with 0det bucket .", "model_prediction": "<the rabbit [//] he digs with 0det bucket."}
+{"input": "<and the> &+w and the elephant take away the airplane .", "human_gold": "<and the> [/] &+w and the elephant take [* m:03s:a] away the airplane .", "model_prediction": "<and the> [/] &+w and the elephant take [* m:03s:a] away the airplane."}
+{"input": "dog pats sand to make strong .", "human_gold": "0det dog pats 0det sand to make 0obj strong .", "model_prediction": "0det dog pats 0det sand to make 0obj strong."}
+{"input": "after the movie , we went to get dinner .", "human_gold": "after the movie , we went to get dinner .", "model_prediction": "after the movie, we went to get dinner."}
+{"input": "he shouldn't do it .", "human_gold": "he shouldn't do it .", "model_prediction": "he shouldn't do it."}
+{"input": "one day a rabbit and a dog playing in the sand .", "human_gold": "one day a rabbit and a dog 0aux playing in the sand .", "model_prediction": "one day a rabbit and a dog 0aux playing in the sand."}
+{"input": "the dog is cute today now today now today now .", "human_gold": "the dog is cute today now today now today now .", "model_prediction": "the dog is cute today now today now today now."}
+{"input": "and then the castle was broked .", "human_gold": "and then the castle was broked [: broke] [* m:=en] .", "model_prediction": "and then the castle was broked [: broke] [* m:++ed:i]."}
+{"input": "because I was excited , I danced .", "human_gold": "because I was excited , I danced .", "model_prediction": "because I was excited, I danced."}
+{"input": "the keys are in my pocket .", "human_gold": "the keys are in my pocket .", "model_prediction": "the keys are in my pocket."}
+{"input": "they having his heavy bucket .", "human_gold": "they 0aux having his heavy bucket .", "model_prediction": "they 0aux having his heavy bucket."}
+{"input": "not mean break it .", "human_gold": "0subj 0aux not mean 0prep break it .", "model_prediction": "0subj not mean 0prep break it."}
+{"input": "rabbit make mistake .", "human_gold": "0det rabbit make [* m:03s:a] 0det mistake .", "model_prediction": "0det rabbit make [* m:03s:a] 0det mistake."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "they build new one .", "human_gold": "they build 0det new one .", "model_prediction": "they build 0det new one."}
+{"input": "they have shovel .", "human_gold": "they have shovel [* m:0s] .", "model_prediction": "they have shovel [* m:0s]."}
+{"input": "rabbit feel bad .", "human_gold": "0det rabbit feel [* m:03s:a] bad .", "model_prediction": "0det rabbit feel [* m:03s:a] bad."}
+{"input": "but wabbit make boo_boo .", "human_gold": "but 0det wabbit [: rabbit] [* p:n] make [* m:03s:a] boo_boo [* s:r] .", "model_prediction": "but 0det wabbit [: rabbit] [* p:n] make [* m:03s:a] boo_boo [* s:r]."}
+{"input": "and the rabbit is tummy is full .", "human_gold": "and the rabbit is [//] 0det tummy is full .", "model_prediction": "and the rabbit is [//] 0det tummy is full."}
+{"input": "and then her gived it back to to thing the guy .", "human_gold": "and then her gived [* m:=ed] it back to [/] to thing [//] the guy .", "model_prediction": "and then her gived [: gave] [* m:=ed] it back to [/] to thing [: think] [* m:0ing] the guy."}
+{"input": "the cat is kind today .", "human_gold": "the cat is kind today .", "model_prediction": "the cat is kind today."}
+{"input": "the cat is playful today .", "human_gold": "the cat is playful today .", "model_prediction": "the cat is playful today."}
+{"input": "doggie she is cry .", "human_gold": "<doggie> [/] she is cry [* m:0ing] [* m:0ing] .", "model_prediction": "0det <doggie> [//] she is cry [* m:0ing]."}
+{"input": "rabby and doggie use shovel .", "human_gold": "0det rabby [: rabbit] [* p:n] and 0det doggie use shovel [* m:0s] .", "model_prediction": "0det rabby [: rabbit] [* p:n] and 0det doggie use shovel [* m:0s]."}
+{"input": "if you are happy , you should dance .", "human_gold": "if you are happy , you should dance .", "model_prediction": "if you are happy, you should dance."}
+{"input": "den wabbit do somethin bad .", "human_gold": "den [: then] [* p:w] 0det wabbit [: rabbit] [* p:n] do [* m:vun:a] somethin(g) bad .", "model_prediction": "den [: then] [* p:w] 0det wabbit [: rabbit] [* p:n] do [* m:vun:a] somethin(g) bad."}
+{"input": "the flowers are violet today now .", "human_gold": "the flowers are violet today now .", "model_prediction": "the flowers are violet today now."}
+{"input": "doggie go go pat pat .", "human_gold": "0det doggie <go [* m:vun:a]> [/] go [* m:vun:a] <pat> [/] pat 0obj .", "model_prediction": "0det doggie <go [* m:vun:a]> [/] go [* m:vun:a] <pat [* m:0ing]> [/] pat 0obj."}
+{"input": "rabby and doggie play in sand .", "human_gold": "0det rabby [: rabbit] [* p:n] and 0det doggie play in 0det sand .", "model_prediction": "0det rabby [: rabbit] and 0det doggie play in 0det sand."}
+{"input": "well this one's a horse and this one's a elephant .", "human_gold": "well this one's a horse and this one's a [* m:allo] elephant .", "model_prediction": "well this one's a horse and this one's a [* m:allo] elephant."}
+{"input": "unless it stops raining , we cannot play outside .", "human_gold": "unless it stops raining , we cannot play outside .", "model_prediction": "unless it stops raining, we cannot play outside."}
+{"input": "and then it felled into the water .", "human_gold": "and then it felled [: fell] [* m:++ed:i] into the water .", "model_prediction": "and then it felled [: fell] [* m:=ed] into the water."}
+{"input": "fix the castle .", "human_gold": "0subj fix the castle .", "model_prediction": "0subj fix the castle."}
+{"input": "is like it .", "human_gold": "0subj is like it .", "model_prediction": "0subj is like it."}
+{"input": "rabby was diggin with his little to get more sand .", "human_gold": "0det rabby [: rabbit] was diggin(g) with his little to get more sand .", "model_prediction": "0det rabby [: rabbit] [* p:n] was diggin(g) with his little to get more sand."}
+{"input": "they have have shovel .", "human_gold": "they <have> [/] have shovel [* m:0s] .", "model_prediction": "they <have> [/] have shovel [* m:0s]."}
+{"input": "the rabbit feel bad .", "human_gold": "the rabbit feel [* m:03s:a] bad .", "model_prediction": "the rabbit feel [* m:03s:a] bad."}
+{"input": "one day wabbit and doggie play in sand box .", "human_gold": "one day 0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sand box .", "model_prediction": "one day 0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sand box."}
+{"input": "they having fun .", "human_gold": "they 0aux having fun .", "model_prediction": "they 0aux having fun."}
+{"input": "I saw a funny clown at the circus .", "human_gold": "I saw a funny clown at the circus .", "model_prediction": "I saw a funny clown at the circus."}
+{"input": "rabbit felt bad .", "human_gold": "0det rabbit felt bad .", "model_prediction": "0det rabbit felt bad."}
+{"input": "the flowers smell lovely .", "human_gold": "the flowers smell lovely .", "model_prediction": "the flowers smell lovely."}
+{"input": "the flowers are grey today now today .", "human_gold": "the flowers are grey today now today .", "model_prediction": "the flowers are grey today now today."}
+{"input": "they is work very hard hard .", "human_gold": "they is [* m:vsg:a] work [* m:0ing] very hard [/] hard .", "model_prediction": "they is [* m:vsg:a] work [* m:0ing] <very hard> [/] hard."}
+{"input": "the dog is kind today now today now today .", "human_gold": "the dog is kind today now today now today .", "model_prediction": "the dog is kind today now today now today."}
+{"input": "the bus is coming now .", "human_gold": "the bus is coming now .", "model_prediction": "the bus is coming now."}
+{"input": "after the class , I went home .", "human_gold": "after the class , I went home .", "model_prediction": "after the class, I went home."}
+{"input": "he no mean to break it .", "human_gold": "he 0aux no [* s:r] mean to break it .", "model_prediction": "he 0aux no [* s:r] mean to break it."}
+{"input": "the elephant <got a> got a owie .", "human_gold": "the elephant <got a> [/] got a [* m:allo] owie .", "model_prediction": "the elephant <got a> [/] got a [* m:allo] owie."}
+{"input": "because I was hungry , I ate an apple .", "human_gold": "because I was hungry , I ate an apple .", "model_prediction": "because I was hungry, I ate an apple."}
+{"input": "he try to fix the castle .", "human_gold": "he try [* m:03s:a] to fix the castle .", "model_prediction": "he try [* m:03s:a] to fix the castle."}
+{"input": "I found a shiny rock .", "human_gold": "I found a shiny rock .", "model_prediction": "I found a shiny rock."}
+{"input": "and she catched it .", "human_gold": "and she catched [: caught] [* m:=ed] it .", "model_prediction": "and she catched [: caught] [* m:=ed] it."}
+{"input": "<then he> &+wo then the elephant and the horsie was scared cause <they might> they might float down if &+some if something had a pool .", "human_gold": "<then he> [//] &+wo then the elephant and the horsie was [* m:vsg:a] scared (be)cause <they might> [/] they might float [* s:ur] down if [/] &+some if something had a pool .", "model_prediction": "<then he> [//] &+wo then the elephant and the horsie was [* m:vsg:a] scared (be)cause <they might> [/] they might float [* s:ur] down if [/] &+some if something had a pool."}
+{"input": "I am going to the island .", "human_gold": "I am going to the island .", "model_prediction": "I am going to the island."}
+{"input": "I am going to the village .", "human_gold": "I am going to the village .", "model_prediction": "I am going to the village."}
+{"input": "if you are tired , you should rest .", "human_gold": "if you are tired , you should rest .", "model_prediction": "if you are tired, you should rest."}
+{"input": "they is having fun .", "human_gold": "they is [* m:vsg:a] having fun .", "model_prediction": "they is [* m:vsg:a] having fun."}
+{"input": "if it is cold , I will wear a sweater .", "human_gold": "if it is cold , I will wear a sweater .", "model_prediction": "if it is cold, I will wear a sweater."}
+{"input": "they was having a lot of fun .", "human_gold": "they was [* m:vsg:a] having a lot of fun .", "model_prediction": "they was [* m:vsg:a] having a lot of fun."}
+{"input": "fix castle .", "human_gold": "0subj fix 0det castle .", "model_prediction": "0subj fix 0det castle."}
+{"input": "not mean break .", "human_gold": "0subj not mean 0prep break 0obj .", "model_prediction": "0subj not mean 0prep break 0obj."}
+{"input": "rabbit was digging with his bucket to get more sand .", "human_gold": "0det rabbit was digging with his bucket to get more sand .", "model_prediction": "0det rabbit was digging with his bucket to get more sand."}
+{"input": "there was a giraffe and a elephant a friend .", "human_gold": "there was a giraffe and a [* m:allo] elephant a friend .", "model_prediction": "there was a giraffe and a [* m:allo] elephant a friend."}
+{"input": "rabbit started patting sand .", "human_gold": "0det rabbit started patting 0det sand .", "model_prediction": "0det rabbit started patting 0det sand."}
+{"input": "and dumped all the sand on top of the castle .", "human_gold": "and dumped all the sand on top of the castle .", "model_prediction": "and dumped all the sand on top . of the castle."}
+{"input": "he and he were playing .", "human_gold": "he and he were [* m:03s:a] playing .", "model_prediction": "he and he were [* m:03s:a] playing."}
+{"input": "I am going to the store now .", "human_gold": "I am going to the store now .", "model_prediction": "I am going to the store now."}
+{"input": "dump all the sand on top of the castle .", "human_gold": "0subj dump all the sand on top of the castle .", "model_prediction": "0subj dump all the sand on top . of the castle."}
+{"input": "I am going to the valley today .", "human_gold": "I am going to the valley today .", "model_prediction": "I am going to the valley today."}
+{"input": "the cat is smart today now .", "human_gold": "the cat is smart today now .", "model_prediction": "the cat is smart today now."}
+{"input": "I am going to school .", "human_gold": "I am going to school .", "model_prediction": "I am going to school."}
+{"input": "dog is pat pat pat sand .", "human_gold": "0det dog is <pat [* m:0ing]> [/] pat [/] pat sand .", "model_prediction": "0det dog is pat [/] pat [/] pat [* m:0ing] sand."}
+{"input": "dog is pat .", "human_gold": "0det dog is pat [* m:0ing] 0obj .", "model_prediction": "0det dog is pat [* m:0ing] 0obj."}
+{"input": "he want to make things right .", "human_gold": "he want [* m:03s:a] to make things right .", "model_prediction": "he want [* m:03s:a] to make things right."}
+{"input": "because it was foggy , I drove slowly today now .", "human_gold": "because it was foggy , I drove slowly today now .", "model_prediction": "because it was foggy, I drove slowly today now."}
+{"input": "dumps all the sand on the castle .", "human_gold": "0subj dumps all the sand on the castle .", "model_prediction": "0subj dumps all the sand on the castle."}
+{"input": "<and the bunny's frien> the bunny &-um showed what one ones one it wanted .", "human_gold": "<and the bunny's frien> [//] the bunny &-um showed what [* s:r] one [//] ones [//] one it wanted .", "model_prediction": "<and the bunny's frien> [//] the bunny &-um showed what one [ones] [//] one it wanted."}
+{"input": "I am going to the temple today now today .", "human_gold": "I am going to the temple today now today .", "model_prediction": "I am going to the temple today now today."}
+{"input": "a elephant is going to his friend .", "human_gold": "a [* m:allo] elephant is going to his friend .", "model_prediction": "a [* m:allo] elephant is going to his friend."}
+{"input": "and stay here .", "human_gold": "and 0subj stay here .", "model_prediction": "and 0subj stay here."}
+{"input": "I am going to the avenue today now today now today .", "human_gold": "I am going to the avenue today now today now today .", "model_prediction": "I am going to the avenue today now today now today."}
+{"input": "make the wall strong .", "human_gold": "0subj make the wall strong .", "model_prediction": "0subj make the wall strong."}
+{"input": "because the sky is blue , it will be a nice day .", "human_gold": "because the sky is blue , it will be a nice day .", "model_prediction": "because the sky is blue, it will be a nice day."}
+{"input": "I am going to the store to buy soup .", "human_gold": "I am going to the store to buy soup .", "model_prediction": "I am going to the store to buy soup."}
+{"input": "he put sand on castle .", "human_gold": "he put [* m:03s:a] 0det sand on 0det castle .", "model_prediction": "he put [* m:03s:a] 0det sand on 0det castle."}
+{"input": "it is fall down flat .", "human_gold": "it is fall [* m:0ing] down flat .", "model_prediction": "it is fall [* m:base:en] down flat."}
+{"input": "doggie make strong .", "human_gold": "0det doggie make [* m:03s:a] 0obj strong .", "model_prediction": "0det doggie make [* m:03s:a] 0obj strong."}
+{"input": "the wabbit was making the sand house again .", "human_gold": "the wabbit [: rabbit] [* p:n] was making the sand house [* s:r] again .", "model_prediction": "the wabbit [: rabbit] [* p:n] was making the sand house [* s:r] again."}
+{"input": "the dog is very upset .", "human_gold": "the dog is [* m:base:ed] very upset .", "model_prediction": "the dog is very upset."}
+{"input": "the dog is pat pat the sand to make the wall strong .", "human_gold": "the dog is <pat [* m:0ing]> [/] pat the sand to make the wall strong .", "model_prediction": "the dog is <pat> [/] pat [* m:0ing] the sand to make the wall strong."}
+{"input": "I am going to the school today now today now .", "human_gold": "I am going to the school today now today now .", "model_prediction": "I am going to the school today now today now."}
+{"input": "ball .", "human_gold": "0play ball [^ sentence stress on \"ball\"] .", "model_prediction": "0det ball."}
+{"input": "I am going to the boulevard today .", "human_gold": "I am going to the boulevard today .", "model_prediction": "I am going to the boulevard today."}
+{"input": "wabbit want to fixy .", "human_gold": "0det wabbit [: rabbit] [* p:n] want [* m:03s:a] to fixy [: fix it] [* p:n] .", "model_prediction": "0det wabbit [: rabbit] [* p:n] want to fixy [: fix it] [* p:n]."}
+{"input": "but the castle smash and fall down flat .", "human_gold": "but the castle smash [* m:03s:a] and 0subj fall down flat .", "model_prediction": "but the castle smash [* m:03s:a] and fall down flat."}
+{"input": "the box is heavy .", "human_gold": "the box is heavy .", "model_prediction": "the box is heavy."}

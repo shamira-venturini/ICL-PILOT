@@ -1,0 +1,230 @@
+{"input": "dog is pat pat pat pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det dog is <pat [* m:0ing]> [/] pat [/] pat [//] pating [: patting] [* p:n] the sand ."}
+{"input": "rabbit start pating pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit start [* m:03s:a] <pating> [/] pating [: patting] [* p:n] the sand ."}
+{"input": "wabbity go go dig dig .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbity [: rabbit] [* p:n] [* s:r:der] <go> [/] go [* m:vun:a] <dig> [/] dig ."}
+{"input": "wabbity do bad thing .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbity [: rabbit] [* p:n] [* s:r:der] do [* m:vun:a] bad thing ."}
+{"input": "wabbity feel sad too .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbity [: rabbit] [* p:n] [* s:r:der] feel [* m:03s:a] sad too ."}
+{"input": "wabbity say oh no .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbity [: rabbit] [* p:n] [* s:r:der] say [* m:vun:a] oh no ."}
+{"input": "one day a rabbid and a dog &-uh playing in the sandbox .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one day a rabbid [: rabbit] [* p:n] and a dog &-uh playing in the sandbox ."}
+{"input": "the rabbid was dig dig .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the rabbid [: rabbit] [* p:n] was <dig [* m:0ing]> [/] dig ."}
+{"input": "&-uh s:uddenly the rabbid he made a a mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "&-uh s:uddenly [: suddenly] [* d] <the rabbid [: rabbit] [* p:n]> [//] he made a a mistake ."}
+{"input": "rabbid he feel bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "<rabbid [: rabbit] [* p:n]> [//] he feel bad ."}
+{"input": "so the rabbid he start pat the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so <the rabbid [: rabbit] [* p:n]> [/] he start [* m:03s:a] pat [* m:0ing] the sand ."}
+{"input": "the dog is pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog is pating [: patting] [* p:n] the sand ."}
+{"input": "one day wabbit and doggie pwayed in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one day 0det wabbit [: rabbit] [* p:n] and 0det doggie pwayed [* p:n] in 0det sand [* s:r:seg] ."}
+{"input": "dey had big shovel .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "dey [: they] [* p:n] had big shovel [* m:0s] ."}
+{"input": "dey wanna make big sand wike .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "dey [: they] [* p:n] wanna make 0det big sand wike [: like] [* p:n] ."}
+{"input": "dey were haffing so much fun .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "dey [: they] [* p:n] were haffing [: having] [* p:n] so much fun ."}
+{"input": "doggie patted sand wike dis .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det doggie patted 0det sand wike [: like] [* p:n] dis [: this] [* p:w] ."}
+{"input": "wabbit dug wif bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] dug wif [: with] [* p:n] bucket ."}
+{"input": "dey were working vewy hard .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "dey [: they] [* p:n] were working vewy [: very] [* p:n] hard ."}
+{"input": "den wabbit do somethin bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "den [: then] [* p:w] 0det wabbit [: rabbit] [* p:n] do [* m:vun:a] somethin(g) bad ."}
+{"input": "he pwayed sand on top of wike .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he pwayed [: played] [* p:n] [* s:ur] sand on top of wike [: like] [* p:n] ."}
+{"input": "wike smash down flat .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "wike [: like] [* p:n] (..) smash down flat ."}
+{"input": "wabbit feel bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] feel [* m:03s:a] bad ."}
+{"input": "wabbit wanna fix .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] wanna fix 0obj ."}
+{"input": "he patted sand wike .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he patted 0det sand wike [: like] [* p:n] ."}
+{"input": "doggie say okay wike new one .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det doggie say [* m:03s:a] okay wike [: like] [* p:n] new one ."}
+{"input": "one day wabbit and doggie play in sandy box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one day 0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sandy [* s:r:der] box ."}
+{"input": "wabbit dig with big cup to get more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] dig [* m:03s:a] with big cup to get more sand ."}
+{"input": "wabbit make boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] make [* m:03s:a] boo_boo [* s] ."}
+{"input": "wabbit feel sad too .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] feel [* m:03s:a] sad too ."}
+{"input": "wabbit do special thing again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] do [* m:vun:a] special thing again ."}
+{"input": "wabbit smile .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] smile ."}
+{"input": "he dog is patting pating pat pat .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "<he> [//] dog is patting [//] pating [: patting] [* p:n] [//] pat [/] pat ."}
+{"input": "he gettin wabbity more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he 0aux gettin(g) 0det wabbity [: rabbit] [* p:n] [* s:r:der] more sand ."}
+{"input": "rabbit patin sand again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit 0aux patin(g) [: patting] [* p:n] sand again ."}
+{"input": "he fixin wabbity castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he 0aux fixin(g) 0det wabbity [: rabbit] [* p:n] [* s:r:der] [* m:0's] castle ."}
+{"input": "suddently the rabbit make a mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "suddently [: suddenly] [* p:n] the rabbit make [* m:03s:a] a mistake ."}
+{"input": "rabby and doggie play together .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie play together ."}
+{"input": "rabby make mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] make [* m:03s:a] 0det mistake ."}
+{"input": "rabby sad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] 0v sad ."}
+{"input": "rabby fix castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] fix [* m:03s:a] 0det castle ."}
+{"input": "rabby make sure not to put sand on it .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] make [* m:03s:a] sure not to put sand on it ."}
+{"input": "rabby smile .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] smile [* m:03s:a] ."}
+{"input": "the dog she's pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog she's [: she was] pating [: patting] [* p:n] the sand ."}
+{"input": "so the rabbit he start pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so <the rabbit [//] he start [* m:03s:a] pating [: patting] [* p:n] the sand ."}
+{"input": "two friends wabbit and doggie were pwaying in the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "two friends 0det wabbit [: rabbit] [* p:n] and 0det doggie were pwaying [: playing] [* p:n] in the sand ."}
+{"input": "wabbit was digging with his little bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] was digging with his little bucket ."}
+{"input": "then wabbit did something bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "then 0det wabbit [: rabbit] [* p:n] did something bad ."}
+{"input": "wabbit felt sad too .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] felt sad too ."}
+{"input": "wabbit started patty pattying the sand again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] started <patty> [//] pattying [: patting] [* m:++ing] the sand again ."}
+{"input": "and he the dog is pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and <he> [/] the dog is pating [: patting] [* p:n] the sand ."}
+{"input": "so the rabbit start pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabbit start [* m:03s:a] pating [: patting] [* p:n] the sand ."}
+{"input": "and &-uh the dog is pat pat pat pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and &-uh the dog is <pat [* m:0ing]> [/] pat [/] pat [//] pating [: patting] [* p:n] the sand ."}
+{"input": "so rabbit is pat pat pat pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so 0det rabbit is pat [* m:0ing] [/] pat [/] pat [//] pating [: patting] [* p:n] the sand ."}
+{"input": "two friends wabbit and doggie pway in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "two friends 0det wabbit [: rabbit] [* p:n] and 0det doggie pway [: play] [* p:n] in 0det sand ."}
+{"input": "dey have wifel and bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "dey [: they] [* p:n] have wifel [: shovel] [* n:k] and bucket ."}
+{"input": "dey wanna make big wawcastle togetha .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "dey [: they] [* p:n] wanna make 0det big 0det wawcastle [: sandcastle] [* n:k] [* s:r:seg] togetha [: together] ."}
+{"input": "wabbit dig dig dig sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] <dig> [/] dig [* m:03s:a] [/] dig sand ."}
+{"input": "but wabbit make boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "but 0det wabbit [: rabbit] [* p:n] make [* m:03s:a] boo_boo [* s] ."}
+{"input": "wabbit no wanna break wawcastle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] no wanna break 0det wawcastle [: sandcastle] [* n:k] [* s:r:seg] ."}
+{"input": "wabbit pway sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] pway [: play] [* p:n] sand ."}
+{"input": "he is get wabbity more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he is get [* m:0ing] 0det wabbity [: rabbit] [* p:n] [* s:r:der] more sand ."}
+{"input": "the dog the dog is pate pat the sand make the wall strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "<the dog> [/] the dog is <pate [: pat] [* p:w] [* m:0ing]> [//] pat the sand make the wall strong ."}
+{"input": "one day wabbit and doggie were pwaying in sand box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one day 0det wabbit [: rabbit] [* p:n] and 0det doggie were pwaying [: playing] [* p:n] in 0det sand box ."}
+{"input": "and wuv building sand castles .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and wuv [: love] [* p:n] building sand castles ."}
+{"input": "wabbit was digging with his bucket getting more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] was digging with his bucket getting more sand ."}
+{"input": "wabbit made boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] made boo_boo [* s] ."}
+{"input": "wabbit felt bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] felt bad ."}
+{"input": "wabbit started patting sand again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] started patting 0det sand again ."}
+{"input": "and the dog dog was pat patin the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and the dog [/] dog was <pat [* m:0ing]> [//] patin [* p:n] the sand ."}
+{"input": "rabbit was dig digin with his bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit was <dig> [//] digin [* p:n] with his bucket ."}
+{"input": "so the rabbit rabbit start pat patin the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabbit [/] rabbit start [* m:03s:a] <pat> [//] patin [* p:n] the sand ."}
+{"input": "the dog was patting pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog was <patting> [//] pating [: patting] [* p:n] the sand ."}
+{"input": "two friends a wabbit and a doggie were playing in the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "two friends a wabbit [: rabbit] [* p:n] and a doggie were playing in the sand ."}
+{"input": "the wabbit was getting more sand in his bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the wabbit [: rabbit] [* p:n] was getting more sand in his bucket ."}
+{"input": "then wabbit did a boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "then 0det wabbit [: rabbit] [* p:n] did a boo_boo [* s] ."}
+{"input": "wabbit said sorry .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] said sorry ."}
+{"input": "he's get wabbity more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he's get 0det wabbity [: rabbit] [* p:n] [* s:r:der] more sand ."}
+{"input": "some animalies a wabbit and a doggie they pway in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "<some animalies [: animals] [* p:n]> [//] <a wabbit [: rabbit] [* p:n] and a doggie they pway [: play] [* p:n] in 0det sand ."}
+{"input": "wabbit was diggy .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] was diggy [: digging] [* p:n] ."}
+{"input": "diggy with his bucket to get more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "diggy [: digging] [* p:n] with his bucket to get more sand ."}
+{"input": "they worky worky .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they 0aux <worky [: working] [* p:w] [* m:allo]> [/] worky ."}
+{"input": "then wabbit make boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "then 0det wabbit [: rabbit] [* p:n] make [* m:03s:a] [* m:base:ed] boo_boo [* s] ."}
+{"input": "he lifty big bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he 0aux lifty [: lifting] [* p:n] 0det big bucket ."}
+{"input": "castle smashy flaty .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det castle 0aux smashy [: smashing] [* s:r:der] [* p:n] flaty [: flat] [* s:r:der] ."}
+{"input": "wabbit sad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] 0v sad ."}
+{"input": "he no mean to breaky .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he 0aux no [:: not] [* s] mean to breaky [: break it] [* p:n] ."}
+{"input": "wabbit want to fixy .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] want [* m:03s:a] to fixy [: fix it] [* p:n] ."}
+{"input": "wabbit start patting sand patting sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] start [* m:03s:a] <patting 0det sand> [/] patting 0det sand ."}
+{"input": "he fixy castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he fixy [: fixing] [* p:n] [* m:allo] 0det castle ."}
+{"input": "they buildy new castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they buildy [: building] [* p:n] new castle ."}
+{"input": "wabbit happy .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] 0v happy ."}
+{"input": "they pway in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they pway [: play] [* p:n] in 0det sand ."}
+{"input": "get wabbity more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0subj get 0det wabbity [: rabbit] [* p:n] [* s:r:der] more sand ."}
+{"input": "dog is pat pat the sand pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det dog is pat [/] pat the sand [//] pating [: patting] [* p:n] the sand ."}
+{"input": "rabbit is pat pat the sand pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit is pat [/] pat the sand [//] pating [: patting] [* p:n] the sand ."}
+{"input": "dog is &-uh pating sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det dog is &-uh pating [: patting] [* p:n] sand ."}
+{"input": "rabby and wuffy were pwaying in the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det wuffy [: doggie] [* p:n] [* s] were pwaying [: playing] [* p:n] in the sand ."}
+{"input": "and wuv building sandcastles .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and wuv [: love] [* p:n] building sandcastles ."}
+{"input": "wuffy was making wiggly walls .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wuffy [: doggie] [* p:n] [* s] was making wiggly walls ."}
+{"input": "rabby was digging digging .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] was <digging> [/] digging ."}
+{"input": "wuffy was making the walls strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wuffy [: doggie] [* s] was making the walls strong ."}
+{"input": "rabby was making a big mess .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] was making a big mess ."}
+{"input": "wuffy was sad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wuffy [: doggie] [* p:n] [* s] was sad ."}
+{"input": "rabby felt bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] felt bad ."}
+{"input": "rabby started patting the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] started patting the sand ."}
+{"input": "wuffy was happy .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wuffy [: doggie] [* p:n] [* s] was happy ."}
+{"input": "rabby was happy too .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] was happy too ."}
+{"input": "the dog was pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog was pating [: patting] [* p:n] the sand ."}
+{"input": "rabbit start pating .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit start [* m:03s:a] pating [: patting] [* p:n] ."}
+{"input": "it was an acident .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "it was an acident [: accident] [* p:n] ."}
+{"input": "pating the sand to make the wall strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "pating [: patting] [* p:n] the sand to make the wall strong ."}
+{"input": "rabby and doggie use shovel .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie use shovel [* m:0s] ."}
+{"input": "rabby go go dig dig dig .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] <go [* m:vun:a]> [/] go [* m:vun:a] <dig [* m:0ing]> [/] dig [/] dig ."}
+{"input": "rabby do boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] do [: make] [* s] [* m:vun:a] boo_boo [* s] ."}
+{"input": "rabby sad too .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] 0v sad too ."}
+{"input": "rabby go go pat pat .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] <go [* m:vun:a]> [/] go [* m:vun:a] <pat [* m:0ing]> [/] pat 0obj ."}
+{"input": "rabby and doggie go go .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie <go [* m:vun:a]> [/] go [* m:vun:a] ."}
+{"input": "rabby and doggie friend .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie 0aux friend ."}
+{"input": "so rabbit started patting pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so 0det rabbit started <patting> [//] pating [: patting] [* p:n] the sand ."}
+{"input": "one day a rabbit and a dog was pwaying in the sandbox .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one day a rabbit and a dog was [* m:vsg:a] pwaying [: playing] [* p:n] in the sandbox ."}
+{"input": "the dog was pate the sand pate the sand to make the walls strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog was <pate [: pat] [* p:w] [* m:0ing] the sand> [//] pate the sand to make the walls strong ."}
+{"input": "wabbit and doggie play in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sand ."}
+{"input": "wabbit and doggie wanna build big castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] and 0det doggie wanna build 0det big castle ."}
+{"input": "wabbit dig sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] dig [* m:03s:a] sand ."}
+{"input": "wabbit and doggie worky hard .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] and 0det doggie worky [: work] [* s:r:der] hard ."}
+{"input": "wabbit dig dig dig .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] <dig> [/] dig [* m:03s:a] [/] dig ."}
+{"input": "then wabbit do boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "then 0det wabbit [: rabbit] [* p:n] do [* m:vun:a] boo_boo [* s] ."}
+{"input": "wabbit say sorry .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] say [* m:vun:a] sorry ."}
+{"input": "wabbit fix sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] fix [* m:03s:a] sand ."}
+{"input": "wabbit try to make castle better .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] try to make 0det castle better ."}
+{"input": "doggie and wabbit build new castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det doggie and 0det wabbit [: rabbit] [* p:n] build 0det new castle ."}
+{"input": "rabby and doggie play in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie play in 0det sand ."}
+{"input": "rabby and doggie wanna make big castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie wanna make 0det big castle ."}
+{"input": "rabby dig sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] dig [* m:03s:a] sand ."}
+{"input": "rabby get more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] get [* m:03s:a] more sand ."}
+{"input": "rabby do boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] do [* m:vun:a] 0det boo_boo [* s] ."}
+{"input": "rabby drop sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] drop [* m:03s:a] sand ."}
+{"input": "rabby feel bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] feel [* m:03s:a] bad ."}
+{"input": "rabby no wanna hurt castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] no wanna hurt [* s] castle ."}
+{"input": "rabby make castle strong again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] make [* m:03s:a] 0det castle strong again ."}
+{"input": "rabby pat sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] pat [* m:03s:a] sand ."}
+{"input": "he's pwaying in the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he's pwaying [: playing] [* p:n] in the sand ."}
+{"input": "he is fix wabbity fix +...", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he is <fix wabbity [: rabbit] [* p:n] [* s:r:der]> [//] fix [* m:0ing] +..."}
+{"input": "he is try wabbity to fix it fix it .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he is try [* m:0ing] wabbity [: rabbit] [* p:n] [* s:r:der] to fix it [/] fix it ."}
+{"input": "they worky worky !", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they 0aux <worky [: working] [* p:w] [* m:allo]> [/] worky !"}
+{"input": "&-um one day a rabbis and doggie was play in the sand box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "&-um one day a rabbis [: rabbit] [* p:n] and 0det doggie was [* m:vsg:a] play [* m:0ing] in the sand box ."}
+{"input": "the rabbis was digging with his bucket to get more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the rabbis [: rabbit] [* p:n] was digging with his bucket to get more sand ."}
+{"input": "sudanly the rabbis made a mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "sudanly [: suddenly] [* p:n] the rabbis [: rabbit] [* p:n] made a mistake ."}
+{"input": "the rabbis feel bad because he did not mean to break it .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the rabbis [: rabbit] [* p:n] feel [* m:03s:a] bad because he did not mean to break it ."}
+{"input": "so the rabbis start pat the sand back together .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabbis [: rabbit] [* p:n] start [* m:03s:a] pat the sand back together ."}
+{"input": "they decied to build a new one .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they decied [: decide] [* p:n] to build a new one ."}
+{"input": "he was patting pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he was <patting> [//] pating [: patting] [* p:n] the sand ."}
+{"input": "dog is patin sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det dog is patin [* p:n] sand ."}
+{"input": "rabbit is patin sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit is patin [* p:n] sand ."}
+{"input": "pat it to make is strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "pat it to make is [* p:w] strong ."}
+{"input": "she is get wabbity more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "she is get [* m:0ing] wabbity [: rabbit] [* p:n] [* s:r:der] more sand ."}
+{"input": "two friends wabbit and doggie play in sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "two friends 0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sand ."}
+{"input": "wabbit make walls strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] make [* m:03s:a] 0det walls strong ."}
+{"input": "wabbit make mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] make [* m:03s:a] 0det mistake ."}
+{"input": "wabbit go oh_no !", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] go [* m:vun:a] oh_no !"}
+{"input": "wabbit fix house .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] fix [* m:03s:a] 0det house [* s] ."}
+{"input": "wabbit pat sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] pat [* m:03s:a] 0det sand ."}
+{"input": "the dog is &-um pating the sand to make the walls strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog is &-um pating [: patting] [* p:n] the sand to make the walls strong ."}
+{"input": "so the rabbit start pating the sand back together .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabbit start [* m:03s:a] pating [: patting] [* p:n] the sand back together ."}
+{"input": "they pway in the sand box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they pway [: play] [* p:n] in the sand box ."}
+{"input": "they wnt to build big sand castel .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they wnt [: want] to build 0det big sand castel [: castle] [* p:n] ."}
+{"input": "make the wals stong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0subj make the wals [: walls] stong [: strong] [* p:n] ."}
+{"input": "suddently the rabbit &-uh make a mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "suddently [: suddenly] [* p:n] the rabbit &-uh make [* m:03s:a] a mistake ."}
+{"input": "dump all the sand on top . of the castel .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0subj dump all the sand on top . of the castel [: castle] [* p:n] ."}
+{"input": "it was &-uh an acident .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "it was &-uh an acident [: accident] [* p:n] ."}
+{"input": "but the castel smash and fell down flat .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "but the castel [: castle] [* p:n] smash [* m:0ed] and fell down flat ."}
+{"input": "she stard to cry .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "she stard [: start] [* p:n] [* m:03s:a] to cry ."}
+{"input": "he wnt to make thing right .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he wnt [: want] [* p:n] [* m:03s:a] to make thing [* m:0s] right ."}
+{"input": "he try to fix the castel .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he try [* m:03s:a] to fix the castel [: castle] [* p:n] ."}
+{"input": "and the dog is &-um pating the sand to make the walls strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and the dog is &-um pating [: patting] [* p:n] the sand to make the walls strong ."}
+{"input": "so the rabbit is pating the sand back together .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabbit is pating [: patting] [* p:n] the sand back together ."}
+{"input": "the dog is pating .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog is pating [: patting] [* p:n] ."}
+{"input": "pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "pating [: patting] [* p:n] the sand ."}
+{"input": "dog is patty sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det dog is patty [: patting] [* p:w] [* m:allo] sand ."}
+{"input": "rabbit is patty sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit is patty [: patting] [* p:w] [* m:allo] sand ."}
+{"input": "&-um one day rabbit and dog pway in the sand box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "&-um one day 0det rabbit and 0det dog pway [: play] [* p:n] in the sand box ."}
+{"input": "dog is pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det dog is pating [: patting] [* p:n] the sand ."}
+{"input": "he dum all the sand on the castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "he dum [: dump] [* p:n] [* m:03s:a] all the sand on the castle ."}
+{"input": "rabbit start pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabbit start [* m:03s:a] pating [: patting] [* p:n] the sand ."}
+{"input": "one day wabbit and doggie play in sand box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one day 0det wabbit [: rabbit] [* p:n] and 0det doggie play in 0det sand box ."}
+{"input": "they got shovels and they wanna make big sand castew together .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they got shovels and they wanna make 0det big sand castew [: castle] [* p:n] together ."}
+{"input": "doggie pat sand wif her paw .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det doggie pat [* m:03s:a] sand wif [: with] [* p:n] her paw ."}
+{"input": "make wawls stwong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0subj make wawls [: walls] [* p:n] stwong [: strong] [* p:n] ."}
+{"input": "wabbit dig wif his bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] dig [* m:03s:a] wif [: with] [* p:n] his bucket ."}
+{"input": "they work vewy hard .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they work vewy [: very] [* p:n] hard ."}
+{"input": "den wabbit do mistake .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "den [: then] [* p:w] 0det wabbit [: rabbit] [* p:n] do [* m:vun:a] [* s] 0det mistake ."}
+{"input": "all sand go go on top of castew !", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "all 0det sand <go> [/] go [* m:vun:a] on top of 0det castew [: castle] [* p:n] !"}
+{"input": "castew break down .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det castew [: castle] [* p:n] break [* m:03s:a] down ."}
+{"input": "wabbit sad too .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] 0v sad too ."}
+{"input": "wabbit pat sand again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] pat [* m:03s:a] 0det sand again ."}
+{"input": "try to fix castew .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0subj try to fix castew [: castle] [* p:n] ."}
+{"input": "the dog was &-um pating the sand to make the walls strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog was &-um pating [: patting] [* p:n] the sand to make the walls strong ."}
+{"input": "and dum all the sand on top of the castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "and dum [: dump] [* p:n] [* m:03s:a] all the sand on top of the castle ."}
+{"input": "the dog she is pating the sand to make the wall strong .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "<the dog> [//] she is pating [: patting] [* p:n] the sand to make the wall strong ."}
+{"input": "rabby have bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] have [* m:vun:a] 0det bucket ."}
+{"input": "rabby dig .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] dig [* m:03s:a] ."}
+{"input": "rabby do bad thing .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] do [* m:vun:a] bad thing ."}
+{"input": "rabby wanna fix .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] wanna fix 0obj ."}
+{"input": "rabby and doggie happy together .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] and 0det doggie 0v happy together ."}
+{"input": "rabby has shovel .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] has shovel ."}
+{"input": "rabby do .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] do [* m:vun:a] ."}
+{"input": "rabby dig dig dig .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] <dig> [/] dig [/] dig [* m:03s:a] ."}
+{"input": "rabby make mistakey .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] make [* m:03s:a] 0det mistakey [: mistake] [* p:n] [* s:r:der] ."}
+{"input": "rabby no mean to break .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] 0aux no [:: not] [* s] mean to break 0obj ."}
+{"input": "rabby say sorry .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] say [* m:vun:a] sorry ."}
+{"input": "rabby fix .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] fix [* m:03s:a] 0obj ."}
+{"input": "rabby make new castle .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] make [* m:03s:a] 0det new castle ."}
+{"input": "rabby happy .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det rabby [: rabbit] [* p:n] 0v happy ."}
+{"input": "&-um one day a rabb and a dog they play in the sand box .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "&-um one day <a rabb [: rabbit] [* p:n] and a dog they play in the sand box ."}
+{"input": "the dog is pating pating the sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the dog is <pating [: patting] [* p:n]> [/] pating the sand ."}
+{"input": "the rabb is dig with his bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the rabb [: rabbit] [* p:n] is dig [* m:0ing] with his bucket ."}
+{"input": "&-uh suddenly the rabb make a mist .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "&-uh suddenly the rabb [: rabbit] [* p:n] make [* m:03s:a] a mist [: mistake] [* p:w] ."}
+{"input": "they having his heav bucket and dump all the sand on top .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they 0aux having his heav [: heavy] [* p:n] bucket and dump [* m:03s:a] all the sand on top ."}
+{"input": "the rabb feel bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the rabb [: rabbit] [* p:n] feel [* m:03s:a] bad ."}
+{"input": "so the rabb start pating the sand back .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabb [: rabbit] [* p:n] start pating [: patting] [* p:n] the sand back ."}
+{"input": "they have big stick and wittle stick .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "they have 0det big stick [* s:ur] and 0det wittle [: little] [* p:n] stick [* s:ur] ."}
+{"input": "wabbit dig dig with his bucket .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "0det wabbit [: rabbit] [* p:n] <dig> [/] dig [* m:03s:a] with his bucket ."}
+{"input": "then wabbit do boo_boo .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "then 0det wabbit [: rabbit] [* p:n] do [* m:vun:a] [* s] boo_boo [* s] ."}
+{"input": "one was a wabbit and one was a doggie .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "one was a wabbit [: rabbit] [* p:n] and one was a doggie ."}
+{"input": "the wabbit was getting more sand .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the wabbit [: rabbit] [* p:n] was getting more sand ."}
+{"input": "then the wabbit did something bad .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "then the wabbit [: rabbit] [* p:n] did something bad ."}
+{"input": "the wabbit said sorry .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the wabbit [: rabbit] [* p:n] said sorry ."}
+{"input": "the wabbit was making the sand house again .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "the wabbit [: rabbit] [* p:n] was making the sand house [* s] again ."}
+{"input": "so the rabbit pating the sand back .", "instruction": "Annotate the following sentence with CLAN error codes.", "output": "so the rabbit 0aux pating [: patting] [* p:n] the sand back ."}
