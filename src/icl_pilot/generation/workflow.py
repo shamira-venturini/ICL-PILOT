@@ -44,6 +44,18 @@ class GenerationPackageArtifacts:
     summary_json: Path
 
 
+@dataclass(frozen=True)
+class RotatingGenerationPackageArtifacts:
+    output_dir: Path
+    roster_csv: Path
+    prompt_rounds_csv: Path
+    schedule_csv: Path
+    bundle_index_csv: Path
+    synthetic_template_csv: Path
+    eval_manifest_csv: Path
+    summary_json: Path
+
+
 def _coerce_path(path: str | Path) -> Path:
     return Path(path).expanduser().resolve()
 
@@ -105,14 +117,11 @@ def _target_set_for_story(story_id: str) -> str:
     return story_id[0]
 
 
-def build_story_generation_schedule(
-    frozen_roster_csv: str | Path,
-    counterbalance_csv: str | Path,
-    n_replicates: int = 10,
-    output_csv: str | Path | None = None,
+def _build_story_generation_schedule_from_roster(
+    roster: pd.DataFrame,
+    counterbalance: pd.DataFrame,
+    n_replicates: int,
 ) -> pd.DataFrame:
-    roster = load_frozen_roster(frozen_roster_csv)
-    counterbalance = load_counterbalance_table(counterbalance_csv)
     lookup = _counterbalance_lookup(counterbalance)
 
     rows: list[dict[str, object]] = []
@@ -156,13 +165,29 @@ def build_story_generation_schedule(
                         "counterbalance_variant_index": variant_index + 1,
                         "counterbalance_variant_total": variant_total,
                         "generation_seed": replicate_id,
-                        "holdout_policy": "exclude both prompt children from evaluation in this round",
+                        "holdout_policy": "exclude prompt pairs from evaluation in the same round",
                         "notes": "story-level prompt schedule for a fixed frozen child pair",
                     }
                 )
 
-    schedule = pd.DataFrame(rows)
-    schedule = schedule.sort_values(["pair_order", "replicate_id", "story_slot_order"]).reset_index(drop=True)
+    return pd.DataFrame(rows).sort_values(
+        ["pair_order", "replicate_id", "story_slot_order"]
+    ).reset_index(drop=True)
+
+
+def build_story_generation_schedule(
+    frozen_roster_csv: str | Path,
+    counterbalance_csv: str | Path,
+    n_replicates: int = 10,
+    output_csv: str | Path | None = None,
+) -> pd.DataFrame:
+    roster = load_frozen_roster(frozen_roster_csv)
+    counterbalance = load_counterbalance_table(counterbalance_csv)
+    schedule = _build_story_generation_schedule_from_roster(
+        roster=roster,
+        counterbalance=counterbalance,
+        n_replicates=n_replicates,
+    )
 
     if output_csv is not None:
         output_path = _coerce_path(output_csv)
@@ -194,6 +219,7 @@ def build_bundle_index(schedule_df: pd.DataFrame, output_csv: str | Path | None 
                 "pair_id": pair_id,
                 "pair_order": pair_order,
                 "replicate_id": replicate_id,
+                "round_id": first["round_id"] if "round_id" in ordered.columns else "",
                 "cohort": first["cohort"],
                 "group": "SLI",
                 "source": "synthetic",
@@ -229,6 +255,164 @@ def build_bundle_index(schedule_df: pd.DataFrame, output_csv: str | Path | None 
     return bundle_index
 
 
+def build_rotating_prompt_rounds(
+    frozen_roster_csv: str | Path,
+    pairs_per_round: int = 3,
+    output_csv: str | Path | None = None,
+) -> pd.DataFrame:
+    roster = load_frozen_roster(frozen_roster_csv)
+    if pairs_per_round <= 0:
+        raise ValueError("pairs_per_round must be positive")
+
+    rows: list[dict[str, object]] = []
+    for round_index, start in enumerate(range(0, len(roster), pairs_per_round), start=1):
+        round_id = f"round_{round_index:02d}"
+        prompt_pairs = roster.iloc[start : start + pairs_per_round].copy()
+        for _, pair in prompt_pairs.iterrows():
+            rows.append(
+                {
+                    "round_id": round_id,
+                    "round_index": round_index,
+                    "prompt_pair_order": int(pair["pair_order"]),
+                    "pair_id": pair["pair_id"],
+                    "cohort": pair["cohort"],
+                    "sli_child_id": int(pair["sli_child_id"]),
+                    "sli_file_kideval": pair["sli_file_kideval"],
+                    "sli_age": pair["sli_age"],
+                    "sli_age_months_approx": float(pair["sli_age_months_approx"]),
+                    "sli_severity_band": pair["sli_severity_band"],
+                    "sli_profile_label": pair["sli_profile_label"],
+                    "td_child_id": int(pair["td_child_id"]),
+                    "td_file_kideval": pair["td_file_kideval"],
+                    "td_age": pair["td_age"],
+                    "td_age_months_approx": float(pair["td_age_months_approx"]),
+                    "age_gap_months": float(pair["age_gap_months"]),
+                    "pairs_per_round": pairs_per_round,
+                    "prompt_pair_count_in_round": int(len(prompt_pairs)),
+                    "eval_pair_count_in_round": int(len(roster) - len(prompt_pairs)),
+                    "round_prompt_policy": "pairs in this round are excluded from evaluation only in this round",
+                }
+            )
+
+    rounds_df = pd.DataFrame(rows).sort_values(["round_index", "prompt_pair_order"]).reset_index(drop=True)
+    if output_csv is not None:
+        output_path = _coerce_path(output_csv)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        rounds_df.to_csv(output_path, index=False)
+    return rounds_df
+
+
+def build_rotating_generation_schedule(
+    frozen_roster_csv: str | Path,
+    counterbalance_csv: str | Path,
+    n_replicates: int = 10,
+    pairs_per_round: int = 3,
+    output_csv: str | Path | None = None,
+) -> pd.DataFrame:
+    roster = load_frozen_roster(frozen_roster_csv)
+    counterbalance = load_counterbalance_table(counterbalance_csv)
+    round_rows = build_rotating_prompt_rounds(
+        frozen_roster_csv=frozen_roster_csv,
+        pairs_per_round=pairs_per_round,
+    )
+
+    roster_by_pair = {str(row["pair_id"]): row for _, row in roster.iterrows()}
+    schedule_parts: list[pd.DataFrame] = []
+    for round_id, round_df in round_rows.groupby("round_id", sort=True):
+        pair_ids = round_df["pair_id"].astype(str).tolist()
+        prompt_roster = pd.DataFrame([roster_by_pair[pair_id] for pair_id in pair_ids])
+        part = _build_story_generation_schedule_from_roster(
+            roster=prompt_roster,
+            counterbalance=counterbalance,
+            n_replicates=n_replicates,
+        )
+        part["round_id"] = round_id
+        part["prompt_pair_count_in_round"] = int(round_df["prompt_pair_count_in_round"].iloc[0])
+        part["eval_pair_count_in_round"] = int(round_df["eval_pair_count_in_round"].iloc[0])
+        part["evaluation_scope"] = "compare stage1 TD outputs to held-out TD bundles and stage2 SLI outputs to held-out SLI bundles"
+        schedule_parts.append(part)
+
+    schedule = pd.concat(schedule_parts, ignore_index=True).sort_values(
+        ["round_id", "pair_order", "replicate_id", "story_slot_order"]
+    ).reset_index(drop=True)
+    if output_csv is not None:
+        output_path = _coerce_path(output_csv)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        schedule.to_csv(output_path, index=False)
+    return schedule
+
+
+def build_rotating_eval_manifest(
+    frozen_roster_csv: str | Path,
+    pairs_per_round: int = 3,
+    output_csv: str | Path | None = None,
+) -> pd.DataFrame:
+    roster = load_frozen_roster(frozen_roster_csv)
+    round_rows = build_rotating_prompt_rounds(
+        frozen_roster_csv=frozen_roster_csv,
+        pairs_per_round=pairs_per_round,
+    )
+    prompt_pairs_by_round = {
+        round_id: set(group["pair_id"].astype(str).tolist())
+        for round_id, group in round_rows.groupby("round_id", sort=True)
+    }
+
+    rows: list[dict[str, object]] = []
+    for round_id, prompt_pairs in prompt_pairs_by_round.items():
+        round_index = int(round_rows.loc[round_rows["round_id"] == round_id, "round_index"].iloc[0])
+        for _, pair in roster.iterrows():
+            pair_id = str(pair["pair_id"])
+            if pair_id in prompt_pairs:
+                continue
+            rows.append(
+                {
+                    "round_id": round_id,
+                    "round_index": round_index,
+                    "eval_pair_id": pair_id,
+                    "eval_pair_order": int(pair["pair_order"]),
+                    "eval_group": "SLI",
+                    "comparison_target_group": "SLI",
+                    "eval_child_id": int(pair["sli_child_id"]),
+                    "eval_file_kideval": pair["sli_file_kideval"],
+                    "eval_age": pair["sli_age"],
+                    "eval_age_months_approx": float(pair["sli_age_months_approx"]),
+                    "eval_severity_band": pair["sli_severity_band"],
+                    "eval_profile_label": pair["sli_profile_label"],
+                    "bundle_id": f"real_{int(pair['sli_child_id'])}",
+                    "story_slots": "|".join(_STORY_ORDER),
+                    "evaluation_pool_policy": "all non-prompt pairs in this round",
+                }
+            )
+            rows.append(
+                {
+                    "round_id": round_id,
+                    "round_index": round_index,
+                    "eval_pair_id": pair_id,
+                    "eval_pair_order": int(pair["pair_order"]),
+                    "eval_group": "TD",
+                    "comparison_target_group": "TD",
+                    "eval_child_id": int(pair["td_child_id"]),
+                    "eval_file_kideval": pair["td_file_kideval"],
+                    "eval_age": pair["td_age"],
+                    "eval_age_months_approx": float(pair["td_age_months_approx"]),
+                    "eval_severity_band": "typical",
+                    "eval_profile_label": "typical",
+                    "bundle_id": f"real_{int(pair['td_child_id'])}",
+                    "story_slots": "|".join(_STORY_ORDER),
+                    "evaluation_pool_policy": "all non-prompt pairs in this round",
+                }
+            )
+
+    eval_df = pd.DataFrame(rows).sort_values(
+        ["round_id", "eval_group", "eval_pair_order"]
+    ).reset_index(drop=True)
+    if output_csv is not None:
+        output_path = _coerce_path(output_csv)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        eval_df.to_csv(output_path, index=False)
+    return eval_df
+
+
 def _append_feature_placeholders(frame: pd.DataFrame) -> pd.DataFrame:
     out = frame.copy()
     for column in _FEATURE_COLUMNS:
@@ -257,6 +441,7 @@ def build_bundle_feature_template(
         "cluster_id",
         "pair_id",
         "replicate_id",
+        "round_id",
         "sli_child_id",
         "sli_file_kideval",
         "sli_age",
@@ -434,6 +619,89 @@ def build_generation_package(
         bundle_index_csv=bundle_index_csv,
         synthetic_template_csv=synthetic_template_csv,
         real_template_csv=real_template_csv,
+        summary_json=summary_json,
+    )
+
+
+def build_rotating_generation_package(
+    dev_measures_csv: str | Path,
+    severity_profile_csv: str | Path,
+    counterbalance_csv: str | Path,
+    output_dir: str | Path,
+    n_replicates: int = 10,
+    age_min_months: int = 48,
+    age_max_months: int = 59,
+    pairs_per_round: int = 3,
+) -> RotatingGenerationPackageArtifacts:
+    out_dir = _coerce_path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    roster_csv = out_dir / "four_year_old_frozen_roster.csv"
+    prompt_rounds_csv = out_dir / "four_year_old_prompt_rounds.csv"
+    schedule_csv = out_dir / "four_year_old_rotating_generation_schedule.csv"
+    bundle_index_csv = out_dir / "four_year_old_rotating_bundle_index.csv"
+    synthetic_template_csv = out_dir / "four_year_old_rotating_synthetic_bundle_template.csv"
+    eval_manifest_csv = out_dir / "four_year_old_rotating_eval_manifest.csv"
+    summary_json = out_dir / "four_year_old_rotating_generation_package_summary.json"
+
+    build_frozen_roster_manifest(
+        dev_measures_csv=str(dev_measures_csv),
+        severity_profile_csv=str(severity_profile_csv),
+        output_csv=str(roster_csv),
+        age_min_months=age_min_months,
+        age_max_months=age_max_months,
+    )
+
+    prompt_rounds = build_rotating_prompt_rounds(
+        frozen_roster_csv=roster_csv,
+        pairs_per_round=pairs_per_round,
+        output_csv=prompt_rounds_csv,
+    )
+    schedule = build_rotating_generation_schedule(
+        frozen_roster_csv=roster_csv,
+        counterbalance_csv=counterbalance_csv,
+        n_replicates=n_replicates,
+        pairs_per_round=pairs_per_round,
+        output_csv=schedule_csv,
+    )
+    bundle_index = build_bundle_index(schedule, output_csv=bundle_index_csv)
+    build_bundle_feature_template(bundle_index, output_csv=synthetic_template_csv)
+    eval_manifest = build_rotating_eval_manifest(
+        frozen_roster_csv=roster_csv,
+        pairs_per_round=pairs_per_round,
+        output_csv=eval_manifest_csv,
+    )
+
+    summary = {
+        "dev_measures_csv": str(_coerce_path(dev_measures_csv)),
+        "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
+        "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
+        "output_dir": str(out_dir),
+        "n_replicates": n_replicates,
+        "age_min_months": age_min_months,
+        "age_max_months": age_max_months,
+        "pairs_per_round": pairs_per_round,
+        "n_pairs": int(prompt_rounds["pair_id"].nunique()),
+        "n_rounds": int(prompt_rounds["round_id"].nunique()),
+        "n_prompt_pairs_total": int(len(prompt_rounds)),
+        "n_synthetic_bundles": int(bundle_index["bundle_id"].nunique()),
+        "n_story_rows": int(len(schedule)),
+        "n_eval_rows": int(len(eval_manifest)),
+        "n_eval_td_rows": int((eval_manifest["eval_group"] == "TD").sum()),
+        "n_eval_sli_rows": int((eval_manifest["eval_group"] == "SLI").sum()),
+        "feature_columns": bundle_feature_columns(),
+        "story_order": _STORY_ORDER,
+    }
+    summary_json.write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    return RotatingGenerationPackageArtifacts(
+        output_dir=out_dir,
+        roster_csv=roster_csv,
+        prompt_rounds_csv=prompt_rounds_csv,
+        schedule_csv=schedule_csv,
+        bundle_index_csv=bundle_index_csv,
+        synthetic_template_csv=synthetic_template_csv,
+        eval_manifest_csv=eval_manifest_csv,
         summary_json=summary_json,
     )
 
