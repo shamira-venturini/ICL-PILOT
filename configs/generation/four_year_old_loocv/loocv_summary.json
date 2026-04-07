@@ -1,0 +1,15 @@
+{
+  "cohort": "4-year-old",
+  "eval_rows_per_fold_summary": {
+    "max": 12,
+    "min": 12
+  },
+  "folds": 11,
+  "reference_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/four_year_old_architecture_pilot_manifest.csv",
+  "sli_children_in_pool": 11,
+  "stories_per_fold": 6,
+  "td_children_in_pool": 43,
+  "transcript_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/archive/phase1_prompting/data/enni_files_4-5",
+  "unique_sli_eval_children": 11,
+  "unique_td_eval_children": 11
+}

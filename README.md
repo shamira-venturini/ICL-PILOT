@@ -33,4 +33,9 @@ With `src` on `PYTHONPATH`, you can inspect the scaffold:
 PYTHONPATH=src python -m icl_pilot validate-layout
 PYTHONPATH=src python -m icl_pilot show-counterbalance
 PYTHONPATH=src python -m icl_pilot show-manifest --limit 5
+PYTHONPATH=src python -m icl_pilot write-cha-filelist \
+  data/annotated/ENNI_annotated \
+  data/interim/clan/enni_annotated.cut
 ```
+
+The severity-profiling workflow and CLAN command set are documented in `docs/severity_profiling_plan.md`.

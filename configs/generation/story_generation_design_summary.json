@@ -1,0 +1,22 @@
+{
+  "children": 359,
+  "counterbalance_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/cross_story_counterbalancing.csv",
+  "generation_cells": 564,
+  "min_eval_candidates": 3,
+  "min_prompt_candidates": 2,
+  "severity_banded_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_profile_banded_table.csv",
+  "sparse_cells": 492,
+  "stories_per_child_summary": {
+    "25%": 6.0,
+    "50%": 6.0,
+    "75%": 6.0,
+    "count": 359.0,
+    "max": 6.0,
+    "mean": 6.0,
+    "min": 6.0,
+    "std": 0.0
+  },
+  "story_pool_rows": 2154,
+  "transcript_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign",
+  "usable_cells": 72
+}

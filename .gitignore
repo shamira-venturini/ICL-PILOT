@@ -1,4 +1,5 @@
 .DS_Store
+.Rhistory
 .idea/
 .venv/
 __pycache__/
@@ -8,16 +9,10 @@ __pycache__/
 .mypy_cache/
 
 # New pipeline outputs should stay reproducible, not versioned.
-data/interim/*
-!data/interim/README.md
-data/processed/*
-!data/processed/README.md
-data/generated/*
-!data/generated/README.md
-data/evaluation/*
-!data/evaluation/README.md
-
 data/
+archive/
+docs/
+measures/
 
 runs/
 reports/

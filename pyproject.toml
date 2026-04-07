@@ -7,7 +7,22 @@ name = "icl-pilot"
 version = "0.1.0"
 description = "Scaffold for the sample-wise multi-step DLD augmentation pipeline."
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "accelerate",
+    "bitsandbytes",
+    "huggingface_hub",
+    "numpy",
+    "pandas",
+    "Pillow",
+    "patsy",
+    "pypdf",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "spacy",
+    "torch",
+    "transformers",
+]
 
 [tool.setuptools.package-dir]
 "" = "src"
