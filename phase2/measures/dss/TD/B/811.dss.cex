@@ -1,0 +1,222 @@
+@UTF8
+@PID:	11312/c-00036394-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|8;11.02|male|TD||Target_Child|||
+@Media:	811, audio
+@Comment:	Birth of CHI is 10-JUL-1991
+@Date:	12-JUN-2000
+@Tape Location:	Disk L17 Track 61
+@Types:	cross, narrative, TD
+*CHI:	one sunny day a little boy named Alex walked into a store . 8939_12003
+%mor:	det:num|one adj|sun&dn-Y n|day det:art|a adj|little n|boy
+	part|name-PASTP n:prop|Alex v|walk-PAST prep|into det:art|a n|store
+	.
+%xdss:	A3; Z; Z; D4; Z; C2; Z;
+*CHI:	and he saw some cookies . 14725_16145
+%mor:	coord|and pro:sub|he v|see&PAST qn|some n|cookie-PL .
+%xdss:	F3; B2; C2; A3; Z;
+*CHI:	and then he thought . 24122_25633
+%mor:	coord|and adv:tem|then pro:sub|he v|think&PAST .
+%xdss:	F3; B2; C2;
+*CHI:	well he was a bad boy . 26155_29696
+%mor:	co|well pro:sub|he cop|be&PAST&13S det:art|a adj|bad n|boy .
+%xdss:	B2; C2; Z;
+*CHI:	so maybe he'd steal them . 29637_32199
+%mor:	adv|so adv|maybe pro:sub|he~mod|genmod v|steal pro:obj|them .
+%xdss:	B2; C1; B3;
+*CHI:	so he took one from the bottom . 33362_35142
+%mor:	co|so pro:sub|he v|take&PAST pro:indef|one prep|from det:art|the
+	n|bottom .
+%xdss:	B2; C2; A3; Z;
+*CHI:	but [!] the whole thing fell down . 35365_38084
+%mor:	conj|but det:art|the adj|whole n|thing v|fall&PAST adv|down .
+%xdss:	F5; Z; C2;
+*CHI:	and the [/] the store owner was really mad . 41594_44539
+%mor:	coord|and det:art|the n|store n|own&dv-AGT cop|be&PAST&13S
+	adv|real&dadj-LY adj|mad .
+%xdss:	F3; Z; Z; C2;
+*CHI:	so <he did> [//] he chased after the boy all the way out of the
+	store . 44980_49767
+%mor:	co|so pro:sub|he v|chase-PAST prep|after det:art|the n|boy qn|all
+	det:art|the n|way adv|out prep|of det:art|the n|store .
+%xdss:	B2; C2; Z; A3; Z; Z;
+@G:	B1
+*CHI:	once there was two animals a wolf and a bunny . 60482_64688
+%mor:	adv:tem|once adv|there cop|be&PAST&13S det:num|two n|animal-PL
+	det:art|a n|wolf coord|and det:art|a n|bunny .
+%xdss:	C2; A3; Z; Z; F3; Z;
+*CHI:	and they were at the beach or in a sandbox . 65470_68533
+%mor:	coord|and pro:sub|they cop|be&PAST prep|at det:art|the n|beach
+	coord|or prep|in det:art|a n|+n|sand+n|box .
+%xdss:	F3; B3; C2; Z; F5; Z;
+*CHI:	and they built a big big sandcastle . 72055_73937
+%mor:	coord|and pro:sub|they v|build&PAST det:art|a adj|big adj|big
+	n|+n|sand+n|castle .
+%xdss:	F3; B3; C2; Z;
+*CHI:	the wolf was working on the tower . 75602_77984
+%mor:	det:art|the n|wolf aux|be&PAST&13S part|work-PRESP prep|on
+	det:art|the n|tower .
+%xdss:	Z; C2; Z;
+*CHI:	and the bunny was &-um collecting the sand . 78687_82593
+%mor:	coord|and det:art|the n|bunny aux|be&PAST&13S part|collect-PRESP
+	det:art|the n|sand .
+%xdss:	F3; Z; C2; Z;
+*CHI:	but then the bunny poured the [/] &+who the whole bucket of sand
+	onto the sandcastle . 87575_92727
+%mor:	conj|but adv:tem|then det:art|the n|bunny v|pour-PAST det:art|the
+	adj|whole n|bucket prep|of n|sand prep|onto det:art|the
+	n|+n|sand+n|castle .
+%xdss:	F5; Z; C2; Z; Z; Z;
+*CHI:	and it ruined one tower . 93411_94932
+%mor:	coord|and pro:per|it v|ruin-PAST det:num|one n|tower .
+%xdss:	F3; A1; C2; A3; Z;
+*CHI:	but then [!] the sand that was on the tower started coming down and
+	wrecking the whole sandcastle . 101395_107284
+%mor:	conj|but adv:tem|then det:art|the n|sand pro:rel|that
+	aux|be&PAST&13S prep|on det:art|the n|tower part|start-PASTP
+	part|come-PRESP adv|down coord|and part|wreck-PRESP det:art|the
+	adj|whole n|+n|sand+n|castle .
+%xdss:	F5; Z; B6; C2; Z; D4; F3; Z;
+*CHI:	so when that [!] was all finished the only thing left was one tower
+	. 108108_111994
+%mor:	co|so conj|when pro:dem|that aux|be&PAST&13S adv|all
+	part|finish-PASTP det:art|the qn|only n|thing v|leave&PAST
+	cop|be&PAST&13S det:num|one n|tower .
+%xdss:	F8; A1; C2; A3; Z; C2; C2; A3; Z;
+*CHI:	and then the wolf started to cry . 115095_117096
+%mor:	coord|and adv:tem|then det:art|the n|wolf v|start-PAST inf|to v|cry
+	.
+%xdss:	F3; Z; C2; D5; C1;
+@G:	B2
+*CHI:	okay once there was two animals a [/] &+ra a hare and a wolf . 131655_140523
+%mor:	co|okay conj|once adv|there cop|be&PAST&13S det:num|two n|animal-PL
+	det:art|a n|hare coord|and det:art|a n|wolf .
+%xdss:	F8; C2; A3; Z; Z; F3; Z;
+*CHI:	<and the> [/] &+wo and the bunny thought that he was so good so he
+	could have all the food he wanted . 144775_151732
+%mor:	coord|and det:art|the n|bunny v|think&PAST comp|that pro:sub|he
+	cop|be&PAST&13S adv|so adj|good conj|so pro:sub|he mod|could v|have
+	qn|all det:art|the n|food pro:sub|he v|want-PAST .
+%xdss:	F3; Z; C2; F8; B2; C2; F5; B2; C5; C1; A3; Z; B2; C2;
+*CHI:	so then once [/] once they were finished the wolf had just a
+	sandwich and a juice . 156855_166072
+%mor:	adv|so adv:tem|then conj|once pro:sub|they aux|be&PAST
+	part|finish-PASTP det:art|the n|wolf aux|have&PAST adv|just
+	det:art|a n|sandwich coord|and det:art|a n|juice .
+%xdss:	F8; B3; C7; Z; Z; F3; Z;
+*CHI:	and then the rabbit was feeling kind of queasy . 169995_173397
+%mor:	coord|and adv:tem|then det:art|the n|rabbit aux|be&PAST&13S
+	part|feel-PRESP n|kind prep|of adj|queasy .
+%xdss:	F3; Z; C2; Z;
+*CHI:	so &-um the [/] the wolf told him he'd walk him home . 173778_181403
+%mor:	co|so det:art|the n|wolf v|tell&PAST pro:obj|him
+	pro:sub|he~mod|genmod v|walk pro:obj|him adv|home .
+%xdss:	Z; C2; B2; B2; C1; B2;
+*CHI:	but luckily a doctor was walking by . 187355_190459
+%mor:	conj|but adv|luck&dadj-Y-LY det:art|a n|doctor aux|be&PAST&13S
+	part|walk-PRESP adv|by .
+%xdss:	F5; Z; C2;
+*CHI:	so the wolf &+a asked the doctor if he could &-um help the &-uh
+	wolf . 190320_198014
+%mor:	co|so det:art|the n|wolf v|ask-PAST det:art|the n|doctor conj|if
+	pro:sub|he mod|could v|help det:art|the n|wolf .
+%xdss:	Z; C2; Z; F5; B2; C5; C1; Z;
+*CHI:	and then the [/] the wolf &-um brang [= brought] [* m:=ed:i] the
+	doctor over to the bunny . 204685_212334
+%mor:	coord|and adv:tem|then det:art|the n|wolf v|brang det:art|the
+	n|doctor adv|over prep|to det:art|the n|bunny .
+%xdss:	F3; Z; C1; Z; Z;
+*CHI:	+" he's fainted . 217542_218323
+%mor:	pro:sub|he~aux|be&3S part|faint-PASTP .
+%xdss:	B2; C7;
+*CHI:	+" he needs your help . 220005_221205
+%mor:	pro:sub|he v|need-3S det:poss|your n|help .
+%xdss:	B2; C2; B1; Z;
+*CHI:	+" well I'll give him this medicine . 231681_233181
+%mor:	co|well pro:sub|I~mod|will v|give pro:obj|him det:dem|this
+	n|medicine .
+%xdss:	B1; C3; C1; B2; A1; Z;
+*CHI:	so she did . 233804_234724
+%mor:	co|so pro:sub|she v|do&PAST .
+%xdss:	B2; C2;
+*CHI:	and he woke up . 234885_236166
+%mor:	coord|and pro:sub|he v|wake&PAST adv|up .
+%xdss:	F3; B2; C2;
+*CHI:	but still he was feeling kinda queasy . 236227_238729
+%mor:	conj|but adv|still pro:sub|he aux|be&PAST&13S part|feel-PRESP
+	adv|kinda adj|queasy .
+%xdss:	F5; B2; C2;
+*CHI:	and then he [/] he just took a run around the trees . 243136_246939
+%mor:	coord|and adv:tem|then pro:sub|he adv|just v|take&PAST det:art|a
+	part|run&PASTP adv|around det:art|the n|tree-PL .
+%xdss:	F3; B2; C2; Z;
+*CHI:	that's what the [/] the doctor told him to do . 246941_249824
+%mor:	pro:dem|that~cop|be&3S pro:int|what det:art|the n|doctor
+	v|tell&PAST pro:obj|him inf|to v|do .
+%xdss:	A1; C1; H2; Z; C2; D5; B2; C1;
+*CHI:	and then he was feeling fine . 249665_251147
+%mor:	coord|and adv:tem|then pro:sub|he aux|be&PAST&13S part|feel-PRESP
+	adv|fine .
+%xdss:	F3; B2; C2;
+@G:	B3
+*CHI:	two best friends named Fluffball and Fluffy were once playing at
+	the park . 261365_269964
+%mor:	det:num|two adj|good&SP n|friend-PL v|name-PAST n:prop|Fluffball
+	coord|and n:prop|Fluffy cop|be&PAST conj|once part|play-PRESP
+	prep|at det:art|the n|park .
+%xdss:	A3; Z; C2; Z; F3; Z; C2; F8; Z;
+*CHI:	and [/] <and the> [/] and Fluffball which was the hare kept going
+	on about this balloon he got for being the best student in his class
+	. 273925_283843
+%mor:	coord|and n:prop|Fluffball pro:int|which aux|be&PAST&13S
+	det:art|the n|hare part|keep&PASTP part|go-PRESP adv|on prep|about
+	det:dem|this n|balloon pro:sub|he v|get&PAST prep|for
+	n:gerund|be-PRESP det:art|the adj|good&SP n|student prep|in
+	det:poss|his n|class .
+%xdss:	F3; Z; H8; C2; Z; D4; A1; Z; B2; C2; Z; D8; Z; B2; Z;
+*CHI:	+" I'm going to take it off and show it around . 293412_295574
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|take pro:per|it adv|off
+	coord|and v|show pro:per|it adv|around .
+%xdss:	B1; C2; D2; C1; A1; F3; C1; A1;
+*CHI:	+" it [//] what if you let it go ? 298840_301281
+%mor:	pro:int|what conj|if pro:per|you v|let&ZERO pro:per|it v|go ?
+%xdss:	H2; F5; B1; C1; D5; A1; C1; G1;
+*CHI:	+" it'll fly up into the air ! 301061_302664
+%mor:	pro:per|it~mod|will v|fly adv|up prep|into det:art|the n|air !
+%xdss:	A1; C3; C1; Z;
+*CHI:	but the hare didn't listen . 306795_308436
+%mor:	conj|but det:art|the n|hare mod|do&PAST~neg|not v|listen .
+%xdss:	F5; Z; C5; E7; C1;
+*CHI:	so &-um the balloon he accidentally let it go . 308617_314902
+%mor:	co|so det:art|the n|balloon pro:sub|he adv|accident&dadj-AL-LY
+	v|let&ZERO pro:per|it v|go .
+%xdss:	Z; B2; C1; D5; A1; C1;
+*CHI:	and it flew up into the air . 314703_316284
+%mor:	coord|and pro:per|it v|fly&PAST adv|up prep|into det:art|the n|air
+	.
+%xdss:	F3; A1; C2; Z;
+*CHI:	+" I'm not your friend any more . 331871_333174
+%mor:	pro:sub|I~cop|be&1S neg|not det:poss|your n|friend qn|any adv|more
+	.
+%xdss:	B1; C2; B1; Z; A7;
+*CHI:	but then the hare saw some [/] some balloons . 337855_343401
+%mor:	conj|but adv:tem|then det:art|the n|hare v|see&PAST qn|some
+	n|balloon-PL .
+%xdss:	F5; Z; C2; A3; Z;
+*CHI:	+" I want &-um that red one right there . 352495_355678
+%mor:	pro:sub|I v|want det:dem|that adj|red pro:indef|one adv|right
+	n|there .
+%xdss:	B1; C1; A1; A3; Z;
+*CHI:	but it was five cents . 361068_362969
+%mor:	conj|but pro:per|it cop|be&PAST&13S det:num|five n|cent-PL .
+%xdss:	F5; A1; C2; A3; Z;
+*CHI:	but he didn't have any [!] money . 363331_365514
+%mor:	conj|but pro:sub|he mod|do&PAST~neg|not v|have qn|any n|money .
+%xdss:	F5; B2; C5; E7; C1; A7; Z;
+*CHI:	+" sorry but you can't have this nice red balloon . 377066_380792
+%mor:	co|sorry conj|but pro:per|you mod|can~neg|not v|have det:dem|this
+	adj|nice adj|red n|balloon .
+%xdss:	F5; B1; C3; E4; C1; A1; Z;

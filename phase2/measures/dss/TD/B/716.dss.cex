@@ -1,0 +1,219 @@
+@UTF8
+@PID:	11312/c-00036347-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|7;10.15|male|TD||Target_Child|||
+@Media:	716, audio
+@Comment:	Birth of CHI is 25-JUL-1992
+@Date:	09-JUN-2000
+@Tape Location:	Disk L16 Track 90
+@Types:	cross, narrative, TD
+*CHI:	one day a boy went to a market . 4780_7153
+%mor:	det:num|one n|day det:art|a n|boy v|go&PAST prep|to det:art|a
+	n|market .
+%xdss:	A3; Z; Z; C2; Z;
+*CHI:	he went to buy some fruit . 8248_10394
+%mor:	pro:sub|he v|go&PAST inf|to v|buy qn|some n|fruit .
+%xdss:	B2; C2; D5; C1; A3; Z;
+*CHI:	when he went to buy some fruit he saw some cookies for free . 14015_17997
+%mor:	conj|when pro:sub|he v|go&PAST inf|to v|buy qn|some n|fruit
+	pro:sub|he v|see&PAST qn|some n|cookie-PL prep|for adj|free .
+%xdss:	F8; B2; C2; D5; C1; A3; Z; B2; C2; A3; Z;
+*CHI:	so <he got and get> [//] he went and got two . 18478_21559
+%mor:	co|so pro:sub|he v|go&PAST coord|and v|get&PAST det:num|two .
+%xdss:	B2; C2; F3; C2; A3;
+*CHI:	then he looked under the package . 25042_26742
+%mor:	adv:tem|then pro:sub|he v|look-PAST prep|under det:art|the
+	n|package .
+%xdss:	B2; C2; Z;
+*CHI:	and then they're all gone . 26823_28443
+%mor:	coord|and adv:tem|then pro:sub|they~aux|be&PRES post|all
+	part|go&PASTP .
+%xdss:	F3; B3; C1;
+*CHI:	so then he thought that wasn't true . 32675_35899
+%mor:	adv|so adv:tem|then pro:sub|he v|think&PAST comp|that
+	cop|be&PAST&13S~neg|not n|true .
+%xdss:	B2; C2; F8; C2; E7; Z;
+*CHI:	so he took one . 35659_37180
+%mor:	co|so pro:sub|he v|take&PAST pro:indef|one .
+%xdss:	B2; C2; A3;
+*CHI:	and then the whole stack fell over . 37182_39664
+%mor:	coord|and adv:tem|then det:art|the adj|whole n|stack v|fall&PAST
+	adv|over .
+%xdss:	F3; Z; C2;
+*CHI:	then the grocery men all got angry . 42290_45493
+%mor:	adv:tem|then det:art|the n|grocery n|man&PL adv|all v|get&PAST
+	adj|angry .
+%xdss:	Z; Z; C2;
+*CHI:	and then they stood there and looked at him . 45515_48657
+%mor:	coord|and adv:tem|then pro:sub|they v|stand&PAST adv|there
+	coord|and v|look-PAST prep|at pro:obj|him .
+%xdss:	F3; B3; C2; F3; C2; B2;
+@G:	B1
+*CHI:	one day there was &-um a small dragon and a rabbit . 55425_63278
+%mor:	det:num|one n|day adv|there cop|be&PAST&13S det:art|a adj|small
+	n|dragon coord|and det:art|a n|rabbit .
+%xdss:	A3; Z; C2; Z; F3; Z;
+*CHI:	and they were playing in their sandbox . 63241_65022
+%mor:	coord|and pro:sub|they aux|be&PAST part|play-PRESP prep|in
+	det:poss|their n|+n|sand+n|box .
+%xdss:	F3; B3; C2; B3; Z;
+*CHI:	and then the rabbit started to make a candsassle [: sandcastle] . 69005_72226
+%mor:	coord|and adv:tem|then det:art|the n|rabbit v|start-PAST inf|to
+	v|make det:art|a n|+n|sand+n|castle .
+%xdss:	F3; Z; C2; D5; C1; Z;
+*CHI:	and then the dragon broke it . 72928_75209
+%mor:	coord|and adv:tem|then det:art|the n|dragon v|break&PAST pro:per|it
+	.
+%xdss:	F3; Z; C2; A1;
+*CHI:	and then the rabbit built it again . 78572_81513
+%mor:	coord|and adv:tem|then det:art|the n|rabbit v|build&PAST pro:per|it
+	adv:tem|again .
+%xdss:	F3; Z; C2; A1;
+*CHI:	and then he put some sand all over . 81475_84837
+%mor:	coord|and adv:tem|then pro:sub|he v|put&ZERO qn|some n|sand adv|all
+	adv|over .
+%xdss:	F3; B2; C1; A3; Z;
+*CHI:	and then he put [= puts] [* m:03s:a] water in it . 84677_86338
+%mor:	coord|and adv:tem|then pro:sub|he v|put&ZERO n|water prep|in
+	pro:per|it .
+%xdss:	F3; B2; C1; Z; A1;
+*CHI:	and then the dragon smashed it again [!] . 90062_93823
+%mor:	coord|and adv:tem|then det:art|the n|dragon v|smash-PAST pro:per|it
+	adv:tem|again .
+%xdss:	F3; Z; C2; A1;
+*CHI:	and then he's [//] the dragon started building it . 97365_100566
+%mor:	coord|and adv:tem|then det:art|the n|dragon v|start-PAST
+	part|build-PRESP pro:per|it .
+%xdss:	F3; Z; C2; A1;
+*CHI:	and he was crying (be)cause it was so much work . 100327_102828
+%mor:	coord|and pro:sub|he aux|be&PAST&13S part|cry-PRESP conj|because
+	pro:per|it cop|be&PAST&13S adv|so qn|much n|work .
+%xdss:	F3; B2; C2; F6; A1; C2; A3; Z;
+@G:	B2
+*CHI:	one day a rabbit came hunting for eggs . 110695_114799
+%mor:	det:num|one n|day det:art|a n|rabbit v|come&PAST part|hunt-PRESP
+	prep|for n|egg-PL .
+%xdss:	A3; Z; Z; C2; Z;
+*CHI:	and a [/] a bear came with him . 115521_118364
+%mor:	coord|and det:art|a n|bear v|come&PAST prep|with pro:obj|him .
+%xdss:	F3; Z; C2; B2;
+*CHI:	and then they decided that they'd go buy some food and eat it for a
+	picnic . 120548_125213
+%mor:	coord|and adv:tem|then pro:sub|they v|decide-PAST comp|that
+	pro:sub|they~mod|genmod v|go v|buy qn|some n|food coord|and v|eat
+	pro:per|it prep|for det:art|a n|picnic .
+%xdss:	F3; B3; C2; F8; B3; C1; C1; A3; Z; F3; C1; A1; Z;
+*CHI:	and then the rabbit ate so fast that he ate lots and lots . 128075_134508
+%mor:	coord|and adv:tem|then det:art|the n|rabbit v|eat&PAST adv|so
+	adv|fast pro:rel|that pro:sub|he v|eat&PAST n|lot-PL coord|and
+	n|lot-PL .
+%xdss:	F3; Z; C2; B6; B2; C2; Z; F3; Z;
+*CHI:	and then he started to get fat . 134531_136392
+%mor:	coord|and adv:tem|then pro:sub|he v|start-PAST inf|to v|get n|fat .
+%xdss:	F3; B2; C2; D5; C1; Z;
+*CHI:	and then he got so dizzy while the bear was drinking his lemonade .
+	139216_145384
+%mor:	coord|and adv:tem|then pro:sub|he v|get&PAST adv|so adj|dizzy
+	conj|while det:art|the n|bear aux|be&PAST&13S part|drink-PRESP
+	det:poss|his n|lemonade .
+%xdss:	F3; B2; C2; F8; Z; C2; B2; Z;
+*CHI:	so then a doctor came by . 149232_151233
+%mor:	adv|so adv:tem|then det:art|a n|doctor v|come&PAST adv|by .
+%xdss:	Z; C2;
+*CHI:	and the bear went to get him . 151395_154318
+%mor:	coord|and det:art|the n|bear v|go&PAST inf|to v|get pro:obj|him .
+%xdss:	F3; Z; C2; D5; C1; B2;
+*CHI:	and then the bear dragged him all the way there . 157524_161448
+%mor:	coord|and adv:tem|then det:art|the n|bear v|drag-PAST pro:obj|him
+	adv|all det:art|the n|way adv|there .
+%xdss:	F3; Z; C2; B2; Z;
+*CHI:	and then the doctor saw him asleep . 161570_165133
+%mor:	coord|and adv:tem|then det:art|the n|doctor v|see&PAST pro:obj|him
+	adv|asleep .
+%xdss:	F3; Z; C2; B2;
+*CHI:	so then he gave him some medicine . 168165_171066
+%mor:	adv|so adv:tem|then pro:sub|he v|give&PAST pro:obj|him qn|some
+	n|medicine .
+%xdss:	B2; C2; B2; A3; Z;
+*CHI:	then he felt so better he could walk home . 174989_177570
+%mor:	adv:tem|then pro:sub|he v|feel&PAST adv|so v|better pro:sub|he
+	mod|could v|walk adv|home .
+%xdss:	B2; C2; C1; B2; C5; C1;
+@G:	B3
+*CHI:	one day the bear was walking down with his wagon . 185535_190341
+%mor:	det:num|one n|day det:art|the n|bear aux|be&PAST&13S
+	part|walk-PRESP adv|down prep|with det:poss|his n|wagon .
+%xdss:	A3; Z; Z; C2; B2; Z;
+*CHI:	and there's a balloon on it . 190502_192123
+%mor:	coord|and pro:exist|there~cop|be&3S det:art|a n|balloon prep|on
+	pro:per|it .
+%xdss:	F3; C1; Z; A1;
+*CHI:	and then all of a sudden rabbit came jogging by . 191924_195267
+%mor:	coord|and adv:tem|then qn|all prep|of det:art|a adj|sudden n|rabbit
+	v|come&PAST part|jog-PRESP adv|by .
+%xdss:	F3; A3; Z; C2;
+*CHI:	+" would you trade it for something ? 201136_202516
+%mor:	mod|will&COND pro:per|you v|trade pro:per|it prep|for
+	pro:indef|something ?
+%xdss:	C5; G6; B1; C1; A1; A3; G1;
+*CHI:	+" sure whatcha got ? 206920_208060
+%mor:	adj|sure pro:int|what~aux|are~pro|you v|get&PAST ?
+%xdss:	H2; C2; G1;
+*CHI:	then the rabbit untied the balloon and then gave him three dollars
+	. 208561_213283
+%mor:	adv:tem|then det:art|the n|rabbit un#part|tie-PASTP det:art|the
+	n|balloon coord|and adv:tem|then v|give&PAST pro:obj|him
+	det:num|three n|dollar-PL .
+%xdss:	Z; Z; F3; C2; B2; A3; Z;
+*CHI:	but then all of a sudden the rabbit let go of the balloon . 216735_220399
+%mor:	conj|but adv:tem|then qn|all prep|of det:art|a adj|sudden
+	det:art|the n|rabbit v|let&ZERO v|go prep|of det:art|the n|balloon .
+%xdss:	F5; A3; Z; C1; C1; Z;
+*CHI:	and it went up into the sky . 220340_222262
+%mor:	coord|and pro:per|it v|go&PAST adv|up prep|into det:art|the n|sky .
+%xdss:	F3; A1; C2; Z;
+*CHI:	then the bear got so angry he started to charge at him . 225929_230054
+%mor:	adv:tem|then det:art|the n|bear v|get&PAST adv|so adj|angry
+	pro:sub|he v|start-PAST prep|to n|charge prep|at pro:obj|him .
+%xdss:	Z; C2; B2; C2; Z; B2;
+*CHI:	and then on the other side of the street some [//] a rabbit was
+	selling some more balloons . 232825_239594
+%mor:	coord|and adv:tem|then adv|on det:art|the qn|other n|side prep|of
+	det:art|the n|street det:art|a n|rabbit aux|be&PAST&13S
+	part|sell-PRESP qn|some qn|more n|balloon-PL .
+%xdss:	F3; A3; Z; Z; Z; C2; A3; A3; Z;
+*CHI:	so then the rabbit went over and bought some . 241960_244963
+%mor:	adv|so adv:tem|then det:art|the n|rabbit v|go&PAST adv|over
+	coord|and v|buy&PAST qn|some .
+%xdss:	Z; C2; F3; C2; A3;
+*CHI:	and he got about six (be)cause the balloons were about fifty cents
+	per one . 248465_253788
+%mor:	coord|and pro:sub|he v|get&PAST prep|about det:num|six conj|because
+	det:art|the n|balloon-PL cop|be&PAST prep|about det:num|fifty
+	n|cent-PL prep|per det:num|one .
+%xdss:	F3; B2; C2; A3; F6; Z; C2; A3; Z; A3;
+*CHI:	and then the bear came over and bought one . 257771_262194
+%mor:	coord|and adv:tem|then det:art|the n|bear v|come&PAST adv|over
+	coord|and v|buy&PAST pro:indef|one .
+%xdss:	F3; Z; C2; F3; C2; A3;
+*CHI:	and then they both went home nice and quietly with a balloon . 265655_270478
+%mor:	coord|and adv:tem|then pro:sub|they post|both v|go&PAST adv|home
+	adj|nice coord|and adv|quiet&dadj-LY prep|with det:art|a n|balloon .
+%xdss:	F3; B3; C2; F3; Z;
+*CHI:	then when they got [!] home they took their balloons and started
+	dancing . 272060_277863
+%mor:	adv:tem|then conj|when pro:sub|they v|get&PAST adv|home
+	pro:sub|they v|take&PAST det:poss|their n|balloon-PL coord|and
+	v|start-PAST part|dance-PRESP .
+%xdss:	F8; B3; C2; B3; C2; B3; Z; F3; C2;
+*CHI:	and then all of a sudden they popped . 281745_284108
+%mor:	coord|and adv:tem|then qn|all prep|of det:art|a adj|sudden
+	pro:sub|they v|pop-PAST .
+%xdss:	F3; A3; B3; C2;
+*CHI:	so then they hadta go get new ones . 283948_286211
+%mor:	adv|so adv:tem|then pro:sub|they mod|have&PAST~inf|to v|go v|get
+	adj|new pro:indef|one-PL .
+%xdss:	B3; C1; C1; A3;

@@ -1,0 +1,110 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:53 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/B/673.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+&-um a boy is walking to the store . %snd:"673"_13411_16614 |   |   |1  |   |   |   |   |   |  1|  2|
+and he's buying some food to eat . %snd:"673"_18155_23970   |3  |2  |1 1|   |   |3  |   |   |  1| 11|
+and the boy saw the man . %snd:"673"_30515_34039            |   |   |2  |   |   |3  |   |   |  1|  6|
+and he wants some cookies . %snd:"673"_35062_38286          |3  |2  |2  |   |   |3  |   |   |  1| 11|
+and he : buy [= buys] [* m:03s:a] one .|3  |2  |1  |   |   |3  |   |   |  0|  9|
+     %snd:"673"_39490_42473                                 |   |   |   |   |   |   |   |   |   |   |
+and he take [= takes] [* m:03s:a] one .|3  |2  |1  |   |   |3  |   |   |  0|  9|
+     %snd:"673"_44715_46476                                 |   |   |   |   |   |   |   |   |   |   |
+and he [/] &+f he fell all the cookies |3  |2  |2  |   |   |3  |   |   |  1| 11|
+    . %snd:"673"_49402_53426                                |   |   |   |   |   |   |   |   |   |   |
+and the man is very mad . %snd:"673"_55891_58273            |   |   |1  |   |   |3  |   |   |  1|  5|
+and he wants some help to [//] with me |3  |2 1|2 1|5  |   |3  |   |4 4|  1| 27|
+    to know how to make a sandcastle . |   |   |1  |   |   |   |   |   |   |   |
+    %snd:"673"_75955_81678                                  |   |   |   |   |   |   |   |   |   |   |
+and he [//] &-um the rabbit make [=    |   |   |1  |   |   |3  |   |   |  0|  4|
+    makes] [* m:03s:a] a sandcastle . %snd:"673"_85722_88783|   |   |   |   |   |   |   |   |   |   |
+and he's [//] he [//] that (ac)        |1  |   |2  |   |   |3  |   |   |  1|  7|
+    cidentally &-um broke his [//] <the|   |   |   |   |   |   |   |   |   |   |
+     dog's> [//] the dog sandcastle . %snd:"673"_104175_114234|   |   |   |   |   |   |   |   |   |   |
+and he [//] the dog never &-um make [= |   |   |1  |   |   |3  |   |   |  0|  4|
+    makes] [* m:03s:a] a sandcastle . %snd:"673"_118995_125222|   |   |   |   |   |   |   |   |   |   |
+and he cried . %snd:"673"_125945_127025                       |   |2  |2  |   |   |3  |   |   |  1|  8|
++" you wanna come with me ? %snd:"673"_155285_156666          |   |1 1|1 1|2  |   |   |1  |   |  1|  8|
+he said yes . %snd:"673"_157650_158690                        |   |2  |2  |   |   |   |   |   |  1|  5|
+and the rabbit so hungry to eat . %snd:"673"_162039_165223    |   |   |1  |   |   |3  |   |   |  1|  5|
+and the [/] &-um the dog saw him eating|   |2  |2  |   |   |3  |   |   |  1|  8|
+     very good . %snd:"673"_165585_171373                     |   |   |   |   |   |   |   |   |   |   |
+and the rabbit is very full . %snd:"673"_174980_177644        |   |   |1  |   |   |3  |   |   |  1|  5|
+and the dog is very [//] eating his    |   |2 2|1  |   |   |3 3|   |   |  1| 12|
+    sandwich and his apple juice . %snd:"673"_178145_186342   |   |   |   |   |   |   |   |   |   |   |
+and the dog eat [= eats] [* m:03s:a]   |   |2 2|1  |   |   |3 3|   |   |  0| 11|
+    his sandwich and his [/] his apple |   |   |   |   |   |   |   |   |   |   |
+    juice . %snd:"673"_188765_200643                          |   |   |   |   |   |   |   |   |   |   |
+and one day &-um the [/] the dog &-um  |3  |   |2  |   |   |3  |   |   |  1|  9|
+    went by with the &-um rabbit . %snd:"673"_206813_214284   |   |   |   |   |   |   |   |   |   |   |
+and the rabbit is laying down and saw  |   |   |1 2|   |   |3 3|   |   |  1| 10|
+    the doctor . %snd:"673"_215165_220230                     |   |   |   |   |   |   |   |   |   |   |
+and one day &-um the doctor went [/]   |3  |   |2  |   |   |3  |   |   |  1|  9|
+    went close to the rabbit . %snd:"673"_222615_230063       |   |   |   |   |   |   |   |   |   |   |
+and [/] and the dog pulled the &-um    |   |   |2  |   |   |3  |   |   |  1|  6|
+    lady to the rabbit . %snd:"673"_231067_238136             |   |   |   |   |   |   |   |   |   |   |
+and that's it . [+ bch] %snd:"673"_252727_254554              |1 1|   |1  |   |   |3  |   |   |  1|  7|
+and the &-um rabbit <went to the> [/] &|3  |   |2 1|   |   |3 3|   |   |  1| 13|
+    -um went to the doctor &+w and get |   |   |   |   |   |   |   |   |   |   |
+    something . %snd:"673"_258495_266385                      |   |   |   |   |   |   |   |   |   |   |
+&-um one day &-um the dog seed [: saw] |3  |   |2 2|   |   |3 3|   |   |  0| 15|
+    [* m:=ed] the rabbit and went to   |   |   |2  |   |   |   |   |   |   |   |
+    closer and seed [: saw] [* m:=ed]  |   |   |   |   |   |   |   |   |   |   |
+    the balloon . %snd:"673"_280847_289191                    |   |   |   |   |   |   |   |   |   |   |
++" I want that balloon . %snd:"673"_294958_296259             |1  |1  |1  |   |   |   |   |   |  1|  4|
+(.) &-um yes if you <want to> [/] &*EXA|1  |1  |1  |2  |   |5  |   |   |  1| 11|
+     : mhm wanna see it . %snd:"673"_301369_305253            |   |   |   |   |   |   |   |   |   |   |
+and <the dog said> [//] he yells . %snd:"673"_307275_310198   |   |2  |2  |   |   |3  |   |   |  1|  8|
+and the rabbit &-um &-um take [= takes]|   |   |1 1|   |   |3 3|   |   |  0|  8|
+     [* m:03s:a] the balloon off and   |   |   |   |   |   |   |   |   |   |   |
+    see [= sees] [* m:03s:a] the       |   |   |   |   |   |   |   |   |   |   |
+    balloon . %snd:"673"_310961_319773                        |   |   |   |   |   |   |   |   |   |   |
+and the &-um dog said &-um my balloon  |   |1  |2 7|   |   |3  |   |   |  0| 13|
+    is &-um flied [: flew] [* m:=ed] . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"673"_330553_331712                                  |   |   |   |   |   |   |   |   |   |   |
+and the rabbit can't &+reas reach it . |1  |   |3 1|   |4  |3  |   |   |  1| 13|
+    %snd:"673"_334075_337479                                  |   |   |   |   |   |   |   |   |   |   |
+and one day the [/] the [/] the dog is |3  |   |1  |   |   |3  |   |   |  1|  8|
+    very angry . %snd:"673"_339105_344074                     |   |   |   |   |   |   |   |   |   |   |
+and the [//] &-um the rabbit is so     |   |   |1 1|   |   |3  |   |   |  1|  6|
+    sorry to get the balloon up there .|   |   |   |   |   |   |   |   |   |   |
+     %snd:"673"_344871_353100                                 |   |   |   |   |   |   |   |   |   |   |
+and the dog said he's very angry . %snd:"673"_355688_358681   |   |2  |2 1|   |   |3  |   |   |  1|  9|
+and the [/] &-um the [/] the rabbit    |   |   |2  |   |   |3  |   |   |  1|  6|
+    went closer <get the> [//] buy &-uh|   |   |   |   |   |   |   |   |   |   |
+     a balloon . %snd:"673"_359065_371654                     |   |   |   |   |   |   |   |   |   |   |
+and <he said> [//] the [/] the [//] &+ |   |2  |1  |   |   |3  |   |   |  1|  7|
+    rab no , the dog is waiting for <  |   |   |   |   |   |   |   |   |   |   |
+    the balloon> [//] his balloon . %snd:"673"_373935_381324  |   |   |   |   |   |   |   |   |   |   |
++" then you have to buy it . %snd:"673"_386352_388334         |1  |1  |1  |   |   |   |   |   |  1|  4|
++" and <I don't have> [/] <I don't have|1 3|   |1  |   |   |3  |   |   |  1|  9|
+    > [//] it is five cents . %snd:"673"_392239_395282        |   |   |   |   |   |   |   |   |   |   |
++" and I no have money . %snd:"673"_396570_398212             |   |1  |1  |   |   |3  |   |   |  1|  6|
++" and sorry <you have> [//] you don't |   |1  |3 1|   |4  |3  |   |   |  1| 13|
+    have money . %snd:"673"_403255_405499                     |   |   |   |   |   |   |   |   |   |   |
+and the dog went do [//] &-um close . %snd:"673"_406060_408722|   |   |2  |   |   |3  |   |   |  1|  6|
++" and that's no fair . %snd:"673"_409574_411824              |1 3|   |1  |   |   |3  |   |   |  1|  9|
+and the [//] &-um <the lady doctor> [//|   |   |2  |   |   |3  |   |   |  1|  6|
+    ] &*EXA : mhm she [/] <she went> [/|   |   |   |   |   |   |   |   |   |   |
+    /] the rabbit went closer <with the|   |   |   |   |   |   |   |   |   |   |
+    > [//] talk [/] talk to the lady . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"673"_414125_427654                                  |   |   |   |   |   |   |   |   |   |   |
++" you [/] you [/] you buy a balloon   |   |1 1|1  |   |   |3  |1  |   |  1|  8|
+    for me and the dog too ? %snd:"673"_428375_435626         |   |   |   |   |   |   |   |   |   |   |
++" and I want a balloon . %snd:"673"_440805_444429            |   |1  |1  |   |   |3  |   |   |  1|  6|
++" an(d) [/] and I don't have money . %snd:"673"_444370_447173|   |1  |3 1|   |4  |3  |   |   |  1| 13|
++" it's five cents . %snd:"673"_447094_448375                 |1 3|   |1  |   |   |   |   |   |  1|  6|
+and the [/] the lady give [= gives] [* |3 3|   |1  |   |   |3  |   |   |  0| 10|
+    m:03s:a] two five cents for the man|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"673"_455045_464282                               |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 58| 45| 99|  9| 12|152|  2|  8| 41|426|
+
+Developmental sentence score:  8.52

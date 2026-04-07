@@ -1,0 +1,106 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:55 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/B/879.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+the boy is going to a store .          |   |   |1  |   |   |   |   |   |  1|  2|
+&-er and [/] and the boy find [= finds]|   |   |1  |   |   |3  |   |   |  0|  4|
+     [* m:03s:a] cookies . %snd:"879"_13643_14264           |   |   |   |   |   |   |   |   |   |   |
+and the boy take [= takes] [* m:03s:a] |3  |   |1  |   |   |3  |   |   |  0|  7|
+    one of the cookies . %snd:"879"_17846_19208             |   |   |   |   |   |   |   |   |   |   |
+and the boy dropped it . %snd:"879"_20951_22933             |1  |   |   |4  |   |3  |   |   |  1|  9|
+he said oops .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+a:nd the man who have [= has] [* m:vun:|   |6  |1  |   |   |3  |   |   |  0| 10|
+    a] the cookies . %snd:"879"_26517_28959                 |   |   |   |   |   |   |   |   |   |   |
+he's mad . %snd:"879"_31303_31664                           |   |2  |1  |   |   |   |   |   |  1|  4|
+and [/] &+i and the kid is running away|   |   |1  |   |   |3  |   |   |  1|  5|
+     . %snd:"879"_31785_34608                               |   |   |   |   |   |   |   |   |   |   |
+the [/] &+bo the dog and [/] <and the> |   |   |1 1|2  |   |3  |   |   |  1|  8|
+    [/] and the bunny want to build a  |   |   |   |   |   |   |   |   |   |   |
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+first the rabbit takes the sand in the |   |   |2  |   |   |   |   |   |  1|  3|
+    bucket . %snd:"879"_56661_58604                         |   |   |   |   |   |   |   |   |   |   |
+then [//] and then the rabbit taked [: |   |   |2  |   |   |3  |   |   |  0|  5|
+    took] [* m:=ed] the sand the castle|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"879"_65298_68367                               |   |   |   |   |   |   |   |   |   |   |
+and the dogs &+s scared &=laughs . %snd:"879"_69850_70611   |   |   |2  |   |   |3  |   |   |  1|  6|
+and the:n the [/] &+ra the rabbit is   |   |   |7  |   |   |3 6|   |   |  0| 16|
+    scared be^cau(se) [?] rabbit break |   |   |   |   |   |   |   |   |   |   |
+    [= breaks] [* m:03s:a] the castle .|   |   |   |   |   |   |   |   |   |   |
+     %snd:"879"_74736_79644                                 |   |   |   |   |   |   |   |   |   |   |
+and then the dog tried to fix [/] fix  |   |   |2 1|5  |   |3  |   |   |  1| 12|
+    the castle . %snd:"879"_84632_85514                     |   |   |   |   |   |   |   |   |   |   |
+the rabbit and the dog went &+f for a  |   |   |2  |   |   |3  |   |   |  1|  6|
+    picnic . %snd:"879"_96372_97473                         |   |   |   |   |   |   |   |   |   |   |
+and then the rabbit &+i is eating his [|   |2  |1  |   |   |3  |   |   |  1|  7|
+    //] her lunch . %snd:"879"_101035_107905                  |   |   |   |   |   |   |   |   |   |   |
+and the dog is [/] is [/] is eating his|   |2  |1  |   |   |3  |   |   |  1|  7|
+     [!] lunch . %snd:"879"_110990_113114                     |   |   |   |   |   |   |   |   |   |   |
+and [/] and because the rabbit have [= |3  |   |1 1|   |   |3 6|   |   |  0| 14|
+    has] [* m:vun:a] too much lunch now|   |   |   |   |   |   |   |   |   |   |
+     rabbit have [= has] [* m:vun:a] a |   |   |   |   |   |   |   |   |   |   |
+    tummyache . %snd:"879"_119180_122105                      |   |   |   |   |   |   |   |   |   |   |
+and the dog only [/] &+ha only have [= |3  |   |1  |   |   |3  |   |   |  0|  7|
+    has] [* m:vun:a] some [!] lunch . %snd:"879"_125531_126994|   |   |   |   |   |   |   |   |   |   |
+and the dog says huh ? %snd:"879"_130615_131015               |   |   |2  |   |   |3  |1  |   |  1|  7|
+the rabbit is [/] have [= has] [* m:vun|   |   |1 5|   |7  |6  |   |   |  0| 20|
+    :a] a tummyache <and now> [//]     |   |   |1  |   |   |   |   |   |   |   |
+    because the dog didn't eat too much|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"879"_135122_140971                               |   |   |   |   |   |   |   |   |   |   |
+only the rabbit did . %snd:"879"_141391_142192                |   |   |2  |   |   |   |   |   |  1|  3|
+and the dog said mama ! %snd:"879"_145215_146457              |   |   |2  |   |   |3  |   |   |  1|  6|
++" here's a dog [=! laughing] . %snd:"879"_155670_156972      |   |   |1  |   |   |   |   |   |  1|  2|
+he said huh ? %snd:"879"_159595_160235                        |   |2  |2  |   |   |   |1  |   |  1|  6|
++" that's not my children . %snd:"879"_160596_160796          |1  |1  |1  |   |1  |   |   |   |  1|  5|
++" I don't know rabbit . %snd:"879"_170610_171891             |   |1  |3 1|   |4  |   |   |   |  1| 10|
++" I am a doctor !                     |   |1  |2  |   |   |   |   |   |  1|  4|
+<and now the rabbit has gone> [//] and |   |   |1  |   |   |3  |   |   |  0|  4|
+    the rabbit go [= goes] [* m:03s:a] |   |   |   |   |   |   |   |   |   |   |
+    home (ex)cept the dog . %snd:"879"_175915_181239          |   |   |   |   |   |   |   |   |   |   |
+the dog has a [/] a dragon .           |   |   |2  |   |   |   |   |   |  1|  3|
+and the balloon is hold [= holding] [* |   |   |1 1|   |   |3  |   |   |  0|  5|
+    m:0ing] up the dragon .            |   |   |   |   |   |   |   |   |   |   |
+and then the rabbit came with him .    |   |2  |2  |   |   |3  |   |   |  1|  8|
+<and then> [/] and then the rabbit     |   |   |2  |   |   |3  |   |   |  1|  6|
+    found the balloon . %snd:"879"_201500_202941              |   |   |   |   |   |   |   |   |   |   |
+and then the rabbit goin(g) to take it |1  |   |1  |4 2|   |3  |   |   |  1| 12|
+    off . %snd:"879"_210870_214475                            |   |   |   |   |   |   |   |   |   |   |
+and [/] and [/] and the rabbit take [= |1  |   |1  |   |   |3  |   |   |  0|  5|
+    takes] [* m:03s:a] it off . %snd:"879"_215817_217078      |   |   |   |   |   |   |   |   |   |   |
+and [/] and it float [= floats] [* m:  |1  |   |1  |   |   |3  |   |   |  0|  5|
+    03s:a] up to the sky . %snd:"879"_216960_217839           |   |   |   |   |   |   |   |   |   |   |
+and the rabbit and the dog try to catch|1  |   |1 1|5  |   |3 3|   |   |  1| 15|
+     it . %snd:"879"_218662_219842                            |   |   |   |   |   |   |   |   |   |   |
+and now the dog's mad . %snd:"879"_222125_222905              |   |   |1  |   |   |3  |   |   |  1|  5|
+<and it> [//] and the rabbit was scared|   |   |7  |   |   |3  |   |   |  1| 11|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+<and then> [/] and then the rabbit and |3 3|   |2  |   |   |3 3|   |   |  1| 15|
+    the dog bought some more [!]       |   |   |   |   |   |   |   |   |   |   |
+    balloons . %snd:"879"_231058_235124                       |   |   |   |   |   |   |   |   |   |   |
++" how much that [!] cost ?            |   |6  |1  |   |   |   |1  |4  |  1| 13|
++" it cost five cents .                |1 3|   |1  |   |   |   |   |   |  1|  6|
+but the rabbit had no money . %snd:"879"_246075_247115        |3  |   |2  |   |   |5  |   |   |  1| 11|
++" mommy come here ! %snd:"879"_261938_262580                 |   |   |1  |   |   |   |   |   |  1|  2|
++" can you buy us a balloon ? %snd:"879"_263663_264964        |   |1 3|3 1|   |   |   |6 1|   |  1| 16|
+called [?] a nickel .                  |   |   |2  |   |   |   |   |   |  1|  3|
+and then [/] then they had the balloons|   |3  |2  |   |   |3  |   |   |  1|  9|
+     . %snd:"879"_281763_282242                               |   |   |   |   |   |   |   |   |   |   |
+the:n the [/] the [/] <the cat and> [//|3  |   |1  |   |   |3  |   |   |  0|  7|
+    ] no , the [/] the bunny and the   |   |   |   |   |   |   |   |   |   |   |
+    dog is [= are] [* m:vsg:a] happy . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"879"_290472_294479                                  |   |   |   |   |   |   |   |   |   |   |
+the elephant was playing basketball    |   |   |2  |   |   |   |   |   |  1|  3|
+    with the giraffe . %snd:"879"_313112_315174               |   |   |   |   |   |   |   |   |   |   |
+and then the &+do elephant throw [=    |   |   |1  |   |   |3  |   |   |  0|  4|
+    throws] [* m:03s:a] the basketball |   |   |   |   |   |   |   |   |   |   |
+    in the water . %snd:"879"_323601_326384                   |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 31| 34| 97| 22| 12|122| 10|  4| 36|368|
+
+Developmental sentence score:  7.36

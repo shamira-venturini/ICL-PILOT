@@ -1,0 +1,98 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:56 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/425.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+I see a kid . %snd:"425"_5098_6158                        |   |1  |1  |   |   |   |   |   |  1|  3|
+he is walking . %snd:"425"_6039_6999                      |   |2  |1  |   |   |   |   |   |  1|  4|
+he's [/] he's gonna buy something . %snd:"425"_7839_10161  |3  |2  |1 1|2  |   |   |   |   |  1| 10|
+he is buying some cookies . %snd:"425"_14084_15004          |3  |2  |1  |   |   |   |   |   |  1|  7|
+a man is telling him where the cookie [|   |2  |1 2|   |   |   |   |2  |  0|  7|
+    = cookie] [* m:0s:a] are . %snd:"425"_15745_19209       |   |   |   |   |   |   |   |   |   |   |
+it's right here . %snd:"425"_18990_20251                    |1  |   |1  |   |   |   |   |   |  1|  3|
+he [//] &+wa <he's picking> [/] he's   |   |2  |1  |   |   |   |   |   |  1|  4|
+    picking the cookies . %snd:"425"_23397_26180            |   |   |   |   |   |   |   |   |   |   |
+get us out with milk . %snd:"425"_26342_28123               |   |3  |1  |   |   |   |   |   |  1|  5|
+all the cookies knocked down . %snd:"425"_32045_33826       |3  |   |2  |   |   |   |   |   |  1|  6|
+he was picking one at a time . %snd:"425"_33667_35569       |3  |2  |2  |   |   |   |   |   |  1|  8|
+<he was> [//] the man was very mad . %snd:"425"_38595_40937 |   |   |2  |   |   |   |   |   |  1|  3|
+he was running . %snd:"425"_40998_42038                     |   |2  |2  |   |   |   |   |   |  1|  5|
+a [= an] [* m:allo] elephant is going  |   |2  |1  |   |   |   |   |   |  0|  3|
+    to his friend . %snd:"425"_54277_56118                  |   |   |   |   |   |   |   |   |   |   |
++" <what's there> [//] what's in there |   |   |1  |   |   |   |1  |2  |  1|  5|
+    ? %snd:"425"_56960_59220                                |   |   |   |   |   |   |   |   |   |   |
+and then the his friend , he he falled |   |2 2|2  |   |   |3  |   |   |  0| 11|
+    [: fell] [* m:=ed] in the water . %snd:"425"_69995_74020|   |2  |   |   |   |   |   |   |   |   |
+he was trying to get the orange . %snd:"425"_73882_75463    |   |2  |2 1|2  |   |   |   |   |  1|  8|
+<and then> [/] and <then the elephant  |   |   |2  |   |   |3 3|   |   |  1|  9|
+    got the thing out> [//] and then   |   |   |   |   |   |   |   |   |   |   |
+    the elephant got the orange out . %snd:"425"_79725_88382|   |   |   |   |   |   |   |   |   |   |
+<and then he walked> [/] <and then he  |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    walked his> [//] and then he walked|   |   |   |   |   |   |   |   |   |   |
+     to his home . %snd:"425"_90025_95671                   |   |   |   |   |   |   |   |   |   |   |
+&-um the [/] the elephant and the      |   |2  |2  |   |   |3  |   |   |  1|  8|
+    friend he was going to the pool . %snd:"425"_110892_118503|   |   |   |   |   |   |   |   |   |   |
+they were going to jump into the pool  |   |3  |2  |   |   |   |   |   |  1|  6|
+    really fast . %snd:"425"_121555_124657                    |   |   |   |   |   |   |   |   |   |   |
+and they are going to jump into where  |   |3  |2 2|   |   |3  |   |2  |  1| 13|
+    the sides are . %snd:"425"_128602_131724                  |   |   |   |   |   |   |   |   |   |   |
+<and they> [//] and <the> [//] his     |   |2 2|1  |   |   |3  |   |   |  1|  9|
+    friend hurt his leg . %snd:"425"_135925_140231            |   |   |   |   |   |   |   |   |   |   |
+he hurt his leg . %snd:"425"_144320_145700                    |   |2 2|1  |   |   |   |   |   |  1|  6|
+and that hurts really bad . %snd:"425"_145802_147444          |1  |   |2  |   |   |3  |   |   |  1|  7|
+&-um his &+f his &-um his brother came |   |2 2|2  |   |   |   |   |   |  1|  9|
+    . %snd:"425"_153785_157689                                |   |2  |   |   |   |   |   |   |   |   |
+<and he> [//] <and so he> [//] and he  |   |2  |2 2|   |   |3  |   |4 2|  0| 15|
+    seed [: saw] [* m:=ed] what        |   |   |   |   |   |   |   |   |   |   |
+    happened . %snd:"425"_158191_161675                       |   |   |   |   |   |   |   |   |   |   |
+and he gave him a bandaid . %snd:"425"_166142_167543          |   |2 2|2  |   |   |3  |   |   |  1| 10|
+<and then it hur> [//] and then he went|   |2  |2  |   |   |3  |   |   |  1|  8|
+     home . %snd:"425"_172665_175628                          |   |   |   |   |   |   |   |   |   |   |
+they were gonna play pool again . %snd:"425"_187795_189696    |   |3  |2 1|2  |   |   |   |   |  1|  9|
+<and then there> [//] and then he was  |   |2  |2  |   |   |3  |   |   |  1|  8|
+    driving airplane . %snd:"425"_194422_197143               |   |   |   |   |   |   |   |   |   |   |
+and then the [//] his friend was <     |   |2  |2  |   |   |3  |   |   |  1|  8|
+    driving a> [/] driving [/] driving |   |   |   |   |   |   |   |   |   |   |
+    a airplane . %snd:"425"_201275_206037                     |   |   |   |   |   |   |   |   |   |   |
+<and playing again> [//] they're       |   |3  |1  |   |   |   |   |   |  1|  5|
+    playing again . %snd:"425"_207359_209519                  |   |   |   |   |   |   |   |   |   |   |
+<they were going to jump> [//] &+i and |   |   |2  |   |   |3  |   |   |  1|  6|
+    the airplane got in the water . %snd:"425"_210120_214022  |   |   |   |   |   |   |   |   |   |   |
+<and then he was trying to> [//] and   |   |2  |2  |   |   |3  |   |   |  1|  8|
+    then he was very mad . %snd:"425"_217965_221299           |   |   |   |   |   |   |   |   |   |   |
+<and then his friend> [//] and then <  |   |   |2  |   |   |3  |   |   |  1|  6|
+    his sister went over to that girl> |   |   |   |   |   |   |   |   |   |   |
+    [//] &+t &-um the sister went over |   |   |   |   |   |   |   |   |   |   |
+    to the brother . %snd:"425"_224705_234323                 |   |   |   |   |   |   |   |   |   |   |
+<and then he> [//] and then the brother|   |2  |2  |   |   |3  |   |   |  1|  8|
+     came over her . %snd:"425"_239675_242897                 |   |   |   |   |   |   |   |   |   |   |
+<and then> [/] and then he sawed [: saw|   |2  |2 2|   |   |3  |   |4 2|  0| 15|
+    ] [* m:++ed:i] what happened . %snd:"425"_245840_248461   |   |   |   |   |   |   |   |   |   |   |
+and then he's trying to get it . %snd:"425"_248602_251404     |1  |2  |1 1|2  |   |3  |   |   |  1| 11|
+and then he [/] he didn't know how to  |1  |2  |5 1|5  |7  |3  |   |4 4|  1| 34|
+    get it . %snd:"425"_255385_258828                         |   |   |1  |   |   |   |   |   |   |   |
+he tried . %snd:"425"_259250_259970                           |   |2  |2  |   |   |   |   |   |  1|  5|
+he picked that . %snd:"425"_263196_264396                     |1  |2  |2  |   |   |   |   |   |  1|  6|
+and then he tried to get it . %snd:"425"_264457_266779        |1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+hey look [/] look behind here ! [+ bch]|   |   |1  |   |   |   |   |   |  1|  2|
+     %snd:"425"_267081_269664                                 |   |   |   |   |   |   |   |   |   |   |
+&-um the boy has girl hair . %snd:"425"_270545_272447         |   |   |2  |   |   |   |   |   |  1|  3|
+the [/] the girl was pretty . %snd:"425"_273852_277497        |   |   |2  |   |   |   |   |   |  1|  3|
+then he tried to get it . %snd:"425"_279122_280704            |1  |2  |2 1|5  |   |   |   |   |  1| 12|
+and she trying to get that &-um        |1  |2  |1  |2  |   |3  |   |   |  1| 10|
+    airplane . %snd:"425"_283185_287410                       |   |   |   |   |   |   |   |   |   |   |
+<and then he> [/] &+tr and then he got |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    it . %snd:"425"_294380_295761                             |   |   |   |   |   |   |   |   |   |   |
+and he was very happy . %snd:"425"_295363_296883              |   |2  |2  |   |   |3  |   |   |  1|  8|
+<and then> [/] &+h and then the        |   |   |2  |   |   |3  |   |   |  1|  6|
+    elephant was very happy too . %snd:"425"_303569_306432    |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 21| 96|103| 25|  7| 75|  1| 26| 45|399|
+
+Developmental sentence score:  7.98

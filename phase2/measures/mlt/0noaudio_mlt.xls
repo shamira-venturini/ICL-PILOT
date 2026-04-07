@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15260</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="RedText">
+    <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="TallText">
+    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="474.mlt.xls">
+  <Table ss:DefaultColumnWidth="95" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">File</Data></Cell>
+    <Cell><Data ss:Type="String">Language</Data></Cell>
+    <Cell><Data ss:Type="String">Corpus</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Age</Data></Cell>
+    <Cell><Data ss:Type="String">Sex</Data></Cell>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+    <Cell><Data ss:Type="String">Race</Data></Cell>
+    <Cell><Data ss:Type="String">SES</Data></Cell>
+    <Cell><Data ss:Type="String">Role</Data></Cell>
+    <Cell><Data ss:Type="String">Education</Data></Cell>
+    <Cell><Data ss:Type="String">Custom_field</Data></Cell>
+    <Cell><Data ss:Type="String">#utterances</Data></Cell>
+    <Cell><Data ss:Type="String">#turns</Data></Cell>
+    <Cell><Data ss:Type="String">#words</Data></Cell>
+    <Cell><Data ss:Type="String">words/turns</Data></Cell>
+    <Cell><Data ss:Type="String">utterances/turns</Data></Cell>
+    <Cell><Data ss:Type="String">words/utterances</Data></Cell>
+    <Cell><Data ss:Type="String">Standard deviation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">474.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;08.18</Data></Cell>
+    <Cell><Data ss:Type="String">female</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="Number">532</Data></Cell>
+    <Cell><Data ss:Type="Number">12.976</Data></Cell>
+    <Cell><Data ss:Type="Number">2.439</Data></Cell>
+    <Cell><Data ss:Type="Number">5.320</Data></Cell>
+    <Cell><Data ss:Type="Number">3.346</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">475.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;08.12</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">283</Data></Cell>
+    <Cell><Data ss:Type="Number">31.444</Data></Cell>
+    <Cell><Data ss:Type="Number">7.111</Data></Cell>
+    <Cell><Data ss:Type="Number">4.422</Data></Cell>
+    <Cell><Data ss:Type="Number">1.423</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">476.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;09.07</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="Number">5.294</Data></Cell>
+    <Cell><Data ss:Type="Number">1.141</Data></Cell>
+    <Cell><Data ss:Type="Number">4.639</Data></Cell>
+    <Cell><Data ss:Type="Number">2.905</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">477.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;08.03</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">247</Data></Cell>
+    <Cell><Data ss:Type="Number">35.286</Data></Cell>
+    <Cell><Data ss:Type="Number">8.857</Data></Cell>
+    <Cell><Data ss:Type="Number">3.984</Data></Cell>
+    <Cell><Data ss:Type="Number">1.690</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">478.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;06.04</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">215</Data></Cell>
+    <Cell><Data ss:Type="Number">35.833</Data></Cell>
+    <Cell><Data ss:Type="Number">9.667</Data></Cell>
+    <Cell><Data ss:Type="Number">3.707</Data></Cell>
+    <Cell><Data ss:Type="Number">2.051</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">482.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;06.20</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">259</Data></Cell>
+    <Cell><Data ss:Type="Number">43.167</Data></Cell>
+    <Cell><Data ss:Type="Number">10.333</Data></Cell>
+    <Cell><Data ss:Type="Number">4.177</Data></Cell>
+    <Cell><Data ss:Type="Number">1.810</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">523.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">5;05.29</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">399</Data></Cell>
+    <Cell><Data ss:Type="Number">199.500</Data></Cell>
+    <Cell><Data ss:Type="Number">53.000</Data></Cell>
+    <Cell><Data ss:Type="Number">3.764</Data></Cell>
+    <Cell><Data ss:Type="Number">2.183</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">575.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">5;02.25</Data></Cell>
+    <Cell><Data ss:Type="String">male</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">577</Data></Cell>
+    <Cell><Data ss:Type="Number">96.167</Data></Cell>
+    <Cell><Data ss:Type="Number">15.167</Data></Cell>
+    <Cell><Data ss:Type="Number">6.341</Data></Cell>
+    <Cell><Data ss:Type="Number">2.981</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">613.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">ENNI</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">6;09.11</Data></Cell>
+    <Cell><Data ss:Type="String">female</Data></Cell>
+    <Cell><Data ss:Type="String">SLI</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell><Data ss:Type="Number">101.667</Data></Cell>
+    <Cell><Data ss:Type="Number">20.333</Data></Cell>
+    <Cell><Data ss:Type="Number">5.000</Data></Cell>
+    <Cell><Data ss:Type="Number">1.838</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

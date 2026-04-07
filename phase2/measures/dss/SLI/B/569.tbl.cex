@@ -1,0 +1,83 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:53 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/B/569.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+that boy was happy . %snd:"569"_19668_21028                 |1  |   |2  |   |   |   |   |   |  1|  4|
+the boy look at the cookies . %snd:"569"_26213_28513        |   |   |1  |   |   |   |   |   |  1|  2|
+he pick [= picks] [* m:03s:a] one      |3  |2  |1  |   |   |   |   |   |  0|  6|
+    cookie . %snd:"569"_32665_34160                         |   |   |   |   |   |   |   |   |   |   |
+and it falls down ! %snd:"569"_36383_37808                  |1  |   |2  |   |   |3  |   |   |  1|  7|
+a bunny loves the dog . %snd:"569"_52891_55354              |   |   |2  |   |   |   |   |   |  1|  3|
+<and they shovel the> [//] <and they> [|1  |   |1 1|   |   |3  |   |   |  1|  7|
+    //] and that dog build a castle . %snd:"569"_57998_62682|   |   |   |   |   |   |   |   |   |   |
+<and the castle> [//] and <that bunny  |1  |   |3 1|   |   |3  |   |   |  1|  9|
+    just well> [//] it will fall down  |   |   |   |   |   |   |   |   |   |   |
+    the castle . %snd:"569"_65359_72533                     |   |   |   |   |   |   |   |   |   |   |
+and that bunny he [/] he melt [!] them |   |2 3|1  |   |   |3 8|   |   |  1| 18|
+    . %snd:"569"_76685_83032                                |   |   |   |   |   |   |   |   |   |   |
+they fix it up . %snd:"569"_89723_90844                     |1  |3  |1  |   |   |   |   |   |  1|  6|
+he waved at bunny . %snd:"569"_99163_101124                  |   |2  |2  |   |   |   |   |   |  1|  5|
+and they eat some snacks . %snd:"569"_104631_106633           |3  |3  |1  |   |   |3  |   |   |  1| 11|
+and the rabbit is [//] tummy is full . |   |   |1  |   |   |3  |   |   |  1|  5|
+    %snd:"569"_109755_112136                                  |   |   |   |   |   |   |   |   |   |   |
+and they got a tummyache . %snd:"569"_114880_115999           |   |3  |2  |   |   |3  |   |   |  1|  9|
+he tell him . %snd:"569"_119424_120484                        |   |2 2|1  |   |   |   |   |   |  1|  6|
+he just look [= looks] [* m:03s:a] at  |1  |2  |1  |   |   |   |   |   |  0|  4|
+    it . %snd:"569"_123235_124976                             |   |   |   |   |   |   |   |   |   |   |
+he just got a tummy:ache . %snd:"569"_125939_127780           |   |2  |2  |   |   |   |   |   |  1|  5|
+she really not feeling all better . %snd:"569"_133010_136354  |   |2  |1  |   |   |   |   |   |  1|  4|
+then she feels all better . %snd:"569"_138805_140827          |   |2  |2 1|   |   |   |   |   |  1|  6|
+he waved at the dog . %snd:"569"_149720_151321                |   |2  |2  |   |   |   |   |   |  1|  5|
+and he gets the balloon . %snd:"569"_151322_152863            |   |2  |2  |   |   |3  |   |   |  1|  8|
+then he show [= shows] [* m:03s:a] at  |   |2  |1  |   |   |   |   |   |  0|  3|
+    the balloon . %snd:"569"_155705_157866                    |   |   |   |   |   |   |   |   |   |   |
+then she pull it up . %snd:"569"_157926_162649                |1  |2  |1  |   |   |   |   |   |  1|  5|
+<he didn't> [//] she did . %snd:"569"_163890_166111           |   |2  |2  |   |   |   |   |   |  1|  5|
+and it go [= goes] [* m:03s:a] up ! %snd:"569"_167993_169353  |1  |   |1  |   |   |3  |   |   |  0|  5|
+and he was mad [!] . %snd:"569"_172835_174535                 |   |2  |2  |   |   |3  |   |   |  1|  8|
+it [//] she tell them . %snd:"569"_178398_181019              |   |2 3|1  |   |   |   |   |   |  1|  7|
+and he look [= looks] [* m:03s:a] at   |   |2  |1  |   |   |3  |   |   |  0|  6|
+    the balloons . %snd:"569"_181721_183000                   |   |   |   |   |   |   |   |   |   |   |
+and this present [?] number five . %snd:"569"_190236_196040   |1 3|   |1  |   |   |3  |   |   |  1|  9|
+and they love them . %snd:"569"_199783_201503                 |   |3 3|1  |   |   |3  |   |   |  1| 11|
+and they tell him again [!] . %snd:"569"_204745_206206        |   |3 2|1  |   |   |3  |   |   |  1| 10|
++" the balloon <won't get> [//] it [//]|1  |2  |1  |   |5  |   |   |   |  1| 10|
+     &+wo he won't get it back ! %snd:"569"_210454_215641     |   |   |   |   |   |   |   |   |   |   |
+and they all had two balloons . %snd:"569"_218885_221147      |3  |3  |2  |   |   |3  |   |   |  1| 12|
+and last year they have [= had] [* m:  |7  |3  |1  |   |   |3  |   |   |  0| 14|
+    base:ed] a balloon . %snd:"569"_223892_226394             |   |   |   |   |   |   |   |   |   |   |
+he said hi . %snd:"569"_234545_235706                         |   |2  |2  |   |   |   |   |   |  1|  5|
++" I love those rocks ! %snd:"569"_236569_238110              |   |1 3|1  |   |   |   |   |   |  1|  6|
+then that rock is falling ! %snd:"569"_240816_245383          |   |   |1  |   |   |8  |   |   |  1| 10|
+and he [//] that one is swimming ! %snd:"569"_248665_250787   |1 3|   |1  |   |   |3  |   |   |  1|  9|
+and he gave that rock [!] . %snd:"569"_252952_254513          |1  |2  |2  |   |   |3  |   |   |  1|  9|
+<and he play> [//] and he can play with|1  |2  |3 1|   |   |3  |   |   |  1| 11|
+     it now . %snd:"569"_257319_260584                        |   |   |   |   |   |   |   |   |   |   |
+he was jumping [!] over . %snd:"569"_276552_278513            |   |2  |2  |   |   |   |   |   |  1|  5|
+an(d) [/] and they can run faster [!] .|   |3  |3 1|   |   |3  |   |   |  1| 11|
+     %snd:"569"_278675_280677                                 |   |   |   |   |   |   |   |   |   |   |
++" I wanna go run [!] faster and jump [|1  |1  |1 1|2  |   |3  |   |   |  1| 11|
+    !] over it . %snd:"569"_288269_292533                     |   |   |1  |   |   |   |   |   |   |   |
+she ran [!] and [/] and then slipped . |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    %snd:"569"_301547_303948                                  |   |   |   |   |   |   |   |   |   |   |
+&-uh and he'll say youch ! %snd:"569"_304289_306572           |   |2  |3 1|   |   |3  |   |   |  1| 10|
++" and that hurts ! %snd:"569"_308815_309936                  |1  |   |2  |   |   |3  |   |   |  1|  7|
+he has a boo_boo .                     |   |2  |2  |   |   |   |   |   |  1|  5|
+and he tell [= told] [* m:03s:a] his   |   |2 2|1  |   |   |3  |   |   |  0|  8|
+    mom . %snd:"569"_313983_315583                            |   |   |   |   |   |   |   |   |   |   |
+and then he still cry [= cries] [* m:  |   |2  |1  |   |   |3  |   |   |  0|  6|
+    03s:a] . %snd:"569"_318264_320425                         |   |   |   |   |   |   |   |   |   |   |
+then he sit [= sat] [* m:03s:a] on it .|1  |2  |1  |   |   |   |   |   |  0|  4|
+     %snd:"569"_323025_324846                                 |   |   |   |   |   |   |   |   |   |   |
+and he could help . %snd:"569"_325788_326988                  |   |2  |5 1|   |   |3  |   |   |  1| 12|
+TOTAL                                  | 38|100| 91|  2|  5| 97|  0|  0| 41|374|
+
+Developmental sentence score:  7.48

@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:08 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/647.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a kid is going shopping to [/] to a    |   |   |1  |   |   |   |   |   |  1|  2|
+    store . %snd:"647"_6545_15142                          |   |   |   |   |   |   |   |   |   |   |
+he is gonna buy some cookies . %snd:"647"_20415_23096       |3  |2  |1 1|2  |   |   |   |   |  1| 10|
+he bought cookies . %snd:"647"_33342_35083                  |   |2  |2  |   |   |   |   |   |  1|  5|
+and then the cookie [/] cookie pyramid |   |   |2  |   |   |3  |   |   |  1|  6|
+    collapsed . %snd:"647"_39395_45418                      |   |   |   |   |   |   |   |   |   |   |
+all the boxes were opened . %snd:"647"_51523_54144          |3  |   |7  |   |   |   |   |   |  1| 11|
+and cookies split in half . %snd:"647"_54945_57347          |   |   |1  |   |   |3  |   |   |  1|  5|
+a dog and a bunny are making a         |   |   |2  |   |   |3  |   |   |  1|  6|
+    sandcastle . %snd:"647"_69545_72489                     |   |   |   |   |   |   |   |   |   |   |
+they needed thick sand . %snd:"647"_77580_80183             |   |3  |2  |   |   |   |   |   |  1|  6|
+but the sand was too light . %snd:"647"_85545_89407         |   |   |2  |   |   |5  |   |   |  1|  8|
+so it fell on the castle . %snd:"647"_89207_90688           |1  |   |2  |   |   |   |   |   |  1|  4|
+now the castle is nothing . %snd:"647"_96472_99473          |4  |   |1  |   |   |   |   |   |  1|  6|
+but they could see part of the castle .|   |3  |5 1|   |   |5  |   |   |  1| 15|
+     %snd:"647"_105825_108829                                 |   |   |   |   |   |   |   |   |   |   |
+a bunny and a dog are going for a walk |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"647"_120805_123609                                |   |   |   |   |   |   |   |   |   |   |
+(.) they have a picnic . %snd:"647"_130003_131244             |   |3  |1  |   |   |   |   |   |  1|  5|
+the bunny gets too full . %snd:"647"_137485_139848            |   |   |2  |   |   |   |   |   |  1|  3|
+he [//] the bunny gots [: has got] a   |   |   |2  |   |   |   |   |   |  1|  3|
+    stomach ache . %snd:"647"_144799_147944                   |   |   |   |   |   |   |   |   |   |   |
+the dog runs to the doctor . %snd:"647"_154325_163631         |   |   |2  |   |   |   |   |   |  1|  3|
+the dog pulls the doctor to the bunny .|   |   |2  |   |   |   |   |   |  1|  3|
+     %snd:"647"_164592_168293                                 |   |   |   |   |   |   |   |   |   |   |
+the doctor said he has a stomachache . |   |2  |2 2|5  |   |   |   |   |  1| 12|
+    %snd:"647"_177935_184581                                  |   |   |   |   |   |   |   |   |   |   |
+then the bunny's mom came . %snd:"647"_196765_199288          |   |   |2  |   |   |   |   |   |  1|  3|
+a dog is pulling a wagon with a balloon|   |   |1  |   |   |   |   |   |  1|  2|
+     . %snd:"647"_213226_216447                               |   |   |   |   |   |   |   |   |   |   |
++" if you let go it will fly up to the |1  |1  |1 1|   |   |5  |   |   |  1| 14|
+    sky . %snd:"647"_222432_225254                            |   |   |3 1|   |   |   |   |   |   |   |
++" no don't do that . %snd:"647"_231965_235068                |1  |   |3 1|   |4  |   |   |   |  1| 10|
+the balloon flied [: flew] [* m:=ed] up|   |   |2  |   |   |   |   |   |  0|  2|
+     to the sky . %snd:"647"_242040_244943                    |   |   |   |   |   |   |   |   |   |   |
+then a man comes by with [//] who was  |   |   |2 2|   |   |   |   |2  |  1|  7|
+    selling balloons . %snd:"647"_255075_260482               |   |   |   |   |   |   |   |   |   |   |
+(..) the bunny picked one of the       |3 3|   |2 2|   |   |   |   |4 8|  1| 23|
+    balloons which was five cents . %snd:"647"_271525_288003  |   |   |   |   |   |   |   |   |   |   |
+and he didn't have any money . %snd:"647"_287885_289725       |7  |2  |5 1|   |7  |3  |   |   |  1| 26|
+(.) so he couldn't buy it . %snd:"647"_299012_300854          |1  |2  |5 1|   |7  |   |   |   |  1| 17|
+his mom came . %snd:"647"_305515_306936                       |   |2  |2  |   |   |   |   |   |  1|  5|
+I need a [* s:r:gc:det] five cents to  |3 3|1 3|1  |   |   |   |   |   |  0| 11|
+    buy one of those balloons . %snd:"647"_318795_321668      |   |   |   |   |   |   |   |   |   |   |
+then the &-um mother &+w one give [=   |3 3|   |1  |   |   |   |   |   |  0|  7|
+    gives] [* m:03s:a] five cents [/]  |   |   |   |   |   |   |   |   |   |   |
+    cents to the man . %snd:"647"_328075_338383               |   |   |   |   |   |   |   |   |   |   |
+then they both got balloons . %snd:"647"_342255_344576        |7  |3  |2  |   |   |   |   |   |  1| 13|
+an elephant meets a horse . %snd:"647"_352903_355743          |   |   |2  |   |   |   |   |   |  1|  3|
+the horse swims to get it . %snd:"647"_367761_371824          |1  |   |2 1|5  |   |   |   |   |  1| 10|
+the horse got the ball . %snd:"647"_377635_379235             |   |   |2  |   |   |   |   |   |  1|  3|
+the elephant was happy . %snd:"647"_384599_385999             |   |   |2  |   |   |   |   |   |  1|  3|
+an elephant and a horse wanted to go on|   |   |2 1|5  |   |3  |   |   |  1| 12|
+     a diving board . %snd:"647"_394885_399127                |   |   |   |   |   |   |   |   |   |   |
+the elephant says let's go on the      |   |3  |2 1|2  |   |   |   |   |  1| 10|
+    diving board . %snd:"647"_405732_409613                   |   |   |1  |   |   |   |   |   |   |   |
+the elephant slips and scrapes her knee|   |2  |2  |   |   |3  |   |   |  1|  8|
+     . %snd:"647"_412955_421023                               |   |   |   |   |   |   |   |   |   |   |
+then the elephant's father comes and   |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    puts a bandaid on it . %snd:"647"_428635_436703           |   |   |   |   |   |   |   |   |   |   |
+and the father said that bandaid will  |1  |   |2 3|   |4  |3 8|   |   |  1| 27|
+    make sure it doesn't hurt . %snd:"647"_454945_462582      |   |   |1 3|   |   |   |   |   |   |   |
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the father says no running . %snd:"647"_468009_472121         |3  |   |2  |   |   |   |   |   |  1|  6|
+an elephant met a horse who has a toy  |   |6  |2 2|   |   |   |   |   |  1| 11|
+    plane . %snd:"647"_485476_489822                          |   |   |   |   |   |   |   |   |   |   |
+<the plane> [//] &+f he [//] the horse |1  |   |1 2|5  |   |   |   |   |  1| 10|
+    <pretend it> [/] pretend it flies .|   |   |   |   |   |   |   |   |   |   |
+     %snd:"647"_495778_503062                                 |   |   |   |   |   |   |   |   |   |   |
+then the elephant wants to try . %snd:"647"_507126_509588     |   |   |2 1|5  |   |   |   |   |  1|  9|
+then the elephant threw it in:to the   |1  |   |2  |   |   |   |   |   |  1|  4|
+    water . %snd:"647"_513536_518783                          |   |   |   |   |   |   |   |   |   |   |
+it was sinking . %snd:"647"_526094_527035                     |1  |   |2  |   |   |   |   |   |  1|  4|
+and the horse was mad . %snd:"647"_527359_529239              |   |   |2  |   |   |3  |   |   |  1|  6|
+(.) and the elephant's father came . %snd:"647"_536785_540187 |   |   |2  |   |   |3  |   |   |  1|  6|
++" I threw that plane into the water by|1  |1  |2  |   |   |   |   |   |  1|  5|
+     an accident . %snd:"647"_547658_550361                   |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 56| 41|140| 29| 22| 56|  0| 14| 47|405|
+
+Developmental sentence score:  8.10

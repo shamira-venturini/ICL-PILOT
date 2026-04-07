@@ -1,0 +1,201 @@
+@UTF8
+@PID:	11312/c-00036359-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|7;00.05|female|TD||Target_Child|||
+@Media:	743, audio
+@Comment:	Birth of CHI is 31-MAY-1993
+@Date:	05-JUN-2000
+@Tape Location:	Disk L15 Track 96
+@Types:	cross, narrative, TD
+*CHI:	I see a little boy walking into a store . 5138_8819
+%mor:	pro:sub|I v|see det:art|a adj|little n|boy part|walk-PRESP
+	prep|into det:art|a n|store .
+%xdss:	B1; C1; Z; D4; Z;
+*CHI:	and there's oranges and bottles and cans and grocery carts . 9401_14663
+%mor:	coord|and pro:exist|there~cop|be&3S n|orange-PL coord|and
+	n|bottle-PL coord|and n|can-PL coord|and n|grocery n|cart-PL .
+%xdss:	F3; C1; Z; F3; Z; F3; Z; F3; Z; Z;
+*CHI:	he went in <to it> [//] to the store . 17265_21387
+%mor:	pro:sub|he v|go&PAST prep|in prep|to det:art|the n|store .
+%xdss:	B2; C2; Z;
+*CHI:	cookies were piled . 22048_24689
+%mor:	n|cookie-PL aux|be&PAST part|pile-PASTP .
+%xdss:	Z; C7;
+*CHI:	and I think oranges were piled . 25491_28551
+%mor:	coord|and pro:sub|I v|think n|orange-PL aux|be&PAST part|pile-PASTP
+	.
+%xdss:	F3; B1; C1; Z; C7;
+*CHI:	and then there's a grocery man . 28853_31193
+%mor:	coord|and adv:tem|then pro:exist|there~cop|be&3S det:art|a
+	n|grocery n|man .
+%xdss:	F3; C1; Z; Z;
+*CHI:	and he picked a box of chocolate chip cookies . 35495_40061
+%mor:	coord|and pro:sub|he v|pick-PAST det:art|a n|box prep|of
+	n|chocolate n|chip n|cookie-PL .
+%xdss:	F3; B2; C2; Z; Z; Z; Z;
+*CHI:	and when he picked it they fell down . 43809_47433
+%mor:	coord|and conj|when pro:sub|he v|pick-PAST pro:per|it pro:sub|they
+	v|fall&PAST adv|down .
+%xdss:	F3; F8; B2; C2; A1; B3; C2;
+*CHI:	the keeper was mad . 50595_51915
+%mor:	det:art|the n|keep&dv-AGT cop|be&PAST&13S adj|mad .
+%xdss:	Z; C2;
+*CHI:	there was some cookies that were broken . 53666_55798
+%mor:	pro:exist|there cop|be&PAST&13S qn|some n|cookie-PL pro:rel|that
+	aux|be&PAST part|break&PASTP .
+%xdss:	C2; A3; Z; B6; C7;
+*CHI:	he ran away . 56275_57177
+%mor:	pro:sub|he v|run&PAST adv|away .
+%xdss:	B2; C2;
+@G:	B1
+*CHI:	there is a bunny and a dog I think were playing in the sandbox and
+	making a sandcastle . 66447_76684
+%mor:	pro:exist|there cop|be&3S det:art|a n|bunny coord|and det:art|a
+	n|dog pro:sub|I v|think aux|be&PAST part|play-PRESP prep|in
+	det:art|the n|+n|sand+n|box coord|and part|make-PRESP det:art|a
+	n|+n|sand+n|castle .
+%xdss:	C1; Z; F3; Z; B1; C1; C2; Z; F3; Z;
+*CHI:	the [/] &+bu the bunny was getting the sand from the bucket . 81015_86205
+%mor:	det:art|the n|bunny aux|be&PAST&13S part|get-PRESP det:art|the
+	n|sand prep|from det:art|the n|bucket .
+%xdss:	Z; C2; Z; Z;
+*CHI:	and the dog was making the sandcastle . 86828_89391
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|make-PRESP
+	det:art|the n|+n|sand+n|castle .
+%xdss:	F3; Z; C2; Z;
+*CHI:	but he [//] the rabbit poured all the sand on it . 93765_98172
+%mor:	conj|but det:art|the n|rabbit v|pour-PAST qn|all det:art|the n|sand
+	prep|on pro:per|it .
+%xdss:	F5; Z; C2; A3; Z; A1;
+*CHI:	and the dog looked &-um &+fri &-um surprised . 98114_103122
+%mor:	coord|and det:art|the n|dog part|look-PASTP v|surprise-PAST .
+%xdss:	F3; Z; D4; C2;
+*CHI:	the sandcastle was broke [= broken] [* m:sub:en] . 107755_109475
+%mor:	det:art|the n|+n|sand+n|castle cop|be&PAST&13S adj|broke .
+%xdss:	Z; C2;
+*CHI:	the bunny had his mouth open . 109716_111757
+%mor:	det:art|the n|bunny v|have&PAST det:poss|his n|mouth adj|open .
+%xdss:	Z; C2; B2; Z;
+*CHI:	the dog was crying . 116520_117800
+%mor:	det:art|the n|dog aux|be&PAST&13S part|cry-PRESP .
+%xdss:	Z; C2;
+*CHI:	but the bunny was just nervous . 118362_122663
+%mor:	conj|but det:art|the n|bunny cop|be&PAST&13S adv|just adj|nervous .
+%xdss:	F5; Z; C2;
+@G:	B2
+*CHI:	here's the doggy and the rabbit again . 131177_135119
+%mor:	pro:exist|here~cop|be&3S det:art|the adj|dog&dn-Y coord|and
+	det:art|the n|rabbit adv:tem|again .
+%xdss:	C1; F3; Z;
+*CHI:	&-um they are going for a picnic with their &+basks baskets in the
+	wood^s . 135919_143463
+%mor:	pro:sub|they aux|be&PRES part|go-PRESP prep|for det:art|a n|picnic
+	prep|with det:poss|their n|basket-PL prep|in det:art|the n|wood-PL .
+%xdss:	B3; C2; Z; B3; Z; Z;
+*CHI:	the bunny was really thirsty . 148255_151116
+%mor:	det:art|the n|bunny cop|be&PAST&13S adv|real&dadj-LY
+	adj|thirst&dn-Y .
+%xdss:	Z; C2;
+*CHI:	but the dog wasn't . 151957_153117
+%mor:	conj|but det:art|the n|dog cop|be&PAST&13S~neg|not .
+%xdss:	F5; Z; C2; E7;
+*CHI:	he looked at him surprised . 153358_155018
+%mor:	pro:sub|he v|look-PAST prep|at pro:obj|him v|surprise-PAST .
+%xdss:	B2; C2; B2; C2;
+*CHI:	there was a cake cheese <and a basket and> [//] and the basket
+	poured and a carrot &=laughs . 155420_162663
+%mor:	pro:exist|there cop|be&PAST&13S det:art|a n|cake n|cheese coord|and
+	det:art|the n|basket v|pour-PAST coord|and det:art|a n|carrot .
+%xdss:	C2; Z; Z; F3; Z; C2; F3; Z;
+*CHI:	<the dog> [//] no the bunny ate all [!] his stuff . 168555_173763
+%mor:	qn|no det:art|the n|bunny v|eat&PAST qn|all det:poss|his n|stuff .
+%xdss:	A3; Z; C2; A3; B2; Z;
+*CHI:	there was an apple . 174025_175145
+%mor:	pro:exist|there cop|be&PAST&13S det:art|a n|apple .
+%xdss:	C2; Z;
+*CHI:	it was all done . 175388_176488
+%mor:	pro:per|it aux|be&PAST&13S adv|all part|do&PASTP .
+%xdss:	A1; C2;
+*CHI:	there was a cheese was all aten [: eaten] [* m:++en:i] . 176590_178212
+%mor:	pro:exist|there cop|be&PAST&13S det:art|a n|cheese aux|be&PAST&13S
+	adv|all part|eat&PASTP .
+%xdss:	C2; Z; C2;
+*CHI:	the carrot was all aten [: eaten] [* m:++en:i] . 178093_179314
+%mor:	det:art|the n|carrot aux|be&PAST&13S adv|all part|eat&PASTP .
+%xdss:	Z; C2;
+*CHI:	but the dog was still eating her sandwich and <her juice> [//] well
+	drinking her juice . 179485_185089
+%mor:	conj|but det:art|the n|dog aux|be&PAST&13S adv|still part|eat-PRESP
+	det:poss|her n|sandwich coord|and n|well part|drink-PRESP
+	det:poss|her n|juice .
+%xdss:	F5; Z; C2; B2; Z; F3; Z; D4; B2; Z;
+*CHI:	then [!] the [/] the bunny had a tummyache . 188153_190594
+%mor:	adv:tem|then det:art|the n|bunny v|have&PAST det:art|a
+	n|+n|tummy+n|ache .
+%xdss:	Z; C2; Z;
+*CHI:	but the dog was looking at the bunny surprised . 191415_194636
+%mor:	conj|but det:art|the n|dog aux|be&PAST&13S part|look-PRESP prep|at
+	det:art|the n|bunny v|surprise-PAST .
+%xdss:	F5; Z; C2; Z; C2;
+*CHI:	missus bunny came . 200261_201681
+%mor:	n|missus n|bunny v|come&PAST .
+%xdss:	Z; Z; C2;
+*CHI:	and [/] &+wa and she was walking along . 202963_205863
+%mor:	coord|and pro:sub|she aux|be&PAST&13S part|walk-PRESP adv|along .
+%xdss:	F3; B2; C2;
+*CHI:	and then the dog ran <to her> [//] to doctor . 206645_212068
+%mor:	coord|and adv:tem|then det:art|the n|dog v|run&PAST inf|to v|doctor
+	.
+%xdss:	F3; Z; C2; D5; C1;
+*CHI:	(.) <he was still> [//] &+ha he still had a tummyache . 217513_219774
+%mor:	pro:sub|he adv|still v|have&PAST det:art|a n|+n|tummy+n|ache .
+%xdss:	B2; C2; Z;
+*CHI:	and the dog was pulling her [/] her sleeve . 221135_224001
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|pull-PRESP
+	det:poss|her n|sleeve .
+%xdss:	F3; Z; C2; B2; Z;
+*CHI:	and she looked surprised the doctor . 225188_227391
+%mor:	coord|and pro:sub|she v|look-PAST v|surprise-PAST det:art|the
+	n|doctor .
+%xdss:	F3; B2; C2; C2; Z;
+*CHI:	the doctor was [//] said he has a tummyache from eating too much .
+	232215_238826
+%mor:	det:art|the n|doctor v|say&PAST pro:sub|he v|have&3S det:art|a
+	n|+n|tummy+n|ache prep|from part|eat-PRESP adv|too adv|much .
+%xdss:	Z; C2; D5; B2; C2; Z;
+*CHI:	and he hadta look &-uh with his tongue with a stick . 238988_242213
+%mor:	coord|and pro:sub|he mod|have&PAST~inf|to v|look prep|with
+	det:poss|his n|tongue prep|with det:art|a n|stick .
+%xdss:	F3; B2; C1; B2; Z; Z;
+*CHI:	then she walked along with rabbit . 248355_253898
+%mor:	adv:tem|then pro:sub|she v|walk-PAST adv|along prep|with n|rabbit .
+%xdss:	B2; C2; Z;
+*CHI:	he [//] and they went together . 254299_257680
+%mor:	coord|and pro:sub|they v|go&PAST adv|together .
+%xdss:	F3; B3; C2;
+*CHI:	and the dog was only left with the picnic . 259763_262423
+%mor:	coord|and det:art|the n|dog cop|be&PAST&13S qn|only adj|left
+	prep|with det:art|the n|picnic .
+%xdss:	F3; Z; C2; A3; Z;
+@G:	B3
+*CHI:	well the dog was going with a balloon on her &-um wagon wheel . 273017_279041
+%mor:	co|well det:art|the n|dog aux|be&PAST&13S part|go-PRESP prep|with
+	det:art|a n|balloon prep|on det:poss|her n|wagon n|wheel .
+%xdss:	Z; C2; Z; B2; Z; Z;
+*CHI:	and the bunny ran [!] to her . 279262_281022
+%mor:	coord|and det:art|the n|bunny v|run&PAST prep|to pro:obj|her .
+%xdss:	F3; Z; C2; B2;
+*CHI:	it looked like he was jogging . 281383_283183
+%mor:	pro:per|it cop|look-PAST conj|like pro:sub|he aux|be&PAST&13S
+	part|jog-PRESP .
+%xdss:	A1; F8; B2; C2;
+*CHI:	the bunny was surprised she had a balloon . 288295_292037
+%mor:	det:art|the n|bunny aux|be&PAST&13S part|surprise-PASTP pro:sub|she
+	v|have&PAST det:art|a n|balloon .
+%xdss:	Z; C7; B2; C2; Z;
+*CHI:	she didn't look so happy . 299423_301063
+%mor:	pro:sub|she mod|do&PAST~neg|not v|look adv|so adj|happy .
+%xdss:	B2; C5; E7; C1;

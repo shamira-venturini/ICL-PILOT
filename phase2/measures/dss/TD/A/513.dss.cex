@@ -1,0 +1,238 @@
+@UTF8
+@PID:	11312/c-00036247-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|5;07.07|female|TD||Target_Child|||
+@Media:	513, audio
+@Comment:	Birth of CHI is 4-SEP-1994
+@Date:	11-APR-2000
+@Tape Location:	Disk L4 Track 32
+@Types:	cross, narrative, TD
+*CHI:	I see a boy . 14725_15845
+%mor:	pro:sub|I v|see det:art|a n|boy .
+%xdss:	B1; C1; Z;
+*CHI:	and I see a store and two carts . 25379_29383
+%mor:	coord|and pro:sub|I v|see det:art|a n|store coord|and det:num|two
+	n|cart-PL .
+%xdss:	F3; B1; C1; Z; F3; A3; Z;
+*CHI:	and then the [/] the boy found some cookies . 39685_45902
+%mor:	coord|and adv:tem|then det:art|the n|boy v|find&PAST qn|some
+	n|cookie-PL .
+%xdss:	F3; Z; C2; A3; Z;
+*CHI:	<then he took> [//] then the boy took a box of cookies . 52055_57998
+%mor:	adv:tem|then det:art|the n|boy v|take&PAST det:art|a n|box prep|of
+	n|cookie-PL .
+%xdss:	Z; C2; Z; Z;
+*CHI:	then all of the cookies &+f fell down . 62322_65823
+%mor:	adv:tem|then qn|all prep|of det:art|the n|cookie-PL v|fall&PAST
+	adv|down .
+%xdss:	A3; Z; C2;
+*CHI:	(..) ↫th↫then a man g^ot ma^d at a little boy . 82035_86617
+%mor:	adv:tem|then det:art|a n|man v|get&PAST adj|mad prep|at det:art|a
+	adj|little n|boy .
+%xdss:	Z; C2; Z;
+@G:	A1
+*CHI:	once there [/] there [/] &+w there was an elephant who was playing
+	with a ball . 101780_106863
+%mor:	adv:tem|once adv|there cop|be&PAST&13S det:art|a n|elephant
+	pro:rel|who aux|be&PAST&13S part|play-PRESP prep|with det:art|a
+	n|ball .
+%xdss:	C2; Z; B6; C2; Z;
+*CHI:	then the ↫ba↫ball fell ↫i↫into a pool . 110615_114016
+%mor:	adv:tem|then det:art|the n|ball v|fall&PAST prep|into det:art|a
+	n|pool .
+%xdss:	Z; C2; Z;
+*CHI:	then the elephant's friend ↫tr↫tried to catch the ball . 120262_124443
+%mor:	adv:tem|then det:art|the adj|elephant&dn-POSS n|friend v|try-PAST
+	inf|to v|catch det:art|the n|ball .
+%xdss:	Z; C2; D5; C1; Z;
+*CHI:	his fr^iend then got it . 129106_132161
+%mor:	det:poss|his n|friend adv:tem|then v|get&PAST pro:per|it .
+%xdss:	B2; Z; C2; A1;
+*CHI:	then the eleph^ant thanked his friend for getting his ball . 137595_144779
+%mor:	adv:tem|then det:art|the n|elephant v|thank-PAST det:poss|his
+	n|friend prep|for part|get-PRESP det:poss|his n|ball .
+%xdss:	Z; C2; B2; Z; B2; Z;
+@G:	A2
+*CHI:	wa [/] once there was an elephant . 162123_164204
+%mor:	adv:tem|once adv|there cop|be&PAST&13S det:art|a n|elephant .
+%xdss:	C2; Z;
+*CHI:	and [/] and [/] and then he [/] he was running . 175546_182002
+%mor:	coord|and adv:tem|then pro:sub|he aux|be&PAST&13S part|run-PRESP .
+%xdss:	F3; B2; C2;
+*CHI:	then the elephant accidentally slipped . 190335_193016
+%mor:	adv:tem|then det:art|the n|elephant adv|accident&dadj-AL-LY
+	v|slip-PAST .
+%xdss:	Z; C2;
+*CHI:	then he [/] he started crying because he [/] he fell down and
+	bumped his knee . 197440_203763
+%mor:	adv:tem|then pro:sub|he v|start-PAST part|cry-PRESP conj|because
+	pro:sub|he v|fall&PAST adv|down coord|and v|bump-PAST det:poss|his
+	n|knee .
+%xdss:	B2; C2; F6; B2; C2; F3; C2; B2; Z;
+*CHI:	then his friend try [//] tried to [/] to help him . 209355_214164
+%mor:	adv:tem|then det:poss|his n|friend v|try-PAST inf|to v|help
+	pro:obj|him .
+%xdss:	B2; Z; C2; D5; C1; B2;
+*CHI:	then the lifeg^uard put a bandaid on . 219995_224998
+%mor:	adv:tem|then det:art|the n|+n|life+n|guard v|put&ZERO det:art|a
+	n|bandaid adv|on .
+%xdss:	Z; C1; Z;
+*CHI:	&=sighs then he felt much better . 230663_232784
+%mor:	adv:tem|then pro:sub|he v|feel&PAST adv|much v|better .
+%xdss:	B2; C2; C1;
+*CHI:	then the lifeguard &+sa told him th^at there is no running allowed
+	. 237675_245520
+%mor:	adv:tem|then det:art|the n|+n|life+n|guard v|tell&PAST pro:obj|him
+	comp|that adv|there cop|be&3S qn|no part|run-PRESP part|allow-PASTP
+	.
+%xdss:	Z; C2; B2; F8; C1; A3;
+@G:	A3
+*CHI:	the elephant had a ↫fr↫friend that had an airpl^ane that he liked
+	to play with . 266105_271942
+%mor:	det:art|the n|elephant v|have&PAST det:art|a n|friend pro:rel|that
+	v|have&PAST det:art|a n|+n|air+n|plane pro:rel|that pro:sub|he
+	v|like-PAST inf|to v|play prep|with .
+%xdss:	Z; C2; Z; B6; C2; Z; B6; B2; C2; D5; C1;
+*CHI:	then the eleph^ant just grabbed the plane from his friend's hand .
+	275955_282038
+%mor:	adv:tem|then det:art|the n|elephant adv|just v|grab-PAST
+	det:art|the n|plane prep|from det:poss|his adj|friend&dn-POSS n|hand
+	.
+%xdss:	Z; C2; Z; B2; Z;
+*CHI:	then the eleph^ant accidentally dropped the plane into the water .
+	286462_290603
+%mor:	adv:tem|then det:art|the n|elephant adv|accident&dadj-AL-LY
+	v|drop-PAST det:art|the n|plane prep|into det:art|the n|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	and then his friend got &+ve very angry at him . 294085_298204
+%mor:	coord|and adv:tem|then det:poss|his n|friend aux|get&PAST adv|very
+	adj|angry prep|at pro:obj|him .
+%xdss:	F3; B2; Z; C2; B2;
+*CHI:	then the life^guard came and saw that there was a toy ↫p↫plane in
+	[/] in the pool . 302635_311303
+%mor:	adv:tem|then det:art|the n|+n|life+n|guard v|come&PAST coord|and
+	v|see&PAST comp|that adv|there cop|be&PAST&13S det:art|a n|toy
+	n|plane prep|in det:art|the n|pool .
+%xdss:	Z; C2; F3; C2; F8; C2; Z; Z; Z;
+*CHI:	<then the> [/] &+l then the little eleph^ant told the life^guard
+	what he accidentally did . 316135_325784
+%mor:	adv:tem|then det:art|the adj|little n|elephant v|tell&PAST
+	det:art|the n|+n|life+n|guard pro:int|what pro:sub|he
+	adv|accident&dadj-AL-LY v|do&PAST .
+%xdss:	Z; C2; Z; H4; H2; B2; C2;
+*CHI:	then the life^guard tried to get it by ↫rea↫reaching ↫ou↫out his
+	hand . 329575_336679
+%mor:	adv:tem|then det:art|the n|+n|life+n|guard v|try-PAST inf|to v|get
+	pro:per|it adv|by part|reach-PRESP adv|out det:poss|his n|hand .
+%xdss:	Z; C2; D5; C1; A1; B2; Z;
+*CHI:	then his friend started crying . 341423_343104
+%mor:	adv:tem|then det:poss|his n|friend v|start-PAST part|cry-PRESP .
+%xdss:	B2; Z; C2;
+*CHI:	then another elephant came . 349115_351356
+%mor:	adv:tem|then qn|another n|elephant v|come&PAST .
+%xdss:	A3; Z; C2;
+*CHI:	a [//] and she had something that [/] that [/] that had a handle
+	that was very long . 351116_361563
+%mor:	coord|and pro:sub|she v|have&PAST pro:indef|something pro:rel|that
+	v|have&PAST det:art|a n|handle pro:rel|that cop|be&PAST&13S adv|very
+	adj|long .
+%xdss:	F3; B2; C2; A3; B6; C2; Z; B6; C2;
+*CHI:	and it had something like a hooped to get the plane . 362045_369862
+%mor:	coord|and pro:per|it v|have&PAST pro:indef|something prep|like
+	det:art|a part|hoop-PASTP inf|to v|get det:art|the n|plane .
+%xdss:	F3; A1; C2; A3; F8; C1; Z;
+*CHI:	then the eleph^ant got it . 376095_378624
+%mor:	adv:tem|then det:art|the n|elephant v|get&PAST pro:per|it .
+%xdss:	Z; C2; A1;
+*CHI:	then his fr^iend was very happy that he had his plane . 387595_394583
+%mor:	adv:tem|then det:poss|his n|friend cop|be&PAST&13S adv|very
+	adj|happy comp|that pro:sub|he v|have&PAST det:poss|his n|plane .
+%xdss:	B2; Z; C2; F8; B2; C2; B2; Z;
+*CHI:	then the elephant's &+fr friend started to play with [/] with [/]
+	with his plane again . 403595_415143
+%mor:	adv:tem|then det:art|the adj|elephant&dn-POSS n|friend v|start-PAST
+	prep|to n|play prep|with det:poss|his n|plane adv:tem|again .
+%xdss:	Z; C2; Z; B2; Z;
+@G:	B1
+*CHI:	once there was a bunny . 429364_430703
+%mor:	adv:tem|once adv|there cop|be&PAST&13S det:art|a n|bunny .
+%xdss:	C2; Z;
+*CHI:	(..) the bunny was helping his friend make a castle in the sand . 437785_444562
+%mor:	det:art|the n|bunny aux|be&PAST&13S part|help-PRESP det:poss|his
+	n|friend v|make det:art|a n|castle prep|in det:art|the n|sand .
+%xdss:	Z; C2; B2; Z; C1; Z; Z;
+*CHI:	then his friend got very worried ↫be↫because the bunny ↫ha↫had been
+	throwing sand on his castle . 448635_456323
+%mor:	adv:tem|then det:poss|his n|friend v|get&PAST adv|very
+	part|worry-PASTP conj|because det:art|the n|bunny aux|have&PAST
+	aux|be&PASTP part|throw-PRESP n|sand prep|on det:poss|his n|castle .
+%xdss:	B2; Z; C2; F6; Z; C1; Z; B2; Z;
+*CHI:	then his friend was very sad because the bunny had wrecked his
+	castle . 464535_472383
+%mor:	adv:tem|then det:poss|his n|friend cop|be&PAST&13S adv|very adj|sad
+	conj|because det:art|the n|bunny v|have&PAST part|wreck-PASTP
+	det:poss|his n|castle .
+%xdss:	B2; Z; C2; F6; Z; C2; B2; Z;
+*CHI:	that was quick . [+ bch] 486923_487822
+%mor:	pro:dem|that cop|be&PAST&13S adv|quick .
+%xdss:	A1; C2;
+@G:	B2
+*CHI:	with [//] and he had a friend . 499543_501624
+%mor:	coord|and pro:sub|he v|have&PAST det:art|a n|friend .
+%xdss:	F3; B2; C2; Z;
+*CHI:	the [/] the bunny had so [/] so much food that he was so hungry
+	that he started eating already . 512647_519162
+%mor:	det:art|the n|bunny v|have&PAST adv|so qn|much n|food pro:rel|that
+	pro:sub|he cop|be&PAST&13S adv|so adj|hungry comp|that pro:sub|he
+	v|start-PAST part|eat-PRESP adv|already .
+%xdss:	Z; C2; A3; Z; B6; B2; C2; F8; B2; C2;
+*CHI:	then the bunny was very full . 524995_527261
+%mor:	adv:tem|then det:art|the n|bunny cop|be&PAST&13S adv|very adj|full
+	.
+%xdss:	Z; C2;
+*CHI:	then the bunny started ↫f↫feeling a [/] &+bi a bit dizzy . 533535_541703
+%mor:	adv:tem|then det:art|the n|bunny v|start-PAST part|feel-PRESP
+	det:art|a n|bit adj|dizzy .
+%xdss:	Z; C2; Z;
+*CHI:	then [/] then his friend found [//] saw a doctor . 548295_556043
+%mor:	adv:tem|then det:poss|his n|friend v|see&PAST det:art|a n|doctor .
+%xdss:	B2; Z; C2; Z;
+*CHI:	and his friend <called the> [//] rushed to the doctor and told the
+	doctor what had happened to the bunny . 556405_567384
+%mor:	coord|and det:poss|his n|friend v|rush-PAST prep|to det:art|the
+	n|doctor coord|and v|tell&PAST det:art|the n|doctor pro:int|what
+	aux|have&PAST part|happen-PASTP prep|to det:art|the n|bunny .
+%xdss:	F3; B2; Z; C2; Z; F3; C2; Z; H4; H2; Z;
+*CHI:	his friend was pulling the doctor's coat <to try> [/] to try and
+	get him to [/] to come and see what had happened to the bunny . 574205_593183
+%mor:	det:poss|his n|friend aux|be&PAST&13S part|pull-PRESP det:art|the
+	adj|doctor&dn-POSS n|coat inf|to v|try coord|and v|get pro:obj|him
+	inf|to v|come coord|and v|see pro:int|what aux|have&PAST
+	part|happen-PASTP prep|to det:art|the n|bunny .
+%xdss:	B2; Z; C2; Z; C1; F3; C1; D5; B2; C1; F3; C1; H4; H2; Z;
+*CHI:	and then the doctor found out what had happened to [/] to the bunny
+	. 599395_606144
+%mor:	coord|and adv:tem|then det:art|the n|doctor v|find&PAST adv|out
+	pro:int|what aux|have&PAST part|happen-PASTP prep|to det:art|the
+	n|bunny .
+%xdss:	F3; Z; C2; H2; Z;
+*CHI:	then the bunny ↫fel↫felt much better . 611075_615057
+%mor:	adv:tem|then det:art|the n|bunny v|feel&PAST adv|much v|better .
+%xdss:	Z; C2; C1;
+@G:	B3
+*CHI:	once there ↫wa↫was a bunny that had a friend <who was> [/] who was
+	pulling a wagon that [/] that [/] that had a balloon on it . 628785_638884
+%mor:	adv:tem|once adv|there cop|be&PAST&13S det:art|a n|bunny
+	pro:rel|that v|have&PAST det:art|a n|friend pro:rel|who
+	aux|be&PAST&13S part|pull-PRESP det:art|a n|wagon pro:rel|that
+	v|have&PAST det:art|a n|balloon prep|on pro:per|it .
+%xdss:	C2; Z; B6; C2; Z; B6; C2; Z; B6; C2; Z; A1;
+*CHI:	and the bunny loved balloons . 645065_646889
+%mor:	coord|and det:art|the n|bunny v|love-PAST n|balloon-PL .
+%xdss:	F3; Z; C2; Z;
+*CHI:	so he tried to get the balloon . 647415_649961
+%mor:	co|so pro:sub|he v|try-PAST inf|to v|get det:art|the n|balloon .
+%xdss:	B2; C2; D5; C1; Z;

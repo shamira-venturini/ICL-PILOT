@@ -1,0 +1,83 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:06 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/472.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+the boy went to the store . %snd:"472"_3417_5418          |   |   |2  |   |   |   |   |   |  1|  3|
+he found a whole bunch of food . %snd:"472"_7941_11303     |   |2  |2  |   |   |   |   |   |  1|  5|
+he bought one of the cookies . %snd:"472"_13925_15526       |3  |2  |2  |   |   |   |   |   |  1|  8|
+<and he> [/] and he took one . %snd:"472"_17890_21154       |3  |2  |2  |   |   |3  |   |   |  1| 11|
+and it all fell down . %snd:"472"_20915_22596               |1  |   |2  |   |   |3  |   |   |  1|  7|
+and the man was angry . %snd:"472"_24821_27103              |   |   |2  |   |   |3  |   |   |  1|  6|
+the rabbit wanted to play with the dog |   |   |2 1|5  |   |   |   |   |  1|  9|
+    . %snd:"472"_34920_37360                                |   |   |   |   |   |   |   |   |   |   |
+he took some sand in a bucket . %snd:"472"_39787_41724      |3  |2  |2  |   |   |   |   |   |  1|  8|
+then he poured on the sandcastle . %snd:"472"_43555_45836   |   |2  |2  |   |   |   |   |   |  1|  5|
+and it fell down . %snd:"472"_48099_49620                   |1  |   |2  |   |   |3  |   |   |  1|  7|
+and he wanna make it again . %snd:"472"_52505_54464         |1  |2  |1 1|2  |   |3  |   |   |  1| 11|
+the rabbit saw the dog . %snd:"472"_61597_63538             |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit said I'm hungry . %snd:"472"_67421_69603         |   |1  |2 2|   |   |   |   |   |  1|  6|
+the rabbit ate the carrot . %snd:"472"_71965_74507          |   |   |2  |   |   |   |   |   |  1|  3|
+and he got bonked [?] . %snd:"472"_77333_79275              |   |2  |2  |   |   |3  |   |   |  1|  8|
++" go away rabbit . %snd:"472"_86026_87508                  |   |   |1  |   |   |   |   |   |  1|  2|
+the [/] <the rabbit> [//] the mother   |   |   |2 1|   |   |   |   |   |  1|  4|
+    rabbit said <to the> [/] &+rab &-um|   |   |   |   |   |   |   |   |   |   |
+     to the baby rabbit <go home> [/]  |   |   |   |   |   |   |   |   |   |   |
+    go home . %snd:"472"_96385_114183                        |   |   |   |   |   |   |   |   |   |   |
+he got one balloon . %snd:"472"_124431_125892                 |3  |2  |2  |   |   |   |   |   |  1|  8|
+the rabbit &+tr try [= tries] [* m:03s:|1  |   |1 2|5  |   |   |   |   |  0|  9|
+    a] to took [= take] [* m:irr:ed] it|   |   |   |   |   |   |   |   |   |   |
+     off . %snd:"472"_129519_132884                           |   |   |   |   |   |   |   |   |   |   |
+and it flew up . %snd:"472"_136595_139018                     |1  |   |2  |   |   |3  |   |   |  1|  7|
+the rabbit said to the dog sorry . %snd:"472"_142065_147274   |   |   |2  |   |   |   |   |   |  1|  3|
+then the dog saw a man that was selling|   |6  |2 2|   |   |   |   |   |  1| 11|
+     lots of balloons . %snd:"472"_150925_156268              |   |   |   |   |   |   |   |   |   |   |
+then the rabbit wanted one balloon . %snd:"472"_159512_162173 |3  |   |2  |   |   |   |   |   |  1|  6|
+and the rabbit took one . %snd:"472"_165735_171505            |3  |   |2  |   |   |3  |   |   |  1|  9|
+and he dropped it in the air . %snd:"472"_171988_175092       |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and he got no more money to buy the    |3 3|2  |2 1|   |   |3  |   |   |  1| 15|
+    balloon . %snd:"472"_177915_183959                        |   |   |   |   |   |   |   |   |   |   |
+then he went home with his mommy . %snd:"472"_186262_188823   |   |2 2|2  |   |   |   |   |   |  1|  7|
+then his mom gave him more coin . %snd:"472"_192515_195518    |   |2 2|2  |   |   |   |   |   |  1|  7|
+and they buy one more balloon . %snd:"472"_199324_203247      |3  |3  |1  |   |   |3  |   |   |  1| 11|
+the giraffe saw a pool . %snd:"472"_210215_212737             |   |   |2  |   |   |   |   |   |  1|  3|
+it had a ball . %snd:"472"_214841_217043                      |1  |   |2  |   |   |   |   |   |  1|  4|
+he wanted to play in there and catch it|1  |2  |2 1|   |   |3  |   |   |  1| 10|
+     . %snd:"472"_218827_221530                               |   |   |   |   |   |   |   |   |   |   |
+and the elephant gave him a new ball . |   |2  |2  |   |   |3  |   |   |  1|  8|
+    %snd:"472"_225815_229519                                  |   |   |   |   |   |   |   |   |   |   |
+the giraffe went to the pool . %snd:"472"_235489_239793       |   |   |2  |   |   |   |   |   |  1|  3|
+he's [//] the elephant said to the     |   |   |2 1|   |   |   |   |   |  1|  4|
+    giraffe come in the pool . %snd:"472"_241935_246642       |   |   |   |   |   |   |   |   |   |   |
+so the elephant kicked the ball . %snd:"472"_249550_251974    |   |   |2  |   |   |   |   |   |  1|  3|
+and the elephant got hurt . %snd:"472"_255675_259239          |   |   |2 1|   |   |3  |   |   |  1|  7|
+so the other elephant came and put a   |3  |2  |2 1|   |   |3  |   |   |  1| 12|
+    bandaid for her . %snd:"472"_262345_269034                |   |   |   |   |   |   |   |   |   |   |
+then the giraffe said come here . %snd:"472"_272765_275367    |   |   |2 1|   |   |   |   |   |  1|  4|
+so the elephant sit [= sits] [* m:03s:a|   |   |1  |   |   |   |   |   |  0|  1|
+    ] on the bench . %snd:"472"_277110_280894                 |   |   |   |   |   |   |   |   |   |   |
+the giraffe got a airplane . %snd:"472"_288255_290257         |   |   |2  |   |   |   |   |   |  1|  3|
+he wanted to play with it in the pool .|1  |2  |2 1|5  |   |   |   |   |  1| 12|
+     %snd:"472"_291820_294162                                 |   |   |   |   |   |   |   |   |   |   |
+he dropped it in the pool . %snd:"472"_295685_298488          |1  |2  |2  |   |   |   |   |   |  1|  6|
+and it got wet . %snd:"472"_300953_302414                     |1  |   |2  |   |   |3  |   |   |  1|  7|
+and he tried to took it out . %snd:"472"_305155_309262        |1  |2  |2 2|5  |   |3  |   |   |  1| 16|
+and it flew to the other side . %snd:"472"_311408_314733      |1 3|   |2  |   |   |3  |   |   |  1| 10|
+the giraffe tried to took [= take] [* m|1  |   |2 2|5  |   |6  |   |   |  0| 16|
+    :irr:ed] it because the ele(phant) |   |   |   |   |   |   |   |   |   |   |
+    . %snd:"472"_317495_322817                                |   |   |   |   |   |   |   |   |   |   |
+and the man elephant was trying to took|1  |   |2 2|   |   |3  |   |   |  1|  9|
+     it . %snd:"472"_323999_328400                            |   |   |   |   |   |   |   |   |   |   |
+but it was too far away . %snd:"472"_330203_332604            |1  |   |2  |   |   |5  |   |   |  1|  9|
+<and she got> [//] and she didn't got  |1  |2  |5 2|   |7  |3  |   |   |  1| 21|
+    it still . %snd:"472"_343177_346903                       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 50| 52|122| 27|  7| 71|  0|  0| 47|376|
+
+Developmental sentence score:  7.52

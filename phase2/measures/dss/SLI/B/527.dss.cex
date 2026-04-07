@@ -1,0 +1,193 @@
+@UTF8
+@PID:	11312/c-00036121-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|5;10.03|female|SLI||Target_Child|||
+@Media:	527, audio
+@Comment:	Birth of CHI is 22-JUN-1994
+@Date:	25-APR-2000
+@Tape Location:	Disk L10 Track 13
+@Types:	cross, narrative, SLI
+*CHI:	I see carts . 8280_9199
+%mor:	pro:sub|I v|see n|cart-PL .
+%xdss:	B1; C1; Z;
+*CHI:	what's that ? 10543_11344
+%mor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xdss:	C1; H2; A1; G1;
+*CHI:	that's s@l t@l o@l r@l e@l . 22127_35084
+%mor:	pro:dem|that~cop|be&3S n:let|s n:let|t n:let|o n:let|r n:let|e .
+%xdss:	A1; C1; Z; Z; Z; Z; Z;
+*CHI:	he's going to buy some cups &*EXA:mhm and bottles . 41438_47661
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|buy qn|some n|cup-PL
+	coord|and n|bottle-PL .
+%xdss:	B2; C1; D2; C1; A3; Z; F3; Z;
+*CHI:	he's going to buy some cookies and milk . 55165_58111
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|buy qn|some n|cookie-PL
+	coord|and n|milk .
+%xdss:	B2; C1; D2; C1; A3; Z; F3; Z;
+*CHI:	he's going to buy some more cookies and milk . 66525_71407
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|buy qn|some qn|more
+	n|cookie-PL coord|and n|milk .
+%xdss:	B2; C1; D2; C1; A3; A3; Z; F3; Z;
+*CHI:	he's going to buy some other cookies . 71348_75090
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|buy qn|some qn|other
+	n|cookie-PL .
+%xdss:	B2; C1; D2; C1; A3; A3; Z;
+*CHI:	they just fell off ! 80434_81715
+%mor:	pro:sub|they adv|just v|fall&PAST adv|off !
+%xdss:	B3; C2;
+*CHI:	his father is really really mad . 87463_90510
+%mor:	det:poss|his n|father cop|be&3S adv|real&dadj-LY adv|real&dadj-LY
+	adj|mad .
+%xdss:	B2; Z; C1;
+*CHI:	he doesn't like cookies anymore . 91311_93031
+%mor:	pro:sub|he mod|do&3S~neg|not v|like n|cookie-PL adv|anymore .
+%xdss:	B2; C3; E4; C1; Z;
+@G:	B1
+*CHI:	I see a bu^nny and a sandcastle and a sandbox and a dog . 106566_112653
+%mor:	pro:sub|I v|see det:art|a n|bunny coord|and det:art|a
+	n|+n|sand+n|castle coord|and det:art|a n|+n|sand+n|box coord|and
+	det:art|a n|dog .
+%xdss:	B1; C1; Z; F3; Z; F3; Z; F3; Z;
+*CHI:	they're making a sandcastle .
+%mor:	pro:sub|they~aux|be&PRES part|make-PRESP det:art|a
+	n|+n|sand+n|castle .
+%xdss:	B3; C1; Z;
+*CHI:	this is a rabbit and a dog . 122988_125210
+%mor:	pro:dem|this cop|be&3S det:art|a n|rabbit coord|and det:art|a n|dog
+	.
+%xdss:	A1; C1; Z; F3; Z;
+*CHI:	he's making a san:dcastle [!] . 126032_127214
+%mor:	pro:sub|he~aux|be&3S part|make-PRESP det:art|a n|+n|sand+n|castle .
+%xdss:	B2; C1; Z;
+*CHI:	he [/] he's making it easier . 132975_135036
+%mor:	pro:sub|he~aux|be&3S part|make-PRESP pro:per|it adj|ease&dn-Y-CP .
+%xdss:	B2; C1; A1;
+*CHI:	look at the rabbit . 143248_144168
+%mor:	v|look prep|at det:art|the n|rabbit .
+%xdss:	C1; Z;
+*CHI:	he's scared . 145089_145930
+%mor:	pro:sub|he~aux|be&3S part|scare-PASTP .
+%xdss:	B2; C7;
+*CHI:	the rabbit is &-uh all alone . 154345_156326
+%mor:	det:art|the n|rabbit cop|be&3S adv|all adv|alone .
+%xdss:	Z; C1;
+@G:	B2
+*CHI:	they're bringing baskets . 176585_177786
+%mor:	pro:sub|they~aux|be&PRES part|bring-PRESP n|basket-PL .
+%xdss:	B3; C1; Z;
+*CHI:	it's the rabbit and a dog . 183435_184996
+%mor:	pro:per|it~cop|be&3S det:art|the n|rabbit coord|and det:art|a n|dog
+	.
+%xdss:	A1; C1; Z; F3; Z;
+*CHI:	they're having a picnic with the bunny and a dog . 189303_195794
+%mor:	pro:sub|they~aux|be&PRES part|have-PRESP det:art|a n|picnic
+	prep|with det:art|the n|bunny coord|and det:art|a n|dog .
+%xdss:	B3; C1; Z; Z; F3; Z;
+*CHI:	the rabbit is all finished . 200955_202377
+%mor:	det:art|the n|rabbit aux|be&3S adv|all part|finish-PASTP .
+%xdss:	Z; C1;
+*CHI:	and so the dog is eating . 203723_207474
+%mor:	coord|and co|so det:art|the n|dog aux|be&3S part|eat-PRESP .
+%xdss:	F3; Z; C1;
+*CHI:	<the dog is really> [/] &+real the dog is really really scared . 211495_217683
+%mor:	det:art|the n|dog aux|be&3S adv|real&dadj-LY adv|real&dadj-LY
+	part|scare-PASTP .
+%xdss:	Z; C1;
+*CHI:	and the bunny rabbit is tired . 220029_223873
+%mor:	coord|and det:art|the n|bunny n|rabbit aux|be&3S part|tire-PASTP .
+%xdss:	F3; Z; Z; C7;
+*CHI:	he's really [?] needs to go home . 229105_230545
+%mor:	pro:sub|he~cop|be&3S adv|real&dadj-LY v|need-3S inf|to v|go
+	adv|home .
+%xdss:	B2; C1; C2; D5; C1;
+*CHI:	and so does the dog . 231646_232967
+%mor:	coord|and co|so v|do&3S det:art|the n|dog .
+%xdss:	F3; C2; Z;
+*CHI:	(be)cause he needs to go home with his mother because the rabbit is
+	sleeping . 232887_242113
+%mor:	conj|because pro:sub|he v|need-3S inf|to v|go adv|home prep|with
+	det:poss|his n|mother conj|because det:art|the n|rabbit aux|be&3S
+	part|sleep-PRESP .
+%xdss:	F6; B2; C2; D5; C1; B2; Z; F6; Z; C1;
+*CHI:	<he needs to buy him an> [//] this rabbit &+i is woke up (be)cause
+	he needs to go home with his father . 246055_261953
+%mor:	det:dem|this n|rabbit aux|be&3S part|wake&PASTP adv|up conj|because
+	pro:sub|he v|need-3S inf|to v|go adv|home prep|with det:poss|his
+	n|father .
+%xdss:	A1; Z; C7; F6; B2; C2; D5; C1; B2; Z;
+@G:	B3
+*CHI:	this is a balloon . 272423_273464
+%mor:	pro:dem|this cop|be&3S det:art|a n|balloon .
+%xdss:	A1; C1; Z;
+*CHI:	what color is it ? 275708_277029
+%mor:	det:int|what n|color cop|be&3S pro:per|it ?
+%xdss:	Z; C1; A1; G1;
+*CHI:	maybe yellow I think . 278733_280173
+%mor:	adv|maybe adj|yellow pro:sub|I v|think .
+%xdss:	B1; C1;
+*CHI:	and that's the bunny and a wagon and [!] a dog . 283585_289572
+%mor:	coord|and pro:dem|that~cop|be&3S det:art|the n|bunny coord|and
+	det:art|a n|wagon coord|and det:art|a n|dog .
+%xdss:	F3; A1; C1; Z; F3; Z; F3; Z;
+*CHI:	can show [?] his balloon in a wagon . 294461_296703
+%mor:	mod|can v|show det:poss|his n|balloon prep|in det:art|a n|wagon .
+%xdss:	C3; C1; B2; Z; Z;
+*CHI:	this [= these] [* s:r:gc:pro] is [= are] [* m:vsg:a] a bunny and a
+	dog . 298775_300335
+%mor:	pro:dem|this cop|be&3S det:art|a n|bunny coord|and det:art|a n|dog
+	.
+%xdss:	A1; C1; Z; F3; Z;
+*CHI:	he can sit down and sit with the balloon and the wagon . 304420_309184
+%mor:	pro:sub|he mod|can v|sit adv|down coord|and v|sit prep|with
+	det:art|the n|balloon coord|and det:art|the n|wagon .
+%xdss:	B2; C3; C1; F3; C1; Z; F3; Z;
+*CHI:	oops [!] he dropped the balloon . 313245_314365
+%mor:	co|oops pro:sub|he v|drop-PAST det:art|the n|balloon .
+%xdss:	B2; C2; Z;
+*CHI:	uhoh it fly [= flies] [* m:03s:a] away . 318473_319994
+%mor:	co|uhoh pro:per|it v|fly adv|away .
+%xdss:	A1; C1;
+*CHI:	he found some more balloons . 323941_325623
+%mor:	pro:sub|he v|find&PAST qn|some qn|more n|balloon-PL .
+%xdss:	B2; C2; A3; A3; Z;
+*CHI:	he's going to have a balloon . 328685_330125
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|have det:art|a
+	n|balloon .
+%xdss:	B2; C1; D2; C1; Z;
+*CHI:	what does it say ? [+ bch] 331847_335969
+%mor:	pro:int|what mod|do&3S pro:per|it v|say ?
+%xdss:	H2; C3; G6; A1; C1; G1;
+*CHI:	is that the five in the words . [+ bch] 346427_348448
+%mor:	cop|be&3S comp|that det:art|the det:num|five prep|in det:art|the
+	n|word-PL .
+%xdss:	C1; F8; A3; Z;
+*CHI:	look at the bunny and the dog and the wagon . 353733_356173
+%mor:	v|look prep|at det:art|the n|bunny coord|and det:art|the n|dog
+	coord|and det:art|the n|wagon .
+%xdss:	C1; Z; F3; Z; F3; Z;
+*CHI:	(be)cause he dropped the balloon . 358265_359405
+%mor:	conj|because pro:sub|he v|drop-PAST det:art|the n|balloon .
+%xdss:	F6; B2; C2; Z;
+*CHI:	and it fly away . 359466_360646
+%mor:	coord|and pro:per|it v|fly adv|away .
+%xdss:	F3; A1; C1;
+*CHI:	they're going to get a balloon . 360627_367293
+%mor:	pro:sub|they~aux|be&PRES part|go-PRESP inf|to v|get det:art|a
+	n|balloon .
+%xdss:	B3; C1; D2; C1; Z;
+*CHI:	(...) (be)cause he needs to run . 376855_378196
+%mor:	conj|because pro:sub|he v|need-3S inf|to v|run .
+%xdss:	F6; B2; C2; D5; C1;
+*CHI:	he's gotta go home . 384102_385243
+%mor:	pro:sub|he~cop|be&3S mod|got~inf|to v|go adv|home .
+%xdss:	B2; C1; D2; C1;
+*CHI:	uhoh he dropped the balloons . 394065_395565
+%mor:	co|uhoh pro:sub|he v|drop-PAST det:art|the n|balloon-PL .
+%xdss:	B2; C2; Z;
+*CHI:	he's gotta hold on to the balloon . 395926_405333
+%mor:	pro:sub|he~cop|be&3S mod|got~inf|to v|hold adv|on prep|to
+	det:art|the n|balloon .
+%xdss:	B2; C1; D2; C1; Z;

@@ -1,0 +1,91 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:02 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/830.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a boy is walking to the store . %snd:"830"_4257_6378      |   |   |1  |   |   |   |   |   |  1|  2|
+&-um he goes in the store . %snd:"830"_7000_8720          |   |2  |2  |   |   |   |   |   |  1|  5|
+he sees some cookies . %snd:"830"_11523_13443               |3  |2  |2  |   |   |   |   |   |  1|  8|
+he asked the man if he can buy them . %snd:"830"_14005_16389|   |2 2|2 3|   |   |5  |   |   |  1| 19|
+                                       |   |3  |1  |   |   |   |   |   |   |   |
+and [/] &-um and the store manager said|   |   |2  |   |   |3  |   |   |  1|  6|
+     yes . %snd:"830"_19016_22802                           |   |   |   |   |   |   |   |   |   |   |
+but all the cookies fell down because  |3 3|2  |2 2|   |   |5 6|   |   |  1| 24|
+    he grabbed the bottom one . %snd:"830"_25685_30031      |   |   |   |   |   |   |   |   |   |   |
+a girl is bouncing a [/] &+b a ball . %snd:"830"_45187_48249|   |   |1  |   |   |   |   |   |  1|  2|
+the ball went into the pool . %snd:"830"_52013_54073        |   |   |2  |   |   |   |   |   |  1|  3|
+the moose went to go get it . %snd:"830"_59765_62089        |1  |   |2 1|5  |   |   |   |   |  1| 11|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the moose got it and brang [: brought] |1 1|   |2 2|   |   |3  |   |   |  0|  9|
+    [* m:ed] it back . %snd:"830"_65178_67802               |   |   |   |   |   |   |   |   |   |   |
+and then he <got out of the pool> [/]  |   |2  |2  |   |   |3  |   |   |  1|  8|
+    got out of the pool . %snd:"830"_72445_76090            |   |   |   |   |   |   |   |   |   |   |
+and the girl was happy . %snd:"830"_76051_78253             |   |   |2  |   |   |3  |   |   |  1|  6|
+&=sighs they [/] they see a pool . %snd:"830"_85835_88616   |   |3  |1  |   |   |   |   |   |  1|  5|
+they run to the diving pool . %snd:"830"_88917_91598        |   |3  |1  |   |   |   |   |   |  1|  5|
+well now [!] they're running to the    |   |3  |1  |   |   |   |   |   |  1|  5|
+    diving pool . %snd:"830"_95002_98083                    |   |   |   |   |   |   |   |   |   |   |
+they see the diving board . %snd:"830"_105601_107521          |   |3  |1  |   |   |   |   |   |  1|  5|
+so they run to the diving board . %snd:"830"_107663_109663    |   |3  |1  |   |   |   |   |   |  1|  5|
+the girl ran so fast that she slipped  |   |6 2|2 2|   |   |3  |   |   |  1| 19|
+    and hurt her knee . %snd:"830"_111925_120133              |   |2  |1  |   |   |   |   |   |   |   |
+the lifeguard came to see to give a    |   |   |2 1|5 5|   |   |   |   |  1| 15|
+    bandaid [/] bandaid . %snd:"830"_124515_130925            |   |   |1  |   |   |   |   |   |   |   |
+the [/] the moose went to go get him . |   |2  |2 1|5  |   |   |   |   |  1| 12|
+    %snd:"830"_130987_135094                                  |   |   |1  |   |   |   |   |   |   |   |
+the lifeguard gave her a bandaid . %snd:"830"_138275_141782   |   |2  |2  |   |   |   |   |   |  1|  5|
+she thought it really hurted [: hurt] [|1  |2  |2  |   |   |   |   |   |  0|  5|
+    * m:=ed] . %snd:"830"_144671_146274                       |   |   |   |   |   |   |   |   |   |   |
+and then the [/] the lifeguard took her|   |2  |2  |   |   |3  |   |   |  1|  8|
+     to the bench . %snd:"830"_153015_161346                  |   |   |   |   |   |   |   |   |   |   |
+and then she tried touching it . %snd:"830"_162329_164591     |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and it was better . %snd:"830"_164673_166033                  |1  |   |2 1|   |   |3  |   |   |  1|  8|
+and then the lifeguard pointed to a    |   |   |2  |   |   |3  |   |   |  1|  6|
+    sign . %snd:"830"_171015_174517                           |   |   |   |   |   |   |   |   |   |   |
+she looked . %snd:"830"_174858_175657                         |   |2  |2  |   |   |   |   |   |  1|  5|
+it said no running . %snd:"830"_175838_177399                 |1 3|   |2  |   |   |   |   |   |  1|  7|
+the moose has a plane . %snd:"830"_186025_188390              |   |   |2  |   |   |   |   |   |  1|  3|
+they were gonna play with it at the    |1  |3  |2 1|2  |   |   |   |   |  1| 10|
+    pool . %snd:"830"_189376_192282                           |   |   |   |   |   |   |   |   |   |   |
+the moose &+fl &+fl made it fl:y [^    |1  |   |2 1|5  |   |   |   |   |  1| 10|
+    gestures] . %snd:"830"_195445_201834                      |   |   |   |   |   |   |   |   |   |   |
+and then the girl took it away and     |1 1|   |2 2|   |   |3 3|   |   |  1| 13|
+    threw it . %snd:"830"_209045_218112                       |   |   |   |   |   |   |   |   |   |   |
+it landed in the pool . %snd:"830"_217913_219813              |1  |   |2  |   |   |   |   |   |  1|  4|
+the moose got really mad . %snd:"830"_223715_225576           |   |   |2  |   |   |   |   |   |  1|  3|
+the girl said oopsies . %snd:"830"_226578_228619              |   |   |2  |   |   |   |   |   |  1|  3|
+the lifeguard came . %snd:"830"_232746_234284                 |   |   |2  |   |   |   |   |   |  1|  3|
+she wa^s scared . %snd:"830"_236565_238133                    |   |2  |7  |   |   |   |   |   |  1| 10|
+she told what [//] how [/] &-um how [/]|1  |2  |2 2|5  |   |   |   |4 4|  1| 21|
+     how it happened . %snd:"830"_246865_253854               |   |   |   |   |   |   |   |   |   |   |
+the lifeguard tried to reach it . %snd:"830"_256660_259003    |1  |   |2 1|5  |   |   |   |   |  1| 10|
+the moose cried . %snd:"830"_264715_265861                    |   |   |2  |   |   |   |   |   |  1|  3|
+the lifeguard got a net and got the    |1 1|   |2 2|   |   |3 5|   |   |  1| 21|
+    plane with the net then pulled it  |   |   |2 3|   |   |   |   |   |   |   |
+    out so [/] &+sh so the moose can   |   |   |1  |   |   |   |   |   |   |   |
+    have it . %snd:"830"_270575_285593                        |   |   |   |   |   |   |   |   |   |   |
+and then they had fun later . %snd:"830"_289635_292257        |   |3  |2  |   |   |3  |   |   |  1|  9|
+there are two boys making a sandcastle |3  |   |2  |4  |   |   |   |   |  1| 10|
+    . %snd:"830"_301071_303494                                |   |   |   |   |   |   |   |   |   |   |
+one of them smoothed it up . %snd:"830"_309255_311896         |3 1|3  |2  |   |   |   |   |   |  1| 10|
+the other one put sand on it . %snd:"830"_311757_314678       |3 3|   |1  |   |   |   |   |   |  1|  9|
+                                       |1  |   |   |   |   |   |   |   |   |   |
+since he was getting tired of doing    |   |2 2|2 2|   |   |8 8|   |   |  1| 25|
+    that he dumped the whole pail on . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"830"_317901_322423                                  |   |   |   |   |   |   |   |   |   |   |
+one of the boys started to cry . %snd:"830"_336561_338763     |3  |   |2 1|5  |   |   |   |   |  1| 12|
+two people had a picnic . %snd:"830"_348065_351468            |3  |   |2  |   |   |   |   |   |  1|  6|
+(.) one of the boys ate [//] had more [|3 3|   |2  |   |   |8  |   |   |  1| 23|
+    !] than the other one . %snd:"830"_358960_362983          |3 3|   |   |   |   |   |   |   |   |   |
+the [/] the [//] one of the boys had &+|3  |   |1  |   |   |   |   |   |  1|  5|
+    l had too much to eat . %snd:"830"_366725_375055          |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 63| 69|132| 46|  0| 84|  0|  8| 48|450|
+
+Developmental sentence score:  9.00

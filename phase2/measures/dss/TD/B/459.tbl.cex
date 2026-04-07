@@ -1,0 +1,97 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:06 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/459.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there's a little bloy |   |   |1  |   |   |   |   |   |  1|  2|
+    [: boy] . %snd:"459"_2486_4547                        |   |   |   |   |   |   |   |   |   |   |
+he was going to the store . %snd:"459"_4948_6428          |   |2  |2  |   |   |   |   |   |  1|  5|
+then when he went to the store he saw  |3  |2 2|2 2|4  |   |8 3|   |   |  1| 27|
+    some boxes and a man standing there|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"459"_9672_13594                               |   |   |   |   |   |   |   |   |   |   |
+so he picked up some cookies . %snd:"459"_15355_16875       |3  |2  |2  |   |   |   |   |   |  1|  8|
+then the man got upset . %snd:"459"_21499_22819             |   |   |2  |   |   |   |   |   |  1|  3|
+once upon a time there was two rabbits |3  |   |2  |   |   |   |   |   |  1|  6|
+    . %snd:"459"_27863_29883                                |   |   |   |   |   |   |   |   |   |   |
+and they were playing in a sandbox ! %snd:"459"_29905_31286 |   |3  |2  |   |   |3  |   |   |  1|  9|
+and then one of the rabbits took a     |3  |   |2  |   |   |3  |   |   |  1|  9|
+    great big pile of sand . %snd:"459"_31507_37675         |   |   |   |   |   |   |   |   |   |   |
+and then the rabbit poured it on the   |1  |   |2  |   |   |3  |   |   |  1|  7|
+    sandcastle . %snd:"459"_37636_43003                     |   |   |   |   |   |   |   |   |   |   |
+and then the other one cried . %snd:"459"_47337_49117       |3 3|   |2  |   |   |3  |   |   |  1| 12|
+once upon a time the rabbits were      |   |3  |2  |   |   |   |   |   |  1|  6|
+    taking their lunch [!] bags . %snd:"459"_53602_56864    |   |   |   |   |   |   |   |   |   |   |
+then a [//] one of them ate too much . |3  |3  |2  |   |   |   |   |   |  1|  9|
+    %snd:"459"_58395_61316                                  |   |   |   |   |   |   |   |   |   |   |
+he got a tummyache . %snd:"459"_62438_63358                 |   |2  |2  |   |   |   |   |   |  1|  5|
+and then he couldn't eat any more . %snd:"459"_65240_67360  |7  |2  |5 1|   |7  |3  |   |   |  1| 26|
+so then he asks the doctor if he could |   |2 2|2 5|   |   |5  |   |   |  1| 20|
+    fix his tummyache . %snd:"459"_68662_71644              |   |2  |1  |   |   |   |   |   |   |   |
+then &+h the doctor said no . %snd:"459"_73675_75816        |   |   |2  |   |   |   |   |   |  1|  3|
+then the doctor said open up wide . %snd:"459"_77378_79358  |   |   |2  |   |   |   |   |   |  1|  3|
+and then he still had a tummyache . %snd:"459"_81161_83081  |   |2  |2  |   |   |3  |   |   |  1|  8|
+once upon a time the rabbit had a      |   |   |2  |   |   |   |   |   |  1|  3|
+    balloon . %snd:"459"_87595_89736                        |   |   |   |   |   |   |   |   |   |   |
+and he was pulling his wagon . %snd:"459"_89716_91317       |   |2 2|2  |   |   |3  |   |   |  1| 10|
+then the balloon started to fly away . |   |   |2 1|5  |   |   |   |   |  1|  9|
+    %snd:"459"_93059_95019                                  |   |   |   |   |   |   |   |   |   |   |
+and <he tied it tright [: tight] [* p:n|1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+    ]> [//] he tried to tie it &+ti    |   |   |   |   |   |   |   |   |   |   |
+    tighter . %snd:"459"_96541_101684                        |   |   |   |   |   |   |   |   |   |   |
+then the balloon flew away . %snd:"459"_103235_104776         |   |   |2  |   |   |   |   |   |  1|  3|
+then the [//] only the string was left |   |   |2  |   |   |   |   |   |  1|  3|
+    . %snd:"459"_106679_108861                                |   |   |   |   |   |   |   |   |   |   |
+<so then the> [//] and then the rabbit |   |   |2  |4  |   |3  |   |   |  1| 10|
+    saw the [/] the man holding the    |   |   |   |   |   |   |   |   |   |   |
+    balloons . %snd:"459"_110244_115189                       |   |   |   |   |   |   |   |   |   |   |
++" can I have a balloon ? %snd:"459"_116992_118213            |   |1  |3 1|   |   |   |6 1|   |  1| 13|
+and the man said no . %snd:"459"_119355_120756                |   |   |2  |   |   |3  |   |   |  1|  6|
+then he just stood there . %snd:"459"_122739_124200           |   |2  |2  |   |   |   |   |   |  1|  5|
+then he [//] the doctor [!] walked away|   |   |2  |   |   |   |   |   |  1|  3|
+     . %snd:"459"_126044_128266                               |   |   |   |   |   |   |   |   |   |   |
++" he won't give me a balloon . %snd:"459"_132313_133553      |   |2 1|1  |   |5  |   |   |   |  1| 10|
+<then the doc> [//] and then the doctor|3  |   |2  |   |   |3  |   |   |  1|  9|
+     gave the man some pennies . %snd:"459"_134985_139467     |   |   |   |   |   |   |   |   |   |   |
+and [/] and then he got a balloon . %snd:"459"_140629_143791  |   |2  |2  |   |   |3  |   |   |  1|  8|
+once upon a time a &-uh a giraffe and a|   |   |2  |   |   |3  |   |   |  0|  5|
+     [= an] [* m:allo] elephant met . %snd:"459"_149185_153167|   |   |   |   |   |   |   |   |   |   |
+they saw a balloon stuck in [/] in     |   |3 3|2 2|   |   |   |6  |   |  1| 17|
+    their water &+p pool . %snd:"459"_154890_159993           |   |   |   |   |   |   |   |   |   |   |
+they [//] the [/] the [/] the zebra    |1  |   |2 1|5  |   |   |   |   |  1| 10|
+    tried to get it . %snd:"459"_162065_164886                |   |   |   |   |   |   |   |   |   |   |
+but he &+cou just couldn't get it . %snd:"459"_164547_166427  |1  |2  |5 1|   |7  |5  |   |   |  1| 22|
+then the [/] the elephant got it . %snd:"459"_167509_169951   |1  |   |2  |   |   |   |   |   |  1|  4|
+and then he [/] &+le he helped the     |   |2  |2 1|   |   |3  |6  |   |  1| 15|
+    zebra get out of the water . %snd:"459"_170031_174253     |   |   |   |   |   |   |   |   |   |   |
+and then they both smiled at each other|7 7|3  |2  |   |   |3  |   |   |  1| 26|
+     . %snd:"459"_176055_178978                               |3  |   |   |   |   |   |   |   |   |   |
+<once upon a> [//] &+z the zebra and   |   |3  |2 1|5  |   |3  |   |   |  1| 15|
+    the elephant they wanted to go     |   |   |   |   |   |   |   |   |   |   |
+    diving in the pool . %snd:"459"_183587_188713             |   |   |   |   |   |   |   |   |   |   |
+and then the elephant runned [: ran] [*|   |   |2  |   |   |3  |   |   |  0|  5|
+     m:=ed] . %snd:"459"_190235_191856                        |   |   |   |   |   |   |   |   |   |   |
+but it was too slippery <on the> [/] on|1  |   |2  |   |   |5  |   |   |  1|  9|
+     the side . %snd:"459"_191737_194581                      |   |   |   |   |   |   |   |   |   |   |
+<and then he slipped> [//] and then she|   |2  |2  |   |   |3  |   |   |  1|  8|
+     slipped off . %snd:"459"_195925_198768                   |   |   |   |   |   |   |   |   |   |   |
+and she fell into the pool . %snd:"459"_198470_199990         |   |2  |2  |   |   |3  |   |   |  1|  8|
+but she wasn't ready to jump . %snd:"459"_199752_201373       |   |2  |2  |   |7  |5  |   |   |  1| 17|
+&+sh then she got a [= an] [* m:allo]  |   |2 2|2 2|   |   |6  |   |   |  0| 14|
+    owie (be)cause she runned [: ran] [|   |   |   |   |   |   |   |   |   |   |
+    * m:=ed] too fast . %snd:"459"_203145_205886              |   |   |   |   |   |   |   |   |   |   |
+and she hurt herself . %snd:"459"_205966_207027               |   |2 5|1  |   |   |3  |   |   |  1| 12|
+then &+th the other elephant came to   |3  |   |2  |   |   |   |   |   |  1|  6|
+    help . %snd:"459"_208208_211489                           |   |   |   |   |   |   |   |   |   |   |
+she cried and she cried (be)cause it   |1  |2 2|2 2|   |   |3 6|   |   |  1| 21|
+    was hurting . %snd:"459"_213191_216352                    |   |   |2  |   |   |   |   |   |   |   |
+and he put a bandaid on it . %snd:"459"_216313_218315         |1  |2  |1  |   |   |3  |   |   |  1|  8|
+TOTAL                                  | 59| 82|127| 28| 26|109| 19|  0| 47|497|
+
+Developmental sentence score:  9.94

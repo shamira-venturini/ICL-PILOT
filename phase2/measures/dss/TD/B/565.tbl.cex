@@ -1,0 +1,41 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:07 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/565.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+I <stole up> [?] . %snd:"565"_35239_36820                   |   |1  |2  |   |   |   |   |   |  1|  4|
+tryin(g) to get the balloo:n: . %snd:"565"_150537_153659      |   |   |1  |2  |   |   |   |   |  1|  4|
+and they would all go somewhere in the |   |3  |1  |   |   |3  |   |   |  1|  8|
+    spring . %snd:"565"_161265_163849                         |   |   |   |   |   |   |   |   |   |   |
++" could I have a balloon in the spring|   |1  |1  |   |   |   |6  |   |  1|  9|
+     . %snd:"565"_178005_184429                               |   |   |   |   |   |   |   |   |   |   |
+&+ss lookin(g) they were <at a> [/] &+ |   |3  |2  |   |   |   |   |   |  1|  6|
+    tr at a balloon in the spring . %snd:"565"_194245_197410  |   |   |   |   |   |   |   |   |   |   |
+but they were all gone . %snd:"565"_197452_198933             |   |3  |2  |   |   |5  |   |   |  1| 11|
+layin(g) down in the fall tryin(g) to  |   |   |1  |4 2|   |   |   |   |  1|  8|
+    get the ball . %snd:"565"_268485_276150                   |   |   |   |   |   |   |   |   |   |   |
+try give someone the ball in the water |3  |   |1 1|   |   |   |   |   |  1|  6|
+    in the spring . %snd:"565"_276351_280993                  |   |   |   |   |   |   |   |   |   |   |
+get hurt in the summer cryin(g) .      |   |   |   |4  |   |   |   |   |  1|  5|
+put his airplane in the water in the fa|   |2  |1  |   |   |   |   |   |  1|  4|
+    :ll . %snd:"565"_382121_385403                            |   |   |   |   |   |   |   |   |   |   |
+put the water <in the> [/] in the water|   |   |1  |   |   |   |   |   |  1|  2|
+     in fall . %snd:"565"_387805_391149                       |   |   |   |   |   |   |   |   |   |   |
+put the water in fall .                |   |   |1  |   |   |   |   |   |  1|  2|
+try and get it in the water in the fall|1  |   |1 1|   |   |3  |   |   |  1|  7|
+     . %snd:"565"_405765_409310                               |   |   |   |   |   |   |   |   |   |   |
+gettin(g) a net to try to get in the   |   |   |1 1|5  |   |   |   |   |  1|  8|
+    water in the fa:ll . %snd:"565"_426147_431476             |   |   |   |   |   |   |   |   |   |   |
+try to get it in the fall . %snd:"565"_432640_432839          |1  |   |1 1|5  |   |   |   |   |  1|  9|
+then kinda got it . %snd:"565"_433282_434923                  |1  |   |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  6| 13| 23| 22|  0| 11|  6|  0| 16| 97|
+WARNING: DSS requires 50 complete sentences and this transcript only has 16.
+
+Developmental sentence score:  6.06

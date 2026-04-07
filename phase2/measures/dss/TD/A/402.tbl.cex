@@ -1,0 +1,79 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:55 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/402.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+that's a kid walking in there right ? %snd:"402"_3777_8561|1  |   |1  |4  |   |   |1  |   |  1|  8|
+a kid walking in there . [+ bch] %snd:"402"_10044_10823     |   |   |   |4  |   |   |   |   |  1|  5|
+kid [//] a kid putting those in there .|   |3  |   |4  |   |   |   |   |  1|  8|
+     %snd:"402"_13825_17046                                 |   |   |   |   |   |   |   |   |   |   |
+okay , a kid is buying cookies . %snd:"402"_17067_18307     |   |   |1  |   |   |   |   |   |  1|  2|
+and they fell down . %snd:"402"_32327_34608                 |   |3  |2  |   |   |3  |   |   |  1|  9|
+that man was really mad . %snd:"402"_40673_42653            |1  |   |2  |   |   |   |   |   |  1|  4|
+the man was really mad ! [+ bch] %snd:"402"_46177_47857     |   |   |2  |   |   |   |   |   |  1|  3|
+that is a [= an] [* m:allo] elephant . |1  |   |1  |   |   |   |   |   |  0|  2|
+    %snd:"402"_54183_55402                                  |   |   |   |   |   |   |   |   |   |   |
+and that is a cow . %snd:"402"_55624_56923                  |1  |   |1  |   |   |3  |   |   |  1|  6|
+that's elephant . %snd:"402"_64958_65458                    |1  |   |1  |   |   |   |   |   |  1|  3|
+and then that's a cow again . %snd:"402"_65499_68461        |1  |   |1  |   |   |3  |   |   |  1|  6|
+that [/] that guy fell in the mud . %snd:"402"_85775_88217  |1  |   |2  |   |   |   |   |   |  1|  4|
+and this girl <picked her up> [//] <   |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    pick up> [//] picked him up        |   |   |   |   |   |   |   |   |   |   |
+    elephant . %snd:"402"_88979_96207                       |   |   |   |   |   |   |   |   |   |   |
+and he was very mad at her . %snd:"402"_98072_100353         |   |2 2|2  |   |   |3  |   |   |  1| 10|
+they were gonna go in the pool right ? |   |3  |2 1|2  |   |   |1  |   |  1| 10|
+    [+ bch] %snd:"402"_119885_122306                          |   |   |   |   |   |   |   |   |   |   |
+&+th they were gonna go in the pool . %snd:"402"_126188_126789|   |3  |2 1|2  |   |   |   |   |  1|  9|
+&-um she was gonna hurt herself when   |   |2 5|2 2|2  |   |8  |   |   |  1| 24|
+    she went . %snd:"402"_135935_141382                       |   |2  |   |   |   |   |   |   |   |   |
+(...) and she hurt herself . %snd:"402"_147192_148533         |   |2 5|1  |   |   |3  |   |   |  1| 12|
+she hurt her^self . [+ bch] %snd:"402"_166567_167587          |   |2 5|1  |   |   |   |   |   |  1|  9|
+she got a scratch . %snd:"402"_169149_170349                  |   |2  |2  |   |   |   |   |   |  1|  5|
+(.) and then that guy came . %snd:"402"_171552_174873         |   |   |2  |   |   |3 8|   |   |  1| 14|
+and [/] and then she had a bandaid on .|   |2  |2  |   |   |3  |   |   |  1|  8|
+     %snd:"402"_182948_186064                                 |   |   |   |   |   |   |   |   |   |   |
+hm they were happy .                   |   |3  |2  |   |   |   |   |   |  1|  6|
+this guy's mad . %snd:"402"_213763_214922                     |1  |   |1  |   |   |   |   |   |  1|  3|
+he is . %snd:"402"_216564_217063                              |   |2  |1  |   |   |   |   |   |  1|  4|
+he had the airplane . %snd:"402"_231824_232283                |   |2  |2  |   |   |   |   |   |  1|  5|
+and it was his . %snd:"402"_232685_233725                     |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and this guy got it all tangled . %snd:"402"_235649_239112    |1 1|   |2  |   |   |3  |   |   |  1|  8|
+and the girl had it now . %snd:"402"_240856_243197            |1  |   |2  |   |   |3  |   |   |  1|  7|
+then the girl dropped it in there . %snd:"402"_250325_252346  |1  |   |2  |   |   |   |   |   |  1|  4|
+she dropped it in there . %snd:"402"_259091_260431            |1  |2  |2  |   |   |   |   |   |  1|  6|
+and this guy was mad ! %snd:"402"_260573_261713               |1  |   |2  |   |   |3  |   |   |  1|  7|
+(...) <now they were both> [/] now they|7  |3  |2  |   |   |   |   |   |  1| 13|
+     were both mad . %snd:"402"_268395_272523                 |   |   |   |   |   |   |   |   |   |   |
+&-um the girl's mad . %snd:"402"_295079_295940                |   |   |1  |   |   |   |   |   |  1|  2|
+and now that guy was gonna reach it . %snd:"402"_295721_298363|1  |   |2 1|2  |   |3 8|   |   |  1| 18|
+(.) and then this guy was crying . %snd:"402"_303533_305715   |1  |   |2  |   |   |3  |   |   |  1|  7|
+yes she did . %snd:"402"_310243_311643                        |   |2  |2  |   |   |   |   |   |  1|  5|
+this [!] girl was gonna catch it . %snd:"402"_320938_321939   |1 1|   |2 1|2  |   |   |   |   |  1|  8|
+and she caught [!] it . %snd:"402"_322139_323460              |1  |2  |2  |   |   |3  |   |   |  1|  9|
+she caught [!] it . [+ bch] %snd:"402"_329785_331065          |1  |2  |2  |   |   |   |   |   |  1|  6|
+(..) then she gave it to him . %snd:"402"_336792_339454       |1  |2 2|2  |   |   |   |   |   |  1|  8|
+(...) <then he> [//] then she was happy|   |2  |2  |   |   |   |   |   |  1|  5|
+     . %snd:"402"_345105_351049                               |   |   |   |   |   |   |   |   |   |   |
+he and him [= he] [* s:r:gc:pro]       |   |2 2|2  |   |   |3  |   |   |  0|  9|
+    builded [: built] [* m:=ed] a      |   |   |   |   |   |   |   |   |   |   |
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+and then it spilled [: spilt] [* m:=ed]|1  |   |2  |   |   |3  |   |   |  0|  6|
+     all over . %snd:"402"_391975_394035                      |   |   |   |   |   |   |   |   |   |   |
+and then it was broken ! %snd:"402"_395597_399439             |1  |   |7  |   |   |3  |   |   |  1| 12|
+and he was mad . %snd:"402"_401501_402661                     |   |2  |2  |   |   |3  |   |   |  1|  8|
+it was all his fault . %snd:"402"_405024_406423               |1  |2  |2  |   |   |   |   |   |  1|  6|
+this guy was sad . %snd:"402"_411560_412323                   |1  |   |2  |   |   |   |   |   |  1|  4|
+and <that guy wasn't happy> [//] no , <|   |   |2  |   |   |3 8|   |   |  1| 14|
+    this guy> [//] that guy was crying |   |   |   |   |   |   |   |   |   |   |
+    . %snd:"402"_414005_423953                                |   |   |   |   |   |   |   |   |   |   |
+that guy was running . %snd:"402"_437059_438521               |1  |   |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  | 35| 79| 96| 22|  0| 92|  2|  0| 47|373|
+
+Developmental sentence score:  7.46

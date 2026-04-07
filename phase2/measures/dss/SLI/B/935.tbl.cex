@@ -1,0 +1,93 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:55 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/B/935.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a little boy is walking to get some    |3  |   |1 1|   |   |   |   |   |  1|  6|
+    groceries . %snd:"935"_10321_14883                      |   |   |   |   |   |   |   |   |   |   |
+and he sees &-uh cookies [//] some     |3  |2  |2  |   |   |3  |   |   |  1| 11|
+    cookies . %snd:"935"_17465_21611                        |   |   |   |   |   |   |   |   |   |   |
+and he's going to get some cookies . %snd:"935"_21633_23817 |3  |2  |1 1|2  |   |3  |   |   |  1| 13|
+and he grabs some cookies . %snd:"935"_25621_27503          |3  |2  |2  |   |   |3  |   |   |  1| 11|
+and then the box of cookies falls down |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"935"_29785_36089                                |   |   |   |   |   |   |   |   |   |   |
+and the store manager gets mad . %snd:"935"_38552_42253     |   |   |2  |   |   |3  |   |   |  1|  6|
+&-um three bunnies are playing in the  |3  |   |2  |   |   |   |   |   |  1|  6|
+    sandbox . %snd:"935"_50188_56312                        |   |   |   |   |   |   |   |   |   |   |
+and they are building a castle . %snd:"935"_59655_62017     |   |3  |2  |   |   |3  |   |   |  1|  9|
+the boy bunny is pouring sand on it . %snd:"935"_66588_70154|1  |   |1  |   |   |   |   |   |  1|  3|
+and [/] and the castle is broken . %snd:"935"_72355_77622   |   |   |7  |   |   |3  |   |   |  1| 11|
+and they tried to fix it . %snd:"935"_81009_84874           |1  |3  |2 1|5  |   |3  |   |   |  1| 16|
+they are having a picnic . %snd:"935"_92984_95368           |   |3  |2  |   |   |   |   |   |  1|  6|
+and the boy bunny is [//] &+ha has lots|   |   |2  |   |   |3  |   |   |  1|  6|
+     of goodies . %snd:"935"_98010_104134                    |   |   |   |   |   |   |   |   |   |   |
+and the bunny is full of food . %snd:"935"_107395_113802      |   |   |1  |   |   |3  |   |   |  1|  5|
+and he gets sick of the food . %snd:"935"_117368_121933       |   |2  |2  |   |   |3  |   |   |  1|  8|
+and the doctor comes to fix him up . %snd:"935"_124975_131014 |   |2  |2 1|5  |   |3  |   |   |  1| 14|
+and the girl bunny's pulling the doctor|   |   |1  |4  |   |3  |   |   |  1|  9|
+     over to the picnic table . %snd:"935"_133495_142386      |   |   |   |   |   |   |   |   |   |   |
+and he's [//] he walks home with the   |   |2  |2  |   |   |3  |   |   |  1|  8|
+    doctor . %snd:"935"_150455_155902                         |   |   |   |   |   |   |   |   |   |   |
+the girl has a [/] a wagon on with a   |   |   |2  |   |   |   |   |   |  1|  3|
+    balloon . %snd:"935"_165015_170202                        |   |   |   |   |   |   |   |   |   |   |
+and the boy bunny &+h looks at the     |   |   |2  |   |   |3  |   |   |  1|  6|
+    balloon . %snd:"935"_172747_177534                        |   |   |   |   |   |   |   |   |   |   |
+and then it floats away . %snd:"935"_188859_191163            |1  |   |2  |   |   |3  |   |   |  1|  7|
+then the girl bunny is mad . %snd:"935"_193395_196477         |   |   |1  |   |   |   |   |   |  1|  2|
+then the boy bunny's gonna buy a new   |   |   |1 1|2  |   |   |   |   |  1|  5|
+    balloon . %snd:"935"_199219_204203                        |   |   |   |   |   |   |   |   |   |   |
+then he [/] he buys the balloon . %snd:"935"_207395_214221    |   |2  |2  |   |   |   |   |   |  1|  5|
+and [//] but the balloons is [= are] [*|3  |   |1  |   |   |5  |   |   |  0|  9|
+     m:vsg:a] fifty cents . %snd:"935"_219885_223029          |   |   |   |   |   |   |   |   |   |   |
+and they &+w are sad . %snd:"935"_230641_233564               |   |3  |2  |   |   |3  |   |   |  1|  9|
+and then &-um the nurse have [= has] [*|3  |   |1  |   |   |3  |   |   |  0|  7|
+     m:vun:a] some money . %snd:"935"_236765_245702           |   |   |   |   |   |   |   |   |   |   |
+and he's going to &+t pay and have &+s |3  |2 2|1 1|5  |   |3 3|   |   |  1| 23|
+    ask her to have some money . %snd:"935"_245605_255422     |   |   |1 1|   |   |   |   |   |   |   |
+<and then she> [/] and then she says   |   |2  |2  |   |   |3  |   |   |  1|  8|
+    yes to buy the balloon . %snd:"935"_257765_265074         |   |   |   |   |   |   |   |   |   |   |
+and the [//] he buy [= buys] [* m:03s:a|1  |2  |1  |   |   |3  |   |   |  0|  7|
+    ] it the balloon . %snd:"935"_267798_271343               |   |   |   |   |   |   |   |   |   |   |
+and they got two balloons . %snd:"935"_274845_276887          |3  |3  |2  |   |   |3  |   |   |  1| 12|
+they are happy . %snd:"935"_278631_279772                     |   |3  |2  |   |   |   |   |   |  1|  6|
+a [= an] [* m:allo] elephant is        |   |   |1  |   |   |   |   |   |  0|  1|
+    bouncing a ball by the pool . %snd:"935"_290805_294691    |   |   |   |   |   |   |   |   |   |   |
+and then it goes in the water . %snd:"935"_297178_300122      |1  |   |2  |   |   |3  |   |   |  1|  7|
+and the horse &-um swims to go get it .|1  |   |2 1|5  |   |3  |   |   |  1| 14|
+     %snd:"935"_303025_308704                                 |   |   |1  |   |   |   |   |   |   |   |
+and it [//] the horse gave &+i it to   |1  |   |2  |   |   |3  |   |   |  1|  7|
+    the elephant . %snd:"935"_310965_318379                   |   |   |   |   |   |   |   |   |   |   |
+and it [//] she likes the horse . %snd:"935"_320945_326692    |   |2  |2  |   |   |3  |   |   |  1|  8|
+&-um the [//] they saw a diving board .|   |3  |2  |   |   |   |   |   |  1|  6|
+     %snd:"935"_336545_340130                                 |   |   |   |   |   |   |   |   |   |   |
+and they wanna go on it . %snd:"935"_339931_343776            |1  |3  |1 1|2  |   |3  |   |   |  1| 12|
+and the elephant runs to it . %snd:"935"_345341_347864        |1  |   |2  |   |   |3  |   |   |  1|  7|
+and she slips . %snd:"935"_350945_352087                      |   |2  |2  |   |   |3  |   |   |  1|  8|
+and she hurt her knee . %snd:"935"_354897_357362              |   |2 2|1  |   |   |3  |   |   |  1|  9|
+and the lifeguard comes and &-um puts a|   |   |2 2|   |   |3 3|   |   |  1| 11|
+     bandaid on . %snd:"935"_359485_367904                    |   |   |   |   |   |   |   |   |   |   |
+and <then it> [/] <then it go> [//]    |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    then the lifeguard &+s puts it on  |   |   |   |   |   |   |   |   |   |   |
+    her knee . %snd:"935"_371145_383363                       |   |   |   |   |   |   |   |   |   |   |
+and he [//] she [!] said never play    |   |2  |2 1|   |   |3  |   |   |  1|  9|
+    around with toys &+wu at the side  |   |   |   |   |   |   |   |   |   |   |
+    of the pool . %snd:"935"_386945_391722                    |   |   |   |   |   |   |   |   |   |   |
+and she [//] the [/] &+el the lifeguard|1  |2  |2 2|   |   |3  |   |   |  1| 11|
+     shows to her on the wall it says  |   |   |   |   |   |   |   |   |   |   |
+    no running . %snd:"935"_394585_405164                     |   |   |   |   |   |   |   |   |   |   |
+the giraffe gots [: has got] a toy     |   |   |2  |   |   |   |   |   |  1|  3|
+    airplane . %snd:"935"_416633_420837                       |   |   |   |   |   |   |   |   |   |   |
+and she [//] they like it a lot . %snd:"935"_421620_424763    |1  |3  |1  |   |   |3  |   |   |  1|  9|
+and then &+sh he flies it . %snd:"935"_427605_432530          |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and the girl elephant take [= takes] [*|1  |2  |1  |   |   |3  |   |   |  0|  7|
+     m:03s:a] it away from him . %snd:"935"_435335_442543     |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 41| 67|105| 30|  0|122|  0|  0| 45|410|
+
+Developmental sentence score:  8.20

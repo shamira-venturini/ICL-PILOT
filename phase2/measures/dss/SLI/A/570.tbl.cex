@@ -1,0 +1,120 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:52 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/570.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+&-um once a upon a time there was a boy|   |   |2  |4  |   |   |   |   |  1|  7|
+     walking on the store . %snd:"570"_33167_42283          |   |   |   |   |   |   |   |   |   |   |
+the boy wants some cookies . %snd:"570"_46525_49570         |3  |   |2  |   |   |   |   |   |  1|  6|
+and [/] and now he take it . %snd:"570"_50574_55504         |1  |2  |1  |   |   |3  |   |   |  1|  8|
+now the cookies fall down . %snd:"570"_59825_62648          |   |   |1  |   |   |   |   |   |  1|  2|
+now [/] now [/] now the grocery is mad |   |   |1  |   |   |   |   |   |  1|  2|
+    . %snd:"570"_62569_69438                                |   |   |   |   |   |   |   |   |   |   |
+&-um the elephant's playing with the   |   |   |1  |4  |   |   |   |   |  1|  6|
+    ball . %snd:"570"_80559_81638                           |   |   |   |   |   |   |   |   |   |   |
+he lost his ball on [= in] [* s:r:prep]|   |2 2|2  |   |   |   |   |   |  0|  6|
+     the water . %snd:"570"_88083_88583                     |   |   |   |   |   |   |   |   |   |   |
+the giraffe is getting the water . %snd:"570"_92265_95649   |   |   |1  |   |   |   |   |   |  1|  2|
+now the giraffe give the ball to the   |   |   |1  |   |   |   |   |   |  1|  2|
+    elephant . %snd:"570"_99015_104342                       |   |   |   |   |   |   |   |   |   |   |
+the giraffe is happy and the elephant  |   |   |1  |   |   |3  |   |   |  1|  5|
+    too . %snd:"570"_108085_112650                            |   |   |   |   |   |   |   |   |   |   |
+the elephant wants to swim . %snd:"570"_131991_134454         |   |   |2 1|5  |   |   |   |   |  1|  9|
+the elephant run [= runs] [* m:03s:a] .|   |   |1  |   |   |   |   |   |  0|  1|
+     %snd:"570"_137922_139583                                 |   |   |   |   |   |   |   |   |   |   |
+and the elephant hurt [= hurts] [* m:  |   |5  |1  |   |   |3  |   |   |  0|  9|
+    03s:a] hisself [: himself] [* s:r: |   |   |   |   |   |   |   |   |   |   |
+    der] . %snd:"570"_147708_150892                           |   |   |   |   |   |   |   |   |   |   |
+the [/] the [/] <the other elephan(t)> |3  |   |1  |   |   |   |   |   |  1|  5|
+    [/] the other elephant give the [/]|   |   |   |   |   |   |   |   |   |   |
+     the girl elephant a bandaid . %snd:"570"_163475_173612   |   |   |   |   |   |   |   |   |   |   |
+and now the girl sit [= sits] [* m:03s:|   |   |1  |   |   |3  |   |   |  0|  4|
+    a] on the bench . %snd:"570"_177135_180821                |   |   |   |   |   |   |   |   |   |   |
+(.) <and the other elephant is> [//] < |3  |   |2  |   |   |3  |   |   |  1|  9|
+    and the elephant said> [//] and the|   |   |   |   |   |   |   |   |   |   |
+     elephant point says no running . %snd:"570"_187395_199631|   |   |   |   |   |   |   |   |   |   |
+the giraffe got his airplane . %snd:"570"_208064_210587       |   |2  |2  |   |   |   |   |   |  1|  5|
+and [/] &+h <and he> [/] and he now fly|1  |2  |1  |   |   |3  |   |   |  1|  8|
+     it . %snd:"570"_216678_220124                            |   |   |   |   |   |   |   |   |   |   |
+<now the> [//] now [/] now the elephant|   |   |2  |   |   |   |   |   |  1|  3|
+     takes the giraffe's toy back . %snd:"570"_223355_232953  |   |   |   |   |   |   |   |   |   |   |
+the [/] the [/] the elephant <throwed [|   |   |2  |   |   |   |   |   |  0|  2|
+    : threw] [* m:=ed] the> [/] throwed|   |   |   |   |   |   |   |   |   |   |
+     [: threw] [* m:=ed] the airplane  |   |   |   |   |   |   |   |   |   |   |
+    on the water . %snd:"570"_237955_248674                   |   |   |   |   |   |   |   |   |   |   |
+the giraffe is mad . %snd:"570"_251625_253426                 |   |   |1  |   |   |   |   |   |  1|  2|
+and [/] <and the man> [/] and the man  |   |   |1 1|   |   |3  |   |   |  1|  6|
+    is going catch the airplane . %snd:"570"_255290_264502    |   |   |   |   |   |   |   |   |   |   |
+<the man> [//] the elephant says please|   |1  |2 1|5  |   |   |1  |   |  1| 12|
+     [!] you catch the giraffe's toy ? |   |   |1  |   |   |   |   |   |   |   |
+    %snd:"570"_269185_277811                                  |   |   |   |   |   |   |   |   |   |   |
+and he reach and reach and reach it . %snd:"570"_282675_285722|1  |2  |1 1|   |   |3 3|   |   |  1| 15|
+                                       |   |   |   |   |   |3  |   |   |   |   |
+now he can't reach it . %snd:"570"_286186_289274              |1  |2  |3 1|   |4  |   |   |   |  1| 12|
+<I know the> [/] I know the other      |3  |1  |1 2|   |   |   |   |   |  1|  8|
+    elephant got a great idea a net . %snd:"570"_293315_300864|   |   |   |   |   |   |   |   |   |   |
+&+an and he got the net . %snd:"570"_305771_307833            |   |2  |2  |   |   |3  |   |   |  1|  8|
+now he catch it . %snd:"570"_310655_312898                    |1  |2  |1  |   |   |   |   |   |  1|  5|
+and now he give to &-uh the giraffe . %snd:"570"_313139_319649|   |2  |1  |   |   |3  |   |   |  1|  7|
+and [/] and there's [//] now [/] now   |   |2 2|1 2|   |   |3 6|   |   |  1| 17|
+    the giraffe is happy <because he> [|   |   |   |   |   |   |   |   |   |   |
+    //] because he has his airplane . %snd:"570"_324475_335023|   |   |   |   |   |   |   |   |   |   |
+the bunny want [: wants] [* m:0es] to  |3  |2 2|2 1|5  |   |8 6|   |   |  0| 35|
+    make his castle <while the> [/]    |   |2  |1 2|   |   |   |   |   |   |   |
+    while the dog is &-um barking      |   |   |1  |   |   |   |   |   |   |   |
+    because he took his two sands to   |   |   |   |   |   |   |   |   |   |   |
+    dig . %snd:"570"_344635_364253                            |   |   |   |   |   |   |   |   |   |   |
+and [/] and [/] &+h and [/] and the    |   |1  |1 1|   |   |3  |   |   |  1|  7|
+    bunny's like give me my &*EXA:mhm  |   |   |   |   |   |   |   |   |   |   |
+    digger please . %snd:"570"_366025_373833                  |   |   |   |   |   |   |   |   |   |   |
+and now they're happy <because> [/]    |   |3  |2  |   |   |3 6|   |   |  1| 15|
+    because now the dog says okay . %snd:"570"_377435_384403  |   |   |   |   |   |   |   |   |   |   |
+and now [/] now [/] now <he has a> [//]|   |2  |3 1|   |   |3  |   |   |  1| 10|
+     he can make a sandcastle . %snd:"570"_385986_391853      |   |   |   |   |   |   |   |   |   |   |
+and he dump [= dumps] [* m:03s:a] it in|1  |2  |1  |   |   |3  |   |   |  0|  7|
+     . %snd:"570"_395455_398298                               |   |   |   |   |   |   |   |   |   |   |
+and now the sandcastles is ruined . %snd:"570"_402204_409953  |   |   |7  |   |   |3  |   |   |  1| 11|
+a [//] and the dog is helping him &*EXA|   |2  |1 1|   |   |3 6|   |   |  1| 14|
+    :mhm because the dog is crying . %snd:"570"_414838_422563 |   |   |   |   |   |   |   |   |   |   |
+the dog and the bunny they're walking  |   |3  |1  |   |   |3  |   |   |  1|  8|
+    for the picnic . %snd:"570"_435602_437644                 |   |   |   |   |   |   |   |   |   |   |
+now [/] <now the> [/] now the bunny    |   |   |   |4  |   |3  |   |   |  1|  8|
+    eating the sandwich and a carrot . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"570"_441805_450622                                  |   |   |   |   |   |   |   |   |   |   |
+<and now the bunny> [//] and the [/]   |   |2  |2  |   |   |3  |   |   |  1|  8|
+    the bunny is [//] he got full tummy|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"570"_453325_460781                               |   |   |   |   |   |   |   |   |   |   |
+<and the> [//] and [/] and [/] and the |   |2  |1  |   |   |3  |   |   |  1|  7|
+    bunny hold his tummy . %snd:"570"_469052_471983           |   |   |   |   |   |   |   |   |   |   |
+and [/] &-um &+an &+an <and the dog the|   |1  |1 2|   |   |3  |6  |   |  0| 16|
+     dog's bunny's father> [//] I mean |   |   |2 1|   |   |   |   |   |   |   |
+    <the dog> [//] the [//] <no the    |   |   |   |   |   |   |   |   |   |   |
+    doctor> [//] &*EXA:mhm the dog     |   |   |   |   |   |   |   |   |   |   |
+    runned [: ran] [* m:=ed] for the   |   |   |   |   |   |   |   |   |   |   |
+    doctor and said doctor doctor <the |   |   |   |   |   |   |   |   |   |   |
+    rubby tummy's> [//] the bunny's    |   |   |   |   |   |   |   |   |   |   |
+    tummy's full ! %snd:"570"_477792_480763                   |   |   |   |   |   |   |   |   |   |   |
+now [//] <and now he> [//] and <now the|   |2  |1  |   |   |3  |   |   |  1|  7|
+    > [/] now the dog <pull him> [/]   |   |   |   |   |   |   |   |   |   |   |
+    pull him . %snd:"570"_499875_507246                       |   |   |   |   |   |   |   |   |   |   |
+an(d) [/] an(d) [//] <and he's> [//]   |   |   |2  |   |   |3  |   |   |  1|  6|
+    and the doctor said okay okay . %snd:"570"_507688_511733  |   |   |   |   |   |   |   |   |   |   |
+<and now he> [/] and now he's going to |   |2 2|1 1|2  |   |3  |   |   |  1| 12|
+    save him . %snd:"570"_515695_518676                       |   |   |   |   |   |   |   |   |   |   |
+<and now> [/] and now the doctor's     |   |2  |1 1|4  |   |3  |   |   |  1| 12|
+    going take him to the hospital . %snd:"570"_518957_525641 |   |   |   |   |   |   |   |   |   |   |
+the <dog got the &-uh game> [//] no &- |3  |   |2  |   |   |   |   |   |  1|  6|
+    uh the dog got the balloon . %snd:"570"_535645_546702     |   |   |   |   |   |   |   |   |   |   |
++" hi I like your balloon ! %snd:"570"_548665_552550          |   |1 1|1  |   |   |   |   |   |  1|  4|
+an [//] a [//] and he show it . %snd:"570"_553212_553412      |1  |2  |1  |   |   |3  |   |   |  1|  8|
+and he's like this . %snd:"570"_559761_561244                 |1  |2  |1  |   |   |3 8|   |   |  1| 16|
+TOTAL                                  | 26| 69| 99| 33|  4|130|  7|  0| 42|410|
+
+Developmental sentence score:  8.20

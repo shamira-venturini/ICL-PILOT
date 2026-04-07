@@ -1,0 +1,83 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:09 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/663.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once there was a boy who went to the   |   |6  |2 2|   |   |   |   |   |  1| 11|
+    store . %snd:"663"_8342_10743                          |   |   |   |   |   |   |   |   |   |   |
+and he saw cookies in boxes . %snd:"663"_14305_16828        |   |2  |2  |   |   |3  |   |   |  1|  8|
+and he decided to take one from the    |3  |2  |2 1|5  |   |3  |   |   |  1| 17|
+    bottom . %snd:"663"_19634_22437                         |   |   |   |   |   |   |   |   |   |   |
+and they all fell down . %snd:"663"_24682_26403             |   |3  |2  |   |   |3  |   |   |  1|  9|
+the store man got mad . %snd:"663"_28545_30997              |   |   |2  |   |   |   |   |   |  1|  3|
+once <there were some> [//] <there was>|   |   |2  |   |   |3  |   |   |  1|  6|
+     [//] <there were bunnies> [//]    |   |   |   |   |   |   |   |   |   |   |
+    there were a bunny and a dog . %snd:"663"_36015_44020   |   |   |   |   |   |   |   |   |   |   |
+<and they were> [//] and the dog was   |   |   |2  |   |   |3  |   |   |  1|  6|
+    building a sandcastle . %snd:"663"_45702_48663          |   |   |   |   |   |   |   |   |   |   |
+and the bunny got some sand . %snd:"663"_52685_54607        |3  |   |2  |   |   |3  |   |   |  1|  9|
+and he poured it on the castle . %snd:"663"_57715_59536     |1  |2  |2  |   |   |3  |   |   |  1|  9|
+the dog tried to make it again . %snd:"663"_66285_68327     |1  |   |2 1|5  |   |   |   |   |  1| 10|
+once there was a bunny and a dog . %snd:"663"_75537_77618   |   |   |2  |   |   |3  |   |   |  1|  6|
+they went for a picnic . %snd:"663"_80203_81383             |   |3  |2  |   |   |   |   |   |  1|  6|
+the bunny ate all the stuff . %snd:"663"_84665_86547        |3  |   |2  |   |   |   |   |   |  1|  6|
+and he got a tummyache . %snd:"663"_89594_90795             |   |2  |2  |   |   |3  |   |   |  1|  8|
+then the mom came . %snd:"663"_94102_95602                  |   |   |2  |   |   |   |   |   |  1|  3|
+and [/] and then she told that the     |   |2  |2 2|   |   |3 8|   |   |  1| 18|
+    bunny was [//] had a &+tum         |   |   |   |   |   |   |   |   |   |   |
+    stomachache . %snd:"663"_99505_105732                    |   |   |   |   |   |   |   |   |   |   |
+and the mom tried to fix it . %snd:"663"_110621_113023        |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+and she did . %snd:"663"_116305_117245                        |   |2  |2  |   |   |3  |   |   |  1|  8|
+there was a dog and a rabbit . %snd:"663"_123014_125136       |   |   |2  |   |   |3  |   |   |  1|  6|
+and they had a balloon . %snd:"663"_125237_126297             |   |3  |2  |   |   |3  |   |   |  1|  9|
+and the bunny wanted to have it . %snd:"663"_129082_131403    |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+the bunny tried to take it off . %snd:"663"_134607_136588     |1  |   |2 1|5  |   |   |   |   |  1| 10|
+and he did . %snd:"663"_138972_139894                         |   |2  |2  |   |   |3  |   |   |  1|  8|
+and it flew away . %snd:"663"_139775_140855                   |1  |   |2  |   |   |3  |   |   |  1|  7|
+the dog was mad . %snd:"663"_143602_144936                    |   |   |2  |   |   |   |   |   |  1|  3|
+they saw some more balloons . %snd:"663"_147795_149436        |3 3|3  |2  |   |   |   |   |   |  1| 12|
+they decided to buy one . %snd:"663"_151779_153900            |3  |3  |2  |   |   |   |   |   |  1|  9|
+but it was five dollars . %snd:"663"_156563_158204            |1 3|   |2  |   |   |5  |   |   |  1| 12|
+and they waited . %snd:"663"_162065_163065                    |   |3  |2  |   |   |3  |   |   |  1|  9|
+and then the mom came . %snd:"663"_166552_167992              |   |   |2  |   |   |3  |   |   |  1|  6|
+and then he asked <if they> [//] <if   |7  |2 2|2 2|   |   |3 8|   |   |  1| 27|
+    she> [/] if she had any money . %snd:"663"_171439_174904  |   |   |   |   |   |   |   |   |   |   |
+and they got one . %snd:"663"_177905_179331                   |3  |3  |2  |   |   |3  |   |   |  1| 12|
+and then they had their own balloons . |   |3 3|2  |   |   |3  |   |   |  1| 19|
+    %snd:"663"_183820_185703                                  |   |7  |   |   |   |   |   |   |   |   |
+once there were a giraffe and an       |   |   |2  |   |   |3  |   |   |  1|  6|
+    elephant . %snd:"663"_192795_194956                       |   |   |   |   |   |   |   |   |   |   |
+they were playing with the ball . %snd:"663"_197498_199038    |   |3  |2  |   |   |   |   |   |  1|  6|
+and it fell in the water . %snd:"663"_198839_200159           |1  |   |2  |   |   |3  |   |   |  1|  7|
+the giraffe tried to go get it . %snd:"663"_202181_204402     |1  |   |2 1|5  |   |   |   |   |  1| 11|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+and the elephant was happy . %snd:"663"_209805_212008         |   |   |2  |   |   |3  |   |   |  1|  6|
+and they wanted to go on the diving    |   |3  |2 1|5  |   |3  |   |   |  1| 15|
+    board . %snd:"663"_223905_225927                          |   |   |   |   |   |   |   |   |   |   |
+they ran to it . %snd:"663"_228293_229974                     |1  |3  |2  |   |   |   |   |   |  1|  7|
+and the elephant slipped and scrapped  |   |2  |2 2|   |   |3 3|   |   |  1| 13|
+    her knee . %snd:"663"_232580_235083                       |   |   |   |   |   |   |   |   |   |   |
+the lifeguard came . %snd:"663"_237585_238926                 |   |   |2  |   |   |   |   |   |  1|  3|
+and [/] <and she> [//] &+pu and he put |1  |2  |1  |   |   |3  |   |   |  0|  7|
+    [= puts] [* m:03s:a] a bandaid on  |   |   |   |   |   |   |   |   |   |   |
+    it . %snd:"663"_241631_244916                             |   |   |   |   |   |   |   |   |   |   |
+and she was all better . %snd:"663"_247903_249143             |   |2  |2 1|   |   |3  |   |   |  1|  9|
+and <then she had> [/] <and then she   |   |2  |2  |   |   |3 3|   |   |  1| 11|
+    hadta> [//] &+s and then she sat   |   |   |   |   |   |   |   |   |   |   |
+    down . %snd:"663"_252765_256850                           |   |   |   |   |   |   |   |   |   |   |
+once there were an elephant and a      |   |   |2  |   |   |3  |   |   |  1|  6|
+    giraffe . %snd:"663"_262920_265623                        |   |   |   |   |   |   |   |   |   |   |
+and the giraffe had an airplane . %snd:"663"_267885_269566    |   |   |2  |   |   |3  |   |   |  1|  6|
+and the elephant took it . %snd:"663"_273214_275136           |1  |   |2  |   |   |3  |   |   |  1|  7|
+the giraffe was mad at the elephant . %snd:"663"_283545_285528|   |   |2  |   |   |   |   |   |  1|  3|
+and then the lifeguard came . %snd:"663"_289200_290961        |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  | 43| 75|116| 35|  0|129|  0|  0| 49|447|
+
+Developmental sentence score:  8.94

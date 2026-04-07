@@ -1,0 +1,195 @@
+@UTF8
+@PID:	11312/c-00036251-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|5;05.25|female|TD||Target_Child|||
+@Media:	517, audio
+@Comment:	Birth of CHI is 18-OCT-1994
+@Date:	12-APR-2000
+@Tape Location:	Disk L5 Track 2
+@Types:	cross, narrative, TD
+*CHI:	I see a boy . 7303_8183
+%mor:	pro:sub|I v|see det:art|a n|boy .
+%xdss:	B1; C1; Z;
+*CHI:	and I see so:me &-uh see some bottles . 9885_16013
+%mor:	coord|and pro:sub|I v|see qn|some v|see qn|some n|bottle-PL .
+%xdss:	F3; B1; C1; A3; C1; A3; Z;
+*CHI:	he's running into the store . 20801_22943
+%mor:	pro:sub|he~aux|be&3S part|run-PRESP prep|into det:art|the n|store .
+%xdss:	B2; C1; Z;
+*CHI:	I see &-uh that kid again . 29245_35335
+%mor:	pro:sub|I v|see comp|that n|kid adv:tem|again .
+%xdss:	B1; C1; F8; Z;
+*CHI:	and I see there's food . 35376_37879
+%mor:	coord|and pro:sub|I v|see pro:exist|there~cop|be&3S n|food .
+%xdss:	F3; B1; C1; C1; Z;
+*CHI:	and I see his dad . 38542_39803
+%mor:	coord|and pro:sub|I v|see det:poss|his n|dad .
+%xdss:	F3; B1; C1; B2; Z;
+*CHI:	he's looking at the cookies . 48528_50250
+%mor:	pro:sub|he~aux|be&3S part|look-PRESP prep|at det:art|the
+	n|cookie-PL .
+%xdss:	B2; C1; Z;
+*CHI:	<see a> [/] see a cookie . 56919_57860
+%mor:	v|see det:art|a n|cookie .
+%xdss:	C1; Z;
+*CHI:	and I could see a drink right there . 57802_59984
+%mor:	coord|and pro:sub|I mod|could v|see det:art|a n|drink adv|right
+	n|there .
+%xdss:	F3; B1; C5; C1; Z; Z;
+*CHI:	their cookies are falling . 65235_66755
+%mor:	det:poss|their n|cookie-PL aux|be&PRES part|fall-PRESP .
+%xdss:	B3; Z; C2;
+*CHI:	and the boy's hanging on to one . 69857_71639
+%mor:	coord|and det:art|the n|boy~aux|be&3S part|hang-PRESP adv|on
+	prep|to pro:indef|one .
+%xdss:	F3; Z; C1; D4; A3;
+*CHI:	<the guy is> [//] and the boy's running . 76001_79684
+%mor:	coord|and det:art|the n|boy~aux|be&3S part|run-PRESP .
+%xdss:	F3; Z; C1; D4;
+@G:	A1
+*CHI:	there's a elephant and a giraffe . 94325_97170
+%mor:	pro:exist|there~cop|be&3S det:art|a n|elephant coord|and det:art|a
+	n|giraffe .
+%xdss:	C1; Z; F3; Z;
+*CHI:	&-uh there's some grass right here . 99095_102803
+%mor:	pro:exist|there~cop|be&3S qn|some n|grass adv|right n|here .
+%xdss:	C1; A3; Z; Z;
+*CHI:	there is a elephant , a giraffe and their ball felling [//] fell in
+	the water . 109545_116112
+%mor:	pro:exist|there cop|be&3S det:art|a n|elephant det:art|a n|giraffe
+	coord|and det:poss|their n|ball v|fall&PAST prep|in det:art|the
+	n|water .
+%xdss:	C1; Z; Z; F3; B3; Z; C2; Z;
+*CHI:	there was an elephant and a giraffe . 121561_124263
+%mor:	pro:exist|there cop|be&PAST&13S det:art|a n|elephant coord|and
+	det:art|a n|giraffe .
+%xdss:	C2; Z; F3; Z;
+*CHI:	he was trying to get the ball . 125485_127287
+%mor:	pro:sub|he aux|be&PAST&13S part|try-PRESP inf|to v|get det:art|the
+	n|ball .
+%xdss:	B2; C2; D2; C1; Z;
+*CHI:	he [//] the elephant got the ball . 132556_135419
+%mor:	det:art|the n|elephant v|get&PAST det:art|the n|ball .
+%xdss:	Z; C2; Z;
+*CHI:	and giraffe wanted it . 135761_138124
+%mor:	coord|and n|giraffe v|want-PAST pro:per|it .
+%xdss:	F3; Z; C2; A1;
+*CHI:	there's a elephant . 143685_144565
+%mor:	pro:exist|there~cop|be&3S det:art|a n|elephant .
+%xdss:	C1; Z;
+*CHI:	there is a ball and the giraffe . 145407_146668
+%mor:	pro:exist|there cop|be&3S det:art|a n|ball coord|and det:art|the
+	n|giraffe .
+%xdss:	C1; Z; F3; Z;
+@G:	A2
+*CHI:	there's an elephant and a giraffe . 157905_159367
+%mor:	pro:exist|there~cop|be&3S det:art|a n|elephant coord|and det:art|a
+	n|giraffe .
+%xdss:	C1; Z; F3; Z;
+*CHI:	and there's some water . 162195_163376
+%mor:	coord|and pro:exist|there~cop|be&3S qn|some n|water .
+%xdss:	F3; C1; A3; Z;
+*CHI:	and there's some bricks right here . 164001_165804
+%mor:	coord|and pro:exist|there~cop|be&3S qn|some n|brick-PL adv|right
+	n|here .
+%xdss:	F3; C1; A3; Z; Z;
+*CHI:	they're looking at the water . 172905_174066
+%mor:	pro:sub|they~aux|be&PRES part|look-PRESP prep|at det:art|the
+	n|water .
+%xdss:	B3; C1; Z;
+*CHI:	there's a giraffe and a elephant . 177892_180215
+%mor:	pro:exist|there~cop|be&3S det:art|a n|giraffe coord|and det:art|a
+	n|elephant .
+%xdss:	C1; Z; F3; Z;
+*CHI:	there's some bricks . 180457_181437
+%mor:	pro:exist|there~cop|be&3S qn|some n|brick-PL .
+%xdss:	C1; A3; Z;
+*CHI:	and they're pointing right over here . 182180_184884
+%mor:	coord|and pro:sub|they~aux|be&PRES part|point-PRESP adv|right
+	prep|over n|here .
+%xdss:	F3; B3; C1; Z;
+*CHI:	and the elephant slipping . 192127_194029
+%mor:	coord|and det:art|the n|elephant part|slip-PRESP .
+%xdss:	F3; Z; D4;
+*CHI:	there's a giraffe . 199378_200339
+%mor:	pro:exist|there~cop|be&3S det:art|a n|giraffe .
+%xdss:	C1; Z;
+*CHI:	and he hurt his knee right there . 200562_202684
+%mor:	coord|and pro:sub|he v|hurt&ZERO det:poss|his n|knee adv|right
+	n|there .
+%xdss:	F3; B2; C1; B2; Z; Z;
+*CHI:	and there's a giraffe . 213060_213701
+%mor:	coord|and pro:exist|there~cop|be&3S det:art|a n|giraffe .
+%xdss:	F3; C1; Z;
+*CHI:	and they're trying to help him . 214021_215684
+%mor:	coord|and pro:sub|they~aux|be&PRES part|try-PRESP inf|to v|help
+	pro:obj|him .
+%xdss:	F3; B3; C1; D2; C1; B2;
+*CHI:	there's a giraffe and elephant [//] an elephant . 222045_224587
+%mor:	pro:exist|there~cop|be&3S det:art|a n|giraffe coord|and det:art|a
+	n|elephant .
+%xdss:	C1; Z; F3; Z;
+*CHI:	and <he got> [//] they're putting a bandaid on his owie . 224808_227691
+%mor:	coord|and pro:sub|they~aux|be&PRES part|put-PRESP det:art|a
+	n|bandaid prep|on det:poss|his n|owie .
+%xdss:	F3; B3; C1; Z; B2; Z;
+*CHI:	there's a giraffe and a elephant elephant . 233540_236063
+%mor:	pro:exist|there~cop|be&3S det:art|a n|giraffe coord|and det:art|a
+	n|elephant n|elephant .
+%xdss:	C1; Z; F3; Z; Z;
+*CHI:	and he was all better . 236645_238046
+%mor:	coord|and pro:sub|he cop|be&PAST&13S adv|all v|better .
+%xdss:	F3; B2; C2; C1;
+*CHI:	there's an elephant and an elephant . 241314_243337
+%mor:	pro:exist|there~cop|be&3S det:art|a n|elephant coord|and det:art|a
+	n|elephant .
+%xdss:	C1; Z; F3; Z;
+*CHI:	and he's pointing at her . 244102_245764
+%mor:	coord|and pro:sub|he~aux|be&3S part|point-PRESP prep|at pro:obj|her
+	.
+%xdss:	F3; B2; C1; B2;
+@G:	A3
+*CHI:	there's an elephant . 263020_263719
+%mor:	pro:exist|there~cop|be&3S det:art|a n|elephant .
+%xdss:	C1; Z;
+*CHI:	and there's some bricks . 269669_270769
+%mor:	coord|and pro:exist|there~cop|be&3S qn|some n|brick-PL .
+%xdss:	F3; C1; A3; Z;
+*CHI:	there's [/] there's a airplane . 271372_273654
+%mor:	pro:exist|there~cop|be&3S det:art|a n|+n|air+n|plane .
+%xdss:	C1; Z;
+*CHI:	and he's holding onto his airplane as he's putting her hands out .
+	273917_278343
+%mor:	coord|and pro:sub|he~aux|be&3S part|hold-PRESP prep|onto
+	det:poss|his n|+n|air+n|plane conj|as pro:sub|he~aux|be&3S
+	part|put-PRESP det:poss|her n|hand-PL adv|out .
+%xdss:	F3; B2; C1; B2; Z; F8; B2; C1; B2; Z;
+*CHI:	<and he was> [//] and the airplane had string on him . 286830_291599
+%mor:	coord|and det:art|the n|+n|air+n|plane v|have&PAST n|string prep|on
+	pro:obj|him .
+%xdss:	F3; Z; C2; Z; B2;
+*CHI:	and there was some bricks . 291321_292681
+%mor:	coord|and pro:exist|there cop|be&PAST&13S qn|some n|brick-PL .
+%xdss:	F3; C2; A3; Z;
+*CHI:	there was a giraffe and an elephant . 298245_300467
+%mor:	pro:exist|there cop|be&PAST&13S det:art|a n|giraffe coord|and
+	det:art|a n|elephant .
+%xdss:	C2; Z; F3; Z;
+*CHI:	the elephant took the airplane away from the giraffe . 300768_304312
+%mor:	det:art|the n|elephant v|take&PAST det:art|the n|+n|air+n|plane
+	adv|away prep|from det:art|the n|giraffe .
+%xdss:	Z; C2; Z; Z;
+*CHI:	then he dropped it in the water . 309601_312403
+%mor:	adv:tem|then pro:sub|he v|drop-PAST pro:per|it prep|in det:art|the
+	n|water .
+%xdss:	B2; C2; A1; Z;
+*CHI:	and the giraffe was standing on the bricks . 313627_316650
+%mor:	coord|and det:art|the n|giraffe aux|be&PAST&13S part|stand-PRESP
+	prep|on det:art|the n|brick-PL .
+%xdss:	F3; Z; C2; Z;
+*CHI:	<then there was the> [//] then there was a elephant . 320699_324103
+%mor:	adv:tem|then pro:exist|there cop|be&PAST&13S det:art|a n|elephant .
+%xdss:	C2; Z;

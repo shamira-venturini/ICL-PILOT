@@ -1,0 +1,208 @@
+@UTF8
+@PID:	11312/c-00036306-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|6;11.06|female|TD||Target_Child|||
+@Media:	636, audio
+@Comment:	Birth of CHI is 29-DEC-1993
+@Date:	05-DEC-2000
+@Tape Location:	Disk M7 Track 12
+@Types:	cross, narrative, TD
+*CHI:	once upon a time there was a boy . 1596_3496
+%mor:	adv:tem|once prep|upon det:art|a n|time adv|there cop|be&PAST&13S
+	det:art|a n|boy .
+%xdss:	Z; C2; Z;
+*CHI:	he wanted to go to the store . 3377_5078
+%mor:	pro:sub|he v|want-PAST inf|to v|go prep|to det:art|the n|store .
+%xdss:	B2; C2; D5; C1; Z;
+*CHI:	he wanted to buy some cookies so he can eat them . 8562_11783
+%mor:	pro:sub|he v|want-PAST inf|to v|buy qn|some n|cookie-PL conj|so
+	pro:sub|he mod|can v|eat pro:obj|them .
+%xdss:	B2; C2; D5; C1; A3; Z; F5; B2; C3; C1; B3;
+*CHI:	he took one from the bottom . 14005_15926
+%mor:	pro:sub|he v|take&PAST pro:indef|one prep|from det:art|the n|bottom
+	.
+%xdss:	B2; C2; A3; Z;
+*CHI:	and <it fell a:ll down> [//] they all fell down . 16268_21534
+%mor:	coord|and pro:sub|they post|all v|fall&PAST adv|down .
+%xdss:	F3; B3; C2;
+*CHI:	so he send [= sent] [* m:base:ed] the boy out . 28765_31186
+%mor:	co|so pro:sub|he v|send det:art|the n|boy adv|out .
+%xdss:	B2; C1; Z;
+@G:	B1
+*CHI:	once upon a time a bunny met his bestest friend a dog . 38235_44924
+%mor:	adv:tem|once prep|upon det:art|a n|time det:art|a n|bunny
+	v|meet&PAST det:poss|his adj|good&SP-SP n|friend det:art|a n|dog .
+%xdss:	Z; Z; C2; B2; Z; Z;
+*CHI:	the dog and the bunny wanted to make a castle . 48371_50894
+%mor:	det:art|the n|dog coord|and det:art|the n|bunny v|want-PAST inf|to
+	v|make det:art|a n|castle .
+%xdss:	Z; F3; Z; C2; D5; C1; Z;
+*CHI:	and the bunny was putting all the sand inside the bucket . 51175_55001
+%mor:	coord|and det:art|the n|bunny aux|be&PAST&13S part|put-PRESP
+	adv|all det:art|the n|sand adj|inside det:art|the n|bucket .
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	then he dumped it all on the sandcastle . 58209_61054
+%mor:	adv:tem|then pro:sub|he v|dump-PAST pro:per|it adv|all prep|on
+	det:art|the n|+n|sand+n|castle .
+%xdss:	B2; C2; A1; Z;
+*CHI:	and then the [/] the bunny looked at the sandcastle and the dog . 62435_69163
+%mor:	coord|and adv:tem|then det:art|the n|bunny v|look-PAST prep|at
+	det:art|the n|+n|sand+n|castle coord|and det:art|the n|dog .
+%xdss:	F3; Z; C2; Z; F3; Z;
+*CHI:	<and the dog started to> [/] &+cr and the dog started to cry . 73330_76213
+%mor:	coord|and det:art|the n|dog v|start-PAST inf|to v|cry .
+%xdss:	F3; Z; C2; D5; C1;
+*CHI:	and the bunny was feeling sad because he [/] he accidentally dumped
+	it on the sandcastle . 76875_84480
+%mor:	coord|and det:art|the n|bunny aux|be&PAST&13S part|feel-PRESP
+	adj|sad conj|because pro:sub|he adv|accident&dadj-AL-LY v|dump-PAST
+	pro:per|it prep|on det:art|the n|+n|sand+n|castle .
+%xdss:	F3; Z; C2; F6; B2; C2; A1; Z;
+@G:	B2
+*CHI:	once upon a time the bunny met his friend the dog . 90035_94660
+%mor:	adv:tem|once prep|upon det:art|a n|time det:art|the n|bunny
+	v|meet&PAST det:poss|his n|friend det:art|the n|dog .
+%xdss:	Z; Z; C2; B2; Z; Z;
+*CHI:	and the bunny had a picnic with the dog and ate lots of stuff . 97685_105702
+%mor:	coord|and det:art|the n|bunny v|have&PAST det:art|a n|picnic
+	prep|with det:art|the n|dog coord|and v|eat&PAST n|lot-PL prep|of
+	n|stuff .
+%xdss:	F3; Z; C2; Z; Z; F3; C2; Z; Z;
+*CHI:	<and then the> [//] and the dog looked at the bunny . 108035_113899
+%mor:	coord|and det:art|the n|dog v|look-PAST prep|at det:art|the n|bunny
+	.
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the bunny was eating . 114561_116081
+%mor:	coord|and det:art|the n|bunny aux|be&PAST&13S part|eat-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	he was messy at eating . 116222_118163
+%mor:	pro:sub|he aux|be&PAST&13S adj|mess&dn-Y prep|at part|eat-PRESP .
+%xdss:	B2; C2;
+*CHI:	<then the> [/] then the bunny didn't feel very good . 120455_124457
+%mor:	adv:tem|then det:art|the n|bunny mod|do&PAST~neg|not v|feel
+	adv|very adj|good .
+%xdss:	Z; C5; E7; C1;
+*CHI:	and then the dog went to tell his mom that he wasn't feeling good .
+	126740_132764
+%mor:	coord|and adv:tem|then det:art|the n|dog v|go&PAST inf|to v|tell
+	det:poss|his n|mom pro:rel|that pro:sub|he aux|be&PAST&13S~neg|not
+	part|feel-PRESP adj|good .
+%xdss:	F3; Z; C2; D5; C1; B2; Z; B6; B2; C1; E7;
+*CHI:	and he brung [: brought] [* m:=ed:i] her to get [//] see him [//]
+	the bunny . 135045_139367
+%mor:	coord|and pro:sub|he v|bring&PAST pro:obj|her inf|to v|see
+	det:art|the n|bunny .
+%xdss:	F3; B2; C2; D5; B2; C1; Z;
+*CHI:	and then looks like a mom or a doctor . 141950_147093
+%mor:	coord|and adv:tem|then v|look-3S prep|like det:art|a n|mom coord|or
+	det:art|a n|doctor .
+%xdss:	F3; C2; F8; Z; F5; Z;
+*CHI:	&-um okay then I'll hafta say it's a doctor . 149105_152129
+%mor:	co|okay adv:tem|then pro:sub|I~mod|will mod|have~inf|to v|say
+	pro:per|it~cop|be&3S det:art|a n|doctor .
+%xdss:	B1; C1; A1; C1; Z;
+*CHI:	the doctor tried to fix the bunny up [/] up . 152892_158260
+%mor:	det:art|the n|doctor v|try-PAST inf|to v|fix det:art|the n|bunny
+	adv|up .
+%xdss:	Z; C2; D5; C1; Z;
+*CHI:	and then the mom took the bunny back home . 160585_164707
+%mor:	coord|and adv:tem|then det:art|the n|mom v|take&PAST det:art|the
+	n|bunny adv|back adv|home .
+%xdss:	F3; Z; C2; Z;
+*CHI:	that's the end . [+ bch]
+%mor:	pro:dem|that~cop|be&3S det:art|the n|end .
+%xdss:	A1; C1; Z;
+@G:	B3
+*CHI:	the bunny met &=laughs the dog . 173714_175173
+%mor:	det:art|the n|bunny v|meet&PAST det:art|the n|dog .
+%xdss:	Z; C2; Z;
+*CHI:	and the dog had a balloon . 175475_177496
+%mor:	coord|and det:art|the n|dog v|have&PAST det:art|a n|balloon .
+%xdss:	F3; Z; C2; Z;
+*CHI:	the dog showed the bunny his balloon . 180238_182719
+%mor:	det:art|the n|dog v|show-PAST det:art|the n|bunny det:poss|his
+	n|balloon .
+%xdss:	Z; C2; Z; B2; Z;
+*CHI:	then the balloon flew away . 190395_192917
+%mor:	adv:tem|then det:art|the n|balloon v|fly&PAST adv|away .
+%xdss:	Z; C2;
+*CHI:	and then the dog was mad [!] at the bunny . 194941_198004
+%mor:	coord|and adv:tem|then det:art|the n|dog cop|be&PAST&13S adj|mad
+	prep|at det:art|the n|bunny .
+%xdss:	F3; Z; C2; Z;
+*CHI:	then the bunny went to get another balloon [!] for him . 200630_204194
+%mor:	adv:tem|then det:art|the n|bunny v|go&PAST inf|to v|get qn|another
+	n|balloon prep|for pro:obj|him .
+%xdss:	Z; C2; D5; C1; A3; Z; B2;
+*CHI:	but he didn't have any money . 205815_207656
+%mor:	conj|but pro:sub|he mod|do&PAST~neg|not v|have qn|any n|money .
+%xdss:	F5; B2; C5; E7; C1; A7; Z;
+*CHI:	so he [/] he [/] he looked in his pockets . 207837_212623
+%mor:	co|so pro:sub|he v|look-PAST prep|in det:poss|his n|pocket-PL .
+%xdss:	B2; C2; B2; Z;
+*CHI:	and he didn't have any money still [!] . 215107_217629
+%mor:	coord|and pro:sub|he mod|do&PAST~neg|not v|have qn|any n|money
+	adv|still .
+%xdss:	F3; B2; C5; E7; C1; A7; Z;
+*CHI:	then he [/] he was sad . 218492_220373
+%mor:	adv:tem|then pro:sub|he cop|be&PAST&13S adj|sad .
+%xdss:	B2; C2;
+*CHI:	and the dog was sad too . 220755_222777
+%mor:	coord|and det:art|the n|dog cop|be&PAST&13S adj|sad post|too .
+%xdss:	F3; Z; C2;
+*CHI:	but then [!] he went to tell his mo:m [!] to give him money . 223859_227844
+%mor:	conj|but adv:tem|then pro:sub|he v|go&PAST inf|to v|tell
+	det:poss|his n|mom inf|to v|give pro:obj|him n|money .
+%xdss:	F5; B2; C2; D5; C1; B2; Z; C1; B2; Z;
+*CHI:	and then she went to get him some money . 230670_234274
+%mor:	coord|and adv:tem|then pro:sub|she v|go&PAST inf|to v|get
+	pro:obj|him qn|some n|money .
+%xdss:	F3; B2; C2; D5; C1; B2; A3; Z;
+*CHI:	and then they were very happy . 236835_238939
+%mor:	coord|and adv:tem|then pro:sub|they cop|be&PAST adv|very adj|happy
+	.
+%xdss:	F3; B3; C2;
+*CHI:	and they both have a balloon . 241650_243234
+%mor:	coord|and pro:sub|they post|both v|have det:art|a n|balloon .
+%xdss:	F3; B3; C1; Z;
+@G:	A1
+*CHI:	once upon a time there was an elephant and a giraffe . 249415_253320
+%mor:	adv:tem|once prep|upon det:art|a n|time adv|there cop|be&PAST&13S
+	det:art|a n|elephant coord|and det:art|a n|giraffe .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	the elephant and the giraffe were playing ball . 255906_259470
+%mor:	det:art|the n|elephant coord|and det:art|the n|giraffe aux|be&PAST
+	part|play-PRESP n|ball .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	and then the ball fell in the water . 259332_261174
+%mor:	coord|and adv:tem|then det:art|the n|ball v|fall&PAST prep|in
+	det:art|the n|water .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and then the giraffe went to swim in the water and get it . 263715_269398
+%mor:	coord|and adv:tem|then det:art|the n|giraffe v|go&PAST inf|to
+	v|swim prep|in det:art|the n|water coord|and v|get pro:per|it .
+%xdss:	F3; Z; C2; D5; C1; Z; F3; C1; A1;
+*CHI:	and then he brung [: brought] [* m:=ed:i] it back to the elephant .
+	272162_275523
+%mor:	coord|and adv:tem|then pro:sub|he v|bring&PAST pro:per|it adv|back
+	prep|to det:art|the n|elephant .
+%xdss:	F3; B2; C2; A1; Z;
+*CHI:	and then <the giraffe liked the> [//] &+eleph I mean the elephant
+	liked the giraffe . 278465_283210
+%mor:	coord|and adv:tem|then pro:sub|I v|mean det:art|the n|elephant
+	v|like-PAST det:art|the n|giraffe .
+%xdss:	F3; B1; C1; G6; Z; C2; Z;
+*CHI:	that's all . [+ bch] 283051_283731
+%mor:	pro:dem|that~cop|be&3S pro:indef|all .
+%xdss:	A1; C1; A3;
+@G:	A2
+*CHI:	once upon a time the giraffe met the elephant . 288599_292663
+%mor:	adv:tem|once prep|upon det:art|a n|time det:art|the n|giraffe
+	v|meet&PAST det:art|the n|elephant .
+%xdss:	Z; Z; C2; Z;
+*CHI:	<and wanted> [//] and they wanted to go swimming . 293085_294807
+%mor:	coord|and pro:sub|they v|want-PAST inf|to v|go part|swim-PRESP .
+%xdss:	F3; B3; C2; D5; C1;

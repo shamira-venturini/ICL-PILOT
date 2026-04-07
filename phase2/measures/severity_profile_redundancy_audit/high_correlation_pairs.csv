@@ -1,0 +1,9 @@
+left_column,right_column,overlap_rows,pearson_r,spearman_rho,abs_pearson_r,exact_equal_on_overlap,max_abs_diff,mean_abs_diff
+DSS_tbl_warning_50,severity_use_with_caution,360,1.000000,1.000000,1.000000,1,0.000000,0.000000
+VOCD_D_optimum_average_severity_z,severity_lexical,360,1.000000,1.000000,1.000000,1,0.000000,0.000000
+Word_Errors_per_utt_severity_z,severity_morphosyntax_burden,360,0.986130,0.925964,0.986130,0,8.185054,0.458819
+DSS_tbl_score_severity_z,severity_structural,360,0.970835,0.883220,0.970835,0,3.252675,0.385625
+DSS_tbl_MV_severity_z,severity_structural,360,0.967713,0.853995,0.967713,0,18.335483,0.454255
+severity_core_composite,severity_domain_composite,360,0.958476,0.885282,0.958476,0,4.886489,0.378277
+severity_morphosyntax_burden,severity_core_composite,360,0.956812,0.634269,0.956812,0,10.484712,0.479465
+severity_morphosyntax_burden,severity_domain_composite,360,0.952804,0.612739,0.952804,0,12.713490,0.553588

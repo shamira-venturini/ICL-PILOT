@@ -1,0 +1,94 @@
+@UTF8
+@PID:	11312/c-00036111-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child, UNI Unidentified
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|4;02.04|male|SLI||Target_Child|||
+@ID:	eng|ENNI|UNI|||||Unidentified|||
+@Media:	444, audio
+@Comment:	Birth of CHI is 30-MAR-1997
+@Date:	03-JUN-2001
+@Tape Location:	Disk L29 Track 2
+@Types:	cross, narrative, SLI
+*CHI:	just ask them .
+%mor:	adv|just v|ask pro:obj|them .
+%xdss:	C1; B3;
+*CHI:	he's going in the shopping . 31695_33035
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP prep|in det:art|the
+	n:gerund|shop-PRESP .
+%xdss:	B2; C1; Z; D8;
+*CHI:	to buy cookies . 37940_39100
+%mor:	inf|to v|buy n|cookie-PL .
+%xdss:	C1; Z;
+*CHI:	to eat cookies . 43024_44103
+%mor:	inf|to v|eat n|cookie-PL .
+%xdss:	C1; Z;
+*CHI:	to spell cookies . 47845_49446
+%mor:	inf|to v|spell n|cookie-PL .
+%xdss:	C1; Z;
+*CHI:	bake a cookies . 53194_54154
+%mor:	v|bake det:art|a n|cookie-PL .
+%xdss:	C1; Z;
+@G:	A1
+@G:	A2
+*CHI:	why I need this ? 112435_113756
+%mor:	pro:int|why pro:sub|I v|need pro:dem|this ?
+%xdss:	H7; B1; C1; A1; G1;
+*CHI:	<owie and> [//] &-uh owie [//] elephant has a owie . 142947_144788
+%mor:	n|elephant v|have&3S det:art|a n|owie .
+%xdss:	Z; C2; Z;
+*CHI:	and the zebra don't [= doesn't] [* m:03s:a] has [= have] [* m:+3s]
+	a [= an] [* m:allo] owie . 144952_146994
+%mor:	coord|and det:art|the n|zebra mod|do~neg|not v|have&3S det:art|a
+	n|owie .
+%xdss:	F3; Z; C3; E4; C2; Z;
+*CHI:	there's [= are] [* m:vsg:a] two elephants . 154675_155174
+%mor:	pro:exist|there~cop|be&3S det:num|two n|elephant-PL .
+%xdss:	C1; A3; Z;
+*CHI:	you have to put it right there . 186905_187885
+%mor:	pro:per|you v|have inf|to v|put&ZERO pro:per|it adv|right n|there .
+%xdss:	B1; C1; D5; C1; A1; Z;
+@G:	A3
+*CHI:	&-uh it's on . [+ bch]
+%mor:	pro:per|it~cop|be&3S adv|on .
+%xdss:	A1; C1;
+*CHI:	what's that sound ? [+ bch] 220645_221445
+%mor:	pro:int|what~cop|be&3S det:dem|that n|sound ?
+%xdss:	C1; H2; A1; Z; G1;
+*CHI:	what's that sound in there ? [+ bch] 222267_223889
+%mor:	pro:int|what~cop|be&3S det:dem|that n|sound prep|in n|there ?
+%xdss:	C1; H2; A1; Z; Z; G1;
+@G:	B1
+*CHI:	they're making it again . 346235_350438
+%mor:	pro:sub|they~aux|be&PRES part|make-PRESP pro:per|it adv:tem|again .
+%xdss:	B3; C1; A1;
+@G:	B2
+*CHI:	I said a carrot that's it . [+ bch] 373721_375444
+%mor:	pro:sub|I v|say&PAST det:art|a n|carrot pro:rel|that~cop|be&3S
+	pro:per|it .
+%xdss:	B1; C2; Z; B6; C1; A1;
+*CHI:	I said juice . [+ bch] 394490_395239
+%mor:	pro:sub|I v|say&PAST n|juice .
+%xdss:	B1; C2; Z;
+*CHI:	there we go .
+%mor:	adv|there pro:sub|we v|go .
+%xdss:	B3; C1;
+@G:	B3
+*CHI:	&+t popped the balloon . 460913_462093
+%mor:	v|pop-PAST det:art|the n|balloon .
+%xdss:	C2; Z;
+*CHI:	I said lots of balloons . [+ bch] 481555_485501
+%mor:	pro:sub|I v|say&PAST n|lot-PL prep|of n|balloon-PL .
+%xdss:	B1; C2; Z; Z;
+*CHI:	let's count the balloons <in here> [//] in this picture . 497855_501520
+%mor:	v|let~pro:obj|us v|count det:art|the n|balloon-PL prep|in
+	det:dem|this n|picture .
+%xdss:	B3; C1; D2; C1; Z; A1; Z;
+*CHI:	there's nine . 508092_508853
+%mor:	pro:exist|there~cop|be&3S det:num|nine .
+%xdss:	C1; A3;
+*CHI:	there's two balloons . 514418_515599
+%mor:	pro:exist|there~cop|be&3S det:num|two n|balloon-PL .
+%xdss:	C1; A3; Z;
+@End

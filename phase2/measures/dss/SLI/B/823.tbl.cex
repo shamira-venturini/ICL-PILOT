@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:54 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/B/823.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+this kid is walking to the store and   |1  |   |1  |   |   |3  |   |   |  1|  6|
+    buying food . %snd:"823"_5779_9861                    |   |   |   |   |   |   |   |   |   |   |
+and then he's going home . %snd:"823"_10423_12303           |   |2  |1  |   |   |3  |   |   |  1|  7|
+he looked at the cookies . %snd:"823"_15985_17266           |   |2  |2  |   |   |   |   |   |  1|  5|
+he makes spill the cookies . %snd:"823"_28002_29743         |   |2  |2 1|   |   |   |   |   |  1|  6|
+and they spilled [: spilt] [* m:=ed]   |   |3  |2  |   |   |3  |   |   |  0|  8|
+    all over the floor . %snd:"823"_32035_34616             |   |   |   |   |   |   |   |   |   |   |
+and then the person who works there is |   |6  |2 1|   |   |3  |   |   |  1| 13|
+    mad . %snd:"823"_38039_43802                            |   |   |   |   |   |   |   |   |   |   |
+and the kid runs away . %snd:"823"_44063_46123              |   |   |2  |   |   |3  |   |   |  1|  6|
+there are these two bunny rabbits      |3  |3  |2  |4  |   |   |   |   |  1| 13|
+    playing in the sand . %snd:"823"_53008_59252            |   |   |   |   |   |   |   |   |   |   |
+they made a castle . %snd:"823"_59133_60452                 |   |3  |2  |   |   |   |   |   |  1|  6|
+and they are laughing . %snd:"823"_60473_61533              |   |3  |2  |   |   |3  |   |   |  1|  9|
+they starting [= start] [* m:+ing] to  |1  |3  |1  |   |   |3  |   |   |  0|  8|
+    fix it and building [= build] [* m:|   |   |   |   |   |   |   |   |   |   |
+    +ing] new stuff . %snd:"823"_64195_69643                |   |   |   |   |   |   |   |   |   |   |
+(..) the boy rabbit dumped sand on the |   |   |2  |   |   |   |   |   |  1|  3|
+    castle . %snd:"823"_76225_80270                         |   |   |   |   |   |   |   |   |   |   |
+&+sh and the [//] a little part of the |   |   |1  |   |   |3  |   |   |  1|  5|
+    castle is showing . %snd:"823"_83234_87280              |   |   |   |   |   |   |   |   |   |   |
+and now it's only sand . %snd:"823"_87522_89543             |1  |   |1  |   |   |3  |   |   |  1|  6|
+now they are trying to build it back   |1  |3  |2 1|2  |   |   |   |   |  1| 10|
+    together . %snd:"823"_93795_97160                       |   |   |   |   |   |   |   |   |   |   |
+they are these two rabbits walking <   |3  |3 3|2  |4  |   |   |   |   |  1| 16|
+    down the> [/] in the forest . %snd:"823"_104885_111434    |   |   |   |   |   |   |   |   |   |   |
+they walked and walked . %snd:"823"_112918_114599             |   |3  |2 2|   |   |3  |   |   |  1| 11|
+they met each other . %snd:"823"_115262_116724                |7 3|3  |2  |   |   |   |   |   |  1| 16|
+and they started to have a picnic <with|1  |3  |2 1|5  |   |3  |   |   |  1| 16|
+     every> [//] &+bo <and with every> |   |   |   |   |   |   |   |   |   |   |
+    [//] with that girl . %snd:"823"_121585_130694            |   |   |   |   |   |   |   |   |   |   |
+and then the boy rabbit ate everything |7  |   |2  |   |   |3  |   |   |  1| 13|
+    up . %snd:"823"_135765_139427                             |   |   |   |   |   |   |   |   |   |   |
+and he was full . %snd:"823"_139808_141068                    |   |2  |2  |   |   |3  |   |   |  1|  8|
+then the girl rabbit looked at the boy |   |   |2  |   |   |   |   |   |  1|  3|
+    rabbit . %snd:"823"_144471_149174                         |   |   |   |   |   |   |   |   |   |   |
+and the boy rabbit didn't feel so good |   |   |5 1|   |7  |3  |   |   |  1| 17|
+    . %snd:"823"_149535_152336                                |   |   |   |   |   |   |   |   |   |   |
+and then [!] there was a doctor came . |   |   |2 2|   |   |3  |   |   |  1|  8|
+    %snd:"823"_152718_157601                                  |   |   |   |   |   |   |   |   |   |   |
+and the girl went to get &+hi her . %snd:"823"_157782_160384  |   |2  |2 1|5  |   |3  |   |   |  1| 14|
+and she pulled . %snd:"823"_164135_165095                     |   |2  |2  |   |   |3  |   |   |  1|  8|
+and they finally got there . %snd:"823"_166116_168117         |   |3  |2  |   |   |3  |   |   |  1|  9|
+and she was checking if he was all     |   |2 2|2 2|   |   |3 5|   |   |  1| 17|
+    right . %snd:"823"_172221_176703                          |   |   |   |   |   |   |   |   |   |   |
+then the doctor took him . %snd:"823"_183145_186066           |   |2  |2  |   |   |   |   |   |  1|  5|
+and the girl stayed there . %snd:"823"_186347_191010          |   |   |2  |   |   |3  |   |   |  1|  6|
+they saw these two rabbits walking down|3  |3 3|2  |4  |   |   |   |   |  1| 16|
+     the woods again . %snd:"823"_200107_204089               |   |   |   |   |   |   |   |   |   |   |
+and one had a wagon and a balloon . %snd:"823"_205331_208432  |3  |   |2  |   |   |3 3|   |   |  1| 12|
+and the boy jogged and jogged . %snd:"823"_208793_210793      |   |   |2  |4  |   |3 3|   |   |  1| 13|
+and they looked at the balloon . %snd:"823"_213575_215317     |   |3  |2  |   |   |3  |   |   |  1|  9|
+and mm <I don't> [//] I forget <what he|1  |1  |1 1|   |   |3  |   |4 2|  1| 14|
+     is> [//] what that guy is . [+ bch|   |   |   |   |   |   |   |   |   |   |
+    ] %snd:"823"_219666_222509                                |   |   |   |   |   |   |   |   |   |   |
+and he tied it . %snd:"823"_222451_224553                     |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and it flew up up and away . %snd:"823"_226205_228730         |1  |   |2  |   |   |3 3|   |   |  1| 10|
+and the girl rabbit got so mad . %snd:"823"_231339_233642     |   |   |2  |   |   |3  |   |   |  1|  6|
+there was another balloons . %snd:"823"_237535_241358         |3  |   |2  |   |   |   |   |   |  1|  6|
+and the girl &+ma rabbit was still [!] |   |   |2  |   |   |3  |   |   |  1|  6|
+    mad . %snd:"823"_242341_245623                            |   |   |   |   |   |   |   |   |   |   |
+(.) and the boy asked the man a        |   |   |   |4  |   |3  |   |   |  1|  8|
+    question . %snd:"823"_252155_256484                       |   |   |   |   |   |   |   |   |   |   |
+(..) and then the girl was coming over |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"823"_264535_267616                                |   |   |   |   |   |   |   |   |   |   |
+and the man said the balloons were five|3  |   |2 2|   |   |3  |   |   |  1| 11|
+     cents . %snd:"823"_267497_270658                         |   |   |   |   |   |   |   |   |   |   |
+and the girl looked at [* s:r:prep]    |   |   |2  |   |   |3  |   |   |  0|  5|
+    there . %snd:"823"_274622_276682                          |   |   |   |   |   |   |   |   |   |   |
+and the man smiled . %snd:"823"_276603_277823                 |   |   |2  |   |   |3  |   |   |  1|  6|
+<oh again> [//] there was the doctor   |   |   |2  |   |   |   |   |   |  1|  3|
+    again . %snd:"823"_284295_287336                          |   |   |   |   |   |   |   |   |   |   |
++" my sister is mad (be)cause I lost   |   |1 1|1 2|   |   |6  |   |   |  1| 14|
+    her balloon . %snd:"823"_299445_302228                    |   |2  |   |   |   |   |   |   |   |   |
+the girl is mad .                      |   |   |1  |   |   |   |   |   |  1|  2|
+(..) here's five cents . %snd:"823"_312022_313083             |3  |   |1  |   |   |   |   |   |  1|  5|
++" and here are two balloons . %snd:"823"_313305_315307       |3  |   |2  |   |   |3  |   |   |  1|  9|
+TOTAL                                  | 49| 76|109| 32|  7|122|  0|  6| 47|448|
+
+Developmental sentence score:  8.96

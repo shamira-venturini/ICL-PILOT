@@ -1,0 +1,87 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:09 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/744.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+you want me to tell you the story now ?|   |1 1|1 1|5  |   |   |1  |   |  1| 12|
+     %snd:"744"_8742_10342                                 |   |1  |   |   |   |   |   |   |   |   |
+once upon a time there's this boy who  |1 3|6  |1 2|   |   |   |   |   |  1| 15|
+    went <<to the store> [=! whispering|   |   |1  |   |   |   |   |   |   |   |
+    ]> [/] to the store to buy some    |   |   |   |   |   |   |   |   |   |   |
+    cookies . %snd:"744"_11515_21930                        |   |   |   |   |   |   |   |   |   |   |
+that's the first one [=! whispering] . |1 7|   |1  |   |   |   |   |   |  1| 13|
+    %snd:"744"_22113_23354                                  |3  |   |   |   |   |   |   |   |   |   |
+he saw the cookie seller man . %snd:"744"_24665_27106       |   |2  |2  |   |   |   |   |   |  1|  5|
+<he pull> [/] he pulled one out . %snd:"744"_30128_33890    |3  |2  |2  |   |   |   |   |   |  1|  8|
+and then the pile fell over . %snd:"744"_35252_38514        |   |   |2  |   |   |3  |   |   |  1|  6|
+then the cookie man was mad . %snd:"744"_41185_43767        |   |   |2  |   |   |   |   |   |  1|  3|
+once upon a time there was this dog . %snd:"744"_49716_52659|1  |   |2  |   |   |   |   |   |  1|  4|
+and he had a friend named bunny . %snd:"744"_53682_55943    |   |2  |2 2|   |   |3  |6  |   |  1| 16|
+he said his friend bunny could help    |   |2 2|2 5|   |   |   |   |   |  1| 14|
+    build a sandcastle . %snd:"744"_59615_65402             |   |   |1 1|   |   |   |   |   |   |   |
+he poured a pail of sand on it . %snd:"744"_68128_72254     |1  |2  |2  |   |   |   |   |   |  1|  6|
++" now look what you did bunny . %snd:"744"_75645_78106     |   |1  |1 2|5  |   |   |   |4 2|  1| 16|
++" I am sorry . %snd:"744"_84193_85793                      |   |1  |2  |   |   |   |   |   |  1|  4|
+what does that do again ? [+ bch] %snd:"744"_89595_90896    |   |6  |1  |   |   |   |6 1|2  |  1| 17|
+once upon a time dog was going on a    |   |   |2  |   |   |   |   |   |  1|  3|
+    picnic . %snd:"744"_93643_98090                         |   |   |   |   |   |   |   |   |   |   |
+bunny came too . %snd:"744"_98373_99694                     |   |   |2  |   |   |   |   |   |  1|  3|
+bunny brought cake , cheese chocolate  |   |   |2  |   |   |   |   |   |  1|  3|
+    bar cookies , carrots , sandwiches |   |   |   |   |   |   |   |   |   |   |
+    , chips , jam . %snd:"744"_103285_115173                  |   |   |   |   |   |   |   |   |   |   |
+and dog only brought hardly anything . |7  |   |1 2|   |   |3  |   |   |  1| 14|
+    %snd:"744"_117105_120026                                  |   |   |   |   |   |   |   |   |   |   |
+dog was eating . %snd:"744"_122949_124269                     |   |   |2  |   |   |   |   |   |  1|  3|
+and bunny was full . %snd:"744"_124450_126010                 |   |   |2  |   |   |3  |   |   |  1|  6|
+dog keeped [: kept] [* m:=ed] eating . |   |   |2  |   |   |   |   |   |  0|  2|
+    %snd:"744"_128813_130533                                  |   |   |   |   |   |   |   |   |   |   |
+and then bunny felt sick . %snd:"744"_130555_132636           |   |   |2  |   |   |3  |   |   |  1|  6|
+dog ran to bunny's mom . %snd:"744"_137502_139743             |   |   |2  |   |   |   |   |   |  1|  3|
+dog pulled bunny [/] bunny's mom over .|   |   |2  |   |   |   |   |   |  1|  3|
+     %snd:"744"_145665_148866                                 |   |   |   |   |   |   |   |   |   |   |
+(.) bunny's mom helped him . %snd:"744"_156012_159854         |   |2  |2  |   |   |   |   |   |  1|  5|
+bunny went home with his mom . %snd:"744"_164585_166665       |   |2  |2  |   |   |   |   |   |  1|  5|
+and dog stayed there . %snd:"744"_166626_168366               |   |   |2  |   |   |3  |   |   |  1|  6|
+once upon a time dog was going to pick |3 3|   |2 1|2  |   |   |   |   |  1| 12|
+    up one more balloon . %snd:"744"_173270_179553            |   |   |   |   |   |   |   |   |   |   |
++" can I have one ? %snd:"744"_183729_185852                  |3  |1  |3 1|   |   |   |6 1|   |  1| 16|
+dog said no don't . %snd:"744"_188540_190724                  |3  |   |2  |   |4  |   |   |   |  1| 10|
++" now look what you did . %snd:"744"_195745_197526           |   |1  |1 2|5  |   |   |   |4 2|  1| 16|
+bunny watched it . %snd:"744"_202611_204351                   |1  |   |2  |   |   |   |   |   |  1|  4|
+and dog looked very mad . %snd:"744"_204152_206813            |   |   |   |4  |   |3  |   |   |  1|  8|
+there was a balloon seller man . %snd:"744"_209395_212158     |   |   |2  |   |   |   |   |   |  1|  3|
+he [//] bunny asked if he could buy one|3  |2  |2 5|   |   |5  |   |   |  1| 19|
+     . %snd:"744"_215243_218566                               |   |   |1  |   |   |   |   |   |   |   |
+bunny looked for money . %snd:"744"_221552_223794             |   |   |2  |   |   |   |   |   |  1|  3|
+it was five cents . %snd:"744"_224515_228279                  |1 3|   |2  |   |   |   |   |   |  1|  7|
++" we won't need one . %snd:"744"_235192_237074               |3  |3  |1  |   |5  |   |   |   |  1| 13|
+bunny's mom was standing . %snd:"744"_240615_245243           |   |   |2  |   |   |   |   |   |  1|  3|
+and bunny went over there to ask for   |3  |   |2 1|   |   |3  |   |   |  1| 10|
+    some money . %snd:"744"_245645_249992                     |   |   |   |   |   |   |   |   |   |   |
+he told his mother about the balloons .|   |2 2|2  |   |   |   |   |   |  1|  7|
+     %snd:"744"_253615_256518                                 |   |   |   |   |   |   |   |   |   |   |
+his mother paid the balloon man . %snd:"744"_258783_262107    |   |2  |2  |   |   |   |   |   |  1|  5|
+they each got a balloon . %snd:"744"_263952_265873            |7  |3  |2  |   |   |   |   |   |  1| 13|
+once upon a &+di time giraffe saw      |   |   |2  |4  |   |   |   |   |  1|  7|
+    elephant playing ball in the       |   |   |   |   |   |   |   |   |   |   |
+    swimming pool . %snd:"744"_272707_279853                  |   |   |   |   |   |   |   |   |   |   |
+elephant hit [= hit] [* m:03s:a] it off|1  |   |1  |   |   |3  |   |   |  0|  5|
+     the edge and into the swimming    |   |   |   |   |   |   |   |   |   |   |
+    pool . %snd:"744"_284635_291085                           |   |   |   |   |   |   |   |   |   |   |
+giraffe went swimming for it . %snd:"744"_292769_295834       |1  |   |2  |   |   |   |   |   |  1|  4|
+elephant said thanks . %snd:"744"_298775_300537               |   |   |2  |   |   |   |   |   |  1|  3|
+(.) you're welcome said giraffe . %snd:"744"_305368_307331    |   |1  |2  |   |   |   |   |   |  1|  4|
+once upon a time giraffe and elephant  |   |   |2  |   |   |3  |   |   |  1|  6|
+    wanted to swim . %snd:"744"_311525_316407                 |   |   |   |   |   |   |   |   |   |   |
+&+ele elephant [//] giraffe looked at  |3  |   |2  |   |   |   |   |   |  1|  6|
+    no running . %snd:"744"_320551_324853                     |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 65| 50|118| 25|  9| 35| 21| 14| 48|385|
+
+Developmental sentence score:  7.70

@@ -1,0 +1,88 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/956.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+&-um a boy named Jared walked to the   |   |   |2  |4  |   |   |   |   |  1|  7|
+    store . %snd:"956"_3476_6458                          |   |   |   |   |   |   |   |   |   |   |
++" oh those look new . %snd:"956"_10742_12622               |   |3  |1  |   |   |   |   |   |  1|  5|
++" I think I'll buy a pack . %snd:"956"_12684_14063         |   |1 1|1 3|5  |   |   |   |   |  1| 13|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+he picked one down the bottom . %snd:"956"_15985_18005      |3  |2  |2  |   |   |   |   |   |  1|  8|
+<and they> [//] and went to pay for it |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+    . %snd:"956"_18006_23329                                |   |   |   |   |   |   |   |   |   |   |
+but when he took them in the bottom    |   |2 3|2 2|   |   |5 8|   |   |  1| 26|
+    they all fell out . %snd:"956"_24430_27151              |   |3  |   |   |   |   |   |   |   |   |
+the manager got mad . %snd:"956"_28973_30693                |   |   |2  |   |   |   |   |   |  1|  3|
+and Jared ran away . %snd:"956"_31395_32936                 |   |   |2  |   |   |3  |   |   |  1|  6|
+once there was a bunny named Peter and |   |   |2 2|   |   |3  |   |   |  1| 10|
+    a dog named Rosie . %snd:"956"_37222_42928              |   |   |2  |   |   |   |   |   |   |   |
+and rosie was building a castle . %snd:"956"_43050_46375    |   |   |2  |   |   |3  |   |   |  1|  6|
++" can I help you ? %snd:"956"_49681_50722                  |   |1 1|3 1|   |   |   |6 1|   |  1| 14|
+&-um Peter helped her make the castle .|   |2  |2 1|5  |   |   |   |   |  1| 11|
+     %snd:"956"_53308_56633                                 |   |   |   |   |   |   |   |   |   |   |
+but &-uh Peter decided to dump the sand|   |   |2 1|5  |   |5  |   |   |  1| 14|
+     all over the castle . %snd:"956"_60195_65362           |   |   |   |   |   |   |   |   |   |   |
+and he broke it . %snd:"956"_65344_65964                    |1  |2  |2  |   |   |3  |   |   |  1|  9|
+&-um Rosie got mad at Peter . %snd:"956"_69189_71794        |   |   |2  |   |   |   |   |   |  1|  3|
+and Peter said sorry . %snd:"956"_72856_75460               |   |   |2  |   |   |3  |   |   |  1|  6|
+Rosie tried to build it again . %snd:"956"_79151_81012      |1  |   |2 1|5  |   |   |   |   |  1| 10|
+once upon a time <there was a bunny    |   |   |2  |   |   |   |   |   |  1|  3|
+    named> [//] there was a bunny . %snd:"956"_86825_93915  |   |   |   |   |   |   |   |   |   |   |
+and he was walking all along . %snd:"956"_93957_95517       |   |2  |2  |   |   |3  |   |   |  1|  8|
++" can I walk with you ? %snd:"956"_97723_99004             |   |1 1|3 1|   |   |   |6 1|   |  1| 14|
+they decided to have a picnic together |   |3  |2 1|5  |   |   |   |   |  1| 12|
+    . %snd:"956"_101355_103476                                |   |   |   |   |   |   |   |   |   |   |
+at the end the rabbit was so full that |   |2  |2 2|   |   |8  |   |   |  1| 15|
+    he got very fat . %snd:"956"_106259_112523                |   |   |   |   |   |   |   |   |   |   |
+&-um he got so fat that he couldn't    |   |2 2|2 5|   |7  |8  |   |   |  1| 28|
+    walk home . %snd:"956"_118509_122393                      |   |   |1  |   |   |   |   |   |   |   |
+&-um the dog found a doctor and said   |   |   |2 2|   |   |3  |   |   |  1|  9|
+    come over . %snd:"956"_126315_134705                      |   |   |1  |   |   |   |   |   |   |   |
+my friend is hurt . %snd:"956"_134967_136107                  |   |1  |7  |   |   |   |   |   |  1|  9|
+so she pulled him over . %snd:"956"_138031_140874             |   |2 2|2  |   |   |   |   |   |  1|  7|
+and the doctor started to look . %snd:"956"_141455_146886     |   |   |2 1|5  |   |3  |   |   |  1| 12|
++" you shouldn't have ate [= eaten] [* |3  |1  |5 1|   |7  |   |   |   |  0| 19|
+    m:sub:en] so much food . %snd:"956"_147428_149490         |   |   |2  |   |   |   |   |   |   |   |
++" and you wouldn't have got sick . %snd:"956"_149231_150652  |   |1  |7  |   |5  |3  |   |   |  1| 17|
+the doctor helped &-um the bunny back &|   |   |2  |   |   |   |   |   |  1|  3|
+    -uh home . %snd:"956"_153335_159081                       |   |   |   |   |   |   |   |   |   |   |
+once upon a time there was a dog . %snd:"956"_163829_165690   |   |   |2  |   |   |   |   |   |  1|  3|
+and she [/] she was pulling a wagon . %snd:"956"_165992_168413|   |2  |2  |   |   |3  |   |   |  1|  8|
+behind her she saw a bunny . %snd:"956"_168675_170674         |   |2 2|2  |   |   |   |   |   |  1|  7|
++" can I hold it for you ? %snd:"956"_175659_177540           |1  |1 1|3 1|   |   |   |6 1|   |  1| 15|
+he tied it to his arm . %snd:"956"_179722_181163              |1  |2 2|2  |   |   |   |   |   |  1|  8|
+and they started off on their way . %snd:"956"_181723_183507  |   |3 3|2  |   |   |3  |   |   |  1| 12|
+it [/] it [/] &+ca it unloosened and   |1  |   |2  |   |   |3  |   |   |  1|  7|
+    went off the bunny's hand . %snd:"956"_187194_192423      |   |   |   |   |   |   |   |   |   |   |
+and it floated into the sky . %snd:"956"_192964_194986        |1  |   |2  |   |   |3  |   |   |  1|  7|
+the dog was very mad at the bunny . %snd:"956"_197771_200273  |   |   |2  |   |   |   |   |   |  1|  3|
+&-uh down the road the bunny saw a     |   |   |2  |   |   |   |   |   |  1|  3|
+    balloon man . %snd:"956"_203775_208761                    |   |   |   |   |   |   |   |   |   |   |
++" I'll just buy one and give it back  |3 1|1 2|1  |   |   |3  |   |   |  1| 12|
+    to her . %snd:"956"_210025_212227                         |   |   |   |   |   |   |   |   |   |   |
++" how much do they cost ? %snd:"956"_215213_216393           |   |3  |5 1|   |   |   |6 1|4  |  1| 21|
+the [/] the guy said twenty five cents |3 3|   |2  |   |   |   |   |   |  1|  9|
+    . %snd:"956"_217015_222729                                |   |   |   |   |   |   |   |   |   |   |
+&-um so he bought one . %snd:"956"_222731_224452              |3  |2  |2  |   |   |   |   |   |  1|  8|
+and [/] and [/] &-um and he gave it to |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    the dog . %snd:"956"_227958_233163                        |   |   |   |   |   |   |   |   |   |   |
+&-um the dog saw the rabbit buying one |3  |   |2  |4  |   |   |   |   |  1| 10|
+    . %snd:"956"_246801_251024                                |   |   |   |   |   |   |   |   |   |   |
+he saw the doctor and ran to him . %snd:"956"_256994_261080   |   |2 2|2 2|   |   |3  |   |   |  1| 12|
++" you don't have enough to buy one of |3  |1 3|3 1|   |4  |   |   |   |  1| 16|
+    those . %snd:"956"_267309_269350                          |   |   |   |   |   |   |   |   |   |   |
++" how much money do you need ? %snd:"956"_269712_271633      |3  |1  |3 1|   |   |   |6 1|4  |  1| 20|
+he gave the guy enough money to buy two|3 3|2 3|2 1|   |   |8  |   |   |  1| 24|
+     balloons so that they could each  |   |   |1  |   |   |   |   |   |   |   |
+    have one . %snd:"956"_274275_280499                       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 42| 83|158| 43| 23| 93| 35|  8| 49|534|
+
+Developmental sentence score: 10.68

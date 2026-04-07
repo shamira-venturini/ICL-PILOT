@@ -1,0 +1,112 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:01 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/805.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a kid is walking to the store and      |3  |2  |1 1|   |   |3  |   |   |  1| 11|
+    trynna buy some food for his family|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"805"_6380_11843                               |   |   |   |   |   |   |   |   |   |   |
+and [//] so he walked into the store   |3  |2  |2 2|   |   |3 3|   |   |  1| 19|
+    and bought a couple oranges and    |   |   |   |   |   |3  |   |   |   |   |
+    milk and some eggs . %snd:"805"_12345_19633             |   |   |   |   |   |   |   |   |   |   |
+and then he saw cookies for a dollar . |   |2  |2  |   |   |3  |   |   |  1|  8|
+    %snd:"805"_23560_25881                                  |   |   |   |   |   |   |   |   |   |   |
+so he bought some cookies . %snd:"805"_25823_27283          |3  |2  |2  |   |   |   |   |   |  1|  8|
+and then he took them to the shop and  |   |2 3|2 2|   |   |3 3|   |4 4|  1| 29|
+    asked how much they were . %snd:"805"_28175_32618       |   |3  |2  |   |   |   |   |   |   |   |
+and he realized that [/] &-um that he  |   |2 2|2 5|   |7  |3 8|   |   |  1| 31|
+    didn't have enough . %snd:"805"_32539_38884             |   |   |1  |   |   |   |   |   |   |   |
+so he took the one from the bottom . %snd:"805"_44455_46356 |3  |2  |2  |   |   |   |   |   |  1|  8|
+<and he> [/] and he thought it was safe|1  |2  |2 2|   |   |3  |   |   |  1| 11|
+     to . %snd:"805"_46798_50541                            |   |   |   |   |   |   |   |   |   |   |
+and it was the other cookies would     |1 3|   |2 5|   |   |3  |   |   |  1| 16|
+    stand up . %snd:"805"_50543_52904                       |   |   |1  |   |   |   |   |   |   |   |
+and he took it from the bottom . %snd:"805"_52606_54186     |1  |2  |2  |   |   |3  |   |   |  1|  9|
+all the other cookies on top of the    |3 3|   |2  |   |   |   |   |   |  1|  9|
+    pile started falling off . %snd:"805"_54688_59614       |   |   |   |   |   |   |   |   |   |   |
+and it started to rumble . %snd:"805"_64105_65666           |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+and he got scared . %snd:"805"_65706_67950                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+so he started running away from the    |   |2  |2  |   |   |   |   |   |  1|  5|
+    cookie pile . %snd:"805"_68572_71175                    |   |   |   |   |   |   |   |   |   |   |
+and they fell . %snd:"805"_71036_72497                      |   |3  |2  |   |   |3  |   |   |  1|  9|
+and he was ready to run outta [: out of|   |2  |2 1|   |   |3  |   |   |  1|  9|
+    ] the store with a box of cookies .|   |   |   |   |   |   |   |   |   |   |
+     %snd:"805"_72458_76524                                 |   |   |   |   |   |   |   |   |   |   |
++" &-um you shouldn't have took the one|3 3|1  |5 1|   |7  |6  |   |   |  1| 38|
+     from the bottom because the other |   |   |2 8|   |   |   |   |   |   |   |
+    ones would be falling off . %snd:"805"_88661_94604      |   |   |1  |   |   |   |   |   |   |   |
++" it took me for a real [!] long time |1  |1  |2  |   |   |   |   |   |  1|  5|
+    . %snd:"805"_97069_98930                                |   |   |   |   |   |   |   |   |   |   |
+there was once an elephant and giraffe |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"805"_111865_114087                                |   |   |   |   |   |   |   |   |   |   |
+they're playing with a ball and see who|   |3  |1 1|   |   |3  |   |4 2|  1| 21|
+     could bounce the ball the fastest |   |   |5 1|   |   |   |   |   |   |   |
+    . %snd:"805"_114248_117972                                |   |   |   |   |   |   |   |   |   |   |
+&=sighs and all of sudden the ball     |3  |   |2  |   |   |3  |   |   |  1|  9|
+    bounced into a pool . %snd:"805"_123401_125743            |   |   |   |   |   |   |   |   |   |   |
+and the giraffe didn't have a swimming |   |   |5 1|   |7  |3  |   |   |  1| 17|
+    suit on . %snd:"805"_126445_129931                        |   |   |   |   |   |   |   |   |   |   |
+but the elephant did . %snd:"805"_129612_130973               |   |   |2  |   |   |5  |   |   |  1|  8|
++" I'd go get it for you . %snd:"805"_131655_133297           |1  |1 1|1 1|   |   |   |   |   |  1|  6|
+and &+sh the giraffe said thank you . %snd:"805"_133681_135944|   |1  |2 1|   |   |3  |   |   |  1|  8|
+so the giraffe jumped off in the pool  |   |   |2 2|5  |   |3  |   |   |  1| 15|
+    instead of the elephant and went to|   |   |1 1|   |   |   |   |   |   |   |
+     go get the ball . %snd:"805"_141315_147198               |   |   |   |   |   |   |   |   |   |   |
+but he was just about there . %snd:"805"_147579_149239        |   |2  |2  |   |   |5  |   |   |  1| 10|
+the giraffe gave the ball to the       |   |   |2  |   |   |   |   |   |  1|  3|
+    elephant . %snd:"805"_153503_155723                       |   |   |   |   |   |   |   |   |   |   |
+<and the> [//] and then when the       |   |2  |2 2|   |   |3 8|   |   |  1| 18|
+    giraffe got out he was all soaking |   |   |   |   |   |   |   |   |   |   |
+    wet . %snd:"805"_164170_169133                            |   |   |   |   |   |   |   |   |   |   |
+and so was the elephant . %snd:"805"_168834_169913            |   |   |2  |   |   |3  |   |   |  1|  6|
+and [/] &-um and [/] &-um and they fell|   |3  |2  |   |   |3  |   |   |  1|  9|
+     in love . %snd:"805"_175858_180561                       |   |   |   |   |   |   |   |   |   |   |
+the giraffe and the elephant saw a sign|3  |   |2  |4  |   |3  |   |   |  1| 13|
+     saying no running . %snd:"805"_191518_193619             |   |   |   |   |   |   |   |   |   |   |
+but they felt like running to the      |   |3  |2  |   |   |5 8|   |   |  1| 19|
+    diving board . %snd:"805"_193440_195920                   |   |   |   |   |   |   |   |   |   |   |
++" I'll beat you there first . %snd:"805"_200585_201565       |   |1 1|3 1|   |   |   |   |   |  1|  7|
+and all of a sudden the elephant       |3  |   |2  |   |   |3  |   |   |  1|  9|
+    slipped . %snd:"805"_208916_210657                        |   |   |   |   |   |   |   |   |   |   |
+and all of a sudden she tripped and hit|3 1|2 2|2 1|   |   |3 3|   |   |  1| 30|
+     her knee and started crying (be)  |   |   |2 1|   |   |3 6|   |   |   |   |
+    cause it hurt really bad . %snd:"805"_219495_224638       |   |   |   |   |   |   |   |   |   |   |
+the lifeguard came and ask her what was|   |2  |2 1|   |   |3  |   |4 2|  1| 17|
+     wrong . %snd:"805"_228682_232143                         |   |   |2  |   |   |   |   |   |   |   |
++" I was running and fell on my knee . |   |1 1|2 2|   |   |3  |   |   |  1| 10|
+    %snd:"805"_232445_234966                                  |   |   |   |   |   |   |   |   |   |   |
+so the [/] &+ele the lifeguard put a &-|   |2  |1  |   |   |   |   |   |  1|  4|
+    um bandage on her . %snd:"805"_239510_243631              |   |   |   |   |   |   |   |   |   |   |
+and she [/] she was ready to cry (be)  |1  |2  |2 1|   |   |3 6|   |   |  1| 16|
+    cause it hurt . %snd:"805"_243353_246253                  |   |   |   |   |   |   |   |   |   |   |
+and [/] and she didn't cry because it  |1 1|2  |5 1|   |7 7|3 6|   |   |  1| 36|
+    wasn't that [!] bad . %snd:"805"_247335_251097            |   |   |2  |   |   |   |   |   |   |   |
++" didn't you see the sign that said no|3  |1 6|1 2|   |7  |   |6 1|   |  1| 28|
+     running ? %snd:"805"_256481_258822                       |   |   |   |   |   |   |   |   |   |   |
++" oh I never saw that . %snd:"805"_261268_262535             |   |1  |2  |   |   |8  |   |   |  1| 12|
+and then she was in a lot of trouble   |3  |2 2|2 2|4  |   |3 6|   |   |  1| 25|
+    from the lifeguard because she was |   |   |   |   |   |   |   |   |   |   |
+    running without the [//] seeing the|   |   |   |   |   |   |   |   |   |   |
+     sign saying no running . %snd:"805"_268535_277320        |   |   |   |   |   |   |   |   |   |   |
+the elephant started feeling happy . %snd:"805"_286837_289177 |   |   |2  |   |   |   |   |   |  1|  3|
++" let's go for a swim . %snd:"805"_289919_291239             |   |3  |1 1|2  |   |   |   |   |  1|  8|
+but the giraffe was playing with his   |   |2  |2  |   |   |5  |   |   |  1| 10|
+    toy airplane . %snd:"805"_296243_298564                   |   |   |   |   |   |   |   |   |   |   |
+<and he didn't> [/] <and he didn't> [//|   |2  |2  |   |   |   |   |   |  1|  5|
+    ] he got upset . %snd:"805"_299265_302953                 |   |   |   |   |   |   |   |   |   |   |
+and <she didn't> [//] &-um she liked   |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    playing with him . %snd:"805"_303517_306864               |   |   |   |   |   |   |   |   |   |   |
+<so the> [/] so the elephant just      |1 1|   |2 2|   |   |3  |   |   |  1| 10|
+    grabbed the &+el airplane away and |   |   |   |   |   |   |   |   |   |   |
+    started driving it without even    |   |   |   |   |   |   |   |   |   |   |
+    asking to play with it . %snd:"805"_311395_319354         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 57| 92|176| 20| 42|190|  7| 20| 50|654|
+
+Developmental sentence score: 13.08

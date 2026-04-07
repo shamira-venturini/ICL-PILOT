@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:09 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/704.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+one day there was a boy . %snd:"704"_18428_20849            |3  |   |2  |   |   |   |   |   |  1|  6|
+he wanted to buy some cookies at the   |3  |2  |2 1|5  |   |   |   |   |  1| 14|
+    store . %snd:"704"_23972_27493                          |   |   |   |   |   |   |   |   |   |   |
+he [/] <he went to the> [//] he went in|   |2  |2  |   |   |   |   |   |  1|  5|
+     the store . %snd:"704"_31466_37333                     |   |   |   |   |   |   |   |   |   |   |
+and he found a cookie shelf . %snd:"704"_38739_41784        |   |2  |2  |   |   |3  |   |   |  1|  8|
+<he grabbed> [/] he grabbed a box . %snd:"704"_43565_46206  |   |2  |2  |   |   |   |   |   |  1|  5|
+all the box [//] boxes fell down . %snd:"704"_49129_52170   |3  |   |2  |   |   |   |   |   |  1|  6|
+the store manager was very mad at him .|   |2  |2  |   |   |   |   |   |  1|  5|
+     %snd:"704"_54733_58013                                 |   |   |   |   |   |   |   |   |   |   |
+one day there was a rabbit and his     |3  |2 6|2 2|5  |   |3  |   |   |  1| 25|
+    friend who wanted to build a       |   |   |1  |   |   |   |   |   |   |   |
+    sandcastle . %snd:"704"_64556_76013                     |   |   |   |   |   |   |   |   |   |   |
+they started to build it . %snd:"704"_80885_82827           |1  |3  |2 1|5  |   |   |   |   |  1| 13|
+<the rabbit> [/] the rabbit poured a   |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    bucket on the sandcastle and broke |   |   |   |   |   |   |   |   |   |   |
+    it . %snd:"704"_86092_96183                             |   |   |   |   |   |   |   |   |   |   |
+and the rabbit's friend was [/] was    |1  |   |2  |   |   |3  |   |   |  1|  7|
+    building it really fast . %snd:"704"_102625_109634        |   |   |   |   |   |   |   |   |   |   |
+once upon a time there was a rabbit and|   |   |2  |   |   |3  |   |   |  1|  6|
+     a dog . %snd:"704"_115955_119156                         |   |   |   |   |   |   |   |   |   |   |
+they were having a picnic . %snd:"704"_122639_124159          |   |3  |2  |   |   |   |   |   |  1|  6|
+the rabbit ate all the food in his     |3  |2  |2  |   |   |   |   |   |  1|  8|
+    basket . %snd:"704"_127243_130103                         |   |   |   |   |   |   |   |   |   |   |
+he had a stomachache . %snd:"704"_132505_133385               |   |2  |2  |   |   |   |   |   |  1|  5|
+his mom came . %snd:"704"_137392_138893                       |   |2  |2  |   |   |   |   |   |  1|  5|
+&-um the dog pulled his mom to the     |   |2  |2  |   |   |   |   |   |  1|  5|
+    picnic . %snd:"704"_143265_148503                         |   |   |   |   |   |   |   |   |   |   |
+<the mom> [/] the mom was looking at   |   |2  |2  |   |   |   |   |   |  0|  4|
+    his [= her] [* s:r:gc:det] daughter|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"704"_152925_159051                               |   |   |   |   |   |   |   |   |   |   |
+then he feeled [: felt] [* m:=ed]      |   |2  |2  |   |   |   |   |   |  0|  4|
+    better . %snd:"704"_166355_167915                         |   |   |   |   |   |   |   |   |   |   |
+and they went home . %snd:"704"_168196_169356                 |   |3  |2  |   |   |3  |   |   |  1|  9|
+one day there was a dog who had a      |3  |6  |2 2|   |   |   |   |   |  1| 14|
+    balloon . %snd:"704"_174721_179283                        |   |   |   |   |   |   |   |   |   |   |
+the rabbit wanted to play with it . %snd:"704"_182885_185227  |1  |   |2 1|5  |   |   |   |   |  1| 10|
+it flew away . %snd:"704"_192358_193378                       |1  |   |2  |   |   |   |   |   |  1|  4|
+they were very mad at each other . %snd:"704"_195222_197484   |7 3|3  |2  |   |   |   |   |   |  1| 16|
+but then they seen [= saw] [* m:sub:ed]|   |3  |   |4  |   |5  |   |   |  0| 12|
+     a man selling balloons . %snd:"704"_200805_205167        |   |   |   |   |   |   |   |   |   |   |
+they wanted to buy one . %snd:"704"_207209_208789             |3  |3  |2  |   |   |   |   |   |  1|  9|
+but the balloons were five cents . %snd:"704"_212553_214432   |3  |   |2  |   |   |5  |   |   |  1| 11|
+and the rabbit had no money . %snd:"704"_214394_215794        |3  |   |2  |   |   |3  |   |   |  1|  9|
+they were sad . %snd:"704"_218485_219518                      |   |3  |2  |   |   |   |   |   |  1|  6|
+and he asked <if he could> [//] if she |3  |2 2|2 5|   |   |3 5|   |   |  1| 27|
+    could buy one for them . %snd:"704"_229925_233967         |   |3  |1  |   |   |   |   |   |   |   |
+<and he> [//] and she did . %snd:"704"_233768_237109          |   |2  |2  |   |   |3  |   |   |  1|  8|
+and they were both very happy . %snd:"704"_240513_242693      |7  |3  |2  |   |   |3  |   |   |  1| 16|
+one day there was an elephant and a    |3  |6  |2 2|5  |   |3  |   |   |  1| 23|
+    giraffe who wanted to go swimming .|   |   |1  |   |   |   |   |   |   |   |
+     %snd:"704"_248246_252268                                 |   |   |   |   |   |   |   |   |   |   |
+the elephant dropped her ball in the   |   |2  |2  |   |   |   |   |   |  1|  5|
+    swimming pool . %snd:"704"_254531_258353                  |   |   |   |   |   |   |   |   |   |   |
+the giraffe swam and got it for her . %snd:"704"_262465_264986|1  |2  |2 2|   |   |3  |   |   |  1| 11|
+he gave it to her . %snd:"704"_267388_268629                  |1  |2 2|2  |   |   |   |   |   |  1|  8|
+the girl was very happy . %snd:"704"_271251_272812            |   |   |2  |   |   |   |   |   |  1|  3|
+once upon a time there was a cow and a |   |   |2  |   |   |3  |   |   |  0|  5|
+    [= an] [* m:allo] elephant . %snd:"704"_279765_286674     |   |   |   |   |   |   |   |   |   |   |
+the elephant wants to go on a diving   |   |   |2 1|5  |   |   |   |   |  1|  9|
+    board . %snd:"704"_289280_292164                          |   |   |   |   |   |   |   |   |   |   |
+(.) she ran there . %snd:"704"_294715_296516                  |   |2  |2  |   |   |   |   |   |  1|  5|
+(.) she slipped and bumped her knee . %snd:"704"_299940_301800|   |2 2|2 2|   |   |3  |   |   |  1| 12|
+coach came running . %snd:"704"_303923_305323                 |   |   |2  |   |   |   |   |   |  1|  3|
+(.) the &+go coach put [= puts] [* m:  |1  |   |1  |   |   |   |   |   |  0|  2|
+    03s:a] a bandaid on it . %snd:"704"_308645_312508         |   |   |   |   |   |   |   |   |   |   |
+(.) she walked to the bench . %snd:"704"_315573_317453        |   |2  |2  |   |   |   |   |   |  1|  5|
+(.) then the coach got very angry at   |   |2  |2  |   |   |   |   |   |  1|  5|
+    her . %snd:"704"_325265_328726                            |   |   |   |   |   |   |   |   |   |   |
+one day there was a cow and a [= an] [*|3  |   |2  |   |   |3  |   |   |  0|  8|
+     m:allo] elephant . %snd:"704"_335192_339073              |   |   |   |   |   |   |   |   |   |   |
+(.) the cow had an airplane . %snd:"704"_341995_343815        |   |   |2  |   |   |   |   |   |  1|  3|
+the [/] the elephant took it from him .|1  |2  |2  |   |   |   |   |   |  1|  6|
+     %snd:"704"_347298_350820                                 |   |   |   |   |   |   |   |   |   |   |
+(.) it fell in:to the swimming pool . %snd:"704"_354283_356443|1  |   |2  |   |   |   |   |   |  1|  4|
+the cow was very angry at the elephant |   |   |2  |   |   |   |   |   |  1|  3|
+    . %snd:"704"_358385_360927                                |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 63| 95|121| 34|  0| 60|  0|  0| 44|417|
+
+Developmental sentence score:  8.34

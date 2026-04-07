@@ -1,0 +1,199 @@
+@UTF8
+@PID:	11312/c-00036316-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|6;01.28|male|TD||Target_Child|||
+@Media:	652, audio
+@Date:	29-NOV-2000
+@Tape Location:	Disk L21 , Track 107
+@Types:	cross, narrative, TD
+*CHI:	the kid is going to a store . 81885_84407
+%mor:	det:art|the n|kid aux|be&3S part|go-PRESP prep|to det:art|a n|store
+	.
+%xdss:	Z; C1; Z;
+*CHI:	and he is gonna buy cookies . 88113_90275
+%mor:	coord|and pro:sub|he aux|be&3S part|go&PRESP~inf|to v|buy
+	n|cookie-PL .
+%xdss:	F3; B2; C1; D2; C1; Z;
+*CHI:	and he took a box from . 93661_96503
+%mor:	coord|and pro:sub|he v|take&PAST det:art|a n|box prep|from .
+%xdss:	F3; B2; C2; Z;
+*CHI:	and [/] &-um and he took it . 103515_104958
+%mor:	coord|and pro:sub|he v|take&PAST pro:per|it .
+%xdss:	F3; B2; C2; A1;
+*CHI:	and the boxes all fell down . 105101_108671
+%mor:	coord|and det:art|the n|box-PL adv|all v|fall&PAST adv|down .
+%xdss:	F3; Z; C2;
+*CHI:	and the [//] &-um a man came <and he> [/] and he was mad . 112705_123294
+%mor:	coord|and det:art|a n|man v|come&PAST coord|and pro:sub|he
+	cop|be&PAST&13S adj|mad .
+%xdss:	F3; Z; C2; F3; B2; C2;
+@G:	B1
+*CHI:	there was a dog making &-um a sandcastle <and a> [/] and a bunny .
+	136995_145652
+%mor:	pro:exist|there cop|be&PAST&13S det:art|a n|dog part|make-PRESP
+	det:art|a n|+n|sand+n|castle coord|and det:art|a n|bunny .
+%xdss:	C2; Z; D4; Z; F3; Z;
+*CHI:	mmm the bunny was &-um taking the &+s sand . 154055_159443
+%mor:	co|mmm det:art|the n|bunny aux|be&PAST&13S part|take-PRESP
+	det:art|the n|sand .
+%xdss:	Z; C2; Z;
+*CHI:	then he dumped it on the sandcastle . 161729_164752
+%mor:	adv:tem|then pro:sub|he v|dump-PAST pro:per|it prep|on det:art|the
+	n|+n|sand+n|castle .
+%xdss:	B2; C2; A1; Z;
+*CHI:	and the bunny was &-um surprised . 172805_178768
+%mor:	coord|and det:art|the n|bunny aux|be&PAST&13S part|surprise-PASTP .
+%xdss:	F3; Z; C7;
+*CHI:	and the dog was crying . 179269_186613
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|cry-PRESP .
+%xdss:	F3; Z; C2;
+@G:	B2
+*CHI:	a dog and a bunny were going to make a picnic . 200685_203568
+%mor:	det:art|a n|dog coord|and det:art|a n|bunny aux|be&PAST
+	part|go-PRESP inf|to v|make det:art|a n|picnic .
+%xdss:	Z; F3; Z; C2; D2; C1; Z;
+*CHI:	and the bunny &-um was eating . 207797_212183
+%mor:	coord|and det:art|the n|bunny aux|be&PAST&13S part|eat-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	and the bunny was full . 217415_219298
+%mor:	coord|and det:art|the n|bunny cop|be&PAST&13S adj|full .
+%xdss:	F3; Z; C2;
+*CHI:	and he was dizzy . 223791_225131
+%mor:	coord|and pro:sub|he cop|be&PAST&13S adj|dizzy .
+%xdss:	F3; B2; C2;
+*CHI:	his [//] &+mo the [/] the bunny's mom came . 233247_240634
+%mor:	det:art|the adj|bunny&dn-POSS n|mom v|come&PAST .
+%xdss:	Z; C2;
+*CHI:	and the dog was pulling the mom . 246510_251274
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|pull-PRESP
+	det:art|the n|mom .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and <the bunny> [//] &-uh the mom saw the bunny . 260036_271403
+%mor:	coord|and det:art|the n|mom v|see&PAST det:art|the n|bunny .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and then she pointed to her head . 273225_276326
+%mor:	coord|and adv:tem|then pro:sub|she v|point-PAST prep|to
+	det:poss|her n|head .
+%xdss:	F3; B2; C2; B2; Z;
+*CHI:	and then the bunny and the mom went home . 282452_285513
+%mor:	coord|and adv:tem|then det:art|the n|bunny coord|and det:art|the
+	n|mom v|go&PAST adv|home .
+%xdss:	F3; Z; F3; Z; C2;
+@G:	B3
+*CHI:	the dog and the bunny were going to [/] to get a [//] balloons . 293045_300821
+%mor:	det:art|the n|dog coord|and det:art|the n|bunny aux|be&PAST
+	part|go-PRESP inf|to v|get n|balloon-PL .
+%xdss:	Z; F3; Z; C2; D2; C1; Z;
+*CHI:	the bunny was going to get the balloon . 306915_313039
+%mor:	det:art|the n|bunny aux|be&PAST&13S part|go-PRESP inf|to v|get
+	det:art|the n|balloon .
+%xdss:	Z; C2; D2; C1; Z;
+*CHI:	the bunny was taking it off . 316903_319424
+%mor:	det:art|the n|bunny aux|be&PAST&13S part|take-PRESP pro:per|it
+	adv|off .
+%xdss:	Z; C2; A1;
+*CHI:	and then they were trynna get the balloon . 322445_327428
+%mor:	coord|and adv:tem|then pro:sub|they aux|be&PAST
+	part|try&PRESP~inf|to v|get det:art|the n|balloon .
+%xdss:	F3; B3; C2; C1; Z;
+*CHI:	and then the dog was mad . 330211_333433
+%mor:	coord|and adv:tem|then det:art|the n|dog cop|be&PAST&13S adj|mad .
+%xdss:	F3; Z; C2;
+*CHI:	and &-um there's a man with balloons . 336275_339877
+%mor:	coord|and pro:exist|there~cop|be&3S det:art|a n|man prep|with
+	n|balloon-PL .
+%xdss:	F3; C1; Z; Z;
+*CHI:	and then <the bunny> [/] the bunny bought one . 347024_348263
+%mor:	coord|and adv:tem|then det:art|the n|bunny v|buy&PAST pro:indef|one
+	.
+%xdss:	F3; Z; C2; A3;
+*CHI:	and he was getting out the money . 355097_359539
+%mor:	coord|and pro:sub|he aux|be&PAST&13S part|get-PRESP prep|out
+	det:art|the n|money .
+%xdss:	F3; B2; C2; Z;
+*CHI:	and he didn't have any money . 364643_366983
+%mor:	coord|and pro:sub|he mod|do&PAST~neg|not v|have qn|any n|money .
+%xdss:	F3; B2; C5; E7; C1; A7; Z;
+*CHI:	and his mom came . 370505_371825
+%mor:	coord|and det:poss|his n|mom v|come&PAST .
+%xdss:	F3; B2; Z; C2;
+*CHI:	+" could you buy me a balloon ? 383553_385454
+%mor:	mod|could pro:per|you v|buy pro:obj|me det:art|a n|balloon ?
+%xdss:	C5; G6; B1; C1; B1; Z; G1;
+*CHI:	and then the mom did . 388735_390616
+%mor:	coord|and adv:tem|then det:art|the n|mom v|do&PAST .
+%xdss:	F3; Z; C2;
+*CHI:	and then the dog and the bunny had a balloon . 396262_399344
+%mor:	coord|and adv:tem|then det:art|the n|dog coord|and det:art|the
+	n|bunny v|have&PAST det:art|a n|balloon .
+%xdss:	F3; Z; F3; Z; C2; Z;
+@G:	A1
+*CHI:	a giraffe and the elephant want [//] were playing ball . 408295_412921
+%mor:	det:art|a n|giraffe coord|and det:art|the n|elephant aux|be&PAST
+	part|play-PRESP n|ball .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	and &-um the ball fell into the water . 417129_420913
+%mor:	coord|and det:art|the n|ball v|fall&PAST prep|into det:art|the
+	n|water .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the &-um giraffe went in to get the ball . 425205_430632
+%mor:	coord|and det:art|the n|giraffe v|go&PAST adv|in inf|to v|get
+	det:art|the n|ball .
+%xdss:	F3; Z; C2; C1; Z;
+*CHI:	and then the giraffe gave it to the elephant . 434200_436983
+%mor:	coord|and adv:tem|then det:art|the n|giraffe v|give&PAST pro:per|it
+	prep|to det:art|the n|elephant .
+%xdss:	F3; Z; C2; A1; Z;
+*CHI:	and then [//] &-um then they played &-um ball .
+%mor:	coord|and adv:tem|then pro:sub|they v|play-PAST n|ball .
+%xdss:	F3; B3; C2; Z;
+@G:	A2
+*CHI:	&-um the elephant and the giraffe wanted to go in the pool . 462125_465887
+%mor:	det:art|the n|elephant coord|and det:art|the n|giraffe v|want-PAST
+	inf|to v|go prep|in det:art|the n|pool .
+%xdss:	Z; F3; Z; C2; D5; C1; Z;
+*CHI:	and the elephant was running . 469952_472213
+%mor:	coord|and det:art|the n|elephant aux|be&PAST&13S part|run-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	and she &-um was running too fast . 476005_482048
+%mor:	coord|and pro:sub|she aux|be&PAST&13S part|run-PRESP adv|too
+	adv|fast .
+%xdss:	F3; B2; C2;
+*CHI:	and then she fell and &+hur &+hur hurt her knee . 485351_490053
+%mor:	coord|and adv:tem|then pro:sub|she v|fall&PAST coord|and
+	v|hurt&ZERO pro:obj|her n|knee .
+%xdss:	F3; B2; C2; F3; C1; B2; Z;
+*CHI:	and then the coach came . 492195_493976
+%mor:	coord|and adv:tem|then det:art|the n|coach v|come&PAST .
+%xdss:	F3; Z; C2;
+*CHI:	and then &-um a lifeguard put [= puts] [* m:03s:a] a bandaid on . 496780_501504
+%mor:	coord|and adv:tem|then det:art|a n|+n|life+n|guard v|put&ZERO
+	det:art|a n|bandaid adv|on .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and the coach &-um helped her go on the bench . 504525_510432
+%mor:	coord|and det:art|the n|coach v|help-PAST pro:obj|her v|go prep|on
+	det:art|the n|bench .
+%xdss:	F3; Z; C2; D5; B2; C1; Z;
+*CHI:	and then the coach was mad (be)cause the sign said no running . 513438_517744
+%mor:	coord|and adv:tem|then det:art|the n|coach cop|be&PAST&13S adj|mad
+	conj|because det:art|the n|sign v|say&PAST qn|no part|run-PRESP .
+%xdss:	F3; Z; C2; F6; Z; C2; A3;
+@G:	A3
+*CHI:	&-um the giraffe wanted to fly his airplane . 525079_530104
+%mor:	det:art|the n|giraffe v|want-PAST inf|to v|fly det:poss|his
+	n|+n|air+n|plane .
+%xdss:	Z; C2; D5; C1; B2; Z;
+*CHI:	and he did . 537676_541041
+%mor:	coord|and pro:sub|he v|do&PAST .
+%xdss:	F3; B2; C2;
+*CHI:	and then the elephant took it from him . 541383_543986
+%mor:	coord|and adv:tem|then det:art|the n|elephant v|take&PAST
+	pro:per|it prep|from pro:obj|him .
+%xdss:	F3; Z; C2; A1; B2;
+*CHI:	and she threw it in the water . 546673_547954
+%mor:	coord|and pro:sub|she v|throw&PAST pro:per|it prep|in det:art|the
+	n|water .
+%xdss:	F3; B2; C2; A1; Z;

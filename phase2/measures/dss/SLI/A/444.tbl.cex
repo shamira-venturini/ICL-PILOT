@@ -1,0 +1,44 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:51 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/444.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+just ask them .                        |   |3  |1  |   |   |   |   |   |  1|  5|
+he's going in the shopping . %snd:"444"_31695_33035         |   |2  |1  |8  |   |   |   |   |  1| 12|
+to buy cookies . %snd:"444"_37940_39100                     |   |   |1  |   |   |   |   |   |  1|  2|
+to eat cookies . %snd:"444"_43024_44103                     |   |   |1  |   |   |   |   |   |  1|  2|
+to spell cookies . %snd:"444"_47845_49446                   |   |   |1  |   |   |   |   |   |  1|  2|
+bake a cookies . %snd:"444"_53194_54154                     |   |   |1  |   |   |   |   |   |  1|  2|
+why I need this ? %snd:"444"_112435_113756                    |1  |1  |1  |   |   |   |1  |7  |  1| 12|
+<owie and> [//] &-uh owie [//] elephant|   |   |2  |   |   |   |   |   |  1|  3|
+     has a owie . %snd:"444"_142947_144788                    |   |   |   |   |   |   |   |   |   |   |
+and the zebra don't [= doesn't] [* m:  |   |   |3 2|   |4  |3  |   |   |  0| 12|
+    03s:a] has [= have] [* m:+3s] a [= |   |   |   |   |   |   |   |   |   |   |
+    an] [* m:allo] owie . %snd:"444"_144952_146994            |   |   |   |   |   |   |   |   |   |   |
+there's [= are] [* m:vsg:a] two        |3  |   |1  |   |   |   |   |   |  0|  4|
+    elephants . %snd:"444"_154675_155174                      |   |   |   |   |   |   |   |   |   |   |
+you have to put it right there . %snd:"444"_186905_187885     |1  |1  |1 1|5  |   |   |   |   |  1| 10|
+&-uh it's on . [+ bch]                 |1  |   |1  |   |   |   |   |   |  1|  3|
+what's that sound ? [+ bch] %snd:"444"_220645_221445          |1  |   |1  |   |   |   |1  |2  |  1|  6|
+what's that sound in there ? [+ bch] %snd:"444"_222267_223889 |1  |   |1  |   |   |   |1  |2  |  1|  6|
+they're making it again . %snd:"444"_346235_350438            |1  |3  |1  |   |   |   |   |   |  1|  6|
+I said a carrot that's it . [+ bch] %snd:"444"_373721_375444  |1  |1 6|2 1|   |   |   |   |   |  1| 12|
+I said juice . [+ bch] %snd:"444"_394490_395239               |   |1  |2  |   |   |   |   |   |  1|  4|
+there we go .                          |   |3  |1  |   |   |   |   |   |  1|  5|
+&+t popped the balloon . %snd:"444"_460913_462093             |   |   |2  |   |   |   |   |   |  1|  3|
+I said lots of balloons . [+ bch] %snd:"444"_481555_485501    |   |1  |2  |   |   |   |   |   |  1|  4|
+let's count the balloons <in here> [//]|1  |3  |1 1|2  |   |   |   |   |  1|  9|
+     in this picture . %snd:"444"_497855_501520               |   |   |   |   |   |   |   |   |   |   |
+there's nine . %snd:"444"_508092_508853                       |3  |   |1  |   |   |   |   |   |  1|  5|
+there's two balloons . %snd:"444"_514418_515599               |3  |   |1  |   |   |   |   |   |  1|  5|
+TOTAL                                  | 17| 25| 35| 15|  4|  3|  3| 11| 21|134|
+WARNING: DSS requires 50 complete sentences and this transcript only has 23.
+
+Developmental sentence score:  5.83

@@ -1,0 +1,79 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:56 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/464.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+he's walking . %snd:"464"_3841_4762                       |   |2  |1  |   |   |   |   |   |  1|  4|
+he's gonna buy something . %snd:"464"_8029_9531           |3  |2  |1 1|2  |   |   |   |   |  1| 10|
+he's gonna eat cookies . %snd:"464"_15395_16275             |   |2  |1 1|2  |   |   |   |   |  1|  7|
+he: [/] he's gonna buy them . %snd:"464"_19459_22763        |   |2 3|1 1|2  |   |   |   |   |  1| 10|
+he messed them up . %snd:"464"_24807_26087                  |   |2 3|2  |   |   |   |   |   |  1|  8|
+&-um he's playing basketball . %snd:"464"_33567_35200       |   |2  |1  |   |   |   |   |   |  1|  4|
+he [/] he puts it in the water . %snd:"464"_37323_39711     |1  |2  |2  |   |   |   |   |   |  1|  6|
+he [/] &-um he was trynna swim . %snd:"464"_41950_44574     |   |2  |2 1|   |   |   |   |   |  1|  6|
+&-um he gotted [: got] [* m:+ed] the   |   |2  |2  |   |   |   |   |   |  0|  4|
+    ball . %snd:"464"_46495_48477                           |   |   |   |   |   |   |   |   |   |   |
+&-um now they're all going to play     |   |3  |1  |   |   |   |   |   |  1|  5|
+    basketball . %snd:"464"_50661_53766                     |   |   |   |   |   |   |   |   |   |   |
+&-um he had a backpack . %snd:"464"_62595_63615             |   |2  |2  |   |   |   |   |   |  1|  5|
+he was trying to get the backpack . %snd:"464"_65920_67481  |   |2  |2 1|2  |   |   |   |   |  1|  8|
+he was running . %snd:"464"_69986_71026                     |   |2  |2  |   |   |   |   |   |  1|  5|
+he: was silly . %snd:"464"_74553_75953                      |   |2  |2  |   |   |   |   |   |  1|  5|
+he cried . %snd:"464"_78715_79755                           |   |2  |2  |   |   |   |   |   |  1|  5|
+and he was angry . %snd:"464"_84323_86204                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+and [/] and then he got a bandaid . %snd:"464"_88990_92614  |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then it was better . %snd:"464"_94675_96336             |1  |   |2 1|   |   |3  |   |   |  1|  8|
+&-um he had a tail . %snd:"464"_101644_104327                 |   |2  |2  |   |   |   |   |   |  1|  5|
+and he was flying a [= an] [* m:allo]  |   |2  |2  |   |   |3  |   |   |  0|  7|
+    airplane . %snd:"464"_106851_109173                       |   |   |   |   |   |   |   |   |   |   |
+and he was jumping . %snd:"464"_112435_114457                 |   |2  |2  |   |   |3  |   |   |  1|  8|
+&-um he was floa^ting the flane [:     |   |2  |2  |   |   |   |   |   |  1|  5|
+    plane] [* p:n] . %snd:"464"_116120_122026                 |   |   |   |   |   |   |   |   |   |   |
+and he was happy . %snd:"464"_129375_130455                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+and [/] and he had a nose right . %snd:"464"_132860_138668    |   |2  |2  |   |   |3  |   |   |  1|  8|
+and he was trying to get it . %snd:"464"_140832_142893        |1  |2  |2 1|2  |   |3  |   |   |  1| 12|
+and he was sad . %snd:"464"_145295_146496                     |   |2  |2  |   |   |3  |   |   |  1|  8|
+and he was crying . %snd:"464"_146438_147599                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+and he was trying to get the [/] &+p   |   |2  |2 1|2  |   |3  |   |   |  1| 11|
+    the plane . %snd:"464"_149826_153373                      |   |   |   |   |   |   |   |   |   |   |
+and he was trying to get it and go in  |1  |2  |2 1|2  |   |3 3|   |   |  1| 16|
+    the swimming pool . %snd:"464"_156575_161521              |   |   |1  |   |   |   |   |   |   |   |
+and he gotted [: got] [* m:++ed:i] it .|1  |2  |2  |   |   |3  |   |   |  0|  8|
+     %snd:"464"_163405_165887                                 |   |   |   |   |   |   |   |   |   |   |
+he was making a castle . %snd:"464"_178140_180060             |   |2  |2  |   |   |   |   |   |  1|  5|
+he was &-um building it by he self . %snd:"464"_181842_185224 |1  |2 2|2  |   |   |   |   |   |  1|  8|
+and [/] and his friend &-um breaked it |1  |2  |   |4  |   |3  |   |   |  1| 11|
+    . %snd:"464"_187285_191887                                |   |   |   |   |   |   |   |   |   |   |
+and he was not happy (be)cause he was  |   |2 2|2 2|   |   |3 6|   |   |  1| 18|
+    sad . %snd:"464"_192969_197131                            |   |   |   |   |   |   |   |   |   |   |
+there's one rabbit . %snd:"464"_204735_205515                 |3  |   |1  |   |   |   |   |   |  1|  5|
+he &+wa had a basik [: basket] .       |   |2  |2  |   |   |   |   |   |  1|  5|
+and he eated all he stuff . %snd:"464"_209062_211245          |3  |2 2|1  |   |   |3  |   |   |  1| 12|
+and he had a tummyache . %snd:"464"_213090_216034             |   |2  |2  |   |   |3  |   |   |  1|  8|
+and he was not happy . %snd:"464"_218255_220899               |   |2  |2  |   |   |3  |   |   |  1|  8|
+and he [//] the [/] the rabbit was [^  |   |   |2  |   |   |3  |   |   |  1|  6|
+    makes vocalizations] ! %snd:"464"_222625_226612           |   |   |   |   |   |   |   |   |   |   |
+and the rabbit was pulling the rabbit .|   |   |2  |   |   |3  |   |   |  1|  6|
+     %snd:"464"_232755_236109                                 |   |   |   |   |   |   |   |   |   |   |
+and the rabbit was not happy (be)cause |   |2 2|2 2|   |   |3 6|   |   |  1| 29|
+    he was angry and (be)cause he was  |   |   |2  |   |   |3 6|   |   |   |   |
+    sad . %snd:"464"_239175_249267                            |   |   |   |   |   |   |   |   |   |   |
+and he was happy again . %snd:"464"_264663_267123             |   |2  |2  |   |   |3  |   |   |  1|  8|
+and so he wanted another one . %snd:"464"_269105_271227       |3 3|2  |2  |   |   |3  |   |   |  1| 14|
+and he couldn't because his &-um       |   |2 2|2  |   |7  |3 6|   |   |  1| 23|
+    balloon was flying . %snd:"464"_272311_276356             |   |   |   |   |   |   |   |   |   |   |
+and it was gone . %snd:"464"_278702_280423                    |1  |   |7  |   |   |3  |   |   |  1| 12|
+and he picked another balloon . %snd:"464"_283185_285307      |3  |2  |2  |   |   |3  |   |   |  1| 11|
++" I want another balloon . %snd:"464"_289635_290916          |3  |1  |1  |   |   |   |   |   |  1|  6|
+and his pants were ripping &=laughs . %snd:"464"_293802_295424|   |2  |2  |   |   |3  |   |   |  1|  8|
+and he wanted another balloon . %snd:"464"_302670_304291      |3  |2  |2  |   |   |3  |   |   |  1| 11|
+TOTAL                                  | 32|106|110| 18|  7|114|  0|  0| 47|434|
+
+Developmental sentence score:  8.68

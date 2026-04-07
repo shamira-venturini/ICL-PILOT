@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:52 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/777.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+<the boy went in the> [/] the boy went |   |   |2  |   |   |   |   |   |  1|  3|
+    in the store . %snd:"777"_7917_11922                   |   |   |   |   |   |   |   |   |   |   |
+he [/] &+b he would buy stuff . %snd:"777"_14525_16387      |   |2  |5 1|   |   |   |   |   |  1|  9|
+he would buy cookies . %snd:"777"_19153_20254               |   |2  |5 1|   |   |   |   |   |  1|  9|
+the cookies fell down . %snd:"777"_23861_24782              |   |   |2  |   |   |   |   |   |  1|  3|
+the boy ran away . %snd:"777"_29005_30146                   |   |   |2  |   |   |   |   |   |  1|  3|
+the elephant and giraffe are playing   |   |   |2  |   |   |3  |   |   |  1|  6|
+    ball . %snd:"777"_37099_40343                           |   |   |   |   |   |   |   |   |   |   |
+the ball went in the water . %snd:"777"_43105_44486         |   |   |2  |   |   |   |   |   |  1|  3|
+the giraffe went and get [= got] [* m: |1  |   |2 1|   |   |3  |   |   |  0|  7|
+    base:ed] it . %snd:"777"_47273_49175                    |   |   |   |   |   |   |   |   |   |   |
+the giraffe gave the ball to the       |   |   |2  |   |   |   |   |   |  1|  3|
+    elephant . %snd:"777"_51681_53544                       |   |   |   |   |   |   |   |   |   |   |
+the elephant said thank you . %snd:"777"_56625_58566        |   |1  |2 1|   |   |   |   |   |  1|  5|
+&-um they were looking in the water . %snd:"777"_65252_68353|   |3  |2  |   |   |   |   |   |  1|  6|
+they saw the diving board . %snd:"777"_72705_74286          |   |3  |2  |   |   |   |   |   |  1|  6|
+she was running . %snd:"777"_77129_78129                    |   |2  |2  |   |   |   |   |   |  1|  5|
+then she hurt her knee . %snd:"777"_80432_82053             |   |2 2|1  |   |   |   |   |   |  1|  6|
+there was a lifeguard &+h helping . %snd:"777"_85205_87887  |   |   |2  |4  |   |   |   |   |  1|  7|
+<she gave> [//] the lifeguard gave him |   |2  |2  |   |   |   |   |   |  1|  5|
+    a bandaid . %snd:"777"_90271_93253                      |   |   |   |   |   |   |   |   |   |   |
+he [//] the lifeguard elephant were [= |   |   |2  |   |   |   |   |   |  0|  2|
+    was] [* m:vun:a] sitting in the    |   |   |   |   |   |   |   |   |   |   |
+    bench . %snd:"777"_97615_103744                          |   |   |   |   |   |   |   |   |   |   |
+and the lifeguard says no running . %snd:"777"_107171_109114  |3  |   |2  |   |   |3  |   |   |  1|  9|
+the giraffe had a [= an] [* m:allo]    |   |   |2  |   |   |   |   |   |  0|  2|
+    airplane . %snd:"777"_116506_118227                       |   |   |   |   |   |   |   |   |   |   |
+the giraffe was trying to fly it . %snd:"777"_121790_124131   |1  |   |2 1|2  |   |   |   |   |  1|  7|
+the elephant wanted to fly it too . %snd:"777"_126133_128154  |1  |   |2 1|5  |   |   |   |   |  1| 10|
+the [/] &+el the [/] the airplane went |   |   |2  |   |   |   |   |   |  1|  3|
+    in the water . %snd:"777"_131436_134359                   |   |   |   |   |   |   |   |   |   |   |
+<they did> [//] they don't know how to |1  |3  |3 1|5  |4  |   |   |4 4|  1| 27|
+    get it out . %snd:"777"_136743_139566                     |   |   |1  |   |   |   |   |   |   |   |
+they [/] they called the lifeguard to  |1  |3  |2 1|   |   |   |   |   |  1|  8|
+    get it . %snd:"777"_141410_144834                         |   |   |   |   |   |   |   |   |   |   |
+the lifeguard didn't took [= take] [* m|1  |   |5 2|   |7  |   |   |   |  0| 15|
+    :irr:ed] it . %snd:"777"_148455_151117                    |   |   |   |   |   |   |   |   |   |   |
+the lifeguard tried to get it . %snd:"777"_153301_155423      |1  |   |2 1|5  |   |   |   |   |  1| 10|
+but it was &+f too far . %snd:"777"_155104_157806             |1  |   |2  |   |   |5  |   |   |  1|  9|
+the lifeguard didn't know how to get it|1  |   |5 1|5  |7  |   |   |4 4|  1| 29|
+     back . %snd:"777"_160672_162953                          |   |   |1  |   |   |   |   |   |   |   |
+the [//] <there come> [//] the girl had|   |   |2 1|   |   |   |   |   |  1|  4|
+     a net to get the airplane . %snd:"777"_166445_169607     |   |   |   |   |   |   |   |   |   |   |
+she got the airplane . %snd:"777"_171670_172890               |   |2  |2  |   |   |   |   |   |  1|  5|
+she gave it back to the giraffe . %snd:"777"_175053_176753    |1  |2  |2  |   |   |   |   |   |  1|  6|
+the giraffe was happy that he had his  |   |2 2|2 2|   |   |8  |   |   |  1| 17|
+    airplane back . %snd:"777"_180925_183929                  |   |   |   |   |   |   |   |   |   |   |
+the dog and the rabbit were making a &+|   |   |2  |   |   |3  |   |   |  1|  6|
+    k sandcastle . %snd:"777"_189841_192164                   |   |   |   |   |   |   |   |   |   |   |
+the rabbit was putting some more sand .|3 3|   |2  |   |   |   |   |   |  1|  9|
+     %snd:"777"_195985_198808                                 |   |   |   |   |   |   |   |   |   |   |
+<he put> [//] he dumped the sand on the|   |2  |2  |   |   |   |   |   |  1|  5|
+     sandcastle . %snd:"777"_201134_203676                    |   |   |   |   |   |   |   |   |   |   |
+and the sandcastle broke down . %snd:"777"_205882_207743      |   |   |2  |   |   |3  |   |   |  1|  6|
+<then the rabbit> [//] then the dog was|   |   |2  |   |   |   |   |   |  1|  3|
+     sad . %snd:"777"_210695_214560                           |   |   |   |   |   |   |   |   |   |   |
+the dog and the rabbit went for a      |   |   |2  |   |   |3  |   |   |  1|  6|
+    picnic . %snd:"777"_219211_221493                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit ate too much . %snd:"777"_224995_226577            |   |   |2  |   |   |   |   |   |  1|  3|
+he got full . %snd:"777"_229185_230265                        |   |2  |2  |   |   |   |   |   |  1|  5|
+he got a tummyache . %snd:"777"_232773_233594                 |   |2  |2  |   |   |   |   |   |  1|  5|
+the dog asked [^ pronounced "axed"] the|   |   |2  |   |   |   |   |   |  1|  3|
+     doctor &*EXA : mhm to help the    |   |   |   |   |   |   |   |   |   |   |
+    rabbit . %snd:"777"_235815_242003                         |   |   |   |   |   |   |   |   |   |   |
+and the rabbit says don't eat too much |3  |   |2 3|   |4  |3  |   |   |  1| 17|
+    food . %snd:"777"_244849_248173                           |   |   |1  |   |   |   |   |   |   |   |
+and then the doctor took the rabbit    |   |   |2  |   |   |3  |   |   |  1|  6|
+    home . %snd:"777"_250835_254220                           |   |   |   |   |   |   |   |   |   |   |
+the dog had a wagon with a balloon . %snd:"777"_258269_261053 |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit liked the balloon . %snd:"777"_264595_266216       |   |   |2  |   |   |   |   |   |  1|  3|
+it flewed [: flew] [* m:++ed:i] away . |1  |   |2  |   |   |   |   |   |  0|  3|
+    %snd:"777"_271186_272166                                  |   |   |   |   |   |   |   |   |   |   |
+the dog got angry . %snd:"777"_274753_276053                  |   |   |2  |   |   |   |   |   |  1|  3|
+they asked [^ pronounced "axed"] the   |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloon man . %snd:"777"_278985_280986                    |   |   |   |   |   |   |   |   |   |   |
+the rabbit asked [^ pronounced "axed"] |3  |   |2  |   |   |   |   |   |  1|  6|
+    for another balloon . %snd:"777"_283548_285609            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 26| 42|133| 26| 22| 37|  0| 16| 45|347|
+
+Developmental sentence score:  6.94

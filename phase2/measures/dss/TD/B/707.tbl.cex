@@ -1,0 +1,91 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:09 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/707.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a boy was walking to the store . %snd:"707"_8463_10383     |   |   |2  |   |   |   |   |   |  1|  3|
+and he bought some cookies . %snd:"707"_14546_15982         |3  |2  |2  |   |   |3  |   |   |  1| 11|
+(.) and they were chocolate chip       |   |3  |2  |   |   |3  |   |   |  1|  9|
+    cookies . %snd:"707"_30875_32776                        |   |   |   |   |   |   |   |   |   |   |
+and they fell down . %snd:"707"_36682_37983                 |   |3  |2  |   |   |3  |   |   |  1|  9|
+&-um the story keeper got mad at the   |   |   |2  |   |   |   |   |   |  1|  3|
+    boy . %snd:"707"_42690_45753                            |   |   |   |   |   |   |   |   |   |   |
+that's all . [+ bch] %snd:"707"_51576_52257                 |1 3|   |1  |   |   |   |   |   |  1|  6|
+&-um a rabbit and a dog were playing in|   |   |2  |   |   |3  |   |   |  1|  6|
+     the sand . %snd:"707"_57746_63173                      |   |   |   |   |   |   |   |   |   |   |
+they made a sandcastle . %snd:"707"_67845_69125             |   |3  |2  |   |   |   |   |   |  1|  6|
+the rabbit broke the sandcastle . %snd:"707"_73552_75474    |   |   |2  |   |   |   |   |   |  1|  3|
+and the rabbit got mad . %snd:"707"_83555_90551             |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog started crying . %snd:"707"_96255_99418         |   |   |2  |   |   |3  |   |   |  1|  6|
+the rabbit and the dog went for a      |   |   |2  |   |   |3  |   |   |  1|  6|
+    picnic . %snd:"707"_111835_114860                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit had more stuff to eat than  |3  |   |2 1|   |   |8  |   |   |  1| 15|
+    the dog . %snd:"707"_127075_130540                        |   |   |   |   |   |   |   |   |   |   |
+the rabbit got really really full . %snd:"707"_135050_137493  |   |   |2  |   |   |   |   |   |  1|  3|
+and then the rabbit had a stomachache .|   |   |2  |   |   |3  |   |   |  1|  6|
+     %snd:"707"_141975_144298                                 |   |   |   |   |   |   |   |   |   |   |
+the dog ran to the rabbit's mom . %snd:"707"_145240_153113    |   |   |2  |   |   |   |   |   |  1|  3|
+and [/] and she went to see the rabbit |   |2  |2 1|5  |   |3  |   |   |  1| 14|
+    . %snd:"707"_162377_167444                                |   |   |   |   |   |   |   |   |   |   |
+&-um and the [//] she was a doctor . %snd:"707"_179452_186823 |   |2  |2  |   |   |3  |   |   |  1|  8|
+&-um the rabbit felt better . %snd:"707"_195805_198468        |   |   |2  |   |   |   |   |   |  1|  3|
+and he went home . %snd:"707"_199670_201111                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+the dog was with his wagon and his     |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    balloon . %snd:"707"_212385_216831                        |   |   |   |   |   |   |   |   |   |   |
+and the rabbit wanted the balloon . %snd:"707"_219518_223343  |   |   |2  |   |   |3  |   |   |  1|  6|
+the rabbit untied the balloon and took |1  |   |2  |   |   |3  |   |   |  1|  7|
+    it . %snd:"707"_228285_231229                             |   |   |   |   |   |   |   |   |   |   |
+then the balloon flew up in the air . %snd:"707"_234977_239763|   |   |2  |   |   |   |   |   |  1|  3|
+and the dog got mad . %snd:"707"_245445_247047                |   |   |2  |   |   |3  |   |   |  1|  6|
+and there was a rabbit holding a lot of|   |   |2  |4  |   |3  |   |   |  1| 10|
+     balloons . %snd:"707"_251577_254862                      |   |   |   |   |   |   |   |   |   |   |
+and the little rabbit bought a balloon |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"707"_260728_264641                                |   |   |   |   |   |   |   |   |   |   |
+hm and the little rabbit couldn't buy  |1 3|   |5 1|   |7  |3 6|   |   |  1| 29|
+    the balloon because it was five    |   |   |2  |   |   |   |   |   |   |   |
+    cents . %snd:"707"_272965_281082                          |   |   |   |   |   |   |   |   |   |   |
+and &=sneezes the dog saw the balloons |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"707"_286545_293321                                |   |   |   |   |   |   |   |   |   |   |
+and the little rabbit went to get some |3  |   |2 1|5  |   |3  |   |   |  1| 15|
+    money from the doctor . %snd:"707"_301695_310692          |   |   |   |   |   |   |   |   |   |   |
+and the rabbit told the doctor that he |7  |6 2|2 5|   |7  |3  |   |   |  1| 34|
+    didn't have any money . %snd:"707"_318035_325814          |   |   |1  |   |   |   |   |   |   |   |
+and she bought the balloon . %snd:"707"_332935_334977         |   |2  |2  |   |   |3  |   |   |  1|  8|
+and the little rabbit and the dog had  |   |   |2  |   |   |3 3|   |   |  1|  9|
+    balloons . %snd:"707"_340408_344654                       |   |   |   |   |   |   |   |   |   |   |
+an elephant was playing with a ball . %snd:"707"_359959_361460|   |   |2  |   |   |   |   |   |  1|  3|
+and a giraffe came to play with it . %snd:"707"_361481_364704 |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+&-um and the elephant threw the ball   |   |   |2  |   |   |3  |   |   |  1|  6|
+    into the pool . %snd:"707"_369725_374427                  |   |   |   |   |   |   |   |   |   |   |
+and then they got scared that it would |1  |3  |2 5|   |   |3 8|   |   |  1| 24|
+    sink . %snd:"707"_375048_383614                           |   |   |1  |   |   |   |   |   |   |   |
+the giraffe tried swimming to get it . |1  |   |2 1|   |   |   |   |   |  1|  5|
+    %snd:"707"_388915_393907                                  |   |   |   |   |   |   |   |   |   |   |
+but he couldn't get it . %snd:"707"_393970_395614             |1  |2  |5 1|   |7  |5  |   |   |  1| 22|
+and [//] &+h &-um but he got it . %snd:"707"_402782_405787    |1  |2  |2  |   |   |5  |   |   |  1| 11|
+and he gave the ball back to the       |   |2  |2  |   |   |3  |   |   |  1|  8|
+    elephant . %snd:"707"_405469_408072                       |   |   |   |   |   |   |   |   |   |   |
+and the elephant was happy to see the  |   |   |2 1|   |   |3  |   |   |  1|  7|
+    ball again . %snd:"707"_413595_416618                     |   |   |   |   |   |   |   |   |   |   |
+the elephant and the giraffe seen [=   |   |   |   |4  |   |3  |   |   |  0|  7|
+    see] [* m:irr:en] a diving board . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"707"_429755_433390                                  |   |   |   |   |   |   |   |   |   |   |
+<and the elephant said> [//] and the   |   |   |2  |   |   |3  |   |   |  1|  6|
+    elephant started running . %snd:"707"_439415_445026       |   |   |   |   |   |   |   |   |   |   |
+and the sign said no running . %snd:"707"_446091_448012       |3  |   |2  |   |   |3  |   |   |  1|  9|
+and then the giraffe tried to catch the|   |   |2 1|5  |   |3  |   |   |  1| 12|
+     elephant . %snd:"707"_454075_460002                      |   |   |   |   |   |   |   |   |   |   |
+but the elephant hurt herself . %snd:"707"_465271_467633      |   |5  |1  |   |   |5  |   |   |  1| 12|
+and she had a cut . %snd:"707"_474395_475716                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+and she got a bandaid . %snd:"707"_482712_483973              |   |2  |2  |   |   |3  |   |   |  1|  8|
+and she felt better . %snd:"707"_491415_493717                |   |2  |2  |   |   |3  |   |   |  1|  8|
+TOTAL                                  | 33| 51|125| 28| 21|145|  0|  0| 49|452|
+
+Developmental sentence score:  9.04

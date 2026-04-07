@@ -1,0 +1,50 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:51 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/413.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+and get cookie . %snd:"413"_11982_13543                     |   |   |1  |   |   |3  |   |   |  1|  5|
+get one cookie . %snd:"413"_17875_18835                     |3  |   |1  |   |   |   |   |   |  1|  5|
+and he get [= gets] [* m:03s:a] it . %snd:"413"_52065_53605 |1  |2  |1  |   |   |3  |   |   |  0|  7|
+and thank you . %snd:"413"_56632_58174                      |   |1  |1  |   |   |3  |   |   |  1|  6|
+play swimming . %snd:"413"_73963_74960                      |   |   |   |4  |   |   |   |   |  1|  5|
+and go in it . %snd:"413"_77945_79686                       |1  |   |1  |   |   |3  |   |   |  1|  6|
+and sit on bench . %snd:"413"_101533_103114                   |   |   |1  |   |   |3  |   |   |  1|  5|
+and stay on bench . %snd:"413"_111569_114093                  |   |   |1  |   |   |3  |   |   |  1|  5|
+play a [!] play . %snd:"413"_126276_134142                    |   |   |1  |   |   |   |   |   |  1|  2|
+and play a play again . %snd:"413"_134844_136223              |   |   |1  |   |   |3  |   |   |  1|  5|
+and play it in [/] in water . %snd:"413"_138375_141857        |1  |   |1  |   |   |3  |   |   |  1|  6|
+and <they're get it> [/] <get [!] it> [|1  |1  |2 1|   |   |3  |   |   |  1|  9|
+    //] I'm get [!] it . %snd:"413"_165210_171434             |   |   |   |   |   |   |   |   |   |   |
+and get it . %snd:"413"_178685_179745                         |1  |   |1  |   |   |3  |   |   |  1|  6|
+I get [!] it . %snd:"413"_186456_188137                       |1  |1  |1  |   |   |   |   |   |  1|  4|
+you get [!] it . %snd:"413"_189240_192404                     |1  |1  |1  |   |   |   |   |   |  1|  4|
+and loffed [: loved] [* p:n] it .      |1  |   |2  |   |   |3  |   |   |  1|  7|
+loved it . [+ bch] %snd:"413"_195975_200418                   |1  |   |2  |   |   |   |   |   |  1|  4|
+and play make castle . %snd:"413"_212922_214524               |   |   |1  |   |   |3  |   |   |  1|  5|
+and dump it . %snd:"413"_216789_218009                        |1  |   |1  |   |   |3  |   |   |  1|  6|
+dump it . [+ bch]                      |1  |   |1  |   |   |   |   |   |  1|  3|
+they go picnic .                       |   |3  |1 1|   |   |   |   |   |  1|  6|
+and they drinks [= drink] [* m:+3s:a]  |   |3  |2  |   |   |3  |   |   |  0|  8|
+    juice . %snd:"413"_246140_247260                          |   |   |   |   |   |   |   |   |   |   |
+and a bunny his [?] tummy hurts . %snd:"413"_268465_275410    |   |2  |2  |   |   |3  |   |   |  1|  8|
+and turn that . [+ bch] %snd:"413"_276331_277853              |1  |   |1  |   |   |3  |   |   |  1|  6|
+and go doc(t)or's house . %snd:"413"_283696_288322            |   |   |1  |   |   |3  |   |   |  1|  5|
+tie it up . %snd:"413"_316950_321697                          |1  |   |1  |   |   |   |   |   |  1|  3|
+man balloons on it . %snd:"413"_339195_341998                 |1  |   |2  |   |   |   |   |   |  1|  4|
+him [= he] [* s:r:gc:pro] him [= he] [*|3  |2 2|1  |   |   |   |   |   |  0|  8|
+     s:r:gc:pro] take [= takes] [* m:  |   |   |   |   |   |   |   |   |   |   |
+    03s:a] one . %snd:"413"_342400_345284                     |   |   |   |   |   |   |   |   |   |   |
+and br(ing) [?] doctor here and check .|   |   |1  |   |   |3 3|   |   |  1|  8|
+     %snd:"413"_351496_363113                                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 20| 18| 36|  4|  0| 57|  0|  0| 26|161|
+WARNING: DSS requires 50 complete sentences and this transcript only has 29.
+
+Developmental sentence score:  5.55

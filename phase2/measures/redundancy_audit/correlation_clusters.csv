@@ -1,0 +1,7 @@
+cluster_size,columns
+4,#utterances | MLU_Utts | TD_Utts | Total_Utts
+4,#words | FREQ_tokens | TD_Words | mor_Words
+3,DSS | DSS_tbl_TOT | DSS_tbl_score
+3,MLU_Morphemes | MLU_Words | words/utterances
+2,Age(Month) | Age_Month_approx
+2,MLU50_Morphemes | MLU50_Words

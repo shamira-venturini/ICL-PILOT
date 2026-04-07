@@ -1,0 +1,91 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:08 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/616.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+&-um <he was going to the> [/] &-um he |   |2  |2  |   |   |   |   |   |  1|  5|
+    was going to the store . %snd:"616"_5900_9562         |   |   |   |   |   |   |   |   |   |   |
+he went to buy some cookies . %snd:"616"_9783_11343        |3  |2  |2 1|5  |   |   |   |   |  1| 14|
+<he went> [/] he went to grab a box of |   |2  |2 1|5  |   |   |   |   |  1| 11|
+    cookies . %snd:"616"_14855_18178                        |   |   |   |   |   |   |   |   |   |   |
+they fell down . %snd:"616"_19741_20762                     |   |3  |2  |   |   |   |   |   |  1|  6|
+the person who worked there was mad . %snd:"616"_24067_26009|   |6  |2 2|   |   |   |   |   |  1| 11|
+the bunny and the dog <went for their> |   |   |2 1|5  |   |3  |   |   |  1| 12|
+    [//] <went to the> [//] &+st went  |   |   |   |   |   |   |   |   |   |   |
+    to play in the sandbox . %snd:"616"_33366_39810         |   |   |   |   |   |   |   |   |   |   |
+and they build a sandcastle . %snd:"616"_42514_43614        |   |3  |1  |   |   |3  |   |   |  1|  8|
+(..) and the bunny put [= puts] [* m:  |3 1|   |1  |   |   |3  |   |   |  0|  8|
+    03s:a] more sand on it . %snd:"616"_48505_50948         |   |   |   |   |   |   |   |   |   |   |
+and it fell down . %snd:"616"_53155_54235                   |1  |   |2  |   |   |3  |   |   |  1|  7|
+and there was only one part of the     |3 3|   |2  |   |   |3  |   |   |  1| 12|
+    castle there . %snd:"616"_54017_56960                   |   |   |   |   |   |   |   |   |   |   |
+(.) <then they built> [//] and then the|1  |   |2 1|5  |   |3  |   |   |  1| 13|
+     bunny tried to build it back . %snd:"616"_61335_64877  |   |   |   |   |   |   |   |   |   |   |
+the bunny and the dog went for a picnic|   |   |2  |   |   |3  |   |   |  1|  6|
+     . %snd:"616"_68840_71241                               |   |   |   |   |   |   |   |   |   |   |
+the dog was going somewhere else . %snd:"616"_71462_73422   |   |   |2  |   |   |   |   |   |  1|  3|
+and the bunny was going somewhere . %snd:"616"_73244_74764  |   |   |2  |   |   |3  |   |   |  1|  6|
+they both end up at the same place (be)|   |3 3|1 2|   |   |6  |   |   |  1| 17|
+    cause they both were planning to go|   |   |1  |   |   |   |   |   |   |   |
+     somewhere . %snd:"616"_77265_81510                     |   |   |   |   |   |   |   |   |   |   |
+the dog thought he was going somewhere |   |2  |2 2|5  |   |   |   |   |  1| 12|
+    else . %snd:"616"_81751_83913                           |   |   |   |   |   |   |   |   |   |   |
+they went to the same place . %snd:"616"_84536_85956        |   |3  |2  |   |   |   |   |   |  1|  6|
+oh I don't know this one . [+ bch] %snd:"616"_87318_91004   |1 3|1  |3 1|   |4  |   |   |   |  1| 14|
+&-um and the dog ate the sandwich . %snd:"616"_92066_94228  |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog had a drink . %snd:"616"_97274_98754            |   |   |2  |   |   |3  |   |   |  1|  6|
+and the bunny was full . %snd:"616"_98716_100057             |   |   |2  |   |   |3  |   |   |  1|  6|
+and then &+th there's a doctor . %snd:"616"_102881_104983     |   |   |1  |   |   |3  |   |   |  1|  5|
+and the dog asked the doctor to fix the|   |   |2 1|   |   |3  |   |   |  1|  7|
+     bunny . %snd:"616"_105845_108829                         |   |   |   |   |   |   |   |   |   |   |
+and the dog put all the doctor's stuff |3  |   |1  |   |   |3  |   |   |  1|  8|
+    on . %snd:"616"_112237_116023                             |   |   |   |   |   |   |   |   |   |   |
+and then the doctor fixed the bunny . %snd:"616"_119995_123302|   |   |2  |   |   |3  |   |   |  1|  6|
+and then they both went home . %snd:"616"_125931_127494       |   |3  |2  |   |   |3  |   |   |  1|  9|
+the bunny and the dog went [//] were   |   |   |2  |   |   |3  |   |   |  1|  6|
+    going to the park . %snd:"616"_132615_136660              |   |   |   |   |   |   |   |   |   |   |
+and they had a balloon on their wagon  |   |3 3|2  |   |   |3  |   |   |  1| 12|
+    the dog . %snd:"616"_136661_139364                        |   |   |   |   |   |   |   |   |   |   |
+the bunny wanted to bite the string off|   |   |2 1|5  |   |   |   |   |  1|  9|
+     the balloon . %snd:"616"_141149_145033                   |   |   |   |   |   |   |   |   |   |   |
+and the bunny tried to . %snd:"616"_147715_149416             |   |   |2  |   |   |3  |   |   |  1|  6|
+and then the balloon went up in the sky|   |   |2  |   |   |3  |   |   |  1|  6|
+     . %snd:"616"_152902_155044                               |   |   |   |   |   |   |   |   |   |   |
+and they lost it . %snd:"616"_154885_156165                   |1  |3  |2  |   |   |3  |   |   |  1| 10|
+and they can only see the string . %snd:"616"_158871_160651   |   |3  |1  |   |   |3  |   |   |  1|  8|
+and the dog was mad . %snd:"616"_160693_161933                |   |   |2  |   |   |3  |   |   |  1|  6|
+a bunny had more balloons . %snd:"616"_179165_180686          |3  |   |2  |   |   |   |   |   |  1|  6|
+and they wanted to get one . %snd:"616"_180606_182268         |3  |3  |2 1|5  |   |3  |   |   |  1| 18|
+and the bunny &+to told the man what   |   |   |2 2|   |   |3  |   |4 2|  1| 14|
+    happened . %snd:"616"_185513_188255                       |   |   |   |   |   |   |   |   |   |   |
+and it was five cents . %snd:"616"_190580_191901              |1 3|   |2  |   |   |3  |   |   |  1| 10|
+(.) and the bunny said I don't have    |1  |1  |2 3|   |4  |3  |   |   |  1| 16|
+    that much . %snd:"616"_191861_194504                      |   |   |1  |   |   |   |   |   |   |   |
+(.) and then they didn't get one . %snd:"616"_198005_199665   |3  |3  |5 1|   |7  |3  |   |   |  1| 23|
+the doctor came . %snd:"616"_202307_203467                    |   |   |2  |   |   |   |   |   |  1|  3|
+<the doctor gave> [//] the doctor had  |   |   |2  |   |   |   |   |   |  1|  3|
+    fun . %snd:"616"_205570_209202                            |   |   |   |   |   |   |   |   |   |   |
+&=whispers had fun , fun . [+ bch] %snd:"616"_210810_211714   |   |   |2  |   |   |   |   |   |  1|  3|
+the doctor gave the man money <so the  |3  |   |2 5|   |   |5 3|   |   |  1| 20|
+    two> [//] so the bunny and the dog |   |   |1  |   |   |   |   |   |   |   |
+    could get some balloons . %snd:"616"_214335_221764        |   |   |   |   |   |   |   |   |   |   |
+and the doctor was happy . %snd:"616"_224188_225489           |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog was happy . %snd:"616"_225551_227031              |   |   |2  |   |   |3  |   |   |  1|  6|
+and the bunny was happy . %snd:"616"_226933_228173            |   |   |2  |   |   |3  |   |   |  1|  6|
+the giraffe and the elephant were      |   |   |2 2|2  |   |3  |   |   |  1| 11|
+    having fun were gonna play tennis .|   |   |1  |   |   |   |   |   |   |   |
+     %snd:"616"_232625_236707                                 |   |   |   |   |   |   |   |   |   |   |
+and their ball went into the swimming  |   |3  |2  |   |   |3  |   |   |  1|  9|
+    pool . %snd:"616"_239530_242031                           |   |   |   |   |   |   |   |   |   |   |
+they didn't know they were at a        |   |3 3|5 1|5  |7  |   |   |   |  1| 27|
+    swimming pool . %snd:"616"_241832_244092                  |   |   |2  |   |   |   |   |   |   |   |
+TOTAL                                  | 40| 61|135| 42| 22|113|  0|  6| 49|468|
+
+Developmental sentence score:  9.36

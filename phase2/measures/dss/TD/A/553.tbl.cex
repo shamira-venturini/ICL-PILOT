@@ -1,0 +1,94 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:57 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/553.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+I see a boy walking into a store . %snd:"553"_4410_6954   |   |1  |1  |4  |   |   |   |   |  1|  7|
+he looks like he's going to buy        |3  |2 2|2 1|2  |   |8  |   |   |  1| 22|
+    something . %snd:"553"_6935_9218                      |   |   |1  |   |   |   |   |   |   |   |
+and it says store on top . %snd:"553"_9841_12083           |1  |   |2  |   |   |3  |   |   |  1|  7|
+and a [//] he might be getting a       |   |2  |8 1|   |   |3  |   |   |  1| 15|
+    shopping cart . %snd:"553"_12605_15529                  |   |   |   |   |   |   |   |   |   |   |
+or he might be buying something . %snd:"553"_15311_16992    |3  |2  |8 1|   |   |5  |   |   |  1| 20|
+<and he> [/] and he looks like he's    |3  |2 2|2 1|   |   |3 8|   |   |  1| 22|
+    buying [!] something . %snd:"553"_17515_20600           |   |   |   |   |   |   |   |   |   |   |
+(be)cause he's just walking in . %snd:"553"_20382_21982     |   |2  |1  |   |   |6  |   |   |  1| 10|
+<the boy> [//] he's looking at cookies |   |2  |1  |   |   |   |   |   |  1|  4|
+    . %snd:"553"_27785_30026                                |   |   |   |   |   |   |   |   |   |   |
+and he would like to buy some cookies .|3  |2  |5 1|5  |   |3  |   |   |  1| 21|
+     %snd:"553"_30027_31787                                 |   |   |1  |   |   |   |   |   |   |   |
+he takes a box of cookies , cho^colate |   |2  |2 1|   |   |   |   |   |  1|  6|
+    chip kind . %snd:"553"_35211_38773                      |   |   |   |   |   |   |   |   |   |   |
+the store person is angry at him . %snd:"553"_50049_53113   |   |2  |1  |   |   |   |   |   |  1|  4|
+and that's finished . [+ bch] %snd:"553"_56595_57435        |1  |   |7  |   |   |3  |   |   |  1| 12|
+a giraffe meets an elephant . %snd:"553"_61878_64879        |   |   |2  |   |   |   |   |   |  1|  3|
+the elephant seems like she's asking   |   |2 2|1  |   |   |8  |   |   |  1| 14|
+    the giraffe to play with her . %snd:"553"_65360_70963   |   |   |   |   |   |   |   |   |   |   |
+but the ball goes into the water . %snd:"553"_77871_81055   |   |   |2  |   |   |5  |   |   |  1|  8|
+the giraffe swims to get the ball . %snd:"553"_83861_86223  |   |   |2 1|5  |   |   |   |   |  1|  9|
+he gives the ball to the elephant . %snd:"553"_89175_91216  |   |2  |2  |   |   |   |   |   |  1|  5|
+and the elephant thanks him . %snd:"553"_92497_96219        |   |2  |2  |   |   |3  |   |   |  1|  8|
+she thinks that he's her hero . %snd:"553"_99423_101603      |   |2 2|2 1|   |   |8  |   |   |  1| 18|
+                                       |   |2  |   |   |   |   |   |   |   |   |
+the elephant and the giraffe they want |   |3  |1 1|2  |   |3  |   |   |  1| 11|
+    to jump in the water to play in the|   |   |   |   |   |   |   |   |   |   |
+     water . %snd:"553"_111815_125643                         |   |   |   |   |   |   |   |   |   |   |
+the elephant goes first . %snd:"553"_127745_129566            |   |   |2  |   |   |   |   |   |  1|  3|
+but they run . %snd:"553"_133293_134554                       |   |3  |1  |   |   |5  |   |   |  1| 10|
+the elephant hurts herself . %snd:"553"_138675_142880         |   |5  |2  |   |   |   |   |   |  1|  8|
+and the giraffe tells a lifeguard . %snd:"553"_146328_150232  |   |   |2  |   |   |3  |   |   |  1|  6|
+the lifeguard puts a bandaid on the    |1  |   |2 7|4 5|   |3  |   |   |  1| 26|
+    elephant's hurt and then makes it  |   |   |2 1|   |   |   |   |   |   |   |
+    better . %snd:"553"_155735_162532                         |   |   |   |   |   |   |   |   |   |   |
+but then he makes her sit on the bench |   |2 2|2 1|5  |   |5 6|   |   |  1| 28|
+    (be)cause she ran . %snd:"553"_167045_170829              |   |2  |2  |   |   |   |   |   |   |   |
+the giraffe and the elephant are going |   |   |2  |   |   |3  |   |   |  1|  6|
+    to play together again . %snd:"553"_182665_189293         |   |   |   |   |   |   |   |   |   |   |
+the giraffe has an airplane . %snd:"553"_191899_194140        |   |   |2  |   |   |   |   |   |  1|  3|
+and the elephant is watching . %snd:"553"_194422_196043       |   |   |1  |   |   |3  |   |   |  1|  5|
+then the elephant grabs it from the    |1  |   |2  |   |   |   |   |   |  1|  4|
+    giraffe . %snd:"553"_199355_203077                        |   |   |   |   |   |   |   |   |   |   |
+and then she starts to play with it . %snd:"553"_203258_205759|1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+the giraffe gets angry at the elephant |   |   |2  |   |   |   |   |   |  1|  3|
+    . %snd:"553"_214845_217366                                |   |   |   |   |   |   |   |   |   |   |
+the lifeguard looks at them . %snd:"553"_221852_224933        |   |3  |2  |   |   |   |   |   |  1|  6|
+and the elephant tells the lifeguard   |   |6  |2 2|   |   |3  |   |   |  1| 14|
+    that <her plane> [//] the giraffe's|   |   |   |   |   |   |   |   |   |   |
+     plane fell in the water . %snd:"553"_228815_235424       |   |   |   |   |   |   |   |   |   |   |
+the lifeguard tries to get it . %snd:"553"_238412_240473      |1  |   |2 1|5  |   |   |   |   |  1| 10|
+the giraffe [!] tries to get it . %snd:"553"_244115_246358    |1  |   |2 1|5  |   |   |   |   |  1| 10|
+then another person comes . %snd:"553"_249726_252090          |3  |   |2  |   |   |   |   |   |  1|  6|
+and then she has a net . %snd:"553"_252051_253993             |   |2  |2  |   |   |3  |   |   |  1|  8|
+and she [!] gets it and then gives it  |1 1|2  |2 2|   |   |3 3|   |   |  1| 15|
+    back to the giraffe . %snd:"553"_256585_262735            |   |   |   |   |   |   |   |   |   |   |
+and then the giraffe hugs his plane . %snd:"553"_265001_267064|   |2  |2  |   |   |3  |   |   |  1|  8|
+then we start on the red stories . [+  |   |3  |1  |   |   |   |   |   |  1|  5|
+    bch] %snd:"553"_271105_272786                             |   |   |   |   |   |   |   |   |   |   |
+a rabbit and a dog meet each other . %snd:"553"_277130_280492 |7 3|   |1  |   |   |3  |   |   |  1| 15|
+and they want to play . %snd:"553"_280293_281793              |   |3  |1 1|2  |   |3  |   |   |  1| 11|
+the doggy builds a sandcastle while the|   |   |2 2|   |   |8  |   |   |  1| 13|
+     rabbit fills the buckets . %snd:"553"_284735_288908      |   |   |   |   |   |   |   |   |   |   |
+then the rabbit dumps it on the        |1  |   |2 2|4  |   |   |   |   |  1| 10|
+    sandcastle then makes the dog's    |   |   |   |   |   |   |   |   |   |   |
+    castle broken . %snd:"553"_292905_303443                  |   |   |   |   |   |   |   |   |   |   |
+and then the rabbit just goes like this|1  |2  |2  |   |   |3 8|   |   |  1| 17|
+     [^ child makes a motion] with his |   |   |   |   |   |   |   |   |   |   |
+    ears down . %snd:"553"_310066_315289                      |   |   |   |   |   |   |   |   |   |   |
+<then they meet> [//] the rabbit and   |   |   |1  |   |   |3  |   |   |  1|  5|
+    the dog meet again . %snd:"553"_321385_324689             |   |   |   |   |   |   |   |   |   |   |
+the dog says she'd like to eat . %snd:"553"_327154_329816     |   |2  |2 1|5 5|   |   |   |   |  1| 17|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+and the rabbit has a carrot and loves  |1  |   |2 2|   |   |3 3|   |   |  1| 12|
+    it . %snd:"553"_330199_333964                             |   |   |   |   |   |   |   |   |   |   |
+then he eats all of his picnic stuff . |   |2 2|2  |   |   |   |   |   |  1|  7|
+    %snd:"553"_337135_339177                                  |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 37| 85|148| 63|  0|149|  0|  0| 50|532|
+
+Developmental sentence score: 10.64

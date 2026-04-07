@@ -1,0 +1,23 @@
+{
+  "bare_past_codes": [
+    "err_m_c_0ed",
+    "err_m_c_base_c_ed"
+  ],
+  "error_code_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/error_code_features.csv",
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/past_verb_features.csv",
+  "past_overgeneralization_codes": [
+    "err_m_c_eq_ed",
+    "err_m_c_eq_ed_c_i",
+    "err_m_c_plus_ed",
+    "err_m_c_plus_plus_ed",
+    "err_m_c_plus_plus_ed_c_i"
+  ],
+  "rows": 361,
+  "totals": {
+    "bare_past_error_tokens": 64,
+    "overt_past_finite_verbs": 14503,
+    "past_overgeneralization_errors": 470,
+    "past_verb_opportunities": 14567
+  },
+  "transcript_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign"
+}

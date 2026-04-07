@@ -1,0 +1,17 @@
+{
+  "band_method": "SLI tertiles",
+  "cutpoints": {
+    "low_to_moderate": 0.9595316485389628,
+    "moderate_to_high": 1.7890096856699897
+  },
+  "input_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_profile_table.csv",
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_profile_banded_table.csv",
+  "reference_group": "SLI",
+  "reference_measure": "severity_core_composite",
+  "sli_band_counts": {
+    "high": 25,
+    "low": 25,
+    "moderate": 24
+  },
+  "sli_n": 74
+}

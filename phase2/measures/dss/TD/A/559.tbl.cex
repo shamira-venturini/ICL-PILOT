@@ -1,0 +1,87 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:57 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/559.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+and a little boy went to the market to |3  |   |2 1|   |   |3  |   |   |  1| 10|
+    buy some food . %snd:"559"_7484_14953                  |   |   |   |   |   |   |   |   |   |   |
+and he wants to buy cookies . %snd:"559"_17215_18516        |   |2  |2 1|5  |   |3  |   |   |  1| 14|
+but they fell down . %snd:"559"_20501_21642                 |   |3  |2  |   |   |5  |   |   |  1| 11|
+and the baker's mad . %snd:"559"_23587_24847                |   |   |1  |   |   |3  |   |   |  1|  5|
+that's the end . [+ bch] %snd:"559"_26954_27773             |1  |   |1  |   |   |   |   |   |  1|  3|
+&-um they were bouncing the ball . %snd:"559"_32659_34200   |   |3  |2  |   |   |   |   |   |  1|  6|
+then they fell into the pool . %snd:"559"_35564_37024       |   |3  |2  |   |   |   |   |   |  1|  6|
+<and the> [//] and they swimmed [: swam|1  |3  |2 1|5  |   |3  |   |   |  0| 16|
+    ] [* m:=ed] to go get it . %snd:"559"_38027_40269       |   |   |1  |   |   |   |   |   |   |   |
+and they &+fe get the ball . %snd:"559"_41292_42933         |   |3  |1  |   |   |3  |   |   |  1|  8|
+<and they> [//] and the elephant was   |   |   |7  |   |   |3  |   |   |  1| 11|
+    surprised . %snd:"559"_44475_46696                      |   |   |   |   |   |   |   |   |   |   |
+they were laughing at the pool . %snd:"559"_56063_57843     |   |3  |2  |   |   |   |   |   |  1|  6|
+then they were running . %snd:"559"_59075_60275             |   |3  |2  |   |   |   |   |   |  1|  6|
+and <then they> [/] then they were     |   |3  |2  |   |   |3  |   |   |  1|  9|
+    running . %snd:"559"_61096_65218                        |   |   |   |   |   |   |   |   |   |   |
+<they were run> [/] <they were> [//]   |   |2  |2  |   |   |   |   |   |  1|  5|
+    the elephant puts his toe up . %snd:"559"_65019_70461   |   |   |   |   |   |   |   |   |   |   |
+and then she got a [= an] [* m:allo]   |   |2  |2  |   |   |3  |   |   |  0|  7|
+    owie . %snd:"559"_72003_73664                           |   |   |   |   |   |   |   |   |   |   |
+then a [= an] [* m:allo] elephant came |   |2  |2 1|   |   |3  |   |   |  0|  8|
+    and fix her . %snd:"559"_75135_78139                    |   |   |   |   |   |   |   |   |   |   |
+and then she was crying . %snd:"559"_79504_81225            |   |2  |2  |   |   |3  |   |   |  1|  8|
+and they were sitting on the bench . %snd:"559"_83291_85273 |   |3  |2  |   |   |3  |   |   |  1|  9|
+and elephant &+w [//] the big elephant |   |2  |2  |   |   |3  |   |   |  1|  8|
+    was mad at her . %snd:"559"_87525_92067                 |   |   |   |   |   |   |   |   |   |   |
+<they were> [/] <they were> [//] &+pl  |   |3  |2  |   |   |   |   |   |  1|  6|
+    they were laughing . %snd:"559"_100665_103366             |   |   |   |   |   |   |   |   |   |   |
+and they had a airplane . %snd:"559"_103426_104627            |   |3  |2  |   |   |3  |   |   |  1|  9|
+and then they were playing with it . %snd:"559"_106108_108869 |1  |3  |2  |   |   |3  |   |   |  1| 10|
+then she grabbed it . %snd:"559"_110131_112131                |1  |2  |2  |   |   |   |   |   |  1|  6|
+and it was in the swimming pool . %snd:"559"_113172_115013    |1  |   |2  |   |   |3  |   |   |  1|  7|
+<and they> [//] and he was mad . %snd:"559"_116475_118396     |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then the big elephant came . %snd:"559"_119959_122361     |   |   |2  |   |   |3  |   |   |  1|  6|
+&+an and he said it fell in the water .|1  |2  |2 2|5  |   |3  |   |   |  1| 16|
+     %snd:"559"_123945_125847                                 |   |   |   |   |   |   |   |   |   |   |
+<then she tried> [//] then he tried to |1  |2  |2 1|5  |   |   |   |   |  1| 12|
+    get it . %snd:"559"_127590_130632                         |   |   |   |   |   |   |   |   |   |   |
+but it was too far . %snd:"559"_130294_131314                 |1  |   |2  |   |   |5  |   |   |  1|  9|
+and then they didn't know what to do . |   |3  |5 1|5  |7  |3  |   |4 2|  1| 32|
+    %snd:"559"_133475_136057                                  |   |   |1  |   |   |   |   |   |   |   |
+then they got a net . %snd:"559"_137640_139081                |   |3  |2  |   |   |   |   |   |  1|  6|
+and then they got it . %snd:"559"_140805_142986               |1  |3  |2  |   |   |3  |   |   |  1| 10|
+and then [/] <then they> [/] &+w then  |1  |3  |2  |   |   |3  |   |   |  1| 10|
+    they just got it back . %snd:"559"_144270_147894          |   |   |   |   |   |   |   |   |   |   |
+and then they loved it . %snd:"559"_149415_151096             |1  |3  |2  |   |   |3  |   |   |  1| 10|
+&-um they were playing sand . %snd:"559"_158828_160349        |   |3  |2  |   |   |   |   |   |  1|  6|
+and they build a sandcastle . %snd:"559"_161892_163173        |   |3  |1  |   |   |3  |   |   |  1|  8|
+and <then they> [//] then the rabbit   |1  |   |2  |   |   |3  |   |   |  1|  7|
+    wrecked it . %snd:"559"_165295_168238                     |   |   |   |   |   |   |   |   |   |   |
+and then they hafta build it all over  |1  |3  |1  |   |   |3  |   |   |  1|  9|
+    again . %snd:"559"_169381_171823                          |   |   |   |   |   |   |   |   |   |   |
+then they tried to build it . %snd:"559"_173568_175468        |1  |3  |2 1|5  |   |   |   |   |  1| 13|
+but it was too hard . %snd:"559"_175110_176290                |1  |   |2  |   |   |5  |   |   |  1|  9|
+they were walking for a picnic . %snd:"559"_183496_185157     |   |3  |2  |   |   |   |   |   |  1|  6|
+they were eating . %snd:"559"_186939_187999                   |   |3  |2  |   |   |   |   |   |  1|  6|
+and <then they got> [//] &+ti <then    |   |3  |2  |   |   |3  |   |   |  1|  9|
+    they> [/] then they got tired . %snd:"559"_190062_193583  |   |   |   |   |   |   |   |   |   |   |
+and then they felt sad (be)cause they  |   |3 3|2 2|   |   |3 6|   |   |  1| 20|
+    ate too much goodies . %snd:"559"_195585_198786           |   |   |   |   |   |   |   |   |   |   |
+and <then they> [/] then they saw their|   |3 3|2  |   |   |3  |   |   |  1| 12|
+     dad . %snd:"559"_199447_203309                           |   |   |   |   |   |   |   |   |   |   |
+and then they got the dad . %snd:"559"_206932_208853          |   |3  |2  |   |   |3  |   |   |  1|  9|
+and then they were tired <again> [=!   |   |3  |7  |   |   |3  |   |   |  1| 14|
+    whispering] . %snd:"559"_210855_213217                    |   |   |   |   |   |   |   |   |   |   |
+and <then the> [/] then they went home |   |3  |2  |   |   |3  |   |   |  1|  9|
+    . %snd:"559"_215562_217623                                |   |   |   |   |   |   |   |   |   |   |
+and they were pulling a wagon that was |   |3 6|2 7|   |   |3  |   |   |  1| 22|
+    tied to a balloon . %snd:"559"_224695_227417              |   |   |   |   |   |   |   |   |   |   |
+then a rabbit came along and said what |   |   |2 2|   |   |3  |   |4 2|  1| 14|
+    a nice balloon . %snd:"559"_229001_232104                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 18|122|130| 30|  7|120|  0| 12| 47|486|
+
+Developmental sentence score:  9.72

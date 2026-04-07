@@ -1,0 +1,217 @@
+@UTF8
+@PID:	11312/c-00036287-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|6;07.10|male|TD||Target_Child|||
+@Media:	603, audio
+@Comment:	Birth of CHI is 09-SEP-1993
+@Date:	19-APR-2000
+@Tape Location:	Disk L7 Track 12
+@Types:	cross, narrative, TD
+*CHI:	there's a little boy that's walking into a food store . 7140_11643
+%mor:	pro:exist|there~cop|be&3S det:art|a adj|little n|boy
+	pro:rel|that~aux|be&3S part|walk-PRESP prep|into det:art|a n|food
+	n|store .
+%xdss:	C1; Z; B6; C1; Z; Z;
+*CHI:	there's a little boy that is going to see someone . 17115_21680
+%mor:	pro:exist|there~cop|be&3S det:art|a adj|little n|boy pro:rel|that
+	aux|be&3S part|go-PRESP inf|to v|see pro:indef|someone .
+%xdss:	C1; Z; B6; C1; D2; C1; A3;
+*CHI:	there's a little boy that's gonna buy chocolate chip cookies . 21802_30433
+%mor:	pro:exist|there~cop|be&3S det:art|a adj|little n|boy
+	pro:rel|that~aux|be&3S part|go&PRESP~inf|to v|buy n|chocolate n|chip
+	n|cookie-PL .
+%xdss:	C1; Z; B6; C1; D2; C1; Z; Z; Z;
+*CHI:	but he dropped all of them when he was trying to do it . 34995_38519
+%mor:	conj|but pro:sub|he v|drop-PAST pro:indef|all prep|of pro:obj|them
+	conj|when pro:sub|he aux|be&PAST&13S part|try-PRESP prep|to mod|do
+	pro:per|it .
+%xdss:	F5; B2; C2; A3; B3; F8; B2; C2; A1;
+*CHI:	then the customer was really mad . 42045_45007
+%mor:	adv:tem|then det:art|the n|customer cop|be&PAST&13S
+	adv|real&dadj-LY adj|mad .
+%xdss:	Z; C2;
+@G:	B1
+*CHI:	there's a bunny rabbit and a dog making a sandcastle . 57086_60952
+%mor:	pro:exist|there~cop|be&3S det:art|a n|bunny n|rabbit coord|and
+	det:art|a n|dog part|make-PRESP det:art|a n|+n|sand+n|castle .
+%xdss:	C1; Z; Z; F3; Z; D4; Z;
+*CHI:	<there's the bunny and the dog that &-um are> [//] &-um well the
+	bunny rabbit's digging the sand up . 66375_76952
+%mor:	co|well det:art|the n|bunny n|rabbit~aux|be&3S part|dig-PRESP
+	det:art|the n|sand adv|up .
+%xdss:	Z; Z; C1; D4; Z;
+*CHI:	and the dog's &-um making the sandcastle smoother . 86905_92081
+%mor:	coord|and det:art|the n|dog~aux|be&3S part|make-PRESP det:art|the
+	n|+n|sand+n|castle adj|smooth-CP .
+%xdss:	F3; Z; C1; D4; Z;
+*CHI:	and the bunny rabbit was pouring sand all over the sandcastle . 97145_102610
+%mor:	coord|and det:art|the n|bunny n|rabbit aux|be&PAST&13S
+	part|pour-PRESP n|sand adv|all prep|over det:art|the
+	n|+n|sand+n|castle .
+%xdss:	F3; Z; Z; C2; Z; Z;
+*CHI:	so the dog was &-um starting to &+s &-um &-uh get sad . 103073_112204
+%mor:	co|so det:art|the n|dog aux|be&PAST&13S part|start-PRESP inf|to
+	v|get adj|sad .
+%xdss:	Z; C2; C1;
+*CHI:	<but the> [//] but half of the sandcastle was left . 119705_126742
+%mor:	conj|but n|half prep|of det:art|the n|+n|sand+n|castle
+	cop|be&PAST&13S adj|left .
+%xdss:	F5; Z; Z; C2;
+*CHI:	then the dog is [//] was starting to cry . 131715_135937
+%mor:	adv:tem|then det:art|the n|dog aux|be&PAST&13S part|start-PRESP
+	prep|to n|cry .
+%xdss:	Z; C2; Z;
+*CHI:	and he was starting to make it all over again . 135808_138559
+%mor:	coord|and pro:sub|he aux|be&PAST&13S part|start-PRESP inf|to v|make
+	pro:per|it adv|all adv|over adv:tem|again .
+%xdss:	F3; B2; C2; C1; A1;
+@G:	B2
+*CHI:	there's a bunny rabbit and a dog that are gonna have lunch together
+	. 151067_155330
+%mor:	pro:exist|there~cop|be&3S det:art|a n|bunny n|rabbit coord|and
+	det:art|a n|dog pro:rel|that aux|be&PRES part|go&PRESP~inf|to v|have
+	n|lunch adv|together .
+%xdss:	C1; Z; Z; F3; Z; B6; C2; D2; C1; Z;
+*CHI:	there's a bunny and a dog that are having [!] lunch . 159538_164404
+%mor:	pro:exist|there~cop|be&3S det:art|a n|bunny coord|and det:art|a
+	n|dog pro:rel|that aux|be&PRES part|have-PRESP n|lunch .
+%xdss:	C1; Z; F3; Z; B6; C2; Z;
+*CHI:	there's the bunny and the dog . 169705_174493
+%mor:	pro:exist|there~cop|be&3S det:art|the n|bunny coord|and det:art|the
+	n|dog .
+%xdss:	C1; Z; F3; Z;
+*CHI:	<but the bunny> [//] but [/] but the &+bu dog is eating . 174254_175795
+%mor:	conj|but det:art|the n|dog aux|be&3S part|eat-PRESP .
+%xdss:	F5; Z; C1;
+*CHI:	<and the bunny is> [/] <and the bunny is chew> [//] and the bunny
+	is sick . 176078_179482
+%mor:	coord|and det:art|the n|bunny cop|be&3S adj|sick .
+%xdss:	F3; Z; C1;
+*CHI:	the bunny &-um is [//] doesn't feel good . 184665_191078
+%mor:	det:art|the n|bunny mod|do&3S~neg|not v|feel adj|good .
+%xdss:	Z; C3; E4; C1;
+*CHI:	and the dog does feel good . 190898_193984
+%mor:	coord|and det:art|the n|dog mod|do&3S v|feel adj|good .
+%xdss:	F3; Z; C3; C1;
+*CHI:	there's a bunny and a dog . 201205_203331
+%mor:	pro:exist|there~cop|be&3S det:art|a n|bunny coord|and det:art|a
+	n|dog .
+%xdss:	C1; Z; F3; Z;
+*CHI:	but the &+bu bunny is a mess . 204818_206023
+%mor:	conj|but det:art|the n|bunny cop|be&3S det:art|a n|mess .
+%xdss:	F5; Z; C1; Z;
+*CHI:	<and the bunny is going to> [//] well the dog is going to tell the
+	other bunny that &-um he hasta fix him . 206845_217443
+%mor:	co|well det:art|the n|dog aux|be&3S part|go-PRESP inf|to v|tell
+	det:art|the qn|other n|bunny pro:rel|that pro:sub|he
+	mod|have&3S~inf|to v|fix pro:obj|him .
+%xdss:	Z; C1; D2; C1; A3; Z; B6; B2; C1; B2;
+*CHI:	but he pulled him (be)cause he won't . 222545_230839
+%mor:	conj|but pro:sub|he v|pull-PAST pro:obj|him conj|because pro:sub|he
+	mod|will~neg|not .
+%xdss:	F5; B2; C2; B2; F6; B2; E5;
+*CHI:	and he made him worse . 232043_232943
+%mor:	coord|and pro:sub|he v|make&PAST pro:obj|him adj|bad&CP .
+%xdss:	F3; B2; C2; B2;
+*CHI:	(.) and then the bunny felt good . 239945_242047
+%mor:	coord|and adv:tem|then det:art|the n|bunny v|feel&PAST adj|good .
+%xdss:	F3; Z; C2;
+*CHI:	and the dog was just by the sandbox . 242508_246192
+%mor:	coord|and det:art|the n|dog cop|be&PAST&13S adv|just prep|by
+	det:art|the n|+n|sand+n|box .
+%xdss:	F3; Z; C2; Z;
+@G:	B3
+*CHI:	and [//] but the dog &+s has a balloon on his wagon . 258994_262760
+%mor:	conj|but det:art|the n|dog v|have&3S det:art|a n|balloon prep|on
+	det:poss|his n|wagon .
+%xdss:	F5; Z; C2; Z; B2; Z;
+*CHI:	and he's pulling the wagon . 262702_264042
+%mor:	coord|and pro:sub|he~aux|be&3S part|pull-PRESP det:art|the n|wagon
+	.
+%xdss:	F3; B2; C1; Z;
+*CHI:	and the bunny rabbit seen [= saw] [* m:sub:ed] the balloon . 268745_273273
+%mor:	coord|and det:art|the n|bunny n|rabbit part|see&PASTP det:art|the
+	n|balloon .
+%xdss:	F3; Z; Z; D4; Z;
+*CHI:	and he [/] he was gonna not try to take the balloon off . 273255_277764
+%mor:	coord|and pro:sub|he aux|be&PAST&13S part|go&PRESP~inf|to neg|not
+	v|try inf|to v|take det:art|the n|balloon adv|off .
+%xdss:	F3; B2; C2; D2; E1; C1; D5; C1; Z;
+*CHI:	but the dog didn't want him to . 283385_285447
+%mor:	conj|but det:art|the n|dog mod|do&PAST~neg|not v|want pro:obj|him
+	inf|to .
+%xdss:	F5; Z; C5; E7; C1; D5; B2;
+*CHI:	and the balloon &+fl flew away . 290956_293659
+%mor:	coord|and det:art|the n|balloon v|fly&PAST adv|away .
+%xdss:	F3; Z; C2;
+*CHI:	and both of them were trying to catch it . 294041_296543
+%mor:	coord|and qn|both prep|of pro:obj|them aux|be&PAST part|try-PRESP
+	inf|to v|catch pro:per|it .
+%xdss:	F3; A7; B3; C2; D2; C1; A1;
+*CHI:	<the bunny rabbit and the dog> [/] but the dog was &+rea really mad
+	at him . 301865_308802
+%mor:	conj|but det:art|the n|dog cop|be&PAST&13S adv|real&dadj-LY adj|mad
+	prep|at pro:obj|him .
+%xdss:	F5; Z; C2; B2;
+*CHI:	<the rabbit was> [//] well there's a big rabbit that had a lot of
+	balloons . 316746_323274
+%mor:	co|well pro:exist|there~cop|be&3S det:art|a adj|big n|rabbit
+	pro:rel|that v|have&PAST det:art|a n|lot prep|of n|balloon-PL .
+%xdss:	C1; Z; B6; C2; Z; Z;
+*CHI:	<and the bunny rabbit> [//] but [//] <and the dog> [//] but the dog
+	was still mad . 324257_329843
+%mor:	conj|but det:art|the n|dog cop|be&PAST&13S adv|still adj|mad .
+%xdss:	F5; Z; C2;
+*CHI:	and the &+w bunny rabbit went to get another one . 330806_338155
+%mor:	coord|and det:art|the n|bunny n|rabbit v|go&PAST inf|to v|get
+	qn|another pro:indef|one .
+%xdss:	F3; Z; Z; C2; D5; C1; A3; A3;
+*CHI:	+" could I have one ? 343004_344084
+%mor:	mod|could pro:sub|I v|have pro:indef|one ?
+%xdss:	G6; B1; C1; A3; G1;
+*CHI:	but they were only five cents . 348845_350766
+%mor:	conj|but pro:sub|they cop|be&PAST qn|only det:num|five n|cent-PL .
+%xdss:	F5; B3; C2; A3; A3; Z;
+*CHI:	and he didn't have five cents . 350707_352429
+%mor:	coord|and pro:sub|he mod|do&PAST~neg|not v|have det:num|five
+	n|cent-PL .
+%xdss:	F3; B2; C5; E7; C1; A3; Z;
+*CHI:	+" if you don't have five cents , you can't &-um take a balloon . 358959_362583
+%mor:	conj|if pro:per|you mod|do~neg|not v|have det:num|five n|cent-PL
+	pro:per|you mod|can~neg|not v|take det:art|a n|balloon .
+%xdss:	F5; B1; C3; E4; C1; A3; Z; B1; C3; E4; C1; Z;
+*CHI:	then the dog and the bunny &+ra rabbit seen [= saw] [* m:sub:ed]
+	the doctor . 366715_372140
+%mor:	adv:tem|then det:art|the n|dog coord|and det:art|the n|bunny
+	n|rabbit part|see&PASTP det:art|the n|doctor .
+%xdss:	Z; F3; Z; Z; D4; Z;
+*CHI:	and the bunny rabbit ran . 372742_374162
+%mor:	coord|and det:art|the n|bunny n|rabbit v|run&PAST .
+%xdss:	F3; Z; Z; C2;
+*CHI:	but the dog stayed . 373943_375144
+%mor:	conj|but det:art|the n|dog v|stay-PAST .
+%xdss:	F5; Z; C2;
+*CHI:	+" I want one of those balloons . 382373_384517
+%mor:	pro:sub|I v|want det:num|one prep|of det:dem|those n|balloon-PL .
+%xdss:	B1; C1; A3; B3; Z;
+*CHI:	+" and he won't give me it . 384580_386322
+%mor:	coord|and pro:sub|he mod|will~neg|not v|give pro:obj|me pro:per|it
+	.
+%xdss:	F3; B2; E5; C1; B1; A1;
+*CHI:	<then he> [//] &-um and the doctor had a lot of money . 391835_399820
+%mor:	coord|and det:art|the n|doctor v|have&PAST det:art|a n|lot prep|of
+	n|money .
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	so he gave him most of his money . 399762_403343
+%mor:	co|so pro:sub|he v|give&PAST pro:obj|him qn|most prep|of
+	det:poss|his n|money .
+%xdss:	B2; C2; B2; A7; B2; Z;
+*CHI:	and there's only two left (be)cause <the bunny> [//] &+rab the dog
+	took most of them . 403585_410534
+%mor:	coord|and pro:exist|there~cop|be&3S qn|only det:num|two adj|left
+	conj|because det:art|the n|dog v|take&PAST qn|most prep|of
+	pro:obj|them .
+%xdss:	F3; C1; A3; A3; F6; Z; C2; A7; B3;

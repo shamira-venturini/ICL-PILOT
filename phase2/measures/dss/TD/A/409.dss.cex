@@ -1,0 +1,194 @@
+@UTF8
+@PID:	11312/c-00036193-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|4;10.01|male|TD||Target_Child|||
+@Media:	409, audio
+@Comment:	Birth of CHI is 29-APR-1995
+@Date:	01-MAR-2000
+@Tape Location:	Disk L2 Track 16
+@Types:	cross, narrative, TD
+*CHI:	I see a little boy . 8306_12189
+%mor:	pro:sub|I v|see det:art|a adj|little n|boy .
+%xdss:	B1; C1; Z;
+*CHI:	I see two shopping carts . 16459_18238
+%mor:	pro:sub|I v|see det:num|two part|shop-PRESP n|cart-PL .
+%xdss:	B1; C1; A3; Z;
+*CHI:	and I see some apples , stuff like that . 20406_24414
+%mor:	coord|and pro:sub|I v|see qn|some n|apple-PL n|stuff prep|like
+	pro:dem|that .
+%xdss:	F3; B1; C1; A3; Z; Z; F8; A1;
+*CHI:	&-um he's gonna buy some apples . 32570_34750
+%mor:	pro:sub|he~aux|be&3S part|go&PRESP~inf|to v|buy qn|some n|apple-PL
+	.
+%xdss:	B2; C1; D2; C1; A3; Z;
+*CHI:	looks like &-um he's gonna buy some cookies . 52324_54345
+%mor:	v|look-3S conj|like pro:sub|he~aux|be&3S part|go&PRESP~inf|to v|buy
+	qn|some n|cookie-PL .
+%xdss:	C2; F8; B2; C1; D2; C1; A3; Z;
+*CHI:	and he is . 59312_60414
+%mor:	coord|and pro:sub|he cop|be&3S .
+%xdss:	F3; B2; C1;
+*CHI:	all of the boxes are falling . 65155_66678
+%mor:	pro:indef|all prep|of det:art|the n|box-PL aux|be&PRES
+	part|fall-PRESP .
+%xdss:	A3; Z; C2;
+*CHI:	&-uh he's running . 89366_90106
+%mor:	pro:sub|he~aux|be&3S part|run-PRESP .
+%xdss:	B2; C1;
+@G:	A1
+*CHI:	there's an elephant and a horse . 107050_109734
+%mor:	pro:exist|there~cop|be&3S det:art|a n|elephant coord|and det:art|a
+	n|horse .
+%xdss:	C1; Z; F3; Z;
+*CHI:	and they see a big bubble in the swimming pool . 115135_119361
+%mor:	coord|and pro:sub|they v|see det:art|a adj|big n|bubble prep|in
+	det:art|the part|swim-PRESP n|pool .
+%xdss:	F3; B3; C1; Z; Z;
+*CHI:	&-um he's going to pop it , the horse . 124450_126633
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|pop pro:per|it
+	det:art|the n|horse .
+%xdss:	B2; C1; D2; C1; A1; Z;
+*CHI:	it was a ball , I think it was a ball . 131695_137390
+%mor:	pro:per|it cop|be&PAST&13S det:art|a n|ball pro:sub|I v|think
+	pro:per|it cop|be&PAST&13S det:art|a n|ball .
+%xdss:	A1; C2; Z; B1; C1; A1; C2; Z;
+*CHI:	it was a ball . [+ bch] 137213_137831
+%mor:	pro:per|it cop|be&PAST&13S det:art|a n|ball .
+%xdss:	A1; C2; Z;
+*CHI:	&-um elephant was happy . 143217_149867
+%mor:	n|elephant cop|be&PAST&13S adj|happy .
+%xdss:	Z; C2;
+@G:	A2
+*CHI:	a horse is &-um going to jump into the pool . 162870_166893
+%mor:	det:art|a n|horse aux|be&3S part|go-PRESP prep|to n|jump prep|into
+	det:art|the n|pool .
+%xdss:	Z; C1; Z; Z;
+*CHI:	but the elephant was going to jump off the edge . 171215_173936
+%mor:	conj|but det:art|the n|elephant aux|be&PAST&13S part|go-PRESP
+	prep|to n|jump prep|off det:art|the n|edge .
+%xdss:	F5; Z; C2; Z; Z;
+*CHI:	but he slipped . 177799_178739
+%mor:	conj|but pro:sub|he v|slip-PAST .
+%xdss:	F5; B2; C2;
+*CHI:	he got an owie . 183864_184963
+%mor:	pro:sub|he v|get&PAST det:art|a n|owie .
+%xdss:	B2; C2; Z;
+*CHI:	&-uh the horse came . 191510_192511
+%mor:	det:art|the n|horse v|come&PAST .
+%xdss:	Z; C2;
+*CHI:	and the other &-um elephant came . 197021_199323
+%mor:	coord|and det:art|the qn|other n|elephant v|come&PAST .
+%xdss:	F3; A3; Z; C2;
+*CHI:	and they sit on a bench . 202965_205698
+%mor:	coord|and pro:sub|they v|sit prep|on det:art|a n|bench .
+%xdss:	F3; B3; C1; Z;
+*CHI:	there's a sign [=! whispering] . 221528_222248
+%mor:	pro:exist|there~cop|be&3S det:art|a n|sign .
+%xdss:	C1; Z;
+@G:	A3
+*CHI:	the horse &-um &-uh is [//] has a airplane in his hand . 238335_249674
+%mor:	det:art|the n|horse v|have&3S det:art|a n|+n|air+n|plane prep|in
+	det:poss|his n|hand .
+%xdss:	Z; C2; Z; B2; Z;
+*CHI:	and he's flying it . 255315_256856
+%mor:	coord|and pro:sub|he~aux|be&3S part|fly-PRESP pro:per|it .
+%xdss:	F3; B2; C1; A1;
+*CHI:	and elephant took it from his hand . 261244_263966
+%mor:	coord|and n|elephant v|take&PAST pro:per|it prep|from det:poss|his
+	n|hand .
+%xdss:	F3; Z; C2; A1; B2; Z;
+*CHI:	and it fell in the water . 267353_268654
+%mor:	coord|and pro:per|it v|fall&PAST prep|in det:art|the n|water .
+%xdss:	F3; A1; C2; Z;
+*CHI:	and the horse was mad . 273115_274677
+%mor:	coord|and det:art|the n|horse cop|be&PAST&13S adj|mad .
+%xdss:	F3; Z; C2;
+*CHI:	and <it was> [//] &+floa <it was coming> [//] it was floating . 280348_283553
+%mor:	coord|and pro:per|it aux|be&PAST&13S part|float-PRESP .
+%xdss:	F3; A1; C2;
+*CHI:	a:nd &-u:h it was sinking . 290555_296962
+%mor:	coord|and pro:per|it aux|be&PAST&13S part|sink-PRESP .
+%xdss:	F3; A1; C2;
+*CHI:	the boy was trying to reach it . 302050_305494
+%mor:	det:art|the n|boy aux|be&PAST&13S part|try-PRESP inf|to v|reach
+	pro:per|it .
+%xdss:	Z; C2; D2; C1; A1;
+*CHI:	<and he> [//] and then the girl &-um got a [/] a net . 316012_317093
+%mor:	coord|and adv:tem|then det:art|the n|girl v|get&PAST det:art|a
+	n|net .
+%xdss:	F3; Z; C2; Z;
+*CHI:	<and he> [//] <and she &-um got it> [/] and she got it . 318535_326444
+%mor:	coord|and pro:sub|she v|get&PAST pro:per|it .
+%xdss:	F3; B2; C2; A1;
+*CHI:	and she gave it back . 331913_333333
+%mor:	coord|and pro:sub|she v|give&PAST pro:per|it adv|back .
+%xdss:	F3; B2; C2; A1;
+*CHI:	and then he was happy . 338635_340019
+%mor:	coord|and adv:tem|then pro:sub|he cop|be&PAST&13S adj|happy .
+%xdss:	F3; B2; C2;
+@G:	B1
+*CHI:	&-um they're building <a sandcastle> [/] a sandcastle . 352255_355656
+%mor:	pro:sub|they~aux|be&PRES part|build-PRESP det:art|a
+	n|+n|sand+n|castle .
+%xdss:	B3; C1; Z;
+*CHI:	the bunny and [!] the dog are still building it . 360222_363804
+%mor:	det:art|the n|bunny coord|and det:art|the n|dog cop|be&PRES
+	adj|still n|building pro:per|it .
+%xdss:	Z; F3; Z; C2; Z; A1;
+*CHI:	they're gonna &-um put a pail on it . 370385_373231
+%mor:	pro:sub|they~aux|be&PRES part|go&PRESP~inf|to v|put&ZERO det:art|a
+	n|pail prep|on pro:per|it .
+%xdss:	B3; C1; D2; C1; Z; A1;
+*CHI:	and the dog was crying . 381545_385889
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|cry-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	that's short . [+ bch] 388273_389774
+%mor:	pro:dem|that~cop|be&3S adj|short .
+%xdss:	A1; C1;
+@G:	B2
+*CHI:	&-um they're going to pick some I don't know . 398245_402571
+%mor:	pro:sub|they~aux|be&PRES part|go-PRESP inf|to v|pick pro:indef|some
+	pro:sub|I mod|do~neg|not v|know .
+%xdss:	B3; C1; D2; C1; A3; B1; C3; E4; C1;
+*CHI:	I don't know what they're going to pick . [+ bch] 403674_405796
+%mor:	pro:sub|I mod|do~neg|not v|know pro:int|what
+	pro:sub|they~aux|be&PRES part|go-PRESP inf|to v|pick .
+%xdss:	B1; C3; E4; C1; H4; H2; B3; C1; D2; C1;
+*CHI:	<they picked> [/] they picked &-um a sandwich and all kinds of
+	stuff . 412075_418158
+%mor:	pro:sub|they v|pick-PAST det:art|a n|sandwich coord|and qn|all
+	n|kind-PL prep|of n|stuff .
+%xdss:	B3; C2; Z; F3; A3; Z; Z;
+*CHI:	<and they> [//] <and the boy> [//] and the bunny was full . 420801_426904
+%mor:	coord|and det:art|the n|bunny cop|be&PAST&13S adj|full .
+%xdss:	F3; Z; C2;
+*CHI:	and he was dizzy . 431245_434539
+%mor:	coord|and pro:sub|he cop|be&PAST&13S adj|dizzy .
+%xdss:	F3; B2; C2;
+*CHI:	and [/] <and the bunny &-um was> [//] &-um &-um and <his mom> [//]
+	the doctor was coming . 439655_454613
+%mor:	coord|and det:art|the n|doctor aux|be&PAST&13S part|come-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	and the dog was pulling her . 462183_464614
+%mor:	coord|and det:art|the n|dog aux|be&PAST&13S part|pull-PRESP
+	pro:obj|her .
+%xdss:	F3; Z; C2; B2;
+*CHI:	and she was gonna <check her> [//] check him the bunny . 470635_477925
+%mor:	coord|and pro:sub|she aux|be&PAST&13S part|go&PRESP~inf|to v|check
+	pro:obj|him det:art|the n|bunny .
+%xdss:	F3; B2; C2; D2; C1; B2; Z;
+*CHI:	and they were going back home . 480952_482714
+%mor:	coord|and pro:sub|they aux|be&PAST part|go-PRESP adv|back adv|home
+	.
+%xdss:	F3; B3; C2;
+@G:	B3
+*CHI:	and it's getting smaller . 537725_540108
+%mor:	coord|and pro:per|it~aux|be&3S part|get-PRESP adj|small-CP .
+%xdss:	F3; A1; C1;
+*CHI:	&-um actually it was &-um getting undone . 545518_549123
+%mor:	adv|actual&dadj-LY pro:per|it aux|be&PAST&13S part|get-PRESP
+	un#adj|do&PASTP .
+%xdss:	A1; C2;

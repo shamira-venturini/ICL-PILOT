@@ -1,0 +1,48 @@
+@UTF8
+@PID:	11312/c-00036217-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@ID:	eng|ENNI|CHI|4;00.12|female|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	452, audio
+@Date:	21-FEB-2001
+@Tape Location:	Disk L25 , Track 66
+@Types:	cross, narrative, TD
+*CHI:	<I get food in a cup> [?] . 10529_12249
+%mor:	pro:sub|I v|get n|food prep|in det:art|a n|cup .
+%xdss:	B1; C1; Z; Z;
+@G:	A1
+*CHI:	elephant with a ball holding it . 53075_56138
+%mor:	n|elephant prep|with det:art|a n|ball part|hold-PRESP pro:per|it .
+%xdss:	Z; Z; D4; A1;
+@G:	A2
+@G:	A3
+@G:	B1
+*CHI:	a bunny making a sandcastle . 212119_212337
+%mor:	det:art|a n|bunny part|make-PRESP det:art|a n|+n|sand+n|castle .
+%xdss:	Z; D4; Z;
+*CHI:	the bunny dumped it on the sand^castle . 221725_223867
+%mor:	det:art|the n|bunny v|dump-PAST pro:per|it prep|on det:art|the
+	n|+n|sand+n|castle .
+%xdss:	Z; C2; A1; Z;
+*CHI:	broke the sandcastle .
+%mor:	v|break&PAST det:art|the n|+n|sand+n|castle .
+%xdss:	C2; Z;
+*CHI:	fixed the sandcastle .
+%mor:	v|fix-PAST det:art|the n|+n|sand+n|castle .
+%xdss:	C2; Z;
+@G:	B2
+*CHI:	and the bunny's holding the basket . 245337_247358
+%mor:	coord|and det:art|the n|bunny~aux|be&3S part|hold-PRESP det:art|the
+	n|basket .
+%xdss:	F3; Z; C1; D4; Z;
+@G:	B3
+*CHI:	a scooter and a bunny coming . 284039_286540
+%mor:	det:art|a n|scooter coord|and det:art|a n|bunny part|come-PRESP .
+%xdss:	Z; F3; Z; D4;
+*CHI:	the balloon fell off and flew away . 301620_304455
+%mor:	det:art|the n|balloon v|fall&PAST adv|off coord|and v|fly&PAST
+	adv|away .
+%xdss:	Z; C2; F3; C2;
+@End

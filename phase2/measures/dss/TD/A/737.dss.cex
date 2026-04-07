@@ -1,0 +1,204 @@
+@UTF8
+@PID:	11312/c-00036357-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|7;10.16|female|TD||Target_Child|||
+@Media:	737, audio
+@Comment:	Birth of CHI is 2-JUN-1992
+@Date:	18-APR-2000
+@Tape Location:	Disk L5 Track 24
+@Types:	cross, narrative, TD
+*CHI:	a kid walking in the store to buy grocery . 8780_11023
+%mor:	det:art|a n|kid part|walk-PRESP prep|in det:art|the n|store prep|to
+	n|buy n|grocery .
+%xdss:	Z; D4; Z; Z; Z;
+*CHI:	a [/] a kid wanting to buy the cookies . 16892_19621
+%mor:	det:art|a n|kid part|want-PRESP inf|to v|buy det:art|the
+	n|cookie-PL .
+%xdss:	Z; D4; C1; Z;
+*CHI:	the kid taking the cookies in the box . 24225_33062
+%mor:	det:art|the n|kid part|take-PRESP det:art|the n|cookie-PL prep|in
+	det:art|the n|box .
+%xdss:	Z; D4; Z; Z;
+*CHI:	the stack of cookies fell down . 40555_42317
+%mor:	det:art|the n|stack prep|of n|cookie-PL v|fall&PAST adv|down .
+%xdss:	Z; Z; C2;
+*CHI:	the manager got mad . 48630_50151
+%mor:	det:art|the n|manage&dv-AGT v|get&PAST adj|mad .
+%xdss:	Z; C2;
+*CHI:	and the kid ran away . 49993_51193
+%mor:	coord|and det:art|the n|kid v|run&PAST adv|away .
+%xdss:	F3; Z; C2;
+@G:	A1
+*CHI:	two kids meeting each other . 64092_65154
+%mor:	det:num|two n|kid-PL part|meet-PRESP qn|each qn|other .
+%xdss:	A3; Z; D4; A7; A3;
+*CHI:	two kids had a ball . 70755_72116
+%mor:	det:num|two n|kid-PL v|have&PAST det:art|a n|ball .
+%xdss:	A3; Z; C2; Z;
+*CHI:	and it fell in the water . 71936_73157
+%mor:	coord|and pro:per|it v|fall&PAST prep|in det:art|the n|water .
+%xdss:	F3; A1; C2; Z;
+*CHI:	one of the kids went to go get the ball in the water . 76883_79324
+%mor:	det:num|one prep|of det:art|the n|kid-PL v|go&PAST inf|to v|go
+	v|get det:art|the n|ball prep|in det:art|the n|water .
+%xdss:	A3; Z; C2; D5; C1; C1; Z; Z;
+*CHI:	he gave the ball to the other kid . 83812_85754
+%mor:	pro:sub|he v|give&PAST det:art|the n|ball prep|to det:art|the
+	qn|other n|kid .
+%xdss:	B2; C2; Z; A3; Z;
+*CHI:	and when the kid [//] other kid was wet , the other kid didn't
+	wanna go close . 91425_95794
+%mor:	coord|and conj|when det:art|the qn|other n|kid cop|be&PAST&13S
+	adj|wet det:art|the qn|other n|kid mod|do&PAST~neg|not v|want~inf|to
+	v|go adj|close .
+%xdss:	F3; F8; A3; Z; C2; A3; Z; C5; E7; C1; D2; C1;
+@G:	A2
+*CHI:	two kids are about to jump in the diving pool . 108240_113404
+%mor:	det:num|two n|kid-PL cop|be&PRES adv|about inf|to v|jump prep|in
+	det:art|the part|dive-PRESP n|pool .
+%xdss:	A3; Z; C2; C1; Z;
+*CHI:	one kid says no because she doesn't wanna get wet . 120025_125271
+%mor:	det:num|one n|kid v|say&3S co|no conj|because pro:sub|she
+	mod|do&3S~neg|not v|want~inf|to v|get adj|wet .
+%xdss:	A3; Z; C2; F6; B2; C3; E4; C1; D2; C1;
+*CHI:	the other one runs away when the sign says no running . 130760_134444
+%mor:	det:art|the qn|other pro:indef|one v|run-3S adv|away conj|when
+	det:art|the n|sign v|say&3S qn|no part|run-PRESP .
+%xdss:	A3; A3; C2; F8; Z; C2; A3;
+*CHI:	she fell down because she didn't see the sign . 138845_142070
+%mor:	pro:sub|she v|fall&PAST adv|down conj|because pro:sub|she
+	mod|do&PAST~neg|not v|see det:art|the n|sign .
+%xdss:	B2; C2; F6; B2; C5; E7; C1; Z;
+*CHI:	she had this big scratch on her knee . 146360_148503
+%mor:	pro:sub|she v|have&PAST det:dem|this adj|big n|scratch prep|on
+	det:poss|her n|knee .
+%xdss:	B2; C2; A1; Z; B2; Z;
+*CHI:	then her head started to hurt . 154295_156056
+%mor:	adv:tem|then det:poss|her n|head v|start-PAST inf|to v|hurt&ZERO .
+%xdss:	B2; Z; C2; D5; C1;
+*CHI:	then they put her on a bench to let her knee heal . 159901_163804
+%mor:	adv:tem|then pro:sub|they v|put&ZERO pro:obj|her prep|on det:art|a
+	n|bench inf|to v|let&ZERO pro:obj|her n|knee v|heal .
+%xdss:	B3; C1; B2; Z; C1; B2; Z; C1;
+*CHI:	the lifeguard pointed to the sign no running . 167525_170728
+%mor:	det:art|the n|+n|life+n|guard v|point-PAST prep|to det:art|the
+	n|sign co|no part|run-PRESP .
+%xdss:	Z; C2; Z;
+@G:	A3
+*CHI:	one girl screaming . 181243_182303
+%mor:	det:num|one n|girl part|scream-PRESP .
+%xdss:	A3; Z; D4;
+*CHI:	and the other kid laughing . 182705_184066
+%mor:	coord|and det:art|the qn|other n|kid part|laugh-PRESP .
+%xdss:	F3; A3; Z; D4;
+*CHI:	one kid playing with the airplane . 188976_190777
+%mor:	det:num|one n|kid part|play-PRESP prep|with det:art|the
+	n|+n|air+n|plane .
+%xdss:	A3; Z; D4; Z;
+*CHI:	then the other kid steals the airplane away from the boy . 197455_201701
+%mor:	adv:tem|then det:art|the qn|other n|kid v|steal-3S det:art|the
+	n|+n|air+n|plane adv|away prep|from det:art|the n|boy .
+%xdss:	A3; Z; C2; Z; Z;
+*CHI:	then the airplane fell in the water . 205489_208434
+%mor:	adv:tem|then det:art|the n|+n|air+n|plane v|fall&PAST prep|in
+	det:art|the n|water .
+%xdss:	Z; C2; Z;
+*CHI:	then it started to sink . 213155_214756
+%mor:	adv:tem|then pro:per|it v|start-PAST inf|to v|sink .
+%xdss:	A1; C2; D5; C1;
+*CHI:	then the lifeguard came . 220483_222063
+%mor:	adv:tem|then det:art|the n|+n|life+n|guard v|come&PAST .
+%xdss:	Z; C2;
+*CHI:	and the lifeguard talked to them what happened . 225905_228588
+%mor:	coord|and det:art|the n|+n|life+n|guard v|talk-PAST prep|to
+	pro:obj|them pro:int|what v|happen-PAST .
+%xdss:	F3; Z; C2; B3; H2; C2;
+*CHI:	the lifeguard tried to reach the airplane in the water . 231894_235177
+%mor:	det:art|the n|+n|life+n|guard v|try-PAST inf|to v|reach det:art|the
+	n|+n|air+n|plane prep|in det:art|the n|water .
+%xdss:	Z; C2; D5; C1; Z; Z;
+*CHI:	but he couldn't reach it . 237743_239203
+%mor:	conj|but pro:sub|he mod|could~neg|not v|reach pro:per|it .
+%xdss:	F5; B2; C5; E7; C1; A1;
+*CHI:	so he got a fishing net . 242585_244127
+%mor:	co|so pro:sub|he v|get&PAST det:art|a part|fish-PRESP n|net .
+%xdss:	B2; C2; Z;
+*CHI:	he used the fishing net to get the airplane out of the water . 247696_251384
+%mor:	pro:sub|he v|use-PAST det:art|the part|fish-PRESP n|net inf|to
+	v|get det:art|the n|+n|air+n|plane adv|out prep|of det:art|the
+	n|water .
+%xdss:	B2; C2; Z; C1; Z; Z;
+*CHI:	he [//] she got the airplane out . 257245_258946
+%mor:	pro:sub|she v|get&PAST det:art|the n|+n|air+n|plane adv|out .
+%xdss:	B2; C2; Z;
+*CHI:	now they were both happy . 262653_264034
+%mor:	adv:tem|now pro:sub|they cop|be&PAST qn|both adj|happy .
+%xdss:	B3; C2; A7;
+@G:	B1
+*CHI:	two kids playing in the sandbox . 276038_277778
+%mor:	det:num|two n|kid-PL part|play-PRESP prep|in det:art|the
+	n|+n|sand+n|box .
+%xdss:	A3; Z; D4; Z;
+*CHI:	two of the kids trying to build a sandcastle . 281563_283904
+%mor:	det:num|two prep|of det:art|the n|kid-PL part|try-PRESP inf|to
+	v|build det:art|a n|+n|sand+n|castle .
+%xdss:	A3; Z; D4; D2; C1; Z;
+*CHI:	the other kid dumps s:and on the sandcastle to ruin it . 288165_292112
+%mor:	det:art|the qn|other n|kid v|dump-3S n|sand prep|on det:art|the
+	n|+n|sand+n|castle inf|to v|ruin pro:per|it .
+%xdss:	A3; Z; C2; Z; Z; C1; A1;
+*CHI:	the kid is sad now . 302685_304186
+%mor:	det:art|the n|kid cop|be&3S adj|sad adv:tem|now .
+%xdss:	Z; C1;
+@G:	B2
+*CHI:	two kids taking a jog to have picnic . 313920_317923
+%mor:	det:num|two n|kid-PL part|take-PRESP det:art|a n|jog inf|to v|have
+	n|picnic .
+%xdss:	A3; Z; D4; Z; C1; Z;
+*CHI:	the one kid is eating like a pig . 322525_324748
+%mor:	det:art|the det:num|one n|kid aux|be&3S part|eat-PRESP prep|like
+	det:art|a n|pig .
+%xdss:	A3; Z; C1; F8; Z;
+*CHI:	and the other is just taking out a sandwich . 324569_326811
+%mor:	coord|and det:art|the qn|other cop|be&3S adv|just part|take-PRESP
+	prep|out det:art|a n|sandwich .
+%xdss:	F3; A3; C1; Z;
+*CHI:	the other one is full while the other one is still eating . 329779_332959
+%mor:	det:art|the qn|other pro:indef|one cop|be&3S adj|full conj|while
+	det:art|the qn|other pro:indef|one aux|be&3S adv|still
+	part|eat-PRESP .
+%xdss:	A3; A3; C1; F8; A3; A3; C1;
+*CHI:	the other one is still full . 337285_340012
+%mor:	det:art|the qn|other pro:indef|one cop|be&3S adv|still adj|full .
+%xdss:	A3; A3; C1;
+*CHI:	and the other one is [//] starts to worry about the other kid . 339842_343564
+%mor:	coord|and det:art|the qn|other pro:indef|one v|start-3S prep|to
+	n|worry prep|about det:art|the qn|other n|kid .
+%xdss:	F3; A3; A3; C2; Z; A3; Z;
+*CHI:	then the other kid <starts to ask a> [//] &+lad starts to ask a
+	nurse to help him . 347355_354403
+%mor:	adv:tem|then det:art|the qn|other n|kid v|start-3S inf|to v|ask
+	det:art|a n|nurse inf|to v|help pro:obj|him .
+%xdss:	A3; Z; C2; D5; C1; Z; C1; B2;
+*CHI:	the nurse helps the [/] the kid &-um with his full stomach . 357905_363552
+%mor:	det:art|the n|nurse v|help-3S det:art|the n|kid prep|with
+	det:poss|his adj|full n|stomach .
+%xdss:	Z; C2; Z; B2; Z;
+*CHI:	she tells the kid to open his mouth . 368862_371143
+%mor:	pro:sub|she v|tell-3S det:art|the n|kid inf|to v|open det:poss|his
+	n|mouth .
+%xdss:	B2; C2; Z; C1; B2; Z;
+*CHI:	the kid is okay now . 374425_375946
+%mor:	det:art|the n|kid cop|be&3S adj|okay adv:tem|now .
+%xdss:	Z; C1;
+@G:	B3
+*CHI:	one kid walking with a wagon . 384159_386100
+%mor:	det:num|one n|kid part|walk-PRESP prep|with det:art|a n|wagon .
+%xdss:	A3; Z; D4; Z;
+*CHI:	and the other one trying to catch up . 386082_388064
+%mor:	coord|and det:art|the qn|other pro:indef|one part|try-PRESP inf|to
+	v|catch adv|up .
+%xdss:	F3; A3; A3; D2; C1;

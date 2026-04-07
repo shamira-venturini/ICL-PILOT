@@ -1,0 +1,209 @@
+@UTF8
+@PID:	11312/c-00036364-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|7;10.01|male|TD||Target_Child|||
+@Media:	752, audio
+@Comment:	Birth of CHI is 20-JAN-1993
+@Date:	21-NOV-2000
+@Tape Location:	Disk L21 , Track 14
+@Types:	cross, narrative, TD
+*CHI:	&-um one day &-um a little boy went to the store . 19747_24014
+%mor:	det:num|one n|day det:art|a adj|little n|boy v|go&PAST prep|to
+	det:art|the n|store .
+%xdss:	A3; Z; Z; C2; Z;
+*CHI:	and he saw some cookies that he wanted to eat . 25565_28407
+%mor:	coord|and pro:sub|he v|see&PAST qn|some n|cookie-PL pro:rel|that
+	pro:sub|he v|want-PAST inf|to v|eat .
+%xdss:	F3; B2; C2; A3; Z; B6; B2; C2; D5; C1;
+*CHI:	and he grabbed one . 29330_30671
+%mor:	coord|and pro:sub|he v|grab-PAST pro:indef|one .
+%xdss:	F3; B2; C2; A3;
+*CHI:	and then all the boxes fell down . 32915_34715
+%mor:	coord|and adv:tem|then qn|all det:art|the n|box-PL v|fall&PAST
+	adv|down .
+%xdss:	F3; A3; Z; C2;
+*CHI:	<and then the store keep> [//] and then the store person got mad at
+	him . 35879_40624
+%mor:	coord|and adv:tem|then det:art|the n|store n|person v|get&PAST
+	adj|mad prep|at pro:obj|him .
+%xdss:	F3; Z; Z; C2; B2;
+@G:	A1
+*CHI:	one day an elephant and a zebra were bouncing a ball . 48205_51208
+%mor:	det:num|one n|day det:art|a n|elephant coord|and det:art|a n|zebra
+	aux|be&PAST part|bounce-PRESP det:art|a n|ball .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	and the ball fell in the water . 52171_53532
+%mor:	coord|and det:art|the n|ball v|fall&PAST prep|in det:art|the
+	n|water .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and then the zebra swam to get it . 54374_56496
+%mor:	coord|and adv:tem|then det:art|the n|zebra v|swim&PAST inf|to v|get
+	pro:per|it .
+%xdss:	F3; Z; C2; D5; C1; A1;
+*CHI:	and then he got it and gave it to the elephant . 57560_60603
+%mor:	coord|and adv:tem|then pro:sub|he v|get&PAST pro:per|it coord|and
+	v|give&PAST pro:per|it prep|to det:art|the n|elephant .
+%xdss:	F3; B2; C2; A1; F3; C2; A1; Z;
+*CHI:	and the elephant was really happy . 62185_63826
+%mor:	coord|and det:art|the n|elephant cop|be&PAST&13S adv|real&dadj-LY
+	adj|happy .
+%xdss:	F3; Z; C2;
+*CHI:	and the zebra was really happy too . 63668_65689
+%mor:	coord|and det:art|the n|zebra cop|be&PAST&13S adv|real&dadj-LY
+	adj|happy post|too .
+%xdss:	F3; Z; C2;
+@G:	A2
+*CHI:	(o)kay , a zebra <and a elephant> [//] and an elephant were going
+	swimming . 68655_74123
+%mor:	co|okay det:art|a n|zebra coord|and det:art|a n|elephant
+	aux|be&PAST part|go-PRESP part|swim-PRESP .
+%xdss:	Z; F3; Z; C2;
+*CHI:	and &-um the elephant was &-um going to go off the diving board . 75765_80471
+%mor:	coord|and det:art|the n|elephant aux|be&PAST&13S part|go-PRESP
+	inf|to v|go prep|off det:art|the part|dive-PRESP n|board .
+%xdss:	F3; Z; C2; D2; C1; Z;
+*CHI:	and she was running to go to the diving board . 81694_84598
+%mor:	coord|and pro:sub|she aux|be&PAST&13S part|run-PRESP inf|to v|go
+	prep|to det:art|the part|dive-PRESP n|board .
+%xdss:	F3; B2; C2; C1; Z;
+*CHI:	and she tripped and fell on her knee and hurt herself . 84358_88323
+%mor:	coord|and pro:sub|she v|trip-PAST coord|and v|fall&PAST prep|on
+	det:poss|her n|knee coord|and v|hurt&ZERO pro:refl|herself .
+%xdss:	F3; B2; C2; F3; C2; B2; Z; F3; C1; B5;
+*CHI:	and &-um then she started to cry . 90635_92797
+%mor:	coord|and adv:tem|then pro:sub|she v|start-PAST inf|to v|cry .
+%xdss:	F3; B2; C2; D5; C1;
+*CHI:	<and the lifeguard> [/] and the lifeguard put a bandaid on her . 94101_97385
+%mor:	coord|and det:art|the n|+n|life+n|guard v|put&ZERO det:art|a
+	n|bandaid prep|on pro:obj|her .
+%xdss:	F3; Z; C1; Z; B2;
+*CHI:	and &-um then she couldn't move it for a little while . 98989_102534
+%mor:	coord|and adv:tem|then pro:sub|she mod|could~neg|not v|move
+	pro:per|it prep|for det:art|a adj|little n|while .
+%xdss:	F3; B2; C5; E7; C1; A1; Z;
+*CHI:	and then she was able to move it . 104175_105876
+%mor:	coord|and adv:tem|then pro:sub|she cop|be&PAST&13S adj|able inf|to
+	v|move pro:per|it .
+%xdss:	F3; B2; C2; C1; A1;
+@G:	A3
+*CHI:	one day an [//] &+eleph &-uh the zebra <and the> [//] and an
+	elephant were playing with an airplane . 110685_116353
+%mor:	det:num|one n|day det:art|the n|zebra coord|and det:art|a
+	n|elephant aux|be&PAST part|play-PRESP prep|with det:art|a
+	n|+n|air+n|plane .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	and &-um then I [//] the [/] the zebra was playing with the
+	airplane . 118135_123798
+%mor:	coord|and adv:tem|then det:art|the n|zebra aux|be&PAST&13S
+	part|play-PRESP prep|with det:art|the n|+n|air+n|plane .
+%xdss:	F3; Z; C2; Z;
+*CHI:	<and the elephant> [//] and &-um the elephant wanted to try . 123759_126960
+%mor:	coord|and det:art|the n|elephant v|want-PAST inf|to v|try .
+%xdss:	F3; Z; C2; D5; C1;
+*CHI:	and then the elephant grabbed it from the zebra . 128483_131003
+%mor:	coord|and adv:tem|then det:art|the n|elephant v|grab-PAST
+	pro:per|it prep|from det:art|the n|zebra .
+%xdss:	F3; Z; C2; A1; Z;
+*CHI:	and then it fell in the water . 132785_134206
+%mor:	coord|and adv:tem|then pro:per|it v|fall&PAST prep|in det:art|the
+	n|water .
+%xdss:	F3; A1; C2; Z;
+*CHI:	the zebra got mad at the elephant . 136831_138552
+%mor:	det:art|the n|zebra v|get&PAST adj|mad prep|at det:art|the
+	n|elephant .
+%xdss:	Z; C2; Z;
+*CHI:	&-um and then the lifeguard came . 141036_142378
+%mor:	coord|and adv:tem|then det:art|the n|+n|life+n|guard v|come&PAST .
+%xdss:	F3; Z; C2;
+*CHI:	the lifeguard saw the boat . 144963_146483
+%mor:	det:art|the n|+n|life+n|guard v|see&PAST det:art|the n|boat .
+%xdss:	Z; C2; Z;
+*CHI:	+" could you &-um get the plane ? 149930_152653
+%mor:	mod|could pro:per|you v|get det:art|the n|plane ?
+%xdss:	C5; G6; B1; C1; Z; G1;
+*CHI:	and then he tried . 154196_155196
+%mor:	coord|and adv:tem|then pro:sub|he v|try-PAST .
+%xdss:	F3; B2; C2;
+*CHI:	and the zebra was crying . 158383_159703
+%mor:	coord|and det:art|the n|zebra aux|be&PAST&13S part|cry-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	and the elephant was kind of sad for him and kind of guilty . 159905_165088
+%mor:	coord|and det:art|the n|elephant cop|be&PAST&13S adj|kind prep|of
+	adj|sad prep|for pro:obj|him coord|and adj|kind prep|of
+	adj|guilt&dn-Y .
+%xdss:	F3; Z; C2; B2; F3;
+*CHI:	and then &-um &-uh a &+la &+oh lady came . 166810_172093
+%mor:	coord|and adv:tem|then det:art|a n|lady v|come&PAST .
+%xdss:	F3; Z; C2;
+*CHI:	and [/] &-um and she had a net to get the airplane . 172755_175796
+%mor:	coord|and pro:sub|she v|have&PAST det:art|a n|net inf|to v|get
+	det:art|the n|+n|air+n|plane .
+%xdss:	F3; B2; C2; Z; C1; Z;
+*CHI:	and she got it for him . 177718_179098
+%mor:	coord|and pro:sub|she v|get&PAST pro:per|it prep|for pro:obj|him .
+%xdss:	F3; B2; C2; A1; B2;
+*CHI:	and he was really happy . 180400_182080
+%mor:	coord|and pro:sub|he cop|be&PAST&13S adv|real&dadj-LY adj|happy .
+%xdss:	F3; B2; C2;
+*CHI:	and then he hugged the airplane . 184763_186443
+%mor:	coord|and adv:tem|then pro:sub|he v|hug-PAST det:art|the
+	n|+n|air+n|plane .
+%xdss:	F3; B2; C2; Z;
+@G:	B1
+*CHI:	&-uh &-um <I can't> [//] &-um Bill and Harold were building a
+	castle . 195060_198983
+%mor:	n:prop|Bill coord|and n:prop|Harold aux|be&PAST part|build-PRESP
+	det:art|a n|castle .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	and &-um &+b Bill &+bi &-um &+sh shaped the castle while Harold dug
+	some sand . 202045_213823
+%mor:	coord|and n:prop|Bill v|shape-PAST det:art|the n|castle conj|while
+	n:prop|Harold v|dig&PAST qn|some n|sand .
+%xdss:	F3; Z; C2; Z; F8; Z; C2; A3; Z;
+*CHI:	and then Harold dumped the sand on the castle . 215725_218268
+%mor:	coord|and adv:tem|then n:prop|Harold v|dump-PAST det:art|the n|sand
+	prep|on det:art|the n|castle .
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	and he ruined it . 221673_223073
+%mor:	coord|and pro:sub|he v|ruin-PAST pro:per|it .
+%xdss:	F3; B2; C2; A1;
+*CHI:	and they were both kind of sad . 222754_224976
+%mor:	coord|and pro:sub|they cop|be&PAST qn|both n|kind prep|of adj|sad .
+%xdss:	F3; B3; C2; A7; Z;
+*CHI:	<and &-um Harold was a> [//] and Harold was kind of sad . 224937_230763
+%mor:	coord|and n:prop|Harold cop|be&PAST&13S adj|kind prep|of adj|sad .
+%xdss:	F3; Z; C2;
+*CHI:	and Bill didn't really care . 230584_234269
+%mor:	coord|and n:prop|Bill mod|do&PAST~neg|not adv|real&dadj-LY v|care .
+%xdss:	F3; Z; E7; C1;
+*CHI:	<and then he start> [//] &+oh &-uh and then he didn't look like he
+	was sad . 236673_241619
+%mor:	coord|and adv:tem|then pro:sub|he mod|do&PAST~neg|not v|look
+	prep|like pro:sub|he cop|be&PAST&13S adj|sad .
+%xdss:	F3; B2; C5; E7; C1; F8; B2; C2;
+*CHI:	but [//] and then he started to cry . 241459_243481
+%mor:	coord|and adv:tem|then pro:sub|he v|start-PAST inf|to v|cry .
+%xdss:	F3; B2; C2; D5; C1;
+*CHI:	he didn't look very sad . 244283_245584
+%mor:	pro:sub|he mod|do&PAST~neg|not v|look adv|very adj|sad .
+%xdss:	B2; C5; E7; C1;
+*CHI:	and then &-um Harold was kind of sad for him . 245706_250893
+%mor:	coord|and adv:tem|then n:prop|Harold cop|be&PAST&13S adj|kind
+	prep|of adj|sad prep|for pro:obj|him .
+%xdss:	F3; Z; C2; B2;
+@G:	B2
+*CHI:	&-um &+har Harold and Bill went on a picnic . 257885_262371
+%mor:	n:prop|Harold coord|and n:prop|Bill v|go&PAST prep|on det:art|a
+	n|picnic .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	and Harold brought a lot of things . 264393_266676
+%mor:	coord|and n:prop|Harold v|bring&PAST det:art|a n|lot prep|of
+	n|thing-PL .
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	and then he ate all of (th)em .
+%mor:	coord|and adv:tem|then pro:sub|he v|eat&PAST qn|all prep|of
+	pro:obj|them .
+%xdss:	F3; B2; C2; A3; B3;

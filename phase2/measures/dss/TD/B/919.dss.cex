@@ -1,0 +1,227 @@
+@UTF8
+@PID:	11312/c-00036451-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, EXA Investigator
+@ID:	eng|ENNI|CHI|9;02.06|female|TD||Target_Child|||
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@Media:	919, audio
+@Comment:	Birth of CHI is 6-APR-1991
+@Date:	12-JUN-2000
+@Tape Location:	Disk L18 Track 5
+@Types:	cross, narrative, TD
+*CHI:	Bob [/] <Bob the> [//] Bob went to the store . 9675_18901
+%mor:	n:prop|Bob v|go&PAST prep|to det:art|the n|store .
+%xdss:	Z; C2; Z;
+*CHI:	<and he> [/] and he was going to buy his mom five oranges . 18862_22703
+%mor:	coord|and pro:sub|he aux|be&PAST&13S part|go-PRESP inf|to v|buy
+	det:poss|his n|mom det:num|five n|orange-PL .
+%xdss:	F3; B2; C2; D2; C1; B2; Z; A3; Z;
+*CHI:	but he passed <the cookie> [/] the cookie place . 26365_29851
+%mor:	conj|but pro:sub|he v|pass-PAST det:art|the n|cookie n|place .
+%xdss:	F5; B2; C2; Z; Z;
+*CHI:	and [/] and he wanted to buy some cookies instead of oranges . 30415_34502
+%mor:	coord|and pro:sub|he v|want-PAST inf|to v|buy qn|some n|cookie-PL
+	adv|instead prep|of n|orange-PL .
+%xdss:	F3; B2; C2; D5; C1; A3; Z; Z;
+*CHI:	so he bought cookies instead of the oranges for his mom . 37875_41820
+%mor:	co|so pro:sub|he v|buy&PAST n|cookie-PL adv|instead prep|of
+	det:art|the n|orange-PL prep|for det:poss|his n|mom .
+%xdss:	B2; C2; Z; Z; B2; Z;
+*CHI:	but when he took a box of cookies the whole &+coo thing of cookies
+	fell down . 44906_50673
+%mor:	conj|but conj|when pro:sub|he v|take&PAST det:art|a n|box prep|of
+	n|cookie-PL det:art|the adj|whole n|thing prep|of n|cookie-PL
+	v|fall&PAST adv|down .
+%xdss:	F5; F8; B2; C2; Z; Z; Z; Z; C2;
+*CHI:	the storekeeper was really mad at him . 54295_56836
+%mor:	det:art|the n|+n|store+n|keeper cop|be&PAST&13S adv|real&dadj-LY
+	adj|mad prep|at pro:obj|him .
+%xdss:	Z; C2; B2;
+*CHI:	and [/] and Bob started walking away . 56796_59878
+%mor:	coord|and n:prop|Bob v|start-PAST part|walk-PRESP adv|away .
+%xdss:	F3; Z; C2;
+@G:	B1
+*CHI:	(...) Bill and Sally wanted [/] were going to play in the sand pit
+	. 77395_82460
+%mor:	n:prop|Bill coord|and n:prop|Sally aux|be&PAST part|go-PRESP
+	prep|to n|play prep|in det:art|the n|sand n|pit .
+%xdss:	Z; F3; Z; C2; Z; Z; Z;
+*CHI:	and they wanted to build a sandcastle . 83203_84584
+%mor:	coord|and pro:sub|they v|want-PAST inf|to v|build det:art|a
+	n|+n|sand+n|castle .
+%xdss:	F3; B3; C2; D5; C1; Z;
+*CHI:	so Bill started putting lots of sand in the bucket for making a
+	sandcastle . 89335_96154
+%mor:	co|so n:prop|Bill v|start-PAST part|put-PRESP n|lot-PL prep|of
+	n|sand prep|in det:art|the n|bucket prep|for part|make-PRESP
+	det:art|a n|+n|sand+n|castle .
+%xdss:	Z; C2; Z; Z; Z; Z;
+*CHI:	then he dumped the bucket of sand on the [/] the sandcastle . 100425_106374
+%mor:	adv:tem|then pro:sub|he v|dump-PAST det:art|the n|bucket prep|of
+	n|sand prep|on det:art|the n|+n|sand+n|castle .
+%xdss:	B2; C2; Z; Z; Z;
+*CHI:	but he wrecked the whole sandcastle because he put the bucket too
+	early . 111035_116141
+%mor:	conj|but pro:sub|he v|wreck-PAST det:art|the adj|whole
+	n|+n|sand+n|castle conj|because pro:sub|he v|put&ZERO det:art|the
+	n|bucket adv|too adj|early .
+%xdss:	F5; B2; C2; Z; F6; B2; C1; Z;
+*CHI:	then Sally started to cry (be)cause it was her best sandcastle that
+	she ever made . 120367_125633
+%mor:	adv:tem|then n:prop|Sally v|start-PAST prep|to n|cry conj|because
+	pro:per|it cop|be&PAST&13S det:poss|her adj|good&SP
+	n|+n|sand+n|castle pro:rel|that pro:sub|she adv|ever v|make&PAST .
+%xdss:	Z; C2; Z; F6; A1; C2; B2; Z; B6; B2; C2;
+@G:	B2
+*CHI:	(...) John and Megan wanted to go for a walk to pick flowers . 144875_149497
+%mor:	n:prop|John coord|and n:prop|Megan v|want-PAST inf|to v|go prep|for
+	det:art|a n|walk inf|to v|pick n|flower-PL .
+%xdss:	Z; F3; Z; C2; D5; C1; Z; C1; Z;
+*CHI:	but they decided to not pick flowers and have a picnic instead . 154221_158543
+%mor:	conj|but pro:sub|they v|decide-PAST prep|to neg|not v|pick
+	n|flower-PL coord|and v|have det:art|a n|picnic adv|instead .
+%xdss:	F5; B3; C2; E1; C1; Z; F3; C1; Z;
+*CHI:	when [/] when Megan took out some food John already ate his food .
+	163585_173272
+%mor:	conj|when n:prop|Megan v|take&PAST adv|out qn|some n|food
+	n:prop|John adv|already v|eat&PAST det:poss|his n|food .
+%xdss:	F8; Z; C2; A3; Z; Z; C2; B2; Z;
+*CHI:	and he felt really sick . 173033_174473
+%mor:	coord|and pro:sub|he v|feel&PAST adv|real&dadj-LY adj|sick .
+%xdss:	F3; B2; C2;
+*CHI:	he felt really dizzy after he ate all that food . 181655_185800
+%mor:	pro:sub|he v|feel&PAST adv|real&dadj-LY adj|dizzy conj|after
+	pro:sub|he v|eat&PAST qn|all pro:dem|that n|food .
+%xdss:	B2; C2; F8; B2; C2; A3; A1; Z;
+*CHI:	then Megan ran to go get some help . 191410_194513
+%mor:	adv:tem|then n:prop|Megan v|run&PAST inf|to v|go v|get qn|some
+	n|help .
+%xdss:	Z; C2; D5; C1; C1; A3; Z;
+*CHI:	Megan asked the woman if [/] if she could help John . 200635_208423
+%mor:	n:prop|Megan v|ask-PAST det:art|the n|woman conj|if pro:sub|she
+	mod|could v|help n:prop|John .
+%xdss:	Z; C2; Z; F5; B2; C5; C1; Z;
+*CHI:	John was lucky because the woman was a doctor . 215595_219220
+%mor:	n:prop|John cop|be&PAST&13S adj|luck&dn-Y conj|because det:art|the
+	n|woman cop|be&PAST&13S det:art|a n|doctor .
+%xdss:	Z; C2; F6; Z; C2; Z;
+*CHI:	so she helped him . 219382_220743
+%mor:	co|so pro:sub|she v|help-PAST pro:obj|him .
+%xdss:	B2; C2; B2;
+*CHI:	and John felt better after the woman helped him . 227455_231117
+%mor:	coord|and n:prop|John n|felt v|better prep|after det:art|the
+	n|woman v|help-PAST pro:obj|him .
+%xdss:	F3; Z; Z; C1; Z; C2; B2;
+@G:	B3
+*CHI:	(...) Kate and Kerrick were going on a walk . 255465_258248
+%mor:	n:prop|Kate coord|and n:prop|Kerrick aux|be&PAST part|go-PRESP
+	prep|on det:art|a n|walk .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	and Kate had a nice balloon on her wagon . 258270_260993
+%mor:	coord|and n:prop|Kate v|have&PAST det:art|a adj|nice n|balloon
+	prep|on det:poss|her n|wagon .
+%xdss:	F3; Z; C2; Z; B2; Z;
+*CHI:	Kerrick wanted the balloon . 264802_266403
+%mor:	n:prop|Kerrick v|want-PAST det:art|the n|balloon .
+%xdss:	Z; C2; Z;
+*CHI:	so he started to [/] to [/] to pick it up . 267425_271710
+%mor:	co|so pro:sub|he v|start-PAST inf|to v|pick pro:per|it adv|up .
+%xdss:	B2; C2; D5; C1; A1;
+*CHI:	he was trying to pick it up . 275497_277659
+%mor:	pro:sub|he aux|be&PAST&13S part|try-PRESP inf|to v|pick pro:per|it
+	adv|up .
+%xdss:	B2; C2; D2; C1; A1;
+*CHI:	and Kate started screaming . 277561_280123
+%mor:	coord|and n:prop|Kate v|start-PAST part|scream-PRESP .
+%xdss:	F3; Z; C2;
+*CHI:	and [/] and the balloon started flying away . 287180_289783
+%mor:	coord|and det:art|the n|balloon v|start-PAST part|fly-PRESP
+	adv|away .
+%xdss:	F3; Z; C2;
+*CHI:	Kate was really mad at Kerrick because she really liked that
+	balloon . 295205_302360
+%mor:	n:prop|Kate cop|be&PAST&13S adv|real&dadj-LY adj|mad prep|at
+	n:prop|Kerrick conj|because pro:sub|she adv|real&dadj-LY v|like-PAST
+	pro:dem|that v|balloon .
+%xdss:	Z; C2; Z; F6; B2; C2; D5; A1; C1;
+*CHI:	and it was her favorite color . 302160_303602
+%mor:	coord|and pro:per|it cop|be&PAST&13S det:poss|her adj|favorite
+	n|color .
+%xdss:	F3; A1; C2; B2; Z;
+*CHI:	and Kerrick saw a balloon seller . 308315_312820
+%mor:	coord|and n:prop|Kerrick v|see&PAST det:art|a n|balloon
+	n|sell&dv-AGT .
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	and he had a great idea . 313602_315283
+%mor:	coord|and pro:sub|he v|have&PAST det:art|a adj|great n|idea .
+%xdss:	F3; B2; C2; Z;
+*CHI:	he went and bought Kate her favorite color . 318950_322533
+%mor:	pro:sub|he v|go&PAST coord|and v|buy&PAST n:prop|Kate det:poss|her
+	adj|favorite n|color .
+%xdss:	B2; C2; F3; C2; Z; B2; Z;
+*CHI:	and [/] and he [/] he got Kate her favorite color . 322735_331339
+%mor:	coord|and pro:sub|he v|get&PAST n:prop|Kate det:poss|her
+	adj|favorite n|color .
+%xdss:	F3; B2; C2; Z; B2; Z;
+*CHI:	but he had no money . 335863_337898
+%mor:	conj|but pro:sub|he v|have&PAST qn|no n|money .
+%xdss:	F5; B2; C2; A3; Z;
+*CHI:	<then Kerrick> [/] then Kerrick was sad because he could not buy
+	Kate the balloon . 347487_354953
+%mor:	adv:tem|then n:prop|Kerrick cop|be&PAST&13S adj|sad conj|because
+	pro:sub|he mod|could neg|not v|buy n:prop|Kate det:art|the n|balloon
+	.
+%xdss:	Z; C2; F6; B2; C5; E7; C1; Z; Z;
+*CHI:	then Kerrick went to Kate's mom for some money . 359675_363222
+%mor:	adv:tem|then n:prop|Kerrick v|go&PAST prep|to adj|Kate&dn-POSS
+	n|mom prep|for qn|some n|money .
+%xdss:	Z; C2; Z; A3; Z;
+*CHI:	and he told Kate's mom the whole story about how he lost Kate's
+	&+balloo balloon . 368475_376612
+%mor:	coord|and pro:sub|he v|tell&PAST adj|Kate&dn-POSS n|mom det:art|the
+	adj|whole n|story prep|about pro:int|how pro:sub|he v|lose&PAST
+	adj|Kate&dn-POSS n|balloon .
+%xdss:	F3; B2; C2; Z; Z; H4; B2; C2; Z;
+*CHI:	so Kate's mom bought them both a balloon . 381415_387723
+%mor:	adv|so adj|Kate&dn-POSS n|mom v|buy&PAST pro:obj|them qn|both
+	det:art|a n|balloon .
+%xdss:	Z; C2; B3; A7; Z;
+*CHI:	and [/] and it was their favorite color . 391411_393794
+%mor:	coord|and pro:per|it cop|be&PAST&13S det:poss|their adj|favorite
+	n|color .
+%xdss:	F3; A1; C2; B3; Z;
+@G:	A1
+*CHI:	(...) <Dina and Nathan bought some> [//] Dina and Nathan met at [/]
+	at each other on the road . 416575_428890
+%mor:	n:prop|Dina coord|and n:prop|Nathan v|meet&PAST prep|at qn|each
+	qn|other prep|on det:art|the n|road .
+%xdss:	Z; F3; Z; C2; A7; A3; Z;
+*CHI:	and Dina had a ball . 428831_431513
+%mor:	coord|and n:prop|Dina v|have&PAST det:art|a n|ball .
+%xdss:	F3; Z; C2; Z;
+*CHI:	but Dina's ball fell in the water . 435315_439017
+%mor:	conj|but adj|Dina&dn-POSS n|ball v|fall&PAST prep|in det:art|the
+	n|water .
+%xdss:	F5; Z; C2; Z;
+*CHI:	so Nathan went to get the ball for her because he was an excellent
+	swimmer . 443100_448984
+%mor:	co|so n:prop|Nathan v|go&PAST inf|to v|get det:art|the n|ball
+	prep|for pro:obj|her conj|because pro:sub|he cop|be&PAST&13S
+	det:art|a adj|excellent n|swim&dv-AGT .
+%xdss:	Z; C2; D5; C1; Z; B2; F6; B2; C2; Z;
+*CHI:	and when he came back to give the ball to Dina , Dina was really
+	happy . 452615_463864
+%mor:	coord|and conj|when pro:sub|he v|come&PAST adv|back inf|to v|give
+	det:art|the n|ball prep|to n:prop|Dina n:prop|Dina cop|be&PAST&13S
+	adv|real&dadj-LY adj|happy .
+%xdss:	F3; F8; B2; C2; C1; Z; Z; Z; C2;
+*CHI:	and she thanked Nathan for getting her ball . 467705_470987
+%mor:	coord|and pro:sub|she v|thank-PAST n:prop|Nathan prep|for
+	part|get-PRESP det:poss|her n|ball .
+%xdss:	F3; B2; C2; Z; B2; Z;
+@G:	A2
+*CHI:	Dina and Nathan went to the pool . 482565_486547
+%mor:	n:prop|Dina coord|and n:prop|Nathan v|go&PAST prep|to det:art|the
+	n|pool .
+%xdss:	Z; F3; Z; C2; Z;

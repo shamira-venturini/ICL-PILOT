@@ -1,0 +1,111 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:12 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/919.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Bob [/] <Bob the> [//] Bob went to the |   |   |2  |   |   |   |   |   |  1|  3|
+    store . %snd:"919"_9675_18901                          |   |   |   |   |   |   |   |   |   |   |
+<and he> [/] and he was going to buy   |3  |2 2|2 1|2  |   |3  |   |   |  1| 16|
+    his mom five oranges . %snd:"919"_18862_22703           |   |   |   |   |   |   |   |   |   |   |
+but he passed <the cookie> [/] the     |   |2  |2  |   |   |5  |   |   |  1| 10|
+    cookie place . %snd:"919"_26365_29851                   |   |   |   |   |   |   |   |   |   |   |
+and [/] and he wanted to buy some      |3  |2  |2 1|5  |   |3  |   |   |  1| 17|
+    cookies instead of oranges . %snd:"919"_30415_34502     |   |   |   |   |   |   |   |   |   |   |
+so he bought cookies instead of the    |   |2 2|2  |   |   |   |   |   |  1|  7|
+    oranges for his mom . %snd:"919"_37875_41820            |   |   |   |   |   |   |   |   |   |   |
+but when he took a box of cookies the  |   |2  |2 2|   |   |5 8|   |   |  1| 20|
+    whole &+coo thing of cookies fell  |   |   |   |   |   |   |   |   |   |   |
+    down . %snd:"919"_44906_50673                           |   |   |   |   |   |   |   |   |   |   |
+the storekeeper was really mad at him .|   |2  |2  |   |   |   |   |   |  1|  5|
+     %snd:"919"_54295_56836                                 |   |   |   |   |   |   |   |   |   |   |
+and [/] and Bob started walking away . |   |   |2  |   |   |3  |   |   |  1|  6|
+    %snd:"919"_56796_59878                                  |   |   |   |   |   |   |   |   |   |   |
+(...) Bill and Sally wanted [/] were   |   |   |2  |   |   |3  |   |   |  1|  6|
+    going to play in the sand pit . %snd:"919"_77395_82460  |   |   |   |   |   |   |   |   |   |   |
+and they wanted to build a sandcastle .|   |3  |2 1|5  |   |3  |   |   |  1| 15|
+     %snd:"919"_83203_84584                                 |   |   |   |   |   |   |   |   |   |   |
+so Bill started putting lots of sand in|   |   |2  |   |   |   |   |   |  1|  3|
+     the bucket for making a sandcastle|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"919"_89335_96154                               |   |   |   |   |   |   |   |   |   |   |
+then he dumped the bucket of sand on   |   |2  |2  |   |   |   |   |   |  1|  5|
+    the [/] the sandcastle . %snd:"919"_100425_106374         |   |   |   |   |   |   |   |   |   |   |
+but he wrecked the whole sandcastle    |   |2 2|2 1|   |   |5 6|   |   |  1| 19|
+    because he put the bucket too early|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"919"_111035_116141                               |   |   |   |   |   |   |   |   |   |   |
+then Sally started to cry (be)cause it |1  |2 6|2 2|   |   |6  |   |   |  1| 24|
+    was her best sandcastle that she   |   |2  |2  |   |   |   |   |   |   |   |
+    ever made . %snd:"919"_120367_125633                      |   |   |   |   |   |   |   |   |   |   |
+(...) John and Megan wanted to go for a|   |   |2 1|5  |   |3  |   |   |  1| 13|
+     walk to pick flowers . %snd:"919"_144875_149497          |   |   |1  |   |   |   |   |   |   |   |
+but they decided to not pick flowers   |   |3  |2 1|   |1  |5 3|   |   |  1| 17|
+    and have a picnic instead . %snd:"919"_154221_158543      |   |   |1  |   |   |   |   |   |   |   |
+when [/] when Megan took out some food |3  |2  |2 2|   |   |8  |   |   |  1| 18|
+    John already ate his food . %snd:"919"_163585_173272      |   |   |   |   |   |   |   |   |   |   |
+and he felt really sick . %snd:"919"_173033_174473            |   |2  |2  |   |   |3  |   |   |  1|  8|
+he felt really dizzy after he ate all  |3 1|2 2|2 2|   |   |8  |   |   |  1| 21|
+    that food . %snd:"919"_181655_185800                      |   |   |   |   |   |   |   |   |   |   |
+then Megan ran to go get some help . %snd:"919"_191410_194513 |3  |   |2 1|5  |   |   |   |   |  1| 13|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+Megan asked the woman if [/] if she    |   |2  |2 5|   |   |5  |   |   |  1| 16|
+    could help John . %snd:"919"_200635_208423                |   |   |1  |   |   |   |   |   |   |   |
+John was lucky because the woman was a |   |   |2 2|   |   |6  |   |   |  1| 11|
+    doctor . %snd:"919"_215595_219220                         |   |   |   |   |   |   |   |   |   |   |
+so she helped him . %snd:"919"_219382_220743                  |   |2 2|2  |   |   |   |   |   |  1|  7|
+and John felt better after the woman   |   |2  |1 2|   |   |3  |   |   |  1|  9|
+    helped him . %snd:"919"_227455_231117                     |   |   |   |   |   |   |   |   |   |   |
+(...) Kate and Kerrick were going on a |   |   |2  |   |   |3  |   |   |  1|  6|
+    walk . %snd:"919"_255465_258248                           |   |   |   |   |   |   |   |   |   |   |
+and Kate had a nice balloon on her     |   |2  |2  |   |   |3  |   |   |  1|  8|
+    wagon . %snd:"919"_258270_260993                          |   |   |   |   |   |   |   |   |   |   |
+Kerrick wanted the balloon . %snd:"919"_264802_266403         |   |   |2  |   |   |   |   |   |  1|  3|
+so he started to [/] to [/] to pick it |1  |2  |2 1|5  |   |   |   |   |  1| 12|
+    up . %snd:"919"_267425_271710                             |   |   |   |   |   |   |   |   |   |   |
+he was trying to pick it up . %snd:"919"_275497_277659        |1  |2  |2 1|2  |   |   |   |   |  1|  9|
+and Kate started screaming . %snd:"919"_277561_280123         |   |   |2  |   |   |3  |   |   |  1|  6|
+and [/] and the balloon started flying |   |   |2  |   |   |3  |   |   |  1|  6|
+    away . %snd:"919"_287180_289783                           |   |   |   |   |   |   |   |   |   |   |
+Kate was really mad at Kerrick because |1  |2  |2 2|5  |   |6  |   |   |  1| 20|
+    she really liked that balloon . %snd:"919"_295205_302360  |   |   |1  |   |   |   |   |   |   |   |
+and it was her favorite color . %snd:"919"_302160_303602      |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and Kerrick saw a balloon seller . %snd:"919"_308315_312820   |   |   |2  |   |   |3  |   |   |  1|  6|
+and he had a great idea . %snd:"919"_313602_315283            |   |2  |2  |   |   |3  |   |   |  1|  8|
+he went and bought Kate her favorite   |   |2 2|2 2|   |   |3  |   |   |  1| 12|
+    color . %snd:"919"_318950_322533                          |   |   |   |   |   |   |   |   |   |   |
+and [/] and he [/] he got Kate her     |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    favorite color . %snd:"919"_322735_331339                 |   |   |   |   |   |   |   |   |   |   |
+but he had no money . %snd:"919"_335863_337898                |3  |2  |2  |   |   |5  |   |   |  1| 13|
+<then Kerrick> [/] then Kerrick was sad|   |2  |2 5|   |7  |6  |   |   |  1| 24|
+     because he could not buy Kate the |   |   |1  |   |   |   |   |   |   |   |
+    balloon . %snd:"919"_347487_354953                        |   |   |   |   |   |   |   |   |   |   |
+then Kerrick went to Kate's mom for    |3  |   |2  |   |   |   |   |   |  1|  6|
+    some money . %snd:"919"_359675_363222                     |   |   |   |   |   |   |   |   |   |   |
+and he told Kate's mom the whole story |   |2 2|2 2|   |   |3  |   |4  |  1| 16|
+    about how he lost Kate's &+balloo  |   |   |   |   |   |   |   |   |   |   |
+    balloon . %snd:"919"_368475_376612                        |   |   |   |   |   |   |   |   |   |   |
+so Kate's mom bought them both a       |7  |3  |2  |   |   |   |   |   |  1| 13|
+    balloon . %snd:"919"_381415_387723                        |   |   |   |   |   |   |   |   |   |   |
+and [/] and it was their favorite color|1  |3  |2  |   |   |3  |   |   |  1| 10|
+     . %snd:"919"_391411_393794                               |   |   |   |   |   |   |   |   |   |   |
+(...) <Dina and Nathan bought some> [//|7 3|   |2  |   |   |3  |   |   |  1| 16|
+    ] Dina and Nathan met at [/] at    |   |   |   |   |   |   |   |   |   |   |
+    each other on the road . %snd:"919"_416575_428890         |   |   |   |   |   |   |   |   |   |   |
+and Dina had a ball . %snd:"919"_428831_431513                |   |   |2  |   |   |3  |   |   |  1|  6|
+but Dina's ball fell in the water . %snd:"919"_435315_439017  |   |   |2  |   |   |5  |   |   |  1|  8|
+so Nathan went to get the ball for her |   |2 2|2 1|5  |   |6  |   |   |  1| 21|
+    because he was an excellent swimmer|   |   |2  |   |   |   |   |   |   |   |
+     . %snd:"919"_443100_448984                               |   |   |   |   |   |   |   |   |   |   |
+and when he came back to give the ball |   |2  |2 1|   |   |3 8|   |   |  1| 19|
+    to Dina , Dina was really happy . %snd:"919"_452615_463864|   |   |2  |   |   |   |   |   |   |   |
+and she thanked Nathan for getting her |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    ball . %snd:"919"_467705_470987                           |   |   |   |   |   |   |   |   |   |   |
+Dina and Nathan went to the pool . %snd:"919"_482565_486547   |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  | 45| 98|150| 39|  8|178|  0|  4| 50|572|
+
+Developmental sentence score: 11.44

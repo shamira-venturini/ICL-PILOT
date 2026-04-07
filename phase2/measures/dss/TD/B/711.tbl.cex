@@ -1,0 +1,123 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:09 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/711.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+&-um once upon a time there was a      |3  |2 2|2 2|4  |   |3 3|   |   |  1| 23|
+    little boy named Jim and <he was   |   |   |1  |   |   |   |   |   |   |   |
+    going> [//] his [//] and his mother|   |   |   |   |   |   |   |   |   |   |
+     sent him to the grocery store to  |   |   |   |   |   |   |   |   |   |   |
+    get some food product [/] product [|   |   |   |   |   |   |   |   |   |   |
+    //] food items . %snd:"711"_11726_26473                 |   |   |   |   |   |   |   |   |   |   |
+when Jim got in the store he saw <a big|   |2  |2 2|   |   |8  |   |   |  1| 15|
+    > [//] some [//] a big box of      |   |   |   |   |   |   |   |   |   |   |
+    cookies . %snd:"711"_31525_42113                        |   |   |   |   |   |   |   |   |   |   |
+Jim wanted to take a box of cookies    |   |   |2 1|5  |   |   |   |   |  1|  9|
+    from the bottom of the pile . %snd:"711"_49635_60333    |   |   |   |   |   |   |   |   |   |   |
+when Jim pulled it out all of the      |1 3|   |2 2|   |   |8  |   |   |  1| 17|
+    cookie boxes fell down . %snd:"711"_63765_69933         |   |   |   |   |   |   |   |   |   |   |
+and they all got wrecked . %snd:"711"_76075_78858           |   |3  |2  |   |   |3  |   |   |  1|  9|
+the storekeeper was very angry at Jim  |   |   |2 2|   |   |3  |   |   |  1|  8|
+    and Jim ran out of the store . %snd:"711"_79761_88193   |   |   |   |   |   |   |   |   |   |   |
+once upon a time <there was a little> [|   |   |2  |   |   |3  |   |   |  1|  6|
+    //] &-um <there were a> [//] there |   |   |   |   |   |   |   |   |   |   |
+    was a little dog and a little      |   |   |   |   |   |   |   |   |   |   |
+    rabbit . %snd:"711"_98545_110632                         |   |   |   |   |   |   |   |   |   |   |
+the little dog's name was Percy . %snd:"711"_110613_112793    |   |   |2  |   |   |   |   |   |  1|  3|
+and the rabbit's name was Bob . %snd:"711"_113215_116018      |   |   |2  |   |   |3  |   |   |  1|  6|
+Bob and Percy were making a sandcastle |   |   |2  |   |   |3 5|   |   |  1| 11|
+    near a lake or an ocean . %snd:"711"_120225_127174        |   |   |   |   |   |   |   |   |   |   |
+Bob dumped &+stan sand all over Percy's|   |   |2  |   |   |   |   |   |  1|  3|
+     sandcastle . %snd:"711"_133675_139034                    |   |   |   |   |   |   |   |   |   |   |
+&-um Bob and Percy were both shocked   |7  |   |2 2|   |   |3  |   |   |  1| 15|
+    about the sandcastle . %snd:"711"_146355_152914           |   |   |   |   |   |   |   |   |   |   |
+Percy started crying and tried to      |1  |2  |2 2|   |   |3 8|   |2  |  1| 25|
+    rebuild it while Bob was thinking  |   |   |2 2|   |   |   |   |   |   |   |
+    about what he did . %snd:"711"_159225_169494              |   |   |   |   |   |   |   |   |   |   |
+once upon a time there was Bob and     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    Percy got back together for a      |   |   |   |   |   |   |   |   |   |   |
+    picnic . %snd:"711"_179852_189163                         |   |   |   |   |   |   |   |   |   |   |
+Bob had packed lots of food that he    |   |6 2|2 2|   |   |   |   |   |  1| 13|
+    thought was very good . %snd:"711"_194365_204083          |   |   |   |   |   |   |   |   |   |   |
+but Percy only had a very simple picnic|   |   |2  |   |   |5 8|   |   |  1| 19|
+     <like sandwich> [//] like a       |   |   |   |   |   |3  |   |   |   |   |
+    sandwich and juice . %snd:"711"_209785_217262             |   |   |   |   |   |   |   |   |   |   |
+while Percy was eating Bob started to  |   |   |2 2|   |   |8  |   |   |  1| 13|
+    feel sick . %snd:"711"_221055_226318                      |   |   |   |   |   |   |   |   |   |   |
+Bob passed out . %snd:"711"_232603_234443                     |   |   |2  |   |   |   |   |   |  1|  3|
+and Percy went to get doctor [/] Doctor|   |   |2 1|5  |   |3  |   |   |  1| 12|
+    _Peter . %snd:"711"_234425_236272                         |   |   |   |   |   |   |   |   |   |   |
+Percy pulled Doctor_Peter towards Bob .|   |   |2  |   |   |   |   |   |  1|  3|
+     %snd:"711"_248255_254643                                 |   |   |   |   |   |   |   |   |   |   |
+Doctor_Peter checked out the way Bob   |   |   |2 2|   |   |   |   |   |  1|  5|
+    was feeling . %snd:"711"_260755_264279                    |   |   |   |   |   |   |   |   |   |   |
+and Bob got back up . %snd:"711"_264961_267224                |   |   |2  |   |   |3  |   |   |  1|  6|
+Doctor_Peter made Bob feel <a lot      |   |   |2 1|   |   |   |   |   |  1|  4|
+    better> [/] a lot better . %snd:"711"_274115_280818       |   |   |   |   |   |   |   |   |   |   |
+once upon a time Percy and Bob got     |   |   |2  |   |   |3  |   |   |  1|  6|
+    together again . %snd:"711"_289755_294518                 |   |   |   |   |   |   |   |   |   |   |
+Percy was pulling a [/] &+w a blue     |1  |   |2 2|   |   |   |   |   |  1|  6|
+    wagon with a balloon tied to it . %snd:"711"_295039_302384|   |   |   |   |   |   |   |   |   |   |
+Bob wanted to see the balloon . %snd:"711"_305985_309759      |   |   |2 1|5  |   |   |   |   |  1|  9|
+<Bob untie> [//] tried [//] &+t <is try|   |   |2  |   |   |   |   |   |  1|  3|
+    > [//] Bob &+tr tried to untie the |   |   |   |   |   |   |   |   |   |   |
+    balloon from Percy's wagon . %snd:"711"_314545_324164     |   |   |   |   |   |   |   |   |   |   |
+Bob succeeded on [= in] [* s:r:prep]   |1  |   |2  |   |   |   |   |   |  0|  3|
+    doing it . %snd:"711"_328585_332134                       |   |   |   |   |   |   |   |   |   |   |
+and the balloon floated away . %snd:"711"_332077_334461       |   |   |2  |   |   |3  |   |   |  1|  6|
+while Bob was looking up Percy got     |   |2  |2 2|   |   |8  |   |   |  1| 15|
+    really mad at him . %snd:"711"_338875_345084              |   |   |   |   |   |   |   |   |   |   |
+while Percy was being angry and [//]   |   |   |2 2|   |   |8 8|   |   |  1| 23|
+    Bob walked [//] saw that a balloon |   |   |2  |   |   |   |   |   |   |   |
+    bunny was standing on the sidewalk |   |   |   |   |   |   |   |   |   |   |
+    . %snd:"711"_350775_362242                                |   |   |   |   |   |   |   |   |   |   |
+and he walked over to him . %snd:"711"_362543_364464          |   |2 2|2  |   |   |3  |   |   |  1| 10|
+Percy started looking at Bob while he  |3  |2  |2 2|   |   |8  |   |   |  1| 18|
+    picked out an^other balloon for    |   |   |   |   |   |   |   |   |   |   |
+    Percy . %snd:"711"_370055_377923                          |   |   |   |   |   |   |   |   |   |   |
+<but he> [//] but now he noticed that  |3  |2  |2 2|   |   |5 8|   |   |  1| 23|
+    the balloons were five cents . %snd:"711"_385685_391157   |   |   |   |   |   |   |   |   |   |   |
+and he did not have any money . %snd:"711"_391140_393244      |7  |2  |5 1|   |7  |3  |   |   |  1| 26|
+while Percy came up behind him and     |   |2  |2 2|   |   |8 3|   |   |  1| 18|
+    started looking at the balloons . %snd:"711"_398015_402504|   |   |   |   |   |   |   |   |   |   |
+(.) Bob &+ra saw that Doctor_Peter was |   |2  |2 2|   |   |8 3|   |   |  1| 20|
+    he [//] on the sidewalk and ran    |   |   |2  |   |   |   |   |   |   |   |
+    over to her . %snd:"711"_411945_422484                    |   |   |   |   |   |   |   |   |   |   |
+bob <pointed to the balloon bunny> [//]|   |   |1 2|   |   |3  |   |   |  1|  7|
+     pointed to Doctor_Peter at [//] to|   |   |   |   |   |   |   |   |   |   |
+     the balloon bunny and Percy . %snd:"711"_429405_441082   |   |   |   |   |   |   |   |   |   |   |
+(..) Doctor_Peter paid for two balloons|3 3|   |2  |   |   |3  |   |   |  1| 15|
+     , one for Percy and one for Bob . |3  |   |   |   |   |   |   |   |   |   |
+    %snd:"711"_453635_458883                                  |   |   |   |   |   |   |   |   |   |   |
+(.) now Percy and Bob are happy . %snd:"711"_467225_471171    |   |   |2  |   |   |3  |   |   |  1|  6|
+today we meet Ella elephant and George |   |3  |1  |   |   |3  |   |   |  1|  8|
+    giraffe . %snd:"711"_479175_485243                        |   |   |   |   |   |   |   |   |   |   |
+Ella was playing with a ball . %snd:"711"_491785_495269       |   |   |2  |   |   |   |   |   |  1|  3|
+and she threw it in the pool that      |1  |2 6|2 2|   |   |3 3|   |   |  1| 20|
+    George and Ella were at . %snd:"711"_496873_504404        |   |   |   |   |   |   |   |   |   |   |
+while Ella was standing there George   |   |   |2 2|5  |   |8 3|   |   |  1| 24|
+    swam in <and got> [//] and tried to|   |   |2 1|   |   |   |   |   |   |   |
+     get Ella's ball . %snd:"711"_509505_517955               |   |   |   |   |   |   |   |   |   |   |
+George got Ella's ball and swam back to|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     her . %snd:"711"_519999_524384                           |   |   |   |   |   |   |   |   |   |   |
+Ella was very &+ha happy with George . |   |   |2  |   |   |   |   |   |  1|  3|
+    %snd:"711"_524785_527648                                  |   |   |   |   |   |   |   |   |   |   |
+&=sighs George was very proud of       |   |5  |2  |   |   |   |   |   |  1|  8|
+    himself . %snd:"711"_532658_536042                        |   |   |   |   |   |   |   |   |   |   |
+<Percy and Bob are> [//] I mean &-um   |   |1  |1 2|   |   |3  |   |   |  1|  8|
+    Ella and George are still at the   |   |   |   |   |   |   |   |   |   |   |
+    pool . %snd:"711"_549075_557765                           |   |   |   |   |   |   |   |   |   |   |
+&-um and they are looking into the     |   |3  |2  |   |   |3  |   |   |  1|  9|
+    water . %snd:"711"_557727_563433                          |   |   |   |   |   |   |   |   |   |   |
+Ella wants to go off the diving board .|   |   |2 1|5  |   |   |   |   |  1|  9|
+     %snd:"711"_569055_573633                                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 40| 57|162| 29|  7|206|  0|  2| 49|552|
+
+Developmental sentence score: 11.04

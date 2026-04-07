@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:00 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/757.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a boy is walking to the store . %snd:"757"_9497_11398      |   |   |1  |   |   |   |   |   |  1|  2|
+he sees some cookies . %snd:"757"_13383_14723               |3  |2  |2  |   |   |   |   |   |  1|  8|
+he takes a box of cookies out . %snd:"757"_16645_19166      |   |2  |2  |   |   |   |   |   |  1|  5|
+then all the &+bo cookie boxes fall    |3  |   |1  |   |   |   |   |   |  1|  5|
+    down . %snd:"757"_20648_23509                           |   |   |   |   |   |   |   |   |   |   |
+then <the man> [//] the cashier is     |   |2  |1  |   |   |   |   |   |  1|  4|
+    really mad at him . %snd:"757"_26052_30494              |   |   |   |   |   |   |   |   |   |   |
+they're at the swimming pool . %snd:"757"_36963_38705       |   |3  |1  |   |   |   |   |   |  1|  5|
+a [//] &+b they saw a ball in the water|   |3  |2  |   |   |   |   |   |  1|  6|
+     . %snd:"757"_41551_43673                               |   |   |   |   |   |   |   |   |   |   |
+&+th is that a horse or a giraffe [=!  |   |   |1  |   |   |8 5|1  |   |  1| 16|
+    whispering] ? [+ bch] %snd:"757"_48355_49215            |   |   |   |   |   |   |   |   |   |   |
+the giraffe is trying to swim for the  |   |   |1  |   |   |   |   |   |  1|  2|
+    ball . %snd:"757"_51037_54699                           |   |   |   |   |   |   |   |   |   |   |
+and then he got it for the elephant . %snd:"757"_56482_59163|1  |2  |2  |   |   |3  |   |   |  1|  9|
+and then she was proud of him . %snd:"757"_61245_63768      |   |2 2|2  |   |   |3  |   |   |  1| 10|
+they're the same characters are at the |   |3  |2  |   |   |   |   |   |  1|  6|
+    pool . %snd:"757"_69058_72624                           |   |   |   |   |   |   |   |   |   |   |
+the elephant starts to run . %snd:"757"_74645_76687         |   |   |2 1|5  |   |   |   |   |  1|  9|
+she slips . %snd:"757"_78510_79210                          |   |2  |2  |   |   |   |   |   |  1|  5|
+she scraped her knee . %snd:"757"_81234_82694               |   |2 2|2  |   |   |   |   |   |  1|  7|
+then the lifeguard comes . %snd:"757"_84618_86579           |   |   |2  |   |   |   |   |   |  1|  3|
+and she's crying . %snd:"757"_88223_89223                   |   |2  |1  |   |   |3  |   |   |  1|  7|
+and the lifeguard puts &-um a bandage  |   |   |2  |   |   |3  |   |   |  1|  6|
+    on . %snd:"757"_89485_93574                             |   |   |   |   |   |   |   |   |   |   |
+and then she's like [^ inhales sharply]|   |2  |1  |   |   |3 8|   |   |  1| 15|
+     . %snd:"757"_95079_97062                               |   |   |   |   |   |   |   |   |   |   |
+and the lifeguard &-um tells her the   |   |2  |2  |   |   |3  |   |   |  1|  8|
+    sign no running . %snd:"757"_98625_104588                |   |   |   |   |   |   |   |   |   |   |
+and then she's looking at it . %snd:"757"_106210_109031       |1  |2  |1  |   |   |3  |   |   |  1|  8|
+then [/] then lifeguard's pointing it  |1  |   |1  |4  |   |   |   |   |  1|  7|
+    out . %snd:"757"_110693_112754                            |   |   |   |   |   |   |   |   |   |   |
+&-um the giraffe has a toy airplane in |   |2  |2  |   |   |   |   |   |  1|  5|
+    his hand . %snd:"757"_120741_125204                       |   |   |   |   |   |   |   |   |   |   |
+and the [/] &+el the giraffe he's      |1  |2  |1  |   |   |3  |   |   |  1|  8|
+    playing with it . %snd:"757"_126925_131851                |   |   |   |   |   |   |   |   |   |   |
+and then the elephant grabs it from him|1  |2  |2  |   |   |3  |   |   |  1|  9|
+     . %snd:"757"_133774_136416                               |   |   |   |   |   |   |   |   |   |   |
+<and then she puts it in the> [//] &+w |1  |2  |1  |   |   |3  |   |   |  1|  8|
+    and she accidentally put it in the |   |   |   |   |   |   |   |   |   |   |
+    water . %snd:"757"_137659_141944                          |   |   |   |   |   |   |   |   |   |   |
+then the giraffe gets mad at her . %snd:"757"_143549_145776   |   |2  |2  |   |   |   |   |   |  1|  5|
+and then the lifeguard is talking to   |   |   |1 2|   |   |3  |   |4 2|  1| 13|
+    the elephant what happened . %snd:"757"_150921_155044     |   |   |   |   |   |   |   |   |   |   |
+and then the lifeguard's trying to     |1  |   |1  |4  |   |3  |   |   |  1| 10|
+    reach for it . %snd:"757"_156426_159068                   |   |   |   |   |   |   |   |   |   |   |
+then the giraffe is crying . %snd:"757"_160730_163092         |   |   |1  |   |   |   |   |   |  1|  2|
+then &-um a girl elephant comes . %snd:"757"_164996_167338    |   |   |2  |   |   |   |   |   |  1|  3|
+and she &-um has a net . %snd:"757"_167960_171343             |   |2  |2  |   |   |3  |   |   |  1|  8|
+and she scooped it out . %snd:"757"_172745_174487             |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and now he's all glad . %snd:"757"_175689_177792              |   |2  |1  |   |   |3  |   |   |  1|  7|
+and now he's hugging it . %snd:"757"_179776_181437            |1  |2  |1  |   |   |3  |   |   |  1|  8|
+a bunny rabbit was &-um in the sandpit |   |   |2  |   |   |3  |   |   |  1|  6|
+    and a dog . %snd:"757"_187726_194054                      |   |   |   |   |   |   |   |   |   |   |
+and then &-um the dog made a sandcastle|   |   |2  |   |   |3  |   |   |  1|  6|
+     . %snd:"757"_195617_198099                               |   |   |   |   |   |   |   |   |   |   |
+and then the bunny rabbit was stirring |   |   |2  |   |   |3  |   |   |  1|  6|
+    up sand in a pail . %snd:"757"_198802_200784              |   |   |   |   |   |   |   |   |   |   |
+and then he pours it onto the          |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    sandcastle . %snd:"757"_204105_206389                     |   |   |   |   |   |   |   |   |   |   |
+and then &-um rabbit's screaming . %snd:"757"_207954_211923   |   |   |1  |4  |   |3  |   |   |  1|  9|
+then &-um dog was trying to fix it up <|1  |2  |2 1|2  |   |   |   |   |  1|  9|
+    for her> [//] for him . %snd:"757"_213637_220040          |   |   |   |   |   |   |   |   |   |   |
+and that's the end . [+ bch] %snd:"757"_220941_222461         |1  |   |1  |   |   |3  |   |   |  1|  6|
+the same characters are [//] but [//]  |   |3  |1  |   |   |   |   |   |  1|  5|
+    they're going on a picnic . %snd:"757"_227125_230747      |   |   |   |   |   |   |   |   |   |   |
+rabbit's eating so much . %snd:"757"_234010_235990            |   |   |1  |4  |   |   |   |   |  1|  6|
+and he's [/] I think he's getting full |   |1 2|1 1|5  |   |3  |   |   |  1| 14|
+    . %snd:"757"_237172_240334                                |   |   |   |   |   |   |   |   |   |   |
+and now I think he has a tummyache . %snd:"757"_242615_245078 |   |1 2|1 2|5  |   |3  |   |   |  1| 15|
+and he's [//] now he's all dizzy . %snd:"757"_247363_249264   |   |2  |1  |   |   |3  |   |   |  1|  7|
+and now a doctor comes . %snd:"757"_251450_253932             |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog's pulling a doctor to the  |   |   |1  |4  |   |3  |   |   |  1|  9|
+    rabbit . %snd:"757"_255615_258438                         |   |   |   |   |   |   |   |   |   |   |
+and then the [/] &+ra the doctor was   |   |   |2 1|2  |   |3  |   |2  |  1| 11|
+    trying to figure out what had      |   |   |   |   |   |   |   |   |   |   |
+    happened to the rabbit . %snd:"757"_259900_266567         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 18| 68| 83| 39|  0|105|  1|  8| 50|372|
+
+Developmental sentence score:  7.44

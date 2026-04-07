@@ -1,0 +1,42 @@
+{
+  "age_column": "Age(Month)",
+  "feature_columns": [
+    "MLU_Morphemes",
+    "VOCD_D_optimum_average",
+    "IPSyn_Total",
+    "DSS_tbl_score",
+    "Word_Errors_per_utt",
+    "retracing_per_utt",
+    "repetition_per_utt",
+    "DSS_tbl_IP",
+    "DSS_tbl_PP",
+    "DSS_tbl_MV",
+    "DSS_tbl_SV",
+    "DSS_tbl_NG",
+    "DSS_tbl_CNJ",
+    "DSS_tbl_IR",
+    "DSS_tbl_WHQ",
+    "bare_marking_errors_per_word",
+    "pronoun_errors_per_word",
+    "past_overgeneralization_errors_per_past_opp"
+  ],
+  "feature_count": 18,
+  "input_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_features_raw.csv",
+  "linear_sensitivity": "Linear age model fit in parallel for sensitivity comparison.",
+  "meta_columns": [
+    "File_ID",
+    "File_kideval",
+    "Group",
+    "Sex",
+    "Age(Month)",
+    "#utterances",
+    "#words",
+    "DSS_tbl_warning_50"
+  ],
+  "method": "TD-only cubic B-spline regression with df=4; z-scores use TD residual SD.",
+  "non_td_rows": 75,
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_features_age_adjusted.csv",
+  "output_model_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_age_models.csv",
+  "reference_group": "TD",
+  "reference_group_n": 285
+}

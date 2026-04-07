@@ -1,0 +1,103 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:04 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/941.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+I see a boy walking to a grocery store |   |1  |1  |4  |   |   |   |   |  1|  7|
+    . %snd:"941"_5811_8522                                |   |   |   |   |   |   |   |   |   |   |
+now he's in the store . %snd:"941"_36830_38191              |   |2  |1  |   |   |   |   |   |  1|  4|
+and he sees cookies . %snd:"941"_38432_40914                |   |2  |2  |   |   |3  |   |   |  1|  8|
+an:d beside him is a table with fruit  |1  |2  |1  |   |   |3  |   |   |  1|  8|
+    on it . %snd:"941"_42598_47764                          |   |   |   |   |   |   |   |   |   |   |
+and there's another man standing in the|3  |   |1  |4  |   |3  |   |   |  1| 12|
+     room . %snd:"941"_48305_50947                          |   |   |   |   |   |   |   |   |   |   |
+now he is taking a [//] one of the     |3  |2  |1  |   |   |   |   |   |  1|  7|
+    boxes of cookies from the store . %snd:"941"_54633_62743|   |   |   |   |   |   |   |   |   |   |
+and then all the boxes fall down . %snd:"941"_66065_69620   |3  |   |1  |   |   |3  |   |   |  1|  8|
+he runs away because he doesn't wanna  |   |2 2|2 3|2  |4  |6 6|   |   |  1| 34|
+    get in trouble because the store   |   |2  |1 1|   |   |   |   |   |   |   |
+    manager sees him . %snd:"941"_73005_81537               |   |   |2  |   |   |   |   |   |   |   |
+I see an elephant standing by a giraffe|   |1  |1  |4 4|   |   |   |   |  1| 11|
+     bouncing a ball by a swimming pool|   |   |   |   |   |   |   |   |   |   |
+     . %snd:"941"_90578_99063                               |   |   |   |   |   |   |   |   |   |   |
+then the giraffe hops in and tries to  |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+    swim for it . %snd:"941"_110082_113764                    |   |   |   |   |   |   |   |   |   |   |
+then the giraffe gives the elephant the|   |   |2  |   |   |   |   |   |  1|  3|
+     ball . %snd:"941"_117685_121207                          |   |   |   |   |   |   |   |   |   |   |
+then the giraffe gets out . %snd:"941"_125251_128532          |   |   |2  |   |   |   |   |   |  1|  3|
+and the elephant's happy . %snd:"941"_128394_129674           |   |   |1  |   |   |3  |   |   |  1|  5|
+they're [//] the giraffe and elephant  |   |   |1  |   |   |3  |   |   |  1|  5|
+    is standing by the pool . %snd:"941"_138428_142811        |   |   |   |   |   |   |   |   |   |   |
+and there's a no running sign . %snd:"941"_143272_146113      |3  |   |1  |   |   |3  |   |   |  1|  8|
+then the elephant starts to run and &+s|   |   |2 1|5  |   |3 3|   |   |  1| 19|
+     &+g goes faster and starts to slip|   |   |2 2|   |   |   |   |   |   |   |
+     . %snd:"941"_149725_166753                               |   |   |   |   |   |   |   |   |   |   |
+and she hurt her knee . %snd:"941"_173028_176230              |   |2 2|1  |   |   |3  |   |   |  1|  9|
+and then the giraffe comes running . %snd:"941"_176352_178694 |   |   |2  |   |   |3  |   |   |  1|  6|
+then the lifeguard comes . %snd:"941"_182875_185657           |   |   |2  |   |   |   |   |   |  1|  3|
+and the &+gi giraffe and elephant are  |   |   |2  |   |   |3 3|   |   |  1|  9|
+    sitting down . %snd:"941"_186960_191363                   |   |   |   |   |   |   |   |   |   |   |
+the lifeguard puts a bandage on the    |   |   |2  |   |   |   |   |   |  1|  3|
+    elephant's knee . %snd:"941"_196485_202532                |   |   |   |   |   |   |   |   |   |   |
+then the lifeguard pulls her up to a   |   |2 2|2 3|   |   |5  |   |   |  1| 16|
+    bench so she can rest . %snd:"941"_206519_211283          |   |   |1  |   |   |   |   |   |   |   |
+then the lifeguard points to the no    |3  |   |2  |   |   |   |   |   |  1|  6|
+    running sign . %snd:"941"_215095_218136                   |   |   |   |   |   |   |   |   |   |   |
+and the elephant looks kind of         |   |   |2 2|   |   |3  |   |   |  1|  8|
+    embarrassed . %snd:"941"_218978_222799                    |   |   |   |   |   |   |   |   |   |   |
+the elephant is standing by the pool   |   |2  |1  |   |   |   |   |   |  1|  4|
+    with her friend the giraffe . %snd:"941"_232857_238381    |   |   |   |   |   |   |   |   |   |   |
+and he's holding a toy airplane . %snd:"941"_238542_241123    |   |2  |1  |   |   |3  |   |   |  1|  7|
+then the giraffe starts moving the     |   |   |2  |   |   |   |   |   |  1|  3|
+    airplane around . %snd:"941"_245455_249219                |   |   |   |   |   |   |   |   |   |   |
+and the elephant looks surprised . %snd:"941"_249681_252123   |   |   |   |4  |   |3  |   |   |  1|  8|
+then the elephant grabs the airplane   |   |   |2  |   |   |   |   |   |  1|  3|
+    out of the giraffe's hands . %snd:"941"_255415_261079     |   |   |   |   |   |   |   |   |   |   |
+then she drops it in the water . %snd:"941"_264563_266543     |1  |2  |2  |   |   |   |   |   |  1|  6|
+and the giraffe looks kind of upset and|   |   |2 2|   |   |3 3|   |   |  1| 11|
+     surprised . %snd:"941"_267245_274534                     |   |   |   |   |   |   |   |   |   |   |
+then it starts to sink . %snd:"941"_277619_279440             |1  |   |2 1|5  |   |   |   |   |  1| 10|
+and the giraffe looks really upset . %snd:"941"_279522_281503 |   |   |2  |   |   |3  |   |   |  1|  6|
+and the elephant would kind of be like |   |5  |1 2|   |   |3 3|   |   |  1| 15|
+    &-um embarrassed and kind of mad at|   |   |   |   |   |   |   |   |   |   |
+     herself . %snd:"941"_281925_295443                       |   |   |   |   |   |   |   |   |   |   |
+and he sees the airplane sinking . %snd:"941"_301538_306284   |   |2  |2  |4  |   |3  |   |   |  1| 12|
+then the elephant starts talking to the|   |   |2  |   |   |   |   |   |  1|  3|
+     lifeguard . %snd:"941"_310075_315278                     |   |   |   |   |   |   |   |   |   |   |
+the lifeguard tries to reach it . %snd:"941"_318462_320843    |1  |   |2 1|5  |   |   |   |   |  1| 10|
+so then the giraffe starts crying      |1  |2  |2 2|   |   |6  |   |   |  1| 14|
+    because it was a toy of his . %snd:"941"_325505_334499    |   |   |   |   |   |   |   |   |   |   |
+and he really liked it . %snd:"941"_334441_336484             |1  |2  |2  |   |   |3  |   |   |  1|  9|
+then another elephant comes by with a [|3 1|   |2 2|   |   |8  |   |   |  1| 19|
+    /] a net that has a long pole      |   |   |2  |   |   |   |   |   |   |   |
+    attached to it . %snd:"941"_339015_347584                 |   |   |   |   |   |   |   |   |   |   |
+then she &+s tries to scoop the        |1  |2  |2 1|5  |   |   |   |   |  1| 12|
+    airplane up in it . %snd:"941"_350275_354897              |   |   |   |   |   |   |   |   |   |   |
+she gets the airplane out of the water |   |2  |2  |   |   |   |   |   |  1|  5|
+    . %snd:"941"_358181_360661                                |   |   |   |   |   |   |   |   |   |   |
+now he is holding his airplane . %snd:"941"_367585_369707     |   |2 2|1  |   |   |   |   |   |  1|  6|
+okay , there's a dog sitting in a      |   |6  |1 1|4  |   |   |   |   |  1| 14|
+    sandbox that's build a sandcastle .|   |   |1  |   |   |   |   |   |   |   |
+     %snd:"941"_381135_388801                                 |   |   |   |   |   |   |   |   |   |   |
+and then a rabbit comes . %snd:"941"_389583_391724            |   |   |2  |   |   |3  |   |   |  1|  6|
+then the rabbit starts building his own|   |2 7|2 2|   |   |   |   |   |  1| 16|
+     sandcastle as the dog works on    |   |2  |   |   |   |   |   |   |   |   |
+    hers . %snd:"941"_395555_402583                           |   |   |   |   |   |   |   |   |   |   |
+then the rabbit takes a bucket of sand |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    and pours it over the dog's castle |   |   |   |   |   |   |   |   |   |   |
+    . %snd:"941"_406955_413298                                |   |   |   |   |   |   |   |   |   |   |
+now the castle is ruined . %snd:"941"_417182_419122           |   |   |7  |   |   |   |   |   |  1|  8|
+the dog is crying because it's ruined .|1  |   |1 7|   |   |6  |   |   |  1| 16|
+     %snd:"941"_426685_430510                                 |   |   |   |   |   |   |   |   |   |   |
+and the rabbit looks like she didn't   |1  |2  |2 5|   |7  |3 8|   |   |  1| 30|
+    mean to do it on purpose . %snd:"941"_430731_438863       |   |   |1  |   |   |   |   |   |   |   |
+TOTAL                                  | 30| 68|137| 55| 11|126|  0|  0| 50|477|
+
+Developmental sentence score:  9.54

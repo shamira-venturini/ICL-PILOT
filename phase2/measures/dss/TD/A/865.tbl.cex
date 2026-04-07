@@ -1,0 +1,89 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:02 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/865.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+&-um the a boy walking into a store . %snd:"865"_10890_13813|   |   |   |4  |   |   |   |   |  1|  5|
+&-um he sees &-um a shelve [: shelf] [*|   |2  |2  |   |   |   |   |   |  0|  4|
+     m:irr:s] with cookies . %snd:"865"_15875_19278         |   |   |   |   |   |   |   |   |   |   |
+he takes out one when they all start to|3  |2 3|2 1|   |   |8  |   |   |  1| 20|
+     fall . %snd:"865"_21703_26047                          |   |   |   |   |   |   |   |   |   |   |
+and then he runs off . %snd:"865"_27631_29072               |   |2  |2  |   |   |3  |   |   |  1|  8|
+and &-uh the store guy's mad . %snd:"865"_28892_30734       |   |   |1  |   |   |3  |   |   |  1|  5|
+&-um two [/] &-um two animals are      |3  |   |2  |   |   |   |   |   |  1|  6|
+    playing <with a> [/] with a &+bla  |   |   |   |   |   |   |   |   |   |   |
+    ball . %snd:"865"_36007_41551                           |   |   |   |   |   |   |   |   |   |   |
+then it goes into a pool . %snd:"865"_43733_45214           |1  |   |2  |   |   |   |   |   |  1|  4|
+<then the guy's> [//] then he jumps . %snd:"865"_47055_48957|   |2  |2  |   |   |   |   |   |  1|  5|
+and he starts to get it . %snd:"865"_48820_50400            |1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+she [?] get it . %snd:"865"_51604_52444                     |1  |2  |1  |   |   |   |   |   |  1|  5|
+then he passes it back up . %snd:"865"_52625_54367          |1  |2  |2  |   |   |   |   |   |  1|  6|
+and then &-um he gets out of the water |   |2  |2  |   |   |3  |   |   |  1|  8|
+    . %snd:"865"_56251_58434                                |   |   |   |   |   |   |   |   |   |   |
+&-um two animals see a diving board . %snd:"865"_64706_68148|3  |   |1  |   |   |   |   |   |  1|  5|
+they &-um wanna go over there . %snd:"865"_70010_72231      |   |3  |1 1|2  |   |   |   |   |  1|  8|
+they start to run . %snd:"865"_74694_75853                  |   |3  |1 1|5  |   |   |   |   |  1| 11|
+and one slips falls down and hurts     |3  |5  |2 2|   |   |3 3|   |   |  1| 19|
+    herself . %snd:"865"_75635_79399                        |   |   |   |   |   |   |   |   |   |   |
+and then a lifeguard comes over and    |   |2  |2 2|   |   |3 3|   |   |  1| 22|
+    sees that she's crying . %snd:"865"_81342_84645         |   |   |1  |   |   |8  |   |   |   |   |
+<then she puts> [//] then he puts a    |   |2  |2  |   |   |   |   |   |  1|  5|
+    bandaid on . %snd:"865"_87070_90894                     |   |   |   |   |   |   |   |   |   |   |
+then she sits down on the &+bens bench |   |2  |2  |   |   |   |   |   |  1|  5|
+    . %snd:"865"_92761_95246                                |   |   |   |   |   |   |   |   |   |   |
+&-um one animal has a plane . %snd:"865"_108816_112178        |3  |   |2  |   |   |   |   |   |  1|  6|
+he &-um throws it up and down . %snd:"865"_113882_115784      |1  |2  |2  |   |   |3  |   |   |  1|  9|
+then the other one grabs it from him   |3 3|2  |2 2|   |   |3  |   |   |  1| 18|
+    and &+s drops it in a pool . %snd:"865"_117087_122212     |1 1|   |   |   |   |   |   |   |   |   |
+then it starts to sink . %snd:"865"_123935_125015             |1  |   |2 1|5  |   |   |   |   |  1| 10|
+and he's mad at her . %snd:"865"_124836_126098                |   |2 2|1  |   |   |3  |   |   |  1|  9|
+and then a lifeguard comes over and    |1  |   |2 2|   |   |3 3|   |   |  1| 21|
+    sees that it's in the water . %snd:"865"_127581_132607    |   |   |1  |   |   |8  |   |   |   |   |
+so he tries to get it . %snd:"865"_133952_135531              |1  |2  |2 1|5  |   |   |   |   |  1| 12|
+and he [/] he can't get it . %snd:"865"_137515_139696         |1  |2  |3 1|   |4  |3  |   |   |  1| 15|
+and the other one starts to cry . %snd:"865"_139317_140759    |3 3|   |2  |   |   |3  |   |   |  1| 12|
+and then another lifeguard comes over  |3 1|2  |2 2|   |   |3 3|   |   |  1| 23|
+    with a net and picks it up and     |1  |   |2  |   |   |3  |   |   |   |   |
+    gives it back to him . %snd:"865"_142261_151594           |   |   |   |   |   |   |   |   |   |   |
+and he's all happy . %snd:"865"_153114_154196                 |   |2  |1  |   |   |3  |   |   |  1|  7|
+&-um they're building [!] a sandcastle |3  |3  |1  |   |   |   |   |   |  1|  8|
+    two dogs . %snd:"865"_160729_163869                       |   |   |   |   |   |   |   |   |   |   |
+<and the> [//] &+th and one's taking a |3 3|   |1  |   |   |3 3|   |   |  1| 14|
+    shovel and putting some on . %snd:"865"_165351_172019     |   |   |   |   |   |   |   |   |   |   |
+and he puts a lot on . %snd:"865"_174101_176042               |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then he ruins the castle . %snd:"865"_177727_179344       |   |2  |2  |   |   |3  |   |   |  1|  8|
+then one starts to cry . %snd:"865"_181615_183095             |3  |   |1  |   |   |   |   |   |  1|  5|
+&-um a dog and a rabbit are running    |7 3|   |2  |   |   |3  |   |   |  1| 16|
+    over to each other . %snd:"865"_188363_193364             |   |   |   |   |   |   |   |   |   |   |
+then they have a picnic one with eat   |3 7|3  |1 1|   |   |3  |   |   |  1| 19|
+    and everything . %snd:"865"_194755_197657                 |   |   |   |   |   |   |   |   |   |   |
+<then he gets> [//] then one gets full |3  |   |2  |   |   |   |   |   |  1|  6|
+    really really full &=laughs . %snd:"865"_198239_203683    |   |   |   |   |   |   |   |   |   |   |
+and the num &+wha the other one goes   |3 3|2 2|2 2|   |   |3 3|   |   |  1| 21|
+    over to a doctor and brings her    |   |   |   |   |   |   |   |   |   |   |
+    over to him . %snd:"865"_206805_215084                    |   |   |   |   |   |   |   |   |   |   |
+then she &-um tries to fix him . %snd:"865"_219625_222389     |   |2 2|2 1|5  |   |   |   |   |  1| 13|
+and then she does . %snd:"865"_223573_224574                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+&-um one [//] the dog has &-um a wagon |1  |   |2  |   |   |   |   |   |  1|  4|
+    with a balloon on it . %snd:"865"_231267_237214           |   |   |   |   |   |   |   |   |   |   |
+and a rabbit comes over to see it . %snd:"865"_238317_240699  |1  |   |2 1|   |   |3  |   |   |  1|  8|
+and it goes up in the air . %snd:"865"_245005_246466          |1  |   |2  |   |   |3  |   |   |  1|  7|
+then [/] <then the> [/] &+o then the   |3 3|2  |2  |   |   |   |   |   |  1| 11|
+    other one gets mad at him . %snd:"865"_248069_251413      |   |   |   |   |   |   |   |   |   |   |
+and then he sees a guy with all kinds  |3  |2  |2  |   |   |3  |   |   |  1| 11|
+    of balloons . %snd:"865"_252776_255759                    |   |   |   |   |   |   |   |   |   |   |
+he goes over and wants to get one . %snd:"865"_256842_258884  |3  |2  |2 2|5  |   |3  |   |   |  1| 19|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+but he doesn't have any money . %snd:"865"_260125_261606      |7  |2  |3 1|   |4  |5  |   |   |  1| 23|
+the balloons cost five cents . %snd:"865"_261667_263208       |3  |   |1  |   |   |   |   |   |  1|  5|
+so then the other one comes over . %snd:"865"_265432_267033   |3 3|   |2  |   |   |   |   |   |  1|  9|
+TOTAL                                  |115| 80|118| 36|  8|125|  0|  0| 49|531|
+
+Developmental sentence score: 10.62

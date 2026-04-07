@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:56 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/452.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+<I get food in a cup> [?] . %snd:"452"_10529_12249          |   |1  |1  |   |   |   |   |   |  1|  3|
+elephant with a ball holding it . %snd:"452"_53075_56138    |1  |   |   |4  |   |   |   |   |  1|  6|
+a bunny making a sandcastle . %snd:"452"_212119_212337        |   |   |   |4  |   |   |   |   |  1|  5|
+the bunny dumped it on the sand^castle |1  |   |2  |   |   |   |   |   |  1|  4|
+    . %snd:"452"_221725_223867                                |   |   |   |   |   |   |   |   |   |   |
+broke the sandcastle .                 |   |   |2  |   |   |   |   |   |  1|  3|
+fixed the sandcastle .                 |   |   |2  |   |   |   |   |   |  1|  3|
+and the bunny's holding the basket . %snd:"452"_245337_247358 |   |   |1  |4  |   |3  |   |   |  1|  9|
+a scooter and a bunny coming . %snd:"452"_284039_286540       |   |   |   |4  |   |3  |   |   |  1|  8|
+the balloon fell off and flew away . %snd:"452"_301620_304455 |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  2|  1| 12| 16|  0|  9|  0|  0|  9| 49|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  5.44

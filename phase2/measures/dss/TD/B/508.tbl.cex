@@ -1,0 +1,86 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:06 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/508.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a boy went to a store to get something |3  |   |2 1|   |   |   |   |   |  1|  7|
+    . %snd:"508"_3267_6008                                |   |   |   |   |   |   |   |   |   |   |
+he was gonna get a bag of cookies . %snd:"508"_8671_12433  |   |2  |2 1|2  |   |   |   |   |  1|  8|
+he got one from the bottom . %snd:"508"_14945_18028         |3  |2  |2  |   |   |   |   |   |  1|  8|
+and they all fell down . %snd:"508"_19551_21392             |   |3  |2  |   |   |3  |   |   |  1|  9|
+and the misters felt bad mad I mean mad|   |1  |2  |   |   |3  |   |   |  1|  7|
+     . %snd:"508"_23917_29823                               |   |   |   |   |   |   |   |   |   |   |
+they're playing in the sand . %snd:"508"_38868_40309        |   |3  |1  |   |   |   |   |   |  1|  5|
+the bunny was making a castle . %snd:"508"_45593_47393      |   |   |2  |   |   |   |   |   |  1|  3|
+and the dog was making a [/] a big     |1  |   |2  |   |   |3  |   |   |  1|  7|
+    castle with stuff on it . %snd:"508"_47395_53884        |   |   |   |   |   |   |   |   |   |   |
+<and then they dumped it on> [//] they |1  |3  |2  |   |   |   |   |   |  1|  7|
+    dumped it . %snd:"508"_54106_59011                      |   |   |   |   |   |   |   |   |   |   |
+and it spilled [: spilt] [* m:=ed] . %snd:"508"_58573_59312 |1  |   |2  |   |   |3  |   |   |  0|  6|
+it [//] and then the dog build it again|1  |   |1  |   |   |3  |   |   |  1|  6|
+     . %snd:"508"_64740_66980                               |   |   |   |   |   |   |   |   |   |   |
+they went for a picnic . %snd:"508"_72293_73683             |   |3  |2  |   |   |   |   |   |  1|  6|
+they ate .                             |   |3  |2  |   |   |   |   |   |  1|  6|
+the rabbit was getting full . %snd:"508"_80069_82590        |   |   |2  |   |   |   |   |   |  1|  3|
+and he felt dizzy . %snd:"508"_84713_86113                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then a bunny come [= comes] [* m:  |   |   |1  |   |   |3  |   |   |  0|  4|
+    03s:a] along a bunny nurse . %snd:"508"_88375_91897     |   |   |   |   |   |   |   |   |   |   |
+the dog pulled on the nurse . %snd:"508"_95122_97564        |   |   |2  |   |   |   |   |   |  1|  3|
+<he felt> [//] the doctor helped the   |3  |   |2  |   |   |   |   |   |  1|  6|
+    other bunny . %snd:"508"_100205_104010                    |   |   |   |   |   |   |   |   |   |   |
+and then he was feeling better . %snd:"508"_106755_108356     |   |2  |2 1|   |   |3  |   |   |  1|  9|
+what's that thing where there's a box  |1  |6  |1 1|   |   |8  |1  |2  |  1| 21|
+    like a box ? %snd:"508"_128255_131456                     |   |   |   |   |   |   |   |   |   |   |
+and they have wheels , like four on a  |3  |3  |1  |   |   |3  |   |   |  1| 11|
+    car . %snd:"508"_131917_134699                            |   |   |   |   |   |   |   |   |   |   |
+I don't know . %snd:"508"_137902_138662                       |   |1  |3 1|   |4  |   |   |   |  1| 10|
+and then the bunny wanted to have <a   |   |   |2 1|5  |   |3  |   |   |  1| 12|
+    balloon> [//] the balloon . %snd:"508"_146379_150464      |   |   |   |   |   |   |   |   |   |   |
+he took it off . %snd:"508"_153130_154270                     |1  |2  |2  |   |   |   |   |   |  1|  6|
+the dog was not happy . %snd:"508"_154012_155793              |   |   |2  |   |   |   |   |   |  1|  3|
+it [/] &+fe <it was> [/] it was going  |1  |   |2  |   |   |   |   |   |  1|  4|
+    up . %snd:"508"_158615_161178                             |   |   |   |   |   |   |   |   |   |   |
+and then it lost it . %snd:"508"_163103_164664                |1 1|   |2  |   |   |3  |   |   |  1|  8|
+and the dog felt mad . %snd:"508"_164465_166107               |   |   |2  |   |   |3  |   |   |  1|  6|
+and then there's some more balloons . %snd:"508"_167892_169633|3 3|   |1  |   |   |3  |   |   |  1| 11|
+and then he wanted one . %snd:"508"_174345_176026             |3  |2  |2  |   |   |3  |   |   |  1| 11|
+he give [= gives] [* m:03s:a] him the  |3 3|2 2|1  |   |   |   |   |   |  0| 11|
+    five one .                         |   |   |   |   |   |   |   |   |   |   |
+he didn't have any money . %snd:"508"_183572_184953           |7  |2  |5 1|   |7  |   |   |   |  1| 23|
+then another nurse come . %snd:"508"_189465_191305            |3  |   |1  |   |   |   |   |   |  1|  5|
+he wanted the balloon . %snd:"508"_194068_195208              |   |2  |2  |   |   |   |   |   |  1|  5|
+and she gaved [: gave] [* m:++ed:i] him|1 3|2 2|2  |   |   |3  |   |   |  0| 13|
+     it two pennies . %snd:"508"_199752_203373                |   |   |   |   |   |   |   |   |   |   |
+and then they have balloons . %snd:"508"_203955_205216        |   |3  |1  |   |   |3  |   |   |  1|  8|
+first the elephant was bouncing a ball |   |   |2  |   |   |   |   |   |  1|  3|
+    . %snd:"508"_210906_214310                                |   |   |   |   |   |   |   |   |   |   |
+a giraffe &+d come [= comes] [* m:03s:a|   |   |1  |   |   |   |   |   |  0|  1|
+    ] . %snd:"508"_214453_215231                              |   |   |   |   |   |   |   |   |   |   |
+the giraffe actually hit it in the pool|1  |   |1  |   |   |   |   |   |  1|  3|
+     . %snd:"508"_218335_219976                               |   |   |   |   |   |   |   |   |   |   |
+the giraffe was swimming for it . %snd:"508"_220418_223702    |1  |   |2  |   |   |   |   |   |  1|  4|
+he got it . %snd:"508"_224444_225364                          |1  |2  |2  |   |   |   |   |   |  1|  6|
+(.) and [/] &+sh and she was playing   |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    with it now . %snd:"508"_224985_230913                    |   |   |   |   |   |   |   |   |   |   |
+first she wanted to go swimming . %snd:"508"_236395_238376    |   |2  |2 1|5  |   |   |   |   |  1| 11|
+she wanted to go on the diving board . |   |2  |2 1|5  |   |   |   |   |  1| 11|
+    %snd:"508"_242000_244480                                  |   |   |   |   |   |   |   |   |   |   |
+she was running . %snd:"508"_245622_246702                    |   |2  |2  |   |   |   |   |   |  1|  5|
+she slipped . %snd:"508"_247404_248163                        |   |2  |2  |   |   |   |   |   |  1|  5|
+and she fell and hurt her knee . %snd:"508"_249405_251146     |   |2 2|2 1|   |   |3 3|   |   |  1| 14|
+and then another elephant comed [: came|3  |   |2  |   |   |3  |   |   |  0|  8|
+    ] [* m:=ed] over . %snd:"508"_253191_256174               |   |   |   |   |   |   |   |   |   |   |
+<and then he [//] she> [//] &+pu and   |   |2  |1  |   |   |3  |   |   |  1|  7|
+    then he put a bandaid on . %snd:"508"_258059_261743       |   |   |   |   |   |   |   |   |   |   |
+and then she was feeling a lot better .|   |2  |2 1|   |   |3  |   |   |  1|  9|
+     %snd:"508"_262545_264548                                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 57| 73|103| 17| 11| 74|  1|  2| 44|382|
+
+Developmental sentence score:  7.64

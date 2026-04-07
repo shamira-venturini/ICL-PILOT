@@ -1,0 +1,187 @@
+@UTF8
+@PID:	11312/c-00036342-1
+@Begin
+@Languages:	eng
+@Participants:	EXA Investigator, CHI Target_Child
+@ID:	eng|ENNI|EXA|||||Investigator|||
+@ID:	eng|ENNI|CHI|7;09.08|male|TD||Target_Child|||
+@Media:	709, audio
+@Comment:	Birth of CHI is 11-JUL-1992
+@Date:	19-APR-2000
+@Tape Location:	Disk L7 Track 37
+@Types:	cross, narrative, TD
+*CHI:	a boy walking to a store . 18425_20668
+%mor:	det:art|a n|boy part|walk-PRESP prep|to det:art|a n|store .
+%xdss:	Z; D4; Z;
+*CHI:	a [/] a boy going to buy a cookie . 20969_29703
+%mor:	det:art|a n|boy part|go-PRESP inf|to v|buy det:art|a n|cookie .
+%xdss:	Z; D4; D2; C1; Z;
+*CHI:	he bought a cookie . 36105_37245
+%mor:	pro:sub|he v|buy&PAST det:art|a n|cookie .
+%xdss:	B2; C2; Z;
+*CHI:	all the cookies fell down . 41489_43069
+%mor:	qn|all det:art|the n|cookie-PL v|fall&PAST adv|down .
+%xdss:	A3; Z; C2;
+*CHI:	the man got mad at the boy . 47753_49953
+%mor:	det:art|the n|man v|get&PAST adj|mad prep|at det:art|the n|boy .
+%xdss:	Z; C2; Z;
+@G:	A1
+*CHI:	a girl elephant was playing with a ball . 60249_63133
+%mor:	det:art|a n|girl n|elephant aux|be&PAST&13S part|play-PRESP
+	prep|with det:art|a n|ball .
+%xdss:	Z; Z; C2; Z;
+*CHI:	the ball went in a pool . 67315_68937
+%mor:	det:art|the n|ball v|go&PAST prep|in det:art|a n|pool .
+%xdss:	Z; C2; Z;
+*CHI:	a [/] &+gira a baby giraffe &+ca came to get it . 73527_77494
+%mor:	det:art|a n|baby n|giraffe v|come&PAST inf|to v|get pro:per|it .
+%xdss:	Z; Z; C2; D5; C1; A1;
+*CHI:	he got it and gave it to the girl . 81335_84017
+%mor:	pro:sub|he v|get&PAST pro:per|it coord|and v|give&PAST pro:per|it
+	prep|to det:art|the n|girl .
+%xdss:	B2; C2; A1; F3; C2; A1; Z;
+*CHI:	the girl liked the giraffe . 88604_90746
+%mor:	det:art|the n|girl v|like-PAST det:art|the n|giraffe .
+%xdss:	Z; C2; Z;
+@G:	A2
+*CHI:	they looked at the pool . 103893_105333
+%mor:	pro:sub|they v|look-PAST prep|at det:art|the n|pool .
+%xdss:	B3; C2; Z;
+*CHI:	the elephant was running in the pool . 110715_113918
+%mor:	det:art|the n|elephant aux|be&PAST&13S part|run-PRESP prep|in
+	det:art|the n|pool .
+%xdss:	Z; C2; Z;
+*CHI:	the elephant slipped and hurt her knee . 117465_124274
+%mor:	det:art|the n|elephant v|slip-PAST coord|and v|hurt&ZERO
+	pro:obj|her n|knee .
+%xdss:	Z; C2; F3; C1; B2; Z;
+*CHI:	a lifeguard came . 129975_135062
+%mor:	det:art|a n|+n|life+n|guard v|come&PAST .
+%xdss:	Z; C2;
+*CHI:	the lifeguard gave her a bandaid . 136003_137845
+%mor:	det:art|the n|+n|life+n|guard v|give&PAST pro:obj|her det:art|a
+	n|bandaid .
+%xdss:	Z; C2; B2; Z;
+*CHI:	they sat on the chair . 141312_142833
+%mor:	pro:sub|they v|sit&PAST prep|on det:art|the n|chair .
+%xdss:	B3; C2; Z;
+*CHI:	the lifeguard &+poi pointed at the sign . 147575_150498
+%mor:	det:art|the n|+n|life+n|guard v|point-PAST prep|at det:art|the
+	n|sign .
+%xdss:	Z; C2; Z;
+@G:	A3
+*CHI:	a girl was happy . 162615_163816
+%mor:	det:art|a n|girl cop|be&PAST&13S adj|happy .
+%xdss:	Z; C2;
+*CHI:	a plane hit her . 167903_169324
+%mor:	det:art|a n|plane v|hit&ZERO pro:obj|her .
+%xdss:	Z; C1; B2;
+*CHI:	the girl got the plane . 172771_174833
+%mor:	det:art|the n|girl v|get&PAST det:art|the n|plane .
+%xdss:	Z; C2; Z;
+*CHI:	and she put it on the water ? 179445_181266
+%mor:	coord|and pro:sub|she v|put&ZERO pro:per|it prep|on det:art|the
+	n|water ?
+%xdss:	F3; B2; C1; A1; Z; G1;
+*CHI:	<the water sank> [//] no , the plane sank . 184893_188075
+%mor:	co|no det:art|the n|plane v|sink&PAST .
+%xdss:	Z; C2;
+*CHI:	the lifeguard came . 192023_193523
+%mor:	det:art|the n|+n|life+n|guard v|come&PAST .
+%xdss:	Z; C2;
+*CHI:	(...) the lifeguard saw the plane and tried to get it . 209685_217155
+%mor:	det:art|the n|+n|life+n|guard v|see&PAST det:art|the n|plane
+	coord|and v|try-PAST inf|to v|get pro:per|it .
+%xdss:	Z; C2; Z; F3; C2; D5; C1; A1;
+*CHI:	it sank . 221203_221963
+%mor:	pro:per|it v|sink&PAST .
+%xdss:	A1; C2;
+*CHI:	a girl lifeguard had a net . 225625_227747
+%mor:	det:art|a n|girl n|+n|life+n|guard v|have&PAST det:art|a n|net .
+%xdss:	Z; Z; C2; Z;
+*CHI:	the girl lifeguard got the plane . 230612_233775
+%mor:	det:art|the n|girl n|+n|life+n|guard v|get&PAST det:art|the n|plane
+	.
+%xdss:	Z; Z; C2; Z;
+*CHI:	the girl lifeguard gave it to the boy . 237421_239784
+%mor:	det:art|the n|girl n|+n|life+n|guard v|give&PAST pro:per|it prep|to
+	det:art|the n|boy .
+%xdss:	Z; Z; C2; A1; Z;
+*CHI:	the boy hugged the plane . 243485_245086
+%mor:	det:art|the n|boy part|hug-PASTP det:art|the n|plane .
+%xdss:	Z; D4; Z;
+@G:	B1
+*CHI:	a girl played in the sandbox . 256745_258347
+%mor:	det:art|a n|girl v|play-PAST prep|in det:art|the n|+n|sand+n|box .
+%xdss:	Z; C2; Z;
+*CHI:	a rabbit came to play . 262721_264301
+%mor:	det:art|a n|rabbit v|come&PAST inf|to v|play .
+%xdss:	Z; C2; D5; C1;
+*CHI:	the rabbit broke the girl's sandcastle . 269786_272768
+%mor:	det:art|the n|rabbit v|break&PAST det:art|the adj|girl&dn-POSS
+	n|+n|sand+n|castle .
+%xdss:	Z; C2; Z;
+*CHI:	the [/] &+rabb the girl was mad at the rabbit . 279359_282083
+%mor:	det:art|the n|girl cop|be&PAST&13S adj|mad prep|at det:art|the
+	n|rabbit .
+%xdss:	Z; C2; Z;
+*CHI:	the girl was crying . 288145_289345
+%mor:	det:art|the n|girl aux|be&PAST&13S part|cry-PRESP .
+%xdss:	Z; C2;
+@G:	B2
+*CHI:	a girl was going to a picnic . 299460_302563
+%mor:	det:art|a n|girl aux|be&PAST&13S part|go-PRESP prep|to det:art|a
+	n|picnic .
+%xdss:	Z; C2; Z;
+*CHI:	a boy came to [//] with her . 309125_315172
+%mor:	det:art|a n|boy v|come&PAST prep|with pro:obj|her .
+%xdss:	Z; C2; B2;
+*CHI:	the boy was &+ff so full . 320862_322844
+%mor:	det:art|the n|boy cop|be&PAST&13S adv|so adj|full .
+%xdss:	Z; C2;
+*CHI:	he got the stomachache . 326685_327986
+%mor:	pro:sub|he v|get&PAST det:art|the n|+n|stomach+n|ache .
+%xdss:	B2; C2; Z;
+*CHI:	a doctor came . 331893_333194
+%mor:	det:art|a n|doctor v|come&PAST .
+%xdss:	Z; C2;
+*CHI:	the girl pulled the doctor . 337262_338883
+%mor:	det:art|the n|girl v|pull-PAST det:art|the n|doctor .
+%xdss:	Z; C2; Z;
+*CHI:	the doctor looked [^ pronounced "look-ed"] at the boy . 342595_344597
+%mor:	det:art|the n|doctor v|look-PAST prep|at det:art|the n|boy .
+%xdss:	Z; C2; Z;
+*CHI:	he felt okay and came with the doctor . 349125_351688
+%mor:	pro:sub|he v|feel&PAST adj|okay coord|and v|come&PAST prep|with
+	det:art|the n|doctor .
+%xdss:	B2; C2; F3; C2; Z;
+@G:	B3
+*CHI:	a girl had a wagon with a balloon on it . 359290_362153
+%mor:	det:art|a n|girl v|have&PAST det:art|a n|wagon prep|with det:art|a
+	n|balloon prep|on pro:per|it .
+%xdss:	Z; C2; Z; Z; A1;
+*CHI:	the boy tried to get the balloon . 365360_368283
+%mor:	det:art|the n|boy part|try-PASTP inf|to v|get det:art|the n|balloon
+	.
+%xdss:	Z; D4; C1; Z;
+*CHI:	it went up into the air . 378093_380115
+%mor:	pro:per|it v|go&PAST adv|up prep|into det:art|the n|air .
+%xdss:	A1; C2; Z;
+*CHI:	(.) a guy had lots of balloons . 393125_395108
+%mor:	det:art|a n|guy v|have&PAST n|lot-PL prep|of n|balloon-PL .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the rabbit asked the man if he could get a balloon . 398676_402603
+%mor:	det:art|the n|rabbit v|ask-PAST det:art|the n|man conj|if
+	pro:sub|he mod|could v|get det:art|a n|balloon .
+%xdss:	Z; C2; Z; F5; B2; C5; C1; Z;
+*CHI:	the balloon cost five cents . 406925_409408
+%mor:	det:art|the n|balloon part|cost&PASTP det:num|five n|cent-PL .
+%xdss:	Z; D4; A3; Z;
+*CHI:	he didn't have five cents . 415640_417324
+%mor:	pro:sub|he mod|do&PAST~neg|not v|have det:num|five n|cent-PL .
+%xdss:	B2; C5; E7; C1; A3; Z;
+*CHI:	and [/] and the &+rab boy rabbit asked the doctor if [//] to come
+	to the balloons . 428353_436103
+%mor:	coord|and det:art|the n|boy n|rabbit v|ask-PAST det:art|the
+	n|doctor inf|to v|come prep|to det:art|the n|balloon-PL .
+%xdss:	F3; Z; Z; C2; Z; C1; Z;

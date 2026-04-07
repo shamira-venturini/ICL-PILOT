@@ -1,0 +1,24 @@
+{
+  "category_columns": [
+    "DSS_tbl_CNJ",
+    "DSS_tbl_IP",
+    "DSS_tbl_IR",
+    "DSS_tbl_MV",
+    "DSS_tbl_NG",
+    "DSS_tbl_PP",
+    "DSS_tbl_S",
+    "DSS_tbl_SV",
+    "DSS_tbl_TOT",
+    "DSS_tbl_WHQ"
+  ],
+  "dss_tbl_files": 361,
+  "dss_tbl_na_scores": 0,
+  "dss_tbl_unique_ids": 360,
+  "dss_tbl_warning_50_count": 14,
+  "duplicate_file_ids": {
+    "523": [
+      "data/annotated/ENNI_batchalign/SLI/A/0noaudio/523.cha",
+      "data/annotated/ENNI_batchalign/TD/B/523.cha"
+    ]
+  }
+}

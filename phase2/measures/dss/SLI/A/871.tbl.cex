@@ -1,0 +1,97 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:53 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/871.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a guy was walking in the store . %snd:"871"_12855_16260     |   |   |2  |   |   |   |   |   |  1|  3|
+this guy looked at the cookies . %snd:"871"_20228_23773     |1  |   |2  |   |   |   |   |   |  1|  4|
+he's [/] he [/] he's taking one . %snd:"871"_28095_30698    |3  |2  |1  |   |   |   |   |   |  1|  7|
+all the cookies fell . %snd:"871"_36811_38733               |3  |   |2  |   |   |   |   |   |  1|  6|
+got angry at the boy . %snd:"871"_45698_47640               |   |   |2  |   |   |   |   |   |  1|  3|
+&-uh &-uh these two animals were       |3  |3  |2  |   |   |   |   |   |  1|  9|
+    playing ball . %snd:"871"_55735_63605                   |   |   |   |   |   |   |   |   |   |   |
+the [/] the ball fell into the water . |   |   |2  |   |   |   |   |   |  1|  3|
+    %snd:"871"_66310_69793                                  |   |   |   |   |   |   |   |   |   |   |
+one of the &+ani animals went swimming |3  |   |2 1|   |   |   |   |   |  1|  7|
+    to get the ball . %snd:"871"_73015_78158                |   |   |   |   |   |   |   |   |   |   |
+the animals got [/] got the ball and   |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    played with it . %snd:"871"_81021_85804                 |   |   |   |   |   |   |   |   |   |   |
+they [/] they [/] &+ha they &+j jumped |   |3  |2  |   |   |   |   |   |  1|  6|
+    . %snd:"871"_89675_92937                                |   |   |   |   |   |   |   |   |   |   |
+and the [/] &+la the lady &+h &+ha had |   |   |2  |   |   |3  |   |   |  1|  6|
+    the &-um ball . %snd:"871"_93258_99863                  |   |   |   |   |   |   |   |   |   |   |
+now it's done . [+ bch] %snd:"871"_106538_108441              |1  |   |7  |   |   |   |   |   |  1|  9|
+these two animals went swimming . %snd:"871"_111169_113892    |3  |3  |2  |   |   |   |   |   |  1|  9|
+these two animals went to walk to the  |3  |3  |2 1|5  |   |   |   |   |  1| 15|
+    diving board . %snd:"871"_117705_124233                   |   |   |   |   |   |   |   |   |   |   |
+<one was> [//] both of them were       |7  |3  |2  |   |   |   |   |   |  1| 13|
+    running down the aisle . %snd:"871"_128215_135804         |   |   |   |   |   |   |   |   |   |   |
+<one of> [//] &-uh one of the &-um     |3  |2  |2 1|   |   |3  |   |   |  1| 12|
+    animals fell and [/] and cut his   |   |   |   |   |   |   |   |   |   |   |
+    knee . %snd:"871"_141065_149502                           |   |   |   |   |   |   |   |   |   |   |
+both the &+li lifeguard came and put a |7 1|   |2 1|   |   |3  |   |   |  1| 15|
+    bandage on it . %snd:"871"_152625_159153                  |   |   |   |   |   |   |   |   |   |   |
+he [//] she was happy that she &+ha got|   |2 2|2 2|   |   |8  |   |   |  1| 17|
+     a [/] &-uh a bandaid . %snd:"871"_162115_168891          |   |   |   |   |   |   |   |   |   |   |
+she &+hu huddig [* p:n] [//] hugged the|   |2  |2  |   |   |   |   |   |  1|  5|
+     lifeguard . %snd:"871"_173755_179321                     |   |   |   |   |   |   |   |   |   |   |
+she sat on a bench scared . %snd:"871"_182327_187112          |   |2  |2 2|   |   |   |   |   |  1|  7|
+the [//] these two kids went swimming  |3  |3  |2  |   |   |   |   |   |  0|  8|
+    with a [= an] [* m:allo] airplane .|   |   |   |   |   |   |   |   |   |   |
+     %snd:"871"_196063_202643                                 |   |   |   |   |   |   |   |   |   |   |
+they flew it . %snd:"871"_206145_208046                       |1  |3  |2  |   |   |   |   |   |  1|  7|
+they hold it and then flied [: flew] [*|1 1|3  |1 2|   |   |3  |   |   |  0| 11|
+     m:=ed] it . %snd:"871"_209067_213470                     |   |   |   |   |   |   |   |   |   |   |
+and then they played with it . %snd:"871"_215616_219054       |1  |3  |2  |   |   |3  |   |   |  1| 10|
+then it fell in the &+wa &+wa water . %snd:"871"_220245_222926|1  |   |2  |   |   |   |   |   |  1|  4|
+they both was [= were] [* m:vsg:a]     |   |3  |7  |   |   |   |   |   |  0| 10|
+    scared of the airplane . %snd:"871"_228657_233504         |   |   |   |   |   |   |   |   |   |   |
+they teased each other . %snd:"871"_234475_236877             |7 3|3  |2  |   |   |   |   |   |  1| 16|
+&+bo the lifeguard said no toys in the |3  |   |2  |   |   |   |   |   |  1|  6|
+    water . %snd:"871"_243261_247864                          |   |   |   |   |   |   |   |   |   |   |
+these [//] &+th the two kids said sorry|3  |   |   |4  |   |   |   |   |  1|  8|
+     . %snd:"871"_251232_255418                               |   |   |   |   |   |   |   |   |   |   |
+then the &+li &+li lifeguard jumped    |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    into the water and got it . %snd:"871"_258080_263964      |   |   |   |   |   |   |   |   |   |   |
+it [//] the [/] <the airplane> [//] &+ |   |   |5 1|   |7  |   |   |   |  1| 14|
+    wa &+co the lifeguard couldn't get |   |   |   |   |   |   |   |   |   |   |
+    the airplane . %snd:"871"_267085_273252                   |   |   |   |   |   |   |   |   |   |   |
+the mom got a net and then put it in   |1  |   |2 1|   |   |3  |   |   |  1|  8|
+    the [/] the water . %snd:"871"_277639_282104              |   |   |   |   |   |   |   |   |   |   |
+she got the net and put it on the      |1  |2  |2 1|   |   |3 3|   |   |  1| 15|
+    airplane and got the plane . %snd:"871"_285492_290341     |   |   |2  |   |   |   |   |   |   |   |
+the mom gived [: gave] [* m:=ed] it    |1  |   |2 2|   |   |   |   |   |  0|  5|
+    back to the [/] the animal fixed . |   |   |   |   |   |   |   |   |   |   |
+    %snd:"871"_293795_299318                                  |   |   |   |   |   |   |   |   |   |   |
+he hugged it . %snd:"871"_301360_302900                       |1  |2  |2  |   |   |   |   |   |  1|  6|
+these two kids were playing in the     |3  |3  |2  |   |   |   |   |   |  1|  9|
+    sandbox . %snd:"871"_313137_316598                        |   |   |   |   |   |   |   |   |   |   |
+these two kids made a sandcastle . %snd:"871"_320423_322824   |3  |3  |   |4  |   |   |   |   |  1| 11|
+these kids put sand over top of the    |   |3  |   |4  |   |   |   |   |  1|  8|
+    castle [?] . %snd:"871"_325595_329017                     |   |   |   |   |   |   |   |   |   |   |
+they made a dinosaur kind of . %snd:"871"_334341_337202       |   |3  |2  |   |   |   |   |   |  1|  6|
+<these two guy> [//] this one guy was  |1 3|   |2  |   |   |   |   |   |  1|  7|
+    waiting for <one of> [//] <other of|   |   |   |   |   |   |   |   |   |   |
+    > [//] a kid . %snd:"871"_343536_352121                   |   |   |   |   |   |   |   |   |   |   |
+they played with food . %snd:"871"_352543_354963              |   |3  |2  |   |   |   |   |   |  1|  6|
+they had a party with food . %snd:"871"_356855_360157         |   |3  |2  |   |   |   |   |   |  1|  6|
+one of them got full . %snd:"871"_362940_364460               |3  |3  |2  |   |   |   |   |   |  1|  9|
+they ate candy . %snd:"871"_367523_368783                     |   |3  |2  |   |   |   |   |   |  1|  6|
+they threw all the candy stuff on the  |3 1|3  |2 2|   |   |3  |   |   |  1| 15|
+    ground and never picked it up . %snd:"871"_369035_373398  |   |   |   |   |   |   |   |   |   |   |
+they played with the sandbox . %snd:"871"_377022_379643       |   |3  |2  |   |   |   |   |   |  1|  6|
+the dad went to get one of them . %snd:"871"_385685_389109    |3  |3  |2 1|5  |   |   |   |   |  1| 15|
+he [//] they pulled the t-shirt . %snd:"871"_390111_392414    |   |3  |2  |   |   |   |   |   |  1|  6|
+he said open your mouth ! %snd:"871"_395940_398883            |   |2 1|2 1|   |   |   |   |   |  1|  7|
+they walked home and [/] &+w and walked|   |3  |2 2|   |   |3  |   |   |  1| 11|
+     home in the bushes . %snd:"871"_403835_410219            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 88| 91|132| 22|  7| 44|  0|  0| 46|430|
+
+Developmental sentence score:  8.60

@@ -1,0 +1,81 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:59 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/709.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a boy walking to a store . %snd:"709"_18425_20668           |   |   |   |4  |   |   |   |   |  1|  5|
+a [/] a boy going to buy a cookie . %snd:"709"_20969_29703  |   |   |1  |4 2|   |   |   |   |  1|  8|
+he bought a cookie . %snd:"709"_36105_37245                 |   |2  |2  |   |   |   |   |   |  1|  5|
+all the cookies fell down . %snd:"709"_41489_43069          |3  |   |2  |   |   |   |   |   |  1|  6|
+the man got mad at the boy . %snd:"709"_47753_49953         |   |   |2  |   |   |   |   |   |  1|  3|
+a girl elephant was playing with a ball|   |   |2  |   |   |   |   |   |  1|  3|
+     . %snd:"709"_60249_63133                               |   |   |   |   |   |   |   |   |   |   |
+the ball went in a pool . %snd:"709"_67315_68937            |   |   |2  |   |   |   |   |   |  1|  3|
+a [/] &+gira a baby giraffe &+ca came  |1  |   |2 1|5  |   |   |   |   |  1| 10|
+    to get it . %snd:"709"_73527_77494                      |   |   |   |   |   |   |   |   |   |   |
+he got it and gave it to the girl . %snd:"709"_81335_84017  |1 1|2  |2 2|   |   |3  |   |   |  1| 12|
+the girl liked the giraffe . %snd:"709"_88604_90746         |   |   |2  |   |   |   |   |   |  1|  3|
+they looked at the pool . %snd:"709"_103893_105333            |   |3  |2  |   |   |   |   |   |  1|  6|
+the elephant was running in the pool . |   |   |2  |   |   |   |   |   |  1|  3|
+    %snd:"709"_110715_113918                                  |   |   |   |   |   |   |   |   |   |   |
+the elephant slipped and hurt her knee |   |2  |2 1|   |   |3  |   |   |  1|  9|
+    . %snd:"709"_117465_124274                                |   |   |   |   |   |   |   |   |   |   |
+a lifeguard came . %snd:"709"_129975_135062                   |   |   |2  |   |   |   |   |   |  1|  3|
+the lifeguard gave her a bandaid . %snd:"709"_136003_137845   |   |2  |2  |   |   |   |   |   |  1|  5|
+they sat on the chair . %snd:"709"_141312_142833              |   |3  |2  |   |   |   |   |   |  1|  6|
+the lifeguard &+poi pointed at the sign|   |   |2  |   |   |   |   |   |  1|  3|
+     . %snd:"709"_147575_150498                               |   |   |   |   |   |   |   |   |   |   |
+a girl was happy . %snd:"709"_162615_163816                   |   |   |2  |   |   |   |   |   |  1|  3|
+a plane hit her . %snd:"709"_167903_169324                    |   |2  |1  |   |   |   |   |   |  1|  4|
+the girl got the plane . %snd:"709"_172771_174833             |   |   |2  |   |   |   |   |   |  1|  3|
+and she put it on the water ? %snd:"709"_179445_181266        |1  |2  |1  |   |   |3  |1  |   |  1|  9|
+<the water sank> [//] no , the plane   |   |   |2  |   |   |   |   |   |  1|  3|
+    sank . %snd:"709"_184893_188075                           |   |   |   |   |   |   |   |   |   |   |
+the lifeguard came . %snd:"709"_192023_193523                 |   |   |2  |   |   |   |   |   |  1|  3|
+(...) the lifeguard saw the plane and  |1  |   |2 2|5  |   |3  |   |   |  1| 15|
+    tried to get it . %snd:"709"_209685_217155                |   |   |1  |   |   |   |   |   |   |   |
+it sank . %snd:"709"_221203_221963                            |1  |   |2  |   |   |   |   |   |  1|  4|
+a girl lifeguard had a net . %snd:"709"_225625_227747         |   |   |2  |   |   |   |   |   |  1|  3|
+the girl lifeguard got the plane . %snd:"709"_230612_233775   |   |   |2  |   |   |   |   |   |  1|  3|
+the girl lifeguard gave it to the boy .|1  |   |2  |   |   |   |   |   |  1|  4|
+     %snd:"709"_237421_239784                                 |   |   |   |   |   |   |   |   |   |   |
+the boy hugged the plane . %snd:"709"_243485_245086           |   |   |   |4  |   |   |   |   |  1|  5|
+a girl played in the sandbox . %snd:"709"_256745_258347       |   |   |2  |   |   |   |   |   |  1|  3|
+a rabbit came to play . %snd:"709"_262721_264301              |   |   |2 1|5  |   |   |   |   |  1|  9|
+the rabbit broke the girl's sandcastle |   |   |2  |   |   |   |   |   |  1|  3|
+    . %snd:"709"_269786_272768                                |   |   |   |   |   |   |   |   |   |   |
+the [/] &+rabb the girl was mad at the |   |   |2  |   |   |   |   |   |  1|  3|
+    rabbit . %snd:"709"_279359_282083                         |   |   |   |   |   |   |   |   |   |   |
+the girl was crying . %snd:"709"_288145_289345                |   |   |2  |   |   |   |   |   |  1|  3|
+a girl was going to a picnic . %snd:"709"_299460_302563       |   |   |2  |   |   |   |   |   |  1|  3|
+a boy came to [//] with her . %snd:"709"_309125_315172        |   |2  |2  |   |   |   |   |   |  1|  5|
+the boy was &+ff so full . %snd:"709"_320862_322844           |   |   |2  |   |   |   |   |   |  1|  3|
+he got the stomachache . %snd:"709"_326685_327986             |   |2  |2  |   |   |   |   |   |  1|  5|
+a doctor came . %snd:"709"_331893_333194                      |   |   |2  |   |   |   |   |   |  1|  3|
+the girl pulled the doctor . %snd:"709"_337262_338883         |   |   |2  |   |   |   |   |   |  1|  3|
+the doctor looked [^ pronounced "look- |   |   |2  |   |   |   |   |   |  1|  3|
+    ed"] at the boy . %snd:"709"_342595_344597                |   |   |   |   |   |   |   |   |   |   |
+he felt okay and came with the doctor .|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     %snd:"709"_349125_351688                                 |   |   |   |   |   |   |   |   |   |   |
+a girl had a wagon with a balloon on it|1  |   |2  |   |   |   |   |   |  1|  4|
+     . %snd:"709"_359290_362153                               |   |   |   |   |   |   |   |   |   |   |
+the boy tried to get the balloon . %snd:"709"_365360_368283   |   |   |1  |4  |   |   |   |   |  1|  6|
+it went up into the air . %snd:"709"_378093_380115            |1  |   |2  |   |   |   |   |   |  1|  4|
+(.) a guy had lots of balloons . %snd:"709"_393125_395108     |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit asked the man if he could   |   |2  |2 5|   |   |5  |   |   |  1| 16|
+    get a balloon . %snd:"709"_398676_402603                  |   |   |1  |   |   |   |   |   |   |   |
+the balloon cost five cents . %snd:"709"_406925_409408        |3  |   |   |4  |   |   |   |   |  1|  8|
+he didn't have five cents . %snd:"709"_415640_417324          |3  |2  |5 1|   |7  |   |   |   |  1| 19|
+and [/] and the &+rab boy rabbit asked |   |   |2 1|   |   |3  |   |   |  1|  7|
+    the doctor if [//] to come to the  |   |   |   |   |   |   |   |   |   |   |
+    balloons . %snd:"709"_428353_436103                       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 18| 28|111| 37|  7| 23|  1|  0| 50|275|
+
+Developmental sentence score:  5.50

@@ -1,0 +1,57 @@
+{
+  "cluster_threshold": 0.98,
+  "columns": 35,
+  "constant_columns": [],
+  "corr_threshold": 0.95,
+  "correlation_clusters": [
+    [
+      "DSS_tbl_warning_50",
+      "severity_use_with_caution"
+    ],
+    [
+      "VOCD_D_optimum_average_severity_z",
+      "severity_lexical"
+    ],
+    [
+      "Word_Errors_per_utt_severity_z",
+      "severity_morphosyntax_burden"
+    ]
+  ],
+  "duplicate_groups": [
+    [
+      "DSS_tbl_warning_50",
+      "severity_use_with_caution"
+    ],
+    [
+      "VOCD_D_optimum_average_severity_z",
+      "severity_lexical"
+    ]
+  ],
+  "high_correlation_pair_count": 8,
+  "id_like_columns": [
+    "File_ID",
+    "File_kideval",
+    "profile_dss_subscales"
+  ],
+  "input_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_profile_table.csv",
+  "modeled_numeric_columns": 30,
+  "numeric_columns": 32,
+  "recommended_exclude_from_modeling": [
+    "File_ID",
+    "File_kideval",
+    "profile_dss_subscales",
+    "severity_lexical",
+    "severity_use_with_caution"
+  ],
+  "rows": 360,
+  "substantive_duplicate_groups": [
+    [
+      "DSS_tbl_warning_50",
+      "severity_use_with_caution"
+    ],
+    [
+      "VOCD_D_optimum_average_severity_z",
+      "severity_lexical"
+    ]
+  ]
+}

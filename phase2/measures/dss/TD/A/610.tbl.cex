@@ -1,0 +1,96 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:58 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/610.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there was a boy . %snd:"610"_2416_3616                    |   |   |2  |   |   |   |   |   |  1|  3|
+he went to the store . %snd:"610"_3657_4857               |   |2  |2  |   |   |   |   |   |  1|  5|
+he wanted some cookies . %snd:"610"_7440_8840             |3  |2  |2  |   |   |   |   |   |  1|  8|
+so <he got> [//] he grabbed some       |3  |2  |2  |   |   |   |   |   |  1|  8|
+    cookies . %snd:"610"_12023_14043                        |   |   |   |   |   |   |   |   |   |   |
+but soon he [//] when he grabbed some  |3 3|2  |2 2|   |   |5 8|   |   |  1| 26|
+    cookies , all the cookies fell . %snd:"610"_16685_20489 |   |   |   |   |   |   |   |   |   |   |
+and the man [!] got angry . %snd:"610"_22673_25696          |   |   |2  |   |   |3  |   |   |  1|  6|
+there was an elephant who had a ball . |   |6  |2 2|   |   |   |   |   |  1| 11|
+    %snd:"610"_31495_35759                                  |   |   |   |   |   |   |   |   |   |   |
+(..) and then it fell in the water . %snd:"610"_39566_41727 |1  |   |2  |   |   |3  |   |   |  1|  7|
+so what is that animal is called ? [+  |   |   |1 7|   |   |8  |1  |2  |  1| 20|
+    bch] %snd:"610"_49657_53760                             |   |   |   |   |   |   |   |   |   |   |
+what kind of animal is that ? [+ bch] %snd:"610"_53861_54601|1  |   |1  |   |   |   |1  |   |  1|  4|
+well a horse &+wen grabbed the ball and|1  |   |2 2|   |   |3  |   |   |  1|  9|
+     gave it back to the elephant . %snd:"610"_57755_66763  |   |   |   |   |   |   |   |   |   |   |
+an(d) sh:e was so proud she got her    |   |2 2|2 2|   |   |3  |   |   |  1| 14|
+    ball back . %snd:"610"_69925_73732                      |   |2  |   |   |   |   |   |   |   |   |
+there was an elephant who wanted to    |   |6  |2 2|   |   |   |   |   |  1| 11|
+    jump off a jumping board . %snd:"610"_78455_86900       |   |   |   |   |   |   |   |   |   |   |
+so she ran over there . %snd:"610"_88823_90544              |   |2  |2  |   |   |   |   |   |  1|  5|
+change the page . [+ bch]              |   |   |1  |   |   |   |   |   |  1|  2|
+and she ran and she ran until she fell |   |2 2|2 2|   |   |3 3|   |   |  1| 24|
+    and <got her> [//] got a boo_boo . |   |2  |2 2|   |   |3  |   |   |   |   |
+    %snd:"610"_94455_97561                                  |   |   |   |   |   |   |   |   |   |   |
+so another elephant came and ran to her|3  |2 2|2 2|   |   |3 3|   |   |  1| 20|
+     <and gave> [/] and gave her a     |   |   |2  |   |   |   |   |   |   |   |
+    bandage . %snd:"610"_102675_110540                        |   |   |   |   |   |   |   |   |   |   |
+and she wiped her tears . %snd:"610"_112843_114383            |   |2 2|2  |   |   |3  |   |   |  1| 10|
+(..) <and she felt a little> [//] &+be |1  |2  |2  |   |   |   |   |   |  0|  5|
+    well it kind of stinged [: stung] [|   |   |   |   |   |   |   |   |   |   |
+    * m:=ed] her a little bit . %snd:"610"_117965_125675      |   |   |   |   |   |   |   |   |   |   |
+and she felt better . %snd:"610"_131245_133145                |   |2  |2  |   |   |3  |   |   |  1|  8|
+there was a h:orse who had a plane . %snd:"610"_138230_141811 |   |6  |2 2|   |   |   |   |   |  1| 11|
+(..) he flew it around . %snd:"610"_144274_145474             |1  |2  |2  |   |   |   |   |   |  1|  6|
+(..) but then the elephant grabbed it .|1  |   |2  |   |   |5  |   |   |  1|  9|
+     %snd:"610"_148275_150297                                 |   |   |   |   |   |   |   |   |   |   |
+(.) but then the elephant dropped it in|1  |   |2  |   |   |5  |   |   |  1|  9|
+     the water . %snd:"610"_152361_155084                     |   |   |   |   |   |   |   |   |   |   |
+and then the horse got mad at the      |   |   |2  |   |   |3  |   |   |  1|  6|
+    elephant . %snd:"610"_157208_161213                       |   |   |   |   |   |   |   |   |   |   |
+so the other elephant came and see what|3  |   |2 1|   |   |3  |   |4 2|  1| 18|
+     the problem was . %snd:"610"_163335_167340               |   |   |2  |   |   |   |   |   |   |   |
++" I accidentally dropped it in the    |1  |1  |2  |   |   |   |   |   |  1|  5|
+    water . %snd:"610"_172351_174573                          |   |   |   |   |   |   |   |   |   |   |
+so he [//] the elephant tried to reach |1  |   |2 1|5  |   |   |   |   |  1| 10|
+    it . %snd:"610"_176075_179057                             |   |   |   |   |   |   |   |   |   |   |
+but [!] he couldn't reach it . %snd:"610"_178978_181099       |1  |2  |5 1|   |7  |5  |   |   |  1| 22|
+so the horse cried . %snd:"610"_184423_185084                 |   |   |2  |   |   |   |   |   |  1|  3|
+(.) but then there's another [!]       |3 1|6 6|1 2|   |   |5  |   |   |  1| 26|
+    elephant who &+gra [/] who had a   |   |   |1  |   |   |   |   |   |   |   |
+    stick to grab it . %snd:"610"_188105_194493               |   |   |   |   |   |   |   |   |   |   |
+and then she pulled her stick in there |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    . %snd:"610"_196918_199220                                |   |   |   |   |   |   |   |   |   |   |
+and she grabbed it . %snd:"610"_199402_201124                 |1  |2  |2  |   |   |3  |   |   |  1|  9|
+then &+h he &+ho grabbed his plane . %snd:"610"_202885_206963 |   |2 2|2  |   |   |   |   |   |  1|  7|
+(.) and he [/] he holded [: held] [* m:|1  |2 2|2  |   |   |3  |   |   |  0| 10|
+    =ed] it tight to his &+t tummy . %snd:"610"_209485_221372 |   |   |   |   |   |   |   |   |   |   |
+there was a dog who: <was gonna make a |   |6  |2 2|   |   |   |   |   |  1| 11|
+    sandcastle> [//] made a sandcastle |   |   |   |   |   |   |   |   |   |   |
+    . %snd:"610"_228939_235968                                |   |   |   |   |   |   |   |   |   |   |
+so they put more sand to make it bigger|3 1|3  |1 1|   |   |   |   |   |  1| 10|
+     . %snd:"610"_236971_239573                               |   |   |   |   |   |   |   |   |   |   |
+but when he put more sand on it it     |1 1|2  |1  |   |   |5 8|   |   |  1| 19|
+    broke ! %snd:"610"_241775_247578                          |   |   |   |   |   |   |   |   |   |   |
+(..) and he accidentally broke it . %snd:"610"_250801_253041  |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and the dog was &+cr crying sad . %snd:"610"_252782_256403    |   |   |2  |   |   |3  |   |   |  1|  6|
+there was a rabbit and a dog . %snd:"610"_261635_264159       |   |   |2  |   |   |3  |   |   |  1|  6|
+(..) so <they ate> [//] they had a     |   |3 3|2 2|   |   |3  |   |   |  1| 14|
+    picnic and ate their food . %snd:"610"_267287_271092      |   |   |   |   |   |   |   |   |   |   |
+(.) later the rabbit got really full   |   |   |2  |   |   |   |   |   |  1|  3|
+    from eating . %snd:"610"_274035_279301                    |   |   |   |   |   |   |   |   |   |   |
+&+ss well he kinda fell asleep . %snd:"610"_281003_283766     |   |2  |2  |   |   |   |   |   |  1|  5|
+(.) and then the dog ran for help . %snd:"610"_288034_288994  |   |   |2  |   |   |3  |   |   |  1|  6|
+and so she came over . %snd:"610"_290596_292752               |   |2  |2  |   |   |3  |   |   |  1|  8|
+(..) and <she said> [//] &+sh he [//]  |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    so she opened his mouth . %snd:"610"_296745_307113        |   |   |   |   |   |   |   |   |   |   |
+(.) and then &+h [//] she took him home|   |2 2|2  |   |   |3  |   |   |  1| 10|
+     . %snd:"610"_310855_315159                               |   |   |   |   |   |   |   |   |   |   |
+and then he felt more better . %snd:"610"_315821_317903       |   |2  |2 1|   |   |3  |   |   |  1|  9|
+there was a dog and a rabbit . %snd:"610"_322050_325534       |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  | 41|116|140|  5|  7|132|  2|  8| 48|499|
+
+Developmental sentence score:  9.98

@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:56 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/505.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a elephant met a [/] a giraffe . %snd:"505"_10442_13803     |   |   |2  |   |   |   |   |   |  1|  3|
+<and the> [/] and the elephant's ball  |   |   |2  |   |   |3  |   |   |  1|  6|
+    went into the water . %snd:"505"_17105_20209            |   |   |   |   |   |   |   |   |   |   |
+then the giraffe would get it . %snd:"505"_25299_27664      |1  |   |5 1|   |   |   |   |   |  1|  8|
+and <then she> [/] &+w then she was    |   |2  |2  |   |   |3  |   |   |  1|  8|
+    happy . %snd:"505"_33905_36688                          |   |   |   |   |   |   |   |   |   |   |
+and then hmm: she liked her . %snd:"505"_41635_47584        |   |2 2|2  |   |   |3  |   |   |  1| 10|
+&-um the elephant and [/] and the [/]  |   |   |2 1|2  |   |3  |   |   |  1|  9|
+    the giraffe was going to run . %snd:"505"_61645_72603   |   |   |   |   |   |   |   |   |   |   |
+and he was going . %snd:"505"_75965_76946                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+and the elephant was going to run over |   |   |2 1|2  |   |3  |   |   |  1|  9|
+    to the jumping thing . %snd:"505"_77531_81501           |   |   |   |   |   |   |   |   |   |   |
+and then she slipped . %snd:"505"_90705_92067               |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then she fell . %snd:"505"_96161_97661                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then the lifeguard came . %snd:"505"_104465_106367        |   |   |2  |   |   |3  |   |   |  1|  6|
+and then he putted [: put] [* m:+ed] a |   |2  |1  |   |   |3  |   |   |  0|  6|
+    bandaid on . %snd:"505"_115341_117863                     |   |   |   |   |   |   |   |   |   |   |
+and then then she knowed [: knew] [* m:|3  |2  |2 2|   |   |3 8|   |   |  0| 20|
+    =ed] that there was no running . %snd:"505"_125795_129735 |   |   |   |   |   |   |   |   |   |   |
+and then she looked at the sign . %snd:"505"_138711_140874    |   |2  |2  |   |   |3  |   |   |  1|  8|
+and it said no running . %snd:"505"_141294_142676             |1 3|   |2  |   |   |3  |   |   |  1| 10|
+the giraffe had [/] had a airplane . %snd:"505"_154455_156939 |   |   |2  |   |   |   |   |   |  1|  3|
+and he was going to throw it . %snd:"505"_157221_159203       |1  |2  |2 1|2  |   |3  |   |   |  1| 12|
+and [/] <and the> [/] and the elephant |   |   |2 1|5  |   |3  |   |   |  1| 12|
+    wanted to try too . %snd:"505"_159386_163594              |   |   |   |   |   |   |   |   |   |   |
+and then he [/] &+s <he was> [//] &+tr |1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+    he wanted to throw it . %snd:"505"_167275_171157          |   |   |   |   |   |   |   |   |   |   |
+(.) and then the elephant was going to |1  |   |2 1|2  |   |3  |   |   |  1| 10|
+    throw it . %snd:"505"_179523_182284                       |   |   |   |   |   |   |   |   |   |   |
+and then it sank . %snd:"505"_186505_187786                   |1  |   |2  |   |   |3  |   |   |  1|  7|
+and then [/] then the giraffe was mad .|   |   |2  |   |   |3  |   |   |  1|  6|
+     %snd:"505"_192017_195242                                 |   |   |   |   |   |   |   |   |   |   |
+<and then> [/] and then the life^guard |1  |   |2 1|2  |   |3  |   |   |  1| 10|
+    was going to get it . %snd:"505"_211885_216814            |   |   |   |   |   |   |   |   |   |   |
+(.) <and then he> [/] and then he was  |1  |2  |2 1|   |   |3  |   |   |  1| 10|
+    almost about to get it . %snd:"505"_223755_227714         |   |   |   |   |   |   |   |   |   |   |
+(..) <and then> [/] and then the       |   |   |2  |   |   |3  |   |   |  1|  6|
+    giraffe was sad . %snd:"505"_238772_240661                |   |   |   |   |   |   |   |   |   |   |
+and then [/] then the girl lifeguard   |   |   |2 1|5  |   |3  |   |   |  1| 12|
+    came to get the airplane with a [/]|   |   |   |   |   |   |   |   |   |   |
+     &+th a net . %snd:"505"_254096_261344                    |   |   |   |   |   |   |   |   |   |   |
+and then she got it .                  |1  |2  |2  |   |   |3  |   |   |  1|  9|
+and then he was happy . %snd:"505"_282844_284384              |   |2  |2  |   |   |3  |   |   |  1|  8|
+a bunny and a bunny were playing in a  |   |   |2  |   |   |3  |   |   |  1|  6|
+    sandbox . %snd:"505"_297369_304373                        |   |   |   |   |   |   |   |   |   |   |
+and then they builded [: built] [* m:= |   |3  |2  |   |   |3  |   |   |  0|  8|
+    ed] a snow castle . %snd:"505"_307596_309997              |   |   |   |   |   |   |   |   |   |   |
+and then the [/] the other rabbit      |3 3|   |2  |   |   |3  |   |   |  1| 13|
+    poured some sand in it . %snd:"505"_314647_319370         |1  |   |   |   |   |   |   |   |   |   |
+and [/] and one part was still fixed . |3  |   |2  |   |   |3  |   |   |  1|  9|
+    %snd:"505"_326375_329358                                  |   |   |   |   |   |   |   |   |   |   |
+and then the other one was sad . %snd:"505"_340734_344900     |3 3|   |2  |   |   |3  |   |   |  1| 12|
+&-um &-um two rabbits had baskets . %snd:"505"_357785_360149  |3  |   |2  |   |   |   |   |   |  1|  6|
+and it had a picnic . %snd:"505"_363881_365222                |1  |   |2  |   |   |3  |   |   |  1|  7|
+<and then> [/] and then the other      |3  |   |2  |   |   |3  |   |   |  1|  9|
+    rabbit was full . %snd:"505"_372778_375043                |   |   |   |   |   |   |   |   |   |   |
+(..) then he was hurt . %snd:"505"_387975_389295              |   |2  |7  |   |   |   |   |   |  1| 10|
+he found a doctor . %snd:"505"_399584_400883                  |   |2  |2  |   |   |   |   |   |  1|  5|
+and [/] and he thoughted [: thought] [*|   |2  |2 7|   |   |3 8|   |   |  0| 22|
+     m:++ed:i] that guy was hurt . %snd:"505"_405305_408362   |   |   |   |   |   |   |   |   |   |   |
+(..) and then the doctor came . %snd:"505"_419835_421676      |   |   |2  |   |   |3  |   |   |  1|  6|
+and then [/] then the boy was better . |   |   |2  |   |   |3  |   |   |  1|  6|
+    %snd:"505"_424001_426483                                  |   |   |   |   |   |   |   |   |   |   |
+&-um the girl had a wagon with a       |1  |   |2  |   |   |   |   |   |  1|  4|
+    balloon on it . %snd:"505"_448777_452965                  |   |   |   |   |   |   |   |   |   |   |
+<and the> [/] and the other rabbit was |3  |   |2  |   |   |3  |   |   |  1|  9|
+    running . %snd:"505"_452666_456632                        |   |   |   |   |   |   |   |   |   |   |
+and then the boy rabbit was gonna take |   |   |2 1|2  |   |3  |   |   |  1|  9|
+    the balloon . %snd:"505"_460255_463999                    |   |   |   |   |   |   |   |   |   |   |
+<and then he> [/] and then he was      |1  |2  |2 1|2  |   |3  |   |   |  1| 12|
+    trying to take it off . %snd:"505"_470369_474174          |   |   |   |   |   |   |   |   |   |   |
+then it flew up in the air . %snd:"505"_484485_486406         |1  |   |2  |   |   |   |   |   |  1|  4|
+and then [/] then it popped . %snd:"505"_491432_493513        |1  |   |2  |   |   |3  |   |   |  1|  7|
+(...) and then he was going to the     |   |2  |2  |   |   |3  |   |   |  1|  8|
+    balloon man . %snd:"505"_509595_512077                    |   |   |   |   |   |   |   |   |   |   |
+and then [/] then the girl was sad . %snd:"505"_518749_522393 |   |   |2  |   |   |3  |   |   |  1|  6|
+and then [/] then he was mad . %snd:"505"_543899_545601       |   |2  |2  |   |   |3  |   |   |  1|  8|
+TOTAL                                  | 45| 43|128| 29|  0|142|  0|  0| 46|433|
+
+Developmental sentence score:  8.66

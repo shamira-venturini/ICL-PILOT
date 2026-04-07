@@ -1,0 +1,82 @@
+{
+  "ability_columns_flipped_to_severity_direction": [
+    "MLU_Morphemes_td_z",
+    "VOCD_D_optimum_average_td_z",
+    "IPSyn_Total_td_z",
+    "DSS_tbl_score_td_z",
+    "DSS_tbl_IP_td_z",
+    "DSS_tbl_PP_td_z",
+    "DSS_tbl_MV_td_z",
+    "DSS_tbl_SV_td_z",
+    "DSS_tbl_NG_td_z",
+    "DSS_tbl_CNJ_td_z",
+    "DSS_tbl_IR_td_z",
+    "DSS_tbl_WHQ_td_z"
+  ],
+  "burden_columns_kept_in_severity_direction": [
+    "Word_Errors_per_utt_td_z",
+    "retracing_per_utt_td_z",
+    "repetition_per_utt_td_z",
+    "bare_marking_errors_per_word_td_z",
+    "pronoun_errors_per_word_td_z",
+    "past_overgeneralization_errors_per_past_opp_td_z"
+  ],
+  "domain_spec": {
+    "profile_dss_subscales": [
+      "DSS_tbl_IP_severity_z",
+      "DSS_tbl_PP_severity_z",
+      "DSS_tbl_MV_severity_z",
+      "DSS_tbl_SV_severity_z",
+      "DSS_tbl_NG_severity_z",
+      "DSS_tbl_CNJ_severity_z",
+      "DSS_tbl_IR_severity_z",
+      "DSS_tbl_WHQ_severity_z"
+    ],
+    "severity_disruption": [
+      "Word_Errors_per_utt_severity_z",
+      "retracing_per_utt_severity_z",
+      "repetition_per_utt_severity_z"
+    ],
+    "severity_lexical": [
+      "VOCD_D_optimum_average_severity_z"
+    ],
+    "severity_morphosyntax_burden": [
+      "bare_marking_errors_per_word_severity_z",
+      "pronoun_errors_per_word_severity_z",
+      "past_overgeneralization_errors_per_past_opp_severity_z"
+    ],
+    "severity_structural": [
+      "MLU_Morphemes_severity_z",
+      "IPSyn_Total_severity_z",
+      "DSS_tbl_score_severity_z",
+      "DSS_tbl_MV_severity_z"
+    ]
+  },
+  "input_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_features_age_adjusted.csv",
+  "meta_columns": [
+    "File_ID",
+    "File_kideval",
+    "Group",
+    "Sex",
+    "Age(Month)",
+    "#utterances",
+    "#words",
+    "DSS_tbl_warning_50"
+  ],
+  "notes": [
+    "Severity-direction z-scores are coded so higher values indicate more severe deviation from TD expectations.",
+    "Ability measures were multiplied by -1 after TD-based age normalization.",
+    "Burden/error measures were left in their original direction after TD-based age normalization.",
+    "DSS_tbl_warning_50 is retained as a caution flag rather than used directly in the composite."
+  ],
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/measures/severity_profile_table.csv",
+  "rows": 360,
+  "severity_core_columns": [
+    "MLU_Morphemes_severity_z",
+    "VOCD_D_optimum_average_severity_z",
+    "IPSyn_Total_severity_z",
+    "DSS_tbl_score_severity_z",
+    "Word_Errors_per_utt_severity_z",
+    "bare_marking_errors_per_word_severity_z"
+  ]
+}

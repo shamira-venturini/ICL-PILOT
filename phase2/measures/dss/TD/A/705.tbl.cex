@@ -1,0 +1,87 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:59 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/705.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+he's going into a shop . %snd:"705"_13033_14534             |   |2  |1  |   |   |   |   |   |  1|  4|
+and he's gonna go shopping . %snd:"705"_14515_15895         |   |2  |1 1|2  |   |3  |   |   |  1| 10|
+he's going to buy stuff [//] cookies . |   |2  |1  |   |   |   |   |   |  1|  4|
+    %snd:"705"_19758_22739                                  |   |   |   |   |   |   |   |   |   |   |
+he's grabbing a box of cookies . %snd:"705"_26583_28583     |   |2  |1  |   |   |   |   |   |  1|  4|
+and the [//] all of the cookies fall   |3  |   |1  |   |   |3  |   |   |  1|  8|
+    down . %snd:"705"_32745_35528                           |   |   |   |   |   |   |   |   |   |   |
+and he runs away . %snd:"705"_40196_42938                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+and the shopper gets mad . %snd:"705"_44762_46383           |   |   |2  |   |   |3  |   |   |  1|  6|
+an elephant and a horse are playing . %snd:"705"_58405_65413|   |   |2  |   |   |3  |   |   |  1|  6|
++, the ball went into the swimming pool|   |   |2  |   |   |   |   |   |  1|  3|
+     . %snd:"705"_84445_88483                               |   |   |   |   |   |   |   |   |   |   |
+and the [/] the horse jumps in to go   |   |   |1 1|   |   |3  |   |   |  1|  6|
+    get the ball . %snd:"705"_95805_99987                   |   |   |   |   |   |   |   |   |   |   |
+the horse gives the ball to the        |   |   |2  |   |   |   |   |   |  1|  3|
+    elephant . %snd:"705"_104851_110313                       |   |   |   |   |   |   |   |   |   |   |
+the horse is giving the elephant a     |   |   |1  |   |   |   |   |   |  1|  2|
+    happy face . %snd:"705"_117825_121895                     |   |   |   |   |   |   |   |   |   |   |
+and the elephant is doing the exact    |   |   |1  |   |   |3  |   |   |  1|  5|
+    same . %snd:"705"_121777_124384                           |   |   |   |   |   |   |   |   |   |   |
+they're going to have a race . %snd:"705"_136178_137899       |   |3  |1 1|2  |   |   |   |   |  1|  8|
+then they changed their minds . %snd:"705"_142483_144324      |   |3 3|2  |   |   |   |   |   |  1|  9|
+and they're going to go on the jumping |   |3  |1 1|2  |   |3  |   |   |  1| 11|
+    board . %snd:"705"_144505_147128                          |   |   |   |   |   |   |   |   |   |   |
+they were running . %snd:"705"_153240_154260                  |   |3  |2  |   |   |   |   |   |  1|  6|
+and elephant slipped . %snd:"705"_154262_155843               |   |   |2  |   |   |3  |   |   |  1|  6|
+elephant hurt her [/] her knee . %snd:"705"_160885_164150     |   |2  |1  |   |   |   |   |   |  1|  4|
+the lifeguard comes . %snd:"705"_168261_170122                |   |   |2  |   |   |   |   |   |  1|  3|
+the lifeguard puts a bandaid on . %snd:"705"_175665_178168    |   |   |2  |   |   |   |   |   |  1|  3|
+now elephant is happy . %snd:"705"_184421_186663              |   |   |1  |   |   |   |   |   |  1|  2|
+&=sighs lifeguard is pointing to the   |3  |   |1  |   |   |   |   |   |  1|  5|
+    sign , no running . %snd:"705"_197535_201940              |   |   |   |   |   |   |   |   |   |   |
+they're talking together . %snd:"705"_212435_213475           |   |3  |1  |   |   |   |   |   |  1|  5|
+and one of them has a &+pa airplane . %snd:"705"_214798_217460|3  |3  |2  |   |   |3  |   |   |  1| 12|
+the airplane &+brea breaks . %snd:"705"_222348_224589         |   |   |2  |   |   |   |   |   |  1|  3|
+and he throws it in the swimming pool .|1  |2  |2  |   |   |3  |   |   |  1|  9|
+     %snd:"705"_224631_227234                                 |   |   |   |   |   |   |   |   |   |   |
+then they fix it . %snd:"705"_232085_233765                   |1  |3  |1  |   |   |   |   |   |  1|  6|
+and it flies . %snd:"705"_233626_236728                       |1  |   |2  |   |   |3  |   |   |  1|  7|
+then it falls into the swimming pool . |1  |   |2  |   |   |   |   |   |  1|  4|
+    %snd:"705"_240632_243833                                  |   |   |   |   |   |   |   |   |   |   |
+and it goes into the swimming pool &+s |1  |   |2  |   |   |3  |   |   |  1|  7|
+    into down , down , down . %snd:"705"_247575_253612        |   |   |   |   |   |   |   |   |   |   |
+now the lifeguard is mad at elephant   |   |   |1  |   |   |3  |   |   |  1|  5|
+    and horse . %snd:"705"_258815_262993                      |   |   |   |   |   |   |   |   |   |   |
+lifeguard [//] elephant told the       |1  |6 3|2 2|   |   |   |   |   |  1| 15|
+    lifeguard that we were playing with|   |   |   |   |   |   |   |   |   |   |
+     it airplane . %snd:"705"_268325_278873                   |   |   |   |   |   |   |   |   |   |   |
+lifeguard can't reach it . %snd:"705"_282265_284526           |1  |   |3 1|   |4  |   |   |   |  1| 10|
+horse cries . %snd:"705"_290653_291753                        |   |   |2  |   |   |   |   |   |  1|  3|
+elephant lifeguard comes to get the    |   |   |2 1|5  |   |   |   |   |  1|  9|
+    paper airplane . %snd:"705"_301555_309863                 |   |   |   |   |   |   |   |   |   |   |
+she gets it and picks it out of the    |1 1|2  |2 2|   |   |3  |   |   |  1| 12|
+    water . %snd:"705"_313885_317110                          |   |   |   |   |   |   |   |   |   |   |
+and she gives it to horse . %snd:"705"_321480_323864          |1  |2  |2  |   |   |3  |   |   |  1|  9|
+horse is happy and elephant . %snd:"705"_328195_330657        |   |   |1  |   |   |3  |   |   |  1|  5|
+and bunny rabbit wants to help . %snd:"705"_348443_350545     |   |   |2  |   |   |3  |   |   |  1|  6|
+and dog says bunny rabbit can help . %snd:"705"_351389_354613 |   |   |2 3|   |   |3  |   |   |  1| 10|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+bunny rabbit digs some sand up . %snd:"705"_358755_363237     |3  |   |2  |   |   |   |   |   |  1|  6|
+and dog &+tri prepares the castle . %snd:"705"_365300_371183  |   |   |2  |   |   |3  |   |   |  1|  6|
+dog is mad because bunny rabbit dumped |   |   |1 2|   |   |6  |   |   |  1| 10|
+    the sand <on &+ca castle> [//] on  |   |   |   |   |   |   |   |   |   |   |
+    the castle . %snd:"705"_377445_388078                     |   |   |   |   |   |   |   |   |   |   |
+the castle is broken . %snd:"705"_390183_391803               |   |   |7  |   |   |   |   |   |  1|  8|
+dog and bunny rabbit are sad . %snd:"705"_393645_396686       |   |   |2  |   |   |3  |   |   |  1|  6|
+dog is crying . %snd:"705"_403652_405193                      |   |   |1  |   |   |   |   |   |  1|  2|
+<bunny rabbit> [//] dog's trying to    |   |   |1 1|4 2|   |   |   |   |  1|  9|
+    make a new &+wa castle . %snd:"705"_405325_410248         |   |   |   |   |   |   |   |   |   |   |
+bunny rabbit's standing up going like  |1  |   |1  |4  |   |8  |   |   |  1| 15|
+    this [^ makes a face] . %snd:"705"_411510_417673          |   |   |   |   |   |   |   |   |   |   |
+dog's going for a &+pic picnic . %snd:"705"_432442_435323     |   |   |1  |4  |   |   |   |   |  1|  6|
+TOTAL                                  | 23| 51|101| 25|  4| 77|  0|  0| 50|331|
+
+Developmental sentence score:  6.62

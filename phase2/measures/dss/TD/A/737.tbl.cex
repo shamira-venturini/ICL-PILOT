@@ -1,0 +1,93 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:00 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/737.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a kid walking in the store to buy      |   |   |   |4  |   |   |   |   |  1|  5|
+    grocery . %snd:"737"_8780_11023                        |   |   |   |   |   |   |   |   |   |   |
+a [/] a kid wanting to buy the cookies |   |   |1  |4  |   |   |   |   |  1|  6|
+    . %snd:"737"_16892_19621                                |   |   |   |   |   |   |   |   |   |   |
+the kid taking the cookies in the box .|   |   |   |4  |   |   |   |   |  1|  5|
+     %snd:"737"_24225_33062                                 |   |   |   |   |   |   |   |   |   |   |
+the stack of cookies fell down . %snd:"737"_40555_42317     |   |   |2  |   |   |   |   |   |  1|  3|
+the manager got mad . %snd:"737"_48630_50151                |   |   |2  |   |   |   |   |   |  1|  3|
+and the kid ran away . %snd:"737"_49993_51193               |   |   |2  |   |   |3  |   |   |  1|  6|
+two kids meeting each other . %snd:"737"_64092_65154        |3 7|   |   |4  |   |   |   |   |  1| 18|
+                                       |3  |   |   |   |   |   |   |   |   |   |
+two kids had a ball . %snd:"737"_70755_72116                |3  |   |2  |   |   |   |   |   |  1|  6|
+and it fell in the water . %snd:"737"_71936_73157           |1  |   |2  |   |   |3  |   |   |  1|  7|
+one of the kids went to go get the ball|3  |   |2 1|5  |   |   |   |   |  1| 13|
+     in the water . %snd:"737"_76883_79324                  |   |   |1  |   |   |   |   |   |   |   |
+he gave the ball to the other kid . %snd:"737"_83812_85754  |3  |2  |2  |   |   |   |   |   |  1|  8|
+and when the kid [//] other kid was wet|3 3|   |2 5|2  |7  |3 8|   |   |  1| 36|
+     , the other kid didn't wanna go   |   |   |1 1|   |   |   |   |   |   |   |
+    close . %snd:"737"_91425_95794                          |   |   |   |   |   |   |   |   |   |   |
+two kids are about to jump in the      |3  |   |2 1|   |   |   |   |   |  1|  7|
+    diving pool . %snd:"737"_108240_113404                    |   |   |   |   |   |   |   |   |   |   |
+one kid says no because she doesn't    |3  |2  |2 3|2  |4  |6  |   |   |  1| 25|
+    wanna get wet . %snd:"737"_120025_125271                  |   |   |1 1|   |   |   |   |   |   |   |
+the other one runs away when the sign  |3 3|   |2 2|   |   |8  |   |   |  1| 22|
+    says no running . %snd:"737"_130760_134444                |3  |   |   |   |   |   |   |   |   |   |
+she fell down because she didn't see   |   |2 2|2 5|   |7  |6  |   |   |  1| 26|
+    the sign . %snd:"737"_138845_142070                       |   |   |1  |   |   |   |   |   |   |   |
+she had this big scratch on her knee . |1  |2 2|2  |   |   |   |   |   |  1|  8|
+    %snd:"737"_146360_148503                                  |   |   |   |   |   |   |   |   |   |   |
+then her head started to hurt . %snd:"737"_154295_156056      |   |2  |2 1|5  |   |   |   |   |  1| 11|
+then they put her on a bench to let her|   |3 2|1 1|   |   |   |   |   |  1| 11|
+     knee heal . %snd:"737"_159901_163804                     |   |2  |1  |   |   |   |   |   |   |   |
+the lifeguard pointed to the sign no   |   |   |2  |   |   |   |   |   |  1|  3|
+    running . %snd:"737"_167525_170728                        |   |   |   |   |   |   |   |   |   |   |
+one girl screaming . %snd:"737"_181243_182303                 |3  |   |   |4  |   |   |   |   |  1|  8|
+and the other kid laughing . %snd:"737"_182705_184066         |3  |   |   |4  |   |3  |   |   |  1| 11|
+one kid playing with the airplane . %snd:"737"_188976_190777  |3  |   |   |4  |   |   |   |   |  1|  8|
+then the other kid steals the airplane |3  |   |2  |   |   |   |   |   |  1|  6|
+    away from the boy . %snd:"737"_197455_201701              |   |   |   |   |   |   |   |   |   |   |
+then the airplane fell in the water . %snd:"737"_205489_208434|   |   |2  |   |   |   |   |   |  1|  3|
+then it started to sink . %snd:"737"_213155_214756            |1  |   |2 1|5  |   |   |   |   |  1| 10|
+then the lifeguard came . %snd:"737"_220483_222063            |   |   |2  |   |   |   |   |   |  1|  3|
+and the lifeguard talked to them what  |   |3  |2 2|   |   |3  |   |2  |  1| 13|
+    happened . %snd:"737"_225905_228588                       |   |   |   |   |   |   |   |   |   |   |
+the lifeguard tried to reach the       |   |   |2 1|5  |   |   |   |   |  1|  9|
+    airplane in the water . %snd:"737"_231894_235177          |   |   |   |   |   |   |   |   |   |   |
+but he couldn't reach it . %snd:"737"_237743_239203           |1  |2  |5 1|   |7  |5  |   |   |  1| 22|
+so he got a fishing net . %snd:"737"_242585_244127            |   |2  |2  |   |   |   |   |   |  1|  5|
+he used the fishing net to get the     |   |2  |2 1|   |   |   |   |   |  1|  6|
+    airplane out of the water . %snd:"737"_247696_251384      |   |   |   |   |   |   |   |   |   |   |
+he [//] she got the airplane out . %snd:"737"_257245_258946   |   |2  |2  |   |   |   |   |   |  1|  5|
+now they were both happy . %snd:"737"_262653_264034           |7  |3  |2  |   |   |   |   |   |  1| 13|
+two kids playing in the sandbox . %snd:"737"_276038_277778    |3  |   |   |4  |   |   |   |   |  1|  8|
+two of the kids trying to build a      |3  |   |1  |4 2|   |   |   |   |  1| 11|
+    sandcastle . %snd:"737"_281563_283904                     |   |   |   |   |   |   |   |   |   |   |
+the other kid dumps s:and on the       |3 1|   |2 1|   |   |   |   |   |  1|  8|
+    sandcastle to ruin it . %snd:"737"_288165_292112          |   |   |   |   |   |   |   |   |   |   |
+the kid is sad now . %snd:"737"_302685_304186                 |   |   |1  |   |   |   |   |   |  1|  2|
+two kids taking a jog to have picnic . |3  |   |1  |4  |   |   |   |   |  1|  9|
+    %snd:"737"_313920_317923                                  |   |   |   |   |   |   |   |   |   |   |
+the one kid is eating like a pig . %snd:"737"_322525_324748   |3  |   |1  |   |   |8  |   |   |  1| 13|
+and the other is just taking out a     |3  |   |1  |   |   |3  |   |   |  1|  8|
+    sandwich . %snd:"737"_324569_326811                       |   |   |   |   |   |   |   |   |   |   |
+the other one is full while the other  |3 3|   |1 1|   |   |8  |   |   |  1| 23|
+    one is still eating . %snd:"737"_329779_332959            |3 3|   |   |   |   |   |   |   |   |   |
+the other one is still full . %snd:"737"_337285_340012        |3 3|   |1  |   |   |   |   |   |  1|  8|
+and the other one is [//] starts to    |3 3|   |2  |   |   |3  |   |   |  1| 15|
+    worry about the other kid . %snd:"737"_339842_343564      |3  |   |   |   |   |   |   |   |   |   |
+then the other kid <starts to ask a> [/|3  |2  |2 1|5  |   |   |   |   |  1| 15|
+    /] &+lad starts to ask a nurse to  |   |   |1  |   |   |   |   |   |   |   |
+    help him . %snd:"737"_347355_354403                       |   |   |   |   |   |   |   |   |   |   |
+the nurse helps the [/] the kid &-um   |   |2  |2  |   |   |   |   |   |  1|  5|
+    with his full stomach . %snd:"737"_357905_363552          |   |   |   |   |   |   |   |   |   |   |
+she tells the kid to open his mouth . %snd:"737"_368862_371143|   |2 2|2 1|   |   |   |   |   |  1|  8|
+the kid is okay now . %snd:"737"_374425_375946                |   |   |1  |   |   |   |   |   |  1|  2|
+one kid walking with a wagon . %snd:"737"_384159_386100       |3  |   |   |4  |   |   |   |   |  1|  8|
+and the other one trying to catch up . |3 3|   |1  |2  |   |3  |   |   |  1| 13|
+    %snd:"737"_386082_388064                                  |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |124| 43|113| 77| 25| 73|  0|  2| 50|507|
+
+Developmental sentence score: 10.14

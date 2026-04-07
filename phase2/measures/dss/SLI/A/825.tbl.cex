@@ -1,0 +1,85 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:52 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/825.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+the little kid was going to the store .|   |   |2  |   |   |   |   |   |  1|  3|
+     %snd:"825"_4187_7129                                 |   |   |   |   |   |   |   |   |   |   |
+he goes to cookies . %snd:"825"_11853_13653                 |   |2  |2  |   |   |   |   |   |  1|  5|
+he takes a box of cookies . %snd:"825"_17325_19205          |   |2  |2  |   |   |   |   |   |  1|  5|
+all the other box [= boxes] [* m:0s:a] |3 3|   |1  |   |   |   |   |   |  0|  7|
+    fall down . %snd:"825"_20086_25829                      |   |   |   |   |   |   |   |   |   |   |
+the store man's mad at him . %snd:"825"_28471_30993         |   |2  |1  |   |   |   |   |   |  1|  4|
+and he runs away . %snd:"825"_30734_31833                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+here he comes .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+how are you ? %snd:"825"_48324_49124                        |   |1  |2  |   |   |   |1  |4  |  1|  9|
+I'll get your &+ba &-um ball elephant .|   |1 1|3 1|   |   |   |   |   |  1|  7|
+     %snd:"825"_54495_57417                                 |   |   |   |   |   |   |   |   |   |   |
+oh thank you giraffe . %snd:"825"_69855_71315               |   |1  |1  |   |   |   |   |   |  1|  3|
+I like you giraffe .                   |   |1 1|1  |   |   |   |   |   |  1|  4|
+I see the giraffe .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+elephant why don't we go swimming ? %snd:"825"_89799_91679  |   |3  |1  |   |4  |   |6 1|4 7|  1| 27|
+(.) I'll jump in first . %snd:"825"_96003_97223             |   |1  |3 1|   |   |   |   |   |  1|  6|
+oh elephant don't slip and hurt        |   |5  |3 1|   |4  |3  |   |   |  1| 18|
+    yourself . %snd:"825"_102755_105597                       |   |   |1  |   |   |   |   |   |   |   |
+oh elephant are you okay ? %snd:"825"_109822_111083           |   |1  |2  |   |   |   |1  |   |  1|  5|
+I'll go get the lifeguard . %snd:"825"_111002_112263          |   |1  |3 1|   |   |   |   |   |  1|  7|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+there's the lifeguard . %snd:"825"_116975_117755              |   |   |1  |   |   |   |   |   |  1|  2|
+he'll help you . %snd:"825"_119116_120216                     |   |2 1|3 1|   |   |   |   |   |  1|  8|
+are you okay ?                         |   |1  |2  |   |   |   |1  |   |  1|  5|
+sit on this bench for awhile . %snd:"825"_130224_131624       |1  |   |1  |   |   |   |   |   |  1|  3|
+and you'll feel better . %snd:"825"_131785_132826             |   |1  |3 1|   |   |3  |   |   |  1| 10|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+how's [//] your leg's better . %snd:"825"_155909_158673       |   |1  |1 1|   |   |   |   |   |  1|  4|
+do you like my new airplane ? %snd:"825"_162395_163916        |   |1 1|3 1|   |   |   |6 1|   |  1| 14|
+could I play with it ? %snd:"825"_167643_169223               |1  |1  |1  |   |   |   |6 1|   |  1| 11|
+sorry [/] sorry giraffe that I dropped |   |6 1|2  |   |   |   |   |   |  1| 11|
+    your plane in the water . %snd:"825"_173675_177538        |   |1  |   |   |   |   |   |   |   |   |
+&=growls I don't wanna be your friend  |   |1 1|3 1|2  |4  |   |   |   |  1| 13|
+    anymore . %snd:"825"_181902_183703                        |   |   |   |   |   |   |   |   |   |   |
+I don't like you . %snd:"825"_192017_193858                   |   |1 1|3 1|   |4  |   |   |   |  1| 11|
+lifeguard I was only playing with it . |3 1|1  |2  |   |   |   |   |   |  1|  8|
+    %snd:"825"_193558_196000                                  |   |   |   |   |   |   |   |   |   |   |
+I can't reach it . %snd:"825"_200822_202644                   |1  |1  |3 1|   |4  |   |   |   |  1| 11|
+now look they'll think you made &+lil <|   |3 1|1 3|5 5|   |   |   |   |  1| 22|
+    the little giraffe> [//] the little|   |   |1 2|   |   |   |   |   |   |   |
+     boy giraffe cry . %snd:"825"_208865_215229               |   |   |   |   |   |   |   |   |   |   |
+it's okay . %snd:"825"_219052_219892                          |1  |   |1  |   |   |   |   |   |  1|  3|
+I can get it out with my net . %snd:"825"_220053_221894       |1  |1 1|3 1|   |   |   |   |   |  1|  8|
+(..) see you can't [!] get it out with |1  |1 1|1 3|   |4  |   |   |   |  1| 13|
+    your net . %snd:"825"_229195_232501                       |   |   |1  |   |   |   |   |   |   |   |
+thank you . %snd:"825"_236993_237914                          |   |1  |1  |   |   |   |   |   |  1|  3|
+I'm sorry that I said I don't wanna be |7  |1 1|2 2|2  |4  |8  |   |   |  1| 34|
+    your friend any more . %snd:"825"_243785_246886           |   |1 1|3 1|   |   |   |   |   |   |   |
+do you wanna play with me in the sand ?|   |1 1|3 1|2  |   |   |6 1|   |  1| 17|
+     %snd:"825"_257915_259957                                 |   |   |1  |   |   |   |   |   |   |   |
+I'm building a sandcastle . %snd:"825"_261080_263664          |   |1  |2  |   |   |   |   |   |  1|  4|
+do you wanna help ? %snd:"825"_264226_265567                  |   |1  |3 1|   |   |   |6 1|   |  1| 13|
+I'm sorry . %snd:"825"_282381_283221                          |   |1  |2  |   |   |   |   |   |  1|  4|
+do you wanna have a picnic with me ? %snd:"825"_293172_295414 |   |1 1|3 1|2  |   |   |6 1|   |  1| 17|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+this is [//] sure are some good carrots|1 3|   |2  |   |   |   |   |   |  1|  7|
+     . %snd:"825"_298141_300163                               |   |   |   |   |   |   |   |   |   |   |
+I'm full . %snd:"825"_306677_312309                           |   |1  |2  |   |   |   |   |   |  1|  4|
+missus rabbit your [/] &-um <your lil> |   |1  |1  |4  |   |   |   |   |  1|  7|
+    [//] your son rabbit's &-um falling|   |   |   |   |   |   |   |   |   |   |
+     asleep . %snd:"825"_320415_327859                        |   |   |   |   |   |   |   |   |   |   |
+and I can't wake him up . %snd:"825"_328881_330421            |   |1 2|3 1|   |4  |3  |   |   |  1| 15|
+you ate too much again . %snd:"825"_340115_341855             |   |1  |2  |   |   |   |   |   |  1|  4|
+you're grounded . %snd:"825"_342076_342796                    |   |1  |7  |   |   |   |   |   |  1|  9|
+time to go home rabbit .               |   |   |1  |   |   |   |   |   |  1|  2|
+do you wanna come for a walk with me ? |   |1 1|3 1|2  |   |   |6 1|   |  1| 17|
+    %snd:"825"_359538_361699                                  |   |   |1  |   |   |   |   |   |   |   |
+but it costed [: cost] [* m:=ed] five  |1 3|   |1  |   |   |5  |   |   |  0| 10|
+    dollars . %snd:"825"_376497_377837                        |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 31| 80|143| 24| 32| 25| 52| 15| 48|450|
+
+Developmental sentence score:  9.00

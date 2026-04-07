@@ -1,0 +1,84 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:08 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/B/648.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+one day a little boy went to the store |3  |   |2  |   |   |   |   |   |  1|  6|
+    . %snd:"648"_5018_10080                                |   |   |   |   |   |   |   |   |   |   |
+he saw some cookies . %snd:"648"_12883_14504                |3  |2  |2  |   |   |   |   |   |  1|  8|
+they were chocolate chip . %snd:"648"_18415_20055           |   |3  |2  |   |   |   |   |   |  1|  6|
+he took one in the middle . %snd:"648"_19796_22177          |3  |2  |2  |   |   |   |   |   |  1|  8|
+he took it and all [!] the <cook as> [/|1 3|2  |2 2|   |   |3  |   |   |  1| 14|
+    ] cookies fell down . %snd:"648"_26541_31823            |   |   |   |   |   |   |   |   |   |   |
+the store cleaner was very mad . %snd:"648"_34105_38631     |   |   |2  |   |   |   |   |   |  1|  3|
++" come and play with me in the sand   |   |1  |1  |   |   |3  |   |   |  1|  6|
+    box . %snd:"648"_50836_54098                            |   |   |   |   |   |   |   |   |   |   |
+rabbit said okay . %snd:"648"_56080_57540                   |   |   |2  |   |   |   |   |   |  1|  3|
+they made a sandcastle . %snd:"648"_60883_62323             |   |3  |2  |   |   |   |   |   |  1|  6|
+rabbit filled the bucket with a shovel |   |   |2  |   |   |   |   |   |  1|  3|
+    . %snd:"648"_66065_70211                                |   |   |   |   |   |   |   |   |   |   |
+he dumped the bucket onto doggy's      |   |2  |2  |   |   |   |   |   |  1|  5|
+    sandcastle . %snd:"648"_74041_76224                     |   |   |   |   |   |   |   |   |   |   |
++" oh no I broke your castle ! %snd:"648"_84508_86670       |   |1 1|2  |   |   |   |   |   |  1|  5|
+doggy said it's okay . %snd:"648"_86952_88734               |1  |   |2 1|   |   |   |   |   |  1|  5|
+but then he got sad . %snd:"648"_92982_94763                |   |2  |2  |   |   |5  |   |   |  1| 10|
+and he tried to make it again . %snd:"648"_95445_99029      |1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+rabbit sighed . %snd:"648"_100533_101553                      |   |   |2  |   |   |   |   |   |  1|  3|
+let's have a picnic in the woods . %snd:"648"_108645_110887   |   |3  |1 1|2  |   |   |   |   |  1|  8|
+rabbit was so hungry . %snd:"648"_114633_116695               |   |   |2  |   |   |   |   |   |  1|  3|
+he took out all the food in his picnic |1  |2 2|2 1|   |   |3  |   |   |  0| 11|
+    &+bak basket and starting [=       |   |   |   |   |   |   |   |   |   |   |
+    started] [* m:0ed] eat it . %snd:"648"_117237_122824      |   |   |   |   |   |   |   |   |   |   |
+doggy ate a few ! %snd:"648"_126355_127555                    |   |   |2  |   |   |   |   |   |  1|  3|
+and rabbit ate all of his things . %snd:"648"_127675_131117   |3  |2  |2  |   |   |3  |   |   |  1| 11|
+when he was done he got a big tummyache|   |2 2|7 2|   |   |8  |   |   |  1| 22|
+     . %snd:"648"_131939_134660                               |   |   |   |   |   |   |   |   |   |   |
++" you shouldn't eat so much rabbit . %snd:"648"_140245_142247|3  |1  |5 1|   |7  |   |   |   |  1| 18|
++" save some for your dinner ! %snd:"648"_142788_144490       |3  |1  |1  |   |   |   |   |   |  1|  6|
+&=moans said rabbit . %snd:"648"_146915_147734                |   |   |2  |   |   |   |   |   |  1|  3|
+doggy &+g ran to the nurse rabbit . %snd:"648"_149719_152842  |   |   |2  |   |   |   |   |   |  1|  3|
++" quick my friend rabbit has a big    |   |1  |2  |   |   |   |   |   |  1|  4|
+    tummyache from eating too much ! %snd:"648"_154965_159391 |   |   |   |   |   |   |   |   |   |   |
+she dragged the nurse to the picnic    |   |2  |2  |   |   |   |   |   |  1|  5|
+    basket . %snd:"648"_163598_167363                         |   |   |   |   |   |   |   |   |   |   |
++" <you need> [//] I needta take your  |   |1 1|1 1|   |   |   |   |   |  1|  5|
+    temperature ! %snd:"648"_172726_176773                    |   |   |   |   |   |   |   |   |   |   |
++" and then we'll see how you feel ! %snd:"648"_178317_182083 |   |1  |3 1|5  |   |3  |   |4 4|  1| 23|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+rabbit felt all better when the nurse  |   |   |2 1|   |   |8  |   |   |  1| 12|
+    had done . %snd:"648"_186215_188858                       |   |   |   |   |   |   |   |   |   |   |
+dog was so happy he told . %snd:"648"_189600_192243           |   |2  |2 2|   |   |   |   |   |  1|  7|
+it's so funny [=! whispering] .        |1  |   |1  |   |   |   |   |   |  1|  3|
++" let's play ! %snd:"648"_203687_204688                      |   |3  |1 1|2  |   |   |   |   |  1|  8|
++" I have a new balloon ! %snd:"648"_204689_206731            |   |1  |1  |   |   |   |   |   |  1|  3|
++" ooh it's pretty ! %snd:"648"_210657_212299                 |1  |   |1 1|   |   |   |   |   |  1|  4|
++" I wanna play with it ! %snd:"648"_212782_214624            |1  |1  |1 1|2  |   |   |   |   |  1|  7|
++" and then we can play with it ! %snd:"648"_224258_226142    |1  |3  |3 1|   |   |3  |   |   |  1| 12|
++" mm oh I know . %snd:"648"_244421_246061                    |   |1  |1  |   |   |   |   |   |  1|  3|
++" I will get some more balloons from  |3 3|1  |3 1|   |   |   |   |   |  1| 12|
+    the balloon man . %snd:"648"_245968_249844                |   |   |   |   |   |   |   |   |   |   |
+I know . [+ bch]                       |   |1  |1  |   |   |   |   |   |  1|  3|
++" balloon man can I have a balloon ! %snd:"648"_260862_261882|   |1  |1  |   |   |   |   |   |  1|  3|
++" &-um [^ creaky voice] do we have any|7 3|3  |5 1|   |   |   |6  |   |  1| 26|
+     five cents ! %snd:"648"_269885_272092                    |   |   |   |   |   |   |   |   |   |   |
++" &=creaky they are five cents ! %snd:"648"_272678_274240    |3  |3  |2  |   |   |   |   |   |  1|  9|
++" hm hmm if he can't buy it who can ? |1  |2  |3 1|   |4  |5  |1  |4 2|  1| 24|
+    %snd:"648"_283845_285847                                  |   |   |   |   |   |   |   |   |   |   |
++" &~oo missus nurse can you help us   |   |1 3|1 1|5  |   |   |1  |   |  1| 13|
+    get a balloon ? %snd:"648"_291176_296263                  |   |   |   |   |   |   |   |   |   |   |
++" the balloon doggy got floated away !|   |   |2  |   |   |   |   |   |  1|  3|
+     %snd:"648"_297845_300627                                 |   |   |   |   |   |   |   |   |   |   |
++" the [/] the balloon man is right    |   |   |1  |   |   |   |   |   |  1|  2|
+    there . %snd:"648"_305295_308036                          |   |   |   |   |   |   |   |   |   |   |
++" &=creaky here you go ! %snd:"648"_311783_312914            |   |1  |1  |   |   |   |   |   |  1|  3|
++" thank you !                         |   |1  |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 49| 70|122| 21| 11| 47|  8| 14| 49|391|
+
+Developmental sentence score:  7.82

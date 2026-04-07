@@ -1,0 +1,90 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:01 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/769.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+this little boy is going to a store to |1 3|   |1  |   |   |   |   |   |  1|  6|
+    buy something . %snd:"769"_12675_15819                  |   |   |   |   |   |   |   |   |   |   |
+then he sees some cookies . %snd:"769"_17824_19305          |3  |2  |2  |   |   |   |   |   |  1|  8|
+and he wants to buy some . %snd:"769"_19326_20948           |3  |2  |2 1|5  |   |3  |   |   |  1| 17|
+so he takes a box . %snd:"769"_22152_23553                  |   |2  |2  |   |   |   |   |   |  1|  5|
+and the pile falls down . %snd:"769"_26185_28025            |   |   |2  |   |   |3  |   |   |  1|  6|
+and then the man gets mad , really mad |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"769"_29607_32568                                |   |   |   |   |   |   |   |   |   |   |
+an elephant was playing with the ball  |   |   |2  |   |   |   |   |   |  1|  3|
+    at the swimming pool . %snd:"769"_41335_44478           |   |   |   |   |   |   |   |   |   |   |
+and then she dropped the ball into the |   |2  |2  |   |   |3  |   |   |  1|  8|
+    pool . %snd:"769"_46302_49505                           |   |   |   |   |   |   |   |   |   |   |
+and then the horse: went to get it . %snd:"769"_52431_55614 |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+and he got it for her . %snd:"769"_58355_59876              |1  |2 2|2  |   |   |3  |   |   |  1| 11|
+and she was very happy . %snd:"769"_62001_63562             |   |2  |2  |   |   |3  |   |   |  1|  8|
+oh this one's a little hard . [+ bch] %snd:"769"_72505_74045|1 3|   |1  |   |   |   |   |   |  1|  6|
+hm elephant and horse went to the      |   |   |2  |   |   |3  |   |   |  1|  6|
+    swimming pool . %snd:"769"_81292_83253                  |   |   |   |   |   |   |   |   |   |   |
+and elephant wanted to go on the diving|   |   |2 1|5  |   |3  |   |   |  1| 12|
+     board . %snd:"769"_86825_89466                         |   |   |   |   |   |   |   |   |   |   |
+so she ran there . %snd:"769"_89527_90807                   |   |2  |2  |   |   |   |   |   |  1|  5|
+and she slipped . %snd:"769"_92750_93810                    |   |2  |2  |   |   |3  |   |   |  1|  8|
+and she hurt her knee . %snd:"769"_96033_97673              |   |2 2|1  |   |   |3  |   |   |  1|  9|
+and &-uh horse went to get the         |   |   |2 1|5  |   |3  |   |   |  1| 12|
+    lifeguard . %snd:"769"_99095_104539                      |   |   |   |   |   |   |   |   |   |   |
+the lifeguard came to see it she was   |1  |2  |2 1|5  |   |   |   |   |  1| 14|
+    all right . %snd:"769"_106382_109703                      |   |   |2  |   |   |   |   |   |   |   |
+and the lifeguard put a bandaid on her |   |2  |1  |   |   |3  |   |   |  1|  7|
+    knee . %snd:"769"_111485_114988                           |   |   |   |   |   |   |   |   |   |   |
+then she sat down for a little bit . %snd:"769"_117012_119214 |   |2  |2  |   |   |   |   |   |  1|  5|
+elephant and horse were at the swimming|   |   |2  |   |   |3  |   |   |  1|  6|
+     pool . %snd:"769"_134736_140203                          |   |   |   |   |   |   |   |   |   |   |
+&+eleph I mean , horse showed elephant |   |1 2|1 2|5  |   |   |   |   |  1| 22|
+    his airplane that he brought . %snd:"769"_143625_149814   |   |6 2|2  |   |   |   |   |   |   |   |
+and then elephant just grabbed it out  |1  |2  |2  |   |   |3  |   |   |  1|  9|
+    of his hands . %snd:"769"_152299_155584                   |   |   |   |   |   |   |   |   |   |   |
+and then it fell in the water . %snd:"769"_158065_159665      |1  |   |2  |   |   |3  |   |   |  1|  7|
+and then horse was very mad . %snd:"769"_162428_164889        |   |   |2  |   |   |3  |   |   |  1|  6|
+then the lifeguard came . %snd:"769"_169213_170713            |   |   |2  |   |   |   |   |   |  1|  3|
++" the airplane fell in the water by   |   |   |2  |   |   |   |   |   |  1|  3|
+    accident . %snd:"769"_176590_178952                       |   |   |   |   |   |   |   |   |   |   |
+she dropped it by accident . %snd:"769"_179194_181236         |1  |2  |2  |   |   |   |   |   |  1|  6|
+and the lifeguard tried to reach it . %snd:"769"_182940_186064|1  |   |2 1|5  |   |3  |   |   |  1| 13|
+but his [/] his arms were too short . %snd:"769"_186705_189349|   |2  |2  |   |   |5  |   |   |  1| 10|
+and then horse was crying . %snd:"769"_192639_195202          |   |   |2  |   |   |3  |   |   |  1|  6|
+and then this other girl came with a   |1 3|   |2  |   |   |3  |   |   |  1| 10|
+    net . %snd:"769"_198425_201889                            |   |   |   |   |   |   |   |   |   |   |
+and she tried to get it out . %snd:"769"_201850_204352        |1  |2  |2 1|5  |   |3  |   |   |  1| 15|
+and she got the airplane out . %snd:"769"_205555_207457       |   |2  |2  |   |   |3  |   |   |  1|  8|
+and then horse was very [!] happy . %snd:"769"_209902_211903  |   |   |2  |   |   |3  |   |   |  1|  6|
+and he [/] he was glad he had his      |   |2 2|2 2|   |   |3  |   |   |  1| 14|
+    airplane . %snd:"769"_215315_218236                       |   |2  |   |   |   |   |   |   |   |   |
+rabbit and dog were playing in the     |   |   |2  |   |   |3  |   |   |  1|  6|
+    sandbox . %snd:"769"_224201_228583                        |   |   |   |   |   |   |   |   |   |   |
+and rabbit made a very nice castle . %snd:"769"_229145_231367 |   |   |2  |   |   |3  |   |   |  1|  6|
+and then rabbit dug up some sand and   |3 1|2  |2 1|   |   |3 3|   |   |  1| 22|
+    put it in his bucket and dumped it |1  |   |2  |   |   |3  |   |   |   |   |
+    all over the castle . %snd:"769"_234432_243563            |   |   |   |   |   |   |   |   |   |   |
+and then he was &-um he [/] he didn't  |   |2 2|2 5|5  |7  |3  |   |   |  1| 29|
+    mean to put the sand on the castle |   |   |1 1|   |   |   |   |   |   |   |
+    . %snd:"769"_247395_263843                                |   |   |   |   |   |   |   |   |   |   |
+and then dog was crying . %snd:"769"_267765_269246            |   |   |2  |   |   |3  |   |   |  1|  6|
+one day dog and rabbit went to have a  |3  |   |2 1|5  |   |3  |   |   |  1| 15|
+    picnic . %snd:"769"_278078_281984                         |   |   |   |   |   |   |   |   |   |   |
+rabbit was very [!] hungry . %snd:"769"_285465_287767         |   |   |2  |   |   |   |   |   |  1|  3|
+and he ate <all of the stuff> [//] all |3  |2  |2  |   |   |3  |   |   |  1| 11|
+    of the food . %snd:"769"_290333_295259                    |   |   |   |   |   |   |   |   |   |   |
+then he got a tummyache . %snd:"769"_296723_297804            |   |2  |2  |   |   |   |   |   |  1|  5|
+and then a doctor [!] came and [//]    |   |   |2  |   |   |3  |   |   |  1|  6|
+    down the road . %snd:"769"_301265_305727                  |   |   |   |   |   |   |   |   |   |   |
+and then dog came to get her . %snd:"769"_305528_307569       |   |2  |2 1|5  |   |3  |   |   |  1| 14|
+and dog pulled her and pulled her to   |   |2 2|2 2|5  |   |3 3|   |   |  1| 22|
+    come see rabbit . %snd:"769"_310091_313574                |   |   |1 1|   |   |   |   |   |   |   |
+and the rabbit checked her and said    |   |2 2|2 2|   |   |3 3|   |   |  1| 25|
+    that she had a tummyache . %snd:"769"_316445_320169       |   |   |2  |   |   |8  |   |   |   |   |
+TOTAL                                  | 37| 75|130| 60|  7|130|  0|  0| 50|489|
+
+Developmental sentence score:  9.78

@@ -1,0 +1,4 @@
+cluster_size,columns
+2,DSS_tbl_warning_50 | severity_use_with_caution
+2,VOCD_D_optimum_average_severity_z | severity_lexical
+2,Word_Errors_per_utt_severity_z | severity_morphosyntax_burden

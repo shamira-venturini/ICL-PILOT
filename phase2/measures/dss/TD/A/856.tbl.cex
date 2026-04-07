@@ -1,0 +1,86 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:02 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/856.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a boy is walking to the store . %snd:"856"_2636_4577      |   |   |1  |   |   |   |   |   |  1|  2|
+he sees cookies . %snd:"856"_6459_7699                    |   |2  |2  |   |   |   |   |   |  1|  5|
+he takes one cookie box . %snd:"856"_9461_12021            |3  |2  |2  |   |   |   |   |   |  1|  8|
+store keeper gets angry . %snd:"856"_17115_18757            |   |   |2  |   |   |   |   |   |  1|  3|
+&-um an elephant's bouncing a ball . %snd:"856"_20828_28613 |   |   |1  |4  |   |   |   |   |  1|  6|
+the ball gets in the water . %snd:"856"_30895_32417         |   |   |2  |   |   |   |   |   |  1|  3|
+the horse swims to try to get it and   |1 1|   |2 1|5 5|   |3  |   |   |  1| 22|
+    got it . %snd:"856"_34583_39934                         |   |   |1 2|   |   |   |   |   |   |   |
+&-uh <the other> [//] the elephant's   |   |   |1  |   |   |   |   |   |  1|  2|
+    thankful . %snd:"856"_51019_54320                       |   |   |   |   |   |   |   |   |   |   |
+&-uh the horse and elephant wanna go   |   |   |1 1|2  |   |3  |   |   |  1|  8|
+    swimming on the diving board . %snd:"856"_59618_64687   |   |   |   |   |   |   |   |   |   |   |
+&-uh the elephant runs . %snd:"856"_65670_67932             |   |   |2  |   |   |   |   |   |  1|  3|
+and she slips and gets a sore knee . %snd:"856"_70435_75142 |   |2  |2 2|   |   |3 3|   |   |  1| 13|
+&-uh the lifeguard &+s comes and gives |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    her a bandaid . %snd:"856"_76445_82130                  |   |   |   |   |   |   |   |   |   |   |
+&-uh &+l &+sh she's sitting on a bench |   |2  |1  |   |   |   |   |   |  1|  4|
+    . %snd:"856"_84313_87195                                |   |   |   |   |   |   |   |   |   |   |
+lifeguard told her no running . %snd:"856"_88918_92061      |3  |2  |2  |   |   |   |   |   |  1|  8|
+elephant and a horse meet . %snd:"856"_105603_107945          |   |   |1  |   |   |3  |   |   |  1|  5|
+and they wanna play .                  |   |3  |1 1|2  |   |3  |   |   |  1| 11|
+&+s the horse is playing with his      |   |2  |1  |   |   |   |   |   |  1|  4|
+    airplane . %snd:"856"_111090_111590                       |   |   |   |   |   |   |   |   |   |   |
+the elephant plays with it too . %snd:"856"_114195_116137     |1  |   |2  |   |   |   |   |   |  1|  4|
+it goes into the water . %snd:"856"_118200_119582             |1  |   |2  |   |   |   |   |   |  1|  4|
+the horse gets angry . %snd:"856"_121106_122647               |   |   |2  |   |   |   |   |   |  1|  3|
+&-uh the lifeguard sees it . %snd:"856"_124030_127054         |1  |   |2  |   |   |   |   |   |  1|  4|
+the elephant told the lifeguard . %snd:"856"_129394_131296    |   |   |2  |   |   |   |   |   |  1|  3|
+lifeguard tries to reach it . %snd:"856"_134839_136660        |1  |   |2 1|5  |   |   |   |   |  1| 10|
+he couldn't reach it . %snd:"856"_139482_141143               |1  |2  |5 1|   |7  |   |   |   |  1| 17|
+he [//] someone got a net and fished it|3 1|   |2 2|   |   |3 3|   |   |  1| 23|
+     out and got the plane and gave it |1  |   |2 2|   |   |3  |   |   |   |   |
+    to the horse . %snd:"856"_145606_155853                   |   |   |   |   |   |   |   |   |   |   |
+(...) and a horse hugged it . %snd:"856"_167265_181884        |1  |   |2  |   |   |3  |   |   |  1|  7|
+&-uh the rabbit and the dog meet each  |7 3|   |1 1|   |   |3  |   |   |  1| 16|
+    other to play with the castle . %snd:"856"_187636_192760  |   |   |   |   |   |   |   |   |   |   |
+the dog fixes the castle . %snd:"856"_195864_198284           |   |   |2  |   |   |   |   |   |  1|  3|
+and the rabbit puts sand in a bucket . |   |   |2  |   |   |3  |   |   |  1|  6|
+    %snd:"856"_198346_200828                                  |   |   |   |   |   |   |   |   |   |   |
+the rabbit dumps the sand on the castle|   |   |2  |   |   |   |   |   |  1|  3|
+     . %snd:"856"_202773_205315                               |   |   |   |   |   |   |   |   |   |   |
+the castle got wrecked . %snd:"856"_208163_209144             |   |   |2  |   |   |   |   |   |  1|  3|
+and dog tried to build it back . %snd:"856"_211985_214706     |1  |   |2 1|5  |   |3  |   |   |  1| 13|
+the dog and rabbit meet each other . %snd:"856"_219510_222532 |7 3|   |1  |   |   |3  |   |   |  1| 15|
+they both have a picnic . %snd:"856"_224173_225594            |   |3  |1  |   |   |   |   |   |  1|  5|
+the rabbit ate too much . %snd:"856"_227639_230159            |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit got dizzy . %snd:"856"_232044_233785               |   |   |2  |   |   |   |   |   |  1|  3|
+the dog got the doctor . %snd:"856"_235711_237734             |   |   |2  |   |   |   |   |   |  1|  3|
+the doctor came and helped the rabbit .|   |   |2 2|   |   |3  |   |   |  1|  8|
+     %snd:"856"_242095_247583                                 |   |   |   |   |   |   |   |   |   |   |
+and now the rabbit's more better . %snd:"856"_251172_252993   |   |   |1 1|   |   |3  |   |   |  1|  6|
+the rabbit and dog meech [* p:n] [//]  |7 3|   |1  |   |   |3  |   |   |  1| 15|
+    meet each other . %snd:"856"_258425_261474                |   |   |   |   |   |   |   |   |   |   |
+and the dog has a wagon and a balloon .|   |   |2  |   |   |3 3|   |   |  1|  9|
+     %snd:"856"_261215_263722                                 |   |   |   |   |   |   |   |   |   |   |
+&-uh the rabbit thought [//] told him  |1  |2 6|2 5|   |   |   |   |   |  1| 20|
+    that <he could> [/] &+pl he could  |   |2  |1  |   |   |   |   |   |   |   |
+    play with it . %snd:"856"_267526_274831                   |   |   |   |   |   |   |   |   |   |   |
+the balloon flew up in the air . %snd:"856"_280615_282836     |   |   |2  |   |   |   |   |   |  1|  3|
+dog got angry . %snd:"856"_285038_286358                      |   |   |2  |   |   |   |   |   |  1|  3|
+they saw a person who's selling        |   |3 6|2 1|   |   |   |   |   |  1| 13|
+    balloons . %snd:"856"_288240_293523                       |   |   |   |   |   |   |   |   |   |   |
+the rabbit told if he can buy one . %snd:"856"_297125_300427  |3  |2  |2 3|   |   |5  |   |   |  1| 17|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+he said that they're five cents each . |3  |2 3|2  |   |   |8  |   |   |  1| 19|
+    %snd:"856"_302609_305190                                  |   |   |   |   |   |   |   |   |   |   |
+they didn't have any money . %snd:"856"_307132_308753         |7  |3  |5 1|   |7  |   |   |   |  1| 24|
+<they went> [//] &+an they went to     |3  |3  |2  |   |   |   |   |   |  1|  9|
+    someone . %snd:"856"_310565_313829                        |   |   |   |   |   |   |   |   |   |   |
+and they told if she could get [//] pay|   |3 2|2 5|   |   |3 8|   |   |  1| 28|
+     them money . %snd:"856"_316275_321643                    |   |3  |1  |   |   |   |   |   |   |   |
+TOTAL                                  | 67| 62|134| 28| 14| 84|  0|  0| 50|439|
+
+Developmental sentence score:  8.78

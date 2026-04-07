@@ -1,0 +1,76 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:10:01 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/TD/A/813.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+it's a boy going to a store . %snd:"813"_6361_9243        |1  |   |1  |4  |   |   |   |   |  1|  7|
+it's a boy looking at some cookies . %snd:"813"_14545_17249 |1 3|   |1  |4  |   |   |   |   |  1| 10|
+he wants to buy some . %snd:"813"_22801_24943               |3  |2  |2 1|5  |   |   |   |   |  1| 14|
+they all fell down . %snd:"813"_29335_30535                 |   |3  |2  |   |   |   |   |   |  1|  6|
+the man gets angry at him . %snd:"813"_35800_37840          |   |2  |2  |   |   |   |   |   |  1|  5|
+it's a elephant playing ball . %snd:"813"_48781_51043       |1  |   |1  |4  |   |   |   |   |  1|  7|
+(.) she threw the ball in the water . %snd:"813"_58045_59867|   |2  |2  |   |   |   |   |   |  1|  5|
+(.) the giraffe tries to get it . %snd:"813"_66260_69163    |1  |   |2 1|5  |   |   |   |   |  1| 10|
+the giraffe got the ball for the       |   |   |2  |   |   |   |   |   |  1|  3|
+    elephant . %snd:"813"_73745_76648                       |   |   |   |   |   |   |   |   |   |   |
+the [/] the elephant says thank you . %snd:"813"_83660_86084|   |1  |2 1|   |   |   |   |   |  1|  5|
+they are looking at the water . %snd:"813"_96999_100423      |   |3  |2  |   |   |   |   |   |  1|  6|
+the elephant wants to go in . %snd:"813"_105245_108028        |   |   |2 1|5  |   |   |   |   |  1|  9|
+she walks away . %snd:"813"_114500_115920                     |   |2  |2  |   |   |   |   |   |  1|  5|
+and the giraffe follows her . %snd:"813"_115802_117783        |   |2  |2  |   |   |3  |   |   |  1|  8|
+she was running . %snd:"813"_121385_122546                    |   |2  |2  |   |   |   |   |   |  1|  5|
+and she slipped on her knee . %snd:"813"_122768_124851        |   |2 2|2  |   |   |3  |   |   |  1| 10|
+she got hurt . %snd:"813"_129162_130442                       |   |2  |2 1|   |   |   |   |   |  1|  6|
+another elephant came and put a bandaid|3  |2  |2 1|   |   |3  |   |   |  1| 12|
+     on her . %snd:"813"_137815_141236                        |   |   |   |   |   |   |   |   |   |   |
++" don't run any more . %snd:"813"_151784_152864              |7  |   |3 1|   |4  |   |   |   |  1| 16|
++" you shouldn't run . %snd:"813"_158448_159446               |   |1  |5 1|   |7  |   |   |   |  1| 15|
++" or else you'll slip and fall and    |   |1 1|1  |   |   |5 3|   |   |  1| 15|
+    hurt your knee again . %snd:"813"_159228_163290           |   |   |   |   |   |3  |   |   |   |   |
+they [//] the giraffe brought a        |   |   |2  |   |   |   |   |   |  1|  3|
+    helicopter to the pool . %snd:"813"_174655_180398         |   |   |   |   |   |   |   |   |   |   |
+he wants to fly it . %snd:"813"_185043_186743                 |1  |2  |2 1|5  |   |   |   |   |  1| 12|
+the elephant takes it away from the    |1  |   |2  |   |   |   |   |   |  1|  4|
+    giraffe . %snd:"813"_191505_194709                        |   |   |   |   |   |   |   |   |   |   |
+the elephant drops it in the water . %snd:"813"_199880_202421 |1  |   |2  |   |   |   |   |   |  1|  4|
+the giraffe gets mad at the elephant . |   |   |2  |   |   |   |   |   |  1|  3|
+    %snd:"813"_205765_207825                                  |   |   |   |   |   |   |   |   |   |   |
+the lifeguard comes . %snd:"813"_214233_215873                |   |   |2  |   |   |   |   |   |  1|  3|
++" I accidentally dropped the plane in |   |1  |2  |   |   |   |   |   |  1|  4|
+    the water . %snd:"813"_222339_226202                      |   |   |   |   |   |   |   |   |   |   |
+the lifeguard tries to get it . %snd:"813"_229850_231991      |1  |   |2 1|5  |   |   |   |   |  1| 10|
+but he can't reach . %snd:"813"_231633_232734                 |   |2  |3 1|   |4  |5  |   |   |  1| 16|
+the giraffe starts to cry . %snd:"813"_237615_239496          |   |   |2 1|5  |   |   |   |   |  1|  9|
+another girl elephant comes . %snd:"813"_244266_246567        |3  |   |2  |   |   |   |   |   |  1|  6|
+and she has a net . %snd:"813"_246550_247711                  |   |2  |2  |   |   |3  |   |   |  1|  8|
+she will try to catch the plane . %snd:"813"_247652_249614    |   |2  |3 1|5  |   |   |   |   |  1| 13|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she got the plane . %snd:"813"_255115_256254                  |   |2  |2  |   |   |   |   |   |  1|  5|
+she gave it to the giraffe . %snd:"813"_259541_260962         |1  |2  |2  |   |   |   |   |   |  1|  6|
+the giraffe said thank you . %snd:"813"_261063_262924         |   |1  |2 1|   |   |   |   |   |  1|  5|
++" <don't throw it> [/] don't throw it |1  |   |3 1|   |4  |   |   |   |  1| 10|
+    in the water again . %snd:"813"_270175_272758             |   |   |   |   |   |   |   |   |   |   |
++" and don't grab it from me again . %snd:"813"_272557_274140 |1  |1  |3 1|   |4  |3  |   |   |  1| 14|
+a dog is playing in a sandbox . %snd:"813"_286317_290461      |   |   |1  |   |   |   |   |   |  1|  2|
+a rabbit comes . %snd:"813"_291062_292283                     |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit wants to help . %snd:"813"_297212_299492           |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit throws sand in the castle . |   |   |2  |   |   |   |   |   |  1|  3|
+    %snd:"813"_307337_309858                                  |   |   |   |   |   |   |   |   |   |   |
+the rabbit says uhoh . %snd:"813"_316031_317871               |   |   |2  |   |   |   |   |   |  1|  3|
+and then the dog starts to cry . %snd:"813"_324755_326736     |   |   |2 1|5  |   |3  |   |   |  1| 12|
+the rabbit comes walking with a picnic |   |   |2  |   |   |   |   |   |  1|  3|
+    basket . %snd:"813"_337475_340642                         |   |   |   |   |   |   |   |   |   |   |
+and the dog &+s saw him and said hi . %snd:"813"_340725_344594|   |2  |2 2|   |   |3 3|   |   |  1| 13|
+they have a picnic together . %snd:"813"_350085_352868        |   |3  |1  |   |   |   |   |   |  1|  5|
+the rabbit is fat . %snd:"813"_358939_360339                  |   |   |1  |   |   |   |   |   |  1|  2|
+and the dog is not fat &=laughs . %snd:"813"_360401_362823    |   |   |1  |   |1  |3  |   |   |  1|  6|
+TOTAL                                  | 30| 50|120| 52| 24| 43|  0|  0| 50|369|
+
+Developmental sentence score:  7.38

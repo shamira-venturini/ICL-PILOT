@@ -1,0 +1,104 @@
+dss +t*CHI +deng.cut +leng
+Thu Mar 26 16:09:52 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/annotated/ENNI_batchalign/SLI/A/733.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a little boy is going to a restaurant .|   |   |1  |   |   |   |   |   |  1|  2|
+     %snd:"733"_6159_9200                                 |   |   |   |   |   |   |   |   |   |   |
+and the little boy was getting cookies |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"733"_11643_14463                                |   |   |   |   |   |   |   |   |   |   |
+and the little boy picked a cookie box |   |   |   |4  |   |3  |   |   |  1|  8|
+    . %snd:"733"_17005_22153                                |   |   |   |   |   |   |   |   |   |   |
+and all the cookies fell down . %snd:"733"_25201_27364      |3  |   |2  |   |   |3  |   |   |  1|  9|
+and the restaurant pear was mad . %snd:"733"_31165_40963    |   |   |2  |   |   |3  |   |   |  1|  6|
+&-um a giraffe and a [= an] [* m:allo] |   |   |2  |   |   |3  |   |   |  0|  5|
+    elephant are playing basketball [^ |   |   |   |   |   |   |   |   |   |   |
+    /baesIkbal/] . %snd:"733"_52474_54496                   |   |   |   |   |   |   |   |   |   |   |
+and the basket::ball fell in the water |   |   |2  |   |   |3  |   |   |  1|  6|
+    . %snd:"733"_63925_66950                                |   |   |   |   |   |   |   |   |   |   |
+and the giraffe swimmed [: swam] [* m:=|1  |   |2 1|   |   |3  |   |   |  0|  7|
+    ed] to it to get the basketball . %snd:"733"_69697_73463|   |   |   |   |   |   |   |   |   |   |
+and the elephant was surprised . %snd:"733"_93975_97659     |   |   |7  |   |   |3  |   |   |  1| 11|
+the giraffe and the elephant wanted to |   |   |2  |   |   |3  |   |   |  1|  6|
+    jump in the water . %snd:"733"_106955_113219              |   |   |   |   |   |   |   |   |   |   |
+and &+gir elephant went first . %snd:"733"_115802_118363      |   |   |2  |   |   |3  |   |   |  1|  6|
+then elephant was dancing . %snd:"733"_123715_125878          |   |   |2  |   |   |   |   |   |  1|  3|
+and the elephant got hurt . %snd:"733"_130191_131992          |   |   |2 1|   |   |3  |   |   |  1|  7|
+and the giraffe helped her , the       |   |2  |2  |   |   |3  |   |   |  1|  8|
+    elephant . %snd:"733"_140489_146036                       |   |   |   |   |   |   |   |   |   |   |
+and the elephant cried . %snd:"733"_150103_151463             |   |   |2  |   |   |3  |   |   |  1|  6|
+and the [/] the other elephant got a   |3 1|2  |2 1|   |   |3 3|   |   |  1| 16|
+    bandaid and put it on his owie . %snd:"733"_155825_164164 |   |   |   |   |   |   |   |   |   |   |
+the other elephant said no running . %snd:"733"_175355_178299 |3 3|   |2  |   |   |   |   |   |  1|  9|
+<the giraffe and the> [/] the giraffe  |   |   |2  |   |   |3  |   |   |  0|  5|
+    and the elephant was [= were] [* m:|   |   |   |   |   |   |   |   |   |   |
+    vsg:a] happy . %snd:"733"_186755_193423                   |   |   |   |   |   |   |   |   |   |   |
+the giraffe was playing with a [= an] [|   |   |2  |   |   |   |   |   |  0|  2|
+    * m:allo] airplane . %snd:"733"_197411_199893             |   |   |   |   |   |   |   |   |   |   |
+and the elephant took the plane and    |1  |   |2  |   |   |3 3|   |   |  0|  9|
+    play [= played] [* m:0ed] with it .|   |   |   |   |   |   |   |   |   |   |
+     %snd:"733"_203795_206980                                 |   |   |   |   |   |   |   |   |   |   |
+and elephant dropped it in the water . |1  |   |2  |   |   |3  |   |   |  1|  7|
+    %snd:"733"_209628_212712                                  |   |   |   |   |   |   |   |   |   |   |
+and giraffe was mad &-uh at the        |   |   |2  |   |   |3  |   |   |  1|  6|
+    elephant . %snd:"733"_215675_219697                       |   |   |   |   |   |   |   |   |   |   |
+and the other elephant is . %snd:"733"_222159_224900          |3  |   |1  |   |   |3  |   |   |  1|  8|
+what's he doing ? [+ bch] %snd:"733"_225622_229543            |   |2  |1  |   |   |   |1  |2  |  1|  7|
+<he was doing> [//] like he was . %snd:"733"_242461_242919    |   |2  |2  |   |   |8  |   |   |  1| 13|
+elephant and giraffe was [= were] [* m:|   |   |2  |   |   |3  |   |   |  0|  5|
+    vsg:a] looking at the elephant . %snd:"733"_249155_252108 |   |   |   |   |   |   |   |   |   |   |
+the [/] &+ele <the first> [//] &+ele   |   |   |1  |   |   |   |   |   |  1|  2|
+    the girl elephant look at th(e) [/]|   |   |   |   |   |   |   |   |   |   |
+     the airplane . %snd:"733"_259325_267309                  |   |   |   |   |   |   |   |   |   |   |
+and the other elephant tried to get it |3 1|   |2 1|5  |   |3  |   |   |  1| 16|
+    . %snd:"733"_270953_273614                                |   |   |   |   |   |   |   |   |   |   |
+and the &-uh giraffe elephant and the  |3  |   |2  |   |   |3 3|   |   |  1| 12|
+    other elephant was sad . %snd:"733"_276345_282302         |   |   |   |   |   |   |   |   |   |   |
+the third elephant can get the airplane|7  |   |3 1|   |   |   |   |   |  1| 12|
+     . %snd:"733"_286245_292052                               |   |   |   |   |   |   |   |   |   |   |
+and the [/] &+elep the other elephant  |3  |   |1  |   |   |3  |   |   |  0|  7|
+    get [= gets] [* m:03s:a] out the   |   |   |   |   |   |   |   |   |   |   |
+    airplane . %snd:"733"_295018_299183                       |   |   |   |   |   |   |   |   |   |   |
+and the other third &+ele elephant give|3 7|   |1  |   |   |3  |   |   |  0| 15|
+     [= gives] [* m:03s:a] it to the   |1  |   |   |   |   |   |   |   |   |   |
+    giraffe . %snd:"733"_302805_309333                        |   |   |   |   |   |   |   |   |   |   |
+and the giraffe said thank you . %snd:"733"_309214_311436     |   |1  |2 1|   |   |3  |   |   |  1|  8|
+and giraffe was : so happy . %snd:"733"_314162_316443         |   |   |2  |   |   |3  |   |   |  1|  6|
+bunny and a dog was [= were] [* m:vsg:a|   |   |2  |   |   |3  |   |   |  0|  5|
+    ] making a sandcastle . %snd:"733"_324351_327714          |   |   |   |   |   |   |   |   |   |   |
+and the bunny and the dog was making a |   |   |2  |   |   |3 3|   |   |  1|  9|
+    big &+s sandcastle . %snd:"733"_330835_335990             |   |   |   |   |   |   |   |   |   |   |
+and rabbit &+w was not doing the right |   |   |2  |   |   |3  |   |   |  1|  6|
+    thing . %snd:"733"_340975_348880                          |   |   |   |   |   |   |   |   |   |   |
+and rabbit broke the sandcastle . %snd:"733"_351223_353684    |   |   |2  |   |   |3  |   |   |  1|  6|
+and one part left . %snd:"733"_355205_356687                  |3  |   |2  |   |   |3  |   |   |  1|  9|
+and the dog was so : sad . %snd:"733"_360257_363882           |   |   |2  |   |   |3  |   |   |  1|  6|
+the dog and the bunny was [= were] [* m|   |   |2  |   |   |3  |   |   |  0|  5|
+    :vsg:a] going for a snack . %snd:"733"_371895_374862      |   |   |   |   |   |   |   |   |   |   |
+and the rabbit got a cake cookies      |   |   |2  |   |   |3 3|   |   |  1|  9|
+    mustard carrots and <a hot> [/] a  |   |   |   |   |   |   |   |   |   |   |
+    hot dog . %snd:"733"_377535_388254                        |   |   |   |   |   |   |   |   |   |   |
+and the bunny was too full . %snd:"733"_391745_393367         |   |   |2  |   |   |3  |   |   |  1|  6|
+and the bunny was too stuffed . %snd:"733"_397537_400962      |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog said are you a nurse ? %snd:"733"_405675_408541   |   |1  |2 2|   |   |3  |1  |   |  1| 10|
+please help my friend . %snd:"733"_410089_412292              |   |1  |1  |   |   |   |   |   |  1|  3|
+<here is> [//] here she is . %snd:"733"_417195_420780         |   |2  |1  |   |   |   |   |   |  1|  4|
+the nurse said you're getting sick . %snd:"733"_425969_428833 |   |1  |2 1|5  |   |   |   |   |  1| 10|
+and <a nurse said to go :> [//] the    |   |1 1|2 1|   |   |3 3|   |   |  1| 16|
+    nurse said you hafta go home and go|   |   |1  |   |   |3  |   |   |   |   |
+     to your bed and sleep awhile . %snd:"733"_434535_445509  |   |   |   |   |   |   |   |   |   |   |
+<the dog> [//] &+w <and the bunny were |   |   |2 1|5  |   |   |   |   |  0|  8|
+    [= was] [* m:vun:a] going to have> |   |   |   |   |   |   |   |   |   |   |
+    [//] <to go for> [//] go [//]      |   |   |   |   |   |   |   |   |   |   |
+    wanted [//] the dog wanted to go to|   |   |   |   |   |   |   |   |   |   |
+     the park . %snd:"733"_453955_469713                      |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 50| 16|108| 19|  0|143|  2|  2| 39|379|
+
+Developmental sentence score:  7.58
