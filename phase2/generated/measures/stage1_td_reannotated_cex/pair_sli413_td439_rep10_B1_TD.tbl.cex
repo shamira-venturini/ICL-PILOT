@@ -1,0 +1,31 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:12 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep10_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there was a dog and a |   |   |2  |   |   |3  |   |   |  1|  6|
+    rabbit .                           |   |   |   |   |   |   |   |   |   |   |
+they were playing together on the beach|   |3  |2 1|   |   |   |   |   |  1|  7|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+they made a big sandcastle .           |   |3  |2  |   |   |   |   |   |  1|  6|
+they were so happy .                   |   |3  |2  |   |   |5  |   |   |  1| 11|
+the dog got a bucket and dumped it on  |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    the castle .                       |   |   |   |   |   |   |   |   |   |   |
+the castle fell down !                 |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit was sad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+the dog looked down .                  |   |   |2  |   |   |   |   |   |  1|  3|
+he said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+they tried to fix it together .        |1  |3 5|2 1|3  |   |   |   |   |  1| 16|
+they built it again and again .        |1  |3 5|2  |   |   |3  |   |   |  1| 15|
+it was better than before .            |1  |   |2  |   |   |8 8|   |   |  1| 20|
+TOTAL                                  |  4| 32| 28|  3|  0| 30|  0|  0| 12|109|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  9.08

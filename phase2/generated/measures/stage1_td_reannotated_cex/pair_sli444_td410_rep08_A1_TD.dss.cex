@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep08
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=410
+*CHI:	They play with the ball near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|the-Def-Art noun|ball adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z; Z;
+*CHI:	it's going down the slide .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	adp|down det|the-Def-Art noun|slide .
+%xdss:	A1; C1; C1; Z;
+*CHI:	it's in the pool now .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art
+	noun|pool adv|now .
+%xdss:	A1; C1; Z;
+*CHI:	the rabbit gets in .
+%mor:	det|the-Def-Art noun|rabbit verb|get-Fin-Ind-Pres-S3 adv|in .
+%xdss:	Z; C2;
+*CHI:	she's in the pool .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	B2; C1; Z;
+*CHI:	she gets it .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; A1; B5;
+*CHI:	she's out now .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|out adv|now .
+%xdss:	B2; C1;
+*CHI:	she's happy .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	B2; C1;
+*CHI:	she's got the ball .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	B2; C7; C2; Z;
+*CHI:	the other rabbit is happy too .
+%mor:	det|the-Def-Art adj|other-S1 noun|rabbit aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 adv|too .
+%xdss:	A3; Z; C1;
+@End

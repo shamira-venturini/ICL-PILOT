@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep07
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=415
+*CHI:	there is a swimmin pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|swimmin noun|pool .
+%xdss:	C2; Z; Z;
+*CHI:	and there's a sign that says .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	F3; Z; A1; C2;
+*CHI:	and kitty go .
+%mor:	cconj|and noun|kitty verb|go-Fin-Imp-S .
+%xdss:	F3; Z; C1;
+*CHI:	kitty slip and hurt kitty's knee .
+%mor:	noun|kitty noun|slip cconj|and verb|hurt-Fin-Imp-S
+	noun|kitty~part|s noun|knee-Acc .
+%xdss:	Z; Z; F3; C1; Z; Z;
+*CHI:	kitty cry [* m:03s:a] .
+%mor:	noun|kitty verb|cry-Fin-Imp-S .
+%xdss:	Z; C1;
+*CHI:	a nice lady come [* m:03s:a] with a big bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art adj|big-S1 noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	kitty sit [* m:03s:a] on a bench .
+%mor:	noun|kitty verb|sit-Fin-Imp-S adp|on det|a-Ind-Art noun|bench .
+%xdss:	Z; C1; Z;
+*CHI:	kitty feel better .
+%mor:	noun|kitty verb|feel-Fin-Imp-S adj|good-Cmp-S1 .
+%xdss:	Z; C1;
+@End

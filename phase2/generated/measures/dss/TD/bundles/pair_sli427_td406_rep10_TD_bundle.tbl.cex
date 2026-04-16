@@ -1,0 +1,81 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli427_td406_rep10_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they were playing near the pool with a |   |3  |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+it fell in the water .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+the dog jumped in to get it .          |1  |5  |2 1|   |   |   |   |   |  1| 10|
+he swam to it .                        |1  |2 5|2  |   |   |   |   |   |  1| 11|
+he picked it up .                      |1  |2 5|2  |   |   |   |   |   |  1| 11|
+they were happy again .                |   |3  |2  |   |   |   |   |   |  1|  6|
+One day my friend's kitty and my friend|3  |1 1|2  |   |   |3  |   |   |  1| 11|
+     went to the pool .                |   |   |   |   |   |   |   |   |   |   |
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+But my friend's kitty ran to the water |   |1  |2  |   |   |5  |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+kitty slipped and hurt her knee .      |   |2  |2 2|   |   |3  |   |   |  1| 10|
+Someone came with a special cloth to   |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+    fix it .                           |   |   |   |   |   |   |   |   |   |   |
+kitty sat on a bench and rested .      |   |   |2 2|   |   |3  |   |   |  1|  8|
+yesterday two boys were playing with a |3  |   |2 1|   |   |   |   |   |  0|  6|
+    [* m:allo] airplane near the pool .|   |   |   |   |   |   |   |   |   |   |
+the airplane went into the water .     |   |   |2  |   |   |   |   |   |  1|  3|
+a lifeguard tried to get it with a pole|1  |5  |2 1|3  |   |   |   |   |  1| 13|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the lifeguard got the airplane out .   |   |   |2  |   |   |   |   |   |  1|  3|
+the boys were happy again .            |   |   |2  |   |   |   |   |   |  1|  3|
+they were playing with the airplane .  |   |3  |2 1|   |   |   |   |   |  1|  7|
+Me [* s:r:gc:pro] and my friend doggy  |   |1 1|2 1|   |   |3  |   |   |  0|  8|
+    were playing on the beach .        |   |   |   |   |   |   |   |   |   |   |
+We built a big sandcastle .            |   |3  |2  |   |   |   |   |   |  1|  6|
+I put sand on it .                     |1  |1 5|2  |   |   |   |   |   |  1| 10|
+Doggy threw a bucket on it .           |1  |5  |2  |   |   |   |   |   |  1|  9|
+The castle fell down !                 |   |   |2  |   |   |   |   |   |  1|  3|
+Doggy looked sad .                     |   |   |2  |   |   |   |   |   |  1|  3|
+He said sorry .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+I said it's okay .                     |1  |1  |2 1|   |   |   |   |   |  1|  6|
+We fixed it together .                 |1  |3 5|2  |   |   |   |   |   |  1| 12|
+Now it's all better .                  |1  |   |1  |   |   |   |   |   |  1|  3|
+Me [* s:r:gc:pro] and my friend dog we |   |1 1|1  |   |   |3  |   |   |  0|  9|
+    go to the park .                   |   |3  |   |   |   |   |   |   |   |   |
+we pick carrots and sandwiches .       |   |3  |1  |   |   |3  |   |   |  1|  8|
+my friend dog take [* m:03s:a] the     |   |1  |2  |   |   |   |   |   |  0|  3|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+me [* s:r:gc:pro] take the carrots .   |   |1  |1  |   |   |   |   |   |  0|  2|
+we go sit on the blanket .             |   |3  |1 1|   |   |   |   |   |  1|  6|
+me [* s:r:gc:pro] eat too many carrots |   |1  |1  |   |   |   |   |   |  0|  2|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+me [* s:r:gc:pro] feel sick .          |   |1  |1  |   |   |   |   |   |  0|  2|
+me [* s:r:gc:pro] feel dizzy .         |   |1  |1  |   |   |   |   |   |  0|  2|
+me [* s:r:gc:pro] go to the doctor .   |   |1  |1  |   |   |   |   |   |  0|  2|
+doctor give [* m:03s:a] me a medicine .|   |1  |1  |   |   |   |   |   |  0|  2|
+me [* s:r:gc:pro] feel better now .    |   |1  |1  |   |   |   |   |   |  0|  2|
+me [* s:r:gc:pro] go home and sleep .  |   |1  |1 1|   |   |3  |   |   |  0|  6|
+one time bunny and doggy was [* m:vsg:a|3  |   |2 1|   |   |3  |   |   |  0|  9|
+    ] walking with wagon .             |   |   |   |   |   |   |   |   |   |   |
+bunny had a big red balloon .          |   |   |2  |   |   |   |   |   |  1|  3|
+doggy was pulling wagon .              |   |   |2 1|   |   |   |   |   |  1|  4|
+balloon was tied to wagon but then it  |1  |   |7 2|   |   |5  |   |   |  1| 18|
+    came loose .                       |   |   |2  |   |   |   |   |   |   |   |
+it went up [/] up [/] up into the sky .|1  |   |2  |   |   |   |   |   |  1|  4|
+bunny and doggy was [* m:vsg:a] sad .  |   |   |2  |   |   |3  |   |   |  0|  5|
+they looked around but balloon was gone|   |3  |2 2|   |   |5  |   |   |  1| 13|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+bunny said oh no doggy our balloon is  |   |3  |2 1|   |   |   |   |   |  1|  7|
+    gone .                             |   |   |   |   |   |   |   |   |   |   |
+doggy wagged tail and sniff [* m:03s:a]|   |   |2  |   |   |3  |   |   |  0|  5|
+     [/] sniff [* m:03s:a] [/] sniff [*|   |   |   |   |   |   |   |   |   |   |
+     m:03s:a] .                        |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 26| 96|116| 11|  0| 45|  0|  0| 35|329|
+
+Developmental sentence score:  6.58

@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:32 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep06_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog , they built a big      |   |3  |2  |   |   |3  |   |   |  1|  9|
+    sandcastle .                       |   |   |   |   |   |   |   |   |   |   |
+Dog had a big bucket , he poured sand  |1  |2 5|2 2|   |   |   |   |   |  1| 13|
+    on it .                            |   |   |   |   |   |   |   |   |   |   |
+The sandcastle fell down .             |   |   |2  |   |   |   |   |   |  1|  3|
+Rabbit was sad , he cried .            |   |2  |2 2|   |   |   |   |   |  1|  7|
+Dog said .                             |   |   |2  |   |   |   |   |   |  1|  3|
+They took some sand , they built it    |3 1|3 3|2 2|   |   |   |   |   |  1| 20|
+    again .                            |   |5  |   |   |   |   |   |   |   |   |
+TOTAL                                  |  5| 23| 18|  0|  0|  3|  0|  0|  6| 55|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  9.17

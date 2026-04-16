@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep03
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=3
+@Comment:	source_child_id=471
+*CHI:	Rabbit and doggy went to the park and took a wagon with a big red
+	balloon .
+%mor:	noun|rabbit cconj|and noun|doggy verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|park cconj|and verb|take-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1
+	adj|red-S1 noun|balloon .
+%xdss:	Z; F3; Z; C2; Z; F3; C2; Z; Z;
+*CHI:	The balloon came loose and went flying high in the sky .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adv|loose cconj|and verb|go-Fin-Ind-Past-S3-irr verb|fly-Ger-S
+	adv|high adp|in det|the-Def-Art noun|sky .
+%xdss:	Z; C2; F3; C2; D7; C1; D8; Z;
+*CHI:	The children were sad and sad and wanted a new balloon .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 cconj|and adj|sad-S1 cconj|and verb|want-Fin-Ind-Past-P3
+	det|a-Ind-Art adj|new-S1 noun|balloon-Acc .
+%xdss:	Z; C2; F3; F3; C2; Z;
+*CHI:	They went to the balloon man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|man .
+%xdss:	B3; C2; Z; Z;
+*CHI:	The children were so happy and took their two balloons and flew
+	them high in the sky .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 cconj|and verb|take-Fin-Ind-Past-P3-irr
+	pron|their-Prs-Gen-P3 num|two noun|balloon-Plur-Acc cconj|and
+	verb|fly-Fin-Ind-Past-P3-irr pron|they-Prs-Acc-P3 adv|high adp|in
+	det|the-Def-Art noun|sky .
+%xdss:	Z; C2; F5; F3; C2; B3; A3; Z; F3; C2; B3; Z;
+@End

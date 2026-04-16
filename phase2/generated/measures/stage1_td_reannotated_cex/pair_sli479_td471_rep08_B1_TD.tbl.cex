@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep08_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog they were friends .     |   |3  |2  |   |   |3  |   |   |  1|  9|
+they built a big sandcastle .          |   |3  |2  |   |   |   |   |   |  1|  6|
+dog got a big bucket and he poured sand|3 1|2 5|2 2|   |   |3  |   |   |  1| 19|
+     all over it .                     |   |   |   |   |   |   |   |   |   |   |
+the sandcastle fell down .             |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit was sad .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit cried .                         |   |   |2  |   |   |   |   |   |  1|  3|
+dog said sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit and dog fixed the sandcastle .  |   |   |2  |   |   |3  |   |   |  1|  6|
+it was all good again .                |1  |   |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  5| 13| 20|  0|  0|  9|  0|  0|  9| 56|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  6.22

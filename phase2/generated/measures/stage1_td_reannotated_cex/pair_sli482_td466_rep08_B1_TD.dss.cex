@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep08
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=8
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog play on the beach .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|play-Inf-S adp|on det|the-Def-Art noun|beach .
+%xdss:	Z; Z; F3; Z; C1; Z;
+*CHI:	they build a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	rabbit gets a shovel and dog gets a big bucket .
+%mor:	noun|rabbit verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art noun|shovel-Acc
+	cconj|and noun|dog verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc .
+%xdss:	Z; C2; Z; F3; Z; C2; Z;
+*CHI:	dog dump [* m:03s:a] the bucket on the castle .
+%mor:	noun|dog verb|dump-Fin-Imp-S det|the-Def-Art noun|bucket-Acc adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	Z; C1; Z; Z;
+*CHI:	the castle is all crumby !
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3 adv|all
+	adj|crumby-S1 !
+%xdss:	Z; C1;
+*CHI:	rabbit is sad .
+%mor:	noun|rabbit aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	dog is sad too .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1 adv|too .
+%xdss:	Z; C1;
+*CHI:	rabbit and dog go .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 .
+%xdss:	Z; F3; Z; C1;
+*CHI:	we did it !
+%mor:	pron|we-Prs-Nom-P1 verb|do-Fin-Ind-Past-P1-irr pron|it-Prs-Acc-S3 !
+%xdss:	B3; C2; A1; B5;
+*CHI:	rabbit and dog try to fix it .
+%mor:	noun|rabbit-Acc cconj|and noun|dog verb|try-Inf-S part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; F3; Z; C1; D3; C1; A1; B5;
+*CHI:	they make it better .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adj|good-Cmp-S1 .
+%xdss:	B3; C1; A1; B5;
+*CHI:	they build it again .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adv|again .
+%xdss:	B3; C1; A1; B5;
+*CHI:	rabbit and dog are happy .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; F3; Z; C2;
+@End

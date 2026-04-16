@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep08
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=8
+@Comment:	source_child_id=466
+*CHI:	One time bunny and doggy have a waggen [: wagon] [* s:r:der] with a
+	big red ballon .
+%mor:	num|one noun|time noun|bunny cconj|and adj|doggy-S1
+	verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|waggen-Acc adp|with
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|ballon .
+%xdss:	A3; Z; Z; F3; C1; Z; Z;
+*CHI:	The ballon come [* m:03s:a] loose and fly away .
+%mor:	det|the-Def-Art noun|ballon verb|come-Fin-Ind-Pres-S3 adj|loose-S1
+	cconj|and verb|fly-Fin-S adv|away .
+%xdss:	Z; C2; F3; C1;
+*CHI:	They want the ballon [: balloon] [* s:r:der] back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|ballon-Acc adv|back .
+%xdss:	B3; C1; Z;
+*CHI:	They go to a man with ballons [: balloons] [* m:allo] .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art
+	noun|man adp|with noun|ballon-Plur .
+%xdss:	B3; C1; Z; Z;
+*CHI:	He say [* m:03s:a] .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	oh the ballon cost a lot of money .
+%mor:	intj|oh det|the-Def-Art noun|ballon verb|cost-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|lot-Acc adp|of noun|money .
+%xdss:	Z; C2; Z; Z;
+*CHI:	but the man help [* m:03s:a] them .
+%mor:	cconj|but det|the-Def-Art noun|man verb|help-Fin-Ind-S
+	pron|they-Prs-Acc-P3 .
+%xdss:	F5; Z; C1; B3;
+*CHI:	He give [* m:03s:a] them two ballons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|ballon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	They got ballons [: balls] [* m:allo] .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr
+	noun|ballon-Plur-Acc .
+%xdss:	B3; C2; Z;
+@End

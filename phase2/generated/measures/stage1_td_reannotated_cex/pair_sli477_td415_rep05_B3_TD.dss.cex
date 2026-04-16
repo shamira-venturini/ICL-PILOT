@@ -1,0 +1,78 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep05
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=415
+*CHI:	me [* s:r:gc:pro] and my doggy friend were playing .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S .
+%xdss:	B1; F3; B1; Z; C2; C1;
+*CHI:	we got a big red wagon .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|wagon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	we put a pretty blue balloon on it .
+%mor:	pron|we-Prs-Nom-P1 verb|put-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	adv|pretty adj|blue-S1 noun|balloon-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; Z; A1; B5;
+*CHI:	my doggy pulled and I sat in the wagon .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|pull-Fin-Ind-Past-S3 cconj|and
+	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Past-S1-irr adp|in
+	det|the-Def-Art noun|wagon .
+%xdss:	B1; Z; C2; F3; B1; C2; Z;
+*CHI:	but the balloon came loose .
+%mor:	cconj|but det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adv|loose .
+%xdss:	F5; Z; C2;
+*CHI:	it went .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	A1; C2;
+*CHI:	and the balloon got all flat .
+%mor:	cconj|and det|the-Def-Art noun|balloon verb|get-Fin-Ind-Past-S3-irr
+	det|all-Def-Tot adj|flat-S1 .
+%xdss:	F3; Z; C2; A3;
+*CHI:	I was sad .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sad-S1 .
+%xdss:	B1; C2;
+*CHI:	my doggy was sad too .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	adv|too .
+%xdss:	B1; Z; C2;
+*CHI:	we looked everywhere for another balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|look-Fin-Ind-Past-P1 adv|everywhere adp|for
+	det|another-Def-Ind noun|balloon .
+%xdss:	B3; C2; F8; A3; Z;
+*CHI:	then we went to the lady with balloons .
+%mor:	adv|then pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|lady adp|with noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	oh , you want balloons ?
+%mor:	intj|oh pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2
+	noun|balloon-Plur-Acc ?
+%xdss:	C1; Z;
+*CHI:	I was so happy .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adv|so adj|happy-S1 .
+%xdss:	B1; C2; F5;
+*CHI:	my doggy was happy too .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 adv|too .
+%xdss:	B1; Z; C2;
+*CHI:	we played with our balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|play-Fin-Ind-Past-P1 adp|with
+	pron|our-Prs-Gen-P1 noun|balloon-Plur .
+%xdss:	B3; C2; B3; Z;
+@End

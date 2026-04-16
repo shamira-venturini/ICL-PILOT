@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep06
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog go for a walk .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|for
+	det|a-Ind-Art noun|walk .
+%xdss:	Z; F3; Z; C1; F8; Z;
+*CHI:	They pull a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	There is a balloon on the wagon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|balloon adp|on det|the-Def-Art noun|wagon .
+%xdss:	C2; Z; Z;
+*CHI:	The balloon comes off .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adp|off .
+%xdss:	Z; C2;
+*CHI:	It floats up high .
+%mor:	pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adp|up adj|high-S1 .
+%xdss:	A1; C2;
+*CHI:	It pops .
+%mor:	pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Pres-S3 .
+%xdss:	A1; C2;
+*CHI:	Rabbit and dog are sad .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They want a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	They go to a lady who sells balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art
+	noun|lady pron|who-Rel verb|sell-Fin-Ind-Pres-S3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; Z; B6; C2; Z;
+*CHI:	She has lots of balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	But they don't have money .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S noun|money-Acc .
+%xdss:	F5; B3; E4; C1; Z;
+*CHI:	Rabbit and dog are happy .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; F3; Z; C2;
+*CHI:	They blow up the balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|blow-Fin-Ind-Pres-P3 adp|up
+	det|the-Def-Art noun|balloon-Plur-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	They play with the balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|the-Def-Art noun|balloon-Plur .
+%xdss:	B3; C1; Z;
+@End

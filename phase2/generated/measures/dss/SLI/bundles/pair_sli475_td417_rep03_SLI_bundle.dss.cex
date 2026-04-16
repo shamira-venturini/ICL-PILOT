@@ -1,0 +1,221 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.12||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep03
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=475
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	kitty hit [* m:03s:a] the ball .
+%mor:	noun|kitty verb|hit-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	it's (.) going in .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	adp|in .
+%xdss:	A1; C1; C1;
+*CHI:	kitty's (.) got it .
+%mor:	propn|kitty~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	pron|it-Prs-Acc-S3 .
+%xdss:	C7; C2; A1; B5;
+*CHI:	kitty's (.) bringing it .
+%mor:	noun|kitty~aux|be-Fin-Ind-Pres-S3 verb|bring-Part-Pres-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; C1; A1; B5;
+*CHI:	kitty's (.) got some ball .
+%mor:	propn|kitty~aux|be-Fin-Ind-Pres-S3 verb|get-Fin-Ind-Past-S-irr
+	det|some-Def-Ind noun|ball-Acc .
+%xdss:	C1; C2; A3; Z;
+*CHI:	kitty is (.) smiling .
+%mor:	noun|kitty aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	kitty is happy .
+%mor:	noun|kitty aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+@Comment:	bundled_story_start=A2
+*CHI:	He is going to the pool .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	B2; C1; C1; Z;
+*CHI:	he is with his kitty friend .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adp|with
+	pron|his-Prs-Gen-S3 noun|kitty noun|friend .
+%xdss:	B2; C1; B2; Z; Z;
+*CHI:	they see a sign .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|sign-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	it says .
+%mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	but he is (.) rushing .
+%mor:	cconj|but pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3
+	verb|rush-Part-Pres-S .
+%xdss:	F5; B2; C1; C1;
+*CHI:	he is going to the water .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	adp|to det|the-Def-Art noun|water .
+%xdss:	B2; C1; C1; Z;
+*CHI:	he slipped .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 .
+%xdss:	B2; C2;
+*CHI:	he hurt his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr
+	pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	a nice lady is coming .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady aux|be-Fin-Ind-Pres-S3
+	verb|come-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	she is bringing a bandage .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|bring-Part-Pres-S
+	det|a-Ind-Art noun|bandage-Acc .
+%xdss:	B2; C1; C1; Z;
+*CHI:	she puts it on kitty's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adp|on noun|kitty~part|s noun|knee .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	kitty friend is sitting .
+%mor:	noun|kitty noun|friend aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S
+	.
+%xdss:	Z; Z; C1; C1;
+*CHI:	he is sitting on a bench .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S
+	adp|on det|a-Ind-Art noun|bench .
+%xdss:	B2; C1; C1; Z;
+*CHI:	he is resting .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|rest-Part-Pres-S .
+%xdss:	B2; C1; C1;
+@Comment:	bundled_story_start=A3
+*CHI:	kitty and puppy they were playing with a plane near the pool .
+%mor:	noun|kitty cconj|and noun|puppy pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with
+	det|a-Ind-Art noun|plane adp|near det|the-Def-Art noun|pool .
+%xdss:	Z; F3; Z; B3; C2; C1; Z; Z;
+*CHI:	plane was in the pool .
+%mor:	noun|plane aux|be-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	kitty's friend was mad .
+%mor:	propn|kitty~part|s noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|mad-S1 .
+%xdss:	Z; C2;
+*CHI:	kitty was happy kitty's friend was happy .
+%mor:	noun|kitty aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	noun|kitty~part|s noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 .
+%xdss:	Z; C2; Z; Z; C2;
+*CHI:	plane was out .
+%mor:	noun|plane aux|be-Fin-Ind-Past-S3-irr adv|out .
+%xdss:	Z; C2;
+@Comment:	bundled_story_start=B1
+*CHI:	he was (.) looking at the beach .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|look-Part-Pres-S
+	adp|at det|the-Def-Art noun|beach .
+%xdss:	B2; C2; C1; Z;
+*CHI:	she was (.) building a castle .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|build-Part-Pres-S det|a-Ind-Art noun|castle-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	and he was (.) helping her with a big bucket of sand .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|help-Part-Pres-S pron|her-Prs-Acc-S3 adp|with det|a-Ind-Art
+	adj|big-S1 noun|bucket adp|of noun|sand .
+%xdss:	F3; B2; C2; C1; B2; Z; Z;
+*CHI:	she was (.) making it big and tall .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S pron|it-Prs-Acc-S3 adj|big-S1 cconj|and
+	adj|tall-S1 .
+%xdss:	B2; C2; C1; A1; B5; F3;
+*CHI:	then he was (.) making big [/] big holes .
+%mor:	adv|then pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S adj|big-S1 noun|hole-Plur-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	then he did it again .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B2; C2; A1; B5;
+*CHI:	he dumped the sand all over the castle .
+%mor:	pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|sand-Acc adv|all adp|over det|the-Def-Art noun|castle .
+%xdss:	B2; C2; Z; Z;
+*CHI:	and it was all ruined .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all
+	verb|ruin-Part-Past-S .
+%xdss:	F3; A1; C2; C2;
+*CHI:	she was crying .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S
+	.
+%xdss:	B2; C2; C1;
+*CHI:	he said (.) i'm sorry .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sorry-S1 .
+%xdss:	B2; C2; B1;
+*CHI:	he said (.) no i'm sorry .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|no
+	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sorry-S1 .
+%xdss:	B2; C2; B1;
+*CHI:	she said (.) okay .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|okay .
+%xdss:	B2; C2;
+*CHI:	and then he and she fixed the castle again .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 cconj|and pron|she-Prs-Nom-S3
+	verb|fix-Fin-Ind-Past-S3 det|the-Def-Art noun|castle-Acc adv|again .
+%xdss:	F3; B2; F3; B2; C2; Z;
+*CHI:	and it was all better .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all
+	adj|good-Cmp-S1 .
+%xdss:	F3; A1; C2;
+@Comment:	bundled_story_start=B2
+*CHI:	he was (.) going on a picnic .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S
+	adp|on det|a-Ind-Art noun|picnic .
+%xdss:	B2; C2; C1; Z;
+*CHI:	he was (.) rabbit and dog were (.) eating sandwiches .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr noun|rabbit cconj|and
+	noun|dog aux|be-Fin-Ind-Past-P3-irr verb|eat-Part-Pres-S
+	noun|sandwich-Plur-Acc .
+%xdss:	B2; C2; Z; F3; Z; C2; C1; Z;
+*CHI:	he was (.) eating carrots .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S
+	noun|carrot-Plur-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	he was (.) eating berries .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S
+	noun|berries-Plur-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	he was (.) they were so happy .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 .
+%xdss:	B2; C2; B3; C2; F5;
+*CHI:	he was (.) the dog ate a lot .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|dog verb|eat-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|lot-Acc .
+%xdss:	B2; C2; Z; C2; Z;
+*CHI:	he was (.) he was eating (.) he was eating .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S .
+%xdss:	B2; C2; B2; C2; C1; B2; C2; C1;
+*CHI:	he was (.) the rabbit and dog had a big picnic .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|rabbit cconj|and noun|dog verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|big-S1 noun|picnic-Acc .
+%xdss:	B2; C2; Z; F3; Z; C2; Z;
+*CHI:	he was (.) the dog had a big tummyache .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|dog verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|tummyache-Acc .
+%xdss:	B2; C2; Z; C2; Z;

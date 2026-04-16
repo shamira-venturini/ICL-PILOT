@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep07_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a dog and a rabbit .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they were on the beach .               |   |3  |2  |   |   |   |   |   |  1|  6|
+they built a big sandcastle together . |   |3  |2  |   |   |   |   |   |  1|  6|
+the dog had a shovel and the rabbit had|   |   |2 2|   |   |3  |   |   |  1|  8|
+     a bucket .                        |   |   |   |   |   |   |   |   |   |   |
+the dog threw sand on the castle with  |   |   |2  |   |   |   |   |   |  1|  3|
+    the shovel .                       |   |   |   |   |   |   |   |   |   |   |
+but then the rabbit threw too much sand|1  |   |2 2|   |   |5 3|   |   |  1| 14|
+     and it fell down .                |   |   |   |   |   |   |   |   |   |   |
+the castle is broken .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit was sad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+the dog was sad too .                  |   |   |2  |   |   |   |   |   |  1|  3|
+the dog said sorry to the rabbit .     |   |   |2  |   |   |   |   |   |  1|  3|
+they both wanted to fix the castle .   |7  |3  |2 1|3  |   |   |   |   |  1| 17|
+they got some more sand and they built |3 3|3 3|2 2|   |   |3  |   |   |  1| 26|
+    it again .                         |1  |5  |   |   |   |   |   |   |   |   |
+TOTAL                                  | 15| 20| 38|  3|  0| 17|  0|  0| 12|105|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  8.75

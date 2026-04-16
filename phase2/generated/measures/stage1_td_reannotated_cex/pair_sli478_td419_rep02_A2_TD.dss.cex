@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep02
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=419
+*CHI:	One day , me [* s:r:gc:pro] and my friend rabbit went to the pool .
+%mor:	num|one noun|day pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1
+	noun|friend noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; B1; F3; B1; Z; Z; C2; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	Rabbit didn't see it .
+%mor:	propn|Rabbit aux|do-Fin-Ind-Past-S3-irr~part|not verb|see-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	C6; E4; C1; A1; B5;
+*CHI:	I saw it .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%xdss:	B1; C2; A1; B5;
+*CHI:	I said .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr .
+%xdss:	B1; C2;
+*CHI:	rabbit , don't run .
+%mor:	noun|rabbit-Acc aux|do-Fin-Imp-S~part|not verb|run-Fin-Imp-S .
+%xdss:	Z; C4; E4; C1;
+*CHI:	but she didn't listen .
+%mor:	cconj|but pron|she-Prs-Nom-S3 aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|listen-Inf-S .
+%xdss:	F5; B2; C6; E4; C1;
+*CHI:	She started to run towards the water .
+%mor:	pron|she-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|towards det|the-Def-Art noun|water .
+%xdss:	B2; C2; D3; C1; Z;
+*CHI:	She slipped and fell on her knee .
+%mor:	pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|fall-Fin-Ind-Past-S3-irr adp|on pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	It hurt [* m:03s:a] her .
+%mor:	pron|it-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr
+	pron|her-Prs-Acc-S3 .
+%xdss:	A1; C2; B2;
+*CHI:	A nice person came with a big bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|person verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|big-S1 noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	Rabbit sat on the bench to rest .
+%mor:	propn|Rabbit verb|sit-Fin-Ind-Past-S3-irr adp|on det|the-Def-Art
+	noun|bench part|to verb|rest-Inf-S .
+%xdss:	C2; Z; C1;
+@End

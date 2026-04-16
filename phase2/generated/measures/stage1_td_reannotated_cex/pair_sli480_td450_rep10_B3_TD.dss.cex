@@ -1,0 +1,71 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep10
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=450
+*CHI:	Benny rabbit and his doggy friend were walking .
+%mor:	propn|Benny noun|rabbit cconj|and pron|his-Prs-Gen-S3 adj|doggy-S1
+	noun|friend aux|be-Fin-Ind-Past-P3-irr verb|walk-Part-Pres-S .
+%xdss:	Z; F3; B2; Z; C2; C1;
+*CHI:	They had a red balloon in a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|red-S1 noun|balloon-Acc adp|in det|a-Ind-Art noun|wagon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	The wagon was going up and down .
+%mor:	det|the-Def-Art noun|wagon aux|be-Fin-Ind-Past-S3-irr
+	verb|go-Part-Pres-S adv|up cconj|and adv|down .
+%xdss:	Z; C2; C1; F3;
+*CHI:	The balloon got loose .
+%mor:	det|the-Def-Art noun|balloon verb|get-Fin-Ind-Past-S3-irr
+	adj|loose-S1 .
+%xdss:	Z; C2;
+*CHI:	It went .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	A1; C2;
+*CHI:	Now they had no balloon .
+%mor:	adv|now pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr
+	det|no-Def-Neg noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	Benny and his doggy friend were sad .
+%mor:	propn|Benny cconj|and pron|his-Prs-Gen-S3 adj|doggy-S1 noun|friend
+	aux|be-Fin-Ind-Past-P3-irr adj|sad-S1 .
+%xdss:	F3; B2; Z; C2;
+*CHI:	They wanted a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	They went to the balloon man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|man .
+%xdss:	B3; C2; Z; Z;
+*CHI:	The balloon man said .
+%mor:	det|the-Def-Art noun|balloon noun|man verb|say-Fin-Ind-Past-S3-irr
+	.
+%xdss:	Z; Z; C2;
+*CHI:	It's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+*CHI:	I'll help you .
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|help-Inf-S
+	pron|you-Prs-Acc-S2 .
+%xdss:	C4; C1; B5;
+*CHI:	He gave them two new balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 num|two adj|new-S1 noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	Benny and his doggy friend were happy .
+%mor:	propn|Benny cconj|and pron|his-Prs-Gen-S3 adj|doggy-S1 noun|friend
+	aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	F3; B2; Z; C2;
+@End

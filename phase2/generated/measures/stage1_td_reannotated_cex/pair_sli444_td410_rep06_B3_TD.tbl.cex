@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep06_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we have a wagon with a big red balloon |   |3  |1  |   |   |   |   |   |  1|  5|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+my dog is pulling the wagon .          |   |1  |1 1|   |   |   |   |   |  1|  4|
+then the balloon came loose .          |   |   |2  |   |   |   |   |   |  1|  3|
+it went up in the air .                |1  |   |2  |   |   |   |   |   |  1|  4|
+it popped .                            |1  |   |2  |   |   |   |   |   |  1|  4|
+my friend rabbit is sad too .          |   |1  |1  |   |   |   |   |   |  1|  3|
+we want a new balloon .                |   |3  |1  |   |   |   |   |   |  1|  5|
+we see a man .                         |   |3  |1  |   |   |   |   |   |  1|  5|
+he has lots of balloons .              |   |2  |2  |   |   |   |   |   |  1|  5|
+he sells them .                        |   |2 3|2  |   |   |   |   |   |  1|  8|
+he says they cost money .              |   |2 3|2 1|5  |   |   |   |   |  1| 14|
+my friend rabbit doesn't have money .  |   |1  |6 1|   |4  |   |   |   |  1| 13|
+I don't have money .                   |   |1  |1  |   |4  |   |   |   |  1|  7|
+the man is nice .                      |   |   |1  |   |   |   |   |   |  1|  2|
+he lets us pick two balloons .         |3  |2 3|2 1|2  |   |   |   |   |  1| 14|
+now I have a blue balloon .            |   |1  |1  |   |   |   |   |   |  1|  3|
+my friend rabbit has a green balloon . |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  5| 32| 34|  7|  8|  0|  0|  0| 17|103|
+WARNING: DSS requires 50 complete sentences and this transcript only has 17.
+
+Developmental sentence score:  6.06

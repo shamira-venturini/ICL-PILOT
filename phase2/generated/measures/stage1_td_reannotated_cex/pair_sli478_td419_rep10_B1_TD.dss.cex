@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep10
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=419
+*CHI:	once upon a time there was a dog and a rabbit .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|dog cconj|and
+	det|a-Ind-Art noun|rabbit .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they were building a castle in the sandbox .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|build-Part-Pres-S det|a-Ind-Art noun|castle-Acc adp|in
+	det|the-Def-Art noun|sandbox .
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	the rabbit was carrying a big bucket .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|carry-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|bucket-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	then the dog put the bucket down and it fell over and made a big
+	hole in the castle .
+%mor:	adv|then det|the-Def-Art noun|dog verb|put-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|bucket-Acc adp|down cconj|and
+	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|over cconj|and
+	verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1 noun|hole-Acc
+	adp|in det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; F3; A1; C2; F3; C2; Z; Z;
+*CHI:	the rabbit was so sad and cried .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|sad-S1 cconj|and verb|cry-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; F5; F3; C2;
+*CHI:	the dog said sorry .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	.
+%xdss:	Z; C2;
+*CHI:	they got some more sand and tried to fix it .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|some-Def-Ind
+	adj|more-Cmp-S1 noun|sand-Acc cconj|and verb|try-Fin-Ind-Past-P3
+	part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; A3; A3; Z; F3; C2; D3; C1; A1; B5;
+@End

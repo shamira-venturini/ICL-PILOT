@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:27 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep06_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog they   |   |3  |2 1|   |   |3  |   |   |  1| 10|
+    went to the park to eat .          |   |   |   |   |   |   |   |   |   |   |
+they got carrots and sandwiches and    |   |3  |2  |   |   |3 3|   |   |  1| 12|
+    berries .                          |   |   |   |   |   |   |   |   |   |   |
+they had a big picnic .                |   |3  |2  |   |   |   |   |   |  1|  6|
+i ate too much .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+my tummy started to hurt .             |   |1  |2 1|3  |   |   |   |   |  1|  8|
+i felt dizzy .                         |   |1  |2  |   |   |   |   |   |  1|  4|
+i went to the doctor .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+the doctor said you ate too much .     |   |   |2 2|5  |   |   |   |   |  1| 10|
+i sat on the bench and rested .        |   |1  |2 2|   |   |3  |   |   |  1|  9|
+my tummy felt better .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  0| 15| 26|  8|  0| 12|  0|  0| 10| 71|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.10

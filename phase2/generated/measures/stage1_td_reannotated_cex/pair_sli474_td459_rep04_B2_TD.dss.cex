@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep04
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=459
+*CHI:	once upon a time rabbit and dog went to get food .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Past-S3-irr part|to verb|get-Inf-S
+	noun|food-Acc .
+%xdss:	Z; Z; F3; Z; C2; D3; C1; Z;
+*CHI:	they got carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	we went on a picnic .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|on det|a-Ind-Art
+	noun|picnic .
+%xdss:	B3; C2; Z;
+*CHI:	a little boy ate and ate .
+%mor:	det|a-Ind-Art adj|little-S1 noun|boy verb|eat-Fin-Ind-Past-S3-irr
+	cconj|and verb|eat-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2; F3; C2;
+*CHI:	he ate too much .
+%mor:	pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3-irr adv|too adj|much-S1
+	.
+%xdss:	B2; C2;
+*CHI:	then he felt sick in his tummy .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr
+	adj|sick-S1 adp|in pron|his-Prs-Gen-S3 noun|tummy .
+%xdss:	B2; C2; B2; Z;
+*CHI:	he felt dizzy .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|dizzy-S1 .
+%xdss:	B2; C2;
+*CHI:	he went to see the doctor .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr part|to
+	verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B2; C2; D3; C1; Z;
+*CHI:	the doctor gave him a special drink .
+%mor:	det|the-Def-Art noun|doctor verb|give-Fin-Ind-Past-S3-irr
+	pron|he-Prs-Acc-S3 det|a-Ind-Art adj|special-S1 noun|drink-Acc .
+%xdss:	Z; C2; B2; Z;
+*CHI:	the boy drank it and felt better .
+%mor:	det|the-Def-Art noun|boy verb|drink-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 cconj|and verb|feel-Fin-Ind-Past-S3-irr
+	adj|good-Cmp-S1 .
+%xdss:	Z; C2; A1; B5; F3; C2;
+*CHI:	he went to sleep .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|to noun|sleep .
+%xdss:	B2; C2; Z;
+@End

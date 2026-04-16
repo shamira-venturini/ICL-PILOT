@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep07
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=417
+*CHI:	there is a dog and a rabbit .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog
+	cconj|and det|a-Ind-Art noun|rabbit .
+%xdss:	C2; Z; F3; Z;
+*CHI:	they were on the beach .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adp|on
+	det|the-Def-Art noun|beach .
+%xdss:	B3; C2; Z;
+*CHI:	they built a big sandcastle together .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc adv|together .
+%xdss:	B3; C2; Z;
+*CHI:	the dog had a shovel and the rabbit had a bucket .
+%mor:	det|the-Def-Art noun|dog verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|shovel-Acc cconj|and det|the-Def-Art noun|rabbit
+	verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bucket-Acc .
+%xdss:	Z; C2; Z; F3; Z; C2; Z;
+*CHI:	the dog threw sand on the castle with the shovel .
+%mor:	det|the-Def-Art noun|dog verb|throw-Fin-Ind-Past-S3-irr
+	noun|sand-Acc adp|on det|the-Def-Art noun|castle adp|with
+	det|the-Def-Art noun|shovel .
+%xdss:	Z; C2; Z; Z; Z;
+*CHI:	but then the rabbit threw too much sand and it fell down .
+%mor:	cconj|but adv|then det|the-Def-Art noun|rabbit
+	verb|throw-Fin-Ind-Past-S3-irr adv|too adj|much-S1 noun|sand-Acc
+	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down
+	.
+%xdss:	F5; Z; C2; Z; F3; A1; C2;
+*CHI:	the castle is broken .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit was sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	the dog was sad too .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	adv|too .
+%xdss:	Z; C2;
+*CHI:	the dog said sorry to the rabbit .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	adp|to det|the-Def-Art noun|rabbit .
+%xdss:	Z; C2; Z;
+*CHI:	they both wanted to fix the castle .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|want-Fin-Ind-Past-P3
+	part|to verb|fix-Inf-S det|the-Def-Art noun|castle-Acc .
+%xdss:	B3; A7; C2; D3; C1; Z;
+*CHI:	they got some more sand and they built it again .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|some-Def-Ind
+	adj|more-Cmp-S1 noun|sand-Acc cconj|and pron|they-Prs-Nom-P3
+	verb|build-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C2; A3; A3; Z; F3; B3; C2; A1; B5;
+@End

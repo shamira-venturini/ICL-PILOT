@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep07_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog were friends .          |   |   |2  |   |   |3  |   |   |  1|  6|
+They pulled a wagon with a big red     |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+The balloon came loose and went high up|   |   |2 2|   |   |3  |   |   |  1|  8|
+     in the sky .                      |   |   |   |   |   |   |   |   |   |   |
+Rabbit and dog were sad .              |   |   |2  |   |   |3  |   |   |  1|  6|
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to the balloon man .         |   |3  |2  |   |   |   |   |   |  1|  6|
+He had lots of balloons , but they were|   |2 3|2 2|   |   |5  |   |   |  1| 15|
+     very expensive .                  |   |   |   |   |   |   |   |   |   |   |
+The rabbit's mom gave the balloon man  |3 3|2 3|2 2|   |   |3  |   |   |  1| 19|
+    some money , and he gave them two  |   |   |   |   |   |   |   |   |   |   |
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+Rabbit and dog were so happy , they    |   |3 3|2 2|   |   |3 5|   |   |  1| 24|
+    blew up the balloons and ran around|   |   |2  |   |   |3  |   |   |   |   |
+     with them .                       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  9| 25| 28|  0|  0| 28|  0|  0|  9| 99|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 11.00

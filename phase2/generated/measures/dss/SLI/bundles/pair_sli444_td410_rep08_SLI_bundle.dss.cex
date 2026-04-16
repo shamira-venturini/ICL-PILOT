@@ -1,0 +1,199 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;02.04||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep08
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=444
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	They play with the ball near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|the-Def-Art noun|ball adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z; Z;
+*CHI:	the ball go [* m:03s:a] down the pool now .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S adp|down
+	det|the-Def-Art noun|pool adv|now .
+%xdss:	Z; C1; Z;
+*CHI:	the rabbit get [* m:03s:a] in .
+%mor:	det|the-Def-Art noun|rabbit verb|get-Fin-Ind-Pres-S3 adv|in .
+%xdss:	Z; C2;
+*CHI:	she get [* m:03s:a] it .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; A1; B5;
+*CHI:	she's out now .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|out adv|now .
+%xdss:	B2; C1;
+*CHI:	she got the ball .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B2; C2; Z;
+@Comment:	bundled_story_start=A2
+*CHI:	there's a zoo and there's a sign that says dont run .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|zoo
+	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Pres-S3 part|dont
+	verb|run-Inf-S .
+%xdss:	Z; F3; Z; A1; C2; C1;
+*CHI:	and a monkey is running to the pool .
+%mor:	cconj|and det|a-Ind-Art noun|monkey aux|be-Fin-Ind-Pres-S3
+	verb|run-Part-Pres-S adp|to det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C1; C1; Z;
+*CHI:	and he slipped and he fell down and he hurt his knee .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down cconj|and
+	pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	F3; B2; C2; F3; B2; C2; F3; B2; C2; B2; Z;
+*CHI:	a lady with a big bandage is coming to help him .
+%mor:	det|a-Ind-Art noun|lady adp|with det|a-Ind-Art adj|big-S1
+	noun|bandage aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S part|to
+	verb|help-Inf-S pron|he-Prs-Acc-S3 .
+%xdss:	Z; Z; C1; C1; D3; C1; B2;
+*CHI:	the monkey is sitting on a bench and resting .
+%mor:	det|the-Def-Art noun|monkey aux|be-Fin-Ind-Pres-S3
+	verb|sit-Part-Pres-S adp|on det|a-Ind-Art noun|bench cconj|and
+	noun|resting-Ger .
+%xdss:	Z; C1; C1; Z; F3; Z; D8;
+@Comment:	bundled_story_start=A3
+*CHI:	kitty's near the pool .
+%mor:	propn|kitty~aux|be-Fin-Ind-Pres-S3 adp|near det|the-Def-Art
+	noun|pool .
+%xdss:	C1; Z;
+*CHI:	kitty's crying .
+%mor:	propn|kitty~part|s noun|cry-Ger .
+%xdss:	Z; D8;
+*CHI:	he's trying to get it .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S
+	part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C1; C1; D3; C1; A1; B5;
+*CHI:	he's getting it .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C1; C1; A1; B5;
+*CHI:	got it .
+%mor:	verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%xdss:	C2; A1; B5;
+*CHI:	kitty's happy .
+%mor:	noun|kitty~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	puppy's happy .
+%mor:	noun|puppy~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+@Comment:	bundled_story_start=B1
+*CHI:	Rabbit and dog build a sandcastle .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|sandcastle-Acc .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	Dog has a bucket and he makes big holes in the castle .
+%mor:	noun|dog verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bucket-Acc
+	cconj|and pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3 adj|big-S1
+	noun|hole-Plur-Acc adp|in det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; F3; B2; C2; Z; Z;
+*CHI:	The castle is all ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3 adv|all
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C1; C2;
+*CHI:	Dog says sorry and they [* s:r:gc:pro] build a new castle .
+%mor:	noun|dog verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 cconj|and
+	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|new-S1 noun|castle-Acc .
+%xdss:	Z; C2; F3; B3; C1; Z;
+@Comment:	bundled_story_start=B2
+*CHI:	Rabbit and dog go to the park .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|park .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They pick carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|pick-Fin-Ind-Pres-P3 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	We have a picnic .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|a-Ind-Art
+	noun|picnic-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	I ate too many sandwiches .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B1; C2; Z;
+*CHI:	My tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	The doctor says I ate too much .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1 .
+%xdss:	Z; C2; D5; B1; C2;
+*CHI:	I have to lie down .
+%mor:	pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 part|to verb|lie-Inf-S
+	adp|down .
+%xdss:	B1; C1; D3; C1;
+*CHI:	Now I feel better .
+%mor:	adv|now pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1
+	.
+%xdss:	B1; C1;
+@Comment:	bundled_story_start=B3
+*CHI:	they was [* m:vsg:a] carryin [* m:0ing] a wagon .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr
+	verb|carryin-Part-Past-S det|a-Ind-Art noun|wagon-Acc .
+%xdss:	B3; C7; C2; Z;
+*CHI:	the balloon came loose .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adv|loose .
+%xdss:	Z; C2;
+*CHI:	it went whoosh .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adj|whoosh-S1 .
+%xdss:	A1; C2;
+*CHI:	it went away .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	A1; C2;
+*CHI:	the kids was [* m:vsg:a] sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	.
+%xdss:	Z; C2;
+*CHI:	they was [* m:vsg:a] lookin for another one .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr
+	verb|lookin-Part-Pres-S adp|for det|another-Def-Ind noun|one .
+%xdss:	B3; C2; C1; F8; A3; Z;
+*CHI:	they go to the store .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|store .
+%xdss:	B3; C1; Z;
+*CHI:	the man have [* m:vun:a] lots of balloons .
+%mor:	det|the-Def-Art noun|man verb|have-Fin-Ind-Pres-P3
+	noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%xdss:	Z; C1; Z; Z;
+*CHI:	he was makin a big price .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|makin-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|price-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	the kids no [* s:r:gc:det] have enough money .
+%mor:	det|the-Def-Art noun|kid-Plur adv|no verb|have-Fin-Ind-Pres-P3
+	adj|enough-S1 noun|money-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	the man help [* m:03s:a] them .
+%mor:	det|the-Def-Art noun|man verb|help-Fin-S pron|they-Prs-Acc-P3 .
+%xdss:	Z; C1; B3;
+*CHI:	he give [* m:03s:a] them two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	they was [* m:vsg:a] happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	B3; C2;
+*CHI:	they was [* m:vsg:a] blowin [* m:0ing] up their balloons .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr
+	verb|blowin-Part-Pres-S adp|up pron|their-Prs-Gen-P3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C2; C1; B3; Z;
+@End

@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:22 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep09_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we're going to have a picnic .         |   |3  |1 1|2  |   |   |   |   |  1|  8|
+we're picking carrots and sandwiches . |   |3  |1  |   |   |3  |   |   |  1|  8|
+the dog is eating carrots .            |   |   |1 1|   |   |   |   |   |  1|  3|
+rabbit is eating sandwiches .          |   |   |1 1|   |   |   |   |   |  1|  3|
+oh look i ate too much .               |   |1  |1 2|5  |   |   |   |   |  1| 10|
+now i feel sick .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+i feel dizzy .                         |   |1  |1  |   |   |   |   |   |  1|  3|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+doctor is here .                       |   |   |1  |   |   |   |   |   |  1|  2|
+doctor is giving me some medicine .    |3  |1  |1 1|   |   |   |   |   |  1|  7|
+i'm drinking the medicine .            |   |1  |1  |   |   |   |   |   |  1|  3|
+i'm resting now .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+i'm feeling better .                   |   |1  |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  3| 14| 20|  7|  0|  3|  0|  0| 13| 60|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  4.62

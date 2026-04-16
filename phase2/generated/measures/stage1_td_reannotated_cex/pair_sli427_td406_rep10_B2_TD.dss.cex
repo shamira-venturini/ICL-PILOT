@@ -1,0 +1,64 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep10
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=10
+@Comment:	source_child_id=406
+*CHI:	Me [* s:r:gc:pro] and my friend dog we go to the park .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend noun|dog
+	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	noun|park .
+%xdss:	B1; F3; B1; Z; Z; B3; C1; Z;
+*CHI:	we pick carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|pick-Fin-Ind-Pres-P1 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	my friend dog take [* m:03s:a] the sandwiches .
+%mor:	pron|my-Prs-Gen-S1 noun|friend noun|dog verb|take-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|sandwich-Plur-Acc .
+%xdss:	B1; Z; Z; C2; Z;
+*CHI:	me [* s:r:gc:pro] take the carrots .
+%mor:	pron|I-Prs-Acc-S1 verb|take-Fin-Ind-Pres-S1 det|the-Def-Art
+	noun|carrot-Plur-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	we go sit on the blanket .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 verb|sit-Inf-S adp|on
+	det|the-Def-Art noun|blanket .
+%xdss:	B3; C1; C1; Z;
+*CHI:	me [* s:r:gc:pro] eat too many carrots .
+%mor:	pron|I-Prs-Acc-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adj|many-S1
+	noun|carrot-Plur-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	me [* s:r:gc:pro] feel sick .
+%mor:	pron|I-Prs-Acc-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	me [* s:r:gc:pro] feel dizzy .
+%mor:	pron|I-Prs-Acc-S1 verb|feel-Fin-Ind-Pres-S1 adj|dizzy-S1 .
+%xdss:	B1; C1;
+*CHI:	me [* s:r:gc:pro] go to the doctor .
+%mor:	pron|I-Prs-Acc-S1 verb|go-Fin-S adp|to det|the-Def-Art noun|doctor
+	.
+%xdss:	B1; C1; Z;
+*CHI:	doctor give [* m:03s:a] me a medicine .
+%mor:	noun|doctor verb|give-Fin-Imp-S pron|I-Prs-Acc-S1 det|a-Ind-Art
+	noun|medicine-Acc .
+%xdss:	Z; C1; B1; Z;
+*CHI:	me [* s:r:gc:pro] feel better now .
+%mor:	pron|I-Prs-Acc-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 adv|now
+	.
+%xdss:	B1; C1;
+*CHI:	me [* s:r:gc:pro] go home and sleep .
+%mor:	pron|I-Prs-Acc-S1 verb|go-Fin-Ind-Pres-S1 noun|home-Acc cconj|and
+	verb|sleep-Fin-Imp-S .
+%xdss:	B1; C1; Z; F3; C1;
+@End

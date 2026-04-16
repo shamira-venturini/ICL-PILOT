@@ -1,0 +1,74 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep01
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=460
+*CHI:	they're [/] they're [/] they're pulling the wagon .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|pull-Part-Pres-S
+	det|the-Def-Art noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they got a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	the balloon got loose it went up [/] up [/] up .
+%mor:	det|the-Def-Art noun|balloon verb|get-Fin-Ind-Past-S3-irr
+	adj|loose-S1 pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up .
+%xdss:	Z; C2; A1; C2;
+*CHI:	oh no it's gone .
+%mor:	intj|oh intj|no pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	adj|gone-S1 .
+%xdss:	A1; C1;
+*CHI:	they're looking around looking around .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|look-Part-Pres-S
+	adv|around verb|look-Part-Pres-S adv|around .
+%xdss:	B3; C1; C1;
+*CHI:	they saw a lady she's got lots of balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|lady-Acc pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Past-S-irr noun|lot-Plur-Acc adp|of noun|balloon-Plur
+	.
+%xdss:	B3; C2; Z; B2; C7; C2; Z; Z;
+*CHI:	she's smiling at them .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S
+	adp|at pron|they-Prs-Acc-P3 .
+%xdss:	B2; C1; C1; B3;
+*CHI:	how much are the balloons .
+%mor:	adv|how adj|much-S1 aux|be-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|balloon-Plur .
+%xdss:	B6; H4; C2; Z;
+*CHI:	that's five dollars each .
+%mor:	pron|that-Rel~aux|be-Fin-Ind-Pres-S3 num|five noun|dollar-Plur
+	det|each-Def-Tot .
+%xdss:	A1; C1; A3; Z; A7;
+*CHI:	they're looking at each other .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|look-Part-Pres-S
+	adp|at det|each-Def-Rcp adj|other-S1 .
+%xdss:	B3; C1; A7; A3;
+*CHI:	the rabbit's got a quarter in her pocket .
+%mor:	det|the-Def-Art noun|rabbit~part|s verb|get-Part-Past-S-irr
+	det|a-Ind-Art noun|quarter-Acc adp|in pron|her-Prs-Gen-S3
+	noun|pocket .
+%xdss:	Z; C2; Z; B2; Z;
+*CHI:	the lady's smiling .
+%mor:	det|the-Def-Art noun|lady~part|s noun|smile-Ger .
+%xdss:	Z; Z; D8;
+*CHI:	that's enough .
+%mor:	pron|that-Rel~aux|be-Fin-Ind-Pres-S3 adj|enough-S1 .
+%xdss:	A1; C1;
+*CHI:	they got two balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr num|two
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C2; A3; Z;
+@End

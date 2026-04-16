@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep10_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day my friend's kitty and my friend|3  |1 1|2  |   |   |3  |   |   |  1| 11|
+     went to the pool .                |   |   |   |   |   |   |   |   |   |   |
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+But my friend's kitty ran to the water |   |1  |2  |   |   |5  |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+kitty slipped and hurt her knee .      |   |2  |2 2|   |   |3  |   |   |  1| 10|
+Someone came with a special cloth to   |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+    fix it .                           |   |   |   |   |   |   |   |   |   |   |
+kitty sat on a bench and rested .      |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  8| 10| 19|  8|  0| 14|  0|  0|  7| 66|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.43

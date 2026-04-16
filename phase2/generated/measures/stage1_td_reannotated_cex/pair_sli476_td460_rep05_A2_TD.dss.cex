@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep05
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=460
+*CHI:	it says no running .
+%mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg
+	noun|running-Acc-Ger .
+%xdss:	A1; C2; Z; D8;
+*CHI:	he started to run to the water .
+%mor:	pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	B2; C2; D3; C1; Z;
+*CHI:	oops he fell down .
+%mor:	noun|oop pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down
+	.
+%xdss:	Z; B2; C2;
+*CHI:	his knee is boo booed .
+%mor:	pron|his-Prs-Gen-S3 noun|knee aux|be-Fin-Ind-Pres-S3 noun|boo
+	verb|booe-Part-Past-S .
+%xdss:	B2; Z; C1; Z; D4; C2;
+*CHI:	a lifeguard came with a bandage .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	he sat on the bench .
+%mor:	pron|he-Prs-Nom-S3 verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|the-Def-Art noun|bench .
+%xdss:	B2; C2; Z;
+*CHI:	now he's resting .
+%mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|rest-Part-Pres-S .
+%xdss:	B2; C1; C1;
+@End

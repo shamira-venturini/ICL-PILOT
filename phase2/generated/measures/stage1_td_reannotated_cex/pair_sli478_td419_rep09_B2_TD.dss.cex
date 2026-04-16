@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep09
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=419
+*CHI:	rabbit and dog got some food .
+%mor:	noun|rabbit cconj|and noun|dog verb|get-Fin-Ind-Past-S3-irr
+	det|some-Def-Ind noun|food-Acc .
+%xdss:	Z; F3; Z; C2; A3; Z;
+*CHI:	then they had a picnic .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|picnic-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	one child ate too much .
+%mor:	num|one noun|child verb|eat-Fin-Ind-Past-S3-irr adv|too adv|much .
+%xdss:	A3; Z; C2;
+*CHI:	then the child got a tummyache .
+%mor:	adv|then det|the-Def-Art noun|child verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	then doctor came and checked the child .
+%mor:	adv|then noun|doctor verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|check-Fin-Ind-Past-S3 det|the-Def-Art noun|child-Acc .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	the child felt better .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Past-S3-irr
+	adj|good-Cmp-S1 .
+%xdss:	Z; C2;
+*CHI:	the child just sat on a bench .
+%mor:	det|the-Def-Art noun|child adv|just verb|sit-Fin-Ind-Past-S3-irr
+	adp|on det|a-Ind-Art noun|bench .
+%xdss:	Z; C2; Z;
+@End

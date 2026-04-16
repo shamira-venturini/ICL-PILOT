@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep04
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=415
+*CHI:	They go to the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	There's a sign that says .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	The monkey runs to the water .
+%mor:	det|the-Def-Art noun|monkey verb|run-Fin-Ind-Pres-S3 adp|to
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	Oh no , the monkey slips and hurts her knee .
+%mor:	intj|oh intj|no det|the-Def-Art noun|monkey
+	verb|slip-Fin-Ind-Pres-S3 cconj|and verb|hurt-Fin-Ind-Pres-S3
+	pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; B2; Z;
+*CHI:	A nice lifeguard comes and puts a bandage on the monkey's knee .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	cconj|and verb|put-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bandage-Acc
+	adp|on det|the-Def-Art noun|monkey~part|s noun|knee .
+%xdss:	Z; C2; F3; C2; Z; Z; Z;
+*CHI:	The monkey sits on a bench and rests .
+%mor:	det|the-Def-Art noun|monkey verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

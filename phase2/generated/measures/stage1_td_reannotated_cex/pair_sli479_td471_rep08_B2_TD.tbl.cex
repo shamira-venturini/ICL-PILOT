@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep08_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog went to the park .      |   |   |2  |   |   |3  |   |   |  1|  6|
+They had a basket of yummy carrots and |   |3  |2  |   |   |3  |   |   |  1|  9|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+A little boy was so happy .            |   |   |2  |   |   |5  |   |   |  1|  8|
+He ate and ate and ate .               |   |2  |2 2|   |   |3 3|   |   |  1| 15|
+                                       |   |   |2  |   |   |   |   |   |   |   |
+His tummy started to hurt .            |   |2  |2 1|3  |   |   |   |   |  1|  9|
+The boy said .                         |   |   |2  |   |   |   |   |   |  1|  3|
+I don't feel good .                    |   |1  |1  |   |4  |   |   |   |  1|  7|
+His mommy took him to the doctor .     |   |2 2|2  |   |   |   |   |   |  1|  7|
+The doctor said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+The boy lay [* m:base:ed] down and     |   |   |2 2|   |   |3  |   |   |  0|  7|
+    slept .                            |   |   |   |   |   |   |   |   |   |   |
+He felt better .                       |   |2  |2  |   |   |   |   |   |  1|  5|
+TOTAL                                  |  0| 14| 28|  3|  4| 20|  0|  0| 10| 79|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  7.18

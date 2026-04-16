@@ -1,0 +1,74 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep06
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=417
+*CHI:	me [* s:r:gc:pro] and my dog are building a sandcastle .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog
+	aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S det|a-Ind-Art
+	noun|sandcastle-Acc .
+%xdss:	B1; F3; B1; Z; C2; C1; Z;
+*CHI:	we are using a big bucket .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Pres-P1 verb|use-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|bucket-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the bucket is red .
+%mor:	det|the-Def-Art noun|bucket aux|be-Fin-Ind-Pres-S3 adj|red-S1 .
+%xdss:	Z; C1;
+*CHI:	my dog is carrying it .
+%mor:	pron|my-Prs-Gen-S1 noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|carry-Part-Pres-S pron|it-Prs-Acc-S3 .
+%xdss:	B1; Z; C1; C1; A1; B5;
+*CHI:	he's big and strong .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|big-S1 cconj|and
+	adj|strong-S1 .
+%xdss:	B2; C1; F3;
+*CHI:	he pours the sand in the castle .
+%mor:	pron|he-Prs-Nom-S3 verb|pour-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|sand-Acc adp|in det|the-Def-Art noun|castle .
+%xdss:	B2; C2; Z; Z;
+*CHI:	it's getting high .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S
+	adj|high-S1 .
+%xdss:	A1; C1; C1;
+*CHI:	then my dog pours too much sand .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|dog verb|pour-Fin-Ind-Pres-S3
+	adv|too adj|much-S1 noun|sand-Acc .
+%xdss:	B1; Z; C2; Z;
+*CHI:	it falls down .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Pres-S3 adp|down .
+%xdss:	A1; C2;
+*CHI:	the castle is ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	my dog is crying .
+%mor:	pron|my-Prs-Gen-S1 noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	B1; Z; C1; C1;
+*CHI:	he says sorry .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	B2; C2;
+*CHI:	I help him fix it .
+%mor:	pron|I-Prs-Nom-S1 verb|help-Fin-Ind-Pres-S1 pron|he-Prs-Acc-S3
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B1; C1; D5; B2; C1; A1; B5;
+*CHI:	I pour sand too .
+%mor:	pron|I-Prs-Nom-S1 verb|pour-Fin-Ind-Pres-S1 noun|sand-Acc adv|too .
+%xdss:	B1; C1; Z;
+*CHI:	we make it better .
+%mor:	pron|we-Prs-Nom-P1 verb|make-Fin-Ind-Pres-P1 pron|it-Prs-Acc-S3
+	adj|good-Cmp-S1 .
+%xdss:	B3; C1; A1; B5;
+@End

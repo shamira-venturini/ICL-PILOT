@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep01
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=1
+@Comment:	source_child_id=471
+*CHI:	Benny the rabbit and his dog went to the park and pulled a red
+	wagon with a big yellow balloon .
+%mor:	propn|Benny det|the-Def-Art noun|rabbit cconj|and
+	pron|his-Prs-Gen-S3 noun|dog verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|park cconj|and verb|pull-Fin-Ind-Past-S3
+	det|a-Ind-Art adj|red-S1 noun|wagon-Acc adp|with det|a-Ind-Art
+	adj|big-S1 adj|yellow-S1 noun|balloon .
+%xdss:	Z; F3; B2; Z; C2; Z; F3; C2; Z; Z;
+*CHI:	but the balloon came loose and it flew away .
+%mor:	cconj|but det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adj|loose-S1 cconj|and
+	pron|it-Prs-Nom-S3 verb|fly-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	F5; Z; C2; F3; A1; C2;
+*CHI:	Benny and his dog were so sad .
+%mor:	propn|Benny cconj|and pron|his-Prs-Gen-S3 noun|dog
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|sad-S1 .
+%xdss:	F3; B2; Z; C2; F5;
+*CHI:	They wanted a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	They went to the ice cream man and said .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|ice noun|cream noun|man cconj|and
+	verb|say-Fin-Ind-Past-P3-irr .
+%xdss:	B3; C2; Z; Z; Z; F3; C2;
+*CHI:	please can we have a balloon .
+%mor:	intj|please aux|can-Fin-S pron|we-Prs-Nom-P1 verb|have-Inf-S
+	det|a-Ind-Art noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	The ice cream man said .
+%mor:	det|the-Def-Art noun|ice noun|cream noun|man
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; Z; Z; C2;
+*CHI:	Benny didn't have five dollars .
+%mor:	propn|Benny aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S
+	num|five noun|dollar-Plur-Acc .
+%xdss:	C6; E4; C1; A3; Z;
+*CHI:	So the ice cream man said .
+%mor:	adv|so det|the-Def-Art noun|ice noun|cream noun|man
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	F5; Z; Z; Z; C2;
+*CHI:	ok , I'll give you a balloon for two dollars .
+%mor:	adj|ok-S1 pron|I-Prs-Nom-S1~aux|will-Fin-S verb|give-Inf-S
+	pron|you-Prs-Acc-S2 det|a-Ind-Art noun|balloon-Acc adp|for num|two
+	noun|dollar-Plur .
+%xdss:	C4; C1; B5; Z; F8; A3; Z;
+*CHI:	Benny and his dog were so happy .
+%mor:	propn|Benny cconj|and pron|his-Prs-Gen-S3 noun|dog
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 .
+%xdss:	F3; B2; Z; C2; F5;
+@End

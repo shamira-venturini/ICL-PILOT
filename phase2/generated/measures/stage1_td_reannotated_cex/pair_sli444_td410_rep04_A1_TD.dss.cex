@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep04
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=410
+*CHI:	it's a big pool .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1
+	noun|pool .
+%xdss:	A1; C1; Z;
+*CHI:	a doggy and a kitty are playing .
+%mor:	det|a-Ind-Art noun|doggy cconj|and det|a-Ind-Art noun|kitty
+	aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S .
+%xdss:	Z; F3; Z; C2; C1;
+*CHI:	they're playing with the ball .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with det|the-Def-Art noun|ball .
+%xdss:	B3; C1; Z;
+*CHI:	the ball went into the pool .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	the kitty goes .
+%mor:	det|the-Def-Art noun|kitty verb|go-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	she jumps in the pool .
+%mor:	pron|she-Prs-Nom-S3 verb|jump-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	B2; C2; Z;
+*CHI:	she gets the ball .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	she's dripping wet .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|drip-Part-Pres-S
+	adj|wet-S1 .
+%xdss:	B2; C1; C1;
+*CHI:	she comes out and gives the ball to the doggy .
+%mor:	pron|she-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3 adp|out cconj|and
+	verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc adp|to
+	det|the-Def-Art noun|doggy .
+%xdss:	B2; C2; F3; C2; Z; Z;
+*CHI:	they both wag their tails .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|be-Fin-Ind-Pres-P3
+	pron|their-Prs-Gen-P3 noun|tail-Plur-Acc .
+%xdss:	B3; A7; C1; B3; Z;
+*CHI:	the doggy is so happy .
+%mor:	det|the-Def-Art noun|doggy aux|be-Fin-Ind-Pres-S3 adv|so
+	adj|happy-S1 .
+%xdss:	Z; C1; F5;
+@End

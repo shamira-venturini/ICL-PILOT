@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep04
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=4
+@Comment:	source_child_id=439
+*CHI:	One time there was a kitty and a kitty friend .
+%mor:	num|one noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|kitty cconj|and det|a-Ind-Art noun|kitty
+	noun|friend .
+%xdss:	A3; Z; C2; Z; F3; Z; Z;
+*CHI:	they were going to the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z;
+*CHI:	look there's a sign !
+%mor:	verb|look-Fin-Imp-S pron|there-Int-S1~aux|be-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|sign !
+%xdss:	C1; C1; Z;
+*CHI:	no running please .
+%mor:	det|no-Def-Neg noun|running-Ger intj|please .
+%xdss:	Z; D8;
+*CHI:	the kitty friend started to run .
+%mor:	det|the-Def-Art noun|kitty noun|friend verb|start-Fin-Ind-Past-S3
+	part|to verb|run-Inf-S .
+%xdss:	Z; Z; C2; D3; C1;
+*CHI:	oops kitty friend slipped and boo booed her knee .
+%mor:	noun|oop noun|kitty noun|friend verb|slip-Fin-Ind-Past-S3 cconj|and
+	noun|boo verb|booe-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3 noun|knee-Acc
+	.
+%xdss:	Z; Z; Z; C2; F3; Z; C2; B2; Z;
+*CHI:	a nice helper came with a special boo [/] boo thingy .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|helper verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|special-S1 noun|boo noun|thingy .
+%xdss:	Z; C2; Z; Z;
+*CHI:	kitty friend sat down on a bench and rested .
+%mor:	noun|kitty noun|friend verb|sit-Fin-Ind-Past-S3-irr adp|down adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; Z; C2; Z; F3; C2;
+@End

@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep01
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=466
+*CHI:	We went on a picnic .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|on det|a-Ind-Art
+	noun|picnic .
+%xdss:	B3; C2; Z;
+*CHI:	we got carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	I ate too much sandwiches [* m:+s:a] .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B1; C2; Z;
+*CHI:	my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel yucky .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|yucky-S1 .
+%xdss:	B1; C1;
+*CHI:	the doctor came and checked me .
+%mor:	det|the-Def-Art noun|doctor verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|check-Fin-Ind-Past-S3 pron|I-Prs-Acc-S1 .
+%xdss:	Z; C2; F3; C2; B1;
+*CHI:	she gave me a special juice .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1
+	det|a-Ind-Art adj|special-S1 noun|juice-Acc .
+%xdss:	B2; C2; B1; Z;
+*CHI:	I drank it and I feel a little better .
+%mor:	pron|I-Prs-Nom-S1 verb|drink-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3
+	cconj|and pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 det|a-Ind-Art
+	adj|little-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C2; A1; B5; F3; B1; C1;
+*CHI:	now I'm sitting on the bench .
+%mor:	adv|now pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1
+	verb|sit-Part-Pres-S adp|on det|the-Def-Art noun|bench .
+%xdss:	B1; C1; Z;
+@End

@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:31 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep03_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog go on a picnic .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They bring carrots and sandwiches .    |   |3  |1  |   |   |3  |   |   |  1|  8|
+We have a picnic .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+I eat too much sandwiches [* m:+s:a] . |   |1  |1  |   |   |   |   |   |  0|  2|
+Oh no , my tummy hurts .               |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+My rabbit and dog friend help [* m:03s:|   |1 1|1  |   |   |3  |   |   |  0|  6|
+    a] me .                            |   |   |   |   |   |   |   |   |   |   |
+We go to the doctor .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+The doctor gives me a [* s:r:gc:det]   |   |1  |2  |   |   |   |   |   |  0|  3|
+    special medicine .                 |   |   |   |   |   |   |   |   |   |   |
+I drink it .                           |1  |1 5|1  |   |   |   |   |   |  1|  9|
+I feel a little better .               |   |1  |1  |   |   |   |   |   |  1|  3|
+Now I sit down and rest .              |   |1  |1 1|   |   |3  |   |   |  1|  7|
+TOTAL                                  |  1| 23| 15|  0|  0| 12|  0|  0|  9| 60|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  5.00

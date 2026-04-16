@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep01
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=419
+*CHI:	One day at the pool , a kitty and a puppy went to play .
+%mor:	num|one noun|day adp|at det|the-Def-Art noun|pool det|a-Ind-Art
+	noun|kitty cconj|and det|a-Ind-Art noun|puppy
+	verb|go-Fin-Ind-Past-S3-irr part|to verb|play-Inf-S .
+%xdss:	A3; Z; Z; Z; F3; Z; C2; D3; C1;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	But the kitty didn't listen and ran to the water .
+%mor:	cconj|but det|the-Def-Art noun|kitty
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|listen-Inf-S cconj|and
+	verb|run-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|water .
+%xdss:	F5; Z; C6; E4; C1; F3; C2; Z;
+*CHI:	The kitty slipped and got hurt on her knee .
+%mor:	det|the-Def-Art noun|kitty verb|slip-Fin-Ind-Past-S3 cconj|and
+	aux|get-Fin-Ind-Past-S3-irr verb|hurt-Part-Past-S-irr adp|on
+	pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	Z; C2; F3; C7; C2; B2; Z;
+*CHI:	A nice lady came with a special white strip for the kitty's knee .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|special-S1 adj|white-S1 noun|strip
+	adp|for det|the-Def-Art noun|kitty~part|s noun|knee .
+%xdss:	Z; C2; Z; F8; Z; Z;
+*CHI:	The kitty sat on a bench and rested , feeling better .
+%mor:	det|the-Def-Art noun|kitty verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	verb|feel-Part-Pres-S adj|good-Cmp-S1 .
+%xdss:	Z; C2; Z; F3; C2; C1;
+@End

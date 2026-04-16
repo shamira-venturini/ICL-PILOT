@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep01
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=419
+*CHI:	there were a kitty and a puppy playin near the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|kitty cconj|and det|a-Ind-Art noun|puppy noun|playin adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	C2; Z; F3; Z; Z; Z;
+*CHI:	they were playin [* m:0ing] with a ball .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|playin-Part-Pres-S adp|with det|a-Ind-Art noun|ball .
+%xdss:	B3; C2; C1; Z;
+*CHI:	the kitty threw it high up in the air and it went in the pool .
+%mor:	det|the-Def-Art noun|kitty verb|throw-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adv|high adp|up adp|in det|the-Def-Art noun|air
+	cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; A1; B5; Z; F3; A1; C2; Z;
+*CHI:	the puppy was sad .
+%mor:	det|the-Def-Art noun|puppy aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	the puppy went in the pool to get the ball .
+%mor:	det|the-Def-Art noun|puppy verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z; C1; Z;
+*CHI:	the kitty helped the puppy get it .
+%mor:	det|the-Def-Art noun|kitty verb|help-Fin-Ind-Past-S3
+	det|the-Def-Art noun|puppy-Acc verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	the puppy came out with the ball and they were happy again .
+%mor:	det|the-Def-Art noun|puppy verb|come-Fin-Ind-Past-S3-irr adp|out
+	adp|with det|the-Def-Art noun|ball cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 adv|again .
+%xdss:	Z; C2; Z; F3; B3; C2;
+@End

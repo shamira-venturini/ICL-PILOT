@@ -1,0 +1,36 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep10
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=415
+*CHI:	there's a dog and a cat they're at the pool and they have a ball .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog
+	cconj|and det|a-Ind-Art noun|cat
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adp|at det|the-Def-Art
+	noun|pool cconj|and pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|ball-Acc .
+%xdss:	Z; F3; Z; B3; Z; F3; B3; C1; Z;
+*CHI:	the ball goes into the water .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the dog jumps in to get it .
+%mor:	det|the-Def-Art noun|dog verb|jump-Fin-Ind-Pres-S3 adp|in part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; C1; A1; B5;
+*CHI:	the cat helps the dog get the ball out .
+%mor:	det|the-Def-Art noun|cat verb|help-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|dog-Acc verb|get-Inf-S det|the-Def-Art noun|ball-Acc adp|out .
+%xdss:	Z; C2; Z; C1; Z;
+@End

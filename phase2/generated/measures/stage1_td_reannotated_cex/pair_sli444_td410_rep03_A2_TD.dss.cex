@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep03
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=410
+*CHI:	One doggy and one kitty go to the pool place .
+%mor:	num|one adj|doggy-S1 cconj|and num|one noun|kitty
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|pool noun|place
+	.
+%xdss:	A3; F3; A3; Z; C1; Z; Z;
+*CHI:	See sign say [* m:03s:a] no run .
+%mor:	verb|see-Fin-Imp-S noun|sign-Acc verb|say-Fin-Imp-S det|no-Def-Neg
+	noun|run-Acc .
+%xdss:	C1; D5; Z; C1; Z;
+*CHI:	kitty start [* m:03s:a] to run to the water .
+%mor:	propn|Kitty verb|start-Fin-Ind-Pres-S3 part|to verb|run-Inf-S
+	adp|to det|the-Def-Art noun|water .
+%xdss:	C2; D3; C1; Z;
+*CHI:	Ouch kitty slip [* m:base:ed] and hurt [* m:03s:a] knee .
+%mor:	intj|ouch noun|kitty verb|slip-Fin-Ind-S cconj|and
+	verb|hurt-Fin-Ind-Past-S-irr noun|knee-Acc .
+%xdss:	Z; C1; F3; C2; Z;
+*CHI:	Then a nice man come [* m:03s:a] with a big bandage .
+%mor:	adv|then det|a-Ind-Art adj|nice-S1 noun|man
+	verb|come-Fin-Ind-Pres-S3 adp|with det|a-Ind-Art adj|big-S1
+	noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	kitty sit [* m:03s:a] on a bench and rest .
+%mor:	propn|Kitty verb|sit-Fin-Ind-Pres-S3 adp|on det|a-Ind-Art
+	noun|bench cconj|and noun|rest .
+%xdss:	C2; Z; F3; Z;
+@End

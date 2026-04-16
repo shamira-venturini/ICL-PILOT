@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep04
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog go for a walk with a wagon and a
+	big pretty balloon .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Imp-S adp|for det|a-Ind-Art noun|walk adp|with
+	det|a-Ind-Art noun|wagon cconj|and det|a-Ind-Art adj|big-S1
+	adj|pretty-S1 noun|balloon .
+%xdss:	Z; Z; F3; Z; C1; F8; Z; Z; F3; Z;
+*CHI:	the balloon come [* m:03s:a] loose and it float [* m:03s:a] away .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adj|loose-S1
+	cconj|and pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adv|away .
+%xdss:	Z; C2; F3; A1; C2;
+*CHI:	they want another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	they see a man with lots of balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|man-Acc adp|with noun|lot-Plur adp|of noun|balloon-Plur .
+%xdss:	B3; C1; Z; Z; Z;
+*CHI:	the man say [* m:03s:a] .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	rabbit and dog don't have five dollars .
+%mor:	noun|rabbit cconj|and noun|dog aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S num|five noun|dollar-Plur-Acc .
+%xdss:	Z; F3; Z; E4; C1; A3; Z;
+*CHI:	okay i will give you two balloons for three dollars .
+%mor:	intj|okay pron|I-Prs-Nom-S1 aux|will-Fin-S verb|give-Inf-S
+	pron|you-Prs-Acc-S2 num|two noun|balloon-Plur-Acc adp|for num|three
+	noun|dollar-Plur .
+%xdss:	B1; C4; D2; C1; B5; A3; Z; F8; A3; Z;
+*CHI:	they get two balloons and they play with them .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 num|two
+	noun|balloon-Plur-Acc cconj|and pron|they-Prs-Nom-P3
+	verb|play-Fin-Ind-Pres-P3 adp|with pron|they-Prs-Acc-P3 .
+%xdss:	B3; C1; A3; Z; F3; B3; C1; B3;
+@End

@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep06
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=417
+*CHI:	One little rabbit was going to the pool .
+%mor:	num|one adj|little-S1 noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|go-Part-Pres-S adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; Z;
+*CHI:	It wanted to get in the water .
+%mor:	pron|it-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|get-Inf-S
+	adp|in det|the-Def-Art noun|water .
+%xdss:	A1; C2; D3; C1; Z;
+*CHI:	so it started to run .
+%mor:	adv|so pron|it-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S .
+%xdss:	F5; A1; C2; D3; C1;
+*CHI:	The little rabbit slipped on the ground and hurt its knee .
+%mor:	det|the-Def-Art adj|little-S1 noun|rabbit verb|slip-Fin-Ind-Past-S3
+	adp|on det|the-Def-Art noun|ground cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; Z; F3; C2; A1; Z;
+*CHI:	A nice lifeguard came over with a bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|over adp|with det|a-Ind-Art
+	noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	The rabbit sat down on a bench and rested its knee .
+%mor:	det|the-Def-Art noun|rabbit verb|sit-Fin-Ind-Past-S3-irr adp|down
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; Z; F3; C2; A1; Z;
+@End

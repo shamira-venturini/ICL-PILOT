@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep04
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=406
+*CHI:	rabbit and dog were best friends .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	adj|good-Sup-S1 noun|friend-Plur .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	they went to the sandbox and built a big castle .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|sandbox cconj|and
+	verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art adj|big-S1
+	noun|castle-Acc .
+%xdss:	B3; C2; Z; F3; C2; Z;
+*CHI:	rabbit was holding the shovel and dog was holding the bucket .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|hold-Part-Pres-S
+	det|the-Def-Art noun|shovel-Acc cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr verb|hold-Part-Pres-S det|the-Def-Art
+	noun|bucket-Acc .
+%xdss:	Z; C2; C1; Z; F3; Z; C2; C1; Z;
+*CHI:	dog poured sand onto the castle and it fell down .
+%mor:	noun|dog verb|pour-Fin-Ind-Past-S3 noun|sand-Acc adp|onto
+	det|the-Def-Art noun|castle cconj|and pron|it-Prs-Nom-S3
+	verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%xdss:	Z; C2; Z; Z; F3; A1; C2;
+*CHI:	rabbit said .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	dog said .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	rabbit and dog cried .
+%mor:	noun|rabbit cconj|and noun|dog verb|cry-Fin-Ind-Past-S3 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they wanted to fix it .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; D3; C1; A1; B5;
+*CHI:	they took more sand and built it again .
+%mor:	pron|they-Prs-Nom-P3 verb|take-Fin-Ind-Past-P3-irr adj|more-Cmp-S1
+	noun|sand-Acc cconj|and verb|build-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C2; A3; Z; F3; C2; A1; B5;
+*CHI:	and rabbit said .
+%mor:	cconj|and noun|rabbit verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	F3; Z; C2;
+*CHI:	it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+*CHI:	they built it even bigger .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|even adj|big-Cmp-S1 .
+%xdss:	B3; C2; A1; B5;
+@End

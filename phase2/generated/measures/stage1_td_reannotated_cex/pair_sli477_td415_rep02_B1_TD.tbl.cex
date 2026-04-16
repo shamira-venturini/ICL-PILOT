@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:23 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep02_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Me [* s:r:gc:pro] and my doggy , we    |   |1 1|2  |   |   |3  |   |   |  0| 10|
+    built a big sandcastle .           |   |3  |   |   |   |   |   |   |   |   |
+My doggy used the big shovel to make a |1  |1 5|2 1|   |   |   |   |   |  1| 11|
+    big hole in it .                   |   |   |   |   |   |   |   |   |   |   |
+The sandcastle got broken .            |   |   |7 2|   |   |   |   |   |  1| 10|
+I was sad and started to cry .         |   |1  |2 2|3  |   |3  |   |   |  1| 13|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+My doggy said sorry and used his paws  |1  |1 2|2 2|   |   |3  |   |   |  1| 18|
+    to fix it .                        |   |5  |1  |   |   |   |   |   |   |   |
+TOTAL                                  |  2| 20| 24|  3|  0|  9|  0|  0|  4| 62|
+WARNING: DSS requires 50 complete sentences and this transcript only has 5.
+
+Developmental sentence score: 12.40

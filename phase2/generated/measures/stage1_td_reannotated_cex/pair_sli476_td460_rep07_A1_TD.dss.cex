@@ -1,0 +1,40 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep07
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=460
+*CHI:	they got a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	the ball fell in the water .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	a dog jumped in the water .
+%mor:	det|a-Ind-Art noun|dog verb|jump-Fin-Ind-Past-S3 adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the dog got the ball .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the dog got out .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Past-S3-irr adp|out .
+%xdss:	Z; C2;
+*CHI:	the dog gave the ball to the cat .
+%mor:	det|the-Def-Art noun|dog verb|give-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc adp|to det|the-Def-Art noun|cat .
+%xdss:	Z; C2; Z; Z;
+@End

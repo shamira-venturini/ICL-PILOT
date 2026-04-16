@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep06
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog go to the park .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|park .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They pick carrots and sandwiches for picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|pick-Fin-Ind-Pres-P3 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur adp|for noun|picnic .
+%xdss:	B3; C1; Z; F3; Z; F8; Z;
+*CHI:	I ate too many sandwiches .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B1; C2; Z;
+*CHI:	My tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	The doctor comes .
+%mor:	det|the-Def-Art noun|doctor verb|come-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	She says .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	I rest and feel better .
+%mor:	pron|I-Prs-Nom-S1 verb|rest-Fin-Ind-Pres-S1 cconj|and
+	verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C1; F3; C1;
+@End

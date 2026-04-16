@@ -1,0 +1,32 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep06
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=450
+*CHI:	ball go [* m:03s:a] in pool .
+%mor:	noun|ball verb|go-Fin-Imp-S adp|in noun|pool .
+%xdss:	Z; C1; Z;
+*CHI:	kitty go in pool .
+%mor:	noun|kitty verb|go-Fin-Imp-S adp|in noun|pool .
+%xdss:	Z; C1; Z;
+*CHI:	kitty get [* m:03s:a] ball .
+%mor:	noun|kitty verb|get-Fin-Imp-S noun|ball-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	kitty come [* m:03s:a] out .
+%mor:	noun|kitty verb|come-Fin-Imp-S adp|out .
+%xdss:	Z; C1;
+*CHI:	kitty give [* m:03s:a] ball to doggy .
+%mor:	noun|kitty verb|give-Fin-Imp-S noun|ball-Acc adp|to noun|doggy .
+%xdss:	Z; C1; Z; Z;
+@End

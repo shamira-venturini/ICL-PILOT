@@ -1,0 +1,63 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep05
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=417
+*CHI:	a birdie and a kitty were playing near the pool with a [* m:allo]
+	airplane .
+%mor:	det|a-Ind-Art noun|birdie cconj|and det|a-Ind-Art noun|kitty
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|near
+	det|the-Def-Art noun|pool adp|with det|a-Ind-Art noun|airplane .
+%xdss:	Z; F3; Z; C2; C1; Z; Z;
+*CHI:	they were having so much fun .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|have-Part-Pres-S adv|so adj|much-S1 noun|fun-Acc .
+%xdss:	B3; C2; C1; F5; Z;
+*CHI:	but then the kitty dropped the airplane into the water .
+%mor:	cconj|but adv|then det|the-Def-Art noun|kitty
+	verb|drop-Fin-Ind-Past-S3 det|the-Def-Art noun|airplane-Acc adp|into
+	det|the-Def-Art noun|water .
+%xdss:	F5; Z; C2; Z; Z;
+*CHI:	the kitty's owner got very upset and said oh no .
+%mor:	det|the-Def-Art noun|kitty~part|s noun|owner
+	verb|get-Fin-Ind-Past-S3-irr adv|very adj|upset-S1 cconj|and
+	verb|say-Fin-Ind-Past-S3-irr intj|oh intj|no .
+%xdss:	Z; Z; C2; F3; C2;
+*CHI:	someone threw a stick into the water to try and get it .
+%mor:	pron|someone-Ind-S1 verb|throw-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|stick-Acc adp|into det|the-Def-Art noun|water part|to
+	verb|try-Inf-S cconj|and verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	A3; C2; Z; Z; C1; F3; C1; A1; B5;
+*CHI:	but it floated away .
+%mor:	cconj|but pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Past-S3 adv|away .
+%xdss:	F5; A1; C2;
+*CHI:	then a man with a big pole came and got the airplane out of the
+	pool .
+%mor:	adv|then det|a-Ind-Art noun|man adp|with det|a-Ind-Art adj|big-S1
+	noun|pole verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc
+	adp|out adp|of det|the-Def-Art noun|pool .
+%xdss:	Z; Z; C2; F3; C2; Z; Z;
+*CHI:	the kitty's owner was so happy to get the airplane back and hugged
+	the kitty .
+%mor:	det|the-Def-Art noun|kitty~part|s noun|owner
+	aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 part|to
+	verb|get-Inf-S det|the-Def-Art noun|airplane-Acc adv|back cconj|and
+	verb|hugge-Fin-Ind-Past-S3 det|the-Def-Art noun|kitty-Acc .
+%xdss:	Z; Z; C2; F5; D3; C1; Z; F3; C2; Z;
+*CHI:	the kitty was happy too .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	adv|too .
+%xdss:	Z; C2;
+@End

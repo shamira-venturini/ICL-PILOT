@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep06
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=459
+*CHI:	Once upon a time a rabbit and dog were friends .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time det|a-Ind-Art
+	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	noun|friend-Plur .
+%xdss:	Z; Z; F3; Z; C2; Z;
+*CHI:	they went to the beach and built a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|beach cconj|and verb|build-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C2; Z; F3; C2; Z;
+*CHI:	the rabbit made a moat and the dog made a big tower .
+%mor:	det|the-Def-Art noun|rabbit verb|make-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|moat-Acc cconj|and det|the-Def-Art noun|dog
+	verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|tower-Acc .
+%xdss:	Z; C2; Z; F3; Z; C2; Z;
+*CHI:	they were so happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1
+	.
+%xdss:	B3; C2; F5;
+*CHI:	then the dog used a big shovel and made a big hole in the tower .
+%mor:	adv|then det|the-Def-Art noun|dog verb|use-Fin-Ind-Past-S3
+	det|a-Ind-Art adj|big-S1 noun|shovel-Acc cconj|and
+	verb|make-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1 noun|hole-Acc
+	adp|in det|the-Def-Art noun|tower .
+%xdss:	Z; C2; Z; F3; C2; Z; Z;
+*CHI:	the castle was broken !
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Past-S3-irr
+	verb|break-Part-Past-S-irr !
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit was sad and cried .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	cconj|and verb|cry-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; F3; C2;
+*CHI:	the dog said sorry and they worked together to fix the castle .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	cconj|and pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Past-P3
+	adv|together part|to verb|fix-Inf-S det|the-Def-Art noun|castle-Acc
+	.
+%xdss:	Z; C2; F3; B3; C2; C1; Z;
+*CHI:	they made it even better than before .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|even adj|good-Cmp-S1 adp|than adv|before .
+%xdss:	B3; C2; A1; B5; F8; F8;
+@End

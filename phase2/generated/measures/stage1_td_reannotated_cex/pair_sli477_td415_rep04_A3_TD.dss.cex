@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep04
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=415
+*CHI:	there are two dogs .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|dog-Plur .
+%xdss:	C1; A3; Z;
+*CHI:	they play with a little airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane .
+%xdss:	B3; C1; Z;
+*CHI:	it's near the pool .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|near det|the-Def-Art
+	noun|pool .
+%xdss:	A1; C1; Z;
+*CHI:	the airplane fall [* m:03s:a] down in the pool .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Pres-S3 adp|down
+	adp|in det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	one of the dog [* m:0s:a] is sad .
+%mor:	num|one adp|of det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	adj|sad-S1 .
+%xdss:	A3; Z; C1;
+*CHI:	he want [* m:03s:a] the airplane .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	a man with a pole try [* m:03s:a] to get it .
+%mor:	det|a-Ind-Art noun|man adp|with det|a-Ind-Art noun|pole
+	verb|try-Fin-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; Z; C1; D3; C1; A1; B5;
+*CHI:	he throw [* m:03s:a] the pole in the pool .
+%mor:	pron|he-Prs-Nom-S3 verb|throw-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|pole-Acc adp|in det|the-Def-Art noun|pool .
+%xdss:	B2; C2; Z; Z;
+*CHI:	the man pull [* m:03s:a] it out .
+%mor:	det|the-Def-Art noun|man verb|pull-Fin-Ind-Pres-S3
+	pron|it-Prs-Acc-S3 adp|out .
+%xdss:	Z; C2; A1; B5;
+*CHI:	the airplane is back .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	the dogs are happy .
+%mor:	det|the-Def-Art noun|dog-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; C2;
+*CHI:	they play again .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adv|again .
+%xdss:	B3; C1;
+@End

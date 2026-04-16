@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep05
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=410
+*CHI:	We went to the park with bunny and dog .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|park adp|with noun|bunny cconj|and noun|dog .
+%xdss:	B3; C2; Z; Z; F3; Z;
+*CHI:	We got carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	bunny and dog were so happy .
+%mor:	noun|Bunny cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; F3; Z; C2; F5;
+*CHI:	We ate and ate .
+%mor:	pron|we-Prs-Nom-P1 verb|eat-Fin-Ind-Past-P1-irr cconj|and
+	verb|eat-Fin-Ind-Past-P1-irr .
+%xdss:	B3; C2; F3; C2;
+*CHI:	One boy had too much .
+%mor:	num|one noun|boy verb|have-Fin-Ind-Past-S3-irr adv|too adj|much-S1
+	.
+%xdss:	A3; Z; C2;
+*CHI:	He felt sick .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|sick-S1 .
+%xdss:	B2; C2;
+*CHI:	He got dizzy .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adj|dizzy-S1 .
+%xdss:	B2; C2;
+*CHI:	He lay [* m:base:ed] down on the blanket .
+%mor:	pron|he-Prs-Nom-S3 verb|lay-Fin-Ind-Past-S3 adp|down adp|on
+	det|the-Def-Art noun|blanket .
+%xdss:	B2; C2; Z;
+*CHI:	He felt a little better .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|little-S1 adj|good-Cmp-S1 .
+%xdss:	B2; C2;
+*CHI:	He sat up .
+%mor:	pron|he-Prs-Nom-S3 verb|sit-Fin-Ind-Past-S3-irr adp|up .
+%xdss:	B2; C2;
+*CHI:	Then he went home to sleep .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adv|home
+	part|to verb|sleep-Inf-S .
+%xdss:	B2; C2; C1;
+@End

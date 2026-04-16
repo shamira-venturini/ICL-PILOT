@@ -1,0 +1,73 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep09
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=419
+*CHI:	Rabbit and dog were friends .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	noun|friend-Plur .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	They pulled a wagon with a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Past-P3 det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	The balloon was so much fun !
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Past-S3-irr adv|so
+	adv|much adj|fun-S1 !
+%xdss:	Z; C2; F5;
+*CHI:	But then the balloon came loose and went .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adj|loose-S1 cconj|and
+	verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	F5; Z; C2; F3; C2;
+*CHI:	It fell on the ground .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|on
+	det|the-Def-Art noun|ground .
+%xdss:	A1; C2; Z;
+*CHI:	Rabbit and dog were sad .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	They went to the man with balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|man adp|with noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z;
+*CHI:	He said it would cost money .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3
+	aux|would-Fin-S verb|cost-Inf-S noun|money-Acc .
+%xdss:	B2; C2; A1; C6; D2; C1; Z;
+*CHI:	Rabbit had money , but not enough .
+%mor:	propn|Rabbit verb|have-Fin-Ind-Past-S3-irr noun|money-Acc cconj|but
+	part|not adj|enough-S1 .
+%xdss:	C2; Z; F5;
+*CHI:	The man gave them more balloons , one for each .
+%mor:	det|the-Def-Art noun|man verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 adj|more-Cmp-S1 noun|balloon-Plur-Acc num|one
+	adp|for det|each-Def-Tot .
+%xdss:	Z; C2; B3; A3; Z; A3; F8; A7;
+*CHI:	Rabbit and dog were happy again .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They pulled the new balloons and smiled .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Past-P3 det|the-Def-Art
+	adj|new-S1 noun|balloon-Plur-Acc cconj|and
+	verb|smile-Fin-Ind-Past-P3 .
+%xdss:	B3; C2; Z; F3; C2;
+@End

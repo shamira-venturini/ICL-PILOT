@@ -1,0 +1,35 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep09_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there was a little    |   |2  |2  |   |   |3  |   |   |  1|  8|
+    rabbit and his dog friend .        |   |   |   |   |   |   |   |   |   |   |
+they went to the park and got lots of  |   |3  |2 2|   |   |3 3|   |   |  1| 14|
+    food like sandwiches and carrots . |   |   |   |   |   |   |   |   |   |   |
+they sat on a blanket and ate together |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the little rabbit ate and ate and ate  |3 3|   |2 2|   |   |3 3|   |   |  1| 19|
+    some more .                        |   |   |2  |   |   |   |   |   |   |   |
+he ate so much that his tummy felt     |   |2 2|2 2|   |   |5  |   |   |  1| 14|
+    funny .                            |   |   |   |   |   |   |   |   |   |   |
+then he felt sick and his mommy said he|   |2 2|2 2|5  |   |3  |   |   |  1| 21|
+     had a tummyache .                 |   |2  |2  |   |   |   |   |   |   |   |
+they went to the doctor and the doctor |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    said .                             |   |   |   |   |   |   |   |   |   |   |
+and looked at the little rabbit .      |   |   |2  |   |   |3  |   |   |  1|  6|
+she gave him some special medicine and |3  |2 2|2 2|   |   |3  |   |   |  1| 15|
+    said .                             |   |   |   |   |   |   |   |   |   |   |
+the little rabbit rested on the couch  |   |   |2 2|   |   |3  |   |   |  1|  8|
+    and felt better .                  |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  9| 25| 40|  5|  0| 38|  0|  0| 10|127|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score: 12.70

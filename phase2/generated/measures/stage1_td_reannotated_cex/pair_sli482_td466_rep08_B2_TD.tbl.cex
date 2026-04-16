@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep08_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time bunny and doggy go to |   |   |1  |   |   |3  |   |   |  1|  5|
+    the park .                         |   |   |   |   |   |   |   |   |   |   |
+they get carrots and sandwiches .      |   |3  |1  |   |   |3  |   |   |  1|  8|
+bunny and doggy have a picnic .        |   |   |1  |   |   |3  |   |   |  1|  5|
+me [/] me [/] me i want more i want    |3 3|1 1|1 1|   |   |   |   |   |  1| 14|
+    more i eat too much .              |   |1 1|1  |   |   |   |   |   |   |   |
+oh no i feel icky .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+i go to see the doctor .               |   |1  |1 1|3  |   |   |   |   |  1|  7|
+the doctor says dont [* m:03s:a] worry |   |1  |2 1|3  |   |   |   |   |  0|  9|
+    i just need to rest now .          |   |   |1 1|   |   |   |   |   |   |   |
+i sit on the couch and feel better .   |   |1  |1 1|   |   |3  |   |   |  1|  7|
+TOTAL                                  |  6| 12| 18|  6|  0| 12|  0|  0|  8| 62|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  6.89

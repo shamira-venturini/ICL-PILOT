@@ -1,0 +1,41 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep01_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a rabbit and dog one day .    |3  |   |2  |   |   |3  |   |   |  1|  9|
+and the dog was pulling a wagon with a |1  |5  |2 1|   |   |3  |   |   |  1| 13|
+    balloon in it .                    |   |   |   |   |   |   |   |   |   |   |
+the rabbit was sitting in the wagon and|   |   |2 1|   |   |3  |   |   |  1| 10|
+     the dog was pulling .             |   |   |2 1|   |   |   |   |   |   |   |
+what else do I wanna say ?             |   |6 1|1  |   |   |   |   |2  |  1| 11|
+and the balloon was red and the dog was|   |   |2 2|   |   |3 3|   |   |  1| 12|
+     running fast .                    |   |   |1  |   |   |   |   |   |   |   |
+and then the balloon came loose and    |   |   |2 2|   |   |3 3|   |   |  1| 11|
+    went up into the air .             |   |   |   |   |   |   |   |   |   |   |
+and the rabbit and dog looked up and   |   |   |2 2|   |   |3 3|   |   |  1| 16|
+    saw the balloon was gone .         |   |   |2  |   |   |3  |   |   |   |   |
+and they both looked sad .             |7  |3  |2  |   |   |3  |   |   |  1| 16|
+and they went to grandma who had       |   |3 6|2 2|   |   |3  |   |   |  1| 17|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+and grandma said .                     |   |   |2  |   |   |3  |   |   |  1|  6|
+oh i don't know if i can give you one  |3  |1 1|1 4|2  |4  |5 8|   |   |  1| 37|
+    of my balloons for free .          |   |5 1|1  |   |   |   |   |   |   |   |
+and the rabbit and dog looked at each  |7 3|   |2 2|   |   |3 3|   |   |  1| 24|
+    other and then grandma said .      |   |   |   |   |   |3  |   |   |   |   |
+ok i'll give you two balloons for a    |3  |5  |4 1|   |   |8  |   |   |  1| 22|
+    little bit of money .              |   |   |   |   |   |   |   |   |   |   |
+and the rabbit and dog were happy .    |   |   |2  |   |   |3 3|   |   |  1|  9|
+and they each got a balloon and ran    |7  |3  |2 2|   |   |3 3|   |   |  1| 21|
+    away .                             |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 34| 40| 56|  2|  4| 81|  0|  2| 15|234|
+WARNING: DSS requires 50 complete sentences and this transcript only has 15.
+
+Developmental sentence score: 15.60

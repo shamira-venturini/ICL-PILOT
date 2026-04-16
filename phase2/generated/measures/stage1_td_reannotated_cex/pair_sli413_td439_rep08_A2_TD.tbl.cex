@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep08_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once there were a squirrel and a bird  |   |6  |2 2|   |   |3  |   |   |  1| 14|
+    who came to the pool .             |   |   |   |   |   |   |   |   |   |   |
+look !                                 |   |   |1  |   |   |   |   |   |  1|  2|
+there's a sign that says no running .  |1  |   |2  |8  |   |   |   |   |  1| 12|
+but the squirrel is running towards the|   |   |1 1|   |   |5  |   |   |  1|  8|
+     water .                           |   |   |   |   |   |   |   |   |   |   |
+the squirrel fell down and hurt its    |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    knee .                             |   |   |   |   |   |   |   |   |   |   |
+someone came with a bandage and put it |3 1|5  |2 2|   |   |3  |   |   |  1| 17|
+    on the squirrel's knee .           |   |   |   |   |   |   |   |   |   |   |
+the squirrel sat on a bench to rest .  |   |   |2 1|   |   |   |   |   |  1|  4|
+TOTAL                                  |  6| 11| 20|  8|  0| 14|  0|  0|  7| 66|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.43

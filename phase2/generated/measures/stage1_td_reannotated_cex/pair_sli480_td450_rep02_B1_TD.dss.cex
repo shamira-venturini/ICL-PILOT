@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep02
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog build a castle on the beach .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|castle-Acc adp|on det|the-Def-Art noun|beach .
+%xdss:	Z; F3; Z; C1; Z; Z;
+*CHI:	Dog dumps a big bucket of sand on it .
+%mor:	noun|dog verb|dump-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc adp|of noun|sand adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; Z; A1; B5;
+*CHI:	The castle is all ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3 adv|all
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C1; C2;
+*CHI:	Rabbit says sorry to dog .
+%mor:	propn|Rabbit verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 part|to noun|dog
+	.
+%xdss:	C2; D3; Z;
+*CHI:	Dog gives rabbit a hug .
+%mor:	noun|dog verb|give-Fin-Ind-Pres-S3 noun|rabbit det|a-Ind-Art
+	noun|hug-Acc .
+%xdss:	Z; C2; Z; Z;
+*CHI:	Rabbit and dog work together to build the castle again .
+%mor:	noun|rabbit cconj|and noun|dog verb|work-Fin-Ind-Pres-P3
+	adv|together part|to verb|build-Inf-S det|the-Def-Art
+	noun|castle-Acc adv|again .
+%xdss:	Z; F3; Z; C1; C1; Z;
+*CHI:	Now it's even better than before .
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|even
+	adj|good-Cmp-S1 adp|than adv|before .
+%xdss:	A1; C1; F8; F8;
+@End

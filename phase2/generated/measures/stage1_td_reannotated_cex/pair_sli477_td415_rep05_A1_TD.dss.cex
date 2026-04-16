@@ -1,0 +1,37 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep05
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=415
+*CHI:	they're playing by the pool .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|by det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	the ball goes splat in the water .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S3 noun|splat-Acc
+	adp|in det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	kitty go in the pool to get the ball .
+%mor:	noun|kitty verb|go-Fin-Imp-S adp|in det|the-Def-Art noun|pool
+	part|to verb|get-Inf-S det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C1; Z; C1; Z;
+*CHI:	kitty grab [* m:03s:a] the ball and bring [* m:03s:a] it back .
+%mor:	noun|kitty verb|grab-Fin-Imp-S det|the-Def-Art noun|ball-Acc
+	cconj|and verb|bring-Fin-Imp-S pron|it-Prs-Acc-S3 adv|back .
+%xdss:	Z; C1; Z; F3; C1; A1; B5;
+*CHI:	kitty and puppy are happy again .
+%mor:	noun|kitty cconj|and noun|puppy aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

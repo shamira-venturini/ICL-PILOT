@@ -1,0 +1,42 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep03
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=415
+*CHI:	my fri:nd doggy go [* m:03s:a] to the pool .
+%mor:	pron|my-Prs-Gen-S1 noun|frind noun|doggy verb|go-Fin-Ind-Pres-S3
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	B1; Z; Z; C2; Z;
+*CHI:	ther is a sign ther that say [* m:03s:a] .
+%mor:	pron|the-Prs-Nom-S2 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	noun|the pron|that-Rel verb|say-Fin-Ind-Pres-P3 .
+%xdss:	C1; Z; Z; A1; C1;
+*CHI:	doggy go run to the wata [: water] [* s:r:der] .
+%mor:	adj|doggy-S1 verb|go-Fin-Imp-S verb|run-Inf-Imp-S adp|to
+	det|the-Def-Art noun|wata .
+%xdss:	C1; C1; Z;
+*CHI:	oops doggy slip and fall down and hurt knee .
+%mor:	verb|oop-Fin-Imp-S noun|doggy noun|slip-Acc cconj|and
+	verb|fall-Fin-Imp-S adp|down cconj|and verb|hurt-Fin-Imp-S
+	noun|knee-Acc .
+%xdss:	C1; Z; Z; F3; C1; F3; C1; Z;
+*CHI:	a nice lady come [* m:03s:a] with a bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	doggy sit on a benck and rest .
+%mor:	adj|doggy-S1 verb|sit-Fin-Imp-S adp|on det|a-Ind-Art noun|benck
+	cconj|and noun|rest .
+%xdss:	C1; Z; F3; Z;
+@End

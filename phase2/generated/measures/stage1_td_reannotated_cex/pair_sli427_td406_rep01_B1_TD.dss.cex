@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep01
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=406
+*CHI:	we go to the beach .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	noun|beach .
+%xdss:	B3; C1; Z;
+*CHI:	we build a big sandcastle .
+%mor:	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Pres-P1 det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	i use a bucket and shovel .
+%mor:	pron|I-Prs-Nom-S1 verb|use-Fin-Ind-Pres-S1 det|a-Ind-Art
+	noun|bucket-Acc cconj|and noun|shovel .
+%xdss:	B1; C1; Z; F3; Z;
+*CHI:	my doggy friend use [* m:03s:a] the shovel .
+%mor:	pron|my-Prs-Gen-S1 adj|doggy-S1 noun|friend
+	verb|use-Fin-Ind-Pres-S3 det|the-Def-Art noun|shovel-Acc .
+%xdss:	B1; Z; C2; Z;
+*CHI:	he make [* m:03s:a] a big hole in the castle .
+%mor:	pron|he-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|big-S1 noun|hole-Acc adp|in det|the-Def-Art noun|castle .
+%xdss:	B2; C2; Z; Z;
+*CHI:	my castle is broken .
+%mor:	pron|my-Prs-Gen-S1 noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	B1; Z; C7; C2;
+*CHI:	my doggy friend is sad .
+%mor:	pron|my-Prs-Gen-S1 adj|doggy-S1 noun|friend aux|be-Fin-Ind-Pres-S3
+	adj|sad-S1 .
+%xdss:	B1; Z; C1;
+*CHI:	he say [* m:03s:a] sorry .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	B2; C2;
+*CHI:	i say it's ok .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Pres-S1
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|ok-S1 .
+%xdss:	B1; C1; A1; C1;
+*CHI:	we fix the castle .
+%mor:	pron|we-Prs-Nom-P1 verb|fix-Fin-Ind-Pres-P1 det|the-Def-Art
+	noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	now it's like new .
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|like
+	adj|new-S1 .
+%xdss:	A1; C1;
+@End

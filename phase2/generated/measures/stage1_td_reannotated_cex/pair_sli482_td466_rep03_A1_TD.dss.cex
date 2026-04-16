@@ -1,0 +1,39 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep03
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=466
+*CHI:	there were two friends doggy and kitty they were playing near the
+	pool with a ball it fell in the water oh no !
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|friend-Plur adj|doggy-S1 cconj|and noun|kitty
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool adp|with
+	det|a-Ind-Art noun|ball pron|it-Prs-Nom-S3
+	verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water
+	intj|oh intj|no !
+%xdss:	C2; A3; Z; F3; Z; B3; C2; C1; Z; Z; A1; C2; Z;
+*CHI:	kitty went in the pool to get it kitty came out splashing water
+	everywhere they got the ball back they're happy now they're playing
+	again yay !
+%mor:	noun|kitty verb|go-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art
+	noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3 noun|kitty-Acc
+	verb|come-Fin-Ind-Past-S3-irr adp|out verb|splash-Ger-S
+	noun|water-Acc adv|everywhere pron|they-Prs-Nom-P3
+	verb|get-Fin-Ind-Past-P3-irr det|the-Def-Art noun|ball-Acc adv|back
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|happy-S1 adv|now
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adv|again intj|yay !
+%xdss:	Z; C2; Z; C1; A1; B5; Z; C2; C1; D8; Z; B3; C2; Z; B3; B3; C1;
+@End

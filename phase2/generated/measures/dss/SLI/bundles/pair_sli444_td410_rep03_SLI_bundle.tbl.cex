@@ -1,0 +1,51 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:40 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli444_td410_rep03_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+doggy get [* m:03s:a] stick .          |   |   |1  |   |   |   |   |   |  0|  1|
+doggy get [* m:03s:a] the ball .       |   |   |1  |   |   |   |   |   |  0|  1|
+the ducks and doggy are happy again .  |   |   |2  |   |   |3  |   |   |  1|  6|
+Doggy and kitty go to the pool .       |   |   |1  |   |   |3  |   |   |  1|  5|
+See sign say [* m:03s:a] no run .      |   |   |1 1|5  |   |   |   |   |  0|  7|
+kitty start [* m:03s:a] run to the     |   |   |1  |   |   |   |   |   |  0|  1|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+kitty slip [* m:03s:a] and hurt [* m:  |   |   |1 2|   |   |3  |   |   |  0|  6|
+    03s:a] knee .                      |   |   |   |   |   |   |   |   |   |   |
+Then a nice man come [* m:03s:a] with a|   |   |2  |   |   |   |   |   |  0|  2|
+     bandage .                         |   |   |   |   |   |   |   |   |   |   |
+kitty sit [* m:03s:a] on a bench and   |   |   |2  |   |   |3  |   |   |  0|  5|
+    rest .                             |   |   |   |   |   |   |   |   |   |   |
+airplane go [* m:03s:a] splash .       |   |   |1  |   |   |   |   |   |  0|  1|
+I get it !                             |1  |1 5|1  |   |   |   |   |   |  1|  9|
+Lifeguard have [* m:vun:a] pole .      |   |   |1  |   |   |   |   |   |  0|  1|
+lifeguard get [* m:03s:a] airplane .   |   |   |1  |   |   |   |   |   |  0|  1|
+airplane come [* m:03s:a] back .       |   |   |1  |   |   |   |   |   |  0|  1|
+They're building .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+Rabbit and dog building .              |   |   |   |8  |   |3  |   |   |  1| 12|
+One of them took a bucket .            |3  |3  |2  |   |   |   |   |   |  1|  9|
+Dog did it !                           |1  |5  |2  |   |   |   |   |   |  1|  9|
+Dog dumped sand .                      |   |   |2  |   |   |   |   |   |  1|  3|
+The castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+Dog is sorry .                         |   |   |1  |   |   |   |   |   |  1|  2|
+They're saying sorry .                 |   |3  |1  |   |   |   |   |   |  1|  5|
+They're putting sand .                 |   |3  |1  |   |   |   |   |   |  1|  5|
+it's time .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+what's that noise ?                    |   |6  |1  |   |   |   |   |2  |  1| 10|
+what's that noise outside ?            |   |6  |1  |   |   |   |   |2  |  1| 10|
+owie and owie rabbit and dog has [* m: |   |   |2  |   |   |3 3|   |   |  0|  8|
+    vsg:a] a [* m:allo] owie .         |   |   |   |   |   |   |   |   |   |   |
+and the dog don't [* m:03s:a] has [* m:|   |   |6 2|   |4  |3  |   |   |  0| 15|
+    +3s] a [* m:allo] owie .           |   |   |   |   |   |   |   |   |   |   |
+you have to pull it right there .      |1  |5  |1 1|3  |   |   |   |   |  1| 12|
+TOTAL                                  |  7| 40| 47| 16|  4| 24|  0|  4| 16|158|
+WARNING: DSS requires 50 complete sentences and this transcript only has 29.
+
+Developmental sentence score:  5.45

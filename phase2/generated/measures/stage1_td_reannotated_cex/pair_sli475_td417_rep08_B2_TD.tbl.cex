@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep08_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we went to the park and had a picnic   |   |3  |2 2|   |   |3 3|   |   |  1| 14|
+    with the rabbit and dog .          |   |   |   |   |   |   |   |   |   |   |
+the dog ate a lot of sandwiches and the|   |   |2 2|   |   |3  |   |   |  1|  8|
+     rabbit ate a lot of carrots .     |   |   |   |   |   |   |   |   |   |   |
+but one little boy ate too many berries|3  |   |2 2|   |   |5 3|   |   |  1| 16|
+     and got a tummyache .             |   |   |   |   |   |   |   |   |   |   |
+he felt sick and dizzy .               |   |2  |2  |   |   |3  |   |   |  1|  8|
+then he went to the doctor .           |   |2  |2  |   |   |   |   |   |  1|  5|
+the doctor looked at him and said don't|   |2  |2 2|   |4  |3  |   |   |  1| 19|
+     eat too much .                    |   |   |4 1|   |   |   |   |   |   |   |
+the boy sat down on the bench and      |   |   |2 2|   |   |3  |   |   |  1|  8|
+    rested .                           |   |   |   |   |   |   |   |   |   |   |
+he drank some water and felt better .  |3  |2  |2 2|   |   |3  |   |   |  1| 13|
+then his mum took him home .           |   |2 2|2  |   |   |   |   |   |  1|  7|
+TOTAL                                  |  6| 15| 35|  0|  4| 29|  0|  0|  9| 98|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 10.89

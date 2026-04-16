@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep04
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog go .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 .
+%xdss:	Z; F3; Z; C1;
+*CHI:	They have a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	The balloon comes loose .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adv|loose .
+%xdss:	Z; C2;
+*CHI:	It floats away .
+%mor:	pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adv|away .
+%xdss:	A1; C2;
+*CHI:	The kids are sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	They look for another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Pres-P3 adp|for
+	det|another-Def-Ind noun|balloon .
+%xdss:	B3; C1; F8; A3; Z;
+*CHI:	They go to a man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art
+	noun|man .
+%xdss:	B3; C1; Z;
+*CHI:	He has balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|balloon-Plur-Acc
+	.
+%xdss:	B2; C2; Z;
+*CHI:	They get a balloon each .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|balloon-Acc det|each-Def-Tot .
+%xdss:	B3; C1; Z; A7;
+*CHI:	The kids are happy .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; C2;
+@End

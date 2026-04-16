@@ -1,0 +1,23 @@
+{
+  "dss_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/dss/dss_category_features.csv",
+  "grouped_error_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/error_groups.csv",
+  "groups": [
+    "SLI",
+    "TD"
+  ],
+  "kideval_clean_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/kideval/kideval_clean.csv",
+  "mlt_clean_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/mlt/mlt_clean.csv",
+  "n_bundle_ids": 110,
+  "n_prompt_sli_child_ids": 11,
+  "n_prompt_td_child_ids": 11,
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/dev_measures.csv",
+  "past_verb_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/past_verb_features.csv",
+  "rounds": [
+    "round_01",
+    "round_02",
+    "round_03",
+    "round_04"
+  ],
+  "rows": 220,
+  "story_generation_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv"
+}

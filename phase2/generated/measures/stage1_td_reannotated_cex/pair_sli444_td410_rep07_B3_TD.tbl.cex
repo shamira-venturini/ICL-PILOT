@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep07_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and doggy are playing outside . |   |   |2 1|   |   |3  |   |   |  1|  7|
+They got a balloon on a wagon .        |   |3  |2  |   |   |   |   |   |  1|  6|
+The balloon got loose , it went up in  |1  |   |2 2|   |   |   |   |   |  1|  6|
+    the air .                          |   |   |   |   |   |   |   |   |   |   |
+The balloon popped .                   |   |   |2  |   |   |   |   |   |  1|  3|
+The kids were sad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+They wanted a new balloon .            |   |3  |2  |   |   |   |   |   |  1|  6|
+They went to the ice cream man , he had|   |3 2|2 2|   |   |   |   |   |  1| 10|
+     balloons .                        |   |   |   |   |   |   |   |   |   |   |
+The ice cream man said .               |   |   |2  |   |   |   |   |   |  1|  3|
+it costs money .                       |1  |   |2  |   |   |   |   |   |  1|  4|
+The kids gave him some coins .         |3  |2  |2  |   |   |   |   |   |  1|  8|
+They each got a balloon and they were  |7  |3 3|2 2|   |   |3  |   |   |  1| 21|
+    happy !                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 12| 19| 29|  0|  0|  6|  0|  0| 11| 77|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  7.00

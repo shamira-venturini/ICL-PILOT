@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep09
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=419
+*CHI:	we were at the park with my kitty and my dog .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr adp|at
+	det|the-Def-Art noun|park adp|with pron|my-Prs-Gen-S1 noun|kitty
+	cconj|and pron|my-Prs-Gen-S1 noun|dog .
+%xdss:	B3; C2; Z; B1; Z; F3; B1; Z;
+*CHI:	they were playing with a ball near the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|ball adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	the ball went splash into the water .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Past-S3-irr
+	noun|splash-Acc adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	my kitty went .
+%mor:	pron|my-Prs-Gen-S1 noun|kitty verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	and ran to get it .
+%mor:	cconj|and verb|run-Fin-Ind-Past-S3-irr part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	F3; C2; D3; C1; A1; B5;
+*CHI:	she jumped in and swam to get the ball .
+%mor:	pron|she-Prs-Nom-S3 verb|jump-Fin-Ind-Past-S3 adp|in cconj|and
+	verb|swim-Fin-Ind-Past-S3-irr part|to verb|get-Inf-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B2; C2; F3; C2; D3; C1; Z;
+*CHI:	my dog was waiting for her and she gave him the ball .
+%mor:	pron|my-Prs-Gen-S1 noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|wait-Part-Pres-S adp|for pron|her-Prs-Acc-S3 cconj|and
+	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	B1; Z; C2; C1; F8; B2; F3; B2; C2; B2; Z;
+*CHI:	they both wagged their tails and were happy again .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|wagg-Fin-Ind-Past-P3
+	pron|their-Prs-Gen-P3 noun|tail-Plur-Acc cconj|and
+	aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 adv|again .
+%xdss:	B3; A7; C2; B3; Z; F3; C2;
+@End

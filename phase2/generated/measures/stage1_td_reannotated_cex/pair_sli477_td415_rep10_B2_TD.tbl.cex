@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep10_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+rabbit and dog go to the park .        |   |   |1  |   |   |3  |   |   |  1|  5|
+they have a picnic .                   |   |3  |1  |   |   |   |   |   |  1|  5|
+they have carrots and sandwiches .     |   |3  |1  |   |   |3  |   |   |  1|  8|
+a little rabbit eat [* m:03s:a] too    |   |   |1  |   |   |   |   |   |  0|  1|
+    much .                             |   |   |   |   |   |   |   |   |   |   |
+the little rabbit feel [* m:03s:a] sick|   |   |2  |   |   |   |   |   |  0|  2|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the little rabbit have [* m:vun:a] a   |   |   |1  |   |   |   |   |   |  0|  1|
+    tummyache .                        |   |   |   |   |   |   |   |   |   |   |
+the dog take [* m:03s:a] the little    |   |   |1 1|   |   |   |   |   |  0|  2|
+    rabbit to see the doctor .         |   |   |   |   |   |   |   |   |   |   |
+the doctor check [* m:03s:a] the little|   |   |1  |   |   |   |   |   |  0|  1|
+     rabbit's tummy .                  |   |   |   |   |   |   |   |   |   |   |
+the doctor give [* m:03s:a] the little |   |   |2  |   |   |   |   |   |  0|  2|
+    rabbit a special medicine .        |   |   |   |   |   |   |   |   |   |   |
+the little rabbit go [* m:03s:a] to    |   |   |2  |   |   |   |   |   |  0|  2|
+    sleep .                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  0|  6| 14|  0|  0|  6|  0|  0|  3| 29|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  2.90

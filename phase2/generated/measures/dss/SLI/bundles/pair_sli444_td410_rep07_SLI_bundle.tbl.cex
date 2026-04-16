@@ -1,0 +1,66 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:40 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli444_td410_rep07_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they like pool .                       |   |3  |1  |   |   |   |   |   |  1|  5|
+they have ball .                       |   |3  |1  |   |   |   |   |   |  1|  5|
+dog kicks it .                         |1  |5  |2  |   |   |   |   |   |  1|  9|
+ball go [* m:03s:a] into pool .        |   |   |1  |   |   |   |   |   |  0|  1|
+cat want [* m:03s:a] ball .            |   |   |1  |   |   |   |   |   |  0|  1|
+cat go [* m:03s:a] into pool .         |   |   |1  |   |   |   |   |   |  0|  1|
+cat swim [* m:03s:a] and get [* m:03s:a|   |   |1  |   |   |3  |   |   |  0|  4|
+    ] ball .                           |   |   |   |   |   |   |   |   |   |   |
+cat come [* m:03s:a] out with ball .   |   |   |1  |   |   |   |   |   |  0|  1|
+Two monkeys went to the pool .         |3  |   |2  |   |   |   |   |   |  1|  6|
+There's a sign that says .             |1  |   |2  |   |   |   |   |   |  1|  4|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+One monkey got excited and rushed to   |3  |   |2 2|   |   |3  |   |   |  1| 13|
+    the water .                        |   |   |2  |   |   |   |   |   |   |   |
+Popped [!] no , there's no running .   |   |   |2  |8  |   |   |   |   |  1| 11|
+He rushed to the water .               |   |2  |2  |   |   |   |   |   |  1|  5|
+He slipped and fell down on its [* s:r:|1  |2  |2 2|   |   |3  |   |   |  0| 10|
+    gc:det] knee .                     |   |   |   |   |   |   |   |   |   |   |
+It hurt [* m:03s:a] its knee .         |1 1|   |2  |   |   |   |   |   |  0|  4|
+A nice lifeguard came and put a bandage|1  |   |2 2|   |   |3  |   |   |  0|  8|
+     on its [* s:r:gc:det] knee .      |   |   |   |   |   |   |   |   |   |   |
+The monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+splat airplane .                       |   |   |1  |   |   |   |   |   |  1|  2|
+the cat's friend is mad .              |   |   |1  |   |   |   |   |   |  1|  2|
+she's trying to get it .               |1  |2 5|1 1|3  |   |   |   |   |  1| 15|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the lifeguard has a big pole .         |   |   |2  |   |   |   |   |   |  1|  3|
+she's getting it .                     |1  |2 5|1 1|   |   |   |   |   |  1| 11|
+she's pulling it out .                 |1  |2 5|1 1|   |   |   |   |   |  1| 11|
+the cat and dog are happy .            |   |   |2  |   |   |3  |   |   |  1|  6|
+they're playing with airplane again .  |   |3  |1  |   |   |   |   |   |  1|  5|
+They making [* m:+ing] castle .        |   |3  |1  |   |   |   |   |   |  0|  4|
+Dog goes .                             |   |   |2  |   |   |   |   |   |  1|  3|
+and pour sand .                        |   |   |1  |   |   |3  |   |   |  1|  5|
+He cry [* m:03s:a] .                   |   |2  |2  |   |   |   |   |   |  0|  4|
+it's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+Dog says .                             |   |   |2  |   |   |   |   |   |  1|  3|
+we fix it .                            |1  |3 5|1  |   |   |   |   |   |  1| 11|
+Rabbit and dog going on a picnic .     |   |   |1  |4 8|   |3  |   |   |  1| 17|
+they pick carrots and sandwiches .     |   |3  |1  |   |   |3  |   |   |  1|  8|
+put them in a basket .                 |   |3  |1  |   |   |   |   |   |  1|  5|
+child tummy hurting .                  |   |   |1  |4 8|   |   |   |   |  1| 14|
+child feels yucky .                    |   |   |2  |   |   |   |   |   |  1|  3|
+doctor comes .                         |   |   |2  |   |   |   |   |   |  1|  3|
+doctor says rest .                     |   |   |2  |   |   |   |   |   |  1|  3|
+child feels a little better .          |   |   |2  |   |   |   |   |   |  1|  3|
+doggy got owie .                       |   |   |2  |   |   |   |   |   |  1|  3|
+and rabbit don't [* m:03s:a] got [* m: |   |   |2  |   |4  |3  |   |   |  0|  9|
+    allo] owie .                       |   |   |   |   |   |   |   |   |   |   |
+you have to put it right there .       |1  |5  |1 1|3  |   |   |   |   |  1| 12|
+TOTAL                                  | 18| 63| 79| 46|  4| 30|  0|  0| 33|273|
+WARNING: DSS requires 50 complete sentences and this transcript only has 44.
+
+Developmental sentence score:  6.20

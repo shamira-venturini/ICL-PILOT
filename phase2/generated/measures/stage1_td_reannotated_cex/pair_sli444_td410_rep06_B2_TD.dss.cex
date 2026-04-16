@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep06
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog go on a picnic .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|on
+	det|a-Ind-Art noun|picnic .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They find [* m:base:ed] some sandwiches and eat lots of them .
+%mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Pres-P3 det|some-Def-Ind
+	noun|sandwich-Plur-Acc cconj|and verb|eat-Fin-Ind-Pres-P3
+	noun|lot-Plur-Acc adp|of pron|they-Prs-Acc-P3 .
+%xdss:	B3; C1; A3; Z; F3; C1; Z; B3;
+*CHI:	I ate lots of sandwiches too .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr noun|lot-Plur-Acc
+	adp|of noun|sandwich-Plur adv|too .
+%xdss:	B1; C2; Z; Z;
+*CHI:	My tummy feels funny now .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|feel-Fin-Ind-Pres-S3
+	adj|funny-S1 adv|now .
+%xdss:	B1; Z; C2;
+*CHI:	I'm dizzy and my tummy hurts .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|dizzy-S1 cconj|and
+	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; F3; B1; Z; C2;
+*CHI:	Rabbit and dog take [* m:03s:a] me to the doctor .
+%mor:	noun|rabbit cconj|and noun|dog verb|take-Fin-Ind-Pres-P3
+	pron|I-Prs-Acc-S1 adp|to det|the-Def-Art noun|doctor .
+%xdss:	Z; F3; Z; C1; B1; Z;
+*CHI:	The doctor says I need to rest .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 part|to verb|rest-Inf-S
+	.
+%xdss:	Z; C2; D5; B1; C1; D3; C1;
+*CHI:	I rest now , my tummy's okay .
+%mor:	pron|I-Prs-Nom-S1 verb|rest-Fin-Ind-Pres-S1 adv|now
+	pron|my-Prs-Gen-S1 noun|tummy~aux|be-Fin-Ind-Pres-S3 intj|okay .
+%xdss:	B1; C1; B1; Z; C1;
+@End

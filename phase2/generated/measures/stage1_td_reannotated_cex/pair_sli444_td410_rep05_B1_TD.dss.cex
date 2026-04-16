@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep05
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog they built a castle .
+%mor:	noun|rabbit cconj|and noun|dog pron|they-Prs-Nom-P3
+	verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|castle-Acc .
+%xdss:	Z; F3; Z; B3; C2; Z;
+*CHI:	they built it on the beach .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|beach .
+%xdss:	B3; C2; A1; B5; Z;
+*CHI:	dog he threw the bucket .
+%mor:	noun|dog pron|he-Prs-Nom-S3 verb|throw-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; B2; C2; Z;
+*CHI:	it went on the castle .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	A1; C2; Z;
+*CHI:	the castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	rabbit she is sad .
+%mor:	noun|rabbit pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; B2; C1;
+*CHI:	she is crying .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	dog he says sorry .
+%mor:	noun|dog pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; B2; C2;
+*CHI:	rabbit and dog they fix it .
+%mor:	noun|rabbit cconj|and noun|dog pron|they-Prs-Nom-P3
+	verb|fix-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3 .
+%xdss:	Z; F3; Z; B3; C1; A1; B5;
+@End

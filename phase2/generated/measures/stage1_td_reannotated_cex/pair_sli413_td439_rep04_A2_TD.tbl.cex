@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep04_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One time there was a kitty and a kitty |3  |   |2  |   |   |3  |   |   |  1|  9|
+    friend .                           |   |   |   |   |   |   |   |   |   |   |
+they were going to the pool .          |   |3  |2 1|   |   |   |   |   |  1|  7|
+look there's a sign !                  |   |   |1 1|   |   |   |   |   |  1|  3|
+no running please .                    |   |   |   |8  |   |   |   |   |  1|  9|
+the kitty friend started to run .      |   |   |2 1|3  |   |   |   |   |  1|  7|
+oops kitty friend slipped and boo booed|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     her knee .                        |   |   |   |   |   |   |   |   |   |   |
+a nice helper came with a special boo [|   |   |2  |   |   |   |   |   |  1|  3|
+    /] boo thingy .                    |   |   |   |   |   |   |   |   |   |   |
+kitty friend sat down on a bench and   |   |   |2 2|   |   |3  |   |   |  1|  8|
+    rested .                           |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3|  5| 20| 11|  0|  9|  0|  0|  8| 56|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  7.00

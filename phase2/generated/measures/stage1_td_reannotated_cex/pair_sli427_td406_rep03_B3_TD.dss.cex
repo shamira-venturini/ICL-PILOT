@@ -1,0 +1,85 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep03
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=406
+*CHI:	we took my bunny and dog for a walk .
+%mor:	pron|we-Prs-Nom-P1 verb|take-Fin-Ind-Past-P1-irr pron|my-Prs-Gen-S1
+	noun|bunny-Acc cconj|and noun|dog adp|for det|a-Ind-Art noun|walk .
+%xdss:	B3; C2; B1; Z; F3; Z; F8; Z;
+*CHI:	bunny was in a wagon with a big red balloon .
+%mor:	noun|bunny aux|be-Fin-Ind-Past-S3-irr adp|in det|a-Ind-Art
+	noun|wagon adp|with det|a-Ind-Art adj|big-S1 adj|red-S1 noun|balloon
+	.
+%xdss:	Z; C2; Z; Z;
+*CHI:	my doggy was pulling the wagon .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Past-S3-irr
+	verb|pull-Part-Pres-S det|the-Def-Art noun|wagon-Acc .
+%xdss:	B1; Z; C2; C1; Z;
+*CHI:	the balloon was so pretty .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|pretty-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	then the balloon came out of the wagon .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adp|out adp|of det|the-Def-Art noun|wagon .
+%xdss:	Z; C2; Z;
+*CHI:	it was so high in the air .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|high-S1
+	adp|in det|the-Def-Art noun|air .
+%xdss:	A1; C2; F5; Z;
+*CHI:	it popped .
+%mor:	pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Past-S3 .
+%xdss:	A1; C2;
+*CHI:	bunny and doggy were sad .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; C2;
+*CHI:	bunny said .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	my mom said .
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	don't worry , we can get you some more balloons .
+%mor:	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S pron|we-Prs-Nom-P1
+	aux|can-Fin-S verb|get-Inf-S pron|you-Prs-Acc-S2 det|some-Def-Ind
+	adj|more-Cmp-S1 noun|balloon-Plur-Acc .
+%xdss:	C4; E4; G6; C1; B3; C4; D2; C1; B5; A3; A3; Z;
+*CHI:	we went to the balloon man .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|balloon noun|man .
+%xdss:	B3; C2; Z; Z;
+*CHI:	he had lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	but they were expensive .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	adj|expensive-S1 .
+%xdss:	F5; B3; C2;
+*CHI:	he gave us two more balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|we-Prs-Acc-P1
+	num|two adj|more-Cmp-S1 noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; A3; Z;
+*CHI:	bunny and doggy were so happy .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; F3; C2; F5;
+*CHI:	they each got a balloon and they were smiling .
+%mor:	pron|they-Prs-Nom-P3 det|each-Def-Tot verb|get-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|balloon-Acc cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr verb|smile-Part-Pres-S .
+%xdss:	B3; A7; C2; Z; F3; B3; C2; C1;
+@End

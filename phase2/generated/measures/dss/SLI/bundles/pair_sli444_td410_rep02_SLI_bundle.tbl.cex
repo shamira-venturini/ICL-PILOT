@@ -1,0 +1,68 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:40 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli444_td410_rep02_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+ball go [* m:03s:a] in the water .     |   |   |1  |   |   |   |   |   |  0|  1|
+kitty go in the water to get it .      |1  |5  |1 1|   |   |   |   |   |  1|  9|
+kitty get [* m:03s:a] it .             |1  |5  |1  |   |   |   |   |   |  0|  7|
+kitty come [* m:03s:a] out and run to  |   |   |1 1|   |   |3  |   |   |  0|  5|
+    doggy .                            |   |   |   |   |   |   |   |   |   |   |
+a sign says no run .                   |   |   |2  |   |   |   |   |   |  1|  3|
+cats go to the pool .                  |   |   |1  |   |   |   |   |   |  1|  2|
+one cat run [* m:03s:a] [/] run to the |3  |   |2  |   |   |   |   |   |  0|  5|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+it slip [* m:03s:a] and hurt [* m:03s:a|1  |   |2 2|   |   |3  |   |   |  0|  8|
+    ] knee .                           |   |   |   |   |   |   |   |   |   |   |
+a man bring [* m:03s:a] bandage .      |   |   |1  |   |   |   |   |   |  0|  1|
+the cat sit [* m:03s:a] on bench and   |   |   |2  |   |   |3  |   |   |  0|  5|
+    rest .                             |   |   |   |   |   |   |   |   |   |   |
+doggy and kitty playing plane .        |   |   |   |8  |   |3  |   |   |  1| 12|
+kitty dropped plane .                  |   |   |2  |   |   |   |   |   |  1|  3|
+doggy try [* m:03s:a] get it .         |1  |5  |1 1|   |   |   |   |   |  0|  8|
+(.) lifeguard coming .                 |   |   |   |8  |   |   |   |   |  1|  9|
+she got pole .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+(.) she get [* m:03s:a] plane .        |   |2  |2  |   |   |   |   |   |  0|  4|
+they're building a sandcastle .        |   |3  |1  |   |   |   |   |   |  1|  5|
+and they're using a shovel .           |   |3  |1  |   |   |3  |   |   |  1|  8|
+the dog's holding the shovel .         |   |   |1  |   |   |   |   |   |  1|  2|
+and he's dumping sand .                |   |2  |1 1|   |   |3  |   |   |  1|  8|
+and he's dumping sand on the castle .  |   |2  |1 1|   |   |3  |   |   |  1|  8|
+but then he spilled the whole shovel . |   |2  |2  |   |   |5  |   |   |  1| 10|
+the rabbit saw and she's so sad .      |   |2  |2 1|   |   |3 5|   |   |  1| 14|
+she's crying .                         |   |2  |1 1|   |   |   |   |   |  1|  5|
+she's saying .                         |   |2  |1 1|   |   |   |   |   |  1|  5|
+the dog he's saying .                  |   |2  |1 1|   |   |   |   |   |  1|  5|
+and they're trying to fix it .         |1  |3 5|1 1|3  |   |3  |   |   |  1| 18|
+Rabbit and dog went on a picnic .      |   |   |2  |   |   |3  |   |   |  1|  6|
+They got sandwiches and berries .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+One of them ate a lot .                |3  |3  |2  |   |   |   |   |   |  1|  9|
+He felt sick .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+His tummy hurt [* m:03s:a] .           |   |2  |2  |   |   |   |   |   |  0|  4|
+bunny and doggy they were playing .    |   |3  |2 1|   |   |3  |   |   |  1| 10|
+They had a wagon with a big red balloon|   |3  |2  |   |   |   |   |   |  1|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The balloon went up in the air and it  |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    popped .                           |   |   |   |   |   |   |   |   |   |   |
+bunny and doggy were sad .             |   |   |2  |   |   |3  |   |   |  1|  6|
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to the man with the balloons |   |3  |2  |   |   |   |   |   |  1|  6|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+He said it costs one dollar per balloon|1 3|2  |2 2|5  |   |   |   |   |  1| 16|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+bunny and doggy didn't have a dollar . |   |   |6 1|   |4  |3  |   |   |  1| 15|
+The man said okay I'll give you two    |3 3|5  |2 4|   |   |8  |   |   |  1| 27|
+    balloons for two dollars .         |   |   |1  |   |   |   |   |   |   |   |
+bunny and doggy were happy .           |   |   |2  |   |   |3  |   |   |  1|  6|
+They had two balloons now .            |3  |3  |2  |   |   |   |   |   |  1|  9|
+TOTAL                                  | 28| 79| 93| 24|  4| 66|  0|  0| 33|327|
+WARNING: DSS requires 50 complete sentences and this transcript only has 43.
+
+Developmental sentence score:  7.60

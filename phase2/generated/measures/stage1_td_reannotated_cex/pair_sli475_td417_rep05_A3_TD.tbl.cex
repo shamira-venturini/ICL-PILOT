@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep05_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a birdie and a kitty were playing near |   |   |2 1|   |   |3  |   |   |  0|  6|
+    the pool with a [* m:allo] airplane|   |   |   |   |   |   |   |   |   |   |
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+they were having so much fun .         |   |3  |2 1|   |   |5  |   |   |  1| 12|
+but then the kitty dropped the airplane|   |   |2  |   |   |5  |   |   |  1|  8|
+     into the water .                  |   |   |   |   |   |   |   |   |   |   |
+the kitty's owner got very upset and   |   |   |2 2|   |   |3  |   |   |  1|  8|
+    said oh no .                       |   |   |   |   |   |   |   |   |   |   |
+someone threw a stick into the water to|3 1|5  |2 1|   |   |3  |   |   |  1| 17|
+     try and get it .                  |   |   |1  |   |   |   |   |   |   |   |
+but it floated away .                  |1  |   |2  |   |   |5  |   |   |  1|  9|
+then a man with a big pole came and got|   |   |2 2|   |   |3  |   |   |  1|  8|
+     the airplane out of the pool .    |   |   |   |   |   |   |   |   |   |   |
+the kitty's owner was so happy to get  |   |   |2 1|3  |   |5 3|   |   |  1| 17|
+    the airplane back and hugged the   |   |   |2  |   |   |   |   |   |   |   |
+    kitty .                            |   |   |   |   |   |   |   |   |   |   |
+the kitty was happy too .              |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  5|  8| 29|  3|  0| 35|  0|  0|  8| 88|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  9.78

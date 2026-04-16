@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep01
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog go pick food .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3
+	verb|pick-Inf-S noun|food-Acc .
+%xdss:	Z; F3; Z; C1; C1; Z;
+*CHI:	They pick carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|pick-Fin-Ind-Pres-P3 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	They have picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 noun|picnic-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	We eat sandwiches and carrots .
+%mor:	pron|we-Prs-Nom-P1 verb|eat-Fin-Ind-Pres-P1 noun|sandwich-Plur-Acc
+	cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	I eat too much .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adv|much .
+%xdss:	B1; C1;
+*CHI:	My tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	I feel dizzy .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|dizzy-S1 .
+%xdss:	B1; C1;
+*CHI:	My mom says I need doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|say-Fin-Ind-Pres-S3
+	pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 noun|doctor-Acc .
+%xdss:	B1; Z; C2; D5; B1; C1; Z;
+*CHI:	Doctor comes and looks at me .
+%mor:	noun|doctor verb|come-Fin-Ind-Pres-S3 cconj|and
+	verb|look-Fin-Ind-Pres-S3 adp|at pron|I-Prs-Acc-S1 .
+%xdss:	Z; C2; F3; C2; B1;
+*CHI:	He says I need rest .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|I-Prs-Nom-S1
+	verb|need-Fin-Ind-Pres-S1 noun|rest-Acc .
+%xdss:	B2; C2; D5; B1; C1; Z;
+*CHI:	I sit on couch .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Pres-S1 adp|on noun|couch .
+%xdss:	B1; C1; Z;
+*CHI:	I feel better .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+*CHI:	I sleep .
+%mor:	pron|I-Prs-Nom-S1 verb|sleep-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1;
+@End

@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep10
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=10
+@Comment:	source_child_id=459
+*CHI:	once upon a time bunny and doggy go to the park .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|bunny cconj|and
+	noun|doggy verb|go-Fin-Imp-S adp|to det|the-Def-Art noun|park .
+%xdss:	Z; Z; F3; Z; C1; Z;
+*CHI:	they bring sandwiches and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Pres-P3
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	one little boy eats too many sandwiches .
+%mor:	num|one adj|little-S1 noun|boy verb|eat-Fin-Ind-Pres-S3 adv|too
+	adj|many-S1 noun|sandwich-Plur-Acc .
+%xdss:	A3; Z; C2; Z;
+*CHI:	he feels yucky .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|yucky-S1 .
+%xdss:	B2; C2;
+*CHI:	he feels dizzy .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|dizzy-S1 .
+%xdss:	B2; C2;
+*CHI:	he goes to the doctor .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|doctor .
+%xdss:	B2; C2; Z;
+*CHI:	the doctor says take some rest .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	verb|take-Fin-Imp-S det|some-Def-Ind noun|rest-Acc .
+%xdss:	Z; C2; C1; A3; Z;
+*CHI:	the boy rests .
+%mor:	det|the-Def-Art noun|boy verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	the boy feels better .
+%mor:	det|the-Def-Art noun|boy verb|feel-Fin-Ind-Pres-S3 adj|good-Cmp-S1
+	.
+%xdss:	Z; C2;
+*CHI:	the boy goes home .
+%mor:	det|the-Def-Art noun|boy verb|go-Fin-Ind-Pres-S3 adv|home .
+%xdss:	Z; C2;
+@End

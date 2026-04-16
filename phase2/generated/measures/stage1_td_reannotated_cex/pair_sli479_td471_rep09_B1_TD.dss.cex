@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep09
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=9
+@Comment:	source_child_id=471
+*CHI:	Once upon a time rabbit and dog went to the beach .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|beach .
+%xdss:	Z; Z; F3; Z; C2; Z;
+*CHI:	they made a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	rabbit was happy and dog was happy .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 cconj|and
+	noun|dog aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	Z; C2; F3; Z; C2;
+*CHI:	then dog threw sand on the castle .
+%mor:	adv|then noun|dog verb|throw-Fin-Ind-Past-S3-irr noun|sand-Acc
+	adp|on det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	rabbit was sad .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit started crying .
+%mor:	noun|rabbit verb|start-Fin-Ind-Past-S3 verb|cry-Ger-S .
+%xdss:	Z; C2; D7; C1; D8;
+*CHI:	dog said sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	they wanted to fix it .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; D3; C1; A1; B5;
+*CHI:	they got more sand and made it again .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr adj|more-Cmp-S1
+	noun|sand-Acc cconj|and verb|make-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C2; A3; Z; F3; C2; A1; B5;
+*CHI:	rabbit and dog were happy again .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

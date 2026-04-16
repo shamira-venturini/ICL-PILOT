@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep07
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog go to the park .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|park .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They get yummy food , like sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 adj|yummy-S1
+	noun|food-Acc adp|like noun|sandwich-Plur .
+%xdss:	B3; C1; Z; Z;
+*CHI:	A little child eats too much sandwiches .
+%mor:	det|a-Ind-Art adj|little-S1 noun|child verb|eat-Fin-Ind-Pres-S3
+	adv|too adj|much-S1 noun|sandwich-Plur-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	The child feels sick .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Pres-S3 adj|sick-S1 .
+%xdss:	Z; C2;
+*CHI:	The child's tummy hurts .
+%mor:	det|the-Def-Art noun|child~part|s noun|tummy
+	verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	Z; Z; C2;
+*CHI:	The child goes to the doctor .
+%mor:	det|the-Def-Art noun|child verb|go-Fin-Ind-Pres-S3 adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	Z; C2; Z;
+*CHI:	The doctor says .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	and gives the child a special juice .
+%mor:	cconj|and verb|give-Fin-Ind-Pres-S3 det|the-Def-Art noun|child
+	det|a-Ind-Art adj|special-S1 noun|juice-Acc .
+%xdss:	F3; C2; Z; Z;
+*CHI:	The child feels better and lies down in the grass .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 cconj|and verb|lie-Fin-Ind-Pres-S3 adp|down adp|in
+	det|the-Def-Art noun|grass .
+%xdss:	Z; C2; F3; C2; Z;
+@End

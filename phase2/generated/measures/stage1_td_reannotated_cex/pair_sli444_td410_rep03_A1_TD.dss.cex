@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep03
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=410
+*CHI:	Two ducks and a doggy are playing near the pool .
+%mor:	num|two noun|duck-Plur cconj|and det|a-Ind-Art noun|doggy
+	aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; F3; Z; C2; C1; Z;
+*CHI:	They had a big red ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|ball-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	The ball fell into the pool .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	The doggy got a long stick and put it in the water to get the ball
+	.
+%mor:	det|the-Def-Art noun|doggy verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|long-S1 noun|stick-Acc cconj|and
+	verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|in
+	det|the-Def-Art noun|water part|to verb|get-Inf-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z; F3; C2; A1; B5; Z; C1; Z;
+*CHI:	The doggy got the ball and pulled it out .
+%mor:	det|the-Def-Art noun|doggy verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc cconj|and verb|pull-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 adp|out .
+%xdss:	Z; C2; Z; F3; C2; A1; B5;
+*CHI:	Now the ducks and the doggy are happy again .
+%mor:	adv|now det|the-Def-Art noun|duck-Plur cconj|and det|the-Def-Art
+	noun|doggy aux|be-Fin-Ind-Pres-P3 adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

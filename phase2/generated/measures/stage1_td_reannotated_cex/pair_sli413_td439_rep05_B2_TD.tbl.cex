@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+one day rabbit and dog go to the park .|3  |   |1  |   |   |3  |   |   |  1|  8|
+they bring sandwiches and carrots .    |   |3  |1  |   |   |3  |   |   |  1|  8|
+they have a yummy picnic .             |   |3  |1  |   |   |   |   |   |  1|  5|
+one little girl eats too much          |3  |   |2  |   |   |   |   |   |  1|  6|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+said the little girl .                 |   |   |2  |   |   |   |   |   |  1|  3|
+she feels dizzy .                      |   |2  |2  |   |   |   |   |   |  1|  5|
+her [* s:r:gc:pro] tummy is sick .     |   |2  |1  |   |   |   |   |   |  0|  3|
+the rabbit says .                      |   |   |2  |   |   |   |   |   |  1|  3|
+go see the doctor .                    |   |   |1 1|   |   |   |   |   |  1|  3|
+the doctor says .                      |   |   |2  |   |   |   |   |   |  1|  3|
+don't worry , I'll help you .          |   |5  |4 1|5  |4  |   |6  |   |  1| 31|
+                                       |   |   |4 1|   |   |   |   |   |   |   |
+the doctor gives her [* s:r:gc:det]    |   |2  |2  |   |   |   |   |   |  0|  4|
+    special medicine .                 |   |   |   |   |   |   |   |   |   |   |
+the little girl feels better .         |   |   |2  |   |   |   |   |   |  1|  3|
+she goes home and rests .              |   |2  |2 2|   |   |3  |   |   |  1| 10|
+TOTAL                                  |  6| 20| 36|  5|  4|  9|  6|  0| 13| 99|
+WARNING: DSS requires 50 complete sentences and this transcript only has 15.
+
+Developmental sentence score:  6.60

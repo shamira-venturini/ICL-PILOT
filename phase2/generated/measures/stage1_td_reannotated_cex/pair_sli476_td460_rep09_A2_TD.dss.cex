@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep09
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=460
+*CHI:	there's a sign that says no runing [: running] [* s:r:der] .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg
+	noun|runing-Acc-Ger .
+%xdss:	Z; A1; C2; Z; D8;
+*CHI:	my friend is goin to the wata .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adp|to det|the-Def-Art noun|wata .
+%xdss:	B1; Z; C1; C1; Z;
+*CHI:	she's runing [: running] [* m:+ing] .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	she slips on the wet spot and falls down .
+%mor:	pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art adj|wet-S1 noun|spot cconj|and
+	verb|fall-Fin-Ind-Pres-S3 adp|down .
+%xdss:	B2; C2; Z; F3; C2;
+*CHI:	owwww she hurt her knee .
+%mor:	intj|owwww pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr
+	pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	then a lifeguard come [* m:03s:a] and put a bandaid on her knee .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	cconj|and verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bandaid-Acc adp|on pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	Z; C2; F3; C2; Z; B2; Z;
+*CHI:	now she's sittin on a bench restin .
+%mor:	adv|now pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|sittin-Part-Pres-S adp|on det|a-Ind-Art noun|bench noun|restin
+	.
+%xdss:	B2; C1; C1; Z; Z;
+@End

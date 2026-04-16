@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep08_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog build a sandcastle      |   |   |1  |   |   |3  |   |   |  1|  5|
+    together .                         |   |   |   |   |   |   |   |   |   |   |
+Dog has a bucket and he makes big holes|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     on the castle .                   |   |   |   |   |   |   |   |   |   |   |
+The sandcastle is all ruined .         |   |   |1 2|   |   |   |   |   |  1|  4|
+Rabbit is sad and she cries .          |   |2  |1 2|   |   |3  |   |   |  1|  9|
+Dog says sorry and they [* s:r:gc:pro] |   |3  |2 1|   |   |3  |   |   |  0|  9|
+    build a new castle together .      |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  0|  7| 14|  0|  0| 12|  0|  0|  4| 37|
+WARNING: DSS requires 50 complete sentences and this transcript only has 5.
+
+Developmental sentence score:  7.40

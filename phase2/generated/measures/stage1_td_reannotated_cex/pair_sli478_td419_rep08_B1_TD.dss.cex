@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep08
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=419
+*CHI:	me [* s:r:gc:pro] and my doggy we built a castle in the sandbox .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|castle-Acc adp|in det|the-Def-Art noun|sandbox .
+%xdss:	B1; F3; B1; Z; B3; C2; Z; Z;
+*CHI:	we had so much fun .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Past-P1-irr adv|so adj|much-S1
+	noun|fun-Acc .
+%xdss:	B3; C2; F5; Z;
+*CHI:	then my doggy he used the big shovel and he dug a big hole in our
+	castle .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|doggy pron|he-Prs-Nom-S3
+	verb|use-Fin-Ind-Past-S3 det|the-Def-Art adj|big-S1 noun|shovel-Acc
+	cconj|and pron|he-Prs-Nom-S3 verb|dig-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|big-S1 noun|hole-Acc adp|in pron|our-Prs-Gen-P1
+	noun|castle .
+%xdss:	B1; Z; B2; C2; Z; F3; B2; C2; Z; B3; Z;
+*CHI:	my castle was broken .
+%mor:	pron|my-Prs-Gen-S1 noun|castle aux|be-Fin-Ind-Past-S3-irr
+	verb|break-Part-Past-S-irr .
+%xdss:	B1; Z; C7; C2;
+*CHI:	i was so sad .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adv|so adj|sad-S1 .
+%xdss:	B1; C2; F5;
+*CHI:	i cried .
+%mor:	pron|I-Prs-Nom-S1 verb|cry-Fin-Ind-Past-S1 .
+%xdss:	B1; C2;
+*CHI:	my doggy said sorry .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|say-Fin-Ind-Past-S3-irr
+	adj|sorry-S1 .
+%xdss:	B1; Z; C2;
+*CHI:	he wanted to fix it .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	we got more sand and we built it again .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr adj|more-Cmp-S1
+	noun|sand-Acc cconj|and pron|we-Prs-Nom-P1
+	verb|build-Fin-Ind-Past-P1-irr pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C2; A3; Z; F3; B3; C2; A1; B5;
+*CHI:	it's still a little bit broken .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|still det|a-Ind-Art
+	adj|little-S1 noun|bit verb|break-Part-Past-S-irr .
+%xdss:	A1; C1; Z; C2;
+*CHI:	but it's still fun .
+%mor:	cconj|but pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|still
+	adj|fun-S1 .
+%xdss:	F5; A1; C1;
+@End

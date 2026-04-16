@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:31 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep01_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day rabbit and dog play at the     |3  |   |1  |   |   |3  |   |   |  1|  8|
+    beach .                            |   |   |   |   |   |   |   |   |   |   |
+They build [* m:+ed] a big castle out  |   |3  |1  |   |   |   |   |   |  0|  4|
+    of sand .                          |   |   |   |   |   |   |   |   |   |   |
+They build it so high .                |1  |3 5|1  |   |   |5  |   |   |  1| 16|
+Then dog drop [* m:03s:a] the bucket . |   |   |1  |   |   |   |   |   |  0|  1|
+It go [* m:03s:a] splat on the castle .|1  |   |2  |   |   |   |   |   |  0|  3|
+The castle is ruined .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+Rabbit cry [* m:03s:a] .               |   |   |1  |   |   |   |   |   |  0|  1|
+Dog look [* m:03s:a] sad .             |   |   |1  |   |   |   |   |   |  0|  1|
+Dog want [* m:03s:a] to fix it .       |1  |5  |1 1|3  |   |   |   |   |  0| 11|
+They get more sand and build it again .|3 1|3 5|1 1|   |   |3  |   |   |  1| 18|
+TOTAL                                  | 10| 24| 21|  3|  0| 11|  0|  0|  4| 73|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.30

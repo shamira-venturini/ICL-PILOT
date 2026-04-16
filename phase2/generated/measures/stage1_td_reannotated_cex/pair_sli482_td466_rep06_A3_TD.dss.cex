@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep06
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=466
+*CHI:	there are two ducks they are playing near the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|duck-Plur
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	C1; A3; Z; B3; C2; C1; Z;
+*CHI:	they play with the airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|the-Def-Art noun|airplane .
+%xdss:	B3; C1; Z;
+*CHI:	the airplane fell in the water .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the owner is sad .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	he cries .
+%mor:	pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	his friend use [* m:03s:a] a pole to get the airplane .
+%mor:	pron|his-Prs-Gen-S3 noun|friend verb|use-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; Z; C2; Z; C1; Z;
+*CHI:	he is happy .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	B2; C1;
+*CHI:	the airplane is back .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	the owner is happy .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	the ducks are happy .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; C2;
+@End

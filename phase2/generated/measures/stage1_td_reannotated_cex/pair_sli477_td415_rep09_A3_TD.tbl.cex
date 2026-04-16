@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep09_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a car .                       |   |   |2  |   |   |   |   |   |  1|  3|
+and it's a plane in the pool .         |1  |   |1  |   |   |3  |   |   |  1|  6|
+and it's splashing .                   |1  |   |1 1|   |   |3  |   |   |  1|  7|
+and there is a kitty and a puppy .     |   |   |2  |   |   |3 3|   |   |  1|  9|
+and they are playing .                 |   |3  |2 1|   |   |3  |   |   |  1| 10|
+and it's wet .                         |1  |   |1  |   |   |3  |   |   |  1|  6|
+and the kitty and puppy get mad .      |   |   |1  |   |   |3 3|   |   |  1|  8|
+and mommy is there .                   |   |   |1  |   |   |3  |   |   |  1|  5|
+and mommy say [* m:03s:a] no [/] no [/]|   |   |2  |   |   |3  |   |   |  0|  5|
+     no .                              |   |   |   |   |   |   |   |   |   |   |
+and there is a man with a pole .       |   |   |2  |   |   |3  |   |   |  1|  6|
+and he is getting the plane .          |   |2  |1 1|   |   |3  |   |   |  1|  8|
+and the plane is on the ground .       |   |   |1  |   |   |3  |   |   |  1|  5|
+TOTAL                                  |  3|  5| 20|  0|  0| 39|  0|  0| 11| 78|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  6.50

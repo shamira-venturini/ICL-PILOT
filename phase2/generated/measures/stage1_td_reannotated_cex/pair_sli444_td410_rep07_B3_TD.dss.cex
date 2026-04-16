@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep07
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=410
+*CHI:	Rabbit and doggy are playing outside .
+%mor:	noun|rabbit cconj|and noun|doggy aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S adv|outside .
+%xdss:	Z; F3; Z; C2; C1;
+*CHI:	They got a balloon on a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|balloon-Acc adp|on det|a-Ind-Art noun|wagon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	The balloon got loose , it went up in the air .
+%mor:	det|the-Def-Art noun|balloon verb|get-Fin-Ind-Past-S3-irr
+	adj|loose-S1 pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up
+	adp|in det|the-Def-Art noun|air .
+%xdss:	Z; C2; A1; C2; Z;
+*CHI:	The balloon popped .
+%mor:	det|the-Def-Art noun|balloon verb|pop-Fin-Ind-Past-S3 .
+%xdss:	Z; C2;
+*CHI:	The kids were sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Past-P3-irr adj|sad-S1
+	.
+%xdss:	Z; C2;
+*CHI:	They wanted a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	They went to the ice cream man , he had balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|ice noun|cream noun|man pron|he-Prs-Nom-S3
+	verb|have-Fin-Ind-Past-S3-irr noun|balloon-Plur-Acc .
+%xdss:	B3; C2; Z; Z; Z; B2; C2; Z;
+*CHI:	The ice cream man said .
+%mor:	det|the-Def-Art noun|ice noun|cream noun|man
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; Z; Z; C2;
+*CHI:	it costs money .
+%mor:	pron|it-Prs-Nom-S3 verb|cost-Fin-Ind-Pres-S3 noun|money-Acc .
+%xdss:	A1; C2; Z;
+*CHI:	The kids gave him some coins .
+%mor:	det|the-Def-Art noun|kid-Plur verb|give-Fin-Ind-Past-P3-irr
+	pron|he-Prs-Acc-S3 det|some-Def-Ind noun|coin-Plur-Acc .
+%xdss:	Z; C2; B2; A3; Z;
+*CHI:	They each got a balloon and they were happy !
+%mor:	pron|they-Prs-Nom-P3 det|each-Def-Tot verb|get-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|balloon-Acc cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 !
+%xdss:	B3; A7; C2; Z; F3; B3; C2;
+@End

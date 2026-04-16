@@ -1,0 +1,72 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep03
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=459
+*CHI:	there were two cats .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two noun|cat-Plur
+	.
+%xdss:	C2; A3; Z;
+*CHI:	they were playing by the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|by det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z;
+*CHI:	they had a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	it fell into the water .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	one of the cats jumped in to get it .
+%mor:	num|one adp|of det|the-Def-Art noun|cat-Plur
+	verb|jump-Fin-Ind-Past-S3 adv|in part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; C1; A1; B5;
+*CHI:	it was hard to get it .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|hard-S1 part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	A1; C2; D3; C1; A1; B5;
+*CHI:	it was slippery .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|slippery-S1 .
+%xdss:	A1; C2;
+*CHI:	the cat got it .
+%mor:	det|the-Def-Art noun|cat verb|get-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	it came out of the pool .
+%mor:	pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adp|out adp|of
+	det|the-Def-Art noun|pool .
+%xdss:	A1; C2; Z;
+*CHI:	it was wet .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|wet-S1 .
+%xdss:	A1; C2;
+*CHI:	the cat shook itself .
+%mor:	det|the-Def-Art noun|cat verb|shake-Fin-Ind-Past-S3-irr
+	pron|itself-Prs-Acc-reflx-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	the other cat was happy .
+%mor:	det|the-Def-Art adj|other-S1 noun|cat aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 .
+%xdss:	A3; Z; C2;
+*CHI:	they both played some more .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|play-Fin-Ind-Past-P3
+	det|some-Def-Ind adj|more-Cmp-S1 .
+%xdss:	B3; A7; C2; A3; A3;
+*CHI:	they were happy again .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1
+	adv|again .
+%xdss:	B3; C2;
+@End

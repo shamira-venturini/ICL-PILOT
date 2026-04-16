@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:24 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep07_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they're playing with a ball .          |   |3  |1  |   |   |   |   |   |  1|  5|
+the dog go [* m:03s:a] in the pool .   |   |   |2  |   |   |   |   |   |  0|  2|
+the dog get [* m:03s:a] the ball .     |   |   |1  |   |   |   |   |   |  0|  1|
+dog come [* m:03s:a] out with the ball |   |   |1  |   |   |   |   |   |  0|  1|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the dog wagging tail .                 |   |   |1  |4 8|   |   |   |   |  1| 14|
+the dog drop [* m:03s:a] the ball .    |   |   |1  |   |   |   |   |   |  0|  1|
+the kitty pick [* m:03s:a] up the ball |   |   |1  |   |   |   |   |   |  0|  1|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+they play some more .                  |3 3|3  |1  |   |   |   |   |   |  1| 11|
+TOTAL                                  |  6|  6|  9| 12|  0|  0|  0|  0|  3| 36|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  4.50

@@ -1,0 +1,72 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep04
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=460
+*CHI:	He and his friend playing [* m:+ing] with a plane near the pool .
+%mor:	pron|he-Prs-Nom-S3 cconj|and pron|his-Prs-Gen-S3 noun|friend
+	verb|play-Ger-S adp|with det|a-Ind-Art noun|plane adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B2; F3; B2; Z; D4; C1; D8; Z; Z;
+*CHI:	Oh look it's going in the water !
+%mor:	intj|oh verb|look-Fin-Imp-S
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|in
+	det|the-Def-Art noun|water !
+%xdss:	C1; D5; A1; C1; C1; Z;
+*CHI:	The plane is in the pool now .
+%mor:	det|the-Def-Art noun|plane aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool adv|now .
+%xdss:	Z; C1; Z;
+*CHI:	His friend is crying .
+%mor:	pron|his-Prs-Gen-S3 noun|friend aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	B2; Z; C1; C1;
+*CHI:	The plane belongs to him .
+%mor:	det|the-Def-Art noun|plane verb|belong-Fin-Ind-Pres-S3 adp|to
+	pron|he-Prs-Acc-S3 .
+%xdss:	Z; C2; B2;
+*CHI:	He wants it back .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adv|back .
+%xdss:	B2; C2; A1; B5;
+*CHI:	He's waving his hand to the man with the pole .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|wave-Part-Pres-S
+	pron|his-Prs-Gen-S3 noun|hand-Acc adp|to det|the-Def-Art noun|man
+	adp|with det|the-Def-Art noun|pole .
+%xdss:	B2; C1; C1; B2; Z; Z; Z;
+*CHI:	The man is coming with a long stick .
+%mor:	det|the-Def-Art noun|man aux|be-Fin-Ind-Pres-S3
+	verb|come-Part-Pres-S adp|with det|a-Ind-Art adj|long-S1 noun|stick
+	.
+%xdss:	Z; C1; C1; Z;
+*CHI:	He's putting the plane in the basket .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|put-Part-Pres-S
+	det|the-Def-Art noun|plane-Acc adp|in det|the-Def-Art noun|basket .
+%xdss:	B2; C1; C1; Z; Z;
+*CHI:	It's coming out !
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S
+	adp|out !
+%xdss:	A1; C1; C1;
+*CHI:	He's so happy .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|happy-S1 .
+%xdss:	B2; C1; F5;
+*CHI:	Now the plane is back .
+%mor:	adv|now det|the-Def-Art noun|plane aux|be-Fin-Ind-Pres-S3 adv|back
+	.
+%xdss:	Z; C1;
+*CHI:	Everyone is smiling .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S
+	.
+%xdss:	A7; C1; C1;
+@End

@@ -1,0 +1,63 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep02
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=410
+*CHI:	and they're playing with a plane .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|plane .
+%xdss:	F3; B3; C1; Z;
+*CHI:	and the plane is in the pool .
+%mor:	cconj|and det|the-Def-Art noun|plane aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C1; Z;
+*CHI:	the doggy dropped the plane .
+%mor:	det|the-Def-Art noun|doggy verb|drop-Fin-Ind-Past-S3
+	det|the-Def-Art noun|plane-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	(.) the doggy's owner is mad .
+%mor:	det|the-Def-Art noun|doggy~part|s noun|owner aux|be-Fin-Ind-Pres-S3
+	adj|mad-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	and the cat is trying to get it .
+%mor:	cconj|and det|the-Def-Art noun|cat aux|be-Fin-Ind-Pres-S3
+	verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	F3; Z; C1; C1; D3; C1; A1; B5;
+*CHI:	but it's too far .
+%mor:	cconj|but pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|too adv|far
+	.
+%xdss:	F5; A1; C1;
+*CHI:	(.) a lifeguard's coming .
+%mor:	det|a-Ind-Art noun|lifeguard~part|s noun|coming-Ger .
+%xdss:	Z; Z; D8;
+*CHI:	she's got a pole .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|a-Ind-Art noun|pole-Acc .
+%xdss:	B2; C7; C2; Z;
+*CHI:	(.) she's getting the plane .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S
+	det|the-Def-Art noun|plane-Acc .
+%xdss:	B2; C1; C1; Z;
+*CHI:	the doggy's owner is happy .
+%mor:	det|the-Def-Art noun|doggy~part|s noun|owner aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	the plane is back .
+%mor:	det|the-Def-Art noun|plane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	and everyone's happy .
+%mor:	cconj|and pron|everyone-Tot-S1~aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	.
+%xdss:	F3; A7; C1;
+@End

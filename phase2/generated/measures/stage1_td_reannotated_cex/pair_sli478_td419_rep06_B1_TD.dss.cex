@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep06
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=419
+*CHI:	there was a little dog and a little rabbit they built a sandcastle
+	on the beach .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|little-S1 noun|dog cconj|and det|a-Ind-Art adj|little-S1
+	noun|rabbit pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach
+	.
+%xdss:	C2; Z; F3; Z; B3; C2; Z; Z;
+*CHI:	the rabbit put more sand on the castle with a big shovel .
+%mor:	det|the-Def-Art noun|rabbit verb|put-Fin-Ind-Past-S3-irr
+	adj|more-Cmp-S1 noun|sand-Acc adp|on det|the-Def-Art noun|castle
+	adp|with det|a-Ind-Art adj|big-S1 noun|shovel .
+%xdss:	Z; C2; A3; Z; Z; Z;
+*CHI:	then the dog poured sand all over it with a big bucket .
+%mor:	adv|then det|the-Def-Art noun|dog verb|pour-Fin-Ind-Past-S3
+	noun|sand-Acc adv|all adp|over pron|it-Prs-Acc-S3 adp|with
+	det|a-Ind-Art adj|big-S1 noun|bucket .
+%xdss:	Z; C2; Z; A1; B5; Z;
+*CHI:	oh no the castle is all ruined .
+%mor:	intj|oh intj|no det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	adv|all verb|ruin-Part-Past-S .
+%xdss:	Z; C1; C2;
+*CHI:	the rabbit was sad and started to cry .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	cconj|and verb|start-Fin-Ind-Past-S3 part|to verb|cry-Inf-S .
+%xdss:	Z; C2; F3; C2; D3; C1;
+*CHI:	the dog said sorry i was sorry .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sorry-S1 .
+%xdss:	Z; C2; B1; C2;
+*CHI:	the dog tried to fix it with sand but it was too late .
+%mor:	det|the-Def-Art noun|dog verb|try-Fin-Ind-Past-S3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 adp|with noun|sand cconj|but
+	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|too adj|late-S1 .
+%xdss:	Z; C2; D3; C1; A1; B5; Z; F5; A1; C2;
+@End

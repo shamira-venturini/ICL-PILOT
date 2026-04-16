@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep03
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=419
+*CHI:	Rabbit and dog was [* m:vsg:a] playing with their wagon .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|play-Part-Pres-S adp|with pron|their-Prs-Gen-P3 noun|wagon .
+%xdss:	Z; F3; Z; C2; C1; B3; Z;
+*CHI:	and had a big red balloon .
+%mor:	cconj|and verb|have-Fin-Ind-Past-S1-irr det|a-Ind-Art adj|big-S1
+	adj|red-S1 noun|balloon-Acc .
+%xdss:	F3; C2; Z;
+*CHI:	then the balloon came loose and went away .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 cconj|and verb|go-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	Z; C2; F3; C2;
+*CHI:	the children was [* m:vsg:a] sad .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Past-S3-irr
+	adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	they wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	they went to a man who had many balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|a-Ind-Art noun|man pron|who-Rel verb|have-Fin-Ind-Past-S3-irr
+	adj|many-S1 noun|balloon-Plur-Acc .
+%xdss:	B3; C2; Z; B6; C2; Z;
+*CHI:	he said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	oh , how much money do you have ?
+%mor:	intj|oh adv|how adj|much-S1 noun|money-Acc aux|do-Fin-Ind-Pres-S2
+	pron|you-Prs-Nom-S2 verb|have-Inf-S ?
+%xdss:	B6; Z; C1;
+*CHI:	the rabbit and dog gave him some money .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 det|some-Def-Ind
+	noun|money-Acc .
+%xdss:	Z; F3; Z; C2; B2; A3; Z;
+*CHI:	the man gave them two balloons .
+%mor:	det|the-Def-Art noun|man verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 num|two noun|balloon-Plur-Acc .
+%xdss:	Z; C2; B3; A3; Z;
+*CHI:	the children was [* m:vsg:a] happy .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 .
+%xdss:	Z; C2;
+@End

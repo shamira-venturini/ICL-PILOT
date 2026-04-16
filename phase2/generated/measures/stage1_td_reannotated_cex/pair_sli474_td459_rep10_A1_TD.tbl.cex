@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep10_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two little ducks were playing near the |3  |   |2 1|   |   |   |   |   |  1|  7|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+They were playing with a big red ball .|   |3  |2 1|   |   |   |   |   |  1|  7|
+The ball fell into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+One of the ducks jumped into the pool  |3  |   |2 1|   |   |   |   |   |  1|  7|
+    to get the ball .                  |   |   |   |   |   |   |   |   |   |   |
+She dove down and got the ball .       |   |2  |2 2|   |   |3  |   |   |  1| 10|
+Then she swam back up to the side of   |3  |2  |2 2|   |   |3  |   |   |  1| 13|
+    the pool and gave the ball to the  |   |   |   |   |   |   |   |   |   |   |
+    other duck .                       |   |   |   |   |   |   |   |   |   |   |
+Now they were happy again and played   |3 3|3  |2 2|   |   |3  |   |   |  1| 17|
+    some more .                        |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 15| 10| 23|  0|  0|  9|  0|  0|  7| 64|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.14

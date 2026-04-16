@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:33 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep10_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , a monkey and a rabbit went to|3  |   |2  |   |   |3  |   |   |  1|  9|
+     the pool area .                   |   |   |   |   |   |   |   |   |   |   |
+There was a big sign that said .       |1  |   |2 2|   |   |   |   |   |  1|  6|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+but the monkey didn't listen .         |   |   |6 1|   |4  |5  |   |   |  1| 17|
+The monkey started running to the water|   |   |2 1|7 8|   |   |   |   |  1| 19|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The monkey slipped on the ground and   |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    hurt its knee .                    |   |   |   |   |   |   |   |   |   |   |
+A nice lifeguard came and gave the     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    monkey a bandage .                 |   |   |   |   |   |   |   |   |   |   |
+The monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  5|  0| 28| 23|  4| 17|  0|  0|  8| 85|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score: 10.62

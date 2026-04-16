@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep07
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog went to the park they brought
+	carrots and sandwiches .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|park pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Past-P3-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	Z; Z; F3; Z; C2; Z; B3; C2; Z; F3; Z;
+*CHI:	bunny ate too many sandwiches he felt icky .
+%mor:	noun|bunny verb|eat-Fin-Ind-Past-S3-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc pron|he-Prs-Nom-S3
+	verb|feel-Fin-Ind-Past-S3-irr adj|icky-S1 .
+%xdss:	Z; C2; Z; B2; C2;
+*CHI:	he ran to the doctor .
+%mor:	pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	B2; C2; Z;
+*CHI:	the doctor said bunny you ate too much food now you have a
+	tummyache .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Past-S3-irr
+	noun|bunny-Acc pron|you-Prs-Nom-S2 verb|eat-Fin-Ind-Past-S2-irr
+	adv|too adj|much-S1 noun|food-Acc adv|now pron|you-Prs-Nom-S2
+	verb|have-Fin-Ind-Pres-S2 det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	Z; C2; Z; C2; Z; C1; Z;
+*CHI:	bunny felt better after the doctor gave him medicine .
+%mor:	noun|bunny verb|feel-Fin-Ind-Past-S3-irr adj|good-Cmp-S1
+	sconj|after det|the-Def-Art noun|doctor
+	verb|give-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 noun|medicine-Acc .
+%xdss:	Z; C2; Z; C2; B2; Z;
+*CHI:	now bunny is sitting in his bed he's feeling better .
+%mor:	adv|now noun|bunny aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S
+	adp|in pron|his-Prs-Gen-S3 noun|bed
+	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|feel-Part-Pres-S
+	adj|good-Cmp-S1 .
+%xdss:	Z; C1; C1; B2; Z; B2; C1; C1;
+@End

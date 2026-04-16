@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep10_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there were two dogs one big and one    |3 3|   |2  |   |   |3  |   |   |  1| 15|
+    small .                            |3  |   |   |   |   |   |   |   |   |   |
+they were playing near the pool with a |   |3  |2 1|   |   |   |   |   |  1|  7|
+    little red ball .                  |   |   |   |   |   |   |   |   |   |   |
+then the ball went into the water .    |   |   |2  |   |   |   |   |   |  1|  3|
+the big dog jumped in the pool to get  |1  |5  |2 1|   |   |   |   |   |  1| 10|
+    it .                               |   |   |   |   |   |   |   |   |   |   |
+he swam to the ball and picked it up . |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+then he got out of the pool and gave it|1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+     to the little dog .               |   |   |   |   |   |   |   |   |   |   |
+they both wagged their tails and ran   |7  |3 3|2 2|   |   |3  |   |   |  1| 21|
+    around happy .                     |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 19| 28| 22|  0|  0| 12|  0|  0|  7| 88|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score: 12.57

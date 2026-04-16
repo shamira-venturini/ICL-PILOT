@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep01
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=460
+*CHI:	rabbit and dog they're building a sandcastle together .
+%mor:	noun|rabbit cconj|and noun|dog
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|sandcastle-Acc adv|together .
+%xdss:	Z; F3; Z; B3; C1; Z;
+*CHI:	rabbit is digging a moat with the shovel .
+%mor:	noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|digg-Part-Pres-S
+	det|a-Ind-Art noun|moat-Acc adp|with det|the-Def-Art noun|shovel .
+%xdss:	Z; C1; C1; Z; Z;
+*CHI:	dog is bringing sand in the big bucket .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 verb|bring-Part-Pres-S
+	noun|sand-Acc adp|in det|the-Def-Art adj|big-S1 noun|bucket .
+%xdss:	Z; C1; C1; Z; Z;
+*CHI:	dog spills the sand all over the castle .
+%mor:	noun|dog verb|spill-Fin-Ind-Pres-S3 det|the-Def-Art noun|sand-Acc
+	adv|all adp|over det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the castle is ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	rabbit is sad .
+%mor:	noun|rabbit aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	rabbit is crying .
+%mor:	noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	dog says sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit and dog are fixing it together .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3
+	verb|fix-Part-Pres-S pron|it-Prs-Acc-S3 adv|together .
+%xdss:	Z; F3; Z; C2; C1; A1; B5;
+@End

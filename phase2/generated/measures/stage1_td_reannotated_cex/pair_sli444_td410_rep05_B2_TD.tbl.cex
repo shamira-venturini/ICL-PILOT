@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+We went to the park with bunny and dog |   |3  |2  |   |   |3  |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+We got carrots and sandwiches .        |   |3  |2  |   |   |3  |   |   |  1|  9|
+bunny and dog were so happy .          |   |   |2  |   |   |3 5|   |   |  1| 11|
+We ate and ate .                       |   |3  |2 2|   |   |3  |   |   |  1| 11|
+One boy had too much .                 |3  |   |2  |   |   |   |   |   |  1|  6|
+He felt sick .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+He got dizzy .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+He lay [* m:base:ed] down on the       |   |2  |2  |   |   |   |   |   |  0|  4|
+    blanket .                          |   |   |   |   |   |   |   |   |   |   |
+He felt a little better .              |   |2  |2  |   |   |   |   |   |  1|  5|
+He sat up .                            |   |2  |2  |   |   |   |   |   |  1|  5|
+Then he went home to sleep .           |   |2  |2 1|   |   |   |   |   |  1|  6|
+TOTAL                                  |  3| 21| 25|  0|  0| 17|  0|  0| 10| 76|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  6.91

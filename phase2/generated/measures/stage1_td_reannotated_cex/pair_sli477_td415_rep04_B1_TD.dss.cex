@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep04
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog build a big castle on the beach .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Fin-Ind-Pres-P3
+	det|a-Ind-Art adj|big-S1 noun|castle-Acc adp|on det|the-Def-Art
+	noun|beach .
+%xdss:	Z; F3; Z; C1; Z; Z;
+*CHI:	Dog get [* m:03s:a] bucket and pour sand on castle .
+%mor:	noun|dog verb|get-Fin-Imp-S noun|bucket-Acc cconj|and
+	verb|pour-Fin-Imp-S2 noun|sand-Acc adp|on noun|castle .
+%xdss:	Z; C1; Z; F3; Z; Z;
+*CHI:	Castle break [* m:03s:a] down .
+%mor:	noun|Castle verb|break-Fin-Imp-S adp|down .
+%xdss:	Z; C1;
+*CHI:	They want to fix castle .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to
+	verb|fix-Inf-S noun|castle-Acc .
+%xdss:	B3; C1; D3; C1; Z;
+*CHI:	Rabbit take [* m:03s:a] shovel and make [* m:03s:a] new sand walls
+	.
+%mor:	noun|rabbit verb|take-Fin-Imp-S noun|shovel-Acc cconj|and
+	verb|make-Fin-Imp-S2 adj|new-S1 noun|sand noun|wall-Plur-Acc .
+%xdss:	Z; C1; Z; F3; Z; Z;
+*CHI:	Dog take [* m:03s:a] bucket and make [* m:03s:a] moat .
+%mor:	noun|dog verb|take-Fin-Imp-S noun|bucket-Acc cconj|and
+	verb|make-Fin-Imp-S2 noun|moat-Acc .
+%xdss:	Z; C1; Z; F3; Z;
+*CHI:	They fix castle .
+%mor:	pron|they-Prs-Nom-P3 verb|fix-Fin-Ind-Pres-P3 noun|castle-Acc .
+%xdss:	B3; C1; Z;
+@End

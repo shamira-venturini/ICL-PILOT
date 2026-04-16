@@ -13,7 +13,11 @@ _ERROR_RE = re.compile(r"\[\*\s+([^\]]+)\]")
 
 def _extract_file_id(path: Path) -> str:
     match = _FILE_ID_RE.search(path.name)
-    return match.group(1) if match else ""
+    if match:
+        return match.group(1)
+    if path.name.endswith(".cha"):
+        return path.name[:-4]
+    return path.stem
 
 
 def _safe_code_name(code: str) -> str:

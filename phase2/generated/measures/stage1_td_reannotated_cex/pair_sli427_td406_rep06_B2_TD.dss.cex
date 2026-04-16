@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep06
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=406
+*CHI:	Me [* s:r:gc:pro] and my friend dog go to the field .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend noun|dog
+	verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art noun|field .
+%xdss:	B1; F3; B1; Z; Z; C1; Z;
+*CHI:	we pick carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|pick-Fin-Ind-Pres-P1 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	then we have a picnic .
+%mor:	adv|then pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|a-Ind-Art
+	noun|picnic-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	I eat too much .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adv|much .
+%xdss:	B1; C1;
+*CHI:	now I feel icky .
+%mor:	adv|now pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|icky-S1 .
+%xdss:	B1; C1;
+*CHI:	my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel dizzy .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|dizzy-S1 .
+%xdss:	B1; C1;
+*CHI:	I want to sit down .
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 part|to verb|sit-Inf-S
+	adp|down .
+%xdss:	B1; C1; D3; C1;
+*CHI:	my momma gets me a doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|momma verb|get-Fin-Ind-Pres-S3
+	pron|I-Prs-Acc-S1 det|a-Ind-Art noun|doctor .
+%xdss:	B1; Z; C2; B1; Z;
+*CHI:	the doctor says I need to rest .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 part|to verb|rest-Inf-S
+	.
+%xdss:	Z; C2; D5; B1; C1; D3; C1;
+*CHI:	now I'm lying down .
+%mor:	adv|now pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1
+	verb|lie-Part-Pres-S adv|down .
+%xdss:	B1; C1;
+*CHI:	I feel better .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+@End

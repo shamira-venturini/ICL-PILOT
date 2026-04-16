@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep01
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=410
+*CHI:	They're playing with a ball .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with det|a-Ind-Art noun|ball .
+%xdss:	B3; C1; Z;
+*CHI:	The ball goes into the water .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	The kitty jumps in to get it .
+%mor:	det|the-Def-Art noun|kitty verb|jump-Fin-Ind-Pres-S3 adp|in part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; C1; A1; B5;
+*CHI:	The kitty gets the ball .
+%mor:	det|the-Def-Art noun|kitty verb|get-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	The kitty comes out of the water with the ball .
+%mor:	det|the-Def-Art noun|kitty verb|come-Fin-Ind-Pres-S3 adp|out adp|of
+	det|the-Def-Art noun|water adp|with det|the-Def-Art noun|ball .
+%xdss:	Z; C2; Z; Z;
+*CHI:	The doggy and the kitty are happy .
+%mor:	det|the-Def-Art noun|doggy cconj|and det|the-Def-Art noun|kitty
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; F3; Z; C2;
+@End

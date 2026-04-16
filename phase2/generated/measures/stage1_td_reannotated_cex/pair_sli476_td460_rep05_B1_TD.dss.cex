@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep05
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=460
+*CHI:	they're the dog and the rabbit they're building a sandcastle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|dog cconj|and det|the-Def-Art noun|rabbit
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|sandcastle-Acc .
+%xdss:	B3; Z; F3; Z; B3; C1; Z;
+*CHI:	the rabbit is using a big shovel .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|use-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|shovel-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	the dog is using a bucket .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|use-Part-Pres-S det|a-Ind-Art noun|bucket-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	the dog is pouring sand in the bucket .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|pour-Part-Pres-S noun|sand-Acc adp|in det|the-Def-Art
+	noun|bucket .
+%xdss:	Z; C1; C1; Z; Z;
+*CHI:	whoops he spilled it on the castle .
+%mor:	noun|whoop-Plur pron|he-Prs-Nom-S3 verb|spill-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|castle .
+%xdss:	Z; B2; C2; A1; B5; Z;
+*CHI:	the castle is broken .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the dog is saying sorry .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|say-Part-Pres-S adj|sorry-S1 .
+%xdss:	Z; C1; C1;
+*CHI:	the rabbit is saying okay .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|say-Part-Pres-S intj|okay .
+%xdss:	Z; C1; C1;
+*CHI:	they're building again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	adv|again .
+%xdss:	B3; C1;
+@End

@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:17 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep06_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One time there was two frogs .         |3 3|   |2  |   |   |   |   |   |  1|  9|
+they were playing near a pool with a   |   |3  |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+and then the ball fell into the water .|   |   |2  |   |   |3  |   |   |  1|  6|
+one frog went in the pool to get the   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+it swam and swam till it got it .      |1 1|5  |2 2|   |   |3  |   |   |  1| 18|
+                                       |1  |   |2  |   |   |   |   |   |   |   |
+it came out and gave it to its friend .|1 1|5  |2 2|   |   |3  |   |   |  1| 16|
+                                       |1  |   |   |   |   |   |   |   |   |   |
+they were both happy again !           |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 15| 16| 22|  0|  0|  9|  0|  0|  7| 69|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.86

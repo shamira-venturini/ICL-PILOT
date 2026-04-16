@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep09
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=9
+@Comment:	source_child_id=471
+*CHI:	One day , two ducks were playing near the pool .
+%mor:	num|one noun|day num|two noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; A3; Z; C2; C1; Z;
+*CHI:	They were playing with a big red ball .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|ball .
+%xdss:	B3; C2; C1; Z;
+*CHI:	The ball fell into the water .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	One of the ducks jumped into the pool to get it .
+%mor:	num|one adp|of det|the-Def-Art noun|duck-Plur
+	verb|jump-Fin-Ind-Past-S3 adp|into det|the-Def-Art noun|pool part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; Z; C1; A1; B5;
+*CHI:	The duck swam to the ball and picked it up .
+%mor:	det|the-Def-Art noun|duck verb|swim-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|ball cconj|and verb|pick-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 adp|up .
+%xdss:	Z; C2; Z; F3; C2; A1; B5;
+*CHI:	The duck swam back to the pool edge and gave the ball to its friend
+	.
+%mor:	det|the-Def-Art noun|duck verb|swim-Fin-Ind-Past-S3-irr adv|back
+	adp|to det|the-Def-Art noun|pool noun|edge cconj|and
+	verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc adp|to
+	pron|its-Prs-Gen-S3 noun|friend .
+%xdss:	Z; C2; Z; Z; F3; C2; Z; A1; Z;
+*CHI:	Now the ducks are happy again .
+%mor:	adv|now det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 adv|again .
+%xdss:	Z; C2;
+@End

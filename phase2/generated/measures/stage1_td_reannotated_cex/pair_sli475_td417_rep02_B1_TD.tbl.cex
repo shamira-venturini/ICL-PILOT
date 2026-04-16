@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep02_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Me [* s:r:gc:pro] and my dog friend    |   |1 1|2 1|   |   |3  |   |   |  0|  8|
+    were building a castle in the      |   |   |   |   |   |   |   |   |   |   |
+    sandbox .                          |   |   |   |   |   |   |   |   |   |   |
+My dog friend was putting sand in the  |1 3|1 1|2 1|   |   |3  |   |   |  1| 21|
+    castle and I was making it all     |   |5  |2 1|   |   |   |   |   |   |   |
+    pretty .                           |   |   |   |   |   |   |   |   |   |   |
+Then my dog friend dumped a big bucket |   |1  |2  |   |   |   |   |   |  1|  4|
+    of sand on the castle .            |   |   |   |   |   |   |   |   |   |   |
+The castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+I was sad .                            |   |1  |2  |   |   |   |   |   |  1|  4|
+My dog friend was crying too .         |   |1  |2 1|   |   |   |   |   |  1|  5|
+I said sorry .                         |   |1  |2  |   |   |   |   |   |  1|  4|
+My dog friend said sorry too .         |   |1  |2  |   |   |   |   |   |  1|  4|
+We worked together to make a new castle|   |3  |2 1|   |   |   |   |   |  1|  7|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+It's better than the old one .         |1  |   |1  |   |   |8  |   |   |  1| 11|
+TOTAL                                  |  5| 17| 26|  0|  0| 14|  0|  0|  9| 71|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.10

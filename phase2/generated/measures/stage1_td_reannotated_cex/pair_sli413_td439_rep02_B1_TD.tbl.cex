@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep02_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time a doggy and a wabbit  |   |   |2  |   |   |3  |   |   |  1|  6|
+    made a castle out of sand .        |   |   |   |   |   |   |   |   |   |   |
+they were so happy .                   |   |3  |2  |   |   |5  |   |   |  1| 11|
+the doggy added more sand and then     |3 1|5  |2 2|   |   |3  |   |   |  1| 17|
+    dumped a bucket on it .            |   |   |   |   |   |   |   |   |   |   |
+the wabbit said oh noo !               |   |   |2  |   |   |   |   |   |  1|  3|
+our castle is ruined !                 |   |3  |7 2|   |   |   |   |   |  1| 13|
+the doggy looked sad and said i'm sowwy|   |1  |2 2|   |   |3  |   |   |  1|  9|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the wabbit said it's okay doggy let's  |1  |3  |2 1|2  |   |   |   |   |  1| 11|
+    make a new one .                   |   |   |1  |   |   |   |   |   |   |   |
+they used a shovel to dig a new moat   |   |3  |2 1|   |   |3  |   |   |  1| 12|
+    and built a new castle .           |   |   |2  |   |   |   |   |   |   |   |
+TOTAL                                  |  5| 18| 32|  2|  0| 17|  0|  0|  8| 82|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score: 10.25

@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep02
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=406
+*CHI:	There's a sign that says .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	My friend the monkey likes to play .
+%mor:	pron|my-Prs-Gen-S1 noun|friend det|the-Def-Art noun|monkey
+	verb|like-Fin-Ind-Pres-S3 part|to verb|play-Inf-S .
+%xdss:	B1; Z; Z; C2; D3; C1;
+*CHI:	He wants to jump in the pool so he runs to the water .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to
+	verb|jump-Inf-S adp|in det|the-Def-Art noun|pool sconj|so
+	pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|water .
+%xdss:	B2; C2; D3; C1; Z; B2; C2; Z;
+*CHI:	He slips and hurts his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|hurt-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	Someone comes with a band-aid .
+%mor:	pron|someone-Ind-S1 verb|come-Fin-Ind-Pres-S3 adp|with
+	det|a-Ind-Art noun|bandaid .
+%xdss:	A3; C2; Z;
+*CHI:	He sits on the bench and rests .
+%mor:	pron|he-Prs-Nom-S3 verb|sit-Fin-Ind-Pres-S3 adp|on det|the-Def-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2; Z; F3; C2;
+@End

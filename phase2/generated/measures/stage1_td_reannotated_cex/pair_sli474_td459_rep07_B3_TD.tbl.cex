@@ -1,0 +1,36 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:17 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep07_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog they   |   |3  |2  |   |   |3  |   |   |  1|  9|
+    pulled a wagon with a big red      |   |   |   |   |   |   |   |   |   |   |
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon came loose and went flying |   |   |2 2|7 8|   |3  |   |   |  1| 24|
+    away .                             |   |   |1  |   |   |   |   |   |   |   |
+the rabbit and dog were sad .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they looked everywhere for the balloon |1  |3  |2 2|   |   |8 5|   |   |  1| 22|
+    but it was gone .                  |   |   |   |   |   |   |   |   |   |   |
+then they went to the balloon man who  |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    had lots of balloons .             |   |   |   |   |   |   |   |   |   |   |
+he said his balloons were five dollars |3 7|2 2|2 2|   |   |   |   |   |  1| 19|
+    each .                             |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog didn't have five    |3  |   |6 1|   |4  |3  |   |   |  1| 18|
+    dollars .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon man said it was okay he    |1  |2 3|2 2|2 5|   |   |   |   |  1| 26|
+    would help them get balloons .     |   |   |6 1|   |   |   |   |   |   |   |
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the rabbit and dog were so happy they  |7  |3  |2 2|   |   |3 5|   |   |  1| 23|
+    each got a new balloon .           |   |   |   |   |   |   |   |   |   |   |
+now they were happy again .            |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 22| 30| 46| 22|  4| 33|  0|  0| 10|167|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score: 16.70

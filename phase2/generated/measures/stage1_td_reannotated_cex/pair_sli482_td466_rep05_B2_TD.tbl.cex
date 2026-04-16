@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+We went on a picnic .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+We had yummy sandwiches and carrots .  |   |3  |2  |   |   |3  |   |   |  1|  9|
+I ate too much .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+My tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+We're going to see the doctor .        |   |3  |1 1|2  |   |   |   |   |  1|  8|
+She said I ate too much .              |   |2 1|2 2|5  |   |   |   |   |  1| 13|
+I need to rest now .                   |   |1  |1 1|3  |   |   |   |   |  1|  7|
+TOTAL                                  |  0| 16| 17| 10|  0|  3|  0|  0|  8| 54|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  6.75

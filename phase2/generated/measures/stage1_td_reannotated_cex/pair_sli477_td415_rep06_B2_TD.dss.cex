@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep06
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=415
+*CHI:	Me [* s:r:gc:pro] and my dog and rabbit go on a picnic .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog cconj|and
+	noun|rabbit verb|go-Fin-Ind-Pres-P3 adp|on det|a-Ind-Art noun|picnic
+	.
+%xdss:	B1; F3; B1; Z; F3; Z; C1; Z;
+*CHI:	we pick carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|pick-Fin-Ind-Pres-P1 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	i eat all the sandwiches .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Pres-S1 det|all-Def-Tot
+	det|the-Def-Art noun|sandwich-Plur-Acc .
+%xdss:	B1; C1; A3; Z;
+*CHI:	my tummy start [* m:03s:a] to hurt .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|start-Fin-Ind-Pres-S3 part|to
+	verb|hurt-Inf-S .
+%xdss:	B1; Z; C2; D3; C1;
+*CHI:	i feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	i go to the doctor .
+%mor:	pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Pres-S1 adp|to det|the-Def-Art
+	noun|doctor .
+%xdss:	B1; C1; Z;
+*CHI:	the doctor say [* m:03s:a] i need to rest .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 part|to verb|rest-Inf-S
+	.
+%xdss:	Z; C2; D5; B1; C1; D3; C1;
+*CHI:	i sit on a blanket and rest .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Pres-S1 adp|on det|a-Ind-Art
+	noun|blanket cconj|and verb|rest-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1; Z; F3; C1;
+*CHI:	i feel better now .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 adv|now
+	.
+%xdss:	B1; C1;
+@End

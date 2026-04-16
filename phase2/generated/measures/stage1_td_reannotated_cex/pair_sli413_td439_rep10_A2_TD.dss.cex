@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep10
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=10
+@Comment:	source_child_id=439
+*CHI:	there were two friends , one dog and one cat .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|friend-Plur num|one noun|dog cconj|and num|one noun|cat .
+%xdss:	C2; A3; Z; A3; Z; F3; A3; Z;
+*CHI:	they were at the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adp|at
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z;
+*CHI:	see that sign !
+%mor:	verb|see-Fin-Imp-S det|that-Def-Dem-Sing noun|sign-Acc !
+%xdss:	C1; Z;
+*CHI:	don't run !
+%mor:	aux|do-Fin-Imp-S~part|not verb|run-Fin-Imp-S !
+%xdss:	C4; E4; G6; C1;
+*CHI:	the cat went zoom , [/] zoom , [/] zoom !
+%mor:	det|the-Def-Art noun|cat verb|go-Fin-Ind-Past-S3-irr noun|zoom-Acc
+	!
+%xdss:	Z; C2; Z;
+*CHI:	whoops , the cat slipped and boo booed her knee .
+%mor:	noun|whoop-Plur det|the-Def-Art noun|cat verb|slip-Fin-Ind-Past-S3
+	cconj|and noun|boo verb|booe-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	Z; Z; C2; F3; Z; C2; B2; Z;
+*CHI:	a nice lady came with a special sticky strip for boo boos .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|special-S1 adj|sticky-S1 noun|strip
+	adp|for noun|boo noun|boo-Plur .
+%xdss:	Z; C2; Z; F8; Z; Z;
+*CHI:	the cat sat down on a bench and rested .
+%mor:	det|the-Def-Art noun|cat verb|sit-Fin-Ind-Past-S3-irr adp|down
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	.
+%xdss:	Z; C2; Z; F3; C2;
+@End

@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep09_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , two ducks were playing near  |3 3|   |2 1|   |   |   |   |   |  1| 10|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+They were playing with a big red ball .|   |3  |2 1|   |   |   |   |   |  1|  7|
+The ball fell into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+One of the ducks jumped into the pool  |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+    to get it .                        |   |   |   |   |   |   |   |   |   |   |
+The duck swam to the ball and picked it|1  |5  |2 2|   |   |3  |   |   |  1| 14|
+     up .                              |   |   |   |   |   |   |   |   |   |   |
+The duck swam back to the pool edge and|1  |   |2 2|   |   |3  |   |   |  1|  9|
+     gave the ball to its friend .     |   |   |   |   |   |   |   |   |   |   |
+Now the ducks are happy again .        |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 12| 13| 21|  0|  0|  6|  0|  0|  7| 59|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  8.43

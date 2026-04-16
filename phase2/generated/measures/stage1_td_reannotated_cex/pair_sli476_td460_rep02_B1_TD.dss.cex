@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep02
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=2
+@Comment:	source_child_id=460
+*CHI:	the dog and the rabbit build a castle in the sandbox .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit
+	verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art noun|castle-Acc adp|in
+	det|the-Def-Art noun|sandbox .
+%xdss:	Z; F3; Z; C1; Z; Z;
+*CHI:	the dog got a big bucket of sand and he poured it on the castle .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 noun|bucket-Acc adp|of noun|sand cconj|and
+	pron|he-Prs-Nom-S3 verb|pour-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3
+	adp|on det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z; F3; B2; C2; A1; B5; Z;
+*CHI:	the castle is ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the rabbit said sorry .
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	the dog said sorry too .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	adv|too .
+%xdss:	Z; C2;
+*CHI:	they're going to fix it .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S
+	part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C1; D2; C1; A1; B5;
+*CHI:	they're putting sand on the castle again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|put-Part-Pres-S
+	noun|sand-Acc adp|on det|the-Def-Art noun|castle adv|again .
+%xdss:	B3; C1; Z; Z;
+*CHI:	they're building again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	adv|again .
+%xdss:	B3; C1;
+@End

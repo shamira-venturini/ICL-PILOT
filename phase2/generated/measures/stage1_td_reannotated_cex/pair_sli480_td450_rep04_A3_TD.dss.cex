@@ -1,0 +1,42 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep04
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=450
+*CHI:	Two frogs play near the pool .
+%mor:	num|two noun|frog-Plur verb|play-Fin-Ind-Pres-P3 adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C1; Z;
+*CHI:	They drop the plane into the water .
+%mor:	pron|they-Prs-Nom-P3 verb|drop-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|plane-Acc adp|into det|the-Def-Art noun|water .
+%xdss:	B3; C1; Z; Z;
+*CHI:	The big frog gets sad .
+%mor:	det|the-Def-Art adj|big-S1 noun|frog verb|get-Fin-Ind-Pres-S3
+	adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	Someone with a long pole comes and gets the plane .
+%mor:	pron|someone-Ind-S1 adp|with det|a-Ind-Art adj|long-S1 noun|pole
+	verb|come-Fin-Ind-Pres-S3 cconj|and verb|get-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|plane-Acc .
+%xdss:	A3; Z; C2; F3; C2; Z;
+*CHI:	They give [* m:base:ed] it back to the big frog .
+%mor:	pron|they-Prs-Nom-P3 verb|give-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adv|back adp|to det|the-Def-Art adj|big-S1 noun|frog .
+%xdss:	B3; C1; A1; B5; Z;
+*CHI:	The big frog is happy .
+%mor:	det|the-Def-Art adj|big-S1 noun|frog aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	Z; C1;
+@End

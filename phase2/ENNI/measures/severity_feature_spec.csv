@@ -1,0 +1,123 @@
+column,action,category,included_in_severity_features_raw,reason
+File_kideval,keep,key,1,Transcript identifier for traceability back to the corpus.
+Language,drop,constant,0,Constant provenance column; no analytical value.
+Corpus,drop,constant,0,Constant provenance column; no analytical value.
+Code,drop,constant,0,Constant provenance column; no analytical value.
+Age(Month),keep,covariate,1,Primary age covariate for TD-based developmental normalization.
+Sex,keep,grouping,1,Useful demographic covariate if later needed for sensitivity checks.
+Group,keep,grouping,1,Clinical group label needed for TD-based normalization and DLD comparisons.
+Race,drop,constant_placeholder,0,Empty placeholder metadata column.
+SES,drop,constant_placeholder,0,Empty placeholder metadata column.
+Role,drop,constant,0,Constant provenance column; no analytical value.
+Education,drop,constant_placeholder,0,Empty placeholder metadata column.
+Custom_field,drop,constant_placeholder,0,Empty placeholder metadata column.
+Design,drop,constant,0,Constant provenance column; no analytical value.
+Activity,drop,constant,0,Constant provenance column; no analytical value.
+Group_2,drop,redundant_group,0,Redundant alternate group column; `Group` is the primary label.
+Total_Utts,drop,redundant_count,0,Near-duplicate utterance count; keep `#utterances` only.
+MLU_Utts,drop,redundant_count,0,Near-duplicate utterance count; keep `#utterances` only.
+MLU_Words,drop,redundant_mlu,0,Word-based MLU variant; keep `MLU_Morphemes` only.
+MLU_Morphemes,keep,feature,1,Chosen MLU representative; keep morpheme-based rather than word-based MLU.
+MLU50_Utts,drop,constant,0,Constant column; no analytical value.
+MLU50_Words,drop,redundant_mlu,0,Highly correlated MLU-50 variant not needed in the first-pass severity table.
+MLU50_Morphemes,drop,redundant_mlu,0,Highly correlated MLU-50 variant not needed in the first-pass severity table.
+FREQ_types,drop,redundant_lexical,0,Raw type count is sample-length sensitive; use `VOCD_D_optimum_average` instead.
+FREQ_tokens,drop,redundant_count,0,Exact duplicate of `mor_Words` and redundant with retained `#words`.
+NDW_100,drop,redundant_lexical,0,Alternative lexical diversity measure; keep VOCD as the primary lexical index.
+VOCD_D_optimum_average,keep,feature,1,Primary lexical diversity measure.
+Verbs_Utt,drop,secondary_feature,0,"Potentially useful later, but excluded from the first-pass core severity set."
+TD_Words,drop,redundant_count,0,Near-duplicate word count; keep `#words` only.
+TD_Utts,drop,redundant_count,0,Near-duplicate utterance count; keep `#utterances` only.
+TD_Time_(secs),drop,secondary_qc,0,Timing variable not needed in the first-pass severity table.
+TD_Words_Time,drop,secondary_qc,0,Timing-normalized word rate not needed in the first-pass severity table.
+TD_Utts_Time,drop,secondary_qc,0,Timing-normalized utterance rate not needed in the first-pass severity table.
+Word_Errors,drop,raw_count_archival,0,"Raw count retained in the master archive, but severity modeling uses the per-utterance rate."
+Utt_Errors,drop,constant,0,Constant column; no analytical value.
+retracing,drop,raw_count_archival,0,"Raw count retained in the master archive, but severity modeling uses the per-utterance rate."
+repetition,drop,raw_count_archival,0,"Raw count retained in the master archive, but severity modeling uses the per-utterance rate."
+DSS_Utts,drop,secondary_qc,0,Sentence-count support variable; excluded from first-pass feature table.
+DSS,drop,redundant_dss,0,Near-duplicate of `DSS_tbl_score`; keep table-derived DSS only.
+IPSyn_Utts,drop,secondary_qc,0,"Support variable for IPSyn, not a retained core feature."
+IPSyn_Total,keep,feature,1,Global syntactic complexity measure.
+mor_Words,drop,duplicate,0,Exact duplicate of `FREQ_tokens`; retain neither because `#words` is kept.
+*-PRESP,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+in,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+on,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+*-PL,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+irr-PAST,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+*-POSS,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+u-cop,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+det:art,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+*-PAST,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+*-3S,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+irr-3S,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+u-aux,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+c-cop,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+c-aux,drop,secondary_morphology,0,Morph marker count left out of the first-pass compact severity set.
+Total_non_zero_mors,drop,secondary_morphology,0,Summary morphology count left out of the first-pass compact severity set.
+File_ID,keep,key,1,Stable merge key for child/file.
+File_mlt,drop,provenance,0,Source-specific path column; retained in the archive table only.
+Age,drop,redundant_age,0,String age representation; keep numeric `Age(Month)` only.
+#utterances,keep,qc_exposure,1,Single retained utterance-count variable for sample-size QC and optional normalization.
+#turns,drop,secondary_qc,0,Turn count not required in the first-pass severity table.
+#words,keep,qc_exposure,1,Single retained word-count variable for sample-size QC and optional normalization.
+words/turns,drop,redundant_rate,0,Turn-based rate excluded from first-pass compact severity set.
+utterances/turns,drop,redundant_rate,0,Turn-based rate excluded from first-pass compact severity set.
+words/utterances,drop,redundant_mlu,0,Near-duplicate of word-based MLU measures; keep `MLU_Morphemes` only.
+Standard deviation,drop,secondary_qc,0,MLT dispersion measure not included in the first-pass compact severity set.
+Age_Month_approx,drop,redundant_age,0,Approximate month age; keep exact `Age(Month)` only.
+DSS_tbl_source,drop,provenance,0,File-path provenance column; keep only in archive table.
+DSS_tbl_relpath,drop,provenance,0,File-path provenance column; keep only in archive table.
+DSS_tbl_transcript,drop,provenance,0,File-path provenance column; keep only in archive table.
+DSS_tbl_transcript_relpath,drop,provenance,0,File-path provenance column; keep only in archive table.
+DSS_tbl_command,drop,constant,0,Constant command provenance; no analytical value.
+DSS_tbl_score,keep,feature,1,Primary DSS score from the direct DSS table output.
+DSS_tbl_score_is_na,drop,constant,0,Constant QC column in the current DSS batch.
+DSS_tbl_warning_50,keep,qc_flag,1,Flags transcripts that did not meet DSS 50-sentence criterion.
+DSS_tbl_CNJ,keep,feature_subscale,1,DSS subscale: conjunctions.
+DSS_tbl_IP,keep,feature_subscale,1,DSS subscale: indefinite pronouns / noun modifiers.
+DSS_tbl_IR,keep,feature_subscale,1,DSS subscale: interrogative reversals.
+DSS_tbl_MV,keep,feature_subscale,1,DSS subscale: main verbs.
+DSS_tbl_NG,keep,feature_subscale,1,DSS subscale: negatives.
+DSS_tbl_PP,keep,feature_subscale,1,DSS subscale: personal pronouns.
+DSS_tbl_S,drop,redundant_dss,0,Sentence-point subscore is tightly coupled to overall DSS scoring and omitted from the compact set.
+DSS_tbl_SV,keep,feature_subscale,1,DSS subscale: secondary verbs.
+DSS_tbl_TOT,drop,redundant_dss,0,Raw total underlying DSS score; keep `DSS_tbl_score` only.
+DSS_tbl_WHQ,keep,feature_subscale,1,DSS subscale: wh-questions.
+Word_Errors_per_utt,keep,feature_rate,1,General error burden normalized by utterance count.
+retracing_per_utt,keep,feature_rate,1,Retracing/disruption rate normalized by utterance count.
+repetition_per_utt,keep,feature_rate,1,Repetition/disruption rate normalized by utterance count.
+bare_marking_errors_per_word,keep,feature_rate,1,Grouped bare-marking error rate normalized by word count.
+determiner_errors_per_word,drop,too_sparse,0,Excluded from the severity/profile table after removing m:allo contamination left the feature too sparse.
+pronoun_errors_per_word,keep,feature_rate,1,Grouped pronoun error rate normalized by word count.
+rule_generalization_errors_per_word,drop,legacy_rate,0,Legacy broad grouped rate retained in the archive table only; replaced in profiling by a past-specific opportunity-based measure.
+chi_utterances_with_error_code,drop,secondary_qc,0,"Useful descriptive count, but not retained in the first-pass severity feature set."
+error_total_annotations,drop,secondary_qc,0,"Useful descriptive count, but not retained in the first-pass severity feature set."
+bare_marking_errors,drop,raw_count_archival,0,Raw grouped count retained in the master archive; severity modeling uses the per-word rate.
+bare_marking_errors_per_utt,drop,rate_not_selected,0,Per-utterance version not selected; morphosyntactic grouped errors are normalized per word.
+determiner_errors,drop,raw_count_archival,0,Raw grouped count retained in the master archive; excluded from profiling after cleaning because the remaining feature is too sparse.
+determiner_errors_per_utt,drop,rate_not_selected,0,Per-utterance version not selected; excluded from profiling after cleaning because the remaining feature is too sparse.
+pronoun_errors,drop,raw_count_archival,0,Raw grouped count retained in the master archive; severity modeling uses the per-word rate.
+pronoun_errors_per_utt,drop,rate_not_selected,0,Per-utterance version not selected; morphosyntactic grouped errors are normalized per word.
+rule_generalization_errors,drop,raw_count_archival,0,Legacy broad grouped count retained in the master archive; replaced in profiling by a past-specific overgeneralization measure.
+rule_generalization_errors_per_utt,drop,legacy_rate,0,Legacy broad grouped rate retained in the archive table only.
+overt_past_finite_verbs,drop,denominator_component,0,Component of the past overgeneralization opportunity denominator; retained in the master archive only.
+bare_past_error_tokens,drop,denominator_component,0,Component of the past overgeneralization opportunity denominator; retained in the master archive only.
+past_verb_opportunities,drop,denominator_component,0,Total denominator for the past overgeneralization rate; retained in the master archive only.
+past_overgeneralization_errors,drop,raw_count_archival,0,Raw count retained in the master archive; severity modeling uses the opportunity-based rate.
+past_overgeneralization_errors_per_past_opp,keep,feature_rate,1,Past overgeneralization normalized by overt past finite verbs plus explicit bare-past error tokens.
+syntax_source,drop,provenance,0,Syntax feature provenance column; keep only in archive table.
+Syntax_Utts_Analyzed,drop,syntax_qc,0,Support count for syntax extraction coverage; retained in the master archive only.
+Syntax_Tokens_Analyzed,drop,syntax_qc,0,Support count for syntax extraction coverage; retained in the master archive only.
+Syntax_Mean_DepLen,keep,syntax_feature,1,Mean non-punctuation dependency length from %ugra.
+Syntax_Max_DepLen,keep,syntax_feature,1,Maximum non-punctuation dependency length from %ugra.
+Syntax_Mean_TreeDepth,keep,syntax_feature,1,Mean token tree depth from %ugra dependency trees.
+Syntax_Max_TreeDepth,keep,syntax_feature,1,Maximum token tree depth from %ugra dependency trees.
+Syntax_Subordination_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with clausal subordination relations such as ccomp/xcomp/advcl/acl.
+Syntax_Coordination_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with coordination relations.
+Syntax_Subject_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with overt subject relations.
+Syntax_Object_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with direct or indirect object relations.
+Syntax_AuxCop_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with auxiliary or copular support.
+Syntax_Oblique_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with oblique arguments or adjuncts.
+Syntax_ComplexNP_Utt_Prop,keep,syntax_feature,1,Proportion of utterances with complex nominal modification.
+Syntax_FiniteVerb_Tokens_per_Utt,keep,syntax_feature,1,Finite verbal segments per analyzed utterance based on %umor.

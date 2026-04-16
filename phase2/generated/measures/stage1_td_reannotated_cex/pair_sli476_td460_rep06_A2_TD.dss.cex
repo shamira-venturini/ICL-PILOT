@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep06
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=460
+*CHI:	Benny the bunny and his best friend , Sammy the squirrel , went to
+	the pool .
+%mor:	propn|Benny det|the-Def-Art noun|bunny cconj|and
+	pron|his-Prs-Gen-S3 adj|good-Sup-S1 noun|friend propn|Sammy
+	det|the-Def-Art noun|squirrel verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	Z; F3; B2; Z; Z; C2; Z;
+*CHI:	There was a big sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	Don't Run !
+%mor:	aux|do-Fin-S~part|not verb|run-Inf-S !
+%xdss:	C4; E4; G6; C1;
+*CHI:	He started to run towards the water .
+%mor:	pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|towards det|the-Def-Art noun|water .
+%xdss:	B2; C2; D3; C1; Z;
+*CHI:	Benny slipped and fell on the ground .
+%mor:	propn|Benny verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|fall-Fin-Ind-Past-S3-irr adp|on det|the-Def-Art noun|ground .
+%xdss:	C2; F3; C2; Z;
+*CHI:	His knee hurt [* m:03s:a] .
+%mor:	pron|his-Prs-Gen-S3 noun|knee verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B2; Z; C2;
+*CHI:	A nice lady came with a special helper thingy .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|special-S1 noun|helper noun|thingy .
+%xdss:	Z; C2; Z; Z;
+*CHI:	She put a band-aid on Benny's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bandaid-Acc adp|on propn|Benny~part|s noun|knee .
+%xdss:	B2; C2; Z; Z;
+*CHI:	Benny sat down on a bench and rested .
+%mor:	propn|Benny verb|sit-Fin-Ind-Past-S3-irr adp|down adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	C2; Z; F3; C2;
+*CHI:	Benny's knee still hurt [* m:03s:a] , but he was happy to be
+	sitting down .
+%mor:	propn|Benny~part|s noun|knee adv|still
+	verb|hurt-Fin-Ind-Past-S3-irr cconj|but pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 part|to aux|be-Inf-S
+	verb|sit-Part-Pres-S adp|down .
+%xdss:	Z; C2; F5; B2; C2; D3; C1;
+@End

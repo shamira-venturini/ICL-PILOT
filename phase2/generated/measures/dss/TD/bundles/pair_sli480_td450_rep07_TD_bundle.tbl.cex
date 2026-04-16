@@ -1,0 +1,84 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:38 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli480_td450_rep07_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two monkeys play near the pool .       |3  |   |1  |   |   |   |   |   |  1|  5|
+One monkey hits the ball , and it goes |3 1|   |2 2|   |   |3  |   |   |  1| 12|
+    into the water .                   |   |   |   |   |   |   |   |   |   |   |
+The monkey that hit the ball wants it  |1 1|5  |2 2|   |   |   |   |   |  1| 12|
+    back .                             |   |   |   |   |   |   |   |   |   |   |
+He goes into the pool to get it .      |1  |2 5|2 1|   |   |   |   |   |  1| 12|
+He swims to the middle and picks up the|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     ball .                            |   |   |   |   |   |   |   |   |   |   |
+Now he's happy and comes out of the    |   |2  |1 2|   |   |3  |   |   |  1|  9|
+    pool with the ball .               |   |   |   |   |   |   |   |   |   |   |
+Now both monkeys are happy and play    |7 3|   |2 1|   |   |3  |   |   |  1| 20|
+    some more .                        |3  |   |   |   |   |   |   |   |   |   |
+Koala and monkey went to the pool .    |   |   |2  |   |   |3  |   |   |  1|  6|
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+Monkey didn't see the sign and started |   |   |6 1|7 8|4  |3  |   |   |  1| 33|
+    running to the water .             |   |   |2 1|   |   |   |   |   |   |   |
+He slipped and hurt his knee .         |   |2 2|2 2|   |   |3  |   |   |  1| 12|
+A friendly dolphin came with a bandage |   |   |2  |   |   |   |   |   |  1|  3|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+Monkey sat on a bench and rested .     |   |   |2 2|   |   |3  |   |   |  1|  8|
+there was a little duck and a little   |   |3  |2 1|   |   |3  |   |   |  1| 10|
+    frog they play with the airplane . |   |   |   |   |   |   |   |   |   |   |
+they play near the pool .              |   |3  |1  |   |   |   |   |   |  1|  5|
+the airplane fell in the water .       |   |   |2  |   |   |   |   |   |  1|  3|
+the duck and frog get mad .            |   |   |1  |   |   |3  |   |   |  1|  5|
+they want to get the airplane .        |   |3  |1 1|3  |   |   |   |   |  1|  9|
+they call the lifeguard .              |   |3  |1  |   |   |   |   |   |  1|  5|
+the lifeguard have [* m:vun:a] a pole .|   |   |1  |   |   |   |   |   |  0|  1|
+the lifeguard use [* m:03s:a] the pole |   |   |1 1|   |   |   |   |   |  0|  2|
+    to get the airplane .              |   |   |   |   |   |   |   |   |   |   |
+the duck and frog are happy .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they get the airplane back .           |   |3  |1  |   |   |   |   |   |  1|  5|
+they hug the airplane .                |   |3  |1  |   |   |   |   |   |  1|  5|
+they play again .                      |   |3  |1  |   |   |   |   |   |  1|  5|
+Rabbit and dog make sandcastle .       |   |   |1  |   |   |3  |   |   |  1|  5|
+Rabbit was using shovel and dog was    |   |   |2 1|   |   |3  |   |   |  1| 10|
+    dumping sand .                     |   |   |2 1|   |   |   |   |   |   |   |
+Dog dumped sand on the castle .        |   |   |2  |   |   |   |   |   |  1|  3|
+Rabbit said sorry to dog .             |   |   |2  |   |   |   |   |   |  1|  3|
+They made it better .                  |1  |3 5|2  |   |   |   |   |   |  1| 12|
+Rabbit and dog go to the park .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They get yummy food , like sandwiches .|   |3  |1  |   |   |   |   |   |  1|  5|
+A little child eats too much sandwiches|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The child feels sick .                 |   |   |2  |   |   |   |   |   |  1|  3|
+The child's tummy hurts .              |   |   |2  |   |   |   |   |   |  1|  3|
+The child goes to the doctor .         |   |   |2  |   |   |   |   |   |  1|  3|
+The doctor says .                      |   |   |2  |   |   |   |   |   |  1|  3|
+and gives the child a special juice .  |   |   |2  |   |   |3  |   |   |  1|  6|
+The child feels better and lies down in|   |   |2 2|   |   |3  |   |   |  1|  8|
+     the grass .                       |   |   |   |   |   |   |   |   |   |   |
+Rabbit and dog was [* m:vsg:a] pulling |   |   |2 1|   |   |3  |   |   |  0|  6|
+    a red wagon .                      |   |   |   |   |   |   |   |   |   |   |
+They had a big yellow balloon in the   |   |3  |2  |   |   |   |   |   |  1|  6|
+    wagon .                            |   |   |   |   |   |   |   |   |   |   |
+Then the balloon came loose and it went|1  |   |2 2|   |   |3  |   |   |  1|  9|
+     up high in the air .              |   |   |   |   |   |   |   |   |   |   |
+The rabbit and dog was [* m:vsg:a] sad |   |   |2  |   |   |3  |   |   |  0|  5|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to the balloon man .         |   |3  |2  |   |   |   |   |   |  1|  6|
+He said the balloons cost money .      |   |2  |2 2|   |   |   |   |   |  1|  7|
+The rabbit and dog didn't have enough  |   |   |6 1|   |4  |3  |   |   |  1| 15|
+    money .                            |   |   |   |   |   |   |   |   |   |   |
+The balloon man gave them two small    |3  |3  |2  |   |   |   |   |   |  1|  9|
+    yellow balloons .                  |   |   |   |   |   |   |   |   |   |   |
+The rabbit and dog was [* m:vsg:a]     |   |   |2  |   |   |3  |   |   |  0|  5|
+    happy again .                      |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 32| 66|127| 26|  8| 63|  0|  0| 45|367|
+
+Developmental sentence score:  7.34

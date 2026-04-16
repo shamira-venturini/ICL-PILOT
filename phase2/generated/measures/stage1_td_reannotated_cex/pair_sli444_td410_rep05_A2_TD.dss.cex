@@ -1,0 +1,35 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep05
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=410
+*CHI:	One day the rabbit and the dog go to the pool .
+%mor:	num|one noun|day det|the-Def-Art noun|rabbit cconj|and
+	det|the-Def-Art noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C1; Z;
+*CHI:	The dog slips and gets boo-boo on the knee .
+%mor:	det|the-Def-Art noun|dog verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|get-Fin-Ind-Pres-S3 noun|booboo-Acc adp|on det|the-Def-Art
+	noun|knee .
+%xdss:	Z; C2; F3; C2; Z; Z;
+*CHI:	A nice lifeguard comes with a special sticky bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art adj|special-S1 adj|sticky-S1 noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	The dog sits on a bench and rests .
+%mor:	det|the-Def-Art noun|dog verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

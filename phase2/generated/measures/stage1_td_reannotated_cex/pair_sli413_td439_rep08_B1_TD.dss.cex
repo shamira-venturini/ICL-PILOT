@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep08
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=8
+@Comment:	source_child_id=439
+*CHI:	Rabbit and dog are building sandcastle .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3
+	verb|build-Part-Pres-S noun|sandcastle .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	They use a big shovel .
+%mor:	pron|they-Prs-Nom-P3 verb|use-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 noun|shovel-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	Now rabbit is adding sand .
+%mor:	adv|now noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|add-Part-Pres-S
+	noun|sand-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	no , dog did it .
+%mor:	intj|no noun|dog verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	Dog threw a bucket on the sandcastle .
+%mor:	noun|dog verb|throw-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bucket-Acc adp|on det|the-Def-Art noun|sandcastle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	Now the castle is all messed up .
+%mor:	adv|now det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3 adv|all
+	verb|mess-Part-Past-S adp|up .
+%xdss:	Z; C1; C2;
+*CHI:	She says .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	They're using the shovel again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|use-Part-Pres-S
+	det|the-Def-Art noun|shovel-Acc adv|again .
+%xdss:	B3; C1; Z;
+@End

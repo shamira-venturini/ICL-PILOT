@@ -1,0 +1,232 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;04.05||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep09
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=480
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	the duck the duck make [* m:03s:a] a pool .
+%mor:	det|the-Def-Art noun|duck det|the-Def-Art noun|duck
+	verb|make-Fin-Ind-S det|a-Ind-Art noun|pool-Acc .
+%xdss:	Z; Z; C1; Z;
+*CHI:	and the rabbit says the rabbit throw [* m:03s:a] .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|rabbit verb|throw-Fin-Ind-S .
+%xdss:	F3; Z; C2; Z; C1;
+*CHI:	and the rabbit throw [* m:03s:a] the ball .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|throw-Fin-S
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and the rabbit is throw [* m:base:en] .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|throw-Part-Past-S .
+%xdss:	F3; Z; C7; C2;
+*CHI:	and the see [* m:03s:a] and see [* m:03s:a] him ?
+%mor:	cconj|and det|the-Def-Art verb|see-Inf-S cconj|and
+	verb|see-Fin-Imp-S pron|he-Prs-Acc-S3 ?
+%xdss:	F3; C1; F3; C1; B2;
+*CHI:	the duck is not happy .
+%mor:	det|the-Def-Art noun|duck aux|be-Fin-Ind-Pres-S3 part|not
+	adj|happy-S1 .
+%xdss:	Z; C1; E7;
+*CHI:	&*EXA:oh (be)cause the ball the ball fell in the water .
+%mor:	sconj|because det|the-Def-Art noun|ball det|the-Def-Art noun|ball
+	verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%xdss:	F6; Z; Z; C2; Z;
+*CHI:	(...) and [/] and the rabbit and the rabbit is not happy too .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art
+	noun|rabbit aux|be-Fin-Ind-Pres-S3 part|not adj|happy-S1 adv|too .
+%xdss:	F3; Z; F3; Z; C1; E7;
+*CHI:	and see is one ball .
+%mor:	cconj|and verb|see-Fin-Imp-S aux|be-Fin-Ind-Pres-S3 num|one
+	noun|ball-Acc .
+%xdss:	F3; C1; C1; A3; Z;
+*CHI:	then that's the way there mhm .
+%mor:	adv|then pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|way pron|there-Dem-S1 intj|mhm .
+%xdss:	A1; C1; Z;
+*CHI:	and there and see ?
+%mor:	cconj|and adv|there cconj|and verb|see-Fin-Imp-S ?
+%xdss:	F3; F3; C1;
+*CHI:	and the rabbit go [* m:03s:a] in the water .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|go-Fin-Ind-Pres-S3
+	adp|in det|the-Def-Art noun|water .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the rabbit is sad .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	adj|sad-S1 .
+%xdss:	F3; Z; C1;
+*CHI:	and the duck said not sorry .
+%mor:	cconj|and det|the-Def-Art noun|duck verb|say-Fin-Ind-Past-S3-irr
+	part|not adj|sorry-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and he do [* m:03s:a] this .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3
+	pron|this-Dem-S1 .
+%xdss:	F3; B2; C2; A1;
+*CHI:	and [/] and the he the rabbit just keep doing it .
+%mor:	cconj|and det|the-Def-Art pron|he-Prs-Nom-S3 det|the-Def-Art
+	noun|rabbit adv|just verb|keep-Fin-Ind-Pres-S verb|do-Ger-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	F3; B2; Z; C1; D7; C1; D8; A1; B5;
+*CHI:	it's almost done , mhm .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|almost adj|done-S1
+	intj|mhm .
+%xdss:	A1; C1;
+*CHI:	the ball is out the water .
+%mor:	det|the-Def-Art noun|ball aux|be-Fin-Ind-Pres-S3 adp|out
+	det|the-Def-Art noun|water .
+%xdss:	Z; C1; Z;
+@Comment:	bundled_story_start=A2
+*CHI:	the dog the dog go [* m:03s:a] to the pool mhm .
+%mor:	det|the-Def-Art noun|dog det|the-Def-Art noun|dog
+	verb|go-Fin-Ind-Pres-S adp|to det|the-Def-Art noun|pool intj|mhm .
+%xdss:	Z; Z; C1; Z;
+*CHI:	and he see [* m:03s:a] the sign the sign say [* m:03s:a] no running
+	.
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|see-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|sign-Acc det|the-Def-Art noun|sign
+	verb|say-Fin-S det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	F3; B2; C2; Z; Z; C1; Z; D8;
+*CHI:	and he dog slip [* m:03s:a] and slip [* m:03s:a] and he hurt
+	[* m:03s:a] knee .
+%mor:	cconj|and pron|he-Prs-Nom-S3 noun|dog verb|slip-Fin-Ind-S cconj|and
+	verb|slip-Fin-Ind-Pres-S3 cconj|and pron|he-Prs-Nom-S3
+	verb|hurt-Fin-Ind-Past-S3-irr noun|knee-Acc .
+%xdss:	F3; B2; Z; C1; F3; C2; F3; B2; C2; Z;
+*CHI:	and the kind man come [* m:03s:a] with the bandage and he put
+	[* m:03s:a] it on the dog knee .
+%mor:	cconj|and det|the-Def-Art noun|kind noun|man
+	verb|come-Fin-Ind-Pres-S3 adp|with det|the-Def-Art noun|bandage
+	cconj|and pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|dog noun|knee .
+%xdss:	F3; Z; Z; C2; Z; F3; B2; C2; A1; B5; Z; Z;
+*CHI:	and the dog sit [* m:03s:a] [/] sit on the bench and rest .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art noun|bench cconj|and noun|rest .
+%xdss:	F3; Z; C2; Z; F3; Z;
+@Comment:	bundled_story_start=A3
+*CHI:	okay airplane having a play near the pool .
+%mor:	intj|okay noun|airplane verb|have-Part-Pres-S det|a-Ind-Art
+	noun|play-Acc adp|near det|the-Def-Art noun|pool .
+%xdss:	Z; C1; Z; Z;
+*CHI:	then little bird having a play near the pool .
+%mor:	adv|then adj|little-S1 noun|bird verb|have-Ger-S det|a-Ind-Art
+	noun|play-Acc adp|near det|the-Def-Art noun|pool .
+%xdss:	Z; D4; C1; D8; Z; Z;
+*CHI:	and see airplane's having a play .
+%mor:	cconj|and verb|see-Fin-Imp-S noun|airplane~aux|be-Fin-Ind-Pres-S3
+	verb|have-Part-Pres-S det|a-Ind-Art noun|play-Acc .
+%xdss:	F3; C1; D5; Z; C1; C1; Z;
+*CHI:	the little bird's having a drop airplane's having a drop into the
+	water .
+%mor:	det|the-Def-Art adj|little-S1 noun|bird~aux|be-Fin-Ind-Pres-S3
+	verb|have-Part-Pres-S det|a-Ind-Art noun|drop noun|airplane~part|s
+	verb|have-Part-Pres-S det|a-Ind-Art noun|drop-Acc adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C1; C1; Z; Z; C1; Z; Z;
+*CHI:	and see big bird's very mad .
+%mor:	cconj|and verb|see-Fin-Imp-S adj|big-S1 noun|bird~part|s adv|very
+	adj|mad-S1 .
+%xdss:	F3; C1; Z;
+*CHI:	and see little bird's no say [* m:03s:a] sorry .
+%mor:	cconj|and verb|see-Fin-Imp-S adj|little-S1
+	noun|bird~aux|be-Fin-Ind-Pres-S3 det|no-Def-Neg verb|say-Inf-S
+	adj|sorry-S1 .
+%xdss:	F3; C1; Z; C1; C1;
+*CHI:	and see big bird's say [* m:03s:a] mad .
+%mor:	cconj|and verb|see-Fin-Imp-S adj|big-S1 noun|bird~part|s
+	verb|say-Inf-S adj|mad-S1 .
+%xdss:	F3; C1; Z; C1;
+*CHI:	and see big bird's got long pole .
+%mor:	cconj|and verb|see-Fin-Imp-S adj|big-S1 noun|bird~part|s
+	verb|get-Part-Past-S-irr adj|long-S1 noun|pole-Acc .
+%xdss:	F3; C1; Z; C2; Z;
+*CHI:	the lifeguard having a got long pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|have-Ger-S det|a-Ind-Art
+	verb|get-Part-Past-S-irr adj|long-S1 noun|pole-Acc .
+%xdss:	Z; D4; C1; D8; C2; Z;
+*CHI:	and see lifeguard's got airplane's having a get out the water .
+%mor:	cconj|and verb|see-Fin-Imp-S noun|lifeguard~part|s
+	verb|get-Part-Past-S-irr noun|airplane~part|s verb|have-Part-Pres-S
+	det|a-Ind-Art verb|get-Inf-S adp|out det|the-Def-Art noun|water .
+%xdss:	F3; C1; D5; Z; C2; D5; Z; C1; C1; Z;
+*CHI:	and see big bird's happy again .
+%mor:	cconj|and verb|see-Fin-Imp-S adj|big-S1
+	noun|bird~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|again .
+%xdss:	F3; C1; Z; C1;
+*CHI:	the little bird's having a say sorry .
+%mor:	det|the-Def-Art adj|little-S1 noun|bird~aux|be-Fin-Ind-Pres-S3
+	verb|have-Part-Pres-S det|a-Ind-Art noun|say-Acc adj|sorry-S1 .
+%xdss:	Z; C1; C1; Z;
+*CHI:	now everyone having a play together .
+%mor:	adv|now pron|everyone-Tot-S1 verb|have-Ger-S det|a-Ind-Art
+	noun|play-Acc adv|together .
+%xdss:	A7; C1; D8; Z;
+@Comment:	bundled_story_start=B1
+*CHI:	okay doggy and rabbity [: rabbit] [* s:r:der] was playing .
+%mor:	intj|okay noun|doggy cconj|and noun|rabbity
+	aux|be-Fin-Ind-Past-S3-irr verb|play-Part-Pres-S .
+%xdss:	Z; F3; Z; C2; C1;
+*CHI:	they build a big castle on the sand .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 noun|castle-Acc adp|on det|the-Def-Art noun|sand .
+%xdss:	B3; C1; Z; Z;
+*CHI:	rabbity [: rabbit] [* s:r:der] had a big shovel .
+%mor:	noun|rabbity verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|shovel-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	doggy had a big bucket .
+%mor:	noun|doggy verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	rabbity [: rabbit] [* s:r:der] was filling the bucket .
+%mor:	noun|rabbity aux|be-Fin-Ind-Past-S3-irr verb|fill-Part-Pres-S
+	det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	then doggy drop [* m:03s:a] the bucket .
+%mor:	adv|then noun|doggy verb|drop-Fin-Imp-S det|the-Def-Art
+	noun|bucket-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	the bucket hit the castle .
+%mor:	det|the-Def-Art noun|bucket verb|hit-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|castle-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the castle was broke [* m:sub:en] .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Past-S3-irr adj|broke-S1
+	.
+%xdss:	Z; C2;
+*CHI:	rabbity [: rabbit] [* s:r:der] was sad .
+%mor:	noun|rabbity aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	he said i'm sad the castle is broke [* m:sub:en] .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sad-S1 det|the-Def-Art
+	noun|castle aux|be-Fin-Ind-Pres-S3 adj|broke-S1 .
+%xdss:	B2; C2; B1; Z; C1;
+*CHI:	doggy said sorry .
+%mor:	noun|doggy verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	he try [* m:03s:a] fix it .
+%mor:	pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-P3 verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C1; C1; A1; B5;
+*CHI:	he add [* m:03s:a] sand on the castle .
+%mor:	pron|he-Prs-Nom-S3 verb|add-Fin-Ind-Pres-S3 noun|sand-Acc adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	B2; C2; Z; Z;
+@Comment:	bundled_story_start=B2
+*CHI:	bunny and doggy go park .
+%mor:	noun|bunny cconj|and noun|doggy verb|go-Fin-Ind-Pres-P3
+	noun|park-Acc .
+%xdss:	Z; F3; Z; C1; Z;

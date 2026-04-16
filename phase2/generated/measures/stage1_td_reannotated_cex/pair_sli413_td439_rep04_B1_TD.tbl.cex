@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep04_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog went to|   |   |2 1|   |   |3  |   |   |  1|  7|
+     the beach to build a sandcastle . |   |   |   |   |   |   |   |   |   |   |
+they worked together and it was so tall|1  |3  |2 2|   |   |3 5|   |   |  1| 20|
+     and pretty .                      |   |   |   |   |   |3  |   |   |   |   |
+but then rabbit knocked over a bucket  |1  |   |2 2|   |   |5 3|   |   |  1| 14|
+    and it poured sand all over the    |   |   |   |   |   |   |   |   |   |   |
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+the dog was so sad and started to cry .|   |   |2 2|3  |   |5 3|   |   |  1| 17|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+rabbit said sorry and they tried to fix|1  |3 5|2 2|3  |   |3  |   |   |  1| 21|
+     it .                              |   |   |1  |   |   |   |   |   |   |   |
+TOTAL                                  |  3| 11| 21|  6|  0| 33|  0|  0|  5| 79|
+WARNING: DSS requires 50 complete sentences and this transcript only has 5.
+
+Developmental sentence score: 15.80

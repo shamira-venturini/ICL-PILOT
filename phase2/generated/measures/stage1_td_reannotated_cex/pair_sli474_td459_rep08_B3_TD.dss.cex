@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep08
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=8
+@Comment:	source_child_id=459
+*CHI:	one day rabbit and dog friend were playing .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog noun|friend
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S .
+%xdss:	A3; Z; Z; F3; Z; Z; C2; C1;
+*CHI:	they were pulling a wagon with a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S det|a-Ind-Art noun|wagon-Acc adp|with
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|balloon .
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	the balloon got loose and flew away .
+%mor:	det|the-Def-Art noun|balloon verb|get-Fin-Ind-Past-S3-irr
+	adj|loose-S1 cconj|and verb|fly-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	Z; C2; F3; C2;
+*CHI:	the rabbit and dog friend were sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog noun|friend
+	aux|be-Fin-Ind-Past-P3-irr adj|sad-S1 .
+%xdss:	Z; F3; Z; Z; C2;
+*CHI:	they looked around but the balloon was gone .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 adv|around cconj|but
+	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Past-S3-irr adj|gone-S1
+	.
+%xdss:	B3; C2; F5; Z; C2;
+*CHI:	then they went to a man with lots of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|a-Ind-Art noun|man adp|with noun|lot-Plur adp|of
+	noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z; Z;
+*CHI:	he said they had to pay for balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr part|to
+	verb|pay-Inf-S adp|for noun|balloon-Plur .
+%xdss:	B2; C2; D5; B3; C2; D3; C1; F8; Z;
+*CHI:	the rabbit and dog friend didn't have enough money .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog noun|friend
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S adj|enough-S1
+	noun|money-Acc .
+%xdss:	Z; F3; Z; Z; C6; E4; C1; Z;
+*CHI:	the man gave them some balloons and they were so happy .
+%mor:	det|the-Def-Art noun|man verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 det|some-Def-Ind noun|balloon-Plur-Acc
+	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; B3; A3; Z; F3; B3; C2; F5;
+*CHI:	now rabbit and dog friend were smiling and holding balloons .
+%mor:	adv|now noun|rabbit cconj|and noun|dog noun|friend
+	aux|be-Fin-Ind-Past-P3-irr verb|smile-Part-Pres-S cconj|and
+	verb|hold-Part-Pres-S noun|balloon-Plur-Acc .
+%xdss:	Z; F3; Z; Z; C2; C1; F3; C1; Z;
+@End

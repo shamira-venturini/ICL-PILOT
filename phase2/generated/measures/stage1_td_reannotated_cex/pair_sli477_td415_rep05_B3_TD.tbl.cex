@@ -1,0 +1,36 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:24 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep05_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+me [* s:r:gc:pro] and my doggy friend  |   |1 1|2 1|   |   |3  |   |   |  0|  8|
+    were playing .                     |   |   |   |   |   |   |   |   |   |   |
+we got a big red wagon .               |   |3  |2  |   |   |   |   |   |  1|  6|
+we put a pretty blue balloon on it .   |1  |3 5|2  |   |   |   |   |   |  1| 12|
+my doggy pulled and I sat in the wagon |   |1 1|2 2|   |   |3  |   |   |  1| 10|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+but the balloon came loose .           |   |   |2  |   |   |5  |   |   |  1|  8|
+it went .                              |1  |   |2  |   |   |   |   |   |  1|  4|
+and the balloon got all flat .         |3  |   |2  |   |   |3  |   |   |  1|  9|
+I was sad .                            |   |1  |2  |   |   |   |   |   |  1|  4|
+my doggy was sad too .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+we looked everywhere for another       |3  |3  |2  |   |   |8  |   |   |  1| 17|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+then we went to the lady with balloons |   |3  |2  |   |   |   |   |   |  1|  6|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+she said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+oh , you want balloons ?               |   |   |1  |   |   |   |   |   |  1|  2|
+I was so happy .                       |   |1  |2  |   |   |5  |   |   |  1|  9|
+my doggy was happy too .               |   |1  |2  |   |   |   |   |   |  1|  4|
+we played with our balloons .          |   |3 3|2  |   |   |   |   |   |  1|  9|
+TOTAL                                  |  8| 33| 34|  0|  0| 27|  0|  0| 15|117|
+WARNING: DSS requires 50 complete sentences and this transcript only has 16.
+
+Developmental sentence score:  7.31

@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep04
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=410
+*CHI:	they're building a castle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the dog is using a big shovel .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|use-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|shovel-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	the rabbit is using a little shovel .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|use-Part-Pres-S det|a-Ind-Art adj|little-S1 noun|shovel-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	they're building it together .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	pron|it-Prs-Acc-S3 adv|together .
+%xdss:	B3; C1; A1; B5;
+*CHI:	the dog dumped a bucket on it .
+%mor:	det|the-Def-Art noun|dog verb|dump-Fin-Ind-Past-S3 det|a-Ind-Art
+	noun|bucket-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; A1; B5;
+*CHI:	the castle got ruined .
+%mor:	det|the-Def-Art noun|castle aux|get-Fin-Ind-Past-S3-irr
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit is sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the dog is sorry .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	the rabbit and dog are making it again .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S pron|it-Prs-Acc-S3
+	adv|again .
+%xdss:	Z; F3; Z; C2; C1; A1; B5;
+@End

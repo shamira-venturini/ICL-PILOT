@@ -16,7 +16,15 @@ _SCORE_RE = re.compile(r"^Developmental sentence score:\s+(.+)$")
 
 def _extract_file_id(value: str) -> str:
     match = _FILE_ID_RE.search(value)
-    return match.group(1) if match else ""
+    if match:
+        return match.group(1)
+
+    synthetic_id = value
+    for suffix in (".tbl.cex", ".dss.cex", ".cha"):
+        if synthetic_id.endswith(suffix):
+            synthetic_id = synthetic_id[: -len(suffix)]
+            break
+    return synthetic_id
 
 
 def _read_csv(path: Path) -> tuple[list[str], list[dict[str, str]]]:

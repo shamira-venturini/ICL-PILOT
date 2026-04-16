@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep01
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=466
+*CHI:	once upon a time there is a little dog and a little cat .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|little-S1 noun|dog
+	cconj|and det|a-Ind-Art adj|little-S1 noun|cat .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they play with a airplane [* m:irr:s] near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|a-Ind-Art noun|airplane adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z; Z;
+*CHI:	whoops the airplane fell into the pool .
+%mor:	noun|whoop-Plur det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|pool .
+%xdss:	Z; Z; C2; Z;
+*CHI:	the dog and cat are sad .
+%mor:	det|the-Def-Art noun|dog cconj|and noun|cat aux|be-Fin-Ind-Pres-P3
+	adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they want the airplane back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|airplane-Acc adv|back .
+%xdss:	B3; C1; Z;
+*CHI:	a nice lifeguard came and got the airplane with a big net .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc adp|with det|a-Ind-Art adj|big-S1
+	noun|net .
+%xdss:	Z; C2; F3; C2; Z; Z;
+*CHI:	yay the airplane is back .
+%mor:	intj|yay det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3
+	adv|back .
+%xdss:	Z; C1;
+*CHI:	everyone is happy .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	A7; C1;
+@End

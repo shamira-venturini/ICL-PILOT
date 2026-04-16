@@ -1,0 +1,11 @@
+analysis_group,synthetic_stage,outcome,formula,n_obs,n_clusters,estimate,std_err,p_value,ci_low,ci_high,converged,llf,error
+TD,stage1_td,MLU_Morphemes,MLU_Morphemes ~ source_is_synthetic + Age_Month,395,296,1.0196490002610246,0.29069896198906925,0.00045220742153203024,0.44988950441927067,1.5894084961027786,True,-556.627380649682,
+TD,stage1_td,VOCD_D_optimum_average,,0,0,,,,,,False,,Singular matrix
+TD,stage1_td,DSS_tbl_score,DSS_tbl_score ~ source_is_synthetic + Age_Month,395,296,-0.6617875907923774,0.5125935594353674,0.19668385376662634,-1.6664525059928892,0.34287732440813445,True,-748.6344553628987,
+TD,stage1_td,Word_Errors_per_utt,,0,0,,,,,,False,,Singular matrix
+TD,stage1_td,past_overgeneralization_errors_per_past_opp,past_overgeneralization_errors_per_past_opp ~ source_is_synthetic + Age_Month,395,296,-0.0681191076418623,0.018974280177365112,0.00033058157704549053,-0.10530801342207019,-0.030930201861654412,True,699.67657909946,
+SLI,stage2_sli,MLU_Morphemes,MLU_Morphemes ~ source_is_synthetic + Age_Month,184,85,0.8778617365898513,0.3196330074334933,0.006024081415190635,0.25139255374998104,1.5043309194297216,True,-220.27894037989904,
+SLI,stage2_sli,VOCD_D_optimum_average,VOCD_D_optimum_average ~ source_is_synthetic + Age_Month,184,85,22.035001848193673,3.1138476366731997,1.4788903054127985e-12,15.931972626969038,28.138031069418307,True,-669.1595434832327,
+SLI,stage2_sli,DSS_tbl_score,DSS_tbl_score ~ source_is_synthetic + Age_Month,184,85,-0.20173589061479374,0.46745349204889036,0.6660586518037153,-1.1179278994780995,0.7144561182485119,True,-290.69124575407454,
+SLI,stage2_sli,Word_Errors_per_utt,,0,0,,,,,,False,,Singular matrix
+SLI,stage2_sli,past_overgeneralization_errors_per_past_opp,past_overgeneralization_errors_per_past_opp ~ source_is_synthetic + Age_Month,184,85,-0.06048426804925261,0.038340824422514054,0.11467082276143449,-0.13563090305495387,0.014662366956448653,True,269.0449172721478,

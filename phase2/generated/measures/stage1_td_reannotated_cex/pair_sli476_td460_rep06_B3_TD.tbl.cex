@@ -1,0 +1,35 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:22 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep06_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+They got a wagon .                     |   |3  |2  |   |   |   |   |   |  1|  6|
+Rabbit and dog got in it .             |1  |5  |2  |   |   |3  |   |   |  1| 12|
+They pulled it .                       |1  |3 5|2  |   |   |   |   |   |  1| 12|
+There was a big red balloon .          |   |   |2  |   |   |   |   |   |  1|  3|
+It was in the wagon .                  |1  |   |2  |   |   |   |   |   |  1|  4|
+The balloon came off .                 |   |   |2  |   |   |   |   |   |  1|  3|
+It went up high .                      |1  |   |2  |   |   |   |   |   |  1|  4|
+It popped .                            |1  |   |2  |   |   |   |   |   |  1|  4|
+The kids were sad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to a man .                   |   |3  |2  |   |   |   |   |   |  1|  6|
+He had balloons .                      |   |2  |2  |   |   |   |   |   |  1|  5|
+He said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+He said it was five dollars .          |1 3|2  |2 2|   |   |   |   |   |  1| 11|
+The kids said .                        |   |   |2  |   |   |   |   |   |  1|  3|
+They didn't have five dollars .        |3  |3  |6 1|   |4  |   |   |   |  1| 18|
+The man said .                         |   |   |2  |   |   |   |   |   |  1|  3|
+He gave them two balloons .            |3  |2 3|2  |   |   |   |   |   |  1| 11|
+They were happy .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 18| 39| 45|  0|  4|  3|  0|  0| 19|128|
+WARNING: DSS requires 50 complete sentences and this transcript only has 19.
+
+Developmental sentence score:  6.74

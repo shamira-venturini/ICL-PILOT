@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep08
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=419
+*CHI:	me [* s:r:gc:pro] and my doggy friend we pull the wagon .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend pron|we-Prs-Nom-P1 verb|pull-Fin-Ind-Pres-P1
+	det|the-Def-Art noun|wagon-Acc .
+%xdss:	B1; F3; B1; Z; B3; C1; Z;
+*CHI:	there is a pretty pink balloon on it .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adv|pretty
+	adj|pink-S1 noun|balloon adp|on pron|it-Prs-Acc-S3 .
+%xdss:	C2; Z; A1; B5;
+*CHI:	my friend doggy is happy .
+%mor:	pron|my-Prs-Gen-S1 noun|friend noun|doggy aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	B1; Z; Z; C1;
+*CHI:	we see it on the tree it is coming loose .
+%mor:	pron|we-Prs-Nom-P1 verb|see-Fin-Ind-Pres-P1 pron|it-Prs-Acc-S3
+	adp|on det|the-Def-Art noun|tree pron|it-Prs-Nom-S3
+	aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S adv|loose .
+%xdss:	B3; C1; A1; B5; Z; A1; C1; C1;
+*CHI:	the balloon goes up high up high and pops .
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Pres-S3 adp|up
+	adj|high-S1 adp|up adj|high-S1 cconj|and noun|pop-Plur .
+%xdss:	Z; C2; F3; Z;
+*CHI:	me [* s:r:gc:pro] and my doggy are sad .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	B1; F3; B1; Z; C2;
+*CHI:	we want a new balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	we go to the shop .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	noun|shop .
+%xdss:	B3; C1; Z;
+*CHI:	the shop lady has lots of balloons .
+%mor:	det|the-Def-Art noun|shop noun|lady verb|have-Fin-Ind-Pres-S3
+	noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%xdss:	Z; Z; C2; Z; Z;
+*CHI:	she says they are five dollars each .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Pres-P3 num|five noun|dollar-Plur det|each-Def-Tot .
+%xdss:	B2; C2; B3; C2; A3; Z; A7;
+*CHI:	my mom says we can get one each .
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|say-Fin-Ind-Pres-S3
+	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|get-Inf-S num|one
+	det|each-Def-Tot .
+%xdss:	B1; Z; C2; B3; C4; D2; C1; A3; A7;
+*CHI:	we have two pink balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 num|two adj|pink-S1
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; A3; Z;
+@End

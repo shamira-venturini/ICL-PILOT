@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep03
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=460
+*CHI:	they play with a plane .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|a-Ind-Art noun|plane .
+%xdss:	B3; C1; Z;
+*CHI:	the plane goes in the water .
+%mor:	det|the-Def-Art noun|plane verb|go-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	he tries to get it .
+%mor:	pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	a lifeguard has a pole .
+%mor:	det|a-Ind-Art noun|lifeguard verb|have-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|pole-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the lifeguard gets the plane .
+%mor:	det|the-Def-Art noun|lifeguard verb|get-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|plane-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the dad is happy .
+%mor:	det|the-Def-Art noun|dad aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	the plane is back .
+%mor:	det|the-Def-Art noun|plane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	the ducks are happy .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; C2;
+@End

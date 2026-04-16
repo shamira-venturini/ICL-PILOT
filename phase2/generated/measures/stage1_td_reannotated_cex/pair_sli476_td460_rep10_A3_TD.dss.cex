@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep10
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=460
+*CHI:	they're playing near the pool .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	two dogs are playing with it .
+%mor:	num|two noun|dog-Plur aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; C1; A1; B5;
+*CHI:	then one dog drops it in the pool .
+%mor:	adv|then num|one noun|dog verb|drop-Fin-Ind-Pres-S3
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; A1; B5; Z;
+*CHI:	the owner is yelling .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3
+	verb|yell-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	another dog is trying to get it .
+%mor:	det|another-Def-Ind noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C1; C1; D3; C1; A1; B5;
+*CHI:	she's using a pole to get the airplane .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|use-Part-Pres-S
+	det|a-Ind-Art noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; C1; C1; Z; C1; Z;
+*CHI:	she got it !
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	!
+%xdss:	B2; C2; A1; B5;
+*CHI:	the owner is happy now .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	adv|now .
+%xdss:	Z; C1;
+*CHI:	the airplane is back .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	everyone is happy now .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|now .
+%xdss:	A7; C1;
+@End

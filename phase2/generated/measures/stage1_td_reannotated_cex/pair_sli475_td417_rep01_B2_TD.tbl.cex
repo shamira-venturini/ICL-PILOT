@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep01_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a rabbit and a dog .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they are having a picnic with          |   |3  |2 1|   |   |3  |   |   |  1| 10|
+    sandwiches and carrots .           |   |   |   |   |   |   |   |   |   |   |
+there is a little kid .                |   |   |2  |   |   |   |   |   |  1|  3|
+he eats too many sandwiches .          |   |2  |2  |   |   |   |   |   |  1|  5|
+and he feels yucky .                   |   |2  |2  |   |   |3  |   |   |  1|  8|
+the kid is dizzy and sleepy .          |   |   |1  |   |   |3  |   |   |  1|  5|
+a doctor comes to check the kid .      |   |   |2 1|3  |   |   |   |   |  1|  7|
+the doctor says the kid has a tummyache|   |   |2 2|   |   |   |   |   |  1|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the kid goes home to rest .            |   |   |2 1|   |   |   |   |   |  1|  4|
+the kid sleeps a lot and feels better .|   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  0|  7| 26|  3|  0| 15|  0|  0| 10| 61|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  6.10

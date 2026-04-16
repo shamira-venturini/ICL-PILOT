@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep03
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=3
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a rabbit and a dog .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	det|a-Ind-Art noun|dog .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they were pulling a wagon with a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S det|a-Ind-Art noun|wagon-Acc adp|with
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|balloon .
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	the balloon got loose and flew away .
+%mor:	det|the-Def-Art noun|balloon verb|get-Fin-Ind-Past-S3-irr
+	adj|loose-S1 cconj|and verb|fly-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	Z; C2; F3; C2;
+*CHI:	the rabbit and dog were so sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|sad-S1 .
+%xdss:	Z; F3; Z; C2; F5;
+*CHI:	they wanted a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	they asked a nice lady who had lots of balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|ask-Fin-Ind-Past-P3 det|a-Ind-Art
+	adj|nice-S1 noun|lady-Acc pron|who-Rel verb|have-Fin-Ind-Past-S3-irr
+	noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%xdss:	B3; C2; Z; B6; C2; Z; Z;
+*CHI:	the rabbit and dog gave her five cents and got a new balloon each .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|give-Fin-Ind-Past-S3-irr pron|her-Prs-Acc-S3 num|five
+	noun|cent-Plur-Acc cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|new-S1 noun|balloon-Acc det|each-Def-Tot .
+%xdss:	Z; F3; Z; C2; B2; A3; Z; F3; C2; Z; A7;
+@End

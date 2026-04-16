@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:29 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep04_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two ducks were playing with a little   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    airplane near the pool .           |   |   |   |   |   |   |   |   |   |   |
+The airplane fell into the water .     |   |   |2  |   |   |   |   |   |  1|  3|
+said the duck .                        |   |   |2  |   |   |   |   |   |  1|  3|
+The duck's friend wanted to get it ,   |1 1|5  |2 1|3  |   |5  |   |   |  1| 21|
+    but it was too slippery .          |   |   |2  |   |   |   |   |   |   |   |
+Just then , a lifeguard came with a big|   |   |2  |   |   |   |   |   |  1|  3|
+     net .                             |   |   |   |   |   |   |   |   |   |   |
+Here , let me get it !                 |1  |1 5|1 1|2  |   |   |   |   |  1| 12|
+she said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+She scooped up the airplane with the   |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+    net and gave it back to the duck . |   |   |   |   |   |   |   |   |   |   |
+The duck was so happy .                |   |   |2  |   |   |5  |   |   |  1|  8|
+TOTAL                                  |  7| 20| 24|  5|  0| 13|  0|  0|  9| 78|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  8.67

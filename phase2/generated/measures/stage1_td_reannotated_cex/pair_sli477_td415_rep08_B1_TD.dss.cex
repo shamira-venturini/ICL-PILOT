@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep08
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog go to beach .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	noun|beach .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They build sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 noun|sandcastle-Acc
+	.
+%xdss:	B3; C1; Z;
+*CHI:	Dog help [* m:03s:a] .
+%mor:	noun|dog verb|help-Fin-Imp-S .
+%xdss:	Z; C1;
+*CHI:	Castle break [* m:03s:a] down .
+%mor:	noun|Castle verb|break-Fin-Imp-S adp|down .
+%xdss:	Z; C1;
+*CHI:	Rabbit cry [* m:03s:a] .
+%mor:	noun|rabbit verb|cry-Fin-S .
+%xdss:	Z; C1;
+*CHI:	Dog look [* m:03s:a] sad too .
+%mor:	noun|dog verb|look-Fin-Imp-S adj|sad-S1 adv|too .
+%xdss:	Z; C1;
+*CHI:	Dog say [* m:03s:a] sorry .
+%mor:	noun|dog verb|say-Fin-Imp-S adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	They make it new .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adj|new-S1 .
+%xdss:	B3; C1; A1; B5;
+@End

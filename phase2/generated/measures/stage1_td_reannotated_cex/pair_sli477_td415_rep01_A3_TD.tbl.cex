@@ -1,0 +1,23 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:23 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep01_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+airplane go (g)way .                   |   |   |1  |   |   |   |   |   |  1|  2|
+then it go [* m:03s:a] in the pool .   |1  |   |2  |   |   |   |   |   |  0|  3|
+mommy get [* m:03s:a] mad .            |   |   |1  |   |   |   |   |   |  0|  1|
+then mommy get [* m:03s:a] a pole .    |   |   |1  |   |   |   |   |   |  0|  1|
+mommy get [* m:03s:a] the airplane with|   |   |1  |   |   |   |   |   |  0|  1|
+     the pole .                        |   |   |   |   |   |   |   |   |   |   |
+then mommy put airplane in my hands .  |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  1|  1|  8|  0|  0|  0|  0|  0|  2| 12|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  2.00

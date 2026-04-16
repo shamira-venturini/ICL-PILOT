@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep01
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=459
+*CHI:	once upon a time there was a monkey and a dog .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|monkey cconj|and
+	det|a-Ind-Art noun|dog .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they went to the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z;
+*CHI:	they saw a sign that said no running .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|sign-Acc pron|that-Rel verb|say-Fin-Ind-Past-S3-irr
+	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	B3; C2; Z; A1; C2; Z; D8;
+*CHI:	the dog saw the sign but he ran anyway .
+%mor:	det|the-Def-Art noun|dog verb|see-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|sign-Acc cconj|but pron|he-Prs-Nom-S3
+	verb|run-Fin-Ind-Past-S3-irr adv|anyway .
+%xdss:	Z; C2; Z; F5; B2; C2;
+*CHI:	he ran to the water .
+%mor:	pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|water .
+%xdss:	B2; C2; Z;
+*CHI:	he slipped and hurt his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	then a man came with a bandaid .
+%mor:	adv|then det|a-Ind-Art noun|man verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	the dog sat down on a bench and rested .
+%mor:	det|the-Def-Art noun|dog verb|sit-Fin-Ind-Past-S3-irr adp|down
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	.
+%xdss:	Z; C2; Z; F3; C2;
+@End

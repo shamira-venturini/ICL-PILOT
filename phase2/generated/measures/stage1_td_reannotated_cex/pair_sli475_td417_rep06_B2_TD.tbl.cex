@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep06_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we went on a picnic with the dog and me|   |3 1|2  |   |   |3 3|   |   |  1| 13|
+     and the rabbit .                  |   |   |   |   |   |   |   |   |   |   |
+we brought sandwiches and carrots .    |   |3  |2  |   |   |3  |   |   |  1|  9|
+i ate too many sandwiches .            |   |1  |2  |   |   |   |   |   |  1|  4|
+i felt my tummy hurt .                 |   |1 1|2 2|   |   |   |   |   |  1|  7|
+then i felt dizzy .                    |   |1  |2  |   |   |   |   |   |  1|  4|
+my tummy was hurting .                 |   |1  |2 1|   |   |   |   |   |  1|  5|
+the doctor came and looked at me .     |   |1  |2 2|   |   |3  |   |   |  1|  9|
+she gave me a drink .                  |   |2 1|2  |   |   |   |   |   |  1|  6|
+i lay down .                           |   |1  |1  |   |   |   |   |   |  1|  3|
+i rested .                             |   |1  |2  |   |   |   |   |   |  1|  4|
+my tummy felt better .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  0| 19| 26|  0|  0| 12|  0|  0| 11| 68|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  6.18

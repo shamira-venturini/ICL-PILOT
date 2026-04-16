@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep01
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=466
+*CHI:	we go to beach .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to noun|beach .
+%xdss:	B3; C1; Z;
+*CHI:	Me [* s:r:gc:pro] and doggy build sandcastle .
+%mor:	pron|I-Prs-Acc-S1 cconj|and noun|doggy verb|build-Fin-Ind-Pres-S1
+	noun|sandcastle-Acc .
+%xdss:	B1; F3; Z; C1; Z;
+*CHI:	i use shovel .
+%mor:	pron|I-Prs-Nom-S1 verb|use-Fin-Ind-Pres-S1 noun|shovel-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	i make castle tall .
+%mor:	pron|I-Prs-Nom-S1 verb|make-Fin-Ind-Pres-S1 noun|castle adj|tall-S1
+	.
+%xdss:	B1; C1; Z;
+*CHI:	doggy make [* m:03s:a] hole .
+%mor:	adj|doggy-S1 verb|make-Inf-S noun|hole-Acc .
+%xdss:	C1; Z;
+*CHI:	i say sorry doggy .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Pres-S1 adj|sorry-S1
+	adj|doggy-S1 .
+%xdss:	B1; C1;
+*CHI:	we fix castle .
+%mor:	pron|we-Prs-Nom-P1 verb|fix-Fin-Ind-Pres-P1 noun|castle-Acc .
+%xdss:	B3; C1; Z;
+@End

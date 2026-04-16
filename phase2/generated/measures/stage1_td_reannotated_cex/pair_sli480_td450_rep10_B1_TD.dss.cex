@@ -1,0 +1,33 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep10
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog build a castle .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	Castle fall [* m:03s:a] down .
+%mor:	noun|Castle verb|fall-Fin-Ind-Pres-S adp|down .
+%xdss:	Z; C1;
+*CHI:	Rabbit cry [* m:03s:a] .
+%mor:	noun|rabbit verb|cry-Fin-S .
+%xdss:	Z; C1;
+*CHI:	Rabbit and dog hug .
+%mor:	noun|rabbit cconj|and noun|dog verb|hug-Fin-Ind-Pres-S3 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They build again .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 adv|again .
+%xdss:	B3; C1;
+@End

@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep07
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=460
+*CHI:	they're building they're building they're building a castle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	B3; C1; D5; B3; C1; D5; B3; C1; Z;
+*CHI:	the rabbit got a bucket .
+%mor:	det|the-Def-Art noun|rabbit verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bucket-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the dog got a shovel .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|shovel-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	they're building .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	.
+%xdss:	B3; C1;
+*CHI:	the rabbit got the shovel .
+%mor:	det|the-Def-Art noun|rabbit verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|shovel-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the rabbit dumped it .
+%mor:	det|the-Def-Art noun|rabbit verb|dump-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	oh no the castle is all gone .
+%mor:	intj|oh intj|no det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	adv|all adj|gone-S1 .
+%xdss:	Z; C1;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the dog is sad .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	the dog is trying to fix it .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|try-Part-Pres-S part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; C1; D3; C1; A1; B5;
+*CHI:	the rabbit is saying sorry .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|say-Part-Pres-S adj|sorry-S1 .
+%xdss:	Z; C1; C1;
+*CHI:	the dog is saying its okay .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|say-Part-Pres-S pron|its-Prs-Gen-S3 adj|okay-S1 .
+%xdss:	Z; C1; C1; A1;
+@End

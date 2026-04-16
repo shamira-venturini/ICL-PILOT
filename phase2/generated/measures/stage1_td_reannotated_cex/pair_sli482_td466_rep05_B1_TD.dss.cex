@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep05
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=466
+*CHI:	we built a castle doggy !
+%mor:	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|castle noun|doggy-Acc !
+%xdss:	B3; C2; Z; Z;
+*CHI:	we used sand .
+%mor:	pron|we-Prs-Nom-P1 verb|use-Fin-Ind-Past-P1 noun|sand-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	doggy got a big bucket .
+%mor:	noun|doggy verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	doggy poured it on our castle .
+%mor:	noun|doggy verb|pour-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|on
+	pron|our-Prs-Gen-P1 noun|castle .
+%xdss:	Z; C2; A1; B5; B3; Z;
+*CHI:	our castle is ruined !
+%mor:	pron|our-Prs-Gen-P1 noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S !
+%xdss:	B3; Z; C7; C2;
+*CHI:	doggy is sad .
+%mor:	noun|doggy aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	doggy says sorry .
+%mor:	noun|doggy verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	i help doggy fix it .
+%mor:	pron|I-Prs-Nom-S1 verb|help-Fin-Ind-Pres-S1 adj|doggy-S1
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B1; C1; C1; A1; B5;
+*CHI:	we make a new castle .
+%mor:	pron|we-Prs-Nom-P1 verb|make-Fin-Ind-Pres-P1 det|a-Ind-Art
+	adj|new-S1 noun|castle-Acc .
+%xdss:	B3; C1; Z;
+@End

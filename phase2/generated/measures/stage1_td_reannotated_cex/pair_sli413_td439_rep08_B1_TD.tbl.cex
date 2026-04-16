@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep08_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog are building sandcastle |   |   |2 1|   |   |3  |   |   |  1|  7|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+They use a big shovel .                |   |3  |1  |   |   |   |   |   |  1|  5|
+Now rabbit is adding sand .            |   |   |1 1|   |   |   |   |   |  1|  3|
+no , dog did it .                      |1  |5  |2  |   |   |   |   |   |  1|  9|
+Dog threw a bucket on the sandcastle . |   |   |2  |   |   |   |   |   |  1|  3|
+Now the castle is all messed up .      |   |   |1 2|   |   |   |   |   |  1|  4|
+She says .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+They're using the shovel again .       |   |3  |1  |   |   |   |   |   |  1|  5|
+TOTAL                                  |  1| 13| 16|  0|  0|  3|  0|  0|  8| 41|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  5.12

@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep09
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=417
+*CHI:	there is a dog and a rabbit .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog
+	cconj|and det|a-Ind-Art noun|rabbit .
+%xdss:	C2; Z; F3; Z;
+*CHI:	and the rabbit and dog were playing in the sandbox together .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|in
+	det|the-Def-Art noun|sandbox adv|together .
+%xdss:	F3; Z; F3; Z; C2; C1; Z;
+*CHI:	and the dog had a bucket and was dumping sand on the sandcastle .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bucket-Acc cconj|and aux|be-Fin-Ind-Past-S3-irr
+	verb|dump-Part-Pres-S noun|sand-Acc adp|on det|the-Def-Art
+	noun|sandcastle .
+%xdss:	F3; Z; C2; Z; F3; C2; C1; Z; Z;
+*CHI:	and the rabbit was like oh no the sandcastle .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	adp|like intj|oh intj|no det|the-Def-Art noun|sandcastle .
+%xdss:	F3; Z; C2; F8; Z;
+*CHI:	and then the dog dumped the sand on it again .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog
+	verb|dump-Fin-Ind-Past-S3 det|the-Def-Art noun|sand-Acc adp|on
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	F3; Z; C2; Z; A1; B5;
+*CHI:	and the sandcastle fell down .
+%mor:	cconj|and det|the-Def-Art noun|sandcastle
+	verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%xdss:	F3; Z; C2;
+*CHI:	and the rabbit was sad and started to cry .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	adj|sad-S1 cconj|and verb|start-Fin-Ind-Past-S3 part|to
+	verb|cry-Inf-S .
+%xdss:	F3; Z; C2; F3; C2; D3; C1;
+*CHI:	and the dog said sorry .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr
+	adj|sorry-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and the rabbit said it's okay .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	F3; Z; C2; A1; C1;
+*CHI:	and then the dog and rabbit fixed the sandcastle .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog cconj|and noun|rabbit
+	verb|fix-Fin-Ind-Past-S3 det|the-Def-Art noun|sandcastle-Acc .
+%xdss:	F3; Z; F3; Z; C2; Z;
+*CHI:	and it was all better .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all
+	adj|good-Cmp-S1 .
+%xdss:	F3; A1; C2;
+@End

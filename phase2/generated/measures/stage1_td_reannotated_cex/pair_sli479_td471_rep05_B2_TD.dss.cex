@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep05
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=5
+@Comment:	source_child_id=471
+*CHI:	there was a rabbit and a dog and they went on a picnic .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|rabbit cconj|and det|a-Ind-Art noun|dog cconj|and
+	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|on
+	det|a-Ind-Art noun|picnic .
+%xdss:	C2; Z; F3; Z; F3; B3; C2; Z;
+*CHI:	they brought sandwiches and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Past-P3-irr
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	but one of the children ate and ate and ate too much .
+%mor:	cconj|but num|one adp|of det|the-Def-Art noun|child-Plur
+	verb|eat-Fin-Ind-Past-P3-irr cconj|and verb|eat-Fin-Ind-Past-S3-irr
+	cconj|and verb|eat-Fin-Ind-Past-S3-irr adv|too adv|much .
+%xdss:	F5; A3; Z; C2; F3; C2; F3; C2;
+*CHI:	the child felt sick .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Past-S3-irr
+	adj|sick-S1 .
+%xdss:	Z; C2;
+*CHI:	the child was dizzy and dizzy .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Past-S3-irr adj|dizzy-S1
+	cconj|and adj|dizzy-S1 .
+%xdss:	Z; C2; F3;
+*CHI:	then the doctor came and checked the child .
+%mor:	adv|then det|the-Def-Art noun|doctor verb|come-Fin-Ind-Past-S3-irr
+	cconj|and verb|check-Fin-Ind-Past-S3 det|the-Def-Art noun|child-Acc
+	.
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	the doctor said you ate too much .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Past-S3-irr
+	pron|you-Prs-Nom-S2 verb|eat-Fin-Ind-Past-S2-irr adv|too adv|much .
+%xdss:	Z; C2; D5; C2;
+*CHI:	the child had a tummyache .
+%mor:	det|the-Def-Art noun|child verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the child rested and felt better .
+%mor:	det|the-Def-Art noun|child verb|rest-Fin-Ind-Past-S3 cconj|and
+	verb|feel-Fin-Ind-Past-S3-irr adj|good-Cmp-S1 .
+%xdss:	Z; C2; F3; C2;
+*CHI:	the child went home .
+%mor:	det|the-Def-Art noun|child verb|go-Fin-Ind-Past-S3-irr adv|home .
+%xdss:	Z; C2;
+@End

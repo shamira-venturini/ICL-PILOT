@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep06
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=410
+*CHI:	doggy and kitty are playing .
+%mor:	adj|doggy-S1 cconj|and noun|kitty aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S .
+%xdss:	F3; Z; C2; C1;
+*CHI:	kitty kicks the ball .
+%mor:	noun|kitty verb|kick-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc
+	.
+%xdss:	Z; C2; Z;
+*CHI:	it goes in the pool .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	A1; C2; Z;
+*CHI:	kitty's doggy friend goes in the pool .
+%mor:	propn|kitty~part|s adj|doggy-S1 noun|friend verb|go-Fin-Ind-Pres-S3
+	adp|in det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	kitty's doggy friend gets the ball .
+%mor:	propn|kitty~part|s adj|doggy-S1 noun|friend
+	verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	kitty's doggy friend comes out of the pool .
+%mor:	propn|kitty~part|s adj|doggy-S1 noun|friend
+	verb|come-Fin-Ind-Pres-S3 adp|out adp|of det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	kitty's doggy friend gives kitty the ball .
+%mor:	propn|kitty~part|s adj|doggy-S1 noun|friend
+	verb|give-Fin-Ind-Pres-S3 noun|kitty det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z; Z;
+*CHI:	kitty and doggy are happy .
+%mor:	noun|kitty cconj|and adj|doggy-S1 aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 .
+%xdss:	Z; F3; C2;
+@End

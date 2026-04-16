@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep09
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=410
+*CHI:	we was [* m:vsg:a] playing with plane .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|play-Part-Pres-S
+	adp|with noun|plane .
+%xdss:	B3; C2; C1; Z;
+*CHI:	it's in the pool .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	A1; C1; Z;
+*CHI:	she was playing with it .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|play-Part-Pres-S adp|with pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; C1; A1; B5;
+*CHI:	she's upset .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|upset-S1 .
+%xdss:	B2; C1;
+*CHI:	she goes to get it .
+%mor:	pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	he's got a long stick .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|a-Ind-Art adj|long-S1 noun|stick-Acc .
+%xdss:	B2; C7; C2; Z;
+*CHI:	he's reaching for the plane .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|reach-Part-Pres-S
+	adp|for det|the-Def-Art noun|plane .
+%xdss:	B2; C1; C1; F8; Z;
+*CHI:	he got it .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	.
+%xdss:	B2; C2; A1; B5;
+*CHI:	my friend's happy .
+%mor:	pron|my-Prs-Gen-S1 noun|friend~aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	.
+%xdss:	B1; Z; C1;
+*CHI:	now she's got the plane back .
+%mor:	adv|now pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Past-S-irr det|the-Def-Art noun|plane-Acc adv|back .
+%xdss:	B2; C7; C2; Z;
+@End

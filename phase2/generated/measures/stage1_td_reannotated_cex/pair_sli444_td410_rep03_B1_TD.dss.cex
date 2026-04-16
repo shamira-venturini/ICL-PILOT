@@ -1,0 +1,63 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep03
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=410
+*CHI:	They're building a castle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	Rabbit and dog building a castle .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Ger-S det|a-Ind-Art
+	noun|castle-Acc .
+%xdss:	Z; F3; Z; D4; C1; D8; Z;
+*CHI:	They're having fun .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S
+	noun|fun-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	They did it .
+%mor:	pron|they-Prs-Nom-P3 verb|do-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3
+	.
+%xdss:	B3; C2; A1; B5;
+*CHI:	One of them took a bucket .
+%mor:	num|one adp|of pron|they-Prs-Acc-P3 verb|take-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bucket-Acc .
+%xdss:	A3; B3; C2; Z;
+*CHI:	No , [/] no , dog did it !
+%mor:	intj|no noun|dog verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 !
+%xdss:	Z; C2; A1; B5;
+*CHI:	Dog dumped sand on the castle .
+%mor:	noun|dog verb|dump-Fin-Ind-Past-S3 noun|sand-Acc adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	The castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	Rabbit and dog hugging .
+%mor:	noun|rabbit cconj|and noun|dog noun|hug-Ger .
+%xdss:	Z; F3; Z; Z; D8;
+*CHI:	They're saying sorry .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|say-Part-Pres-S
+	adj|sorry-S1 .
+%xdss:	B3; C1;
+*CHI:	They're trying to fix it .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|try-Part-Pres-S
+	part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C1; D3; C1; A1; B5;
+*CHI:	Rabbit is putting sand on the castle .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Pres-S3 verb|put-Part-Pres-S
+	noun|sand-Acc adp|on det|the-Def-Art noun|castle .
+%xdss:	C1; C1; Z; Z;
+@End

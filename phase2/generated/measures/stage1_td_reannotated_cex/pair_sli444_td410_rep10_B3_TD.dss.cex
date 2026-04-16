@@ -1,0 +1,74 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep10
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=410
+*CHI:	they have a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	it has a big red balloon .
+%mor:	pron|it-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon-Acc .
+%xdss:	A1; C2; Z;
+*CHI:	it's tied .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|tie-Part-Past-S .
+%xdss:	A1; C7; C2;
+*CHI:	but then it comes loose .
+%mor:	cconj|but adv|then pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3
+	adj|loose-S1 .
+%xdss:	F5; A1; C2;
+*CHI:	and it floats away .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adv|away .
+%xdss:	F3; A1; C2;
+*CHI:	the dog and the rabbit are sad .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit
+	aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they look around .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Pres-P3 adv|around .
+%xdss:	B3; C1;
+*CHI:	they can't find it .
+%mor:	pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|find-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B3; C4; E4; C1; A1; B5;
+*CHI:	then they see a man .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|man-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	he has lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	the dog and the rabbit want one .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit
+	verb|want-Fin-Ind-Pres-P3 num|one .
+%xdss:	Z; F3; Z; C1; A3;
+*CHI:	but the man says it's expensive .
+%mor:	cconj|but det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|expensive-S1 .
+%xdss:	F5; Z; C2; A1; C1;
+*CHI:	he helps them get some .
+%mor:	pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	verb|get-Inf-S det|some-Def-Ind .
+%xdss:	B2; C2; D5; B3; C1; A3;
+*CHI:	they get two balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 num|two
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	the dog and the rabbit are happy .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; F3; Z; C2;
+@End

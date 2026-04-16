@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep08
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=415
+*CHI:	Two monkeys went to the pool area .
+%mor:	num|two noun|monkey-Plur verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|pool noun|area .
+%xdss:	A3; Z; C2; Z; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	One monkey was too excited and started to run to the water .
+%mor:	num|one noun|monkey aux|be-Fin-Ind-Past-S3-irr adv|too
+	adj|excited-S1 cconj|and verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; F3; C2; D3; C1; Z;
+*CHI:	The monkey slipped and fell down .
+%mor:	det|the-Def-Art noun|monkey verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|fall-Fin-Ind-Past-S3-irr adp|down .
+%xdss:	Z; C2; F3; C2;
+*CHI:	Ouch , the monkey hurt its knee .
+%mor:	intj|ouch det|the-Def-Art noun|monkey verb|hurt-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; A1; Z;
+*CHI:	A nice lifeguard came and gave the monkey a band-aid .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|monkey
+	det|a-Ind-Art noun|bandaid-Acc .
+%xdss:	Z; C2; F3; C2; Z; Z;
+*CHI:	The monkey sat on a bench and rested .
+%mor:	det|the-Def-Art noun|monkey verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

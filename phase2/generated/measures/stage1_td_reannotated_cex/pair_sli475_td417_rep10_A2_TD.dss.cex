@@ -1,0 +1,37 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep10
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=417
+*CHI:	One little kitty and a bunny were going to the pool .
+%mor:	num|one adj|little-S1 noun|kitty cconj|and det|a-Ind-Art noun|bunny
+	aux|be-Fin-Ind-Past-P3-irr verb|go-Part-Pres-S adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; F3; Z; C2; C1; Z;
+*CHI:	She slipped and fell on her knee .
+%mor:	pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|fall-Fin-Ind-Past-S3-irr adp|on pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	A nice lifeguard came over and put a bandage on her knee .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|over cconj|and
+	verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandage-Acc adp|on
+	pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	Z; C2; F3; C2; Z; B2; Z;
+*CHI:	Then the kitty sat on a bench and rested .
+%mor:	adv|then det|the-Def-Art noun|kitty verb|sit-Fin-Ind-Past-S3-irr
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	.
+%xdss:	Z; C2; Z; F3; C2;
+@End

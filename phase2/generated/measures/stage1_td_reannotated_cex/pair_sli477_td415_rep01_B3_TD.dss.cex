@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep01
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog go pull a wagon .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3
+	verb|pull-Inf-S det|a-Ind-Art noun|wagon-Acc .
+%xdss:	Z; F3; Z; C1; C1; Z;
+*CHI:	There is a balloon in the wagon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|balloon adp|in det|the-Def-Art noun|wagon .
+%xdss:	C2; Z; Z;
+*CHI:	The balloon comes loose .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adv|loose .
+%xdss:	Z; C2;
+*CHI:	It floats away .
+%mor:	pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adv|away .
+%xdss:	A1; C2;
+*CHI:	The children are sad .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	They want another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	They go to the man who sells balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|man pron|who-Rel verb|sell-Fin-Ind-Pres-S3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; Z; B6; C2; Z;
+*CHI:	He says it's too much money .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|too adj|much-S1
+	noun|money .
+%xdss:	B2; C2; A1; C1; Z;
+*CHI:	The rabbit and dog help the children get some money .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|help-Fin-Ind-Pres-P3 det|the-Def-Art noun|child-Plur-Acc
+	verb|get-Inf-S det|some-Def-Ind noun|money-Acc .
+%xdss:	Z; F3; Z; C1; Z; C1; A3; Z;
+*CHI:	The man gives them balloons .
+%mor:	det|the-Def-Art noun|man verb|give-Fin-Ind-Pres-S3
+	pron|they-Prs-Acc-P3 noun|balloon-Plur-Acc .
+%xdss:	Z; C2; B3; Z;
+*CHI:	The children are happy .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; C2;
+@End

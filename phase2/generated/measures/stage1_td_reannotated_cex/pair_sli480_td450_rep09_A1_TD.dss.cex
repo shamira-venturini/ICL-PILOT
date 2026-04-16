@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep09
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=450
+*CHI:	Two friends , a rabbit and a duck , were playing near the pool .
+%mor:	num|two noun|friend-Plur det|a-Ind-Art noun|rabbit cconj|and
+	det|a-Ind-Art noun|duck aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C2; C1; Z;
+*CHI:	They threw the ball in the water .
+%mor:	pron|they-Prs-Nom-P3 verb|throw-Fin-Ind-Past-P3-irr det|the-Def-Art
+	noun|ball-Acc adp|in det|the-Def-Art noun|water .
+%xdss:	B3; C2; Z; Z;
+*CHI:	It fell in .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in .
+%xdss:	A1; C2;
+*CHI:	The rabbit went to get it .
+%mor:	det|the-Def-Art noun|rabbit verb|go-Fin-Ind-Past-S3-irr part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; D3; C1; A1; B5;
+*CHI:	The rabbit dipped its hand in the pool and got the ball .
+%mor:	det|the-Def-Art noun|rabbit verb|dip-Fin-Ind-Past-S3
+	pron|its-Prs-Gen-S3 noun|hand-Acc adp|in det|the-Def-Art noun|pool
+	cconj|and verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc
+	.
+%xdss:	Z; C2; A1; Z; Z; F3; C2; Z;
+*CHI:	The rabbit brought the ball back .
+%mor:	det|the-Def-Art noun|rabbit verb|bring-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc adv|back .
+%xdss:	Z; C2; Z;
+*CHI:	They were happy again and played some more .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1
+	adv|again cconj|and verb|play-Fin-Ind-Past-P3 det|some-Def-Ind
+	adj|more-Cmp-S1 .
+%xdss:	B3; C2; F3; C2; A3; A3;
+@End

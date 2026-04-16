@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep04
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=417
+*CHI:	A doggy and a kitty go to the pool .
+%mor:	det|a-Ind-Art noun|doggy cconj|and det|a-Ind-Art noun|kitty
+	verb|go-Fin-S adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	There's a sign that says .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; A1; C2;
+*CHI:	No running !
+%mor:	det|no-Def-Neg noun|running-Ger !
+%xdss:	Z; D8;
+*CHI:	The kitty starts to run to the water .
+%mor:	det|the-Def-Art noun|kitty verb|start-Fin-Ind-Pres-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	Z; C2; D3; C1; Z;
+*CHI:	The kitty slips and gets boo-boos on her knee .
+%mor:	det|the-Def-Art noun|kitty verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|get-Fin-Ind-Pres-S3 noun|booboo-Plur-Acc adp|on
+	pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	Z; C2; F3; C2; Z; B2; Z;
+*CHI:	A nice lady comes with a bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	She puts it on the kitty's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adp|on det|the-Def-Art noun|kitty~part|s noun|knee .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	The kitty sits on a bench and rests .
+%mor:	det|the-Def-Art noun|kitty verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

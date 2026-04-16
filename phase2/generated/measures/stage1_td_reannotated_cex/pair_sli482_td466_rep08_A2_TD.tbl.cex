@@ -1,0 +1,23 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep08_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One cat and one dog go near pool .     |3 3|   |1  |   |   |3  |   |   |  1| 11|
+There is a sign that says .            |1  |   |2 2|   |   |   |   |   |  1|  6|
+The cat starts to run to water .       |   |   |2 1|3  |   |   |   |   |  1|  7|
+The cat slips and hurts knee [* m:0s:a]|   |   |2 2|   |   |3  |   |   |  0|  7|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+A nice man comes with a band-aid .     |   |   |2  |   |   |   |   |   |  1|  3|
+The cat sits on a bench and rests .    |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  7|  0| 18|  3|  0|  9|  0|  0|  5| 42|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  7.00

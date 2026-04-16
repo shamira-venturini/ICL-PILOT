@@ -1,0 +1,30 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep05
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=459
+*CHI:	One day , me [* s:r:gc:pro] and my friend rabbit went to the pool .
+%mor:	num|one noun|day pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1
+	noun|friend noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; B1; F3; B1; Z; Z; C2; Z;
+*CHI:	Then a lifeguard came with a band-aid .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	I sat on a bench and rested .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Past-S1-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S1 .
+%xdss:	B1; C2; Z; F3; C2;
+@End

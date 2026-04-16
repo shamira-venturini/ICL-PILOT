@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep10
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=10
+@Comment:	source_child_id=471
+*CHI:	A monkey and a squirrel went to the pool .
+%mor:	det|a-Ind-Art noun|monkey cconj|and det|a-Ind-Art noun|squirrel
+	verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	There was a big sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	Don't Run !
+%mor:	aux|do-Fin-S~part|not verb|run-Inf-S !
+%xdss:	C4; E4; G6; C1;
+*CHI:	They saw it , but the monkey didn't listen .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 cconj|but det|the-Def-Art noun|monkey
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|listen-Inf-S .
+%xdss:	B3; C2; A1; B5; F5; Z; C6; E4; C1;
+*CHI:	It started to run towards the water .
+%mor:	pron|it-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|towards det|the-Def-Art noun|water .
+%xdss:	A1; C2; D3; C1; Z;
+*CHI:	The monkey slipped and hurt its knee .
+%mor:	det|the-Def-Art noun|monkey verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; A1; Z;
+*CHI:	A helper came with a bandage .
+%mor:	det|a-Ind-Art noun|helper verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	The monkey sat on a bench and rested its [* s:r:gc:det] knee .
+%mor:	det|the-Def-Art noun|monkey verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; Z; F3; C2; A1; Z;
+@End

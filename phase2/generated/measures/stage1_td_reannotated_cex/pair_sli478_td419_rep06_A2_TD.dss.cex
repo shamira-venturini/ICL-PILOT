@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep06
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=419
+*CHI:	there were two cats .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two noun|cat-Plur
+	.
+%xdss:	C2; A3; Z;
+*CHI:	one cat was going to the pool area .
+%mor:	num|one noun|cat aux|be-Fin-Ind-Past-S3-irr verb|go-Part-Pres-S
+	adp|to det|the-Def-Art noun|pool noun|area .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	it said no running on the sign .
+%mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr det|no-Def-Neg
+	noun|running-Acc-Ger adp|on det|the-Def-Art noun|sign .
+%xdss:	A1; C2; Z; D8; Z;
+*CHI:	but cat [/] cat didn't listen .
+%mor:	cconj|but noun|cat aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|listen-Inf-S .
+%xdss:	F5; Z; C6; E4; C1;
+*CHI:	cat started to run to the water .
+%mor:	noun|cat verb|start-Fin-Ind-Past-S3 part|to verb|run-Inf-S adp|to
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; D3; C1; Z;
+*CHI:	then cat slipped and hurt knee .
+%mor:	adv|then noun|cat verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	it was boo [/] boo .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr noun|boo .
+%xdss:	A1; C2; Z;
+*CHI:	a helper came with a bandage .
+%mor:	det|a-Ind-Art noun|helper verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	cat sat on a bench and rested .
+%mor:	noun|cat verb|sit-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S1 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

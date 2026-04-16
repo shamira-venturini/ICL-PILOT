@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep02_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there was a kitty and a puppy .        |   |   |2  |   |   |3  |   |   |  1|  6|
+they were playing near the pool .      |   |3  |2 1|   |   |   |   |   |  1|  7|
+they had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+the kitty went .                       |   |   |2  |   |   |   |   |   |  1|  3|
+the ball fell in the water !           |   |   |2  |   |   |   |   |   |  1|  3|
+the puppy went .                       |   |   |2  |   |   |   |   |   |  1|  3|
+don't worry kitty i will get it !      |1  |1 5|4 1|2  |4  |   |6  |   |  1| 30|
+                                       |   |   |4 1|   |   |   |   |   |   |   |
+the puppy went in the pool to get the  |   |   |2 1|   |   |   |   |   |  1|  4|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+he splashed in the water and got it .  |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+he came out and gave it to the kitty . |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+the kitty was so happy .               |   |   |2  |   |   |5  |   |   |  1|  8|
+thank you puppy !                      |   |5  |1  |   |   |   |   |   |  1|  7|
+the puppy and kitty played with the    |   |   |2  |   |   |3  |   |   |  1|  6|
+    ball again .                       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3| 31| 39|  2|  4| 17|  6|  0| 13|115|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  8.85

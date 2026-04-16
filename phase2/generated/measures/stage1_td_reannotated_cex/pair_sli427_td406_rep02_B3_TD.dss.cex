@@ -1,0 +1,96 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep02
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=406
+*CHI:	once upon a time rabbit and dog go on an adventure .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Pres-S adp|on det|a-Ind-Art noun|adventure
+	.
+%xdss:	Z; Z; F3; Z; C1; Z;
+*CHI:	they carry a pretty big wagon with a super big balloon on it .
+%mor:	pron|they-Prs-Nom-P3 verb|carry-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adv|pretty adj|big-S1 noun|wagon-Acc adp|with det|a-Ind-Art
+	adv|super adj|big-S1 noun|balloon adp|on pron|it-Prs-Acc-S3 .
+%xdss:	B3; C1; Z; Z; A1; B5;
+*CHI:	the balloon is red and yellow and it floats in the wind .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 adj|red-S1
+	cconj|and adj|yellow-S1 cconj|and pron|it-Prs-Nom-S3
+	verb|float-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|wind .
+%xdss:	Z; C1; F3; F3; A1; C2; Z;
+*CHI:	the dog pulls and pulls but the balloon comes loose and floats away
+	.
+%mor:	det|the-Def-Art noun|dog verb|pull-Fin-Ind-Pres-S3 cconj|and
+	verb|pull-Fin-Ind-Pres-S3 cconj|but det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Pres-S3 adj|loose-S1 cconj|and
+	verb|float-Fin-Ind-Pres-S3 adv|away .
+%xdss:	Z; C2; F3; C2; F5; Z; C2; F3; C2;
+*CHI:	the rabbit and dog are very sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-P3 adv|very adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they look all around but the balloon is gone .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Pres-P3 adv|all adv|around
+	cconj|but det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3
+	adj|gone-S1 .
+%xdss:	B3; C1; F5; Z; C1;
+*CHI:	then they go to the park and see a man with a big bunch of balloons
+	.
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|park cconj|and verb|see-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|man-Acc adp|with det|a-Ind-Art adj|big-S1
+	noun|bunch adp|of noun|balloon-Plur .
+%xdss:	B3; C1; Z; F3; C1; Z; Z; Z;
+*CHI:	the man says oh what happened to your balloon ?
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3 intj|oh
+	pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 adp|to
+	pron|your-Prs-Gen-S2 noun|balloon ?
+%xdss:	Z; C2; B6; C2; Z;
+*CHI:	the rabbit and dog tell him the story .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|tell-Fin-Ind-Pres-P3 pron|he-Prs-Acc-S3 det|the-Def-Art
+	noun|story-Acc .
+%xdss:	Z; F3; Z; C1; B2; Z;
+*CHI:	the man says don't worry I have lots of balloons .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3
+	aux|do-Fin-S~part|not verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1
+	verb|have-Fin-Ind-Pres-S1 noun|lot-Plur-Acc adp|of noun|balloon-Plur
+	.
+%xdss:	Z; C2; C4; E4; C1; D5; B1; C1; Z; Z;
+*CHI:	but the man says oh you have to give me some money first .
+%mor:	cconj|but det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3 intj|oh
+	pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 part|to
+	verb|give-Inf-S pron|I-Prs-Acc-S1 det|some-Def-Ind noun|money-Acc
+	adv|first .
+%xdss:	F5; Z; C2; C1; D3; C1; B1; A3; Z;
+*CHI:	the rabbit and dog give him the money and the man gives them two
+	new balloons .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|give-Fin-Ind-Pres-P3 pron|he-Prs-Acc-S3 det|the-Def-Art
+	noun|money-Acc cconj|and det|the-Def-Art noun|man
+	verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3 num|two adj|new-S1
+	noun|balloon-Plur-Acc .
+%xdss:	Z; F3; Z; C1; B2; Z; F3; Z; C2; B3; A3; Z;
+*CHI:	the rabbit and dog are so happy and they hug each other .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-P3 adv|so adj|happy-S1 cconj|and
+	pron|they-Prs-Nom-P3 verb|hug-Fin-Ind-Pres-P3 det|each-Def-Rcp
+	adj|other-S1 .
+%xdss:	Z; F3; Z; C2; F5; F3; B3; C1; A7; A3;
+*CHI:	they play with their new balloons and have lots of fun .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	pron|their-Prs-Gen-P3 adj|new-S1 noun|balloon-Plur cconj|and
+	verb|have-Fin-Ind-Pres-P3 noun|lot-Plur-Acc adp|of noun|fun .
+%xdss:	B3; C1; B3; Z; F3; C1; Z; Z;
+@End

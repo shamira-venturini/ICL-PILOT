@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep04
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=450
+*CHI:	One kitty and one doggy were playing near the pool .
+%mor:	num|one noun|kitty cconj|and num|one noun|doggy
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; F3; A3; Z; C2; C1; Z;
+*CHI:	They had a little ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|little-S1 noun|ball-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	It fell into the pool .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	A1; C2; Z;
+*CHI:	The doggy went in the pool to get the ball .
+%mor:	det|the-Def-Art noun|doggy verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z; C1; Z;
+*CHI:	He swam to get it .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	The kitty pulled the ball out of the water .
+%mor:	det|the-Def-Art noun|kitty verb|pull-Fin-Ind-Past-S3
+	det|the-Def-Art noun|ball-Acc adp|out adp|of det|the-Def-Art
+	noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	Now the ball is back .
+%mor:	adv|now det|the-Def-Art noun|ball aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	The kitty and the doggy are happy again .
+%mor:	det|the-Def-Art noun|kitty cconj|and det|the-Def-Art noun|doggy
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

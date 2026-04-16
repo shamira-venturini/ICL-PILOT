@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep03_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we built a sandcastle !                |   |3  |2  |   |   |   |   |   |  1|  6|
+i added a flag .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+my doggy added more sand .             |3  |1  |2  |   |   |   |   |   |  1|  7|
+then he dumped a bucket on it .        |1  |2 5|2  |   |   |   |   |   |  1| 11|
+our castle is ruined .                 |   |3  |7 2|   |   |   |   |   |  1| 13|
+my doggy is sad .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+he cried .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+me [* s:r:gc:pro] said sorry .         |   |1  |2  |   |   |   |   |   |  0|  3|
+my doggy said sorry too .              |   |1  |2  |   |   |   |   |   |  1|  4|
+we fixed it a little bit .             |1  |3 5|2  |   |   |   |   |   |  1| 12|
+now it's okay .                        |1  |   |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  6| 28| 27|  0|  0|  0|  0|  0| 10| 71|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  6.45

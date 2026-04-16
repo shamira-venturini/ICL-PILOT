@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:33 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep01_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+We went on a picnic .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+we got carrots and sandwiches .        |   |3  |2  |   |   |3  |   |   |  1|  9|
+I ate too much sandwiches [* m:+s:a] . |   |1  |2  |   |   |   |   |   |  0|  3|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel yucky .                         |   |1  |1  |   |   |   |   |   |  1|  3|
+the doctor came and checked me .       |   |1  |2 2|   |   |3  |   |   |  1|  9|
+she gave me a special juice .          |   |2 1|2  |   |   |   |   |   |  1|  6|
+I drank it and I feel a little better .|1  |1 5|2 1|   |   |3  |   |   |  1| 15|
+                                       |   |1  |   |   |   |   |   |   |   |   |
+now I'm sitting on the bench .         |   |1  |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  1| 21| 19|  0|  0|  9|  0|  0|  8| 58|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  6.44

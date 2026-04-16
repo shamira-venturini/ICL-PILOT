@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep06_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+one day rabbit and dog pulled a wagon  |3  |   |2  |   |   |3  |   |   |  1|  9|
+    with a big red balloon .           |   |   |   |   |   |   |   |   |   |   |
+rabbit and dog were sad .              |   |   |2  |   |   |3  |   |   |  1|  6|
+they looked everywhere .               |   |3  |2  |   |   |   |   |   |  1|  6|
+then they went to the balloon lady .   |   |3  |2  |   |   |   |   |   |  1|  6|
+she had lots of balloons .             |   |2  |2  |   |   |   |   |   |  1|  5|
+rabbit and dog didn't have five cents .|3  |   |6 1|   |4  |3  |   |   |  1| 18|
+they each got a new balloon and they   |7  |3 3|2 2|   |   |3  |   |   |  1| 21|
+    smiled .                           |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 13| 14| 21|  0|  4| 12|  0|  0|  7| 71|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score: 10.14

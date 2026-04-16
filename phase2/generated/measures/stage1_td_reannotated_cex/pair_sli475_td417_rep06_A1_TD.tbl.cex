@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep06_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a doggy and kitty go play near the pool|   |   |1 1|   |   |3  |   |   |  1|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+there is a little ball .               |   |   |2  |   |   |   |   |   |  1|  3|
+the ball goes into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+kitty gets in the water .              |   |   |2  |   |   |   |   |   |  1|  3|
+kitty gets the ball .                  |   |   |2  |   |   |   |   |   |  1|  3|
+kitty comes out with the ball .        |   |   |2  |   |   |   |   |   |  1|  3|
+kitty and doggy are happy .            |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  |  0|  0| 14|  0|  0|  6|  0|  0|  7| 27|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  3.86

@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep09
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=406
+*CHI:	Me [* s:r:gc:pro] and my doggy went picknick .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	verb|go-Fin-Ind-Past-S3-irr noun|picknick-Acc .
+%xdss:	B1; F3; B1; Z; C2; Z;
+*CHI:	we get carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Pres-P1 noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	i eat too much carrots .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adj|much-S1
+	noun|carrot-Plur-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	my tummy hurt .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	i feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	my mom take [* m:03s:a] me to see the doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|take-Fin-Ind-S pron|I-Prs-Acc-S1
+	part|to verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B1; Z; C1; D5; B1; C1; Z;
+*CHI:	doctor say [* m:03s:a] you eat too much .
+%mor:	noun|doctor verb|say-Fin-Imp-S pron|you-Prs-Nom-S2
+	verb|eat-Fin-Ind-Pres-S2 adv|too adj|much-S1 .
+%xdss:	Z; C1; D5; C1;
+*CHI:	i rest on the bed .
+%mor:	pron|I-Prs-Nom-S1 verb|rest-Fin-Ind-Pres-S1 adp|on det|the-Def-Art
+	noun|bed .
+%xdss:	B1; C1; Z;
+*CHI:	i feel better .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+@End

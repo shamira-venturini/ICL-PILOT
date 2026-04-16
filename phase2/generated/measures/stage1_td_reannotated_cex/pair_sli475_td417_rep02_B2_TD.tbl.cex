@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep02_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we went on a picnic with our friend    |   |3 3|2  |   |   |3  |   |   |  1| 15|
+    rabbit and our dog .               |   |3  |   |   |   |   |   |   |   |   |
+we had sandwiches and they were yummy .|   |3 3|2 2|   |   |3  |   |   |  1| 14|
+but i ate too much .                   |   |1  |2  |   |   |5  |   |   |  1|  9|
+then i felt sick .                     |   |1  |2  |   |   |   |   |   |  1|  4|
+i felt dizzy .                         |   |1  |2  |   |   |   |   |   |  1|  4|
+i had a tummyache .                    |   |1  |2  |   |   |   |   |   |  1|  4|
+we went to the doctor .                |   |3  |2  |   |   |   |   |   |  1|  6|
+the doctor said i ate too much .       |   |1  |2 2|5  |   |   |   |   |  1| 11|
+he gave me some medicine .             |3  |2 1|2  |   |   |   |   |   |  1|  9|
+i took it and i felt better .          |1  |1 5|2 2|   |   |3  |   |   |  1| 16|
+                                       |   |1  |   |   |   |   |   |   |   |   |
+then i sat down and rested .           |   |1  |2 2|   |   |3  |   |   |  1|  9|
+TOTAL                                  |  4| 34| 30|  5|  0| 17|  0|  0| 11|101|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  9.18

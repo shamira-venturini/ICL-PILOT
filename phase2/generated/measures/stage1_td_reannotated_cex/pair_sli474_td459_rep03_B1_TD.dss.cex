@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep03
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=459
+*CHI:	One day rabbit and dog they went to the sandbox .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|sandbox .
+%xdss:	A3; Z; Z; F3; Z; B3; C2; Z;
+*CHI:	They built a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	The rabbit was very proud of it .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|very
+	adj|proud-S1 adp|of pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	The dog said lets [* m:03s:a] add some more sand on it .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr noun|let-Plur
+	verb|add-Inf-Imp-S det|some-Def-Ind adj|more-Cmp-S1 noun|sand-Acc
+	adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; D5; Z; C1; A3; A3; Z; A1; B5;
+*CHI:	But the dog he did it too strong and the sandcastle fell down .
+%mor:	cconj|but det|the-Def-Art noun|dog pron|he-Prs-Nom-S3
+	verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|too adj|strong-S1
+	cconj|and det|the-Def-Art noun|sandcastle
+	verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%xdss:	F5; Z; B2; C2; A1; B5; F3; Z; C2;
+*CHI:	The rabbit was so sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|sad-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	He said why did you do that ?
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adv|why
+	aux|do-Fin-Ind-Past-S2-irr pron|you-Prs-Nom-S2 verb|do-Inf-S
+	pron|that-Dem ?
+%xdss:	B2; C2; H7; C1; A1;
+*CHI:	The dog said sorry .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	.
+%xdss:	Z; C2;
+*CHI:	The rabbit said its [* s:r:gc:det] okay .
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 adj|okay-S1 .
+%xdss:	Z; C2; A1;
+*CHI:	They build another one together .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|one-Acc adv|together .
+%xdss:	B3; C1; A3; Z;
+@End

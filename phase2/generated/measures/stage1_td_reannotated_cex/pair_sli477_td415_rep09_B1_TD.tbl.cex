@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep09_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a dog and a rabbit build [* m:|   |   |2 1|   |   |3  |   |   |  0|  6|
+    0ing] a castle in the sand .       |   |   |   |   |   |   |   |   |   |   |
+and the rabbit is very happy .         |   |   |1  |   |   |3  |   |   |  1|  5|
+and the dog is very happy too .        |   |   |1  |   |   |3  |   |   |  1|  5|
+and the dog have [* m:vun:a] a bucket .|   |   |1  |   |   |3  |   |   |  0|  4|
+and the dog is go [* m:0ing] to pour   |   |   |1 1|3  |   |3  |   |   |  0|  9|
+    sand in the castle .               |   |   |1  |   |   |   |   |   |   |   |
+and the dog pour [* m:03s:a] the sand  |   |   |1  |   |   |3  |   |   |  0|  4|
+    in the bucket .                    |   |   |   |   |   |   |   |   |   |   |
+and the bucket fall [* m:03s:a] down . |   |   |2  |   |   |3  |   |   |  0|  5|
+and the sand castle is broke [* m:sub: |   |   |1  |   |   |3  |   |   |  0|  4|
+    en] .                              |   |   |   |   |   |   |   |   |   |   |
+and the rabbit say [* m:03s:a] oh no my|   |1  |2  |   |   |3  |   |   |  0|  6|
+     castle .                          |   |   |   |   |   |   |   |   |   |   |
+and the rabbit and the dog is go [* m: |   |   |1 1|3  |   |3 3|   |   |  0| 12|
+    0ing] to fix the castle .          |   |   |1  |   |   |   |   |   |   |   |
+and the rabbit is say [* m:03s:a] sorry|   |   |1 1|   |   |3  |   |   |  0|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  0|  1| 20|  6|  0| 36|  0|  0|  2| 65|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  5.91

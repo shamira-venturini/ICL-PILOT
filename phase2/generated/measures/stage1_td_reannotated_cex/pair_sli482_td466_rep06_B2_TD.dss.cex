@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep06
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog go get some food for picnic .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Imp-Pres-S verb|get-Fin-Imp-S det|some-Def-Ind
+	noun|food-Acc adp|for noun|picnic .
+%xdss:	Z; Z; F3; Z; C1; C1; A3; Z; F8; Z;
+*CHI:	they get sandwiches and berries and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3
+	noun|sandwich-Plur-Acc cconj|and noun|berries-Plur cconj|and
+	noun|carrot-Plur .
+%xdss:	B3; C1; Z; F3; Z; F3; Z;
+*CHI:	and they go have a picnic .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3
+	verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art noun|picnic-Acc .
+%xdss:	F3; B3; C1; C1; Z;
+*CHI:	then we eat all the sandwiches and berries and carrots .
+%mor:	adv|then pron|we-Prs-Nom-P1 verb|eat-Fin-Ind-Pres-P1
+	det|all-Def-Tot det|the-Def-Art noun|sandwich-Plur-Acc cconj|and
+	noun|berries-Plur cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; A3; Z; F3; Z; F3; Z;
+*CHI:	oh i ate too much .
+%mor:	intj|oh pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too
+	adj|much-S1 .
+%xdss:	B1; C2;
+*CHI:	my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	i feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	mom calls the doctor .
+%mor:	noun|mom verb|call-Fin-Ind-Pres-S3 det|the-Def-Art noun|doctor-Acc
+	.
+%xdss:	Z; C2; Z;
+*CHI:	doctor gives me medicine .
+%mor:	noun|doctor verb|give-Fin-Ind-Pres-S3 pron|I-Prs-Acc-S1
+	noun|medicine-Acc .
+%xdss:	Z; C2; B1; Z;
+*CHI:	i rest now my tummy feels better .
+%mor:	pron|I-Prs-Nom-S1 verb|rest-Fin-Ind-Pres-S1 adv|now
+	pron|my-Prs-Gen-S1 noun|tummy verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	B1; C1; B1; Z; C2;
+@End

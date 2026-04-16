@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep07
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=410
+*CHI:	they like to play near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|like-Fin-Ind-Pres-P3 part|to
+	verb|play-Inf-S adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C1; D3; C1; Z;
+*CHI:	they have a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the dog kicks it and the ball goes into the pool .
+%mor:	det|the-Def-Art noun|dog verb|kick-Fin-Ind-Pres-S3
+	pron|it-Prs-Acc-S3 cconj|and det|the-Def-Art noun|ball
+	verb|go-Fin-Ind-Pres-S3 adp|into det|the-Def-Art noun|pool .
+%xdss:	Z; C2; A1; B5; F3; Z; C2; Z;
+*CHI:	the cat wants the ball .
+%mor:	det|the-Def-Art noun|cat verb|want-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the cat goes into the pool to get it .
+%mor:	det|the-Def-Art noun|cat verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	the cat swims and gets the ball .
+%mor:	det|the-Def-Art noun|cat verb|swim-Fin-Ind-Pres-S3 cconj|and
+	verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	the cat comes out of the pool with the ball .
+%mor:	det|the-Def-Art noun|cat verb|come-Fin-Ind-Pres-S3 adp|out adp|of
+	det|the-Def-Art noun|pool adp|with det|the-Def-Art noun|ball .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the dog and the cat are happy again .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|cat
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

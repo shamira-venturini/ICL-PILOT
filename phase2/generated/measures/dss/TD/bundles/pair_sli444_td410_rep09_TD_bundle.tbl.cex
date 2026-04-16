@@ -1,0 +1,74 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli444_td410_rep09_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a dog and a cat by the pool . |   |   |2  |   |   |3  |   |   |  1|  6|
+the cat has a ball .                   |   |   |2  |   |   |   |   |   |  1|  3|
+the ball goes in the water .           |   |   |2  |   |   |   |   |   |  1|  3|
+the dog wants it .                     |1  |5  |2  |   |   |   |   |   |  1|  9|
+the dog gets in the pool to get the    |   |   |2 1|   |   |   |   |   |  1|  4|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+the dog gets it .                      |1  |5  |2  |   |   |   |   |   |  1|  9|
+the dog gets out of the pool .         |   |   |2  |   |   |   |   |   |  1|  3|
+the dog is happy .                     |   |   |1  |   |   |   |   |   |  1|  2|
+One monkey and one giraffe go to the   |3 3|   |1  |   |   |3  |   |   |  1| 11|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+There's a sign that says .             |1  |   |2  |   |   |   |   |   |  1|  4|
+The giraffe runs to the water .        |   |   |2  |   |   |   |   |   |  1|  3|
+The giraffe slips and hurt [* m:03s:a] |1  |   |2 2|   |   |3  |   |   |  0|  8|
+    its knee .                         |   |   |   |   |   |   |   |   |   |   |
+A lifeguard comes with a bandaid .     |   |   |2  |   |   |   |   |   |  1|  3|
+The giraffe sits on a bench and rests .|   |   |2 2|   |   |3  |   |   |  1|  8|
+we was [* m:vsg:a] playing with plane .|   |3  |2 1|   |   |   |   |   |  0|  6|
+it's in the pool .                     |1  |   |1  |   |   |   |   |   |  1|  3|
+she was playing with it .              |1  |2 5|2 1|   |   |   |   |   |  1| 12|
+she's upset .                          |   |2  |1  |   |   |   |   |   |  1|  4|
+she goes to get it .                   |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+he's got a long stick .                |   |2  |7 2|   |   |   |   |   |  1| 12|
+he's reaching for the plane .          |   |2  |1 1|   |   |8  |   |   |  1| 13|
+he got it .                            |1  |2 5|2  |   |   |   |   |   |  1| 11|
+my friend's happy .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+now she's got the plane back .         |   |2  |7 2|   |   |   |   |   |  1| 12|
+Rabbit and dog were friends .          |   |   |2  |   |   |3  |   |   |  1|  6|
+They built a big sandcastle together . |   |3  |2  |   |   |   |   |   |  1|  6|
+Rabbit was pouring sand and dog was    |   |   |2 1|   |   |3  |   |   |  1| 10|
+    making walls .                     |   |   |2 1|   |   |   |   |   |   |   |
+Dog got a big bucket and poured it on  |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    the sandcastle .                   |   |   |   |   |   |   |   |   |   |   |
+The castle got all squished .          |3  |   |2  |   |   |   |   |   |  1|  6|
+Dog said .                             |   |   |2  |   |   |   |   |   |  1|  3|
+They took a brush and swept away the   |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    sand .                             |   |   |   |   |   |   |   |   |   |   |
+They started again .                   |   |3  |2  |   |   |   |   |   |  1|  6|
+Now their sandcastle is new !          |   |3  |1  |   |   |   |   |   |  1|  5|
+Me [* s:r:gc:pro] and my doggy , we    |   |1 1|2  |   |   |3  |   |   |  0| 10|
+    went to the park .                 |   |3  |   |   |   |   |   |   |   |   |
+We saw some yummy sandwiches .         |3  |3  |2  |   |   |   |   |   |  1|  9|
+We eat and eat .                       |   |3  |1 1|   |   |3  |   |   |  1|  9|
+My tummy hurt [* m:03s:a] .            |   |1  |2  |   |   |   |   |   |  0|  3|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+My mom say [* m:03s:a] it's okay .     |1  |1  |2 1|   |   |   |   |   |  0|  5|
+She take [* m:base:ed] me to the doctor|   |2 1|2  |   |   |   |   |   |  0|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The doctor say [* m:03s:a] .           |   |   |2  |   |   |   |   |   |  0|  2|
+He give [* m:base:ed] me some medicine |3  |2 1|2  |   |   |   |   |   |  0|  8|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+I take it .                            |1  |1 5|1  |   |   |   |   |   |  1|  9|
+I feel better .                        |   |1  |1  |   |   |   |   |   |  1|  3|
+Now I'm sitting .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+They pull a wagon .                    |   |3  |1  |   |   |   |   |   |  1|  5|
+They have a balloon .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+The balloon is red .                   |   |   |1  |   |   |   |   |   |  1|  2|
+The balloon comes loose .              |   |   |2  |   |   |   |   |   |  1|  3|
+It floats away .                       |1  |   |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  | 27| 94|118|  3|  0| 38|  0|  0| 42|322|
+
+Developmental sentence score:  6.44

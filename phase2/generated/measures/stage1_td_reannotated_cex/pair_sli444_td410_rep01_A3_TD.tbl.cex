@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep01_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+oh there's a little doggy and a little |   |   |1  |4 8|   |3  |   |   |  0| 16|
+    kitty playing with a [* m:allo]    |   |   |   |   |   |   |   |   |   |   |
+    airplane near the pool .           |   |   |   |   |   |   |   |   |   |   |
+the airplane goes splat into the water |   |   |2  |   |   |   |   |   |  1|  3|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the doggy's owner is super upset .     |   |   |1  |   |   |   |   |   |  1|  2|
+she says .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+oh no where's my airplane !            |   |1  |1  |   |   |   |   |   |  1|  3|
+someone yells .                        |3  |   |2  |   |   |   |   |   |  1|  6|
+i can get it !                         |1  |1 5|4 1|2  |   |   |   |   |  1| 15|
+and a lifeguard puts on a big pole and |   |   |2 2|   |   |3 3|   |   |  1| 11|
+    gets the airplane .                |   |   |   |   |   |   |   |   |   |   |
+the kitty is happy .                   |   |   |1  |   |   |   |   |   |  1|  2|
+the airplane is back .                 |   |   |1  |   |   |   |   |   |  1|  2|
+TOTAL                                  |  4|  9| 20| 14|  0|  9|  0|  0|  9| 65|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  6.50

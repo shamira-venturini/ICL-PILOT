@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep07
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog go for a ride in a wagon with a red balloon .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|for
+	det|a-Ind-Art noun|ride adp|in det|a-Ind-Art noun|wagon adp|with
+	det|a-Ind-Art adj|red-S1 noun|balloon .
+%xdss:	Z; F3; Z; C1; F8; Z; Z; Z;
+*CHI:	The balloon comes loose and goes up high in the sky .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adj|loose-S1
+	cconj|and verb|go-Fin-Ind-Pres-S3 adp|up adv|high adp|in
+	det|the-Def-Art noun|sky .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	The kids are sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	They want another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	They go to the balloon man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|balloon noun|man .
+%xdss:	B3; C1; Z; Z;
+*CHI:	He says his balloons are three dollars .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3
+	noun|balloon-Plur aux|be-Fin-Ind-Pres-P3 num|three noun|dollar-Plur
+	.
+%xdss:	B2; C2; B2; Z; C2; A3; Z;
+*CHI:	They don't have three dollars .
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S num|three noun|dollar-Plur-Acc .
+%xdss:	B3; E4; C1; A3; Z;
+*CHI:	He gives them two balloons for two dollars .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|balloon-Plur-Acc adp|for num|two noun|dollar-Plur .
+%xdss:	B2; C2; B3; A3; Z; F8; A3; Z;
+*CHI:	The kids are happy now .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	adv|now .
+%xdss:	Z; C2;
+@End

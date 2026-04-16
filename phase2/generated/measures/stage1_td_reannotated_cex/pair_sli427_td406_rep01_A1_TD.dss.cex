@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep01
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=406
+*CHI:	One day me [* s:r:gc:pro] and my doggy playing near the pool .
+%mor:	num|one noun|day pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1
+	noun|doggy verb|play-Ger-S adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; B1; F3; B1; Z; D4; C1; D8; Z;
+*CHI:	We play with a red ball .
+%mor:	pron|we-Prs-Nom-P1 verb|play-Fin-Ind-Pres-P1 adp|with det|a-Ind-Art
+	adj|red-S1 noun|ball .
+%xdss:	B3; C1; Z;
+*CHI:	But then , the ball went splash in the water .
+%mor:	cconj|but adv|then det|the-Def-Art noun|ball
+	verb|go-Fin-Ind-Past-S3-irr noun|splash-Acc adp|in det|the-Def-Art
+	noun|water .
+%xdss:	F5; Z; C2; Z; Z;
+*CHI:	My doggy want [* m:03s:a] the ball .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|want-Fin-Ind-Pres-P3
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	B1; Z; C1; Z;
+*CHI:	He go [* m:03s:a] to the pool .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	B2; C2; Z;
+*CHI:	He get [* m:03s:a] the ball .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	My doggy come [* m:03s:a] back , and I give him a hug .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|come-Fin-Ind-Pres-S3 adv|back
+	cconj|and pron|I-Prs-Nom-S1 verb|give-Fin-Ind-Pres-S1
+	pron|he-Prs-Acc-S3 det|a-Ind-Art noun|hug-Acc .
+%xdss:	B1; Z; C2; F3; B1; C1; B2; Z;
+@End

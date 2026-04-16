@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:27 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep07_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day my friend had a cool airplane .|3  |1  |2  |   |   |   |   |   |  1|  7|
+He wanted to play with it near the pool|1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+His little sister wanted to play with  |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+    it too .                           |   |   |   |   |   |   |   |   |   |   |
+They played near the pool .            |   |3  |2  |   |   |   |   |   |  1|  6|
+But then the sister threw the airplane |   |   |2  |   |   |5  |   |   |  1|  8|
+    into the pool .                    |   |   |   |   |   |   |   |   |   |   |
+My friend was sad .                    |   |1  |2  |   |   |   |   |   |  1|  4|
+He wanted the airplane back .          |   |2  |2  |   |   |   |   |   |  1|  5|
+He tried to get it but it was too far .|1 1|2 5|2 1|3  |   |5  |   |   |  1| 23|
+                                       |   |   |2  |   |   |   |   |   |   |   |
+Then a lifeguard came and used a long  |   |   |2 2|   |   |3  |   |   |  1|  9|
+    stick to get the airplane .        |   |   |1  |   |   |   |   |   |   |   |
+My friend was so happy !               |   |1  |2  |   |   |5  |   |   |  1|  9|
+He got his airplane back and he and his|   |2 2|2 2|   |   |3 3|   |   |  1| 19|
+     sister played together again .    |   |2 2|   |   |   |   |   |   |   |   |
+TOTAL                                  |  7| 37| 32|  9|  0| 24|  0|  0| 11|120|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score: 10.91

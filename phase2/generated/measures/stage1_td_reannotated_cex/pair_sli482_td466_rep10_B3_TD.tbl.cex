@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep10_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+one day rabbit and dog go to the park .|3  |   |1  |   |   |3  |   |   |  1|  8|
+they carry a wagon with a big red      |   |3  |1  |   |   |   |   |   |  1|  5|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon go [* m:03s:a] loose and   |   |   |1 1|   |   |3  |   |   |  0|  5|
+    fly away .                         |   |   |   |   |   |   |   |   |   |   |
+they want a new balloon .              |   |3  |1  |   |   |   |   |   |  1|  5|
+they go to the ice cream man .         |   |3  |1  |   |   |   |   |   |  1|  5|
+the ice cream man have [* m:vun:a]     |   |   |1  |   |   |   |   |   |  0|  1|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+but the balloons are expensive .       |   |   |2  |   |   |5  |   |   |  1|  8|
+the kids want a balloon but they don't |   |3  |1 1|   |4  |5  |   |   |  1| 15|
+    have enough money .                |   |   |   |   |   |   |   |   |   |   |
+the ice cream man help [* m:03s:a] them|   |3  |1  |   |   |   |   |   |  0|  4|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+he say [* m:03s:a] .                   |   |2  |2  |   |   |   |   |   |  0|  4|
+ok , i give you one balloon for free . |3  |1 5|1  |   |   |8  |   |   |  1| 19|
+the kids happy , they get two balloons |3  |3 3|1 1|   |   |3  |   |   |  1| 15|
+    and they fly in the sky .          |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  9| 29| 17|  0|  4| 27|  0|  0|  8| 94|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  7.83

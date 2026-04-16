@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:26 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep03_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog were going on a picnic .|   |   |2 1|   |   |3  |   |   |  1|  7|
+they got carrots and sandwiches .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+one child ate lots and lots .          |3  |   |2  |   |   |3  |   |   |  1|  9|
+then child got a tummyache .           |   |   |2  |   |   |   |   |   |  1|  3|
+doctor came and checked .              |   |   |2 2|   |   |3  |   |   |  1|  8|
+child felt dizzy .                     |   |   |2  |   |   |   |   |   |  1|  3|
+doctor gave some medicine .            |3  |   |2  |   |   |   |   |   |  1|  6|
+child sat on the bed and rested .      |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  6|  3| 21|  0|  0| 15|  0|  0|  8| 53|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  6.62

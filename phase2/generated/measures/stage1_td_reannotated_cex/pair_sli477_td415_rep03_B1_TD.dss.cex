@@ -1,0 +1,37 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep03
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog was [* m:vsg:a] play in sandbox .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|play-Part-S adp|in noun|sandbox .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	they make sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 noun|sandcastle-Acc
+	.
+%xdss:	B3; C1; Z;
+*CHI:	rabbit pick [* m:03s:a] up bucket and dog go .
+%mor:	noun|rabbit verb|pick-Inf-Imp-S adp|up noun|bucket-Acc cconj|and
+	noun|dog noun|go-Acc .
+%xdss:	Z; C1; Z; F3; Z; Z;
+*CHI:	rabbit and dog try fix castle .
+%mor:	noun|rabbit cconj|and noun|dog verb|try-Fin-Imp-S noun|fix
+	noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; Z; Z;
+*CHI:	they make it better .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adj|good-Cmp-S1 .
+%xdss:	B3; C1; A1; B5;
+@End

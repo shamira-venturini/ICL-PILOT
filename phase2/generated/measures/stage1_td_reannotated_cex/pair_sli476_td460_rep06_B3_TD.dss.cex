@@ -1,0 +1,86 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep06
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=460
+*CHI:	They got a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	Rabbit and dog got in it .
+%mor:	noun|rabbit cconj|and noun|dog verb|get-Fin-Ind-Past-S3-irr adp|in
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; F3; Z; C2; A1; B5;
+*CHI:	They pulled it .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Past-P3 pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; A1; B5;
+*CHI:	There was a big red balloon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon .
+%xdss:	C2; Z;
+*CHI:	It was in the wagon .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|wagon .
+%xdss:	A1; C2; Z;
+*CHI:	The balloon came off .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr adp|off
+	.
+%xdss:	Z; C2;
+*CHI:	It went up high .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adj|high-S1 .
+%xdss:	A1; C2;
+*CHI:	It popped .
+%mor:	pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Past-S3 .
+%xdss:	A1; C2;
+*CHI:	The kids were sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Past-P3-irr adj|sad-S1
+	.
+%xdss:	Z; C2;
+*CHI:	They wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	They went to a man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|a-Ind-Art noun|man .
+%xdss:	B3; C2; Z;
+*CHI:	He had balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr
+	noun|balloon-Plur-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	He said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	He said it was five dollars .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr num|five noun|dollar-Plur .
+%xdss:	B2; C2; A1; C2; A3; Z;
+*CHI:	The kids said .
+%mor:	det|the-Def-Art noun|kid-Plur verb|say-Fin-Ind-Past-P3-irr .
+%xdss:	Z; C2;
+*CHI:	They didn't have five dollars .
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not
+	verb|have-Inf-S num|five noun|dollar-Plur-Acc .
+%xdss:	B3; C6; E4; C1; A3; Z;
+*CHI:	The man said .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	He gave them two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	They were happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	B3; C2;
+@End

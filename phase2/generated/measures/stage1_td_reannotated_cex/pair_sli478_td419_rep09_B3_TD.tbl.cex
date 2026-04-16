@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:27 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog were friends .          |   |   |2  |   |   |3  |   |   |  1|  6|
+They pulled a wagon with a big red     |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+The balloon was so much fun !          |   |   |2  |   |   |5  |   |   |  1|  8|
+But then the balloon came loose and    |   |   |2 2|   |   |5 3|   |   |  1| 13|
+    went .                             |   |   |   |   |   |   |   |   |   |   |
+It fell on the ground .                |1  |   |2  |   |   |   |   |   |  1|  4|
+Rabbit and dog were sad .              |   |   |2  |   |   |3  |   |   |  1|  6|
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to the man with balloons .   |   |3  |2  |   |   |   |   |   |  1|  6|
+He said it would cost money .          |1  |2  |2 6|2  |   |   |   |   |  1| 15|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+Rabbit had money , but not enough .    |   |   |2  |   |   |5  |   |   |  1|  8|
+The man gave them more balloons , one  |3 3|3  |2  |   |   |8  |   |   |  1| 27|
+    for each .                         |7  |   |   |   |   |   |   |   |   |   |
+Rabbit and dog were happy again .      |   |   |2  |   |   |3  |   |   |  1|  6|
+They pulled the new balloons and smiled|   |3  |2 2|   |   |3  |   |   |  1| 11|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 18| 17| 37|  2|  0| 38|  0|  0| 13|125|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  9.62

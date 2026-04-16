@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep07
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=419
+*CHI:	bunny and doggy were pulling a wagon with a big red balloon .
+%mor:	noun|bunny cconj|and noun|doggy aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S det|a-Ind-Art noun|wagon-Acc adp|with
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|balloon .
+%xdss:	Z; F3; Z; C2; C1; Z; Z;
+*CHI:	the balloon went pop !
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Past-S3-irr noun|pop !
+%xdss:	Z; C2; Z;
+*CHI:	bunny and doggy was [* m:vsg:a] sad .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-S3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; C2;
+*CHI:	they wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	they went to the balloon man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|man .
+%xdss:	B3; C2; Z; Z;
+*CHI:	he said oh you have to pay me first .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|oh
+	pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 part|to verb|pay-Inf-S
+	pron|I-Prs-Acc-S1 adv|first .
+%xdss:	B2; C2; C1; D3; C1; B1;
+*CHI:	bunny and doggy didn't have enough money .
+%mor:	noun|bunny cconj|and adj|doggy-S1
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S adj|enough-S1
+	noun|money-Acc .
+%xdss:	Z; F3; C6; E4; C1; Z;
+*CHI:	the balloon man helped them get more money .
+%mor:	det|the-Def-Art noun|balloon noun|man verb|help-Fin-Ind-Past-S3
+	pron|they-Prs-Acc-P3 verb|get-Inf-S adj|more-Cmp-S1 noun|money-Acc .
+%xdss:	Z; Z; C2; D5; B3; C1; A3; Z;
+*CHI:	bunny and doggy each got a new balloon and they were so happy .
+%mor:	noun|bunny cconj|and adj|doggy-S1 det|each-Def-Tot
+	verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|new-S1
+	noun|balloon-Acc cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 .
+%xdss:	Z; F3; A7; C2; Z; F3; B3; C2; F5;
+@End

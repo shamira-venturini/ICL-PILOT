@@ -1,0 +1,82 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep07
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=7
+@Comment:	source_child_id=439
+*CHI:	Yesterday , me [* s:r:gc:pro] and my friend had a fun time .
+%mor:	noun|yesterday pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1
+	noun|friend verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|fun-S1
+	noun|time-Acc .
+%xdss:	Z; B1; F3; B1; Z; C2; Z;
+*CHI:	We played with a little airplane near the pool .
+%mor:	pron|we-Prs-Nom-P1 verb|play-Fin-Ind-Past-P1 adp|with det|a-Ind-Art
+	adj|little-S1 noun|airplane adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z; Z;
+*CHI:	It's so shiny and pretty .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|shiny-S1
+	cconj|and adj|pretty-S1 .
+%xdss:	A1; C1; F5; F3;
+*CHI:	the airplane fell into the water .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Past-S3-irr
+	adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	My friend got very mad .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|get-Fin-Ind-Past-S3-irr
+	adv|very adj|mad-S1 .
+%xdss:	B1; Z; C2;
+*CHI:	She said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	I wanted to help but I don't know how .
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Past-S1 part|to verb|help-Inf-S
+	cconj|but pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not
+	verb|know-Inf-S adv|how .
+%xdss:	B1; C2; D3; C1; F5; B1; E4; C1;
+*CHI:	Then a nice man with a long stick came and said .
+%mor:	adv|then det|a-Ind-Art adj|nice-S1 noun|man adp|with det|a-Ind-Art
+	adj|long-S1 noun|stick verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; Z; C2; F3; C2;
+*CHI:	don't worry , I got it !
+%mor:	aux|do-Fin-S~part|not verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1
+	verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 !
+%xdss:	C4; E4; G6; C1; D5; B1; C2; A1; B5;
+*CHI:	He used his stick to get the airplane out of the water .
+%mor:	pron|he-Prs-Nom-S3 verb|use-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3
+	noun|stick-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc adp|out adp|of det|the-Def-Art noun|water .
+%xdss:	B2; C2; B2; Z; C1; Z; Z;
+*CHI:	My friend was so happy .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	B1; Z; C2; F5;
+*CHI:	She smiled and said .
+%mor:	pron|she-Prs-Nom-S3 verb|smile-Fin-Ind-Past-S3 cconj|and
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2; F3; C2;
+*CHI:	thank you !
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 !
+%xdss:	C1; B5;
+*CHI:	The man said .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	and gave the airplane back to my friend .
+%mor:	cconj|and verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc adv|back adp|to pron|my-Prs-Gen-S1 noun|friend .
+%xdss:	F3; C2; Z; B1; Z;
+*CHI:	She hugged it and said .
+%mor:	pron|she-Prs-Nom-S3 verb|hugge-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3
+	cconj|and verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2; A1; B5; F3; C2;
+@End

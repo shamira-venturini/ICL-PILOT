@@ -1,0 +1,76 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep08
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=460
+*CHI:	They're going to have fun .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S
+	part|to verb|have-Inf-S noun|fun-Acc .
+%xdss:	B3; C1; D2; C1; Z;
+*CHI:	they're going to ride a wagon .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S
+	part|to verb|ride-Inf-S det|a-Ind-Art noun|wagon-Acc .
+%xdss:	B3; C1; D2; C1; Z;
+*CHI:	the rabbit and the dog are in the wagon .
+%mor:	det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art noun|dog
+	aux|be-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|wagon .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	they got a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	it's so pretty .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|pretty-S1 .
+%xdss:	A1; C1; F5;
+*CHI:	oh no the balloon is loose .
+%mor:	intj|oh intj|no det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3
+	adj|loose-S1 .
+%xdss:	Z; C1;
+*CHI:	it's flying away .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|fly-Part-Pres-S
+	adv|away .
+%xdss:	A1; C1; C1;
+*CHI:	the kids are sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	they want the balloon back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|balloon-Acc adv|back .
+%xdss:	B3; C1; Z;
+*CHI:	they ask grandma .
+%mor:	pron|they-Prs-Nom-P3 verb|ask-Fin-Ind-Pres-P3 noun|grandma-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	grandma has balloons .
+%mor:	noun|grandma verb|have-Fin-Ind-Pres-S3 noun|balloon-Plur-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	she says they are five dollars each .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Pres-P3 num|five noun|dollar-Plur det|each-Def-Tot .
+%xdss:	B2; C2; B3; C2; A3; Z; A7;
+*CHI:	the kids don't have five dollars .
+%mor:	det|the-Def-Art noun|kid-Plur aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S num|five noun|dollar-Plur-Acc .
+%xdss:	Z; E4; C1; A3; Z;
+*CHI:	grandma says it's okay .
+%mor:	noun|grandma verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	Z; C2; A1; C1;
+*CHI:	she gives them two balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	the kids are happy .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; C2;
+@End

@@ -1,0 +1,80 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:37 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli478_td419_rep06_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time two monkeys were      |3  |   |2 1|   |   |   |   |   |  1|  7|
+    playing near the pool .            |   |   |   |   |   |   |   |   |   |   |
+they had a red ball .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+the ball fell into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+one monkey went into the pool to get it|3 1|5  |2 1|   |   |   |   |   |  1| 13|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+he splashed the water a lot .          |   |2  |2  |   |   |   |   |   |  1|  5|
+he finally got the ball and went back  |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    out .                              |   |   |   |   |   |   |   |   |   |   |
+the monkeys were happy again .         |   |   |2  |   |   |   |   |   |  1|  3|
+they threw the ball in the air and     |1  |3 5|2 2|   |   |3  |   |   |  1| 17|
+    caught it .                        |   |   |   |   |   |   |   |   |   |   |
+there were two cats .                  |3  |   |2  |   |   |   |   |   |  1|  6|
+one cat was going to the pool area .   |3  |   |2 1|   |   |   |   |   |  1|  7|
+it said no running on the sign .       |1  |   |2  |8  |   |   |   |   |  1| 12|
+but cat [/] cat didn't listen .        |   |   |6 1|   |4  |5  |   |   |  1| 17|
+cat started to run to the water .      |   |   |2 1|3  |   |   |   |   |  1|  7|
+then cat slipped and hurt knee .       |   |   |2 2|   |   |3  |   |   |  1|  8|
+it was boo [/] boo .                   |1  |   |2  |   |   |   |   |   |  1|  4|
+a helper came with a bandage .         |   |   |2  |   |   |   |   |   |  1|  3|
+cat sat on a bench and rested .        |   |   |2 2|   |   |3  |   |   |  1|  8|
+there were two ducks and a little      |3  |   |2  |   |   |3  |   |   |  1|  9|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+they were playing near the pool .      |   |3  |2 1|   |   |   |   |   |  1|  7|
+the airplane went .                    |   |   |2  |   |   |   |   |   |  1|  3|
+and then it fell into the pool .       |1  |   |2  |   |   |3  |   |   |  1|  7|
+the ducks were sad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+they wanted to get it .                |1  |3 5|2 1|3  |   |   |   |   |  1| 16|
+their mom said .                       |   |3  |2  |   |   |   |   |   |  1|  6|
+someone get [* m:03s:a] the airplane . |3  |   |1  |   |   |   |   |   |  0|  4|
+and there was a lifeguard .            |   |   |2  |   |   |3  |   |   |  1|  6|
+he had a long pole .                   |   |2  |2  |   |   |   |   |   |  1|  5|
+he was a nice lifeguard .              |   |2  |2  |   |   |   |   |   |  1|  5|
+he got the airplane .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+the ducks were happy .                 |   |   |2  |   |   |   |   |   |  1|  3|
+they were playing with the airplane    |   |3  |2 1|   |   |   |   |   |  1|  7|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+there was a little dog and a little    |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    rabbit they built a sandcastle on  |   |   |   |   |   |   |   |   |   |   |
+    the beach .                        |   |   |   |   |   |   |   |   |   |   |
+the rabbit put more sand on the castle |3  |   |2  |   |   |   |   |   |  1|  6|
+    with a big shovel .                |   |   |   |   |   |   |   |   |   |   |
+then the dog poured sand all over it   |1  |5  |2  |   |   |   |   |   |  1|  9|
+    with a big bucket .                |   |   |   |   |   |   |   |   |   |   |
+oh no the castle is all ruined .       |   |   |1 2|   |   |   |   |   |  1|  4|
+the rabbit was sad and started to cry .|   |   |2 2|3  |   |3  |   |   |  1| 12|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the dog said sorry i was sorry .       |   |1  |2 2|   |   |   |   |   |  1|  6|
+the dog tried to fix it with sand but  |1 1|5  |2 1|3  |   |5  |   |   |  1| 21|
+    it was too late .                  |   |   |2  |   |   |   |   |   |   |   |
+once upon a time rabbit and dog they   |   |3  |2 1|   |   |3  |   |   |  1| 10|
+    went to the park to eat .          |   |   |   |   |   |   |   |   |   |   |
+they got carrots and sandwiches and    |   |3  |2  |   |   |3 3|   |   |  1| 12|
+    berries .                          |   |   |   |   |   |   |   |   |   |   |
+they had a big picnic .                |   |3  |2  |   |   |   |   |   |  1|  6|
+i ate too much .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+my tummy started to hurt .             |   |1  |2 1|3  |   |   |   |   |  1|  8|
+i felt dizzy .                         |   |1  |2  |   |   |   |   |   |  1|  4|
+i went to the doctor .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+the doctor said you ate too much .     |   |   |2 2|5  |   |   |   |   |  1| 10|
+i sat on the bench and rested .        |   |1  |2 2|   |   |3  |   |   |  1|  9|
+my tummy felt better .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+they had a wagon with a big red balloon|   |3  |2  |   |   |   |   |   |  1|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+rabbit and dog were pulling it .       |1  |5  |2 1|   |   |3  |   |   |  1| 13|
+TOTAL                                  | 31| 80|137| 28|  4| 52|  0|  0| 49|381|
+
+Developmental sentence score:  7.62

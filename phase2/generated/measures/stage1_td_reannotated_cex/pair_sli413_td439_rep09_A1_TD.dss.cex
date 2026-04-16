@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep09
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=9
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a monkey and a duck .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|monkey cconj|and
+	det|a-Ind-Art noun|duck .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they were playing near the pool with a big red ball .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool adp|with
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|ball .
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	the ball fell into the water with a splash .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water adp|with det|a-Ind-Art noun|splash .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the monkey went into the pool to get it .
+%mor:	det|the-Def-Art noun|monkey verb|go-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	the monkey used her hands to pick it up .
+%mor:	det|the-Def-Art noun|monkey verb|use-Fin-Ind-Past-S3
+	pron|her-Prs-Gen-S3 noun|hand-Plur-Acc part|to verb|pick-Inf-S
+	pron|it-Prs-Acc-S3 adp|up .
+%xdss:	Z; C2; B2; Z; C1; A1; B5;
+*CHI:	she brought it back to the duck .
+%mor:	pron|she-Prs-Nom-S3 verb|bring-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adv|back adp|to det|the-Def-Art noun|duck .
+%xdss:	B2; C2; A1; B5; Z;
+*CHI:	now they are happy and playing again .
+%mor:	adv|now pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	cconj|and verb|play-Part-Pres-S adv|again .
+%xdss:	B3; C2; F3; C1;
+@End

@@ -1,0 +1,198 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep09
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=476
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	two [/] two friends were at the pool yeah .
+%mor:	num|two noun|friend-Plur aux|be-Fin-Ind-Past-P3-irr adp|at
+	det|the-Def-Art noun|pool intj|yeah .
+%xdss:	A3; Z; C2; Z;
+*CHI:	they had a ball yeah a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc intj|yeah det|a-Ind-Art noun|ball-Acc .
+%xdss:	B3; C2; Z; Z;
+*CHI:	the ball went in the water splash .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water noun|splash .
+%xdss:	Z; C2; Z; Z;
+*CHI:	one friend went in the water yeah to get it .
+%mor:	num|one noun|friend verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water intj|yeah part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; Z; C1; A1; B5;
+*CHI:	got it out and out and brought it back yeah .
+%mor:	verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 adp|out cconj|and
+	adv|out cconj|and verb|bring-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3
+	adv|back intj|yeah .
+%xdss:	C2; A1; B5; F3; F3; C2; A1; B5;
+*CHI:	they were happy yeah .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1
+	intj|yeah .
+%xdss:	B3; C2;
+@Comment:	bundled_story_start=A2
+*CHI:	there's a sign that says no runnin [* m:0ing] .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg
+	noun|runnin-Acc .
+%xdss:	Z; A1; C2; Z;
+*CHI:	my friend is goin to the wata she's goin runin .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adp|to det|the-Def-Art noun|wata
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	verb|runin-Part-Pres-S .
+%xdss:	B1; Z; C1; C1; Z; B2; C1; C1; C1;
+*CHI:	whoosh she slips on the wet spot and gets hurt .
+%mor:	intj|whoosh pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art adj|wet-S1 noun|spot cconj|and
+	aux|get-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr .
+%xdss:	B2; C2; Z; F3; C7; C2;
+*CHI:	owwww she hurt her knee .
+%mor:	intj|owwww pron|she-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr
+	pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	then a lifeguard come [* m:03s:a] and put a bandaid on her knee .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	cconj|and verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bandaid-Acc adp|on pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	Z; C2; F3; C2; Z; B2; Z;
+*CHI:	now she's sittin on a bench restin .
+%mor:	adv|now pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|sittin-Part-Pres-S adp|on det|a-Ind-Art noun|bench noun|restin
+	.
+%xdss:	B2; C1; C1; Z; Z;
+@Comment:	bundled_story_start=A3
+*CHI:	two [/] two little ducks were playing with it .
+%mor:	num|two adj|little-S1 noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; C1; A1; B5;
+*CHI:	playing with the airplane .
+%mor:	verb|play-Part-Pres-S adp|with det|the-Def-Art noun|airplane .
+%xdss:	C1; Z;
+*CHI:	um went into the water .
+%mor:	intj|um verb|go-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art
+	noun|water .
+%xdss:	C2; Z;
+*CHI:	the little duck's owner got mad .
+%mor:	det|the-Def-Art adj|little-S1 noun|duck~part|s noun|owner
+	verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%xdss:	Z; Z; C2;
+*CHI:	she said no .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|no .
+%xdss:	B2; C2;
+*CHI:	tried to get it .
+%mor:	verb|try-Fin-Ind-Past-S1 part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	C2; D3; C1; A1; B5;
+*CHI:	tried to get the airplane .
+%mor:	verb|try-Fin-Ind-Past-S1 part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	C2; D3; C1; Z;
+*CHI:	she used the stick to pick it up .
+%mor:	pron|she-Prs-Nom-S3 verb|use-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|stick-Acc part|to verb|pick-Inf-S pron|it-Prs-Acc-S3 adp|up .
+%xdss:	B2; C2; Z; C1; A1; B5;
+*CHI:	and now the little duck is happy .
+%mor:	cconj|and adv|now det|the-Def-Art adj|little-S1 noun|duck
+	aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	F3; Z; C1;
+@Comment:	bundled_story_start=B1
+*CHI:	he's dumpin' it on the castle .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|dumpi-Part-Pres-S~cconj|and pron|it-Prs-Acc-S3 adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	B2; C1; A1; B5; Z;
+*CHI:	the castle all crumbled .
+%mor:	det|the-Def-Art noun|castle det|all-Def-Tot
+	verb|crumble-Fin-Ind-Past-S3 .
+%xdss:	Z; A3; C2;
+*CHI:	it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+@Comment:	bundled_story_start=B2
+*CHI:	we're goin we're goin have a picnic .
+%mor:	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 verb|go-Part-Pres-S
+	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 adv|goin
+	verb|have-Fin-Ind-Pres-S det|a-Ind-Art noun|picnic-Acc .
+%xdss:	B3; C1; B3; C1; Z;
+*CHI:	we're pickin carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 verb|pickin-Part-Pres-S
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	dog is eating carrots .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S
+	noun|carrot-Plur-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	rabbit is eating sandwiches .
+%mor:	noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S
+	noun|sandwich-Plur-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	oh look i ate too much .
+%mor:	intj|oh verb|look-Fin-Imp-S pron|I-Prs-Nom-S1
+	verb|eat-Fin-Ind-Past-S1-irr adv|too adv|much .
+%xdss:	C1; D5; B1; C2;
+*CHI:	now i feel sick .
+%mor:	adv|now pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	doctor is here .
+%mor:	noun|doctor aux|be-Fin-Ind-Pres-S3 adv|here .
+%xdss:	Z; C1;
+*CHI:	doctor is giving me some medicine .
+%mor:	noun|doctor aux|be-Fin-Ind-Pres-S3 verb|give-Part-Pres-S
+	pron|I-Prs-Acc-S1 det|some-Def-Ind noun|medicine-Acc .
+%xdss:	Z; C1; C1; B1; A3; Z;
+*CHI:	i'm drinking the medicine .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|drink-Part-Pres-S
+	det|the-Def-Art noun|medicine-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	i'm resting now .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|rest-Part-Pres-S
+	adv|now .
+%xdss:	B1; C1;
+*CHI:	i'm feeling better .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|feel-Part-Pres-S
+	adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+@Comment:	bundled_story_start=B3
+*CHI:	they pulling a wagon with a big dog and a rabbit .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Part-Pres-S det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 noun|dog cconj|and
+	det|a-Ind-Art noun|rabbit .
+%xdss:	B3; C1; Z; Z; F3; Z;
+*CHI:	the balloon is red .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 adj|red-S1 .
+%xdss:	Z; C1;
+*CHI:	it came loose and gone [* m:sub:ed] .
+%mor:	pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adj|loose-S1
+	cconj|and adj|gone-S1 .
+%xdss:	A1; C2; F3;
+*CHI:	the kids are sad .
+%mor:	det|the-Def-Art noun|kid-Plur aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	they want a balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they went to the balloon man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|man .
+%xdss:	B3; C2; Z; Z;
+*CHI:	they have two balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 num|two
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; A3; Z;
+@End

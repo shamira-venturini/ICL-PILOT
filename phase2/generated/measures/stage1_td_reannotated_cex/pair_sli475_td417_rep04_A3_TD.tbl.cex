@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep04_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two little birds were playing with a   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    toy airplane near the pool .       |   |   |   |   |   |   |   |   |   |   |
+Then , a boy [/] boy took the airplane |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    and dropped it into the water .    |   |   |   |   |   |   |   |   |   |   |
+The boy was very sad .                 |   |   |2  |   |   |   |   |   |  1|  3|
+His friend wanted to help him get it   |1  |2 2|2 1|3 5|   |   |   |   |  1| 23|
+    back .                             |   |5  |1  |   |   |   |   |   |   |   |
+A lifeguard came with a long pole and  |   |   |2 2|   |   |3  |   |   |  1|  8|
+    got the airplane out of the water .|   |   |   |   |   |   |   |   |   |   |
+The boy was happy again .              |   |   |2  |   |   |   |   |   |  1|  3|
+He got his airplane back .             |   |2 2|2  |   |   |   |   |   |  1|  7|
+He was happy to see it .               |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+TOTAL                                  |  6| 25| 24| 11|  0|  6|  0|  0|  8| 80|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score: 10.00

@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep02
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=406
+*CHI:	One day two ducks were playing with a ball near the pool .
+%mor:	num|one noun|day num|two noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|ball adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; A3; Z; C2; C1; Z; Z;
+*CHI:	The ball fell into the water .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	One duck went into the pool to get it .
+%mor:	num|one noun|duck verb|go-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	A3; Z; C2; Z; C1; A1; B5;
+*CHI:	The duck swam and swam and got the ball .
+%mor:	det|the-Def-Art noun|duck verb|swim-Fin-Ind-Past-S3-irr cconj|and
+	verb|swim-Fin-Ind-Past-S3-irr cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; F3; C2; F3; C2; Z;
+*CHI:	The duck came out of the pool and gave the ball to the other duck .
+%mor:	det|the-Def-Art noun|duck verb|come-Fin-Ind-Past-S3-irr adp|out
+	adp|of det|the-Def-Art noun|pool cconj|and
+	verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc adp|to
+	det|the-Def-Art adj|other-S1 noun|duck .
+%xdss:	Z; C2; Z; F3; C2; Z; A3; Z;
+*CHI:	They both quacked and played with the ball again .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|quack-Fin-Ind-Past-P3
+	cconj|and verb|play-Fin-Ind-Past-P3 adp|with det|the-Def-Art
+	noun|ball adv|again .
+%xdss:	B3; A7; C2; F3; C2; Z;
+@End

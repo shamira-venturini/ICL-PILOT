@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep05
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=5
+@Comment:	source_child_id=471
+*CHI:	my dog and me [* s:r:gc:pro] we were building a sandcastle on the
+	beach .
+%mor:	pron|my-Prs-Gen-S1 noun|dog cconj|and pron|I-Prs-Acc-S1
+	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|build-Part-Pres-S
+	det|a-Ind-Art noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach
+	.
+%xdss:	B1; Z; F3; B1; B3; C2; C1; Z; Z;
+*CHI:	i used the shovel and he used the bucket .
+%mor:	pron|I-Prs-Nom-S1 verb|use-Fin-Ind-Past-S1 det|the-Def-Art
+	noun|shovel-Acc cconj|and pron|he-Prs-Nom-S3
+	verb|use-Fin-Ind-Past-S3 det|the-Def-Art noun|bucket-Acc .
+%xdss:	B1; C2; Z; F3; B2; C2; Z;
+*CHI:	he wanted to add sand so he dumped the bucket on the castle .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to verb|add-Inf-S
+	noun|sand-Acc sconj|so pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3
+	det|the-Def-Art noun|bucket-Acc adp|on det|the-Def-Art noun|castle .
+%xdss:	B2; C2; D3; C1; Z; B2; C2; Z; Z;
+*CHI:	it was all flat now .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all adj|flat-S1
+	adv|now .
+%xdss:	A1; C2;
+*CHI:	he was so sad he started crying .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|sad-S1
+	pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 verb|cry-Ger-S .
+%xdss:	B2; C2; F5; B2; C2; D7; C1; D8;
+*CHI:	i was sad too .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sad-S1 adv|too .
+%xdss:	B1; C2;
+*CHI:	we tried to fix it together .
+%mor:	pron|we-Prs-Nom-P1 verb|try-Fin-Ind-Past-P1 part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 adv|together .
+%xdss:	B3; C2; D3; C1; A1; B5;
+*CHI:	we added sand again and made it better .
+%mor:	pron|we-Prs-Nom-P1 verb|add-Fin-Ind-Past-P1 noun|sand-Acc adv|again
+	cconj|and verb|make-Fin-Ind-Past-P1-irr pron|it-Prs-Acc-S3
+	adj|good-Cmp-S1 .
+%xdss:	B3; C2; Z; F3; C2; A1; B5;
+@End

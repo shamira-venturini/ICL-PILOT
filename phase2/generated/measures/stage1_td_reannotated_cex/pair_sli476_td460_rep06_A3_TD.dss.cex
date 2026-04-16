@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep06
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=460
+*CHI:	Two monkeys are playing with a little airplane near the pool .
+%mor:	num|two noun|monkey-Plur aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|little-S1
+	noun|airplane adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	They're having so much fun !
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S
+	adv|so adj|much-S1 noun|fun-Acc !
+%xdss:	B3; C1; F5; Z;
+*CHI:	But then , one of them dropped the airplane into the water !
+%mor:	cconj|but adv|then num|one adp|of pron|they-Prs-Acc-P3
+	verb|drop-Fin-Ind-Past-S3 det|the-Def-Art noun|airplane-Acc adp|into
+	det|the-Def-Art noun|water !
+%xdss:	F5; A3; B3; C2; Z; Z;
+*CHI:	The monkeys are so upset !
+%mor:	det|the-Def-Art noun|monkey-Plur aux|be-Fin-Ind-Pres-P3 adv|so
+	adj|upset-S1 !
+%xdss:	Z; C2; F5;
+*CHI:	They want it back !
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adv|back !
+%xdss:	B3; C1; A1; B5;
+*CHI:	A nice lifeguard comes to help them .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	part|to verb|help-Inf-S pron|they-Prs-Acc-P3 .
+%xdss:	Z; C2; D3; C1; B3;
+*CHI:	She gets a long stick with a net on the end .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|long-S1 noun|stick-Acc adp|with det|a-Ind-Art noun|net adp|on
+	det|the-Def-Art noun|end .
+%xdss:	B2; C2; Z; Z; Z;
+*CHI:	She dips it into the pool and gets the airplane out !
+%mor:	pron|she-Prs-Nom-S3 verb|dip-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adp|into det|the-Def-Art noun|pool cconj|and
+	verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|airplane-Acc adp|out !
+%xdss:	B2; C2; A1; B5; Z; F3; C2; Z;
+*CHI:	The monkeys are so happy !
+%mor:	det|the-Def-Art noun|monkey-Plur aux|be-Fin-Ind-Pres-P3 adv|so
+	adj|happy-S1 !
+%xdss:	Z; C2; F5;
+*CHI:	They're hugging each other and the lifeguard .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|hug-Part-Pres-S
+	det|each-Def-Rcp adj|other-S1 cconj|and det|the-Def-Art
+	noun|lifeguard .
+%xdss:	B3; C1; A7; A3; F3; Z;
+*CHI:	They're all smiling now .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adv|all
+	verb|smile-Part-Pres-S adv|now .
+%xdss:	B3; C1;
+@End

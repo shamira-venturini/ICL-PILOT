@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep08_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two little ducks play by the pool .    |3  |   |1  |   |   |   |   |   |  1|  5|
+They have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+The ball goes into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+One duck goes into the pool to get the |3  |   |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+The duck gets the ball .               |   |   |2  |   |   |   |   |   |  1|  3|
+The duck brings the ball back .        |   |   |2  |   |   |   |   |   |  1|  3|
+The ducks are happy now .              |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  6|  3| 13|  0|  0|  0|  0|  0|  7| 29|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  4.14

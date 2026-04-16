@@ -1,0 +1,36 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:16 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep02_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time a rabbit and a dog    |   |   |2  |   |   |3  |   |   |  1|  6|
+    were friends .                     |   |   |   |   |   |   |   |   |   |   |
+they pulled a wagon with a big red     |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon came loose and floated away|   |   |2 2|   |   |3  |   |   |  1|  8|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog were sad .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they looked for another balloon .      |3  |3  |2  |   |   |8  |   |   |  1| 17|
+they went to a man who had lots of     |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+he said the balloons were five dollars |3 7|2  |2 2|   |   |   |   |   |  1| 17|
+    each .                             |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog didn't have five    |3  |   |6 1|   |4  |3  |   |   |  1| 18|
+    dollars .                          |   |   |   |   |   |   |   |   |   |   |
+the man smiled and said okay you can   |3 3|   |2 2|2  |   |3 8|   |   |  1| 29|
+    have two balloons for four dollars |   |   |4 1|   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog were happy .        |   |   |2  |   |   |3  |   |   |  1|  6|
+they got two new balloons and they     |3 7|3 3|2 2|   |   |3  |   |   |  1| 27|
+    smiled at each other .             |3  |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 35| 23| 42|  2|  4| 37|  0|  0| 11|154|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score: 14.00

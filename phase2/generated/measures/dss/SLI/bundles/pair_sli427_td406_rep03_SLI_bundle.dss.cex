@@ -1,0 +1,207 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.16||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep03
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=427
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	Monkey go [* m:03s:a] splash [/] splash , get [* m:03s:a] ball .
+%mor:	noun|monkey verb|go-Fin-Imp-S noun|splash-Acc verb|get-Fin-Imp-S
+	noun|ball-Acc .
+%xdss:	Z; C1; D5; Z; C1; Z;
+*CHI:	Monkey come [* m:03s:a] out , give [* m:03s:a] me ball .
+%mor:	noun|monkey verb|come-Fin-Imp-S adp|out verb|give-Fin-Imp-S
+	pron|I-Prs-Acc-S1 noun|ball-Acc .
+%xdss:	Z; C1; C1; B1; Z;
+@Comment:	bundled_story_start=A2
+*CHI:	sign say [* m:03s:a] no run .
+%mor:	verb|sign-Fin-Imp-S verb|say-Fin-Imp-S det|no-Def-Neg noun|run-Acc
+	.
+%xdss:	C1; C1; Z;
+*CHI:	my friend doggy want [* m:03s:a] go splash .
+%mor:	pron|my-Prs-Gen-S1 noun|friend noun|doggy verb|want-Fin-Ind-Pres-S3
+	verb|go-Inf-S noun|splash-Acc .
+%xdss:	B1; Z; Z; C2; C1; Z;
+*CHI:	she go [* m:03s:a] run .
+%mor:	pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3
+	verb|run-Part-Past-S-irr .
+%xdss:	B2; C2; C2;
+*CHI:	she slip [* m:03s:a] and fall [* m:03s:a] down .
+%mor:	pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|fall-Fin-Ind-Pres-S3 adp|down .
+%xdss:	B2; C2; F3; C2;
+*CHI:	boo [/] boo on her knee .
+%mor:	verb|boo-Fin-Imp-S adp|on pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	C1; B2; Z;
+*CHI:	then nice lady come [* m:03s:a] with white strip .
+%mor:	adv|then adj|nice-S1 noun|lady verb|come-Fin-Ind-Pres-S3 adp|with
+	adj|white-S1 noun|strip .
+%xdss:	Z; C2; Z;
+*CHI:	she put it on doggy's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adp|on noun|doggy~part|s noun|knee .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	doggy sit [* m:03s:a] down on a bench .
+%mor:	adj|doggy-S1 verb|sit-Fin-Imp-S adp|down adp|on det|a-Ind-Art
+	noun|bench .
+%xdss:	C1; Z;
+*CHI:	she was resting .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|rest-Part-Pres-S .
+%xdss:	B2; C2; C1;
+@Comment:	bundled_story_start=A3
+*CHI:	One day two frogs is [* m:vsg:a] play near pool .
+%mor:	num|one noun|day num|two noun|frog-Plur aux|be-Fin-Ind-Pres-S3
+	verb|play-Inf-S adp|near noun|pool .
+%xdss:	A3; Z; A3; Z; C1; C1; Z;
+*CHI:	airplane is go in pool .
+%mor:	noun|airplane aux|be-Fin-Ind-Pres-S3 verb|go-Inf-S adp|in noun|pool
+	.
+%xdss:	Z; C1; C1; Z;
+*CHI:	lifeguard is take [* m:0ing] pole .
+%mor:	noun|lifeguard aux|be-Fin-Ind-Pres-S3 verb|take-Inf-S noun|pole-Acc
+	.
+%xdss:	Z; C1; C1; Z;
+*CHI:	get airplane .
+%mor:	verb|get-Fin-Imp-S noun|airplane-Acc .
+%xdss:	C1; Z;
+*CHI:	boy is happy .
+%mor:	noun|boy aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	now boy is play [* m:0ing] with airplane again .
+%mor:	adv|now noun|boy aux|be-Fin-Ind-Pres-S3 noun|play adp|with
+	noun|airplane adv|again .
+%xdss:	Z; C1; Z; Z;
+@Comment:	bundled_story_start=B1
+*CHI:	bunny and doggy build a big castle .
+%mor:	noun|bunny cconj|and noun|doggy verb|build-Fin-Imp-S det|a-Ind-Art
+	adj|big-S1 noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	bunny said i want a moat .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr pron|I-Prs-Nom-S1
+	verb|want-Fin-Ind-Pres-S1 det|a-Ind-Art noun|moat-Acc .
+%xdss:	Z; C2; D5; B1; C1; Z;
+*CHI:	doggy used a big shovel .
+%mor:	noun|doggy verb|use-Fin-Ind-Past-S3 det|a-Ind-Art adj|big-S1
+	noun|shovel-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	but doggy is running .
+%mor:	cconj|but noun|doggy aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S .
+%xdss:	F5; Z; C1; C1;
+*CHI:	(be)cause he was crying (be)cause sad .
+%mor:	sconj|because pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|cry-Part-Pres-S sconj|because adj|sad-S1 .
+%xdss:	F6; B2; C2; C1; F6;
+*CHI:	bunny is sad .
+%mor:	noun|bunny aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	bunny said it's my castle .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1
+	noun|castle .
+%xdss:	Z; C2; A1; C1; B1; Z;
+*CHI:	i made it .
+%mor:	pron|I-Prs-Nom-S1 verb|make-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3
+	.
+%xdss:	B1; C2; A1; B5;
+*CHI:	bunny and doggy hugged each other .
+%mor:	noun|bunny cconj|and noun|doggy verb|hugge-Fin-Ind-Past-S3
+	det|each-Def-Rcp adj|other-S1 .
+%xdss:	Z; F3; Z; C2; A7; A3;
+*CHI:	bunny said it's okay doggy .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 adj|doggy-S1 .
+%xdss:	Z; C2; A1; C1;
+*CHI:	we can make it again .
+%mor:	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|make-Inf-S pron|it-Prs-Acc-S3
+	adv|again .
+%xdss:	B3; C4; D2; C1; A1; B5;
+*CHI:	bunny and doggy build a new castle .
+%mor:	noun|bunny cconj|and noun|doggy verb|build-Fin-Ind-S det|a-Ind-Art
+	adj|new-S1 noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	it's even bigger than the old one .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|even adj|big-Cmp-S1
+	adp|than det|the-Def-Art adj|old-S1 noun|one .
+%xdss:	A1; C1; F8; Z;
+@Comment:	bundled_story_start=B2
+*CHI:	is like it .
+%mor:	aux|be-Fin-Ind-Pres-S3 adp|like pron|it-Prs-Acc-S3 .
+%xdss:	C1; F8; G1; A1; B5;
+*CHI:	it it's in the grass .
+%mor:	pron|it-Prs-Nom-S3 pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|grass .
+%xdss:	A1; A1; C1; Z;
+*CHI:	say &=growls I mad .
+%mor:	verb|say-Fin-Imp-S pron|I-Prs-Nom-S1 verb|mad-Fin-Ind-Pres-S1 .
+%xdss:	C1; D5; B1; C1;
+*CHI:	is do it .
+%mor:	aux|be-Fin-Ind-Pres-S3 verb|do-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	C1; G1; C1; A1; B5;
+*CHI:	can't do it .
+%mor:	aux|can-Fin-S~part|not verb|do-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%xdss:	C4; E4; G6; C1; A1; B5;
+*CHI:	I got it .
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%xdss:	B1; C2; A1; B5;
+*CHI:	thank you .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	C1; B5;
+*CHI:	it it's carrots .
+%mor:	pron|it-Prs-Nom-S3 pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	noun|carrot-Plur .
+%xdss:	A1; A1; C1; Z;
+*CHI:	I feel bad .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|bad-S1 .
+%xdss:	B1; C1;
+*CHI:	&=growls my tummy hurt .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	&=growls I lay down .
+%mor:	pron|I-Prs-Nom-S1 verb|lay-Fin-Ind-Past-S1 adp|down .
+%xdss:	B1; C2;
+*CHI:	the bunny say [* m:03s:a] &=growls oh no .
+%mor:	det|the-Def-Art noun|bunny verb|say-Fin-Ind-Pres-S3 intj|oh intj|no
+	.
+%xdss:	Z; C2;
+*CHI:	we go to see .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 part|to verb|see-Inf-S .
+%xdss:	B3; C1; D3; C1;
+*CHI:	the doctor say [* m:03s:a] &=growls don't worry .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S
+	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S .
+%xdss:	Z; C1; C4; E4; C1;
+*CHI:	he give [* m:03s:a] me medicine .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|I-Prs-Acc-S1
+	noun|medicine-Acc .
+%xdss:	B2; C2; B1; Z;
+*CHI:	I feel better .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+*CHI:	I sit up .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Pres-S1 adp|up .
+%xdss:	B1; C1;
+*CHI:	I say .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1;
+@Comment:	bundled_story_start=B3
+*CHI:	we took my bunny and dog for a walk .
+%mor:	pron|we-Prs-Nom-P1 verb|take-Fin-Ind-Past-P1-irr pron|my-Prs-Gen-S1
+	noun|bunny-Acc cconj|and noun|dog adp|for det|a-Ind-Art noun|walk .
+%xdss:	B3; C2; B1; Z; F3; Z; F8; Z;
+*CHI:	my doggy was pulling the wagon with bunny and a big red balloon .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Past-S3-irr
+	verb|pull-Part-Pres-S det|the-Def-Art noun|wagon-Acc adp|with
+	noun|bunny cconj|and det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B1; Z; C2; C1; Z; Z; F3; Z;

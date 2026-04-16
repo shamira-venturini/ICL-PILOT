@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:31 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep02_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there was two doggy and kitty .        |3  |   |2  |   |   |3  |   |   |  1|  9|
+they play with ball by the pool .      |   |3  |1  |   |   |   |   |   |  1|  5|
+the ball go [* m:03s:a] into the water |   |   |2  |   |   |   |   |   |  0|  2|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+kitty go get it .                      |1  |5  |1 1|   |   |   |   |   |  1|  9|
+kitty swim [* m:03s:a] in pool .       |   |   |1  |   |   |   |   |   |  0|  1|
+kitty bring [* m:03s:a] ball out .     |   |   |1  |   |   |   |   |   |  0|  1|
+doggy is happy now .                   |   |   |1  |   |   |   |   |   |  1|  2|
+TOTAL                                  |  4|  8| 10|  0|  0|  3|  0|  0|  4| 29|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  4.14

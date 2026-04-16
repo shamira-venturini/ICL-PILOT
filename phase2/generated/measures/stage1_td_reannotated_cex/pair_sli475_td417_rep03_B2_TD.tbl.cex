@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep03_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there was a rabbit and a dog .         |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit and dog were going on a |   |   |2 1|   |   |3 3|   |   |  1| 10|
+    picnic .                           |   |   |   |   |   |   |   |   |   |   |
+they had sandwiches and carrots and    |   |3  |2  |   |   |3 3|   |   |  1| 12|
+    berries .                          |   |   |   |   |   |   |   |   |   |   |
+they were so excited .                 |   |3  |2  |   |   |5  |   |   |  1| 11|
+and the dog ate a lot .                |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit and dog had a big picnic|   |   |2  |   |   |3 3|   |   |  1|  9|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+and then the dog had a big tummyache . |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog felt sick .                |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit said oh no .            |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit took the dog to the     |   |   |2  |   |   |3  |   |   |  1|  6|
+    doctor .                           |   |   |   |   |   |   |   |   |   |   |
+and the doctor said don't eat so much .|   |   |2 4|   |4  |3 5|   |   |  1| 20|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+and the dog felt better .              |   |   |2  |   |   |3  |   |   |  1|  6|
+and the dog sat down and rested .      |   |   |2 2|   |   |3 3|   |   |  1| 11|
+TOTAL                                  |  0|  6| 34|  0|  4| 58|  0|  0| 13|115|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  8.85

@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep09
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=9
+@Comment:	source_child_id=471
+*CHI:	Two happy birds played with their little airplane near the pool .
+%mor:	num|two adj|happy-S1 noun|bird-Plur verb|play-Fin-Ind-Past-P3
+	adp|with pron|their-Prs-Gen-P3 adj|little-S1 noun|airplane adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; B3; Z; Z;
+*CHI:	Then , the airplane fell into the water .
+%mor:	adv|then det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	The birds got really upset .
+%mor:	det|the-Def-Art noun|bird-Plur verb|get-Fin-Ind-Past-P3-irr
+	adv|really adj|upset-S1 .
+%xdss:	Z; C2;
+*CHI:	They wanted their airplane back !
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3
+	pron|their-Prs-Gen-P3 noun|airplane-Acc adv|back !
+%xdss:	B3; C2; B3; Z;
+*CHI:	A nice lifeguard jumped in and used a long pole to get the airplane
+	.
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard verb|jump-Fin-Ind-Past-S3
+	adp|in cconj|and verb|use-Fin-Ind-Past-S3 det|a-Ind-Art adj|long-S1
+	noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	Z; C2; F3; C2; Z; C1; Z;
+*CHI:	Now the birds are happy and playing again .
+%mor:	adv|now det|the-Def-Art noun|bird-Plur aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 cconj|and verb|play-Part-Pres-S adv|again .
+%xdss:	Z; C2; F3; C1;
+@End

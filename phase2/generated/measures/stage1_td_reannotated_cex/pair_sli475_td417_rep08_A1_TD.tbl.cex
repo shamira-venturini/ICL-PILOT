@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep08_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there were two frogs by the pool one   |3 3|3 5|2 2|2  |   |3 5|   |   |  1|107|
+    had a red ball they played and     |1 1|1 5|2 2|   |   |3 3|   |   |   |   |
+    threw it but it fell in the water  |3 1|2 5|2 2|   |   |3  |   |   |   |   |
+    the frog said oh no the other frog |1 1|2 5|2 1|   |   |   |   |   |   |   |
+    said dont worry i will get it he   |7  |2 3|4 1|   |   |   |   |   |   |   |
+    went to the pool and got it with   |   |3  |2 2|   |   |   |   |   |   |   |
+    his hands and brought it back to   |   |   |2 2|   |   |   |   |   |   |   |
+    his friend they both played again  |   |   |2  |   |   |   |   |   |   |   |
+    and they were happy .              |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 21| 36| 30|  2|  0| 17|  0|  0|  1|107|
+WARNING: DSS requires 50 complete sentences and this transcript only has 1.
+
+Developmental sentence score: 107.00

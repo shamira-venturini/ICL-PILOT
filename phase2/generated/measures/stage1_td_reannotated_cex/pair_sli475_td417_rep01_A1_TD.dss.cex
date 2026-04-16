@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep01
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=417
+*CHI:	me [* s:r:gc:pro] and my doggy were at the pool .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	aux|be-Fin-Ind-Past-P3-irr adp|at det|the-Def-Art noun|pool .
+%xdss:	B1; F3; B1; Z; C2; Z;
+*CHI:	we were playing near the water with a ball .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|play-Part-Pres-S
+	adp|near det|the-Def-Art noun|water adp|with det|a-Ind-Art noun|ball
+	.
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	it fell in .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in .
+%xdss:	A1; C2;
+*CHI:	my doggy went in the pool to get it .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	B1; Z; C2; Z; C1; A1; B5;
+*CHI:	she swam under the water and got the ball .
+%mor:	pron|she-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr adp|under
+	det|the-Def-Art noun|water cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	B2; C2; Z; F3; C2; Z;
+*CHI:	then she came back and I gave her a big ol' hug .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adv|back
+	cconj|and pron|I-Prs-Nom-S1 verb|give-Fin-Ind-Past-S1-irr
+	pron|her-Prs-Acc-S3 det|a-Ind-Art adj|big-S1 noun|ol~x|'
+	noun|hug-Acc .
+%xdss:	B2; C2; F3; B1; C2; B2; Z; Z;
+@End

@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep06
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog play in the sandbox .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|play-Fin-S adp|in det|the-Def-Art noun|sandbox .
+%xdss:	Z; Z; F3; Z; C1; Z;
+*CHI:	they make a big sandcastle together .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc adv|together .
+%xdss:	B3; C1; Z;
+*CHI:	dog use [* m:03s:a] the big bucket to add more sand on the top .
+%mor:	noun|dog verb|use-Fin-Imp-S det|the-Def-Art adj|big-S1
+	noun|bucket-Acc part|to verb|add-Inf-S adj|more-Cmp-S1 noun|sand-Acc
+	adp|on det|the-Def-Art noun|top .
+%xdss:	Z; C1; Z; C1; A3; Z; Z;
+*CHI:	and then rabbit use [* m:03s:a] the shovel to make a moat around it
+	.
+%mor:	cconj|and adv|then noun|rabbit verb|use-Fin-Imp-S det|the-Def-Art
+	noun|shovel-Acc part|to verb|make-Inf-S det|a-Ind-Art noun|moat-Acc
+	adp|around pron|it-Prs-Acc-S3 .
+%xdss:	F3; Z; C1; Z; C1; Z; A1; B5;
+*CHI:	but then dog just dump [* m:03s:a] the whole bucket of sand on it .
+%mor:	cconj|but adv|then noun|dog adv|just verb|dump-Fin-Imp-S
+	det|the-Def-Art adj|whole-S1 noun|bucket-Acc adp|of noun|sand adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	F5; Z; C1; Z; Z; A1; B5;
+*CHI:	the sandcastle is ruined .
+%mor:	det|the-Def-Art noun|sandcastle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	she is so sad .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adv|so adj|sad-S1 .
+%xdss:	B2; C1; F5;
+*CHI:	dog say [* m:03s:a] sorry and try to help rebuild it .
+%mor:	noun|dog verb|say-Fin-Imp-S adj|sorry-S1 cconj|and
+	verb|try-Fin-Imp-S part|to verb|help-Inf-S verb|rebuild-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; F3; C1; D3; C1; C1; A1; B5;
+@End

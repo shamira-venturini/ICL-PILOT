@@ -1,0 +1,64 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep01
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=406
+*CHI:	Benny's balloon went POP !
+%mor:	propn|Benny~part|s noun|balloon verb|go-Fin-Ind-Past-S3-irr
+	noun|pop-Acc !
+%xdss:	Z; C2; Z;
+*CHI:	Benny's doggy friend was sad too .
+%mor:	propn|Benny~part|s adj|doggy-S1 noun|friend
+	aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 adv|too .
+%xdss:	Z; C2;
+*CHI:	We need another balloon !
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 det|another-Def-Ind
+	noun|balloon-Acc !
+%xdss:	B3; C1; A3; Z;
+*CHI:	We have to go get one !
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 part|to verb|go-Inf-S
+	verb|get-Inf-S num|one !
+%xdss:	B3; C1; D3; C1; C1; A3;
+*CHI:	Benny's mom said .
+%mor:	propn|Benny~part|s noun|mom verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	let's go to the party place .
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|go-Inf-S adp|to
+	det|the-Def-Art noun|party noun|place .
+%xdss:	B3; D2; C1; Z; Z;
+*CHI:	We got there and they said .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr adv|there cconj|and
+	pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Past-P3-irr .
+%xdss:	B3; C2; F3; B3; C2;
+*CHI:	balloons are two dollars each .
+%mor:	noun|balloon-Plur aux|be-Fin-Ind-Pres-P3 num|two noun|dollar-Plur
+	det|each-Def-Tot .
+%xdss:	Z; C2; A3; Z; A7;
+*CHI:	we don't have enough money .
+%mor:	pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Pres-P1~part|not verb|have-Inf-S
+	adj|enough-S1 noun|money-Acc .
+%xdss:	B3; E4; C1; Z;
+*CHI:	The party lady said .
+%mor:	det|the-Def-Art noun|party noun|lady verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; Z; C2;
+*CHI:	ok , I can help you .
+%mor:	intj|ok pron|I-Prs-Nom-S1 aux|can-Fin-S verb|help-Inf-S
+	pron|you-Prs-Acc-S2 .
+%xdss:	B1; C4; D2; C1; B5;
+*CHI:	She gave Benny two balloons and he was so happy !
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr propn|Benny
+	num|two noun|balloon-Plur-Acc cconj|and pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 !
+%xdss:	B2; C2; A3; Z; F3; B2; C2; F5;
+@End

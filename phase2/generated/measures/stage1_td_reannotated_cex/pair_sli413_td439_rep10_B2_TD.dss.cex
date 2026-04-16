@@ -1,0 +1,71 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep10
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=10
+@Comment:	source_child_id=439
+*CHI:	one day rabbit and dog goin [* m:0ing] to the park .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Pres-S3 adp|to det|the-Def-Art noun|park .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	they havin a picnic yay !
+%mor:	pron|they-Prs-Nom-P3 verb|havin-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|picnic noun|yay-Acc !
+%xdss:	B3; C1; Z; Z;
+*CHI:	rabbit bring [* m:03s:a] carrot sandwiches and dog bring
+	[* m:03s:a] apples .
+%mor:	noun|rabbit verb|bring-Fin-Imp-S noun|carrot noun|sandwich-Plur-Acc
+	cconj|and noun|dog verb|bring-Fin-Imp-S noun|apple-Plur-Acc .
+%xdss:	Z; C1; Z; Z; F3; Z; C1; Z;
+*CHI:	we goin [* m:+ing] to have a yummy lunch yay !
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 part|to verb|have-Inf-S
+	det|a-Ind-Art adj|yummy-S1 noun|lunch noun|yay-Acc !
+%xdss:	B3; C1; D3; C1; Z; Z;
+*CHI:	my friend eat [* m:03s:a] too much .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|eat-Fin-Ind-Pres-S3 adv|too
+	adv|much .
+%xdss:	B1; Z; C2;
+*CHI:	he eat [* m:03s:a] all the sandwiches and all the apples .
+%mor:	pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Pres-S3 det|all-Def-Tot
+	det|the-Def-Art noun|sandwich-Plur-Acc cconj|and det|all-Def-Tot
+	det|the-Def-Art noun|apple-Plur .
+%xdss:	B2; C2; A3; Z; F3; A3; Z;
+*CHI:	now he feelin [* m:0ing] yucky .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|feelin-Fin-Ind-Pres-S3 adj|yucky-S1
+	.
+%xdss:	B2; C2;
+*CHI:	we call the doctor .
+%mor:	pron|we-Prs-Nom-P1 verb|call-Fin-Ind-Pres-P1 det|the-Def-Art
+	noun|doctor-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the doctor come [* m:03s:a] and check my friend .
+%mor:	det|the-Def-Art noun|doctor verb|come-Fin-Ind-Pres-S3 cconj|and
+	verb|check-Fin-S pron|my-Prs-Gen-S1 noun|friend-Acc .
+%xdss:	Z; C2; F3; C1; B1; Z;
+*CHI:	she say [* m:03s:a] he gotta rest .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3
+	aux|getta-Fin-S verb|rest-Inf-S .
+%xdss:	B2; C2; B2; D2; C1;
+*CHI:	my friend lie [* m:03s:a] down and sleep .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|lie-Fin-Ind-Pres-S3 adp|down
+	cconj|and verb|sleep-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2; F3; C2;
+*CHI:	now he feel [* m:03s:a] better .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	B2; C2;
+*CHI:	he go [* m:03s:a] home with mama .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|home adp|with
+	noun|mama .
+%xdss:	B2; C2; Z;
+@End

@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep04
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=410
+*CHI:	it says no run .
+%mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg
+	noun|run-Acc .
+%xdss:	A1; C2; Z;
+*CHI:	the monkey's running .
+%mor:	det|the-Def-Art noun|monkey~part|s noun|running-Ger .
+%xdss:	Z; Z; D8;
+*CHI:	the monkey's running to the water .
+%mor:	det|the-Def-Art noun|monkey~part|s verb|run-Part-Pres-S adp|to
+	det|the-Def-Art noun|water .
+%xdss:	Z; C1; Z;
+*CHI:	and the bunny's laughing .
+%mor:	cconj|and det|the-Def-Art noun|bunny~part|s noun|laugh-Ger .
+%xdss:	F3; Z; Z; D8;
+*CHI:	the monkey slips and gets hurt .
+%mor:	det|the-Def-Art noun|monkey verb|slip-Fin-Ind-Pres-S3 cconj|and
+	aux|get-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S-irr .
+%xdss:	Z; C2; F3; C7; C2;
+*CHI:	a person is coming .
+%mor:	det|a-Ind-Art noun|person aux|be-Fin-Ind-Pres-S3
+	verb|come-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the person's putting a bandage on the monkey's knee .
+%mor:	det|the-Def-Art noun|person~aux|be-Fin-Ind-Pres-S3
+	verb|put-Part-Pres-S det|a-Ind-Art noun|bandage-Acc adp|on
+	det|the-Def-Art noun|monkey~part|s noun|knee .
+%xdss:	Z; C1; C1; Z; Z; Z;
+*CHI:	the monkey's sitting on a bench .
+%mor:	det|the-Def-Art noun|monkey~part|s verb|sit-Part-Pres-S adp|on
+	det|a-Ind-Art noun|bench .
+%xdss:	Z; C1; Z;
+@End

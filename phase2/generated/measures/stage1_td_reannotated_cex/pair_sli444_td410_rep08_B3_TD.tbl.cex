@@ -1,0 +1,35 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep08_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they was [* m:vsg:a] carryin [* m:0ing]|   |3  |7 2|   |   |   |   |   |  0| 12|
+     a wagon .                         |   |   |   |   |   |   |   |   |   |   |
+the balloon came loose .               |   |   |2  |   |   |   |   |   |  1|  3|
+it went whoosh .                       |1  |   |2  |   |   |   |   |   |  1|  4|
+it went away .                         |1  |   |2  |   |   |   |   |   |  1|  4|
+the kids was [* m:vsg:a] sad .         |   |   |2  |   |   |   |   |   |  0|  2|
+they was [* m:vsg:a] lookin for another|3  |3  |2 1|   |   |8  |   |   |  0| 17|
+     one .                             |   |   |   |   |   |   |   |   |   |   |
+they go to the store .                 |   |3  |1  |   |   |   |   |   |  1|  5|
+the man have [* m:vun:a] lots of       |   |   |1  |   |   |   |   |   |  0|  1|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+he was makin a big price .             |   |2  |2 1|   |   |   |   |   |  1|  6|
+the kids no [* s:r:gc:det] have enough |   |   |1  |   |   |   |   |   |  0|  1|
+    money .                            |   |   |   |   |   |   |   |   |   |   |
+the man help [* m:03s:a] them .        |   |3  |1  |   |   |   |   |   |  0|  4|
+he give [* m:03s:a] them two balloons .|3  |2 3|2  |   |   |   |   |   |  0| 10|
+they was [* m:vsg:a] happy .           |   |3  |2  |   |   |   |   |   |  0|  5|
+they was [* m:vsg:a] blowin [* m:0ing] |   |3 3|2 1|   |   |   |   |   |  0|  9|
+    up their balloons .                |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  8| 28| 34|  0|  0|  8|  0|  0|  5| 83|
+WARNING: DSS requires 50 complete sentences and this transcript only has 14.
+
+Developmental sentence score:  5.93

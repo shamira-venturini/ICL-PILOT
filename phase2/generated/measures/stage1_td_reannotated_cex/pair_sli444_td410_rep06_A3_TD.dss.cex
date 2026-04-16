@@ -1,0 +1,67 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep06
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=410
+*CHI:	and the doggy's got the airplane .
+%mor:	cconj|and det|the-Def-Art noun|doggy~aux|be-Fin-Ind-Pres-S3
+	verb|get-Fin-Ind-Past-S-irr det|the-Def-Art noun|airplane-Acc .
+%xdss:	F3; Z; C1; C2; Z;
+*CHI:	he's not got the airplane .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not
+	verb|get-Part-Past-S-irr det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C1; E7; C2; Z;
+*CHI:	and the airplane's gonna be in the pool .
+%mor:	cconj|and det|the-Def-Art noun|airplane~aux|be-Fin-Ind-Pres-S3
+	adv|gonna aux|be-Inf-S adp|in det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C1; Z;
+*CHI:	(.) and the boy's gonna get the airplane .
+%mor:	cconj|and det|the-Def-Art noun|boy~aux|be-Fin-Ind-Pres-S3 part|go
+	verb|get-Inf-S det|the-Def-Art noun|airplane-Acc .
+%xdss:	F3; Z; C1; C1; Z;
+*CHI:	(.) and it's going away .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adv|away .
+%xdss:	F3; A1; C1; C1;
+*CHI:	(.) and it got in the pool .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	F3; A1; C2; Z;
+*CHI:	(.) and they're gonna get it .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 part|go
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	F3; B3; C1; A1; B5;
+*CHI:	and the man said no you can't touch .
+%mor:	cconj|and det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr
+	intj|no pron|you-Prs-Nom-S2 aux|can-Fin-S~part|not verb|touch-Inf-S
+	.
+%xdss:	F3; Z; C2; C4; E4; C1;
+*CHI:	and he's the man with the pole .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|man adp|with det|the-Def-Art noun|pole .
+%xdss:	F3; B2; C1; Z; Z;
+*CHI:	(.) and he's got the airplane .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Past-S-irr det|the-Def-Art noun|airplane-Acc .
+%xdss:	F3; B2; C7; C2; Z;
+*CHI:	(.) and he's giving it to the boy .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|give-Part-Pres-S pron|it-Prs-Acc-S3 adp|to det|the-Def-Art
+	noun|boy .
+%xdss:	F3; B2; C1; C1; A1; B5; Z;
+*CHI:	and the boy's happy .
+%mor:	cconj|and det|the-Def-Art noun|boy~aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	F3; Z; C1;
+@End

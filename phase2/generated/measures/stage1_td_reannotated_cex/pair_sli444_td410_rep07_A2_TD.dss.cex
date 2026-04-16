@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep07
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=410
+*CHI:	Two monkeys went to the pool .
+%mor:	num|two noun|monkey-Plur verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; Z;
+*CHI:	They saw a sign that said .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|sign-Acc pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B3; C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	One monkey got excited and started to run to the water .
+%mor:	num|one noun|monkey verb|get-Fin-Ind-Past-S3-irr
+	verb|excite-Part-Past-S cconj|and verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; C2; F3; C2; D3; C1; Z;
+*CHI:	Then the monkey slipped and fell down on its knee .
+%mor:	adv|then det|the-Def-Art noun|monkey verb|slip-Fin-Ind-Past-S3
+	cconj|and verb|fall-Fin-Ind-Past-S3-irr adp|down adp|on
+	pron|its-Prs-Gen-S3 noun|knee .
+%xdss:	Z; C2; F3; C2; A1; Z;
+*CHI:	It hurt [* m:03s:a] its knee .
+%mor:	pron|it-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	A1; C2; A1; Z;
+*CHI:	A nice lifeguard came and put a bandage on its [* s:r:gc:det] knee
+	.
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr cconj|and verb|put-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bandage-Acc adp|on pron|its-Prs-Gen-S3 noun|knee
+	.
+%xdss:	Z; C2; F3; C2; Z; A1; Z;
+*CHI:	The monkey sat on a bench and rested .
+%mor:	det|the-Def-Art noun|monkey verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep04
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog , they go for a ride .
+%mor:	noun|rabbit cconj|and noun|dog pron|they-Prs-Nom-P3
+	verb|go-Fin-Ind-Pres-P3 adp|for det|a-Ind-Art noun|ride .
+%xdss:	Z; F3; Z; B3; C1; F8; Z;
+*CHI:	They got a wagon , it's red , and a big balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|wagon-Acc pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|red-S1
+	cconj|and det|a-Ind-Art adj|big-S1 noun|balloon .
+%xdss:	B3; C2; Z; A1; C1; F3; Z;
+*CHI:	It's blue .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|blue-S1 .
+%xdss:	A1; C1;
+*CHI:	The balloon is tied .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3
+	verb|tie-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	but then the balloon come [* m:03s:a] untied .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Pres-S3 verb|unty-Part-Past-S .
+%xdss:	F5; Z; C2; C2;
+*CHI:	It go [* m:03s:a] away .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|away .
+%xdss:	A1; C2;
+*CHI:	They want another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	They go to a man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art
+	noun|man .
+%xdss:	B3; C1; Z;
+*CHI:	He got a lot of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|lot-Acc adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+@End

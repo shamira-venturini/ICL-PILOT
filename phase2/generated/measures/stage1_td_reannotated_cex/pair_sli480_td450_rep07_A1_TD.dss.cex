@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep07
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=450
+*CHI:	Two monkeys play near the pool .
+%mor:	num|two noun|monkey-Plur verb|play-Fin-Ind-Pres-P3 adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C1; Z;
+*CHI:	One monkey hits the ball , and it goes into the water .
+%mor:	num|one noun|monkey verb|hit-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3
+	adp|into det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z; F3; A1; C2; Z;
+*CHI:	The monkey that hit the ball wants it back .
+%mor:	det|the-Def-Art noun|monkey pron|that-Rel
+	verb|hit-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc
+	verb|want-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|back .
+%xdss:	Z; A1; C2; Z; C2; A1; B5;
+*CHI:	He goes into the pool to get it .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|into det|the-Def-Art
+	noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; Z; C1; A1; B5;
+*CHI:	He swims to the middle and picks up the ball .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|middle cconj|and verb|pick-Fin-Ind-Pres-S3 adp|up
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	B2; C2; Z; F3; C2; Z;
+*CHI:	Now he's happy and comes out of the pool with the ball .
+%mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	cconj|and verb|come-Fin-Ind-Pres-S3 adp|out adp|of det|the-Def-Art
+	noun|pool adp|with det|the-Def-Art noun|ball .
+%xdss:	B2; C1; F3; C2; Z; Z;
+*CHI:	Now both monkeys are happy and play some more .
+%mor:	adv|now det|both-Def-Tot noun|monkey-Plur aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 cconj|and verb|play-Fin-Ind-Pres-P3 det|some-Def-Ind
+	adj|more-Cmp-S1 .
+%xdss:	A7; Z; C2; F3; C1; A3; A3;
+@End

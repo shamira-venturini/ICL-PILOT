@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep09
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=406
+*CHI:	One day my kitty and my doggy were playing .
+%mor:	num|one noun|day pron|my-Prs-Gen-S1 noun|kitty cconj|and
+	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S .
+%xdss:	A3; Z; B1; Z; F3; B1; Z; C2; C1;
+*CHI:	They had a ball and they were playing with it by the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with
+	pron|it-Prs-Acc-S3 adp|by det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z; F3; B3; C2; C1; A1; B5; Z;
+*CHI:	But then the ball went splish splash into the water .
+%mor:	cconj|but adv|then det|the-Def-Art noun|ball
+	verb|go-Fin-Ind-Past-S3-irr noun|splish noun|splash-Acc adp|into
+	det|the-Def-Art noun|water .
+%xdss:	F5; Z; C2; Z; Z; Z;
+*CHI:	My kitty said .
+%mor:	pron|my-Prs-Gen-S1 noun|kitty verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	My doggy said .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	I'll get it !
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3
+	!
+%xdss:	C4; C1; A1; B5;
+*CHI:	He ran to the pool and got in the water .
+%mor:	pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool cconj|and verb|get-Fin-Ind-Past-S3-irr
+	adp|in det|the-Def-Art noun|water .
+%xdss:	B2; C2; Z; F3; C2; Z;
+*CHI:	He swam to get the ball .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr part|to
+	verb|get-Inf-S det|the-Def-Art noun|ball-Acc .
+%xdss:	B2; C2; D3; C1; Z;
+*CHI:	My kitty cheered and clapped .
+%mor:	pron|my-Prs-Gen-S1 noun|kitty verb|cheer-Fin-Ind-Past-S3 cconj|and
+	verb|clapp-Fin-Ind-Past-S3 .
+%xdss:	B1; Z; C2; F3; C2;
+*CHI:	My doggy came back and gave my kitty the ball .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|come-Fin-Ind-Past-S3-irr
+	adv|back cconj|and verb|give-Fin-Ind-Past-S3-irr pron|my-Prs-Gen-S1
+	noun|kitty det|the-Def-Art noun|ball-Acc .
+%xdss:	B1; Z; C2; F3; C2; B1; Z; Z;
+*CHI:	My kitty was so happy !
+%mor:	pron|my-Prs-Gen-S1 noun|kitty aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 !
+%xdss:	B1; Z; C2; F5;
+*CHI:	Now they're playing again .
+%mor:	adv|now pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S adv|again .
+%xdss:	B3; C1;
+@End

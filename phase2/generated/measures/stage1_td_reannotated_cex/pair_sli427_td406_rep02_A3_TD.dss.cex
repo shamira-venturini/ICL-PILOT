@@ -1,0 +1,72 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep02
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=406
+*CHI:	one day my friend had a plane it was so much fun it was red and
+	shiny .
+%mor:	num|one noun|day pron|my-Prs-Gen-S1 noun|friend
+	verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|plane-Acc
+	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|much-S1
+	adj|fun-S1 pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|red-S1
+	cconj|and adj|shiny-S1 .
+%xdss:	A3; Z; B1; Z; C2; Z; A1; C2; F5; A1; C2; F3;
+*CHI:	it was near the pool .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A1; C2; Z;
+*CHI:	we were playing we were playing .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|play-Part-Pres-S
+	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|play-Part-Pres-S
+	.
+%xdss:	B3; C2; C1; B3; C2; C1;
+*CHI:	then it fell in the water oh no it fell in the water .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water intj|oh intj|no pron|it-Prs-Nom-S3
+	verb|fall-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z; A1; C2; Z;
+*CHI:	my friend was sad my friend was sad .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|sad-S1 pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|sad-S1 .
+%xdss:	B1; Z; C2; B1; Z; C2;
+*CHI:	we wanted the plane back we wanted the plane back .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Past-P1 det|the-Def-Art
+	noun|plane-Acc adv|back pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Past-P1
+	det|the-Def-Art noun|plane-Acc adv|back .
+%xdss:	B3; C2; Z; B3; C2; Z;
+*CHI:	then a man with a stick came he came with a stick .
+%mor:	adv|then det|a-Ind-Art noun|man adp|with det|a-Ind-Art noun|stick
+	verb|come-Fin-Ind-Past-S3-irr pron|he-Prs-Nom-S3
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|stick .
+%xdss:	Z; Z; C2; D5; B2; C2; Z;
+*CHI:	he was trying to get the plane out of the water he was trying to
+	get it .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S
+	part|to verb|get-Inf-S det|the-Def-Art noun|plane-Acc adp|out adp|of
+	det|the-Def-Art noun|water pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr verb|try-Part-Pres-S part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; C1; D3; C1; Z; Z; B2; C2; C1; D3; C1; A1; B5;
+*CHI:	then he got it he got the plane .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|plane-Acc .
+%xdss:	B2; C2; A1; B5; B2; C2; Z;
+*CHI:	my friend was happy my friend was happy .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 pron|my-Prs-Gen-S1 noun|friend
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	B1; Z; C2; B1; Z; C2;
+@End

@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog pulled a wagon with a   |   |   |2  |   |   |3  |   |   |  1|  6|
+    big red balloon .                  |   |   |   |   |   |   |   |   |   |   |
+It flew away when it came loose .      |1 1|   |2 2|   |   |   |   |   |  1|  7|
+The little kids were very sad .        |   |   |2  |   |   |   |   |   |  1|  3|
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to the man who sells balloons|   |3 6|2 2|   |   |   |   |   |  1| 14|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+He said it's five bucks .              |1 3|2  |2 1|   |   |   |   |   |  1| 10|
+They didn't have that much money .     |   |3  |6 1|   |4  |   |   |   |  1| 15|
+He said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+and gave them two balloons .           |3  |3  |2  |   |   |3  |   |   |  1| 12|
+They were happy now .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 12| 25| 30|  0|  4|  6|  0|  0| 10| 87|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  8.70

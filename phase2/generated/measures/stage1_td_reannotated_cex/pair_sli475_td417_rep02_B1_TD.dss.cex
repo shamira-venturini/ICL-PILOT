@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep02
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=2
+@Comment:	source_child_id=417
+*CHI:	Me [* s:r:gc:pro] and my dog friend were building a castle in the
+	sandbox .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog noun|friend
+	aux|be-Fin-Ind-Past-P3-irr verb|build-Part-Pres-S det|a-Ind-Art
+	noun|castle-Acc adp|in det|the-Def-Art noun|sandbox .
+%xdss:	B1; F3; B1; Z; Z; C2; C1; Z; Z;
+*CHI:	My dog friend was putting sand in the castle and I was making it
+	all pretty .
+%mor:	pron|my-Prs-Gen-S1 noun|dog noun|friend aux|be-Fin-Ind-Past-S3-irr
+	verb|put-Part-Pres-S noun|sand-Acc adp|in det|the-Def-Art
+	noun|castle cconj|and pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr
+	verb|make-Part-Pres-S pron|it-Prs-Acc-S3 det|all-Def-Tot adv|pretty
+	.
+%xdss:	B1; Z; Z; C2; C1; Z; Z; F3; B1; C2; C1; A1; B5; A3;
+*CHI:	Then my dog friend dumped a big bucket of sand on the castle .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|dog noun|friend
+	verb|dump-Fin-Ind-Past-S3 det|a-Ind-Art adj|big-S1 noun|bucket-Acc
+	adp|of noun|sand adp|on det|the-Def-Art noun|castle .
+%xdss:	B1; Z; Z; C2; Z; Z; Z;
+*CHI:	The castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	I was sad .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sad-S1 .
+%xdss:	B1; C2;
+*CHI:	My dog friend was crying too .
+%mor:	pron|my-Prs-Gen-S1 noun|dog noun|friend aux|be-Fin-Ind-Past-S3-irr
+	verb|cry-Part-Pres-S adv|too .
+%xdss:	B1; Z; Z; C2; C1;
+*CHI:	I said sorry .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr adj|sorry-S1 .
+%xdss:	B1; C2;
+*CHI:	My dog friend said sorry too .
+%mor:	pron|my-Prs-Gen-S1 noun|dog noun|friend
+	verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 adv|too .
+%xdss:	B1; Z; Z; C2;
+*CHI:	We worked together to make a new castle .
+%mor:	pron|we-Prs-Nom-P1 verb|work-Fin-Ind-Past-P1 adv|together part|to
+	verb|make-Inf-S det|a-Ind-Art adj|new-S1 noun|castle-Acc .
+%xdss:	B3; C2; C1; Z;
+*CHI:	It's better than the old one .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|good-Cmp-S1 adp|than
+	det|the-Def-Art adj|old-S1 noun|one .
+%xdss:	A1; C1; F8; Z;
+@End

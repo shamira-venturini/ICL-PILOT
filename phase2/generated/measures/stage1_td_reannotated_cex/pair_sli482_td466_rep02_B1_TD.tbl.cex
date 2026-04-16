@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep02_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time a rabbit and a dog    |   |   |1  |   |   |3  |   |   |  0|  4|
+    build [* m:base:ed] a castle in the|   |   |   |   |   |   |   |   |   |   |
+     sandbox .                         |   |   |   |   |   |   |   |   |   |   |
+the dog was dumping sand in the bucket |   |   |2 1|   |   |   |   |   |  1|  4|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+he then dump [* m:03s:a] the sand on   |   |2  |2  |   |   |   |   |   |  0|  4|
+    the castle .                       |   |   |   |   |   |   |   |   |   |   |
+the castle was all ruined !            |   |   |2 2|   |   |   |   |   |  1|  5|
+the rabbit was very sad and started to |   |   |2 2|3  |   |3  |   |   |  1| 12|
+    cry .                              |   |   |1  |   |   |   |   |   |   |   |
+the dog saw the rabbit was sad .       |   |   |2 2|   |   |   |   |   |  1|  5|
+he wanted to make it better .          |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+the dog and the rabbit try to make the |   |   |1 1|3  |   |3  |   |   |  1|  9|
+    castle again .                     |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  1|  9| 24|  9|  0|  9|  0|  0|  6| 58|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  7.25

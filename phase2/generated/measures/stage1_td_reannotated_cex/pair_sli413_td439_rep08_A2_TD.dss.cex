@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep08
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=8
+@Comment:	source_child_id=439
+*CHI:	once there were a squirrel and a bird who came to the pool .
+%mor:	sconj|once pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|squirrel cconj|and det|a-Ind-Art noun|bird
+	pron|who-Rel verb|come-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	C2; Z; F3; Z; B6; C2; Z;
+*CHI:	look !
+%mor:	verb|look-Fin-Imp-S !
+%xdss:	C1;
+*CHI:	there's a sign that says no running .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg
+	noun|running-Acc-Ger .
+%xdss:	Z; A1; C2; Z; D8;
+*CHI:	but the squirrel is running towards the water .
+%mor:	cconj|but det|the-Def-Art noun|squirrel aux|be-Fin-Ind-Pres-S3
+	verb|run-Part-Pres-S adp|towards det|the-Def-Art noun|water .
+%xdss:	F5; Z; C1; C1; Z;
+*CHI:	the squirrel fell down and hurt its knee .
+%mor:	det|the-Def-Art noun|squirrel verb|fall-Fin-Ind-Past-S3-irr
+	adp|down cconj|and verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; A1; Z;
+*CHI:	someone came with a bandage and put it on the squirrel's knee .
+%mor:	pron|someone-Ind-S1 verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|bandage cconj|and verb|put-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|squirrel~part|s
+	noun|knee .
+%xdss:	A3; C2; Z; F3; C2; A1; B5; Z; Z;
+*CHI:	the squirrel sat on a bench to rest .
+%mor:	det|the-Def-Art noun|squirrel verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench part|to verb|rest-Inf-S .
+%xdss:	Z; C2; Z; C1;
+@End

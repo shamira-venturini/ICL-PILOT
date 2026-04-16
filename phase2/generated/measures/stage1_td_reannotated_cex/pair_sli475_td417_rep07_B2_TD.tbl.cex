@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep07_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a rabbit and a dog .          |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit and dog were having a   |3  |   |2 1|   |   |3 3|   |   |  1| 13|
+    picnic one day .                   |   |   |   |   |   |   |   |   |   |   |
+they had sandwiches and carrots .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+the rabbit and dog were having fun .   |   |   |2 1|   |   |3  |   |   |  1|  7|
+the little boy ate too many sandwiches |   |   |2  |   |   |   |   |   |  1|  3|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+oh no the little boy felt sick to his  |   |2  |2  |   |   |   |   |   |  1|  5|
+    tummy .                            |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog were worried .      |   |   |2  |   |   |3  |   |   |  1|  6|
+they took the little boy to the doctor |   |3  |2  |   |   |   |   |   |  1|  6|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the doctor looked at the little boy .  |   |   |2  |   |   |   |   |   |  1|  3|
+the doctor said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+you ate too much food .                |   |   |2  |   |   |   |   |   |  1|  3|
+the little boy rested and felt better .|   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  3|  8| 28|  0|  0| 21|  0|  0| 12| 72|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  6.00

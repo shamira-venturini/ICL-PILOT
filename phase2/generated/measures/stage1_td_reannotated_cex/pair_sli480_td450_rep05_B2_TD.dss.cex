@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep05
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog was [* m:vsg:a] goin to the park .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|go-Part-Pres-S adp|to det|the-Def-Art noun|park .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	they make a big picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 noun|picnic-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	rabbit was bring [* m:0ing] carrots .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|bring-Inf-S
+	noun|carrot-Plur-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	dog was bring [* m:0ing] sandwiches .
+%mor:	noun|dog aux|be-Fin-Ind-Past-S3-irr verb|bring-Inf-S
+	noun|sandwich-Plur-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	we was [* m:vsg:a] eat alot .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|eat-Part-Pres-S
+	adv|alot .
+%xdss:	B3; C2; C1;
+*CHI:	he was eat [* m:0ing] too much .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Past-S
+	adv|too adv|much .
+%xdss:	B2; C7; C2;
+*CHI:	he was feelin [* m:0ing] sick .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|feelin-Part-Pres-S adj|sick-S1 .
+%xdss:	B2; C2; C1;
+*CHI:	he was gettin a tummyache .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|gettin-Part-Pres-S det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	we take him to the doctor .
+%mor:	pron|we-Prs-Nom-P1 verb|take-Fin-Ind-Pres-P1 pron|he-Prs-Acc-S3
+	adp|to det|the-Def-Art noun|doctor .
+%xdss:	B3; C1; B2; Z;
+*CHI:	the doctor was check [* m:0ing] him .
+%mor:	det|the-Def-Art noun|doctor aux|be-Fin-Ind-Past-S3-irr
+	verb|check-Inf-S pron|he-Prs-Acc-S3 .
+%xdss:	Z; C2; C1; B2;
+*CHI:	he was feelin better .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|feelin-Part-Pres-S adj|good-Cmp-S1 .
+%xdss:	B2; C2; C1;
+*CHI:	he was restin [* m:0ing] now .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|restin-S1 adv|now
+	.
+%xdss:	B2; C2;
+@End

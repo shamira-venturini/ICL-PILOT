@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:12 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep02_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+There's a sign that says .             |1  |   |2  |   |   |   |   |   |  1|  4|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+My friend the monkey likes to play .   |   |1  |2 1|3  |   |   |   |   |  1|  8|
+He wants to jump in the pool so he runs|   |2 2|2 1|3  |   |   |   |   |  1| 13|
+     to the water .                    |   |   |2  |   |   |   |   |   |   |   |
+He slips and hurts his knee .          |   |2 2|2 2|   |   |3  |   |   |  1| 12|
+Someone comes with a band-aid .        |3  |   |2  |   |   |   |   |   |  1|  6|
+He sits on the bench and rests .       |   |2  |2 2|   |   |3  |   |   |  1| 10|
+TOTAL                                  |  4| 11| 20| 14|  0|  6|  0|  0|  7| 62|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  8.86

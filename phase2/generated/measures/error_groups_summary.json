@@ -1,0 +1,125 @@
+{
+  "group_to_codes": {
+    "bare_marking_errors": [
+      {
+        "feature_column": "err_m_c_03s_c_a",
+        "source_codes": "m:03s:a"
+      },
+      {
+        "feature_column": "err_m_c_vsg_c_a",
+        "source_codes": "m:vsg:a"
+      },
+      {
+        "feature_column": "err_m_c_vun_c_a",
+        "source_codes": "m:vun:a"
+      },
+      {
+        "feature_column": "err_m_c_0ed",
+        "source_codes": "m:0ed"
+      },
+      {
+        "feature_column": "err_m_c_base_c_ed",
+        "source_codes": "m:base:ed"
+      },
+      {
+        "feature_column": "err_m_c_0_apos_s",
+        "source_codes": "m:0's"
+      },
+      {
+        "feature_column": "err_m_c_0s",
+        "source_codes": "m:0s"
+      },
+      {
+        "feature_column": "err_m_c_0s_c_a",
+        "source_codes": "m:0s:a"
+      },
+      {
+        "feature_column": "err_m_c_0es",
+        "source_codes": "m:0es"
+      }
+    ],
+    "determiner_errors": [
+      {
+        "feature_column": "err_s_c_r_c_gc_c_det",
+        "source_codes": "s:r:gc:det"
+      }
+    ],
+    "pronoun_errors": [
+      {
+        "feature_column": "err_s_c_r_c_gc_c_pro",
+        "source_codes": "s:r:gc:pro"
+      }
+    ],
+    "rule_generalization_errors": [
+      {
+        "feature_column": "err_m_c_plus_3s",
+        "source_codes": "m:+3s"
+      },
+      {
+        "feature_column": "err_m_c_plus_3s_c_a",
+        "source_codes": "m:+3s:a"
+      },
+      {
+        "feature_column": "err_m_c_plus_plus_3s",
+        "source_codes": "m:++3s"
+      },
+      {
+        "feature_column": "err_m_c_eq_ed",
+        "source_codes": "m:=ed"
+      },
+      {
+        "feature_column": "err_m_c_eq_ed_c_i",
+        "source_codes": "m:=ed:i"
+      },
+      {
+        "feature_column": "err_m_c_eq_en",
+        "source_codes": "m:=en"
+      },
+      {
+        "feature_column": "err_m_c_plus_ed",
+        "source_codes": "m:+ed"
+      },
+      {
+        "feature_column": "err_m_c_plus_plus_ed",
+        "source_codes": "m:++ed"
+      },
+      {
+        "feature_column": "err_m_c_plus_plus_ed_c_i",
+        "source_codes": "m:++ed:i"
+      },
+      {
+        "feature_column": "err_m_c_plus_plus_en",
+        "source_codes": "m:++en"
+      },
+      {
+        "feature_column": "err_m_c_plus_plus_en_c_i",
+        "source_codes": "m:++en:i"
+      },
+      {
+        "feature_column": "err_m_c_plus_es",
+        "source_codes": "m:+es"
+      }
+    ]
+  },
+  "input_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/error_code_features.csv",
+  "nonzero_file_counts": {
+    "bare_marking_errors": 179,
+    "determiner_errors": 38,
+    "pronoun_errors": 97,
+    "rule_generalization_errors": 27
+  },
+  "nonzero_file_proportions": {
+    "bare_marking_errors": 0.8136363636363636,
+    "determiner_errors": 0.17272727272727273,
+    "pronoun_errors": 0.4409090909090909,
+    "rule_generalization_errors": 0.12272727272727273
+  },
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/error_groups.csv",
+  "rows": 220,
+  "total_counts": {
+    "bare_marking_errors": 2229,
+    "determiner_errors": 42,
+    "pronoun_errors": 199,
+    "rule_generalization_errors": 38
+  }
+}

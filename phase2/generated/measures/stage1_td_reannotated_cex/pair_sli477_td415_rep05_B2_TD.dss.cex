@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep05
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=415
+*CHI:	and the rabbit and dog have picnic .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|have-Fin-Ind-Pres-P3 noun|picnic-Acc .
+%xdss:	F3; Z; F3; Z; C1; Z;
+*CHI:	and they have carrots .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3
+	noun|carrot-Plur-Acc .
+%xdss:	F3; B3; C1; Z;
+*CHI:	and the kid eat [* m:03s:a] too many carrots .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|eat-Fin-Ind-Pres-S3 adv|too
+	adj|many-S1 noun|carrot-Plur-Acc .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the kid feel [* m:03s:a] sick .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|feel-Fin-Ind-Pres-S3
+	adj|sick-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and the kid feel [* m:03s:a] dizzy .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|feel-Fin-Ind-Pres-S3
+	adj|dizzy-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and the kid's mom take [* m:03s:a] the kid to the doctor .
+%mor:	cconj|and det|the-Def-Art noun|kid~part|s noun|mom
+	verb|take-Fin-Ind-Pres-S3 det|the-Def-Art noun|kid-Acc adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	F3; Z; Z; C2; Z; Z;
+*CHI:	and the doctor give [* m:03s:a] the kid a special drink .
+%mor:	cconj|and det|the-Def-Art noun|doctor verb|give-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|kid det|a-Ind-Art adj|special-S1 noun|drink-Acc
+	.
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	and the kid drink [* m:03s:a] it .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|drink-Fin-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	F3; Z; C1; A1; B5;
+*CHI:	and the kid feel better .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and the kid go [* m:03s:a] home and sleep .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|go-Fin-Ind-Pres-S3 adv|home
+	cconj|and verb|sleep-Fin-Ind-Pres-S .
+%xdss:	F3; Z; C2; F3; C1;
+@End

@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep08
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog go get some food .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3
+	verb|get-Inf-S det|some-Def-Ind noun|food-Acc .
+%xdss:	Z; F3; Z; C1; C1; A3; Z;
+*CHI:	They get some sandwiches and berries .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 det|some-Def-Ind
+	noun|sandwich-Plur-Acc cconj|and noun|berries-Plur .
+%xdss:	B3; C1; A3; Z; F3; Z;
+*CHI:	They go have a picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3
+	verb|have-Fin-Ind-Pres-S det|a-Ind-Art noun|picnic-Acc .
+%xdss:	B3; C1; C1; Z;
+*CHI:	I ate too much sandwiches and berries .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1
+	noun|sandwich-Plur-Acc cconj|and noun|berries-Plur .
+%xdss:	B1; C2; Z; F3; Z;
+*CHI:	My tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	A doctor comes .
+%mor:	det|a-Ind-Art noun|doctor verb|come-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	He checks my tummy .
+%mor:	pron|he-Prs-Nom-S3 verb|check-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1
+	noun|tummy-Acc .
+%xdss:	B2; C2; B1; Z;
+*CHI:	He says I have a tummyache .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|I-Prs-Nom-S1
+	verb|have-Fin-Ind-Pres-S1 det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	B2; C2; D5; B1; C1; Z;
+*CHI:	He gives [* m:+3s:a] me some juice .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|I-Prs-Acc-S1
+	det|some-Def-Ind noun|juice-Acc .
+%xdss:	B2; C2; B1; A3; Z;
+*CHI:	I drink the juice .
+%mor:	pron|I-Prs-Nom-S1 verb|drink-Fin-Ind-Pres-S1 det|the-Def-Art
+	noun|juice-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	My tummy feels a little better .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|feel-Fin-Ind-Pres-S3
+	det|a-Ind-Art adj|little-S1 adj|good-Cmp-S1 .
+%xdss:	B1; Z; C2;
+*CHI:	I sit down .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Pres-S1 adp|down .
+%xdss:	B1; C1;
+@End

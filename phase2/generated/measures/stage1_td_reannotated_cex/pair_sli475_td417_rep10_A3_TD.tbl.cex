@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep10_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two birdies [: birds] [* m:=s] were    |3  |   |2 1|   |   |   |   |   |  0|  6|
+    playing with an airplane near the  |   |   |   |   |   |   |   |   |   |   |
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+The airplane was small and red .       |   |   |2  |   |   |3  |   |   |  1|  6|
+One birdie was flying it high up .     |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+Then the other birdie took it .        |3 1|5  |2  |   |   |   |   |   |  1| 12|
+The airplane fell in the pool water .  |   |   |2  |   |   |   |   |   |  1|  3|
+The owner got mad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+He said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+Give me my airplane !                  |   |1 1|1  |   |   |   |   |   |  1|  4|
+Someone had a long pole .              |3  |   |2  |   |   |   |   |   |  1|  6|
+He threw it in the water and got the   |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+Then the owner got the airplane back . |   |   |2  |   |   |   |   |   |  1|  3|
+He was happy .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+The other birdie said .                |3  |   |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 18| 23| 29|  0|  0|  6|  0|  0| 12| 88|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  6.77

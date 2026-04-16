@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:12 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep01_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Benny's balloon went POP !             |   |   |2  |   |   |   |   |   |  1|  3|
+Benny's doggy friend was sad too .     |   |   |2  |   |   |   |   |   |  1|  3|
+We need another balloon !              |3  |3  |1  |   |   |   |   |   |  1|  8|
+We have to go get one !                |3  |3  |1 1|3  |   |   |   |   |  1| 13|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+Benny's mom said .                     |   |   |2  |   |   |   |   |   |  1|  3|
+let's go to the party place .          |   |3  |1  |2  |   |   |   |   |  1|  7|
+We got there and they said .           |   |3 3|2 2|   |   |3  |   |   |  1| 14|
+balloons are two dollars each .        |3 7|   |2  |   |   |   |   |   |  1| 13|
+we don't have enough money .           |   |3  |1  |   |4  |   |   |   |  1|  9|
+The party lady said .                  |   |   |2  |   |   |   |   |   |  1|  3|
+ok , I can help you .                  |   |1 5|4 1|2  |   |   |   |   |  1| 14|
+She gave Benny two balloons and he was |3  |2 2|2 2|   |   |3 5|   |   |  1| 20|
+    so happy !                         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 19| 28| 29|  7|  4| 11|  0|  0| 12|110|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  9.17

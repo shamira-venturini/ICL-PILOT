@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep01
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog pull a wagon .
+%mor:	noun|rabbit cconj|and noun|dog verb|pull-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|wagon-Acc .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	There is a big red balloon on the wagon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1
+	adj|red-S1 noun|balloon adp|on det|the-Def-Art noun|wagon .
+%xdss:	C2; Z; Z;
+*CHI:	The balloon went pop !
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Past-S3-irr noun|pop !
+%xdss:	Z; C2; Z;
+*CHI:	Rabbit and dog are sad .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They want another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	They go to a man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art
+	noun|man .
+%xdss:	B3; C1; Z;
+*CHI:	He has balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|balloon-Plur-Acc
+	.
+%xdss:	B2; C2; Z;
+*CHI:	The man gives them a balloon .
+%mor:	det|the-Def-Art noun|man verb|give-Fin-Ind-Pres-S3
+	pron|they-Prs-Acc-P3 det|a-Ind-Art noun|balloon-Acc .
+%xdss:	Z; C2; B3; Z;
+*CHI:	Rabbit and dog are happy .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; F3; Z; C2;
+*CHI:	They have a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+@End

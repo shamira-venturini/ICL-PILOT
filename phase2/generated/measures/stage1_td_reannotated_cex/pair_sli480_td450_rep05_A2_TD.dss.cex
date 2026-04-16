@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep05
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=450
+*CHI:	One monkey went to the pool with his friend the dog .
+%mor:	num|one noun|monkey verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool adp|with pron|his-Prs-Gen-S3 noun|friend
+	det|the-Def-Art noun|dog .
+%xdss:	A3; Z; C2; Z; B2; Z; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	Monkey runned [: ran] [* m:=ed] to the water .
+%mor:	propn|monkey verb|runn-Fin-Ind-Past-S3 adp|to det|the-Def-Art
+	noun|water .
+%xdss:	C2; Z;
+*CHI:	He runned [: ran] [* m:=ed] too fast and sliped [: slipped]
+	[* m:=ed] .
+%mor:	pron|he-Prs-Nom-S3 verb|runn-Fin-Ind-Past-S3 adv|too adv|fast
+	cconj|and verb|slipe-Fin-Ind-Past-S3 .
+%xdss:	B2; C2; F3; C2;
+*CHI:	Monkey hurt his knee .
+%mor:	propn|monkey verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	C2; B2; Z;
+*CHI:	Then a kind lifeguard came with a bandaid .
+%mor:	adv|then det|a-Ind-Art noun|kind noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; Z; C2; Z;
+*CHI:	Monkey sat on a bench and rest [* m:0ed] .
+%mor:	propn|monkey verb|sit-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and noun|rest .
+%xdss:	C2; Z; F3; Z;
+@End

@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep03
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=419
+*CHI:	dog and rabbit was [* m:vsg:a] building a sand castle .
+%mor:	noun|dog cconj|and noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|build-Part-Pres-S det|a-Ind-Art noun|sand noun|castle-Acc .
+%xdss:	Z; F3; Z; C2; C1; Z; Z;
+*CHI:	rabbit had a bucket and was dumping sand on it .
+%mor:	noun|rabbit verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bucket-Acc cconj|and aux|be-Fin-Ind-Past-S3-irr
+	verb|dump-Part-Pres-S noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; F3; C2; C1; Z; A1; B5;
+*CHI:	but then rabbit dumped too much sand and the castle fell down .
+%mor:	cconj|but adv|then noun|rabbit verb|dump-Fin-Ind-Past-S3 adv|too
+	adj|much-S1 noun|sand-Acc cconj|and det|the-Def-Art noun|castle
+	verb|fall-Fin-Ind-Past-S3-irr adv|down .
+%xdss:	F5; Z; C2; Z; F3; Z; C2;
+*CHI:	rabbit was sad and said oh no .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 cconj|and
+	verb|say-Fin-Ind-Past-S3-irr intj|oh intj|no .
+%xdss:	Z; C2; F3; C2;
+*CHI:	dog said sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit said it's okay .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	Z; C2; A1; C1;
+*CHI:	they tried to fix it together .
+%mor:	pron|they-Prs-Nom-P3 verb|try-Fin-Ind-Past-P3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 adv|together .
+%xdss:	B3; C2; D3; C1; A1; B5;
+@End

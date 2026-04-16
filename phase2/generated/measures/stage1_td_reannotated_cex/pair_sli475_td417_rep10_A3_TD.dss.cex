@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep10
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=417
+*CHI:	Two birdies [: birds] [* m:=s] were playing with an airplane near
+	the pool .
+%mor:	num|two noun|birdy-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|airplane adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	The airplane was small and red .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Past-S3-irr
+	adj|small-S1 cconj|and adj|red-S1 .
+%xdss:	Z; C2; F3;
+*CHI:	One birdie was flying it high up .
+%mor:	num|one noun|birdie aux|be-Fin-Ind-Past-S3-irr verb|fly-Part-Pres-S
+	pron|it-Prs-Acc-S3 adv|high adp|up .
+%xdss:	A3; Z; C2; C1; A1; B5;
+*CHI:	Then the other birdie took it .
+%mor:	adv|then det|the-Def-Art adj|other-S1 noun|birdie
+	verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; A1; B5;
+*CHI:	The airplane fell in the pool water .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	The owner got mad .
+%mor:	det|the-Def-Art noun|owner verb|get-Fin-Ind-Past-S3-irr adj|mad-S1
+	.
+%xdss:	Z; C2;
+*CHI:	He said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	Give me my airplane !
+%mor:	verb|give-Inf-S pron|I-Prs-Acc-S1 pron|my-Prs-Gen-S1
+	noun|airplane-Acc !
+%xdss:	C1; B1; B1; Z;
+*CHI:	Someone had a long pole .
+%mor:	pron|someone-Ind-S1 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|long-S1 noun|pole-Acc .
+%xdss:	A3; C2; Z;
+*CHI:	He threw it in the water and got the airplane .
+%mor:	pron|he-Prs-Nom-S3 verb|throw-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water cconj|and
+	verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C2; A1; B5; Z; F3; C2; Z;
+*CHI:	Then the owner got the airplane back .
+%mor:	adv|then det|the-Def-Art noun|owner verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc adv|back .
+%xdss:	Z; C2; Z;
+*CHI:	He was happy .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	B2; C2;
+*CHI:	The other birdie said .
+%mor:	det|the-Def-Art adj|other-S1 noun|birdie
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	A3; Z; C2;
+@End

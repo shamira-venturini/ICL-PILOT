@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep09_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Once upon a time there was a little    |   |6 2|2 2|   |   |   |   |   |  1| 14|
+    monkey who was going to the pool   |   |   |1  |   |   |   |   |   |   |   |
+    with his friend the tiger .        |   |   |   |   |   |   |   |   |   |   |
+They saw a sign that said .            |1  |3  |2 2|   |   |   |   |   |  1|  9|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+but the monkey didn't listen .         |   |   |6 1|   |4  |5  |   |   |  1| 17|
+He started to run towards the water and|   |2  |2 1|3  |   |3  |   |   |  1| 14|
+     the tiger said .                  |   |   |2  |   |   |   |   |   |   |   |
+wait !                                 |   |   |1  |   |   |   |   |   |  1|  2|
+but he was too fast .                  |   |2  |2  |   |   |5  |   |   |  1| 10|
+He slipped and hurt his knee .         |   |2 2|2 2|   |   |3  |   |   |  1| 12|
+A nice lifeguard came with a big       |   |   |2 2|   |   |3  |   |   |  1|  8|
+    bandage and helped the monkey .    |   |   |   |   |   |   |   |   |   |   |
+He sat on a bench and rested .         |   |2  |2 2|   |   |3  |   |   |  1| 10|
+TOTAL                                  |  1| 21| 36| 11|  4| 22|  0|  0| 10|105|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score: 10.50

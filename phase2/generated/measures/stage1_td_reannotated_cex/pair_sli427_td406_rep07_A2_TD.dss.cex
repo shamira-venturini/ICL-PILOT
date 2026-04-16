@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep07
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=406
+*CHI:	Me [* s:r:gc:pro] and my buddy monkey went to the pool .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|buddy
+	noun|monkey verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	B1; F3; B1; Z; Z; C2; Z;
+*CHI:	We saw a sign that said .
+%mor:	pron|we-Prs-Nom-P1 verb|see-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|sign-Acc pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B3; C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	but my friend monkey didn't listen .
+%mor:	cconj|but pron|my-Prs-Gen-S1 noun|friend noun|monkey
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|listen-Inf-S .
+%xdss:	F5; B1; Z; Z; C6; E4; C1;
+*CHI:	He ran to the water and slipped .
+%mor:	pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|water cconj|and verb|slip-Fin-Ind-Past-S3 .
+%xdss:	B2; C2; Z; F3; C2;
+*CHI:	He hurt his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr
+	pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	Someone came with a bandage and helped him .
+%mor:	pron|someone-Ind-S1 verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|bandage cconj|and verb|help-Fin-Ind-Past-S3
+	pron|he-Prs-Acc-S3 .
+%xdss:	A3; C2; Z; F3; C2; B2;
+*CHI:	Monkey sat on a bench and rested .
+%mor:	propn|monkey verb|sit-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	C2; Z; F3; C2;
+@End

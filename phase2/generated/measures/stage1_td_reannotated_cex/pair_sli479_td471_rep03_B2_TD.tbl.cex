@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:28 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep03_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Once upon a time rabbit and dog went to|   |   |2 1|   |   |3  |   |   |  1|  7|
+     the park to have a picnic .       |   |   |   |   |   |   |   |   |   |   |
+They brought yummy sandwiches and      |   |3  |2  |   |   |3  |   |   |  1|  9|
+    berries .                          |   |   |   |   |   |   |   |   |   |   |
+There was a little child there .       |   |   |2  |   |   |   |   |   |  1|  3|
+He ate too many sandwiches .           |   |2  |2  |   |   |   |   |   |  1|  5|
+His tummy started to hurt .            |   |2  |2 1|3  |   |   |   |   |  1|  9|
+He felt dizzy .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+They took the child to see the doctor .|   |3  |2 1|   |   |   |   |   |  1|  7|
+He fell asleep .                       |   |2  |2  |   |   |   |   |   |  1|  5|
+The child woke up and felt better .    |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  0| 14| 23|  3|  0|  9|  0|  0|  9| 58|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  6.44

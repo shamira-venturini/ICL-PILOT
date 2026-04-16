@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:23 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep02_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog go to the park .        |   |   |1  |   |   |3  |   |   |  1|  5|
+they have a picnic .                   |   |3  |1  |   |   |   |   |   |  1|  5|
+they eat carrots and sandwiches .      |   |3  |1  |   |   |3  |   |   |  1|  8|
+I ate to [* s:r:prep] much .           |   |1  |2  |   |   |   |   |   |  0|  3|
+now I feel sick .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+doctor come [* m:03s:a] and check me . |   |1  |1 1|   |   |3  |   |   |  0|  6|
+he say [* m:03s:a] I eat to [* s:r:prep|   |2 1|2 1|5  |   |   |   |   |  0| 11|
+    ] much food .                      |   |   |   |   |   |   |   |   |   |   |
+I go home and take a nap .             |   |1  |1 1|   |   |3  |   |   |  1|  7|
+TOTAL                                  |  0| 14| 15|  5|  0| 12|  0|  0|  6| 52|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  5.78

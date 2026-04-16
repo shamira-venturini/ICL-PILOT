@@ -6,14 +6,19 @@ from .architecture_pilot_cv import build_architecture_loocv_plan
 from .age_adjustment import build_age_adjusted_severity_table
 from .alignment_repair import repair_alignments
 from .batchalign_runner import run_morphotag
+from .batchalign_batch_runner import run_morphotag_batched
+from .bundled_text_perplexity import build_bundled_td_text_perplexity, build_bundled_text_perplexity
+from .bundled_text_semantic_eval import build_bundled_text_semantic_evaluation
 from .dss_features import build_dss_feature_table, merge_dss_into_master
 from .error_codes import build_error_code_feature_table
 from .error_rate_features import add_error_rate_features_to_master
 from .feature_redundancy import audit_feature_redundancy
 from .filelist import write_cha_filelist
 from .frozen_roster import build_frozen_roster_manifest
+from .generated_bundle_evaluation import build_generated_bundle_evaluation
 from .grouped_error_features import build_grouped_error_feature_table
 from .grouped_error_features import merge_grouped_error_features_into_master
+from .generated_text_evaluation import build_generated_text_evaluation
 from .manifest import load_counterbalance_rules, load_generation_manifest
 from .pause_normalizer import normalize_initial_pauses
 from .past_verb_features import (
@@ -91,6 +96,21 @@ def _cmd_run_batchalign_morphotag(args: argparse.Namespace) -> int:
         override_cache=args.override_cache,
         force_cpu=args.force_cpu,
         workers=args.workers,
+        dry_run=args.dry_run,
+    )
+
+
+def _cmd_run_batchalign_morphotag_batched(args: argparse.Namespace) -> int:
+    return run_morphotag_batched(
+        input_dir=args.input_dir,
+        output_dir=args.output_dir,
+        batch_size=args.batch_size,
+        keeptokens=not args.retokenize,
+        lexicon=args.lexicon,
+        manifest_csv=args.manifest_csv,
+        start_batch=args.start_batch,
+        max_batches=args.max_batches,
+        skip_existing=not args.no_skip_existing,
         dry_run=args.dry_run,
     )
 
@@ -258,6 +278,69 @@ def _cmd_build_frozen_roster(args: argparse.Namespace) -> int:
     )
 
 
+def _cmd_build_generated_bundle_evaluation(args: argparse.Namespace) -> int:
+    return build_generated_bundle_evaluation(
+        generated_severity_csv=args.generated_severity_csv,
+        real_severity_csv=args.real_severity_csv,
+        frozen_roster_csv=args.frozen_roster_csv,
+        output_dir=args.output_dir,
+        pairs_per_round=args.pairs_per_round,
+    )
+
+
+def _cmd_build_generated_text_evaluation(args: argparse.Namespace) -> int:
+    return build_generated_text_evaluation(
+        synthetic_root=args.synthetic_root,
+        real_root=args.real_root,
+        output_dir=args.output_dir,
+        age_years=args.age_years,
+    )
+
+
+def _cmd_build_bundled_td_text_perplexity(args: argparse.Namespace) -> int:
+    return build_bundled_td_text_perplexity(
+        synthetic_root=args.synthetic_root,
+        real_root=args.real_root,
+        output_dir=args.output_dir,
+        age_years=args.age_years,
+        folds=args.folds,
+        order=args.order,
+        alpha=args.alpha,
+        random_seed=args.random_seed,
+        exclude_synthetic_source_children_from_real=args.exclude_synthetic_source_children_from_real,
+    )
+
+
+def _cmd_build_bundled_text_perplexity(args: argparse.Namespace) -> int:
+    return build_bundled_text_perplexity(
+        synthetic_root=args.synthetic_root,
+        real_root=args.real_root,
+        output_dir=args.output_dir,
+        group=args.group,
+        age_years=args.age_years,
+        folds=args.folds,
+        order=args.order,
+        alpha=args.alpha,
+        random_seed=args.random_seed,
+        exclude_synthetic_source_children_from_real=args.exclude_synthetic_source_children_from_real,
+    )
+
+
+def _cmd_build_bundled_text_semantic_evaluation(args: argparse.Namespace) -> int:
+    return build_bundled_text_semantic_evaluation(
+        synthetic_root=args.synthetic_root,
+        real_root=args.real_root,
+        output_dir=args.output_dir,
+        group=args.group,
+        age_years=args.age_years,
+        model_name=args.model_name,
+        batch_size=args.batch_size,
+        bootstrap_reps=args.bootstrap_reps,
+        bootstrap_seed=args.bootstrap_seed,
+        exclude_synthetic_source_children_from_real=args.exclude_synthetic_source_children_from_real,
+    )
+
+
 def _cmd_extract_story_panels(args: argparse.Namespace) -> int:
     return extract_story_panels(
         input_pdf=args.input_pdf,
@@ -330,6 +413,18 @@ def build_parser() -> argparse.ArgumentParser:
     batchalign_parser.add_argument("--force-cpu", action="store_true")
     batchalign_parser.add_argument("--workers", type=int, default=None)
     batchalign_parser.add_argument("--dry-run", action="store_true")
+
+    batchalign_batched_parser = subparsers.add_parser("run-batchalign-morphotag-batched")
+    batchalign_batched_parser.add_argument("input_dir")
+    batchalign_batched_parser.add_argument("output_dir")
+    batchalign_batched_parser.add_argument("--batch-size", type=int, default=200)
+    batchalign_batched_parser.add_argument("--retokenize", action="store_true")
+    batchalign_batched_parser.add_argument("--lexicon", default=None)
+    batchalign_batched_parser.add_argument("--manifest-csv", default=None)
+    batchalign_batched_parser.add_argument("--start-batch", type=int, default=1)
+    batchalign_batched_parser.add_argument("--max-batches", type=int, default=None)
+    batchalign_batched_parser.add_argument("--no-skip-existing", action="store_true")
+    batchalign_batched_parser.add_argument("--dry-run", action="store_true")
 
     filelist_parser = subparsers.add_parser("write-cha-filelist")
     filelist_parser.add_argument("input_dir")
@@ -446,6 +541,54 @@ def build_parser() -> argparse.ArgumentParser:
     frozen_roster_parser.add_argument("--age-min-months", type=int, default=48)
     frozen_roster_parser.add_argument("--age-max-months", type=int, default=59)
 
+    generated_eval_parser = subparsers.add_parser("build-generated-bundle-evaluation")
+    generated_eval_parser.add_argument("generated_severity_csv")
+    generated_eval_parser.add_argument("real_severity_csv")
+    generated_eval_parser.add_argument("frozen_roster_csv")
+    generated_eval_parser.add_argument("output_dir")
+    generated_eval_parser.add_argument("--pairs-per-round", type=int, default=3)
+
+    generated_text_eval_parser = subparsers.add_parser("build-generated-text-evaluation")
+    generated_text_eval_parser.add_argument("synthetic_root")
+    generated_text_eval_parser.add_argument("real_root")
+    generated_text_eval_parser.add_argument("output_dir")
+    generated_text_eval_parser.add_argument("--age-years", type=int, default=4)
+
+    bundled_td_ppl_parser = subparsers.add_parser("build-bundled-td-text-perplexity")
+    bundled_td_ppl_parser.add_argument("synthetic_root")
+    bundled_td_ppl_parser.add_argument("real_root")
+    bundled_td_ppl_parser.add_argument("output_dir")
+    bundled_td_ppl_parser.add_argument("--age-years", type=int, default=4)
+    bundled_td_ppl_parser.add_argument("--folds", type=int, default=5)
+    bundled_td_ppl_parser.add_argument("--order", type=int, default=3)
+    bundled_td_ppl_parser.add_argument("--alpha", type=float, default=0.5)
+    bundled_td_ppl_parser.add_argument("--random-seed", type=int, default=0)
+    bundled_td_ppl_parser.add_argument("--exclude-synthetic-source-children-from-real", action="store_true")
+
+    bundled_ppl_parser = subparsers.add_parser("build-bundled-text-perplexity")
+    bundled_ppl_parser.add_argument("synthetic_root")
+    bundled_ppl_parser.add_argument("real_root")
+    bundled_ppl_parser.add_argument("output_dir")
+    bundled_ppl_parser.add_argument("--group", choices=["TD", "SLI"], required=True)
+    bundled_ppl_parser.add_argument("--age-years", type=int, default=4)
+    bundled_ppl_parser.add_argument("--folds", type=int, default=5)
+    bundled_ppl_parser.add_argument("--order", type=int, default=3)
+    bundled_ppl_parser.add_argument("--alpha", type=float, default=0.5)
+    bundled_ppl_parser.add_argument("--random-seed", type=int, default=0)
+    bundled_ppl_parser.add_argument("--exclude-synthetic-source-children-from-real", action="store_true")
+
+    bundled_semantic_parser = subparsers.add_parser("build-bundled-text-semantic-evaluation")
+    bundled_semantic_parser.add_argument("synthetic_root")
+    bundled_semantic_parser.add_argument("real_root")
+    bundled_semantic_parser.add_argument("output_dir")
+    bundled_semantic_parser.add_argument("--group", choices=["TD", "SLI"], required=True)
+    bundled_semantic_parser.add_argument("--age-years", type=int, default=4)
+    bundled_semantic_parser.add_argument("--model-name", default="sentence-transformers/all-MiniLM-L6-v2")
+    bundled_semantic_parser.add_argument("--batch-size", type=int, default=16)
+    bundled_semantic_parser.add_argument("--bootstrap-reps", type=int, default=10000)
+    bundled_semantic_parser.add_argument("--bootstrap-seed", type=int, default=0)
+    bundled_semantic_parser.add_argument("--exclude-synthetic-source-children-from-real", action="store_true")
+
     panel_extract_parser = subparsers.add_parser("extract-story-panels")
     panel_extract_parser.add_argument("input_pdf")
     panel_extract_parser.add_argument("output_dir")
@@ -497,6 +640,8 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_show_manifest(args.limit)
     if args.command == "run-batchalign-morphotag":
         return _cmd_run_batchalign_morphotag(args)
+    if args.command == "run-batchalign-morphotag-batched":
+        return _cmd_run_batchalign_morphotag_batched(args)
     if args.command == "write-cha-filelist":
         return _cmd_write_cha_filelist(args)
     if args.command == "repair-batchalign-alignment":
@@ -541,6 +686,16 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_build_architecture_loocv_plan(args)
     if args.command == "build-frozen-roster":
         return _cmd_build_frozen_roster(args)
+    if args.command == "build-generated-bundle-evaluation":
+        return _cmd_build_generated_bundle_evaluation(args)
+    if args.command == "build-generated-text-evaluation":
+        return _cmd_build_generated_text_evaluation(args)
+    if args.command == "build-bundled-td-text-perplexity":
+        return _cmd_build_bundled_td_text_perplexity(args)
+    if args.command == "build-bundled-text-perplexity":
+        return _cmd_build_bundled_text_perplexity(args)
+    if args.command == "build-bundled-text-semantic-evaluation":
+        return _cmd_build_bundled_text_semantic_evaluation(args)
     if args.command == "extract-story-panels":
         return _cmd_extract_story_panels(args)
     if args.command == "build-story-packet-template":
@@ -556,3 +711,7 @@ def main(argv: list[str] | None = None) -> int:
 
     parser.error(f"Unknown command: {args.command}")
     return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

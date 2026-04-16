@@ -1,0 +1,67 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep07
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=406
+*CHI:	We build a big sandcastle .
+%mor:	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Pres-P1 det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	I add sand and my doggie add [* m:03s:a] sand too .
+%mor:	pron|I-Prs-Nom-S1 verb|add-Fin-Ind-Pres-S1 noun|sand-Acc cconj|and
+	pron|my-Prs-Gen-S1 noun|doggie verb|add-Fin-Imp-S noun|sand-Acc
+	adv|too .
+%xdss:	B1; C1; Z; F3; B1; Z; C1; Z;
+*CHI:	My doggie , he use [* m:03s:a] big bucket .
+%mor:	pron|my-Prs-Gen-S1 noun|doggie pron|he-Prs-Nom-S3
+	verb|use-Fin-Ind-Pres-S3 adj|big-S1 noun|bucket-Acc .
+%xdss:	B1; Z; B2; C2; Z;
+*CHI:	He pour [* m:0ed] too much sand on our castle .
+%mor:	pron|he-Prs-Nom-S3 verb|pour-Fin-Ind-Pres-S3 adv|too adj|much-S1
+	noun|sand-Acc adp|on pron|our-Prs-Gen-P1 noun|castle .
+%xdss:	B2; C2; Z; B3; Z;
+*CHI:	Now it's broken .
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	A1; C7; C2;
+*CHI:	My castle is broken .
+%mor:	pron|my-Prs-Gen-S1 noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	B1; Z; C7; C2;
+*CHI:	I cry .
+%mor:	pron|I-Prs-Nom-S1 verb|cry-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1;
+*CHI:	My doggie , he is sad too .
+%mor:	pron|my-Prs-Gen-S1 noun|doggie pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Pres-S3 adj|sad-S1 adv|too .
+%xdss:	B1; Z; B2; C1;
+*CHI:	He put his head down .
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|head-Acc adp|down .
+%xdss:	B2; C2; B2; Z;
+*CHI:	I say [* m:irr:ed] sorry .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Pres-S1 adj|sorry-S1 .
+%xdss:	B1; C1;
+*CHI:	My doggie say [* m:03s:a] sorry too .
+%mor:	pron|my-Prs-Gen-S1 noun|doggie verb|say-Fin-Ind-Pres-S3
+	adj|sorry-S1 adv|too .
+%xdss:	B1; Z; C2;
+*CHI:	We work together , fix the castle .
+%mor:	pron|we-Prs-Nom-P1 verb|work-Fin-Ind-Pres-P1 adv|together
+	verb|fix-Fin-Ind-Pres-P1 det|the-Def-Art noun|castle-Acc .
+%xdss:	B3; C1; C1; Z;
+*CHI:	It's okay now .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 adv|now .
+%xdss:	A1; C1;
+@End

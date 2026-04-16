@@ -207,9 +207,9 @@ def merge_grouped_error_features_into_master(
     ambiguous = 0
 
     for row in master.to_dict("records"):
-        file_id = int(row.get("File_ID")) if pd.notna(row.get("File_ID")) else None
+        file_id = str(row.get("File_ID", "") or "").strip()
         file_kideval = str(row.get("File_kideval", "") or "")
-        candidates = [item for item in grouped_rows if int(item["File_ID"]) == file_id]
+        candidates = [item for item in grouped_rows if str(item.get("File_ID", "")).strip() == file_id]
         selected: dict[str, object] | None = None
 
         if len(candidates) == 1:

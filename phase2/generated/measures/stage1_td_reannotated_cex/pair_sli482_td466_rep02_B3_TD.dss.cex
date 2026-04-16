@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep02
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog go for a walk and they pull a wagon
+	with a big red balloon .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Imp-S adp|for det|a-Ind-Art noun|walk cconj|and
+	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	Z; Z; F3; Z; C1; F8; Z; F3; B3; C1; Z; Z;
+*CHI:	the balloon come [* m:03s:a] off the wagon and it go [* m:03s:a] up
+	in the air and pop .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S adp|off
+	det|the-Def-Art noun|wagon cconj|and pron|it-Prs-Nom-S3
+	verb|go-Fin-Ind-Pres-S3 adp|up adp|in det|the-Def-Art noun|air
+	cconj|and noun|pop .
+%xdss:	Z; C1; Z; F3; A1; C2; Z; F3; Z;
+*CHI:	the little kids are sad and they want another balloon .
+%mor:	det|the-Def-Art adj|little-S1 noun|kid-Plur aux|be-Fin-Ind-Pres-P3
+	adj|sad-S1 cconj|and pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3
+	det|another-Def-Ind noun|balloon-Acc .
+%xdss:	Z; C2; F3; B3; C1; A3; Z;
+*CHI:	they go to the man with the balloons and he say [* m:03s:a] they
+	need to pay .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|man adp|with det|the-Def-Art noun|balloon-Plur cconj|and
+	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-P3 pron|they-Prs-Nom-P3
+	verb|need-Fin-Ind-Pres-P3 part|to verb|pay-Inf-S .
+%xdss:	B3; C1; Z; Z; F3; B2; C1; D5; B3; C1; D3; C1;
+*CHI:	the kids have some coins and they buy two balloons .
+%mor:	det|the-Def-Art noun|kid-Plur verb|have-Fin-Ind-Pres-P3
+	det|some-Def-Ind noun|coin-Plur-Acc cconj|and pron|they-Prs-Nom-P3
+	verb|buy-Fin-Ind-Pres-P3 num|two noun|balloon-Plur-Acc .
+%xdss:	Z; C1; A3; Z; F3; B3; C1; A3; Z;
+*CHI:	now they have a big red balloon and a little yellow balloon and
+	they are happy .
+%mor:	adv|now pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|balloon-Acc cconj|and
+	det|a-Ind-Art adj|little-S1 adj|yellow-S1 noun|balloon cconj|and
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	B3; C1; Z; F3; Z; F3; B3; C2;
+@End

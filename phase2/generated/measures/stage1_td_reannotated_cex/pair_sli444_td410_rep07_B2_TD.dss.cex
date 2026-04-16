@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep07
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog going on a picnic .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Ger-S adp|on det|a-Ind-Art
+	noun|picnic .
+%xdss:	Z; F3; Z; D4; C1; D8; Z;
+*CHI:	they pick up some carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|pick-Fin-Ind-Pres-P3 adp|up
+	det|some-Def-Ind noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; A3; Z; F3; Z;
+*CHI:	they put them in a basket .
+%mor:	pron|they-Prs-Nom-P3 verb|put-Fin-Ind-Past-P3-irr
+	pron|they-Prs-Acc-P3 adp|in det|a-Ind-Art noun|basket .
+%xdss:	B3; C2; B3; Z;
+*CHI:	the child eats and eats and eats .
+%mor:	det|the-Def-Art noun|child verb|eat-Fin-Ind-Pres-S3 cconj|and
+	verb|eat-Fin-Ind-Pres-S3 cconj|and verb|eat-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; F3; C2; F3; C2;
+*CHI:	the child's tummy is hurting .
+%mor:	det|the-Def-Art noun|child~part|s noun|tummy aux|be-Fin-Ind-Pres-S3
+	verb|hurt-Part-Pres-S .
+%xdss:	Z; Z; C1; C1;
+*CHI:	the child feels yucky .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Pres-S3 adj|yucky-S1 .
+%xdss:	Z; C2;
+*CHI:	the doctor comes to see the child .
+%mor:	det|the-Def-Art noun|doctor verb|come-Fin-Ind-Pres-S3 part|to
+	verb|see-Inf-S det|the-Def-Art noun|child-Acc .
+%xdss:	Z; C2; D3; C1; Z;
+*CHI:	the doctor says .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	take some rest .
+%mor:	verb|take-Fin-Imp-S det|some-Def-Ind noun|rest-Acc .
+%xdss:	C1; A3; Z;
+*CHI:	the child is feeling a little better .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3
+	verb|feel-Part-Pres-S det|a-Ind-Art adj|little-S1 adj|good-Cmp-S1 .
+%xdss:	Z; C1; C1;
+@End

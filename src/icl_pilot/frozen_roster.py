@@ -19,6 +19,14 @@ _SEVERITY_COLUMNS = [
 ]
 
 
+def _default_cohort_label(age_min_months: int, age_max_months: int) -> str:
+    min_year = age_min_months // 12
+    max_year = age_max_months // 12
+    if min_year == max_year and age_min_months % 12 == 0 and age_max_months % 12 == 11:
+        return f"{min_year}-year-old"
+    return f"{age_min_months}to{age_max_months}_months"
+
+
 def _filter_age_bin(frame: pd.DataFrame, age_min_months: int, age_max_months: int) -> pd.DataFrame:
     age_months = pd.to_numeric(frame["Age(Month)"], errors="coerce")
     return frame.loc[age_months.between(age_min_months, age_max_months)].copy()
@@ -46,6 +54,7 @@ def _load_roster_frame(
         validate="one_to_one",
     )
     roster["age_months_approx"] = pd.to_numeric(roster["Age_Month_approx"], errors="coerce")
+    roster = roster.loc[roster["age_months_approx"].notna()].copy()
     roster["profile_label"] = roster.apply(
         lambda row: "typical" if row["Group"] == "TD" else _profile_label(row),
         axis=1,
@@ -53,7 +62,7 @@ def _load_roster_frame(
     return roster
 
 
-def _solve_pairing(roster: pd.DataFrame) -> pd.DataFrame:
+def _solve_pairing(roster: pd.DataFrame, cohort_label: str) -> pd.DataFrame:
     sli = roster[roster["Group"] == "SLI"].sort_values(["age_months_approx", "File_ID"]).reset_index(drop=True)
     td = roster[roster["Group"] == "TD"].sort_values(["age_months_approx", "File_ID"]).reset_index(drop=True)
 
@@ -83,7 +92,7 @@ def _solve_pairing(roster: pd.DataFrame) -> pd.DataFrame:
             {
                 "pair_order": pair_order,
                 "pair_id": f"pair_sli{int(sli_row['File_ID'])}_td{int(td_row['File_ID'])}",
-                "cohort": "4-year-old",
+                "cohort": cohort_label,
                 "sli_child_id": int(sli_row["File_ID"]),
                 "sli_file_kideval": sli_row["File_kideval"],
                 "sli_age": sli_row["Age"],
@@ -109,6 +118,7 @@ def build_frozen_roster_manifest(
     output_csv: str,
     age_min_months: int = 48,
     age_max_months: int = 59,
+    cohort_label: str | None = None,
 ) -> int:
     dev_path = Path(dev_measures_csv).expanduser().resolve()
     severity_path = Path(severity_profile_csv).expanduser().resolve()
@@ -121,7 +131,8 @@ def build_frozen_roster_manifest(
         age_min_months=age_min_months,
         age_max_months=age_max_months,
     )
-    roster_df = _solve_pairing(roster)
+    resolved_cohort_label = cohort_label or _default_cohort_label(age_min_months, age_max_months)
+    roster_df = _solve_pairing(roster, cohort_label=resolved_cohort_label)
     roster_df.to_csv(output_path, index=False)
 
     total_gap = float(roster_df["age_gap_months"].sum())

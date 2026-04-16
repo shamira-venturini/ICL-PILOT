@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep06
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog , they built a big sandcastle .
+%mor:	noun|rabbit cconj|and noun|dog pron|they-Prs-Nom-P3
+	verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art adj|big-S1
+	noun|sandcastle-Acc .
+%xdss:	Z; F3; Z; B3; C2; Z;
+*CHI:	Dog had a big bucket , he poured sand on it .
+%mor:	noun|dog verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc pron|he-Prs-Nom-S3 verb|pour-Fin-Ind-Past-S3
+	noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; B2; C2; Z; A1; B5;
+*CHI:	The sandcastle fell down .
+%mor:	det|the-Def-Art noun|sandcastle verb|fall-Fin-Ind-Past-S3-irr
+	adv|down .
+%xdss:	Z; C2;
+*CHI:	Rabbit was sad , he cried .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Past-S3 .
+%xdss:	C2; B2; C2;
+*CHI:	Dog said .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	They took some sand , they built it again .
+%mor:	pron|they-Prs-Nom-P3 verb|take-Fin-Ind-Past-P3-irr det|some-Def-Ind
+	noun|sand-Acc pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C2; A3; Z; B3; C2; A1; B5;
+@End

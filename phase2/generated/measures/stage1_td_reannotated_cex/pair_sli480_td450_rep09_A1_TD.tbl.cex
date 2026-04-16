@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:33 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep09_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two friends , a rabbit and a duck ,    |3  |   |2 1|   |   |3  |   |   |  1| 10|
+    were playing near the pool .       |   |   |   |   |   |   |   |   |   |   |
+They threw the ball in the water .     |   |3  |2  |   |   |   |   |   |  1|  6|
+It fell in .                           |1  |   |2  |   |   |   |   |   |  1|  4|
+The rabbit went to get it .            |1  |5  |2 1|3  |   |   |   |   |  1| 13|
+The rabbit dipped its hand in the pool |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    and got the ball .                 |   |   |   |   |   |   |   |   |   |   |
+The rabbit brought the ball back .     |   |   |2  |   |   |   |   |   |  1|  3|
+They were happy again and played some  |3 3|3  |2 2|   |   |3  |   |   |  1| 17|
+    more .                             |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 12| 11| 20|  3|  0|  9|  0|  0|  7| 62|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  8.86

@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep09_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a dog and a rabbit .          |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit and dog were playing in |   |   |2 1|   |   |3 3|   |   |  1| 10|
+    the sandbox together .             |   |   |   |   |   |   |   |   |   |   |
+and the dog had a bucket and was       |   |   |2 2|   |   |3 3|   |   |  1| 12|
+    dumping sand on the sandcastle .   |   |   |1  |   |   |   |   |   |   |   |
+and the rabbit was like oh no the      |   |   |2  |   |   |3 8|   |   |  1| 14|
+    sandcastle .                       |   |   |   |   |   |   |   |   |   |   |
+and then the dog dumped the sand on it |1  |5  |2  |   |   |3  |   |   |  1| 12|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+and the sandcastle fell down .         |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit was sad and started to  |   |   |2 2|3  |   |3 3|   |   |  1| 15|
+    cry .                              |   |   |1  |   |   |   |   |   |   |   |
+and the dog said sorry .               |   |   |2  |   |   |3  |   |   |  1|  6|
+and the rabbit said it's okay .        |1  |   |2 1|   |   |3  |   |   |  1|  8|
+and then the dog and rabbit fixed the  |   |   |2  |   |   |3 3|   |   |  1|  9|
+    sandcastle .                       |   |   |   |   |   |   |   |   |   |   |
+and it was all better .                |1  |   |2  |   |   |3  |   |   |  1|  7|
+TOTAL                                  |  3|  5| 30|  3|  0| 53|  0|  0| 11|105|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  9.55

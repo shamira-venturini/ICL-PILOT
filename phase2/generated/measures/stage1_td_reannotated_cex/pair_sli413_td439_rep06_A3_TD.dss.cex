@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep06
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=6
+@Comment:	source_child_id=439
+*CHI:	One time there was a little bird and a squirrel .
+%mor:	num|one noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|little-S1 noun|bird cconj|and det|a-Ind-Art
+	noun|squirrel .
+%xdss:	A3; Z; C2; Z; F3; Z;
+*CHI:	they were playing near the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z;
+*CHI:	they saw a little airplane and wanted to play with it .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|little-S1 noun|airplane-Acc cconj|and verb|want-Fin-Ind-Past-P3
+	part|to verb|play-Inf-S adp|with pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; Z; F3; C2; D3; C1; A1; B5;
+*CHI:	but then the airplane fell into the water .
+%mor:	cconj|but adv|then det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
+%xdss:	F5; Z; C2; Z;
+*CHI:	the bird was getting upset .
+%mor:	det|the-Def-Art noun|bird aux|be-Fin-Ind-Past-S3-irr
+	aux|get-Part-Pres-S adj|upset-S1 .
+%xdss:	Z; C2;
+*CHI:	the squirrel said don't worry I'll get it .
+%mor:	det|the-Def-Art noun|squirrel verb|say-Fin-Ind-Past-S3-irr
+	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; C4; E4; C1; D5; C4; C1; A1; B5;
+*CHI:	he went and asked the lifeguard for a long stick .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr cconj|and
+	verb|ask-Fin-Ind-Past-S3 det|the-Def-Art noun|lifeguard-Acc adp|for
+	det|a-Ind-Art adj|long-S1 noun|stick .
+%xdss:	B2; C2; F3; C2; Z; F8; Z;
+*CHI:	the lifeguard gave him the stick and the squirrel used it to get
+	the airplane .
+%mor:	det|the-Def-Art noun|lifeguard verb|give-Fin-Ind-Past-S3-irr
+	pron|he-Prs-Acc-S3 det|the-Def-Art noun|stick-Acc cconj|and
+	det|the-Def-Art noun|squirrel verb|use-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	Z; C2; B2; Z; F3; Z; C2; D5; A1; B5; C1; Z;
+*CHI:	the airplane is out of the water .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adp|out adp|of
+	det|the-Def-Art noun|water .
+%xdss:	Z; C1; Z;
+*CHI:	the bird and the squirrel were happy .
+%mor:	det|the-Def-Art noun|bird cconj|and det|the-Def-Art noun|squirrel
+	aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	now they can play with the airplane again .
+%mor:	adv|now pron|they-Prs-Nom-P3 aux|can-Fin-S verb|play-Inf-S adp|with
+	det|the-Def-Art noun|airplane adv|again .
+%xdss:	B3; C4; D2; C1; Z;
+@End

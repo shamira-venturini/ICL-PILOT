@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep03
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=415
+*CHI:	the kiddy have [* m:vun:a] a plane .
+%mor:	det|the-Def-Art noun|kiddy verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|plane-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	and it's going on the pool .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adp|on det|the-Def-Art noun|pool .
+%xdss:	F3; A1; C1; C1; Z;
+*CHI:	and it's going in the pool .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adp|in det|the-Def-Art noun|pool .
+%xdss:	F3; A1; C1; C1; Z;
+*CHI:	and mommy get [* m:03s:a] up .
+%mor:	cconj|and noun|mommy verb|get-Fin-Imp-S adp|up .
+%xdss:	F3; Z; C1;
+*CHI:	and she say [* m:03s:a] .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	F3; B2; C2;
+*CHI:	and there is a lifegur:rd .
+%mor:	cconj|and pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|lifegurrd .
+%xdss:	F3; C2; Z;
+*CHI:	and the lifegur:rd have a pole .
+%mor:	cconj|and det|the-Def-Art noun|lifegurrd verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|pole-Acc .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and the lifegur:rd pick [* m:03s:a] up the plane .
+%mor:	cconj|and det|the-Def-Art noun|lifegurrd verb|pick-Fin-Ind-Pres-S3
+	adp|up det|the-Def-Art noun|plane-Acc .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the mommy say [* m:03s:a] .
+%mor:	cconj|and det|the-Def-Art noun|mommy verb|say-Fin-Ind-Pres-P3 .
+%xdss:	F3; Z; C1;
+*CHI:	and the kiddy say .
+%mor:	cconj|and det|the-Def-Art noun|kiddy verb|say-Fin-Ind-Pres-S3 .
+%xdss:	F3; Z; C2;
+*CHI:	and they all hug .
+%mor:	cconj|and pron|they-Prs-Nom-P3 det|all-Def-Tot
+	verb|hug-Fin-Ind-Pres-P3 .
+%xdss:	F3; B3; A3; C1;
+@End

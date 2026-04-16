@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep08_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a rabbit and a dog they are   |   |3  |2 2|   |   |3 3|   |   |  1| 15|
+    playing with a wagon and a red     |   |   |1  |   |   |   |   |   |   |   |
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon come [* m:03s:a] loose .   |   |   |2  |   |   |   |   |   |  0|  2|
+oh no it fly [* m:03s:a] away .        |1  |   |1  |   |   |   |   |   |  0|  2|
+they want to get another balloon .     |3  |3  |1 1|3  |   |   |   |   |  1| 12|
+they go to a man he has lots of        |   |3 2|1 2|   |   |   |   |   |  1|  9|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+the man say [* m:03s:a] .              |   |   |2  |   |   |   |   |   |  0|  2|
+the rabbit and dog don't have five     |3  |   |1  |   |4  |3  |   |   |  1| 12|
+    dollars .                          |   |   |   |   |   |   |   |   |   |   |
+ok i help you .                        |   |1 5|1  |   |   |   |   |   |  1|  8|
+the rabbit and dog get two balloons .  |3  |   |1  |   |   |3  |   |   |  1|  8|
+they are happy now .                   |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 10| 20| 20|  3|  4| 12|  0|  0|  7| 76|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.60

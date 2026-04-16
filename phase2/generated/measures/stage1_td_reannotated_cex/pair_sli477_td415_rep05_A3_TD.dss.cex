@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep05
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=415
+*CHI:	my doggy and kitty go by the pool .
+%mor:	pron|my-Prs-Gen-S1 adj|doggy-S1 cconj|and noun|kitty
+	verb|go-Fin-Ind-Pres-P3 adp|by det|the-Def-Art noun|pool .
+%xdss:	B1; F3; Z; C1; Z;
+*CHI:	and ther's an airplane .
+%mor:	cconj|and pron|the-Prs-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|airplane .
+%xdss:	F3; C1; Z;
+*CHI:	and it's goin to go (w)ay .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S part|to verb|go-Inf-S noun|way-Acc .
+%xdss:	F3; A1; C1; C1; D2; C1; Z;
+*CHI:	and it's gone .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gone-S1 .
+%xdss:	F3; A1; C1;
+*CHI:	and it splat !
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|splat-Fin-Ind-Pres-S3 !
+%xdss:	F3; A1; C2;
+*CHI:	and it's in the pool .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	F3; A1; C1; Z;
+*CHI:	and my mommy get [* m:03s:a] mad .
+%mor:	cconj|and pron|my-Prs-Gen-S1 noun|mommy verb|get-Fin-Ind-Pres-S
+	adj|mad-S1 .
+%xdss:	F3; B1; Z; C1;
+*CHI:	and she go [* m:03s:a] get it .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	F3; B2; C1; C1; A1; B5;
+*CHI:	and the lifegaurd have [* m:vun:a] a long pole .
+%mor:	cconj|and det|the-Def-Art noun|lifegaurd verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art adj|long-S1 noun|pole-Acc .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and he go [* m:03s:a] get the plane .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 verb|get-Inf-S
+	det|the-Def-Art noun|plane-Acc .
+%xdss:	F3; B2; C2; C1; Z;
+*CHI:	and he bring [* m:03s:a] it back .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|bring-Fin-Ind-Pres-S3
+	pron|it-Prs-Acc-S3 adv|back .
+%xdss:	F3; B2; C2; A1; B5;
+@End

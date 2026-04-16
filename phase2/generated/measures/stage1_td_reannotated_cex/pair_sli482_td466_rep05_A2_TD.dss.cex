@@ -1,0 +1,73 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep05
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=466
+*CHI:	once upon a time there is [* m:vsg:a] two monkey [* m:0s:a] .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Pres-S3 num|two noun|monkey .
+%xdss:	Z; C2; A3; Z;
+*CHI:	they go to the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	they see the sign .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|sign-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	it say [* m:03s:a] dont run .
+%mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Pres-P3 pron|dont-Prs-Gen-S2
+	verb|run-Inf-S .
+%xdss:	A1; C1; D5; C1;
+*CHI:	they dont hear it .
+%mor:	pron|they-Prs-Nom-P3 aux|dont-Fin-S verb|hear-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B3; C4; D2; C1; A1; B5;
+*CHI:	one monkey start [* m:03s:a] to run to the water .
+%mor:	num|one noun|monkey verb|start-Fin-Ind-Pres-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; D3; C1; Z;
+*CHI:	the other monkey say [* m:03s:a] look out .
+%mor:	det|the-Def-Art adj|other-S1 noun|monkey verb|say-Fin-Ind-Pres-S
+	verb|look-Fin-Imp-S adp|out .
+%xdss:	A3; Z; C1; C1;
+*CHI:	but he run [* m:03s:a] too fast .
+%mor:	cconj|but pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Pres-S3 adv|too
+	adv|fast .
+%xdss:	F5; B2; C2;
+*CHI:	he slip [* m:03s:a] and he hurt [* m:03s:a] his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3 cconj|and
+	pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	B2; C2; F3; B2; C2; B2; Z;
+*CHI:	then a lifeguard come [* m:03s:a] with a bandaid .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	the monkey sit [* m:03s:a] on a bench .
+%mor:	det|the-Def-Art noun|monkey verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|a-Ind-Art noun|bench .
+%xdss:	Z; C2; Z;
+*CHI:	he rest [* m:03s:a] his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|rest-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	the lifeguard help [* m:03s:a] him .
+%mor:	det|the-Def-Art noun|lifeguard verb|help-Fin-Imp-S
+	pron|he-Prs-Acc-S3 .
+%xdss:	Z; C1; B2;
+*CHI:	he feel [* m:03s:a] better .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|good-Cmp-S1 .
+%xdss:	B2; C2;
+@End

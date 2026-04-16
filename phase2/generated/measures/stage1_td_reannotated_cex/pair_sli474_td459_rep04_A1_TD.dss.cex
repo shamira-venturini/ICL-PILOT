@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep04
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=459
+*CHI:	once upon a time there were two ducks .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-P3-irr num|two noun|duck-Plur .
+%xdss:	Z; C2; A3; Z;
+*CHI:	they were playing with a ball near the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|ball adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	then the ball went splash into the water !
+%mor:	adv|then det|the-Def-Art noun|ball verb|go-Fin-Ind-Past-S3-irr
+	noun|splash-Acc adp|into det|the-Def-Art noun|water !
+%xdss:	Z; C2; Z; Z;
+*CHI:	one of the ducks jumped in to get it .
+%mor:	num|one adp|of det|the-Def-Art noun|duck-Plur
+	verb|jump-Fin-Ind-Past-S3 adv|in part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; C1; A1; B5;
+*CHI:	she swam to the bottom and picked it up .
+%mor:	pron|she-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|bottom cconj|and verb|pick-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 adp|up .
+%xdss:	B2; C2; Z; F3; C2; A1; B5;
+*CHI:	then she swam back and gave it to her friend .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr adv|back
+	cconj|and verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to
+	pron|her-Prs-Gen-S3 noun|friend .
+%xdss:	B2; C2; F3; C2; A1; B5; B2; Z;
+*CHI:	they both quacked happy and played some more .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|quack-Fin-Ind-Past-P3
+	adj|happy-S1 cconj|and verb|play-Fin-Ind-Past-P3 det|some-Def-Ind
+	adj|more-Cmp-S1 .
+%xdss:	B3; A7; C2; F3; C2; A3; A3;
+@End

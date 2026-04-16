@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep03_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One doggy and one kitty go to the pool |3 3|   |1  |   |   |3  |   |   |  1| 11|
+    place .                            |   |   |   |   |   |   |   |   |   |   |
+See sign say [* m:03s:a] no run .      |   |   |1 1|5  |   |   |   |   |  0|  7|
+kitty start [* m:03s:a] to run to the  |   |   |2 1|3  |   |   |   |   |  0|  6|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+Ouch kitty slip [* m:base:ed] and hurt |   |   |1 2|   |   |3  |   |   |  0|  6|
+    [* m:03s:a] knee .                 |   |   |   |   |   |   |   |   |   |   |
+Then a nice man come [* m:03s:a] with a|   |   |2  |   |   |   |   |   |  0|  2|
+     big bandage .                     |   |   |   |   |   |   |   |   |   |   |
+kitty sit [* m:03s:a] on a bench and   |   |   |2  |   |   |3  |   |   |  0|  5|
+    rest .                             |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  6|  0| 13|  8|  0|  9|  0|  0|  1| 37|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  6.17

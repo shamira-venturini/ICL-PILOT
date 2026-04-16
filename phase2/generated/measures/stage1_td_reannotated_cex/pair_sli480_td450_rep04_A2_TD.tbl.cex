@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:31 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep04_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , two monkeys came to the pool |3 3|   |2  |   |   |   |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+One monkey started to run to the water |3  |2  |2 1|3  |   |5 3|   |   |  1| 22|
+    , but then he slipped and ouch !   |   |   |2  |   |   |   |   |   |   |   |
+He hurt his knee .                     |   |2 2|2  |   |   |   |   |   |  1|  7|
+A nice lifeguard came with a band-aid .|   |   |2  |   |   |   |   |   |  1|  3|
+The monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  | 10|  6| 19| 11|  0| 11|  0|  0|  7| 64|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.14

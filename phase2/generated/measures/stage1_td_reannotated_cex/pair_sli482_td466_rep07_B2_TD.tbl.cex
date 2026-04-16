@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep07_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog went to|   |3  |2 2|   |   |3 3|   |   |  1| 14|
+     the park they brought carrots and |   |   |   |   |   |   |   |   |   |   |
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+bunny ate too many sandwiches he felt  |   |2  |2 2|   |   |   |   |   |  1|  7|
+    icky .                             |   |   |   |   |   |   |   |   |   |   |
+he ran to the doctor .                 |   |2  |2  |   |   |   |   |   |  1|  5|
+the doctor said bunny you ate too much |   |   |2 2|   |   |   |   |   |  1|  6|
+    food now you have a tummyache .    |   |   |1  |   |   |   |   |   |   |   |
+bunny felt better after the doctor gave|   |2  |2 2|   |   |   |   |   |  1|  7|
+     him medicine .                    |   |   |   |   |   |   |   |   |   |   |
+now bunny is sitting in his bed he's   |   |2 2|1 1|   |   |   |   |   |  1|  9|
+    feeling better .                   |   |   |1 1|   |   |   |   |   |   |   |
+TOTAL                                  |  0| 13| 23|  0|  0|  6|  0|  0|  6| 48|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  8.00

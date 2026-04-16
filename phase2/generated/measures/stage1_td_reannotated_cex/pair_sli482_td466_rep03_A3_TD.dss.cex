@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep03
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=466
+*CHI:	once upon a time there is [* m:vsg:a] two ducks swiming near the
+	pool .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Pres-S3 num|two noun|duck-Plur verb|swime-Ger-S
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	Z; C2; A3; Z; D4; C1; D8; Z;
+*CHI:	and they play with a [* m:allo] airplane .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|a-Ind-Art noun|airplane .
+%xdss:	F3; B3; C1; Z;
+*CHI:	then the airplane fell down into the water .
+%mor:	adv|then det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adv|down adp|into det|the-Def-Art
+	noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the owner got sad .
+%mor:	det|the-Def-Art noun|owner verb|get-Fin-Ind-Past-S3-irr adj|sad-S1
+	.
+%xdss:	Z; C2;
+*CHI:	then a lifeguard try [* m:03s:a] to get the airplane with a pole .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|try-Fin-Imp-S part|to
+	verb|get-Inf-S det|the-Def-Art noun|airplane-Acc adp|with
+	det|a-Ind-Art noun|pole .
+%xdss:	Z; C1; D3; C1; Z; Z;
+*CHI:	then the airplane is back and everyone is happy .
+%mor:	adv|then det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3
+	adv|back cconj|and pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	Z; C1; F3; A7; C1;
+@End

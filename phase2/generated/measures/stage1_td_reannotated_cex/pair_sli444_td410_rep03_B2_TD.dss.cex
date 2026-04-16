@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep03
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=410
+*CHI:	We go to the park with our dog and rabbit .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	noun|park adp|with pron|our-Prs-Gen-P1 noun|dog cconj|and
+	noun|rabbit .
+%xdss:	B3; C1; Z; B3; Z; F3; Z;
+*CHI:	We got carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	The little boy ate a lot .
+%mor:	det|the-Def-Art adj|little-S1 noun|boy verb|eat-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|lot-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	He ate too many sandwiches .
+%mor:	pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	He said ouch .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|ouch .
+%xdss:	B2; C2;
+*CHI:	He felt icky .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|icky-S1 .
+%xdss:	B2; C2;
+*CHI:	His tummy was hurting .
+%mor:	pron|his-Prs-Gen-S3 noun|tummy aux|be-Fin-Ind-Past-S3-irr
+	verb|hurt-Part-Pres-S .
+%xdss:	B2; Z; C2; C1;
+*CHI:	We took him to the doctor .
+%mor:	pron|we-Prs-Nom-P1 verb|take-Fin-Ind-Past-P1-irr pron|he-Prs-Acc-S3
+	adp|to det|the-Def-Art noun|doctor .
+%xdss:	B3; C2; B2; Z;
+*CHI:	The doctor looked at him .
+%mor:	det|the-Def-Art noun|doctor verb|look-Fin-Ind-Past-S3 adp|at
+	pron|he-Prs-Acc-S3 .
+%xdss:	Z; C2; B2;
+*CHI:	She said drink [* m:03s:a] some water .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr verb|drink-Inf-S
+	det|some-Def-Ind noun|water-Acc .
+%xdss:	B2; C2; C1; A3; Z;
+*CHI:	He drank water .
+%mor:	pron|he-Prs-Nom-S3 verb|drink-Fin-Ind-Past-S3-irr noun|water-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	He lay [* m:base:ed] down on the mat .
+%mor:	pron|he-Prs-Nom-S3 verb|lay-Fin-Ind-Past-S3 adp|down adp|on
+	det|the-Def-Art noun|mat .
+%xdss:	B2; C2; Z;
+*CHI:	He went to sleep .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|to noun|sleep .
+%xdss:	B2; C2; Z;
+@End

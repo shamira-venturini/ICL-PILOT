@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep01
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=410
+*CHI:	oh there's a little doggy and a little kitty playing with a
+	[* m:allo] airplane near the pool .
+%mor:	intj|oh pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|little-S1 noun|doggy cconj|and det|a-Ind-Art adj|little-S1
+	noun|kitty verb|play-Ger-S adp|with det|a-Ind-Art noun|airplane
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	Z; F3; Z; D4; C1; D8; Z; Z;
+*CHI:	the airplane goes splat into the water .
+%mor:	det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S3
+	noun|splat-Acc adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the doggy's owner is super upset .
+%mor:	det|the-Def-Art noun|doggy~part|s noun|owner aux|be-Fin-Ind-Pres-S3
+	adv|super adj|upset-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	she says .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	oh no where's my airplane !
+%mor:	intj|oh intj|no adv|where~aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1
+	noun|airplane !
+%xdss:	C1; B1; Z;
+*CHI:	someone yells .
+%mor:	pron|someone-Ind-S1 verb|yell-Fin-Ind-Pres-S3 .
+%xdss:	A3; C2;
+*CHI:	i can get it !
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 !
+%xdss:	B1; C4; D2; C1; A1; B5;
+*CHI:	and a lifeguard puts on a big pole and gets the airplane .
+%mor:	cconj|and det|a-Ind-Art noun|lifeguard verb|put-Fin-Ind-Pres-S3
+	adp|on det|a-Ind-Art adj|big-S1 noun|pole cconj|and
+	verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|airplane-Acc .
+%xdss:	F3; Z; C2; Z; F3; C2; Z;
+*CHI:	the kitty is happy .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	the airplane is back .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+@End

@@ -1,0 +1,45 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there is a rabbit and a dog one day    |3  |3  |2 2|   |   |3 3|   |   |  1| 19|
+    there is a rabbit and a dog they   |   |   |2  |   |   |   |   |   |   |   |
+    had a wagon with a big red balloon |   |   |   |   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the balloon had a string .             |   |   |2  |8  |   |   |   |   |  1| 11|
+and the rabbit and dog were pulling the|   |   |2 1|   |   |3 3|   |   |  1| 10|
+     wagon .                           |   |   |   |   |   |   |   |   |   |   |
+the balloon was up in the air and the  |   |   |2 2|   |   |3 3|   |   |  1| 12|
+    rabbit and dog were laughing .     |   |   |1  |   |   |   |   |   |   |   |
+but then the string came undone .      |   |   |2  |8  |   |5  |   |   |  1| 16|
+the balloon just went floating away .  |   |   |2 1|7 8|   |   |   |   |  1| 19|
+and the rabbit and dog were so sad .   |   |   |2  |   |   |3 3|   |   |  1| 14|
+                                       |   |   |   |   |   |5  |   |   |   |   |
+they looked everywhere for the balloon |   |3  |2  |   |   |8  |   |   |  1| 14|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+but it was gone .                      |1  |   |2  |   |   |5  |   |   |  1|  9|
+then they went to the ice cream man .  |   |3  |2  |   |   |   |   |   |  1|  6|
+he had lots of balloons .              |   |2  |2  |   |   |   |   |   |  1|  5|
+the rabbit and dog wanted two balloons |3  |   |2  |   |   |3  |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+but the ice cream man said it was one  |1 3|   |2 2|   |   |5 8|   |   |  1| 25|
+    balloon for five dollars .         |3  |   |   |   |   |   |   |   |   |   |
+the rabbit and dog didn't have five    |3  |   |6 1|   |4  |3  |   |   |  1| 18|
+    dollars .                          |   |   |   |   |   |   |   |   |   |   |
+the ice cream man helped them get two  |3  |3  |2 1|5  |   |   |   |   |  1| 15|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog were so happy .     |   |   |2  |   |   |3 5|   |   |  1| 11|
+they got two balloons and they were    |3  |3 3|2 2|   |   |3  |   |   |  1| 17|
+    happy .                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 23| 20| 53| 36|  4| 77|  0|  0| 17|230|
+WARNING: DSS requires 50 complete sentences and this transcript only has 17.
+
+Developmental sentence score: 13.53

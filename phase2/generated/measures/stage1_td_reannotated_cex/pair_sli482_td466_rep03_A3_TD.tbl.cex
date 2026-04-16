@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep03_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there is [* m:vsg:a]  |3  |   |2 1|4 8|   |   |   |   |  0| 18|
+    two ducks swiming near the pool .  |   |   |   |   |   |   |   |   |   |   |
+and they play with a [* m:allo]        |   |3  |1  |   |   |3  |   |   |  0|  7|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+then the airplane fell down into the   |   |   |2  |   |   |   |   |   |  1|  3|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+the owner got sad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+then a lifeguard try [* m:03s:a] to get|   |   |1 1|3  |   |   |   |   |  0|  5|
+     the airplane with a pole .        |   |   |   |   |   |   |   |   |   |   |
+then the airplane is back and everyone |7  |   |1 1|   |   |3  |   |   |  1| 13|
+    is happy .                         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 10|  3| 12| 15|  0|  6|  0|  0|  3| 49|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  8.17

@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep02
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=450
+*CHI:	Two dogs are by the pool playing with a little airplane .
+%mor:	num|two noun|dog-Plur aux|be-Fin-Ind-Pres-P3 adp|by det|the-Def-Art
+	noun|pool verb|play-Ger-S adp|with det|a-Ind-Art adj|little-S1
+	noun|airplane .
+%xdss:	A3; Z; C2; Z; D4; C1; D8; Z;
+*CHI:	Then it fell into the water .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	The dog's owner was sad .
+%mor:	det|the-Def-Art noun|dog~part|s noun|owner
+	aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; Z; C2;
+*CHI:	Someone went to get it with a long stick .
+%mor:	pron|someone-Ind-S1 verb|go-Fin-Ind-Past-S3-irr part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 adp|with det|a-Ind-Art adj|long-S1
+	noun|stick .
+%xdss:	A3; C2; D3; C1; A1; B5; Z;
+*CHI:	They got the plane !
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|the-Def-Art
+	noun|plane-Acc !
+%xdss:	B3; C2; Z;
+*CHI:	The dog's owner was happy .
+%mor:	det|the-Def-Art noun|dog~part|s noun|owner
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	Z; Z; C2;
+*CHI:	The dog is happy .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+@End

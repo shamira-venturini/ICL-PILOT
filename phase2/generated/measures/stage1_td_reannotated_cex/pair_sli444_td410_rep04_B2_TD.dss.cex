@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep04
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=410
+*CHI:	the rabbit and dog is goin on a picnic .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|on det|a-Ind-Art
+	noun|picnic .
+%xdss:	Z; F3; Z; C1; C1; Z;
+*CHI:	they get sandwiches and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	they sit down and eat .
+%mor:	pron|they-Prs-Nom-P3 verb|sit-Fin-Ind-Pres-P3 adp|down cconj|and
+	verb|eat-Fin-Ind-Pres-P3 .
+%xdss:	B3; C1; F3; C1;
+*CHI:	one of the dog eat [* m:03s:a] too much .
+%mor:	num|one adp|of det|the-Def-Art noun|dog verb|eat-Fin-Ind-Pres-P3
+	adv|too adj|much-S1 .
+%xdss:	A3; Z; C1;
+*CHI:	the dog start [* m:03s:a] to feel sick .
+%mor:	det|the-Def-Art noun|dog verb|start-Fin-Ind-Pres-S3 part|to
+	verb|feel-Inf-S adj|sick-S1 .
+%xdss:	Z; C2; D3; C1;
+*CHI:	the dog go [* m:03s:a] to the doctor .
+%mor:	det|the-Def-Art noun|dog verb|go-Fin-Ind-Pres-S adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	Z; C1; Z;
+*CHI:	the doctor say [* m:03s:a] .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	the dog feel better and go home with the rabbit .
+%mor:	det|the-Def-Art noun|dog verb|feel-Fin-S adj|good-Cmp-S1 cconj|and
+	verb|go-Fin-Imp-S adv|home adp|with det|the-Def-Art noun|rabbit .
+%xdss:	Z; C1; F3; C1; Z;
+@End

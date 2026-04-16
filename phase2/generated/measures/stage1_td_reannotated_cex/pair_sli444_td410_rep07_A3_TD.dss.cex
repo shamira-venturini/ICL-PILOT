@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep07
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=410
+*CHI:	they're flying a [* m:allo] airplane .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|fly-Part-Pres-S
+	det|a-Ind-Art noun|airplane-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	it's going 'vroom' .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	noun|vroom-Acc .
+%xdss:	A1; C1; C1; Z;
+*CHI:	it's over the pool .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|over det|the-Def-Art
+	noun|pool .
+%xdss:	A1; C1; Z;
+*CHI:	it went in the water .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	the cat and dog are sad .
+%mor:	det|the-Def-Art noun|cat cconj|and noun|dog aux|be-Fin-Ind-Pres-P3
+	adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	their airplane is in the pool .
+%mor:	pron|their-Prs-Gen-P3 noun|airplane aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	B3; Z; C1; Z;
+*CHI:	the cat's friend is mad .
+%mor:	det|the-Def-Art noun|cat~part|s noun|friend aux|be-Fin-Ind-Pres-S3
+	adj|mad-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	she's trying to get it .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S
+	part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C1; C1; D3; C1; A1; B5;
+*CHI:	the lifeguard has a big pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|have-Fin-Ind-Pres-S3
+	det|a-Ind-Art adj|big-S1 noun|pole-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	she's getting it .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C1; C1; A1; B5;
+*CHI:	she's pulling it out .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|pull-Part-Pres-S
+	pron|it-Prs-Acc-S3 adp|out .
+%xdss:	B2; C1; C1; A1; B5;
+*CHI:	the cat and dog are happy .
+%mor:	det|the-Def-Art noun|cat cconj|and noun|dog aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they're playing with their airplane again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with pron|their-Prs-Gen-P3 noun|airplane adv|again .
+%xdss:	B3; C1; B3; Z;
+@End

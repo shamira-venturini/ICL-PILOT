@@ -1,0 +1,72 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:39 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli413_td439_rep03_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time two monkeys were      |3  |   |2 1|   |   |   |   |   |  1|  7|
+    playing near the pool .            |   |   |   |   |   |   |   |   |   |   |
+the ball went into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+one monkey jumped in and get [* m:base:|3 1|5  |2 1|   |   |3  |   |   |  0| 15|
+    ed] it .                           |   |   |   |   |   |   |   |   |   |   |
+he bring [* m:03s:a] it back .         |1  |2 5|2  |   |   |   |   |   |  0| 10|
+once upon a time two monkeys went to   |3  |   |2  |   |   |   |   |   |  1|  6|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+a big sign said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+it slip [* m:base:ed] on the deck and  |1 1|   |2 2|   |   |3  |   |   |  0|  9|
+    hurt its knee .                    |   |   |   |   |   |   |   |   |   |   |
+a lifeguard come [* m:03s:a] with a    |   |   |2  |   |   |   |   |   |  0|  2|
+    bandage .                          |   |   |   |   |   |   |   |   |   |   |
+the kitty say [* m:03s:a] .            |   |   |2  |   |   |   |   |   |  0|  2|
+the monkey sit [* m:03s:a] on a bench  |   |   |2  |   |   |3  |   |   |  0|  5|
+    and rest .                         |   |   |   |   |   |   |   |   |   |   |
+Two puppies play .                     |3  |   |1  |   |   |   |   |   |  1|  5|
+once upon a time rabbit and dog was [* |   |   |2  |   |   |3  |   |   |  0|  5|
+    m:vsg:a] on beach .                |   |   |   |   |   |   |   |   |   |   |
+rabbit and dog build sandcastle        |   |   |1  |   |   |3  |   |   |  1|  5|
+    together .                         |   |   |   |   |   |   |   |   |   |   |
+dog was making towers and rabbit was   |   |   |2 1|   |   |3  |   |   |  1| 10|
+    carrying sand .                    |   |   |2 1|   |   |   |   |   |   |   |
+dog got too excited and knock [* m:0ed]|   |   |2 1|   |   |3  |   |   |  0|  6|
+     over rabbit's bucket .            |   |   |   |   |   |   |   |   |   |   |
+sand go [* m:03s:a] everywhere and     |   |   |1 1|   |   |3  |   |   |  0|  5|
+    castle fall [* m:03s:a] down .     |   |   |   |   |   |   |   |   |   |   |
+dog help [* m:03s:a] rabbit build new  |   |   |1  |   |   |   |   |   |  0|  1|
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+once upon a time rabbit and dog went on|   |   |2  |   |   |3  |   |   |  1|  6|
+     a play .                          |   |   |   |   |   |   |   |   |   |   |
+they brought sandwiches and carrots .  |   |3  |2  |   |   |3  |   |   |  1|  9|
+the little girl eat [* m:03s:a] and eat|   |   |1 1|   |   |3  |   |   |  0|  5|
+     [* m:03s:a] .                     |   |   |   |   |   |   |   |   |   |   |
+she eat [* m:03s:a] too much .         |   |2  |2  |   |   |   |   |   |  0|  4|
+then she feel [* m:03s:a] icky .       |   |2  |2  |   |   |   |   |   |  0|  4|
+her [* s:r:gc:pro] tum [/] tum hurt [* |   |2  |1  |   |   |   |   |   |  0|  3|
+    m:03s:a] .                         |   |   |   |   |   |   |   |   |   |   |
+a doctor come [* m:03s:a] and say .    |   |   |1 1|   |   |3  |   |   |  0|  5|
+she give [* m:03s:a] her a special     |   |2 2|2  |   |   |   |   |   |  0|  6|
+    drink .                            |   |   |   |   |   |   |   |   |   |   |
+the little girl lay down and close [* m|   |2  |2 1|   |   |3  |   |   |  0|  8|
+    :0ed] her eyes .                   |   |   |   |   |   |   |   |   |   |   |
+she feel better soon .                 |   |2  |2  |   |   |   |   |   |  1|  5|
+once upon a time there was a rabbit and|   |   |2  |   |   |3  |   |   |  1|  6|
+     dog .                             |   |   |   |   |   |   |   |   |   |   |
+they were pulling a wagon with a big   |   |3  |2 1|   |   |   |   |   |  1|  7|
+    red balloon .                      |   |   |   |   |   |   |   |   |   |   |
+the balloon went up in air .           |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit and dog were sad .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+they asked a man who had many balloons |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog gave him five cents |3 7|2  |2 2|   |   |3 3|   |   |  1| 23|
+    and got a new balloon each .       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 29| 46| 79|  8|  0| 51|  0|  0| 18|231|
+WARNING: DSS requires 50 complete sentences and this transcript only has 35.
+
+Developmental sentence score:  6.60

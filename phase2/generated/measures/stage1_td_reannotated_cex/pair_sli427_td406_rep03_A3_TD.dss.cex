@@ -1,0 +1,35 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep03
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=406
+*CHI:	They play with a toy airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|a-Ind-Art noun|toy noun|airplane .
+%xdss:	B3; C1; Z; Z;
+*CHI:	The airplane goes into the pool .
+%mor:	det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	A lifeguard uses a long pole and gets the airplane .
+%mor:	det|a-Ind-Art noun|lifeguard verb|use-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|long-S1 noun|pole-Acc cconj|and verb|get-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	Z; C2; Z; F3; C2; Z;
+*CHI:	Now the boy is happy and plays with the airplane again .
+%mor:	adv|now det|the-Def-Art noun|boy aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 cconj|and verb|play-Fin-Ind-Pres-S3 adp|with
+	det|the-Def-Art noun|airplane adv|again .
+%xdss:	Z; C1; F3; C2; Z;
+@End

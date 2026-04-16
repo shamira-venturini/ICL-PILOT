@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep03
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=3
+@Comment:	source_child_id=471
+*CHI:	me [* s:r:gc:pro] and my doggy were building a sandcastle on the
+	beach .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	aux|be-Fin-Ind-Past-P3-irr verb|build-Part-Pres-S det|a-Ind-Art
+	noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach .
+%xdss:	B1; F3; B1; Z; C2; C1; Z; Z;
+*CHI:	we were using a big shovel to make it tall .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|use-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|shovel-Acc part|to verb|make-Inf-S
+	pron|it-Prs-Acc-S3 adj|tall-S1 .
+%xdss:	B3; C2; C1; Z; C1; A1; B5;
+*CHI:	then my doggy started throwing sand on the castle with the bucket .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|doggy verb|start-Fin-Ind-Past-S3
+	verb|throw-Ger-S noun|sand-Acc adp|on det|the-Def-Art noun|castle
+	adp|with det|the-Def-Art noun|bucket .
+%xdss:	B1; Z; C2; D7; C1; D8; Z; Z; Z;
+*CHI:	all the sand went in the water .
+%mor:	det|all-Def-Tot det|the-Def-Art noun|sand
+	verb|go-Fin-Ind-Past-S3-irr adp|in det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z;
+*CHI:	my castle fell down .
+%mor:	pron|my-Prs-Gen-S1 noun|castle verb|fall-Fin-Ind-Past-S3-irr
+	adv|down .
+%xdss:	B1; Z; C2;
+*CHI:	i was sad and started crying .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sad-S1 cconj|and
+	verb|start-Fin-Ind-Past-S1 verb|cry-Ger-S .
+%xdss:	B1; C2; F3; C2; D7; C1; D8;
+*CHI:	my doggy came to me and licked my face .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|come-Fin-Ind-Past-S3-irr adp|to
+	pron|I-Prs-Acc-S1 cconj|and verb|lick-Fin-Ind-Past-S3
+	pron|my-Prs-Gen-S1 noun|face-Acc .
+%xdss:	B1; Z; C2; B1; F3; C2; B1; Z;
+@End

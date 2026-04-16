@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep09
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=415
+*CHI:	two friends , a kitty and a puppy , go to the pool .
+%mor:	num|two noun|friend-Plur det|a-Ind-Art noun|kitty cconj|and
+	det|a-Ind-Art noun|puppy verb|go-Fin-Imp-S adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C1; Z;
+*CHI:	look !
+%mor:	verb|look-Fin-Imp-S !
+%xdss:	C1;
+*CHI:	a sign say [* m:03s:a] .
+%mor:	det|a-Ind-Art noun|sign verb|say-Fin-Imp-S .
+%xdss:	Z; C1;
+*CHI:	no runing [: running] [* m:0ing] .
+%mor:	det|no-Def-Neg noun|runing-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	kitty slip and hurt knee .
+%mor:	noun|kitty noun|slip cconj|and verb|hurt-Fin-Imp-S noun|knee-Acc .
+%xdss:	Z; Z; F3; C1; Z;
+*CHI:	a lifeguard come [* m:03s:a] with a big bandage .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3 adp|with
+	det|a-Ind-Art adj|big-S1 noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	kitty sit [* m:03s:a] on a bench and rest .
+%mor:	noun|kitty verb|sit-Fin-Imp-S adp|on det|a-Ind-Art noun|bench
+	cconj|and noun|rest .
+%xdss:	Z; C1; Z; F3; Z;
+*CHI:	kitty feel better .
+%mor:	noun|kitty verb|feel-Fin-Imp-S adj|good-Cmp-S1 .
+%xdss:	Z; C1;
+@End

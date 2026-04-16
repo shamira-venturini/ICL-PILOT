@@ -1,0 +1,28 @@
+{
+  "feature_columns": [
+    "Syntax_Utts_Analyzed",
+    "Syntax_Tokens_Analyzed",
+    "Syntax_Mean_DepLen",
+    "Syntax_Max_DepLen",
+    "Syntax_Mean_TreeDepth",
+    "Syntax_Max_TreeDepth",
+    "Syntax_Subordination_Utt_Prop",
+    "Syntax_Coordination_Utt_Prop",
+    "Syntax_Subject_Utt_Prop",
+    "Syntax_Object_Utt_Prop",
+    "Syntax_AuxCop_Utt_Prop",
+    "Syntax_Oblique_Utt_Prop",
+    "Syntax_ComplexNP_Utt_Prop",
+    "Syntax_FiniteVerb_Tokens_per_Utt"
+  ],
+  "input_master_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/dev_measures.csv",
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/syntax_features.csv",
+  "rows": 360,
+  "totals": {
+    "chi_blocks_analyzed": 25440,
+    "chi_blocks_skipped_missing_tiers": 1652,
+    "chi_blocks_skipped_parse_errors": 0,
+    "chi_blocks_skipped_token_mismatch": 5270,
+    "chi_blocks_total": 32362
+  }
+}

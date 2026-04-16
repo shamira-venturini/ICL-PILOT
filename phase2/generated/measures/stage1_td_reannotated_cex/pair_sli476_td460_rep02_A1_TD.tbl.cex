@@ -1,0 +1,23 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:21 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep02_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+There are two rabbits by the pool .    |3  |   |1  |   |   |   |   |   |  1|  5|
+They are playing with a ball .         |   |3  |2 1|   |   |   |   |   |  1|  7|
+The ball goes into the pool .          |   |   |2  |   |   |   |   |   |  1|  3|
+One of the rabbits gets in the pool .  |3  |   |2  |   |   |   |   |   |  1|  6|
+He gets the ball .                     |   |2  |2  |   |   |   |   |   |  1|  5|
+He brings the ball out .               |   |2  |2  |   |   |   |   |   |  1|  5|
+The rabbits are happy now .            |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  6|  7| 14|  0|  0|  0|  0|  0|  7| 34|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  4.86

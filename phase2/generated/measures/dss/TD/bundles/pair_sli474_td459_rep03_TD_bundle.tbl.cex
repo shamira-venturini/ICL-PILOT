@@ -1,0 +1,89 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli474_td459_rep03_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there were two cats .                  |3  |   |2  |   |   |   |   |   |  1|  6|
+they were playing by the pool .        |   |3  |2 1|   |   |   |   |   |  1|  7|
+they had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+it fell into the water .               |1  |   |2  |   |   |   |   |   |  1|  4|
+one of the cats jumped in to get it .  |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+it was hard to get it .                |1 1|5  |2 1|3  |   |   |   |   |  1| 14|
+it was slippery .                      |1  |   |2  |   |   |   |   |   |  1|  4|
+the cat got it .                       |1  |5  |2  |   |   |   |   |   |  1|  9|
+it came out of the pool .              |1  |   |2  |   |   |   |   |   |  1|  4|
+it was wet .                           |1  |   |2  |   |   |   |   |   |  1|  4|
+the cat shook itself .                 |1  |5  |2  |   |   |   |   |   |  1|  9|
+the other cat was happy .              |3  |   |2  |   |   |   |   |   |  1|  6|
+they both played some more .           |7 3|3  |2  |   |   |   |   |   |  1| 19|
+                                       |3  |   |   |   |   |   |   |   |   |   |
+they were happy again .                |   |3  |2  |   |   |   |   |   |  1|  6|
+once upon a time two ducks came to the |3  |   |2  |   |   |   |   |   |  1|  6|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+there was a sign that said dont run .  |1  |   |2 2|5  |   |   |   |   |  1| 12|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+one duck wanted to go to the water so  |3  |2  |2 1|3 3|   |5  |   |   |  1| 23|
+    she started to run .               |   |   |2 1|   |   |   |   |   |   |   |
+then she slipped and boo booed her knee|   |2 2|2 2|   |   |3  |   |   |  1| 12|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+a helper came and put a bandaid on it .|1  |5  |2 2|   |   |3  |   |   |  1| 14|
+then the duck sat on a bench and rested|   |   |2 2|   |   |3  |   |   |  1|  8|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+once upon a time there were two dogs   |3  |   |2 1|4 8|   |   |   |   |  1| 19|
+    playing near the pool .            |   |   |   |   |   |   |   |   |   |   |
+they had a [* m:allo] airplane .       |   |3  |2  |   |   |   |   |   |  0|  5|
+then one of them threw it into the     |3 1|3 5|2  |   |   |   |   |   |  1| 15|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+the big dog got upset and said no !    |   |   |2 2|   |   |3  |   |   |  1|  8|
+then a man with a pole came and said   |   |   |2 2|   |4  |3  |   |   |  1| 17|
+    don't worry .                      |   |   |4 1|   |   |   |   |   |   |   |
+he got the airplane .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+the man gave it back to the dogs .     |1  |5  |2  |   |   |   |   |   |  1|  9|
+they were happy and the dogs hugged    |7 3|3  |2 2|   |   |3  |   |   |  1| 21|
+    each other .                       |   |   |   |   |   |   |   |   |   |   |
+One day rabbit and dog they went to the|3  |3  |2  |   |   |3  |   |   |  1| 12|
+     sandbox .                         |   |   |   |   |   |   |   |   |   |   |
+They built a big sandcastle .          |   |3  |2  |   |   |   |   |   |  1|  6|
+The rabbit was very proud of it .      |1  |5  |2  |   |   |   |   |   |  1|  9|
+The dog said lets [* m:03s:a] add some |3 3|5  |2 1|5  |   |   |   |   |  0| 20|
+    more sand on it .                  |1  |   |   |   |   |   |   |   |   |   |
+But the dog he did it too strong and   |1  |2 5|2 2|   |   |5 3|   |   |  1| 21|
+    the sandcastle fell down .         |   |   |   |   |   |   |   |   |   |   |
+The rabbit was so sad .                |   |   |2  |   |   |5  |   |   |  1|  8|
+He said why did you do that ?          |1  |2  |2 1|   |   |   |   |7  |  1| 14|
+The dog said sorry .                   |   |   |2  |   |   |   |   |   |  1|  3|
+The rabbit said its [* s:r:gc:det] okay|1  |   |2  |   |   |   |   |   |  0|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+They build another one together .      |3  |3  |1  |   |   |   |   |   |  1|  8|
+once upon a time rabbit and dog went to|   |3  |2 2|   |   |3 3|   |   |  1| 14|
+     the park and they found yummy     |   |   |   |   |   |   |   |   |   |   |
+    carrots .                          |   |   |   |   |   |   |   |   |   |   |
+they brought them home and made a big  |   |3 3|2 2|   |   |3  |   |   |  1| 14|
+    picnic .                           |   |   |   |   |   |   |   |   |   |   |
+the little child ate all the carrots   |3 3|2  |2 1|   |   |3 3|   |   |  1| 18|
+    and more sandwiches and now he's   |   |   |   |   |   |   |   |   |   |   |
+    all sick .                         |   |   |   |   |   |   |   |   |   |   |
+he said ouch my tummy hurts .          |   |2 1|2 2|   |   |   |   |   |  1|  8|
+then the doctor came and said what's   |   |6  |2 2|   |   |3  |   |   |  1| 15|
+    wrong little one ?                 |   |   |1  |   |   |   |   |   |   |   |
+he said you ate too much .             |   |2  |2 2|5  |   |   |   |   |  1| 12|
+the doctor gave him some medicine and  |3  |2 2|2 1|   |   |3 3|   |   |  1| 19|
+    now he's lying down and sleeping . |   |   |1 1|   |   |   |   |   |   |   |
+once upon a time rabbit and dog they   |   |3  |2 1|3  |   |3  |   |   |  1| 13|
+    wanted to go on a fun walk .       |   |   |   |   |   |   |   |   |   |   |
+and then dog pull [* m:03s:a] the wagon|   |   |1  |   |   |3  |   |   |  0|  4|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+and there was a big red balloon .      |   |   |2  |   |   |3  |   |   |  1|  6|
+and then rabbit and dog saw it .       |1  |5  |2  |   |   |3 3|   |   |  1| 15|
+and then dog pull [* m:0ed] the wagon  |   |   |1  |   |   |3  |   |   |  0|  4|
+    too fast .                         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 84|126|145| 39|  4| 81|  0|  7| 45|531|
+
+Developmental sentence score: 10.62

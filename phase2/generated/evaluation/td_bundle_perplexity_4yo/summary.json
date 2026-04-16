@@ -1,0 +1,94 @@
+{
+  "age_years": 4,
+  "bootstrap_uncertainty": {
+    "confidence": 0.95,
+    "median_difference_ci": [
+      201.46353819022121,
+      270.60854046917547
+    ],
+    "median_ratio_ci": [
+      1.7734341005369605,
+      2.2767079655341442
+    ],
+    "median_real_perplexity_ci": [
+      207.35219257688544,
+      259.69346128827607
+    ],
+    "median_synthetic_perplexity_ci": [
+      453.85355510430327,
+      487.5961241043008
+    ],
+    "ran": true,
+    "reps": 10000,
+    "seed": 0,
+    "synthetic_share_within_real_iqr_ci": [
+      0.0,
+      0.08181818181818182
+    ]
+  },
+  "comparison": {
+    "mann_whitney_p_value": 6.50484588359371e-18,
+    "mann_whitney_u": 4663.0,
+    "median_difference_synthetic_minus_real": 240.99797892541872,
+    "median_ratio_synthetic_over_real": 2.0696020646736137,
+    "synthetic_share_within_real_iqr": 0.0
+  },
+  "counts": {
+    "n_real_td_bundles": 45,
+    "n_synthetic_td_bundles": 110
+  },
+  "model": {
+    "alpha": 0.5,
+    "evaluation_unit": "bundled child transcript",
+    "folds": 5,
+    "order": 3,
+    "random_seed": 0,
+    "training_data": "real TD 4-year-old bundled CHAT transcripts only",
+    "type": "in_domain_smoothed_ngram_lm"
+  },
+  "outputs": {
+    "real_scores_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_perplexity_4yo/real_td_bundle_perplexity.csv",
+    "synthetic_fold_scores_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_perplexity_4yo/synthetic_td_bundle_perplexity_by_fold.csv",
+    "synthetic_scores_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_perplexity_4yo/synthetic_td_bundle_perplexity.csv",
+    "transcript_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_perplexity_4yo/transcript_manifest.csv"
+  },
+  "preprocessing": {
+    "kept_lines": [
+      "*CHI utterances only"
+    ],
+    "lexical_fillers_preserved_when_possible": [
+      "um",
+      "uh",
+      "er",
+      "ah",
+      "oh"
+    ],
+    "removed": [
+      "@ metadata lines",
+      "% analysis tiers",
+      "timing markers",
+      "bracketed CHAT annotations",
+      "angle-bracket grouping markup",
+      "CHAT control codes such as +/ and retracing symbols",
+      "placeholder tokens like xxx/yyy/www"
+    ]
+  },
+  "real_distribution": {
+    "max_perplexity": 629.36532902198,
+    "mean_perplexity": 253.2784400785574,
+    "median_perplexity": 225.31555134849017,
+    "min_perplexity": 117.81610969248459,
+    "q1_perplexity": 188.07393138365606,
+    "q3_perplexity": 280.59377533793685
+  },
+  "real_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/archive/phase1_prompting/data/enni_files_4-5/TD",
+  "synthetic_distribution": {
+    "max_perplexity": 759.5663258105599,
+    "mean_perplexity": 470.90126003159145,
+    "median_perplexity": 466.3135302739089,
+    "min_perplexity": 296.2040410067832,
+    "q1_perplexity": 414.9711252626181,
+    "q3_perplexity": 521.1604713227036
+  },
+  "synthetic_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td"
+}

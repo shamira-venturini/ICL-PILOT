@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep08
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=8
+@Comment:	source_child_id=471
+*CHI:	Rabbit and dog they were friends .
+%mor:	noun|rabbit cconj|and noun|dog pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr noun|friend-Plur .
+%xdss:	Z; F3; Z; B3; C2; Z;
+*CHI:	they built a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	dog got a big bucket and he poured sand all over it .
+%mor:	noun|dog verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc cconj|and pron|he-Prs-Nom-S3
+	verb|pour-Fin-Ind-Past-S3 noun|sand-Acc det|all-Def-Tot adp|over
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; F3; B2; C2; Z; A3; A1; B5;
+*CHI:	the sandcastle fell down .
+%mor:	det|the-Def-Art noun|sandcastle verb|fall-Fin-Ind-Past-S3-irr
+	adv|down .
+%xdss:	Z; C2;
+*CHI:	rabbit was sad .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit cried .
+%mor:	noun|rabbit verb|cry-Fin-Ind-Past-S3 .
+%xdss:	Z; C2;
+*CHI:	dog said sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit and dog fixed the sandcastle .
+%mor:	noun|rabbit cconj|and noun|dog verb|fix-Fin-Ind-Past-S3
+	det|the-Def-Art noun|sandcastle-Acc .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	it was all good again .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all adj|good-S1
+	adv|again .
+%xdss:	A1; C2;
+@End

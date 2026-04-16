@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep08_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we built a big sandcastle .            |   |3  |2  |   |   |   |   |   |  1|  6|
+I used a big shovel and my dog used a  |   |1 1|2 2|   |   |3  |   |   |  1| 10|
+    bucket .                           |   |   |   |   |   |   |   |   |   |   |
+my dog put too much sand in the bucket |1  |1 3|2 2|   |   |3  |   |   |  1| 13|
+    and it fell on our castle .        |   |   |   |   |   |   |   |   |   |   |
+it's all ruined .                      |1  |   |1 2|   |   |   |   |   |  1|  5|
+my dog was sad .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+he started to whine .                  |   |2  |2 1|3  |   |   |   |   |  1|  9|
+I said don't cry it's okay .           |1  |1  |2 4|   |4  |   |   |   |  1| 15|
+                                       |   |   |1 1|   |   |   |   |   |   |   |
+we can fix it .                        |1  |3 5|4 1|2  |   |   |   |   |  1| 17|
+I used the shovel to make it better .  |1  |1 5|2 1|   |   |   |   |   |  1| 11|
+my dog used the bucket to fill it up   |1  |1 5|2 1|   |   |   |   |   |  1| 11|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+now it's better .                      |1  |   |1  |   |   |   |   |   |  1|  3|
+my dog smiled .                        |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  7| 34| 40|  5|  4|  6|  0|  0| 12|108|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  9.00

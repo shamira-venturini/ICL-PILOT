@@ -1,0 +1,90 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli474_td459_rep01_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time my dog and my cat were|   |1 1|2 1|   |   |3  |   |   |  1|  9|
+     playing near the pool .           |   |   |   |   |   |   |   |   |   |   |
+they had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+the ball fell into the water splash .  |   |   |2  |   |   |   |   |   |  1|  3|
+my dog went into the pool to get the   |   |1  |2 1|   |   |   |   |   |  1|  5|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+he swam and swam and got it .          |1  |2 5|2 2|   |   |3 3|   |   |  1| 21|
+                                       |   |   |2  |   |   |   |   |   |   |   |
+then my dog came out and gave it to me |1  |1 5|2 2|   |   |3  |   |   |  1| 16|
+    .                                  |   |1  |   |   |   |   |   |   |   |   |
+now my dog and my cat are happy again .|   |1 1|2  |   |   |3  |   |   |  1|  8|
+once upon a time there was a monkey and|   |   |2  |   |   |3  |   |   |  1|  6|
+     a dog .                           |   |   |   |   |   |   |   |   |   |   |
+they went to the pool .                |   |3  |2  |   |   |   |   |   |  1|  6|
+they saw a sign that said no running . |1  |3  |2 2|8  |   |   |   |   |  1| 17|
+the dog saw the sign but he ran anyway |   |2  |2 2|   |   |5  |   |   |  1| 12|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+he ran to the water .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+he slipped and hurt his knee .         |   |2 2|2 2|   |   |3  |   |   |  1| 12|
+then a man came with a bandaid .       |   |   |2  |   |   |   |   |   |  1|  3|
+the dog sat down on a bench and rested |   |   |2 2|   |   |3  |   |   |  1|  8|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+once upon a time there were two dogs   |3  |   |2 1|4 8|   |   |   |   |  0| 18|
+    playing with a [* m:allo] airplane |   |   |   |   |   |   |   |   |   |   |
+    near the pool .                    |   |   |   |   |   |   |   |   |   |   |
+they were running and playing .        |   |3  |2 1|   |   |3  |   |   |  1| 11|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+then one of the dogs dropped the       |3  |   |2  |   |   |   |   |   |  1|  6|
+    airplane into the water .          |   |   |   |   |   |   |   |   |   |   |
+the other dog got very sad .           |3  |   |2  |   |   |   |   |   |  1|  6|
+his friend said oh no where is my      |   |2 1|2 1|   |   |   |   |   |  1|  7|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+then a lifeguard came and he had a long|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     pole .                            |   |   |   |   |   |   |   |   |   |   |
+he said don't worry I will get it .    |1  |2 1|2 4|2  |4  |   |   |   |  1| 28|
+                                       |   |5  |1 4|   |   |   |   |   |   |   |
+                                       |   |   |1  |   |   |   |   |   |   |   |
+he put the pole in the water and he got|   |2 2|2 2|   |   |3  |   |   |  1| 12|
+     the airplane .                    |   |   |   |   |   |   |   |   |   |   |
+the dog was so happy .                 |   |   |2  |   |   |5  |   |   |  1|  8|
+he said thank you .                    |   |2 5|2 1|   |   |   |   |   |  1| 11|
+once upon a time rabbit and dog they   |   |3  |2  |   |   |3  |   |   |  1|  9|
+    went to the sandbox .              |   |   |   |   |   |   |   |   |   |   |
+rabbit said lets build a castle .      |   |   |2 1|5  |   |   |   |   |  1|  9|
+dog said yay i will get the bucket .   |   |1  |2 4|2  |   |   |   |   |  1| 11|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+rabbit started building .              |   |   |2 1|7 8|   |   |   |   |  1| 19|
+dog came back with a big bucket of sand|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+dog said i want to add some sand to the|3  |1  |2 1|5 3|   |   |   |   |  1| 17|
+     castle .                          |   |   |1  |   |   |   |   |   |   |   |
+rabbit said be careful .               |   |   |2  |   |   |   |   |   |  1|  3|
+but dog dropped the bucket and all the |3  |   |2 2|   |   |5 3|   |   |  1| 16|
+    sand went on the castle .          |   |   |   |   |   |   |   |   |   |   |
+the castle got all messy .             |3  |   |2  |   |   |   |   |   |  1|  6|
+rabbit was sad .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit said why did you do that ?      |1  |   |2 1|   |   |   |   |7  |  1| 12|
+dog said sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit said its okay .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+we can build again .                   |   |3  |4 1|2  |   |   |   |   |  1| 11|
+rabbit and dog started building another|3  |   |2 1|7 8|   |3  |   |   |  1| 25|
+     castle .                          |   |   |   |   |   |   |   |   |   |   |
+Rabbit and dog went to get food for the|   |   |2 1|3  |   |3 8|   |   |  1| 18|
+     picnic .                          |   |   |   |   |   |   |   |   |   |   |
+They got carrots and sandwiches .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+We sat on the blanket and eat [* m:base|   |3  |2 1|   |   |3 3|   |   |  0| 13|
+    :ed] and eat [* m:03s:a] .         |   |   |1  |   |   |   |   |   |   |   |
+I eat too much sandwiches [* m:+s:a] . |   |1  |1  |   |   |   |   |   |  0|  2|
+Oh my tummy hurts .                    |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+I went to see the doctor .             |   |1  |2 1|3  |   |   |   |   |  1|  8|
+He looked at me and said I have a      |   |2 1|2 2|5  |   |3  |   |   |  1| 18|
+    tummyache .                        |   |1  |1  |   |   |   |   |   |   |   |
+I have to rest now .                   |   |1  |1 1|3  |   |   |   |   |  1|  7|
+My tummy will feel better tomorrow .   |   |1  |4 1|2  |   |   |   |   |  1|  9|
+TOTAL                                  | 27| 87|159| 85|  4| 80|  0|  7| 47|496|
+
+Developmental sentence score:  9.92

@@ -1,0 +1,77 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:39 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli427_td406_rep09_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+kitty and doggy is [* m:vsg:a] play .  |   |   |1  |   |   |3  |   |   |  0|  4|
+they have ball .                       |   |3  |1  |   |   |   |   |   |  1|  5|
+ball go [* m:03s:a] splash into water .|   |   |1  |   |   |   |   |   |  0|  1|
+kitty say [* m:03s:a] .                |   |   |1  |   |   |   |   |   |  0|  1|
+doggy say [* m:03s:a] .                |   |   |1  |   |   |   |   |   |  0|  1|
+me [* s:r:gc:pro] get !                |   |1  |1  |   |   |   |   |   |  0|  2|
+doggy go in pool get ball .            |   |   |1 1|   |   |   |   |   |  1|  3|
+doggy give [* m:03s:a] kitty ball .    |   |   |1  |   |   |   |   |   |  0|  1|
+kitty is happy .                       |   |   |1  |   |   |   |   |   |  1|  2|
+doggy and kitty play again .           |   |   |1  |   |   |3  |   |   |  1|  5|
+is go [* m:0ing] pool .                |   |   |1 1|   |   |   |1  |   |  0|  3|
+go sign .                              |   |   |1  |   |   |   |   |   |  1|  2|
+no run is no run .                     |   |   |1  |   |   |   |   |   |  1|  2|
+my bro is run [* m:0ing] .             |   |1  |7 2|   |   |   |   |   |  0| 10|
+is run [* m:0ing] to water .           |   |   |7 2|   |   |   |1  |   |  0| 10|
+bro hurt [* m:03s:a] knee .            |   |   |2  |   |   |   |   |   |  0|  2|
+nice lady is come [* m:0ing] .         |   |   |7 2|   |   |   |   |   |  0|  9|
+lady have [* m:vun:a] bandage .        |   |   |1  |   |   |   |   |   |  0|  1|
+put on knee .                          |   |   |1  |   |   |   |   |   |  1|  2|
+bro is sit [* m:0ing] on bench .       |   |   |1 1|   |   |   |   |   |  0|  2|
+two little ducks are playing with a    |3  |   |2 1|   |   |   |   |   |  1|  7|
+    plane near the pool .              |   |   |   |   |   |   |   |   |   |   |
+then the plane fell in the water .     |   |   |2  |   |   |   |   |   |  1|  3|
+the owner is mad .                     |   |   |1  |   |   |   |   |   |  1|  2|
+a lifeguard came and use [* m:base:ed] |   |   |2 1|   |   |3  |   |   |  0|  7|
+    a long stick to get the plane .    |   |   |1  |   |   |   |   |   |   |   |
+now the ducks is [* m:vsg:a] happy and |   |   |1 1|   |   |3  |   |   |  0|  5|
+    the plane is out .                 |   |   |   |   |   |   |   |   |   |   |
+doggy say [* m:03s:a] no , [/] no , [/]|   |   |1  |   |   |   |   |   |  0|  1|
+     no !                              |   |   |   |   |   |   |   |   |   |   |
+castle get [* m:03s:a] all squished .  |3  |   |2  |   |   |   |   |   |  0|  5|
+bunny cry [* m:03s:a] , cry [* m:03s:a]|   |   |1  |   |   |   |   |   |  0|  1|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+bunny say [* m:03s:a] i'm sorry doggy .|   |1  |1  |   |   |   |   |   |  0|  2|
+bunny try [* m:03s:a] to fix it .      |1  |5  |1 1|3  |   |   |   |   |  0| 11|
+doggy say [* m:03s:a] it's okay , bunny|1  |   |1 1|   |   |   |   |   |  0|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+bunny and doggy make new sand castle . |   |   |1  |   |   |3  |   |   |  1|  5|
+i and my doggy go picknick .           |   |1 1|1  |   |   |3  |   |   |  1|  7|
+we pick carrots and sandwiches .       |   |3  |1  |   |   |3  |   |   |  1|  8|
+i like eat too much carrots .          |   |1  |1 1|   |   |   |   |   |  1|  4|
+my tummy hurt .                        |   |1  |2  |   |   |   |   |   |  1|  4|
+i feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+my mom say [* m:03s:a] we go see the   |   |1 3|1 1|5  |   |   |   |   |  0| 12|
+    doctor .                           |   |   |1  |   |   |   |   |   |   |   |
+doctor say [* m:03s:a] you eat too much|   |   |1 1|5  |   |   |   |   |  0|  7|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+you need rest now .                    |   |   |1  |   |   |   |   |   |  1|  2|
+i rest on the bed .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+i feel better .                        |   |1  |1  |   |   |   |   |   |  1|  3|
+Me and my doggy friend , we is [* m:vsg|   |1 1|1  |   |   |3  |   |   |  0|  9|
+    :a] pullin' a wagon with a big red |   |3  |   |   |   |   |   |   |   |   |
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+It was so much fun !                   |1  |   |2  |   |   |5  |   |   |  1|  9|
+Then , the balloon came loose and went |   |   |2 2|   |   |3  |   |   |  1|  8|
+    up , [/] up , [/] up in the air .  |   |   |   |   |   |   |   |   |   |   |
+My doggy was sad too .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+He look [* m:03s:a] at me with his sad |   |2 1|2  |   |   |   |   |   |  0|  7|
+    eyes .                             |   |2  |   |   |   |   |   |   |   |   |
+My friend say [* m:03s:a] .            |   |1  |2  |   |   |   |   |   |  0|  3|
+Where's our balloon ?                  |   |3  |1  |   |   |   |   |   |  1|  5|
+We want another one !                  |3  |3  |1  |   |   |   |   |   |  1|  8|
+TOTAL                                  | 12| 43|100| 13|  0| 32|  2|  0| 24|226|
+
+Developmental sentence score:  4.52

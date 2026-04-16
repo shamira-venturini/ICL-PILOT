@@ -1,0 +1,90 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:43 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli480_td450_rep10_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+see ?                                  |   |   |1  |   |   |   |   |   |  1|  2|
+doggy hit the ball in the water .      |   |   |2  |   |   |   |   |   |  1|  3|
+and see he said doggy get in the pool  |   |2  |1 2|5 5|   |3  |   |   |  1| 21|
+    to get the ball .                  |   |   |1 1|   |   |   |   |   |   |   |
+and kitty help [* m:03s:a] doggy get   |   |   |1 1|5  |   |3  |   |   |  0| 10|
+    the ball .                         |   |   |   |   |   |   |   |   |   |   |
+they bring the ball out .              |   |3  |1  |   |   |   |   |   |  1|  5|
+ok see ?                               |   |   |1  |   |   |   |   |   |  1|  2|
+along time the monkey and rabbit go to |   |   |1  |   |   |3  |   |   |  1|  5|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+the monkey see [* m:03s:a] the sign say|   |   |1 1|8  |   |   |   |   |  0| 10|
+     no running !                      |   |   |   |   |   |   |   |   |   |   |
+but the monkey no [* s:r:gc:det] listen|   |   |1  |   |   |5  |   |   |  0|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the monkey go [* m:03s:a] run to water |   |   |2 2|   |   |   |   |   |  0|  4|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the monkey slip [* m:03s:a] and hurt [*|   |   |2  |   |   |3  |   |   |  0|  5|
+     m:03s:a] knee .                   |   |   |   |   |   |   |   |   |   |   |
+and see the lifeguard come and give the|   |   |1 1|   |   |3 3|   |   |  1| 10|
+     monkey bandage .                  |   |   |1  |   |   |   |   |   |   |   |
+the monkey sit [* m:03s:a] on bench and|   |   |2  |   |   |3  |   |   |  0|  5|
+     rest .                            |   |   |   |   |   |   |   |   |   |   |
+ok , see ?                             |   |   |1  |   |   |   |   |   |  1|  2|
+two little monkey come [* m:03s:a] and |3  |   |1 1|   |   |3  |   |   |  0|  8|
+    play by pool .                     |   |   |   |   |   |   |   |   |   |   |
+the other monkey get [* m:03s:a] very  |3  |   |1  |   |   |   |   |   |  0|  4|
+    sad .                              |   |   |   |   |   |   |   |   |   |   |
+he say [* m:03s:a] .                   |   |2  |2  |   |   |   |   |   |  0|  4|
+the lifeguard come [* m:03s:a] to help |   |   |2 1|3  |   |   |   |   |  0|  6|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+she have [* m:vun:a] long stick .      |   |2  |2  |   |   |   |   |   |  0|  4|
+she use [* m:03s:a] it to pick up      |1  |2 5|2 1|5  |   |   |   |   |  0| 16|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+the monkey is so happy .               |   |   |1  |   |   |5  |   |   |  1|  7|
+he hug [* m:03s:a] airplane and        |   |2  |2  |   |   |3  |   |   |  0|  7|
+    lifeguard .                        |   |   |   |   |   |   |   |   |   |   |
+everyone is smiling now .              |7  |   |1 1|   |   |   |   |   |  1| 10|
+A long time ago dog and rabbit build [*|   |   |1  |   |   |3  |   |   |  0|  4|
+     m:base:ed] a castle .             |   |   |   |   |   |   |   |   |   |   |
+Dog throw [* m:03s:a] sand on it .     |1  |5  |1  |   |   |   |   |   |  0|  7|
+Castle fall [* m:03s:a] down .         |   |   |1  |   |   |   |   |   |  0|  1|
+Rabbit cry [* m:03s:a] .               |   |   |1  |   |   |   |   |   |  0|  1|
+Rabbit and dog hug .                   |   |   |2  |   |   |3  |   |   |  1|  6|
+They build again .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+Benny the rabbit and doggy go the park |   |   |1  |   |   |3  |   |   |  1|  5|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+They pick [* m:irr:ed] some juicy      |3  |3  |1  |   |   |3  |   |   |  0| 10|
+    berries and yummy sandwiches .     |   |   |   |   |   |   |   |   |   |   |
+They have a big picnic .               |   |3  |1  |   |   |   |   |   |  1|  5|
+Timmy eat [* m:03s:a] and eat [* m:03s:|   |2  |1 1|   |   |3 3|   |   |  0| 12|
+    a] and eat [* m:03s:a] , his tummy |   |   |1 1|   |   |   |   |   |   |   |
+    get [* m:03s:a] too full .         |   |   |   |   |   |   |   |   |   |   |
+Oh no , my tummy hurts !               |   |1  |2  |   |   |   |   |   |  1|  4|
+He feel [* m:03s:a] dizzy and fall [* m|   |2  |2 1|   |   |3  |   |   |  0|  8|
+    :03s:a] down .                     |   |   |   |   |   |   |   |   |   |   |
+Benny and doggy run get a doctor .     |   |   |1  |   |   |3  |   |   |  1|  5|
+Timmy sit [* m:base:ed] on a bench ,   |   |   |1 1|   |   |3  |   |   |  0|  6|
+    drink [* m:base:ed] water , and    |   |   |1  |   |   |   |   |   |   |   |
+    feel better .                      |   |   |   |   |   |   |   |   |   |   |
+Benny rabbit and his doggy friend was [|   |2  |2  |   |   |3  |   |   |  0|  7|
+    * m:vsg:a] goin .                  |   |   |   |   |   |   |   |   |   |   |
+They got a red balloon in a wagon .    |   |3  |2  |   |   |   |   |   |  1|  6|
+The wagon goin [* m:0ing] up and down .|   |   |2  |   |   |3  |   |   |  0|  5|
+The balloon got loose .                |   |   |2  |   |   |   |   |   |  1|  3|
+It go [* m:03s:a] POP .                |1  |   |2  |   |   |   |   |   |  0|  3|
+Now they had no balloon .              |   |3  |2  |   |   |   |   |   |  1|  6|
+Benny and his doggy friend was [* m:vsg|   |2  |2  |   |   |3  |   |   |  0|  7|
+    :a] sad .                          |   |   |   |   |   |   |   |   |   |   |
+They want a new balloon .              |   |3  |1  |   |   |   |   |   |  1|  5|
+They go to the balloon man .           |   |3  |1  |   |   |   |   |   |  1|  5|
+The balloon man say [* m:03s:a] .      |   |   |2  |   |   |   |   |   |  0|  2|
+It's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+I'll help you .                        |   |5  |4 1|   |   |   |   |   |  1| 11|
+He give [* m:03s:a] them two new       |3  |2 3|2  |   |   |   |   |   |  0| 10|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 23| 63| 95| 31|  0| 73|  0|  0| 23|308|
+
+Developmental sentence score:  6.16

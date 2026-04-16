@@ -1,0 +1,39 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep01
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=1
+@Comment:	source_child_id=471
+*CHI:	There were two rabbits , one big and one little .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|rabbit-Plur num|one adj|big-S1 cconj|and num|one adj|little-S1
+	.
+%xdss:	C2; A3; Z; A3; F3; A3;
+*CHI:	They went to the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z;
+*CHI:	She slipped and hurt her knee .
+%mor:	pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	A nice lady came with a special sticky strip .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|special-S1 adj|sticky-S1 noun|strip .
+%xdss:	Z; C2; Z;
+*CHI:	The little rabbit sat down on a bench and rested .
+%mor:	det|the-Def-Art adj|little-S1 noun|rabbit
+	verb|sit-Fin-Ind-Past-S3-irr adp|down adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

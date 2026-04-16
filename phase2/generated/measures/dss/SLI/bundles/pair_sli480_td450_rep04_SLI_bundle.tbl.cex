@@ -1,0 +1,85 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:43 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli480_td450_rep04_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+okay , see ?                           |   |   |1  |   |   |   |   |   |  1|  2|
+along time the kitty and doggy come and|   |   |1 1|   |   |3 3|   |   |  1|  9|
+     play near the pool .              |   |   |   |   |   |   |   |   |   |   |
+the kitty and doggy have a little ball |   |   |1  |   |   |3  |   |   |  1|  5|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+and see he fell into the pool .        |   |2  |1 2|5  |   |3  |   |   |  1| 14|
+and the doggy go in the pool to get the|   |   |1 1|   |   |3  |   |   |  1|  6|
+     ball .                            |   |   |   |   |   |   |   |   |   |   |
+and see he swim [* m:03s:a] and swim [*|   |2  |1 1|5  |   |3 3|   |   |  0| 16|
+     m:03s:a] .                        |   |   |1  |   |   |   |   |   |   |   |
+the kitty pull [* m:03s:a] the ball out|   |   |1  |   |   |   |   |   |  0|  1|
+     of the water .                    |   |   |   |   |   |   |   |   |   |   |
+and see the kitty and doggy are happy  |   |   |1 2|   |   |3 3|   |   |  1| 10|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+Okay , see ?                           |   |   |1  |   |   |   |   |   |  1|  2|
+along time the monkeys come and see .  |   |   |1 1|   |   |3  |   |   |  1|  6|
+and the monkeys go to the pool .       |   |   |1  |   |   |3  |   |   |  1|  5|
+and see the sign say [* m:03s:a] no    |   |   |1 1|8  |   |3  |   |   |  0| 13|
+    running !                          |   |   |   |   |   |   |   |   |   |   |
+the monkey said see the sign and the   |   |   |2 1|8  |   |3  |   |   |  1| 18|
+    monkey said see the sign no running|   |   |2 1|   |   |   |   |   |   |   |
+     !                                 |   |   |   |   |   |   |   |   |   |   |
+and see he said the monkey run [* m:03s|   |2  |1 2|5  |   |3  |   |   |  0| 14|
+    :a] to the water .                 |   |   |1  |   |   |   |   |   |   |   |
+and see he run [* m:03s:a] .           |   |2  |1 1|5  |   |3  |   |   |  0| 12|
+and see the monkey slip and ouch !     |   |   |1 1|   |   |3 3|   |   |  1|  9|
+he hurt [* m:03s:a] knee .             |   |2  |2  |   |   |   |   |   |  0|  4|
+the lifeguard come [* m:03s:a] with    |   |   |2  |   |   |   |   |   |  0|  2|
+    bandaid .                          |   |   |   |   |   |   |   |   |   |   |
+and the monkey sat on bench and rest . |   |   |2  |   |   |3 3|   |   |  1|  9|
+see ?                                  |   |   |1  |   |   |   |   |   |  1|  2|
+along time the frogs come and said hi .|   |   |1 2|   |   |3  |   |   |  1|  7|
+the frogs said hi .                    |   |   |2  |   |   |   |   |   |  1|  3|
+and the frogs and the plane wrapped his|   |2  |2  |   |   |3 3|   |   |  1| 11|
+     balloon .                         |   |   |   |   |   |   |   |   |   |   |
+and see he said he the frog see [* m:  |   |2 2|1 2|5  |   |3  |   |   |  0| 18|
+    base:ed] the frog pushed the plane |   |   |1 2|   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+and the frog doing dropping the plane .|   |   |1 1|4 7|   |3  |   |   |  1| 25|
+                                       |   |   |   |8  |   |   |   |   |   |   |
+and see ?                              |   |   |1  |   |   |3  |   |   |  1|  5|
+and the frog is coming all day .       |3  |   |1 1|   |   |3  |   |   |  1|  9|
+the frog taking this thing off .       |   |   |1  |4 8|   |   |   |   |  1| 22|
+                                       |   |   |   |8  |   |   |   |   |   |   |
+and see the frog is not [/] not happy .|   |   |1 1|   |7  |3  |   |   |  1| 13|
+and the long time the frog catch [* m: |1  |5  |1  |   |   |3  |   |   |  0| 10|
+    03s:a] it .                        |   |   |   |   |   |   |   |   |   |   |
+and the frog will catch it mhm .       |1  |5  |4 1|2  |   |3  |   |   |  1| 17|
+the frog is too mad .                  |   |   |1  |   |   |   |   |   |  1|  2|
+and see the rabbit is not too mad [/]  |   |2  |1 1|   |7  |3 6|   |   |  1| 23|
+    mad (be)cause he chewed gently .   |   |   |2  |   |   |   |   |   |   |   |
+and he get [* m:03s:a] another plane . |3  |2  |2  |   |   |3  |   |   |  0| 10|
+and he said .                          |   |2  |2  |   |   |3  |   |   |  1|  8|
+we have a plane .                      |   |3  |1  |   |   |   |   |   |  1|  5|
+no you have no money change now .      |   |   |1  |   |   |   |   |   |  1|  2|
+he rabbit and dog go build castle .    |   |2  |1 1|   |   |3  |   |   |  1|  8|
+dog throw [* m:03s:a] sand on it .     |1  |5  |1  |   |   |   |   |   |  0|  7|
+dog say [* m:03s:a] sorry .            |   |   |1  |   |   |   |   |   |  0|  1|
+Rabbit and dog go to the park .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They get food , carrots and sandwiches |   |3  |1  |   |   |3  |   |   |  1|  8|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+Child eat [* m:03s:a] lots of food .   |   |   |1  |   |   |   |   |   |  0|  1|
+Child's tummy hurt .                   |   |   |2  |   |   |   |   |   |  1|  3|
+Child go [* m:03s:a] see doctor .      |   |   |1 1|   |   |   |   |   |  0|  2|
+Child sit [* m:03s:a] on the bed and   |   |   |1 1|   |   |3  |   |   |  0|  5|
+    rest .                             |   |   |   |   |   |   |   |   |   |   |
+long time ago rabbit and dog go .      |   |   |1  |   |   |3  |   |   |  1|  5|
+they have wagon .                      |   |3  |1  |   |   |   |   |   |  1|  5|
+the balloon comes loose .              |   |   |2  |   |   |   |   |   |  1|  3|
+it floats away .                       |1  |   |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  | 10| 48|100| 82| 14|117|  0|  0| 35|406|
+
+Developmental sentence score:  8.12

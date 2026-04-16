@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep01
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=1
+@Comment:	source_child_id=471
+*CHI:	One day , a dog and a cat were playing by the pool .
+%mor:	num|one noun|day det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art
+	noun|cat aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|by
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C2; C1; Z;
+*CHI:	They had a ball , it was red and shiny .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	adj|red-S1 cconj|and adj|shiny-S1 .
+%xdss:	B3; C2; Z; A1; C2; F3;
+*CHI:	They threw it high up in the air and it fell into the water .
+%mor:	pron|they-Prs-Nom-P3 verb|throw-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|high adp|up adp|in det|the-Def-Art noun|air
+	cconj|and pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	B3; C2; A1; B5; Z; F3; A1; C2; Z;
+*CHI:	The cat was sad .
+%mor:	det|the-Def-Art noun|cat aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	she cried .
+%mor:	pron|she-Prs-Nom-S3 verb|cry-Fin-Ind-Past-S3 .
+%xdss:	B2; C2;
+*CHI:	The dog said .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	Don't worry , I'll get it !
+%mor:	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 !
+%xdss:	C4; E4; G6; C1; D5; C4; C1; A1; B5;
+*CHI:	He jumped in the pool to get it .
+%mor:	pron|he-Prs-Nom-S3 verb|jump-Fin-Ind-Past-S3 adp|in det|the-Def-Art
+	noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; Z; C1; A1; B5;
+*CHI:	The water splashed everywhere !
+%mor:	det|the-Def-Art noun|water verb|splash-Fin-Ind-Past-S3
+	adv|everywhere !
+%xdss:	Z; C2;
+*CHI:	He got the ball and swam back to the side .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc cconj|and verb|swim-Fin-Ind-Past-S3-irr adv|back
+	adp|to det|the-Def-Art noun|side .
+%xdss:	B2; C2; Z; F3; C2; Z;
+*CHI:	The cat was happy again .
+%mor:	det|the-Def-Art noun|cat aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	adv|again .
+%xdss:	Z; C2;
+*CHI:	She took the ball and they played some more .
+%mor:	pron|she-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc cconj|and pron|they-Prs-Nom-P3
+	verb|play-Fin-Ind-Past-P3 det|some-Def-Ind adj|more-Cmp-S1 .
+%xdss:	B2; C2; Z; F3; B3; C2; A3; A3;
+@End

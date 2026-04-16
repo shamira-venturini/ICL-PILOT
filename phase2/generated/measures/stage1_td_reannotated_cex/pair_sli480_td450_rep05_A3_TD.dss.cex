@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep05
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=450
+*CHI:	two birds were playing with a little airplane near the pool .
+%mor:	num|two noun|bird-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|little-S1
+	noun|airplane adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	the airplane was taken by the cat and went into the water .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Past-S3-irr
+	verb|take-Part-Past-S-irr adp|by det|the-Def-Art noun|cat cconj|and
+	verb|go-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C7; C2; Z; F3; C2; Z;
+*CHI:	the cat's owner was sad .
+%mor:	det|the-Def-Art noun|cat~part|s noun|owner
+	aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; Z; C2;
+*CHI:	someone got a long stick and tried to get the airplane .
+%mor:	pron|someone-Ind-S1 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|long-S1 noun|stick-Acc cconj|and verb|try-Fin-Ind-Past-S3
+	part|to verb|get-Inf-S det|the-Def-Art noun|airplane-Acc .
+%xdss:	A3; C2; Z; F3; C2; D3; C1; Z;
+*CHI:	a lifeguard used a net and got the airplane .
+%mor:	det|a-Ind-Art noun|lifeguard verb|use-Fin-Ind-Past-S3 det|a-Ind-Art
+	noun|net-Acc cconj|and verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	Z; C2; Z; F3; C2; Z;
+*CHI:	the cat's owner was happy and took the airplane .
+%mor:	det|the-Def-Art noun|cat~part|s noun|owner
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 cconj|and
+	verb|take-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc .
+%xdss:	Z; Z; C2; F3; C2; Z;
+@End

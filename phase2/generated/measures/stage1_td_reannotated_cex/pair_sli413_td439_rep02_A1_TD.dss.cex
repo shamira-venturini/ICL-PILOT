@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep02
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=2
+@Comment:	source_child_id=439
+*CHI:	there was a kitty and a puppy .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|kitty cconj|and det|a-Ind-Art noun|puppy .
+%xdss:	C2; Z; F3; Z;
+*CHI:	they were playing near the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z;
+*CHI:	they had a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	the kitty went .
+%mor:	det|the-Def-Art noun|kitty verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	the ball fell in the water !
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water !
+%xdss:	Z; C2; Z;
+*CHI:	the puppy went .
+%mor:	det|the-Def-Art noun|puppy verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	don't worry kitty i will get it !
+%mor:	aux|do-Inf-S~part|not verb|worry-Inf-S noun|kitty-Acc
+	pron|I-Prs-Nom-S1 aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 !
+%xdss:	C4; E4; G6; C1; Z; B1; C4; D2; C1; A1; B5;
+*CHI:	the puppy went in the pool to get the ball .
+%mor:	det|the-Def-Art noun|puppy verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z; C1; Z;
+*CHI:	he splashed in the water and got it .
+%mor:	pron|he-Prs-Nom-S3 verb|splash-Fin-Ind-Past-S3 adp|in
+	det|the-Def-Art noun|water cconj|and verb|get-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; Z; F3; C2; A1; B5;
+*CHI:	he came out and gave it to the kitty .
+%mor:	pron|he-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adp|out cconj|and
+	verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to
+	det|the-Def-Art noun|kitty .
+%xdss:	B2; C2; F3; C2; A1; B5; Z;
+*CHI:	the kitty was so happy .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	thank you puppy !
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 noun|puppy-Acc !
+%xdss:	C1; B5; Z;
+*CHI:	the puppy and kitty played with the ball again .
+%mor:	det|the-Def-Art noun|puppy cconj|and noun|kitty
+	verb|play-Fin-Ind-Past-S3 adp|with det|the-Def-Art noun|ball
+	adv|again .
+%xdss:	Z; F3; Z; C2; Z;
+@End

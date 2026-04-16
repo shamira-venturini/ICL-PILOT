@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep06
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=6
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a rabbit and a dog they went on a picnic
+	and brought carrots and sandwiches .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	det|a-Ind-Art noun|dog pron|they-Prs-Nom-P3
+	verb|go-Fin-Ind-Past-P3-irr adp|on det|a-Ind-Art noun|picnic
+	cconj|and verb|bring-Fin-Ind-Past-P3-irr noun|carrot-Plur-Acc
+	cconj|and noun|sandwich-Plur .
+%xdss:	Z; C2; Z; F3; Z; B3; C2; Z; F3; C2; Z; F3; Z;
+*CHI:	the little child ate too many sandwiches .
+%mor:	det|the-Def-Art adj|little-S1 noun|child
+	verb|eat-Fin-Ind-Past-S3-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	he felt his tummy go ouch .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr
+	pron|his-Prs-Gen-S3 noun|tummy-Acc verb|go-Inf-S adv|ouch .
+%xdss:	B2; C2; B2; Z; C1;
+*CHI:	he said momma my tummy hurts .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr noun|momma
+	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2; Z; B1; Z; C2;
+*CHI:	momma said let's go see the doctor .
+%mor:	propn|momma verb|say-Fin-Ind-Past-S3-irr
+	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|go-Inf-S verb|see-Inf-S
+	det|the-Def-Art noun|doctor-Acc .
+%xdss:	C2; B3; D2; C1; C1; Z;
+*CHI:	the doctor looked in his ears and his throat and said you ate too
+	much .
+%mor:	det|the-Def-Art noun|doctor verb|look-Fin-Ind-Past-S3 adp|in
+	pron|his-Prs-Gen-S3 noun|ear-Plur cconj|and pron|his-Prs-Gen-S3
+	noun|throat cconj|and verb|say-Fin-Ind-Past-S3-irr
+	pron|you-Prs-Nom-S2 verb|eat-Fin-Ind-Past-S2-irr adv|too adv|much .
+%xdss:	Z; C2; B2; Z; F3; B2; Z; F3; C2; D5; C2;
+*CHI:	the child felt better and went home to rest .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Past-S3-irr
+	adj|good-Cmp-S1 cconj|and verb|go-Fin-Ind-Past-S3-irr adv|home
+	part|to verb|rest-Inf-S .
+%xdss:	Z; C2; F3; C2; C1;
+@End

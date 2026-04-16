@@ -1,0 +1,72 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep06
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=419
+*CHI:	there were two ducks and a little airplane .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|duck-Plur cconj|and det|a-Ind-Art adj|little-S1 noun|airplane .
+%xdss:	C2; A3; Z; F3; Z;
+*CHI:	they were playing near the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z;
+*CHI:	the airplane went .
+%mor:	det|the-Def-Art noun|airplane verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	and then it fell into the pool .
+%mor:	cconj|and adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr
+	adp|into det|the-Def-Art noun|pool .
+%xdss:	F3; A1; C2; Z;
+*CHI:	the ducks were sad .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	they wanted to get it .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; D3; C1; A1; B5;
+*CHI:	their mom said .
+%mor:	pron|their-Prs-Gen-P3 noun|mom verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B3; Z; C2;
+*CHI:	someone get [* m:03s:a] the airplane .
+%mor:	pron|someone-Ind-S1 verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	A3; C1; Z;
+*CHI:	and there was a lifeguard .
+%mor:	cconj|and pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|lifeguard .
+%xdss:	F3; C2; Z;
+*CHI:	he had a long pole .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|long-S1 noun|pole-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	he was a nice lifeguard .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|nice-S1 noun|lifeguard .
+%xdss:	B2; C2; Z;
+*CHI:	he got the airplane .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	the ducks were happy .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 .
+%xdss:	Z; C2;
+*CHI:	they were playing with the airplane again .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|the-Def-Art noun|airplane
+	adv|again .
+%xdss:	B3; C2; C1; Z;
+@End

@@ -1,0 +1,17 @@
+round_id,round_index,prompt_pair_order,pair_id,cohort,sli_child_id,sli_file_kideval,sli_age,sli_age_months_approx,sli_severity_band,sli_profile_label,td_child_id,td_file_kideval,td_age,td_age_months_approx,age_gap_months,pairs_per_round,prompt_pair_count_in_round,eval_pair_count_in_round,round_prompt_policy
+round_01,1,1,pair_sli817_td845,8-year-old,817,A/817.cha,8;01.06,97.2,high,morphosyntax_burden,845,A/845.cha,8;01.02,97.067,0.133,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_01,1,2,pair_sli879_td813,8-year-old,879,B/879.cha,8;04.00,100.0,high,morphosyntax_burden,813,A/813.cha,8;04.01,100.033,0.033,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_01,1,3,pair_sli874_td820,8-year-old,874,B/874.cha,8;05.10,101.333,high,morphosyntax_burden,820,B/820.cha,8;05.04,101.133,0.2,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_02,2,4,pair_sli829_td837,8-year-old,829,A/829.cha,8;05.13,101.433,high,morphosyntax_burden,837,A/837.cha,8;05.14,101.467,0.033,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_02,2,5,pair_sli825_td849,8-year-old,825,A/825.cha,8;06.06,102.2,low,structural,849,A/849.cha,8;06.01,102.033,0.167,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_02,2,6,pair_sli831_td838,8-year-old,831,B/831.cha,8;06.16,102.533,low,balanced,838,B/838.cha,8;06.17,102.567,0.033,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_03,3,7,pair_sli827_td843,8-year-old,827,B/827.cha,8;06.20,102.667,moderate,balanced,843,B/843.cha,8;07.04,103.133,0.467,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_03,3,8,pair_sli819_td867,8-year-old,819,B/819.cha,8;08.27,104.9,moderate,structural,867,B/867.cha,8;08.22,104.733,0.167,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_03,3,9,pair_sli880_td818,8-year-old,880,A/880.cha,8;09.12,105.4,low,balanced,818,A/818.cha,8;09.07,105.233,0.167,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_04,4,10,pair_sli870_td856,8-year-old,870,B/870.cha,8;10.17,106.567,high,morphosyntax_burden,856,A/856.cha,8;10.03,106.1,0.467,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_04,4,11,pair_sli877_td801,8-year-old,877,B/877.cha,8;10.19,106.633,moderate,balanced,801,A/801.cha,8;10.20,106.667,0.033,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_04,4,12,pair_sli875_td822,8-year-old,875,B/875.cha,8;10.24,106.8,high,morphosyntax_burden,822,B/822.cha,8;10.24,106.8,0.0,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_05,5,13,pair_sli823_td847,8-year-old,823,B/823.cha,8;10.27,106.9,moderate,balanced,847,B/847.cha,8;10.24,106.8,0.1,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_05,5,14,pair_sli821_td809,8-year-old,821,A/821.cha,8;11.01,107.033,high,balanced,809,A/809.cha,8;11.01,107.033,0.0,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_05,5,15,pair_sli871_td844,8-year-old,871,A/871.cha,8;11.01,107.033,moderate,balanced,844,A/844.cha,8;11.06,107.2,0.167,3,3,13,pairs in this round are excluded from evaluation only in this round
+round_06,6,16,pair_sli872_td811,8-year-old,872,B/872.cha,8;11.01,107.033,moderate,balanced,811,B/811.cha,8;11.02,107.067,0.033,3,1,15,pairs in this round are excluded from evaluation only in this round

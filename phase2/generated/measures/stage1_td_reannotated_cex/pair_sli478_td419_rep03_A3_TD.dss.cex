@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep03
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=419
+*CHI:	doggy and kitty were playing near the pool .
+%mor:	adj|doggy-S1 cconj|and noun|kitty aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C2; C1; Z;
+*CHI:	they found a little airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|find-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|little-S1 noun|airplane-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	doggy was swinging it .
+%mor:	noun|doggy aux|be-Fin-Ind-Past-S3-irr verb|swing-Part-Pres-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; C1; A1; B5;
+*CHI:	kitty wanted it .
+%mor:	noun|kitty verb|want-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	doggy said no .
+%mor:	noun|doggy verb|say-Fin-Ind-Past-S3-irr intj|no .
+%xdss:	Z; C2;
+*CHI:	kitty took it .
+%mor:	noun|kitty verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	it fell in the water .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	kitty was sad .
+%mor:	noun|kitty aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	the lifeguard got a pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|pole-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	she got the airplane out .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc adp|out .
+%xdss:	B2; C2; Z;
+*CHI:	doggy and kitty hugged the airplane .
+%mor:	adj|doggy-S1 cconj|and noun|kitty verb|hugge-Fin-Ind-Past-S3
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	F3; Z; C2; Z;
+*CHI:	they were happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	B3; C2;
+@End

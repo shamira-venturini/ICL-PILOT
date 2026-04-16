@@ -1,0 +1,38 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep07
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=460
+*CHI:	there's a sign that says no run .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg noun|run-Acc .
+%xdss:	Z; A1; C2; Z;
+*CHI:	he's running to the water .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S
+	adp|to det|the-Def-Art noun|water .
+%xdss:	B2; C1; C1; Z;
+*CHI:	whoops he slipped he hurt his knee .
+%mor:	noun|whoop-Plur pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3
+	pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	Z; B2; C2; D5; B2; C2; B2; Z;
+*CHI:	a helper came with a bandage .
+%mor:	det|a-Ind-Art noun|helper verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	she sat on a bench and rested .
+%mor:	pron|she-Prs-Nom-S3 verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	B2; C2; Z; F3; C2;
+@End

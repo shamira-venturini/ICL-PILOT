@@ -1,0 +1,60 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:40 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli444_td410_rep10_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+kitty and doggy was [* m:vsg:a] playing|   |   |2 1|   |   |3  |   |   |  0|  6|
+     near the pool .                   |   |   |   |   |   |   |   |   |   |   |
+they had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+it fell in the water .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+kitty went in to get it .              |1  |5  |2 1|   |   |   |   |   |  1| 10|
+kitty came back with the ball .        |   |   |2  |   |   |   |   |   |  1|  3|
+doggy was happy kitty .                |   |   |2  |   |   |   |   |   |  1|  3|
+they're giving doggy a bandage .       |   |3  |1  |   |   |   |   |   |  1|  5|
+doggy sits on bench .                  |   |   |2  |   |   |   |   |   |  1|  3|
+and the duck is playing with it .      |1  |5  |1 1|   |   |3  |   |   |  1| 12|
+and the fish wants it .                |1  |5  |2  |   |   |3  |   |   |  1| 12|
+and the duck says no .                 |   |   |2  |   |   |3  |   |   |  1|  6|
+and it's going in the water .          |1  |   |1 1|   |   |3  |   |   |  1|  7|
+and the mommy's saying no .            |   |   |1  |   |   |3  |   |   |  1|  5|
+and he's getting the plane .           |   |2  |1 1|   |   |3  |   |   |  1|  8|
+and he's bringing it out .             |1  |2 5|1 1|   |   |3  |   |   |  1| 14|
+and the duck and fish are happy .      |   |   |2  |   |   |3 3|   |   |  1|  9|
+Rabbit and dog play together on the    |   |   |1  |   |   |3  |   |   |  1|  5|
+    beach .                            |   |   |   |   |   |   |   |   |   |   |
+Dog use [* m:03s:a] shovel to add sand |   |   |1  |   |   |   |   |   |  0|  1|
+    on the castle .                    |   |   |   |   |   |   |   |   |   |   |
+The castle get [* m:03s:a] ruined .    |   |   |7 2|   |   |   |   |   |  0|  9|
+Rabbit cry [* m:03s:a] .               |   |   |1  |   |   |   |   |   |  0|  1|
+Dog say [* m:03s:a] sorry .            |   |   |1  |   |   |   |   |   |  0|  1|
+Dog and rabbit try to fix it together .|1  |5  |1 1|3  |   |3  |   |   |  1| 15|
+Rabbit and dog go to the park .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They pick carrots and sandwiches .     |   |3  |1  |   |   |3  |   |   |  1|  8|
+They have a picnic .                   |   |3  |1  |   |   |   |   |   |  1|  5|
+One child eats and eats .              |3  |   |2 2|   |   |3  |   |   |  1| 11|
+The child's tummy hurts .              |   |   |2  |   |   |   |   |   |  1|  3|
+The child is sick .                    |   |   |1  |   |   |   |   |   |  1|  2|
+A doctor checks the child .            |   |   |2  |   |   |   |   |   |  1|  3|
+balloon is tied .                      |   |   |7 2|   |   |   |   |   |  1| 10|
+but then it comes loose .              |1  |   |2  |   |   |5  |   |   |  1|  9|
+it floats away .                       |1  |   |2  |   |   |   |   |   |  1|  4|
+zebra and rabbit are sad .             |   |   |2  |   |   |3  |   |   |  1|  6|
+they look around .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+they can't find it .                   |1  |3 5|4 1|   |4  |   |   |   |  1| 19|
+then they see a man .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+he has many balloons .                 |   |2  |2  |   |   |   |   |   |  1|  5|
+zebra and rabbit want one .            |3  |   |1  |   |   |3  |   |   |  1|  8|
+but the man says it's too expensive .  |1  |   |2 1|   |   |5  |   |   |  1| 10|
+he helps them get some .               |3  |2 3|2 1|5  |   |   |   |   |  1| 17|
+they get two balloons .                |3  |3  |1  |   |   |   |   |   |  1|  8|
+TOTAL                                  | 23| 65| 91|  8|  4| 61|  0|  0| 36|288|
+WARNING: DSS requires 50 complete sentences and this transcript only has 41.
+
+Developmental sentence score:  7.02

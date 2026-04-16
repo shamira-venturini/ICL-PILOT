@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep04
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=459
+*CHI:	doggy and bunny were building a castle in the sandbox .
+%mor:	adj|doggy-S1 cconj|and noun|bunny aux|be-Fin-Ind-Past-P3-irr
+	verb|build-Part-Pres-S det|a-Ind-Art noun|castle-Acc adp|in
+	det|the-Def-Art noun|sandbox .
+%xdss:	F3; Z; C2; C1; Z; Z;
+*CHI:	bunny was putting sand in it with a shovel .
+%mor:	noun|bunny aux|be-Fin-Ind-Past-S3-irr verb|put-Part-Pres-S
+	noun|sand-Acc adp|in pron|it-Prs-Acc-S3 adp|with det|a-Ind-Art
+	noun|shovel .
+%xdss:	Z; C2; C1; Z; A1; B5; Z;
+*CHI:	doggy was carrying a big bucket of sand over to the castle .
+%mor:	noun|doggy aux|be-Fin-Ind-Past-S3-irr verb|carry-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|bucket-Acc adp|of noun|sand adp|over
+	adp|to det|the-Def-Art noun|castle .
+%xdss:	Z; C2; C1; Z; Z; Z;
+*CHI:	doggy poured the sand into the castle .
+%mor:	noun|doggy verb|pour-Fin-Ind-Past-S3 det|the-Def-Art noun|sand-Acc
+	adp|into det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the castle fell down !
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	!
+%xdss:	Z; C2;
+*CHI:	bunny was very sad .
+%mor:	noun|bunny aux|be-Fin-Ind-Past-S3-irr adv|very adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	bunny started to cry .
+%mor:	noun|bunny verb|start-Fin-Ind-Past-S3 part|to verb|cry-Inf-S .
+%xdss:	Z; C2; D3; C1;
+*CHI:	doggy said .
+%mor:	noun|doggy verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	bunny and doggy hugged each other .
+%mor:	noun|bunny cconj|and noun|doggy verb|hugge-Fin-Ind-Past-S3
+	det|each-Def-Rcp adj|other-S1 .
+%xdss:	Z; F3; Z; C2; A7; A3;
+*CHI:	then they started to build a new castle .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to
+	verb|build-Inf-S det|a-Ind-Art adj|new-S1 noun|castle-Acc .
+%xdss:	B3; C2; D3; C1; Z;
+@End

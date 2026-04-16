@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep04_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog were friends .          |   |   |2  |   |   |3  |   |   |  1|  6|
+They pulled a wagon .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+There was a big red balloon on the     |   |   |2  |   |   |   |   |   |  1|  3|
+    wagon .                            |   |   |   |   |   |   |   |   |   |   |
+The balloon came loose and flew away . |   |   |2 2|   |   |3  |   |   |  1|  8|
+The children were sad .                |   |   |2  |   |   |   |   |   |  1|  3|
+They looked everywhere for the balloon |   |3  |2  |   |   |8  |   |   |  1| 14|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+They saw a man with lots of balloons . |   |3  |2  |   |   |   |   |   |  1|  6|
+The man said .                         |   |   |2  |   |   |   |   |   |  1|  3|
+Let me help you .                      |   |1 5|1 1|2  |   |   |   |   |  1| 11|
+They each got a balloon and played     |7  |3  |2 2|   |   |3  |   |   |  1| 18|
+    outside .                          |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  7| 18| 24|  2|  0| 17|  0|  0| 10| 78|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.80

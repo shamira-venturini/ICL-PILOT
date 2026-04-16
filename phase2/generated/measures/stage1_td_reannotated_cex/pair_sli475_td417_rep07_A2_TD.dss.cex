@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep07
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=417
+*CHI:	One day , two friends , a tiger and a monkey , went to the pool .
+%mor:	num|one noun|day num|two noun|friend-Plur det|a-Ind-Art noun|tiger
+	cconj|and det|a-Ind-Art noun|monkey verb|go-Fin-Ind-Past-S3-irr
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; A3; Z; Z; F3; Z; C2; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	The tiger didn't see it .
+%mor:	det|the-Def-Art noun|tiger aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|see-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C6; E4; C1; A1; B5;
+*CHI:	The tiger started to rush to the water .
+%mor:	det|the-Def-Art noun|tiger verb|start-Fin-Ind-Past-S3 part|to
+	verb|rush-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	Z; C2; D3; C1; Z;
+*CHI:	The tiger slipped on the ground and hurt its knee .
+%mor:	det|the-Def-Art noun|tiger verb|slip-Fin-Ind-Past-S3 adp|on
+	det|the-Def-Art noun|ground cconj|and verb|hurt-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; Z; F3; C2; A1; Z;
+*CHI:	A nice lady came with a bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	She put it on the tiger's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adp|on det|the-Def-Art noun|tiger~part|s noun|knee .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	The tiger sat on a bench and rested .
+%mor:	det|the-Def-Art noun|tiger verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

@@ -1,0 +1,74 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli476_td460_rep02_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+There are two rabbits by the pool .    |3  |   |1  |   |   |   |   |   |  1|  5|
+They are playing with a ball .         |   |3  |2 1|   |   |   |   |   |  1|  7|
+The ball goes into the pool .          |   |   |2  |   |   |   |   |   |  1|  3|
+One of the rabbits gets in the pool .  |3  |   |2  |   |   |   |   |   |  1|  6|
+He gets the ball .                     |   |2  |2  |   |   |   |   |   |  1|  5|
+He brings the ball out .               |   |2  |2  |   |   |   |   |   |  1|  5|
+The rabbits are happy now .            |   |   |2  |   |   |   |   |   |  1|  3|
+One monkey and one bear go to the pool |3 3|   |1  |   |   |3  |   |   |  1| 11|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+There's a sign that says .             |1  |   |2  |   |   |   |   |   |  1|  4|
+The monkey runs to the water , but     |   |   |2 2|   |   |5 3|   |   |  1| 15|
+    slips and falls down .             |   |   |2  |   |   |   |   |   |   |   |
+The monkey's knee hurts .              |   |   |2  |   |   |   |   |   |  1|  3|
+A lifeguard comes with a big bandage . |   |   |2  |   |   |   |   |   |  1|  3|
+The monkey sits on a bench and rests . |   |   |2 2|   |   |3  |   |   |  1|  8|
+two boys are playing with a [* m:allo] |3  |   |2 1|   |   |   |   |   |  0|  6|
+    airplane by the pool .             |   |   |   |   |   |   |   |   |   |   |
+they're playing with it .              |1  |3 5|1  |   |   |   |   |   |  1| 11|
+now it's in the pool .                 |1  |   |1  |   |   |   |   |   |  1|  3|
+the mommy gets mad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+she says its her airplane .            |1  |2 2|2  |   |   |   |   |   |  1|  8|
+she wants it back .                    |1  |2 5|2  |   |   |   |   |   |  1| 11|
+she's trying to get it .               |1  |2 5|1 1|3  |   |   |   |   |  1| 15|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she's using a pole to get it .         |1  |2 5|1 1|   |   |   |   |   |  1| 12|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she's got it now .                     |1  |2 5|7 2|   |   |   |   |   |  1| 18|
+the dog and the rabbit build a castle  |   |   |1  |   |   |3  |   |   |  1|  5|
+    in the sandbox .                   |   |   |   |   |   |   |   |   |   |   |
+the dog got a big bucket of sand and he|1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+     poured it on the castle .         |   |   |   |   |   |   |   |   |   |   |
+the castle is ruined .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit is crying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+the rabbit said sorry .                |   |   |2  |   |   |   |   |   |  1|  3|
+the dog said sorry too .               |   |   |2  |   |   |   |   |   |  1|  3|
+they're going to fix it .              |1  |3 5|1 1|2  |   |   |   |   |  1| 14|
+they're putting sand on the castle     |   |3  |1  |   |   |   |   |   |  1|  5|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+they're building again .               |   |3  |1  |   |   |   |   |   |  1|  5|
+we're having picnic .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+we got rabbit and dog .                |   |3  |2  |   |   |3  |   |   |  1|  9|
+they're got food .                     |   |3  |7 2|   |   |   |   |   |  1| 13|
+we're eating carrots .                 |   |3  |1  |   |   |   |   |   |  1|  5|
+i ate too much .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+now my tummy hurts .                   |   |1  |2  |   |   |   |   |   |  1|  4|
+i feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+my rabbit friend and dog friend are    |   |1 1|2  |   |   |3  |   |   |  1|  8|
+    worried about me .                 |   |   |   |   |   |   |   |   |   |   |
+we go see doctor .                     |   |3  |1 1|   |   |   |   |   |  1|  6|
+doctor says .                          |   |   |2  |   |   |   |   |   |  1|  3|
+he gives me medicine .                 |   |2 1|2  |   |   |   |   |   |  1|  6|
+i take medicine .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+i feel better .                        |   |1  |1  |   |   |   |   |   |  1|  3|
+now i'm sitting on a blanket .         |   |1  |1  |   |   |   |   |   |  1|  3|
+my friends are happy too .             |   |1  |2  |   |   |   |   |   |  1|  4|
+They're gonna pull the wagon .         |   |3  |1  |   |   |   |   |   |  1|  5|
+the dog is pulling .                   |   |   |1 1|   |   |   |   |   |  1|  3|
+the rabbit is riding .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+it's big .                             |1  |   |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 26| 98|118|  5|  0| 26|  0|  0| 49|322|
+
+Developmental sentence score:  6.44

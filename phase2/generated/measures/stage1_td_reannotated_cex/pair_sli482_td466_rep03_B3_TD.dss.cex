@@ -1,0 +1,78 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep03
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=466
+*CHI:	we were so happy !
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr adv|so adj|happy-S1 !
+%xdss:	B3; C2; F5;
+*CHI:	rabbit and dog were pulling the red wagon .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S det|the-Def-Art adj|red-S1 noun|wagon-Acc .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	there was a big orange balloon on it .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 adj|orange-S1 noun|balloon adp|on pron|it-Prs-Acc-S3 .
+%xdss:	C2; Z; A1; B5;
+*CHI:	it came loose .
+%mor:	pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adv|loose .
+%xdss:	A1; C2;
+*CHI:	it went up [/] up [/] up !
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up !
+%xdss:	A1; C2;
+*CHI:	rabbit and dog were sad .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	where's the balloon ?
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|balloon ?
+%xdss:	C1; Z;
+*CHI:	it's gone .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gone-S1 .
+%xdss:	A1; C1;
+*CHI:	we wanted that balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Past-P1 det|that-Def-Dem-Sing
+	noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	where can we get another one ?
+%mor:	adv|where aux|can-Fin-S pron|we-Prs-Nom-P1 verb|get-Inf-S
+	det|another-Def-Ind noun|one-Acc ?
+%xdss:	B3; C1; A3; Z;
+*CHI:	we went to the lady .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|lady .
+%xdss:	B3; C2; Z;
+*CHI:	she had lots of balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	but she said it's fifty cents each .
+%mor:	cconj|but pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 num|fifty noun|cent-Plur
+	det|each-Def-Tot .
+%xdss:	F5; B2; C2; A1; C1; A3; Z; A7;
+*CHI:	we don't have fifty cents .
+%mor:	pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Pres-P1~part|not verb|have-Inf-S
+	num|fifty noun|cent-Plur-Acc .
+%xdss:	B3; E4; C1; A3; Z;
+*CHI:	she said okay , you can have two balloons for forty cents .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|okay
+	pron|you-Prs-Nom-S2 aux|can-Fin-S verb|have-Inf-S num|two
+	noun|balloon-Plur-Acc adp|for num|forty noun|cent-Plur .
+%xdss:	B2; C2; C4; D2; C1; A3; Z; F8; A3; Z;
+*CHI:	we got two balloons !
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr num|two
+	noun|balloon-Plur-Acc !
+%xdss:	B3; C2; A3; Z;
+@End

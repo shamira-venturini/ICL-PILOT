@@ -1,0 +1,22 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep05_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , a kitty and a puppy went to  |3  |   |2  |   |   |3  |   |   |  1|  9|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+A nice lifeguard came with a bandage   |   |   |2 2|   |   |3  |   |   |  1|  8|
+    and said .                         |   |   |   |   |   |   |   |   |   |   |
+The lifeguard put a bandage on it and  |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    the kitty felt better .            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  4|  5| 10|  0|  0|  9|  0|  0|  3| 31|
+WARNING: DSS requires 50 complete sentences and this transcript only has 3.
+
+Developmental sentence score: 10.33

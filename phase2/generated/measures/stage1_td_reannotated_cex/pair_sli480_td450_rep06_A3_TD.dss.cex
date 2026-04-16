@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep06
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=450
+*CHI:	Two birds were playing near the pool with a little airplane .
+%mor:	num|two noun|bird-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	Then , the airplane went splat into the water .
+%mor:	adv|then det|the-Def-Art noun|airplane verb|go-Fin-Ind-Past-S3-irr
+	noun|splat-Acc adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	The owner got very upset .
+%mor:	det|the-Def-Art noun|owner verb|get-Fin-Ind-Past-S3-irr adv|very
+	adj|upset-S1 .
+%xdss:	Z; C2;
+*CHI:	Someone tried to reach in to get it .
+%mor:	pron|someone-Ind-S1 verb|try-Fin-Ind-Past-S3 part|to
+	verb|reach-Inf-S adv|in part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	A3; C2; D3; C1; C1; A1; B5;
+*CHI:	A strong swimmer jumped in and used a long pole to get the airplane
+	out .
+%mor:	det|a-Ind-Art adj|strong-S1 noun|swimmer verb|jump-Fin-Ind-Past-S3
+	adp|in cconj|and verb|use-Fin-Ind-Past-S3 det|a-Ind-Art adj|long-S1
+	noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc adp|out .
+%xdss:	Z; C2; F3; C2; Z; C1; Z;
+*CHI:	The owner was so happy to get its [* s:r:gc:det] plane back .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 part|to verb|get-Inf-S pron|its-Prs-Gen-S3
+	noun|plane-Acc adv|back .
+%xdss:	Z; C2; F5; D3; C1; A1; Z;
+@End

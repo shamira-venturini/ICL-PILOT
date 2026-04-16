@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:22 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep09_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there's a sign that says no runing [:  |1  |   |2  |8  |   |   |   |   |  0| 11|
+    running] [* s:r:der] .             |   |   |   |   |   |   |   |   |   |   |
+my friend is goin to the wata .        |   |1  |1 1|   |   |   |   |   |  1|  4|
+she's runing [: running] [* m:+ing] .  |   |2  |1 1|   |   |   |   |   |  0|  4|
+she slips on the wet spot and falls    |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    down .                             |   |   |   |   |   |   |   |   |   |   |
+owwww she hurt her knee .              |   |2 2|2  |   |   |   |   |   |  1|  7|
+then a lifeguard come [* m:03s:a] and  |   |2  |2 2|   |   |3  |   |   |  0|  9|
+    put a bandaid on her knee .        |   |   |   |   |   |   |   |   |   |   |
+now she's sittin on a bench restin .   |   |2  |1 1|   |   |   |   |   |  1|  5|
+TOTAL                                  |  1| 13| 18|  8|  0|  6|  0|  0|  4| 50|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  7.14

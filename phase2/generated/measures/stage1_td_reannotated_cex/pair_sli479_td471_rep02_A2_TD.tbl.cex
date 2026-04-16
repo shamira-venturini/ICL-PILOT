@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:28 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep02_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , a duck and a fish were near  |3  |   |2  |   |   |3  |   |   |  1|  9|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+But the duck started to run fast to the|   |   |2 1|3  |   |5  |   |   |  1| 12|
+     water .                           |   |   |   |   |   |   |   |   |   |   |
+The duck fell down and hurt her [* s:r:|   |2  |2 2|   |   |3  |   |   |  0|  9|
+    gc:det] knee .                     |   |   |   |   |   |   |   |   |   |   |
+A lifeguard came with a bandage .      |   |   |2  |   |   |   |   |   |  1|  3|
+The duck sat on a bench and rested her |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    knee .                             |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  4|  4| 19| 11|  0| 14|  0|  0|  6| 58|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  8.29

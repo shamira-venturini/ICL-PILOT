@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep05_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there was a rabbit and|   |   |2  |   |   |3  |   |   |  1|  6|
+     a dog .                           |   |   |   |   |   |   |   |   |   |   |
+they were pulling a wagon with a red   |   |3  |2 1|   |   |   |   |   |  1|  7|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon came loose and flew away . |   |   |2 2|   |   |3  |   |   |  1|  8|
+the rabbit and dog were very sad .     |   |   |2  |   |   |3  |   |   |  1|  6|
+they looked everywhere for the balloon |   |3  |2  |   |   |8  |   |   |  1| 14|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+they found a nice man with lots of     |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog didn't have ten     |3  |   |6 1|   |4  |3  |   |   |  1| 18|
+    dollars .                          |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3|  9| 22|  0|  4| 20|  0|  0|  7| 65|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.29

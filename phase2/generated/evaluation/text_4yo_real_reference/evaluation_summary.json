@@ -1,0 +1,206 @@
+{
+  "age_years": 4,
+  "detectability": [
+    {
+      "accuracy_at_0_5": 0.982487922705314,
+      "mean_predicted_synthetic_prob_for_real": 0.1502804537764652,
+      "mean_predicted_synthetic_prob_for_synthetic": 0.8729245561298437,
+      "n_rows": 1656,
+      "n_splits": 5,
+      "ran": true,
+      "roc_auc": 0.9981894841269842,
+      "scope": "overall"
+    },
+    {
+      "accuracy_at_0_5": 0.9946236559139785,
+      "mean_predicted_synthetic_prob_for_real": 0.1625368058041895,
+      "mean_predicted_synthetic_prob_for_synthetic": 0.8533486477713365,
+      "n_rows": 930,
+      "n_splits": 5,
+      "ran": true,
+      "roc_auc": 0.999584736251403,
+      "scope": "TD"
+    },
+    {
+      "accuracy_at_0_5": 0.9669421487603306,
+      "mean_predicted_synthetic_prob_for_real": 0.2907350270873656,
+      "mean_predicted_synthetic_prob_for_synthetic": 0.8212738492861025,
+      "n_rows": 726,
+      "n_splits": 5,
+      "ran": true,
+      "roc_auc": 0.9924012855831037,
+      "scope": "SLI"
+    }
+  ],
+  "groups": [
+    "SLI",
+    "TD"
+  ],
+  "n_story_text_rows_real": 336,
+  "n_story_text_rows_synthetic": 1320,
+  "n_story_text_rows_total": 1656,
+  "outputs": {
+    "detectability_predictions_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/text_4yo_real_reference/detectability_cv_predictions.csv",
+    "detectability_summary_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/text_4yo_real_reference/detectability_summary.csv",
+    "real_text_baseline_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/text_4yo_real_reference/real_text_baseline.csv",
+    "slice_metric_summary_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/text_4yo_real_reference/slice_metric_summary.csv",
+    "story_text_records_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/text_4yo_real_reference/story_text_records.csv",
+    "synthetic_text_metrics_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/text_4yo_real_reference/synthetic_text_metrics.csv"
+  },
+  "real_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/archive/phase1_prompting/data/enni_files_4-5",
+  "real_story_counts_by_group_story": [
+    {
+      "group": "SLI",
+      "n_rows": 11,
+      "story_id": "A1"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 11,
+      "story_id": "A2"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 11,
+      "story_id": "A3"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 11,
+      "story_id": "B1"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 11,
+      "story_id": "B2"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 11,
+      "story_id": "B3"
+    },
+    {
+      "group": "TD",
+      "n_rows": 45,
+      "story_id": "A1"
+    },
+    {
+      "group": "TD",
+      "n_rows": 45,
+      "story_id": "A2"
+    },
+    {
+      "group": "TD",
+      "n_rows": 45,
+      "story_id": "A3"
+    },
+    {
+      "group": "TD",
+      "n_rows": 45,
+      "story_id": "B1"
+    },
+    {
+      "group": "TD",
+      "n_rows": 45,
+      "story_id": "B2"
+    },
+    {
+      "group": "TD",
+      "n_rows": 45,
+      "story_id": "B3"
+    }
+  ],
+  "stories": [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "story_counts_by_source_group": [
+    {
+      "group": "SLI",
+      "n_rows": 66,
+      "source": "real"
+    },
+    {
+      "group": "TD",
+      "n_rows": 270,
+      "source": "real"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 660,
+      "source": "synthetic"
+    },
+    {
+      "group": "TD",
+      "n_rows": 660,
+      "source": "synthetic"
+    }
+  ],
+  "synthetic_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated",
+  "synthetic_story_counts_by_group_story": [
+    {
+      "group": "SLI",
+      "n_rows": 110,
+      "story_id": "A1"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 110,
+      "story_id": "A2"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 110,
+      "story_id": "A3"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 110,
+      "story_id": "B1"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 110,
+      "story_id": "B2"
+    },
+    {
+      "group": "SLI",
+      "n_rows": 110,
+      "story_id": "B3"
+    },
+    {
+      "group": "TD",
+      "n_rows": 110,
+      "story_id": "A1"
+    },
+    {
+      "group": "TD",
+      "n_rows": 110,
+      "story_id": "A2"
+    },
+    {
+      "group": "TD",
+      "n_rows": 110,
+      "story_id": "A3"
+    },
+    {
+      "group": "TD",
+      "n_rows": 110,
+      "story_id": "B1"
+    },
+    {
+      "group": "TD",
+      "n_rows": 110,
+      "story_id": "B2"
+    },
+    {
+      "group": "TD",
+      "n_rows": 110,
+      "story_id": "B3"
+    }
+  ]
+}

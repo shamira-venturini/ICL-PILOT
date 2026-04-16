@@ -1,0 +1,64 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep10
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=450
+*CHI:	Two little monkeys like to play near the pool .
+%mor:	num|two adj|little-S1 noun|monkey-Plur verb|like-Fin-Ind-Pres-P3
+	part|to verb|play-Inf-S adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C1; D3; C1; Z;
+*CHI:	They have a tiny airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|tiny-S1 noun|airplane-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	It is shiny and red .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|shiny-S1 cconj|and
+	adj|red-S1 .
+%xdss:	A1; C1; F3;
+*CHI:	One monkey drops it into the pool .
+%mor:	num|one noun|monkey verb|drop-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adp|into det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; A1; B5; Z;
+*CHI:	The other monkey gets very sad .
+%mor:	det|the-Def-Art adj|other-S1 noun|monkey verb|get-Fin-Ind-Pres-S3
+	adv|very adj|sad-S1 .
+%xdss:	A3; Z; C2;
+*CHI:	He says .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	A lifeguard comes to help .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3 part|to
+	verb|help-Inf-S .
+%xdss:	Z; C2; D3; C1;
+*CHI:	She has a long stick .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|long-S1 noun|stick-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	She uses it to pick up the airplane .
+%mor:	pron|she-Prs-Nom-S3 verb|use-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	part|to verb|pick-Inf-S adp|up det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C2; D5; A1; B5; C1; Z;
+*CHI:	The monkey is so happy .
+%mor:	det|the-Def-Art noun|monkey aux|be-Fin-Ind-Pres-S3 adv|so
+	adj|happy-S1 .
+%xdss:	Z; C1; F5;
+*CHI:	He hugs his airplane and the lifeguard .
+%mor:	pron|he-Prs-Nom-S3 verb|hug-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3
+	noun|airplane-Acc cconj|and det|the-Def-Art noun|lifeguard .
+%xdss:	B2; C2; B2; Z; F3; Z;
+*CHI:	Everyone is smiling now .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S
+	adv|now .
+%xdss:	A7; C1; C1;
+@End

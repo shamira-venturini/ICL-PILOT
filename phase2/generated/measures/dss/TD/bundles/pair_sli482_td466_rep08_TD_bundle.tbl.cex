@@ -1,0 +1,84 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:39 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli482_td466_rep08_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+A frog and a duck were playing near the|   |   |2 1|   |   |3  |   |   |  1|  7|
+     pool .                            |   |   |   |   |   |   |   |   |   |   |
+They had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+The ball fell in the water .           |   |   |2  |   |   |   |   |   |  1|  3|
+The frog went into the pool to get it .|1  |5  |2 1|   |   |   |   |   |  1| 10|
+The frog swam and got the ball .       |   |   |2 2|   |   |3  |   |   |  1|  8|
+The frog came out of the pool with the |   |   |2  |   |   |   |   |   |  1|  3|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+The frog and the duck were happy !     |   |   |2  |   |   |3  |   |   |  1|  6|
+One cat and one dog go near pool .     |3 3|   |1  |   |   |3  |   |   |  1| 11|
+There is a sign that says .            |1  |   |2 2|   |   |   |   |   |  1|  6|
+The cat starts to run to water .       |   |   |2 1|3  |   |   |   |   |  1|  7|
+The cat slips and hurts knee [* m:0s:a]|   |   |2 2|   |   |3  |   |   |  0|  7|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+A nice man comes with a band-aid .     |   |   |2  |   |   |   |   |   |  1|  3|
+The cat sits on a bench and rests .    |   |   |2 2|   |   |3  |   |   |  1|  8|
+a doggy and a kitty was [* m:vsg:a]    |   |   |2 1|   |   |3  |   |   |  0|  6|
+    playing with a little airplane near|   |   |   |   |   |   |   |   |   |   |
+     the pool .                        |   |   |   |   |   |   |   |   |   |   |
+then the airplane fell into the pool ! |   |   |2  |   |   |   |   |   |  1|  3|
+the kitty was crying .                 |   |   |2 1|   |   |   |   |   |  1|  4|
+the doggy was crying too !             |   |   |2 1|   |   |   |   |   |  1|  4|
+the kitty's mommy went to get it with a|1  |5  |2 1|3  |   |   |   |   |  1| 13|
+     long pole .                       |   |   |   |   |   |   |   |   |   |   |
+she got it out of the water and gave it|1 1|2 5|2 2|   |   |3  |   |   |  1| 22|
+     to the kitty .                    |   |5  |   |   |   |   |   |   |   |   |
+the kitty was so happy !               |   |   |2  |   |   |5  |   |   |  1|  8|
+the kitty was hugging the airplane and |1  |5  |2 1|   |   |3  |   |   |  1| 14|
+    licking it .                       |   |   |1  |   |   |   |   |   |   |   |
+the doggy was happy too .              |   |   |2  |   |   |   |   |   |  1|  3|
+they were playing again !              |   |3  |2 1|   |   |   |   |   |  1|  7|
+once upon a time rabbit and dog play on|   |   |1  |   |   |3  |   |   |  1|  5|
+     the beach .                       |   |   |   |   |   |   |   |   |   |   |
+they build a big sandcastle .          |   |3  |1  |   |   |   |   |   |  1|  5|
+rabbit gets a shovel and dog gets a big|   |   |2 2|   |   |3  |   |   |  1|  8|
+     bucket .                          |   |   |   |   |   |   |   |   |   |   |
+dog dump [* m:03s:a] the bucket on the |   |   |1  |   |   |   |   |   |  0|  1|
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+the castle is all crumby !             |   |   |1  |   |   |   |   |   |  1|  2|
+rabbit is sad .                        |   |   |1  |   |   |   |   |   |  1|  2|
+dog is sad too .                       |   |   |1  |   |   |   |   |   |  1|  2|
+rabbit and dog go .                    |   |   |1  |   |   |3  |   |   |  1|  5|
+we did it !                            |1  |3 5|2  |   |   |   |   |   |  1| 12|
+rabbit and dog try to fix it .         |1  |5  |1 1|3  |   |3  |   |   |  1| 15|
+they make it better .                  |1  |3 5|1  |   |   |   |   |   |  1| 11|
+they build it again .                  |1  |3 5|1  |   |   |   |   |   |  1| 11|
+rabbit and dog are happy .             |   |   |2  |   |   |3  |   |   |  1|  6|
+once upon a time bunny and doggy go to |   |   |1  |   |   |3  |   |   |  1|  5|
+    the park .                         |   |   |   |   |   |   |   |   |   |   |
+they get carrots and sandwiches .      |   |3  |1  |   |   |3  |   |   |  1|  8|
+bunny and doggy have a picnic .        |   |   |1  |   |   |3  |   |   |  1|  5|
+me [/] me [/] me i want more i want    |3 3|1 1|1 1|   |   |   |   |   |  1| 14|
+    more i eat too much .              |   |1 1|1  |   |   |   |   |   |   |   |
+oh no i feel icky .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+i go to see the doctor .               |   |1  |1 1|3  |   |   |   |   |  1|  7|
+the doctor says dont [* m:03s:a] worry |   |1  |2 1|3  |   |   |   |   |  0|  9|
+    i just need to rest now .          |   |   |1 1|   |   |   |   |   |   |   |
+i sit on the couch and feel better .   |   |1  |1 1|   |   |3  |   |   |  1|  7|
+One time bunny and doggy have a waggen |3  |   |1  |   |   |3  |   |   |  0|  7|
+    [: wagon] [* s:r:der] with a big   |   |   |   |   |   |   |   |   |   |   |
+    red ballon .                       |   |   |   |   |   |   |   |   |   |   |
+The ballon come [* m:03s:a] loose and  |   |   |2 1|   |   |3  |   |   |  0|  6|
+    fly away .                         |   |   |   |   |   |   |   |   |   |   |
+They want the ballon [: balloon] [* s:r|   |3  |1  |   |   |   |   |   |  0|  4|
+    :der] back .                       |   |   |   |   |   |   |   |   |   |   |
+They go to a man with ballons [:       |   |3  |1  |   |   |   |   |   |  0|  4|
+    balloons] [* m:allo] .             |   |   |   |   |   |   |   |   |   |   |
+He say [* m:03s:a] .                   |   |2  |2  |   |   |   |   |   |  0|  4|
+TOTAL                                  | 25| 85|110| 15|  0| 65|  0|  0| 41|341|
+
+Developmental sentence score:  6.82

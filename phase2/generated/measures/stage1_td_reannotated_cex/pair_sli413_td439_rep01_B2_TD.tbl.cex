@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep01_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Once upon a time there was a rabbit and|   |   |2  |   |   |3  |   |   |  1|  6|
+     a dog .                           |   |   |   |   |   |   |   |   |   |   |
+They went on a picnic and got yummy    |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    carrots .                          |   |   |   |   |   |   |   |   |   |   |
+They sat down to eat .                 |   |3  |2 1|   |   |   |   |   |  1|  7|
+I ate too much carrots [* m:+s:a] .    |   |1  |2  |   |   |   |   |   |  0|  3|
+My tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+My rabbit friend took me to see a      |   |1 1|2 1|5  |   |   |   |   |  1| 11|
+    doctor .                           |   |   |   |   |   |   |   |   |   |   |
+The doctor said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+I rested and felt better .             |   |1  |2 2|   |   |3  |   |   |  1|  9|
+TOTAL                                  |  0| 12| 23|  5|  0|  9|  0|  0|  8| 57|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  6.33

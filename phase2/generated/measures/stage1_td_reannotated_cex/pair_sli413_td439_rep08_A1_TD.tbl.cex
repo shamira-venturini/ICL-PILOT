@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep08_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+There was a monkey and a bird .        |   |   |2  |   |   |3  |   |   |  1|  6|
+They were playing by the pool .        |   |3  |2 1|   |   |   |   |   |  1|  7|
+They were throwing a ball .            |   |3  |2 1|   |   |   |   |   |  1|  7|
+But then the ball fell in the water .  |   |   |2  |   |   |5  |   |   |  1|  8|
+The monkey went .                      |   |   |2  |   |   |   |   |   |  1|  3|
+The monkey jumped in the pool to get   |   |   |2 1|   |   |   |   |   |  1|  4|
+    the ball .                         |   |   |   |   |   |   |   |   |   |   |
+He swam and swam .                     |   |2  |2 2|   |   |3  |   |   |  1| 10|
+He finally got the ball !              |   |2  |2  |   |   |   |   |   |  1|  5|
+The monkey was happy .                 |   |   |2  |   |   |   |   |   |  1|  3|
+He climbed out of the pool and gave the|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     ball to the bird .                |   |   |   |   |   |   |   |   |   |   |
+The bird was happy too .               |   |   |2  |   |   |   |   |   |  1|  3|
+Now they are happy again .             |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  |  0| 15| 31|  0|  0| 14|  0|  0| 12| 72|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  6.00

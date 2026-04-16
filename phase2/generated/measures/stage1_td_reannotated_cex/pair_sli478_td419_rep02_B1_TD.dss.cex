@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep02
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=419
+*CHI:	once upon a time rabbit and dog they build a big sandcastle
+	together .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3
+	det|a-Ind-Art adj|big-S1 noun|sandcastle-Acc adv|together .
+%xdss:	Z; Z; F3; Z; B3; C1; Z;
+*CHI:	they use shovel and bucket .
+%mor:	pron|they-Prs-Nom-P3 verb|use-Fin-Ind-Pres-P3 noun|shovel-Acc
+	cconj|and noun|bucket .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	rabbit say now let's add more sand .
+%mor:	noun|rabbit verb|say-Fin-Imp-S adv|now
+	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|add-Inf-S adj|more-Cmp-S1
+	noun|sand-Acc .
+%xdss:	Z; C1; B3; D2; C1; A3; Z;
+*CHI:	dog he say [* m:03s:a] okay .
+%mor:	noun|dog pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 intj|okay .
+%xdss:	Z; B2; C2;
+*CHI:	then dog he dump [* m:03s:a] the bucket on the castle .
+%mor:	adv|then noun|dog pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|bucket-Acc adp|on det|the-Def-Art noun|castle .
+%xdss:	Z; B2; C2; Z; Z;
+*CHI:	he cry [* m:03s:a] .
+%mor:	pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	dog he feel [* m:03s:a] bad .
+%mor:	noun|dog pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|bad-S1 .
+%xdss:	Z; B2; C2;
+*CHI:	he try [* m:03s:a] to fix it .
+%mor:	pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	rabbit help [* m:03s:a] him .
+%mor:	noun|rabbit verb|help-Fin-Imp-S pron|he-Prs-Acc-S3 .
+%xdss:	Z; C1; B2;
+*CHI:	they use shovel to make it good again .
+%mor:	pron|they-Prs-Nom-P3 verb|use-Fin-Ind-Pres-P3 noun|shovel-Acc
+	part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adj|good-S1 adv|again .
+%xdss:	B3; C1; Z; C1; A1; B5;
+*CHI:	then it look [* m:03s:a] like new .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 adp|like
+	adj|new-S1 .
+%xdss:	A1; C2; F8;
+@End

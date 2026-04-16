@@ -1,0 +1,31 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep08_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a doggy and a kitty was [* m:vsg:a]    |   |   |2 1|   |   |3  |   |   |  0|  6|
+    playing with a little airplane near|   |   |   |   |   |   |   |   |   |   |
+     the pool .                        |   |   |   |   |   |   |   |   |   |   |
+then the airplane fell into the pool ! |   |   |2  |   |   |   |   |   |  1|  3|
+the kitty was crying .                 |   |   |2 1|   |   |   |   |   |  1|  4|
+the doggy was crying too !             |   |   |2 1|   |   |   |   |   |  1|  4|
+the kitty's mommy went to get it with a|1  |5  |2 1|3  |   |   |   |   |  1| 13|
+     long pole .                       |   |   |   |   |   |   |   |   |   |   |
+she got it out of the water and gave it|1 1|2 5|2 2|   |   |3  |   |   |  1| 22|
+     to the kitty .                    |   |5  |   |   |   |   |   |   |   |   |
+the kitty was so happy !               |   |   |2  |   |   |5  |   |   |  1|  8|
+the kitty was hugging the airplane and |1  |5  |2 1|   |   |3  |   |   |  1| 14|
+    licking it .                       |   |   |1  |   |   |   |   |   |   |   |
+the doggy was happy too .              |   |   |2  |   |   |   |   |   |  1|  3|
+they were playing again !              |   |3  |2 1|   |   |   |   |   |  1|  7|
+TOTAL                                  |  4| 25| 29|  3|  0| 14|  0|  0|  9| 84|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  8.40

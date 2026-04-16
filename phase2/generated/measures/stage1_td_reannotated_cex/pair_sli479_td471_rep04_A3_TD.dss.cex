@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep04
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=4
+@Comment:	source_child_id=471
+*CHI:	Two ducks were playing with a little airplane near the pool .
+%mor:	num|two noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|little-S1
+	noun|airplane adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	The airplane fell into the water .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Past-S3-irr
+	adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	said the duck .
+%mor:	verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art noun|duck-Acc .
+%xdss:	C2; Z;
+*CHI:	The duck's friend wanted to get it , but it was too slippery .
+%mor:	det|the-Def-Art noun|duck~part|s noun|friend
+	verb|want-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	cconj|but pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|too
+	adj|slippery-S1 .
+%xdss:	Z; Z; C2; D3; C1; A1; B5; F5; A1; C2;
+*CHI:	Just then , a lifeguard came with a big net .
+%mor:	adv|just adv|then det|a-Ind-Art noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art adj|big-S1
+	noun|net .
+%xdss:	Z; C2; Z;
+*CHI:	Here , let me get it !
+%mor:	adv|here verb|let-Fin-Imp-S pron|I-Prs-Acc-S1 verb|get-Inf-S
+	pron|it-Prs-Acc-S3 !
+%xdss:	C1; D2; B1; C1; A1; B5;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	She scooped up the airplane with the net and gave it back to the
+	duck .
+%mor:	pron|she-Prs-Nom-S3 verb|scoop-Fin-Ind-Past-S3 adp|up
+	det|the-Def-Art noun|airplane-Acc adp|with det|the-Def-Art noun|net
+	cconj|and verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|back
+	adp|to det|the-Def-Art noun|duck .
+%xdss:	B2; C2; Z; Z; F3; C2; A1; B5; Z;
+*CHI:	The duck was so happy .
+%mor:	det|the-Def-Art noun|duck aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+@End

@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep01
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=415
+*CHI:	and the rabbit and the dog go to the park .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art
+	noun|dog verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|park .
+%xdss:	F3; Z; F3; Z; C1; Z;
+*CHI:	and they have a picnic .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|picnic-Acc .
+%xdss:	F3; B3; C1; Z;
+*CHI:	and the kid eat [* m:03s:a] too much sandwiches .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|eat-Fin-Ind-Pres-S3 adv|too
+	adj|much-S1 noun|sandwich-Plur-Acc .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the kid feel [* m:03s:a] sick .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|feel-Fin-Ind-Pres-S3
+	adj|sick-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and the kid feel [* m:03s:a] dizzy .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|feel-Fin-Ind-Pres-S3
+	adj|dizzy-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	and the kid go [* m:03s:a] to the doctor .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|go-Fin-Ind-Pres-S adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and the doctor say [* m:03s:a] .
+%mor:	cconj|and det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-P3 .
+%xdss:	F3; Z; C1;
+*CHI:	and the kid feel better .
+%mor:	cconj|and det|the-Def-Art noun|kid verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	F3; Z; C2;
+@End

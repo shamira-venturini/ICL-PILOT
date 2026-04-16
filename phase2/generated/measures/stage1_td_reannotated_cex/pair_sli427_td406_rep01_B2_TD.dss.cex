@@ -1,0 +1,72 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep01
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=406
+*CHI:	We goin [* m:0ing] to the park today .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	noun|park noun|today .
+%xdss:	B3; C1; Z; Z;
+*CHI:	Me and my doggy friend , we gonna [* m:+ing] eat lunch .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend pron|we-Prs-Nom-P1 adv|gonna verb|eat-Inf-S
+	noun|lunch-Acc .
+%xdss:	B1; F3; B1; Z; B3; C1; Z;
+*CHI:	we get some yummy sandwiches and some apples .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Pres-P1 det|some-Def-Ind
+	adj|yummy-S1 noun|sandwich-Plur-Acc cconj|and det|some-Def-Ind
+	noun|apple-Plur .
+%xdss:	B3; C1; A3; Z; F3; A3; Z;
+*CHI:	my friend , he eat [* m:03s:a] too much , he eat [* m:03s:a] like
+	three sandwiches all by himself .
+%mor:	pron|my-Prs-Gen-S1 noun|friend pron|he-Prs-Nom-S3
+	verb|eat-Fin-Ind-Pres-S3 adv|too adj|much-S1 pron|he-Prs-Nom-S3
+	verb|eat-Fin-Ind-Pres-S3 intj|like num|three noun|sandwich-Plur-Acc
+	det|all-Def-Tot adp|by pron|himself-Prs-Acc-reflx-S3 .
+%xdss:	B1; Z; B2; C2; B2; C2; A3; Z; A3; B5;
+*CHI:	then he say [* m:03s:a] owwww .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 adv|owwww .
+%xdss:	B2; C2;
+*CHI:	he feel [* m:03s:a] sick in his tummy .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|sick-S1 adp|in
+	pron|his-Prs-Gen-S3 noun|tummy .
+%xdss:	B2; C2; B2; Z;
+*CHI:	he get [* m:03s:a] a little dizzy .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|little-S1 adj|dizzy-S1 .
+%xdss:	B2; C2;
+*CHI:	my friend's mom say [* m:03s:a] .
+%mor:	pron|my-Prs-Gen-S1 noun|friend~part|s noun|mom
+	verb|say-Fin-Ind-Pres-P3 .
+%xdss:	B1; Z; Z; C1;
+*CHI:	go see the doctor .
+%mor:	verb|go-Fin-Imp-S verb|see-Fin-Imp-S det|the-Def-Art
+	noun|doctor-Acc .
+%xdss:	C1; C1; Z;
+*CHI:	the doctor say [* m:03s:a] .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	you ate too much , take it easy .
+%mor:	pron|you-Prs-Nom-S2 verb|eat-Fin-Ind-Past-S2-irr adv|too
+	adj|much-S1 verb|take-Fin-Imp-S pron|it-Prs-Acc-S3 adj|easy-S1 .
+%xdss:	C2; C1; A1; B5;
+*CHI:	my friend sit [* m:03s:a] on the bed and rest .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art noun|bed cconj|and verb|rest-Fin-Ind-Pres-S1 .
+%xdss:	B1; Z; C2; Z; F3; C1;
+*CHI:	now he feel [* m:03s:a] better .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	B2; C2;
+@End

@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep09
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog were friends .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	noun|friend-Plur .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	They built a big sandcastle together .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc adv|together .
+%xdss:	B3; C2; Z;
+*CHI:	Rabbit was pouring sand and dog was making walls .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Past-S3-irr verb|pour-Part-Pres-S
+	noun|sand-Acc cconj|and noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S noun|wall-Plur-Acc .
+%xdss:	C2; C1; Z; F3; Z; C2; C1; Z;
+*CHI:	Dog got a big bucket and poured it on the sandcastle .
+%mor:	noun|dog verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc cconj|and verb|pour-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|sandcastle .
+%xdss:	Z; C2; Z; F3; C2; A1; B5; Z;
+*CHI:	The castle got all squished .
+%mor:	det|the-Def-Art noun|castle aux|get-Fin-Ind-Past-S3-irr
+	det|all-Def-Tot verb|squish-Part-Past-S .
+%xdss:	Z; A3; C2;
+*CHI:	Dog said .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	They took a brush and swept away the sand .
+%mor:	pron|they-Prs-Nom-P3 verb|take-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|brush-Acc cconj|and verb|sweep-Fin-Ind-Past-P3-irr adp|away
+	det|the-Def-Art noun|sand-Acc .
+%xdss:	B3; C2; Z; F3; C2; Z;
+*CHI:	They started again .
+%mor:	pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 adv|again .
+%xdss:	B3; C2;
+*CHI:	Now their sandcastle is new !
+%mor:	adv|now pron|their-Prs-Gen-P3 noun|sandcastle
+	aux|be-Fin-Ind-Pres-S3 adj|new-S1 !
+%xdss:	B3; Z; C1;
+@End

@@ -1,0 +1,23 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep10_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they were playing near the pool with a |   |3  |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+it fell in the water .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+the dog jumped in to get it .          |1  |5  |2 1|   |   |   |   |   |  1| 10|
+he swam to it .                        |1  |2 5|2  |   |   |   |   |   |  1| 11|
+he picked it up .                      |1  |2 5|2  |   |   |   |   |   |  1| 11|
+they were happy again .                |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  |  4| 25| 14|  0|  0|  0|  0|  0|  6| 49|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  8.17

@@ -1,0 +1,67 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep07
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=410
+*CHI:	They're making a castle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	It's big and pretty .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|big-S1 cconj|and
+	adj|pretty-S1 .
+%xdss:	A1; C1; F3;
+*CHI:	Rabbit and dog are friends .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3
+	noun|friend-Plur .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	They're working together .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|work-Part-Pres-S
+	adv|together .
+%xdss:	B3; C1;
+*CHI:	Dog goes .
+%mor:	noun|dog verb|go-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	and pours sand .
+%mor:	cconj|and verb|pour-Fin-Ind-Pres-S3 noun|sand-Acc .
+%xdss:	F3; C2; Z;
+*CHI:	Then the sand goes all over the castle .
+%mor:	adv|then det|the-Def-Art noun|sand verb|go-Fin-Ind-Pres-S3 adv|all
+	adp|over det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z;
+*CHI:	The castle is ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	Dog is sad .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	He's crying .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+*CHI:	Dog says .
+%mor:	noun|dog verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	we can fix it .
+%mor:	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|fix-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	B3; C4; D2; C1; A1; B5;
+*CHI:	They try to make it again .
+%mor:	pron|they-Prs-Nom-P3 verb|try-Fin-Ind-Pres-P3 part|to
+	verb|make-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C1; D3; C1; A1; B5;
+@End

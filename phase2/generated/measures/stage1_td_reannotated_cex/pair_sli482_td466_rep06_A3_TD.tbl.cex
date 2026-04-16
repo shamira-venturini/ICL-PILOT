@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep06_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there are two ducks they are playing   |3  |3  |1 2|   |   |   |   |   |  1| 11|
+    near the pool .                    |   |   |1  |   |   |   |   |   |   |   |
+they play with the airplane .          |   |3  |1  |   |   |   |   |   |  1|  5|
+the airplane fell in the water .       |   |   |2  |   |   |   |   |   |  1|  3|
+the owner is sad .                     |   |   |1  |   |   |   |   |   |  1|  2|
+he cries .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+his friend use [* m:03s:a] a pole to   |   |2  |2 1|   |   |   |   |   |  0|  5|
+    get the airplane .                 |   |   |   |   |   |   |   |   |   |   |
+he is happy .                          |   |2  |1  |   |   |   |   |   |  1|  4|
+the airplane is back .                 |   |   |1  |   |   |   |   |   |  1|  2|
+the owner is happy .                   |   |   |1  |   |   |   |   |   |  1|  2|
+the ducks are happy .                  |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  3| 12| 18|  0|  0|  0|  0|  0|  9| 42|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  4.20

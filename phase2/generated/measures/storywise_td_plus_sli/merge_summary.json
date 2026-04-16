@@ -1,0 +1,14 @@
+{
+  "td_pair": "pair_sli413_td439_rep01_A1_TD",
+  "sli_pair": "pair_sli413_td439_rep01_A1_SLI",
+  "kideval_rows_td": 660,
+  "kideval_rows_sli": 660,
+  "kideval_rows_merged": 1320,
+  "mlt_rows_td": 660,
+  "mlt_rows_sli": 660,
+  "mlt_rows_merged": 1320,
+  "joined_rows": 1320,
+  "kideval_merged_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/kideval_storywise/td_plus_sli_storywise/kideval_clean.csv",
+  "mlt_merged_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/mlt_storywise/td_plus_sli_storywise/mlt_clean.csv",
+  "joined_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/storywise_td_plus_sli/storywise_dev_measures_td_plus_sli.csv"
+}

@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep05
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=5
+@Comment:	source_child_id=439
+*CHI:	doggy and bunny built a sandcastle on the beach .
+%mor:	adj|doggy-S1 cconj|and noun|bunny verb|build-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach
+	.
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	bunny added sand to it .
+%mor:	noun|bunny verb|add-Part-Past-S noun|sand adp|to pron|it-Prs-Acc-S3
+	.
+%xdss:	Z; D4; C2; Z; A1; B5;
+*CHI:	then doggy dumped a bucket on it .
+%mor:	adv|then noun|doggy verb|dump-Fin-Ind-Past-S3 det|a-Ind-Art
+	noun|bucket-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; A1; B5;
+*CHI:	the sandcastle got broken .
+%mor:	det|the-Def-Art noun|sandcastle aux|get-Fin-Ind-Past-S3-irr
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	bunny was sad .
+%mor:	noun|bunny aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	bunny said .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	my castle is broken !
+%mor:	pron|my-Prs-Gen-S1 noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr !
+%xdss:	B1; Z; C7; C2;
+*CHI:	doggy said .
+%mor:	noun|doggy verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	bunny and doggy tried to fix it together .
+%mor:	noun|bunny cconj|and noun|doggy verb|try-Fin-Ind-Past-S3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 adv|together .
+%xdss:	Z; F3; Z; C2; D3; C1; A1; B5;
+@End

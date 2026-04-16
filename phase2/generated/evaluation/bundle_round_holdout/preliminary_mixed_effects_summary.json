@@ -1,0 +1,16 @@
+{
+  "outcomes": [
+    "MLU_Morphemes",
+    "VOCD_D_optimum_average",
+    "DSS_tbl_score",
+    "Word_Errors_per_utt",
+    "past_overgeneralization_errors_per_past_opp"
+  ],
+  "groups": [
+    "TD",
+    "SLI"
+  ],
+  "rows": 10,
+  "successful_models": 7,
+  "failed_models": 3
+}

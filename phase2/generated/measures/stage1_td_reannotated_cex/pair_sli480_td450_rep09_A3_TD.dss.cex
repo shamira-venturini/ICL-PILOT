@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep09
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=450
+*CHI:	One little bird was playing with a toy airplane near the pool .
+%mor:	num|one adj|little-S1 noun|bird aux|be-Fin-Ind-Past-S3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|toy noun|airplane
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; Z; Z; Z;
+*CHI:	Another little bird took the airplane and dropped it into the water
+	.
+%mor:	det|another-Def-Ind adj|little-S1 noun|bird
+	verb|take-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc
+	cconj|and verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z; F3; C2; A1; B5; Z;
+*CHI:	The big bird got very mad .
+%mor:	det|the-Def-Art adj|big-S1 noun|bird verb|get-Fin-Ind-Past-S3-irr
+	adv|very adj|mad-S1 .
+%xdss:	Z; C2;
+*CHI:	A lifeguard came and used a long pole to get the airplane out of
+	the water .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	cconj|and verb|use-Fin-Ind-Past-S3 det|a-Ind-Art adj|long-S1
+	noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc adp|out adp|of det|the-Def-Art noun|water .
+%xdss:	Z; C2; F3; C2; Z; C1; Z; Z;
+*CHI:	The big bird was happy again and the little bird said sorry .
+%mor:	det|the-Def-Art adj|big-S1 noun|bird aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 adv|again cconj|and det|the-Def-Art adj|little-S1
+	noun|bird verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2; F3; Z; C2;
+*CHI:	Now everyone is happy and they're all playing together .
+%mor:	adv|now pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adv|all
+	verb|play-Part-Pres-S adv|together .
+%xdss:	A7; C1; F3; B3; C1;
+@End

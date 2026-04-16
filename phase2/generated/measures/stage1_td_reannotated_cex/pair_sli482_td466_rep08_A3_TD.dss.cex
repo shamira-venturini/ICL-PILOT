@@ -1,0 +1,64 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep08
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=8
+@Comment:	source_child_id=466
+*CHI:	a doggy and a kitty was [* m:vsg:a] playing with a little airplane
+	near the pool .
+%mor:	det|a-Ind-Art noun|doggy cconj|and det|a-Ind-Art noun|kitty
+	aux|be-Fin-Ind-Past-S3-irr verb|play-Part-Pres-S adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane adp|near det|the-Def-Art
+	noun|pool .
+%xdss:	Z; F3; Z; C2; C1; Z; Z;
+*CHI:	then the airplane fell into the pool !
+%mor:	adv|then det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|pool !
+%xdss:	Z; C2; Z;
+*CHI:	the kitty was crying .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C2; C1;
+*CHI:	the doggy was crying too !
+%mor:	det|the-Def-Art noun|doggy aux|be-Fin-Ind-Past-S3-irr
+	verb|cry-Part-Pres-S adv|too !
+%xdss:	Z; C2; C1;
+*CHI:	the kitty's mommy went to get it with a long pole .
+%mor:	det|the-Def-Art noun|kitty~part|s noun|mommy
+	verb|go-Fin-Ind-Past-S3-irr part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 adp|with det|a-Ind-Art adj|long-S1 noun|pole .
+%xdss:	Z; Z; C2; D3; C1; A1; B5; Z;
+*CHI:	she got it out of the water and gave it to the kitty .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adp|out adp|of det|the-Def-Art noun|water cconj|and
+	verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|to
+	det|the-Def-Art noun|kitty .
+%xdss:	B2; C2; A1; B5; Z; F3; C2; A1; B5; Z;
+*CHI:	the kitty was so happy !
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 !
+%xdss:	Z; C2; F5;
+*CHI:	the kitty was hugging the airplane and licking it .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr
+	verb|hug-Part-Pres-S det|the-Def-Art noun|airplane-Acc cconj|and
+	verb|lick-Part-Pres-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; C1; Z; F3; C1; A1; B5;
+*CHI:	the doggy was happy too .
+%mor:	det|the-Def-Art noun|doggy aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	adv|too .
+%xdss:	Z; C2;
+*CHI:	they were playing again !
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adv|again !
+%xdss:	B3; C2; C1;
+@End

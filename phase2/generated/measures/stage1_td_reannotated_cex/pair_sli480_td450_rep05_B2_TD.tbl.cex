@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:32 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog was [* m:vsg:a] goin to |   |   |2 1|   |   |3  |   |   |  0|  6|
+    the park .                         |   |   |   |   |   |   |   |   |   |   |
+they make a big picnic .               |   |3  |1  |   |   |   |   |   |  1|  5|
+rabbit was bring [* m:0ing] carrots .  |   |   |2 1|   |   |   |   |   |  0|  3|
+dog was bring [* m:0ing] sandwiches .  |   |   |2 1|   |   |   |   |   |  0|  3|
+we was [* m:vsg:a] eat alot .          |   |3  |2 1|   |   |   |   |   |  0|  6|
+he was eat [* m:0ing] too much .       |   |2  |7 2|   |   |   |   |   |  0| 11|
+he was feelin [* m:0ing] sick .        |   |2  |2 1|   |   |   |   |   |  0|  5|
+he was gettin a tummyache .            |   |2  |2 1|   |   |   |   |   |  1|  6|
+we take him to the doctor .            |   |3 2|1  |   |   |   |   |   |  1|  7|
+the doctor was check [* m:0ing] him .  |   |2  |2 1|   |   |   |   |   |  0|  5|
+he was feelin better .                 |   |2  |2 1|   |   |   |   |   |  1|  6|
+he was restin [* m:0ing] now .         |   |2  |2  |   |   |   |   |   |  0|  4|
+TOTAL                                  |  0| 23| 37|  0|  0|  3|  0|  0|  4| 67|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  5.58

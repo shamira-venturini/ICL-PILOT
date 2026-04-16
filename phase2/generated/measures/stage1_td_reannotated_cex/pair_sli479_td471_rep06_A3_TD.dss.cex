@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep06
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=6
+@Comment:	source_child_id=471
+*CHI:	One day the monkey and the dolphin were playing near the pool .
+%mor:	num|one noun|day det|the-Def-Art noun|monkey cconj|and
+	det|the-Def-Art noun|dolphin aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C2; C1; Z;
+*CHI:	they were playing with a little airplane .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|little-S1
+	noun|airplane .
+%xdss:	B3; C2; C1; Z;
+*CHI:	but then it fell into the water .
+%mor:	cconj|but adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr
+	adp|into det|the-Def-Art noun|water .
+%xdss:	F5; A1; C2; Z;
+*CHI:	the monkey was so mad .
+%mor:	det|the-Def-Art noun|monkey aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|mad-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	he shouted .
+%mor:	pron|he-Prs-Nom-S3 verb|shout-Fin-Ind-Past-S3 .
+%xdss:	B2; C2;
+*CHI:	a lifeguard jumped in with a big pole .
+%mor:	det|a-Ind-Art noun|lifeguard verb|jump-Fin-Ind-Past-S3 adp|in
+	adp|with det|a-Ind-Art adj|big-S1 noun|pole .
+%xdss:	Z; C2; Z;
+*CHI:	he carefully got the airplane out of the pool .
+%mor:	pron|he-Prs-Nom-S3 adv|carefully verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc adp|out adp|of det|the-Def-Art
+	noun|pool .
+%xdss:	B2; C2; Z; Z;
+*CHI:	the monkey was so happy .
+%mor:	det|the-Def-Art noun|monkey aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	he hugged the lifeguard and said .
+%mor:	pron|he-Prs-Nom-S3 verb|hugge-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|lifeguard-Acc cconj|and verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2; Z; F3; C2;
+*CHI:	thank you .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	C1; B5;
+@End

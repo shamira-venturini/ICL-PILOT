@@ -1,0 +1,244 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep05
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=459
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	there were two ducks by the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|duck-Plur adp|by det|the-Def-Art noun|pool .
+%xdss:	C2; A3; Z; Z;
+*CHI:	they were playing with a ball .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|ball .
+%xdss:	B3; C2; C1; Z;
+*CHI:	the ball fell into the water .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	one duck went into the pool to get it .
+%mor:	num|one noun|duck verb|go-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	A3; Z; C2; Z; C1; A1; B5;
+*CHI:	the duck swam and got the ball .
+%mor:	det|the-Def-Art noun|duck verb|swim-Fin-Ind-Past-S3-irr cconj|and
+	verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	then the duck came back out .
+%mor:	adv|then det|the-Def-Art noun|duck verb|come-Fin-Ind-Past-S3-irr
+	adv|back adp|out .
+%xdss:	Z; C2;
+*CHI:	the ducks were happy again .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	Z; C2;
+@Comment:	bundled_story_start=A2
+*CHI:	One day , me [* s:r:gc:pro] and my friend rabbit went to the pool .
+%mor:	num|one noun|day pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1
+	noun|friend noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; B1; F3; B1; Z; Z; C2; Z;
+*CHI:	Then a lifeguard came with a band-aid .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	I sat on a bench and rested .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Past-S1-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S1 .
+%xdss:	B1; C2; Z; F3; C2;
+@Comment:	bundled_story_start=A3
+*CHI:	there was a kitty and a doggy they were playing with a [* m:allo]
+	airplane by the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|kitty cconj|and det|a-Ind-Art noun|doggy pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with
+	det|a-Ind-Art noun|airplane adp|by det|the-Def-Art noun|pool .
+%xdss:	C2; Z; F3; Z; B3; C2; C1; Z; Z;
+*CHI:	they were making a big splash and having fun .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|make-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|splash-Acc
+	cconj|and verb|have-Part-Pres-S noun|fun-Acc .
+%xdss:	B3; C2; C1; Z; F3; C1; Z;
+*CHI:	then the kitty picked up the airplane and dropped it in the pool .
+%mor:	adv|then det|the-Def-Art noun|kitty verb|pick-Fin-Ind-Past-S3
+	adp|up det|the-Def-Art noun|airplane-Acc cconj|and
+	verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	Z; C2; Z; F3; C2; A1; B5; Z;
+*CHI:	the doggy got mad at the kitty .
+%mor:	det|the-Def-Art noun|doggy verb|get-Fin-Ind-Past-S3-irr adj|mad-S1
+	adp|at det|the-Def-Art noun|kitty .
+%xdss:	Z; C2; Z;
+*CHI:	the kitty said sorry .
+%mor:	det|the-Def-Art noun|kitty verb|say-Fin-Ind-Past-S3-irr
+	adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	the doggy said its okay but you have to get it back .
+%mor:	det|the-Def-Art noun|doggy verb|say-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 adj|okay-S1 cconj|but pron|you-Prs-Nom-S2
+	verb|have-Fin-Ind-Pres-S2 part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	adv|back .
+%xdss:	Z; C2; A1; F5; C1; D3; C1; A1; B5;
+*CHI:	a man with a pole came and got the airplane .
+%mor:	det|a-Ind-Art noun|man adp|with det|a-Ind-Art noun|pole
+	verb|come-Fin-Ind-Past-S3-irr cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	Z; Z; C2; F3; C2; Z;
+*CHI:	then the airplane was back with the kitty and doggy .
+%mor:	adv|then det|the-Def-Art noun|airplane aux|be-Fin-Ind-Past-S3-irr
+	adv|back adp|with det|the-Def-Art noun|kitty cconj|and noun|doggy .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they all hugged and were happy again .
+%mor:	pron|they-Prs-Nom-P3 det|all-Def-Tot verb|hugge-Fin-Ind-Past-P3
+	cconj|and aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 adv|again .
+%xdss:	B3; A3; C2; F3; C2;
+@Comment:	bundled_story_start=B1
+*CHI:	once upon a time there was a rabbit and dog they built a sandcastle
+	on the beach .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach
+	.
+%xdss:	Z; C2; Z; F3; Z; B3; C2; Z; Z;
+*CHI:	the dog use [* m:03s:a] a big shovel and the rabbit use [* m:03s:a]
+	a little shovel .
+%mor:	det|the-Def-Art noun|dog verb|use-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|big-S1 noun|shovel-Acc cconj|and det|the-Def-Art noun|rabbit
+	verb|use-Fin-Ind-Pres-P3 det|a-Ind-Art adj|little-S1 noun|shovel-Acc
+	.
+%xdss:	Z; C2; Z; F3; Z; C1; Z;
+*CHI:	the rabbit added sand to the castle .
+%mor:	det|the-Def-Art noun|rabbit verb|add-Fin-Ind-Past-S3 noun|sand-Acc
+	adp|to det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	then the dog just throw [* m:base:ed] the shovel and sand went
+	everywhere and it went on the castle .
+%mor:	adv|then det|the-Def-Art noun|dog adv|just
+	verb|throw-Fin-Ind-Pres-S3 det|the-Def-Art noun|shovel-Acc cconj|and
+	noun|sand verb|go-Fin-Ind-Past-S3-irr adv|everywhere cconj|and
+	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; F3; Z; C2; F3; A1; C2; Z;
+*CHI:	the castle got all messy .
+%mor:	det|the-Def-Art noun|castle verb|get-Fin-Ind-Past-S3-irr
+	det|all-Def-Tot adj|messy-S1 .
+%xdss:	Z; C2; A3;
+*CHI:	the rabbit was so sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|sad-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	the rabbit started to cry .
+%mor:	det|the-Def-Art noun|rabbit verb|start-Fin-Ind-Past-S3 part|to
+	verb|cry-Inf-S .
+%xdss:	Z; C2; D3; C1;
+*CHI:	the dog said sorry and the rabbit forgave him .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	cconj|and det|the-Def-Art noun|rabbit
+	verb|forgive-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 .
+%xdss:	Z; C2; F3; Z; C2; B2;
+*CHI:	the dog and rabbit work together and build a new castle .
+%mor:	det|the-Def-Art noun|dog cconj|and noun|rabbit
+	verb|work-Fin-Ind-Pres-P3 adv|together cconj|and verb|build-Inf-S
+	det|a-Ind-Art adj|new-S1 noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; F3; C1; Z;
+*CHI:	the rabbit and dog was [* m:vsg:a] happy again .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@Comment:	bundled_story_start=B2
+*CHI:	once upon a time rabbit and dog went on a picnic and they had food
+	like sandwiches and berries .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art
+	noun|picnic cconj|and pron|they-Prs-Nom-P3
+	verb|have-Fin-Ind-Past-P3-irr noun|food-Acc adp|like
+	noun|sandwich-Plur cconj|and noun|berries-Plur .
+%xdss:	Z; Z; F3; Z; C2; Z; F3; B3; C2; Z; Z; F3; Z;
+*CHI:	one child ate too much sandwiches .
+%mor:	num|one noun|child verb|eat-Fin-Ind-Past-S3-irr adv|too adj|much-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	A3; Z; C2; Z;
+*CHI:	the child felt sick .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Past-S3-irr
+	adj|sick-S1 .
+%xdss:	Z; C2;
+*CHI:	the child had a tummyache .
+%mor:	det|the-Def-Art noun|child verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	then the doctor came and said .
+%mor:	adv|then det|the-Def-Art noun|doctor verb|come-Fin-Ind-Past-S3-irr
+	cconj|and verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2; F3; C2;
+*CHI:	the child took a rest .
+%mor:	det|the-Def-Art noun|child verb|take-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|rest-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the child felt better .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Past-S3-irr
+	adj|good-Cmp-S1 .
+%xdss:	Z; C2;
+@Comment:	bundled_story_start=B3
+*CHI:	once upon a time rabbit and dog they were going to a park with a
+	big wagon .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|go-Part-Pres-S adp|to det|a-Ind-Art noun|park adp|with
+	det|a-Ind-Art adj|big-S1 noun|wagon .
+%xdss:	Z; Z; F3; Z; B3; C2; C1; Z; Z;
+*CHI:	the wagon had a big blue balloon .
+%mor:	det|the-Def-Art noun|wagon verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|big-S1 adj|blue-S1 noun|balloon-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	they were so happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1
+	.
+%xdss:	B3; C2; F5;
+*CHI:	but the balloon came loose .
+%mor:	cconj|but det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adv|loose .
+%xdss:	F5; Z; C2;
+*CHI:	it went up high up in the air .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adv|high
+	adp|up adp|in det|the-Def-Art noun|air .
+%xdss:	A1; C2; Z;
+*CHI:	they saw it floating away .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 verb|float-Ger-S adv|away .
+%xdss:	B3; C2; D5; A1; B5; C1; D8;
+*CHI:	they were sad .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|sad-S1 .
+%xdss:	B3; C2;
+*CHI:	they said .
+%mor:	pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Past-P3-irr .
+%xdss:	B3; C2;
+*CHI:	our balloon is gone !
+%mor:	pron|our-Prs-Gen-P1 noun|balloon aux|be-Fin-Ind-Pres-S3 adj|gone-S1
+	!
+%xdss:	B3; Z; C1;
+*CHI:	they went to a man with balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|a-Ind-Art noun|man adp|with noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z;
+*CHI:	they each got a little balloon .
+%mor:	pron|they-Prs-Nom-P3 det|each-Def-Tot verb|get-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art adj|little-S1 noun|balloon-Acc .
+%xdss:	B3; A7; C2; Z;
+*CHI:	they were happy again .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1
+	adv|again .
+%xdss:	B3; C2;
+@End

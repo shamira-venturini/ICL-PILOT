@@ -1,0 +1,36 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep10
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=417
+*CHI:	I built a sandcastle with my dog .
+%mor:	pron|I-Prs-Nom-S1 verb|build-Fin-Ind-Past-S1-irr det|a-Ind-Art
+	noun|sandcastle-Acc adp|with pron|my-Prs-Gen-S1 noun|dog .
+%xdss:	B1; C2; Z; B1; Z;
+*CHI:	My dog put sand on it .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|put-Fin-Ind-Past-S3-irr
+	noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	B1; Z; C2; Z; A1; B5;
+*CHI:	The sandcastle fell down .
+%mor:	det|the-Def-Art noun|sandcastle verb|fall-Fin-Ind-Past-S3-irr
+	adv|down .
+%xdss:	Z; C2;
+*CHI:	I was sad .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sad-S1 .
+%xdss:	B1; C2;
+*CHI:	My dog came to me and whined .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|come-Fin-Ind-Past-S3-irr adp|to
+	pron|I-Prs-Acc-S1 cconj|and verb|whine-Fin-Ind-Past-S3 .
+%xdss:	B1; Z; C2; B1; F3; C2;
+@End

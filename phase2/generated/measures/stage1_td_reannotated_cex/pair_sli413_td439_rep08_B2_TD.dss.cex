@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep08
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=8
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a rabbit and a dog .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	det|a-Ind-Art noun|dog .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	let's go pick some food for our picnic .
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|go-Inf-S verb|pick-Inf-S
+	det|some-Def-Ind noun|food-Acc adp|for pron|our-Prs-Gen-P1
+	noun|picnic .
+%xdss:	B3; D2; C1; C1; A3; Z; F8; B3; Z;
+*CHI:	we got carrots and sandwiches yay .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur intj|yay .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	I ate too much .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1
+	.
+%xdss:	B1; C2;
+*CHI:	I think I got a tummyache .
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1
+	verb|get-Fin-Ind-Past-S1-irr det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	B1; C1; D5; B1; C2; Z;
+*CHI:	my rabbit friend , let's get the doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|rabbit noun|friend-Acc
+	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|get-Inf-S det|the-Def-Art
+	noun|doctor .
+%xdss:	B1; Z; Z; B3; D2; C1; Z;
+*CHI:	don't worry , I'll make you feel better .
+%mor:	aux|do-Inf-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|make-Inf-S pron|you-Prs-Acc-S2
+	verb|feel-Inf-S adj|good-Cmp-S1 .
+%xdss:	C4; E4; G6; C1; D5; C4; C1; D5; B5; C1;
+*CHI:	I feel a little better now , let me rest .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 det|a-Ind-Art
+	adj|little-S1 adj|good-Cmp-S1 adv|now verb|let-Fin-Imp-S
+	pron|I-Prs-Acc-S1 verb|rest-Inf-S .
+%xdss:	B1; C1; C1; D2; B1; C1;
+@End

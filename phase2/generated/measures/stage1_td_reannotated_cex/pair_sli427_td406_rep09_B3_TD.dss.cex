@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep09
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=406
+*CHI:	Me and my doggy friend , we was [* m:vsg:a] pullin' a wagon with a
+	big red balloon .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr
+	verb|pulli-Part-Pres-S~adp|and det|a-Ind-Art noun|wagon adp|with
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|balloon .
+%xdss:	B1; F3; B1; Z; B3; C2; Z; Z;
+*CHI:	It was so much fun !
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adv|much
+	adj|fun-S1 !
+%xdss:	A1; C2; F5;
+*CHI:	Then , the balloon came loose and went up , [/] up , [/] up in the
+	air .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 cconj|and verb|go-Fin-Ind-Past-S3-irr adp|up adp|in
+	det|the-Def-Art noun|air .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	My doggy was sad too .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	adv|too .
+%xdss:	B1; Z; C2;
+*CHI:	He looked at me with his sad eyes .
+%mor:	pron|he-Prs-Nom-S3 verb|look-Fin-Ind-Past-S3 adp|at
+	pron|I-Prs-Acc-S1 adp|with pron|his-Prs-Gen-S3 adj|sad-S1
+	noun|eye-Plur .
+%xdss:	B2; C2; B1; B2; Z;
+*CHI:	My friend said .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	Where's our balloon ?
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 pron|our-Prs-Gen-P1 noun|balloon ?
+%xdss:	C1; B3; Z;
+*CHI:	We want another one !
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 det|another-Def-Ind
+	noun|one-Acc !
+%xdss:	B3; C1; A3; Z;
+*CHI:	We went to a lady with lots of balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to det|a-Ind-Art
+	noun|lady adp|with noun|lot-Plur adp|of noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z; Z;
+*CHI:	but she said .
+%mor:	cconj|but pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	F5; B2; C2;
+*CHI:	Those balloons are fifty cents each .
+%mor:	det|that-Def-Dem-Plur noun|balloon-Plur aux|be-Fin-Ind-Pres-P3
+	num|fifty noun|cent-Plur det|each-Def-Tot .
+%xdss:	Z; C2; A3; Z; A7;
+*CHI:	Me [* s:r:gc:pro] and my doggy were dancing around with our
+	balloons .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	aux|be-Fin-Ind-Past-P3-irr verb|dance-Part-Pres-S adv|around
+	adp|with pron|our-Prs-Gen-P1 noun|balloon-Plur .
+%xdss:	B1; F3; B1; Z; C2; C1; B3; Z;
+@End

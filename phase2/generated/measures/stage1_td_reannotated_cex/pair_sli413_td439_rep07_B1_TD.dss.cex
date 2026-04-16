@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep07
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=7
+@Comment:	source_child_id=439
+*CHI:	Once upon a time , doggy and bunny went to the sandbox .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|doggy cconj|and
+	noun|bunny verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|sandbox .
+%xdss:	Z; Z; F3; Z; C2; Z;
+*CHI:	They built a big castle together .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|castle-Acc adv|together .
+%xdss:	B3; C2; Z;
+*CHI:	Then , bunny picked up a big bucket of sand and poured it on
+	doggy's castle .
+%mor:	adv|then noun|bunny verb|pick-Fin-Ind-Past-S3 adp|up det|a-Ind-Art
+	adj|big-S1 noun|bucket-Acc adp|of noun|sand cconj|and
+	verb|pour-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|on
+	noun|doggy~part|s noun|castle .
+%xdss:	Z; C2; Z; Z; F3; C2; A1; B5; Z; Z;
+*CHI:	The castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	Doggy looked sad too .
+%mor:	noun|doggy verb|look-Fin-Ind-Past-S3 adj|sad-S1 adv|too .
+%xdss:	Z; C2;
+*CHI:	They hugged and worked together to fix it .
+%mor:	pron|they-Prs-Nom-P3 verb|hugge-Fin-Ind-Past-P3 cconj|and
+	verb|work-Fin-Ind-Past-P3 adv|together part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; F3; C2; C1; A1; B5;
+@End

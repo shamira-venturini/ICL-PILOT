@@ -1,0 +1,84 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep06
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=410
+*CHI:	we have a wagon with a big red balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B3; C1; Z; Z;
+*CHI:	my dog is pulling the wagon .
+%mor:	pron|my-Prs-Gen-S1 noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|pull-Part-Pres-S det|the-Def-Art noun|wagon-Acc .
+%xdss:	B1; Z; C1; C1; Z;
+*CHI:	then the balloon came loose .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 .
+%xdss:	Z; C2;
+*CHI:	it went up in the air .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adp|in
+	det|the-Def-Art noun|air .
+%xdss:	A1; C2; Z;
+*CHI:	it popped .
+%mor:	pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Past-S3 .
+%xdss:	A1; C2;
+*CHI:	my friend rabbit is sad too .
+%mor:	pron|my-Prs-Gen-S1 noun|friend noun|rabbit aux|be-Fin-Ind-Pres-S3
+	adj|sad-S1 adv|too .
+%xdss:	B1; Z; Z; C1;
+*CHI:	we want a new balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	we see a man .
+%mor:	pron|we-Prs-Nom-P1 verb|see-Fin-Ind-Pres-P1 det|a-Ind-Art
+	noun|man-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	he has lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	he sells them .
+%mor:	pron|he-Prs-Nom-S3 verb|sell-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3 .
+%xdss:	B2; C2; B3;
+*CHI:	he says they cost money .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|they-Prs-Nom-P3
+	verb|cost-Fin-Ind-Pres-P3 noun|money-Acc .
+%xdss:	B2; C2; D5; B3; C1; Z;
+*CHI:	my friend rabbit doesn't have money .
+%mor:	pron|my-Prs-Gen-S1 noun|friend noun|rabbit
+	aux|do-Fin-Ind-Pres-S3~part|not verb|have-Inf-S noun|money-Acc .
+%xdss:	B1; Z; Z; C6; E4; C1; Z;
+*CHI:	I don't have money .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|have-Inf-S
+	noun|money-Acc .
+%xdss:	B1; E4; C1; Z;
+*CHI:	the man is nice .
+%mor:	det|the-Def-Art noun|man aux|be-Fin-Ind-Pres-S3 adj|nice-S1 .
+%xdss:	Z; C1;
+*CHI:	he lets us pick two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|let-Fin-Ind-Pres-S3 pron|we-Prs-Acc-P1
+	verb|pick-Inf-S num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; D2; B3; C1; A3; Z;
+*CHI:	now I have a blue balloon .
+%mor:	adv|now pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 det|a-Ind-Art
+	adj|blue-S1 noun|balloon-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	my friend rabbit has a green balloon .
+%mor:	pron|my-Prs-Gen-S1 noun|friend noun|rabbit
+	verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art adj|green-S1
+	noun|balloon-Acc .
+%xdss:	B1; Z; Z; C2; Z;
+@End

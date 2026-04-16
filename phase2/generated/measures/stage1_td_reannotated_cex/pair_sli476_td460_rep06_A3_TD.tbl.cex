@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:22 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep06_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two monkeys are playing with a little  |3  |   |2 1|   |   |   |   |   |  1|  7|
+    airplane near the pool .           |   |   |   |   |   |   |   |   |   |   |
+They're having so much fun !           |   |3  |1  |   |   |5  |   |   |  1| 10|
+But then , one of them dropped the     |3  |3  |2  |   |   |5  |   |   |  1| 14|
+    airplane into the water !          |   |   |   |   |   |   |   |   |   |   |
+The monkeys are so upset !             |   |   |2  |   |   |5  |   |   |  1|  8|
+They want it back !                    |1  |3 5|1  |   |   |   |   |   |  1| 11|
+A nice lifeguard comes to help them .  |   |3  |2 1|3  |   |   |   |   |  1| 10|
+She gets a long stick with a net on the|   |2  |2  |   |   |   |   |   |  1|  5|
+     end .                             |   |   |   |   |   |   |   |   |   |   |
+She dips it into the pool and gets the |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+    airplane out !                     |   |   |   |   |   |   |   |   |   |   |
+The monkeys are so happy !             |   |   |2  |   |   |5  |   |   |  1|  8|
+They're hugging each other and the     |7 3|3  |1  |   |   |3  |   |   |  1| 18|
+    lifeguard .                        |   |   |   |   |   |   |   |   |   |   |
+They're all smiling now .              |   |3  |1  |   |   |   |   |   |  1|  5|
+TOTAL                                  | 18| 32| 22|  3|  0| 26|  0|  0| 11|112|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score: 10.18

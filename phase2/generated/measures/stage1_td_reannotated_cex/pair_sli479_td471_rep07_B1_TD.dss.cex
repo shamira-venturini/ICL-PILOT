@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep07
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=7
+@Comment:	source_child_id=471
+*CHI:	One day rabbit and dog went to the beach .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|beach .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	They built a big sandcastle together .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc adv|together .
+%xdss:	B3; C2; Z;
+*CHI:	Rabbit poured water on it and dog dumped a bucket of sand on it .
+%mor:	propn|Rabbit verb|pour-Fin-Ind-Past-S3 noun|water-Acc adp|on
+	pron|it-Prs-Acc-S3 cconj|and noun|dog verb|dump-Fin-Ind-Past-S3
+	det|a-Ind-Art noun|bucket-Acc adp|of noun|sand adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	C2; Z; A1; B5; F3; Z; C2; Z; Z; A1; B5;
+*CHI:	The castle fell down !
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	!
+%xdss:	Z; C2;
+*CHI:	Dog said sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	Rabbit said it's okay .
+%mor:	propn|Rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	C2; A1; C1;
+*CHI:	They started to fix it together .
+%mor:	pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 adv|together .
+%xdss:	B3; C2; D3; C1; A1; B5;
+*CHI:	They made it even better than before .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|even adj|good-Cmp-S1 adp|than adv|before .
+%xdss:	B3; C2; A1; B5; F8; F8;
+*CHI:	They built a moat and a flag .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|moat-Acc cconj|and det|a-Ind-Art noun|flag .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	Rabbit and dog were happy again .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

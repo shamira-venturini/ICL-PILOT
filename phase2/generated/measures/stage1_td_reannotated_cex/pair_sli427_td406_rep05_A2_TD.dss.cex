@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep05
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=406
+*CHI:	my little brother he wanted to go swim .
+%mor:	pron|my-Prs-Gen-S1 adj|little-S1 noun|brother pron|he-Prs-Nom-S3
+	verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S verb|swim-Inf-S .
+%xdss:	B1; Z; B2; C2; D3; C1; C1;
+*CHI:	but we saw a sign .
+%mor:	cconj|but pron|we-Prs-Nom-P1 verb|see-Fin-Ind-Past-P1-irr
+	det|a-Ind-Art noun|sign-Acc .
+%xdss:	F5; B3; C2; Z;
+*CHI:	my mom said .
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	my little brother didn't listen .
+%mor:	pron|my-Prs-Gen-S1 adj|little-S1 noun|brother
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|listen-Inf-S .
+%xdss:	B1; Z; C6; E4; C1;
+*CHI:	he started running to the pool .
+%mor:	pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 verb|run-Ger-S adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	B2; C2; D7; C1; D8; Z;
+*CHI:	he slipped on the wet floor .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 adp|on det|the-Def-Art
+	adj|wet-S1 noun|floor .
+%xdss:	B2; C2; Z;
+*CHI:	his knee hurt [* m:03s:a] .
+%mor:	pron|his-Prs-Gen-S3 noun|knee verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B2; Z; C2;
+*CHI:	a nice lady came with a band aid .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|band noun|aid .
+%xdss:	Z; C2; Z; Z;
+*CHI:	my little brother sat down on a bench .
+%mor:	pron|my-Prs-Gen-S1 adj|little-S1 noun|brother
+	verb|sit-Fin-Ind-Past-S3-irr adp|down adp|on det|a-Ind-Art
+	noun|bench .
+%xdss:	B1; Z; C2; Z;
+*CHI:	he had to rest .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr part|to
+	verb|rest-Inf-S .
+%xdss:	B2; C2; D3; C1;
+@End

@@ -1,0 +1,36 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep09_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+The cat and the doggy one they were    |   |3  |2 1|   |   |3  |   |   |  1| 10|
+    playing near the pool .            |   |   |   |   |   |   |   |   |   |   |
+they had a big airplane .              |   |3  |2  |   |   |   |   |   |  1|  6|
+it was blue and had wings .            |1  |   |2 2|   |   |3  |   |   |  1|  9|
+they were throwing it up in the air .  |1  |3 5|2 1|   |   |   |   |   |  1| 13|
+then it went into the water .          |1  |   |2  |   |   |   |   |   |  1|  4|
+the cat got very upset .               |   |   |2  |   |   |   |   |   |  1|  3|
+she said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+why did you drop it ?                  |1  |5  |1  |   |   |   |   |7  |  1| 15|
+the doggy one said .                   |   |   |2  |   |   |   |   |   |  1|  3|
+I didn't mean to .                     |   |1  |6 1|   |4  |   |   |   |  1| 13|
+then a lifeguard came .                |   |   |2  |   |   |   |   |   |  1|  3|
+he had a big pole .                    |   |2  |2  |   |   |   |   |   |  1|  5|
+he used it to get the airplane out of  |1  |2 5|2 1|5  |   |   |   |   |  1| 17|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+the cat was so happy .                 |   |   |2  |   |   |5  |   |   |  1|  8|
+she got her airplane back .            |   |2 2|2  |   |   |   |   |   |  1|  7|
+the cat said .                         |   |   |2  |   |   |   |   |   |  1|  3|
+it's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+let's play again .                     |   |3  |1  |2  |   |   |   |   |  1|  7|
+TOTAL                                  |  6| 38| 43|  7|  4| 11|  0|  7| 18|134|
+WARNING: DSS requires 50 complete sentences and this transcript only has 18.
+
+Developmental sentence score:  7.44

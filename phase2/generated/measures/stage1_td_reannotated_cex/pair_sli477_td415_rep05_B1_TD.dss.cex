@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep05
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=415
+*CHI:	Me [* s:r:gc:pro] and my dog we build a castle .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog
+	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Pres-P1 det|a-Ind-Art
+	noun|castle-Acc .
+%xdss:	B1; F3; B1; Z; B3; C1; Z;
+*CHI:	he get [* m:03s:a] a shovel and he make [* m:03s:a] a big hole .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|shovel-Acc cconj|and pron|he-Prs-Nom-S3
+	verb|make-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-S1 noun|hole-Acc .
+%xdss:	B2; C2; Z; F3; B2; C2; Z;
+*CHI:	my castle go [* m:03s:a] down .
+%mor:	pron|my-Prs-Gen-S1 noun|castle verb|go-Fin-Ind-Pres-S3 adv|down .
+%xdss:	B1; Z; C2;
+*CHI:	my dog is sad he cry [* m:03s:a] .
+%mor:	pron|my-Prs-Gen-S1 noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1
+	pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C1; B2; C2;
+*CHI:	my dog say [* m:03s:a] sorry .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	B1; Z; C2;
+*CHI:	we fix the castle .
+%mor:	pron|we-Prs-Nom-P1 verb|fix-Fin-Ind-Pres-P1 det|the-Def-Art
+	noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	my dog and me [* s:r:gc:pro] play again .
+%mor:	pron|my-Prs-Gen-S1 noun|dog cconj|and pron|I-Prs-Acc-S1
+	verb|play-Fin-Ind-Pres-P3 adv|again .
+%xdss:	B1; Z; F3; B1; C1;
+@End

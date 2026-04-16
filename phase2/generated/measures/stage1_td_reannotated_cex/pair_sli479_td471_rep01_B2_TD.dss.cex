@@ -1,0 +1,71 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep01
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=1
+@Comment:	source_child_id=471
+*CHI:	Rabbit and dog went to the park and had a picnic .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|park cconj|and verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|picnic-Acc .
+%xdss:	Z; F3; Z; C2; Z; F3; C2; Z;
+*CHI:	they had yummy sandwiches and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr adj|yummy-S1
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	and a little boy came to eat with them .
+%mor:	cconj|and det|a-Ind-Art adj|little-S1 noun|boy
+	verb|come-Fin-Ind-Past-S3-irr part|to verb|eat-Inf-S adp|with
+	pron|they-Prs-Acc-P3 .
+%xdss:	F3; Z; C2; D3; C1; B3;
+*CHI:	he ate too many sandwiches .
+%mor:	pron|he-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	his tummy started to hurt .
+%mor:	pron|his-Prs-Gen-S3 noun|tummy verb|start-Fin-Ind-Past-S3 part|to
+	verb|hurt-Inf-S .
+%xdss:	B2; Z; C2; D3; C1;
+*CHI:	he said ouch [/] ouch !
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|ouch !
+%xdss:	B2; C2;
+*CHI:	his mom said don't worry I'll take you to see the doctor .
+%mor:	pron|his-Prs-Gen-S3 noun|mom verb|say-Fin-Ind-Past-S3-irr
+	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|take-Inf-S pron|you-Prs-Acc-S2
+	part|to verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B2; Z; C2; C4; E4; C1; D5; C4; C1; D5; B5; C1; Z;
+*CHI:	the doctor looked at his tummy and said you ate too much .
+%mor:	det|the-Def-Art noun|doctor verb|look-Fin-Ind-Past-S3 adp|at
+	pron|his-Prs-Gen-S3 noun|tummy cconj|and
+	verb|say-Fin-Ind-Past-S3-irr pron|you-Prs-Nom-S2
+	verb|eat-Fin-Ind-Past-S2-irr adv|too adv|much .
+%xdss:	Z; C2; B2; Z; F3; C2; D5; C2;
+*CHI:	the boy said sorry .
+%mor:	det|the-Def-Art noun|boy verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	.
+%xdss:	Z; C2;
+*CHI:	the doctor said drink some water and rest now .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Past-S3-irr
+	verb|drink-Inf-S det|some-Def-Ind noun|water-Acc cconj|and noun|rest
+	adv|now .
+%xdss:	Z; C2; C1; A3; Z; F3; Z;
+*CHI:	the boy went home and took a nap .
+%mor:	det|the-Def-Art noun|boy verb|go-Fin-Ind-Past-S3-irr adv|home
+	cconj|and verb|take-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|nap-Acc .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	he felt better when he woke up .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|good-Cmp-S1
+	adv|when pron|he-Prs-Nom-S3 verb|wake-Fin-Ind-Past-S3-irr adp|up .
+%xdss:	B2; C2; B2; C2;
+@End

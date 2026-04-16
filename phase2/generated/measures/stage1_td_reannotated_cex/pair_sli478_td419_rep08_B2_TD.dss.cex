@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep08
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=419
+*CHI:	i went on a picnic with my doggy and rabbit .
+%mor:	pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr adp|on det|a-Ind-Art
+	noun|picnic adp|with pron|my-Prs-Gen-S1 noun|doggy cconj|and
+	noun|rabbit .
+%xdss:	B1; C2; Z; B1; Z; F3; Z;
+*CHI:	we had yummy sandwiches and carrots .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Past-P1-irr adj|yummy-S1
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	i ate and ate and ate .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr cconj|and
+	verb|eat-Fin-Ind-Past-S1-irr cconj|and verb|eat-Fin-Ind-Past-S1-irr
+	.
+%xdss:	B1; C2; F3; C2; F3; C2;
+*CHI:	i ate too much .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1
+	.
+%xdss:	B1; C2;
+*CHI:	my tummy was hurting .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy aux|be-Fin-Ind-Past-S3-irr
+	verb|hurt-Part-Pres-S .
+%xdss:	B1; Z; C2; C1;
+*CHI:	i felt sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Past-S1-irr adj|sick-S1 .
+%xdss:	B1; C2;
+*CHI:	i went to see the doctor .
+%mor:	pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr part|to
+	verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B1; C2; D3; C1; Z;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	i said .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr .
+%xdss:	B1; C2;
+*CHI:	she gave me a [* s:r:gc:det] juice and i drank it .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1
+	det|a-Ind-Art noun|juice-Acc cconj|and pron|I-Prs-Nom-S1
+	verb|drink-Fin-Ind-Past-S1-irr pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; B1; Z; F3; B1; C2; A1; B5;
+*CHI:	my tummy felt better .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|feel-Fin-Ind-Past-S3-irr
+	adj|good-Cmp-S1 .
+%xdss:	B1; Z; C2;
+*CHI:	now i'm sitting and resting .
+%mor:	adv|now pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1
+	verb|sit-Part-Pres-S cconj|and verb|rest-Part-Pres-S .
+%xdss:	B1; C1; F3; C1;
+@End

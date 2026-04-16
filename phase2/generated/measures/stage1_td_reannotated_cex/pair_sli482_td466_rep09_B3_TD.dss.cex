@@ -1,0 +1,63 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep09
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=466
+*CHI:	bunny and doggy pull the wagon with the pretty red balloon .
+%mor:	noun|bunny cconj|and noun|doggy verb|pull-Fin-Ind-Pres-P3
+	det|the-Def-Art noun|wagon-Acc adp|with det|the-Def-Art
+	adj|pretty-S1 adj|red-S1 noun|balloon .
+%xdss:	Z; F3; Z; C1; Z; Z;
+*CHI:	oh look out !
+%mor:	intj|oh verb|look-Fin-Imp-S adp|out !
+%xdss:	C1;
+*CHI:	the string came undone and the balloon flew up [/] up [/] up !
+%mor:	det|the-Def-Art noun|string-Ger verb|come-Fin-Ind-Past-S3-irr
+	adj|undone-S1 cconj|and det|the-Def-Art noun|balloon
+	verb|fly-Fin-Ind-Past-S3-irr adp|up !
+%xdss:	Z; D8; C2; F3; Z; C2;
+*CHI:	we want our balloon back .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 pron|our-Prs-Gen-P1
+	noun|balloon-Acc adv|back .
+%xdss:	B3; C1; B3; Z;
+*CHI:	bunny and doggy go to the balloon lady .
+%mor:	noun|bunny cconj|and noun|doggy verb|go-Fin-Imp-S adp|to
+	det|the-Def-Art noun|balloon noun|lady .
+%xdss:	Z; F3; Z; C1; Z; Z;
+*CHI:	she has lots of pretty balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of adj|pretty-S1 noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	oh dear , the balloon lady says the red balloons are five dollars
+	each .
+%mor:	intj|oh adj|dear-S1 det|the-Def-Art noun|balloon noun|lady
+	verb|say-Fin-Ind-Pres-S3 det|the-Def-Art adj|red-S1
+	noun|balloon-Plur aux|be-Fin-Ind-Pres-P3 num|five noun|dollar-Plur
+	det|each-Def-Tot .
+%xdss:	Z; Z; C2; Z; C2; A3; Z; A7;
+*CHI:	bunny and doggy don't have five dollars .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S num|five noun|dollar-Plur-Acc .
+%xdss:	Z; F3; E4; C1; A3; Z;
+*CHI:	the balloon lady helps bunny and doggy pick some cheap balloons .
+%mor:	det|the-Def-Art noun|balloon noun|lady verb|help-Fin-Ind-Pres-S3
+	noun|bunny-Acc cconj|and adj|doggy-S1 verb|pick-Inf-S
+	det|some-Def-Ind adj|cheap-S1 noun|balloon-Plur-Acc .
+%xdss:	Z; Z; C2; Z; F3; C1; A3; Z;
+*CHI:	bunny gets a blue balloon , doggy gets a yellow balloon .
+%mor:	noun|bunny verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art adj|blue-S1
+	noun|balloon-Acc noun|doggy verb|get-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|yellow-S1 noun|balloon-Acc .
+%xdss:	Z; C2; Z; Z; C2; Z;
+@End

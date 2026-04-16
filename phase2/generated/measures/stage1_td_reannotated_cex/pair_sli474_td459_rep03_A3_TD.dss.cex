@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep03
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=459
+*CHI:	once upon a time there were two dogs playing near the pool .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-P3-irr num|two noun|dog-Plur verb|play-Ger-S
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	Z; C2; A3; Z; D4; C1; D8; Z;
+*CHI:	they had a [* m:allo] airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|airplane-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	then one of them threw it into the water .
+%mor:	adv|then num|one adp|of pron|they-Prs-Acc-P3
+	verb|throw-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A3; B3; C2; A1; B5; Z;
+*CHI:	the big dog got upset and said no !
+%mor:	det|the-Def-Art adj|big-S1 noun|dog verb|get-Fin-Ind-Past-S3-irr
+	adj|upset-S1 cconj|and verb|say-Fin-Ind-Past-S3-irr intj|no !
+%xdss:	Z; C2; F3; C2;
+*CHI:	then a man with a pole came and said don't worry .
+%mor:	adv|then det|a-Ind-Art noun|man adp|with det|a-Ind-Art noun|pole
+	verb|come-Fin-Ind-Past-S3-irr cconj|and verb|say-Fin-Ind-Past-S3-irr
+	aux|do-Fin-S~part|not verb|worry-Fin-Imp-S .
+%xdss:	Z; Z; C2; F3; C2; C4; E4; C1;
+*CHI:	he got the airplane .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	the man gave it back to the dogs .
+%mor:	det|the-Def-Art noun|man verb|give-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adv|back adp|to det|the-Def-Art noun|dog-Plur .
+%xdss:	Z; C2; A1; B5; Z;
+*CHI:	they were happy and the dogs hugged each other .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1
+	cconj|and det|the-Def-Art noun|dog-Plur verb|hugge-Fin-Ind-Past-P3
+	det|each-Def-Rcp adj|other-S1 .
+%xdss:	B3; C2; F3; Z; C2; A7; A3;
+@End

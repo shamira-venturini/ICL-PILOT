@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep09
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=9
+@Comment:	source_child_id=439
+*CHI:	once upon a time a monkey and a kitty went to the pool .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|a-Ind-Art noun|monkey
+	cconj|and det|a-Ind-Art noun|kitty verb|go-Fin-Ind-Past-S3-irr
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; Z; F3; Z; C2; Z;
+*CHI:	they saw a sign that said .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|sign-Acc pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B3; C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	but kitty wanted to run to the water .
+%mor:	cconj|but noun|kitty verb|want-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	F5; Z; C2; D3; C1; Z;
+*CHI:	kitty started to run and slipped on the ground .
+%mor:	noun|kitty verb|start-Fin-Ind-Past-S3 part|to verb|run-Inf-S
+	cconj|and verb|slip-Fin-Ind-Past-S3 adp|on det|the-Def-Art
+	noun|ground .
+%xdss:	Z; C2; D3; C1; F3; C2; Z;
+*CHI:	kitty hurt [* m:03s:a] kitty's knee .
+%mor:	noun|kitty verb|hurt-Fin-Ind-Past-S3-irr noun|kitty~part|s
+	noun|knee-Acc .
+%xdss:	Z; C2; Z; Z;
+*CHI:	a lifeguard came with a big bandage .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art adj|big-S1 noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	kitty sat on a bench and rested .
+%mor:	noun|kitty verb|sit-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

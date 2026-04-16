@@ -1,0 +1,101 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep04
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=417
+*CHI:	I don't know what happened to our balloon .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S
+	pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 adp|to
+	pron|our-Prs-Gen-P1 noun|balloon .
+%xdss:	B1; E4; C1; D5; B6; C2; B3; Z;
+*CHI:	I don't know this part .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S
+	det|this-Def-Dem-Sing noun|part-Acc .
+%xdss:	B1; E4; C1; Z;
+*CHI:	I don't know this park .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S
+	det|this-Def-Dem-Sing noun|park-Acc .
+%xdss:	B1; E4; C1; Z;
+*CHI:	I see a rabbit and a dog , they're carrying a big red wagon with a
+	big yellow balloon .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art
+	noun|rabbit-Acc cconj|and det|a-Ind-Art noun|dog
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|carry-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 adj|red-S1 noun|wagon-Acc adp|with
+	det|a-Ind-Art adj|big-S1 adj|yellow-S1 noun|balloon .
+%xdss:	B1; C1; Z; F3; Z; B3; C1; Z; Z;
+*CHI:	and it's floating away .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|float-Part-Pres-S adv|away .
+%xdss:	F3; A1; C1; C1;
+*CHI:	and it popped .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Past-S3 .
+%xdss:	F3; A1; C2;
+*CHI:	I don't know .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%xdss:	B1; E4; C1;
+*CHI:	I don't know how it happened .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S
+	adv|how pron|it-Prs-Nom-S3 verb|happen-Fin-Ind-Past-S3 .
+%xdss:	B1; E4; C1; A1; C2;
+*CHI:	and then the rabbit and dog are looking around .
+%mor:	cconj|and adv|then det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-P3 verb|look-Part-Pres-S adv|around .
+%xdss:	F3; Z; F3; Z; C2; C1;
+*CHI:	they're looking for another balloon .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|look-Part-Pres-S
+	adp|for det|another-Def-Ind noun|balloon .
+%xdss:	B3; C1; F8; A3; Z;
+*CHI:	and then they see a lady with balloons .
+%mor:	cconj|and adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|lady-Acc adp|with noun|balloon-Plur .
+%xdss:	F3; B3; C1; Z; Z;
+*CHI:	she has lots of colors .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of noun|color-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	and the rabbit and dog want to buy one .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|want-Fin-Ind-Pres-P3 part|to verb|buy-Inf-S num|one .
+%xdss:	F3; Z; F3; Z; C1; D3; C1; A3;
+*CHI:	but the lady says it costs money .
+%mor:	cconj|but det|the-Def-Art noun|lady verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3 verb|cost-Fin-Ind-Pres-S3 noun|money-Acc .
+%xdss:	F5; Z; C2; D5; A1; C2; Z;
+*CHI:	and the rabbit and dog don't have any money .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|do-Fin-Ind-Pres-P3~part|not verb|have-Inf-S det|any-Def-Ind
+	noun|money-Acc .
+%xdss:	F3; Z; F3; Z; E4; C1; A7; Z;
+*CHI:	then the lady says you can pick two .
+%mor:	adv|then det|the-Def-Art noun|lady verb|say-Fin-Ind-Pres-S3
+	pron|you-Prs-Nom-S2 aux|can-Fin-S verb|pick-Inf-S num|two .
+%xdss:	Z; C2; C4; D2; C1; A3;
+*CHI:	you can pick two balloons .
+%mor:	pron|you-Prs-Nom-S2 aux|can-Fin-S verb|pick-Inf-S num|two
+	noun|balloon-Plur-Acc .
+%xdss:	C4; D2; C1; A3; Z;
+*CHI:	and the rabbit and dog are happy .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	F3; Z; F3; Z; C2;
+*CHI:	they're smiling .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|smile-Part-Pres-S
+	.
+%xdss:	B3; C1;
+*CHI:	and now they have two new balloons .
+%mor:	cconj|and adv|now pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3
+	num|two adj|new-S1 noun|balloon-Plur-Acc .
+%xdss:	F3; B3; C1; A3; Z;
+@End

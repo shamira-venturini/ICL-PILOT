@@ -1,0 +1,90 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep10
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=10
+@Comment:	source_child_id=439
+*CHI:	Me [* s:r:gc:pro] and my dog went for a walk .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog
+	verb|go-Fin-Ind-Past-S3-irr adp|for det|a-Ind-Art noun|walk .
+%xdss:	B1; F3; B1; Z; C2; F8; Z;
+*CHI:	we saw a man with a wagon .
+%mor:	pron|we-Prs-Nom-P1 verb|see-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|man-Acc adp|with det|a-Ind-Art noun|wagon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	he had a pretty blue balloon in the wagon .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adv|pretty adj|blue-S1 noun|balloon-Acc adp|in det|the-Def-Art
+	noun|wagon .
+%xdss:	B2; C2; Z; Z;
+*CHI:	we wanted that balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Past-P1 det|that-Def-Dem-Sing
+	noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	me [* s:r:gc:pro] and my dog pulled the wagon but the balloon came
+	loose .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog
+	verb|pull-Fin-Ind-Past-S3 det|the-Def-Art noun|wagon-Acc cconj|but
+	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 .
+%xdss:	B1; F3; B1; Z; C2; Z; F5; Z; C2;
+*CHI:	it went up high up high .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adj|high-S1
+	adp|up adj|high-S1 .
+%xdss:	A1; C2;
+*CHI:	my dog jumped up and up to get it .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|jump-Fin-Ind-Past-S3 adp|up
+	cconj|and adp|up part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B1; Z; C2; F3; C1; A1; B5;
+*CHI:	but it was gone .
+%mor:	cconj|but pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|gone-S1
+	.
+%xdss:	F5; A1; C2;
+*CHI:	i was sad .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|sad-S1 .
+%xdss:	B1; C2;
+*CHI:	where did my balloon go ?
+%mor:	adv|where aux|do-Fin-Ind-Past-S3-irr pron|my-Prs-Gen-S1
+	noun|balloon verb|go-Inf-S ?
+%xdss:	B1; Z; C1;
+*CHI:	my dog said .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	we went to see the man again .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr part|to
+	verb|see-Inf-S det|the-Def-Art noun|man-Acc adv|again .
+%xdss:	B3; C2; D3; C1; Z;
+*CHI:	he had lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	but they were too expensive .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|too
+	adj|expensive-S1 .
+%xdss:	F5; B3; C2;
+*CHI:	me [* s:r:gc:pro] and my dog didn't have enough money .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S adj|enough-S1
+	noun|money-Acc .
+%xdss:	B1; F3; B1; Z; C6; E4; C1; Z;
+*CHI:	he said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	he gave us two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|we-Prs-Acc-P1
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	we were so happy !
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr adv|so adj|happy-S1 !
+%xdss:	B3; C2; F5;
+@End

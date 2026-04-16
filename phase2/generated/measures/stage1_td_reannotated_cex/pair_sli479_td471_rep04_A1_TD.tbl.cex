@@ -1,0 +1,23 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:29 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep04_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two ducks were playing near the pool . |3  |   |2 1|   |   |   |   |   |  1|  7|
+They had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+It fell into the water .               |1  |   |2  |   |   |   |   |   |  1|  4|
+One duck went into the pool to get it .|3 1|5  |2 1|   |   |   |   |   |  1| 13|
+The duck got the ball and came back .  |   |   |2 2|   |   |3  |   |   |  1|  8|
+The other duck was happy .             |3  |   |2  |   |   |   |   |   |  1|  6|
+They both were happy .                 |7  |3  |2  |   |   |   |   |   |  1| 13|
+TOTAL                                  | 18| 11| 18|  0|  0|  3|  0|  0|  7| 57|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  8.14

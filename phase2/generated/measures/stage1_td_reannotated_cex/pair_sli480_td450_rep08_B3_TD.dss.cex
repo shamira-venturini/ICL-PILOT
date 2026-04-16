@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep08
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog go on the playground .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|on
+	det|the-Def-Art noun|playground .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They have a wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	There is a red balloon on the wagon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|red-S1
+	noun|balloon adp|on det|the-Def-Art noun|wagon .
+%xdss:	C2; Z; Z;
+*CHI:	The balloon is tied up , but it comes loose .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3
+	verb|tie-Part-Past-S adp|up cconj|but pron|it-Prs-Nom-S3
+	verb|come-Fin-Ind-Pres-S3 adj|loose-S1 .
+%xdss:	Z; C7; C2; F5; A1; C2;
+*CHI:	The balloon floats away !
+%mor:	det|the-Def-Art noun|balloon verb|float-Fin-Ind-Pres-S3 adv|away !
+%xdss:	Z; C2;
+*CHI:	The rabbit and dog are sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They don't have a balloon anymore .
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S det|a-Ind-Art noun|balloon-Acc adv|anymore .
+%xdss:	B3; E4; C1; Z;
+*CHI:	They go to the ice cream man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|ice noun|cream noun|man .
+%xdss:	B3; C1; Z; Z; Z;
+*CHI:	He has lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	They have two balloons now !
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 num|two
+	noun|balloon-Plur-Acc adv|now !
+%xdss:	B3; C1; A3; Z;
+@End

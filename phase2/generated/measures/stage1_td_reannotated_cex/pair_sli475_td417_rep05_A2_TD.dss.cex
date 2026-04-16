@@ -1,0 +1,33 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep05
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=417
+*CHI:	One day , a kitty and a puppy went to the pool .
+%mor:	num|one noun|day det|a-Ind-Art noun|kitty cconj|and det|a-Ind-Art
+	noun|puppy verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	A nice lifeguard came with a bandage and said .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|bandage
+	cconj|and verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2; Z; F3; C2;
+*CHI:	The lifeguard put a bandage on it and the kitty felt better .
+%mor:	det|the-Def-Art noun|lifeguard verb|put-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bandage-Acc adp|on pron|it-Prs-Acc-S3 cconj|and
+	det|the-Def-Art noun|kitty verb|feel-Fin-Ind-Past-S3-irr
+	adj|good-Cmp-S1 .
+%xdss:	Z; C2; Z; A1; B5; F3; Z; C2;
+@End

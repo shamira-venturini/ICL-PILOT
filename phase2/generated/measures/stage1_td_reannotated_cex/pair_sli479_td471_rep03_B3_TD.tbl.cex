@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:29 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep03_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and doggy went to the park and  |   |   |2 2|   |   |3 3|   |   |  1| 11|
+    took a wagon with a big red balloon|   |   |   |   |   |   |   |   |   |   |
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The balloon came loose and went flying |   |   |2 2|7 8|   |3  |   |   |  1| 24|
+    high in the sky .                  |   |   |1  |   |   |   |   |   |   |   |
+The children were sad and sad and      |   |   |2 2|   |   |3 3|   |   |  1| 11|
+    wanted a new balloon .             |   |   |   |   |   |   |   |   |   |   |
+They went to the balloon man .         |   |3  |2  |   |   |   |   |   |  1|  6|
+The children were so happy and took    |3  |3 3|2 2|   |   |5 3|   |   |  1| 27|
+    their two balloons and flew them   |   |   |2  |   |   |3  |   |   |   |   |
+    high in the sky .                  |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3|  9| 21| 15|  0| 26|  0|  0|  5| 79|
+WARNING: DSS requires 50 complete sentences and this transcript only has 5.
+
+Developmental sentence score: 15.80

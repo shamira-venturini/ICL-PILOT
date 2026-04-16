@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:33 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep09_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two monkeys went to the pool .         |3  |   |2  |   |   |   |   |   |  1|  6|
+They saw a sign that said .            |1  |3  |2 2|   |   |   |   |   |  1|  9|
+No Running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+But one of them ran to the water .     |3  |3  |2  |   |   |5  |   |   |  1| 14|
+She slipped and fell down .            |   |2  |2 2|   |   |3  |   |   |  1| 10|
+Her knee hurt [* m:03s:a] .            |   |2  |2  |   |   |   |   |   |  0|  4|
+A kind lady came with a big bandage .  |   |   |2  |   |   |   |   |   |  1|  3|
+She put it on the monkey's knee .      |1  |2 5|2  |   |   |   |   |   |  1| 11|
+The monkey sat down on a bench and     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    rested .                           |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  8| 17| 22|  8|  0| 11|  0|  0|  8| 74|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  8.22

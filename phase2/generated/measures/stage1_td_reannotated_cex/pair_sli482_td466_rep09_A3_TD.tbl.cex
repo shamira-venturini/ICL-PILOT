@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep09_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there is a cat and dog|   |3  |2 1|8  |   |3  |   |   |  1| 18|
+     they playing with a little        |   |   |   |   |   |   |   |   |   |   |
+    airplane near a pool .             |   |   |   |   |   |   |   |   |   |   |
+the airplane fly [* m:03s:a] over the  |1  |   |2 2|   |   |3 3|   |   |  0| 12|
+    pool and then it crash [* m:0ed]   |   |   |1  |   |   |   |   |   |   |   |
+    and fall [* m:03s:a] in the water  |   |   |   |   |   |   |   |   |   |   |
+    oh no !                            |   |   |   |   |   |   |   |   |   |   |
+the cat and dog get so sad .           |   |   |1  |   |   |3 5|   |   |  1| 10|
+the cat and dog's owner get mad too .  |   |   |1  |   |   |3  |   |   |  1|  5|
+the owner say [* m:03s:a] stop it's    |1  |1  |2 1|   |   |   |   |   |  0|  6|
+    mine .                             |   |   |1  |   |   |   |   |   |   |   |
+then a lifeguard use [* m:03s:a] a long|   |   |2 1|   |   |   |   |   |  0|  3|
+     pole to get the airplane .        |   |   |   |   |   |   |   |   |   |   |
+the airplane is all wet .              |   |   |1  |   |   |   |   |   |  1|  2|
+the lifeguard give [* m:03s:a] it back |1  |5  |1  |   |   |   |   |   |  0|  7|
+    to the owner .                     |   |   |   |   |   |   |   |   |   |   |
+the cat and dog and owner are happy    |   |   |2  |   |   |3 3|   |   |  1|  9|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3|  9| 21|  8|  0| 26|  0|  0|  5| 72|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  8.00

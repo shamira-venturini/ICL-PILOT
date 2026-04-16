@@ -1,0 +1,82 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep03
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=417
+*CHI:	there is a rabbit and dog .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|rabbit
+	cconj|and noun|dog .
+%xdss:	C2; Z; F3; Z;
+*CHI:	and they was [* m:vsg:a] playing on the beach .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr
+	verb|play-Part-Pres-S adp|on det|the-Def-Art noun|beach .
+%xdss:	F3; B3; C2; C1; Z;
+*CHI:	and the rabbit was building a castle with the dog .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|build-Part-Pres-S det|a-Ind-Art noun|castle-Acc adp|with
+	det|the-Def-Art noun|dog .
+%xdss:	F3; Z; C2; C1; Z; Z;
+*CHI:	and the dog was helping the rabbit with a big bucket of sand .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|help-Part-Pres-S det|the-Def-Art noun|rabbit-Acc adp|with
+	det|a-Ind-Art adj|big-S1 noun|bucket adp|of noun|sand .
+%xdss:	F3; Z; C2; C1; Z; Z; Z;
+*CHI:	what else do I wanna say ?
+%mor:	pron|what-Int-S1 adv|else aux|do-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1
+	part|wana verb|say-Inf-S ?
+%xdss:	B6; H2; B1; C1;
+*CHI:	and the dog was making big [/] big holes .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S adj|big-S1 noun|hole-Plur-Acc .
+%xdss:	F3; Z; C2; C1; Z;
+*CHI:	and then the dog did it again .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog
+	verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|again .
+%xdss:	F3; Z; C2; A1; B5;
+*CHI:	and he dumped the sand all over the castle .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3
+	det|the-Def-Art noun|sand-Acc adv|all adp|over det|the-Def-Art
+	noun|castle .
+%xdss:	F3; B2; C2; Z; Z;
+*CHI:	and it got all ruined .
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr
+	det|all-Def-Tot verb|ruin-Part-Past-S .
+%xdss:	F3; A1; C2; A3; C2;
+*CHI:	and the rabbit was crying .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|cry-Part-Pres-S .
+%xdss:	F3; Z; C2; C1;
+*CHI:	and the dog said i'm sorry .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sorry-S1 .
+%xdss:	F3; Z; C2; B1;
+*CHI:	and the dog was like no i'm sorry .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr
+	adp|like intj|no pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1
+	adj|sorry-S1 .
+%xdss:	F3; Z; C2; F8; B1;
+*CHI:	and the rabbit was like okay .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	adp|like adj|okay-S1 .
+%xdss:	F3; Z; C2; F8;
+*CHI:	and then the dog and the rabbit fixed the castle again .
+%mor:	cconj|and adv|then det|the-Def-Art noun|dog cconj|and
+	det|the-Def-Art noun|rabbit verb|fix-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|castle-Acc adv|again .
+%xdss:	F3; Z; F3; Z; C2; Z;
+*CHI:	and it was all better .
+%mor:	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|all
+	adj|good-Cmp-S1 .
+%xdss:	F3; A1; C2;
+@End

@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep10
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog play together on the beach .
+%mor:	noun|rabbit cconj|and noun|dog verb|play-Fin-Ind-Pres-P3
+	adv|together adp|on det|the-Def-Art noun|beach .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They build [* m:03s:a] a castle in the sand .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|castle-Acc adp|in det|the-Def-Art noun|sand .
+%xdss:	B3; C1; Z; Z;
+*CHI:	Dog use [* m:03s:a] big shovel to add sand on the top .
+%mor:	noun|dog verb|use-Fin-Imp-S adj|big-S1 noun|shovel-Acc part|to
+	verb|add-Inf-S noun|sand-Acc adp|on det|the-Def-Art noun|top .
+%xdss:	Z; C1; Z; C1; Z; Z;
+*CHI:	but then dog do [* m:03s:a] something bad .
+%mor:	cconj|but adv|then noun|dog verb|do-Fin-Ind-S pron|something-Ind-S1
+	adj|bad-S1 .
+%xdss:	F5; Z; C1; A3;
+*CHI:	Dog use [* m:03s:a] big shovel to dump sand all over the castle .
+%mor:	noun|dog verb|use-Fin-Imp-S adj|big-S1 noun|shovel-Acc part|to
+	verb|dump-Inf-S noun|sand-Acc adv|all adp|over det|the-Def-Art
+	noun|castle .
+%xdss:	Z; C1; Z; C1; Z; Z;
+*CHI:	The castle got ruined .
+%mor:	det|the-Def-Art noun|castle aux|get-Fin-Ind-Past-S3-irr
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	Rabbit cry [* m:03s:a] .
+%mor:	noun|rabbit verb|cry-Fin-S .
+%xdss:	Z; C1;
+*CHI:	Dog say [* m:03s:a] sorry .
+%mor:	noun|dog verb|say-Fin-Imp-S adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	They try to fix it together .
+%mor:	pron|they-Prs-Nom-P3 verb|try-Fin-Ind-Pres-P3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 adv|together .
+%xdss:	B3; C1; D3; C1; A1; B5;
+@End

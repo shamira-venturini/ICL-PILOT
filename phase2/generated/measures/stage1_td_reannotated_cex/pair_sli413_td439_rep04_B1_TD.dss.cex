@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep04
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=4
+@Comment:	source_child_id=439
+*CHI:	once upon a time rabbit and dog went to the beach to build a
+	sandcastle .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|beach part|to verb|build-Inf-S det|a-Ind-Art
+	noun|sandcastle-Acc .
+%xdss:	Z; Z; F3; Z; C2; Z; C1; Z;
+*CHI:	they worked together and it was so tall and pretty .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Past-P3 adv|together
+	cconj|and pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|tall-S1 cconj|and adj|pretty-S1 .
+%xdss:	B3; C2; F3; A1; C2; F5; F3;
+*CHI:	but then rabbit knocked over a bucket and it poured sand all over
+	the castle .
+%mor:	cconj|but adv|then noun|rabbit verb|knock-Fin-Ind-Past-S3 adp|over
+	det|a-Ind-Art noun|bucket cconj|and pron|it-Prs-Nom-S3
+	verb|pour-Fin-Ind-Past-S3 noun|sand-Acc adv|all adp|over
+	det|the-Def-Art noun|castle .
+%xdss:	F5; Z; C2; Z; F3; A1; C2; Z; Z;
+*CHI:	the dog was so sad and started to cry .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|sad-S1 cconj|and verb|start-Fin-Ind-Past-S3 part|to
+	verb|cry-Inf-S .
+%xdss:	Z; C2; F5; F3; C2; D3; C1;
+*CHI:	rabbit said sorry and they tried to fix it .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 cconj|and
+	pron|they-Prs-Nom-P3 verb|try-Fin-Ind-Past-P3 part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; F3; B3; C2; D3; C1; A1; B5;
+@End

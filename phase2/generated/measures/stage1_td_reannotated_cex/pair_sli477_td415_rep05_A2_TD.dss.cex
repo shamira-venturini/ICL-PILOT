@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep05
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=415
+*CHI:	I see a swimmin' pool .
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art
+	noun|swimmi~noun|and noun|pool-Acc .
+%xdss:	B1; C1; Z; Z;
+*CHI:	There's a sign that says .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; A1; C2;
+*CHI:	My friend , a kitty , is runnin' to the swimmin' pool .
+%mor:	pron|my-Prs-Gen-S1 noun|friend det|a-Ind-Art noun|kitty
+	aux|be-Fin-Ind-Pres-S3 noun|runni~part|and adp|to det|the-Def-Art
+	noun|swimmi~noun|and noun|pool .
+%xdss:	B1; Z; Z; C1; Z; Z; Z;
+*CHI:	The kitty slips on the ground and gets hurt knee [* m:0s:a] .
+%mor:	det|the-Def-Art noun|kitty verb|slip-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art noun|ground cconj|and aux|get-Fin-Ind-Pres-S3
+	verb|hurt-Part-Past-S-irr noun|knee .
+%xdss:	Z; C2; Z; F3; C7; C2; Z;
+*CHI:	A nice man comes with a big band-aid .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|man verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art adj|big-S1 noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	He puts it on the kitty's knee .
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adp|on det|the-Def-Art noun|kitty~part|s noun|knee .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	Now the kitty is sittin' on a bench , restin' .
+%mor:	adv|now det|the-Def-Art noun|kitty aux|be-Fin-Ind-Pres-S3
+	verb|sitt-Part-Pres-S~adv|and adp|on det|a-Ind-Art noun|bench
+	adv|restin .
+%xdss:	Z; C1; Z;
+@End

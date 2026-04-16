@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep06
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=406
+*CHI:	One day rabbit and dog were friends .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-P3-irr noun|friend-Plur .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	They were at the beach .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adp|at
+	det|the-Def-Art noun|beach .
+%xdss:	B3; C2; Z;
+*CHI:	They built a big sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	Rabbit was using a big shovel and dog was using a bucket .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Past-S3-irr verb|use-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|shovel-Acc cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr verb|use-Part-Pres-S det|a-Ind-Art
+	noun|bucket-Acc .
+%xdss:	C2; C1; Z; F3; Z; C2; C1; Z;
+*CHI:	They worked together .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Past-P3 adv|together .
+%xdss:	B3; C2;
+*CHI:	Then dog spilled sand all over the castle .
+%mor:	adv|then noun|dog verb|spill-Fin-Ind-Past-S3 noun|sand-Acc adv|all
+	adp|over det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	The castle was ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Past-S3-irr
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	He started to cry .
+%mor:	pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|cry-Inf-S .
+%xdss:	B2; C2; D3; C1;
+*CHI:	Dog was sad too .
+%mor:	noun|dog aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 adv|too .
+%xdss:	Z; C2;
+*CHI:	Dog said .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	I'm sorry , I made a mess .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sorry-S1
+	pron|I-Prs-Nom-S1 verb|make-Fin-Ind-Past-S1-irr det|a-Ind-Art
+	noun|mess-Acc .
+%xdss:	B1; B1; C2; Z;
+*CHI:	it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+*CHI:	They worked together again to build a new castle .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Past-P3 adv|together
+	adv|again part|to verb|build-Inf-S det|a-Ind-Art adj|new-S1
+	noun|castle-Acc .
+%xdss:	B3; C2; C1; Z;
+@End

@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep07_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Once upon a time , doggy and bunny went|   |   |2  |   |   |3  |   |   |  1|  6|
+     to the sandbox .                  |   |   |   |   |   |   |   |   |   |   |
+They built a big castle together .     |   |3  |2  |   |   |   |   |   |  1|  6|
+Then , bunny picked up a big bucket of |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    sand and poured it on doggy's      |   |   |   |   |   |   |   |   |   |   |
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+The castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+she said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+Doggy looked sad too .                 |   |   |2  |   |   |   |   |   |  1|  3|
+They hugged and worked together to fix |1  |3 5|2 2|   |   |3  |   |   |  1| 18|
+    it .                               |   |   |1  |   |   |   |   |   |   |   |
+TOTAL                                  |  2| 18| 19|  0|  0|  9|  0|  0|  7| 55|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  7.86

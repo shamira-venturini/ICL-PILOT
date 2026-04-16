@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:12 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep10_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One sunny day my friend and I were by  |3  |1 1|2  |   |   |3  |   |   |  1| 11|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+We were playing with a big red ball .  |   |3  |2 1|   |   |   |   |   |  1|  7|
+It went into the water .               |1  |   |2  |   |   |   |   |   |  1|  4|
+My friend went into the water to get it|1  |1 5|2 1|   |   |   |   |   |  1| 11|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+She took a big breath and went .       |   |2  |2 2|   |   |3  |   |   |  1| 10|
+She swam down to get the ball .        |   |2  |2 1|   |   |   |   |   |  1|  6|
+She came back up with it .             |1  |2 5|2  |   |   |   |   |   |  1| 11|
+She was so happy .                     |   |2  |2  |   |   |5  |   |   |  1| 10|
+I was happy too .                      |   |1  |2  |   |   |   |   |   |  1|  4|
+We played some more .                  |3 3|3  |2  |   |   |   |   |   |  1| 12|
+TOTAL                                  | 12| 28| 25|  0|  0| 11|  0|  0| 10| 86|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  8.60

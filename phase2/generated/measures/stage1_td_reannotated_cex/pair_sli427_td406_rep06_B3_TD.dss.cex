@@ -1,0 +1,80 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep06
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=406
+*CHI:	rabbit and doggy was [* m:vsg:a] playing with wagon .
+%mor:	noun|rabbit cconj|and noun|doggy aux|be-Fin-Ind-Past-S3-irr
+	verb|play-Part-Pres-S adp|with noun|wagon .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	they had a big pretty red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 adv|pretty adj|red-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	doggy was pulling the wagon .
+%mor:	noun|doggy aux|be-Fin-Ind-Past-S3-irr verb|pull-Part-Pres-S
+	det|the-Def-Art noun|wagon-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	rabbit was holding the balloon .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr verb|hold-Part-Pres-S
+	det|the-Def-Art noun|balloon-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	then the balloon came loose .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 .
+%xdss:	Z; C2;
+*CHI:	it went up high up in the air .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adv|high
+	adp|up adp|in det|the-Def-Art noun|air .
+%xdss:	A1; C2; Z;
+*CHI:	rabbit and doggy said awwww .
+%mor:	noun|rabbit cconj|and noun|doggy verb|say-Fin-Ind-Past-S3-irr
+	intj|awwww .
+%xdss:	Z; F3; Z; C2;
+*CHI:	the balloon went pop !
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Past-S3-irr noun|pop !
+%xdss:	Z; C2; Z;
+*CHI:	they were so sad .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|sad-S1 .
+%xdss:	B3; C2; F5;
+*CHI:	they wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	they went to the store .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|store .
+%xdss:	B3; C2; Z;
+*CHI:	the lady had lots of balloons .
+%mor:	det|the-Def-Art noun|lady verb|have-Fin-Ind-Past-S3-irr
+	noun|lot-Plur-Acc adp|of noun|balloon-Plur .
+%xdss:	Z; C2; Z; Z;
+*CHI:	but they were expensive .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	adj|expensive-S1 .
+%xdss:	F5; B3; C2;
+*CHI:	the lady said five cents each .
+%mor:	det|the-Def-Art noun|lady verb|say-Fin-Ind-Past-S3-irr num|five
+	noun|cent-Plur-Acc det|each-Def-Tot .
+%xdss:	Z; C2; A3; Z; A7;
+*CHI:	rabbit and doggy didn't have five cents .
+%mor:	noun|rabbit cconj|and noun|doggy
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S num|five
+	noun|cent-Plur-Acc .
+%xdss:	Z; F3; Z; C6; E4; C1; A3; Z;
+*CHI:	now rabbit and doggy were happy again .
+%mor:	adv|now noun|rabbit cconj|and noun|doggy aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

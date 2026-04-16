@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep10_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we went to the park and had a picnic . |   |3  |2 2|   |   |3  |   |   |  1| 11|
+rabbit and dog brought food .          |   |   |2  |   |   |3  |   |   |  1|  6|
+rabbit brought carrots .               |   |   |2  |   |   |   |   |   |  1|  3|
+dog brought sandwiches .               |   |   |2  |   |   |   |   |   |  1|  3|
+we ate and ate .                       |   |3  |2 2|   |   |3  |   |   |  1| 11|
+but i ate too much .                   |   |1  |2  |   |   |5  |   |   |  1|  9|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+it hurts so bad .                      |1  |   |2  |   |   |5  |   |   |  1|  9|
+i feel dizzy .                         |   |1  |1  |   |   |   |   |   |  1|  3|
+i think i'm gonna be sick .            |   |1 1|1  |   |   |   |   |   |  1|  4|
+my mom took me to the doctor .         |   |1 1|2  |   |   |   |   |   |  1|  5|
+the doctor said i need to rest .       |   |1  |2 1|5 3|   |   |   |   |  1| 14|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+i slept for a little bit .             |   |1  |2  |   |   |8  |   |   |  1| 12|
+then i felt better .                   |   |1  |2  |   |   |   |   |   |  1|  4|
+now i'm sitting on the couch .         |   |1  |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  1| 17| 33|  8|  0| 27|  0|  0| 15|101|
+WARNING: DSS requires 50 complete sentences and this transcript only has 15.
+
+Developmental sentence score:  6.73

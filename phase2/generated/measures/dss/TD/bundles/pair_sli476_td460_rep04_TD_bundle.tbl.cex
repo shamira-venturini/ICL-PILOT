@@ -1,0 +1,71 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:37 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli476_td460_rep04_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they play near the pool .              |   |3  |1  |   |   |   |   |   |  1|  5|
+they have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+the ball goes into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+the dog jumps in the pool to get it .  |1  |5  |2 1|   |   |   |   |   |  1| 10|
+he swims and gets the ball .           |   |2  |2 2|   |   |3  |   |   |  1| 10|
+the dog comes out and brings the ball  |   |   |2 2|   |   |3  |   |   |  1|  8|
+    back .                             |   |   |   |   |   |   |   |   |   |   |
+the cat's happy .                      |   |   |1  |   |   |   |   |   |  1|  2|
+the dog's happy too .                  |   |   |1  |   |   |   |   |   |  1|  2|
+he went to the pool with his dog .     |   |2 2|2  |   |   |   |   |   |  1|  7|
+they saw a sign that said no running . |1  |3  |2 2|8  |   |   |   |   |  1| 17|
+but the dog started to run .           |   |   |2 1|3  |   |5  |   |   |  1| 12|
+it's doggy slip on the wet ground .    |1  |   |1  |   |   |   |   |   |  1|  3|
+now the doggy is hurt .                |   |   |7 2|   |   |   |   |   |  1| 10|
+a nice lady came with a bandage .      |   |   |2  |   |   |   |   |   |  1|  3|
+she put the bandage on the doggy's knee|   |2  |2  |   |   |   |   |   |  1|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the doggy sat on a bench .             |   |   |2  |   |   |   |   |   |  1|  3|
+now the doggy is resting .             |   |   |1 1|   |   |   |   |   |  1|  3|
+He and his friend playing [* m:+ing]   |   |2 2|1  |4 8|   |3  |   |   |  0| 20|
+    with a plane near the pool .       |   |   |   |   |   |   |   |   |   |   |
+Oh look it's going in the water !      |1  |   |1 1|5  |   |   |   |   |  1| 10|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+The plane is in the pool now .         |   |   |1  |   |   |   |   |   |  1|  2|
+His friend is crying .                 |   |2  |1 1|   |   |   |   |   |  1|  5|
+The plane belongs to him .             |   |2  |2  |   |   |   |   |   |  1|  5|
+He wants it back .                     |1  |2 5|2  |   |   |   |   |   |  1| 11|
+He's waving his hand to the man with   |   |2 2|1 1|   |   |   |   |   |  1|  7|
+    the pole .                         |   |   |   |   |   |   |   |   |   |   |
+The man is coming with a long stick .  |   |   |1 1|   |   |   |   |   |  1|  3|
+He's putting the plane in the basket . |   |2  |1 1|   |   |   |   |   |  1|  5|
+It's coming out !                      |1  |   |1 1|   |   |   |   |   |  1|  4|
+He's so happy .                        |   |2  |1  |   |   |5  |   |   |  1|  9|
+Now the plane is back .                |   |   |1  |   |   |   |   |   |  1|  2|
+Everyone is smiling .                  |7  |   |1 1|   |   |   |   |   |  1| 10|
+they're building .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+they're building a castle .            |   |3  |1  |   |   |   |   |   |  1|  5|
+they're using a shovel .               |   |3  |1  |   |   |   |   |   |  1|  5|
+they're using a bucket .               |   |3  |1  |   |   |   |   |   |  1|  5|
+the dog throws the bucket .            |   |   |2  |   |   |   |   |   |  1|  3|
+the sand goes everywhere .             |   |   |2  |   |   |   |   |   |  1|  3|
+the castle is broken .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit is sad .                    |   |   |1  |   |   |   |   |   |  1|  2|
+the rabbit is crying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is sorry .                     |   |   |1  |   |   |   |   |   |  1|  2|
+the dog hugs the rabbit .              |   |   |2  |   |   |   |   |   |  1|  3|
+they're trying to fix it .             |1  |3 5|1 1|3  |   |   |   |   |  1| 15|
+they're putting sand on it .           |1  |3 5|1  |   |   |   |   |   |  1| 11|
+it's all better now .                  |1  |   |1  |   |   |   |   |   |  1|  3|
+Rabbit and dog went on a picnic .      |   |   |2  |   |   |3  |   |   |  1|  6|
+They had yummy sandwiches .            |   |3  |2  |   |   |   |   |   |  1|  6|
+A little rabbit ate too many sandwiches|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+He felt icky .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+He got a tummyache .                   |   |2  |2  |   |   |   |   |   |  1|  5|
+He felt dizzy .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+TOTAL                                  | 16| 82|106| 31|  0| 22|  0|  0| 49|306|
+
+Developmental sentence score:  6.12

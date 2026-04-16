@@ -1,0 +1,79 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep02
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=419
+*CHI:	doggy and kitty were playing with a little airplane near the pool .
+%mor:	adj|doggy-S1 cconj|and noun|kitty aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|little-S1
+	noun|airplane adp|near det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C2; C1; Z; Z;
+*CHI:	They were flying it up and down .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|fly-Part-Pres-S pron|it-Prs-Acc-S3 adp|up cconj|and adv|down .
+%xdss:	B3; C2; C1; A1; B5; F3;
+*CHI:	But then kitty was like .
+%mor:	cconj|but adv|then noun|kitty aux|be-Fin-Ind-Past-S3-irr adp|like .
+%xdss:	F5; Z; C2; F8;
+*CHI:	I wanna see it in the water !
+%mor:	pron|I-Prs-Nom-S1 aux|wanna-Fin-S verb|see-Fin-Ind-Pres-S1
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water !
+%xdss:	B1; D2; C1; A1; B5; Z;
+*CHI:	and doggy said .
+%mor:	cconj|and noun|doggy verb|say-Fin-Ind-Past-S-irr .
+%xdss:	F3; Z; C2;
+*CHI:	no you can't doggy said no and kitty said .
+%mor:	intj|no pron|you-Prs-Nom-S2 aux|can-Fin-S~part|not verb|doggy-Inf-S
+	verb|say-Part-Past-S-irr intj|no cconj|and noun|kitty
+	verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C4; E4; C1; C2; F3; Z; C2;
+*CHI:	and doggy was like no [/] no kitty .
+%mor:	cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-S3-irr adp|like
+	det|no-Def-Neg noun|kitty .
+%xdss:	F3; C2; F8; Z;
+*CHI:	and kitty just threw it in the pool .
+%mor:	cconj|and noun|kitty adv|just verb|throw-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C2; A1; B5; Z;
+*CHI:	where is my airplane ?
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1 noun|airplane ?
+%xdss:	C1; B1; Z;
+*CHI:	and kitty was like .
+%mor:	cconj|and noun|kitty aux|be-Fin-Ind-Past-S3-irr adp|like .
+%xdss:	F3; Z; C2; F8;
+*CHI:	I don't know where it went .
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S
+	adv|where pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	B1; E4; C1; F8; A1; C2;
+*CHI:	then a man with a pole came over .
+%mor:	adv|then det|a-Ind-Art noun|man adp|with det|a-Ind-Art noun|pole
+	verb|come-Fin-Ind-Past-S3-irr adv|over .
+%xdss:	Z; Z; C2;
+*CHI:	he said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	he was very tall and could reach it .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|very adj|tall-S1
+	cconj|and aux|could-Fin-S verb|reach-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; F3; C6; D2; C1; A1; B5;
+*CHI:	he got the airplane with his pole and gave it back to doggy .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc adp|with pron|his-Prs-Gen-S3 noun|pole cconj|and
+	verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|back adp|to
+	noun|doggy .
+%xdss:	B2; C2; Z; B2; Z; F3; C2; A1; B5; Z;
+*CHI:	doggy was so happy !
+%mor:	noun|doggy aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1 !
+%xdss:	Z; C2; F5;
+@End

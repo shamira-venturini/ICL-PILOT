@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep01
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=415
+*CHI:	the dog and the rabbit build a sandcastle together .
+%mor:	det|the-Def-Art noun|dog cconj|and det|the-Def-Art noun|rabbit
+	verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art noun|sandcastle-Acc
+	adv|together .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	the dog use [* m:03s:a] a big shovel to put more sand on the castle
+	.
+%mor:	det|the-Def-Art noun|dog verb|use-Fin-Ind-Pres-S det|a-Ind-Art
+	adj|big-S1 noun|shovel-Acc part|to verb|put-Inf-S adj|more-Cmp-S1
+	noun|sand-Acc adp|on det|the-Def-Art noun|castle .
+%xdss:	Z; C1; Z; C1; A3; Z; Z;
+*CHI:	but he add [* m:03s:a] too much sand and the castle is fall
+	[* m:03s:a] down .
+%mor:	cconj|but pron|he-Prs-Nom-S3 verb|add-Fin-Ind-Pres-S3 adv|too
+	adj|much-S1 noun|sand-Acc cconj|and det|the-Def-Art noun|castle
+	aux|be-Fin-Ind-Pres-S3 verb|fall-Inf-S adp|down .
+%xdss:	F5; B2; C2; Z; F3; Z; C1; C1;
+*CHI:	the dog say [* m:03s:a] sorry and help to build the castle again .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Pres-S3 adj|sorry-S1
+	cconj|and verb|help-Inf-S part|to verb|build-Inf-S det|the-Def-Art
+	noun|castle-Acc adv|again .
+%xdss:	Z; C2; F3; C1; D3; C1; Z;
+*CHI:	they make it nice and pretty .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adj|nice-S1 cconj|and adj|pretty-S1 .
+%xdss:	B3; C1; A1; B5; F3;
+@End

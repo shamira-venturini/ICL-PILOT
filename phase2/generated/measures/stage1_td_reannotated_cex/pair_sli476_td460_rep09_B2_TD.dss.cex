@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep09
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=460
+*CHI:	we're going to have a picnic .
+%mor:	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 verb|go-Part-Pres-S
+	part|to verb|have-Inf-S det|a-Ind-Art noun|picnic-Acc .
+%xdss:	B3; C1; D2; C1; Z;
+*CHI:	we're picking carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1 verb|pick-Part-Pres-S
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	the dog is eating carrots .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|eat-Part-Pres-S noun|carrot-Plur-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	rabbit is eating sandwiches .
+%mor:	noun|rabbit aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S
+	noun|sandwich-Plur-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	oh look i ate too much .
+%mor:	intj|oh verb|look-Fin-Imp-S pron|I-Prs-Nom-S1
+	verb|eat-Fin-Ind-Past-S1-irr adv|too adv|much .
+%xdss:	C1; D5; B1; C2;
+*CHI:	now i feel sick .
+%mor:	adv|now pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	i feel dizzy .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|dizzy-S1 .
+%xdss:	B1; C1;
+*CHI:	my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	doctor is here .
+%mor:	noun|doctor aux|be-Fin-Ind-Pres-S3 adv|here .
+%xdss:	Z; C1;
+*CHI:	doctor is giving me some medicine .
+%mor:	noun|doctor aux|be-Fin-Ind-Pres-S3 verb|give-Part-Pres-S
+	pron|I-Prs-Acc-S1 det|some-Def-Ind noun|medicine-Acc .
+%xdss:	Z; C1; C1; B1; A3; Z;
+*CHI:	i'm drinking the medicine .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|drink-Part-Pres-S
+	det|the-Def-Art noun|medicine-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	i'm resting now .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|rest-Part-Pres-S
+	adv|now .
+%xdss:	B1; C1;
+*CHI:	i'm feeling better .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|feel-Part-Pres-S
+	adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+@End

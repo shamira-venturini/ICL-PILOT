@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep10
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=10
+@Comment:	source_child_id=466
+*CHI:	one day rabbit and dog go to the park .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|park .
+%xdss:	A3; Z; Z; F3; Z; C1; Z;
+*CHI:	they carry a wagon with a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|carry-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B3; C1; Z; Z;
+*CHI:	the balloon go [* m:03s:a] loose and fly away .
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Imp-S adv|loose cconj|and
+	verb|fly-Fin-Imp-S adv|away .
+%xdss:	Z; C1; F3; C1;
+*CHI:	they want a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they go to the ice cream man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|ice noun|cream noun|man .
+%xdss:	B3; C1; Z; Z; Z;
+*CHI:	the ice cream man have [* m:vun:a] balloons .
+%mor:	det|the-Def-Art noun|ice noun|cream noun|man
+	verb|have-Fin-Ind-Pres-P3 noun|balloon-Plur-Acc .
+%xdss:	Z; Z; Z; C1; Z;
+*CHI:	but the balloons are expensive .
+%mor:	cconj|but det|the-Def-Art noun|balloon-Plur aux|be-Fin-Ind-Pres-P3
+	adj|expensive-S1 .
+%xdss:	F5; Z; C2;
+*CHI:	the kids want a balloon but they don't have enough money .
+%mor:	det|the-Def-Art noun|kid-Plur verb|want-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|balloon-Acc cconj|but pron|they-Prs-Nom-P3
+	aux|do-Fin-Ind-Pres-P3~part|not verb|have-Inf-S adj|enough-S1
+	noun|money-Acc .
+%xdss:	Z; C1; Z; F5; B3; E4; C1; Z;
+*CHI:	the ice cream man help [* m:03s:a] them .
+%mor:	det|the-Def-Art noun|ice noun|cream noun|man verb|help-Fin-Ind-S
+	pron|they-Prs-Acc-P3 .
+%xdss:	Z; Z; Z; C1; B3;
+*CHI:	he say [* m:03s:a] .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	ok , i give you one balloon for free .
+%mor:	intj|ok pron|I-Prs-Nom-S1 verb|give-Fin-Ind-Pres-S1
+	pron|you-Prs-Acc-S2 num|one noun|balloon-Acc adp|for adj|free-S1 .
+%xdss:	B1; C1; B5; A3; Z; F8;
+*CHI:	the kids happy , they get two balloons and they fly in the sky .
+%mor:	det|the-Def-Art noun|kid-Plur adj|happy-S1 pron|they-Prs-Nom-P3
+	verb|get-Fin-Ind-Pres-P3 num|two noun|balloon-Plur-Acc cconj|and
+	pron|they-Prs-Nom-P3 verb|fly-Fin-Ind-Pres-P3 adp|in det|the-Def-Art
+	noun|sky .
+%xdss:	Z; B3; C1; A3; Z; F3; B3; C1; Z;
+@End

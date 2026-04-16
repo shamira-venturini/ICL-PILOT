@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep01
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=459
+*CHI:	once upon a time there were two dogs playing with a [* m:allo]
+	airplane near the pool .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-P3-irr num|two noun|dog-Plur verb|play-Ger-S
+	adp|with det|a-Ind-Art noun|airplane adp|near det|the-Def-Art
+	noun|pool .
+%xdss:	Z; C2; A3; Z; D4; C1; D8; Z; Z;
+*CHI:	they were running and playing .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|run-Part-Pres-S cconj|and verb|play-Part-Pres-S .
+%xdss:	B3; C2; C1; F3; C1;
+*CHI:	then one of the dogs dropped the airplane into the water .
+%mor:	adv|then num|one adp|of det|the-Def-Art noun|dog-Plur
+	verb|drop-Fin-Ind-Past-S3 det|the-Def-Art noun|airplane-Acc adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z; Z;
+*CHI:	the other dog got very sad .
+%mor:	det|the-Def-Art adj|other-S1 noun|dog verb|get-Fin-Ind-Past-S3-irr
+	adv|very adj|sad-S1 .
+%xdss:	A3; Z; C2;
+*CHI:	his friend said oh no where is my airplane .
+%mor:	pron|his-Prs-Gen-S3 noun|friend verb|say-Fin-Ind-Past-S3-irr
+	intj|oh intj|no adv|where aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1
+	noun|airplane .
+%xdss:	B2; Z; C2; C1; B1; Z;
+*CHI:	then a lifeguard came and he had a long pole .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	cconj|and pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|long-S1 noun|pole-Acc .
+%xdss:	Z; C2; F3; B2; C2; Z;
+*CHI:	he said don't worry I will get it .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	aux|do-Fin-S~part|not verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1
+	aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; C4; E4; C1; B1; C4; D2; C1; A1; B5;
+*CHI:	he put the pole in the water and he got the airplane .
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|pole-Acc adp|in det|the-Def-Art noun|water cconj|and
+	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; C2; Z; Z; F3; B2; C2; Z;
+*CHI:	the dog was so happy .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	he said thank you .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	B2; C2; C1; B5;
+@End

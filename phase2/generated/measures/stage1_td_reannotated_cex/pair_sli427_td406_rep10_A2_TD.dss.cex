@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep10
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=10
+@Comment:	source_child_id=406
+*CHI:	One day my friend's kitty and my friend went to the pool .
+%mor:	num|one noun|day pron|my-Prs-Gen-S1 noun|friend~part|s noun|kitty
+	cconj|and pron|my-Prs-Gen-S1 noun|friend verb|go-Fin-Ind-Past-S3-irr
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; B1; Z; Z; F3; B1; Z; C2; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	But my friend's kitty ran to the water .
+%mor:	cconj|but pron|my-Prs-Gen-S1 noun|friend~part|s noun|kitty
+	verb|run-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art noun|water .
+%xdss:	F5; B1; Z; Z; C2; Z;
+*CHI:	kitty slipped and hurt her knee .
+%mor:	propn|Kitty verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	C2; F3; C2; B2; Z;
+*CHI:	Someone came with a special cloth to fix it .
+%mor:	pron|someone-Ind-S1 verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art adj|special-S1 noun|cloth part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	A3; C2; Z; C1; A1; B5;
+*CHI:	kitty sat on a bench and rested .
+%mor:	propn|Kitty verb|sit-Fin-Ind-Past-S3-irr adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	C2; Z; F3; C2;
+@End

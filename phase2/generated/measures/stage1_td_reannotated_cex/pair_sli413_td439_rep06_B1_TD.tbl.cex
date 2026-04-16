@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:11 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep06_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog built a|   |   |2  |   |   |3  |   |   |  1|  6|
+     castle .                          |   |   |   |   |   |   |   |   |   |   |
+they used a big bucket to make it .    |1  |3 5|2 1|   |   |   |   |   |  1| 13|
+rabbit poured sand in and dog swished  |1  |5  |2 2|4  |   |3  |   |   |  1| 18|
+    it around .                        |   |   |   |   |   |   |   |   |   |   |
+it looked like a big castle .          |1  |   |2  |   |   |8  |   |   |  1| 12|
+then dog threw the bucket and sand went|   |   |2 2|   |   |3  |   |   |  1|  8|
+     everywhere .                      |   |   |   |   |   |   |   |   |   |   |
+the castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+dog was sad .                          |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit said .                          |   |   |2  |   |   |   |   |   |  1|  3|
+let's make it again .                  |1  |3 5|1  |2  |   |   |   |   |  1| 13|
+TOTAL                                  |  4| 21| 22|  6|  0| 17|  0|  0|  9| 79|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  8.78

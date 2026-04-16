@@ -1,0 +1,78 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:38 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli479_td471_rep09_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , two ducks were playing near  |3 3|   |2 1|   |   |   |   |   |  1| 10|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+They were playing with a big red ball .|   |3  |2 1|   |   |   |   |   |  1|  7|
+The ball fell into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+One of the ducks jumped into the pool  |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+    to get it .                        |   |   |   |   |   |   |   |   |   |   |
+The duck swam to the ball and picked it|1  |5  |2 2|   |   |3  |   |   |  1| 14|
+     up .                              |   |   |   |   |   |   |   |   |   |   |
+The duck swam back to the pool edge and|1  |   |2 2|   |   |3  |   |   |  1|  9|
+     gave the ball to its friend .     |   |   |   |   |   |   |   |   |   |   |
+Now the ducks are happy again .        |   |   |2  |   |   |   |   |   |  1|  3|
+kitty and puppy went to the pool .     |   |   |2  |   |   |3  |   |   |  1|  6|
+Puppy slipped and hurt her knee .      |   |2  |2 2|   |   |3  |   |   |  1| 10|
+A helper came with a band-aid .        |   |   |2  |   |   |   |   |   |  1|  3|
+kitty sat on a bench and rested with   |   |   |2 2|   |   |3  |   |   |  1|  8|
+    puppy .                            |   |   |   |   |   |   |   |   |   |   |
+Two happy birds played with their      |3  |3  |2  |   |   |   |   |   |  1|  9|
+    little airplane near the pool .    |   |   |   |   |   |   |   |   |   |   |
+Then , the airplane fell into the water|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The birds got really upset .           |   |   |2  |   |   |   |   |   |  1|  3|
+They wanted their airplane back !      |   |3 3|2  |   |   |   |   |   |  1|  9|
+A nice lifeguard jumped in and used a  |   |   |2 2|   |   |3  |   |   |  1|  9|
+    long pole to get the airplane .    |   |   |1  |   |   |   |   |   |   |   |
+Now the birds are happy and playing    |   |   |2 1|   |   |3  |   |   |  1|  7|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+Once upon a time rabbit and dog went to|   |   |2  |   |   |3  |   |   |  1|  6|
+     the beach .                       |   |   |   |   |   |   |   |   |   |   |
+they made a big sandcastle .           |   |3  |2  |   |   |   |   |   |  1|  6|
+rabbit was happy and dog was happy .   |   |   |2 2|   |   |3  |   |   |  1|  8|
+then dog threw sand on the castle .    |   |   |2  |   |   |   |   |   |  1|  3|
+the castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit was sad .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit started crying .                |   |   |2 1|7 8|   |   |   |   |  1| 19|
+dog said sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+they wanted to fix it .                |1  |3 5|2 1|3  |   |   |   |   |  1| 16|
+they got more sand and made it again . |3 1|3 5|2 2|   |   |3  |   |   |  1| 20|
+rabbit and dog were happy again .      |   |   |2  |   |   |3  |   |   |  1|  6|
+Remy the rabbit and his friend Max the |   |2  |2  |   |   |3  |   |   |  1|  8|
+    dog went to the park .             |   |   |   |   |   |   |   |   |   |   |
+They were going on a picnic .          |   |3  |2 1|   |   |   |   |   |  1|  7|
+Remy brought carrots and sandwiches .  |   |   |2  |   |   |3  |   |   |  1|  6|
+They sat on a blanket and ate .        |   |3  |2 2|   |   |3  |   |   |  1| 11|
+I ate a lot of sandwiches .            |   |1  |2  |   |   |   |   |   |  1|  4|
+My tummy started to hurt .             |   |1  |2 1|3  |   |   |   |   |  1|  8|
+I felt sick .                          |   |1  |2  |   |   |   |   |   |  1|  4|
+My mom took me to the doctor .         |   |1 1|2  |   |   |   |   |   |  1|  5|
+The doctor said I had a tummyache .    |   |1  |2 2|5  |   |   |   |   |  1| 11|
+I drank some medicine and rested .     |3  |1  |2 2|   |   |3  |   |   |  1| 12|
+I felt better .                        |   |1  |2  |   |   |   |   |   |  1|  4|
+Rabbit and dog pulled a wagon with a   |   |   |2  |   |   |3  |   |   |  1|  6|
+    big red balloon .                  |   |   |   |   |   |   |   |   |   |   |
+It flew away when it came loose .      |1 1|   |2 2|   |   |   |   |   |  1|  7|
+The little kids were very sad .        |   |   |2  |   |   |   |   |   |  1|  3|
+They wanted another balloon .          |3  |3  |2  |   |   |   |   |   |  1|  9|
+They went to the man who sells balloons|   |3 6|2 2|   |   |   |   |   |  1| 14|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+He said it's five bucks .              |1 3|2  |2 1|   |   |   |   |   |  1| 10|
+They didn't have that much money .     |   |3  |6 1|   |4  |   |   |   |  1| 15|
+He said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+and gave them two balloons .           |3  |3  |2  |   |   |3  |   |   |  1| 12|
+They were happy now .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 35| 84|137| 26|  4| 51|  0|  0| 49|386|
+WARNING: DSS requires 50 complete sentences and this transcript only has 49.
+
+Developmental sentence score:  7.88

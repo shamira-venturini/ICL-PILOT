@@ -1,0 +1,67 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep09
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=9
+@Comment:	source_child_id=439
+*CHI:	once upon a time bunny and doggy went for a walk .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|bunny cconj|and
+	noun|doggy verb|go-Fin-Ind-Past-S3-irr adp|for det|a-Ind-Art
+	noun|walk .
+%xdss:	Z; Z; F3; Z; C2; F8; Z;
+*CHI:	they had a red wagon and a big shiny balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|red-S1 noun|wagon-Acc cconj|and det|a-Ind-Art adj|big-S1
+	adj|shiny-S1 noun|balloon .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	the balloon went whoosh and flew away .
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Past-S3-irr
+	adj|whoosh-S1 cconj|and verb|fly-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	Z; C2; F3; C2;
+*CHI:	bunny and doggy were sad .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; C2;
+*CHI:	they went to the balloon lady .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|lady .
+%xdss:	B3; C2; Z; Z;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	bunny's mom said .
+%mor:	noun|bunny~part|s noun|mom verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; Z; C2;
+*CHI:	we don't have five dollars .
+%mor:	pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Pres-P1~part|not verb|have-Inf-S
+	num|five noun|dollar-Plur-Acc .
+%xdss:	B3; E4; C1; A3; Z;
+*CHI:	the balloon lady said .
+%mor:	det|the-Def-Art noun|balloon noun|lady verb|say-Fin-Ind-Past-S3-irr
+	.
+%xdss:	Z; Z; C2;
+*CHI:	oh okay , you can have two balloons for four dollars .
+%mor:	intj|oh intj|okay pron|you-Prs-Nom-S2 aux|can-Fin-S verb|have-Inf-S
+	num|two noun|balloon-Plur-Acc adp|for num|four noun|dollar-Plur .
+%xdss:	C4; D2; C1; A3; Z; F8; A3; Z;
+*CHI:	bunny and doggy were so happy they hugged the balloon lady .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 pron|they-Prs-Nom-P3 verb|hugge-Fin-Ind-Past-P3
+	det|the-Def-Art noun|balloon noun|lady-Acc .
+%xdss:	Z; F3; C2; F5; B3; C2; Z; Z;
+*CHI:	they got two balloons and they were super happy !
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr num|two
+	noun|balloon-Plur-Acc cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr adv|super adj|happy-S1 !
+%xdss:	B3; C2; A3; Z; F3; B3; C2;
+@End

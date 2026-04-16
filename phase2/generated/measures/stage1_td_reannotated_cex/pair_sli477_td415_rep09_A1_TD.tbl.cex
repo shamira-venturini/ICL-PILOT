@@ -1,0 +1,24 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep09_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we have two kitty [* m:0s:a] and doggy |3  |3  |1  |   |   |3  |   |   |  0| 10|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+they play near the pool .              |   |3  |1  |   |   |   |   |   |  1|  5|
+kitty hit [* m:03s:a] the ball .       |   |   |2  |   |   |   |   |   |  0|  2|
+it fall [* m:03s:a] into the water .   |1  |   |2  |   |   |   |   |   |  0|  3|
+kitty go [* m:03s:a] into the pool .   |   |   |1  |   |   |   |   |   |  0|  1|
+kitty get [* m:03s:a] the ball .       |   |   |1  |   |   |   |   |   |  0|  1|
+kitty bring [* m:03s:a] the ball out . |   |   |1  |   |   |   |   |   |  0|  1|
+TOTAL                                  |  4|  6|  9|  0|  0|  3|  0|  0|  1| 23|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  3.29

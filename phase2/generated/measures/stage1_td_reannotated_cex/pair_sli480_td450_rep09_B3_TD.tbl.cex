@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:33 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog go to park .            |   |   |1  |   |   |3  |   |   |  1|  5|
+They pull wagon .                      |   |3  |1  |   |   |   |   |   |  1|  5|
+Wagon has balloon .                    |   |   |2  |   |   |   |   |   |  1|  3|
+The balloon is red .                   |   |   |1  |   |   |   |   |   |  1|  2|
+It's so pretty .                       |1  |   |1  |   |   |5  |   |   |  1|  8|
+The balloon come [* m:03s:a] loose .   |   |   |2  |   |   |   |   |   |  0|  2|
+It go [* m:03s:a] up in air .          |1  |   |2  |   |   |   |   |   |  0|  3|
+They want balloon back .               |   |3  |1  |   |   |   |   |   |  1|  5|
+They go to man .                       |   |3  |1  |   |   |   |   |   |  1|  5|
+He has balloons .                      |   |2  |2  |   |   |   |   |   |  1|  5|
+They want one .                        |3  |3  |1  |   |   |   |   |   |  1|  8|
+The man say [* m:03s:a] it cost money .|1  |   |2 2|5  |   |   |   |   |  0| 10|
+Rabbit and dog have no money .         |   |   |1  |   |   |3  |   |   |  1|  5|
+The man help [* m:03s:a] them .        |   |3  |1  |   |   |   |   |   |  0|  4|
+He say [* m:03s:a] they can have two   |3  |2 3|2 4|2  |   |   |   |   |  0| 17|
+    balloons .                         |   |   |1  |   |   |   |   |   |   |   |
+TOTAL                                  |  9| 22| 28|  7|  0| 11|  0|  0| 10| 87|
+WARNING: DSS requires 50 complete sentences and this transcript only has 15.
+
+Developmental sentence score:  5.80

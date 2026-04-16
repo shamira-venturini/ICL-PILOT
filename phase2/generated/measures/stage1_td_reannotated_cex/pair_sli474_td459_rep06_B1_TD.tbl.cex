@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:17 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep06_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Once upon a time a rabbit and dog were |   |   |2  |   |   |3  |   |   |  1|  6|
+    friends .                          |   |   |   |   |   |   |   |   |   |   |
+they went to the beach and built a big |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    sandcastle .                       |   |   |   |   |   |   |   |   |   |   |
+the rabbit made a moat and the dog made|   |   |2 2|   |   |3  |   |   |  1|  8|
+     a big tower .                     |   |   |   |   |   |   |   |   |   |   |
+they were so happy .                   |   |3  |2  |   |   |5  |   |   |  1| 11|
+then the dog used a big shovel and made|   |   |2 2|   |   |3  |   |   |  1|  8|
+     a big hole in the tower .         |   |   |   |   |   |   |   |   |   |   |
+the castle was broken !                |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit was sad and cried .         |   |   |2 2|   |   |3  |   |   |  1|  8|
+the dog said sorry and they worked     |   |3  |2 2|   |   |3  |   |   |  1| 12|
+    together to fix the castle .       |   |   |1  |   |   |   |   |   |   |   |
+they made it even better than before . |1  |3 5|2  |   |   |8 8|   |   |  1| 28|
+TOTAL                                  |  1| 17| 36|  0|  0| 39|  0|  0|  9|102|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 11.33

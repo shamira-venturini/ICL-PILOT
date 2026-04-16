@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep06
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=415
+*CHI:	doggy and wabbit are building a castle on the beach .
+%mor:	adj|doggy-S1 cconj|and noun|wabbit aux|be-Fin-Ind-Pres-P3
+	verb|build-Part-Pres-S det|a-Ind-Art noun|castle-Acc adp|on
+	det|the-Def-Art noun|beach .
+%xdss:	F3; Z; C2; C1; Z; Z;
+*CHI:	they're having so much fun .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S
+	adv|so adj|much-S1 noun|fun-Acc .
+%xdss:	B3; C1; F5; Z;
+*CHI:	wabbit use [* m:03s:a] big bucket to fill sand .
+%mor:	noun|wabbit noun|use adj|big-S1 noun|bucket part|to verb|fill-Inf-S
+	noun|sand-Acc .
+%xdss:	Z; Z; Z; C1; Z;
+*CHI:	doggy add [* m:03s:a] sand on the castle .
+%mor:	adj|doggy-S1 verb|add-Fin-Imp-S noun|sand-Acc adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	C1; Z; Z;
+*CHI:	the castle fall [* m:03s:a] down !
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Pres-S3 adp|down !
+%xdss:	Z; C2;
+*CHI:	doggy is sad .
+%mor:	noun|doggy aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	wabbit give [* m:03s:a] doggy a big hug .
+%mor:	noun|wabbit verb|give-Fin-Imp-S adj|doggy-S1 det|a-Ind-Art
+	adj|big-S1 noun|hug-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	doggy is happy now .
+%mor:	noun|doggy aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|now .
+%xdss:	Z; C1;
+*CHI:	they start to build again .
+%mor:	pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Pres-P3 part|to
+	verb|build-Inf-S adv|again .
+%xdss:	B3; C1; D3; C1;
+*CHI:	wabbit say [* m:03s:a] sorry to doggy .
+%mor:	noun|wabbit verb|say-Fin-Imp-S adj|sorry-S1 part|to
+	verb|doggy-Inf-S .
+%xdss:	Z; C1; D3; C1;
+@End

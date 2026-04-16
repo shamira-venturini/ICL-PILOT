@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep06
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=6
+@Comment:	source_child_id=415
+*CHI:	Two little ducks by the pool , playing with a shiny airplane .
+%mor:	num|two adj|little-S1 noun|duck-Plur adp|by det|the-Def-Art
+	noun|pool verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|shiny-S1
+	noun|airplane .
+%xdss:	A3; Z; Z; C1; Z;
+*CHI:	One of them threw it in the water .
+%mor:	num|one adp|of pron|they-Prs-Acc-P3 verb|throw-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%xdss:	A3; B3; C2; A1; B5; Z;
+*CHI:	The owner said .
+%mor:	det|the-Def-Art noun|owner verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	A big man with a pole tried to get it .
+%mor:	det|a-Ind-Art adj|big-S1 noun|man adp|with det|a-Ind-Art noun|pole
+	verb|try-Fin-Ind-Past-S3 part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; Z; C2; D3; C1; A1; B5;
+*CHI:	He put the pole in the water and got the airplane !
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|pole-Acc adp|in det|the-Def-Art noun|water cconj|and
+	verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc !
+%xdss:	B2; C2; Z; Z; F3; C2; Z;
+*CHI:	Everyone is happy now .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|now .
+%xdss:	A7; C1;
+*CHI:	The airplane is back .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+@End

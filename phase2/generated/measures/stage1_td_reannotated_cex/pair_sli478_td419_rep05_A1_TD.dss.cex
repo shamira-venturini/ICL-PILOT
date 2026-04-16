@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep05
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=5
+@Comment:	source_child_id=419
+*CHI:	there was a kitty and a puppy that were playing by the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|kitty cconj|and det|a-Ind-Art noun|puppy pron|that-Rel
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|by
+	det|the-Def-Art noun|pool .
+%xdss:	C2; Z; F3; Z; A1; C2; C1; Z;
+*CHI:	they were tossing a ball back and forth .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|toss-Part-Pres-S det|a-Ind-Art noun|ball-Acc adv|back cconj|and
+	adv|forth .
+%xdss:	B3; C2; C1; Z; F3;
+*CHI:	but then the ball went splat into the pool .
+%mor:	cconj|but adv|then det|the-Def-Art noun|ball
+	verb|go-Fin-Ind-Past-S3-irr noun|splat-Acc adp|into det|the-Def-Art
+	noun|pool .
+%xdss:	F5; Z; C2; Z; Z;
+*CHI:	the kitty got really sad .
+%mor:	det|the-Def-Art noun|kitty verb|get-Fin-Ind-Past-S3-irr adv|really
+	adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	so the puppy went .
+%mor:	adv|so det|the-Def-Art noun|puppy verb|go-Fin-Ind-Past-S3-irr .
+%xdss:	F5; Z; C2;
+*CHI:	wanna go in kitty .
+%mor:	part|wana verb|go-Inf-S adp|in noun|kitty .
+%xdss:	C1; Z;
+*CHI:	and jumped in the pool .
+%mor:	cconj|and verb|jump-Fin-Ind-Past-S3 adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	F3; C2; Z;
+*CHI:	the puppy got the ball .
+%mor:	det|the-Def-Art noun|puppy verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the kitty was so happy again .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 adv|again .
+%xdss:	Z; C2; F5;
+*CHI:	they both jumped out of the pool and hugged .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|jump-Fin-Ind-Past-P3
+	adp|out adp|of det|the-Def-Art noun|pool cconj|and
+	verb|hugge-Fin-Ind-Past-P3 .
+%xdss:	B3; A7; C2; Z; F3; C2;
+@End

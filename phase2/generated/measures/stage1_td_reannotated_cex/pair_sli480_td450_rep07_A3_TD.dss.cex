@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep07
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=450
+*CHI:	there was a little duck and a little frog they play with the
+	airplane .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|little-S1 noun|duck cconj|and det|a-Ind-Art adj|little-S1
+	noun|frog pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	det|the-Def-Art noun|airplane .
+%xdss:	C2; Z; F3; Z; B3; C1; Z;
+*CHI:	they play near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	the airplane fell in the water .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the duck and frog get mad .
+%mor:	det|the-Def-Art noun|duck cconj|and noun|frog
+	verb|get-Fin-Ind-Pres-P3 adj|mad-S1 .
+%xdss:	Z; F3; Z; C1;
+*CHI:	they want to get the airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to
+	verb|get-Inf-S det|the-Def-Art noun|airplane-Acc .
+%xdss:	B3; C1; D3; C1; Z;
+*CHI:	they call the lifeguard .
+%mor:	pron|they-Prs-Nom-P3 verb|call-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|lifeguard-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the lifeguard have [* m:vun:a] a pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|pole-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	the lifeguard use [* m:03s:a] the pole to get the airplane .
+%mor:	det|the-Def-Art noun|lifeguard verb|use-Fin-Ind-Pres-S
+	det|the-Def-Art noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	Z; C1; Z; C1; Z;
+*CHI:	the duck and frog are happy .
+%mor:	det|the-Def-Art noun|duck cconj|and noun|frog
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they get the airplane back .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|airplane-Acc adv|back .
+%xdss:	B3; C1; Z;
+*CHI:	they hug the airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|hug-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they play again .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adv|again .
+%xdss:	B3; C1;
+@End

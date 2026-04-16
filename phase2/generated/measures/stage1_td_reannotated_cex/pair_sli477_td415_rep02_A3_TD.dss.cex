@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep02
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=2
+@Comment:	source_child_id=415
+*CHI:	there are two doggies play [* m:0ing] near the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|doggie-Plur
+	verb|play-Inf-S adp|near det|the-Def-Art noun|pool .
+%xdss:	C1; A3; Z; C1; Z;
+*CHI:	they have a little airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|little-S1 noun|airplane-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	one of them drop [* m:03s:a] it in the pool .
+%mor:	num|one adp|of pron|they-Prs-Acc-P3 verb|drop-Fin-Ind-Pres-P3
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|pool .
+%xdss:	A3; B3; C1; A1; B5; Z;
+*CHI:	the doggy's mommy is mad .
+%mor:	det|the-Def-Art noun|doggy~part|s noun|mommy aux|be-Fin-Ind-Pres-S3
+	adj|mad-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	she say [* m:03s:a] .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	then she ask [* m:03s:a] the lifeguard can you help me get my
+	airplane .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|ask-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|lifeguard aux|can-Fin-S pron|you-Prs-Nom-S2
+	verb|help-Inf-S pron|I-Prs-Acc-S1 verb|get-Inf-S pron|my-Prs-Gen-S1
+	noun|airplane-Acc .
+%xdss:	B2; C2; Z; C1; D5; B1; C1; B1; Z;
+*CHI:	the lifeguard have [* m:vun:a] a long stick .
+%mor:	det|the-Def-Art noun|lifeguard verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art adj|long-S1 noun|stick-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	she use [* m:03s:a] it to get the airplane .
+%mor:	pron|she-Prs-Nom-S3 verb|use-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	part|to verb|get-Inf-S det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C2; D5; A1; B5; C1; Z;
+*CHI:	the airplane is back with the doggy .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back
+	adp|with det|the-Def-Art noun|doggy .
+%xdss:	Z; C1; Z;
+*CHI:	the doggy's mommy is happy .
+%mor:	det|the-Def-Art noun|doggy~part|s noun|mommy aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	the doggy's happy .
+%mor:	det|the-Def-Art noun|doggy~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+@End

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, Sequence
@@ -56,8 +57,51 @@ class RotatingGenerationPackageArtifacts:
     summary_json: Path
 
 
+@dataclass(frozen=True)
+class MultiAgeRotatingGenerationArtifacts:
+    output_dir: Path
+    cohort_packages: dict[str, RotatingGenerationPackageArtifacts]
+    summary_json: Path
+
+
 def _coerce_path(path: str | Path) -> Path:
     return Path(path).expanduser().resolve()
+
+
+def _resolve_cohort_label(age_min_months: int, age_max_months: int, cohort_label: str | None = None) -> str:
+    if cohort_label:
+        return cohort_label
+    min_year = age_min_months // 12
+    max_year = age_max_months // 12
+    if min_year == max_year and age_min_months % 12 == 0 and age_max_months % 12 == 11:
+        return f"{min_year}-year-old"
+    return f"{age_min_months}to{age_max_months}_months"
+
+
+def _cohort_slug(label: str) -> str:
+    text = str(label).strip().lower()
+    year_match = re.fullmatch(r"(\d+)-year-old", text)
+    if year_match:
+        number = int(year_match.group(1))
+        number_words = {
+            0: "zero",
+            1: "one",
+            2: "two",
+            3: "three",
+            4: "four",
+            5: "five",
+            6: "six",
+            7: "seven",
+            8: "eight",
+            9: "nine",
+            10: "ten",
+            11: "eleven",
+            12: "twelve",
+        }
+        if number in number_words:
+            return f"{number_words[number]}_year_old"
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", text)
+    return slug.strip("_") or "cohort"
 
 
 def load_frozen_roster(path: str | Path) -> pd.DataFrame:
@@ -561,16 +605,24 @@ def build_generation_package(
     n_replicates: int = 10,
     age_min_months: int = 48,
     age_max_months: int = 59,
+    cohort_label: str | None = None,
 ) -> GenerationPackageArtifacts:
     out_dir = _coerce_path(output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    roster_csv = out_dir / "four_year_old_frozen_roster.csv"
-    schedule_csv = out_dir / "four_year_old_generation_schedule.csv"
-    bundle_index_csv = out_dir / "four_year_old_bundle_index.csv"
-    synthetic_template_csv = out_dir / "four_year_old_synthetic_bundle_template.csv"
-    real_template_csv = out_dir / "four_year_old_real_bundle_template.csv"
-    summary_json = out_dir / "four_year_old_generation_package_summary.json"
+    resolved_cohort_label = _resolve_cohort_label(
+        age_min_months=age_min_months,
+        age_max_months=age_max_months,
+        cohort_label=cohort_label,
+    )
+    cohort_slug = _cohort_slug(resolved_cohort_label)
+
+    roster_csv = out_dir / f"{cohort_slug}_frozen_roster.csv"
+    schedule_csv = out_dir / f"{cohort_slug}_generation_schedule.csv"
+    bundle_index_csv = out_dir / f"{cohort_slug}_bundle_index.csv"
+    synthetic_template_csv = out_dir / f"{cohort_slug}_synthetic_bundle_template.csv"
+    real_template_csv = out_dir / f"{cohort_slug}_real_bundle_template.csv"
+    summary_json = out_dir / f"{cohort_slug}_generation_package_summary.json"
 
     build_frozen_roster_manifest(
         dev_measures_csv=str(dev_measures_csv),
@@ -578,6 +630,7 @@ def build_generation_package(
         output_csv=str(roster_csv),
         age_min_months=age_min_months,
         age_max_months=age_max_months,
+        cohort_label=resolved_cohort_label,
     )
 
     schedule = build_story_generation_schedule(
@@ -601,6 +654,8 @@ def build_generation_package(
         "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
         "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
         "output_dir": str(out_dir),
+        "cohort_label": resolved_cohort_label,
+        "cohort_slug": cohort_slug,
         "n_replicates": n_replicates,
         "age_min_months": age_min_months,
         "age_max_months": age_max_months,
@@ -632,17 +687,25 @@ def build_rotating_generation_package(
     age_min_months: int = 48,
     age_max_months: int = 59,
     pairs_per_round: int = 3,
+    cohort_label: str | None = None,
 ) -> RotatingGenerationPackageArtifacts:
     out_dir = _coerce_path(output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    roster_csv = out_dir / "four_year_old_frozen_roster.csv"
-    prompt_rounds_csv = out_dir / "four_year_old_prompt_rounds.csv"
-    schedule_csv = out_dir / "four_year_old_rotating_generation_schedule.csv"
-    bundle_index_csv = out_dir / "four_year_old_rotating_bundle_index.csv"
-    synthetic_template_csv = out_dir / "four_year_old_rotating_synthetic_bundle_template.csv"
-    eval_manifest_csv = out_dir / "four_year_old_rotating_eval_manifest.csv"
-    summary_json = out_dir / "four_year_old_rotating_generation_package_summary.json"
+    resolved_cohort_label = _resolve_cohort_label(
+        age_min_months=age_min_months,
+        age_max_months=age_max_months,
+        cohort_label=cohort_label,
+    )
+    cohort_slug = _cohort_slug(resolved_cohort_label)
+
+    roster_csv = out_dir / f"{cohort_slug}_frozen_roster.csv"
+    prompt_rounds_csv = out_dir / f"{cohort_slug}_prompt_rounds.csv"
+    schedule_csv = out_dir / f"{cohort_slug}_rotating_generation_schedule.csv"
+    bundle_index_csv = out_dir / f"{cohort_slug}_rotating_bundle_index.csv"
+    synthetic_template_csv = out_dir / f"{cohort_slug}_rotating_synthetic_bundle_template.csv"
+    eval_manifest_csv = out_dir / f"{cohort_slug}_rotating_eval_manifest.csv"
+    summary_json = out_dir / f"{cohort_slug}_rotating_generation_package_summary.json"
 
     build_frozen_roster_manifest(
         dev_measures_csv=str(dev_measures_csv),
@@ -650,6 +713,7 @@ def build_rotating_generation_package(
         output_csv=str(roster_csv),
         age_min_months=age_min_months,
         age_max_months=age_max_months,
+        cohort_label=resolved_cohort_label,
     )
 
     prompt_rounds = build_rotating_prompt_rounds(
@@ -677,6 +741,8 @@ def build_rotating_generation_package(
         "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
         "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
         "output_dir": str(out_dir),
+        "cohort_label": resolved_cohort_label,
+        "cohort_slug": cohort_slug,
         "n_replicates": n_replicates,
         "age_min_months": age_min_months,
         "age_max_months": age_max_months,
@@ -702,6 +768,92 @@ def build_rotating_generation_package(
         bundle_index_csv=bundle_index_csv,
         synthetic_template_csv=synthetic_template_csv,
         eval_manifest_csv=eval_manifest_csv,
+        summary_json=summary_json,
+    )
+
+
+def build_multi_age_rotating_generation_packages(
+    dev_measures_csv: str | Path,
+    severity_profile_csv: str | Path,
+    counterbalance_csv: str | Path,
+    output_dir: str | Path,
+    age_bins: Sequence[tuple[str, int, int]] | None = None,
+    n_replicates: int = 10,
+    pairs_per_round: int = 3,
+) -> MultiAgeRotatingGenerationArtifacts:
+    out_dir = _coerce_path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    bins = list(age_bins) if age_bins is not None else [
+        ("5-year-old", 60, 71),
+        ("6-year-old", 72, 83),
+        ("7-year-old", 84, 95),
+        ("8-year-old", 96, 107),
+        ("9-year-old", 108, 119),
+    ]
+    if not bins:
+        raise ValueError("age_bins is empty")
+
+    artifacts_by_label: dict[str, RotatingGenerationPackageArtifacts] = {}
+    summary_rows: list[dict[str, object]] = []
+    for cohort_label, age_min_months, age_max_months in bins:
+        cohort_slug = _cohort_slug(cohort_label)
+        cohort_dir = out_dir / cohort_slug
+        cohort_dir.mkdir(parents=True, exist_ok=True)
+
+        artifacts = build_rotating_generation_package(
+            dev_measures_csv=dev_measures_csv,
+            severity_profile_csv=severity_profile_csv,
+            counterbalance_csv=counterbalance_csv,
+            output_dir=cohort_dir,
+            n_replicates=n_replicates,
+            age_min_months=age_min_months,
+            age_max_months=age_max_months,
+            pairs_per_round=pairs_per_round,
+            cohort_label=cohort_label,
+        )
+        artifacts_by_label[cohort_label] = artifacts
+
+        summary_rows.append(
+            {
+                "cohort_label": cohort_label,
+                "cohort_slug": cohort_slug,
+                "age_min_months": int(age_min_months),
+                "age_max_months": int(age_max_months),
+                "output_dir": str(cohort_dir),
+                "roster_csv": str(artifacts.roster_csv),
+                "prompt_rounds_csv": str(artifacts.prompt_rounds_csv),
+                "schedule_csv": str(artifacts.schedule_csv),
+                "bundle_index_csv": str(artifacts.bundle_index_csv),
+                "synthetic_template_csv": str(artifacts.synthetic_template_csv),
+                "eval_manifest_csv": str(artifacts.eval_manifest_csv),
+                "summary_json": str(artifacts.summary_json),
+            }
+        )
+
+    summary = {
+        "output_dir": str(out_dir),
+        "dev_measures_csv": str(_coerce_path(dev_measures_csv)),
+        "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
+        "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
+        "n_replicates": int(n_replicates),
+        "pairs_per_round": int(pairs_per_round),
+        "age_bins": [
+            {
+                "cohort_label": label,
+                "age_min_months": int(min_m),
+                "age_max_months": int(max_m),
+            }
+            for label, min_m, max_m in bins
+        ],
+        "cohort_packages": summary_rows,
+    }
+    summary_json = out_dir / "multi_age_rotating_generation_packages_summary.json"
+    summary_json.write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    return MultiAgeRotatingGenerationArtifacts(
+        output_dir=out_dir,
+        cohort_packages=artifacts_by_label,
         summary_json=summary_json,
     )
 

@@ -1,0 +1,75 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli444_td410_rep07_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they like to play near the pool .      |   |3  |1 1|3  |   |   |   |   |  1|  9|
+they have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+the dog kicks it and the ball goes into|1  |5  |2 2|   |   |3  |   |   |  1| 14|
+     the pool .                        |   |   |   |   |   |   |   |   |   |   |
+the cat wants the ball .               |   |   |2  |   |   |   |   |   |  1|  3|
+the cat goes into the pool to get it . |1  |5  |2 1|   |   |   |   |   |  1| 10|
+the cat swims and gets the ball .      |   |   |2 2|   |   |3  |   |   |  1|  8|
+the cat comes out of the pool with the |   |   |2  |   |   |   |   |   |  1|  3|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+the dog and the cat are happy again .  |   |   |2  |   |   |3  |   |   |  1|  6|
+Two monkeys went to the pool .         |3  |   |2  |   |   |   |   |   |  1|  6|
+They saw a sign that said .            |1  |3  |2 2|   |   |   |   |   |  1|  9|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+One monkey got excited and started to  |3  |   |2 2|3  |   |3  |   |   |  1| 17|
+    run to the water .                 |   |   |2 1|   |   |   |   |   |   |   |
+Then the monkey slipped and fell down  |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    on its knee .                      |   |   |   |   |   |   |   |   |   |   |
+It hurt [* m:03s:a] its knee .         |1 1|   |2  |   |   |   |   |   |  0|  4|
+A nice lifeguard came and put a bandage|1  |   |2 2|   |   |3  |   |   |  0|  8|
+     on its [* s:r:gc:det] knee .      |   |   |   |   |   |   |   |   |   |   |
+The monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+they're flying a [* m:allo] airplane . |   |3  |1  |   |   |   |   |   |  0|  4|
+it's going 'vroom' .                   |1  |   |1 1|   |   |   |   |   |  1|  4|
+it's over the pool .                   |1  |   |1  |   |   |   |   |   |  1|  3|
+it went in the water .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+the cat and dog are sad .              |   |   |2  |   |   |3  |   |   |  1|  6|
+their airplane is in the pool .        |   |3  |1  |   |   |   |   |   |  1|  5|
+the cat's friend is mad .              |   |   |1  |   |   |   |   |   |  1|  2|
+she's trying to get it .               |1  |2 5|1 1|3  |   |   |   |   |  1| 15|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the lifeguard has a big pole .         |   |   |2  |   |   |   |   |   |  1|  3|
+she's getting it .                     |1  |2 5|1 1|   |   |   |   |   |  1| 11|
+she's pulling it out .                 |1  |2 5|1 1|   |   |   |   |   |  1| 11|
+the cat and dog are happy .            |   |   |2  |   |   |3  |   |   |  1|  6|
+they're playing with their airplane    |   |3 3|1  |   |   |   |   |   |  1|  8|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+They're making a castle .              |   |3  |1  |   |   |   |   |   |  1|  5|
+It's big and pretty .                  |1  |   |1  |   |   |3  |   |   |  1|  6|
+Rabbit and dog are friends .           |   |   |2  |   |   |3  |   |   |  1|  6|
+They're working together .             |   |3  |1  |   |   |   |   |   |  1|  5|
+Dog goes .                             |   |   |2  |   |   |   |   |   |  1|  3|
+and pours sand .                       |   |   |2  |   |   |3  |   |   |  1|  6|
+Then the sand goes all over the castle |   |   |2  |   |   |   |   |   |  1|  3|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+The castle is ruined .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+Dog is sad .                           |   |   |1  |   |   |   |   |   |  1|  2|
+He's crying .                          |   |2  |1 1|   |   |   |   |   |  1|  5|
+it's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+Dog says .                             |   |   |2  |   |   |   |   |   |  1|  3|
+we can fix it .                        |1  |3 5|4 1|2  |   |   |   |   |  1| 17|
+They try to make it again .            |1  |3 5|1 1|3  |   |   |   |   |  1| 15|
+Rabbit and dog going on a picnic .     |   |   |1  |4 8|   |3  |   |   |  1| 17|
+they pick up some carrots and          |3  |3  |1  |   |   |3  |   |   |  1| 11|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+they put them in a basket .            |   |3 3|2  |   |   |   |   |   |  1|  9|
+the child eats and eats and eats .     |   |   |2 2|   |   |3 3|   |   |  1| 13|
+                                       |   |   |2  |   |   |   |   |   |   |   |
+the child's tummy is hurting .         |   |   |1 1|   |   |   |   |   |  1|  3|
+the child feels yucky .                |   |   |2  |   |   |   |   |   |  1|  3|
+the doctor comes to see the child .    |   |   |2 1|3  |   |   |   |   |  1|  7|
+TOTAL                                  | 26| 85|119| 37|  0| 48|  0|  0| 47|362|
+
+Developmental sentence score:  7.24

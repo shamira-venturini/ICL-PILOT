@@ -1,0 +1,38 @@
+{
+  "source_file": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/stage1_td_reannotated_kideval/pair_sli413_td439_rep01_A1_TD.kideval.xls",
+  "raw_shape": [
+    664,
+    53
+  ],
+  "clean_shape": [
+    660,
+    53
+  ],
+  "removed_warning_rows": 2,
+  "removed_blank_rows": 2,
+  "duplicate_headers_resolved": [
+    "Group"
+  ],
+  "renamed_columns": [
+    "Group_2"
+  ],
+  "numeric_columns_count": 32,
+  "numeric_columns_sample": [
+    "Age(Month)",
+    "Total_Utts",
+    "MLU_Utts",
+    "MLU_Words",
+    "MLU_Morphemes",
+    "MLU50_Utts",
+    "FREQ_types",
+    "FREQ_tokens",
+    "Verbs_Utt",
+    "TD_Words",
+    "TD_Utts",
+    "TD_Time_(secs)",
+    "Word_Errors",
+    "Utt_Errors",
+    "retracing"
+  ],
+  "parquet_written": false
+}

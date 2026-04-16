@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep01_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , a kitty and a puppy went to  |3  |   |2  |   |   |3  |   |   |  1|  9|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+The puppy started running to the water |   |   |2 1|7 8|   |   |   |   |  1| 19|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+but the kitty said .                   |   |   |2  |   |   |5  |   |   |  1|  8|
+stop !                                 |   |   |1  |   |   |   |   |   |  1|  2|
+The puppy slipped and hurt her [* s:r: |   |2  |2 2|   |   |3  |   |   |  0|  9|
+    gc:det] knee .                     |   |   |   |   |   |   |   |   |   |   |
+A nice person came with a bandage and  |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    put it on the puppy's knee .       |   |   |   |   |   |   |   |   |   |   |
+The puppy sat on a bench and rested .  |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  4|  7| 20| 15|  0| 17|  0|  0|  6| 69|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  9.86

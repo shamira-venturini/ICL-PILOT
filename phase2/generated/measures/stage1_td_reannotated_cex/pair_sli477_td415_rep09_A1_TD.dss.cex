@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep09
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=415
+*CHI:	we have two kitty [* m:0s:a] and doggy .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 num|two noun|kitty-Acc
+	cconj|and noun|doggy .
+%xdss:	B3; C1; A3; Z; F3; Z;
+*CHI:	they play near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	kitty hit [* m:03s:a] the ball .
+%mor:	noun|kitty verb|hit-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	it fall [* m:03s:a] into the water .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	kitty go [* m:03s:a] into the pool .
+%mor:	noun|kitty verb|go-Fin-Imp-S adp|into det|the-Def-Art noun|pool .
+%xdss:	Z; C1; Z;
+*CHI:	kitty get [* m:03s:a] the ball .
+%mor:	noun|kitty verb|get-Fin-Imp-S det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	kitty bring [* m:03s:a] the ball out .
+%mor:	noun|kitty verb|bring-Fin-Imp-S det|the-Def-Art noun|ball-Acc
+	adp|out .
+%xdss:	Z; C1; Z;
+@End

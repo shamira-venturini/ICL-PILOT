@@ -1,0 +1,42 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep02
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=419
+*CHI:	One day two ducks went to the pool .
+%mor:	num|one noun|day num|two noun|duck-Plur verb|go-Fin-Ind-Past-P3-irr
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; A3; Z; C2; Z;
+*CHI:	One duck had a ball .
+%mor:	num|one noun|duck verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	A3; Z; C2; Z;
+*CHI:	The ball fell in the pool .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	The duck went in the pool to get it .
+%mor:	det|the-Def-Art noun|duck verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	The duck got the ball .
+%mor:	det|the-Def-Art noun|duck verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	Now the duck and the other duck are happy .
+%mor:	adv|now det|the-Def-Art noun|duck cconj|and det|the-Def-Art
+	adj|other-S1 noun|duck aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; F3; A3; Z; C2;
+@End

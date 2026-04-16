@@ -1,0 +1,77 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:39 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli413_td439_rep02_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+have ball .                            |   |   |1  |   |   |   |   |   |  1|  2|
+kitty go .                             |   |   |1  |   |   |   |   |   |  1|  2|
+puppy go .                             |   |   |1  |   |   |   |   |   |  1|  2|
+don't worry kitty !                    |   |   |4 1|   |4  |   |6  |   |  1| 16|
+puppy go in pool .                     |   |   |1  |   |   |   |   |   |  1|  2|
+puppy splash [* m:03s:a] , get [* m:03s|   |   |1  |   |   |   |   |   |  0|  1|
+    :a] ball .                         |   |   |   |   |   |   |   |   |   |   |
+puppy come [* m:03s:a] out .           |   |   |1  |   |   |   |   |   |  0|  1|
+puppy give [* m:03s:a] ball kitty .    |   |   |1  |   |   |   |   |   |  0|  1|
+once there were two squirrels .        |3  |   |2  |   |   |   |   |   |  1|  6|
+they went to the pool place .          |   |3  |2  |   |   |   |   |   |  1|  6|
+there was a sign .                     |   |   |2  |   |   |   |   |   |  1|  3|
+it said do not run !                   |1  |   |2 4|   |7  |   |   |   |  1| 16|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+but one squirrel ran .                 |3  |   |2  |   |   |5  |   |   |  1| 11|
+he zoomed to the water .               |   |2  |2  |   |   |   |   |   |  1|  5|
+he slipped and boo-booed his knee .    |   |2 2|2 2|   |   |3  |   |   |  1| 12|
+he cried .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+a lifeguard came with a bandage .      |   |   |2  |   |   |   |   |   |  1|  3|
+he put it on the squirrel's knee .     |1  |2 5|2  |   |   |   |   |   |  1| 11|
+now he sat on a bench and rested .     |   |2  |2 2|   |   |3  |   |   |  1| 10|
+One time there were two ducks .        |3 3|   |2  |   |   |   |   |   |  1|  9|
+They was [* m:vsg:a] playing with an   |   |3  |2 1|   |   |   |   |   |  0|  6|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+The airplane fell into the pool .      |   |   |2  |   |   |   |   |   |  1|  3|
+they were crying .                     |   |3  |2 1|   |   |   |   |   |  1|  7|
+One duck said .                        |3  |   |2  |   |   |   |   |   |  1|  6|
+The other duck said .                  |3  |   |2  |   |   |   |   |   |  1|  6|
+I want to get it !                     |1  |1 5|1 1|3  |   |   |   |   |  1| 13|
+Someone came with a pole and threw it  |3 1|5  |2 2|   |   |3  |   |   |  1| 17|
+    to the duck .                      |   |   |   |   |   |   |   |   |   |   |
+The duck got the airplane .            |   |   |2  |   |   |   |   |   |  1|  3|
+doggy help [* m:03s:a] build castle    |   |   |1  |   |   |   |   |   |  0|  1|
+    with rabbit .                      |   |   |   |   |   |   |   |   |   |   |
+rabbit say [* m:03s:a] yay !           |   |   |1  |   |   |   |   |   |  0|  1|
+doggy add [* m:03s:a] more sand .      |3  |   |1  |   |   |   |   |   |  0|  4|
+then doggy use [* m:03s:a] big bucket  |   |   |1  |   |   |3  |   |   |  0|  4|
+    and pour sand on castle .          |   |   |   |   |   |   |   |   |   |   |
+rabbit say [* m:03s:a] oh no !         |   |   |1  |   |   |   |   |   |  0|  1|
+doggy say [* m:03s:a] i'm sowwy [:     |   |1  |1  |   |   |   |   |   |  0|  2|
+    sorry] [* s:r:der] .               |   |   |   |   |   |   |   |   |   |   |
+rabbit and doggy use shovel to dig new |   |   |1  |   |   |3  |   |   |  1|  5|
+    moat .                             |   |   |   |   |   |   |   |   |   |   |
+then build new castle .                |   |   |1  |   |   |   |   |   |  1|  2|
+once upon a time there was a rabbit and|   |   |2  |   |   |3  |   |   |  1|  6|
+     a dog .                           |   |   |   |   |   |   |   |   |   |   |
+yay we're goin on a picnic .           |   |3  |1  |   |   |   |   |   |  1|  5|
+look what I got sandwiches and carrots |   |6 1|1 2|   |   |3  |   |   |  1| 14|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+oh boy I wanna eat so much .           |   |1  |1  |   |   |5  |   |   |  1|  8|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+&=whimpers I think I ate too much .    |   |1 1|1 2|5  |   |   |   |   |  1| 11|
+we need to go see the doc .            |   |3  |1 1|3  |   |   |   |   |  1| 10|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+&=sighs the doc says rest now .        |   |   |2  |   |   |   |   |   |  1|  3|
+&=yawns I feel better now .            |   |1  |1  |   |   |   |   |   |  1|  3|
+i and my dog took our wagon to the park|   |1 1|2  |   |   |3  |   |   |  1| 11|
+     .                                 |   |3  |   |   |   |   |   |   |   |   |
+we had a balloon on it .               |1  |3 5|2  |   |   |   |   |   |  1| 12|
+it came loose and flew away .          |1  |   |2 2|   |   |3  |   |   |  1|  9|
+i was sad .                            |   |1  |2  |   |   |   |   |   |  1|  4|
+my doggy was sad too .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  | 30| 71|103| 11| 11| 37|  6|  0| 40|309|
+
+Developmental sentence score:  6.18

@@ -1,0 +1,37 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep10
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=450
+*CHI:	Doggy hit the ball in the pool .
+%mor:	propn|Doggy verb|hit-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc adp|in det|the-Def-Art noun|pool .
+%xdss:	C2; Z; Z;
+*CHI:	The ball is in the water .
+%mor:	det|the-Def-Art noun|ball aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C1; Z;
+*CHI:	Doggy get [* m:03s:a] in the pool to get the ball .
+%mor:	noun|doggy verb|get-Fin-Imp-S adp|in det|the-Def-Art noun|pool
+	part|to verb|get-Inf-S det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C1; Z; C1; Z;
+*CHI:	kitty help [* m:03s:a] doggy get the ball .
+%mor:	propn|Kitty verb|help-Fin-S propn|Doggy-Acc verb|get-Inf-S
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	C1; C1; Z;
+*CHI:	They bring the ball out .
+%mor:	pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|ball-Acc adp|out .
+%xdss:	B3; C1; Z;
+@End

@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep03
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=450
+*CHI:	Me [* s:r:gc:pro] and my doggy friend we go pull a wagon .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1
+	verb|pull-Inf-S det|a-Ind-Art noun|wagon-Acc .
+%xdss:	B1; F3; B1; Z; B3; C1; C1; Z;
+*CHI:	The wagon have [* m:vun:a] a big red balloon .
+%mor:	det|the-Def-Art noun|wagon verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	The balloon come [* m:03s:a] loose .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adj|loose-S1
+	.
+%xdss:	Z; C2;
+*CHI:	It go [* m:03s:a] up high up in the air .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|up adj|high-S1
+	adp|up adp|in det|the-Def-Art noun|air .
+%xdss:	A1; C2; Z;
+*CHI:	We want another balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	We go to the nice man who sell [* m:03s:a] balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	adj|nice-S1 noun|man pron|who-Rel verb|sell-Fin-Ind-Pres-P3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; Z; B6; C1; Z;
+*CHI:	He have [* m:vun:a] many balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-P3 adj|many-S1
+	noun|balloon-Plur-Acc .
+%xdss:	B2; C1; Z;
+*CHI:	He say [* m:03s:a] they cost money .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|they-Prs-Nom-P3
+	verb|cost-Fin-Ind-Pres-P3 noun|money-Acc .
+%xdss:	B2; C2; D5; B3; C1; Z;
+*CHI:	My friend and me [* s:r:gc:pro] don't have enough money .
+%mor:	pron|my-Prs-Gen-S1 noun|friend cconj|and pron|I-Prs-Acc-S1
+	aux|do-Fin-Ind-Pres-P3~part|not verb|have-Inf-S adj|enough-S1
+	noun|money-Acc .
+%xdss:	B1; Z; F3; B1; E4; C1; Z;
+*CHI:	The nice man help [* m:03s:a] us .
+%mor:	det|the-Def-Art adj|nice-S1 noun|man verb|help-Fin-Ind-Pres-S3
+	pron|we-Prs-Acc-P1 .
+%xdss:	Z; C2; B3;
+*CHI:	He say [* m:03s:a] we can have two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|we-Prs-Nom-P1
+	aux|can-Fin-S verb|have-Inf-S num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; C4; D2; C1; A3; Z;
+*CHI:	We get one blue one and one green one .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Pres-P1 num|one adj|blue-S1
+	noun|one-Acc cconj|and num|one adj|green-S1 noun|one .
+%xdss:	B3; C1; A3; Z; F3; A3; Z;
+@End

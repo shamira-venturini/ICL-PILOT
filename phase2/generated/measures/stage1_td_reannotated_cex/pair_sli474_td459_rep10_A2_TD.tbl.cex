@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep10_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there were two monkeys at the pool .   |3  |   |2  |   |   |   |   |   |  1|  6|
+they saw a sign that said .            |1  |3  |2 2|   |   |   |   |   |  1|  9|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+but one monkey didn't listen .         |3  |   |6 1|   |4  |5  |   |   |  1| 20|
+it started to run towards the water .  |1  |   |2 1|3  |   |   |   |   |  1|  8|
+then it slipped and hurt its knee .    |1 1|   |2 2|   |   |3  |   |   |  1| 10|
+a nice lifeguard came with a big       |   |   |2  |   |   |   |   |   |  1|  3|
+    bandage .                          |   |   |   |   |   |   |   |   |   |   |
+the monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  | 10|  3| 26| 11|  4| 11|  0|  0|  8| 73|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  9.12

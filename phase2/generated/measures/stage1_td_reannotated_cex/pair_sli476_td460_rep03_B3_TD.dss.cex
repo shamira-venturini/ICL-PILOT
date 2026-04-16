@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep03
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=460
+*CHI:	they're [/] they're [/] they're going to pick some balloons .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S
+	part|to verb|pick-Inf-S det|some-Def-Ind noun|balloon-Plur-Acc .
+%xdss:	B3; C1; D2; C1; A3; Z;
+*CHI:	they're putting balloons in the wagon .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|put-Part-Pres-S
+	noun|balloon-Plur-Acc adp|in det|the-Def-Art noun|wagon .
+%xdss:	B3; C1; Z; Z;
+*CHI:	the balloon comes out it goes up it's gone .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adp|out
+	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|up
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gone-S1 .
+%xdss:	Z; C2; A1; C2; A1; C1;
+*CHI:	they go to the man he has balloons he says it costs money .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|man pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3
+	noun|balloon-Plur-Acc pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3 verb|cost-Fin-Ind-Pres-S3 noun|money-Acc .
+%xdss:	B3; C1; Z; B2; C2; Z; B2; C2; D5; A1; C2; Z;
+*CHI:	the man he gives them balloons they're happy they're happy they're
+	happy .
+%mor:	det|the-Def-Art noun|man pron|he-Prs-Nom-S3
+	verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3 noun|balloon-Plur-Acc
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	Z; B2; C2; B3; Z; B3; B3; B3;
+@End

@@ -1,0 +1,36 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep01
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=466
+*CHI:	the cat and dog goin [* m:0ing] to get it .
+%mor:	det|the-Def-Art noun|cat cconj|and noun|dog verb|go-Fin-Ind-Pres-S3
+	part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; F3; Z; C2; D3; C1; A1; B5;
+*CHI:	the dog goin [* m:0ing] in the pool .
+%mor:	det|the-Def-Art noun|dog verb|go-Fin-Ind-Pres-S adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C1; Z;
+*CHI:	the dog get [* m:03s:a] the ball .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Pres-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	the dog get [* m:03s:a] out .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Pres-S adp|out .
+%xdss:	Z; C1;
+*CHI:	the dog give [* m:03s:a] ball to cat .
+%mor:	det|the-Def-Art noun|dog verb|give-Fin-Ind-S noun|ball-Acc adp|to
+	noun|cat .
+%xdss:	Z; C1; Z; Z;
+@End

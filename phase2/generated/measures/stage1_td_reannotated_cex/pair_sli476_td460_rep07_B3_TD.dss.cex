@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep07
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=460
+*CHI:	they're pulling a wagon with a doggy and a bunny .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|pull-Part-Pres-S
+	det|a-Ind-Art noun|wagon-Acc adp|with det|a-Ind-Art noun|doggy
+	cconj|and det|a-Ind-Art noun|bunny .
+%xdss:	B3; C1; Z; Z; F3; Z;
+*CHI:	it came loose and went up in the air .
+%mor:	pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Past-S3-irr adv|loose
+	cconj|and verb|go-Fin-Ind-Past-S3-irr adp|up adp|in det|the-Def-Art
+	noun|air .
+%xdss:	A1; C2; F3; C2; Z;
+*CHI:	the bunny and doggy are crying .
+%mor:	det|the-Def-Art noun|bunny cconj|and noun|doggy
+	aux|be-Fin-Ind-Pres-P3 verb|cry-Part-Pres-S .
+%xdss:	Z; F3; Z; C2; C1;
+*CHI:	they want another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	they saw a lady with lots of balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|lady-Acc adp|with noun|lot-Plur adp|of noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z; Z;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	oh no , it's one dollar a balloon .
+%mor:	intj|oh intj|no pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 num|one
+	noun|dollar det|a-Ind-Art noun|balloon .
+%xdss:	A1; C1; A3; Z; Z;
+*CHI:	bunny's mommy has a dollar .
+%mor:	noun|bunny~part|s noun|mommy verb|have-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|dollar-Acc .
+%xdss:	Z; Z; C2; Z;
+*CHI:	bunny and doggy are so happy .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Pres-P3 adv|so
+	adj|happy-S1 .
+%xdss:	Z; F3; C2; F5;
+*CHI:	bunny got a new balloon and doggy got a new balloon too .
+%mor:	noun|bunny verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|new-S1
+	noun|balloon-Acc cconj|and noun|doggy verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|new-S1 noun|balloon-Acc adv|too .
+%xdss:	Z; C2; Z; F3; Z; C2; Z;
+@End

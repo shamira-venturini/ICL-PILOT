@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep07
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog was [* m:vsg:a] pulling a red wagon .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|pull-Part-Pres-S det|a-Ind-Art adj|red-S1 noun|wagon-Acc .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	They had a big yellow balloon in the wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 adj|yellow-S1 noun|balloon-Acc adp|in det|the-Def-Art
+	noun|wagon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	Then the balloon came loose and it went up high in the air .
+%mor:	adv|then det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 cconj|and pron|it-Prs-Nom-S3
+	verb|go-Fin-Ind-Past-S3-irr adp|up adj|high-S1 adp|in
+	det|the-Def-Art noun|air .
+%xdss:	Z; C2; F3; A1; C2; Z;
+*CHI:	The rabbit and dog was [* m:vsg:a] sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	They went to the balloon man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|man .
+%xdss:	B3; C2; Z; Z;
+*CHI:	He said the balloons cost money .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|balloon-Plur verb|cost-Fin-Ind-Past-P3-irr noun|money-Acc .
+%xdss:	B2; C2; Z; C2; Z;
+*CHI:	The rabbit and dog didn't have enough money .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S adj|enough-S1
+	noun|money-Acc .
+%xdss:	Z; F3; Z; C6; E4; C1; Z;
+*CHI:	The balloon man gave them two small yellow balloons .
+%mor:	det|the-Def-Art noun|balloon noun|man verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 num|two adj|small-S1 adj|yellow-S1
+	noun|balloon-Plur-Acc .
+%xdss:	Z; Z; C2; B3; A3; Z;
+*CHI:	The rabbit and dog was [* m:vsg:a] happy again .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

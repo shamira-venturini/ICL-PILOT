@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep04
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=460
+*CHI:	they're building .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	.
+%xdss:	B3; C1;
+*CHI:	they're building a castle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they're using a shovel .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|use-Part-Pres-S
+	det|a-Ind-Art noun|shovel-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they're using a bucket .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|use-Part-Pres-S
+	det|a-Ind-Art noun|bucket-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the dog throws the bucket .
+%mor:	det|the-Def-Art noun|dog verb|throw-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|bucket-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the sand goes everywhere .
+%mor:	det|the-Def-Art noun|sand verb|go-Fin-Ind-Pres-S3 adv|everywhere .
+%xdss:	Z; C2;
+*CHI:	the castle is broken .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit is sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the dog is sorry .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	the dog hugs the rabbit .
+%mor:	det|the-Def-Art noun|dog verb|hug-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|rabbit-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	they're trying to fix it .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|try-Part-Pres-S
+	part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C1; D3; C1; A1; B5;
+*CHI:	they're putting sand on it .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|put-Part-Pres-S
+	noun|sand-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	B3; C1; Z; A1; B5;
+*CHI:	it's all better now .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|good-Cmp-S1
+	adv|now .
+%xdss:	A1; C1;
+@End

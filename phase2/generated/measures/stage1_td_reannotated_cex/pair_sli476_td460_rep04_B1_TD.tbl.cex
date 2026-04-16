@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:21 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep04_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they're building .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+they're building a castle .            |   |3  |1  |   |   |   |   |   |  1|  5|
+they're using a shovel .               |   |3  |1  |   |   |   |   |   |  1|  5|
+they're using a bucket .               |   |3  |1  |   |   |   |   |   |  1|  5|
+the dog throws the bucket .            |   |   |2  |   |   |   |   |   |  1|  3|
+the sand goes everywhere .             |   |   |2  |   |   |   |   |   |  1|  3|
+the castle is broken .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit is sad .                    |   |   |1  |   |   |   |   |   |  1|  2|
+the rabbit is crying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is sorry .                     |   |   |1  |   |   |   |   |   |  1|  2|
+the dog hugs the rabbit .              |   |   |2  |   |   |   |   |   |  1|  3|
+they're trying to fix it .             |1  |3 5|1 1|3  |   |   |   |   |  1| 15|
+they're putting sand on it .           |1  |3 5|1  |   |   |   |   |   |  1| 11|
+it's all better now .                  |1  |   |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  3| 28| 27|  3|  0|  0|  0|  0| 14| 75|
+WARNING: DSS requires 50 complete sentences and this transcript only has 14.
+
+Developmental sentence score:  5.36

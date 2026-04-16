@@ -1,0 +1,76 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:38 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli480_td450_rep03_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two rabbits play near the pool .       |3  |   |1  |   |   |   |   |   |  1|  5|
+They have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+It falls in the water .                |1  |   |2  |   |   |   |   |   |  1|  4|
+One rabbit puts on its life jacket and |3 1|   |2 2|   |   |3  |   |   |  1| 12|
+    goes in the pool .                 |   |   |   |   |   |   |   |   |   |   |
+It gets the ball .                     |1  |   |2  |   |   |   |   |   |  1|  4|
+The rabbit brings it back out .        |1  |5  |2  |   |   |   |   |   |  1|  9|
+The rabbits are happy .                |   |   |2  |   |   |   |   |   |  1|  3|
+kitty and doggy go to the pool .       |   |   |1  |   |   |3  |   |   |  1|  5|
+There is a big sign that says .        |1  |   |2 2|   |   |   |   |   |  1|  6|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+kitty runs to the water .              |   |   |2  |   |   |   |   |   |  1|  3|
+kitty slips and gets boo-boo on her    |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    knee .                             |   |   |   |   |   |   |   |   |   |   |
+A nice lifeguard comes with a special  |   |   |2  |   |   |   |   |   |  1|  3|
+    bandage .                          |   |   |   |   |   |   |   |   |   |   |
+kitty sits on a bench and rests .      |   |   |2 2|   |   |3  |   |   |  1|  8|
+there was a big toy airplane .         |   |   |2  |   |   |   |   |   |  1|  3|
+it was red .                           |1  |   |2  |   |   |   |   |   |  1|  4|
+two dogs were playing with it near the |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+they were running .                    |   |3  |2 1|   |   |   |   |   |  1|  7|
+and the airplane went into the pool .  |   |   |2  |   |   |3  |   |   |  1|  6|
+the owner was mad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+he said no .                           |   |2  |2  |   |   |   |   |   |  1|  5|
+he tried to reach it .                 |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+but it was too far .                   |1  |   |2  |   |   |5  |   |   |  1|  9|
+a man with a long stick came .         |   |   |2  |   |   |   |   |   |  1|  3|
+he was a lifeguard .                   |   |2  |2  |   |   |   |   |   |  1|  5|
+he got the airplane .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+he gave it to the owner .              |1  |2 5|2  |   |   |   |   |   |  1| 11|
+the owner was happy .                  |   |   |2  |   |   |   |   |   |  1|  3|
+the dogs were happy .                  |   |   |2  |   |   |   |   |   |  1|  3|
+they played again .                    |   |3  |2  |   |   |   |   |   |  1|  6|
+the rabbit and dog built a sandcastle  |   |   |2  |   |   |3  |   |   |  1|  6|
+    together .                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit had a big bucket and was    |   |   |2 2|   |   |3  |   |   |  1|  9|
+    pouring sand on the dog's part .   |   |   |1  |   |   |   |   |   |   |   |
+the dog was using a shovel to make a   |   |   |2 1|   |   |   |   |   |  1|  5|
+    big moat .                         |   |   |1  |   |   |   |   |   |   |   |
+then the dog dumped the bucket and all |3  |   |2 2|   |   |3  |   |   |  1| 11|
+    the sand went in the moat .        |   |   |   |   |   |   |   |   |   |   |
+the castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit was sad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+he said oh no !                        |   |2  |2  |   |   |   |   |   |  1|  5|
+the rabbit and dog hugged each other . |7 3|   |2  |   |   |3  |   |   |  1| 16|
+they picked up the sand and made the   |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    castle again .                     |   |   |   |   |   |   |   |   |   |   |
+Rabbit and dog go on a picnic .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They bring carrots and sandwiches .    |   |3  |1  |   |   |3  |   |   |  1|  8|
+We have a picnic .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+I eat too much sandwiches [* m:+s:a] . |   |1  |1  |   |   |   |   |   |  0|  2|
+Oh no , my tummy hurts .               |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+My rabbit and dog friend help [* m:03s:|   |1 1|1  |   |   |3  |   |   |  0|  6|
+    a] me .                            |   |   |   |   |   |   |   |   |   |   |
+We go to the doctor .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+The doctor gives me a [* s:r:gc:det]   |   |1  |2  |   |   |   |   |   |  0|  3|
+    special medicine .                 |   |   |   |   |   |   |   |   |   |   |
+I drink it .                           |1  |1 5|1  |   |   |   |   |   |  1|  9|
+I feel a little better .               |   |1  |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 33| 68|106| 11|  0| 44|  0|  0| 47|309|
+
+Developmental sentence score:  6.18

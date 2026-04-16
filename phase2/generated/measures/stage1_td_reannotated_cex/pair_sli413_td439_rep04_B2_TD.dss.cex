@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep04
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=4
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a rabbit and dog .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	noun|dog .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	wanna go pickin' some carrots !
+%mor:	intj|wanna verb|go-Fin-Imp-S propn|picki-Acc~x|and det|some-Def-Ind
+	noun|carrot-Plur !
+%xdss:	C1; A3; Z;
+*CHI:	cried the rabbit .
+%mor:	verb|cry-Fin-Ind-Past-P3 det|the-Def-Art noun|rabbit-Acc .
+%xdss:	C2; Z;
+*CHI:	lookit I got a basket .
+%mor:	noun|lookit pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr
+	det|a-Ind-Art noun|basket-Acc .
+%xdss:	Z; B1; C2; Z;
+*CHI:	&=deep_voice what did I tell you ?
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Past-S1-irr pron|I-Prs-Nom-S1
+	verb|tell-Inf-S pron|you-Prs-Acc-S2 ?
+%xdss:	B6; H2; B1; C1; B5;
+*CHI:	&=high_pitched but it wasn't my fault .
+%mor:	cconj|but pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr~part|not
+	pron|my-Prs-Gen-S1 noun|fault .
+%xdss:	F5; A1; C2; E7; B1; Z;
+*CHI:	&=high_pitched my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	&=cries mama help me .
+%mor:	noun|mama verb|help-Fin-Imp-S pron|I-Prs-Acc-S1 .
+%xdss:	Z; C1; B1;
+*CHI:	that's the doctor .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doctor .
+%xdss:	A1; C1; Z;
+*CHI:	do some kids leave left leave their toys ?
+%mor:	aux|do-Fin-Ind-Pres-P3 det|some-Def-Ind noun|kid-Plur
+	verb|leave-Inf-S verb|leave-Part-Past-S-irr verb|leave-Inf-S
+	pron|their-Prs-Gen-P3 noun|toy-Plur-Acc ?
+%xdss:	G6; A3; Z; C1; C2; C1; B3; Z;
+*CHI:	don't worry , I'll give you some medicine .
+%mor:	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|give-Inf-S pron|you-Prs-Acc-S2
+	det|some-Def-Ind noun|medicine-Acc .
+%xdss:	C4; E4; G6; C1; D5; C4; C1; B5; A3; Z;
+*CHI:	&=high_pitched thank you .
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	C1; B5;
+*CHI:	&=high_pitched I love you .
+%mor:	pron|I-Prs-Nom-S1 verb|love-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	B1; C1; B5;
+*CHI:	that's the end .
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|end .
+%xdss:	A1; C1; Z;
+@End

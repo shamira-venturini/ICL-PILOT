@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep02
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=2
+@Comment:	source_child_id=471
+*CHI:	Benny the rabbit and his dog friend , Max , pulled a red wagon with
+	a big blue balloon .
+%mor:	propn|Benny det|the-Def-Art noun|rabbit cconj|and
+	pron|his-Prs-Gen-S3 noun|dog noun|friend propn|Max
+	verb|pull-Fin-Ind-Past-S3 det|a-Ind-Art adj|red-S1 noun|wagon-Acc
+	adp|with det|a-Ind-Art adj|big-S1 adj|blue-S1 noun|balloon .
+%xdss:	Z; F3; B2; Z; Z; C2; Z; Z;
+*CHI:	They were so happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1
+	.
+%xdss:	B3; C2; F5;
+*CHI:	But then the balloon came loose and flew away .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adj|loose-S1 cconj|and
+	verb|fly-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	F5; Z; C2; F3; C2;
+*CHI:	They wanted to play with the balloon again .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to
+	verb|play-Inf-S adp|with det|the-Def-Art noun|balloon adv|again .
+%xdss:	B3; C2; D3; C1; Z;
+*CHI:	They asked their mom for another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|ask-Fin-Ind-Past-P3 pron|their-Prs-Gen-P3
+	noun|mom adp|for det|another-Def-Ind noun|balloon .
+%xdss:	B3; C2; B3; Z; F8; A3; Z;
+*CHI:	She said it was too expensive .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr adv|too adj|expensive-S1 .
+%xdss:	B2; C2; A1; C2;
+*CHI:	They didn't have enough money .
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Past-P3-irr~part|not
+	verb|have-Inf-S adj|enough-S1 noun|money-Acc .
+%xdss:	B3; C6; E4; C1; Z;
+*CHI:	Benny's mom said she knew someone who had balloons .
+%mor:	propn|Benny~part|s noun|mom verb|say-Fin-Ind-Past-S3-irr
+	pron|she-Prs-Nom-S3 verb|know-Fin-Ind-Past-S3-irr
+	pron|someone-Ind-S1 pron|who-Rel verb|have-Fin-Ind-Past-S3-irr
+	noun|balloon-Plur-Acc .
+%xdss:	Z; C2; D5; B2; C2; A3; B6; C2; Z;
+*CHI:	They went to the balloon seller and bought two balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|seller cconj|and
+	verb|buy-Fin-Ind-Past-P3-irr num|two noun|balloon-Plur-Acc .
+%xdss:	B3; C2; Z; Z; F3; C2; A3; Z;
+*CHI:	They had two balloons now .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr num|two
+	noun|balloon-Plur-Acc adv|now .
+%xdss:	B3; C2; A3; Z;
+*CHI:	They could play with them together .
+%mor:	pron|they-Prs-Nom-P3 aux|could-Fin-S verb|play-Inf-S adp|with
+	pron|they-Prs-Acc-P3 adv|together .
+%xdss:	B3; C6; D2; C1; B3;
+@End

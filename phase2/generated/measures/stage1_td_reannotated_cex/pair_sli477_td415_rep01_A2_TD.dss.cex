@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep01
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=415
+*CHI:	the kitty and the puppy go to the pool .
+%mor:	det|the-Def-Art noun|kitty cconj|and det|the-Def-Art noun|puppy
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	ther is a sign it say [* m:03s:a] no run .
+%mor:	pron|the-Prs-S2 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 det|no-Def-Neg
+	noun|run-Acc .
+%xdss:	B1; C1; Z; A1; C2; Z;
+*CHI:	the kitty go .
+%mor:	det|the-Def-Art noun|kitty verb|go-Fin-Ind-S .
+%xdss:	Z; C1;
+*CHI:	i wanna jump .
+%mor:	pron|I-Prs-Nom-S1 aux|wanna-Fin-S verb|jump-Inf-S .
+%xdss:	B1; D2; C1;
+*CHI:	the kitty slip [* m:03s:a] and hurt [* m:03s:a] knee .
+%mor:	det|the-Def-Art noun|kitty noun|slip cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr noun|knee-Acc .
+%xdss:	Z; Z; F3; C2; Z;
+*CHI:	then the lifegard come [* m:03s:a] with a bandage .
+%mor:	adv|then det|the-Def-Art noun|lifegard verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	the kitty sit [* m:03s:a] on the bench and rest .
+%mor:	det|the-Def-Art noun|kitty verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art noun|bench cconj|and noun|rest .
+%xdss:	Z; C2; Z; F3; Z;
+@End

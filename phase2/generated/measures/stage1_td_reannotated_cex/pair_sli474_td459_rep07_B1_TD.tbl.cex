@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:17 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep07_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time the rabbit and the dog|   |3  |2  |   |   |3  |   |   |  1|  9|
+     they built a big sandcastle       |   |   |   |   |   |   |   |   |   |   |
+    together .                         |   |   |   |   |   |   |   |   |   |   |
+the dog wanted to add some more sand so|3 3|2  |2 1|3  |   |5  |   |   |  1| 22|
+     he grabbed a big bucket .         |   |   |2  |   |   |   |   |   |   |   |
+but then he spilled the sand all over  |   |2  |2  |   |   |5  |   |   |  1| 10|
+    the castle .                       |   |   |   |   |   |   |   |   |   |   |
+oh no the castle was all messy .       |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit was very sad and he started |   |2  |2 2|3  |   |3  |   |   |  1| 14|
+    to cry .                           |   |   |1  |   |   |   |   |   |   |   |
+he said i was so sad when you made a   |   |2 1|2 2|   |   |5  |   |   |  1| 18|
+    mess of our castle .               |   |3  |2  |   |   |   |   |   |   |   |
+the dog said sorry i didnt mean to .   |   |1  |2 1|2  |   |   |   |   |  1|  7|
+the rabbit said its okay lets make it  |1 1|5  |2 2|   |   |   |   |   |  1| 13|
+    again .                            |   |   |1  |   |   |   |   |   |   |   |
+they started to build again and this   |   |3 3|2 1|3  |   |3  |   |   |  1| 18|
+    time they were more careful .      |   |   |2  |   |   |   |   |   |   |   |
+TOTAL                                  |  8| 27| 35| 11|  0| 24|  0|  0|  9|114|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 12.67

@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:21 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep04_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog went on a picnic .      |   |   |2  |   |   |3  |   |   |  1|  6|
+They had yummy sandwiches .            |   |3  |2  |   |   |   |   |   |  1|  6|
+A little rabbit ate too many sandwiches|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+He felt icky .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+He got a tummyache .                   |   |2  |2  |   |   |   |   |   |  1|  5|
+He felt dizzy .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+He went to see the doctor .            |   |2  |2 1|3  |   |   |   |   |  1|  9|
+He rested on a blanket .               |   |2  |2  |   |   |   |   |   |  1|  5|
+The little rabbit felt better .        |   |   |2  |   |   |   |   |   |  1|  3|
+The rabbit and dog went home .         |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  |  0| 13| 21|  3|  0|  6|  0|  0| 10| 53|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  5.30

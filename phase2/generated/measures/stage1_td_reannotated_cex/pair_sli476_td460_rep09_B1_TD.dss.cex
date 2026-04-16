@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep09
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=460
+*CHI:	they're making a big castle with the dog and rabbit .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|castle-Acc adp|with det|the-Def-Art
+	noun|dog cconj|and noun|rabbit .
+%xdss:	B3; C1; Z; Z; F3; Z;
+*CHI:	the dog is getting some sand .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Pres-S det|some-Def-Ind noun|sand-Acc .
+%xdss:	Z; C1; C1; A3; Z;
+*CHI:	he's dumping it on the castle .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|dump-Part-Pres-S
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|castle .
+%xdss:	B2; C1; C1; A1; B5; Z;
+*CHI:	the castle is all crumbled .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3 adv|all
+	verb|crumble-Part-Past-S .
+%xdss:	Z; C1; C2;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the dog is saying .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|say-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the rabbit is saying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|say-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+*CHI:	they're making it again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|make-Part-Pres-S
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C1; A1; B5;
+@End

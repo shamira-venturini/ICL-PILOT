@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep04
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=466
+*CHI:	once upon a time rabbit and dog they build a sandcastle .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|sandcastle-Acc .
+%xdss:	Z; Z; F3; Z; B3; C1; Z;
+*CHI:	dog he use [* m:03s:a] big shovel to move sand .
+%mor:	noun|dog pron|he-Prs-Nom-S3 verb|use-Fin-Ind-Pres-S3 adj|big-S1
+	noun|shovel-Acc part|to verb|move-Inf-S noun|sand-Acc .
+%xdss:	Z; B2; C2; Z; C1; Z;
+*CHI:	rabbit say [* m:03s:a] .
+%mor:	noun|rabbit verb|say-Fin-Imp-S .
+%xdss:	Z; C1;
+*CHI:	no [/] no dog dont [* m:03s:a] do that .
+%mor:	det|no-Def-Neg noun|dog aux|dont-Fin-S verb|do-Inf-S pron|that-Dem
+	.
+%xdss:	Z; C4; D2; C1; A1;
+*CHI:	but dog he not listen .
+%mor:	cconj|but noun|dog-Acc pron|he-Prs-Nom-S3 part|not
+	verb|listen-Inf-S .
+%xdss:	F5; Z; B2; C1;
+*CHI:	he put too much sand on rabbit's castle .
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr adv|too adj|much-S1
+	noun|sand-Acc adp|on noun|rabbit~part|s noun|castle .
+%xdss:	B2; C2; Z; Z; Z;
+*CHI:	the sandcastle fall [* m:03s:a] down .
+%mor:	det|the-Def-Art noun|sandcastle verb|fall-Fin-Ind-S adv|down .
+%xdss:	Z; C1;
+*CHI:	rabbit he cry [* m:03s:a] and say [* m:03s:a] .
+%mor:	noun|rabbit pron|he-Prs-Nom-S3 verb|cry-Fin-Ind-Pres-S3 cconj|and
+	verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; B2; C2; F3; C2;
+*CHI:	dog he say [* m:03s:a] .
+%mor:	noun|dog pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; B2; C2;
+*CHI:	they try to build it again .
+%mor:	pron|they-Prs-Nom-P3 verb|try-Fin-Ind-Pres-P3 part|to
+	verb|build-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C1; D3; C1; A1; B5;
+@End

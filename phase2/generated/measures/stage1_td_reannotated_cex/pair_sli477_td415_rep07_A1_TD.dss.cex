@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep07
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=415
+*CHI:	they're playing with a ball .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with det|a-Ind-Art noun|ball .
+%xdss:	B3; C1; Z;
+*CHI:	the dog go [* m:03s:a] in the pool .
+%mor:	det|the-Def-Art noun|dog verb|go-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	the dog get [* m:03s:a] the ball .
+%mor:	det|the-Def-Art noun|dog verb|get-Fin-Ind-Pres-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	dog come [* m:03s:a] out with the ball .
+%mor:	noun|dog verb|come-Fin-Imp-S adp|out adp|with det|the-Def-Art
+	noun|ball .
+%xdss:	Z; C1; Z;
+*CHI:	the dog wagging tail .
+%mor:	det|the-Def-Art noun|dog verb|wag-Ger-S noun|tail .
+%xdss:	Z; D4; C1; D8; Z;
+*CHI:	the dog drop [* m:03s:a] the ball .
+%mor:	det|the-Def-Art noun|dog verb|drop-Fin-Ind-Pres-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	the kitty pick [* m:03s:a] up the ball .
+%mor:	det|the-Def-Art noun|kitty verb|pick-Fin-Ind-S adp|up
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	they play some more .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 det|some-Def-Ind
+	adj|more-Cmp-S1 .
+%xdss:	B3; C1; A3; A3;
+@End

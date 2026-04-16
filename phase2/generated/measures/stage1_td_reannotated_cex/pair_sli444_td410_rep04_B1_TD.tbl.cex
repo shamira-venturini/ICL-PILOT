@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep04_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they're building a castle .            |   |3  |1  |   |   |   |   |   |  1|  5|
+the dog is using a big shovel .        |   |   |1 1|   |   |   |   |   |  1|  3|
+the rabbit is using a little shovel .  |   |   |1 1|   |   |   |   |   |  1|  3|
+they're building it together .         |1  |3 5|1  |   |   |   |   |   |  1| 11|
+the dog dumped a bucket on it .        |1  |5  |2  |   |   |   |   |   |  1|  9|
+the castle got ruined .                |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit is sad .                    |   |   |1  |   |   |   |   |   |  1|  2|
+the rabbit is crying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is sorry .                     |   |   |1  |   |   |   |   |   |  1|  2|
+the rabbit and dog are making it again |1  |5  |2 1|   |   |3  |   |   |  1| 13|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3| 21| 24|  0|  0|  3|  0|  0| 10| 61|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  6.10

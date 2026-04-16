@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:23 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep02_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there are two doggies play [* m:0ing]  |3  |   |1 1|   |   |   |   |   |  0|  5|
+    near the pool .                    |   |   |   |   |   |   |   |   |   |   |
+they have a little airplane .          |   |3  |1  |   |   |   |   |   |  1|  5|
+one of them drop [* m:03s:a] it in the |3 1|3 5|1  |   |   |   |   |   |  0| 13|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+the doggy's mommy is mad .             |   |   |1  |   |   |   |   |   |  1|  2|
+she say [* m:03s:a] .                  |   |2  |2  |   |   |   |   |   |  0|  4|
+then she ask [* m:03s:a] the lifeguard |   |2 1|2 1|5  |   |   |   |   |  0| 13|
+    can you help me get my airplane .  |   |1  |1  |   |   |   |   |   |   |   |
+the lifeguard have [* m:vun:a] a long  |   |   |1  |   |   |   |   |   |  0|  1|
+    stick .                            |   |   |   |   |   |   |   |   |   |   |
+she use [* m:03s:a] it to get the      |1  |2 5|2 1|5  |   |   |   |   |  0| 16|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+the airplane is back with the doggy .  |   |   |1  |   |   |   |   |   |  1|  2|
+the doggy's mommy is happy .           |   |   |1  |   |   |   |   |   |  1|  2|
+the doggy's happy .                    |   |   |1  |   |   |   |   |   |  1|  2|
+TOTAL                                  |  8| 24| 18| 10|  0|  0|  0|  0|  5| 65|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  5.91

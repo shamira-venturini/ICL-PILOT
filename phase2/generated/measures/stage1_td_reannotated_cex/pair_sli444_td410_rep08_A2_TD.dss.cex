@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep08
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=410
+*CHI:	the there's a zoo and there's a sign that says dont run .
+%mor:	det|the-Def-Art pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|zoo cconj|and
+	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 part|dont verb|run-Inf-S .
+%xdss:	Z; F3; Z; A1; C2; C1;
+*CHI:	and they have a big pool .
+%mor:	cconj|and pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art adj|big-S1 noun|pool-Acc .
+%xdss:	F3; B3; C1; Z;
+*CHI:	and there's a monkey and he's running .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|monkey cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|run-Part-Pres-S .
+%xdss:	F3; Z; F3; B2; C1; C1;
+*CHI:	and the monkey is running to the pool .
+%mor:	cconj|and det|the-Def-Art noun|monkey aux|be-Fin-Ind-Pres-S3
+	verb|run-Part-Pres-S adp|to det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C1; C1; Z;
+*CHI:	and he slipped and he fell down and he hurt his knee .
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	pron|he-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|down cconj|and
+	pron|he-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	F3; B2; C2; F3; B2; C2; F3; B2; C2; B2; Z;
+*CHI:	and there's a lady with a big bandage and she's coming to help him
+	.
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|lady adp|with det|a-Ind-Art adj|big-S1 noun|bandage cconj|and
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S
+	part|to verb|help-Inf-S pron|he-Prs-Acc-S3 .
+%xdss:	F3; Z; Z; F3; B2; C1; C1; D3; C1; B2;
+*CHI:	and the monkey is sitting on a bench and resting .
+%mor:	cconj|and det|the-Def-Art noun|monkey aux|be-Fin-Ind-Pres-S3
+	verb|sit-Part-Pres-S adp|on det|a-Ind-Art noun|bench cconj|and
+	noun|resting-Ger .
+%xdss:	F3; Z; C1; C1; Z; F3; Z; D8;
+@End

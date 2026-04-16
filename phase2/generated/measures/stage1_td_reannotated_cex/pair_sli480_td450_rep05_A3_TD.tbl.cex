@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:32 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep05_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+two birds were playing with a little   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    airplane near the pool .           |   |   |   |   |   |   |   |   |   |   |
+the airplane was taken by the cat and  |   |   |7 2|   |   |3  |   |   |  1| 15|
+    went into the water .              |   |   |2  |   |   |   |   |   |   |   |
+the cat's owner was sad .              |   |   |2  |   |   |   |   |   |  1|  3|
+someone got a long stick and tried to  |3  |   |2 2|3  |   |3  |   |   |  1| 15|
+    get the airplane .                 |   |   |1  |   |   |   |   |   |   |   |
+a lifeguard used a net and got the     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+the cat's owner was happy and took the |   |   |2 2|   |   |3  |   |   |  1|  8|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  6|  0| 29|  3|  0| 12|  0|  0|  6| 56|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  9.33

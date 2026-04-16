@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep04_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One time there was a kitty and a duckie|3  |   |2  |   |   |3  |   |   |  1|  9|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+they were playing near the pool .      |   |3  |2 1|   |   |   |   |   |  1|  7|
+they had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+it fell in the pool .                  |1  |   |2  |   |   |   |   |   |  1|  4|
+the kitty said oh no !                 |   |   |2  |   |   |   |   |   |  1|  3|
+the duckie said don't worry I can get  |1  |1 5|2 4|2  |4  |   |   |   |  1| 26|
+    it .                               |   |   |1 4|   |   |   |   |   |   |   |
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the kitty was too short so the duckie  |   |   |2 2|   |   |3  |   |   |  1| 10|
+    waddled in the pool and got the    |   |   |2  |   |   |   |   |   |   |   |
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+the kitty was so happy the duckie gave |1  |5  |2 2|   |   |5  |   |   |  1| 16|
+    it back .                          |   |   |   |   |   |   |   |   |   |   |
+now kitty and duckie are happy playing |   |   |2 1|   |   |3  |   |   |  1|  7|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  6| 17| 36|  2|  4| 14|  0|  0|  9| 88|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  9.78

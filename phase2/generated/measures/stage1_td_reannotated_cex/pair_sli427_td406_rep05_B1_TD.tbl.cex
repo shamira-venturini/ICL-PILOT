@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep05_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day me and my doggy we builded [:  |3  |1 1|2  |   |   |3  |   |   |  0| 13|
+    built] [* m:=ed] a sandcastle .    |   |3  |   |   |   |   |   |   |   |   |
+It was so cool .                       |1  |   |2  |   |   |5  |   |   |  1|  9|
+We put a moat and a flag on it .       |1  |3 5|2  |   |   |3  |   |   |  1| 15|
+Then my doggy he poured sand all over  |3 1|1 2|2  |   |   |   |   |   |  1| 15|
+    it .                               |   |5  |   |   |   |   |   |   |   |   |
+I said .                               |   |1  |2  |   |   |   |   |   |  1|  4|
+My doggy he [* s:r:gc:pro] was crying .|   |1 2|2 1|   |   |   |   |   |  0|  6|
+He said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+he did it .                            |1  |2 5|2  |   |   |   |   |   |  1| 11|
+it's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+we can fix it .                        |1  |3 5|4 1|2  |   |   |   |   |  1| 17|
+My doggy he helped me put the sand back|   |1 2|2 1|5  |   |   |   |   |  1| 13|
+     .                                 |   |1  |   |   |   |   |   |   |   |   |
+It was still a little bit broke [* m:  |1  |   |2  |   |   |   |   |   |  0|  3|
+    sub:en] .                          |   |   |   |   |   |   |   |   |   |   |
+but we made it better .                |1  |3 5|2  |   |   |5  |   |   |  1| 17|
+TOTAL                                  | 14| 54| 30|  7|  0| 16|  0|  0| 10|131|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score: 10.08

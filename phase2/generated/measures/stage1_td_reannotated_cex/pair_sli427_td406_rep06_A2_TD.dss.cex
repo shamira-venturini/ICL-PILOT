@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep06
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=406
+*CHI:	One day I went to the pool .
+%mor:	num|one noun|day pron|I-Prs-Nom-S1 verb|go-Fin-Ind-Past-S1-irr
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; B1; C2; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	My friend was there and she said .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Past-S3-irr adv|there
+	cconj|and pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2; F3; B2; C2;
+*CHI:	look , no running .
+%mor:	verb|look-Inf-S det|no-Def-Neg noun|running-Ger .
+%xdss:	C1; Z; D8;
+*CHI:	But I wanted to run to the water .
+%mor:	cconj|but pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Past-S1 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	F5; B1; C2; D3; C1; Z;
+*CHI:	I started to run but I slipped on the ground and hurt my knee .
+%mor:	pron|I-Prs-Nom-S1 verb|start-Fin-Ind-Past-S1 part|to verb|run-Inf-S
+	cconj|but pron|I-Prs-Nom-S1 verb|slip-Fin-Ind-Past-S1 adp|on
+	det|the-Def-Art noun|ground cconj|and verb|hurt-Fin-Ind-Past-S1-irr
+	pron|my-Prs-Gen-S1 noun|knee-Acc .
+%xdss:	B1; C2; D3; C1; F5; B1; C2; Z; F3; C2; B1; Z;
+*CHI:	Then a lifeguard came with a bandage .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	She said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	sit down , it's okay .
+%mor:	verb|sit-Inf-S adp|down pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	adj|okay-S1 .
+%xdss:	C1; A1; C1;
+*CHI:	I sat down on a bench and rested my knee .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Past-S1-irr adp|down adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S1
+	pron|my-Prs-Gen-S1 noun|knee-Acc .
+%xdss:	B1; C2; Z; F3; C2; B1; Z;
+*CHI:	It hurt [* m:03s:a] , but the bandage made me feel a little better
+	.
+%mor:	pron|it-Prs-Nom-S3 verb|hurt-Fin-Ind-Past-S3-irr cconj|but
+	det|the-Def-Art noun|bandage verb|make-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Acc-S1 verb|feel-Inf-S det|a-Ind-Art adj|little-S1
+	adj|good-Cmp-S1 .
+%xdss:	A1; C2; F5; Z; C2; D5; B1; C1;
+@End

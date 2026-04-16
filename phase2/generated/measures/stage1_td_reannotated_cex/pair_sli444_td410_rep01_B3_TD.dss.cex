@@ -1,0 +1,73 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep01
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=410
+*CHI:	Rabbit and doggy go in a wagon .
+%mor:	noun|rabbit cconj|and noun|doggy verb|go-Fin-Ind-Pres-P3 adp|in
+	det|a-Ind-Art noun|wagon .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They have a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	It's so happy !
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|happy-S1 !
+%xdss:	A1; C1; F5;
+*CHI:	But then the balloon comes off .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Pres-S3 adp|off .
+%xdss:	F5; Z; C2;
+*CHI:	It floats up high .
+%mor:	pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adp|up adj|high-S1 .
+%xdss:	A1; C2;
+*CHI:	The rabbit and doggy are so sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|doggy
+	aux|be-Fin-Ind-Pres-P3 adv|so adj|sad-S1 .
+%xdss:	Z; F3; Z; C2; F5;
+*CHI:	They want their balloon back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3
+	pron|their-Prs-Gen-P3 noun|balloon-Acc adv|back .
+%xdss:	B3; C1; B3; Z;
+*CHI:	They look everywhere .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Pres-P3 adv|everywhere .
+%xdss:	B3; C1;
+*CHI:	Then they see a man with lots of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|man-Acc adp|with noun|lot-Plur adp|of
+	noun|balloon-Plur .
+%xdss:	B3; C1; Z; Z; Z;
+*CHI:	He says .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	The man says .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	Don't worry , I can help you !
+%mor:	aux|do-Fin-S~part|not verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1
+	aux|can-Fin-S verb|help-Inf-S pron|you-Prs-Acc-S2 !
+%xdss:	C4; E4; G6; C1; B1; C4; D2; C1; B5;
+*CHI:	He gives them two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	The rabbit and doggy are so happy !
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|doggy
+	aux|be-Fin-Ind-Pres-P3 adv|so adj|happy-S1 !
+%xdss:	Z; F3; Z; C2; F5;
+*CHI:	They have two balloons now !
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 num|two
+	noun|balloon-Plur-Acc adv|now !
+%xdss:	B3; C1; A3; Z;
+@End

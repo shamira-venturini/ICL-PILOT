@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep02
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=406
+*CHI:	me [* s:r:gc:pro] and my friend the dog , we built a big sandcastle
+	on the beach .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend
+	det|the-Def-Art noun|dog pron|we-Prs-Nom-P1
+	verb|build-Fin-Ind-Past-P1-irr det|a-Ind-Art adj|big-S1
+	noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach .
+%xdss:	B1; F3; B1; Z; Z; B3; C2; Z; Z;
+*CHI:	it was so cool !
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|cool-S1 !
+%xdss:	A1; C2; F5;
+*CHI:	we made a moat and everything .
+%mor:	pron|we-Prs-Nom-P1 verb|make-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|moat-Acc cconj|and pron|everything-Tot-S1 .
+%xdss:	B3; C2; Z; F3; A7;
+*CHI:	then my friend dog went and got a big bucket of sand and poured it
+	all over our castle .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|friend noun|dog
+	verb|go-Fin-Ind-Past-S3-irr cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|big-S1 noun|bucket-Acc adp|of noun|sand cconj|and
+	verb|pour-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adv|all adp|over
+	pron|our-Prs-Gen-P1 noun|castle .
+%xdss:	B1; Z; Z; C2; F3; C2; Z; Z; F3; C2; A1; B5; B3; Z;
+*CHI:	our castle was ruined .
+%mor:	pron|our-Prs-Gen-P1 noun|castle aux|be-Fin-Ind-Past-S3-irr
+	verb|ruin-Part-Past-S .
+%xdss:	B3; Z; C7; C2;
+*CHI:	dog looked sad .
+%mor:	noun|dog verb|look-Fin-Ind-Past-S3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	he said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	me [* s:r:gc:pro] and dog tried to fix it , but it was too late .
+%mor:	pron|I-Prs-Acc-S1 cconj|and noun|dog verb|try-Fin-Ind-Past-S1
+	part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 cconj|but
+	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|too adj|late-S1 .
+%xdss:	B1; F3; Z; C2; D3; C1; A1; B5; F5; A1; C2;
+*CHI:	we had to build another one .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Past-P1-irr part|to
+	verb|build-Inf-S det|another-Def-Ind noun|one-Acc .
+%xdss:	B3; C2; D3; C1; A3; Z;
+@End

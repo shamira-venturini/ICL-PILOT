@@ -1,0 +1,67 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep02
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=410
+*CHI:	doggy and bunny they were playing they had a wagon and a big red
+	balloon .
+%mor:	adj|doggy-S1 cconj|and noun|bunny pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S
+	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|wagon-Acc cconj|and det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	F3; Z; B3; C2; C1; D5; B3; C2; Z; F3; Z;
+*CHI:	bunny was pulling and doggy was running .
+%mor:	noun|bunny aux|be-Fin-Ind-Past-S3-irr verb|pull-Part-Pres-S
+	cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-S3-irr
+	verb|run-Part-Pres-S .
+%xdss:	Z; C2; C1; F3; C2; C1;
+*CHI:	the balloon went up in the air and it popped .
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Past-S3-irr adp|up
+	adp|in det|the-Def-Art noun|air cconj|and pron|it-Prs-Nom-S3
+	verb|pop-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; A1; C2;
+*CHI:	bunny and doggy were sad .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; C2;
+*CHI:	they wanted another balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|another-Def-Ind
+	noun|balloon-Acc .
+%xdss:	B3; C2; A3; Z;
+*CHI:	they went to the man with the balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|man adp|with det|the-Def-Art noun|balloon-Plur
+	.
+%xdss:	B3; C2; Z; Z;
+*CHI:	he said it costs one dollar per balloon .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3
+	verb|cost-Fin-Ind-Pres-S3 num|one noun|dollar-Acc adp|per
+	noun|balloon .
+%xdss:	B2; C2; D5; A1; C2; A3; Z; Z;
+*CHI:	bunny and doggy didn't have a dollar .
+%mor:	noun|bunny cconj|and noun|doggy aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|have-Inf-S det|a-Ind-Art noun|dollar-Acc .
+%xdss:	Z; F3; Z; C6; E4; C1; Z;
+*CHI:	the man said okay I'll give you two balloons for two dollars .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Past-S3-irr intj|okay
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|give-Inf-S pron|you-Prs-Acc-S2
+	num|two noun|balloon-Plur-Acc adp|for num|two noun|dollar-Plur .
+%xdss:	Z; C2; C4; C1; B5; A3; Z; F8; A3; Z;
+*CHI:	bunny and doggy were happy they had two balloons now .
+%mor:	noun|bunny cconj|and noun|doggy aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr
+	num|two noun|balloon-Plur-Acc adv|now .
+%xdss:	Z; F3; Z; C2; B3; C2; A3; Z;
+@End

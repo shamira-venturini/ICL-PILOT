@@ -1,0 +1,65 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:40 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli444_td410_rep05_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+kitty goes in the water .              |   |   |2  |   |   |   |   |   |  1|  3|
+kitty comes out with the ball .        |   |   |2  |   |   |   |   |   |  1|  3|
+now doggy and kitty are happy .        |   |   |2  |   |   |3  |   |   |  1|  6|
+One day the rabbit and the dog go to   |3  |   |1  |   |   |3  |   |   |  1|  8|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+The dog slips and gets boo-boo on the  |   |   |2 2|   |   |3  |   |   |  1|  8|
+    knee .                             |   |   |   |   |   |   |   |   |   |   |
+A nice lifeguard comes with a sticky   |   |   |2  |   |   |   |   |   |  1|  3|
+    bandage .                          |   |   |   |   |   |   |   |   |   |   |
+The dog sits on a bench and rests .    |   |   |2 2|   |   |3  |   |   |  1|  8|
+my friend has a red plane it's in the  |1  |1  |2 1|   |   |   |   |   |  1|  6|
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+the doggy took it balloon .            |1  |5  |2  |   |   |   |   |   |  1|  9|
+the plane's in the water .             |   |   |1  |   |   |   |   |   |  1|  2|
+she wants it back .                    |1  |2 5|2  |   |   |   |   |   |  1| 11|
+the lifeguard got a pole .             |   |   |2  |   |   |   |   |   |  1|  3|
+got the plane .                        |   |   |2  |   |   |   |   |   |  1|  3|
+now it's out .                         |1  |   |1  |   |   |   |   |   |  1|  3|
+my friend's happy .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+Rabbit and dog they built castle .     |   |3  |2  |   |   |3  |   |   |  1|  9|
+dog he throw [* m:03s:a] the bucket .  |   |2  |2  |   |   |   |   |   |  0|  4|
+rabbit she is sad .                    |   |2  |1  |   |   |   |   |   |  1|  4|
+she is crying .                        |   |2  |1 1|   |   |   |   |   |  1|  5|
+dog he says sorry .                    |   |2  |2  |   |   |   |   |   |  1|  5|
+rabbit and dog they fix it .           |1  |3 5|1  |   |   |3  |   |   |  1| 14|
+it's on .                              |1  |   |1  |   |   |   |   |   |  1|  3|
+what's that sound ?                    |   |6  |1  |   |   |   |   |2  |  1| 10|
+what's that sound in there ?           |   |6  |1  |   |   |   |   |2  |  1| 10|
+We went to the park with bunny and dog |   |3  |2  |   |   |3  |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+bunny and dog were so happy .          |   |   |2  |   |   |3 5|   |   |  1| 11|
+We got carrots and sandwiches .        |   |3  |2  |   |   |3  |   |   |  1|  9|
+We ate and ate .                       |   |3  |2 2|   |   |3  |   |   |  1| 11|
+One boy had too much .                 |3  |   |2  |   |   |   |   |   |  1|  6|
+He felt sick .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+He got dizzy .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+He lay [* m:base:ed] down on the       |   |2  |2  |   |   |   |   |   |  0|  4|
+    blanket .                          |   |   |   |   |   |   |   |   |   |   |
+He felt a little better .              |   |2  |2  |   |   |   |   |   |  1|  5|
+He sat up .                            |   |2  |2  |   |   |   |   |   |  1|  5|
+Then he went home to sleep .           |   |2  |2 1|   |   |   |   |   |  1|  6|
+Rabbit and dog , they pull wagon .     |   |3  |1  |   |   |3  |   |   |  1|  8|
+The balloon , it gets away .           |1  |   |2  |   |   |   |   |   |  1|  4|
+popped !                               |   |   |2  |   |   |   |   |   |  1|  3|
+Kids cry .                             |   |   |1  |   |   |   |   |   |  1|  2|
+They want another balloon .            |3  |3  |1  |   |   |   |   |   |  1|  8|
+They go to balloon man .               |   |3  |1  |   |   |   |   |   |  1|  5|
+He sells balloons .                    |   |2  |2  |   |   |   |   |   |  1|  5|
+Kids are happy !                       |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 16| 77| 81|  0|  0| 38|  0|  4| 41|257|
+WARNING: DSS requires 50 complete sentences and this transcript only has 43.
+
+Developmental sentence score:  5.98

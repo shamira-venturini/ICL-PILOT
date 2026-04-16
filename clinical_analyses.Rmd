@@ -1,0 +1,2562 @@
+---
+title: "clinical_analyses"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+# Packages
+#install.packages(c("dplyr", "lme4", "lmerTest", "purrr", "broom.mixed","rlang"))
+```
+
+```{r}
+library(dplyr)
+library(lme4)
+library(lmerTest)
+library(purrr)
+library(broom.mixed)
+library(rvest)
+library(ggplot2)
+library(emmeans)
+library(tidyr)
+```
+
+```{r}
+# Read data
+real <- read.csv(
+  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/severity_features_raw_real.csv",
+  check.names = FALSE
+)
+
+syn <- read.csv(
+  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/severity_features_raw_syn.csv",
+  check.names = FALSE
+)
+
+roster <- read.csv(
+  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/four_year_old_frozen_roster.csv",
+  check.names = FALSE
+)
+
+# -----------------------------
+# Prompt children used in each round
+# Source of truth here = syn metadata
+# -----------------------------
+prompt_map <- syn %>%
+  transmute(
+    round_id = as.character(round_id),
+    prompt_td_child_id = as.character(prompt_td_child_id),
+    prompt_sli_child_id = as.character(prompt_sli_child_id)
+  ) %>%
+  distinct() %>%
+  pivot_longer(
+    cols = c(prompt_td_child_id, prompt_sli_child_id),
+    names_to = "prompt_group",
+    values_to = "child_id"
+  ) %>%
+  filter(!is.na(child_id), child_id != "") %>%
+  mutate(
+    clinical_group = case_when(
+      prompt_group == "prompt_td_child_id"  ~ "TD",
+      prompt_group == "prompt_sli_child_id" ~ "SLI"
+    )
+  ) %>%
+  select(round_id, clinical_group, child_id) %>%
+  distinct()
+
+# -----------------------------
+# Standardize real pool
+# -----------------------------
+real_4yo <- real %>%
+  mutate(
+    File_ID = as.character(File_ID),
+    Age_Month = as.numeric(`Age(Month)`),
+    source = "real",
+    pair_id = NA_character_,
+    round_id = NA_character_,
+    clinical_group = case_when(
+      Group == "TD"  ~ "TD",
+      Group == "SLI" ~ "SLI",
+      TRUE ~ NA_character_
+    ),
+    comparison_target_group = clinical_group
+  ) %>%
+  filter(
+    !is.na(clinical_group),
+    Age_Month >= 48, Age_Month < 60
+  )
+
+# -----------------------------
+# Standardize synthetic pool
+# -----------------------------
+syn_4yo <- syn %>%
+  mutate(
+    File_ID = as.character(File_ID),
+    pair_id = as.character(pair_id),
+    round_id = as.character(round_id),
+    Age_Month = as.numeric(`Age(Month)`),
+    source = "synthetic",
+    clinical_group = case_when(
+      comparison_target_group == "TD"  ~ "TD",
+      comparison_target_group == "SLI" ~ "SLI",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(
+    !is.na(clinical_group),
+    Age_Month >= 48, Age_Month < 60
+  )
+
+# -----------------------------
+# Build fold-stacked held-out evaluation dataframe
+# For each round:
+# - real children are included only if they were NOT prompts in that round
+# - synthetic children come from that same round
+# -----------------------------
+rounds <- sort(unique(syn_4yo$round_id))
+
+df_4pop <- bind_rows(lapply(rounds, function(r) {
+  prompt_r <- prompt_map %>%
+    filter(round_id == r)
+
+  real_r <- real_4yo %>%
+    mutate(round_id = r) %>%
+    anti_join(
+      prompt_r,
+      by = c("File_ID" = "child_id", "clinical_group")
+    )
+
+  syn_r <- syn_4yo %>%
+    filter(round_id == r)
+
+  bind_rows(real_r, syn_r)
+})) %>%
+  filter(!is.na(Age_Month)) %>%
+  mutate(
+    source = factor(source, levels = c("real", "synthetic")),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI")),
+    population = factor(
+      paste(source, clinical_group, sep = "_"),
+      levels = c("real_TD", "synthetic_TD", "real_SLI", "synthetic_SLI")
+    ),
+    source_is_synthetic = if_else(source == "synthetic", 1L, 0L),
+    cluster_id = if_else(
+      source == "synthetic",
+      paste0("synthetic_", pair_id),
+      paste0("real_", File_ID)
+    ),
+    unit_id = cluster_id,
+    Age_c = Age_Month - mean(Age_Month, na.rm = TRUE)
+  )
+
+# Optional subsets
+df_td <- df_4pop %>% filter(clinical_group == "TD")
+df_sli <- df_4pop %>% filter(clinical_group == "SLI")
+
+# Quick checks
+table(df_4pop$source, df_4pop$clinical_group)
+table(df_4pop$round_id, df_4pop$population)
+summary(df_4pop$Age_Month)
+```
+# Linear Mixed Effects Models
+
+## Classic Measures
+
+### mlu
+```{r}
+m0_mlu <- lmer(
+  `MLU_Morphemes` ~ source_is_synthetic * clinical_group + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+) # do real vs syn and td vs sli differ? does the difference depend from clinical group?
+
+m1_mlu <- lmer(
+  `MLU_Morphemes` ~ source_is_synthetic * clinical_group + Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+) # do real vs syn and td vs sli differ? does the difference depend from clinical group? does mlu change with age overall?
+
+m2_mlu <- lmer(
+  `MLU_Morphemes` ~ source_is_synthetic * clinical_group + Age_c +
+    source_is_synthetic:Age_c + clinical_group:Age_c + factor(round_id) +
+    (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+) # do real vs syn and td vs sli differ? does the difference depend from clinical group? does mlu change with age overall? does age slope differ by source?
+
+m3_mlu <- lmer(
+  `MLU_Morphemes` ~ source_is_synthetic * clinical_group * Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+) # # do real vs syn and td vs sli differ? does the difference depend from clinical group? does mlu change with age overall? does age slope differ by source? does age slope differ jointly across both source and clinical group?
+
+anova(m0_mlu, m1_mlu, m2_mlu, m3_mlu)
+
+```
+
+```{r}
+summary(m1_mlu)
+```
+Synthetic transcript have higher mlu than real ones. SLI lower than TD. Magnitude of difference is the same between synthetic SLI and TD. mlu increases with age.
+
+* Intercept = predicted mlu for real TD in round 1 at mean age (centered)
+* source_is_synthetic = TD synthetic data are about 0.96 morphemes higher
+* clinical_groupSLI = real SLI is 1.76 morphemes lower
+* Age_c = mlu increases with age
+* source_is_synthetic:clinical_groupSLI = the difference between synthetic TD and SLI and real TD and SLI is not significant.
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# If not already present
+df_plot <- df_4pop %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(MLU_Morphemes), !is.na(population))
+
+# Estimated marginal means from the model
+emm <- emmeans(m1_mlu, ~ source_is_synthetic * clinical_group)
+emm_df <- as.data.frame(emm) %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+ggplot(df_plot, aes(x = population, y = MLU_Morphemes, color = population)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.28, size = 1.8) +
+  geom_pointrange(
+    data = emm_df,
+    aes(x = population, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9
+  ) +
+  labs(
+    x = NULL,
+    y = "MLU (Morphemes)"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+age_mean <- mean(df_4pop$Age_Month, na.rm = TRUE)
+
+df_plot <- df_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(MLU_Morphemes), !is.na(Age_c), !is.na(Age_Month_plot))
+
+age_grid <- seq(min(df_plot$Age_c), max(df_plot$Age_c), length.out = 100)
+
+emm_age <- emmeans(
+  m1_mlu,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(Age_c = age_grid)
+)
+
+pred_df <- as.data.frame(emm_age) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+ggplot(df_plot, aes(x = Age_Month_plot, y = MLU_Morphemes, color = population)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.25, size = 1.8) +
+  geom_line(
+    data = pred_df,
+    aes(y = emmean),
+    linewidth = 1.1
+  ) +
+  labs(
+    x = "Age (months)",
+    y = "MLU (Morphemes)",
+    color = NULL
+  ) +
+  theme_classic()
+```
+
+### lexical diversity
+
+calculates the diversity of a text by modelling how the Type-Token Ratio (TTR) changes as sample sizes increase.
+
+```{r}
+m0_vocd <- lmer(
+  VOCD_D_optimum_average ~ source_is_synthetic * clinical_group + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+m1_vocd <- lmer(
+  VOCD_D_optimum_average ~ source_is_synthetic * clinical_group + Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+m2_vocd <- lmer(
+  VOCD_D_optimum_average ~ source_is_synthetic * clinical_group + Age_c +
+    source_is_synthetic:Age_c + clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+) # exploratory model: do real vs syn and td vs sli differ? does the difference depend from clinical group? does mlu change with age overall? does age slope differ by source?
+
+m3_vocd <- lmer(
+  VOCD_D_optimum_average ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+anova(m0_vocd, m1_vocd, m2_vocd, m3_vocd)
+```
+```{r}
+summary(m1_vocd)  # main model - do real vs syn and td vs sli differ? does the difference depend from clinical group? does mlu change with age overall?
+```
+In the real data, SLI has lower lexical diversity than TD. In the synthetic data, lexical diversity is inflated for both groups, but especially for SLI, so the real TD–SLI difference is greatly reduced or effectively erased.
+
+* Intercept = predicted lexical diversity for real TD in round 1 at mean age (centered)
+* source_is_synthetic = TD synthetic data have a much higher lexical diversity than real transcripts.
+* clinical_groupSLI = real SLI is 8.88 points lower than TD
+* Age_c = lexical diversity increases with age
+* source_is_synthetic:clinical_groupSLI = the synthetic-real difference is even larger in SLI than in TD.
+
+```{r}
+library(emmeans)
+
+# Estimated marginal means at mean age, averaged over round
+emm_vocd <- emmeans(
+  m1_vocd,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_vocd
+```
+```{r}
+pairs(
+  emmeans(
+    m1_vocd,
+    ~ source_is_synthetic | clinical_group,
+    at = list(source_is_synthetic = c(0, 1))
+  ),
+  infer = c(TRUE, TRUE),
+  adjust = "none"
+)
+```
+* real vs synthetic TD extremely different.
+* real vs synthetic SLI extremely different.
+
+```{r}
+pairs(
+  emmeans(
+    m1_vocd,
+    ~ clinical_group | source_is_synthetic,
+    at = list(source_is_synthetic = c(0, 1))
+  ),
+  infer = c(TRUE, TRUE),
+  adjust = "none"
+)
+```
+* significant difference between real TD and SLI.
+* no difference between synthetic TD and SLI.
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+emm_vocd_df <- as.data.frame(emm_vocd) %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+df_plot <- df_4pop %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(VOCD_D_optimum_average))
+
+ggplot(df_plot, aes(x = population, y = VOCD_D_optimum_average, color = population)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.20, size = 1.7) +
+  geom_pointrange(
+    data = emm_vocd_df,
+    aes(y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = TRUE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  labs(
+    x = NULL,
+    y = "VOCD-D"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+```{r}
+df_4pop %>%
+  mutate(
+    population = paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group)
+  ) %>%
+  group_by(population) %>%
+  summarise(
+    raw_mean = mean(VOCD_D_optimum_average, na.rm = TRUE),
+    raw_sd = sd(VOCD_D_optimum_average, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  )
+```
+Real SLI much lower than TD. Synthetic no difference.
+
+```{r}
+summary(m2_vocd)
+```
+
+* vocd-d rises with age for real TD and even more for SLI
+* flat for synthetic TD and rises a little bit for SLI
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Mean age used to convert centered age back to months for plotting
+age_mean <- mean(df_4pop$Age_Month, na.rm = TRUE)
+
+# Raw data for plotting
+df_plot <- df_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(
+    !is.na(VOCD_D_optimum_average),
+    !is.na(Age_c),
+    !is.na(Age_Month_plot)
+  )
+
+# Age grid for predictions
+age_grid <- seq(
+  min(df_plot$Age_c, na.rm = TRUE),
+  max(df_plot$Age_c, na.rm = TRUE),
+  length.out = 100
+)
+
+# Model-based predictions from m2_vocd
+emm_age <- emmeans(
+  m2_vocd,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(
+    source_is_synthetic = c(0, 1),
+    Age_c = age_grid
+  )
+)
+
+pred_df <- as.data.frame(emm_age) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# Plot
+ggplot(df_plot, aes(x = Age_Month_plot, y = VOCD_D_optimum_average, color = source_label)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.18, size = 1.6) +
+  geom_line(
+    data = pred_df,
+    aes(x = Age_Month_plot, y = emmean, color = source_label),
+    linewidth = 1.1,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Age (months)",
+    y = "VOCD-D",
+    color = "Source"
+  ) +
+  theme_classic()
+```
+source_is_synthetic:age is not significant, so the downward slope of TD is to interpret cautiously.
+
+### developmental sentence score
+
+```{r}
+m0_dss <- lmer(
+  DSS_tbl_score ~ source_is_synthetic * clinical_group + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+m1_dss <- lmer(
+  DSS_tbl_score ~ source_is_synthetic * clinical_group + Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+m2_dss <- lmer(
+  DSS_tbl_score ~ source_is_synthetic * clinical_group + Age_c +
+    source_is_synthetic:Age_c + clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+m3_dss <- lmer(
+  DSS_tbl_score ~ source_is_synthetic * clinical_group * Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop, REML = FALSE
+)
+
+anova(m0_dss, m1_dss, m2_dss, m3_dss)
+```
+
+```{r}
+summary(m1_dss)
+```
+Synthetic transcripts have lower DSS than real ones. SLI < TD. DSS increases with age. synthetic vs real gap smaller in SLI than TD (only marginally significant). The synthetic data do not erase the clinical-group difference; they preserve it fairly well.
+
+* Intercept = Predicted DSS for real TD in round 01 at mean age.
+* source_is_synthetic = In the TD group, synthetic transcripts are about 0.95 DSS points lower than real transcripts.
+* clinical_groupSLI = Among real transcripts, SLI is about 1.87 DSS points lower than TD.
+* Age_c = DSS increases with age.
+* source_is_synthetic:clinical_groupSLI = This suggests the synthetic penalty may be less negative in SLI than in TD, but the evidence is weak.
+
+```{r}
+# Adjusted means from the retained model
+emm_dss <- emmeans(
+  m1_dss,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_dss_df <- as.data.frame(emm_dss) %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+# Raw data for plotting
+df_plot <- df_4pop %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(DSS_tbl_score), !is.na(population))
+
+# Plot
+ggplot(df_plot, aes(x = population, y = DSS_tbl_score, color = population)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_dss_df,
+    aes(x = population, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  labs(
+    x = NULL,
+    y = "DSS"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+age_mean <- mean(df_4pop$Age_Month, na.rm = TRUE)
+
+df_age_plot <- df_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(DSS_tbl_score), !is.na(Age_c), !is.na(Age_Month_plot))
+
+age_grid <- seq(
+  min(df_age_plot$Age_c, na.rm = TRUE),
+  max(df_age_plot$Age_c, na.rm = TRUE),
+  length.out = 100
+)
+
+emm_age <- emmeans(
+  m1_dss,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(
+    source_is_synthetic = c(0, 1),
+    Age_c = age_grid
+  )
+)
+
+pred_df <- as.data.frame(emm_age) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+ggplot(df_age_plot, aes(x = Age_Month_plot, y = DSS_tbl_score, color = population)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.18, size = 1.6) +
+  geom_line(
+    data = pred_df,
+    aes(x = Age_Month_plot, y = emmean, color = population),
+    linewidth = 1.1
+  ) +
+  labs(
+    x = "Age (months)",
+    y = "DSS",
+    color = NULL
+  ) +
+  theme_classic()
+```
+* all groups dss increase with age
+* main difference is in the distance between real and synthetic TD, not different developmental slopes.
+
+```{r}
+summary(m2_dss)
+```
+The model seems to indicate that there is some evidence that DSS increases more slowly with age in SLI than TD:
+
+* TD shows a steeper age-related increase in DSS
+* SLI shows a shallower increase
+* real and synthetic are very similar in slope
+
+## Productive Morphology
+### past over-generalisation
+
+Overgeneralization is primarily a developmental phenomenon tied to productive morphology. These errors appear after acquisition of regular past tense is completed. In SLI/DLD, the better-established clinical pattern is reduced tense marking and increased zero-marking, not necessarily increased overgeneralization. They lag behind past acquisition therefore, they do not yet showcase this error pattern.
+
+Given a past-tense opportunity, what is the probability of producing an overgeneralized past form?
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+# Read DEV data
+real_dev <- read.csv(
+  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/dev_measures.csv",
+  check.names = FALSE
+)
+
+syn_dev <- read.csv(
+  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/dev_measures.csv",
+  check.names = FALSE
+)
+
+# Use existing synthetic metadata to recover round-specific prompt children.
+# If `syn` is already in memory from your previous cell, use that.
+# Otherwise fall back to syn_dev if it also contains the prompt columns.
+prompt_source <- if (exists("syn")) syn else syn_dev
+
+prompt_map <- prompt_source %>%
+  transmute(
+    round_id = as.character(round_id),
+    prompt_td_child_id = as.character(prompt_td_child_id),
+    prompt_sli_child_id = as.character(prompt_sli_child_id)
+  ) %>%
+  distinct() %>%
+  pivot_longer(
+    cols = c(prompt_td_child_id, prompt_sli_child_id),
+    names_to = "prompt_group",
+    values_to = "child_id"
+  ) %>%
+  filter(!is.na(child_id), child_id != "") %>%
+  mutate(
+    clinical_group = case_when(
+      prompt_group == "prompt_td_child_id"  ~ "TD",
+      prompt_group == "prompt_sli_child_id" ~ "SLI"
+    )
+  ) %>%
+  select(round_id, clinical_group, child_id) %>%
+  distinct()
+
+# Real DEV pool
+real_dev_4yo <- real_dev %>%
+  mutate(
+    File_ID = as.character(File_ID),
+    Age_Month = as.numeric(`Age(Month)`),
+    source = "real",
+    pair_id = NA_character_,
+    round_id = NA_character_,
+    clinical_group = case_when(
+      Group == "TD"  ~ "TD",
+      Group == "SLI" ~ "SLI",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(
+    !is.na(clinical_group),
+    Age_Month >= 48, Age_Month < 60
+  )
+
+# Synthetic DEV pool
+syn_dev_4yo <- syn_dev %>%
+  mutate(
+    pair_id = as.character(pair_id),
+    round_id = as.character(round_id),
+    Age_Month = as.numeric(`Age(Month)`),
+    source = "synthetic",
+    clinical_group = case_when(
+      comparison_target_group == "TD"  ~ "TD",
+      comparison_target_group == "SLI" ~ "SLI",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(
+    !is.na(clinical_group),
+    Age_Month >= 48, Age_Month < 60
+  )
+
+# Build fold-stacked held-out DEV dataframe
+rounds <- sort(unique(syn_dev_4yo$round_id))
+
+df_dev_4pop <- bind_rows(lapply(rounds, function(r) {
+  prompt_r <- prompt_map %>%
+    filter(round_id == r)
+
+  real_r <- real_dev_4yo %>%
+    mutate(round_id = r) %>%
+    anti_join(
+      prompt_r,
+      by = c("File_ID" = "child_id", "clinical_group")
+    )
+
+  syn_r <- syn_dev_4yo %>%
+    filter(round_id == r)
+
+  bind_rows(real_r, syn_r)
+})) %>%
+  mutate(
+    source = factor(source, levels = c("real", "synthetic")),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI")),
+    source_is_synthetic = if_else(source == "synthetic", 1L, 0L),
+    cluster_id = if_else(
+      source == "synthetic",
+      paste0("synthetic_", round_id, "_", pair_id),
+      paste0("real_", File_ID)
+    ),
+    Age_c = Age_Month - mean(Age_Month, na.rm = TRUE)
+  ) %>%
+  filter(
+    !is.na(past_overgeneralization_errors),
+    !is.na(past_verb_opportunities),
+    past_verb_opportunities > 0
+  )
+
+# Quick checks
+table(df_dev_4pop$source, df_dev_4pop$clinical_group)
+summary(df_dev_4pop$past_overgeneralization_errors)
+summary(df_dev_4pop$past_verb_opportunities)
+
+```
+```{r}
+m0_overgen <- glmer(
+  cbind(past_overgeneralization_errors,
+        past_verb_opportunities - past_overgeneralization_errors) ~
+    source_is_synthetic * clinical_group + factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  family = binomial,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
+) # Does the probability of past overgeneralization differ by source (real vs synthetic), by clinical group (TD vs SLI), and by the source-by-group combination, after controlling for round and repeated observations?
+
+m1_overgen <- glmer(
+  cbind(past_overgeneralization_errors,
+        past_verb_opportunities - past_overgeneralization_errors) ~
+    source_is_synthetic * clinical_group + Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  family = binomial,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
+) # Does the probability of past overgeneralization change with age overall?
+
+m2_overgen <- glmer(
+  cbind(past_overgeneralization_errors,
+        past_verb_opportunities - past_overgeneralization_errors) ~
+    source_is_synthetic * clinical_group + Age_c +
+    source_is_synthetic:Age_c + clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  family = binomial,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
+) # Do real and synthetic data show different age slopes, or do TD and SLI show different age slopes?
+
+m3_overgen <- glmer(
+  cbind(past_overgeneralization_errors,
+        past_verb_opportunities - past_overgeneralization_errors) ~
+    source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  family = binomial,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5))
+) # Is the developmental pattern of past overgeneralization across age and clinical group reproduced differently in synthetic versus real data?
+
+anova(m0_overgen, m1_overgen, m2_overgen, m3_overgen, test = "Chisq")
+```
+```{r}
+summary(m3_overgen)
+```
+The predicted probabilities were low overall, but they were substantially lower in the synthetic data than in the real data. That fits the literature too: overgeneralization is a real developmental phenomenon, but in spontaneous language samples it is usually infrequent, not something that happens constantly.
+
+Past over-generalisation is much rarer in the synthetic data, especially TD. Real TD > SLI. At mean age, the model estimates lower past overgeneralization in real SLI than in real TD, but this baseline group difference is not statistically significant on its own, and the full model indicates that group differences vary with age and source. The relationship between overgeneralization, age, and clinical group is different in the synthetic data than in the real data. The main signal is about mismatch between real and synthetic developmental patterns, not a simple diagnostic-group difference inside the real data alone.
+
+Probabilities of producing an overegeneralised past tense at mean age:
+
+* Real TD: about 5.1%
+* Real SLI: about 2.5%
+* Synthetic SLI: about 1.4%
+* Synthetic TD: about 0.1%
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Raw observed rate for plotting
+age_mean <- mean(df_dev_4pop$Age_Month, na.rm = TRUE)
+
+df_plot <- df_dev_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    observed_rate = past_overgeneralization_errors / past_verb_opportunities,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(
+    !is.na(observed_rate),
+    !is.na(Age_Month_plot),
+    !is.na(source_label),
+    !is.na(clinical_group)
+  )
+
+# Prediction grid on response scale
+age_grid <- seq(
+  min(df_plot$Age_c, na.rm = TRUE),
+  max(df_plot$Age_c, na.rm = TRUE),
+  length.out = 100
+)
+
+emm_overgen <- emmeans(
+  m3_overgen,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(
+    source_is_synthetic = c(0, 1),
+    Age_c = age_grid
+  ),
+  type = "response"
+)
+
+pred_df <- as.data.frame(emm_overgen) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# Plot
+ggplot(df_plot, aes(x = Age_Month_plot, y = observed_rate, color = source_label)) +
+  geom_jitter(
+    aes(size = past_verb_opportunities),
+    width = 0.15, height = 0.005, alpha = 0.18
+  ) +
+  geom_line(
+    data = pred_df,
+    aes(x = Age_Month_plot, y = prob, color = source_label),
+    linewidth = 1.2,
+    inherit.aes = FALSE
+  ) +
+  geom_ribbon(
+    data = pred_df,
+    aes(x = Age_Month_plot, ymin = asymp.LCL, ymax = asymp.UCL, fill = source_label),
+    alpha = 0.12,
+    color = NA,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Age (months)",
+    y = "Predicted probability of past overgeneralization",
+    color = "Source",
+    fill = "Source",
+    size = "Past opportunities"
+  ) +
+  theme_classic()
+```
+The synthetic data strongly under-produce past over-generalization, and the age pattern differs from the real data, especially across TD and SLI. In the real data these errors decline with age. The pattern of synthetic data is closer to floor effect.
+
+### non-finiteness
+
+```{r}
+library(lme4)
+library(lmerTest)
+
+m0_bare <- lmer(
+  bare_marking_errors_per_word ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+) # Does nonfiniteness differ by source, by clinical group, and by their interaction?
+
+m1_bare <- lmer(
+  bare_marking_errors_per_word ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_bare <- lmer(
+  bare_marking_errors_per_word ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_bare <- lmer(
+  bare_marking_errors_per_word ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_bare, m1_bare, m2_bare, m3_bare)
+```
+```{r}
+summary(m0_bare)
+```
+Main differences are about groups not developmental slopes.
+Bare marking errors are low in the real data, but much higher in the synthetic data, especially for SLI. The generation model appears to overgenerate nonfinite/bare-marked words, and it does so especially strongly for SLI.
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+emm_bare <- emmeans(
+  m1_bare,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_bare_df <- as.data.frame(emm_bare) %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+df_plot <- df_4pop %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(bare_marking_errors_per_word))
+
+ggplot(df_plot, aes(x = population, y = bare_marking_errors_per_word, color = population)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_bare_df,
+    aes(x = population, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  labs(
+    x = NULL,
+    y = "Bare marking errors per word"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+### agreement
+```{r}
+m0_agr <- lmer(
+  agreement_errors_per_word ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m1_agr <- lmer(
+  agreement_errors_per_word ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_agr <- lmer(
+  agreement_errors_per_word ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_agr <- lmer(
+  agreement_errors_per_word ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_agr, m1_agr, m2_agr, m3_agr)
+```
+
+```{r}
+summary(m0_agr)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Adjusted means from the retained model
+emm_agr <- emmeans(
+  m0_agr,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_agr_df <- as.data.frame(emm_agr) %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+# Raw data
+df_plot <- df_4pop %>%
+  mutate(
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  ) %>%
+  filter(!is.na(agreement_errors_per_word), !is.na(population))
+
+# Plot
+ggplot(df_plot, aes(x = population, y = agreement_errors_per_word, color = population)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_agr_df,
+    aes(x = population, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  labs(
+    x = NULL,
+    y = "Agreement errors per word"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+The synthetic data inflate morphosyntactic error rates, and the inflation is especially strong for SLI.
+
+## Usage Measures
+### auxiliaries
+```{r}
+m0_auxcop <- lmer(
+  Syntax_AuxCop_Utt_Prop ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m1_auxcop <- lmer(
+  Syntax_AuxCop_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_auxcop <- lmer(
+  Syntax_AuxCop_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_auxcop <- lmer(
+  Syntax_AuxCop_Utt_Prop ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_auxcop, m1_auxcop, m2_auxcop, m3_auxcop)
+```
+```{r}
+summary(m1_auxcop)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Adjusted means from the primary model
+emm_auxcop <- emmeans(
+  m1_auxcop,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_auxcop_df <- as.data.frame(emm_auxcop) %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# Raw data
+df_plot <- df_4pop %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(!is.na(Syntax_AuxCop_Utt_Prop))
+
+# Plot
+ggplot(df_plot, aes(x = source_label, y = Syntax_AuxCop_Utt_Prop, color = source_label)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_auxcop_df,
+    aes(x = source_label, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Source",
+    y = "Aux/Cop utterance proportion"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+Looks consistently similar.
+
+```{r}
+summary(m2_auxcop)
+```
+
+```{r}
+
+age_mean <- mean(df_4pop$Age_Month, na.rm = TRUE)
+
+df_age_plot <- df_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(
+    !is.na(Syntax_AuxCop_Utt_Prop),
+    !is.na(Age_c),
+    !is.na(Age_Month_plot)
+  )
+
+age_grid <- seq(
+  min(df_age_plot$Age_c, na.rm = TRUE),
+  max(df_age_plot$Age_c, na.rm = TRUE),
+  length.out = 100
+)
+
+emm_age <- emmeans(
+  m2_auxcop,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(
+    source_is_synthetic = c(0, 1),
+    Age_c = age_grid
+  )
+)
+
+pred_df <- as.data.frame(emm_age) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+ggplot(df_age_plot, aes(x = Age_Month_plot, y = Syntax_AuxCop_Utt_Prop, color = source_label)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.18, size = 1.6) +
+  geom_line(
+    data = pred_df,
+    aes(x = Age_Month_plot, y = emmean, color = source_label),
+    linewidth = 1.1,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Age (months)",
+    y = "Aux/Cop utterance proportion",
+    color = "Source"
+  ) +
+  theme_classic()
+```
+Looks consistently similar.
+
+### determiners
+
+```{r}
+df_dev_4pop <- df_dev_4pop %>%
+  mutate(
+    det_art_per_utt = `det:art` / `#utterances`
+  )
+```
+
+```{r}
+m0_detuse <- lmer(
+  det_art_per_utt ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  REML = FALSE
+)
+
+m1_detuse <- lmer(
+  det_art_per_utt ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  REML = FALSE
+)
+
+m2_detuse <- lmer(
+  det_art_per_utt ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  REML = FALSE
+)
+
+m3_detuse <- lmer(
+  det_art_per_utt ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_dev_4pop,
+  REML = FALSE
+)
+
+anova(m0_detuse, m1_detuse, m2_detuse, m3_detuse)
+```
+```{r}
+summary(m0_detuse)
+```
+Synthetic transcripts use more determiners per utterance than real transcripts
+SLI transcripts use fewer determiners per utterance than TD transcripts
+the synthetic boost is larger in SLI than in TD
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Create emmeans object from the retained model
+emm_detuse <- emmeans(
+  m0_detuse,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_detuse_df <- as.data.frame(emm_detuse) %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+df_plot <- df_dev_4pop %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(!is.na(det_art_per_utt))
+
+ggplot(df_plot, aes(x = source_label, y = det_art_per_utt, color = source_label)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_detuse_df,
+    aes(x = source_label, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Source",
+    y = "Determiner tokens per utterance"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+```{r}
+summary(m2_detuse)
+```
+Determiner usage per utterance was lower in SLI than TD in the real data, but synthetic transcripts used determiners more often overall, with an especially large increase for SLI. This suggests that the synthetic data inflate determiner usage and partly reduce the real clinical-group difference.
+
+```{r}
+library(emmeans)
+
+age_mean <- mean(df_dev_4pop$Age_Month, na.rm = TRUE)
+
+df_age_plot <- df_dev_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(
+    !is.na(det_art_per_utt),
+    !is.na(Age_c),
+    !is.na(Age_Month_plot)
+  )
+
+age_grid <- seq(
+  min(df_age_plot$Age_c, na.rm = TRUE),
+  max(df_age_plot$Age_c, na.rm = TRUE),
+  length.out = 100
+)
+
+emm_age <- emmeans(
+  m2_detuse,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(
+    source_is_synthetic = c(0, 1),
+    Age_c = age_grid
+  )
+)
+
+pred_df <- as.data.frame(emm_age) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+ggplot(df_age_plot, aes(x = Age_Month_plot, y = det_art_per_utt, color = source_label)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.18, size = 1.6) +
+  geom_line(
+    data = pred_df,
+    aes(x = Age_Month_plot, y = emmean, color = source_label),
+    linewidth = 1.1,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Age (months)",
+    y = "Determiner tokens per utterance",
+    color = "Source"
+  ) #+
+  theme_classic()
+```
+
+## Syntax
+
+### Syntax_Mean_TreeDepth (average dependency tree depth)
+How often does any subordinate structure appear at all?
+
+```{r }
+m0_mtd <- lmer(
+  Syntax_Mean_TreeDepth ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m1_mtd <- lmer(
+  Syntax_Mean_TreeDepth ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_mtd <- lmer(
+  Syntax_Mean_TreeDepth ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_mtd <- lmer(
+  Syntax_Mean_TreeDepth ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_mtd, m1_mtd, m2_mtd, m3_mtd)
+
+```
+
+
+```{r}
+summary(m1_mtd)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Adjusted means from the retained model
+emm_mtd <- emmeans(
+  m1_mtd,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_mtd_df <- as.data.frame(emm_mtd) %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# Raw data
+df_plot <- df_4pop %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(!is.na(Syntax_Mean_TreeDepth))
+
+# Plot
+ggplot(df_plot, aes(x = source_label, y = Syntax_Mean_TreeDepth, color = source_label)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_mtd_df,
+    aes(x = source_label, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Source",
+    y = "Mean tree depth"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+synthetic transcripts have deeper syntactic structure than real. TD > SLI. No apparent difference within sources.
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+age_mean <- mean(df_4pop$Age_Month, na.rm = TRUE)
+
+df_age_plot <- df_4pop %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(
+    !is.na(Syntax_Mean_TreeDepth),
+    !is.na(Age_c),
+    !is.na(Age_Month_plot)
+  )
+
+age_grid <- seq(
+  min(df_age_plot$Age_c, na.rm = TRUE),
+  max(df_age_plot$Age_c, na.rm = TRUE),
+  length.out = 100
+)
+
+emm_age <- emmeans(
+  m1_mtd,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(
+    source_is_synthetic = c(0, 1),
+    Age_c = age_grid
+  )
+)
+
+pred_df <- as.data.frame(emm_age) %>%
+  mutate(
+    Age_Month_plot = Age_c + age_mean,
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+ggplot(df_age_plot, aes(x = Age_Month_plot, y = Syntax_Mean_TreeDepth, color = source_label)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.18, size = 1.6) +
+  geom_line(
+    data = pred_df,
+    aes(x = Age_Month_plot, y = emmean, color = source_label),
+    linewidth = 1.1,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Age (months)",
+    y = "Mean tree depth",
+    color = "Source"
+  ) +
+  theme_classic()
+```
+Synthetic transcripts appeared to contain greater hierarchical syntactic depth, but this increase in structural complexity was not accompanied by higher developmental morphosyntactic scores; if anything, DSS was slightly lower in the synthetic data.
+
+### Syntax_ComplexNP_Utt_Prop
+
+How deep is the dependency structure on average?
+
+```{r}
+m0_cnp <- lmer(
+  Syntax_ComplexNP_Utt_Prop ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m1_cnp <- lmer(
+  Syntax_ComplexNP_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_cnp <- lmer(
+  Syntax_ComplexNP_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_cnp <- lmer(
+  Syntax_ComplexNP_Utt_Prop ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_cnp, m1_cnp, m2_cnp, m3_cnp)
+```
+
+```{r}
+summary(m0_cnp)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Adjusted means from the retained model
+emm_cnp <- emmeans(
+  m0_cnp,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_cnp_df <- as.data.frame(emm_cnp) %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# Raw data
+df_plot <- df_4pop %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(!is.na(Syntax_ComplexNP_Utt_Prop))
+
+# Plot
+ggplot(df_plot, aes(x = source_label, y = Syntax_ComplexNP_Utt_Prop, color = source_label)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_cnp_df,
+    aes(x = source_label, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Source",
+    y = "Complex NP utterance proportion"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+synthetic transcripts present higher NP complexity than the real ones.
+
+### Syntax_Subordination_Utt_Prop
+number of utterances containing subordination / number of analyzed utterances
+```{r}
+m0_sub <- lmer(
+  Syntax_Subordination_Utt_Prop ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m1_sub <- lmer(
+  Syntax_Subordination_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_sub <- lmer(
+  Syntax_Subordination_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_sub <- lmer(
+  Syntax_Subordination_Utt_Prop ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_sub, m1_sub, m2_sub, m3_sub)
+```
+```{r}
+summary(m1_sub)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(emmeans)
+
+# Adjusted means from the retained model
+emm_sub <- emmeans(
+  m1_sub,
+  ~ source_is_synthetic * clinical_group,
+  at = list(source_is_synthetic = c(0, 1))
+)
+
+emm_sub_df <- as.data.frame(emm_sub) %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# Raw data
+df_plot <- df_4pop %>%
+  mutate(
+    source_label = factor(
+      source_is_synthetic,
+      levels = c(0, 1),
+      labels = c("Real", "Synthetic")
+    ),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  ) %>%
+  filter(!is.na(Syntax_Subordination_Utt_Prop))
+
+# Plot
+ggplot(df_plot, aes(x = source_label, y = Syntax_Subordination_Utt_Prop, color = source_label)) +
+  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
+  geom_jitter(width = 0.10, alpha = 0.22, size = 1.7) +
+  geom_pointrange(
+    data = emm_sub_df,
+    aes(x = source_label, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    inherit.aes = FALSE,
+    linewidth = 0.9,
+    color = "black"
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Source",
+    y = "Subordination utterance proportion"
+  ) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+```{r}
+library(emmeans)
+
+pairs(
+  emmeans(
+    m1_sub,
+    ~ source_is_synthetic | clinical_group,
+    at = list(source_is_synthetic = c(0, 1))
+  ),
+  infer = c(TRUE, TRUE),
+  adjust = "none"
+)
+```
+### Syntax_Subject_Utt_Prop
+```{r}
+m0_subj <- lmer(
+  Syntax_Subject_Utt_Prop ~ source_is_synthetic * clinical_group +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m1_subj <- lmer(
+  Syntax_Subject_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c + factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m2_subj <- lmer(
+  Syntax_Subject_Utt_Prop ~ source_is_synthetic * clinical_group +
+    Age_c +
+    source_is_synthetic:Age_c +
+    clinical_group:Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+m3_subj <- lmer(
+  Syntax_Subject_Utt_Prop ~ source_is_synthetic * clinical_group * Age_c +
+    factor(round_id) + (1 | cluster_id),
+  data = df_4pop,
+  REML = FALSE
+)
+
+anova(m0_subj, m1_subj, m2_subj, m3_subj)
+```
+```{r}
+summary(m2_subj)
+```
+```{r}
+library(ggplot2)
+library(dplyr)
+library(emmeans)
+
+# EMMs for m2_subj across observed age range
+age_grid <- with(df_4pop, seq(min(Age_c, na.rm = TRUE), max(Age_c, na.rm = TRUE), length.out = 100))
+
+emm_subj <- emmeans(
+  m2_subj,
+  ~ source_is_synthetic * clinical_group * Age_c,
+  at = list(Age_c = age_grid)
+)
+
+emm_subj_df <- as.data.frame(emm_subj) %>%
+  mutate(
+    source = ifelse(source_is_synthetic == 1, "Synthetic", "Real"),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+# raw data with nicer labels
+plot_df <- df_4pop %>%
+  mutate(
+    source = ifelse(source_is_synthetic == 1, "Synthetic", "Real"),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+ggplot(plot_df, aes(x = Age_Month, y = Syntax_Subject_Utt_Prop, color = source)) +
+  geom_jitter(width = 0.25, height = 0, alpha = 0.22, size = 1.4) +
+  geom_ribbon(
+    data = emm_subj_df,
+    aes(
+      x = Age_c + mean(df_4pop$Age_Month, na.rm = TRUE),
+      y = emmean,
+      ymin = lower.CL,
+      ymax = upper.CL,
+      fill = source
+    ),
+    alpha = 0.18,
+    colour = NA,
+    inherit.aes = FALSE
+  ) +
+  geom_line(
+    data = emm_subj_df,
+    aes(
+      x = Age_c + mean(df_4pop$Age_Month, na.rm = TRUE),
+      y = emmean,
+      color = source
+    ),
+    linewidth = 1.2,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  scale_color_manual(values = c("Real" = "#1b9e77", "Synthetic" = "#d95f02")) +
+  scale_fill_manual(values = c("Real" = "#1b9e77", "Synthetic" = "#d95f02")) +
+  labs(
+    x = "Age (months)",
+    y = "Proportion of utterances with a subject",
+    color = "Source",
+    fill = "Source",
+    title = "Subject expression by age, source, and clinical group"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    legend.position = "top",
+    panel.grid.minor = element_blank()
+  )
+```
+```{r}
+emm_subj_means <- emmeans(m2_subj, ~ source_is_synthetic * clinical_group)
+
+emm_subj_means_df <- as.data.frame(emm_subj_means) %>%
+  mutate(
+    source = ifelse(source_is_synthetic == 1, "Synthetic", "Real"),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI"))
+  )
+
+ggplot(plot_df, aes(x = source, y = Syntax_Subject_Utt_Prop, color = source)) +
+  geom_jitter(width = 0.15, height = 0, alpha = 0.20, size = 1.4) +
+  geom_pointrange(
+    data = emm_subj_means_df,
+    aes(x = source, y = emmean, ymin = lower.CL, ymax = upper.CL),
+    colour = "black",
+    size = 0.6,
+    inherit.aes = FALSE
+  ) +
+  facet_wrap(~ clinical_group) +
+  labs(
+    x = "Source",
+    y = "Proportion of utterances with a subject",
+    title = "Subject expression by source and clinical group"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    legend.position = "none",
+    panel.grid.minor = element_blank()
+  )
+```
+In the real data, children with SLI produce subjects in a much smaller proportion of utterances than TD children—about 30 percentage points lower at mean age. Subject use increases with age in both groups, but the increase is steeper in SLI, suggesting some developmental catch-up. In the synthetic data, subject use is inflated especially for SLI: synthetic SLI transcripts contain far more subject-bearing utterances than real SLI transcripts, which substantially reduces the real TD–SLI gap.
+
+
+## Summary
+
+The clearest high-level conclusion is that the synthetic data do not fail in just one way. They show different distortions for different linguistic domains. On broad productivity, synthetic transcripts are more verbose or denser in some respects: MLU is higher in synthetic than real, SLI is lower than TD, and age increases MLU, but the TD–SLI separation is broadly preserved.  On lexical diversity, though, the distortion is much stronger: real SLI is much lower than real TD, but synthetic SLI is pushed up to the same level as synthetic TD, effectively flattening a clinically meaningful difference. 
+For developmental grammar, DSS tells a different story from VOCD-D. Synthetic transcripts are slightly lower than real ones on DSS, SLI is lower than TD, and DSS increases with age; the source-by-group interaction is only weak, so the TD–SLI difference is still broadly preserved. That means the synthetic data do not simply look globally “better” or “worse” than real data. They look richer on some measures and poorer on others. 
+The productive-morphology results are especially informative. Past overgeneralization is rare overall, as expected in spontaneous speech, but it is pushed almost to floor in the synthetic data, especially for TD, and the age-by-group pattern differs between real and synthetic transcripts. In other words, the generator underproduces a normal developmental error pattern rather than reproducing it faithfully.  By contrast, nonfiniteness-related error measures go in the opposite direction: bare-marking errors and agreement errors are both much higher in the synthetic data, especially for synthetic SLI, suggesting that the generator overcreates morphosyntactic errorfulness in that group.  Determiner usage per utterance also shows a strong distortion: real SLI uses determiners much less than real TD, but synthetic SLI is boosted upward, partially narrowing the real clinical gap. 
+The syntax results are more mixed, but again interpretable. Mean tree depth and complex NP proportion are both higher in synthetic than real transcripts, while SLI remains lower than TD; there is no strong interaction, so the basic group ordering is preserved even though the synthetic data are structurally denser overall.  Subordination behaves more conservatively: SLI is lower than TD, subordination increases with age, and there is no strong real-versus-synthetic difference.  So the synthetic data seem to increase structural depth more than they increase developmentally appropriate syntax.
+If I had to reduce the whole PDF to one thesis sentence, it would be this:
+The synthetic transcripts often preserve broad developmental ordering, but they do not preserve the linguistic profile faithfully: they inflate lexical richness and structural density, suppress normal developmental error patterns like past overgeneralization, and exaggerate morphosyntactic error rates—especially in SLI.
+
+Take-home points:
+
+
+first, measures where synthetic data mostly preserve the real group structure while shifting level: MLU, DSS, mean tree depth, complex NP proportion
+
+
+second, measures where synthetic data distort clinically meaningful contrasts: VOCD-D, determiner usage
+
+
+third, error-pattern measures showing opposite failures: past overgeneralization too low, bare/agreement errors too high, especially in synthetic SLI.
+
+
+A strong discussion paragraph could be built around the contrast between “deeper syntax without better grammar” and “richer vocabulary without realistic clinical separation.”
+
+
+# Principal Component Analysis
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(tibble)
+
+# -----------------------------
+# 1) Build an independent transcript-level dataset
+# -----------------------------
+# real children: one row per child
+real_unique <- real_4yo %>%
+  distinct(File_ID, .keep_all = TRUE)
+
+syn_unique <- syn_4yo %>%
+  distinct(File_ID, .keep_all = TRUE)   # or just syn_4yo
+
+pca_base <- bind_rows(real_unique, syn_unique) %>%
+  mutate(
+    source = factor(source, levels = c("real", "synthetic")),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI")),
+    source_is_synthetic = if_else(source == "synthetic", 1L, 0L),
+    population = factor(
+      paste(ifelse(source_is_synthetic == 1, "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+table(pca_base$population)
+
+# -----------------------------
+# 2) Exclude metadata / IDs / obvious non-features
+# -----------------------------
+exclude_vars <- c(
+  "bundle_id", "pair_id", "round_id", "replicate_id", "source", "stage",
+  "comparison_target_group", "evaluation_pool_policy", "prompt_exclusion_policy",
+  "source_child_id", "prompt_td_child_id", "prompt_sli_child_id",
+  "td_child_id", "sli_child_id", "sli_age_generated_from",
+  "sli_severity_band_generated_from", "sli_profile_label_generated_from",
+  "story_slots", "n_stories",
+  "File_ID", "File_kideval", "Group", "Sex",
+  "Age(Month)", "Age_Month", "Age_c",
+  "source_is_synthetic", "clinical_group", "population",
+  "cluster_id", "unit_id",
+  "#utterances", "#words",
+  "DSS_tbl_warning_50", "retracing_per_utt" 
+)
+
+# numeric candidates only
+feature_df <- pca_base %>%
+  select(-any_of(exclude_vars)) %>%
+  select(where(is.numeric))
+
+cat("Numeric candidate features:", ncol(feature_df), "\n")
+
+# -----------------------------
+# 3) Remove features with too much missingness
+#    Adjust threshold if needed
+# -----------------------------
+na_prop <- colMeans(is.na(feature_df))
+keep_na <- names(na_prop[na_prop <= 0.20])   # keep features with <=20% missing
+feature_df <- feature_df %>% select(all_of(keep_na))
+
+cat("Features after missingness filter:", ncol(feature_df), "\n")
+
+# -----------------------------
+# 4) Remove near-zero variance features
+# -----------------------------
+is_nzv <- function(x) {
+  x <- x[!is.na(x)]
+  if (length(x) <= 1) return(TRUE)
+  if (sd(x) < 1e-8) return(TRUE)
+  if (length(unique(x)) <= 2 && max(table(x)) / length(x) > 0.95) return(TRUE)
+  FALSE
+}
+
+nzv_flags <- sapply(feature_df, is_nzv)
+feature_df <- feature_df[, !nzv_flags, drop = FALSE]
+
+cat("Features after near-zero variance filter:", ncol(feature_df), "\n")
+
+# -----------------------------
+# 5) Remove highly correlated features
+#    Greedy pruning
+# -----------------------------
+remove_high_corr <- function(df, cutoff = 0.90) {
+  if (ncol(df) < 2) return(df)
+
+  keep <- colnames(df)
+
+  repeat {
+    cor_mat <- cor(df[, keep, drop = FALSE], use = "pairwise.complete.obs")
+    diag(cor_mat) <- 0
+
+    max_cor <- suppressWarnings(max(abs(cor_mat), na.rm = TRUE))
+    if (!is.finite(max_cor) || max_cor < cutoff) break
+
+    idx <- which(abs(cor_mat) == max_cor, arr.ind = TRUE)[1, ]
+    v1 <- colnames(cor_mat)[idx[1]]
+    v2 <- colnames(cor_mat)[idx[2]]
+
+    mean1 <- mean(abs(cor_mat[v1, ]), na.rm = TRUE)
+    mean2 <- mean(abs(cor_mat[v2, ]), na.rm = TRUE)
+
+    drop_var <- if (mean1 >= mean2) v1 else v2
+    keep <- setdiff(keep, drop_var)
+  }
+
+  df[, keep, drop = FALSE]
+}
+
+feature_df_pruned <- remove_high_corr(feature_df, cutoff = 0.90)
+
+cat("Features after correlation pruning:", ncol(feature_df_pruned), "\n")
+print(colnames(feature_df_pruned))
+
+# -----------------------------
+# 6) Keep complete cases for the retained feature set
+# -----------------------------
+pca_complete <- bind_cols(
+  pca_base %>% select(population, source, clinical_group, Age_Month),
+  feature_df_pruned
+) %>%
+  filter(complete.cases(across(all_of(colnames(feature_df_pruned)))))
+
+cat("Rows entering PCA:", nrow(pca_complete), "\n")
+table(pca_complete$population)
+
+```
+```{r}
+
+# -----------------------------
+# 7) Run PCA
+# -----------------------------
+pca_fit <- prcomp(
+  pca_complete %>% select(all_of(colnames(feature_df_pruned))),
+  center = TRUE,
+  scale. = TRUE
+)
+
+# variance explained
+var_explained <- (pca_fit$sdev^2) / sum(pca_fit$sdev^2)
+
+pca_var_df <- tibble(
+  PC = paste0("PC", seq_along(var_explained)),
+  variance_explained = var_explained,
+  cumulative = cumsum(var_explained)
+)
+
+print(pca_var_df)
+
+
+```
+
+```{r}
+# loadings
+pca_loadings <- as.data.frame(pca_fit$rotation) %>%
+  rownames_to_column("feature")
+
+pca_loadings %>%
+  select(feature, PC1, PC2, PC3, PC4) %>%
+  mutate(across(c(PC1, PC2, PC3, PC4), ~ round(.x, 3))) %>%
+  arrange(desc(abs(PC1))) %>%
+  print(n = Inf)
+```
+```{r}
+library(dplyr)
+
+# PC1
+pca_loadings %>%
+  select(feature, PC1) %>%
+  mutate(PC1 = round(PC1, 3)) %>%
+  arrange(desc(abs(PC1))) %>%
+  print(n = Inf)
+
+# PC2
+pca_loadings %>%
+  select(feature, PC2) %>%
+  mutate(PC2 = round(PC2, 3)) %>%
+  arrange(desc(abs(PC2))) %>%
+  print(n = Inf)
+
+# PC3
+pca_loadings %>%
+  select(feature, PC3) %>%
+  mutate(PC3 = round(PC3, 3)) %>%
+  arrange(desc(abs(PC3))) %>%
+  print(n = Inf)
+
+# PC4
+pca_loadings %>%
+  select(feature, PC4) %>%
+  mutate(PC4 = round(PC4, 3)) %>%
+  arrange(desc(abs(PC4))) %>%
+  print(n = Inf)
+```
+* PC1: morphosyntax
+* PC2: fluency and lexical density
+* PC3: clause scaffolding
+
+```{r}
+pc_labels <- c(
+  PC1 = "Morphosyntax",
+  PC2 = "Fluency",
+  PC4 = "clause scaffolding"
+)
+```
+
+
+```{r}
+# scores
+pca_scores <- as.data.frame(pca_fit$x) %>%
+  bind_cols(pca_complete %>% select(population, source, clinical_group, Age_Month))
+
+# -----------------------------
+# 8) Scree plot
+# -----------------------------
+ggplot(pca_var_df, aes(x = seq_along(variance_explained), y = variance_explained)) +
+  geom_col(width = 0.7) +
+  geom_line(aes(y = cumulative), group = 1, linewidth = 0.8) +
+  geom_point(aes(y = cumulative), size = 2) +
+  scale_x_continuous(breaks = seq_len(nrow(pca_var_df)), labels = pca_var_df$PC) +
+  labs(
+    x = "Principal component",
+    y = "Variance explained",
+    title = "Scree plot"
+  ) +
+  theme_classic()
+```
+```{r}
+library(psych)
+
+fa.parallel(
+  pca_complete %>% select(all_of(colnames(feature_df_pruned))),
+  fa = "pc",
+  n.iter = 100,
+  show.legend = TRUE,
+  main = "Parallel analysis"
+)
+```
+
+```{r}
+library(GGally)
+
+GGally::ggpairs(
+  pca_scores,
+  columns = c("PC1", "PC2", "PC3"),
+  aes(color = population, alpha = 0.7)
+)
+```
+* PC1 (Morphosyntax): real TD being more shifted to the right, shows higher morphosyntactic complexity. SLI seats on the opposite side of the x-axis, showing reduced complexity. Synthetic TD also right shifted but lower. Synthetic SLI is between. So, Real and synthetic TD are fairly similar, whereas synthetic SLI differs more from real SLI, because it is pushed toward higher complexity.
+* PC2 (fluency): strong real vs synthetic axis. Synthetic data look more polished, less naturalistic, more fluent.
+* PC3 (clause scaffolding): all groups look somewhat similar.
+
+```{r}
+library(ggplot2)
+
+plot_pc <- function(df, xpc, ypc, var_explained) {
+  ggplot(df, aes_string(x = xpc, y = ypc, color = "population")) +
+    geom_point(size = 2.2, alpha = 0.75) +
+    stat_ellipse(linewidth = 0.8, alpha = 0.7) +
+    labs(
+      x = paste0(xpc, " (", round(100 * var_explained[as.numeric(sub("PC", "", xpc))], 1), "%)"),
+      y = paste0(ypc, " (", round(100 * var_explained[as.numeric(sub("PC", "", ypc))], 1), "%)"),
+      color = NULL
+    ) +
+    theme_classic()
+}
+
+plot_pc(pca_scores, "PC1", "PC2", var_explained)
+```
+* Real TD: + morphosyntactic complexity + realism
+* Real SLI: - morphosyntactic complexity + realism
+* Syn TD: + morphosyntactic complexity - realism
+* Syn SLI: morphosyntactic complexity < Syn TD - realism
+
+```{r}
+plot_pc(pca_scores, "PC1", "PC3", var_explained)
+```
+
+```{r}
+plot_pc(pca_scores, "PC2", "PC3", var_explained)
+```
+
+```{r}
+library(plotly)
+
+plot_ly(
+  pca_scores,
+  x = ~PC1, y = ~PC2, z = ~PC3,
+  color = ~population,
+  type = "scatter3d",
+  mode = "markers"
+)
+```
+
+
+Summary:
+
+* PC1 distinguishes TD vs SLI.
+* PC2 distinguishes Real vs Synthetic.
+
+# Distributional distance analysis
+
+```{r}
+# one row per real transcript
+real_indep <- real_4yo %>%
+  distinct(File_ID, .keep_all = TRUE)
+
+# one row per synthetic transcript
+syn_indep <- syn_4yo %>%
+  distinct(File_ID, .keep_all = TRUE)
+
+profile_df <- bind_rows(real_indep, syn_indep) %>%
+  mutate(
+    source = factor(source, levels = c("real", "synthetic")),
+    clinical_group = factor(clinical_group, levels = c("TD", "SLI")),
+    population = factor(
+      paste(ifelse(source == "synthetic", "Synthetic", "Real"), clinical_group),
+      levels = c("Real TD", "Synthetic TD", "Real SLI", "Synthetic SLI")
+    )
+  )
+
+table(profile_df$population)
+```
+
+
+```{r}
+wasserstein_1d <- function(x, y, probs = seq(0, 1, length.out = 200)) {
+  x <- x[is.finite(x)]
+  y <- y[is.finite(y)]
+  if (length(x) < 2 || length(y) < 2) return(NA_real_)
+  qx <- quantile(x, probs = probs, na.rm = TRUE, type = 8)
+  qy <- quantile(y, probs = probs, na.rm = TRUE, type = 8)
+  mean(abs(qx - qy))
+}
+
+library(purrr)
+library(tibble)
+
+main_features <- c(
+  "MLU_Morphemes",
+  "VOCD_D_optimum_average",
+  "DSS_tbl_score",
+  "Syntax_Mean_TreeDepth",
+  "Syntax_ComplexNP_Utt_Prop",
+  "Syntax_Subordination_Utt_Prop",
+  "Syntax_Subject_Utt_Prop",
+  "bare_marking_errors_per_word",
+  "agreement_errors_per_word"
+)
+
+compare_distribution <- function(df, feature, group_name) {
+  real_vals <- df %>%
+    filter(source == "real", clinical_group == group_name) %>%
+    pull(all_of(feature))
+
+  syn_vals <- df %>%
+    filter(source == "synthetic", clinical_group == group_name) %>%
+    pull(all_of(feature))
+
+  real_vals <- real_vals[is.finite(real_vals)]
+  syn_vals  <- syn_vals[is.finite(syn_vals)]
+
+  if (length(real_vals) < 2 || length(syn_vals) < 2) {
+    return(tibble(
+      feature = feature,
+      group = group_name,
+      n_real = length(real_vals),
+      n_syn = length(syn_vals),
+      real_mean = NA_real_,
+      syn_mean = NA_real_,
+      mean_diff = NA_real_,
+      wasserstein = NA_real_,
+      ks_D = NA_real_,
+      ks_p = NA_real_
+    ))
+  }
+
+  ks_out <- suppressWarnings(ks.test(real_vals, syn_vals))
+
+  tibble(
+    feature = feature,
+    group = group_name,
+    n_real = length(real_vals),
+    n_syn = length(syn_vals),
+    real_mean = mean(real_vals, na.rm = TRUE),
+    syn_mean = mean(syn_vals, na.rm = TRUE),
+    mean_diff = mean(syn_vals, na.rm = TRUE) - mean(real_vals, na.rm = TRUE),
+    wasserstein = wasserstein_1d(real_vals, syn_vals),
+    ks_D = unname(ks_out$statistic),
+    ks_p = ks_out$p.value
+  )
+}
+
+dist_results <- map_dfr(main_features, ~ compare_distribution(profile_df, .x, "TD")) %>%
+  bind_rows(
+    map_dfr(main_features, ~ compare_distribution(profile_df, .x, "SLI"))
+  ) %>%
+  mutate(
+    ks_p_adj = p.adjust(ks_p, method = "BH")
+  )
+
+dist_results %>%
+  arrange(group, desc(wasserstein))
+```
+```{r}
+library(dplyr)
+library(purrr)
+library(tibble)
+
+# standardize each feature using mean/sd from the REAL data of that clinical group
+compare_distribution_std <- function(df, feature, group_name) {
+  real_vals <- df %>%
+    filter(source == "real", clinical_group == group_name) %>%
+    pull(all_of(feature))
+
+  syn_vals <- df %>%
+    filter(source == "synthetic", clinical_group == group_name) %>%
+    pull(all_of(feature))
+
+  real_vals <- real_vals[is.finite(real_vals)]
+  syn_vals  <- syn_vals[is.finite(syn_vals)]
+
+  if (length(real_vals) < 2 || length(syn_vals) < 2) {
+    return(tibble(
+      feature = feature,
+      group = group_name,
+      wasserstein_std = NA_real_
+    ))
+  }
+
+  mu <- mean(real_vals, na.rm = TRUE)
+  sd0 <- sd(real_vals, na.rm = TRUE)
+
+  if (!is.finite(sd0) || sd0 == 0) {
+    return(tibble(
+      feature = feature,
+      group = group_name,
+      wasserstein_std = NA_real_
+    ))
+  }
+
+  real_z <- (real_vals - mu) / sd0
+  syn_z  <- (syn_vals  - mu) / sd0
+
+  tibble(
+    feature = feature,
+    group = group_name,
+    wasserstein_std = wasserstein_1d(real_z, syn_z)
+  )
+}
+
+dist_std_results <- map_dfr(main_features, ~ compare_distribution_std(profile_df, .x, "TD")) %>%
+  bind_rows(
+    map_dfr(main_features, ~ compare_distribution_std(profile_df, .x, "SLI"))
+  )
+
+dist_std_results %>%
+  arrange(group, desc(wasserstein_std))
+```
+
+
+
+* Real vs Synthetic SLI mismatch:
+VOCD-D: D = 0.891 -> lexical diversity
+bare marking errors: D = 0.745 -> errors profile
+agreement errors: D = 0.745 -> errors profile
+mean tree depth: D = 0.700 -> structural complexity
+complex NP proportion: D = 0.645 -> structural complexity
+subject proportion: D = 0.618 -> errors profile
+MLU: D = 0.545 -> structural complexity
+
+* Real vs Synthetic TD mismatch (less severe):
+VOCD-D: D = 0.611 -> lexical diversity
+mean tree depth: D = 0.578 -> structural complexity
+complex NP proportion: D = 0.548 -> structural complexity
+bare marking errors: D = 0.394 -> errors profile
+agreement errors: D = 0.358 -> errors profile
+MLU: D = 0.352 -> structural complexity
+subject proportion: D = 0.314 -> errors profile
+
+```{r}
+plot_df <- dist_std_results %>%
+  group_by(feature) %>%
+  mutate(max_w = max(wasserstein_std, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(
+    feature = reorder(feature, max_w)
+  )
+
+ggplot(plot_df, aes(x = feature, y = wasserstein_std, fill = group)) +
+  geom_col(position = position_dodge(width = 0.75), width = 0.65) +
+  coord_flip() +
+  labs(
+    x = NULL,
+    y = "Standardized Wasserstein distance",
+    title = "Distributional mismatch: synthetic vs real"
+  ) +
+  theme_classic()
+```
+Synthetic SLI distribution seems less faithful to clinical markers like bare marking, agreement and subject use.
+
+# Covariance/correlation preservation
+
+```{r}
+library(dplyr)
+library(tibble)
+library(ggplot2)
+library(tidyr)
+
+broad_features <- colnames(feature_df_pruned)
+
+length(broad_features)
+broad_features
+```
+```{r}
+upper_tri_vec <- function(mat) {
+  mat[upper.tri(mat)]
+}
+
+get_corr_mat <- function(df, group_name, feature_names) {
+  tmp <- df %>%
+    filter(clinical_group == group_name) %>%
+    select(source, all_of(feature_names))
+
+  real_df <- tmp %>%
+    filter(source == "real") %>%
+    select(-source)
+
+  syn_df <- tmp %>%
+    filter(source == "synthetic") %>%
+    select(-source)
+
+  # keep only features with non-zero variance in BOTH real and synthetic
+  keep_vars <- intersect(
+    names(real_df)[sapply(real_df, function(x) sd(x, na.rm = TRUE) > 0)],
+    names(syn_df)[sapply(syn_df, function(x) sd(x, na.rm = TRUE) > 0)]
+  )
+
+  real_df <- real_df %>% select(all_of(keep_vars))
+  syn_df  <- syn_df  %>% select(all_of(keep_vars))
+
+  list(
+    keep_vars = keep_vars,
+    real = cor(real_df, use = "pairwise.complete.obs"),
+    synthetic = cor(syn_df, use = "pairwise.complete.obs")
+  )
+}
+
+corr_similarity <- function(cor_real, cor_syn) {
+  v1 <- upper_tri_vec(cor_real)
+  v2 <- upper_tri_vec(cor_syn)
+
+  tibble(
+    corr_of_correlations = cor(v1, v2, use = "complete.obs"),
+    mean_abs_diff = mean(abs(v1 - v2), na.rm = TRUE),
+    max_abs_diff = max(abs(v1 - v2), na.rm = TRUE),
+    frobenius = sqrt(sum((cor_real - cor_syn)^2, na.rm = TRUE))
+  )
+}
+
+corr_td_broad <- get_corr_mat(pca_complete, "TD", broad_features)
+corr_sli_broad <- get_corr_mat(pca_complete, "SLI", broad_features)
+```
+
+```{r}
+corr_td_broad <- get_corr_mat(pca_complete, "TD", broad_features)
+corr_sli_broad <- get_corr_mat(pca_complete, "SLI", broad_features)
+
+length(corr_td_broad$keep_vars)
+length(corr_sli_broad$keep_vars)
+
+td_similarity_broad  <- corr_similarity(corr_td_broad$real,  corr_td_broad$synthetic)
+sli_similarity_broad <- corr_similarity(corr_sli_broad$real, corr_sli_broad$synthetic)
+
+td_similarity_broad
+```
+```{r}
+sli_similarity_broad
+```
+
+
+

@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep01
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=450
+*CHI:	One day rabbit and dog play at the beach .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	verb|play-Fin-Ind-Pres-S adp|at det|the-Def-Art noun|beach .
+%xdss:	A3; Z; Z; F3; Z; C1; Z;
+*CHI:	They build [* m:+ed] a big castle out of sand .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|big-S1 noun|castle-Acc adp|out adp|of noun|sand .
+%xdss:	B3; C1; Z; Z;
+*CHI:	They build it so high .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adv|so adj|high-S1 .
+%xdss:	B3; C1; A1; B5; F5;
+*CHI:	Then dog drop [* m:03s:a] the bucket .
+%mor:	adv|then noun|dog verb|drop-Fin-Imp-S det|the-Def-Art
+	noun|bucket-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	It go [* m:03s:a] splat on the castle .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 noun|splat-Acc adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	A1; C2; Z; Z;
+*CHI:	The castle is ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	Rabbit cry [* m:03s:a] .
+%mor:	noun|rabbit verb|cry-Fin-S .
+%xdss:	Z; C1;
+*CHI:	Dog look [* m:03s:a] sad .
+%mor:	noun|dog verb|look-Fin-Imp-S adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	Dog want [* m:03s:a] to fix it .
+%mor:	noun|dog verb|want-Fin-Ind-Pres-P3 part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; D3; C1; A1; B5;
+*CHI:	They get more sand and build it again .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 adj|more-Cmp-S1
+	noun|sand-Acc cconj|and verb|build-Fin-Ind-Pres-P3
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C1; A3; Z; F3; C1; A1; B5;
+@End

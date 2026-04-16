@@ -1,0 +1,56 @@
+{
+  "candidate_count_per_synthetic_row": {
+    "max": 9,
+    "mean": 8.090909090909092,
+    "min": 7
+  },
+  "candidate_pool_policy_applied": "same round, same target group, exclude prompt pairs and prompt child ids",
+  "feature_columns_used_for_distance": [
+    "Age(Month)",
+    "#utterances",
+    "#words",
+    "DSS_tbl_warning_50",
+    "MLU_Morphemes",
+    "VOCD_D_optimum_average",
+    "DSS_tbl_score",
+    "Word_Errors_per_utt",
+    "retracing_per_utt",
+    "repetition_per_utt",
+    "DSS_tbl_IP",
+    "DSS_tbl_PP",
+    "DSS_tbl_MV",
+    "DSS_tbl_SV",
+    "DSS_tbl_NG",
+    "DSS_tbl_CNJ",
+    "DSS_tbl_IR",
+    "DSS_tbl_WHQ",
+    "bare_marking_errors_per_word",
+    "pronoun_errors_per_word",
+    "past_overgeneralization_errors_per_past_opp"
+  ],
+  "frozen_roster_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/four_year_old_frozen_roster.csv",
+  "generated_severity_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/severity_features_raw.csv",
+  "groups": [
+    "SLI",
+    "TD"
+  ],
+  "median_best_mean_abs_z_distance": 1.151691692085472,
+  "median_best_rms_z_distance": 1.7181608563488753,
+  "n_feature_columns_used_for_distance": 21,
+  "n_generated_rows": 220,
+  "n_nearest_neighbor_rows": 220,
+  "n_pairwise_rows": 1780,
+  "n_real_rows": 359,
+  "n_rounds": 4,
+  "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/bundle_round_holdout",
+  "pairs_per_round": 3,
+  "prompt_overlap_check_passed": true,
+  "prompt_overlap_rows": 0,
+  "real_severity_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/severity_features_raw.csv",
+  "rounds": [
+    "round_01",
+    "round_02",
+    "round_03",
+    "round_04"
+  ]
+}

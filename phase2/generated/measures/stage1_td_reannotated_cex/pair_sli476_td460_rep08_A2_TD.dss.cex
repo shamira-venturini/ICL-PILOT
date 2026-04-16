@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep08
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=460
+*CHI:	Two birds come to the pool .
+%mor:	num|two noun|bird-Plur verb|come-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C1; Z;
+*CHI:	See the sign .
+%mor:	verb|see-Fin-Imp-S det|the-Def-Art noun|sign-Acc .
+%xdss:	C1; Z;
+*CHI:	It says don't run .
+%mor:	pron|it-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3
+	aux|do-Fin-Imp-S~part|not verb|run-Fin-Imp-S .
+%xdss:	A1; C2; C4; E4; C1;
+*CHI:	One bird runs to the water .
+%mor:	num|one noun|bird verb|run-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|water .
+%xdss:	A3; Z; C2; Z;
+*CHI:	She trips and hurts her knee .
+%mor:	pron|she-Prs-Nom-S3 verb|trip-Fin-Ind-Pres-S3 cconj|and
+	verb|hurt-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	A man comes with a bandage .
+%mor:	det|a-Ind-Art noun|man verb|come-Fin-Ind-Pres-S3 adp|with
+	det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	The bird sits on the bench .
+%mor:	det|the-Def-Art noun|bird verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|the-Def-Art noun|bench .
+%xdss:	Z; C2; Z;
+*CHI:	She's resting .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|rest-Part-Pres-S .
+%xdss:	B2; C1; C1;
+@End

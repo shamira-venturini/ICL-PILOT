@@ -1,0 +1,73 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep05
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=5
+@Comment:	source_child_id=439
+*CHI:	one day rabbit and dog go to the park .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|park .
+%xdss:	A3; Z; Z; F3; Z; C1; Z;
+*CHI:	they bring sandwiches and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Pres-P3
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	they have a yummy picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|yummy-S1 noun|picnic-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	one little girl eats too much sandwiches .
+%mor:	num|one adj|little-S1 noun|girl verb|eat-Fin-Ind-Pres-S3 adv|too
+	adj|much-S1 noun|sandwich-Plur-Acc .
+%xdss:	A3; Z; C2; Z;
+*CHI:	my tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	said the little girl .
+%mor:	verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art adj|little-S1
+	noun|girl-Acc .
+%xdss:	C2; Z;
+*CHI:	she feels dizzy .
+%mor:	pron|she-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|dizzy-S1 .
+%xdss:	B2; C2;
+*CHI:	her [* s:r:gc:pro] tummy is sick .
+%mor:	pron|her-Prs-Gen-S3 noun|tummy aux|be-Fin-Ind-Pres-S3 adj|sick-S1 .
+%xdss:	B2; Z; C1;
+*CHI:	the rabbit says .
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	go see the doctor .
+%mor:	verb|go-Fin-Imp-S verb|see-Fin-Imp-S det|the-Def-Art
+	noun|doctor-Acc .
+%xdss:	C1; C1; Z;
+*CHI:	the doctor says .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	don't worry , I'll help you .
+%mor:	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|help-Inf-S pron|you-Prs-Acc-S2
+	.
+%xdss:	C4; E4; G6; C1; D5; C4; C1; B5;
+*CHI:	the doctor gives her [* s:r:gc:det] special medicine .
+%mor:	det|the-Def-Art noun|doctor verb|give-Fin-Ind-Pres-S3
+	pron|her-Prs-Gen-S3 adj|special-S1 noun|medicine-Acc .
+%xdss:	Z; C2; B2; Z;
+*CHI:	the little girl feels better .
+%mor:	det|the-Def-Art adj|little-S1 noun|girl verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	Z; C2;
+*CHI:	she goes home and rests .
+%mor:	pron|she-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|home cconj|and
+	verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2; F3; C2;
+@End

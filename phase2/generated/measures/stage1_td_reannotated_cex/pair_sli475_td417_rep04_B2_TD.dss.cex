@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep04
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=417
+*CHI:	we went to the park with rabbit and dog .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|park adp|with noun|rabbit cconj|and noun|dog .
+%xdss:	B3; C2; Z; Z; F3; Z;
+*CHI:	we had a yummy picnic with carrots and sandwiches .
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	adj|yummy-S1 noun|picnic-Acc adp|with noun|carrot-Plur cconj|and
+	noun|sandwich-Plur .
+%xdss:	B3; C2; Z; Z; F3; Z;
+*CHI:	i ate too much and then i felt sick .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1
+	cconj|and adv|then pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Past-S1-irr
+	adj|sick-S1 .
+%xdss:	B1; C2; F3; B1; C2;
+*CHI:	i felt all woozy and i had a tummyache .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Past-S1-irr det|all-Def-Tot
+	adj|woozy-S1 cconj|and pron|I-Prs-Nom-S1
+	verb|have-Fin-Ind-Past-S1-irr det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	B1; C2; A3; F3; B1; C2; Z;
+*CHI:	we went to see the doctor .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr part|to
+	verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B3; C2; D3; C1; Z;
+*CHI:	the doctor said .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	and she gave me some medicine .
+%mor:	cconj|and pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Acc-S1 det|some-Def-Ind noun|medicine-Acc .
+%xdss:	F3; B2; C2; B1; A3; Z;
+*CHI:	i rested on the couch and felt better .
+%mor:	pron|I-Prs-Nom-S1 verb|rest-Fin-Ind-Past-S1 adp|on det|the-Def-Art
+	noun|couch cconj|and verb|feel-Fin-Ind-Past-S1-irr adj|good-Cmp-S1 .
+%xdss:	B1; C2; Z; F3; C2;
+@End

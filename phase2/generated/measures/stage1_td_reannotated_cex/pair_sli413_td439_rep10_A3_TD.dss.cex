@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep10
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=10
+@Comment:	source_child_id=439
+*CHI:	There was a rabbit and a dog too .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|rabbit cconj|and det|a-Ind-Art noun|dog adv|too .
+%xdss:	C2; Z; F3; Z;
+*CHI:	They were playing with a plane .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|plane .
+%xdss:	B3; C2; C1; Z;
+*CHI:	They threw it in the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|throw-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|pool .
+%xdss:	B3; C2; A1; B5; Z;
+*CHI:	The plane is in the water .
+%mor:	det|the-Def-Art noun|plane aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C1; Z;
+*CHI:	The rabbit was sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	The dog was sad too .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adj|sad-S1
+	adv|too .
+%xdss:	Z; C2;
+*CHI:	The lifeguard came with a pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|pole .
+%xdss:	Z; C2; Z;
+*CHI:	He picked up the plane with the pole .
+%mor:	pron|he-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 adp|up det|the-Def-Art
+	noun|plane-Acc adp|with det|the-Def-Art noun|pole .
+%xdss:	B2; C2; Z; Z;
+*CHI:	He gave it to the rabbit .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adp|to det|the-Def-Art noun|rabbit .
+%xdss:	B2; C2; A1; B5; Z;
+*CHI:	The rabbit was happy .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	.
+%xdss:	Z; C2;
+*CHI:	The dog was happy too .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	adv|too .
+%xdss:	Z; C2;
+@End

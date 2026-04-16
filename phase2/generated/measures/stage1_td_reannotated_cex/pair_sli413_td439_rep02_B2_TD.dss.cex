@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep02
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=2
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a rabbit and a dog .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	det|a-Ind-Art noun|dog .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	yay we're goin on a picnic .
+%mor:	intj|yay pron|we-Prs-Nom-P1~aux|be-Fin-Ind-Pres-P1
+	verb|go-Part-Pres-S adp|on det|a-Ind-Art noun|picnic .
+%xdss:	B3; C1; Z;
+*CHI:	lookit I got sandwiches and carrots .
+%mor:	noun|lookit pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1-irr
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	Z; B1; C2; Z; F3; Z;
+*CHI:	oh boy oh boy I wanna eat so much .
+%mor:	intj|oh intj|boy intj|oh intj|boy pron|I-Prs-Nom-S1
+	aux|wanna-Fin-Ind-Pres-S1 verb|eat-Fin-Ind-Pres-S1 adv|so adv|much .
+%xdss:	B1; C1; F5;
+*CHI:	oh no my tummy hurts .
+%mor:	intj|oh intj|no pron|my-Prs-Gen-S1 noun|tummy
+	verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	&=whimpers I think I ate too much .
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1
+	verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1 .
+%xdss:	B1; C1; D5; B1; C2;
+*CHI:	we need to go see the doctor .
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 part|to verb|go-Inf-S
+	verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B3; C1; D3; C1; C1; Z;
+*CHI:	&=sighs the doctor says you gotta rest now .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	pron|you-Prs-Nom-S2 aux|getta-Fin-S verb|rest-Inf-S adv|now .
+%xdss:	Z; C2; D2; C1;
+*CHI:	&=yawns I'm feeling better now .
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|feel-Part-Pres-S
+	adj|good-Cmp-S1 adv|now .
+%xdss:	B1; C1;
+@End

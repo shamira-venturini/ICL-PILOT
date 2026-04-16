@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep02
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=466
+*CHI:	kitty and puppy go to the pool .
+%mor:	propn|Kitty cconj|and noun|puppy verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C1; Z;
+*CHI:	There is a sign that says .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	kitty starts to run to the water .
+%mor:	propn|Kitty verb|start-Fin-Ind-Pres-S3 part|to verb|run-Inf-S
+	adp|to det|the-Def-Art noun|water .
+%xdss:	C2; D3; C1; Z;
+*CHI:	kitty slips and hurts her knee .
+%mor:	propn|Kitty verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|hurt-Fin-Ind-Pres-S3 pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	C2; F3; C2; B2; Z;
+*CHI:	A helper comes with a bandage .
+%mor:	det|a-Ind-Art noun|helper verb|come-Fin-Ind-Pres-S3 adp|with
+	det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	kitty sits on a bench and rests .
+%mor:	propn|Kitty verb|sit-Fin-Ind-Pres-S3 adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	C2; Z; F3; C2;
+@End

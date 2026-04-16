@@ -1,0 +1,77 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli475_td417_rep04_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+two dogs were playing near the pool .  |3  |   |2 1|   |   |   |   |   |  1|  7|
+one day the ball fell into the pool .  |3  |   |2  |   |   |   |   |   |  1|  6|
+one dog went into the pool to get it . |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+he got the ball and came out with it . |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+now the dogs are happy again .         |   |   |2  |   |   |   |   |   |  1|  3|
+A doggy and a kitty go to the pool .   |   |   |1  |   |   |3  |   |   |  1|  5|
+There's a sign that says .             |1  |   |2  |   |   |   |   |   |  1|  4|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+The kitty starts to run to the water . |   |   |2 1|3  |   |   |   |   |  1|  7|
+The kitty slips and gets boo-boos on   |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    her knee .                         |   |   |   |   |   |   |   |   |   |   |
+A nice lady comes with a bandage .     |   |   |2  |   |   |   |   |   |  1|  3|
+She puts it on the kitty's knee .      |1  |2 5|2  |   |   |   |   |   |  1| 11|
+The kitty sits on a bench and rests .  |   |   |2 2|   |   |3  |   |   |  1|  8|
+Two little birds were playing with a   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    toy airplane near the pool .       |   |   |   |   |   |   |   |   |   |   |
+Then , a boy [/] boy took the airplane |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    and dropped it into the water .    |   |   |   |   |   |   |   |   |   |   |
+The boy was very sad .                 |   |   |2  |   |   |   |   |   |  1|  3|
+His friend wanted to help him get it   |1  |2 2|2 1|3 5|   |   |   |   |  1| 23|
+    back .                             |   |5  |1  |   |   |   |   |   |   |   |
+A lifeguard came with a long pole and  |   |   |2 2|   |   |3  |   |   |  1|  8|
+    got the airplane out of the water .|   |   |   |   |   |   |   |   |   |   |
+The boy was happy again .              |   |   |2  |   |   |   |   |   |  1|  3|
+He got his airplane back .             |   |2 2|2  |   |   |   |   |   |  1|  7|
+He was happy to see it .               |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+I saw a dog and a rabbit .             |   |1  |2  |   |   |3  |   |   |  1|  7|
+they were playing on the sand .        |   |3  |2 1|   |   |   |   |   |  1|  7|
+they made a castle .                   |   |3  |2  |   |   |   |   |   |  1|  6|
+it was big and high .                  |1  |   |2  |   |   |3  |   |   |  1|  7|
+the dog had a big bucket .             |   |   |2  |   |   |   |   |   |  1|  3|
+the dog poured sand into the castle and|1  |   |2 2|   |   |3 5|   |   |  1| 14|
+     it was so high .                  |   |   |   |   |   |   |   |   |   |   |
+but then the bucket fell down .        |   |   |2  |   |   |5  |   |   |  1|  8|
+the sand went all over the castle .    |   |   |2  |   |   |   |   |   |  1|  3|
+it was ruined .                        |1  |   |7 2|   |   |   |   |   |  1| 11|
+the rabbit was sad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+she said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+why did you do that ?                  |1  |   |1  |   |   |   |   |7  |  1| 10|
+the dog said .                         |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+it's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+they started to make it again .        |1  |3 5|2 1|3  |   |   |   |   |  1| 16|
+we went to the park with rabbit and dog|   |3  |2  |   |   |3  |   |   |  1|  9|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+we had a yummy picnic with carrots and |   |3  |2  |   |   |3  |   |   |  1|  9|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+i ate too much and then i felt sick .  |   |1 1|2 2|   |   |3  |   |   |  1| 10|
+i felt all woozy and i had a tummyache |3  |1 1|2 2|   |   |3  |   |   |  1| 13|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+we went to see the doctor .            |   |3  |2 1|3  |   |   |   |   |  1| 10|
+the doctor said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+and she gave me some medicine .        |3  |2 1|2  |   |   |3  |   |   |  1| 12|
+i rested on the couch and felt better .|   |1  |2 2|   |   |3  |   |   |  1|  9|
+I don't know what happened to our      |   |1 6|1 2|5  |4  |   |   |   |  1| 23|
+    balloon .                          |   |3  |   |   |   |   |   |   |   |   |
+I don't know this part .               |   |1  |1  |   |4  |   |   |   |  1|  7|
+I don't know this park .               |   |1  |1  |   |4  |   |   |   |  1|  7|
+I see a rabbit and a dog , they're     |   |1 3|1 1|   |   |3  |   |   |  1| 10|
+    carrying a big red wagon with a big|   |   |   |   |   |   |   |   |   |   |
+     yellow balloon .                  |   |   |   |   |   |   |   |   |   |   |
+and it's floating away .               |1  |   |1 1|   |   |3  |   |   |  1|  7|
+TOTAL                                  | 32| 96|129| 33| 12| 61|  0|  7| 50|420|
+
+Developmental sentence score:  8.40

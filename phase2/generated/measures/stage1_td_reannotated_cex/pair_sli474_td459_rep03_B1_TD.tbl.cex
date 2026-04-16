@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:16 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep03_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day rabbit and dog they went to the|3  |3  |2  |   |   |3  |   |   |  1| 12|
+     sandbox .                         |   |   |   |   |   |   |   |   |   |   |
+They built a big sandcastle .          |   |3  |2  |   |   |   |   |   |  1|  6|
+The rabbit was very proud of it .      |1  |5  |2  |   |   |   |   |   |  1|  9|
+The dog said lets [* m:03s:a] add some |3 3|5  |2 1|5  |   |   |   |   |  0| 20|
+    more sand on it .                  |1  |   |   |   |   |   |   |   |   |   |
+But the dog he did it too strong and   |1  |2 5|2 2|   |   |5 3|   |   |  1| 21|
+    the sandcastle fell down .         |   |   |   |   |   |   |   |   |   |   |
+The rabbit was so sad .                |   |   |2  |   |   |5  |   |   |  1|  8|
+He said why did you do that ?          |1  |2  |2 1|   |   |   |   |7  |  1| 14|
+The dog said sorry .                   |   |   |2  |   |   |   |   |   |  1|  3|
+The rabbit said its [* s:r:gc:det] okay|1  |   |2  |   |   |   |   |   |  0|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+They build another one together .      |3  |3  |1  |   |   |   |   |   |  1|  8|
+TOTAL                                  | 17| 28| 23|  5|  0| 16|  0|  7|  8|104|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score: 10.40

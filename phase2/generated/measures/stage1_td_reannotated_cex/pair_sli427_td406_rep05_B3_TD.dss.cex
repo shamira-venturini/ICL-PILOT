@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep05
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=406
+*CHI:	hehe bunny and doggy go for a walk .
+%mor:	intj|hehe noun|bunny cconj|and noun|doggy verb|go-Fin-Imp-S adp|for
+	det|a-Ind-Art noun|walk .
+%xdss:	Z; F3; Z; C1; F8; Z;
+*CHI:	bunny got a wagon .
+%mor:	noun|bunny verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	bunny have [* m:vun:a] a big colorful balloon .
+%mor:	noun|bunny verb|have-Fin-Ind-Pres-S det|a-Ind-Art adj|big-S1
+	adj|colorful-S1 noun|balloon-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	balloon go [* m:03s:a] up high in air .
+%mor:	noun|balloon verb|go-Fin-Imp-S adp|up adj|high-S1 adp|in noun|air .
+%xdss:	Z; C1; Z;
+*CHI:	mommy have [* m:vun:a] balloons .
+%mor:	noun|mommy verb|have-Fin-Ind-Pres-P3 noun|balloon-Plur-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	bunny and doggy want balloons .
+%mor:	noun|bunny cconj|and adj|doggy-S1 verb|want-Fin-Ind-Pres-P3
+	noun|balloon-Plur-Acc .
+%xdss:	Z; F3; C1; Z;
+*CHI:	mommy say [* m:03s:a] .
+%mor:	noun|mommy verb|say-Fin-Ind-Pres-S .
+%xdss:	Z; C1;
+*CHI:	oh , bunny and doggy can't have balloons .
+%mor:	intj|oh noun|bunny cconj|and noun|doggy aux|can-Fin-S~part|not
+	verb|have-Inf-S noun|balloon-Plur-Acc .
+%xdss:	Z; F3; Z; C4; E4; C1; Z;
+*CHI:	they are too expensive .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adv|too
+	adj|expensive-S1 .
+%xdss:	B3; C2;
+*CHI:	but i can give you one balloon each .
+%mor:	cconj|but pron|I-Prs-Nom-S1 aux|can-Fin-S verb|give-Inf-S
+	pron|you-Prs-Acc-S2 num|one noun|balloon-Acc det|each-Def-Tot .
+%xdss:	F5; B1; C4; D2; C1; B5; A3; Z; A7;
+*CHI:	bunny got a yellow balloon .
+%mor:	noun|bunny verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|yellow-S1
+	noun|balloon-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	doggy got a red balloon .
+%mor:	noun|doggy verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|red-S1
+	noun|balloon-Acc .
+%xdss:	Z; C2; Z;
+@End

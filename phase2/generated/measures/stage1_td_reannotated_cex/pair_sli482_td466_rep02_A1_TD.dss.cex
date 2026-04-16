@@ -1,0 +1,33 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep02
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=466
+*CHI:	kitty's ball fall [* m:03s:a] in the water .
+%mor:	noun|kitty~part|s noun|ball verb|fall-Fin-Ind-S adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; Z; C1; Z;
+*CHI:	kitty go in the pool to get it .
+%mor:	noun|kitty verb|go-Fin-Imp-S adp|in det|the-Def-Art noun|pool
+	part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; Z; C1; A1; B5;
+*CHI:	kitty bring [* m:03s:a] the ball out .
+%mor:	noun|kitty verb|bring-Fin-Imp-S det|the-Def-Art noun|ball-Acc
+	adp|out .
+%xdss:	Z; C1; Z;
+*CHI:	doggy and kitty are happy .
+%mor:	adj|doggy-S1 cconj|and noun|kitty aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 .
+%xdss:	F3; Z; C2;
+@End

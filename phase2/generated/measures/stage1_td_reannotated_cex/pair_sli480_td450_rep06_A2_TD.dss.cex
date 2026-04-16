@@ -1,0 +1,47 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep06
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=450
+*CHI:	Koko was at the pool .
+%mor:	propn|Koko aux|be-Fin-Ind-Past-S3-irr adp|at det|the-Def-Art
+	noun|pool .
+%xdss:	C2; Z;
+*CHI:	koko see [* m:03s:a] a sign .
+%mor:	propn|Koko verb|see-Fin-S det|a-Ind-Art noun|sign-Acc .
+%xdss:	C1; Z;
+*CHI:	The sign say [* m:03s:a] .
+%mor:	det|the-Def-Art noun|sign verb|say-Fin-Ind-Pres-P3 .
+%xdss:	Z; C1;
+*CHI:	Koko see [* m:03s:a] the sign but Koko don't [* m:03s:a] listen .
+%mor:	propn|Koko verb|see-Fin-S det|the-Def-Art noun|sign-Acc cconj|but
+	propn|Koko aux|do-Fin-Ind-Pres-P3~part|not verb|listen-Inf-S .
+%xdss:	C1; Z; F5; E4; C1;
+*CHI:	koko wanna [* m:03s:a] jump in water .
+%mor:	propn|Koko aux|wanna-Fin-Ind-S3 verb|jump-Inf-S adp|in noun|water .
+%xdss:	C1; Z;
+*CHI:	koko hurt [* m:03s:a] knee .
+%mor:	propn|Koko verb|hurt-Fin-Ind-Past-S3-irr noun|knee-Acc .
+%xdss:	C2; Z;
+*CHI:	A nice lady come [* m:03s:a] .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	She bring [* m:03s:a] a bandage .
+%mor:	pron|she-Prs-Nom-S3 verb|bring-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|bandage-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	koko sit [* m:03s:a] on bench .
+%mor:	propn|Koko verb|sit-Fin-Ind-Pres-S3 adp|on noun|bench .
+%xdss:	C2; Z;
+@End

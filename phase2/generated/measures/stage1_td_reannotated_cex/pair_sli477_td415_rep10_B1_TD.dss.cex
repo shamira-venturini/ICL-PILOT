@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep10
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog go to the sandbox .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|sandbox .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They build a castle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|castle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	Rabbit is using a shovel and dog is using a bucket .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Pres-S3 verb|use-Part-Pres-S
+	det|a-Ind-Art noun|shovel-Acc cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-S3 verb|use-Part-Pres-S det|a-Ind-Art
+	noun|bucket-Acc .
+%xdss:	C1; C1; Z; F3; Z; C1; C1; Z;
+*CHI:	Dog puts the bucket down and it goes .
+%mor:	noun|dog verb|put-Fin-Ind-Pres-S3 det|the-Def-Art noun|bucket-Acc
+	adp|down cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; Z; F3; A1; C2;
+*CHI:	The castle is broken .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	Dog is sad too .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1 adv|too .
+%xdss:	Z; C1;
+*CHI:	They want to fix it .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B3; C1; D3; C1; A1; B5;
+*CHI:	They get sand and build it again .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 noun|sand-Acc
+	cconj|and verb|build-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C1; Z; F3; C1; A1; B5;
+@End

@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:22 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep09_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two little ducks are playing with a    |3  |   |2 1|   |   |   |   |   |  1|  7|
+    little airplane near the pool .    |   |   |   |   |   |   |   |   |   |   |
+Then the airplane goes into the water .|   |   |2  |   |   |   |   |   |  1|  3|
+The little duck's owner gets mad .     |   |   |2  |   |   |   |   |   |  1|  3|
+A grown-up with a long stick tries to  |1  |5  |2 1|3  |   |   |   |   |  1| 13|
+    get it .                           |   |   |   |   |   |   |   |   |   |   |
+She uses the stick to pick up the      |   |2  |2 1|   |   |   |   |   |  1|  6|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+Now the little duck is happy .         |   |   |1  |   |   |   |   |   |  1|  2|
+TOTAL                                  |  4|  7| 14|  3|  0|  0|  0|  0|  6| 34|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  5.67

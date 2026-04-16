@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep04_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+A doggy and a kitty go to the pool .   |   |   |1  |   |   |3  |   |   |  1|  5|
+There's a sign that says .             |1  |   |2  |   |   |   |   |   |  1|  4|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+The kitty starts to run to the water . |   |   |2 1|3  |   |   |   |   |  1|  7|
+The kitty slips and gets boo-boos on   |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    her knee .                         |   |   |   |   |   |   |   |   |   |   |
+A nice lady comes with a bandage .     |   |   |2  |   |   |   |   |   |  1|  3|
+She puts it on the kitty's knee .      |1  |2 5|2  |   |   |   |   |   |  1| 11|
+The kitty sits on a bench and rests .  |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  2|  9| 18| 11|  0|  9|  0|  0|  8| 57|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  7.12

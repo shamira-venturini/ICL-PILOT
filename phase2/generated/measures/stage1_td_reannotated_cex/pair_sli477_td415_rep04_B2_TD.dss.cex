@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep04
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog is [* m:vsg:a] going to the park .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adp|to det|the-Def-Art noun|park .
+%xdss:	Z; F3; Z; C1; C1; Z;
+*CHI:	they got sandwiches and carrots .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	they are on the blanket .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adp|on det|the-Def-Art
+	noun|blanket .
+%xdss:	B3; C2; Z;
+*CHI:	the child is eating and eating .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3
+	verb|eat-Part-Pres-S cconj|and verb|eat-Part-Pres-S .
+%xdss:	Z; C1; C1; F3; C1;
+*CHI:	the child eat [* m:03s:a] too much .
+%mor:	det|the-Def-Art noun|child verb|eat-Fin-Ind-Pres-S3 adv|too
+	adj|much-S1 .
+%xdss:	Z; C2;
+*CHI:	the child feel [* m:03s:a] yucky .
+%mor:	det|the-Def-Art noun|child verb|feel-Fin-Ind-Pres-S adj|yucky-S1 .
+%xdss:	Z; C1;
+*CHI:	the child is dizzy .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3 adj|dizzy-S1 .
+%xdss:	Z; C1;
+*CHI:	the rabbit and dog go to the doctor .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|doctor .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	the doctor say [* m:03s:a] .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	you have a tummyache .
+%mor:	pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 det|a-Ind-Art
+	noun|tummyache-Acc .
+%xdss:	C1; Z;
+*CHI:	the child is better .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3 adj|good-Cmp-S1 .
+%xdss:	Z; C1;
+*CHI:	the child go [* m:03s:a] home .
+%mor:	det|the-Def-Art noun|child verb|go-Fin-Ind-Pres-S3 adv|home .
+%xdss:	Z; C2;
+@End

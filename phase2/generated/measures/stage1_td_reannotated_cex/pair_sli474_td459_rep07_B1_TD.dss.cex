@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep07
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=459
+*CHI:	once upon a time the rabbit and the dog they built a big sandcastle
+	together .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time det|the-Def-Art
+	noun|rabbit cconj|and det|the-Def-Art noun|dog pron|they-Prs-Nom-P3
+	verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art adj|big-S1
+	noun|sandcastle-Acc adv|together .
+%xdss:	Z; Z; F3; Z; B3; C2; Z;
+*CHI:	the dog wanted to add some more sand so he grabbed a big bucket .
+%mor:	det|the-Def-Art noun|dog verb|want-Fin-Ind-Past-S3 part|to
+	verb|add-Inf-S det|some-Def-Ind adj|more-Cmp-S1 noun|sand-Acc adv|so
+	pron|he-Prs-Nom-S3 verb|grab-Fin-Ind-Past-S3 det|a-Ind-Art
+	adj|big-S1 noun|bucket-Acc .
+%xdss:	Z; C2; D3; C1; A3; A3; Z; F5; B2; C2; Z;
+*CHI:	but then he spilled the sand all over the castle .
+%mor:	cconj|but adv|then pron|he-Prs-Nom-S3 verb|spill-Fin-Ind-Past-S3
+	det|the-Def-Art noun|sand-Acc adv|all adp|over det|the-Def-Art
+	noun|castle .
+%xdss:	F5; B2; C2; Z; Z;
+*CHI:	oh no the castle was all messy .
+%mor:	intj|oh intj|no det|the-Def-Art noun|castle
+	aux|be-Fin-Ind-Past-S3-irr adv|all adj|messy-S1 .
+%xdss:	Z; C2;
+*CHI:	the rabbit was very sad and he started to cry .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|very
+	adj|sad-S1 cconj|and pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3
+	part|to verb|cry-Inf-S .
+%xdss:	Z; C2; F3; B2; C2; D3; C1;
+*CHI:	he said i was so sad when you made a mess of our castle .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|I-Prs-Nom-S1
+	aux|be-Fin-Ind-Past-S1-irr adv|so adj|sad-S1 adv|when
+	pron|you-Prs-Nom-S2 verb|make-Fin-Ind-Past-S2-irr det|a-Ind-Art
+	noun|mess-Acc adp|of pron|our-Prs-Gen-P1 noun|castle .
+%xdss:	B2; C2; B1; C2; F5; C2; Z; B3; Z;
+*CHI:	the dog said sorry i didnt mean to .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	pron|I-Prs-Nom-S1 aux|didnt-Fin-S verb|mean-Inf-S part|to .
+%xdss:	Z; C2; B1; D2; C1;
+*CHI:	the rabbit said its okay lets make it again .
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 adj|okay-S1 verb|let-Fin-Ind-Pres-S3
+	verb|make-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%xdss:	Z; C2; A1; C2; C1; A1; B5;
+*CHI:	they started to build again and this time they were more careful .
+%mor:	pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to
+	verb|build-Inf-S adv|again cconj|and det|this-Def-Dem-Sing noun|time
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|more
+	adj|careful-S1 .
+%xdss:	B3; C2; D3; C1; F3; Z; B3; C2;
+@End

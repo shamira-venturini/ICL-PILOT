@@ -1,0 +1,38 @@
+{
+  "source_file": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/kideval_raw.xls",
+  "raw_shape": [
+    224,
+    53
+  ],
+  "clean_shape": [
+    220,
+    53
+  ],
+  "removed_warning_rows": 2,
+  "removed_blank_rows": 2,
+  "duplicate_headers_resolved": [
+    "Group"
+  ],
+  "renamed_columns": [
+    "Group_2"
+  ],
+  "numeric_columns_count": 34,
+  "numeric_columns_sample": [
+    "Age(Month)",
+    "Total_Utts",
+    "MLU_Utts",
+    "MLU_Words",
+    "MLU_Morphemes",
+    "MLU50_Utts",
+    "FREQ_types",
+    "FREQ_tokens",
+    "NDW_100",
+    "VOCD_D_optimum_average",
+    "Verbs_Utt",
+    "TD_Words",
+    "TD_Utts",
+    "TD_Time_(secs)",
+    "Word_Errors"
+  ],
+  "parquet_written": false
+}

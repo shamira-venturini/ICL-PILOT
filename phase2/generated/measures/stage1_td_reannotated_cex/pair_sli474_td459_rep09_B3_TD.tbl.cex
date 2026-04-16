@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog they   |   |3  |2  |   |   |3 8|   |   |  1| 17|
+    went for a walk .                  |   |   |   |   |   |   |   |   |   |   |
+they took a wagon with a big red       |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the dog was pulling the wagon .        |   |   |2 1|   |   |   |   |   |  1|  4|
+the balloon was so happy .             |   |   |2  |   |   |5  |   |   |  1|  8|
+but then the balloon came loose .      |   |   |2  |   |   |5  |   |   |  1|  8|
+it floated away in the air .           |1  |   |2  |   |   |   |   |   |  1|  4|
+the rabbit and dog were sad .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they looked everywhere .               |   |3  |2  |   |   |   |   |   |  1|  6|
+they wanted their balloon back .       |   |3 3|2  |   |   |   |   |   |  1|  9|
+they went to a man who had lots of     |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+he said .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+oh , you want balloons ?               |   |   |1  |   |   |   |   |   |  1|  2|
+they didn't have five dollars .        |3  |3  |6 1|   |4  |   |   |   |  1| 18|
+the rabbit and dog were happy again .  |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  |  4| 29| 35|  0|  4| 27|  0|  0| 14|113|
+WARNING: DSS requires 50 complete sentences and this transcript only has 14.
+
+Developmental sentence score:  8.07

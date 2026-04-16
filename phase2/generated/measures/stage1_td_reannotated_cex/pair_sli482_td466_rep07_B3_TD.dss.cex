@@ -1,0 +1,80 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep07
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=466
+*CHI:	they pull the wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they pull the wagon with a big [/] big balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 noun|balloon .
+%xdss:	B3; C1; Z; Z;
+*CHI:	it's red and it's pretty .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|red-S1 cconj|and
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|pretty .
+%xdss:	A1; C1; F3; A1; C1;
+*CHI:	the balloon is loose .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 adj|loose-S1 .
+%xdss:	Z; C1;
+*CHI:	the balloon go [* m:03s:a] up [/] up [/] up [/] up in the air .
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Ind-Pres-S adp|up adp|in
+	det|the-Def-Art noun|air .
+%xdss:	Z; C1; Z;
+*CHI:	it's gone [/] gone [/] gone .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gone-S1 .
+%xdss:	A1; C1;
+*CHI:	where [/] where [/] where is it ?
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 ?
+%xdss:	C1; A1;
+*CHI:	we cry [/] cry [/] cry .
+%mor:	pron|we-Prs-Nom-P1 verb|cry-Fin-Ind-Pres-P1 .
+%xdss:	B3; C1;
+*CHI:	we want the balloon again .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 det|the-Def-Art
+	noun|balloon-Acc adv|again .
+%xdss:	B3; C1; Z;
+*CHI:	we go see the man with balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 verb|see-Inf-S
+	det|the-Def-Art noun|man-Acc adp|with noun|balloon-Plur .
+%xdss:	B3; C1; C1; Z; Z;
+*CHI:	he has lots and lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	cconj|and noun|lot-Plur adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; F3; Z; Z;
+*CHI:	but they are very expensive .
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adv|very
+	adj|expensive-S1 .
+%xdss:	F5; B3; C2;
+*CHI:	we don't have enough money .
+%mor:	pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Pres-P1~part|not verb|have-Inf-S
+	adj|enough-S1 noun|money-Acc .
+%xdss:	B3; E4; C1; Z;
+*CHI:	the man say [* m:03s:a] .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	it's okay , i help you .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1
+	pron|I-Prs-Nom-S1 verb|help-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	A1; C1; B1; C1; B5;
+*CHI:	he give [* m:03s:a] us two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|we-Prs-Acc-P1
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	we have balloons now !
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 noun|balloon-Plur-Acc
+	adv|now !
+%xdss:	B3; C1; Z;
+@End

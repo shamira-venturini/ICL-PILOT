@@ -1,0 +1,21 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:33 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep02_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+kitty's ball fall [* m:03s:a] in the   |   |   |1  |   |   |   |   |   |  0|  1|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+kitty go in the pool to get it .       |1  |5  |1 1|   |   |   |   |   |  1|  9|
+kitty bring [* m:03s:a] the ball out . |   |   |1  |   |   |   |   |   |  0|  1|
+doggy and kitty are happy .            |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  |  1|  5|  6|  0|  0|  3|  0|  0|  2| 17|
+WARNING: DSS requires 50 complete sentences and this transcript only has 4.
+
+Developmental sentence score:  4.25

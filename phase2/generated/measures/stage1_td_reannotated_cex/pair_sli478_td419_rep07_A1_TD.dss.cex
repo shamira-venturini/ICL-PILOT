@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep07
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=419
+*CHI:	there was [* m:vsg:a] two cats near the pool with a ball .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr num|two noun|cat-Plur
+	adp|near det|the-Def-Art noun|pool adp|with det|a-Ind-Art noun|ball
+	.
+%xdss:	C2; A3; Z; Z; Z;
+*CHI:	the ball fell in the water .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	kitty went into the pool to get it .
+%mor:	noun|kitty verb|go-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art
+	noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	kitty picked it up and came out .
+%mor:	noun|kitty verb|pick-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|up
+	cconj|and verb|come-Fin-Ind-Past-S3-irr adp|out .
+%xdss:	Z; C2; A1; B5; F3; C2;
+*CHI:	kitty ran to its friend and gave it the ball .
+%mor:	noun|kitty verb|run-Fin-Ind-Past-S3-irr adp|to pron|its-Prs-Gen-S3
+	noun|friend cconj|and verb|give-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; A1; Z; F3; C2; A1; B5; Z;
+*CHI:	kitty and friend were happy again .
+%mor:	noun|kitty cconj|and noun|friend aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

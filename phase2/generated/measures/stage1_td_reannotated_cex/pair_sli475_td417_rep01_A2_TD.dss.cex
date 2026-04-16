@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep01
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=417
+*CHI:	One day , a kitty and a puppy went to the pool .
+%mor:	num|one noun|day det|a-Ind-Art noun|kitty cconj|and det|a-Ind-Art
+	noun|puppy verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	The puppy started running to the water .
+%mor:	det|the-Def-Art noun|puppy verb|start-Fin-Ind-Past-S3
+	verb|run-Ger-S adp|to det|the-Def-Art noun|water .
+%xdss:	Z; C2; D7; C1; D8; Z;
+*CHI:	but the kitty said .
+%mor:	cconj|but det|the-Def-Art noun|kitty verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	F5; Z; C2;
+*CHI:	stop !
+%mor:	verb|stop-Inf-S !
+%xdss:	C1;
+*CHI:	The puppy slipped and hurt her [* s:r:gc:det] knee .
+%mor:	det|the-Def-Art noun|puppy verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; B2; Z;
+*CHI:	A nice person came with a bandage and put it on the puppy's knee .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|person verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage cconj|and
+	verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|on
+	det|the-Def-Art noun|puppy~part|s noun|knee .
+%xdss:	Z; C2; Z; F3; C2; A1; B5; Z; Z;
+*CHI:	The puppy sat on a bench and rested .
+%mor:	det|the-Def-Art noun|puppy verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

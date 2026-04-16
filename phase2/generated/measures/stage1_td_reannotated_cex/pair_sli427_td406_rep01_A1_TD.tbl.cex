@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:12 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep01_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day me [* s:r:gc:pro] and my doggy |3  |1 1|1  |4 8|   |3  |   |   |  0| 21|
+    playing near the pool .            |   |   |   |   |   |   |   |   |   |   |
+We play with a red ball .              |   |3  |1  |   |   |   |   |   |  1|  5|
+But then , the ball went splash in the |   |   |2  |   |   |5  |   |   |  1|  8|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+My doggy want [* m:03s:a] the ball .   |   |1  |1  |   |   |   |   |   |  0|  2|
+He go [* m:03s:a] to the pool .        |   |2  |2  |   |   |   |   |   |  0|  4|
+He get [* m:03s:a] the ball .          |   |2  |2  |   |   |   |   |   |  0|  4|
+My doggy come [* m:03s:a] back , and I |   |1 1|2 1|   |   |3  |   |   |  0| 10|
+    give him a hug .                   |   |2  |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3| 14| 12| 12|  0| 11|  0|  0|  2| 54|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  7.71

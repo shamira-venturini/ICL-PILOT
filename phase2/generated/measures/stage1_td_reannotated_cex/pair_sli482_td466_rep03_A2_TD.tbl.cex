@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep03_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Once upon a time , my friend and I saw |1  |1 1|2 2|   |   |3  |   |   |  1| 11|
+    a sign at the pool that said .     |   |   |   |   |   |   |   |   |   |   |
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+We went to the pool to have some fun . |3  |3  |2 1|   |   |   |   |   |  1| 10|
+My friend wanted to run to the water   |   |1 1|2 1|3  |   |5  |   |   |  1| 16|
+    but I said .                       |   |   |2  |   |   |   |   |   |   |   |
+wait , the sign says no running .      |   |   |1 2|8  |   |   |   |   |  1| 12|
+My friend didn't listen and ran to the |   |1  |6 1|8  |4  |3  |   |   |  1| 26|
+    jumping board .                    |   |   |2  |   |   |   |   |   |   |   |
+Then my friend slipped and fell down   |   |1 3|2 2|   |   |3 3|   |   |  0| 16|
+    and hurt their [* s:r:gc:det] knee |   |   |2  |   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+My friend sat on the bench and rested  |   |1 3|2 2|   |   |3  |   |   |  0| 11|
+    their [* s:r:gc:det] knee .        |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  4| 16| 34| 27|  4| 20|  0|  0|  6|111|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score: 13.88

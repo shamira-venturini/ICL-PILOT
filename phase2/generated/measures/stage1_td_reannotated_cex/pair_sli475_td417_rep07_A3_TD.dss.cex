@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep07
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=417
+*CHI:	there were two dogs they were playing with a [* m:allo] airplane
+	they were having so much fun near the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two noun|dog-Plur
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|airplane
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|have-Part-Pres-S adv|so adj|much-S1 noun|fun-Acc adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	C2; A3; Z; B3; C2; C1; Z; B3; C2; C1; F5; Z; Z;
+*CHI:	then a boy took it and threw it in the water .
+%mor:	adv|then det|a-Ind-Art noun|boy verb|take-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 cconj|and verb|throw-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|water .
+%xdss:	Z; C2; A1; B5; F3; C2; A1; B5; Z;
+*CHI:	the boy's sister was very sad .
+%mor:	det|the-Def-Art noun|boy~part|s noun|sister
+	aux|be-Fin-Ind-Past-S3-irr adv|very adj|sad-S1 .
+%xdss:	Z; Z; C2;
+*CHI:	she wanted to get it .
+%mor:	pron|she-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	a lifeguard came with a pole and got the airplane out .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|pole cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc adp|out .
+%xdss:	Z; C2; Z; F3; C2; Z;
+*CHI:	the boy was happy the sister was happy the airplane was happy .
+%mor:	det|the-Def-Art noun|boy aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	det|the-Def-Art noun|sister aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 .
+%xdss:	Z; C2; Z; C2; Z; C2;
+@End

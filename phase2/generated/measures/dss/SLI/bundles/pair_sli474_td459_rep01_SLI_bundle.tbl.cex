@@ -1,0 +1,92 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:40 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli474_td459_rep01_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+my dog and my cat play near the pool . |   |1 1|1  |   |   |3  |   |   |  1|  7|
+they have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+the ball fall [* m:03s:a] into the     |   |   |2  |   |   |   |   |   |  0|  2|
+    water splat .                      |   |   |   |   |   |   |   |   |   |   |
+my dog go [* m:03s:a] into the pool get|1  |1 5|1 1|   |   |   |   |   |  0|  9|
+     [* m:03s:a] it .                  |   |   |   |   |   |   |   |   |   |   |
+he swim [* m:03s:a] and swim [* m:03s:a|1  |2 5|2 2|   |   |3 3|   |   |  0| 19|
+    ] and get [* m:03s:a] it .         |   |   |1  |   |   |   |   |   |   |   |
+then my dog come [* m:03s:a] out and   |1  |1 5|1 1|   |   |3  |   |   |  0| 13|
+    give [* m:03s:a] it to me .        |   |1  |   |   |   |   |   |   |   |   |
+now my dog and my cat are happy .      |   |1 1|2  |   |   |3  |   |   |  1|  8|
+this is a monkey and a dog .           |1  |   |1  |   |   |3  |   |   |  1|  6|
+they go to the pool .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+they see a sign that say [* m:03s:a] no|1  |3  |1 1|8  |   |   |   |   |  0| 14|
+     running .                         |   |   |   |   |   |   |   |   |   |   |
+the dog see [* m:03s:a] the sign but he|   |2  |1 2|   |   |5  |   |   |  0| 10|
+     run [* m:03s:a] anyway .          |   |   |   |   |   |   |   |   |   |   |
+he run [* m:03s:a] to the water .      |   |2  |2  |   |   |   |   |   |  0|  4|
+he slip [* m:base:ed] and hurt his knee|   |2 2|2 2|   |   |3  |   |   |  0| 11|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+then a man come [* m:03s:a] with a     |   |   |2  |   |   |   |   |   |  0|  2|
+    bandaid .                          |   |   |   |   |   |   |   |   |   |   |
+the dog sit [* m:03s:a] down on a bench|   |   |2  |   |   |3  |   |   |  0|  5|
+     and rest .                        |   |   |   |   |   |   |   |   |   |   |
+once upon a time there were two dogs   |3  |   |2 1|   |   |   |   |   |  0|  6|
+    playin [* m:0ing] with a plane near|   |   |   |   |   |   |   |   |   |   |
+     the pool .                        |   |   |   |   |   |   |   |   |   |   |
+they was [* m:vsg:a] runnin [* m:0ing] |   |3  |2 1|   |   |3  |   |   |  0|  9|
+    and playin [* m:0ing] .            |   |   |   |   |   |   |   |   |   |   |
+then one of the dog drop [* m:03s:a]   |3  |   |1  |   |   |   |   |   |  0|  4|
+    the plane in the water .           |   |   |   |   |   |   |   |   |   |   |
+other dog get [* m:03s:a] very sad .   |3  |   |1  |   |   |   |   |   |  0|  4|
+his friend say [* m:03s:a] oh no where |   |2 1|2 1|   |   |   |   |   |  0|  6|
+    is my plane .                      |   |   |   |   |   |   |   |   |   |   |
+then a lifeguard come [* m:03s:a] and  |   |2  |2 2|   |   |3  |   |   |  0|  9|
+    he have [* m:vun:a] a long pole .  |   |   |   |   |   |   |   |   |   |   |
+he say [* m:03s:a] dont [* m:03s:a]    |1  |2 1|2 1|5  |   |   |   |   |  0| 18|
+    worry I get it .                   |   |5  |1  |   |   |   |   |   |   |   |
+he put pole in water and he get [* m:  |   |2 2|2 2|   |   |3  |   |   |  0| 11|
+    03s:a] the plane .                 |   |   |   |   |   |   |   |   |   |   |
+the dog was so happy .                 |   |   |2  |   |   |5  |   |   |  1|  8|
+he say [* m:03s:a] thank you .         |   |2 5|2 1|   |   |   |   |   |  0| 10|
+a rabbit and dog they go to the sandbox|   |3  |1  |   |   |3  |   |   |  1|  8|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+rabbit says build castle .             |   |   |2 1|   |   |   |   |   |  1|  4|
+dog says yay get the bucket .          |   |   |2 1|   |   |   |   |   |  1|  4|
+rabbit start [* m:03s:a] building .    |   |   |1  |8  |   |   |   |   |  0|  9|
+dog come [* m:03s:a] back with big     |   |   |1  |   |   |   |   |   |  0|  1|
+    bucket of sand .                   |   |   |   |   |   |   |   |   |   |   |
+dog say [* m:03s:a] i want add some    |3  |1  |1 1|5  |   |   |   |   |  0| 12|
+    sand to castle .                   |   |   |1  |   |   |   |   |   |   |   |
+rabbit say [* m:03s:a] careful but dog |   |   |1 1|   |   |5  |   |   |  0|  7|
+    drop [* m:03s:a] the bucket .      |   |   |   |   |   |   |   |   |   |   |
+all sand go on castle .                |3  |   |1  |   |   |   |   |   |  1|  5|
+castle get [* m:03s:a] messy .         |   |   |1  |   |   |   |   |   |  0|  1|
+rabbit say [* m:03s:a] why you do that |1  |   |1 1|   |   |   |   |7  |  0| 10|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+dog say [* m:03s:a] sorry .            |   |   |1  |   |   |   |   |   |  0|  1|
+rabbit say [* m:03s:a] okay we build   |   |3  |1 1|   |   |   |   |   |  0|  5|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+rabbit and dog build another castle .  |3  |   |1  |   |   |3  |   |   |  1|  8|
+Rabbit and dog got food for the picnic |   |   |2  |   |   |3 8|   |   |  1| 14|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+They got carrots and sandwiches .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+We sit on the blanket and eat .        |   |3  |1 1|   |   |3  |   |   |  1|  9|
+Me [* s:r:gc:pro] eat too many         |   |1  |1  |   |   |   |   |   |  0|  2|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+Oh my tummy hurts .                    |   |1  |2  |   |   |   |   |   |  1|  4|
+Me [* s:r:gc:pro] feel sick .          |   |1  |1  |   |   |   |   |   |  0|  2|
+Me [* s:r:gc:pro] go see doctor .      |   |1  |1 1|   |   |   |   |   |  0|  3|
+He look [* m:03s:a] at me and say [* m:|   |2 1|2 1|5  |   |3  |   |   |  0| 16|
+    03s:a] I have tummyache .          |   |1  |1  |   |   |   |   |   |   |   |
+I have to rest now .                   |   |1  |1 1|3  |   |   |   |   |  1|  7|
+My tummy will feel better tomorrow .   |   |1  |4 1|2  |   |   |   |   |  1|  9|
+they pulled a wagon with a big red     |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the string came loose .                |   |   |2  |8  |   |   |   |   |  1| 11|
+TOTAL                                  | 25| 94|109| 44|  0| 74|  0|  7| 19|372|
+
+Developmental sentence score:  7.44

@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:26 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep02_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+the rabbit and dog go on a picnic .    |   |   |1  |   |   |3  |   |   |  1|  5|
+they bring carrots and sandwiches .    |   |3  |1  |   |   |3  |   |   |  1|  8|
+the little boy eats too many sandwiches|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+he feels sick .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+he has a tummyache .                   |   |2  |2  |   |   |   |   |   |  1|  5|
+his mommy takes him to see the doctor .|   |2 2|2 1|5  |   |   |   |   |  1| 13|
+the doctor gives him some medicine .   |3  |2  |2  |   |   |   |   |   |  1|  8|
+the boy drinks the medicine .          |   |   |2  |   |   |   |   |   |  1|  3|
+he lays down and rests .               |   |2  |2 2|   |   |3  |   |   |  1| 10|
+now he feels better .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+the boy is happy .                     |   |   |1  |   |   |   |   |   |  1|  2|
+TOTAL                                  |  3| 17| 22|  5|  0|  9|  0|  0| 11| 67|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  6.09

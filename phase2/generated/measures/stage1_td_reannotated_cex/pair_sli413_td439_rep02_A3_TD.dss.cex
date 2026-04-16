@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep02
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=2
+@Comment:	source_child_id=439
+*CHI:	One time there were two ducks .
+%mor:	num|one noun|time pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr
+	num|two noun|duck-Plur .
+%xdss:	A3; Z; C2; A3; Z;
+*CHI:	They were near the pool and they found an airplane .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adp|near
+	det|the-Def-Art noun|pool cconj|and pron|they-Prs-Nom-P3
+	verb|find-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|airplane-Acc .
+%xdss:	B3; C2; Z; F3; B3; C2; Z;
+*CHI:	They were playing with it .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; C1; A1; B5;
+*CHI:	Then it fell into the water .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	the ducks were crying .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C2; C1;
+*CHI:	One duck said .
+%mor:	num|one noun|duck verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	A3; Z; C2;
+*CHI:	The other duck said .
+%mor:	det|the-Def-Art adj|other-S1 noun|duck verb|say-Fin-Ind-Past-S3-irr
+	.
+%xdss:	A3; Z; C2;
+*CHI:	I want to get it !
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 !
+%xdss:	B1; C1; D3; C1; A1; B5;
+*CHI:	Someone came with a pole .
+%mor:	pron|someone-Ind-S1 verb|come-Fin-Ind-Past-S3-irr adp|with
+	det|a-Ind-Art noun|pole .
+%xdss:	A3; C2; Z;
+*CHI:	They threw it to the duck .
+%mor:	pron|they-Prs-Nom-P3 verb|throw-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|duck .
+%xdss:	B3; C2; A1; B5; Z;
+*CHI:	The duck got the airplane .
+%mor:	det|the-Def-Art noun|duck verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	now they can play again .
+%mor:	adv|now pron|they-Prs-Nom-P3 aux|can-Fin-S verb|play-Inf-S
+	adv|again .
+%xdss:	B3; C4; D2; C1;
+@End

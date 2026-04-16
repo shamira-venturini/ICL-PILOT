@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep10_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time a dog and a rabbit    |   |   |2  |   |   |3  |   |   |  1|  6|
+    were friends .                     |   |   |   |   |   |   |   |   |   |   |
+they went to the beach and built a big |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    sandcastle together .              |   |   |   |   |   |   |   |   |   |   |
+the dog was using a big shovel .       |   |   |2 1|   |   |   |   |   |  1|  4|
+he dug and dug .                       |   |2  |2 2|   |   |3  |   |   |  1| 10|
+then he put a big bucket of sand on top|   |2  |2  |   |   |   |   |   |  1|  5|
+     of the castle .                   |   |   |   |   |   |   |   |   |   |   |
+but then the bucket tipped and all the |3  |   |2 2|   |   |5 3|   |   |  1| 16|
+    sand went everywhere !             |   |   |   |   |   |   |   |   |   |   |
+the rabbit saw it and she said .       |1  |5 2|2 2|   |   |3  |   |   |  1| 16|
+she looked sad .                       |   |2  |2  |   |   |   |   |   |  1|  5|
+the dog looked sad too .               |   |   |2  |   |   |   |   |   |  1|  3|
+he said sorry .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+the rabbit said its okay .             |1  |   |2  |   |   |   |   |   |  1|  4|
+they worked together to build it again |1  |3 5|2 1|   |   |   |   |   |  1| 13|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+now it was even bigger and better .    |1  |   |2  |   |   |3  |   |   |  1|  7|
+TOTAL                                  |  7| 26| 36|  0|  0| 23|  0|  0| 13|105|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  8.08

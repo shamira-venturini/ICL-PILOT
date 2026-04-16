@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep07
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog is [* m:vsg:a] going to make a castle .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S part|to verb|make-Inf-S det|a-Ind-Art
+	noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; C1; D2; C1; Z;
+*CHI:	They is [* m:vsg:a] making a big castle .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|castle-Acc .
+%xdss:	B3; C1; C1; Z;
+*CHI:	Rabbit is using a shovel and dog is using a bucket .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Pres-S3 verb|use-Part-Pres-S
+	det|a-Ind-Art noun|shovel-Acc cconj|and noun|dog
+	aux|be-Fin-Ind-Pres-S3 verb|use-Part-Pres-S det|a-Ind-Art
+	noun|bucket-Acc .
+%xdss:	C1; C1; Z; F3; Z; C1; C1; Z;
+*CHI:	They is [* m:vsg:a] making a big moat .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|make-Part-Pres-S
+	det|a-Ind-Art adj|big-S1 noun|moat-Acc .
+%xdss:	B3; C1; C1; Z;
+*CHI:	Rabbit and dog is [* m:vsg:a] happy .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	.
+%xdss:	Z; F3; Z; C1;
+*CHI:	Dog throw [* m:03s:a] a bucket and the castle get [* m:03s:a] all
+	crumby .
+%mor:	noun|dog verb|throw-Fin-Imp-S det|a-Ind-Art noun|bucket-Acc
+	cconj|and det|the-Def-Art noun|castle verb|get-Fin-Ind-Pres-S3
+	det|all-Def-Tot noun|crumby-Acc .
+%xdss:	Z; C1; Z; F3; Z; C2; A3; Z;
+*CHI:	The castle is all flat .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3 adv|all
+	adj|flat-S1 .
+%xdss:	Z; C1;
+*CHI:	Dog is sorry .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	Dog try [* m:03s:a] to fix it .
+%mor:	noun|dog verb|try-Fin-Imp-S part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; D3; C1; A1; B5;
+@End

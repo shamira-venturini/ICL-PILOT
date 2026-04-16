@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep05
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=406
+*CHI:	One day two doggies play near the pool .
+%mor:	num|one noun|day num|two noun|doggie-Plur verb|play-Fin-Ind-Pres-P3
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; A3; Z; C1; Z;
+*CHI:	They throw [* m:03s:a] a ball in the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|throw-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|ball-Acc adp|in det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z; Z;
+*CHI:	The ball fell in the water .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	One doggy goes into the pool to get it .
+%mor:	num|one noun|doggy verb|go-Fin-Ind-Pres-S3 adp|into det|the-Def-Art
+	noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; Z; C1; A1; B5;
+*CHI:	He swims to the ball and gets it .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|ball cconj|and verb|get-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; Z; F3; C2; A1; B5;
+*CHI:	Now the ball is back .
+%mor:	adv|now det|the-Def-Art noun|ball aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	Z; C1;
+*CHI:	The doggies [: dogs] [* m:=s] are happy again .
+%mor:	det|the-Def-Art noun|doggie-Plur aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 adv|again .
+%xdss:	Z; C2;
+@End

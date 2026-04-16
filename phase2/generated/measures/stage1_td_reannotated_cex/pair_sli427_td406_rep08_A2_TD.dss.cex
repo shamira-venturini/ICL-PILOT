@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep08
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=8
+@Comment:	source_child_id=406
+*CHI:	Yesterday I was at the pool .
+%mor:	noun|yesterday pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adp|at
+	det|the-Def-Art noun|pool .
+%xdss:	Z; B1; C2; Z;
+*CHI:	there was a sign that said no running .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr det|no-Def-Neg
+	noun|running-Acc-Ger .
+%xdss:	C2; Z; A1; C2; Z; D8;
+*CHI:	my friend and I were by the pool .
+%mor:	pron|my-Prs-Gen-S1 noun|friend cconj|and pron|I-Prs-Nom-S1
+	aux|be-Fin-Ind-Past-P3-irr adp|by det|the-Def-Art noun|pool .
+%xdss:	B1; Z; F3; B1; C2; Z;
+*CHI:	my friend said see that sign don't run .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|say-Fin-Ind-Past-S3-irr
+	verb|see-Inf-Imp-S det|that-Def-Dem-Sing noun|sign-Acc
+	aux|do-Fin-S~part|not verb|run-Inf-S .
+%xdss:	B1; Z; C2; C1; Z; C4; E4; C1;
+*CHI:	but I ran .
+%mor:	cconj|but pron|I-Prs-Nom-S1 verb|run-Fin-Ind-Past-S1-irr .
+%xdss:	F5; B1; C2;
+*CHI:	I ran to the water .
+%mor:	pron|I-Prs-Nom-S1 verb|run-Fin-Ind-Past-S1-irr adp|to
+	det|the-Def-Art noun|water .
+%xdss:	B1; C2; Z;
+*CHI:	I slipped .
+%mor:	pron|I-Prs-Nom-S1 verb|slip-Fin-Ind-Past-S1 .
+%xdss:	B1; C2;
+*CHI:	I fell down .
+%mor:	pron|I-Prs-Nom-S1 verb|fall-Fin-Ind-Past-S1-irr adv|down .
+%xdss:	B1; C2;
+*CHI:	I hurt my knee .
+%mor:	pron|I-Prs-Nom-S1 verb|hurt-Fin-Ind-Past-S1-irr pron|my-Prs-Gen-S1
+	noun|knee-Acc .
+%xdss:	B1; C2; B1; Z;
+*CHI:	a lifeguard came and said you have a boo-boo .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	cconj|and verb|say-Fin-Ind-Past-S3-irr pron|you-Prs-Nom-S2
+	verb|have-Fin-Ind-Pres-S2 det|a-Ind-Art noun|booboo-Acc .
+%xdss:	Z; C2; F3; C2; D5; C1; Z;
+*CHI:	he put a band-aid on my knee .
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bandaid-Acc adp|on pron|my-Prs-Gen-S1 noun|knee .
+%xdss:	B2; C2; Z; B1; Z;
+*CHI:	I sat on the bench .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Past-S1-irr adp|on
+	det|the-Def-Art noun|bench .
+%xdss:	B1; C2; Z;
+*CHI:	I rested .
+%mor:	pron|I-Prs-Nom-S1 verb|rest-Fin-Ind-Past-S1 .
+%xdss:	B1; C2;
+@End

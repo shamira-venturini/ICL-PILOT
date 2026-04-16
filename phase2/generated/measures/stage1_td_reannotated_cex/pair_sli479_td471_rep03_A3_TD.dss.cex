@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep03
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=3
+@Comment:	source_child_id=471
+*CHI:	My friend and I had a toy airplane near the pool .
+%mor:	pron|my-Prs-Gen-S1 noun|friend cconj|and pron|I-Prs-Nom-S1
+	verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|toy
+	noun|airplane-Acc adp|near det|the-Def-Art noun|pool .
+%xdss:	B1; Z; F3; B1; C2; Z; Z; Z;
+*CHI:	It was so much fun flying it .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|much-S1
+	noun|fun verb|fly-Ger-S pron|it-Prs-Acc-S3 .
+%xdss:	A1; C2; F5; Z; D4; C1; D8; A1; B5;
+*CHI:	Then , my friend's little brother took it and dropped it in the
+	water .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|friend~part|s adj|little-S1
+	noun|brother verb|take-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	cconj|and verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|in
+	det|the-Def-Art noun|water .
+%xdss:	B1; Z; Z; C2; A1; B5; F3; C2; A1; B5; Z;
+*CHI:	My friend got really upset .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|get-Fin-Ind-Past-S3-irr
+	adv|really adj|upset-S1 .
+%xdss:	B1; Z; C2;
+*CHI:	We were so happy !
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr adv|so adj|happy-S1 !
+%xdss:	B3; C2; F5;
+*CHI:	Now my friend's airplane is back .
+%mor:	adv|now pron|my-Prs-Gen-S1 noun|friend~part|s noun|airplane
+	aux|be-Fin-Ind-Pres-S3 adv|back .
+%xdss:	B1; Z; Z; C1;
+@End

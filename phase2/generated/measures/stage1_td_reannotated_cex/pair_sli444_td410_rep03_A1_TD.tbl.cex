@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep03_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two ducks and a doggy are playing near |3  |   |2 1|   |   |3  |   |   |  1| 10|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+They had a big red ball .              |   |3  |2  |   |   |   |   |   |  1|  6|
+The ball fell into the pool .          |   |   |2  |   |   |   |   |   |  1|  3|
+The doggy got a long stick and put it  |1  |5  |2 2|   |   |3  |   |   |  1| 15|
+    in the water to get the ball .     |   |   |1  |   |   |   |   |   |   |   |
+The doggy got the ball and pulled it   |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    out .                              |   |   |   |   |   |   |   |   |   |   |
+Now the ducks and the doggy are happy  |   |   |2  |   |   |3  |   |   |  1|  6|
+    again .                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  5| 13| 18|  0|  0| 12|  0|  0|  6| 54|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  9.00

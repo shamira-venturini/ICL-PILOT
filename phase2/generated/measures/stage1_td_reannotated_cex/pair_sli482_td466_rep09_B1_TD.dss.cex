@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep09
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=466
+*CHI:	my friend and me [* s:r:gc:pro] build castle sand .
+%mor:	pron|my-Prs-Gen-S1 noun|friend cconj|and pron|I-Prs-Acc-S1
+	verb|build-Fin-Ind-Pres-P3 noun|castle noun|sand-Acc .
+%xdss:	B1; Z; F3; B1; C1; Z; Z;
+*CHI:	me [* s:r:gc:pro] use shovel .
+%mor:	pron|I-Prs-Acc-S1 verb|use-Fin-Ind-Pres-S1 noun|shovel-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	my friend use [* m:03s:a] bucket .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|use-Fin-Ind-Pres-S3
+	noun|bucket-Acc .
+%xdss:	B1; Z; C2; Z;
+*CHI:	my friend throw [* m:03s:a] bucket .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|throw-Fin-Ind-Pres-S
+	noun|bucket-Acc .
+%xdss:	B1; Z; C1; Z;
+*CHI:	my friend cry [* m:03s:a] .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|cry-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	me [* s:r:gc:pro] feel bad .
+%mor:	pron|I-Prs-Acc-S1 verb|feel-Fin-Ind-Pres-S1 adj|bad-S1 .
+%xdss:	B1; C1;
+*CHI:	me [* s:r:gc:pro] say [* m:03s:a] sorry .
+%mor:	pron|I-Prs-Acc-S1 verb|say-Fin-Ind-Pres-S1 adj|sorry-S1 .
+%xdss:	B1; C1;
+*CHI:	me [* s:r:gc:pro] and my friend work together .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend
+	verb|work-Fin-Ind-Pres-S3 adv|together .
+%xdss:	B1; F3; B1; Z; C2;
+*CHI:	fix castle again .
+%mor:	verb|fix-Inf-S noun|castle-Acc adv|again .
+%xdss:	C1; Z;
+*CHI:	castle stand [* m:03s:a] up .
+%mor:	noun|castle verb|stand-Fin-Imp-S adp|up .
+%xdss:	Z; C1;
+*CHI:	me [* s:r:gc:pro] smile .
+%mor:	pron|I-Prs-Acc-S1 verb|smile-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1;
+@End

@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep04
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=460
+*CHI:	he went to the pool with his dog .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool adp|with pron|his-Prs-Gen-S3 noun|dog .
+%xdss:	B2; C2; Z; B2; Z;
+*CHI:	they saw a sign that said no running .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|sign-Acc pron|that-Rel verb|say-Fin-Ind-Past-S3-irr
+	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	B3; C2; Z; A1; C2; Z; D8;
+*CHI:	but the dog started to run .
+%mor:	cconj|but det|the-Def-Art noun|dog verb|start-Fin-Ind-Past-S3
+	part|to verb|run-Inf-S .
+%xdss:	F5; Z; C2; D3; C1;
+*CHI:	it's doggy slip on the wet ground .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|doggy-S1 noun|slip
+	adp|on det|the-Def-Art adj|wet-S1 noun|ground .
+%xdss:	A1; C1; Z; Z;
+*CHI:	now the doggy is hurt .
+%mor:	adv|now det|the-Def-Art noun|doggy aux|be-Fin-Ind-Pres-S3
+	verb|hurt-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	a nice lady came with a bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	she put the bandage on the doggy's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|bandage-Acc adp|on det|the-Def-Art noun|doggy~part|s noun|knee
+	.
+%xdss:	B2; C2; Z; Z; Z;
+*CHI:	the doggy sat on a bench .
+%mor:	det|the-Def-Art noun|doggy verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench .
+%xdss:	Z; C2; Z;
+*CHI:	now the doggy is resting .
+%mor:	adv|now det|the-Def-Art noun|doggy aux|be-Fin-Ind-Pres-S3
+	verb|rest-Part-Pres-S .
+%xdss:	Z; C1; C1;
+@End

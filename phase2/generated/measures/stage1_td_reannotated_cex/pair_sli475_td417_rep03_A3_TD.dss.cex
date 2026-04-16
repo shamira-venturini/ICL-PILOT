@@ -1,0 +1,64 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep03
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=417
+*CHI:	there was a kitty and a puppy they were playing with a plane .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|kitty cconj|and det|a-Ind-Art noun|puppy pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with
+	det|a-Ind-Art noun|plane .
+%xdss:	C2; Z; F3; Z; B3; C2; C1; Z;
+*CHI:	they were near the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z;
+*CHI:	the plane was in the pool .
+%mor:	det|the-Def-Art noun|plane aux|be-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	kitty's friend was mad .
+%mor:	propn|kitty~part|s noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|mad-S1 .
+%xdss:	Z; C2;
+*CHI:	she said it's mine .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 pron|my-Prs-S1 .
+%xdss:	B2; C2; A1; C1; B1;
+*CHI:	puppy said no it's mine .
+%mor:	noun|puppy verb|say-Fin-Ind-Past-S3-irr intj|no
+	pron|it-Prs-S3~aux|be-Fin-Ind-Pres-S3 pron|my-Prs-S1 .
+%xdss:	Z; C2; A1; C1; B1;
+*CHI:	kitty's friend said don't touch it .
+%mor:	propn|kitty~part|s noun|friend verb|say-Fin-Ind-Past-S3-irr
+	aux|do-Fin-Imp-S~part|not verb|touch-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; C4; E4; C1; A1; B5;
+*CHI:	she took a pole and got the plane .
+%mor:	pron|she-Prs-Nom-S3 verb|take-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|pole-Acc cconj|and verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|plane-Acc .
+%xdss:	B2; C2; Z; F3; C2; Z;
+*CHI:	kitty was happy kitty's friend was happy .
+%mor:	noun|kitty aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	noun|kitty~part|s noun|friend aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 .
+%xdss:	Z; C2; Z; Z; C2;
+*CHI:	the plane was out of the pool .
+%mor:	det|the-Def-Art noun|plane aux|be-Fin-Ind-Past-S3-irr adp|out
+	adp|of det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	everyone was happy .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	A7; C2;
+@End

@@ -1,0 +1,63 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep01
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=466
+*CHI:	my doggy and me [* s:r:gc:pro] went for a walk !
+%mor:	pron|my-Prs-Gen-S1 noun|doggy cconj|and pron|I-Prs-Acc-S1
+	verb|go-Fin-Ind-Past-S3-irr adp|for det|a-Ind-Art noun|walk !
+%xdss:	B1; Z; F3; B1; C2; F8; Z;
+*CHI:	we got a wagon and a pretty red balloon !
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|wagon-Acc cconj|and det|a-Ind-Art adv|pretty adj|red-S1
+	noun|balloon !
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	my doggy pulled and i pulled .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|pull-Fin-Ind-Past-S3 cconj|and
+	pron|I-Prs-Nom-S1 verb|pull-Fin-Ind-Past-S1 .
+%xdss:	B1; Z; C2; F3; B1; C2;
+*CHI:	the balloon came loose and went up [/] up [/] up !
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adv|loose cconj|and verb|go-Fin-Ind-Past-S3-irr adp|up !
+%xdss:	Z; C2; F3; C2;
+*CHI:	my doggy and me were sad [/] sad [/] sad !
+%mor:	pron|my-Prs-Gen-S1 noun|doggy cconj|and pron|I-Prs-Acc-S1
+	aux|be-Fin-Ind-Past-P3-irr adj|sad-S1 !
+%xdss:	B1; Z; F3; B1; C2;
+*CHI:	we looked everywhere [/] everywhere [/] everywhere !
+%mor:	pron|we-Prs-Nom-P1 verb|look-Fin-Ind-Past-P1 adv|everywhere !
+%xdss:	B3; C2;
+*CHI:	then we saw a nice lady she had lots of balloons !
+%mor:	adv|then pron|we-Prs-Nom-P1 verb|see-Fin-Ind-Past-P1-irr
+	det|a-Ind-Art adj|nice-S1 noun|lady-Acc pron|she-Prs-Nom-S3
+	verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc adp|of
+	noun|balloon-Plur !
+%xdss:	B3; C2; Z; B2; C2; Z; Z;
+*CHI:	but they were so expensive !
+%mor:	cconj|but pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|expensive-S1 !
+%xdss:	F5; B3; C2; F5;
+*CHI:	my mom said can we have one ?
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|say-Fin-Ind-Past-S3-irr
+	aux|can-Fin-S pron|we-Prs-Nom-P1 verb|have-Inf-S num|one ?
+%xdss:	B1; Z; C2; B3; C1; A3;
+*CHI:	the lady said yes [/] yes [/] yes !
+%mor:	det|the-Def-Art noun|lady verb|say-Fin-Ind-Past-S3-irr intj|yes !
+%xdss:	Z; C2;
+*CHI:	we got two balloons and we were so happy [/] happy [/] happy !
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr num|two
+	noun|balloon-Plur-Acc cconj|and pron|we-Prs-Nom-P1
+	aux|be-Fin-Ind-Past-P1-irr adv|so adj|happy-S1 !
+%xdss:	B3; C2; A3; Z; F3; B3; C2; F5;
+@End

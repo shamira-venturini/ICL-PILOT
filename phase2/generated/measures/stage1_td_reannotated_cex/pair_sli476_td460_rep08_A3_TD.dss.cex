@@ -1,0 +1,63 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep08
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=460
+*CHI:	he got a little airplane .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|little-S1 noun|airplane-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	it's in the pool .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art
+	noun|pool .
+%xdss:	A1; C1; Z;
+*CHI:	two birds are playing with it .
+%mor:	num|two noun|bird-Plur aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with pron|it-Prs-Acc-S3 .
+%xdss:	A3; Z; C2; C1; A1; B5;
+*CHI:	it's going splat in the water .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S
+	noun|splat-Acc adp|in det|the-Def-Art noun|water .
+%xdss:	A1; C1; C1; Z; Z;
+*CHI:	the owner is mad .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%xdss:	Z; C1;
+*CHI:	she's jumping in the water .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|jump-Part-Pres-S
+	adp|in det|the-Def-Art noun|water .
+%xdss:	B2; C1; C1; Z;
+*CHI:	she can't get it .
+%mor:	pron|she-Prs-Nom-S3 aux|can-Fin-S~part|not verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C4; E4; C1; A1; B5;
+*CHI:	the lifeguard is here now .
+%mor:	det|the-Def-Art noun|lifeguard aux|be-Fin-Ind-Pres-S3 adv|here
+	adv|now .
+%xdss:	Z; C1;
+*CHI:	he's got a big stick .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|a-Ind-Art adj|big-S1 noun|stick-Acc .
+%xdss:	B2; C7; C2; Z;
+*CHI:	he's getting the airplane .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C1; C1; Z;
+*CHI:	the owner is smiling .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3
+	verb|smile-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	she's happy now .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 adv|now .
+%xdss:	B2; C1;
+@End

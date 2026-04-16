@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep04
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=4
+@Comment:	source_child_id=406
+*CHI:	Me [* s:r:gc:pro] and my dog go pick up food .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|dog
+	verb|go-Fin-Ind-Pres-P3 verb|pick-Inf-S adp|up noun|food-Acc .
+%xdss:	B1; F3; B1; Z; C1; C1; Z;
+*CHI:	We got sandwiches and berries .
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr
+	noun|sandwich-Plur-Acc cconj|and noun|berries-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	I eat too much .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adv|much .
+%xdss:	B1; C1;
+*CHI:	My tummy hurts .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	I feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	My mommy says we need to go to the doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|mommy verb|say-Fin-Ind-Pres-S3
+	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 part|to verb|go-Inf-S
+	adp|to det|the-Def-Art noun|doctor .
+%xdss:	B1; Z; C2; D5; B3; C1; D3; C1; Z;
+*CHI:	The doctor says I need to rest .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 part|to verb|rest-Inf-S
+	.
+%xdss:	Z; C2; D5; B1; C1; D3; C1;
+*CHI:	I sit down and rest .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Pres-S1 adp|down cconj|and
+	verb|rest-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1; F3; C1;
+*CHI:	I feel better now .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 adv|now
+	.
+%xdss:	B1; C1;
+@End

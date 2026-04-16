@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep07
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=7
+@Comment:	source_child_id=471
+*CHI:	One day , two friends , a cat and a rabbit , were playing near the
+	pool with a little airplane .
+%mor:	num|one noun|day num|two noun|friend-Plur det|a-Ind-Art noun|cat
+	cconj|and det|a-Ind-Art noun|rabbit aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|the-Def-Art noun|pool adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane .
+%xdss:	A3; Z; A3; Z; Z; F3; Z; C2; C1; Z; Z;
+*CHI:	They were tossing it up and down , laughing .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|toss-Part-Pres-S pron|it-Prs-Acc-S3 adp|up cconj|and adv|down
+	verb|laugh-Part-Pres-S .
+%xdss:	B3; C2; C1; A1; B5; F3; C1;
+*CHI:	But then , the cat's friend threw it a little too high , and it
+	landed in the pool with a splash .
+%mor:	cconj|but adv|then det|the-Def-Art noun|cat~part|s noun|friend
+	verb|throw-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 det|a-Ind-Art
+	adj|little-S1 adv|too adj|high-S1 cconj|and pron|it-Prs-Nom-S3
+	verb|land-Fin-Ind-Past-S3 adp|in det|the-Def-Art noun|pool adp|with
+	det|a-Ind-Art noun|splash .
+%xdss:	F5; Z; Z; C2; A1; B5; F3; A1; C2; Z; Z;
+*CHI:	The rabbit's face got all sad .
+%mor:	det|the-Def-Art noun|rabbit~part|s noun|face
+	verb|get-Fin-Ind-Past-S3-irr det|all-Def-Tot adj|sad-S1 .
+%xdss:	Z; Z; C2; A3;
+*CHI:	She pulled it out and gave it back to the rabbit .
+%mor:	pron|she-Prs-Nom-S3 verb|pull-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3
+	adp|out cconj|and verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adv|back adp|to det|the-Def-Art noun|rabbit .
+%xdss:	B2; C2; A1; B5; F3; C2; A1; B5; Z;
+*CHI:	The rabbit was so happy .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	We got our airplane back !
+%mor:	pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1-irr pron|our-Prs-Gen-P1
+	noun|airplane-Acc adv|back !
+%xdss:	B3; C2; B3; Z;
+@End

@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+bunny and doggy pull the wagon with the|   |   |1  |   |   |3  |   |   |  1|  5|
+     pretty red balloon .              |   |   |   |   |   |   |   |   |   |   |
+oh look out !                          |   |   |1  |   |   |   |   |   |  1|  2|
+the string came undone and the balloon |   |   |2 2|8  |   |3  |   |   |  1| 16|
+    flew up [/] up [/] up !            |   |   |   |   |   |   |   |   |   |   |
+we want our balloon back .             |   |3 3|1  |   |   |   |   |   |  1|  8|
+bunny and doggy go to the balloon lady |   |   |1  |   |   |3  |   |   |  1|  5|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+she has lots of pretty balloons .      |   |2  |2  |   |   |   |   |   |  1|  5|
+oh dear , the balloon lady says the red|3 7|   |2 2|   |   |   |   |   |  1| 15|
+     balloons are five dollars each .  |   |   |   |   |   |   |   |   |   |   |
+bunny and doggy don't have five dollars|3  |   |1  |   |4  |3  |   |   |  1| 12|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the balloon lady helps bunny and doggy |3  |   |2 1|   |   |3  |   |   |  1| 10|
+    pick some cheap balloons .         |   |   |   |   |   |   |   |   |   |   |
+bunny gets a blue balloon , doggy gets |   |   |2 2|   |   |   |   |   |  1|  5|
+    a yellow balloon .                 |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 16|  8| 22|  8|  4| 15|  0|  0| 10| 83|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  8.30

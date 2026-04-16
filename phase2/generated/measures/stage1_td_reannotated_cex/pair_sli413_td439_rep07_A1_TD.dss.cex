@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep07
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=7
+@Comment:	source_child_id=439
+*CHI:	once upon a time there was a kitty and a puppy .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|kitty cconj|and
+	det|a-Ind-Art noun|puppy .
+%xdss:	Z; C2; Z; F3; Z;
+*CHI:	they were playing by the pool .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|by det|the-Def-Art noun|pool .
+%xdss:	B3; C2; C1; Z;
+*CHI:	they threw a ball into the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|throw-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc adp|into det|the-Def-Art noun|pool .
+%xdss:	B3; C2; Z; Z;
+*CHI:	the ball went in the water .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the puppy went to get it .
+%mor:	det|the-Def-Art noun|puppy verb|go-Fin-Ind-Past-S3-irr part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; D3; C1; A1; B5;
+*CHI:	it climbed down the ladder and got the ball .
+%mor:	pron|it-Prs-Nom-S3 verb|climb-Fin-Ind-Past-S3 adp|down
+	det|the-Def-Art noun|ladder cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	A1; C2; Z; F3; C2; Z;
+*CHI:	the kitty was happy .
+%mor:	det|the-Def-Art noun|kitty aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	.
+%xdss:	Z; C2;
+*CHI:	the puppy brought the ball back .
+%mor:	det|the-Def-Art noun|puppy verb|bring-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc adv|back .
+%xdss:	Z; C2; Z;
+*CHI:	now kitty and puppy are happy again .
+%mor:	adv|now noun|kitty cconj|and noun|puppy aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

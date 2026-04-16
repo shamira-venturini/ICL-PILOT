@@ -1,0 +1,45 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep02
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=2
+@Comment:	source_child_id=460
+*CHI:	There are two rabbits by the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|rabbit-Plur
+	adp|by det|the-Def-Art noun|pool .
+%xdss:	C1; A3; Z; Z;
+*CHI:	They are playing with a ball .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with det|a-Ind-Art noun|ball .
+%xdss:	B3; C2; C1; Z;
+*CHI:	The ball goes into the pool .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	One of the rabbits gets in the pool .
+%mor:	num|one adp|of det|the-Def-Art noun|rabbit-Plur
+	verb|get-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; Z;
+*CHI:	He gets the ball .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	He brings the ball out .
+%mor:	pron|he-Prs-Nom-S3 verb|bring-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc adp|out .
+%xdss:	B2; C2; Z;
+*CHI:	The rabbits are happy now .
+%mor:	det|the-Def-Art noun|rabbit-Plur aux|be-Fin-Ind-Pres-P3
+	adj|happy-S1 adv|now .
+%xdss:	Z; C2;
+@End

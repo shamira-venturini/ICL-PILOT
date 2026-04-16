@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep04
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=460
+*CHI:	they play near the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	they have a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the ball goes into the water .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	the dog jumps in the pool to get it .
+%mor:	det|the-Def-Art noun|dog verb|jump-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	he swims and gets the ball .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Pres-S3 cconj|and
+	verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc .
+%xdss:	B2; C2; F3; C2; Z;
+*CHI:	the dog comes out and brings the ball back .
+%mor:	det|the-Def-Art noun|dog verb|come-Fin-Ind-Pres-S3 adp|out
+	cconj|and verb|bring-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc
+	adv|back .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	the cat's happy .
+%mor:	det|the-Def-Art noun|cat~aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	the dog's happy too .
+%mor:	det|the-Def-Art noun|dog~aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	adv|too .
+%xdss:	Z; C1;
+@End

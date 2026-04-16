@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep07
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=459
+*CHI:	once upon a time rabbit and dog they pulled a wagon with a big red
+	balloon .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Past-P3
+	det|a-Ind-Art noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1
+	adj|red-S1 noun|balloon .
+%xdss:	Z; Z; F3; Z; B3; C2; Z; Z;
+*CHI:	the balloon came loose and went flying away .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Past-S3-irr
+	adj|loose-S1 cconj|and verb|go-Fin-Ind-Past-S3-irr verb|fly-Ger-S
+	adv|away .
+%xdss:	Z; C2; F3; C2; D7; C1; D8;
+*CHI:	the rabbit and dog were sad .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-P3-irr adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they looked everywhere for the balloon but it was gone .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 adv|everywhere
+	adp|for det|the-Def-Art noun|balloon cconj|but pron|it-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr adj|gone-S1 .
+%xdss:	B3; C2; F8; Z; F5; A1; C2;
+*CHI:	then they went to the balloon man who had lots of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|man pron|who-Rel
+	verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc adp|of
+	noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z; B6; C2; Z; Z;
+*CHI:	he said his balloons were five dollars each .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3
+	noun|balloon-Plur aux|be-Fin-Ind-Past-P3-irr num|five
+	noun|dollar-Plur det|each-Def-Tot .
+%xdss:	B2; C2; B2; Z; C2; A3; Z; A7;
+*CHI:	the rabbit and dog didn't have five dollars .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|do-Fin-Ind-Past-S3-irr~part|not verb|have-Inf-S num|five
+	noun|dollar-Plur-Acc .
+%xdss:	Z; F3; Z; C6; E4; C1; A3; Z;
+*CHI:	the balloon man said it was okay he would help them get balloons .
+%mor:	det|the-Def-Art noun|balloon noun|man verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|okay-S1
+	pron|he-Prs-Nom-S3 aux|would-Fin-S verb|help-Inf-S
+	pron|they-Prs-Acc-P3 verb|get-Inf-S noun|balloon-Plur-Acc .
+%xdss:	Z; Z; C2; A1; C2; B2; C6; D2; C1; D5; B3; C1; Z;
+*CHI:	the rabbit and dog were so happy they each got a new balloon .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 pron|they-Prs-Nom-P3
+	det|each-Def-Tot verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	Z; F3; Z; C2; F5; B3; A7; C2; Z;
+*CHI:	now they were happy again .
+%mor:	adv|now pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 adv|again .
+%xdss:	B3; C2;
+@End

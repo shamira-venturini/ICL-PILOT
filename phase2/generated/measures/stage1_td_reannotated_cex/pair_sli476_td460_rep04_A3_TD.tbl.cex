@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:21 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep04_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+He and his friend playing [* m:+ing]   |   |2 2|1  |4 8|   |3  |   |   |  0| 20|
+    with a plane near the pool .       |   |   |   |   |   |   |   |   |   |   |
+Oh look it's going in the water !      |1  |   |1 1|5  |   |   |   |   |  1| 10|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+The plane is in the pool now .         |   |   |1  |   |   |   |   |   |  1|  2|
+His friend is crying .                 |   |2  |1 1|   |   |   |   |   |  1|  5|
+The plane belongs to him .             |   |2  |2  |   |   |   |   |   |  1|  5|
+He wants it back .                     |1  |2 5|2  |   |   |   |   |   |  1| 11|
+He's waving his hand to the man with   |   |2 2|1 1|   |   |   |   |   |  1|  7|
+    the pole .                         |   |   |   |   |   |   |   |   |   |   |
+The man is coming with a long stick .  |   |   |1 1|   |   |   |   |   |  1|  3|
+He's putting the plane in the basket . |   |2  |1 1|   |   |   |   |   |  1|  5|
+It's coming out !                      |1  |   |1 1|   |   |   |   |   |  1|  4|
+He's so happy .                        |   |2  |1  |   |   |5  |   |   |  1|  9|
+Now the plane is back .                |   |   |1  |   |   |   |   |   |  1|  2|
+Everyone is smiling .                  |7  |   |1 1|   |   |   |   |   |  1| 10|
+TOTAL                                  | 10| 23| 23| 17|  0|  8|  0|  0| 12| 93|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  7.15

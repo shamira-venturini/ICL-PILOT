@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep10
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=419
+*CHI:	there were two kitties by the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|kitty-Plur adp|by det|the-Def-Art noun|pool .
+%xdss:	C2; A3; Z; Z;
+*CHI:	one kitty threw the ball in the water .
+%mor:	num|one noun|kitty verb|throw-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc adp|in det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z; Z;
+*CHI:	the ball went splash .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Past-S3-irr
+	noun|splash-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	kitty said oh no !
+%mor:	propn|kitty verb|say-Fin-Ind-Past-S3-irr intj|oh intj|no !
+%xdss:	C2;
+*CHI:	kitty's friend went in the water and got the ball .
+%mor:	propn|kitty~part|s noun|friend verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z; F3; C2; Z;
+*CHI:	kitty's friend pulled it out .
+%mor:	propn|kitty~part|s noun|friend verb|pull-Fin-Ind-Past-S3
+	pron|it-Prs-Acc-S3 adp|out .
+%xdss:	Z; C2; A1; B5;
+*CHI:	kitty was so happy kitty's friend gave kitty the ball .
+%mor:	noun|kitty aux|be-Fin-Ind-Past-S3-irr adv|so adj|happy-S1
+	noun|kitty~part|s noun|friend verb|give-Fin-Ind-Past-S3-irr
+	noun|kitty det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; F5; Z; Z; C2; Z; Z;
+*CHI:	kitty and kitty's friend played some more .
+%mor:	noun|kitty cconj|and noun|kitty~part|s noun|friend
+	verb|play-Fin-Ind-Past-S3 det|some-Def-Ind adj|more-Cmp-S1 .
+%xdss:	Z; F3; Z; Z; C2; A3; A3;
+@End

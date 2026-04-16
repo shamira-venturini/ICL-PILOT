@@ -1,0 +1,69 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep05
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=406
+*CHI:	One day me and my doggy we builded [: built] [* m:=ed] a sandcastle
+	.
+%mor:	num|one noun|day pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1
+	noun|doggy pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Past-P1
+	det|a-Ind-Art noun|sandcastle-Acc .
+%xdss:	A3; Z; B1; F3; B1; Z; B3; C2; Z;
+*CHI:	It was so cool .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|cool-S1 .
+%xdss:	A1; C2; F5;
+*CHI:	We put a moat and a flag on it .
+%mor:	pron|we-Prs-Nom-P1 verb|put-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	noun|moat-Acc cconj|and det|a-Ind-Art noun|flag adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	B3; C2; Z; F3; Z; A1; B5;
+*CHI:	Then my doggy he poured sand all over it .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|doggy pron|he-Prs-Nom-S3
+	verb|pour-Fin-Ind-Past-S3 noun|sand-Acc det|all-Def-Tot adp|over
+	pron|it-Prs-Acc-S3 .
+%xdss:	B1; Z; B2; C2; Z; A3; A1; B5;
+*CHI:	I said .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr .
+%xdss:	B1; C2;
+*CHI:	My doggy he [* s:r:gc:pro] was crying .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy pron|he-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S .
+%xdss:	B1; Z; B2; C2; C1;
+*CHI:	He said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	he did it .
+%mor:	pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; A1; B5;
+*CHI:	it's okay .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	A1; C1;
+*CHI:	we can fix it .
+%mor:	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|fix-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	B3; C4; D2; C1; A1; B5;
+*CHI:	My doggy he helped me put the sand back .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy pron|he-Prs-Nom-S3
+	verb|help-Fin-Ind-Past-S3 pron|I-Prs-Acc-S1 verb|put-Inf-S
+	det|the-Def-Art noun|sand-Acc adv|back .
+%xdss:	B1; Z; B2; C2; D5; B1; C1; Z;
+*CHI:	It was still a little bit broke [* m:sub:en] .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|still
+	det|a-Ind-Art adj|little-S1 noun|bit adj|broke-S1 .
+%xdss:	A1; C2; Z;
+*CHI:	but we made it better .
+%mor:	cconj|but pron|we-Prs-Nom-P1 verb|make-Fin-Ind-Past-P1-irr
+	pron|it-Prs-Acc-S3 adj|good-Cmp-S1 .
+%xdss:	F5; B3; C2; A1; B5;
+@End

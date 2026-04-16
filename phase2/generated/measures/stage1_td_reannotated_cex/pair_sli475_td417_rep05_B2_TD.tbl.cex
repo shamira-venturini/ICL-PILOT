@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there was a rabbit and a dog .         |   |   |2  |   |   |3  |   |   |  1|  6|
+and they went to the park to have a    |   |3  |2 1|   |   |3  |   |   |  1| 10|
+    picnic .                           |   |   |   |   |   |   |   |   |   |   |
+they brought food and we went .        |   |3 3|2 2|   |   |3  |   |   |  1| 14|
+the food was sandwiches and carrots .  |   |   |2  |   |   |3  |   |   |  1|  6|
+and a little child ate a lot of carrots|   |   |2  |   |   |3  |   |   |  1|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the child started to feel sick .       |   |   |2 1|3  |   |   |   |   |  1|  7|
+she felt yucky .                       |   |2  |2  |   |   |   |   |   |  1|  5|
+she was feeling dizzy .                |   |2  |2 1|   |   |   |   |   |  1|  6|
+the child went to the doctor .         |   |   |2  |   |   |   |   |   |  1|  3|
+the doctor said it's okay .            |1  |   |2 1|   |   |   |   |   |  1|  5|
+the child took a rest and went home .  |   |   |2 2|   |   |3  |   |   |  1|  8|
+TOTAL                                  |  1| 13| 30|  3|  0| 18|  0|  0| 11| 76|
+WARNING: DSS requires 50 complete sentences and this transcript only has 11.
+
+Developmental sentence score:  6.91

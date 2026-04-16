@@ -1,0 +1,67 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep02
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=2
+@Comment:	source_child_id=415
+*CHI:	Rabbit and dog go on a trip .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|on
+	det|a-Ind-Art noun|trip .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They got a wagon and a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|wagon-Acc cconj|and det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	The balloon comes loose , and it floats away .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adj|loose-S1
+	cconj|and pron|it-Prs-Nom-S3 verb|float-Fin-Ind-Pres-S3 adv|away .
+%xdss:	Z; C2; F3; A1; C2;
+*CHI:	Rabbit and dog are sad .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	They go to a man who sells balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|a-Ind-Art
+	noun|man pron|who-Rel verb|sell-Fin-Ind-Pres-S3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; Z; B6; C2; Z;
+*CHI:	He says .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	it's too expensive .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|too adj|expensive-S1
+	.
+%xdss:	A1; C1;
+*CHI:	Rabbit and dog don't have enough money .
+%mor:	noun|rabbit cconj|and noun|dog aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S adj|enough-S1 noun|money-Acc .
+%xdss:	Z; F3; Z; E4; C1; Z;
+*CHI:	But the man is nice , he helps them .
+%mor:	cconj|but det|the-Def-Art noun|man aux|be-Fin-Ind-Pres-S3
+	adj|nice-S1 pron|he-Prs-Nom-S3 verb|help-Fin-Ind-Pres-S3
+	pron|they-Prs-Acc-P3 .
+%xdss:	F5; Z; C1; B2; C2; B3;
+*CHI:	He gives them two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+*CHI:	Rabbit and dog are happy .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; F3; Z; C2;
+*CHI:	They blow up the balloons and play .
+%mor:	pron|they-Prs-Nom-P3 verb|blow-Fin-Ind-Pres-P3 adp|up
+	det|the-Def-Art noun|balloon-Plur-Acc cconj|and
+	verb|play-Fin-Ind-Pres-P3 .
+%xdss:	B3; C1; Z; F3; C1;
+@End

@@ -1,0 +1,82 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:37 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli477_td415_rep09_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we have two kitty [* m:0s:a] and doggy |3  |3  |1  |   |   |3  |   |   |  0| 10|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+they play near the pool .              |   |3  |1  |   |   |   |   |   |  1|  5|
+kitty hit [* m:03s:a] the ball .       |   |   |2  |   |   |   |   |   |  0|  2|
+it fall [* m:03s:a] into the water .   |1  |   |2  |   |   |   |   |   |  0|  3|
+kitty go [* m:03s:a] into the pool .   |   |   |1  |   |   |   |   |   |  0|  1|
+kitty get [* m:03s:a] the ball .       |   |   |1  |   |   |   |   |   |  0|  1|
+kitty bring [* m:03s:a] the ball out . |   |   |1  |   |   |   |   |   |  0|  1|
+two friends , a kitty and a puppy , go |3  |   |1  |   |   |3  |   |   |  1|  8|
+    to the pool .                      |   |   |   |   |   |   |   |   |   |   |
+look !                                 |   |   |1  |   |   |   |   |   |  1|  2|
+a sign say [* m:03s:a] .               |   |   |1  |   |   |   |   |   |  0|  1|
+no runing [: running] [* m:0ing] .     |   |   |   |8  |   |   |   |   |  0|  8|
+kitty slip and hurt knee .             |   |   |1  |   |   |3  |   |   |  1|  5|
+a lifeguard come [* m:03s:a] with a big|   |   |2  |   |   |   |   |   |  0|  2|
+     bandage .                         |   |   |   |   |   |   |   |   |   |   |
+kitty sit [* m:03s:a] on a bench and   |   |   |1  |   |   |3  |   |   |  0|  4|
+    rest .                             |   |   |   |   |   |   |   |   |   |   |
+kitty feel better .                    |   |   |1  |   |   |   |   |   |  1|  2|
+there is a car .                       |   |   |2  |   |   |   |   |   |  1|  3|
+and it's a plane in the pool .         |1  |   |1  |   |   |3  |   |   |  1|  6|
+and it's splashing .                   |1  |   |1 1|   |   |3  |   |   |  1|  7|
+and there is a kitty and a puppy .     |   |   |2  |   |   |3 3|   |   |  1|  9|
+and they are playing .                 |   |3  |2 1|   |   |3  |   |   |  1| 10|
+and it's wet .                         |1  |   |1  |   |   |3  |   |   |  1|  6|
+and the kitty and puppy get mad .      |   |   |1  |   |   |3 3|   |   |  1|  8|
+and mommy is there .                   |   |   |1  |   |   |3  |   |   |  1|  5|
+and mommy say [* m:03s:a] no [/] no [/]|   |   |2  |   |   |3  |   |   |  0|  5|
+     no .                              |   |   |   |   |   |   |   |   |   |   |
+and there is a man with a pole .       |   |   |2  |   |   |3  |   |   |  1|  6|
+and he is getting the plane .          |   |2  |1 1|   |   |3  |   |   |  1|  8|
+and the plane is on the ground .       |   |   |1  |   |   |3  |   |   |  1|  5|
+there is a dog and a rabbit build [* m:|   |   |2 1|   |   |3  |   |   |  0|  6|
+    0ing] a castle in the sand .       |   |   |   |   |   |   |   |   |   |   |
+and the rabbit is very happy .         |   |   |1  |   |   |3  |   |   |  1|  5|
+and the dog is very happy too .        |   |   |1  |   |   |3  |   |   |  1|  5|
+and the dog have [* m:vun:a] a bucket .|   |   |1  |   |   |3  |   |   |  0|  4|
+and the dog is go [* m:0ing] to pour   |   |   |1 1|3  |   |3  |   |   |  0|  9|
+    sand in the castle .               |   |   |1  |   |   |   |   |   |   |   |
+and the dog pour [* m:03s:a] the sand  |   |   |1  |   |   |3  |   |   |  0|  4|
+    in the bucket .                    |   |   |   |   |   |   |   |   |   |   |
+and the bucket fall [* m:03s:a] down . |   |   |2  |   |   |3  |   |   |  0|  5|
+and the sand castle is broke [* m:sub: |   |   |1  |   |   |3  |   |   |  0|  4|
+    en] .                              |   |   |   |   |   |   |   |   |   |   |
+and the rabbit say [* m:03s:a] oh no my|   |1  |2  |   |   |3  |   |   |  0|  6|
+     castle .                          |   |   |   |   |   |   |   |   |   |   |
+and the rabbit and the dog is go [* m: |   |   |1 1|3  |   |3 3|   |   |  0| 12|
+    0ing] to fix the castle .          |   |   |1  |   |   |   |   |   |   |   |
+and the rabbit is say [* m:03s:a] sorry|   |   |1 1|   |   |3  |   |   |  0|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+my mom and dad and a dog and a rabbit  |   |1  |1  |   |   |3 3|   |   |  1| 12|
+    go on a picnic .                   |   |   |   |   |   |3  |   |   |   |   |
+we bring sandwiches and carrots .      |   |3  |1  |   |   |3  |   |   |  1|  8|
+i eat too much sandwiches .            |   |1  |1  |   |   |   |   |   |  1|  3|
+my tummy hurt .                        |   |1  |2  |   |   |   |   |   |  1|  4|
+i feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+my mom take [* m:03s:a] me to the      |   |1 1|1  |   |   |   |   |   |  0|  3|
+    doctor .                           |   |   |   |   |   |   |   |   |   |   |
+the doctor look [* m:03s:a] at me and  |3  |1 1|1 1|   |   |3  |   |   |  0| 10|
+    give [* m:03s:a] me some medicine .|   |   |   |   |   |   |   |   |   |   |
+i feel better .                        |   |1  |1  |   |   |   |   |   |  1|  3|
+now i'm sitting on the couch .         |   |1  |1  |   |   |   |   |   |  1|  3|
+Me [* s:r:gc:pro] and my doggy friend  |   |1 1|1 1|   |   |3  |   |   |  0|  7|
+    go pull a wagaun with a big red    |   |   |   |   |   |   |   |   |   |   |
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon go [* m:03s:a] fly away .  |   |   |1 1|   |   |   |   |   |  0|  2|
+I cry .                                |   |1  |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 13| 28| 73| 14|  0|105|  0|  0| 26|259|
+
+Developmental sentence score:  5.18

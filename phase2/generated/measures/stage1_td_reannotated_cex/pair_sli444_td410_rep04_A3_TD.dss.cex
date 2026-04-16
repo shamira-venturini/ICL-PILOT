@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep04
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=410
+*CHI:	there's [* m:vsg:a] two kids and they're playing with a [* m:allo]
+	airplane near the pool .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 num|two noun|kid-Plur
+	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art noun|airplane adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; F3; B3; C1; Z; Z;
+*CHI:	and the one who had the airplane is like .
+%mor:	cconj|and det|the-Def-Art noun|one pron|who-Rel
+	verb|have-Fin-Ind-Past-S3-irr det|the-Def-Art noun|airplane-Acc
+	aux|be-Fin-Ind-Pres-S3 adp|like .
+%xdss:	F3; Z; B6; C2; Z; C1; F8;
+*CHI:	and a big guy with a big pole is like .
+%mor:	cconj|and det|a-Ind-Art adj|big-S1 noun|guy adp|with det|a-Ind-Art
+	adj|big-S1 noun|pole aux|be-Fin-Ind-Pres-S3 intj|like .
+%xdss:	F3; Z; Z; C1;
+*CHI:	don't worry I'll get it !
+%mor:	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 !
+%xdss:	C4; E4; G6; C1; D5; C4; C1; A1; B5;
+*CHI:	and he's trying to get the airplane with the pole .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|try-Part-Pres-S part|to verb|get-Inf-S det|the-Def-Art
+	noun|airplane-Acc adp|with det|the-Def-Art noun|pole .
+%xdss:	F3; B2; C1; C1; D3; C1; Z; Z;
+*CHI:	and he got it !
+%mor:	cconj|and pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 !
+%xdss:	F3; B2; C2; A1; B5;
+*CHI:	and the airplane is back on land .
+%mor:	cconj|and det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3
+	adv|back adp|on noun|land .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and everyone is happy .
+%mor:	cconj|and pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	.
+%xdss:	F3; A7; C1;
+@End

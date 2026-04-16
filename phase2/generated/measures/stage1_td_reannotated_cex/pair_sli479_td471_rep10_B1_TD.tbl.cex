@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep10_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Benny rabbit and his friend , Max dog ,|   |2  |2  |   |   |3  |   |   |  1|  8|
+     built a big sandcastle on the     |   |   |   |   |   |   |   |   |   |   |
+    beach .                            |   |   |   |   |   |   |   |   |   |   |
+They used a big bucket to make a moat .|   |3  |2 1|   |   |   |   |   |  1|  7|
+Max was so excited that he dropped the |   |2  |2 2|   |   |5 3|   |   |  1| 17|
+    bucket on the sandcastle and made a|   |   |2  |   |   |   |   |   |   |   |
+     big hole .                        |   |   |   |   |   |   |   |   |   |   |
+The sandcastle fell down .             |   |   |2  |   |   |   |   |   |  1|  3|
+and they both started to fix the       |7  |3  |2 1|3  |   |3  |   |   |  1| 20|
+    sandcastle .                       |   |   |   |   |   |   |   |   |   |   |
+They used more sand and made it even   |3 1|3 5|2 2|   |   |3 8|   |   |  1| 36|
+    better than before .               |   |   |   |   |   |8  |   |   |   |   |
+They were happy again .                |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 11| 21| 22|  3|  0| 33|  0|  0|  7| 97|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score: 13.86

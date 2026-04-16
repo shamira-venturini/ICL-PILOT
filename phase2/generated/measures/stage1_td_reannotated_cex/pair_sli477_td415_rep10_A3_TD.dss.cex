@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep10
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=415
+*CHI:	the plane goes splash into the water .
+%mor:	det|the-Def-Art noun|plane verb|go-Fin-Ind-Pres-S3 noun|splash-Acc
+	adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z; Z;
+*CHI:	the doggy's friend is sad .
+%mor:	det|the-Def-Art noun|doggy~part|s noun|friend
+	aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; Z; C1;
+*CHI:	he want [* m:03s:a] his plane .
+%mor:	pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3
+	noun|plane-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	a nice lifeguard use [* m:03s:a] a pole to get the plane .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard verb|use-Fin-Ind-Pres-S3
+	det|a-Ind-Art noun|pole-Acc part|to verb|get-Inf-S det|the-Def-Art
+	noun|plane-Acc .
+%xdss:	Z; C2; Z; C1; Z;
+*CHI:	the doggy is happy .
+%mor:	det|the-Def-Art noun|doggy aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	he get [* m:03s:a] his plane back .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3
+	noun|plane-Acc adv|back .
+%xdss:	B2; C2; B2; Z;
+@End

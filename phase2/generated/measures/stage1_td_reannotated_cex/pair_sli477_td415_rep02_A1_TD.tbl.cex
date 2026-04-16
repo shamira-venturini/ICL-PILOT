@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:23 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep02_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+two monkeys they're playing near the   |3 1|3 3|1 2|   |   |3  |   |   |  1| 38|
+    pool and they got a ball they were |7 3|3 5|2 1|   |   |   |   |   |   |   |
+    throwing it to each other .        |   |   |   |   |   |   |   |   |   |   |
+then the ball went into the water      |   |   |2  |   |   |   |   |   |  1|  3|
+    splash !                           |   |   |   |   |   |   |   |   |   |   |
+one monkey went .                      |3  |   |2  |   |   |   |   |   |  1|  6|
+and jumped in the pool to get it .     |1  |5  |2 1|   |   |3  |   |   |  1| 13|
+he went splash [/] splash in the water |   |2 2|2 2|   |   |3  |   |   |  1| 14|
+    and then he came back with the ball|   |2  |   |   |   |   |   |   |   |   |
+     in his hand .                     |   |   |   |   |   |   |   |   |   |   |
+the other monkey said .                |3  |   |2  |   |   |   |   |   |  1|  6|
+and they both hugged each other and    |7 7|3  |2 2|   |   |3 3|   |   |  1| 37|
+    played some more .                 |3 3|   |   |   |   |   |   |   |   |   |
+                                       |3  |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 44| 28| 23|  0|  0| 15|  0|  0|  7|117|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score: 16.71

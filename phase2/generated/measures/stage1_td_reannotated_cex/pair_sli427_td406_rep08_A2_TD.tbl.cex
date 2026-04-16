@@ -1,0 +1,31 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep08_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Yesterday I was at the pool .          |   |1  |2  |   |   |   |   |   |  1|  4|
+there was a sign that said no running .|1  |   |2 2|8  |   |   |   |   |  1| 14|
+my friend and I were by the pool .     |   |1 1|2  |   |   |3  |   |   |  1|  8|
+my friend said see that sign don't run |   |1  |2 1|   |4  |   |   |   |  1| 14|
+    .                                  |   |   |4 1|   |   |   |   |   |   |   |
+but I ran .                            |   |1  |2  |   |   |5  |   |   |  1|  9|
+I ran to the water .                   |   |1  |2  |   |   |   |   |   |  1|  4|
+I slipped .                            |   |1  |2  |   |   |   |   |   |  1|  4|
+I fell down .                          |   |1  |2  |   |   |   |   |   |  1|  4|
+I hurt my knee .                       |   |1 1|2  |   |   |   |   |   |  1|  5|
+a lifeguard came and said you have a   |   |   |2 2|5  |   |3  |   |   |  1| 14|
+    boo-boo .                          |   |   |1  |   |   |   |   |   |   |   |
+he put a band-aid on my knee .         |   |2 1|2  |   |   |   |   |   |  1|  6|
+I sat on the bench .                   |   |1  |2  |   |   |   |   |   |  1|  4|
+I rested .                             |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  1| 15| 37| 13|  4| 11|  0|  0| 13| 94|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  7.23

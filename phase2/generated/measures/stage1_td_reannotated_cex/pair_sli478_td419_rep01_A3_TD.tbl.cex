@@ -1,0 +1,25 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep01_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day two monkey friends were playing|3 3|   |2 1|   |   |   |   |   |  1| 10|
+     with a little airplane near the   |   |   |   |   |   |   |   |   |   |   |
+    pool .                             |   |   |   |   |   |   |   |   |   |   |
+Then the airplane fell into the water .|   |   |2  |   |   |   |   |   |  1|  3|
+A big monkey got mad .                 |   |   |2  |   |   |   |   |   |  1|  3|
+A kind lifeguard went into the water   |   |   |2 2|   |   |3  |   |   |  1|  8|
+    with a big pole and got the        |   |   |   |   |   |   |   |   |   |   |
+    airplane out .                     |   |   |   |   |   |   |   |   |   |   |
+Now everyone is happy .                |7  |   |1  |   |   |   |   |   |  1|  9|
+TOTAL                                  | 13|  0| 12|  0|  0|  3|  0|  0|  5| 33|
+WARNING: DSS requires 50 complete sentences and this transcript only has 5.
+
+Developmental sentence score:  6.60

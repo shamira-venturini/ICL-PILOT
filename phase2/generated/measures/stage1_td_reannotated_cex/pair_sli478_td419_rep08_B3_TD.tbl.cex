@@ -1,0 +1,33 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:27 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep08_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+me [* s:r:gc:pro] and my doggy friend  |   |1 1|1  |   |   |3  |   |   |  0|  9|
+    we pull the wagon .                |   |3  |   |   |   |   |   |   |   |   |
+there is a pretty pink balloon on it . |1  |5  |2  |   |   |   |   |   |  1|  9|
+my friend doggy is happy .             |   |1  |1  |   |   |   |   |   |  1|  3|
+we see it on the tree it is coming     |1 1|3 5|1 1|   |   |   |   |   |  1| 14|
+    loose .                            |   |   |1  |   |   |   |   |   |   |   |
+the balloon goes up high up high and   |   |   |2  |   |   |3  |   |   |  1|  6|
+    pops .                             |   |   |   |   |   |   |   |   |   |   |
+me [* s:r:gc:pro] and my doggy are sad |   |1 1|2  |   |   |3  |   |   |  0|  7|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+we want a new balloon .                |   |3  |1  |   |   |   |   |   |  1|  5|
+we go to the shop .                    |   |3  |1  |   |   |   |   |   |  1|  5|
+the shop lady has lots of balloons .   |   |   |2  |   |   |   |   |   |  1|  3|
+she says they are five dollars each .  |3 7|2 3|2 2|   |   |   |   |   |  1| 20|
+my mom says we can get one each .      |3 7|1 3|2 4|2  |   |   |   |   |  1| 24|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+we have two pink balloons .            |3  |3  |1  |   |   |   |   |   |  1|  8|
+TOTAL                                  | 26| 39| 27|  2|  0|  9|  0|  0| 10|113|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  9.42

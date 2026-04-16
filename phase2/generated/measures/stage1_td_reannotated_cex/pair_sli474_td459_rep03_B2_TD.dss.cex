@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep03
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=459
+*CHI:	once upon a time rabbit and dog went to the park and they found
+	yummy carrots .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|park cconj|and pron|they-Prs-Nom-P3
+	verb|find-Fin-Ind-Past-P3-irr adj|yummy-S1 noun|carrot-Plur-Acc .
+%xdss:	Z; Z; F3; Z; C2; Z; F3; B3; C2; Z;
+*CHI:	they brought them home and made a big picnic .
+%mor:	pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Past-P3-irr
+	pron|they-Prs-Acc-P3 adv|home cconj|and
+	verb|make-Fin-Ind-Past-P3-irr det|a-Ind-Art adj|big-S1
+	noun|picnic-Acc .
+%xdss:	B3; C2; B3; F3; C2; Z;
+*CHI:	the little child ate all the carrots and more sandwiches and now
+	he's all sick .
+%mor:	det|the-Def-Art adj|little-S1 noun|child
+	verb|eat-Fin-Ind-Past-S3-irr det|all-Def-Tot det|the-Def-Art
+	noun|carrot-Plur-Acc cconj|and adj|more-Cmp-S1 noun|sandwich-Plur
+	cconj|and adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all
+	adj|sick-S1 .
+%xdss:	Z; C2; A3; Z; F3; A3; Z; F3; B2; C1;
+*CHI:	he said ouch my tummy hurts .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|ouch
+	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2; B1; Z; C2;
+*CHI:	then the doctor came and said what's wrong little one ?
+%mor:	adv|then det|the-Def-Art noun|doctor verb|come-Fin-Ind-Past-S3-irr
+	cconj|and verb|say-Fin-Ind-Past-S3-irr
+	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adj|wrong-S1 adj|little-S1
+	noun|one ?
+%xdss:	Z; C2; F3; C2; B6; C1; Z;
+*CHI:	he said you ate too much .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|you-Prs-Nom-S2
+	verb|eat-Fin-Ind-Past-S2-irr adv|too adv|much .
+%xdss:	B2; C2; D5; C2;
+*CHI:	the doctor gave him some medicine and now he's lying down and
+	sleeping .
+%mor:	det|the-Def-Art noun|doctor verb|give-Fin-Ind-Past-S3-irr
+	pron|he-Prs-Acc-S3 det|some-Def-Ind noun|medicine-Acc cconj|and
+	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|lie-Part-Pres-S adp|down cconj|and verb|sleep-Part-Pres-S .
+%xdss:	Z; C2; B2; A3; Z; F3; B2; C1; C1; F3; C1;
+@End

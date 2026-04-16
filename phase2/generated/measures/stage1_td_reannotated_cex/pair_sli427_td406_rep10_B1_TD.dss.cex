@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep10
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=10
+@Comment:	source_child_id=406
+*CHI:	Me [* s:r:gc:pro] and my friend doggy were playing on the beach .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend
+	noun|doggy aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|on
+	det|the-Def-Art noun|beach .
+%xdss:	B1; F3; B1; Z; Z; C2; C1; Z;
+*CHI:	We built a big sandcastle .
+%mor:	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	adj|big-S1 noun|sandcastle-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	I put sand on it .
+%mor:	pron|I-Prs-Nom-S1 verb|put-Fin-Ind-Past-S1-irr noun|sand-Acc adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	B1; C2; Z; A1; B5;
+*CHI:	Doggy threw a bucket on it .
+%mor:	propn|Doggy verb|throw-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|bucket-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	C2; Z; A1; B5;
+*CHI:	The castle fell down !
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	!
+%xdss:	Z; C2;
+*CHI:	Doggy looked sad .
+%mor:	noun|doggy verb|look-Fin-Ind-Past-S3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	He said sorry .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	B2; C2;
+*CHI:	I said it's okay .
+%mor:	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 .
+%xdss:	B1; C2; A1; C1;
+*CHI:	We fixed it together .
+%mor:	pron|we-Prs-Nom-P1 verb|fix-Fin-Ind-Past-P1 pron|it-Prs-Acc-S3
+	adv|together .
+%xdss:	B3; C2; A1; B5;
+*CHI:	Now it's all better .
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all
+	adj|good-Cmp-S1 .
+%xdss:	A1; C1;
+@End

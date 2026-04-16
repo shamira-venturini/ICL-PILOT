@@ -1,0 +1,80 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep05
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=417
+*CHI:	there is a dog and a rabbit one day they were building a castle on
+	the beach .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog
+	cconj|and det|a-Ind-Art noun|rabbit num|one noun|day
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|build-Part-Pres-S det|a-Ind-Art noun|castle-Acc adp|on
+	det|the-Def-Art noun|beach .
+%xdss:	C2; Z; F3; Z; A3; Z; B3; C2; C1; Z; Z;
+*CHI:	they were using a big bucket and they were making it very big .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|use-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|bucket-Acc
+	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|make-Part-Pres-S pron|it-Prs-Acc-S3 adv|very adj|big-S1 .
+%xdss:	B3; C2; C1; Z; F3; B3; C2; C1; A1; B5;
+*CHI:	and the rabbit was making little towers .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S adj|little-S1 noun|tower-Plur-Acc .
+%xdss:	F3; Z; C2; C1; Z;
+*CHI:	and the dog was making a big moat .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S det|a-Ind-Art adj|big-S1 noun|moat-Acc .
+%xdss:	F3; Z; C2; C1; Z;
+*CHI:	and the dog had a big shovel .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|big-S1 noun|shovel-Acc .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the dog dumped the whole bucket on the castle .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|dump-Fin-Ind-Past-S3
+	det|the-Def-Art adj|whole-S1 noun|bucket-Acc adp|on det|the-Def-Art
+	noun|castle .
+%xdss:	F3; Z; C2; Z; Z;
+*CHI:	the castle is ruined .
+%mor:	det|the-Def-Art noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|ruin-Part-Past-S .
+%xdss:	Z; C7; C2;
+*CHI:	the rabbit is crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the rabbit is sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	the rabbit says to the dog you ruined my castle .
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Pres-S3 adp|to
+	det|the-Def-Art noun|dog pron|you-Prs-Nom-S2
+	verb|ruin-Fin-Ind-Past-S2 pron|my-Prs-Gen-S1 noun|castle-Acc .
+%xdss:	Z; C2; Z; C2; B1; Z;
+*CHI:	the dog is sorry .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	the dog wants to fix it .
+%mor:	det|the-Def-Art noun|dog verb|want-Fin-Ind-Pres-S3 part|to
+	verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; D3; C1; A1; B5;
+*CHI:	they are both using the shovel to make it new again .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adv|both
+	verb|use-Part-Pres-S det|the-Def-Art noun|shovel-Acc part|to
+	verb|make-Inf-S pron|it-Prs-Acc-S3 adj|new-S1 adv|again .
+%xdss:	B3; C2; C1; Z; C1; A1; B5;
+*CHI:	and now it's like new again .
+%mor:	cconj|and adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	adp|like adj|new-S1 adv|again .
+%xdss:	F3; A1; C1;
+@End

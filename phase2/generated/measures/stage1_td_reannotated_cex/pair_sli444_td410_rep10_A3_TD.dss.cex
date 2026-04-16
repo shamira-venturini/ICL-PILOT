@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep10
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=410
+*CHI:	and the duck's playing with it .
+%mor:	cconj|and det|the-Def-Art noun|duck~aux|be-Fin-Ind-Pres-S3
+	verb|play-Part-Pres-S adp|with pron|it-Prs-Acc-S3 .
+%xdss:	F3; Z; C1; C1; A1; B5;
+*CHI:	and the fish is trying to take it .
+%mor:	cconj|and det|the-Def-Art noun|fish aux|be-Fin-Ind-Pres-S3
+	verb|try-Part-Pres-S part|to verb|take-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	F3; Z; C1; C1; D3; C1; A1; B5;
+*CHI:	and the duck's not giving it to him .
+%mor:	cconj|and det|the-Def-Art noun|duck~aux|be-Fin-Ind-Pres-S3 part|not
+	verb|give-Part-Pres-S pron|it-Prs-Acc-S3 adp|to pron|he-Prs-Acc-S3 .
+%xdss:	F3; Z; C1; E7; C1; A1; B5; B2;
+*CHI:	and it's going into the water .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|go-Part-Pres-S adp|into det|the-Def-Art noun|water .
+%xdss:	F3; A1; C1; C1; Z;
+*CHI:	and the mommy's saying no .
+%mor:	cconj|and det|the-Def-Art noun|mommy~part|s verb|say-Part-Pres-S
+	intj|no .
+%xdss:	F3; Z; C1;
+*CHI:	and he's getting the plane .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Pres-S det|the-Def-Art noun|plane-Acc .
+%xdss:	F3; B2; C1; C1; Z;
+*CHI:	and he's bringing it out .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|bring-Part-Pres-S pron|it-Prs-Acc-S3 adp|out .
+%xdss:	F3; B2; C1; C1; A1; B5;
+*CHI:	and the duck and fish are happy .
+%mor:	cconj|and det|the-Def-Art noun|duck cconj|and noun|fish-Plur
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	F3; Z; F3; Z; C2;
+@End

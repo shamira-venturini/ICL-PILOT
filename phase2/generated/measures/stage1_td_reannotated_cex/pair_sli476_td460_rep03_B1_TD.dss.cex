@@ -1,0 +1,68 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep03
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=460
+*CHI:	they're [/] they're building a sandcastle .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|sandcastle-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the dog he's got the shovel .
+%mor:	det|the-Def-Art noun|dog-Acc
+	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|the-Def-Art noun|shovel-Acc .
+%xdss:	Z; B2; C7; C2; Z;
+*CHI:	he's digging .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|digg-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	the rabbit she's got the bucket .
+%mor:	det|the-Def-Art noun|rabbit
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; B2; C7; C2; Z;
+*CHI:	she's putting sand .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|put-Part-Pres-S
+	noun|sand-Acc .
+%xdss:	B2; C1; C1; Z;
+*CHI:	the dog he's got the bucket .
+%mor:	det|the-Def-Art noun|dog-Acc
+	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; B2; C7; C2; Z;
+*CHI:	he's dumping sand on the castle .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|dump-Part-Pres-S
+	noun|sand-Acc adp|on det|the-Def-Art noun|castle .
+%xdss:	B2; C1; C1; Z; Z;
+*CHI:	it's all crumbly now .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all adj|crumbly-S1
+	adv|now .
+%xdss:	A1; C1;
+*CHI:	the rabbit she's crying .
+%mor:	det|the-Def-Art noun|rabbit
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|cry-Part-Pres-S .
+%xdss:	Z; B2; C1; C1;
+*CHI:	the dog he's sad too .
+%mor:	det|the-Def-Art noun|dog pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	adj|sad-S1 adv|too .
+%xdss:	Z; B2; C1;
+*CHI:	the rabbit she's picking up the pieces .
+%mor:	det|the-Def-Art noun|rabbit
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|pick-Part-Pres-S
+	adp|up det|the-Def-Art noun|piece-Plur-Acc .
+%xdss:	Z; B2; C1; C1; Z;
+*CHI:	they're building it again .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C1; A1; B5;
+@End

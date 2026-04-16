@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep03
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=415
+*CHI:	the boy and his dog go to the pool .
+%mor:	det|the-Def-Art noun|boy cconj|and pron|his-Prs-Gen-S3 noun|dog
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; F3; B2; Z; C1; Z;
+*CHI:	the dog has a ball .
+%mor:	det|the-Def-Art noun|dog verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the ball falls in the pool .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	the boy goes in the pool to get it .
+%mor:	det|the-Def-Art noun|boy verb|go-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	Z; C2; Z; C1; A1; B5;
+*CHI:	he gets the ball and comes out .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|ball-Acc cconj|and verb|come-Fin-Ind-Pres-S3 adp|out .
+%xdss:	B2; C2; Z; F3; C2;
+*CHI:	he is happy .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	B2; C1;
+@End

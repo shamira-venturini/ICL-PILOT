@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep03
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=419
+*CHI:	Rabbit and dog were going on a picnic .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	verb|go-Part-Pres-S adp|on det|a-Ind-Art noun|picnic .
+%xdss:	Z; F3; Z; C2; C1; Z;
+*CHI:	they got carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	one child ate lots and lots .
+%mor:	num|one noun|child verb|eat-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc
+	cconj|and noun|lot-Plur .
+%xdss:	A3; Z; C2; Z; F3; Z;
+*CHI:	then child got a tummyache .
+%mor:	adv|then noun|child verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|tummyache-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	doctor came and checked .
+%mor:	noun|doctor verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|check-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; F3; C2;
+*CHI:	child felt dizzy .
+%mor:	noun|child verb|feel-Fin-Ind-Past-S3-irr adj|dizzy-S1 .
+%xdss:	Z; C2;
+*CHI:	doctor gave some medicine .
+%mor:	noun|doctor verb|give-Fin-Ind-Past-S3-irr det|some-Def-Ind
+	noun|medicine-Acc .
+%xdss:	Z; C2; A3; Z;
+*CHI:	child sat on the bed and rested .
+%mor:	noun|child verb|sit-Fin-Ind-Past-S3-irr adp|on det|the-Def-Art
+	noun|bed cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

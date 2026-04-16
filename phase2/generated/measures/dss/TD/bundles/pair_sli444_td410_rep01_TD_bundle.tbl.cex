@@ -1,0 +1,72 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli444_td410_rep01_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+They're playing with a ball .          |   |3  |1  |   |   |   |   |   |  1|  5|
+The ball goes into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+The kitty jumps in to get it .         |1  |5  |2 1|   |   |   |   |   |  1| 10|
+The kitty gets the ball .              |   |   |2  |   |   |   |   |   |  1|  3|
+The kitty comes out of the water with  |   |   |2  |   |   |   |   |   |  1|  3|
+    the ball .                         |   |   |   |   |   |   |   |   |   |   |
+The doggy and the kitty are happy .    |   |   |2  |   |   |3  |   |   |  1|  6|
+a doggy and a kitty come to the pool . |   |   |2  |   |   |3  |   |   |  1|  6|
+there is a sign that says .            |1  |   |2 2|   |   |   |   |   |  1|  6|
+no runing [: running] [* m:0ing] .     |   |   |   |8  |   |   |   |   |  0|  8|
+the kitty starts to run to the water . |   |   |2 1|3  |   |   |   |   |  1|  7|
+oops the kitty slips and hurts her knee|   |2  |1 2|   |   |3  |   |   |  1| 11|
+     .                                 |   |   |2  |   |   |   |   |   |   |   |
+a nice man comes with a big bandage .  |   |   |2  |   |   |   |   |   |  1|  3|
+the kitty sits on a bench and rests her|   |2  |2 2|   |   |3  |   |   |  1| 10|
+     knee .                            |   |   |   |   |   |   |   |   |   |   |
+oh there's a little doggy and a little |   |   |1  |4 8|   |3  |   |   |  0| 16|
+    kitty playing with a [* m:allo]    |   |   |   |   |   |   |   |   |   |   |
+    airplane near the pool .           |   |   |   |   |   |   |   |   |   |   |
+the airplane goes splat into the water |   |   |2  |   |   |   |   |   |  1|  3|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+the doggy's owner is super upset .     |   |   |1  |   |   |   |   |   |  1|  2|
+she says .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+oh no where's my airplane !            |   |1  |1  |   |   |   |   |   |  1|  3|
+someone yells .                        |3  |   |2  |   |   |   |   |   |  1|  6|
+i can get it !                         |1  |1 5|4 1|2  |   |   |   |   |  1| 15|
+and a lifeguard puts on a big pole and |   |   |2 2|   |   |3 3|   |   |  1| 11|
+    gets the airplane .                |   |   |   |   |   |   |   |   |   |   |
+the kitty is happy .                   |   |   |1  |   |   |   |   |   |  1|  2|
+the airplane is back .                 |   |   |1  |   |   |   |   |   |  1|  2|
+Rabbit and dog build a castle .        |   |   |1  |   |   |3  |   |   |  1|  5|
+Rabbit uses a shovel .                 |   |   |2  |   |   |   |   |   |  1|  3|
+Dog uses a big bucket .                |   |   |2  |   |   |   |   |   |  1|  3|
+Dog puts the bucket on the castle .    |   |   |2  |   |   |   |   |   |  1|  3|
+The castle falls down .                |   |   |2  |   |   |   |   |   |  1|  3|
+Dog is sad .                           |   |   |1  |   |   |   |   |   |  1|  2|
+Dog says sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+They pick up the blocks .              |   |3  |1  |   |   |   |   |   |  1|  5|
+They build again .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+Rabbit and dog go pick food .          |   |   |1 1|   |   |3  |   |   |  1|  6|
+They pick carrots and sandwiches .     |   |3  |1  |   |   |3  |   |   |  1|  8|
+They have picnic .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+We eat sandwiches and carrots .        |   |3  |1  |   |   |3  |   |   |  1|  8|
+I eat too much .                       |   |1  |1  |   |   |   |   |   |  1|  3|
+My tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+I feel dizzy .                         |   |1  |1  |   |   |   |   |   |  1|  3|
+My mom says I need doctor .            |   |1 1|2 1|5  |   |   |   |   |  1| 11|
+Doctor comes and looks at me .         |   |1  |2 2|   |   |3  |   |   |  1|  9|
+He says I need rest .                  |   |2 1|2 1|5  |   |   |   |   |  1| 12|
+I sit on couch .                       |   |1  |1  |   |   |   |   |   |  1|  3|
+I feel better .                        |   |1  |1  |   |   |   |   |   |  1|  3|
+I sleep .                              |   |1  |1  |   |   |   |   |   |  1|  3|
+Rabbit and doggy go in a wagon .       |   |   |1  |   |   |3  |   |   |  1|  5|
+They have a big red balloon .          |   |3  |1  |   |   |   |   |   |  1|  5|
+It's so happy !                        |1  |   |1  |   |   |5  |   |   |  1|  8|
+But then the balloon comes off .       |   |   |2  |   |   |5  |   |   |  1|  8|
+TOTAL                                  |  7| 52| 94| 35|  0| 49|  0|  0| 48|285|
+
+Developmental sentence score:  5.70

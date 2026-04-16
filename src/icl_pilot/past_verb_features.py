@@ -49,10 +49,13 @@ def build_past_verb_feature_table(
     out_summary = Path(output_summary_json).expanduser().resolve()
 
     error_df = pd.read_csv(error_code_path)
-    required = ["File_ID", "error_source", "error_relpath", *_PAST_OVERGENERALIZATION_CODES, *_BARE_PAST_CODES]
+    required = ["File_ID", "error_source", "error_relpath"]
     missing = [column for column in required if column not in error_df.columns]
     if missing:
         raise ValueError(f"Missing required error-code columns: {', '.join(missing)}")
+    for column in [*_PAST_OVERGENERALIZATION_CODES, *_BARE_PAST_CODES]:
+        if column not in error_df.columns:
+            error_df[column] = 0
 
     rows: list[dict[str, object]] = []
     for row in error_df.to_dict("records"):
@@ -66,7 +69,7 @@ def build_past_verb_feature_table(
         rate = (overgen / opportunities) if opportunities else 0.0
         rows.append(
             {
-                "File_ID": int(row["File_ID"]),
+                "File_ID": str(row["File_ID"]),
                 "error_source": str(row["error_source"]),
                 "error_relpath": str(row["error_relpath"]),
                 "overt_past_finite_verbs": overt_past,
@@ -137,9 +140,9 @@ def merge_past_verb_features_into_master(
     ambiguous = 0
 
     for row in master.to_dict("records"):
-        file_id = int(row.get("File_ID")) if pd.notna(row.get("File_ID")) else None
+        file_id = str(row.get("File_ID", "") or "").strip()
         file_kideval = str(row.get("File_kideval", "") or "")
-        candidates = [item for item in features if int(item["File_ID"]) == file_id]
+        candidates = [item for item in features if str(item.get("File_ID", "")).strip() == file_id]
         selected: dict[str, object] | None = None
         if len(candidates) == 1:
             selected = candidates[0]

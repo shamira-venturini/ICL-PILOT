@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:31 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli480_td450_rep03_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+the rabbit and dog built a sandcastle  |   |   |2  |   |   |3  |   |   |  1|  6|
+    together .                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit had a big bucket and was    |   |   |2 2|   |   |3  |   |   |  1|  9|
+    pouring sand on the dog's part .   |   |   |1  |   |   |   |   |   |   |   |
+the dog was using a shovel to make a   |   |   |2 1|   |   |   |   |   |  1|  5|
+    big moat .                         |   |   |1  |   |   |   |   |   |   |   |
+then the dog dumped the bucket and all |3  |   |2 2|   |   |3  |   |   |  1| 11|
+    the sand went in the moat .        |   |   |   |   |   |   |   |   |   |   |
+the castle fell down .                 |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit was sad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+he said oh no !                        |   |2  |2  |   |   |   |   |   |  1|  5|
+the rabbit and dog hugged each other . |7 3|   |2  |   |   |3  |   |   |  1| 16|
+they picked up the sand and made the   |   |3  |2 2|   |   |3  |   |   |  1| 11|
+    castle again .                     |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 13|  5| 27|  0|  0| 15|  0|  0|  9| 69|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  7.67

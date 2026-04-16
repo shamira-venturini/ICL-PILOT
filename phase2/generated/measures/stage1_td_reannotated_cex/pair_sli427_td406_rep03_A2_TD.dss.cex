@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep03
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=406
+*CHI:	sign said no run .
+%mor:	noun|sign verb|say-Fin-Ind-Past-S3-irr det|no-Def-Neg noun|run-Acc
+	.
+%xdss:	Z; C2; Z;
+*CHI:	my friend the doggy wanted to go splash .
+%mor:	pron|my-Prs-Gen-S1 noun|friend det|the-Def-Art noun|doggy
+	verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S noun|splash-Acc .
+%xdss:	B1; Z; Z; C2; D3; C1; Z;
+*CHI:	she started to run .
+%mor:	pron|she-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S .
+%xdss:	B2; C2; D3; C1;
+*CHI:	she slipped and fell down .
+%mor:	pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|fall-Fin-Ind-Past-S3-irr adp|down .
+%xdss:	B2; C2; F3; C2;
+*CHI:	boo [/] boo on her knee .
+%mor:	verb|boo-Fin-Imp-S adp|on pron|her-Prs-Gen-S3 noun|knee .
+%xdss:	C1; B2; Z;
+*CHI:	then a nice lady came with a white strip .
+%mor:	adv|then det|a-Ind-Art adj|nice-S1 noun|lady
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art adj|white-S1
+	noun|strip .
+%xdss:	Z; C2; Z;
+*CHI:	she put it on doggy's knee .
+%mor:	pron|she-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adp|on noun|doggy~part|s noun|knee .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	doggy sat down on a bench .
+%mor:	noun|doggy verb|sit-Fin-Ind-Past-S3-irr adp|down adp|on
+	det|a-Ind-Art noun|bench .
+%xdss:	Z; C2; Z;
+*CHI:	she was resting .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|rest-Part-Pres-S .
+%xdss:	B2; C2; C1;
+@End

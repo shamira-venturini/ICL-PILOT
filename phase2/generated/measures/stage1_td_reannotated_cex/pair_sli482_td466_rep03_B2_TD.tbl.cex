@@ -1,0 +1,31 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep03_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+We went to the park with bunny and     |   |3  |2  |   |   |3  |   |   |  1|  9|
+    doggie .                           |   |   |   |   |   |   |   |   |   |   |
+bunny picked carrots and doggie picked |   |   |2 2|4 4|   |3  |   |   |  1| 16|
+    sandwiches .                       |   |   |   |   |   |   |   |   |   |   |
+we ate lots of food .                  |   |3  |2  |   |   |   |   |   |  1|  6|
+i ate too much .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+then i felt icky .                     |   |1  |2  |   |   |   |   |   |  1|  4|
+my tummy hurt .                        |   |1  |2  |   |   |   |   |   |  1|  4|
+bunny and doggie said don't worry i    |   |1  |2 4|5  |4  |3  |   |   |  1| 22|
+    feel sick .                        |   |   |1 1|   |   |   |   |   |   |   |
+we went to the doctor .                |   |3  |2  |   |   |   |   |   |  1|  6|
+doctor said you ate too much .         |   |   |2 2|5  |   |   |   |   |  1| 10|
+i sat on the blanket .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+bunny and doggie sat with me .         |   |1  |2  |   |   |3  |   |   |  1|  7|
+i felt better .                        |   |1  |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  |  0| 16| 34| 18|  4| 12|  0|  0| 12| 96|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  8.00

@@ -1,0 +1,107 @@
+{
+  "age_bins": [
+    {
+      "age_max_months": 71,
+      "age_min_months": 60,
+      "cohort_label": "5-year-old"
+    },
+    {
+      "age_max_months": 83,
+      "age_min_months": 72,
+      "cohort_label": "6-year-old"
+    },
+    {
+      "age_max_months": 95,
+      "age_min_months": 84,
+      "cohort_label": "7-year-old"
+    },
+    {
+      "age_max_months": 107,
+      "age_min_months": 96,
+      "cohort_label": "8-year-old"
+    },
+    {
+      "age_max_months": 119,
+      "age_min_months": 108,
+      "cohort_label": "9-year-old"
+    }
+  ],
+  "cohort_packages": [
+    {
+      "age_max_months": 71,
+      "age_min_months": 60,
+      "bundle_index_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_bundle_index.csv",
+      "cohort_label": "5-year-old",
+      "cohort_slug": "five_year_old",
+      "eval_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_eval_manifest.csv",
+      "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old",
+      "prompt_rounds_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_prompt_rounds.csv",
+      "roster_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_frozen_roster.csv",
+      "schedule_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_schedule.csv",
+      "summary_json": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_package_summary.json",
+      "synthetic_template_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_synthetic_bundle_template.csv"
+    },
+    {
+      "age_max_months": 83,
+      "age_min_months": 72,
+      "bundle_index_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_bundle_index.csv",
+      "cohort_label": "6-year-old",
+      "cohort_slug": "six_year_old",
+      "eval_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_eval_manifest.csv",
+      "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old",
+      "prompt_rounds_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_prompt_rounds.csv",
+      "roster_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_frozen_roster.csv",
+      "schedule_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_schedule.csv",
+      "summary_json": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_package_summary.json",
+      "synthetic_template_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_synthetic_bundle_template.csv"
+    },
+    {
+      "age_max_months": 95,
+      "age_min_months": 84,
+      "bundle_index_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_bundle_index.csv",
+      "cohort_label": "7-year-old",
+      "cohort_slug": "seven_year_old",
+      "eval_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_eval_manifest.csv",
+      "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old",
+      "prompt_rounds_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_prompt_rounds.csv",
+      "roster_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_frozen_roster.csv",
+      "schedule_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_schedule.csv",
+      "summary_json": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_package_summary.json",
+      "synthetic_template_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_synthetic_bundle_template.csv"
+    },
+    {
+      "age_max_months": 107,
+      "age_min_months": 96,
+      "bundle_index_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_bundle_index.csv",
+      "cohort_label": "8-year-old",
+      "cohort_slug": "eight_year_old",
+      "eval_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_eval_manifest.csv",
+      "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old",
+      "prompt_rounds_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_prompt_rounds.csv",
+      "roster_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_frozen_roster.csv",
+      "schedule_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_schedule.csv",
+      "summary_json": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_package_summary.json",
+      "synthetic_template_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_synthetic_bundle_template.csv"
+    },
+    {
+      "age_max_months": 119,
+      "age_min_months": 108,
+      "bundle_index_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_bundle_index.csv",
+      "cohort_label": "9-year-old",
+      "cohort_slug": "nine_year_old",
+      "eval_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_eval_manifest.csv",
+      "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old",
+      "prompt_rounds_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_prompt_rounds.csv",
+      "roster_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_frozen_roster.csv",
+      "schedule_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_schedule.csv",
+      "summary_json": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_package_summary.json",
+      "synthetic_template_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_synthetic_bundle_template.csv"
+    }
+  ],
+  "counterbalance_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/cross_story_counterbalancing.csv",
+  "dev_measures_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/dev_measures.csv",
+  "n_replicates": 1,
+  "output_dir": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age",
+  "pairs_per_round": 3,
+  "severity_profile_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/severity_profile_banded_table.csv"
+}

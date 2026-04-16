@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:27 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep07_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit [/] rabbit and doggy went on a  |   |   |2  |   |   |3  |   |   |  1|  6|
+    picnic .                           |   |   |   |   |   |   |   |   |   |   |
+they got sandwiches and carrots .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+one little rabbit ate too [/] too much |3  |   |2  |   |   |   |   |   |  1|  6|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+he felt his tummy was hurting .        |   |2 2|2 2|   |   |   |   |   |  1| 10|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+he felt yucky .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+he went to see the doctor .            |   |2  |2 1|3  |   |   |   |   |  1|  9|
+the doctor said .                      |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit [/] rabbit sat on the bed .     |   |   |2  |   |   |   |   |   |  1|  3|
+he felt happy he was better now .      |   |2 2|2 2|   |   |   |   |   |  1|  9|
+TOTAL                                  |  3| 15| 24|  3|  0|  6|  0|  0|  9| 60|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  6.67

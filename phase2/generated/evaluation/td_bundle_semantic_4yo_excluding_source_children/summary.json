@@ -1,0 +1,87 @@
+{
+  "age_years": 4,
+  "bootstrap_uncertainty": {
+    "confidence": 0.95,
+    "median_difference_ci": [
+      -0.05108374357223511,
+      -0.01725440174341205
+    ],
+    "median_ratio_ci": [
+      0.9425752367362823,
+      0.9799806352207683
+    ],
+    "median_real_similarity_ci": [
+      0.85926753282547,
+      0.8895769119262695
+    ],
+    "median_synthetic_similarity_ci": [
+      0.830794095993042,
+      0.8517704010009766
+    ],
+    "ran": true,
+    "reps": 10000,
+    "seed": 0,
+    "synthetic_share_within_real_iqr_ci": [
+      0.12727272727272726,
+      0.7636363636363637
+    ]
+  },
+  "comparison": {
+    "mann_whitney_p_value": 4.48860864770481e-05,
+    "mann_whitney_u": 1002.0,
+    "median_difference_synthetic_minus_real": -0.03795304894447327,
+    "median_ratio_synthetic_over_real": 0.9567834126122543,
+    "synthetic_share_within_real_iqr": 0.39090909090909093
+  },
+  "counts": {
+    "n_real_td_bundles": 34,
+    "n_real_td_bundles_before_exclusion": 45,
+    "n_synthetic_td_bundles": 110
+  },
+  "embedding_model": {
+    "batch_size": 16,
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalized_embeddings": true,
+    "pooling": "attention-masked mean pooling over last hidden state",
+    "resolved_snapshot": "/Users/shamiraventurini/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/fa97f6e7cb1a59073dff9e6b13e2715cf7475ac9"
+  },
+  "exclusion_policy": {
+    "exclude_synthetic_source_children_from_real": true,
+    "excluded_real_child_ids": [
+      "406",
+      "410",
+      "415",
+      "417",
+      "419",
+      "439",
+      "450",
+      "459",
+      "460",
+      "466",
+      "471"
+    ]
+  },
+  "outputs": {
+    "real_baseline_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_semantic_4yo_excluding_source_children/real_td_bundle_semantic_baseline.csv",
+    "synthetic_scores_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_semantic_4yo_excluding_source_children/synthetic_td_bundle_semantic_scores.csv",
+    "transcript_manifest_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/evaluation/td_bundle_semantic_4yo_excluding_source_children/transcript_manifest.csv"
+  },
+  "real_distribution": {
+    "max_nearest_real_cosine_similarity": 0.9337484240531921,
+    "mean_nearest_real_cosine_similarity": 0.8622908837655011,
+    "median_nearest_real_cosine_similarity": 0.8782055974006653,
+    "min_nearest_real_cosine_similarity": 0.7265490889549255,
+    "q1_nearest_real_cosine_similarity": 0.8459059745073318,
+    "q3_nearest_real_cosine_similarity": 0.8922351002693176
+  },
+  "real_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/archive/phase1_prompting/data/enni_files_4-5/TD",
+  "synthetic_distribution": {
+    "max_nearest_real_cosine_similarity": 0.8984766006469727,
+    "mean_nearest_real_cosine_similarity": 0.837819639119235,
+    "median_nearest_real_cosine_similarity": 0.840252548456192,
+    "min_nearest_real_cosine_similarity": 0.7175406813621521,
+    "q1_nearest_real_cosine_similarity": 0.8159276694059372,
+    "q3_nearest_real_cosine_similarity": 0.8633939027786255
+  },
+  "synthetic_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td"
+}

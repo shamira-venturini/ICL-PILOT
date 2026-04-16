@@ -1,0 +1,40 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep07
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=7
+@Comment:	source_child_id=419
+*CHI:	doggy and bunny friend builded [: built] [* m:=ed] sandcastle .
+%mor:	adj|doggy-S1 cconj|and adj|bunny-S1 noun|friend
+	verb|build-Fin-Ind-Past-S3 noun|sandcastle-Acc .
+%xdss:	F3; Z; C2; Z;
+*CHI:	bunny friend put big bucket of sand on it .
+%mor:	noun|bunny noun|friend verb|put-Fin-Ind-Past-S3-irr adj|big-S1
+	noun|bucket-Acc adp|of noun|sand adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; Z; C2; Z; Z; A1; B5;
+*CHI:	then sandcastle fall [* m:03s:a] down .
+%mor:	adv|then noun|sandcastle verb|fall-Fin-Imp-S adp|down .
+%xdss:	Z; C1;
+*CHI:	bunny friend and doggy try to fix sandcastle .
+%mor:	noun|bunny noun|friend cconj|and noun|doggy verb|try-Fin-Imp-S
+	part|to verb|fix-Inf-S noun|sandcastle-Acc .
+%xdss:	Z; Z; F3; Z; C1; D3; C1; Z;
+*CHI:	bunny friend take [* m:03s:a] shovel and put more sand .
+%mor:	noun|bunny noun|friend verb|take-Fin-Imp-S noun|shovel-Acc
+	cconj|and verb|put-Fin-Imp-S adj|more-Cmp-S1 noun|sand-Acc .
+%xdss:	Z; Z; C1; Z; F3; C1; A3; Z;
+*CHI:	doggy take [* m:03s:a] bucket and get more sand .
+%mor:	adj|doggy-S1 noun|take noun|bucket cconj|and verb|get-Fin-Imp-S
+	adj|more-Cmp-S1 noun|sand-Acc .
+%xdss:	Z; Z; F3; C1; A3; Z;
+@End

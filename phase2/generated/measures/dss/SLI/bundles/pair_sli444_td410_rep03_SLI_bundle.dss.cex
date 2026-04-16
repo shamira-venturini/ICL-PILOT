@@ -1,0 +1,127 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;02.04||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep03
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=444
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	doggy get [* m:03s:a] stick .
+%mor:	adj|doggy-S1 verb|get-Fin-Imp-S noun|stick-Acc .
+%xdss:	C1; Z;
+*CHI:	doggy get [* m:03s:a] the ball .
+%mor:	adj|doggy-S1 verb|get-Fin-Imp-S det|the-Def-Art noun|ball-Acc .
+%xdss:	C1; Z;
+*CHI:	the ducks and doggy are happy again .
+%mor:	det|the-Def-Art noun|duck-Plur cconj|and noun|doggy
+	aux|be-Fin-Ind-Pres-P3 adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@Comment:	bundled_story_start=A2
+*CHI:	Doggy and kitty go to the pool .
+%mor:	noun|doggy cconj|and noun|kitty verb|go-Fin-Ind-Pres-P3 adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	See sign say [* m:03s:a] no run .
+%mor:	verb|see-Fin-Imp-S noun|sign-Acc verb|say-Fin-Imp-S det|no-Def-Neg
+	noun|run-Acc .
+%xdss:	C1; D5; Z; C1; Z;
+*CHI:	kitty start [* m:03s:a] run to the water .
+%mor:	propn|Kitty verb|start-Fin-Ind-Pres-S noun|run-Acc adp|to
+	det|the-Def-Art noun|water .
+%xdss:	C1; Z; Z;
+*CHI:	kitty slip [* m:03s:a] and hurt [* m:03s:a] knee .
+%mor:	propn|Kitty verb|slip-Fin-Ind-Pres-S cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr noun|knee-Acc .
+%xdss:	C1; F3; C2; Z;
+*CHI:	Then a nice man come [* m:03s:a] with a bandage .
+%mor:	adv|then det|a-Ind-Art adj|nice-S1 noun|man
+	verb|come-Fin-Ind-Pres-S3 adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	kitty sit [* m:03s:a] on a bench and rest .
+%mor:	propn|Kitty verb|sit-Fin-Ind-Pres-S3 adp|on det|a-Ind-Art
+	noun|bench cconj|and noun|rest .
+%xdss:	C2; Z; F3; Z;
+@Comment:	bundled_story_start=A3
+*CHI:	airplane go [* m:03s:a] splash .
+%mor:	noun|airplane verb|go-Fin-Imp-S noun|splash-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	I get it !
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Pres-S1 pron|it-Prs-Acc-S3 !
+%xdss:	B1; C1; A1; B5;
+*CHI:	Lifeguard have [* m:vun:a] pole .
+%mor:	noun|lifeguard verb|have-Fin-Ind-Pres-P3 noun|pole-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	lifeguard get [* m:03s:a] airplane .
+%mor:	noun|lifeguard verb|get-Fin-Imp-S noun|airplane-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	airplane come [* m:03s:a] back .
+%mor:	noun|airplane verb|come-Fin-Imp-S adv|back .
+%xdss:	Z; C1;
+@Comment:	bundled_story_start=B1
+*CHI:	They're building .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	.
+%xdss:	B3; C1;
+*CHI:	Rabbit and dog building .
+%mor:	noun|rabbit cconj|and noun|dog noun|building-Ger .
+%xdss:	Z; F3; Z; Z; D8;
+*CHI:	One of them took a bucket .
+%mor:	num|one adp|of pron|they-Prs-Acc-P3 verb|take-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bucket-Acc .
+%xdss:	A3; B3; C2; Z;
+*CHI:	Dog did it !
+%mor:	noun|dog verb|do-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 !
+%xdss:	Z; C2; A1; B5;
+*CHI:	Dog dumped sand .
+%mor:	noun|dog verb|dump-Fin-Ind-Past-S3 noun|sand-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	The castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	Dog is sorry .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	They're saying sorry .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|say-Part-Pres-S
+	adj|sorry-S1 .
+%xdss:	B3; C1;
+*CHI:	They're putting sand .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|put-Part-Pres-S
+	noun|sand-Acc .
+%xdss:	B3; C1; Z;
+@Comment:	bundled_story_start=B2
+*CHI:	it's time .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 noun|time .
+%xdss:	A1; C1; Z;
+*CHI:	what's that noise ?
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|that-Def-Dem-Sing
+	noun|noise ?
+%xdss:	B6; C1; H2; Z;
+*CHI:	what's that noise outside ?
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|that-Def-Dem-Sing
+	noun|noise adv|outside ?
+%xdss:	B6; C1; H2; Z;
+@Comment:	bundled_story_start=B3
+*CHI:	owie and owie rabbit and dog has [* m:vsg:a] a [* m:allo] owie .
+%mor:	adj|owie-S1 cconj|and adj|owie-S1 noun|rabbit cconj|and noun|dog
+	verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|owie-Acc .
+%xdss:	F3; Z; F3; Z; C2; Z;
+*CHI:	and the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|do-Fin-Ind-Pres-S3~part|not
+	verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art noun|owie-Acc .
+%xdss:	F3; Z; C6; E4; C2; Z;
+*CHI:	you have to pull it right there .
+%mor:	pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 part|to
+	verb|pull-Inf-S pron|it-Prs-Acc-S3 adv|right adv|there .
+%xdss:	C1; D3; C1; A1; B5;
+@End

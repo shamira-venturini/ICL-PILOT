@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep09
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=410
+*CHI:	One monkey and one giraffe go to the pool .
+%mor:	num|one noun|monkey cconj|and num|one noun|giraffe
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; F3; A3; Z; C1; Z;
+*CHI:	There's a sign that says .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|sign
+	pron|that-Rel verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; A1; C2;
+*CHI:	The giraffe runs to the water .
+%mor:	det|the-Def-Art noun|giraffe verb|run-Fin-Ind-Pres-S3 adp|to
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	The giraffe slips and hurt [* m:03s:a] its knee .
+%mor:	det|the-Def-Art noun|giraffe verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; A1; Z;
+*CHI:	A lifeguard comes with a bandaid .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3 adp|with
+	det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	The giraffe sits on a bench and rests .
+%mor:	det|the-Def-Art noun|giraffe verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

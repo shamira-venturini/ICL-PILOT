@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep07_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+We build a big sandcastle .            |   |3  |1  |   |   |   |   |   |  1|  5|
+I add sand and my doggie add [* m:03s:a|   |1 1|1 1|   |   |3  |   |   |  0|  7|
+    ] sand too .                       |   |   |   |   |   |   |   |   |   |   |
+My doggie , he use [* m:03s:a] big     |   |1 2|2  |   |   |   |   |   |  0|  5|
+    bucket .                           |   |   |   |   |   |   |   |   |   |   |
+He pour [* m:0ed] too much sand on our |   |2 3|2  |   |   |   |   |   |  0|  7|
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+Now it's broken .                      |1  |   |7 2|   |   |   |   |   |  1| 11|
+My castle is broken .                  |   |1  |7 2|   |   |   |   |   |  1| 11|
+I cry .                                |   |1  |1  |   |   |   |   |   |  1|  3|
+My doggie , he is sad too .            |   |1 2|1  |   |   |   |   |   |  1|  5|
+He put his head down .                 |   |2 2|2  |   |   |   |   |   |  1|  7|
+I say [* m:irr:ed] sorry .             |   |1  |1  |   |   |   |   |   |  0|  2|
+My doggie say [* m:03s:a] sorry too .  |   |1  |2  |   |   |   |   |   |  0|  3|
+We work together , fix the castle .    |   |3  |1 1|   |   |   |   |   |  1|  6|
+It's okay now .                        |1  |   |1  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  2| 27| 35|  0|  0|  3|  0|  0|  8| 75|
+WARNING: DSS requires 50 complete sentences and this transcript only has 13.
+
+Developmental sentence score:  5.77

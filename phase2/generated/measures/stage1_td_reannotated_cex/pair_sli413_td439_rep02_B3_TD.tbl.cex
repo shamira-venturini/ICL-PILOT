@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep02_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+me [* s:r:gc:pro] and my dog friend    |   |1 1|2  |   |   |3  |   |   |  0| 10|
+    took our wagon to the park .       |   |3  |   |   |   |   |   |   |   |   |
+we had a pretty balloon tied on .      |   |3  |2 2|4  |   |   |   |   |  1| 12|
+then it came untied and flew away .    |1  |   |2 2|   |   |3  |   |   |  1| 11|
+                                       |   |   |2  |   |   |   |   |   |   |   |
+i was so sad .                         |   |1  |2  |   |   |5  |   |   |  1|  9|
+my doggy was sad too .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+we looked everywhere for that balloon .|   |3  |2  |   |   |8  |   |   |  1| 14|
+then we saw a lady with lots of        |   |3  |2  |   |   |   |   |   |  1|  6|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+she said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+that's not enough .                    |1  |   |1  |   |7  |   |   |   |  1| 10|
+let me get you a smaller balloon .     |   |1 5|1 1|2  |   |   |   |   |  1| 11|
+she gave me a little red one and my    |   |2 1|2 2|   |   |3  |   |   |  1| 12|
+    friend got a blue one .            |   |1  |   |   |   |   |   |   |   |   |
+we were both so happy .                |   |3  |2  |   |   |5  |   |   |  1| 11|
+TOTAL                                  |  2| 31| 31|  6|  7| 27|  0|  0| 11|115|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  9.58

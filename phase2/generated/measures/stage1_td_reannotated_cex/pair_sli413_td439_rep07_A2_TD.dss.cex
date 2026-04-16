@@ -1,0 +1,52 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep07
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=7
+@Comment:	source_child_id=439
+*CHI:	one day two monkeys went to the pool .
+%mor:	num|one noun|day num|two noun|monkey-Plur
+	verb|go-Fin-Ind-Past-P3-irr adp|to det|the-Def-Art noun|pool .
+%xdss:	A3; Z; A3; Z; C2; Z;
+*CHI:	there was a big sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	one monkey got too excited and ran to the water .
+%mor:	num|one noun|monkey verb|get-Fin-Ind-Past-S3-irr adv|too
+	adj|excited-S1 cconj|and verb|run-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; F3; C2; Z;
+*CHI:	oops , he slipped and fell down on his knee .
+%mor:	adv|oops pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|fall-Fin-Ind-Past-S3-irr adp|down adp|on pron|his-Prs-Gen-S3
+	noun|knee .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	he got a boo [/] boo .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|boo-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	a nice lifeguard came with a big bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art adj|big-S1
+	noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	the monkey sat down on a bench and rested his knee .
+%mor:	det|the-Def-Art noun|monkey verb|sit-Fin-Ind-Past-S3-irr adp|down
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; Z; F3; C2; B2; Z;
+@End

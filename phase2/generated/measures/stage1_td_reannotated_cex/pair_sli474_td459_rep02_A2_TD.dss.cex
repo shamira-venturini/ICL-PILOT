@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep02
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=459
+*CHI:	One day , there were two squirrels by the pool .
+%mor:	num|one noun|day pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr
+	num|two noun|squirrel-Plur adp|by det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; A3; Z; Z;
+*CHI:	A sign said .
+%mor:	det|a-Ind-Art noun|sign verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	No running !
+%mor:	det|no-Def-Neg noun|running-Ger !
+%xdss:	Z; D8;
+*CHI:	One squirrel started to run to the water .
+%mor:	num|one noun|squirrel verb|start-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; D3; C1; Z;
+*CHI:	It slipped and hurt its knee .
+%mor:	pron|it-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	A1; C2; F3; C2; A1; Z;
+*CHI:	A kind lady came with a bandage and put it on the squirrel's knee .
+%mor:	det|a-Ind-Art noun|kind noun|lady verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage cconj|and
+	verb|put-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|on
+	det|the-Def-Art noun|squirrel~part|s noun|knee .
+%xdss:	Z; Z; C2; Z; F3; C2; A1; B5; Z; Z;
+*CHI:	The squirrel sat down on a bench and rested .
+%mor:	det|the-Def-Art noun|squirrel verb|sit-Fin-Ind-Past-S3-irr adp|down
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	.
+%xdss:	Z; C2; Z; F3; C2;
+@End

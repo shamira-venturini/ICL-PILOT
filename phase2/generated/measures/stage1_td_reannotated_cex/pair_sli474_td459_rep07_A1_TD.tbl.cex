@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:17 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep07_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time two ducks were playing|3  |   |2 1|   |   |   |   |   |  1|  7|
+     near the pool with a big red ball |   |   |   |   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+then the ball fell into the water .    |   |   |2  |   |   |   |   |   |  1|  3|
+one duck went in the pool to get the   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+she swam to the ball and grabbed it .  |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+she came back out and gave it to her   |1  |2 5|2 2|   |   |3  |   |   |  1| 18|
+    friend .                           |   |2  |   |   |   |   |   |   |   |   |
+they were both happy again .           |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  |  8| 19| 18|  0|  0|  6|  0|  0|  6| 57|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  9.50

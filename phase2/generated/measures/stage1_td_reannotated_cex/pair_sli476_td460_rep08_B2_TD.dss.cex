@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep08
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=460
+*CHI:	Rabbit and dog they're having fun .
+%mor:	noun|rabbit cconj|and noun|dog
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|have-Part-Pres-S
+	noun|fun-Acc .
+%xdss:	Z; F3; Z; B3; C1; Z;
+*CHI:	they're got carrots .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|get-Part-Past-S-irr noun|carrot-Plur-Acc .
+%xdss:	B3; C7; C2; Z;
+*CHI:	it's yummy .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|yummy-S1 .
+%xdss:	A1; C1;
+*CHI:	they're eating sandwiches too .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S
+	noun|sandwich-Plur-Acc adv|too .
+%xdss:	B3; C1; Z;
+*CHI:	oh boy they're eating too much .
+%mor:	intj|oh intj|boy pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|eat-Part-Pres-S adv|too adv|much .
+%xdss:	B3; C1;
+*CHI:	the child got a tummyache .
+%mor:	det|the-Def-Art noun|child verb|get-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	the child is feeling sick .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3
+	verb|feel-Part-Pres-S adj|sick-S1 .
+%xdss:	Z; C1; C1;
+*CHI:	the doctor is coming .
+%mor:	det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3
+	verb|come-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the doctor is looking .
+%mor:	det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3
+	verb|look-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	the child is feeling better .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3
+	verb|feel-Part-Pres-S adj|good-Cmp-S1 .
+%xdss:	Z; C1; C1;
+*CHI:	the child is resting now .
+%mor:	det|the-Def-Art noun|child aux|be-Fin-Ind-Pres-S3
+	verb|rest-Part-Pres-S adv|now .
+%xdss:	Z; C1; C1;
+@End

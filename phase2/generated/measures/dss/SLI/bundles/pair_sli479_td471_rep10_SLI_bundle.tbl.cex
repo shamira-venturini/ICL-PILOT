@@ -1,0 +1,81 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:42 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli479_td471_rep10_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+a cat and a dog were playing near the  |   |   |2 1|   |   |3  |   |   |  1|  7|
+    pool with a ball .                 |   |   |   |   |   |   |   |   |   |   |
+the ball fell into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+the dog jump [* m:03s:a] in the pool to|1  |5  |1 1|   |   |   |   |   |  0|  8|
+     get it .                          |   |   |   |   |   |   |   |   |   |   |
+the dog swim [* m:03s:a] to the ball   |1  |5  |1 1|   |   |3  |   |   |  0| 11|
+    and bring [* m:03s:a] it back .    |   |   |   |   |   |   |   |   |   |   |
+now they is [* m:vsg:a] happy and      |   |3  |1 1|   |   |3  |   |   |  0|  8|
+    playing again .                    |   |   |   |   |   |   |   |   |   |   |
+They went to the pool .                |   |3  |2  |   |   |   |   |   |  1|  6|
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+No running !                           |   |   |1  |8  |   |   |   |   |  1| 10|
+The monkey saw it , but still it ran . |1 1|5  |2 2|   |   |5  |   |   |  1| 17|
+It ran to the water !                  |1  |   |2  |   |   |   |   |   |  1|  4|
+The monkey slipped and hurt its knee . |1  |   |2 2|   |   |3  |   |   |  1|  9|
+Someone came with a bandage .          |3  |   |2  |   |   |   |   |   |  1|  6|
+The monkey sat on a bench and rested   |1  |   |2 2|   |   |3  |   |   |  0|  8|
+    its [* s:r:gc:det] knee .          |   |   |   |   |   |   |   |   |   |   |
+They got a [* m:allo] airplane .       |   |3  |2  |   |   |   |   |   |  0|  5|
+they got a [* m:allo] airplane to put  |1  |3 5|2 1|   |   |   |   |   |  0| 12|
+    it on the wagon .                  |   |   |   |   |   |   |   |   |   |   |
+then he's trying to fly it in the sky .|1  |2 5|1 1|3  |   |   |   |   |  1| 15|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+and it's flying .                      |1  |   |1 1|   |   |3  |   |   |  1|  7|
+and it broked [: broke] [* m:++ed:i]   |1  |   |2 2|   |   |3 3|   |   |  0| 11|
+    and broked [: broke] [* m:++ed:i] .|   |   |   |   |   |   |   |   |   |   |
+then he gots [* m:allo] the airplane in|   |2  |2  |   |   |   |   |   |  0|  4|
+     the pool .                        |   |   |   |   |   |   |   |   |   |   |
+and he's so sad .                      |   |2  |1  |   |   |3 5|   |   |  1| 12|
+and he said I wanna get it .           |1  |2 1|2 1|2  |   |3  |   |   |  1| 18|
+                                       |   |5  |   |   |   |   |   |   |   |   |
+said I wanna get my airplane !         |   |1 1|2 1|   |   |   |   |   |  1|  6|
+and they saw the lifeguard .           |   |3  |2  |   |   |3  |   |   |  1|  9|
+then he wants the airplane and the     |   |2  |2  |   |   |3  |   |   |  1|  8|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+then he wants the airplane .           |   |2  |2  |   |   |   |   |   |  1|  5|
+and he gets it .                       |1  |2 5|2  |   |   |3  |   |   |  1| 14|
+and he's so lucky to get the airplane .|   |2  |1 1|3  |   |3 5|   |   |  1| 16|
+and that's the end .                   |1  |   |1  |   |   |3  |   |   |  1|  6|
+Benny rabbit and Max dog built a big   |   |   |2  |   |   |3  |   |   |  1|  6|
+    sandcastle on the beach .          |   |   |   |   |   |   |   |   |   |   |
+Max throw [* m:03s:a] the bucket on the|   |   |1  |   |   |   |   |   |  0|  1|
+     sandcastle .                      |   |   |   |   |   |   |   |   |   |   |
+The sandcastle fell down .             |   |   |2  |   |   |   |   |   |  1|  3|
+Benny and Max try to fix the sandcastle|   |   |1 1|3  |   |3  |   |   |  1|  9|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+They use more sand and make it better .|3 1|3 5|1 1|   |   |3  |   |   |  1| 18|
+Rabbit and dog went on a picnic .      |   |   |2  |   |   |3  |   |   |  1|  6|
+they had carrots and sandwiches .      |   |3  |2  |   |   |3  |   |   |  1|  9|
+my friend ate too much .               |   |1  |2  |   |   |   |   |   |  1|  4|
+she got a tummyache .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+she felt sick .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+then doctor came .                     |   |   |2  |   |   |   |   |   |  1|  3|
+he said she needed to sit .            |   |2 2|2 2|5 3|   |   |   |   |  1| 18|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she sat on a blanket .                 |   |2  |2  |   |   |   |   |   |  1|  5|
+she was so happy when she sat .        |   |2 2|2 2|   |   |5  |   |   |  1| 14|
+she wants to rest .                    |   |2  |2 1|3  |   |   |   |   |  1|  9|
+and she felt a little better .         |   |2  |2  |   |   |3  |   |   |  1|  8|
+doggy and benny they play with big red |   |3  |1  |   |   |3  |   |   |  1|  8|
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon go [* m:03s:a] POP !       |   |   |1  |   |   |   |   |   |  0|  1|
+it broke .                             |1  |   |2  |   |   |   |   |   |  1|  4|
+they want new balloon .                |   |3  |1  |   |   |   |   |   |  1|  5|
+she sell [* m:03s:a] balloon .         |   |2  |2  |   |   |   |   |   |  0|  4|
+she say [* m:03s:a] .                  |   |2  |2  |   |   |   |   |   |  0|  4|
+TOTAL                                  | 23|109|114| 30|  0| 86|  0|  0| 38|400|
+
+Developmental sentence score:  8.00

@@ -1,0 +1,78 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:38 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli480_td450_rep08_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+They were playing with a ball .        |   |3  |2 1|   |   |   |   |   |  1|  7|
+The ball fell into the pool .          |   |   |2  |   |   |   |   |   |  1|  3|
+One frog got in the pool .             |3  |   |2  |   |   |   |   |   |  1|  6|
+It got the ball out .                  |1  |   |2  |   |   |   |   |   |  1|  4|
+Now they're playing again .            |   |3  |1  |   |   |   |   |   |  1|  5|
+One monkey went to the pool .          |3  |   |2  |   |   |   |   |   |  1|  6|
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+Monkey didn't see it .                 |1  |5  |6 1|   |4  |   |   |   |  1| 18|
+Monkey ran to the water .              |   |   |2  |   |   |   |   |   |  1|  3|
+Monkey slipped and hurt her [* s:r:gc: |   |2  |2 2|   |   |3  |   |   |  0|  9|
+    det] knee .                        |   |   |   |   |   |   |   |   |   |   |
+A lifeguard came with a band-aid .     |   |   |2  |   |   |   |   |   |  1|  3|
+Monkey sat on a bench and rested .     |   |   |2 2|   |   |3  |   |   |  1|  8|
+Two kittens were playing near the pool |3  |   |2 1|   |   |   |   |   |  1|  7|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+They had a toy airplane .              |   |3  |2  |   |   |   |   |   |  1|  6|
+The airplane flew high but then fell   |   |   |2 2|   |   |5  |   |   |  1| 10|
+    into the water .                   |   |   |   |   |   |   |   |   |   |   |
+The owner of the airplane was very sad |   |   |2  |   |   |   |   |   |  1|  3|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+Someone tried to get the airplane from |3  |   |2 1|3  |   |   |   |   |  1| 10|
+    the pool with a long stick .       |   |   |   |   |   |   |   |   |   |   |
+The helper got the airplane out .      |   |   |2  |   |   |   |   |   |  1|  3|
+The owner was happy and hugged the     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    kittens .                          |   |   |   |   |   |   |   |   |   |   |
+The airplane was fixed and they played |   |3  |7 2|   |   |3  |   |   |  1| 18|
+    again .                            |   |   |2  |   |   |   |   |   |   |   |
+The dog and the rabbit were building a |   |   |2 1|   |   |3  |   |   |  1|  7|
+    sandcastle .                       |   |   |   |   |   |   |   |   |   |   |
+They were working together .           |   |3  |2 1|   |   |   |   |   |  1|  7|
+Then , the rabbit added too much sand .|   |   |2  |   |   |   |   |   |  1|  3|
+The dog's bucket fell on the castle .  |   |   |2  |   |   |   |   |   |  1|  3|
+Now it's all ruined .                  |1  |   |1 2|   |   |   |   |   |  1|  5|
+The rabbit is sad .                    |   |   |1  |   |   |   |   |   |  1|  2|
+The rabbit wants to fix it .           |1  |5  |2 1|3  |   |   |   |   |  1| 13|
+The rabbit and dog are friends .       |   |   |2  |   |   |3  |   |   |  1|  6|
+Me [* s:r:gc:pro] and my doggy went to |3  |1 1|2 1|3  |   |3 8|   |   |  0| 22|
+    get some carrots for a picnic .    |   |   |   |   |   |   |   |   |   |   |
+We picked a lot of carrots and some    |3  |3  |2  |   |   |3  |   |   |  1| 12|
+    yummy sandwiches too .             |   |   |   |   |   |   |   |   |   |   |
+I ate and ate and ate .                |   |1  |2 2|   |   |3 3|   |   |  1| 14|
+                                       |   |   |2  |   |   |   |   |   |   |   |
+Then I felt my tummy hurt .            |   |1 1|2 2|   |   |   |   |   |  1|  7|
+I was dizzy and felt sick .            |   |1  |2 2|   |   |3  |   |   |  1|  9|
+My rabbit friend took me to the doctor |   |1 1|2  |   |   |   |   |   |  1|  5|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+The doctor said I ate too much .       |   |1  |2 2|5  |   |   |   |   |  1| 11|
+She gave me some medicine and I rested |3  |2 1|2 2|   |   |3  |   |   |  1| 15|
+    .                                  |   |1  |   |   |   |   |   |   |   |   |
+Now I feel better .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+Rabbit and dog go on the playground .  |   |   |1  |   |   |3  |   |   |  1|  5|
+They have a wagon .                    |   |3  |1  |   |   |   |   |   |  1|  5|
+There is a red balloon on the wagon .  |   |   |2  |   |   |   |   |   |  1|  3|
+The balloon is tied up , but it comes  |1  |   |7 2|   |   |5  |   |   |  1| 18|
+    loose .                            |   |   |2  |   |   |   |   |   |   |   |
+The balloon floats away !              |   |   |2  |   |   |   |   |   |  1|  3|
+The rabbit and dog are sad .           |   |   |2  |   |   |3  |   |   |  1|  6|
+They don't have a balloon anymore .    |   |3  |1  |   |4  |   |   |   |  1|  9|
+They go to the ice cream man .         |   |3  |1  |   |   |   |   |   |  1|  5|
+He has lots of balloons .              |   |2  |2  |   |   |   |   |   |  1|  5|
+They have two balloons now !           |3  |3  |1  |   |   |   |   |   |  1|  8|
+TOTAL                                  | 30| 58|139| 22|  8| 60|  0|  0| 46|363|
+WARNING: DSS requires 50 complete sentences and this transcript only has 48.
+
+Developmental sentence score:  7.56

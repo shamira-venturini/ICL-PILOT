@@ -1,0 +1,95 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli474_td459_rep07_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time two ducks were playing|3  |   |2 1|   |   |   |   |   |  1|  7|
+     near the pool with a big red ball |   |   |   |   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+then the ball fell into the water .    |   |   |2  |   |   |   |   |   |  1|  3|
+one duck went in the pool to get the   |3  |   |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+she swam to the ball and grabbed it .  |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+she came back out and gave it to her   |1  |2 5|2 2|   |   |3  |   |   |  1| 18|
+    friend .                           |   |2  |   |   |   |   |   |   |   |   |
+they were both happy again .           |   |3  |2  |   |   |   |   |   |  1|  6|
+once upon a time there was a kitty and |   |   |2  |   |   |3  |   |   |  1|  6|
+    a doggy .                          |   |   |   |   |   |   |   |   |   |   |
+they went to the pool .                |   |3  |2  |   |   |   |   |   |  1|  6|
+there was a sign that said no running .|1  |   |2 2|8  |   |   |   |   |  1| 14|
+kitty started to run towards the water |   |   |2 1|3  |   |   |   |   |  1|  7|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+oops kitty slipped and hurt her knee . |   |2  |2 2|   |   |3  |   |   |  1| 10|
+a helper came with a bandaid .         |   |   |2  |   |   |   |   |   |  1|  3|
+kitty sat on a bench and rested .      |   |   |2 2|   |   |3  |   |   |  1|  8|
+once upon a time there were two dogs in|3  |   |2  |   |   |   |   |   |  1|  6|
+     a park .                          |   |   |   |   |   |   |   |   |   |   |
+they had a [* m:allo] airplane .       |   |3  |2  |   |   |   |   |   |  0|  5|
+they were playing with it .            |1  |3 5|2 1|   |   |   |   |   |  1| 13|
+then the airplane fell into the water .|   |   |2  |   |   |   |   |   |  1|  3|
+the owner got mad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+then a lifeguard came .                |   |   |2  |   |   |   |   |   |  1|  3|
+he had a pole .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+he got the airplane with his pole .    |   |2 2|2  |   |   |   |   |   |  1|  7|
+then the owner was happy .             |   |   |2  |   |   |   |   |   |  1|  3|
+once upon a time the rabbit and the dog|   |3  |2  |   |   |3  |   |   |  1|  9|
+     they built a big sandcastle       |   |   |   |   |   |   |   |   |   |   |
+    together .                         |   |   |   |   |   |   |   |   |   |   |
+the dog wanted to add some more sand so|3 3|2  |2 1|3  |   |5  |   |   |  1| 22|
+     he grabbed a big bucket .         |   |   |2  |   |   |   |   |   |   |   |
+but then he spilled the sand all over  |   |2  |2  |   |   |5  |   |   |  1| 10|
+    the castle .                       |   |   |   |   |   |   |   |   |   |   |
+oh no the castle was all messy .       |   |   |2  |   |   |   |   |   |  1|  3|
+the rabbit was very sad and he started |   |2  |2 2|3  |   |3  |   |   |  1| 14|
+    to cry .                           |   |   |1  |   |   |   |   |   |   |   |
+he said i was so sad when you made a   |   |2 1|2 2|   |   |5  |   |   |  1| 18|
+    mess of our castle .               |   |3  |2  |   |   |   |   |   |   |   |
+the dog said sorry i didnt mean to .   |   |1  |2 1|2  |   |   |   |   |  1|  7|
+the rabbit said its okay lets make it  |1 1|5  |2 2|   |   |   |   |   |  1| 13|
+    again .                            |   |   |1  |   |   |   |   |   |   |   |
+they started to build again and this   |   |3 3|2 1|3  |   |3  |   |   |  1| 18|
+    time they were more careful .      |   |   |2  |   |   |   |   |   |   |   |
+once upon a time rabbit and dog was [* |   |   |2 1|   |   |3  |   |   |  0|  6|
+    m:vsg:a] having a picnic .         |   |   |   |   |   |   |   |   |   |   |
+they was [* m:vsg:a] eating carrots and|   |3  |2 1|   |   |3  |   |   |  0|  9|
+     sandwiches .                      |   |   |   |   |   |   |   |   |   |   |
+one little boy was eating a lot .      |3  |   |2 1|   |   |   |   |   |  1|  7|
+he ate too many carrots .              |   |2  |2  |   |   |   |   |   |  1|  5|
+then he said ouch my tummy hurts .     |   |2 1|2 2|   |   |   |   |   |  1|  8|
+he felt sick .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+and then his mommy said we have to go  |   |2 3|2 1|5 3|   |3  |   |   |  1| 22|
+    see the doctor .                   |   |   |1 1|   |   |   |   |   |   |   |
+the doctor said he ate too much food   |   |2 2|2 2|5  |   |3  |   |   |  1| 20|
+    and his tummy was hurting .        |   |   |2 1|   |   |   |   |   |   |   |
+he gave the boy some medicine and he   |3  |2 2|2 2|   |   |3  |   |   |  1| 15|
+    rested .                           |   |   |   |   |   |   |   |   |   |   |
+the boy was feeling better .           |   |   |2 1|   |   |   |   |   |  1|  4|
+once upon a time rabbit and dog they   |   |3  |2  |   |   |3  |   |   |  1|  9|
+    pulled a wagon with a big red      |   |   |   |   |   |   |   |   |   |   |
+    balloon .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon came loose and went flying |   |   |2 2|7 8|   |3  |   |   |  1| 24|
+    away .                             |   |   |1  |   |   |   |   |   |   |   |
+the rabbit and dog were sad .          |   |   |2  |   |   |3  |   |   |  1|  6|
+they looked everywhere for the balloon |1  |3  |2 2|   |   |8 5|   |   |  1| 22|
+    but it was gone .                  |   |   |   |   |   |   |   |   |   |   |
+then they went to the balloon man who  |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    had lots of balloons .             |   |   |   |   |   |   |   |   |   |   |
+he said his balloons were five dollars |3 7|2 2|2 2|   |   |   |   |   |  1| 19|
+    each .                             |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog didn't have five    |3  |   |6 1|   |4  |3  |   |   |  1| 18|
+    dollars .                          |   |   |   |   |   |   |   |   |   |   |
+the balloon man said it was okay he    |1  |2 3|2 2|2 5|   |   |   |   |  1| 26|
+    would help them get balloons .     |   |   |6 1|   |   |   |   |   |   |   |
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the rabbit and dog were so happy they  |7  |3  |2 2|   |   |3 5|   |   |  1| 23|
+    each got a new balloon .           |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 49|118|173| 57|  4| 87|  0|  0| 47|535|
+
+Developmental sentence score: 10.70

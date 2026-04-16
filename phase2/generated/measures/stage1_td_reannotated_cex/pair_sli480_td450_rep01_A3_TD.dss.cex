@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep01
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=450
+*CHI:	Two dogs were playing by the pool with a little airplane .
+%mor:	num|two noun|dog-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|by det|the-Def-Art noun|pool adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane .
+%xdss:	A3; Z; C2; C1; Z; Z;
+*CHI:	It was so much fun !
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adv|much
+	adj|fun-S1 !
+%xdss:	A1; C2; F5;
+*CHI:	Then , one of them grabbed it and dropped it into the water .
+%mor:	adv|then num|one adp|of pron|they-Prs-Acc-P3
+	verb|grab-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 cconj|and
+	verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A3; B3; C2; A1; B5; F3; C2; A1; B5; Z;
+*CHI:	The other dog's owner was very upset .
+%mor:	det|the-Def-Art adj|other-S1 noun|dog~part|s noun|owner
+	aux|be-Fin-Ind-Past-S3-irr adv|very adj|upset-S1 .
+%xdss:	A3; Z; Z; C2;
+*CHI:	She wanted her airplane back .
+%mor:	pron|she-Prs-Nom-S3 verb|want-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3
+	noun|airplane-Acc adv|back .
+%xdss:	B2; C2; B2; Z;
+*CHI:	She asked a lifeguard if she could get it back .
+%mor:	pron|she-Prs-Nom-S3 verb|ask-Fin-Ind-Past-S3 det|a-Ind-Art
+	noun|lifeguard-Acc sconj|if pron|she-Prs-Nom-S3 aux|could-Fin-S
+	verb|get-Inf-S pron|it-Prs-Acc-S3 adv|back .
+%xdss:	B2; C2; Z; F5; B2; C6; D2; C1; A1; B5;
+*CHI:	The lifeguard had a long stick and used it to pick up the airplane
+	.
+%mor:	det|the-Def-Art noun|lifeguard verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|long-S1 noun|stick-Acc cconj|and
+	verb|use-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 part|to verb|pick-Inf-S
+	adp|up det|the-Def-Art noun|airplane-Acc .
+%xdss:	Z; C2; Z; F3; C2; D5; A1; B5; C1; Z;
+*CHI:	The airplane was safe and sound .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Past-S3-irr
+	adj|safe-S1 cconj|and adj|sound-S1 .
+%xdss:	Z; C2; F3;
+*CHI:	The owner was so happy and gave the other dog a big hug .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 cconj|and verb|give-Fin-Ind-Past-S3-irr det|the-Def-Art
+	adj|other-S1 noun|dog det|a-Ind-Art adj|big-S1 noun|hug-Acc .
+%xdss:	Z; C2; F5; F3; C2; A3; Z; Z;
+@End

@@ -1,0 +1,77 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep01
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=459
+*CHI:	once upon a time rabbit and dog they went to the sandbox .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|sandbox .
+%xdss:	Z; Z; F3; Z; B3; C2; Z;
+*CHI:	rabbit said lets build a castle .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr noun|let-Plur
+	verb|build-Inf-S det|a-Ind-Art noun|castle-Acc .
+%xdss:	Z; C2; D5; Z; C1; Z;
+*CHI:	dog said yay i will get the bucket .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr intj|yay pron|I-Prs-Nom-S1
+	aux|will-Fin-S verb|get-Inf-S det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; C2; B1; C4; D2; C1; Z;
+*CHI:	rabbit started building .
+%mor:	noun|rabbit verb|start-Fin-Ind-Past-S3 verb|build-Ger-S .
+%xdss:	Z; C2; D7; C1; D8;
+*CHI:	dog came back with a big bucket of sand .
+%mor:	noun|dog verb|come-Fin-Ind-Past-S3-irr adv|back adp|with
+	det|a-Ind-Art adj|big-S1 noun|bucket adp|of noun|sand .
+%xdss:	Z; C2; Z; Z;
+*CHI:	dog said i want to add some sand to the castle .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr pron|I-Prs-Nom-S1
+	verb|want-Fin-Ind-Pres-S1 part|to verb|add-Inf-S det|some-Def-Ind
+	noun|sand-Acc adp|to det|the-Def-Art noun|castle .
+%xdss:	Z; C2; D5; B1; C1; D3; C1; A3; Z; Z;
+*CHI:	rabbit said be careful .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr aux|be-Fin-S
+	adj|careful-S1 .
+%xdss:	Z; C2;
+*CHI:	but dog dropped the bucket and all the sand went on the castle .
+%mor:	cconj|but noun|dog verb|drop-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|bucket-Acc cconj|and det|all-Def-Tot det|the-Def-Art noun|sand
+	verb|go-Fin-Ind-Past-S3-irr adp|on det|the-Def-Art noun|castle .
+%xdss:	F5; Z; C2; Z; F3; A3; Z; C2; Z;
+*CHI:	the castle got all messy .
+%mor:	det|the-Def-Art noun|castle verb|get-Fin-Ind-Past-S3-irr
+	det|all-Def-Tot adj|messy-S1 .
+%xdss:	Z; C2; A3;
+*CHI:	rabbit was sad .
+%mor:	noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit said why did you do that ?
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr adv|why
+	aux|do-Fin-Ind-Past-S2-irr pron|you-Prs-Nom-S2 verb|do-Inf-S
+	pron|that-Dem ?
+%xdss:	Z; C2; H7; C1; A1;
+*CHI:	dog said sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit said its okay .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3
+	adj|okay-S1 .
+%xdss:	Z; C2; A1;
+*CHI:	we can build again .
+%mor:	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|build-Inf-S adv|again .
+%xdss:	B3; C4; D2; C1;
+*CHI:	rabbit and dog started building another castle .
+%mor:	noun|rabbit cconj|and noun|dog verb|start-Fin-Ind-Past-S3
+	verb|build-Ger-S det|another-Def-Ind noun|castle-Acc .
+%xdss:	Z; F3; Z; C2; D7; C1; D8; A3; Z;
+@End

@@ -1,0 +1,72 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:39 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage2_sli/pair_sli427_td406_rep04_SLI_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+is like them .                         |   |3  |1  |   |   |8  |1  |   |  1| 14|
+they is [* m:vsg:a] playing .          |   |3  |1 1|   |   |   |   |   |  0|  5|
+is in the pool .                       |   |   |1  |   |   |   |1  |   |  1|  3|
+one of them is in .                    |3  |3  |1  |   |   |   |   |   |  1|  8|
+is got it .                            |1  |5  |7 2|   |   |   |1  |   |  1| 17|
+he's going to the pool with his friend |   |2 2|1 1|   |   |   |   |   |  1|  7|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+there's a sign that says no running .  |1  |   |2  |8  |   |   |   |   |  1| 12|
+he don't [* m:03s:a] listen .          |   |2  |6 1|   |4  |   |   |   |  0| 13|
+he's running to the water .            |   |2  |1 1|   |   |   |   |   |  1|  5|
+he slips and falls down .              |   |2  |2 2|   |   |3  |   |   |  1| 10|
+he hurt his knee .                     |   |2 2|2  |   |   |   |   |   |  1|  7|
+then a nice lady comes with a bandage .|   |   |2  |   |   |   |   |   |  1|  3|
+she puts it on his knee .              |1  |2 5|2  |   |   |   |   |   |  1| 13|
+                                       |   |2  |   |   |   |   |   |   |   |   |
+he sits down on a bench .              |   |2  |2  |   |   |   |   |   |  1|  5|
+A dog and a cat are playing near the   |   |   |2 1|   |   |3  |   |   |  1|  7|
+    pool with a plane .                |   |   |   |   |   |   |   |   |   |   |
+The plane is now in the water .        |   |   |1  |   |   |   |   |   |  1|  2|
+The dog and the cat are sad .          |   |   |2  |   |   |3  |   |   |  1|  6|
+He is eating .                         |   |2  |1 1|   |   |   |   |   |  1|  5|
+He is eating sandwich .                |   |2  |1 1|   |   |   |   |   |  1|  5|
+He is drinking [/] drinking juice .    |   |2  |1 1|   |   |   |   |   |  1|  5|
+He is .                                |   |2  |1  |   |   |   |   |   |  1|  4|
+He is dot^ger .                        |   |2  |1  |   |   |   |   |   |  1|  4|
+He is moving .                         |   |2  |1 1|   |   |   |   |   |  1|  5|
+He is hurt .                           |   |2  |7 2|   |   |   |   |   |  1| 12|
+He is hurt [* m:0ing] ears .           |   |2  |7 2|   |   |   |   |   |  0| 11|
+He go [* m:03s:a] .                    |   |2  |2  |   |   |   |   |   |  0|  4|
+He get [* m:03s:a] the plane with a    |   |2  |2  |   |   |   |   |   |  0|  4|
+    stick .                            |   |   |   |   |   |   |   |   |   |   |
+and the plane come [* m:03s:a] out .   |   |   |1  |   |   |3  |   |   |  0|  4|
+The dog and the cat is [* m:vsg:a]     |   |   |1  |   |   |3  |   |   |  0|  4|
+    happy .                            |   |   |   |   |   |   |   |   |   |   |
+They hug the plane and play again .    |   |3  |1 1|   |   |3  |   |   |  1|  9|
+they playing in sandbox .              |   |3  |1  |   |   |   |   |   |  1|  5|
+dog throw [* m:03s:a] sand on castle . |   |   |1  |   |   |   |   |   |  0|  1|
+dog say [* m:03s:a] sorry .            |   |   |1  |   |   |   |   |   |  0|  1|
+rabbit and dog build it again .        |1  |5  |1  |   |   |3  |   |   |  1| 11|
+rabbit say [* m:03s:a] okay .          |   |   |1  |   |   |   |   |   |  0|  1|
+they build it big .                    |1  |3 5|1  |   |   |   |   |   |  1| 11|
+Me [* s:r:gc:pro] and my dog go pick up|   |1 1|1 1|   |   |3  |   |   |  0|  7|
+     food .                            |   |   |   |   |   |   |   |   |   |   |
+We got yummy sandwiches and berries .  |   |3  |2  |   |   |3  |   |   |  1|  9|
+I eat too much .                       |   |1  |1  |   |   |   |   |   |  1|  3|
+My tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+I feel sick .                          |   |1  |1  |   |   |   |   |   |  1|  3|
+Mommy says we go see doctor .          |   |3  |2 1|5  |   |   |   |   |  1| 13|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+Doctor says I rest .                   |   |1  |2 1|5  |   |   |   |   |  1| 10|
+I sit down and rest .                  |   |1  |1 1|   |   |3  |   |   |  1|  7|
+I feel better now .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+they pull wagon .                      |   |3  |1  |   |   |   |   |   |  1|  5|
+balloon go fly .                       |   |   |1  |   |   |   |   |   |  1|  2|
+they look for balloon .                |   |3  |1  |   |   |8  |   |   |  1| 13|
+they see man with many balloons .      |   |3  |1  |   |   |   |   |   |  1|  5|
+but he say [* m:03s:a] cost money .    |   |2  |2  |   |   |5  |   |   |  0|  9|
+TOTAL                                  |  8|103|111| 18|  4| 51|  3|  0| 38|336|
+
+Developmental sentence score:  6.72

@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:16 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep09_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+we was [* m:vsg:a] playing with plane .|   |3  |2 1|   |   |   |   |   |  0|  6|
+it's in the pool .                     |1  |   |1  |   |   |   |   |   |  1|  3|
+she was playing with it .              |1  |2 5|2 1|   |   |   |   |   |  1| 12|
+she's upset .                          |   |2  |1  |   |   |   |   |   |  1|  4|
+she goes to get it .                   |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+he's got a long stick .                |   |2  |7 2|   |   |   |   |   |  1| 12|
+he's reaching for the plane .          |   |2  |1 1|   |   |8  |   |   |  1| 13|
+he got it .                            |1  |2 5|2  |   |   |   |   |   |  1| 11|
+my friend's happy .                    |   |1  |1  |   |   |   |   |   |  1|  3|
+now she's got the plane back .         |   |2  |7 2|   |   |   |   |   |  1| 12|
+TOTAL                                  |  4| 33| 34|  3|  0|  8|  0|  0|  9| 91|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  9.10

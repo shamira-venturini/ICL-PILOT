@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep02
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=2
+@Comment:	source_child_id=459
+*CHI:	One day rabbit and dog build a sandcastle together on the beach .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	verb|build-Fin-Ind-Pres-P3 det|a-Ind-Art noun|sandcastle-Acc
+	adv|together adp|on det|the-Def-Art noun|beach .
+%xdss:	A3; Z; Z; F3; Z; C1; Z; Z;
+*CHI:	Rabbit was digging with a shovel and dog was adding sand with a big
+	bucket .
+%mor:	propn|Rabbit aux|be-Fin-Ind-Past-S3-irr verb|digg-Part-Pres-S
+	adp|with det|a-Ind-Art noun|shovel cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr verb|add-Part-Pres-S noun|sand-Acc
+	adp|with det|a-Ind-Art adj|big-S1 noun|bucket .
+%xdss:	C2; C1; Z; F3; Z; C2; C1; Z; Z;
+*CHI:	But dog accidentally dropped the bucket and sand fell all over the
+	sandcastle .
+%mor:	cconj|but noun|dog adv|accidentally verb|drop-Fin-Ind-Past-S3
+	det|the-Def-Art noun|bucket-Acc cconj|and noun|sand
+	verb|fall-Fin-Ind-Past-S3-irr adv|all adp|over det|the-Def-Art
+	noun|sandcastle .
+%xdss:	F5; Z; C2; Z; F3; Z; C2; Z;
+*CHI:	The sandcastle was broken .
+%mor:	det|the-Def-Art noun|sandcastle aux|be-Fin-Ind-Past-S3-irr
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	Dog was very sad and started to cry .
+%mor:	noun|dog aux|be-Fin-Ind-Past-S3-irr adv|very adj|sad-S1 cconj|and
+	verb|start-Fin-Ind-Past-S3 part|to verb|cry-Inf-S .
+%xdss:	Z; C2; F3; C2; D3; C1;
+*CHI:	don't cry , we can fix it .
+%mor:	aux|do-Fin-Imp-S~part|not verb|cry-Fin-Imp-S pron|we-Prs-Nom-P1
+	aux|can-Fin-S verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	C4; E4; G6; C1; B3; C4; D2; C1; A1; B5;
+*CHI:	Dog and rabbit started to clean up the sand and built the castle
+	again .
+%mor:	noun|dog cconj|and noun|rabbit verb|start-Fin-Ind-Past-S3 part|to
+	verb|clean-Inf-S adp|up det|the-Def-Art noun|sand-Acc cconj|and
+	verb|build-Fin-Ind-Past-S3-irr det|the-Def-Art noun|castle-Acc
+	adv|again .
+%xdss:	Z; F3; Z; C2; D3; C1; Z; F3; C2; Z;
+*CHI:	They were smiling at each other when they finished .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|smile-Part-Pres-S adp|at det|each-Def-Rcp adj|other-S1 adv|when
+	pron|they-Prs-Nom-P3 verb|finish-Fin-Ind-Past-P3 .
+%xdss:	B3; C2; C1; A7; A3; B3; C2;
+@End

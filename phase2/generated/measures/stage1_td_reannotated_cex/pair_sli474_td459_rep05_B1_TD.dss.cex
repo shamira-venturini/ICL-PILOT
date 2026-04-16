@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep05
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=5
+@Comment:	source_child_id=459
+*CHI:	once upon a time there was a rabbit and dog they built a sandcastle
+	on the beach .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|rabbit cconj|and
+	noun|dog pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|sandcastle-Acc adp|on det|the-Def-Art noun|beach
+	.
+%xdss:	Z; C2; Z; F3; Z; B3; C2; Z; Z;
+*CHI:	the dog use [* m:03s:a] a big shovel and the rabbit use [* m:03s:a]
+	a little shovel .
+%mor:	det|the-Def-Art noun|dog verb|use-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|big-S1 noun|shovel-Acc cconj|and det|the-Def-Art noun|rabbit
+	verb|use-Fin-Ind-Pres-P3 det|a-Ind-Art adj|little-S1 noun|shovel-Acc
+	.
+%xdss:	Z; C2; Z; F3; Z; C1; Z;
+*CHI:	the rabbit added sand to the castle .
+%mor:	det|the-Def-Art noun|rabbit verb|add-Fin-Ind-Past-S3 noun|sand-Acc
+	adp|to det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; Z;
+*CHI:	then the dog just throw [* m:base:ed] the shovel and sand went
+	everywhere and it went on the castle .
+%mor:	adv|then det|the-Def-Art noun|dog adv|just
+	verb|throw-Fin-Ind-Pres-S3 det|the-Def-Art noun|shovel-Acc cconj|and
+	noun|sand verb|go-Fin-Ind-Past-S3-irr adv|everywhere cconj|and
+	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|on
+	det|the-Def-Art noun|castle .
+%xdss:	Z; C2; Z; F3; Z; C2; F3; A1; C2; Z;
+*CHI:	the castle got all messy .
+%mor:	det|the-Def-Art noun|castle verb|get-Fin-Ind-Past-S3-irr
+	det|all-Def-Tot adj|messy-S1 .
+%xdss:	Z; C2; A3;
+*CHI:	the rabbit was so sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|sad-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	the rabbit started to cry .
+%mor:	det|the-Def-Art noun|rabbit verb|start-Fin-Ind-Past-S3 part|to
+	verb|cry-Inf-S .
+%xdss:	Z; C2; D3; C1;
+*CHI:	the dog said sorry and the rabbit forgave him .
+%mor:	det|the-Def-Art noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1
+	cconj|and det|the-Def-Art noun|rabbit
+	verb|forgive-Fin-Ind-Past-S3-irr pron|he-Prs-Acc-S3 .
+%xdss:	Z; C2; F3; Z; C2; B2;
+*CHI:	the dog and rabbit work together and build a new castle .
+%mor:	det|the-Def-Art noun|dog cconj|and noun|rabbit
+	verb|work-Fin-Ind-Pres-P3 adv|together cconj|and verb|build-Inf-S
+	det|a-Ind-Art adj|new-S1 noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; F3; C1; Z;
+*CHI:	the rabbit and dog was [* m:vsg:a] happy again .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 adv|again .
+%xdss:	Z; F3; Z; C2;
+@End

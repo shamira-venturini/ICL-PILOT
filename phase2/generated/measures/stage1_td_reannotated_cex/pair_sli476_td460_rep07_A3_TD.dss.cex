@@ -1,0 +1,76 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep07
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=460
+*CHI:	there are two dogs they are playing near the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|dog-Plur
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	C1; A3; Z; B3; C2; C1; Z;
+*CHI:	they have a toy airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|toy noun|airplane-Acc .
+%xdss:	B3; C1; Z; Z;
+*CHI:	it is so much fun .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adv|so adv|much
+	adj|fun-S1 .
+%xdss:	A1; C1; F5;
+*CHI:	they are playing .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S .
+%xdss:	B3; C2; C1;
+*CHI:	then the airplane goes into the pool .
+%mor:	adv|then det|the-Def-Art noun|airplane verb|go-Fin-Ind-Pres-S3
+	adp|into det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	he says .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	that's mine !
+%mor:	pron|that-Dem~aux|be-Fin-Ind-Pres-S3 pron|my-Prs-S1 !
+%xdss:	A1; C1; B1;
+*CHI:	he tries to get it .
+%mor:	pron|he-Prs-Nom-S3 verb|try-Fin-Ind-Pres-S3 part|to verb|get-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	he's splashing .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|splash-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	he's getting wet .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S
+	adj|wet-S1 .
+%xdss:	B2; C1; C1;
+*CHI:	then a lifeguard comes with a big pole .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art adj|big-S1 noun|pole .
+%xdss:	Z; C2; Z;
+*CHI:	she gets the airplane .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|airplane-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	she gives it back to the dog's friend .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	adv|back adp|to det|the-Def-Art noun|dog~part|s noun|friend .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	he's so happy .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|happy-S1 .
+%xdss:	B2; C1; F5;
+*CHI:	he's smiling .
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|smile-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	now the dog and his friend are playing again .
+%mor:	adv|now det|the-Def-Art noun|dog cconj|and pron|his-Prs-Gen-S3
+	noun|friend aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S adv|again .
+%xdss:	Z; F3; B2; Z; C2; C1;
+@End

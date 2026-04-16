@@ -1,0 +1,53 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep09
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=415
+*CHI:	my mom and dad and a dog and a rabbit go on a picnic .
+%mor:	pron|my-Prs-Gen-S1 noun|mom cconj|and noun|dad cconj|and
+	det|a-Ind-Art noun|dog cconj|and det|a-Ind-Art noun|rabbit
+	verb|go-Fin-Ind-Pres-P3 adp|on det|a-Ind-Art noun|picnic .
+%xdss:	B1; Z; F3; Z; F3; Z; F3; Z; C1; Z;
+*CHI:	we bring sandwiches and carrots .
+%mor:	pron|we-Prs-Nom-P1 verb|bring-Fin-Ind-Pres-P1
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	i eat too much sandwiches .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adj|much-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	my tummy hurt .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	i feel sick .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	my mom take [* m:03s:a] me to the doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|mom verb|take-Fin-Ind-Pres-S
+	pron|I-Prs-Acc-S1 adp|to det|the-Def-Art noun|doctor .
+%xdss:	B1; Z; C1; B1; Z;
+*CHI:	the doctor look [* m:03s:a] at me and give [* m:03s:a] me some
+	medicine .
+%mor:	det|the-Def-Art noun|doctor verb|look-Fin-Imp-S adp|at
+	pron|I-Prs-Acc-S1 cconj|and verb|give-Fin-Imp-S pron|I-Prs-Acc-S1
+	det|some-Def-Ind noun|medicine-Acc .
+%xdss:	Z; C1; B1; F3; C1; B1; A3; Z;
+*CHI:	i feel better .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1 .
+%xdss:	B1; C1;
+*CHI:	now i'm sitting on the couch .
+%mor:	adv|now pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1
+	verb|sit-Part-Pres-S adp|on det|the-Def-Art noun|couch .
+%xdss:	B1; C1; Z;
+@End

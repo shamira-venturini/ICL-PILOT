@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep04
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=4
+@Comment:	source_child_id=471
+*CHI:	there were two ducks at the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|duck-Plur adp|at det|the-Def-Art noun|pool .
+%xdss:	C2; A3; Z; Z;
+*CHI:	the sign said dont run .
+%mor:	det|the-Def-Art noun|sign verb|say-Fin-Ind-Past-S3-irr
+	pron|dont-Prs-Gen-S2 verb|run-Inf-S .
+%xdss:	Z; C2; D5; C1;
+*CHI:	one duck went very fast towards the water .
+%mor:	num|one noun|duck verb|go-Fin-Ind-Past-S3-irr adv|very adv|fast
+	adp|towards det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z;
+*CHI:	it slipped and hurt its knee .
+%mor:	pron|it-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	A1; C2; F3; C2; A1; Z;
+*CHI:	then a lifeguard came with a bandage .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	the duck sat on a bench and rested .
+%mor:	det|the-Def-Art noun|duck verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

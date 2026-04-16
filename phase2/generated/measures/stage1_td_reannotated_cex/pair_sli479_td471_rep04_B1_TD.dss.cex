@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep04
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=4
+@Comment:	source_child_id=471
+*CHI:	One day rabbit and dog friend go to sandbox .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog noun|friend
+	verb|go-Fin-Ind-Pres-P3 adp|to noun|sandbox .
+%xdss:	A3; Z; Z; F3; Z; Z; C1; Z;
+*CHI:	They build sandcastle .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Pres-P3 noun|sandcastle-Acc
+	.
+%xdss:	B3; C1; Z;
+*CHI:	Dog use [* m:03s:a] big shovel to make castle high .
+%mor:	noun|dog verb|use-Fin-Imp-S adj|big-S1 noun|shovel-Acc part|to
+	verb|make-Inf-S noun|castle adj|high-S1 .
+%xdss:	Z; C1; Z; C1; Z;
+*CHI:	Rabbit use [* m:03s:a] bucket to make castle pretty .
+%mor:	noun|rabbit noun|use noun|bucket part|to verb|make-Inf-S
+	noun|castle-Acc adv|pretty .
+%xdss:	Z; Z; Z; C1; Z;
+*CHI:	But then dog drop [* m:03s:a] big bucket on castle .
+%mor:	cconj|but adv|then noun|dog verb|drop-Inf-S adj|big-S1
+	noun|bucket-Acc adp|on noun|castle .
+%xdss:	F5; Z; C1; Z; Z;
+*CHI:	Rabbit cry [* m:03s:a] .
+%mor:	noun|rabbit verb|cry-Fin-S .
+%xdss:	Z; C1;
+*CHI:	They make it better .
+%mor:	pron|they-Prs-Nom-P3 verb|make-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adj|good-Cmp-S1 .
+%xdss:	B3; C1; A1; B5;
+@End

@@ -1,0 +1,49 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep02
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=450
+*CHI:	Me [* s:r:gc:pro] and my friend the rabbit went to the pool .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend
+	det|the-Def-Art noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|pool .
+%xdss:	B1; F3; B1; Z; Z; C2; Z;
+*CHI:	There was a sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	My friend didn't listen , he started running towards the water .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|listen-Inf-S pron|he-Prs-Nom-S3 verb|start-Fin-Ind-Past-S3
+	verb|run-Ger-S adp|towards det|the-Def-Art noun|water .
+%xdss:	B1; Z; C6; E4; C1; D5; B2; C2; D7; C1; D8; Z;
+*CHI:	He slipped on the ground and hurt his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 adp|on det|the-Def-Art
+	noun|ground cconj|and verb|hurt-Fin-Ind-Past-S3-irr
+	pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; Z; F3; C2; B2; Z;
+*CHI:	A kind lifeguard came and put a bandage on it .
+%mor:	det|a-Ind-Art noun|kind noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr cconj|and verb|put-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|bandage-Acc adp|on pron|it-Prs-Acc-S3 .
+%xdss:	Z; Z; C2; F3; C2; Z; A1; B5;
+*CHI:	Now my friend is sitting on a bench and resting .
+%mor:	adv|now pron|my-Prs-Gen-S1 noun|friend aux|be-Fin-Ind-Pres-S3
+	verb|sit-Part-Pres-S adp|on det|a-Ind-Art noun|bench cconj|and
+	verb|rest-Part-Pres-S .
+%xdss:	B1; Z; C1; C1; Z; F3; C1;
+@End

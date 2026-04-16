@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep05
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=460
+*CHI:	they're [/] they're eating they're eating they're eating sandwiches
+	and carrots .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|eat-Part-Pres-S
+	noun|sandwich-Plur-Acc cconj|and noun|carrot-Plur .
+%xdss:	B3; C1; D5; B3; C1; D5; B3; C1; Z; F3; Z;
+*CHI:	the rabbit she's eating too .
+%mor:	det|the-Def-Art noun|rabbit
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S
+	adv|too .
+%xdss:	Z; B2; C1; C1;
+*CHI:	the dog he's eating too .
+%mor:	det|the-Def-Art noun|dog pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|eat-Part-Pres-S adv|too .
+%xdss:	Z; B2; C1; C1;
+*CHI:	she ate too many carrots .
+%mor:	pron|she-Prs-Nom-S3 verb|eat-Fin-Ind-Past-S3-irr adv|too
+	adj|many-S1 noun|carrot-Plur-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	she's got a tummyache .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|a-Ind-Art noun|tummyache-Acc .
+%xdss:	B2; C7; C2; Z;
+*CHI:	she's feeling sick .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|feel-Part-Pres-S
+	adj|sick-S1 .
+%xdss:	B2; C1; C1;
+*CHI:	the doctor is here now .
+%mor:	det|the-Def-Art noun|doctor aux|be-Fin-Ind-Pres-S3 adv|here adv|now
+	.
+%xdss:	Z; C1;
+*CHI:	the doctor says take some rest .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Pres-S3
+	verb|take-Fin-Imp-S det|some-Def-Ind noun|rest-Acc .
+%xdss:	Z; C2; C1; A3; Z;
+*CHI:	she's lying down .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|lie-Part-Pres-S
+	adp|down .
+%xdss:	B2; C1; C1;
+*CHI:	she's sleeping .
+%mor:	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|sleep-Part-Pres-S .
+%xdss:	B2; C1; C1;
+@End

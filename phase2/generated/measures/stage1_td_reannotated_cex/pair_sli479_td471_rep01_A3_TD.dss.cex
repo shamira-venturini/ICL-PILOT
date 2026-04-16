@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep01
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=1
+@Comment:	source_child_id=471
+*CHI:	Two frogs and a bird were playing with a little airplane near the
+	pool .
+%mor:	num|two noun|frog-Plur cconj|and det|a-Ind-Art noun|bird
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane adp|near det|the-Def-Art
+	noun|pool .
+%xdss:	A3; Z; F3; Z; C2; C1; Z; Z;
+*CHI:	They were taking turns flying it and laughing .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|take-Part-Pres-S noun|turn-Plur-Acc verb|fly-Ger-S
+	pron|it-Prs-Acc-S3 cconj|and verb|laugh-Part-Pres-S .
+%xdss:	B3; C2; C1; D5; Z; D4; C1; D8; A1; B5; F3; C1;
+*CHI:	But then , one of the frogs accidentally dropped it into the water
+	.
+%mor:	cconj|but adv|then num|one adp|of det|the-Def-Art noun|frog-Plur
+	adv|accidentally verb|drop-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3
+	adp|into det|the-Def-Art noun|water .
+%xdss:	F5; A3; Z; C2; A1; B5; Z;
+*CHI:	The bird got very upset and said .
+%mor:	det|the-Def-Art noun|bird verb|get-Fin-Ind-Past-S3-irr adv|very
+	adj|upset-S1 cconj|and verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2; F3; C2;
+*CHI:	The frogs and the bird were so happy and hugged each other .
+%mor:	det|the-Def-Art noun|frog-Plur cconj|and det|the-Def-Art noun|bird
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 cconj|and
+	verb|hugge-Fin-Ind-Past-P3 det|each-Def-Rcp adj|other-S1 .
+%xdss:	Z; F3; Z; C2; F5; F3; C2; A7; A3;
+*CHI:	The bird said .
+%mor:	det|the-Def-Art noun|bird verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	My airplane is back !
+%mor:	pron|my-Prs-Gen-S1 noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back !
+%xdss:	B1; Z; C1;
+@End

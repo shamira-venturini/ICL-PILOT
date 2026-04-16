@@ -1,0 +1,23 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep01_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+They're playing with a ball .          |   |3  |1  |   |   |   |   |   |  1|  5|
+The ball goes into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+The kitty jumps in to get it .         |1  |5  |2 1|   |   |   |   |   |  1| 10|
+The kitty gets the ball .              |   |   |2  |   |   |   |   |   |  1|  3|
+The kitty comes out of the water with  |   |   |2  |   |   |   |   |   |  1|  3|
+    the ball .                         |   |   |   |   |   |   |   |   |   |   |
+The doggy and the kitty are happy .    |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  |  1|  8| 12|  0|  0|  3|  0|  0|  6| 30|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  5.00

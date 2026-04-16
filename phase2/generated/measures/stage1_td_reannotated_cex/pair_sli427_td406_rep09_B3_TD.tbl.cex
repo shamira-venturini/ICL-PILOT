@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:14 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep09_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Me and my doggy friend , we was [* m:  |   |1 1|2  |   |   |3  |   |   |  0| 10|
+    vsg:a] pullin' a wagon with a big  |   |3  |   |   |   |   |   |   |   |   |
+    red balloon .                      |   |   |   |   |   |   |   |   |   |   |
+It was so much fun !                   |1  |   |2  |   |   |5  |   |   |  1|  9|
+Then , the balloon came loose and went |   |   |2 2|   |   |3  |   |   |  1|  8|
+    up , [/] up , [/] up in the air .  |   |   |   |   |   |   |   |   |   |   |
+My doggy was sad too .                 |   |1  |2  |   |   |   |   |   |  1|  4|
+He looked at me with his sad eyes .    |   |2 1|2  |   |   |   |   |   |  1|  8|
+                                       |   |2  |   |   |   |   |   |   |   |   |
+My friend said .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+Where's our balloon ?                  |   |3  |1  |   |   |   |   |   |  1|  5|
+We want another one !                  |3  |3  |1  |   |   |   |   |   |  1|  8|
+We went to a lady with lots of balloons|   |3  |2  |   |   |   |   |   |  1|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+but she said .                         |   |2  |2  |   |   |5  |   |   |  1| 10|
+Those balloons are fifty cents each .  |3 7|   |2  |   |   |   |   |   |  1| 13|
+Me [* s:r:gc:pro] and my doggy were    |   |1 1|2 1|   |   |3  |   |   |  0| 11|
+    dancing around with our balloons . |   |3  |   |   |   |   |   |   |   |   |
+TOTAL                                  | 14| 28| 25|  0|  0| 19|  0|  0| 10| 96|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  8.00

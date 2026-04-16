@@ -1,0 +1,62 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep04
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=419
+*CHI:	doggy and kitty were playing by the pool .
+%mor:	adj|doggy-S1 cconj|and noun|kitty aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|by det|the-Def-Art noun|pool .
+%xdss:	F3; Z; C2; C1; Z;
+*CHI:	doggy had an airplane .
+%mor:	noun|doggy verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|airplane-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	kitty wanted it .
+%mor:	noun|kitty verb|want-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; A1; B5;
+*CHI:	doggy said no .
+%mor:	noun|doggy verb|say-Fin-Ind-Past-S3-irr intj|no .
+%xdss:	Z; C2;
+*CHI:	kitty got mad .
+%mor:	noun|kitty verb|get-Fin-Ind-Past-S3-irr adj|mad-S1 .
+%xdss:	Z; C2;
+*CHI:	kitty threw the airplane in the pool .
+%mor:	propn|kitty verb|throw-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|airplane-Acc adp|in det|the-Def-Art noun|pool .
+%xdss:	C2; Z; Z;
+*CHI:	doggy said nooooo !
+%mor:	noun|doggy verb|say-Fin-Ind-Past-S3-irr intj|nooooo !
+%xdss:	Z; C2;
+*CHI:	kitty was sad .
+%mor:	noun|kitty aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	a lifeguard came over with a big stick .
+%mor:	det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr adp|over
+	adp|with det|a-Ind-Art adj|big-S1 noun|stick .
+%xdss:	Z; C2; Z;
+*CHI:	she picked up the airplane .
+%mor:	pron|she-Prs-Nom-S3 verb|pick-Fin-Ind-Past-S3 adp|up
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	doggy and kitty were happy .
+%mor:	adj|doggy-S1 cconj|and noun|kitty aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 .
+%xdss:	F3; Z; C2;
+*CHI:	the airplane was back .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Past-S3-irr adv|back .
+%xdss:	Z; C2;
+*CHI:	doggy and kitty hugged .
+%mor:	adj|doggy-S1 cconj|and noun|kitty verb|hugge-Part-Ind-Past-S .
+%xdss:	F3; Z; C2;
+@End

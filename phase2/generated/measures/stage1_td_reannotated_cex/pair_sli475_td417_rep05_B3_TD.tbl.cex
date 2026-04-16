@@ -1,0 +1,34 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:19 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep05_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+There is a rabbit and dog .            |   |   |2  |   |   |3  |   |   |  1|  6|
+they were friends they were carrying a |   |3 3|2 2|   |   |   |   |   |  1| 12|
+    big red balloon in a wagon .       |   |   |1  |   |   |   |   |   |   |   |
+the dog was pulling the wagon and the  |   |   |2 1|   |   |3  |   |   |  1| 10|
+    rabbit was holding the balloon .   |   |   |2 1|   |   |   |   |   |   |   |
+the balloon was very pretty and the    |   |   |2 2|   |   |3 3|   |   |  1| 11|
+    rabbit and dog were very happy .   |   |   |   |   |   |   |   |   |   |   |
+but then the dog got too excited and   |1  |   |2 2|   |   |5 3|   |   |  1| 19|
+    the balloon came loose and it flew |   |   |2  |   |   |3  |   |   |   |   |
+    away .                             |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog were so sad .       |   |   |2  |   |   |3 5|   |   |  1| 11|
+they looked and looked for their       |1  |3 3|2 2|7  |   |3 8|   |   |  1| 46|
+    balloon but it was nowhere to be   |   |   |2 7|   |   |5  |   |   |   |   |
+    found .                            |   |   |2  |   |   |   |   |   |   |   |
+they asked a nice lady who had lots of |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+they got their two balloons and they   |3  |3 3|2 2|   |   |3  |   |   |  1| 20|
+    were happy again .                 |   |3  |   |   |   |   |   |   |   |   |
+TOTAL                                  |  5| 30| 48|  7|  0| 50|  0|  0|  9|149|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 16.56

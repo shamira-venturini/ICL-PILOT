@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep08
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=417
+*CHI:	there were two frogs by the pool one had a red ball they played and
+	threw it but it fell in the water the frog said oh no the other frog
+	said dont worry i will get it he went to the pool and got it with
+	his hands and brought it back to his friend they both played again
+	and they were happy .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|frog-Plur adp|by det|the-Def-Art noun|pool num|one
+	verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|red-S1 noun|ball-Acc
+	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Past-P3 cconj|and
+	verb|throw-Fin-Ind-Past-P3-irr pron|it-Prs-Acc-S3 cconj|but
+	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water det|the-Def-Art noun|frog
+	verb|say-Fin-Ind-Past-S3-irr intj|oh intj|no det|the-Def-Art
+	adj|other-S1 noun|frog verb|say-Fin-Ind-Past-S3-irr part|dont
+	verb|worry-Inf-S pron|I-Prs-Nom-S1 aux|will-Fin-S verb|get-Inf-S
+	pron|it-Prs-Acc-S3 pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr
+	adp|to det|the-Def-Art noun|pool cconj|and
+	verb|get-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adp|with
+	pron|his-Prs-Gen-S3 noun|hand-Plur cconj|and
+	verb|bring-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3 adv|back adp|to
+	pron|his-Prs-Gen-S3 noun|friend pron|they-Prs-Nom-P3
+	det|both-Def-Tot verb|play-Fin-Ind-Past-P3 adv|again cconj|and
+	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	C2; A3; Z; Z; A3; C2; Z; B3; C2; F3; C2; A1; B5; F5; A1; C2; Z; Z;
+	C2; A3; Z; C2; C1; B1; C4; D2; C1; A1; B5; B2; C2; Z; F3; C2; A1;
+	B5; B2; Z; F3; C2; A1; B5; B2; Z; B3; A7; C2; F3; B3; C2;
+@End

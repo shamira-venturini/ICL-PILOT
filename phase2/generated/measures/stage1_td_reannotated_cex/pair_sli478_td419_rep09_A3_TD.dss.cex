@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep09
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=419
+*CHI:	once there were two ducks by the pool .
+%mor:	sconj|once pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|duck-Plur adp|by det|the-Def-Art noun|pool .
+%xdss:	C2; A3; Z; Z;
+*CHI:	they were playing with a little plane .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|with det|a-Ind-Art adj|little-S1
+	noun|plane .
+%xdss:	B3; C2; C1; Z;
+*CHI:	the plane flew high up and splashed into the water .
+%mor:	det|the-Def-Art noun|plane verb|fly-Fin-Ind-Past-S3-irr adv|high
+	adp|up cconj|and verb|splash-Fin-Ind-Past-S3 adp|into
+	det|the-Def-Art noun|water .
+%xdss:	Z; C2; F3; C2; Z;
+*CHI:	the ducks were sad .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	they said .
+%mor:	pron|they-Prs-Nom-P3 verb|say-Fin-Ind-Past-P3-irr .
+%xdss:	B3; C2;
+*CHI:	then a lifeguard came with a big long stick .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art adj|big-S1 adj|long-S1 noun|stick .
+%xdss:	Z; C2; Z;
+*CHI:	she fished the plane out .
+%mor:	pron|she-Prs-Nom-S3 verb|fish-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|plane-Acc adp|out .
+%xdss:	B2; C2; Z;
+*CHI:	the ducks were so happy .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	they hugged the plane .
+%mor:	pron|they-Prs-Nom-P3 verb|hugge-Fin-Ind-Past-P3 det|the-Def-Art
+	noun|plane-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	the lifeguard said .
+%mor:	det|the-Def-Art noun|lifeguard verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+@End

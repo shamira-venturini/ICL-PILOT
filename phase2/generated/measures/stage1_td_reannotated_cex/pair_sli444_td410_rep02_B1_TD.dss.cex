@@ -1,0 +1,61 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep02
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=410
+*CHI:	there's a dog and a rabbit they're building a castle .
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog
+	cconj|and det|a-Ind-Art noun|rabbit
+	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|build-Part-Pres-S
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	Z; F3; Z; B3; C1; Z;
+*CHI:	and they're using a bucket .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|use-Part-Pres-S det|a-Ind-Art noun|bucket-Acc .
+%xdss:	F3; B3; C1; Z;
+*CHI:	and the dog's holding the bucket .
+%mor:	cconj|and det|the-Def-Art noun|dog~part|s verb|hold-Ger-S
+	det|the-Def-Art noun|bucket-Acc .
+%xdss:	F3; Z; D4; C1; D8; Z;
+*CHI:	(.) and he's pouring sand .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|pour-Part-Pres-S noun|sand-Acc .
+%xdss:	F3; B2; C1; C1; Z;
+*CHI:	and he's pouring sand on the castle .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|pour-Part-Pres-S noun|sand-Acc adp|on det|the-Def-Art
+	noun|castle .
+%xdss:	F3; B2; C1; C1; Z; Z;
+*CHI:	(.) but then he dumped the whole bucket on it .
+%mor:	cconj|but adv|then pron|he-Prs-Nom-S3 verb|dump-Fin-Ind-Past-S3
+	det|the-Def-Art adj|whole-S1 noun|bucket-Acc adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	F5; B2; C2; Z; A1; B5;
+*CHI:	(.) the rabbit saw and she's so sad .
+%mor:	det|the-Def-Art noun|rabbit verb|see-Fin-Ind-Past-S3-irr cconj|and
+	pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|sad-S1 .
+%xdss:	Z; C2; F3; B2; C1; F5;
+*CHI:	(.) and she's crying .
+%mor:	cconj|and pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|cry-Part-Pres-S .
+%xdss:	F3; B2; C1; C1;
+*CHI:	and the dog he's saying .
+%mor:	cconj|and det|the-Def-Art noun|dog-Acc
+	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|say-Part-Pres-S .
+%xdss:	F3; Z; B2; C1; C1;
+*CHI:	(.) and they're trying to fix it .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|try-Part-Pres-S part|to verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	F3; B3; C1; D3; C1; A1; B5;
+@End

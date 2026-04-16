@@ -1,0 +1,93 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli427_td406_rep08_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two little ducks play by the pool .    |3  |   |1  |   |   |   |   |   |  1|  5|
+They have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+The ball goes into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+One duck goes into the pool to get the |3  |   |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+The duck gets the ball .               |   |   |2  |   |   |   |   |   |  1|  3|
+The duck brings the ball back .        |   |   |2  |   |   |   |   |   |  1|  3|
+The ducks are happy now .              |   |   |2  |   |   |   |   |   |  1|  3|
+Yesterday I was at the pool .          |   |1  |2  |   |   |   |   |   |  1|  4|
+there was a sign that said no running .|1  |   |2 2|8  |   |   |   |   |  1| 14|
+my friend and I were by the pool .     |   |1 1|2  |   |   |3  |   |   |  1|  8|
+my friend said see that sign don't run |   |1  |2 1|   |4  |   |   |   |  1| 14|
+    .                                  |   |   |4 1|   |   |   |   |   |   |   |
+but I ran .                            |   |1  |2  |   |   |5  |   |   |  1|  9|
+I ran to the water .                   |   |1  |2  |   |   |   |   |   |  1|  4|
+I slipped .                            |   |1  |2  |   |   |   |   |   |  1|  4|
+I fell down .                          |   |1  |2  |   |   |   |   |   |  1|  4|
+I hurt my knee .                       |   |1 1|2  |   |   |   |   |   |  1|  5|
+a lifeguard came and said you have a   |   |   |2 2|5  |   |3  |   |   |  1| 14|
+    boo-boo .                          |   |   |1  |   |   |   |   |   |   |   |
+he put a band-aid on my knee .         |   |2 1|2  |   |   |   |   |   |  1|  6|
+I sat on the bench .                   |   |1  |2  |   |   |   |   |   |  1|  4|
+I rested .                             |   |1  |2  |   |   |   |   |   |  1|  4|
+that day we was [* m:vsg:a] at the pool|   |3  |2  |   |   |   |   |   |  0|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+there was a little red plane .         |   |   |2  |   |   |   |   |   |  1|  3|
+two little ducks were play [* m:0ing]  |3 1|5  |2 1|   |   |   |   |   |  0| 12|
+    with it .                          |   |   |   |   |   |   |   |   |   |   |
+then the plane fall [* m:03s:a] in the |   |   |2  |   |   |   |   |   |  0|  2|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+the ducks got sad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+they was [* m:vsg:a] upset .           |   |3  |2  |   |   |   |   |   |  0|  5|
+they run to the man .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+the man was mad .                      |   |   |2  |   |   |   |   |   |  1|  3|
+she had a big pole .                   |   |2  |2  |   |   |   |   |   |  1|  5|
+she was saying .                       |   |2  |2 1|   |   |   |   |   |  1|  6|
+and she got the plane .                |   |2  |2  |   |   |3  |   |   |  1|  8|
+she bring [* m:03s:a] it back .        |1  |2 5|2  |   |   |   |   |   |  0| 10|
+the man was happy .                    |   |   |2  |   |   |   |   |   |  1|  3|
+the ducks was [* m:vsg:a] happy .      |   |   |2  |   |   |   |   |   |  0|  2|
+they all play together .               |3  |3  |1  |   |   |   |   |   |  1|  8|
+one day rabbit and dog were best       |3 1|3 3|2 2|2  |4  |3 3|   |7  |  1|113|
+    friends they went to the beach they|3 1|2 2|2 2|   |   |3  |   |   |   |   |
+     built a big sandcastle together   |1 1|2 1|1 2|   |   |   |   |   |   |   |
+    rabbit was holding a bucket and dog|   |1 3|1 2|   |   |   |   |   |   |   |
+     was making shapes with his paws   |   |5 3|2 2|   |   |   |   |   |   |   |
+    dog went boom he dumped the bucket |   |3 5|2 2|   |   |   |   |   |   |   |
+    on the castle it was all gone      |   |3  |1 2|   |   |   |   |   |   |   |
+    rabbit was sad he said why did you |   |   |6 1|   |   |   |   |   |   |   |
+    do that dog said i'm sorry i didn't|   |   |2 1|   |   |   |   |   |   |   |
+     mean to rabbit said it's okay let'|   |   |1 2|   |   |   |   |   |   |   |
+    s fix it together they used their  |   |   |1 2|   |   |   |   |   |   |   |
+    paws to make it better again the   |   |   |1 2|   |   |   |   |   |   |   |
+    sun was shining and they were happy|   |   |   |   |   |   |   |   |   |   |
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+I went to the park with my friend dog  |3  |1 1|2 2|   |   |3  |   |   |  1| 16|
+    and we picked some carrots .       |   |3  |   |   |   |   |   |   |   |   |
+then we sat down and we had a picnic . |   |3 3|2 2|   |   |3  |   |   |  1| 14|
+I ate a lot of carrots .               |   |1  |2  |   |   |   |   |   |  1|  4|
+I ate so much that my tummy hurt [* m: |   |1 1|2 2|   |   |5  |   |   |  0| 11|
+    03s:a] .                           |   |   |   |   |   |   |   |   |   |   |
+I felt sick .                          |   |1  |2  |   |   |   |   |   |  1|  4|
+my mom said I had to go see the doctor |   |1 1|2 2|5 3|   |   |   |   |  1| 17|
+    .                                  |   |   |1 1|   |   |   |   |   |   |   |
+the doctor said I had to rest and she  |   |1 2|2 2|5 3|   |3  |   |   |  1| 23|
+    gave me a special medicine .       |   |1  |1 2|   |   |   |   |   |   |   |
+now I'm sitting on the couch and I feel|   |1 1|1 1|   |   |3  |   |   |  1|  8|
+     better .                          |   |   |   |   |   |   |   |   |   |   |
+my friend and i were playing outside   |   |1 1|2 1|   |   |3 3|   |   |  1| 18|
+    with our dog and our bunny .       |   |3 3|   |   |   |   |   |   |   |   |
+we had a big wagon with a red balloon .|   |3  |2  |   |   |   |   |   |  1|  6|
+the dog was pulling the wagon and the  |   |   |2 1|   |   |3  |   |   |  1| 10|
+    bunny was sitting inside .         |   |   |2 1|   |   |   |   |   |   |   |
+the balloon was tied to the wagon with |   |   |7 2|8  |   |   |   |   |  1| 18|
+    a string .                         |   |   |   |   |   |   |   |   |   |   |
+but the string came undone and the     |   |   |2 2|8  |   |5 3|   |   |  1| 21|
+    balloon went .                     |   |   |   |   |   |   |   |   |   |   |
+i was so sad .                         |   |1  |2  |   |   |5  |   |   |  1|  9|
+TOTAL                                  | 28|119|181| 47|  8| 62|  0|  7| 43|495|
+
+Developmental sentence score:  9.90

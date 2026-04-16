@@ -1,0 +1,71 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep06
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=6
+@Comment:	source_child_id=419
+*CHI:	they had a wagon with a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	rabbit and dog were pulling it .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; F3; Z; C2; C1; A1; B5;
+*CHI:	but the balloon came loose and went up [/] up [/] up in the air .
+%mor:	cconj|but det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adj|loose-S1 cconj|and
+	verb|go-Fin-Ind-Past-S3-irr adp|up adp|in det|the-Def-Art noun|air .
+%xdss:	F5; Z; C2; F3; C2; Z;
+*CHI:	it was gone .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|gone-S1 .
+%xdss:	A1; C2;
+*CHI:	they were sad .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|sad-S1 .
+%xdss:	B3; C2;
+*CHI:	they looked and looked .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 cconj|and
+	verb|look-Fin-Ind-Past-P3 .
+%xdss:	B3; C2; F3; C2;
+*CHI:	then they went to the balloon lady .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|balloon noun|lady .
+%xdss:	B3; C2; Z; Z;
+*CHI:	she had lots of balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	it was expensive .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|expensive-S1 .
+%xdss:	A1; C2;
+*CHI:	the rabbit lady said .
+%mor:	det|the-Def-Art noun|rabbit noun|lady verb|say-Fin-Ind-Past-S3-irr
+	.
+%xdss:	Z; Z; C2;
+*CHI:	and pulled out some money .
+%mor:	cconj|and verb|pull-Fin-Ind-Past-S3 adp|out det|some-Def-Ind
+	noun|money-Acc .
+%xdss:	F3; C2; A3; Z;
+*CHI:	she gave it to the balloon lady .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|to det|the-Def-Art noun|balloon noun|lady .
+%xdss:	B2; C2; A1; B5; Z; Z;
+*CHI:	then they each got a balloon .
+%mor:	adv|then pron|they-Prs-Nom-P3 det|each-Def-Tot
+	verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art noun|balloon-Acc .
+%xdss:	B3; A7; C2; Z;
+*CHI:	they were happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	B3; C2;
+@End

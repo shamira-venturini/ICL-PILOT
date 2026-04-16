@@ -1,0 +1,41 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep03
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=460
+*CHI:	the sign says don't run .
+%mor:	det|the-Def-Art noun|sign verb|say-Fin-Ind-Pres-S3
+	aux|do-Fin-S~part|not verb|run-Fin-Imp-S .
+%xdss:	Z; C2; C4; E4; C1;
+*CHI:	a doggy is running .
+%mor:	det|a-Ind-Art noun|doggy aux|be-Fin-Ind-Pres-S3
+	verb|run-Part-Pres-S .
+%xdss:	Z; C1; C1;
+*CHI:	it's running to the water .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|run-Part-Pres-S
+	adp|to det|the-Def-Art noun|water .
+%xdss:	A1; C1; C1; Z;
+*CHI:	doggy slips and hurts its knee .
+%mor:	noun|doggy verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|hurt-Fin-Ind-Pres-S3 pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; A1; Z;
+*CHI:	a nice man comes with a bandaid .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|man verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	doggy sits down on a bench and rests .
+%mor:	noun|doggy verb|sit-Fin-Ind-Pres-S3 adp|down adp|on det|a-Ind-Art
+	noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@End

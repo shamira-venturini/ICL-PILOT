@@ -1,0 +1,50 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep01
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=459
+*CHI:	once upon a time my dog and my cat were playing near the pool .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|my-Prs-Gen-S1
+	noun|dog cconj|and pron|my-Prs-Gen-S1 noun|cat
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	Z; B1; Z; F3; B1; Z; C2; C1; Z;
+*CHI:	they had a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	the ball fell into the water splash .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|water noun|splash .
+%xdss:	Z; C2; Z; Z;
+*CHI:	my dog went into the pool to get the ball .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|go-Fin-Ind-Past-S3-irr adp|into
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B1; Z; C2; Z; C1; Z;
+*CHI:	he swam and swam and got it .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Past-S3-irr cconj|and
+	verb|swim-Fin-Ind-Past-S3-irr cconj|and verb|get-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; F3; C2; F3; C2; A1; B5;
+*CHI:	then my dog came out and gave it to me .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|dog verb|come-Fin-Ind-Past-S3-irr
+	adp|out cconj|and verb|give-Fin-Ind-Past-S3-irr pron|it-Prs-Acc-S3
+	adp|to pron|I-Prs-Acc-S1 .
+%xdss:	B1; Z; C2; F3; C2; A1; B5; B1;
+*CHI:	now my dog and my cat are happy again .
+%mor:	adv|now pron|my-Prs-Gen-S1 noun|dog cconj|and pron|my-Prs-Gen-S1
+	noun|cat aux|be-Fin-Ind-Pres-P3 adj|happy-S1 adv|again .
+%xdss:	B1; Z; F3; B1; Z; C2;
+@End

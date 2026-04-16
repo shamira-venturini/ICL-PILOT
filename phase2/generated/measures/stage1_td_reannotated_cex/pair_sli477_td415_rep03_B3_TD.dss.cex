@@ -1,0 +1,54 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep03
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=3
+@Comment:	source_child_id=415
+*CHI:	me [* s:r:gc:pro] and my doggy friend go on a fun ride in a wagon
+	with a big red balloon .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend verb|go-Fin-Ind-Pres-P3 adp|on det|a-Ind-Art adj|fun-S1
+	noun|ride adp|in det|a-Ind-Art noun|wagon adp|with det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon .
+%xdss:	B1; F3; B1; Z; C1; Z; Z; Z;
+*CHI:	it's so pretty and it makes me happy .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|pretty-S1
+	cconj|and pron|it-Prs-Nom-S3 verb|make-Fin-Ind-Pres-S3
+	pron|I-Prs-Acc-S1 adj|happy-S1 .
+%xdss:	A1; C1; F5; F3; A1; C2; B1;
+*CHI:	but then the balloon gets loose and it goes away .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|get-Fin-Ind-Pres-S3 adj|loose-S1 cconj|and pron|it-Prs-Nom-S3
+	verb|go-Fin-Ind-Pres-S3 adv|away .
+%xdss:	F5; Z; C2; F3; A1; C2;
+*CHI:	my doggy is sad too .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy aux|be-Fin-Ind-Pres-S3 adj|sad-S1
+	adv|too .
+%xdss:	B1; Z; C1;
+*CHI:	we want a new balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Pres-P1 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	we go to a lady who has lots of balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|a-Ind-Art
+	noun|lady pron|who-Rel verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B3; C1; Z; B6; C2; Z; Z;
+*CHI:	she says .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2;
+*CHI:	oh , you want a balloon ?
+%mor:	intj|oh pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 det|a-Ind-Art
+	noun|balloon-Acc ?
+%xdss:	C1; Z;
+@End

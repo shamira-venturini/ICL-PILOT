@@ -1,0 +1,66 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep05
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=5
+@Comment:	source_child_id=460
+*CHI:	There are two dogs near the pool .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 num|two noun|dog-Plur
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	C1; A3; Z; Z;
+*CHI:	They're playing with a toy airplane .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|play-Part-Pres-S
+	adp|with det|a-Ind-Art noun|toy noun|airplane .
+%xdss:	B3; C1; Z; Z;
+*CHI:	It's so much fun .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adv|much
+	adj|fun-S1 .
+%xdss:	A1; C1; F5;
+*CHI:	Then one of the dogs drops the airplane into the water .
+%mor:	adv|then num|one adp|of det|the-Def-Art noun|dog-Plur
+	verb|drop-Fin-Ind-Pres-S3 det|the-Def-Art noun|airplane-Acc adp|into
+	det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; Z; Z;
+*CHI:	The dog's owner yells .
+%mor:	det|the-Def-Art noun|dog~part|s noun|owner
+	verb|yell-Fin-Ind-Pres-S3 .
+%xdss:	Z; Z; C2;
+*CHI:	Get it out of the water !
+%mor:	verb|get-Fin-Imp-S pron|it-Prs-Acc-S3 adp|out adp|of
+	det|the-Def-Art noun|water !
+%xdss:	C1; A1; B5; Z;
+*CHI:	A lifeguard sees what's happening .
+%mor:	det|a-Ind-Art noun|lifeguard verb|see-Fin-Ind-Pres-S3
+	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 verb|happen-Part-Pres-S .
+%xdss:	Z; C2; D5; B6; C1; C1;
+*CHI:	The lifeguard gets a long pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|get-Fin-Ind-Pres-S3
+	det|a-Ind-Art adj|long-S1 noun|pole-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	The lifeguard uses the pole to pick up the airplane .
+%mor:	det|the-Def-Art noun|lifeguard verb|use-Fin-Ind-Pres-S3
+	det|the-Def-Art noun|pole-Acc part|to verb|pick-Inf-S adp|up
+	det|the-Def-Art noun|airplane-Acc .
+%xdss:	Z; C2; Z; C1; Z;
+*CHI:	The owner is happy .
+%mor:	det|the-Def-Art noun|owner aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+*CHI:	The airplane is back with its owner .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|back
+	adp|with pron|its-Prs-Gen-S3 noun|owner .
+%xdss:	Z; C1; A1; Z;
+*CHI:	The dogs play together again .
+%mor:	det|the-Def-Art noun|dog-Plur verb|play-Fin-Ind-Pres-P3
+	adv|together adv|again .
+%xdss:	Z; C1;
+@End

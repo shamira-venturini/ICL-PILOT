@@ -1,0 +1,59 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep08
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=450
+*CHI:	Me [* s:r:gc:pro] and my doggy went to get some carrots for a
+	picnic .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	verb|go-Fin-Ind-Past-S3-irr part|to verb|get-Inf-S det|some-Def-Ind
+	noun|carrot-Plur-Acc adp|for det|a-Ind-Art noun|picnic .
+%xdss:	B1; F3; B1; Z; C2; D3; C1; A3; Z; F8; Z;
+*CHI:	We picked a lot of carrots and some yummy sandwiches too .
+%mor:	pron|we-Prs-Nom-P1 verb|pick-Fin-Ind-Past-P1 det|a-Ind-Art
+	noun|lot-Acc adp|of noun|carrot-Plur cconj|and det|some-Def-Ind
+	adj|yummy-S1 noun|sandwich-Plur adv|too .
+%xdss:	B3; C2; Z; Z; F3; A3; Z;
+*CHI:	I ate and ate and ate .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr cconj|and
+	verb|eat-Fin-Ind-Past-S1-irr cconj|and verb|eat-Fin-Ind-Past-S1-irr
+	.
+%xdss:	B1; C2; F3; C2; F3; C2;
+*CHI:	Then I felt my tummy hurt .
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Past-S1-irr
+	pron|my-Prs-Gen-S1 noun|tummy-Acc verb|hurt-Fin-Past-S-irr .
+%xdss:	B1; C2; B1; Z; C2;
+*CHI:	I was dizzy and felt sick .
+%mor:	pron|I-Prs-Nom-S1 aux|be-Fin-Ind-Past-S1-irr adj|dizzy-S1 cconj|and
+	verb|feel-Fin-Ind-Past-S1-irr adj|sick-S1 .
+%xdss:	B1; C2; F3; C2;
+*CHI:	My rabbit friend took me to the doctor .
+%mor:	pron|my-Prs-Gen-S1 noun|rabbit noun|friend
+	verb|take-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1 adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	B1; Z; Z; C2; B1; Z;
+*CHI:	The doctor said I ate too much .
+%mor:	det|the-Def-Art noun|doctor verb|say-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1 .
+%xdss:	Z; C2; D5; B1; C2;
+*CHI:	She gave me some medicine and I rested .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr pron|I-Prs-Acc-S1
+	det|some-Def-Ind noun|medicine-Acc cconj|and pron|I-Prs-Nom-S1
+	verb|rest-Fin-Ind-Past-S1 .
+%xdss:	B2; C2; B1; A3; Z; F3; B1; C2;
+*CHI:	Now I feel better .
+%mor:	adv|now pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Pres-S1 adj|good-Cmp-S1
+	.
+%xdss:	B1; C1;
+@End

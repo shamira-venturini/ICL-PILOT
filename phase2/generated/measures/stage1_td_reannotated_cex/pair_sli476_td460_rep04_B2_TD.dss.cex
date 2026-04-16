@@ -1,0 +1,56 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep04
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=460
+*CHI:	Rabbit and dog went on a picnic .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|picnic .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	They had yummy sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3-irr adj|yummy-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	A little rabbit ate too many sandwiches .
+%mor:	det|a-Ind-Art adj|little-S1 noun|rabbit
+	verb|eat-Fin-Ind-Past-S3-irr adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	He felt icky .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|icky-S1 .
+%xdss:	B2; C2;
+*CHI:	He got a tummyache .
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|tummyache-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	He felt dizzy .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr adj|dizzy-S1 .
+%xdss:	B2; C2;
+*CHI:	He went to see the doctor .
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr part|to
+	verb|see-Inf-S det|the-Def-Art noun|doctor-Acc .
+%xdss:	B2; C2; D3; C1; Z;
+*CHI:	He rested on a blanket .
+%mor:	pron|he-Prs-Nom-S3 verb|rest-Fin-Ind-Past-S3 adp|on det|a-Ind-Art
+	noun|blanket .
+%xdss:	B2; C2; Z;
+*CHI:	The little rabbit felt better .
+%mor:	det|the-Def-Art adj|little-S1 noun|rabbit
+	verb|feel-Fin-Ind-Past-S3-irr adj|good-Cmp-S1 .
+%xdss:	Z; C2;
+*CHI:	The rabbit and dog went home .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Past-S3-irr adv|home .
+%xdss:	Z; F3; Z; C2;
+@End

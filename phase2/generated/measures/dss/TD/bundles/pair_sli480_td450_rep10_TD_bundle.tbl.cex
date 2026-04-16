@@ -1,0 +1,78 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:38 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli480_td450_rep10_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Doggy hit the ball in the pool .       |   |   |2  |   |   |   |   |   |  1|  3|
+The ball is in the water .             |   |   |1  |   |   |   |   |   |  1|  2|
+Doggy get [* m:03s:a] in the pool to   |   |   |1 1|   |   |   |   |   |  0|  2|
+    get the ball .                     |   |   |   |   |   |   |   |   |   |   |
+kitty help [* m:03s:a] doggy get the   |   |   |1 1|   |   |   |   |   |  0|  2|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+They bring the ball out .              |   |3  |1  |   |   |   |   |   |  1|  5|
+One day , a monkey and a rabbit went to|3  |   |2  |   |   |3  |   |   |  1|  9|
+     the pool area .                   |   |   |   |   |   |   |   |   |   |   |
+There was a big sign that said .       |1  |   |2 2|   |   |   |   |   |  1|  6|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+but the monkey didn't listen .         |   |   |6 1|   |4  |5  |   |   |  1| 17|
+The monkey started running to the water|   |   |2 1|7 8|   |   |   |   |  1| 19|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The monkey slipped on the ground and   |1  |   |2 2|   |   |3  |   |   |  1|  9|
+    hurt its knee .                    |   |   |   |   |   |   |   |   |   |   |
+A nice lifeguard came and gave the     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    monkey a bandage .                 |   |   |   |   |   |   |   |   |   |   |
+The monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+Two little monkeys like to play near   |3  |   |1 1|3  |   |   |   |   |  1|  9|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+They have a tiny airplane .            |   |3  |1  |   |   |   |   |   |  1|  5|
+It is shiny and red .                  |1  |   |1  |   |   |3  |   |   |  1|  6|
+One monkey drops it into the pool .    |3 1|5  |2  |   |   |   |   |   |  1| 12|
+The other monkey gets very sad .       |3  |   |2  |   |   |   |   |   |  1|  6|
+He says .                              |   |2  |2  |   |   |   |   |   |  1|  5|
+A lifeguard comes to help .            |   |   |2 1|3  |   |   |   |   |  1|  7|
+She has a long stick .                 |   |2  |2  |   |   |   |   |   |  1|  5|
+She uses it to pick up the airplane .  |1  |2 5|2 1|5  |   |   |   |   |  1| 17|
+The monkey is so happy .               |   |   |1  |   |   |5  |   |   |  1|  7|
+He hugs his airplane and the lifeguard |   |2 2|2  |   |   |3  |   |   |  1| 10|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+Everyone is smiling now .              |7  |   |1 1|   |   |   |   |   |  1| 10|
+Rabbit and dog build a castle .        |   |   |1  |   |   |3  |   |   |  1|  5|
+Castle fall [* m:03s:a] down .         |   |   |1  |   |   |   |   |   |  0|  1|
+Rabbit cry [* m:03s:a] .               |   |   |1  |   |   |   |   |   |  0|  1|
+Rabbit and dog hug .                   |   |   |2  |   |   |3  |   |   |  1|  6|
+They build again .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+Benny the rabbit and his dog friend    |   |2  |2  |   |   |3  |   |   |  1|  8|
+    went to the park .                 |   |   |   |   |   |   |   |   |   |   |
+They picked some juicy berries and     |3  |3  |2  |   |   |3  |   |   |  1| 12|
+    yummy sandwiches .                 |   |   |   |   |   |   |   |   |   |   |
+They had a big picnic .                |   |3  |2  |   |   |   |   |   |  1|  6|
+Timmy ate and ate and ate , his tummy  |   |2  |2 2|   |   |3 3|   |   |  1| 17|
+    got too full .                     |   |   |2 2|   |   |   |   |   |   |   |
+Oh no , my tummy hurts !               |   |1  |2  |   |   |   |   |   |  1|  4|
+He felt dizzy and fell down .          |   |2  |2 2|   |   |3  |   |   |  1| 10|
+Benny and doggy ran to get a doctor .  |   |   |2 1|3  |   |3  |   |   |  1| 10|
+Timmy sat on a bench , drank water ,   |   |   |2 2|   |   |3  |   |   |  1| 10|
+    and felt better .                  |   |   |2  |   |   |   |   |   |   |   |
+Benny rabbit and his doggy friend were |   |2  |2 1|   |   |3  |   |   |  1|  9|
+    walking .                          |   |   |   |   |   |   |   |   |   |   |
+They had a red balloon in a wagon .    |   |3  |2  |   |   |   |   |   |  1|  6|
+The wagon was going up and down .      |   |   |2 1|   |   |3  |   |   |  1|  7|
+The balloon got loose .                |   |   |2  |   |   |   |   |   |  1|  3|
+It went .                              |1  |   |2  |   |   |   |   |   |  1|  4|
+Now they had no balloon .              |   |3  |2  |   |   |   |   |   |  1|  6|
+Benny and his doggy friend were sad .  |   |2  |2  |   |   |3  |   |   |  1|  8|
+They wanted a new balloon .            |   |3  |2  |   |   |   |   |   |  1|  6|
+They went to the balloon man .         |   |3  |2  |   |   |   |   |   |  1|  6|
+The balloon man said .                 |   |   |2  |   |   |   |   |   |  1|  3|
+It's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+I'll help you .                        |   |5  |4 1|   |   |   |   |   |  1| 11|
+TOTAL                                  | 29| 63|122| 37|  4| 64|  0|  0| 46|365|
+
+Developmental sentence score:  7.30

@@ -1,0 +1,82 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep04
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=410
+*CHI:	me [* s:r:gc:pro] and my friend dog were pulling a wagon .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|friend noun|dog
+	aux|be-Fin-Ind-Past-P3-irr verb|pull-Part-Pres-S det|a-Ind-Art
+	noun|wagon-Acc .
+%xdss:	B1; F3; B1; Z; Z; C2; C1; Z;
+*CHI:	there was a big red balloon on the wagon .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 adj|red-S1 noun|balloon adp|on det|the-Def-Art noun|wagon
+	.
+%xdss:	C2; Z; Z;
+*CHI:	it was so pretty .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|pretty-S1
+	.
+%xdss:	A1; C2; F5;
+*CHI:	but then the balloon came loose and it went up in the air .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|come-Fin-Ind-Past-S3-irr adj|loose-S1 cconj|and
+	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adp|in
+	det|the-Def-Art noun|air .
+%xdss:	F5; Z; C2; F3; A1; C2; Z;
+*CHI:	it was so sad .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|sad-S1 .
+%xdss:	A1; C2; F5;
+*CHI:	we wanted a new balloon .
+%mor:	pron|we-Prs-Nom-P1 verb|want-Fin-Ind-Past-P1 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	we went to the ice cream man .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|ice noun|cream noun|man .
+%xdss:	B3; C2; Z; Z; Z;
+*CHI:	he had lots of balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Past-S3-irr noun|lot-Plur-Acc
+	adp|of noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	they were all different colors .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|all
+	adj|different-S1 noun|color-Plur .
+%xdss:	B3; C2; Z;
+*CHI:	he said it was two dollars for one .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|it-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr num|two noun|dollar-Plur adp|for num|one
+	.
+%xdss:	B2; C2; A1; C2; A3; Z; F8; A3;
+*CHI:	we don't have two dollars .
+%mor:	pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Pres-P1~part|not verb|have-Inf-S
+	num|two noun|dollar-Plur-Acc .
+%xdss:	B3; E4; C1; A3; Z;
+*CHI:	he said we can get two for three dollars .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr pron|we-Prs-Nom-P1
+	aux|can-Fin-S verb|get-Inf-S num|two adp|for num|three
+	noun|dollar-Plur .
+%xdss:	B2; C2; B3; C4; D2; C1; A3; F8; A3; Z;
+*CHI:	we gave him three dollars .
+%mor:	pron|we-Prs-Nom-P1 verb|give-Fin-Ind-Past-P1-irr pron|he-Prs-Acc-S3
+	num|three noun|dollar-Plur-Acc .
+%xdss:	B3; C2; B2; A3; Z;
+*CHI:	now we have two balloons .
+%mor:	adv|now pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 num|two
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	Me [* s:r:gc:pro] and dog have balloons .
+%mor:	pron|I-Prs-Acc-S1 cconj|and noun|dog verb|have-Fin-Ind-Pres-P1
+	noun|balloon-Plur-Acc .
+%xdss:	B1; F3; Z; C1; Z;
+@End

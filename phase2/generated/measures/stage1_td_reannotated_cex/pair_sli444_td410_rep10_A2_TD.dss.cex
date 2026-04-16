@@ -1,0 +1,39 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep10
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=10
+@Comment:	source_child_id=410
+*CHI:	and there's a sign that says don't run .
+%mor:	cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Pres-S3
+	aux|do-Fin-S~part|not verb|run-Inf-Imp-S .
+%xdss:	F3; Z; A1; C2; C4; E4; C1;
+*CHI:	and the dog starts to run towards the water .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|start-Fin-Ind-Pres-S3
+	part|to verb|run-Inf-S adp|towards det|the-Def-Art noun|water .
+%xdss:	F3; Z; C2; D3; C1; Z;
+*CHI:	and then he slips and hurts his knee .
+%mor:	cconj|and adv|then pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3
+	cconj|and verb|hurt-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3
+	noun|knee-Acc .
+%xdss:	F3; B2; C2; F3; C2; B2; Z;
+*CHI:	and a lifeguard comes with a bandage .
+%mor:	cconj|and det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	F3; Z; C2; Z;
+*CHI:	and the dog sits on a bench and rests .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|sit-Fin-Ind-Pres-S3 adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	F3; Z; C2; Z; F3; C2;
+@End

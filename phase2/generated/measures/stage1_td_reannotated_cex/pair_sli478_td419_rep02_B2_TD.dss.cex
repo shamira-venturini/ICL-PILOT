@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep02
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=419
+*CHI:	the rabbit and dog go on a picnic .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|go-Fin-Ind-Pres-P3 adp|on det|a-Ind-Art noun|picnic .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	they bring carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|bring-Fin-Ind-Pres-P3
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C1; Z; F3; Z;
+*CHI:	the little boy eats too many sandwiches .
+%mor:	det|the-Def-Art adj|little-S1 noun|boy verb|eat-Fin-Ind-Pres-S3
+	adv|too adj|many-S1 noun|sandwich-Plur-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	he feels sick .
+%mor:	pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3 adj|sick-S1 .
+%xdss:	B2; C2;
+*CHI:	he has a tummyache .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art
+	noun|tummyache-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	his mommy takes him to see the doctor .
+%mor:	pron|his-Prs-Gen-S3 noun|mommy verb|take-Fin-Ind-Pres-S3
+	pron|he-Prs-Acc-S3 part|to verb|see-Inf-S det|the-Def-Art
+	noun|doctor-Acc .
+%xdss:	B2; Z; C2; D5; B2; C1; Z;
+*CHI:	the doctor gives him some medicine .
+%mor:	det|the-Def-Art noun|doctor verb|give-Fin-Ind-Pres-S3
+	pron|he-Prs-Acc-S3 det|some-Def-Ind noun|medicine-Acc .
+%xdss:	Z; C2; B2; A3; Z;
+*CHI:	the boy drinks the medicine .
+%mor:	det|the-Def-Art noun|boy verb|drink-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|medicine-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	he lays down and rests .
+%mor:	pron|he-Prs-Nom-S3 verb|lay-Fin-Ind-Pres-S3 adp|down cconj|and
+	verb|rest-Fin-Ind-Pres-S3 .
+%xdss:	B2; C2; F3; C2;
+*CHI:	now he feels better .
+%mor:	adv|now pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Pres-S3
+	adj|good-Cmp-S1 .
+%xdss:	B2; C2;
+*CHI:	the boy is happy .
+%mor:	det|the-Def-Art noun|boy aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	Z; C1;
+@End

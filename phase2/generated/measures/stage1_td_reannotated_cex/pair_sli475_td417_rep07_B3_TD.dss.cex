@@ -1,0 +1,78 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep07
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=7
+@Comment:	source_child_id=417
+*CHI:	there is a rabbit and a dog one day .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|rabbit
+	cconj|and det|a-Ind-Art noun|dog num|one noun|day .
+%xdss:	C2; Z; F3; Z; A3; Z;
+*CHI:	and the dog and the rabbit they were pulling a wagon with a big
+	balloon .
+%mor:	cconj|and det|the-Def-Art noun|dog cconj|and det|the-Def-Art
+	noun|rabbit pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S det|a-Ind-Art noun|wagon-Acc adp|with
+	det|a-Ind-Art adj|big-S1 noun|balloon .
+%xdss:	F3; Z; F3; Z; B3; C2; C1; Z; Z;
+*CHI:	they were pulling it and the balloon was red and it was happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|pull-Part-Pres-S pron|it-Prs-Acc-S3 cconj|and det|the-Def-Art
+	noun|balloon aux|be-Fin-Ind-Past-S3-irr adj|red-S1 cconj|and
+	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	B3; C2; C1; A1; B5; F3; Z; C2; F3; A1; C2;
+*CHI:	but then the balloon it came loose .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon pron|it-Prs-Nom-S3
+	verb|come-Fin-Ind-Past-S3-irr adv|loose .
+%xdss:	F5; Z; A1; C2;
+*CHI:	it just flew away and the dog and the rabbit they were sad .
+%mor:	pron|it-Prs-Nom-S3 adv|just verb|fly-Fin-Ind-Past-S3-irr adv|away
+	cconj|and det|the-Def-Art noun|dog cconj|and det|the-Def-Art
+	noun|rabbit pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	A1; C2; F3; Z; F3; Z; B3; C2;
+*CHI:	they looked everywhere for the balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 adv|everywhere
+	adp|for det|the-Def-Art noun|balloon .
+%xdss:	B3; C2; F8; Z;
+*CHI:	they looked high and low .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 adj|high-S1
+	cconj|and adj|low-S1 .
+%xdss:	B3; C2; F3;
+*CHI:	but it was gone .
+%mor:	cconj|but pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|gone-S1
+	.
+%xdss:	F5; A1; C2;
+*CHI:	then they went to a lady she had a lot of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|a-Ind-Art noun|lady pron|she-Prs-Nom-S3
+	verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|lot-Acc adp|of
+	noun|balloon-Plur .
+%xdss:	B3; C2; Z; B2; C2; Z; Z;
+*CHI:	and the rabbit and the dog they wanted one each .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art
+	noun|dog pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 num|one
+	det|each-Def-Tot .
+%xdss:	F3; Z; F3; Z; B3; C2; A3; A7;
+*CHI:	and the rabbit and the dog they were so happy .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art
+	noun|dog pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr adv|so
+	adj|happy-S1 .
+%xdss:	F3; Z; F3; Z; B3; C2; F5;
+*CHI:	they hugged each other and they had their balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|hugge-Fin-Ind-Past-P3 det|each-Def-Rcp
+	adj|other-S1 cconj|and pron|they-Prs-Nom-P3
+	verb|have-Fin-Ind-Past-P3-irr pron|their-Prs-Gen-P3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C2; A7; A3; F3; B3; C2; B3; Z;
+@End

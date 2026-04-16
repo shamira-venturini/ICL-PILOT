@@ -1,0 +1,75 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;11.06||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli413_td439_rep05
+@Comment:	pair_id=pair_sli413_td439
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=5
+@Comment:	source_child_id=439
+*CHI:	There were two friends , a kitty and a bear .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-P3-irr num|two
+	noun|friend-Plur det|a-Ind-Art noun|kitty cconj|and det|a-Ind-Art
+	noun|bear .
+%xdss:	C2; A3; Z; Z; F3; Z;
+*CHI:	They were playing near a pool and a little airplane .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S adp|near det|a-Ind-Art noun|pool cconj|and
+	det|a-Ind-Art adj|little-S1 noun|airplane .
+%xdss:	B3; C2; C1; Z; F3; Z;
+*CHI:	The kitty and the bear were playing .
+%mor:	det|the-Def-Art noun|kitty cconj|and det|the-Def-Art noun|bear
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S .
+%xdss:	Z; F3; Z; C2; C1;
+*CHI:	The airplane fell into the pool .
+%mor:	det|the-Def-Art noun|airplane verb|fall-Fin-Ind-Past-S3-irr
+	adp|into det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	The kitty and the bear cried .
+%mor:	det|the-Def-Art noun|kitty cconj|and det|the-Def-Art noun|bear
+	verb|cry-Fin-Ind-Past-S3 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	Their mom was mad .
+%mor:	pron|their-Prs-Gen-P3 noun|mom aux|be-Fin-Ind-Past-S3-irr
+	adj|mad-S1 .
+%xdss:	B3; Z; C2;
+*CHI:	Then a nice lifeguard came with a big net .
+%mor:	adv|then det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art adj|big-S1
+	noun|net .
+%xdss:	Z; C2; Z;
+*CHI:	Don't worry , I'll get it !
+%mor:	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|get-Inf-S pron|it-Prs-Acc-S3 !
+%xdss:	C4; E4; G6; C1; D5; C4; C1; A1; B5;
+*CHI:	she said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	She scooped the airplane out of the water .
+%mor:	pron|she-Prs-Nom-S3 verb|scoop-Fin-Ind-Past-S3 det|the-Def-Art
+	noun|airplane-Acc adp|out adp|of det|the-Def-Art noun|water .
+%xdss:	B2; C2; Z; Z;
+*CHI:	The kitty and the bear were so happy .
+%mor:	det|the-Def-Art noun|kitty cconj|and det|the-Def-Art noun|bear
+	aux|be-Fin-Ind-Past-P3-irr adv|so adj|happy-S1 .
+%xdss:	Z; F3; Z; C2; F5;
+*CHI:	They hugged their mom and said .
+%mor:	pron|they-Prs-Nom-P3 verb|hugge-Fin-Ind-Past-P3
+	pron|their-Prs-Gen-P3 noun|mom-Acc cconj|and
+	verb|say-Fin-Ind-Past-P3-irr .
+%xdss:	B3; C2; B3; Z; F3; C2;
+*CHI:	Thank you !
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 !
+%xdss:	C1; B5;
+*CHI:	They played with the airplane again .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Past-P3 adp|with
+	det|the-Def-Art noun|airplane adv|again .
+%xdss:	B3; C2; Z;
+@End

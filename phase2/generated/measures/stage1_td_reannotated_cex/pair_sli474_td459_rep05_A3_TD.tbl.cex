@@ -1,0 +1,32 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:17 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep05_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+there was a kitty and a doggy they were|   |3  |2 2|   |   |3  |   |   |  0| 11|
+     playing with a [* m:allo] airplane|   |   |1  |   |   |   |   |   |   |   |
+     by the pool .                     |   |   |   |   |   |   |   |   |   |   |
+they were making a big splash and      |   |3  |2 1|   |   |3  |   |   |  1| 11|
+    having fun .                       |   |   |1  |   |   |   |   |   |   |   |
+then the kitty picked up the airplane  |1  |5  |2 2|   |   |3  |   |   |  1| 14|
+    and dropped it in the pool .       |   |   |   |   |   |   |   |   |   |   |
+the doggy got mad at the kitty .       |   |   |2  |   |   |   |   |   |  1|  3|
+the kitty said sorry .                 |   |   |2  |   |   |   |   |   |  1|  3|
+the doggy said its okay but you have to|1 1|5  |2 1|3  |   |5  |   |   |  1| 20|
+     get it back .                     |   |   |1  |   |   |   |   |   |   |   |
+a man with a pole came and got the     |   |   |2 2|   |   |3  |   |   |  1|  8|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+then the airplane was back with the    |   |   |2  |   |   |3  |   |   |  1|  6|
+    kitty and doggy .                  |   |   |   |   |   |   |   |   |   |   |
+they all hugged and were happy again . |3  |3  |2 2|   |   |3  |   |   |  1| 14|
+TOTAL                                  |  6| 19| 31|  3|  0| 23|  0|  0|  8| 90|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 10.00

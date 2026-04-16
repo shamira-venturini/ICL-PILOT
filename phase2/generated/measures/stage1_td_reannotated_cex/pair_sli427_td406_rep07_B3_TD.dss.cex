@@ -1,0 +1,84 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep07
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=406
+*CHI:	One day rabbit and doggy go for a ride in a wagon .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|doggy
+	verb|go-Fin-Ind-Pres-S adp|for det|a-Ind-Art noun|ride adp|in
+	det|a-Ind-Art noun|wagon .
+%xdss:	A3; Z; Z; F3; Z; C1; F8; Z; Z;
+*CHI:	They got a pretty balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|pretty-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	It was red .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adj|red-S1 .
+%xdss:	A1; C2;
+*CHI:	They pull it with a string .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3
+	adp|with det|a-Ind-Art noun|string-Ger .
+%xdss:	B3; C1; A1; B5; Z; D8;
+*CHI:	but then the balloon get [* m:03s:a] loose .
+%mor:	cconj|but adv|then det|the-Def-Art noun|balloon
+	verb|get-Fin-Ind-Pres-S3 adj|loose-S1 .
+%xdss:	F5; Z; C2;
+*CHI:	It went up high in the air .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adv|high
+	adp|in det|the-Def-Art noun|air .
+%xdss:	A1; C2; Z;
+*CHI:	It popped .
+%mor:	pron|it-Prs-Nom-S3 verb|pop-Fin-Ind-Past-S3 .
+%xdss:	A1; C2;
+*CHI:	They want a new balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|a-Ind-Art
+	adj|new-S1 noun|balloon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	They go to grandma's house .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to
+	noun|grandma~part|s noun|house .
+%xdss:	B3; C1; Z; Z;
+*CHI:	Grandma has balloons .
+%mor:	propn|Grandma verb|have-Fin-Ind-Pres-S3 noun|balloon-Plur-Acc .
+%xdss:	C2; Z;
+*CHI:	She has lots of colorful balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc
+	adp|of adj|colorful-S1 noun|balloon-Plur .
+%xdss:	B2; C2; Z; Z;
+*CHI:	They cost a little bit of money .
+%mor:	pron|they-Prs-Nom-P3 verb|cost-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|little-S1 noun|bit-Acc adp|of noun|money .
+%xdss:	B3; C2; Z; Z;
+*CHI:	Rabbit and doggy don't have enough money .
+%mor:	noun|rabbit cconj|and noun|doggy aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S adj|enough-S1 noun|money-Acc .
+%xdss:	Z; F3; Z; E4; C1; Z;
+*CHI:	She help [* m:03s:a] them get balloons .
+%mor:	pron|she-Prs-Nom-S3 verb|help-Fin-Ind-S pron|they-Prs-Acc-P3
+	verb|get-Inf-S noun|balloon-Plur-Acc .
+%xdss:	B2; C1; D5; B3; C1; Z;
+*CHI:	They get two balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 num|two
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C1; A3; Z;
+*CHI:	One is pink and one is yellow .
+%mor:	num|one aux|be-Fin-Ind-Pres-S3 adj|pink-S1 cconj|and num|one
+	aux|be-Fin-Ind-Pres-S3 adj|yellow-S1 .
+%xdss:	A3; C1; F3; A3; C1;
+*CHI:	They blow up the balloons and run around .
+%mor:	pron|they-Prs-Nom-P3 verb|blow-Fin-Ind-Pres-P3 adp|up
+	det|the-Def-Art noun|balloon-Plur-Acc cconj|and
+	verb|run-Fin-Ind-Pres-P3 adv|around .
+%xdss:	B3; C1; Z; F3; C1;
+@End

@@ -1,0 +1,17 @@
+{
+  "rows": 15,
+  "successful_models": 11,
+  "failed_models": 4,
+  "outcomes": [
+    "MLU_Morphemes",
+    "VOCD_D_optimum_average",
+    "DSS_tbl_score",
+    "DSS_tbl_MV",
+    "past_overgeneralization_errors_per_past_opp"
+  ],
+  "model_specs": [
+    "age_only",
+    "age_plus_severity_core",
+    "age_plus_severity_band"
+  ]
+}

@@ -1,0 +1,83 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep10
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=10
+@Comment:	source_child_id=460
+*CHI:	Rabbit and dog are playing .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S .
+%xdss:	Z; F3; Z; C2; C1;
+*CHI:	they're pulling a wagon .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|pull-Part-Pres-S
+	det|a-Ind-Art noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	they got a big balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr det|a-Ind-Art
+	adj|big-S1 noun|balloon-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	it's red .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|red-S1 .
+%xdss:	A1; C1;
+*CHI:	the balloon is tied to the wagon .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3
+	verb|tie-Part-Past-S adp|to det|the-Def-Art noun|wagon .
+%xdss:	Z; C7; C2; Z;
+*CHI:	but then it comes loose .
+%mor:	cconj|but adv|then pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3
+	adj|loose-S1 .
+%xdss:	F5; A1; C2;
+*CHI:	the balloon is flying away .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3
+	verb|fly-Part-Pres-S adv|away .
+%xdss:	Z; C1; C1;
+*CHI:	rabbit and dog are sad .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; F3; Z; C2;
+*CHI:	they want the balloon back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 det|the-Def-Art
+	noun|balloon-Acc adv|back .
+%xdss:	B3; C1; Z;
+*CHI:	they ask grandma .
+%mor:	pron|they-Prs-Nom-P3 verb|ask-Fin-Ind-Pres-P3 noun|grandma-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	grandma has lots of balloons .
+%mor:	noun|grandma verb|have-Fin-Ind-Pres-S3 noun|lot-Plur-Acc adp|of
+	noun|balloon-Plur .
+%xdss:	Z; C2; Z; Z;
+*CHI:	she says it's five dollars .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 num|five noun|dollar-Plur
+	.
+%xdss:	B2; C2; A1; C1; A3; Z;
+*CHI:	rabbit and dog don't have five dollars .
+%mor:	noun|rabbit cconj|and noun|dog aux|do-Fin-Ind-Pres-P3~part|not
+	verb|have-Inf-S num|five noun|dollar-Plur-Acc .
+%xdss:	Z; F3; Z; E4; C1; A3; Z;
+*CHI:	their mom gives them money .
+%mor:	pron|their-Prs-Gen-P3 noun|mom verb|give-Fin-Ind-Pres-S3
+	pron|they-Prs-Acc-P3 noun|money-Acc .
+%xdss:	B3; Z; C2; B3; Z;
+*CHI:	they go back to grandma .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adv|back adp|to
+	noun|grandma .
+%xdss:	B3; C1; Z;
+*CHI:	grandma gives them two balloons .
+%mor:	noun|grandma verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3 num|two
+	noun|balloon-Plur-Acc .
+%xdss:	Z; C2; B3; A3; Z;
+*CHI:	rabbit and dog are happy .
+%mor:	noun|rabbit cconj|and noun|dog aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	.
+%xdss:	Z; F3; Z; C2;
+@End

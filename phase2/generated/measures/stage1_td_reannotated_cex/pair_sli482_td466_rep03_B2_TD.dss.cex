@@ -1,0 +1,65 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep03
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=466
+*CHI:	We went to the park with bunny and doggie .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|park adp|with noun|bunny cconj|and noun|doggie
+	.
+%xdss:	B3; C2; Z; Z; F3; Z;
+*CHI:	bunny picked carrots and doggie picked sandwiches .
+%mor:	noun|bunny verb|pick-Part-Past-S noun|carrot-Plur cconj|and
+	noun|doggie verb|pick-Part-Past-S noun|sandwich-Plur .
+%xdss:	Z; D4; C2; Z; F3; Z; D4; C2; Z;
+*CHI:	we ate lots of food .
+%mor:	pron|we-Prs-Nom-P1 verb|eat-Fin-Ind-Past-P1-irr noun|lot-Plur-Acc
+	adp|of noun|food .
+%xdss:	B3; C2; Z; Z;
+*CHI:	i ate too much .
+%mor:	pron|I-Prs-Nom-S1 verb|eat-Fin-Ind-Past-S1-irr adv|too adj|much-S1
+	.
+%xdss:	B1; C2;
+*CHI:	then i felt icky .
+%mor:	adv|then pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Past-S1-irr
+	adj|icky-S1 .
+%xdss:	B1; C2;
+*CHI:	my tummy hurt .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B1; Z; C2;
+*CHI:	bunny and doggie said don't worry i feel sick .
+%mor:	noun|bunny cconj|and noun|doggie verb|say-Fin-Ind-Past-S3-irr
+	aux|do-Fin-Imp-S~part|not verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1
+	verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	Z; F3; Z; C2; C4; E4; C1; D5; B1; C1;
+*CHI:	we went to the doctor .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	B3; C2; Z;
+*CHI:	doctor said you ate too much .
+%mor:	noun|doctor verb|say-Fin-Ind-Past-S3-irr pron|you-Prs-Nom-S2
+	verb|eat-Fin-Ind-Past-S2-irr adv|too adj|much-S1 .
+%xdss:	Z; C2; D5; C2;
+*CHI:	i sat on the blanket .
+%mor:	pron|I-Prs-Nom-S1 verb|sit-Fin-Ind-Past-S1-irr adp|on
+	det|the-Def-Art noun|blanket .
+%xdss:	B1; C2; Z;
+*CHI:	bunny and doggie sat with me .
+%mor:	noun|bunny cconj|and noun|doggie verb|sit-Fin-Ind-Past-S3-irr
+	adp|with pron|I-Prs-Acc-S1 .
+%xdss:	Z; F3; Z; C2; B1;
+*CHI:	i felt better .
+%mor:	pron|I-Prs-Nom-S1 verb|feel-Fin-Ind-Past-S1-irr adj|good-Cmp-S1 .
+%xdss:	B1; C2;
+@End

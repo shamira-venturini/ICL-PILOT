@@ -1,0 +1,33 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep03
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=3
+@Comment:	source_child_id=471
+*CHI:	Kiki the kitten and her friend , a little rabbit , went to the pool
+	.
+%mor:	propn|Kiki det|the-Def-Art noun|kitten cconj|and
+	pron|her-Prs-Gen-S3 noun|friend det|a-Ind-Art adj|little-S1
+	noun|rabbit verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	Z; F3; B2; Z; Z; C2; Z;
+*CHI:	A nice lifeguard came with a special sticky bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art adj|special-S1
+	adj|sticky-S1 noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	Kiki sat down on a bench and rested .
+%mor:	propn|Kiki verb|sit-Fin-Ind-Past-S3-irr adp|down adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	C2; Z; F3; C2;
+@End

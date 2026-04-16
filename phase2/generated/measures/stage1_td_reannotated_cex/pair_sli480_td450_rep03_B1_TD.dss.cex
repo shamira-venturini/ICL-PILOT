@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep03
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=3
+@Comment:	source_child_id=450
+*CHI:	the rabbit and dog built a sandcastle together .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|build-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|sandcastle-Acc
+	adv|together .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	the rabbit had a big bucket and was pouring sand on the dog's part
+	.
+%mor:	det|the-Def-Art noun|rabbit verb|have-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art adj|big-S1 noun|bucket-Acc cconj|and
+	aux|be-Fin-Ind-Past-S3-irr verb|pour-Part-Pres-S noun|sand-Acc
+	adp|on det|the-Def-Art noun|dog~part|s noun|part .
+%xdss:	Z; C2; Z; F3; C2; C1; Z; Z; Z;
+*CHI:	the dog was using a shovel to make a big moat .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|use-Part-Pres-S det|a-Ind-Art noun|shovel-Acc part|to
+	verb|make-Inf-S det|a-Ind-Art adj|big-S1 noun|moat-Acc .
+%xdss:	Z; C2; C1; Z; C1; Z;
+*CHI:	then the dog dumped the bucket and all the sand went in the moat .
+%mor:	adv|then det|the-Def-Art noun|dog verb|dump-Fin-Ind-Past-S3
+	det|the-Def-Art noun|bucket-Acc cconj|and det|all-Def-Tot
+	det|the-Def-Art noun|sand verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|moat .
+%xdss:	Z; C2; Z; F3; A3; Z; C2; Z;
+*CHI:	the castle fell down .
+%mor:	det|the-Def-Art noun|castle verb|fall-Fin-Ind-Past-S3-irr adv|down
+	.
+%xdss:	Z; C2;
+*CHI:	the rabbit was sad .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	he said oh no !
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr intj|oh intj|no !
+%xdss:	B2; C2;
+*CHI:	the rabbit and dog hugged each other .
+%mor:	det|the-Def-Art noun|rabbit cconj|and noun|dog
+	verb|hugge-Fin-Ind-Past-S3 det|each-Def-Rcp adj|other-S1 .
+%xdss:	Z; F3; Z; C2; A7; A3;
+*CHI:	they picked up the sand and made the castle again .
+%mor:	pron|they-Prs-Nom-P3 verb|pick-Fin-Ind-Past-P3 adp|up
+	det|the-Def-Art noun|sand-Acc cconj|and
+	verb|make-Fin-Ind-Past-P3-irr det|the-Def-Art noun|castle-Acc
+	adv|again .
+%xdss:	B3; C2; Z; F3; C2; Z;
+@End

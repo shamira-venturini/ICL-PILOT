@@ -1,0 +1,64 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep09
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=415
+*CHI:	there is a dog and a rabbit build [* m:0ing] a castle in the sand .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dog
+	cconj|and det|a-Ind-Art noun|rabbit verb|build-Inf-S det|a-Ind-Art
+	noun|castle-Acc adp|in det|the-Def-Art noun|sand .
+%xdss:	C2; Z; F3; Z; C1; Z; Z;
+*CHI:	and the rabbit is very happy .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	adv|very adj|happy-S1 .
+%xdss:	F3; Z; C1;
+*CHI:	and the dog is very happy too .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3 adv|very
+	adj|happy-S1 adv|too .
+%xdss:	F3; Z; C1;
+*CHI:	and the dog have [* m:vun:a] a bucket .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|have-Fin-Ind-Pres-P3
+	det|a-Ind-Art noun|bucket-Acc .
+%xdss:	F3; Z; C1; Z;
+*CHI:	and the dog is go [* m:0ing] to pour sand in the castle .
+%mor:	cconj|and det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|go-Inf-S part|to verb|pour-Inf-S noun|sand-Acc adp|in
+	det|the-Def-Art noun|castle .
+%xdss:	F3; Z; C1; C1; D3; C1; Z; Z;
+*CHI:	and the dog pour [* m:03s:a] the sand in the bucket .
+%mor:	cconj|and det|the-Def-Art noun|dog verb|pour-Fin-Ind-S
+	det|the-Def-Art noun|sand-Acc adp|in det|the-Def-Art noun|bucket .
+%xdss:	F3; Z; C1; Z; Z;
+*CHI:	and the bucket fall [* m:03s:a] down .
+%mor:	cconj|and det|the-Def-Art noun|bucket verb|fall-Fin-Ind-Pres-S3
+	adv|down .
+%xdss:	F3; Z; C2;
+*CHI:	and the sand castle is broke [* m:sub:en] .
+%mor:	cconj|and det|the-Def-Art noun|sand noun|castle
+	aux|be-Fin-Ind-Pres-S3 adj|broke-S1 .
+%xdss:	F3; Z; Z; C1;
+*CHI:	and the rabbit say [* m:03s:a] oh no my castle .
+%mor:	cconj|and det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Pres-S3
+	intj|oh intj|no pron|my-Prs-Gen-S1 noun|castle-Acc .
+%xdss:	F3; Z; C2; B1; Z;
+*CHI:	and the rabbit and the dog is go [* m:0ing] to fix the castle .
+%mor:	cconj|and det|the-Def-Art noun|rabbit cconj|and det|the-Def-Art
+	noun|dog aux|be-Fin-Ind-Pres-S3 verb|go-Inf-S part|to verb|fix-Inf-S
+	det|the-Def-Art noun|castle-Acc .
+%xdss:	F3; Z; F3; Z; C1; C1; D3; C1; Z;
+*CHI:	and the rabbit is say [* m:03s:a] sorry .
+%mor:	cconj|and det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|say-Inf-S adj|sorry-S1 .
+%xdss:	F3; Z; C1; C1;
+@End

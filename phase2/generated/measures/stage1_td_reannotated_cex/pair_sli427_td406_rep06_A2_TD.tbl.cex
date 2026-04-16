@@ -1,0 +1,31 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep06_A2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day I went to the pool .           |3  |1  |2  |   |   |   |   |   |  1|  7|
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+My friend was there and she said .     |   |1 2|2 2|   |   |3  |   |   |  1| 11|
+look , no running .                    |   |   |1  |8  |   |   |   |   |  1| 10|
+But I wanted to run to the water .     |   |1  |2 1|3  |   |5  |   |   |  1| 13|
+I started to run but I slipped on the  |   |1 1|2 1|3  |   |5 3|   |   |  1| 22|
+    ground and hurt my knee .          |   |1  |2 2|   |   |   |   |   |   |   |
+Then a lifeguard came with a bandage . |   |   |2  |   |   |   |   |   |  1|  3|
+She said .                             |   |2  |2  |   |   |   |   |   |  1|  5|
+sit down , it's okay .                 |1  |   |1 1|   |   |   |   |   |  1|  4|
+I sat down on a bench and rested my    |   |1 1|2 2|   |   |3  |   |   |  1| 10|
+    knee .                             |   |   |   |   |   |   |   |   |   |   |
+It hurt [* m:03s:a] , but the bandage  |1  |1  |2 2|5  |   |5  |   |   |  0| 17|
+    made me feel a little better .     |   |   |1  |   |   |   |   |   |   |   |
+TOTAL                                  |  6| 13| 36| 27|  0| 24|  0|  0| 11|117|
+WARNING: DSS requires 50 complete sentences and this transcript only has 12.
+
+Developmental sentence score:  9.75

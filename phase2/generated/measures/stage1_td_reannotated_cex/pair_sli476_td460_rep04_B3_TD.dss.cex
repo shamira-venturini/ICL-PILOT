@@ -1,0 +1,78 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.23||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli476_td460_rep04
+@Comment:	pair_id=pair_sli476_td460
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=4
+@Comment:	source_child_id=460
+*CHI:	They're going to the park .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S
+	adp|to det|the-Def-Art noun|park .
+%xdss:	B3; C1; Z;
+*CHI:	They're going to ride .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|go-Part-Pres-S
+	part|to verb|ride-Inf-S .
+%xdss:	B3; C1; D2; C1;
+*CHI:	They're riding in a wagon .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|ride-Part-Pres-S
+	adp|in det|a-Ind-Art noun|wagon .
+%xdss:	B3; C1; Z;
+*CHI:	The balloon is red .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 adj|red-S1 .
+%xdss:	Z; C1;
+*CHI:	The rabbit is holding it .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Pres-S3
+	verb|hold-Part-Pres-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; C1; A1; B5;
+*CHI:	The dog is pulling the wagon .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Pres-S3
+	verb|pull-Part-Pres-S det|the-Def-Art noun|wagon-Acc .
+%xdss:	Z; C1; C1; Z;
+*CHI:	The balloon is loose .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 adj|loose-S1 .
+%xdss:	Z; C1;
+*CHI:	It's floating away !
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|float-Part-Pres-S
+	adv|away !
+%xdss:	A1; C1; C1;
+*CHI:	They're looking everywhere .
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|look-Part-Pres-S
+	adv|everywhere .
+%xdss:	B3; C1;
+*CHI:	They see a man .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|man-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	He has balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|balloon-Plur-Acc
+	.
+%xdss:	B2; C2; Z;
+*CHI:	They want to buy some .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 part|to
+	verb|buy-Inf-S det|some-Def-Ind .
+%xdss:	B3; C1; D3; C1; A3;
+*CHI:	but it's too expensive .
+%mor:	cconj|but pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|too
+	adj|expensive-S1 .
+%xdss:	F5; A1; C1;
+*CHI:	The man says .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3 .
+%xdss:	Z; C2;
+*CHI:	I can help you .
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|help-Inf-S pron|you-Prs-Acc-S2
+	.
+%xdss:	B1; C4; D2; C1; B5;
+*CHI:	He gives them two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|give-Fin-Ind-Pres-S3 pron|they-Prs-Acc-P3
+	num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; A3; Z;
+@End

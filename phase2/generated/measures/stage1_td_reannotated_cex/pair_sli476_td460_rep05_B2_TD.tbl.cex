@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:22 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they're [/] they're eating they're     |   |3 3|1 1|5 5|   |3  |   |   |  1| 26|
+    eating they're eating sandwiches   |   |3  |1  |   |   |   |   |   |   |   |
+    and carrots .                      |   |   |   |   |   |   |   |   |   |   |
+the rabbit she's eating too .          |   |2  |1 1|   |   |   |   |   |  1|  5|
+the dog he's eating too .              |   |2  |1 1|   |   |   |   |   |  1|  5|
+she ate too many carrots .             |   |2  |2  |   |   |   |   |   |  1|  5|
+she's got a tummyache .                |   |2  |7 2|   |   |   |   |   |  1| 12|
+she's feeling sick .                   |   |2  |1 1|   |   |   |   |   |  1|  5|
+the doctor is here now .               |   |   |1  |   |   |   |   |   |  1|  2|
+the doctor says take some rest .       |3  |   |2 1|   |   |   |   |   |  1|  7|
+she's lying down .                     |   |2  |1 1|   |   |   |   |   |  1|  5|
+she's sleeping .                       |   |2  |1 1|   |   |   |   |   |  1|  5|
+TOTAL                                  |  3| 23| 28| 10|  0|  3|  0|  0| 10| 77|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.70

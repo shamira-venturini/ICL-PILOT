@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep09
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=459
+*CHI:	one day rabbit and dog they wanted to build a sandcastle .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 part|to
+	verb|build-Inf-S det|a-Ind-Art noun|sandcastle-Acc .
+%xdss:	A3; Z; Z; F3; Z; B3; C2; D3; C1; Z;
+*CHI:	they worked together and the sandcastle looked super nice .
+%mor:	pron|they-Prs-Nom-P3 verb|work-Fin-Ind-Past-P3 adv|together
+	cconj|and det|the-Def-Art noun|sandcastle verb|look-Fin-Ind-Past-S3
+	adv|super adj|nice-S1 .
+%xdss:	B3; C2; F3; Z; C2;
+*CHI:	then the dog he took a big bucket and poured sand all over the
+	castle .
+%mor:	adv|then det|the-Def-Art noun|dog pron|he-Prs-Nom-S3
+	verb|take-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	noun|bucket-Acc cconj|and verb|pour-Fin-Ind-Past-S3 noun|sand-Acc
+	adv|all adp|over det|the-Def-Art noun|castle .
+%xdss:	Z; B2; C2; Z; F3; C2; Z; Z;
+*CHI:	oh no it's all ruined .
+%mor:	intj|oh intj|no pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all
+	verb|ruin-Part-Past-S .
+%xdss:	A1; C1; C2;
+*CHI:	the rabbit was crying .
+%mor:	det|the-Def-Art noun|rabbit aux|be-Fin-Ind-Past-S3-irr
+	verb|cry-Part-Pres-S .
+%xdss:	Z; C2; C1;
+*CHI:	the dog was saying sorry .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|say-Part-Pres-S adj|sorry-S1 .
+%xdss:	Z; C2; C1;
+*CHI:	they started to build it again .
+%mor:	pron|they-Prs-Nom-P3 verb|start-Fin-Ind-Past-P3 part|to
+	verb|build-Inf-S pron|it-Prs-Acc-S3 adv|again .
+%xdss:	B3; C2; D3; C1; A1; B5;
+*CHI:	the rabbit said its okay .
+%mor:	det|the-Def-Art noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|its-Prs-Gen-S3 adj|okay-S1 .
+%xdss:	Z; C2; A1;
+*CHI:	they built it even better .
+%mor:	pron|they-Prs-Nom-P3 verb|build-Fin-Ind-Past-P3-irr
+	pron|it-Prs-Acc-S3 adv|even adj|good-Cmp-S1 .
+%xdss:	B3; C2; A1; B5;
+@End

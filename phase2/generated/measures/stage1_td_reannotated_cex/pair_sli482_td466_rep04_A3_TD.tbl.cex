@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep04_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+one guy is flying a plane in the pool .|3  |   |1 1|   |   |   |   |   |  1|  6|
+then it fell in the water .            |1  |   |2  |   |   |   |   |   |  1|  4|
+he's crying .                          |   |2  |1 1|   |   |   |   |   |  1|  5|
+his mom went .                         |   |2  |2  |   |   |   |   |   |  1|  5|
+no don't cry , we will get it back .   |1  |3 5|4 1|2  |4  |   |   |   |  1| 26|
+                                       |   |   |4 1|   |   |   |   |   |   |   |
+then the lifeguard came and said .     |   |   |2 2|   |   |3  |   |   |  1|  8|
+i can get it with my big pole .        |1  |1 5|4 1|2  |   |   |   |   |  1| 16|
+                                       |   |1  |   |   |   |   |   |   |   |   |
+the lifeguard got the plane .          |   |   |2  |   |   |   |   |   |  1|  3|
+he gave it to the little guy and he was|1  |2 5|2 2|   |   |3  |   |   |  1| 18|
+     happy .                           |   |2  |   |   |   |   |   |   |   |   |
+TOTAL                                  |  7| 28| 33|  4|  4|  6|  0|  0|  9| 91|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score: 10.11

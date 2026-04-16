@@ -1,0 +1,43 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep02
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=B2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=410
+*CHI:	Rabbit and dog went on a picnic .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|picnic .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	They got sandwiches and berries .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr
+	noun|sandwich-Plur-Acc cconj|and noun|berries-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	They sat down .
+%mor:	pron|they-Prs-Nom-P3 verb|sit-Fin-Ind-Past-P3-irr adp|down .
+%xdss:	B3; C2;
+*CHI:	One of them ate a lot .
+%mor:	num|one adp|of pron|they-Prs-Acc-P3 verb|eat-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|lot-Acc .
+%xdss:	A3; B3; C2; Z;
+*CHI:	Then , he felt sick .
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|feel-Fin-Ind-Past-S3-irr
+	adj|sick-S1 .
+%xdss:	B2; C2;
+*CHI:	His tummy hurt [* m:03s:a] .
+%mor:	pron|his-Prs-Gen-S3 noun|tummy verb|hurt-Fin-Ind-Past-S3-irr .
+%xdss:	B2; Z; C2;
+*CHI:	They went to the doctor .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|doctor .
+%xdss:	B3; C2; Z;
+@End

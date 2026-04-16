@@ -1,0 +1,39 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep01
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=415
+*CHI:	airplane go (g)way .
+%mor:	noun|airplane verb|go-Fin-Imp-S adv|gway .
+%xdss:	Z; C1;
+*CHI:	then it go [* m:03s:a] in the pool .
+%mor:	adv|then pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	A1; C2; Z;
+*CHI:	mommy get [* m:03s:a] mad .
+%mor:	noun|mommy verb|get-Fin-Imp-S adj|mad-S1 .
+%xdss:	Z; C1;
+*CHI:	then mommy get [* m:03s:a] a pole .
+%mor:	adv|then noun|mommy verb|get-Fin-Ind-Pres-S det|a-Ind-Art
+	noun|pole-Acc .
+%xdss:	Z; C1; Z;
+*CHI:	mommy get [* m:03s:a] the airplane with the pole .
+%mor:	noun|mommy verb|get-Fin-Imp-S det|the-Def-Art noun|airplane-Acc
+	adp|with det|the-Def-Art noun|pole .
+%xdss:	Z; C1; Z; Z;
+*CHI:	then mommy put airplane in my hands .
+%mor:	adv|then noun|mommy verb|put-Fin-Ind-Past-S3-irr noun|airplane-Acc
+	adp|in pron|my-Prs-Gen-S1 noun|hand-Plur .
+%xdss:	Z; C2; Z; B1; Z;
+@End

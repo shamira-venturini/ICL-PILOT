@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep08
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=8
+@Comment:	source_child_id=406
+*CHI:	one day rabbit and dog were best friends they went to the beach
+	they built a big sandcastle together rabbit was holding a bucket and
+	dog was making shapes with his paws dog went boom he dumped the
+	bucket on the castle it was all gone rabbit was sad he said why did
+	you do that dog said i'm sorry i didn't mean to rabbit said it's
+	okay let's fix it together they used their paws to make it better
+	again the sun was shining and they were happy .
+%mor:	num|one noun|day noun|rabbit cconj|and noun|dog
+	aux|be-Fin-Ind-Past-P3-irr adj|good-Sup-S1 noun|friend-Plur
+	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|beach pron|they-Prs-Nom-P3
+	verb|build-Fin-Ind-Past-P3-irr det|a-Ind-Art adj|big-S1
+	noun|sandcastle-Acc adv|together noun|rabbit-Acc
+	aux|be-Fin-Ind-Past-S3-irr verb|hold-Part-Pres-S det|a-Ind-Art
+	noun|bucket-Acc cconj|and noun|dog aux|be-Fin-Ind-Past-S3-irr
+	verb|make-Part-Pres-S noun|shape-Plur-Acc adp|with
+	pron|his-Prs-Gen-S3 noun|paw-Plur noun|dog
+	verb|go-Fin-Ind-Past-S3-irr noun|boom-Acc pron|he-Prs-Nom-S3
+	verb|dump-Fin-Ind-Past-S3 det|the-Def-Art noun|bucket-Acc adp|on
+	det|the-Def-Art noun|castle pron|it-Prs-Nom-S3
+	aux|be-Fin-Ind-Past-S3-irr det|all-Def-Tot adj|gone-S1 noun|rabbit
+	aux|be-Fin-Ind-Past-S3-irr adj|sad-S1 pron|he-Prs-Nom-S3
+	verb|say-Fin-Ind-Past-S3-irr adv|why aux|do-Fin-Ind-Past-S2-irr
+	pron|you-Prs-Nom-S2 verb|do-Inf-S det|that-Def-Dem-Sing noun|dog-Acc
+	verb|say-Fin-Ind-Past-S3-irr
+	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sorry-S1
+	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Past-S1-irr~part|not
+	verb|mean-Inf-S adp|to noun|rabbit verb|say-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1
+	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 adv|together pron|they-Prs-Nom-P3
+	verb|use-Fin-Ind-Past-P3 pron|their-Prs-Gen-P3 noun|paw-Plur-Acc
+	part|to verb|make-Inf-S pron|it-Prs-Acc-S3 adv|well adv|again
+	det|the-Def-Art noun|sun aux|be-Fin-Ind-Past-S3-irr
+	verb|shine-Part-Pres-S cconj|and pron|they-Prs-Nom-P3
+	aux|be-Fin-Ind-Past-P3-irr adj|happy-S1 .
+%xdss:	A3; Z; Z; F3; Z; C2; Z; B3; C2; Z; B3; C2; Z; Z; C2; C1; Z; F3; Z;
+	C2; C1; Z; B2; Z; Z; C2; Z; B2; C2; Z; Z; A1; C2; A3; Z; C2; B2; C2;
+	H7; C1; Z; C2; B1; B1; C6; E4; C1; Z; C2; A1; C1; B3; D2; C1; A1;
+	B5; B3; C2; B3; Z; C1; A1; B5; Z; C2; C1; F3; B3; C2;
+@End

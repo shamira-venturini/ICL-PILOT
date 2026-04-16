@@ -1,0 +1,214 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.12||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep01
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_03
+@Comment:	replicate_id=1
+@Comment:	source_child_id=475
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	me [* s:r:gc:pro] and my doggy were at the pool .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 noun|doggy
+	aux|be-Fin-Ind-Past-P3-irr adp|at det|the-Def-Art noun|pool .
+%xdss:	B1; F3; B1; Z; C2; Z;
+*CHI:	we were playing near the water with a ball .
+%mor:	pron|we-Prs-Nom-P1 aux|be-Fin-Ind-Past-P1-irr verb|play-Part-Pres-S
+	adp|near det|the-Def-Art noun|water adp|with det|a-Ind-Art noun|ball
+	.
+%xdss:	B3; C2; C1; Z; Z;
+*CHI:	it fell in .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in .
+%xdss:	A1; C2;
+*CHI:	my doggy went in the pool to get it .
+%mor:	pron|my-Prs-Gen-S1 noun|doggy verb|go-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|pool part|to verb|get-Inf-S pron|it-Prs-Acc-S3
+	.
+%xdss:	B1; Z; C2; Z; C1; A1; B5;
+*CHI:	she swim [* m:03s:a] under the water and get [* m:03s:a] the ball .
+%mor:	pron|she-Prs-Nom-S3 verb|swim-Fin-Ind-Pres-S3 adp|under
+	det|the-Def-Art noun|water cconj|and verb|get-Fin-Ind-Pres-P3
+	det|the-Def-Art noun|ball-Acc .
+%xdss:	B2; C2; Z; F3; C1; Z;
+*CHI:	then she come [* m:03s:a] back and I give her a big ol' hug .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3 adv|back
+	cconj|and pron|I-Prs-Nom-S1 verb|give-Fin-Ind-Pres-S1
+	pron|her-Prs-Acc-S3 det|a-Ind-Art adj|big-S1 noun|ol~x|'
+	noun|hug-Acc .
+%xdss:	B2; C2; F3; B1; C1; B2; Z; Z;
+@Comment:	bundled_story_start=A2
+*CHI:	One day , a kitty and a puppy went to the pool .
+%mor:	num|one noun|day det|a-Ind-Art noun|kitty cconj|and det|a-Ind-Art
+	noun|puppy verb|go-Fin-Ind-Past-S3-irr adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	A3; Z; Z; F3; Z; C2; Z;
+*CHI:	The puppy didn't see it .
+%mor:	det|the-Def-Art noun|puppy aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|see-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C6; E4; C1; A1; B5;
+*CHI:	The puppy was running to the water .
+%mor:	det|the-Def-Art noun|puppy aux|be-Fin-Ind-Past-S3-irr
+	verb|run-Part-Pres-S adp|to det|the-Def-Art noun|water .
+%xdss:	Z; C2; C1; Z;
+*CHI:	The kitty said .
+%mor:	det|the-Def-Art noun|kitty verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	The puppy didn't stop .
+%mor:	det|the-Def-Art noun|puppy aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|stop-Inf-S .
+%xdss:	Z; C6; E4; C1;
+*CHI:	The puppy slipped and hurt her [* s:r:gc:det] knee .
+%mor:	det|the-Def-Art noun|puppy verb|slip-Fin-Ind-Past-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|her-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	Z; C2; F3; C2; B2; Z;
+*CHI:	A nice person came with a bandage .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|person verb|come-Fin-Ind-Past-S3-irr
+	adp|with det|a-Ind-Art noun|bandage .
+%xdss:	Z; C2; Z;
+*CHI:	The person put it on the puppy's knee .
+%mor:	det|the-Def-Art noun|person verb|put-Fin-Ind-Past-S3-irr
+	pron|it-Prs-Acc-S3 adp|on det|the-Def-Art noun|puppy~part|s
+	noun|knee .
+%xdss:	Z; C2; A1; B5; Z; Z;
+*CHI:	The puppy sat on a bench and rested .
+%mor:	det|the-Def-Art noun|puppy verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3 .
+%xdss:	Z; C2; Z; F3; C2;
+@Comment:	bundled_story_start=A3
+*CHI:	he is playing .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|play-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	he is (.) throwing it .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|throw-Part-Pres-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C1; C1; A1; B5;
+*CHI:	he is in the water .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adp|in det|the-Def-Art
+	noun|water .
+%xdss:	B2; C1; Z;
+*CHI:	she is (.) sad .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	B2; C1;
+*CHI:	he is (.) mad .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|mad-S1 .
+%xdss:	B2; C1;
+*CHI:	he is (.) trying .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|try-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	he is got a stick .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	det|a-Ind-Art noun|stick-Acc .
+%xdss:	B2; C7; C2; Z;
+*CHI:	he is long .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|long-S1 .
+%xdss:	B2; C1;
+*CHI:	he is strong .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|strong-S1 .
+%xdss:	B2; C1;
+*CHI:	he is (.) reaching .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|reach-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	he is got it .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S-irr
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C7; C2; A1; B5;
+*CHI:	he is (.) pulling .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 verb|pull-Part-Pres-S .
+%xdss:	B2; C1; C1;
+*CHI:	he is out .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adv|out .
+%xdss:	B2; C1;
+*CHI:	he is wet .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|wet-S1 .
+%xdss:	B2; C1;
+*CHI:	he is happy .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	B2; C1;
+*CHI:	they is [* m:vsg:a] happy .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	B3; C1;
+*CHI:	they is [* m:vsg:a] hugging .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-S3 verb|hug-Part-Pres-S .
+%xdss:	B3; C1; C1;
+@Comment:	bundled_story_start=B1
+*CHI:	he was (.) building with his dog .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|build-Part-Pres-S adp|with pron|his-Prs-Gen-S3 noun|dog .
+%xdss:	B2; C2; C1; B2; Z;
+*CHI:	she was (.) carrying .
+%mor:	pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|carry-Part-Pres-S .
+%xdss:	B2; C2; C1;
+*CHI:	he was (.) pouring .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|pour-Part-Pres-S
+	.
+%xdss:	B2; C2; C1;
+*CHI:	and she was (.) dumping !
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|dump-Part-Pres-S !
+%xdss:	F3; B2; C2; C1;
+*CHI:	she broke his castle .
+%mor:	pron|she-Prs-Nom-S3 verb|break-Fin-Ind-Past-S3-irr
+	pron|his-Prs-Gen-S3 noun|castle-Acc .
+%xdss:	B2; C2; B2; Z;
+*CHI:	he was (.) crying !
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|cry-Part-Pres-S
+	!
+%xdss:	B2; C2; C1;
+*CHI:	and he was (.) looking at her .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|look-Part-Pres-S adp|at pron|her-Prs-Acc-S3 .
+%xdss:	F3; B2; C2; C1; B2;
+*CHI:	and she was (.) putting on a sad face .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|put-Part-Pres-S adp|on det|a-Ind-Art adj|sad-S1 noun|face .
+%xdss:	F3; B2; C2; C1; Z;
+*CHI:	and he was (.) saying sorry .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|say-Part-Pres-S adj|sorry-S1 .
+%xdss:	F3; B2; C2; C1;
+*CHI:	and she was (.) saying it's okay .
+%mor:	cconj|and pron|she-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|say-Part-Pres-S pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	adj|okay-S1 .
+%xdss:	F3; B2; C2; C1; A1; C1;
+*CHI:	and they were (.) making a little one .
+%mor:	cconj|and pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|make-Part-Pres-S det|a-Ind-Art adj|little-S1 noun|one-Acc .
+%xdss:	F3; B3; C2; C1; Z;
+@Comment:	bundled_story_start=B2
+*CHI:	he was (.) eating .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S
+	.
+%xdss:	B2; C2; C1;
+*CHI:	there is a rabbit and a dog .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|rabbit
+	cconj|and det|a-Ind-Art noun|dog .
+%xdss:	C2; Z; F3; Z;
+*CHI:	they were (.) having a picnic .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|have-Part-Pres-S det|a-Ind-Art noun|picnic-Acc .
+%xdss:	B3; C2; C1; Z;
+*CHI:	he was (.) eating sandwiches .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S
+	noun|sandwich-Plur-Acc .
+%xdss:	B2; C2; C1; Z;
+*CHI:	he was eating too many .
+%mor:	pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr verb|eat-Part-Pres-S
+	adv|too adj|many-S1 .
+%xdss:	B2; C2; C1;
+*CHI:	and he (.) was (.) eating carrots too .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|eat-Part-Pres-S noun|carrot-Plur-Acc adv|too .
+%xdss:	F3; B2; C2; C1; Z;
+*CHI:	and he (.) was feeling yucky .
+%mor:	cconj|and pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr
+	verb|feel-Part-Pres-S adj|yucky-S1 .
+%xdss:	F3; B2; C2; C1;

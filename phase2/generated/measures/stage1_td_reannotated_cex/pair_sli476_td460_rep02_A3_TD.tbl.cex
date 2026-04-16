@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:21 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep02_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+two boys are playing with a [* m:allo] |3  |   |2 1|   |   |   |   |   |  0|  6|
+    airplane by the pool .             |   |   |   |   |   |   |   |   |   |   |
+they're playing with it .              |1  |3 5|1  |   |   |   |   |   |  1| 11|
+now it's in the pool .                 |1  |   |1  |   |   |   |   |   |  1|  3|
+the mommy gets mad .                   |   |   |2  |   |   |   |   |   |  1|  3|
+she says its her airplane .            |1  |2 2|2  |   |   |   |   |   |  1|  8|
+she wants it back .                    |1  |2 5|2  |   |   |   |   |   |  1| 11|
+she's trying to get it .               |1  |2 5|1 1|3  |   |   |   |   |  1| 15|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she's using a pole to get it .         |1  |2 5|1 1|   |   |   |   |   |  1| 12|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she's got it now .                     |1  |2 5|7 2|   |   |   |   |   |  1| 18|
+TOTAL                                  | 10| 40| 26|  3|  0|  0|  0|  0|  8| 87|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  9.67

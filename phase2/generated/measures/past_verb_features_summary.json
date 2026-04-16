@@ -1,0 +1,23 @@
+{
+  "bare_past_codes": [
+    "err_m_c_0ed",
+    "err_m_c_base_c_ed"
+  ],
+  "error_code_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/error_code_features.csv",
+  "output_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/past_verb_features.csv",
+  "past_overgeneralization_codes": [
+    "err_m_c_eq_ed",
+    "err_m_c_eq_ed_c_i",
+    "err_m_c_plus_ed",
+    "err_m_c_plus_plus_ed",
+    "err_m_c_plus_plus_ed_c_i"
+  ],
+  "rows": 220,
+  "totals": {
+    "bare_past_error_tokens": 103,
+    "overt_past_finite_verbs": 5570,
+    "past_overgeneralization_errors": 30,
+    "past_verb_opportunities": 5673
+  },
+  "transcript_root": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children"
+}

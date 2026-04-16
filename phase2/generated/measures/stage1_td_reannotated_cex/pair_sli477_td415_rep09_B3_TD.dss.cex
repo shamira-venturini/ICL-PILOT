@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep09
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=9
+@Comment:	source_child_id=415
+*CHI:	Me [* s:r:gc:pro] and my doggy friend go pull a wagaun with a big
+	red balloon .
+%mor:	pron|I-Prs-Acc-S1 cconj|and pron|my-Prs-Gen-S1 adj|doggy-S1
+	noun|friend verb|go-Fin-Ind-Pres-P3 verb|pull-Fin-S det|a-Ind-Art
+	noun|wagaun-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B1; F3; B1; Z; C1; C1; Z; Z;
+*CHI:	the balloon go [* m:03s:a] fly away .
+%mor:	det|the-Def-Art noun|balloon verb|go-Fin-Imp-S verb|fly-Inf-S
+	adv|away .
+%xdss:	Z; C1; C1;
+*CHI:	I cry .
+%mor:	pron|I-Prs-Nom-S1 verb|cry-Fin-Ind-Pres-S1 .
+%xdss:	B1; C1;
+*CHI:	my friend say [* m:03s:a] lets go get more balloons .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|say-Fin-Ind-Pres-S3
+	noun|let-Plur verb|go-Inf-S verb|get-Inf-S adj|more-Cmp-S1
+	noun|balloon-Plur-Acc .
+%xdss:	B1; Z; C2; D5; Z; C1; C1; A3; Z;
+*CHI:	we go to the man with balloons .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 adp|to det|the-Def-Art
+	noun|man adp|with noun|balloon-Plur .
+%xdss:	B3; C1; Z; Z;
+*CHI:	my friend have [* m:vun:a] five cents .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|have-Fin-Ind-Pres-S3 num|five
+	noun|cent-Plur-Acc .
+%xdss:	B1; Z; C2; A3; Z;
+*CHI:	we each get a balloon .
+%mor:	pron|we-Prs-Nom-P1 det|each-Def-Tot verb|get-Fin-Ind-Pres-P1
+	det|a-Ind-Art noun|balloon-Acc .
+%xdss:	B3; A7; C1; Z;
+@End

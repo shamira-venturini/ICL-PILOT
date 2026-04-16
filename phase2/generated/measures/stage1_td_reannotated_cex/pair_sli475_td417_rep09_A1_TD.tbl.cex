@@ -1,0 +1,21 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:20 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep09_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two dogs were playing near the pool .  |3  |   |2 1|   |   |   |   |   |  1|  7|
+They had a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+The ball went into the water .         |   |   |2  |   |   |   |   |   |  1|  3|
+One dog went into the pool to get it . |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+He brought the ball back .             |   |2  |2  |   |   |   |   |   |  1|  5|
+TOTAL                                  |  7| 10| 12|  0|  0|  0|  0|  0|  5| 34|
+WARNING: DSS requires 50 complete sentences and this transcript only has 5.
+
+Developmental sentence score:  6.80

@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:10 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli413_td439_rep03_B3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there was a rabbit and|   |   |2  |   |   |3  |   |   |  1|  6|
+     a dog .                           |   |   |   |   |   |   |   |   |   |   |
+they were pulling a wagon with a big   |   |3  |2 1|   |   |   |   |   |  1|  7|
+    red balloon .                      |   |   |   |   |   |   |   |   |   |   |
+the balloon got loose and flew away .  |   |   |2 2|   |   |3  |   |   |  1|  8|
+the rabbit and dog were so sad .       |   |   |2  |   |   |3 5|   |   |  1| 11|
+they wanted a new balloon .            |   |3  |2  |   |   |   |   |   |  1|  6|
+they asked a nice lady who had lots of |   |3 6|2 2|   |   |   |   |   |  1| 14|
+    balloons .                         |   |   |   |   |   |   |   |   |   |   |
+the rabbit and dog gave her five cents |3 7|2  |2 2|   |   |3 3|   |   |  1| 23|
+    and got a new balloon each .       |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 10| 17| 21|  0|  0| 20|  0|  0|  7| 75|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score: 10.71

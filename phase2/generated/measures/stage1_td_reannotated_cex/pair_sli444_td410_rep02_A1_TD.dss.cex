@@ -1,0 +1,42 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep02
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=2
+@Comment:	source_child_id=410
+*CHI:	there is a ball .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|ball .
+%xdss:	C2; Z;
+*CHI:	the ball goes into the pool .
+%mor:	det|the-Def-Art noun|ball verb|go-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	kitty go in the pool to get it .
+%mor:	noun|kitty verb|go-Fin-Imp-S adp|in det|the-Def-Art noun|pool
+	part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; Z; C1; A1; B5;
+*CHI:	kitty gets the ball .
+%mor:	noun|kitty verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|ball-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	kitty come [* m:03s:a] out and run to doggy .
+%mor:	noun|kitty verb|come-Fin-Imp-S adp|out cconj|and verb|run-Fin-Imp-S
+	adp|to noun|doggy .
+%xdss:	Z; C1; F3; C1; Z;
+*CHI:	doggy give [* m:03s:a] kitty a hug .
+%mor:	adj|doggy-S1 verb|give-Fin-Imp-S noun|kitty det|a-Ind-Art
+	noun|hug-Acc .
+%xdss:	C1; Z; Z;
+*CHI:	kitty wagging tail .
+%mor:	noun|kitty noun|wag-Ger noun|tail .
+%xdss:	Z; Z; D8; Z;
+@End

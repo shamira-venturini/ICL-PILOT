@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep03
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=466
+*CHI:	Once upon a time , my friend and I saw a sign at the pool that said
+	.
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|my-Prs-Gen-S1
+	noun|friend cconj|and pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|sign-Acc adp|at det|the-Def-Art noun|pool
+	pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; B1; Z; F3; B1; C2; Z; Z; A1; C2;
+*CHI:	no running .
+%mor:	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	Z; D8;
+*CHI:	We went to the pool to have some fun .
+%mor:	pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Past-P1-irr adp|to
+	det|the-Def-Art noun|pool part|to verb|have-Inf-S det|some-Def-Ind
+	noun|fun-Acc .
+%xdss:	B3; C2; Z; C1; A3; Z;
+*CHI:	My friend wanted to run to the water but I said .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|want-Fin-Ind-Past-S3 part|to
+	verb|run-Inf-S adp|to det|the-Def-Art noun|water cconj|but
+	pron|I-Prs-Nom-S1 verb|say-Fin-Ind-Past-S1-irr .
+%xdss:	B1; Z; C2; D3; C1; Z; F5; B1; C2;
+*CHI:	wait , the sign says no running .
+%mor:	verb|wait-Inf-S det|the-Def-Art noun|sign verb|say-Fin-Ind-Pres-S3
+	det|no-Def-Neg noun|running-Acc-Ger .
+%xdss:	C1; Z; C2; Z; D8;
+*CHI:	My friend didn't listen and ran to the jumping board .
+%mor:	pron|my-Prs-Gen-S1 noun|friend aux|do-Fin-Ind-Past-S3-irr~part|not
+	verb|listen-Inf-S cconj|and verb|run-Fin-Ind-Past-S3-irr adp|to
+	det|the-Def-Art noun|jump-Ger noun|board .
+%xdss:	B1; Z; C6; E4; C1; F3; C2; Z; D8; Z;
+*CHI:	Then my friend slipped and fell down and hurt their [* s:r:gc:det]
+	knee .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|friend verb|slip-Fin-Ind-Past-S3
+	cconj|and verb|fall-Fin-Ind-Past-S3-irr adp|down cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|their-Prs-Gen-P3 noun|knee-Acc .
+%xdss:	B1; Z; C2; F3; C2; F3; C2; B3; Z;
+*CHI:	My friend sat on the bench and rested their [* s:r:gc:det] knee .
+%mor:	pron|my-Prs-Gen-S1 noun|friend verb|sit-Fin-Ind-Past-S3-irr adp|on
+	det|the-Def-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	pron|their-Prs-Gen-P3 noun|knee-Acc .
+%xdss:	B1; Z; C2; Z; F3; C2; B3; Z;
+@End

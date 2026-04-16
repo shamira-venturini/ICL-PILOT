@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:13 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli427_td406_rep08_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+I went to the park with my friend dog  |3  |1 1|2 2|   |   |3  |   |   |  1| 16|
+    and we picked some carrots .       |   |3  |   |   |   |   |   |   |   |   |
+then we sat down and we had a picnic . |   |3 3|2 2|   |   |3  |   |   |  1| 14|
+I ate a lot of carrots .               |   |1  |2  |   |   |   |   |   |  1|  4|
+I ate so much that my tummy hurt [* m: |   |1 1|2 2|   |   |5  |   |   |  0| 11|
+    03s:a] .                           |   |   |   |   |   |   |   |   |   |   |
+I felt sick .                          |   |1  |2  |   |   |   |   |   |  1|  4|
+my mom said I had to go see the doctor |   |1 1|2 2|5 3|   |   |   |   |  1| 17|
+    .                                  |   |   |1 1|   |   |   |   |   |   |   |
+the doctor said I had to rest and she  |   |1 2|2 2|5 3|   |3  |   |   |  1| 23|
+    gave me a special medicine .       |   |1  |1 2|   |   |   |   |   |   |   |
+now I'm sitting on the couch and I feel|   |1 1|1 1|   |   |3  |   |   |  1|  8|
+     better .                          |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  3| 23| 31| 16|  0| 17|  0|  0|  7| 97|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score: 12.12

@@ -1,0 +1,74 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:37 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli476_td460_rep09_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Two friends are playing by the pool .  |3  |   |2 1|   |   |   |   |   |  1|  7|
+They have a ball .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+The ball goes in the water .           |   |   |2  |   |   |   |   |   |  1|  3|
+One friend goes into the pool to get it|3 1|5  |2 1|   |   |   |   |   |  1| 13|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+The friend gets it out and brings it   |1 1|5 5|2 2|   |   |3  |   |   |  1| 20|
+    back .                             |   |   |   |   |   |   |   |   |   |   |
+there's a sign that says no runing [:  |1  |   |2  |8  |   |   |   |   |  0| 11|
+    running] [* s:r:der] .             |   |   |   |   |   |   |   |   |   |   |
+my friend is goin to the wata .        |   |1  |1 1|   |   |   |   |   |  1|  4|
+she's runing [: running] [* m:+ing] .  |   |2  |1 1|   |   |   |   |   |  0|  4|
+she slips on the wet spot and falls    |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    down .                             |   |   |   |   |   |   |   |   |   |   |
+owwww she hurt her knee .              |   |2 2|2  |   |   |   |   |   |  1|  7|
+then a lifeguard come [* m:03s:a] and  |   |2  |2 2|   |   |3  |   |   |  0|  9|
+    put a bandaid on her knee .        |   |   |   |   |   |   |   |   |   |   |
+now she's sittin on a bench restin .   |   |2  |1 1|   |   |   |   |   |  1|  5|
+Two little ducks are playing with a    |3  |   |2 1|   |   |   |   |   |  1|  7|
+    little airplane near the pool .    |   |   |   |   |   |   |   |   |   |   |
+Then the airplane goes into the water .|   |   |2  |   |   |   |   |   |  1|  3|
+The little duck's owner gets mad .     |   |   |2  |   |   |   |   |   |  1|  3|
+A grown-up with a long stick tries to  |1  |5  |2 1|3  |   |   |   |   |  1| 13|
+    get it .                           |   |   |   |   |   |   |   |   |   |   |
+She uses the stick to pick up the      |   |2  |2 1|   |   |   |   |   |  1|  6|
+    airplane .                         |   |   |   |   |   |   |   |   |   |   |
+Now the little duck is happy .         |   |   |1  |   |   |   |   |   |  1|  2|
+they're making a big castle with the   |   |3  |1  |   |   |3  |   |   |  1|  8|
+    dog and rabbit .                   |   |   |   |   |   |   |   |   |   |   |
+the dog is getting some sand .         |3  |   |1 1|   |   |   |   |   |  1|  6|
+he's dumping it on the castle .        |1  |2 5|1 1|   |   |   |   |   |  1| 11|
+the castle is all crumbled .           |   |   |1 2|   |   |   |   |   |  1|  4|
+the rabbit is crying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is saying .                    |   |   |1 1|   |   |   |   |   |  1|  3|
+the rabbit is saying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+it's okay .                            |1  |   |1  |   |   |   |   |   |  1|  3|
+they're making it again .              |1  |3 5|1  |   |   |   |   |   |  1| 11|
+we're going to have a picnic .         |   |3  |1 1|2  |   |   |   |   |  1|  8|
+we're picking carrots and sandwiches . |   |3  |1  |   |   |3  |   |   |  1|  8|
+the dog is eating carrots .            |   |   |1 1|   |   |   |   |   |  1|  3|
+rabbit is eating sandwiches .          |   |   |1 1|   |   |   |   |   |  1|  3|
+oh look i ate too much .               |   |1  |1 2|5  |   |   |   |   |  1| 10|
+now i feel sick .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+i feel dizzy .                         |   |1  |1  |   |   |   |   |   |  1|  3|
+my tummy hurts .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+doctor is here .                       |   |   |1  |   |   |   |   |   |  1|  2|
+doctor is giving me some medicine .    |3  |1  |1 1|   |   |   |   |   |  1|  7|
+i'm drinking the medicine .            |   |1  |1  |   |   |   |   |   |  1|  3|
+i'm resting now .                      |   |1  |1  |   |   |   |   |   |  1|  3|
+i'm feeling better .                   |   |1  |1  |   |   |   |   |   |  1|  3|
+they're pulling a wagon they have a big|   |3 3|1 1|   |   |3  |   |   |  1| 12|
+     dog and a rabbit .                |   |   |   |   |   |   |   |   |   |   |
+the balloon is on the wagon .          |   |   |1  |   |   |   |   |   |  1|  2|
+the balloon is red .                   |   |   |1  |   |   |   |   |   |  1|  2|
+it came loose and it's gone .          |1 1|   |2 1|   |   |3  |   |   |  1|  9|
+the kids are sad .                     |   |   |2  |   |   |   |   |   |  1|  3|
+they want a balloon .                  |   |3  |1  |   |   |   |   |   |  1|  5|
+they went to the balloon man .         |   |3  |2  |   |   |   |   |   |  1|  6|
+they have two balloons .               |3  |3  |1  |   |   |   |   |   |  1|  8|
+TOTAL                                  | 28| 85| 94| 18|  0| 21|  0|  0| 45|291|
+WARNING: DSS requires 50 complete sentences and this transcript only has 48.
+
+Developmental sentence score:  6.06

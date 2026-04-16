@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep06
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=6
+@Comment:	source_child_id=466
+*CHI:	Timmy the tiger went to the pool .
+%mor:	propn|Timmy det|the-Def-Art noun|tiger verb|go-Fin-Ind-Past-S3-irr
+	adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; C2; Z;
+*CHI:	There was a big sign that said .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	adj|big-S1 noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	C2; Z; A1; C2;
+*CHI:	Don't run !
+%mor:	aux|do-Fin-S~part|not verb|run-Inf-S !
+%xdss:	C4; E4; G6; C1;
+*CHI:	Timmy was having too much fun and started to run to the water .
+%mor:	propn|Timmy aux|be-Fin-Ind-Past-S3-irr verb|have-Part-Pres-S
+	adv|too adj|much-S1 noun|fun-Acc cconj|and
+	verb|start-Fin-Ind-Past-S3 part|to verb|run-Inf-S adp|to
+	det|the-Def-Art noun|water .
+%xdss:	C2; C1; Z; F3; C2; D3; C1; Z;
+*CHI:	He slipped on the ground and hurt his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 adp|on det|the-Def-Art
+	noun|ground cconj|and verb|hurt-Fin-Ind-Past-S3-irr
+	pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; Z; F3; C2; B2; Z;
+*CHI:	A nice lifeguard came with a bandage and said .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|bandage
+	cconj|and verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2; Z; F3; C2;
+@End

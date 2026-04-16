@@ -1,0 +1,107 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep10
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=10
+@Comment:	source_child_id=406
+*CHI:	one time bunny and doggy was [* m:vsg:a] walking with wagon .
+%mor:	num|one noun|time noun|bunny cconj|and noun|doggy
+	aux|be-Fin-Ind-Past-S3-irr verb|walk-Part-Pres-S adp|with noun|wagon
+	.
+%xdss:	A3; Z; Z; F3; Z; C2; C1; Z;
+*CHI:	bunny had a big red balloon .
+%mor:	noun|bunny verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|big-S1
+	adj|red-S1 noun|balloon-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	doggy was pulling wagon .
+%mor:	noun|doggy aux|be-Fin-Ind-Past-S3-irr verb|pull-Part-Pres-S
+	noun|wagon-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	balloon was tied to wagon but then it came loose .
+%mor:	noun|balloon aux|be-Fin-Ind-Past-S3-irr verb|tie-Part-Past-S adp|to
+	noun|wagon cconj|but adv|then pron|it-Prs-Nom-S3
+	verb|come-Fin-Ind-Past-S3-irr adv|loose .
+%xdss:	Z; C7; C2; Z; F5; A1; C2;
+*CHI:	it went up [/] up [/] up into the sky .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Past-S3-irr adp|up adp|into
+	det|the-Def-Art noun|sky .
+%xdss:	A1; C2; Z;
+*CHI:	bunny and doggy was [* m:vsg:a] sad .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-S3-irr
+	adj|sad-S1 .
+%xdss:	Z; F3; C2;
+*CHI:	they looked around but balloon was gone .
+%mor:	pron|they-Prs-Nom-P3 verb|look-Fin-Ind-Past-P3 adv|around cconj|but
+	noun|balloon aux|be-Fin-Ind-Past-S3-irr adj|gone-S1 .
+%xdss:	B3; C2; F5; Z; C2;
+*CHI:	bunny said oh no doggy our balloon is gone .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr intj|oh det|no-Def-Neg
+	adj|doggy-S1 pron|our-Prs-Gen-P1 noun|balloon aux|be-Fin-Ind-Pres-S3
+	adj|gone-S1 .
+%xdss:	Z; C2; B3; Z; C1;
+*CHI:	doggy wagged tail and sniff [* m:03s:a] [/] sniff [* m:03s:a] [/]
+	sniff [* m:03s:a] .
+%mor:	adj|doggy-S1 verb|wagg-Part-Past-S noun|tail cconj|and noun|sniff .
+%xdss:	C2; Z; F3; Z;
+*CHI:	then they saw a man with lots and lots of balloons .
+%mor:	adv|then pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Past-P3-irr
+	det|a-Ind-Art noun|man-Acc adp|with noun|lot-Plur cconj|and
+	noun|lot-Plur adp|of noun|balloon-Plur .
+%xdss:	B3; C2; Z; Z; F3; Z; Z;
+*CHI:	bunny and doggy ran to him .
+%mor:	noun|bunny cconj|and noun|doggy verb|run-Fin-Ind-Past-S3-irr adp|to
+	pron|he-Prs-Acc-S3 .
+%xdss:	Z; F3; Z; C2; B2;
+*CHI:	man said how much do you want to buy .
+%mor:	noun|man verb|say-Fin-Ind-Past-S3-irr adv|how adj|much-S1
+	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S part|to
+	verb|buy-Inf-S .
+%xdss:	Z; C2; B6; C1; D3; C1;
+*CHI:	bunny said how much .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr adv|how adj|much-S1 .
+%xdss:	Z; C2; B6;
+*CHI:	man said five cents .
+%mor:	noun|man verb|say-Fin-Ind-Past-S3-irr num|five noun|cent-Plur-Acc .
+%xdss:	Z; C2; A3; Z;
+*CHI:	bunny said i don't have five cents .
+%mor:	noun|bunny verb|say-Fin-Ind-Past-S3-irr pron|I-Prs-Nom-S1
+	aux|do-Fin-Ind-Pres-S1~part|not verb|have-Inf-S num|five
+	noun|cent-Plur-Acc .
+%xdss:	Z; C2; B1; E4; C1; A3; Z;
+*CHI:	man said don't worry i have some balloons you can take two for two
+	cents each .
+%mor:	noun|man verb|say-Fin-Ind-Past-S3-irr aux|do-Fin-Imp-S~part|not
+	verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1
+	det|some-Def-Ind noun|balloon-Plur-Acc pron|you-Prs-Nom-S2
+	aux|can-Fin-S verb|take-Inf-S num|two adp|for num|two noun|cent-Plur
+	det|each-Def-Tot .
+%xdss:	Z; C2; C4; E4; C1; D5; B1; C1; A3; Z; C4; D2; C1; A3; F8; A3; Z;
+	A7;
+*CHI:	bunny and doggy was [* m:vsg:a] happy .
+%mor:	noun|bunny cconj|and adj|doggy-S1 aux|be-Fin-Ind-Past-S3-irr
+	adj|happy-S1 .
+%xdss:	Z; F3; C2;
+*CHI:	bunny got two balloons and doggy got two balloons .
+%mor:	noun|bunny verb|get-Fin-Ind-Past-S3-irr num|two
+	noun|balloon-Plur-Acc cconj|and noun|doggy
+	verb|get-Fin-Ind-Past-S3-irr num|two noun|balloon-Plur-Acc .
+%xdss:	Z; C2; A3; Z; F3; Z; C2; A3; Z;
+*CHI:	they both hugged each other and doggy wagged tail .
+%mor:	pron|they-Prs-Nom-P3 det|both-Def-Tot verb|hugge-Fin-Ind-Past-P3
+	det|each-Def-Rcp adj|other-S1 cconj|and adj|doggy-S1
+	verb|wagg-Part-Past-S noun|tail .
+%xdss:	B3; A7; C2; A7; A3; F3; C2; Z;
+*CHI:	bunny was happy .
+%mor:	noun|bunny aux|be-Fin-Ind-Past-S3-irr adj|happy-S1 .
+%xdss:	Z; C2;
+@End

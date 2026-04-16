@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:23 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli476_td460_rep10_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they're playing near the pool .        |   |3  |1  |   |   |   |   |   |  1|  5|
+two dogs are playing with it .         |3 1|5  |2 1|   |   |   |   |   |  1| 13|
+then one dog drops it in the pool .    |3 1|5  |2  |   |   |   |   |   |  1| 12|
+the owner is yelling .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+another dog is trying to get it .      |3 1|5  |1 1|3  |   |   |   |   |  1| 16|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she's using a pole to get the airplane |   |2  |1 1|   |   |   |   |   |  1|  6|
+    .                                  |   |   |1  |   |   |   |   |   |   |   |
+she got it !                           |1  |2 5|2  |   |   |   |   |   |  1| 11|
+the owner is happy now .               |   |   |1  |   |   |   |   |   |  1|  2|
+the airplane is back .                 |   |   |1  |   |   |   |   |   |  1|  2|
+everyone is happy now .                |7  |   |1  |   |   |   |   |   |  1|  9|
+TOTAL                                  | 20| 27| 19|  3|  0|  0|  0|  0| 10| 79|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  7.90

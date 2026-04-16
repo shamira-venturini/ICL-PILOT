@@ -1,0 +1,48 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep08
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=419
+*CHI:	here's what happened one day at the pool .
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 pron|what-Int-S1
+	verb|happen-Fin-Ind-Past-S3 num|one noun|day adp|at det|the-Def-Art
+	noun|pool .
+%xdss:	C1; F8; B6; C2; A3; Z; Z;
+*CHI:	two birds came to the pool area .
+%mor:	num|two noun|bird-Plur verb|come-Fin-Ind-Past-P3-irr adp|to
+	det|the-Def-Art noun|pool noun|area .
+%xdss:	A3; Z; C2; Z; Z;
+*CHI:	there was a sign that said no running .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr det|no-Def-Neg
+	noun|running-Acc-Ger .
+%xdss:	C2; Z; A1; C2; Z; D8;
+*CHI:	one bird started to run to the water .
+%mor:	num|one noun|bird verb|start-Fin-Ind-Past-S3 part|to verb|run-Inf-S
+	adp|to det|the-Def-Art noun|water .
+%xdss:	A3; Z; C2; D3; C1; Z;
+*CHI:	but the bird slipped on the ground and hurt its knee .
+%mor:	cconj|but det|the-Def-Art noun|bird verb|slip-Fin-Ind-Past-S3
+	adp|on det|the-Def-Art noun|ground cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|its-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	F5; Z; C2; Z; F3; C2; A1; Z;
+*CHI:	then a nice helper came with a band-aid .
+%mor:	adv|then det|a-Ind-Art adj|nice-S1 noun|helper
+	verb|come-Fin-Ind-Past-S3-irr adp|with det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	the hurt bird sat on a bench to rest .
+%mor:	det|the-Def-Art noun|hurt noun|bird verb|sit-Fin-Ind-Past-S3-irr
+	adp|on det|a-Ind-Art noun|bench part|to verb|rest-Inf-S .
+%xdss:	Z; Z; C2; Z; C1;
+@End

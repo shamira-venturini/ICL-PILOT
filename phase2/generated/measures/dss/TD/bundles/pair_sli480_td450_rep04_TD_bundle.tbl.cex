@@ -1,0 +1,69 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:38 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli480_td450_rep04_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One kitty and one doggy were playing   |3 3|   |2 1|   |   |3  |   |   |  1| 13|
+    near the pool .                    |   |   |   |   |   |   |   |   |   |   |
+They had a little ball .               |   |3  |2  |   |   |   |   |   |  1|  6|
+It fell into the pool .                |1  |   |2  |   |   |   |   |   |  1|  4|
+The doggy went in the pool to get the  |   |   |2 1|   |   |   |   |   |  1|  4|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+He swam to get it .                    |1  |2 5|2 1|3  |   |   |   |   |  1| 15|
+The kitty pulled the ball out of the   |   |   |2  |   |   |   |   |   |  1|  3|
+    water .                            |   |   |   |   |   |   |   |   |   |   |
+Now the ball is back .                 |   |   |1  |   |   |   |   |   |  1|  2|
+The kitty and the doggy are happy again|   |   |2  |   |   |3  |   |   |  1|  6|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+One day , two monkeys came to the pool |3 3|   |2  |   |   |   |   |   |  1|  9|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+There was a sign that said .           |1  |   |2 2|   |   |   |   |   |  1|  6|
+No running !                           |   |   |   |8  |   |   |   |   |  1|  9|
+One monkey started to run to the water |3  |2  |2 1|3  |   |5 3|   |   |  1| 22|
+    , but then he slipped and ouch !   |   |   |2  |   |   |   |   |   |   |   |
+He hurt his knee .                     |   |2 2|2  |   |   |   |   |   |  1|  7|
+A nice lifeguard came with a band-aid .|   |   |2  |   |   |   |   |   |  1|  3|
+The monkey sat on a bench and rested . |   |   |2 2|   |   |3  |   |   |  1|  8|
+Two frogs play near the pool .         |3  |   |1  |   |   |   |   |   |  1|  5|
+They drop the plane into the water .   |   |3  |1  |   |   |   |   |   |  1|  5|
+The big frog gets sad .                |   |   |2  |   |   |   |   |   |  1|  3|
+Someone with a long pole comes and gets|3  |   |2 2|   |   |3  |   |   |  1| 11|
+     the plane .                       |   |   |   |   |   |   |   |   |   |   |
+They give [* m:base:ed] it back to the |1  |3 5|1  |   |   |   |   |   |  0| 10|
+    big frog .                         |   |   |   |   |   |   |   |   |   |   |
+The big frog is happy .                |   |   |1  |   |   |   |   |   |  1|  2|
+Rabbit and dog built a castle .        |   |   |2  |   |   |3  |   |   |  1|  6|
+Rabbit used shovel .                   |   |   |2  |   |   |   |   |   |  1|  3|
+Dog threw sand on it .                 |1  |5  |2  |   |   |   |   |   |  1|  9|
+Now castle is broken .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+Dog is sad .                           |   |   |1  |   |   |   |   |   |  1|  2|
+Dog says sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+Rabbit and dog go to the park .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They get food , carrots and sandwiches |   |3  |1  |   |   |3  |   |   |  1|  8|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+Child eat [* m:03s:a] lots of food .   |   |   |1  |   |   |   |   |   |  0|  1|
+Child's tummy hurt .                   |   |   |2  |   |   |   |   |   |  1|  3|
+Child go [* m:03s:a] see doctor .      |   |   |1 1|   |   |   |   |   |  0|  2|
+Child sit [* m:03s:a] on the bed and   |   |   |1 1|   |   |3  |   |   |  0|  5|
+    rest .                             |   |   |   |   |   |   |   |   |   |   |
+Rabbit and dog go .                    |   |   |1  |   |   |3  |   |   |  1|  5|
+They have a wagon .                    |   |3  |1  |   |   |   |   |   |  1|  5|
+The balloon comes loose .              |   |   |2  |   |   |   |   |   |  1|  3|
+It floats away .                       |1  |   |2  |   |   |   |   |   |  1|  4|
+The kids are sad .                     |   |   |2  |   |   |   |   |   |  1|  3|
+They look for another balloon .        |3  |3  |1  |   |   |8  |   |   |  1| 16|
+They go to a man .                     |   |3  |1  |   |   |   |   |   |  1|  5|
+He has balloons .                      |   |2  |2  |   |   |   |   |   |  1|  5|
+They get a balloon each .              |7  |3  |1  |   |   |   |   |   |  1| 12|
+The kids are happy .                   |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  | 37| 49| 89| 14|  0| 43|  0|  0| 39|271|
+WARNING: DSS requires 50 complete sentences and this transcript only has 43.
+
+Developmental sentence score:  6.30

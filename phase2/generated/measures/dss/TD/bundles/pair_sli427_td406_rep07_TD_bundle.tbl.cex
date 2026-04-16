@@ -1,0 +1,76 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:35 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli427_td406_rep07_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+I wanna show you the ball in the water |   |1 5|1  |2  |   |   |   |   |  1| 10|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+It was near the pool with my dog and   |1  |1  |2  |   |   |3  |   |   |  1|  8|
+    cat .                              |   |   |   |   |   |   |   |   |   |   |
+My dog threw the ball in the pool .    |   |1  |2  |   |   |   |   |   |  1|  4|
+It fell in the water .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+My cat went in to get it .             |1  |1 5|2 1|   |   |   |   |   |  1| 11|
+The cat was splashing in the pool .    |   |   |2 1|   |   |   |   |   |  1|  4|
+She got the ball .                     |   |2  |2  |   |   |   |   |   |  1|  5|
+My dog is happy now .                  |   |1  |1  |   |   |   |   |   |  1|  3|
+My cat is happy too .                  |   |1  |1  |   |   |   |   |   |  1|  3|
+Me [* s:r:gc:pro] and my buddy monkey  |   |1 1|2  |   |   |3  |   |   |  0|  7|
+    went to the pool .                 |   |   |   |   |   |   |   |   |   |   |
+We saw a sign that said .              |1  |3  |2 2|   |   |   |   |   |  1|  9|
+no running .                           |   |   |   |8  |   |   |   |   |  1|  9|
+but my friend monkey didn't listen .   |   |1  |6 1|   |4  |5  |   |   |  1| 18|
+He ran to the water and slipped .      |   |2  |2 2|   |   |3  |   |   |  1| 10|
+He hurt his knee .                     |   |2 2|2  |   |   |   |   |   |  1|  7|
+Someone came with a bandage and helped |3  |2  |2 2|   |   |3  |   |   |  1| 13|
+    him .                              |   |   |   |   |   |   |   |   |   |   |
+Monkey sat on a bench and rested .     |   |   |2 2|   |   |3  |   |   |  1|  8|
+today two birds were playing with a    |3  |   |2 1|   |   |   |   |   |  1|  7|
+    plane .                            |   |   |   |   |   |   |   |   |   |   |
+it was near the pool .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+oh no the plane went into the pool .   |   |   |2  |   |   |   |   |   |  1|  3|
+mama bird was so mad .                 |   |   |2  |   |   |5  |   |   |  1|  8|
+a lifeguard came and got the plane with|   |   |2 2|   |   |3  |   |   |  1|  8|
+     a big stick .                     |   |   |   |   |   |   |   |   |   |   |
+yay the plane is back .                |   |   |1  |   |   |   |   |   |  1|  2|
+everyone is happy again .              |7  |   |1  |   |   |   |   |   |  1|  9|
+We build a big sandcastle .            |   |3  |1  |   |   |   |   |   |  1|  5|
+I add sand and my doggie add [* m:03s:a|   |1 1|1 1|   |   |3  |   |   |  0|  7|
+    ] sand too .                       |   |   |   |   |   |   |   |   |   |   |
+My doggie , he use [* m:03s:a] big     |   |1 2|2  |   |   |   |   |   |  0|  5|
+    bucket .                           |   |   |   |   |   |   |   |   |   |   |
+He pour [* m:0ed] too much sand on our |   |2 3|2  |   |   |   |   |   |  0|  7|
+    castle .                           |   |   |   |   |   |   |   |   |   |   |
+Now it's broken .                      |1  |   |7 2|   |   |   |   |   |  1| 11|
+My castle is broken .                  |   |1  |7 2|   |   |   |   |   |  1| 11|
+I cry .                                |   |1  |1  |   |   |   |   |   |  1|  3|
+My doggie , he is sad too .            |   |1 2|1  |   |   |   |   |   |  1|  5|
+He put his head down .                 |   |2 2|2  |   |   |   |   |   |  1|  7|
+I say [* m:irr:ed] sorry .             |   |1  |1  |   |   |   |   |   |  0|  2|
+My doggie say [* m:03s:a] sorry too .  |   |1  |2  |   |   |   |   |   |  0|  3|
+We work together , fix the castle .    |   |3  |1 1|   |   |   |   |   |  1|  6|
+It's okay now .                        |1  |   |1  |   |   |   |   |   |  1|  3|
+oh the rabbit and dog go to the park   |3  |   |1 1|   |   |3 3|   |   |  1| 12|
+    and get some food .                |   |   |   |   |   |   |   |   |   |   |
+they get carrots and sandwiches .      |   |3  |1  |   |   |3  |   |   |  1|  8|
+they have a picnic .                   |   |3  |1  |   |   |   |   |   |  1|  5|
+he eats too much .                     |   |2  |2  |   |   |   |   |   |  1|  5|
+he says eeew my tummy hurts .          |   |2 1|2 2|   |   |   |   |   |  1|  8|
+he feels sick .                        |   |2  |2  |   |   |   |   |   |  1|  5|
+he goes to the doctor .                |   |2  |2  |   |   |   |   |   |  1|  5|
+the doctor says take some medicine .   |3  |   |2 1|   |   |   |   |   |  1|  7|
+he feels better .                      |   |2  |2  |   |   |   |   |   |  1|  5|
+now he's sitting in a chair .          |   |2  |1 1|   |   |   |   |   |  1|  5|
+One day rabbit and doggy go for a ride |3  |   |1  |   |   |3 8|   |   |  1| 16|
+    in a wagon .                       |   |   |   |   |   |   |   |   |   |   |
+They got a pretty balloon .            |   |3  |2  |   |   |   |   |   |  1|  6|
+It was red .                           |1  |   |2  |   |   |   |   |   |  1|  4|
+TOTAL                                  | 30| 81|120| 10|  4| 51|  0|  0| 44|340|
+
+Developmental sentence score:  6.80

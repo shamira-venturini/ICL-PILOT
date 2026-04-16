@@ -1,0 +1,55 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep07
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=406
+*CHI:	I wanna show you the ball in the water .
+%mor:	pron|I-Prs-Nom-S1 aux|wanna-Fin-S verb|show-Fin-Pres-S
+	pron|you-Prs-Acc-S2 det|the-Def-Art noun|ball-Acc adp|in
+	det|the-Def-Art noun|water .
+%xdss:	B1; D2; C1; B5; Z; Z;
+*CHI:	It was near the pool with my dog and cat .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adp|near
+	det|the-Def-Art noun|pool adp|with pron|my-Prs-Gen-S1 noun|dog
+	cconj|and noun|cat .
+%xdss:	A1; C2; Z; B1; Z; F3; Z;
+*CHI:	My dog threw the ball in the pool .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|throw-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|ball-Acc adp|in det|the-Def-Art noun|pool .
+%xdss:	B1; Z; C2; Z; Z;
+*CHI:	It fell in the water .
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3-irr adp|in
+	det|the-Def-Art noun|water .
+%xdss:	A1; C2; Z;
+*CHI:	My cat went in to get it .
+%mor:	pron|my-Prs-Gen-S1 noun|cat verb|go-Fin-Ind-Past-S3-irr adv|in
+	part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B1; Z; C2; C1; A1; B5;
+*CHI:	The cat was splashing in the pool .
+%mor:	det|the-Def-Art noun|cat aux|be-Fin-Ind-Past-S3-irr
+	verb|splash-Part-Pres-S adp|in det|the-Def-Art noun|pool .
+%xdss:	Z; C2; C1; Z;
+*CHI:	She got the ball .
+%mor:	pron|she-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|ball-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	My dog is happy now .
+%mor:	pron|my-Prs-Gen-S1 noun|dog aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	adv|now .
+%xdss:	B1; Z; C1;
+*CHI:	My cat is happy too .
+%mor:	pron|my-Prs-Gen-S1 noun|cat aux|be-Fin-Ind-Pres-S3 adj|happy-S1
+	adv|too .
+%xdss:	B1; Z; C1;
+@End

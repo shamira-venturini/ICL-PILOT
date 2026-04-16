@@ -1,0 +1,37 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:16 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep01_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog they   |   |3  |2  |   |   |3  |   |   |  1|  9|
+    went to the sandbox .              |   |   |   |   |   |   |   |   |   |   |
+rabbit said lets build a castle .      |   |   |2 1|5  |   |   |   |   |  1|  9|
+dog said yay i will get the bucket .   |   |1  |2 4|2  |   |   |   |   |  1| 11|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+rabbit started building .              |   |   |2 1|7 8|   |   |   |   |  1| 19|
+dog came back with a big bucket of sand|   |   |2  |   |   |   |   |   |  1|  3|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+dog said i want to add some sand to the|3  |1  |2 1|5 3|   |   |   |   |  1| 17|
+     castle .                          |   |   |1  |   |   |   |   |   |   |   |
+rabbit said be careful .               |   |   |2  |   |   |   |   |   |  1|  3|
+but dog dropped the bucket and all the |3  |   |2 2|   |   |5 3|   |   |  1| 16|
+    sand went on the castle .          |   |   |   |   |   |   |   |   |   |   |
+the castle got all messy .             |3  |   |2  |   |   |   |   |   |  1|  6|
+rabbit was sad .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit said why did you do that ?      |1  |   |2 1|   |   |   |   |7  |  1| 12|
+dog said sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+rabbit said its okay .                 |1  |   |2  |   |   |   |   |   |  1|  4|
+we can build again .                   |   |3  |4 1|2  |   |   |   |   |  1| 11|
+rabbit and dog started building another|3  |   |2 1|7 8|   |3  |   |   |  1| 25|
+     castle .                          |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  | 14|  8| 46| 47|  0| 14|  0|  7| 15|151|
+WARNING: DSS requires 50 complete sentences and this transcript only has 15.
+
+Developmental sentence score: 10.07

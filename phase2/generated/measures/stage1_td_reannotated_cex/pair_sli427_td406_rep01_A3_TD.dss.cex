@@ -1,0 +1,60 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep01
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=406
+*CHI:	Two little ducks play near the pool .
+%mor:	num|two adj|little-S1 noun|duck-Plur verb|play-Fin-Ind-Pres-P3
+	adp|near det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C1; Z;
+*CHI:	They play with their airplane .
+%mor:	pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Pres-P3 adp|with
+	pron|their-Prs-Gen-P3 noun|airplane .
+%xdss:	B3; C1; B3; Z;
+*CHI:	But then it falls into the water .
+%mor:	cconj|but adv|then pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Pres-S3
+	adp|into det|the-Def-Art noun|water .
+%xdss:	F5; A1; C2; Z;
+*CHI:	The ducks are sad .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Pres-P3 adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	Their mommy gets mad .
+%mor:	pron|their-Prs-Gen-P3 noun|mommy verb|get-Fin-Ind-Pres-S3
+	adj|mad-S1 .
+%xdss:	B3; Z; C2;
+*CHI:	She wants to get it .
+%mor:	pron|she-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to
+	verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; D3; C1; A1; B5;
+*CHI:	She calls the lifeguard .
+%mor:	pron|she-Prs-Nom-S3 verb|call-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|lifeguard-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	The lifeguard has a long pole .
+%mor:	det|the-Def-Art noun|lifeguard verb|have-Fin-Ind-Pres-S3
+	det|a-Ind-Art adj|long-S1 noun|pole-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	She uses it to get the airplane .
+%mor:	pron|she-Prs-Nom-S3 verb|use-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3
+	part|to verb|get-Inf-S det|the-Def-Art noun|airplane-Acc .
+%xdss:	B2; C2; D5; A1; B5; C1; Z;
+*CHI:	The airplane is all wet .
+%mor:	det|the-Def-Art noun|airplane aux|be-Fin-Ind-Pres-S3 adv|all
+	adj|wet-S1 .
+%xdss:	Z; C1;
+*CHI:	The ducks are happy again .
+%mor:	det|the-Def-Art noun|duck-Plur aux|be-Fin-Ind-Pres-P3 adj|happy-S1
+	adv|again .
+%xdss:	Z; C2;
+@End

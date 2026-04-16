@@ -1,0 +1,31 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:34 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep04_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time rabbit and dog they   |   |3  |1  |   |   |3  |   |   |  1|  8|
+    build a sandcastle .               |   |   |   |   |   |   |   |   |   |   |
+dog he use [* m:03s:a] big shovel to   |   |2  |2 1|   |   |   |   |   |  0|  5|
+    move sand .                        |   |   |   |   |   |   |   |   |   |   |
+rabbit say [* m:03s:a] .               |   |   |1  |   |   |   |   |   |  0|  1|
+no [/] no dog dont [* m:03s:a] do that |1  |   |4 1|2  |   |   |   |   |  0|  8|
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+but dog he not listen .                |   |2  |1  |   |   |5  |   |   |  1|  9|
+he put too much sand on rabbit's castle|   |2  |2  |   |   |   |   |   |  1|  5|
+     .                                 |   |   |   |   |   |   |   |   |   |   |
+the sandcastle fall [* m:03s:a] down . |   |   |1  |   |   |   |   |   |  0|  1|
+rabbit he cry [* m:03s:a] and say [* m:|   |2  |2 2|   |   |3  |   |   |  0|  9|
+    03s:a] .                           |   |   |   |   |   |   |   |   |   |   |
+dog he say [* m:03s:a] .               |   |2  |2  |   |   |   |   |   |  0|  4|
+they try to build it again .           |1  |3 5|1 1|3  |   |   |   |   |  1| 15|
+TOTAL                                  |  2| 21| 22|  5|  0| 11|  0|  0|  4| 65|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  6.50

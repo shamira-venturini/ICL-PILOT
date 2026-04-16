@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:30 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep07_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day rabbit and dog went to the     |3  |   |2  |   |   |3  |   |   |  1|  9|
+    beach .                            |   |   |   |   |   |   |   |   |   |   |
+They built a big sandcastle together . |   |3  |2  |   |   |   |   |   |  1|  6|
+Rabbit poured water on it and dog      |1 1|5 5|2 2|   |   |3  |   |   |  1| 20|
+    dumped a bucket of sand on it .    |   |   |   |   |   |   |   |   |   |   |
+The castle fell down !                 |   |   |2  |   |   |   |   |   |  1|  3|
+Dog said sorry .                       |   |   |2  |   |   |   |   |   |  1|  3|
+Rabbit said it's okay .                |1  |   |2 1|   |   |   |   |   |  1|  5|
+They started to fix it together .      |1  |3 5|2 1|3  |   |   |   |   |  1| 16|
+They made it even better than before . |1  |3 5|2  |   |   |8 8|   |   |  1| 28|
+They built a moat and a flag .         |   |3  |2  |   |   |3  |   |   |  1|  9|
+Rabbit and dog were happy again .      |   |   |2  |   |   |3  |   |   |  1|  6|
+TOTAL                                  |  8| 32| 24|  3|  0| 28|  0|  0| 10|105|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score: 10.50

@@ -1,0 +1,30 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:24 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli477_td415_rep05_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+and the rabbit and dog have picnic .   |   |   |1  |   |   |3 3|   |   |  1|  8|
+and they have carrots .                |   |3  |1  |   |   |3  |   |   |  1|  8|
+and the kid eat [* m:03s:a] too many   |   |   |2  |   |   |3  |   |   |  0|  5|
+    carrots .                          |   |   |   |   |   |   |   |   |   |   |
+and the kid feel [* m:03s:a] sick .    |   |   |2  |   |   |3  |   |   |  0|  5|
+and the kid feel [* m:03s:a] dizzy .   |   |   |2  |   |   |3  |   |   |  0|  5|
+and the kid's mom take [* m:03s:a] the |   |   |2  |   |   |3  |   |   |  0|  5|
+    kid to the doctor .                |   |   |   |   |   |   |   |   |   |   |
+and the doctor give [* m:03s:a] the kid|   |   |2  |   |   |3  |   |   |  0|  5|
+     a special drink .                 |   |   |   |   |   |   |   |   |   |   |
+and the kid drink [* m:03s:a] it .     |1  |5  |1  |   |   |3  |   |   |  0| 10|
+and the kid feel better .              |   |   |2  |   |   |3  |   |   |  1|  6|
+and the kid go [* m:03s:a] home and    |   |   |2 1|   |   |3 3|   |   |  0|  9|
+    sleep .                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  1|  8| 18|  0|  0| 36|  0|  0|  3| 66|
+WARNING: DSS requires 50 complete sentences and this transcript only has 10.
+
+Developmental sentence score:  6.60

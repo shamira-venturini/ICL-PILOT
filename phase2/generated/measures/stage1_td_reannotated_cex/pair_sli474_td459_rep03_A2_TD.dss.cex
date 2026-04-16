@@ -1,0 +1,46 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A2
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep03
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	target_story=A2
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=3
+@Comment:	source_child_id=459
+*CHI:	once upon a time two ducks came to the pool .
+%mor:	sconj|once adp|upon det|a-Ind-Art noun|time num|two noun|duck-Plur
+	verb|come-Fin-Ind-Past-P3-irr adp|to det|the-Def-Art noun|pool .
+%xdss:	Z; A3; Z; C2; Z;
+*CHI:	there was a sign that said dont run .
+%mor:	pron|there-Int-S1 verb|be-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|sign pron|that-Rel verb|say-Fin-Ind-Past-S3-irr
+	pron|dont-Prs-Nom-S2 verb|run-Inf-S .
+%xdss:	C2; Z; A1; C2; D5; C1;
+*CHI:	one duck wanted to go to the water so she started to run .
+%mor:	num|one noun|duck verb|want-Fin-Ind-Past-S3 part|to verb|go-Inf-S
+	adp|to det|the-Def-Art noun|water adv|so pron|she-Prs-Nom-S3
+	verb|start-Fin-Ind-Past-S3 part|to verb|run-Inf-S .
+%xdss:	A3; Z; C2; D3; C1; Z; F5; B2; C2; D3; C1;
+*CHI:	then she slipped and boo booed her knee .
+%mor:	adv|then pron|she-Prs-Nom-S3 verb|slip-Fin-Ind-Past-S3 cconj|and
+	noun|boo verb|booe-Fin-Ind-Past-S3 pron|her-Prs-Gen-S3 noun|knee-Acc
+	.
+%xdss:	B2; C2; F3; Z; C2; B2; Z;
+*CHI:	a helper came and put a bandaid on it .
+%mor:	det|a-Ind-Art noun|helper verb|come-Fin-Ind-Past-S3-irr cconj|and
+	verb|put-Fin-Ind-Past-S3-irr det|a-Ind-Art noun|bandaid-Acc adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; F3; C2; Z; A1; B5;
+*CHI:	then the duck sat on a bench and rested .
+%mor:	adv|then det|the-Def-Art noun|duck verb|sit-Fin-Ind-Past-S3-irr
+	adp|on det|a-Ind-Art noun|bench cconj|and verb|rest-Fin-Ind-Past-S3
+	.
+%xdss:	Z; C2; Z; F3; C2;
+@End

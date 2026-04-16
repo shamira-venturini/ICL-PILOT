@@ -1,0 +1,74 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:27:37 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/bundled_synthetic_children/stage1_td/pair_sli476_td460_rep05_TD_bundle.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+they're playing near the pool .        |   |3  |1  |   |   |   |   |   |  1|  5|
+they got a ball .                      |   |3  |2  |   |   |   |   |   |  1|  6|
+the ball fell in the water .           |   |   |2  |   |   |   |   |   |  1|  3|
+she's going in to get it .             |1  |2 5|1 1|   |   |   |   |   |  1| 12|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+she got it .                           |1  |2 5|2  |   |   |   |   |   |  1| 11|
+it says no running .                   |1  |   |2  |8  |   |   |   |   |  1| 12|
+he started to run to the water .       |   |2  |2 1|3  |   |   |   |   |  1|  9|
+oops he fell down .                    |   |2  |2  |   |   |   |   |   |  1|  5|
+his knee is boo booed .                |   |2  |1 2|4  |   |   |   |   |  1| 10|
+a lifeguard came with a bandage .      |   |   |2  |   |   |   |   |   |  1|  3|
+he sat on the bench .                  |   |2  |2  |   |   |   |   |   |  1|  5|
+now he's resting .                     |   |2  |1 1|   |   |   |   |   |  1|  5|
+There are two dogs near the pool .     |3  |   |1  |   |   |   |   |   |  1|  5|
+They're playing with a toy airplane .  |   |3  |1  |   |   |   |   |   |  1|  5|
+It's so much fun .                     |1  |   |1  |   |   |5  |   |   |  1|  8|
+Then one of the dogs drops the airplane|3  |   |2  |   |   |   |   |   |  1|  6|
+     into the water .                  |   |   |   |   |   |   |   |   |   |   |
+The dog's owner yells .                |   |   |2  |   |   |   |   |   |  1|  3|
+Get it out of the water !              |1  |5  |1  |   |   |   |   |   |  1|  8|
+A lifeguard sees what's happening .    |   |6  |2 1|5  |   |   |   |   |  1| 16|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+The lifeguard gets a long pole .       |   |   |2  |   |   |   |   |   |  1|  3|
+The lifeguard uses the pole to pick up |   |   |2 1|   |   |   |   |   |  1|  4|
+    the airplane .                     |   |   |   |   |   |   |   |   |   |   |
+The owner is happy .                   |   |   |1  |   |   |   |   |   |  1|  2|
+The airplane is back with its owner .  |1  |   |1  |   |   |   |   |   |  1|  3|
+The dogs play together again .         |   |   |1  |   |   |   |   |   |  1|  2|
+they're the dog and the rabbit they're |   |3 3|1  |   |   |3  |   |   |  1| 11|
+    building a sandcastle .            |   |   |   |   |   |   |   |   |   |   |
+the rabbit is using a big shovel .     |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is using a bucket .            |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is pouring sand in the bucket .|   |   |1 1|   |   |   |   |   |  1|  3|
+whoops he spilled it on the castle .   |1  |2 5|2  |   |   |   |   |   |  1| 11|
+the castle is broken .                 |   |   |7 2|   |   |   |   |   |  1| 10|
+the rabbit is crying .                 |   |   |1 1|   |   |   |   |   |  1|  3|
+the dog is saying sorry .              |   |   |1 1|   |   |   |   |   |  1|  3|
+the rabbit is saying okay .            |   |   |1 1|   |   |   |   |   |  1|  3|
+they're building again .               |   |3  |1  |   |   |   |   |   |  1|  5|
+they're [/] they're eating they're     |   |3 3|1 1|5 5|   |3  |   |   |  1| 26|
+    eating they're eating sandwiches   |   |3  |1  |   |   |   |   |   |   |   |
+    and carrots .                      |   |   |   |   |   |   |   |   |   |   |
+the rabbit she's eating too .          |   |2  |1 1|   |   |   |   |   |  1|  5|
+the dog he's eating too .              |   |2  |1 1|   |   |   |   |   |  1|  5|
+she ate too many carrots .             |   |2  |2  |   |   |   |   |   |  1|  5|
+she's got a tummyache .                |   |2  |7 2|   |   |   |   |   |  1| 12|
+she's feeling sick .                   |   |2  |1 1|   |   |   |   |   |  1|  5|
+the doctor is here now .               |   |   |1  |   |   |   |   |   |  1|  2|
+the doctor says take some rest .       |3  |   |2 1|   |   |   |   |   |  1|  7|
+she's lying down .                     |   |2  |1 1|   |   |   |   |   |  1|  5|
+she's sleeping .                       |   |2  |1 1|   |   |   |   |   |  1|  5|
+they're pulling a wagon with a dog and |   |3  |1  |   |   |3  |   |   |  1|  8|
+    a rabbit .                         |   |   |   |   |   |   |   |   |   |   |
+they're got a big red balloon .        |   |3  |7 2|   |   |   |   |   |  1| 13|
+the balloon got away .                 |   |   |2  |   |   |   |   |   |  1|  3|
+it went up in the sky .                |1  |   |2  |   |   |   |   |   |  1|  4|
+they looked around and they was [* m:  |   |3 3|2 2|   |   |3  |   |   |  0| 13|
+    vsg:a] sad .                       |   |   |   |   |   |   |   |   |   |   |
+they went to a man .                   |   |3  |2  |   |   |   |   |   |  1|  6|
+TOTAL                                  | 17| 98|119| 30|  0| 17|  0|  0| 49|330|
+
+Developmental sentence score:  6.60

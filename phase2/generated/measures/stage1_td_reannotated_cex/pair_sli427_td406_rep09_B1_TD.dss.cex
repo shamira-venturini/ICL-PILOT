@@ -1,0 +1,44 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;07.15||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli427_td406_rep09
+@Comment:	pair_id=pair_sli427_td406
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=9
+@Comment:	source_child_id=406
+*CHI:	bunny say [* m:03s:a] let's add sand .
+%mor:	noun|bunny intj|say verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1
+	verb|add-Inf-S noun|sand-Acc .
+%xdss:	Z; B3; D2; C1; Z;
+*CHI:	castle get [* m:03s:a] all squished .
+%mor:	noun|castle aux|get-Fin-Ind-Pres-S det|all-Def-Tot
+	verb|squish-Part-Past-S .
+%xdss:	Z; A3; C2;
+*CHI:	bunny cry [* m:03s:a] and cry [* m:03s:a] .
+%mor:	noun|bunny noun|cry cconj|and verb|cry-Fin-Imp-S .
+%xdss:	Z; Z; F3; C1;
+*CHI:	bunny say [* m:03s:a] i'm sorry doggy .
+%mor:	noun|bunny verb|say-Fin-Imp-S
+	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|sorry-S1 adj|doggy-S1 .
+%xdss:	Z; C1; B1;
+*CHI:	bunny try [* m:03s:a] to fix it .
+%mor:	noun|bunny verb|try-Fin-Imp-S part|to verb|fix-Inf-S
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C1; D3; C1; A1; B5;
+*CHI:	doggy say [* m:03s:a] it's okay bunny .
+%mor:	adj|doggy-S1 verb|say-Fin-Imp-S
+	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-S1 adj|bunny-S1 .
+%xdss:	C1; A1; C1;
+*CHI:	bunny and doggy make new sand castle .
+%mor:	noun|bunny cconj|and adj|doggy-S1 verb|make-Fin-Ind-Pres-P3
+	adj|new-S1 noun|sand noun|castle-Acc .
+%xdss:	Z; F3; C1; Z; Z;
+@End

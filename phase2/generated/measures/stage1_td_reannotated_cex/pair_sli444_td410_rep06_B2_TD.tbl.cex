@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:15 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli444_td410_rep06_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+Rabbit and dog go on a picnic .        |   |   |1  |   |   |3  |   |   |  1|  5|
+They find [* m:base:ed] some sandwiches|3  |3 3|1 1|   |   |3  |   |   |  0| 14|
+     and eat lots of them .            |   |   |   |   |   |   |   |   |   |   |
+I ate lots of sandwiches too .         |   |1  |2  |   |   |   |   |   |  1|  4|
+My tummy feels funny now .             |   |1  |2  |   |   |   |   |   |  1|  4|
+I'm dizzy and my tummy hurts .         |   |1 1|2  |   |   |3  |   |   |  1|  8|
+Rabbit and dog take [* m:03s:a] me to  |   |1  |1  |   |   |3  |   |   |  0|  5|
+    the doctor .                       |   |   |   |   |   |   |   |   |   |   |
+The doctor says I need to rest .       |   |1  |2 1|5 3|   |   |   |   |  1| 14|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+I rest now , my tummy's okay .         |   |1 1|1 1|   |   |   |   |   |  1|  5|
+TOTAL                                  |  3| 14| 16|  8|  0| 12|  0|  0|  6| 59|
+WARNING: DSS requires 50 complete sentences and this transcript only has 8.
+
+Developmental sentence score:  7.38

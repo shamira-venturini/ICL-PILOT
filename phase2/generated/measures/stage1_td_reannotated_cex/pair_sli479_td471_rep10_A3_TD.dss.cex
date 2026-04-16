@@ -1,0 +1,77 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;09.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli479_td471_rep10
+@Comment:	pair_id=pair_sli479_td471
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_04
+@Comment:	replicate_id=10
+@Comment:	source_child_id=471
+*CHI:	Two little ducks were flying their airplane by the pool .
+%mor:	num|two adj|little-S1 noun|duck-Plur aux|be-Fin-Ind-Past-P3-irr
+	verb|fly-Part-Pres-S pron|their-Prs-Gen-P3 noun|airplane-Acc adp|by
+	det|the-Def-Art noun|pool .
+%xdss:	A3; Z; C2; C1; B3; Z; Z;
+*CHI:	They were playing and having fun .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S cconj|and verb|have-Part-Pres-S noun|fun-Acc .
+%xdss:	B3; C2; C1; F3; C1; Z;
+*CHI:	Then one of them got a little too close and the airplane fell into
+	the water with a big splash .
+%mor:	adv|then num|one adp|of pron|they-Prs-Acc-P3
+	verb|get-Fin-Ind-Past-S3-irr det|a-Ind-Art adj|little-S1 adv|too
+	adj|close-S1 cconj|and det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water
+	adp|with det|a-Ind-Art adj|big-S1 noun|splash .
+%xdss:	A3; B3; C2; F3; Z; C2; Z; Z;
+*CHI:	The little duck [* m:0's] owner got so upset .
+%mor:	det|the-Def-Art adj|little-S1 noun|duck noun|owner
+	verb|get-Fin-Ind-Past-S3-irr adv|so adj|upset-S1 .
+%xdss:	Z; Z; C2; F5;
+*CHI:	She said .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	My airplane is in the pool !
+%mor:	pron|my-Prs-Gen-S1 noun|airplane aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool !
+%xdss:	B1; Z; C1; Z;
+*CHI:	A nice lifeguard came and said .
+%mor:	det|a-Ind-Art adj|nice-S1 noun|lifeguard
+	verb|come-Fin-Ind-Past-S3-irr cconj|and verb|say-Fin-Ind-Past-S3-irr
+	.
+%xdss:	Z; C2; F3; C2;
+*CHI:	Don't worry , I can help !
+%mor:	aux|do-Fin-S~part|not verb|worry-Fin-Imp-S pron|I-Prs-Nom-S1
+	aux|can-Fin-S verb|help-Inf-S !
+%xdss:	C4; E4; G6; C1; B1; C4; D2; C1;
+*CHI:	He used his long pole to carefully fish the airplane out of the
+	pool .
+%mor:	pron|he-Prs-Nom-S3 verb|use-Fin-Ind-Past-S3 pron|his-Prs-Gen-S3
+	adj|long-S1 noun|pole-Acc part|to adv|carefully verb|fish-Inf-S
+	det|the-Def-Art noun|airplane-Acc adp|out adp|of det|the-Def-Art
+	noun|pool .
+%xdss:	B2; C2; B2; Z; C1; Z; Z;
+*CHI:	The little duck was so happy to see her airplane again and she
+	hugged it tight .
+%mor:	det|the-Def-Art adj|little-S1 noun|duck aux|be-Fin-Ind-Past-S3-irr
+	adv|so adj|happy-S1 part|to verb|see-Inf-S pron|her-Prs-Gen-S3
+	noun|airplane-Acc adv|again cconj|and pron|she-Prs-Nom-S3
+	verb|hugge-Fin-Ind-Past-S3 pron|it-Prs-Acc-S3 adj|tight-S1 .
+%xdss:	Z; C2; F5; D3; C1; B2; Z; F3; B2; C2; A1; B5;
+*CHI:	Thank you , thank you !
+%mor:	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2
+	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 !
+%xdss:	C1; D5; B5; C1; B5;
+*CHI:	Everyone was happy again and they played some more by the pool .
+%mor:	pron|everyone-Tot-S1 aux|be-Fin-Ind-Past-S3-irr adj|happy-S1
+	adv|again cconj|and pron|they-Prs-Nom-P3 verb|play-Fin-Ind-Past-P3
+	det|some-Def-Ind adj|more-Cmp-S1 adp|by det|the-Def-Art noun|pool .
+%xdss:	A7; C2; F3; B3; C2; A3; A3; Z;
+@End

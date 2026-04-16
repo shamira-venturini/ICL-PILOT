@@ -1,0 +1,76 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli475_td417_rep02
+@Comment:	pair_id=pair_sli475_td417
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=2
+@Comment:	source_child_id=417
+*CHI:	I remember this one .
+%mor:	pron|I-Prs-Nom-S1 verb|remember-Fin-Ind-Pres-S1
+	det|this-Def-Dem-Sing noun|one-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	They were playing and pulling a wagon with a big balloon .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-P3-irr
+	verb|play-Part-Pres-S cconj|and verb|pull-Part-Pres-S det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 noun|balloon .
+%xdss:	B3; C2; C1; F3; C1; Z; Z;
+*CHI:	The balloon was red and had a string .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Past-S3-irr adj|red-S1
+	cconj|and verb|have-Fin-Ind-Past-S3-irr det|a-Ind-Art
+	noun|string-Acc-Ger .
+%xdss:	Z; C2; F3; C2; Z; D8;
+*CHI:	But then the string broke and the balloon went away .
+%mor:	cconj|but adv|then det|the-Def-Art noun|string-Ger
+	verb|break-Fin-Ind-Past-S3-irr cconj|and det|the-Def-Art
+	noun|balloon verb|go-Fin-Ind-Past-S3-irr adv|away .
+%xdss:	F5; Z; D8; C2; F3; Z; C2;
+*CHI:	The children were sad .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|sad-S1 .
+%xdss:	Z; C2;
+*CHI:	They wanted the balloon back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Past-P3 det|the-Def-Art
+	noun|balloon-Acc adv|back .
+%xdss:	B3; C2; Z;
+*CHI:	They went to a lady who sells balloons .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Past-P3-irr adp|to
+	det|a-Ind-Art noun|lady pron|who-Rel verb|sell-Fin-Ind-Pres-S3
+	noun|balloon-Plur-Acc .
+%xdss:	B3; C2; Z; B6; C2; Z;
+*CHI:	She said the balloon is too expensive .
+%mor:	pron|she-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|balloon aux|be-Fin-Ind-Pres-S3 adv|too adj|expensive-S1 .
+%xdss:	B2; C2; Z; C1;
+*CHI:	The children didn't have enough money .
+%mor:	det|the-Def-Art noun|child-Plur aux|do-Fin-Ind-Past-P3-irr~part|not
+	verb|have-Inf-S adj|enough-S1 noun|money-Acc .
+%xdss:	Z; C6; E4; C1; Z;
+*CHI:	The lady smiled and said okay , I can help .
+%mor:	det|the-Def-Art noun|lady verb|smile-Fin-Ind-Past-S3 cconj|and
+	verb|say-Fin-Ind-Past-S3-irr intj|okay pron|I-Prs-Nom-S1
+	aux|can-Fin-S verb|help-Inf-S .
+%xdss:	Z; C2; F3; C2; B1; C4; D2; C1;
+*CHI:	She gave them two new balloons , one yellow and one blue .
+%mor:	pron|she-Prs-Nom-S3 verb|give-Fin-Ind-Past-S3-irr
+	pron|they-Prs-Acc-P3 num|two adj|new-S1 noun|balloon-Plur-Acc
+	num|one noun|yellow cconj|and num|one noun|blue .
+%xdss:	B2; C2; B3; A3; Z; A3; Z; F3; A3; Z;
+*CHI:	The children were happy .
+%mor:	det|the-Def-Art noun|child-Plur aux|be-Fin-Ind-Past-P3-irr
+	adj|happy-S1 .
+%xdss:	Z; C2;
+*CHI:	They hugged the balloons and ran away with their wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|hugge-Fin-Ind-Past-P3 det|the-Def-Art
+	noun|balloon-Plur-Acc cconj|and verb|run-Fin-Ind-Past-P3-irr
+	adv|away adp|with pron|their-Prs-Gen-P3 noun|wagon .
+%xdss:	B3; C2; Z; F3; C2; B3; Z;
+@End

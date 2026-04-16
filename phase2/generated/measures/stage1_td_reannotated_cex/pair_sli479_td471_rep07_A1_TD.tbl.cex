@@ -1,0 +1,28 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:29 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep07_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+One day , my friend and I were playing |3  |1 1|2 1|   |   |3  |   |   |  1| 12|
+    near the pool .                    |   |   |   |   |   |   |   |   |   |   |
+We were playing with a big red ball .  |   |3  |2 1|   |   |   |   |   |  1|  7|
+It fell into the water splash !        |1  |   |2  |   |   |   |   |   |  1|  4|
+I was so sad .                         |   |1  |2  |   |   |5  |   |   |  1|  9|
+My friend said .                       |   |1  |2  |   |   |   |   |   |  1|  4|
+I'll get it !                          |1  |5  |4 1|   |   |   |   |   |  1| 12|
+and she jumped in the pool .           |   |2  |2  |   |   |3  |   |   |  1|  8|
+She swam to the ball and brought it    |1  |2 5|2 2|   |   |3  |   |   |  1| 16|
+    back .                             |   |   |   |   |   |   |   |   |   |   |
+Now we're playing again and we're so   |   |3 3|1  |   |   |3 5|   |   |  1| 16|
+    happy !                            |   |   |   |   |   |   |   |   |   |   |
+TOTAL                                  |  6| 27| 24|  0|  0| 22|  0|  0|  9| 88|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  9.78

@@ -1,0 +1,29 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:28 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli479_td471_rep03_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+me [* s:r:gc:pro] and my doggy were    |   |1 1|2 1|   |   |3  |   |   |  0|  8|
+    building a sandcastle on the beach |   |   |   |   |   |   |   |   |   |   |
+    .                                  |   |   |   |   |   |   |   |   |   |   |
+we were using a big shovel to make it  |1  |3 5|2 1|   |   |   |   |   |  1| 14|
+    tall .                             |   |   |1  |   |   |   |   |   |   |   |
+then my doggy started throwing sand on |   |1  |2 1|7 8|   |   |   |   |  1| 20|
+    the castle with the bucket .       |   |   |   |   |   |   |   |   |   |   |
+all the sand went in the water .       |3  |   |2  |   |   |   |   |   |  1|  6|
+my castle fell down .                  |   |1  |2  |   |   |   |   |   |  1|  4|
+i was sad and started crying .         |   |1  |2 2|7 8|   |3  |   |   |  1| 25|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+my doggy came to me and licked my face |   |1 1|2 2|   |   |3  |   |   |  1| 11|
+    .                                  |   |1  |   |   |   |   |   |   |   |   |
+TOTAL                                  |  4| 16| 23| 30|  0|  9|  0|  0|  6| 88|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score: 12.57

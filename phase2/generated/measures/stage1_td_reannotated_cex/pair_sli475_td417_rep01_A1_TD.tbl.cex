@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:18 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli475_td417_rep01_A1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+me [* s:r:gc:pro] and my doggy were at |   |1 1|2  |   |   |3  |   |   |  0|  7|
+    the pool .                         |   |   |   |   |   |   |   |   |   |   |
+we were playing near the water with a  |   |3  |2 1|   |   |   |   |   |  1|  7|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+it fell in .                           |1  |   |2  |   |   |   |   |   |  1|  4|
+my doggy went in the pool to get it .  |1  |1 5|2 1|   |   |   |   |   |  1| 11|
+she swam under the water and got the   |   |2  |2 2|   |   |3  |   |   |  1| 10|
+    ball .                             |   |   |   |   |   |   |   |   |   |   |
+then she came back and I gave her a big|   |2 1|2 2|   |   |3  |   |   |  1| 13|
+     ol' hug .                         |   |2  |   |   |   |   |   |   |   |   |
+TOTAL                                  |  2| 18| 18|  0|  0|  9|  0|  0|  5| 52|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  8.67

@@ -1,0 +1,71 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;01.27||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli444_td410_rep08
+@Comment:	pair_id=pair_sli444_td410
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=8
+@Comment:	source_child_id=410
+*CHI:	and they're playing .
+%mor:	cconj|and pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3
+	verb|play-Part-Pres-S .
+%xdss:	F3; B3; C1;
+*CHI:	it's on the ground .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|on det|the-Def-Art
+	noun|ground .
+%xdss:	A1; C1; Z;
+*CHI:	and it's near the pool .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|near
+	det|the-Def-Art noun|pool .
+%xdss:	F3; A1; C1; Z;
+*CHI:	it's the kitty's airplane .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|kitty~part|s noun|airplane .
+%xdss:	A1; C1; Z; Z;
+*CHI:	it's the kitty's .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|kitty~part|s .
+%xdss:	A1; C1; Z;
+*CHI:	and the kitty's crying .
+%mor:	cconj|and det|the-Def-Art noun|kitty~part|s noun|cry-Ger .
+%xdss:	F3; Z; Z; D8;
+*CHI:	and the puppy's crying .
+%mor:	cconj|and det|the-Def-Art noun|puppy~part|s noun|cry-Ger .
+%xdss:	F3; Z; Z; D8;
+*CHI:	and he's in the pool .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|in
+	det|the-Def-Art noun|pool .
+%xdss:	F3; B2; C1; Z;
+*CHI:	and he's trying to get it .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|try-Part-Pres-S part|to verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	F3; B2; C1; C1; D3; C1; A1; B5;
+*CHI:	and he's getting it .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Pres-S pron|it-Prs-Acc-S3 .
+%xdss:	F3; B2; C1; C1; A1; B5;
+*CHI:	and he's got it .
+%mor:	cconj|and pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3
+	verb|get-Part-Past-S-irr pron|it-Prs-Acc-S3 .
+%xdss:	F3; B2; C7; C2; A1; B5;
+*CHI:	and the kitty's happy .
+%mor:	cconj|and det|the-Def-Art noun|kitty~aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	F3; Z; C1;
+*CHI:	and the puppy's happy .
+%mor:	cconj|and det|the-Def-Art noun|puppy~aux|be-Fin-Ind-Pres-S3
+	adj|happy-S1 .
+%xdss:	F3; Z; C1;
+*CHI:	and it's the kitty's airplane .
+%mor:	cconj|and pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art
+	noun|kitty~part|s noun|airplane .
+%xdss:	F3; A1; C1; Z; Z;
+@End

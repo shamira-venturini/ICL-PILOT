@@ -1,0 +1,232 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.18||SLI||Target_Child|||
+@Types:	cross, narrative, generated, SLI
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli474_td459_rep01
+@Comment:	pair_id=pair_sli474_td459
+@Comment:	stage=stage2_sli
+@Comment:	group=SLI
+@Comment:	round_id=round_02
+@Comment:	replicate_id=1
+@Comment:	source_child_id=474
+@Comment:	story_slots=A1|A2|A3|B1|B2|B3
+@Comment:	bundled_story_count=6
+@Comment:	bundled_story_start=A1
+*CHI:	my dog and my cat play near the pool .
+%mor:	pron|my-Prs-Gen-S1 noun|dog cconj|and pron|my-Prs-Gen-S1 noun|cat
+	verb|play-Fin-Ind-Pres-P3 adp|near det|the-Def-Art noun|pool .
+%xdss:	B1; Z; F3; B1; Z; C1; Z;
+*CHI:	they have a ball .
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|ball-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	the ball fall [* m:03s:a] into the water splat .
+%mor:	det|the-Def-Art noun|ball verb|fall-Fin-Ind-Pres-S3 adp|into
+	det|the-Def-Art noun|water noun|splat .
+%xdss:	Z; C2; Z; Z;
+*CHI:	my dog go [* m:03s:a] into the pool get [* m:03s:a] it .
+%mor:	pron|my-Prs-Gen-S1 noun|dog verb|go-Fin-Ind-Pres-S adp|into
+	det|the-Def-Art noun|pool verb|get-Inf-S pron|it-Prs-Acc-S3 .
+%xdss:	B1; Z; C1; Z; C1; A1; B5;
+*CHI:	he swim [* m:03s:a] and swim [* m:03s:a] and get [* m:03s:a] it .
+%mor:	pron|he-Prs-Nom-S3 verb|swim-Fin-Ind-Pres-S3 cconj|and
+	verb|swim-Fin-Ind-Pres-S3 cconj|and verb|get-Fin-Ind-Pres-P3
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; F3; C2; F3; C1; A1; B5;
+*CHI:	then my dog come [* m:03s:a] out and give [* m:03s:a] it to me .
+%mor:	adv|then pron|my-Prs-Gen-S1 noun|dog verb|come-Fin-Ind-Pres-S
+	adp|out cconj|and verb|give-Fin-Imp-S pron|it-Prs-Acc-S3 adp|to
+	pron|I-Prs-Acc-S1 .
+%xdss:	B1; Z; C1; F3; C1; A1; B5; B1;
+*CHI:	now my dog and my cat are happy .
+%mor:	adv|now pron|my-Prs-Gen-S1 noun|dog cconj|and pron|my-Prs-Gen-S1
+	noun|cat aux|be-Fin-Ind-Pres-P3 adj|happy-S1 .
+%xdss:	B1; Z; F3; B1; Z; C2;
+@Comment:	bundled_story_start=A2
+*CHI:	this is a monkey and a dog .
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|monkey
+	cconj|and det|a-Ind-Art noun|dog .
+%xdss:	A1; C1; Z; F3; Z;
+*CHI:	they go to the pool .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art
+	noun|pool .
+%xdss:	B3; C1; Z;
+*CHI:	they see a sign that say [* m:03s:a] no running .
+%mor:	pron|they-Prs-Nom-P3 verb|see-Fin-Ind-Pres-P3 det|a-Ind-Art
+	noun|sign-Acc pron|that-Rel verb|say-Fin-Ind-Pres-P3 det|no-Def-Neg
+	noun|running-Acc-Ger .
+%xdss:	B3; C1; Z; A1; C1; Z; D8;
+*CHI:	the dog see [* m:03s:a] the sign but he run [* m:03s:a] anyway .
+%mor:	det|the-Def-Art noun|dog verb|see-Fin-Imp-S det|the-Def-Art
+	noun|sign-Acc cconj|but pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Pres-S3
+	adv|anyway .
+%xdss:	Z; C1; Z; F5; B2; C2;
+*CHI:	he run [* m:03s:a] to the water .
+%mor:	pron|he-Prs-Nom-S3 verb|run-Fin-Ind-Pres-S3 adp|to det|the-Def-Art
+	noun|water .
+%xdss:	B2; C2; Z;
+*CHI:	he slip [* m:base:ed] and hurt his knee .
+%mor:	pron|he-Prs-Nom-S3 verb|slip-Fin-Ind-Pres-S3 cconj|and
+	verb|hurt-Fin-Ind-Past-S3-irr pron|his-Prs-Gen-S3 noun|knee-Acc .
+%xdss:	B2; C2; F3; C2; B2; Z;
+*CHI:	then a man come [* m:03s:a] with a bandaid .
+%mor:	adv|then det|a-Ind-Art noun|man verb|come-Fin-Ind-Pres-S3 adp|with
+	det|a-Ind-Art noun|bandaid .
+%xdss:	Z; C2; Z;
+*CHI:	the dog sit [* m:03s:a] down on a bench and rest .
+%mor:	det|the-Def-Art noun|dog verb|sit-Fin-Ind-Pres-S3 adp|down adp|on
+	det|a-Ind-Art noun|bench cconj|and noun|rest .
+%xdss:	Z; C2; Z; F3; Z;
+@Comment:	bundled_story_start=A3
+*CHI:	once upon a time there were two dogs playin [* m:0ing] with a plane
+	near the pool .
+%mor:	adv|once adp|upon det|a-Ind-Art noun|time pron|there-Int-S1
+	verb|be-Fin-Ind-Past-P3-irr num|two noun|dog-Plur verb|playin-Part-S
+	adp|with det|a-Ind-Art noun|plane adp|near det|the-Def-Art noun|pool
+	.
+%xdss:	Z; C2; A3; Z; C1; Z; Z;
+*CHI:	they was [* m:vsg:a] runnin [* m:0ing] and playin [* m:0ing] .
+%mor:	pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Past-S3-irr adj|runnin-S1
+	cconj|and verb|playin-Part-Pres-S .
+%xdss:	B3; C2; F3; C1;
+*CHI:	then one of the dog drop [* m:03s:a] the plane in the water .
+%mor:	adv|then num|one adp|of det|the-Def-Art noun|dog verb|drop-Fin-S
+	det|the-Def-Art noun|plane-Acc adp|in det|the-Def-Art noun|water .
+%xdss:	A3; Z; C1; Z; Z;
+*CHI:	other dog get [* m:03s:a] very sad .
+%mor:	adj|other-S1 noun|dog verb|get-Fin-Ind-Pres-P3 adv|very adj|sad-S1
+	.
+%xdss:	A3; Z; C1;
+*CHI:	his friend say [* m:03s:a] oh no where is my plane .
+%mor:	pron|his-Prs-Gen-S3 noun|friend verb|say-Fin-Ind-Pres-S3 intj|oh
+	intj|no adv|where aux|be-Fin-Ind-Pres-S3 pron|my-Prs-Gen-S1
+	noun|plane .
+%xdss:	B2; Z; C2; C1; B1; Z;
+*CHI:	then a lifeguard come [* m:03s:a] and he have [* m:vun:a] a long
+	pole .
+%mor:	adv|then det|a-Ind-Art noun|lifeguard verb|come-Fin-Ind-Pres-S3
+	cconj|and pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 det|a-Ind-Art
+	adj|long-S1 noun|pole-Acc .
+%xdss:	Z; C2; F3; B2; C2; Z;
+*CHI:	he say [* m:03s:a] dont [* m:03s:a] worry I get it .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 part|dont
+	verb|worry-Inf-S pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Pres-S1
+	pron|it-Prs-Acc-S3 .
+%xdss:	B2; C2; C1; D5; B1; C1; A1; B5;
+*CHI:	he put pole in water and he get [* m:03s:a] the plane .
+%mor:	pron|he-Prs-Nom-S3 verb|put-Fin-Ind-Past-S3-irr noun|pole-Acc
+	adp|in noun|water cconj|and pron|he-Prs-Nom-S3
+	verb|get-Fin-Ind-Pres-S3 det|the-Def-Art noun|plane-Acc .
+%xdss:	B2; C2; Z; Z; F3; B2; C2; Z;
+*CHI:	the dog was so happy .
+%mor:	det|the-Def-Art noun|dog aux|be-Fin-Ind-Past-S3-irr adv|so
+	adj|happy-S1 .
+%xdss:	Z; C2; F5;
+*CHI:	he say [* m:03s:a] thank you .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3
+	verb|thank-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 .
+%xdss:	B2; C2; C1; B5;
+@Comment:	bundled_story_start=B1
+*CHI:	a rabbit and dog they go to the sandbox .
+%mor:	det|a-Ind-Art noun|rabbit cconj|and noun|dog pron|they-Prs-Nom-P3
+	verb|go-Fin-Ind-Pres-P3 adp|to det|the-Def-Art noun|sandbox .
+%xdss:	Z; F3; Z; B3; C1; Z;
+*CHI:	rabbit says build castle .
+%mor:	noun|rabbit verb|say-Fin-Ind-Pres-S3 verb|build-Inf-S
+	noun|castle-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	dog says yay get the bucket .
+%mor:	noun|dog verb|say-Fin-Ind-Pres-S3 intj|yay verb|get-Fin-Imp-S
+	det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; C2; C1; Z;
+*CHI:	rabbit start [* m:03s:a] building .
+%mor:	noun|rabbit verb|start-Fin-Imp-S noun|building-Acc-Ger .
+%xdss:	Z; C1; Z; D8;
+*CHI:	dog come [* m:03s:a] back with big bucket of sand .
+%mor:	noun|dog verb|come-Fin-Imp-S adv|back adp|with adj|big-S1
+	noun|bucket adp|of noun|sand .
+%xdss:	Z; C1; Z; Z;
+*CHI:	dog say [* m:03s:a] i want add some sand to castle .
+%mor:	noun|dog verb|say-Fin-Imp-S pron|I-Prs-Nom-S1
+	verb|want-Fin-Ind-Pres-S1 verb|add-Inf-S det|some-Def-Ind
+	noun|sand-Acc adp|to noun|castle .
+%xdss:	Z; C1; D5; B1; C1; C1; A3; Z; Z;
+*CHI:	rabbit say [* m:03s:a] careful but dog drop [* m:03s:a] the bucket
+	.
+%mor:	noun|rabbit verb|say-Fin-Imp-S adj|careful-S1 cconj|but noun|dog
+	verb|drop-Fin-S det|the-Def-Art noun|bucket-Acc .
+%xdss:	Z; C1; F5; Z; C1; Z;
+*CHI:	all sand go on castle .
+%mor:	det|all-Def-Tot noun|sand verb|go-Fin-Imp-S adp|on noun|castle .
+%xdss:	A3; Z; C1; Z;
+*CHI:	castle get [* m:03s:a] messy .
+%mor:	noun|castle verb|get-Fin-Imp-S adj|messy-S1 .
+%xdss:	Z; C1;
+*CHI:	rabbit say [* m:03s:a] why you do that .
+%mor:	noun|rabbit verb|say-Fin-Imp-S adv|why pron|you-Prs-Nom-S2
+	verb|do-Fin-Ind-Pres-S2 pron|that-Dem .
+%xdss:	Z; C1; H7; C1; A1;
+*CHI:	dog say [* m:03s:a] sorry .
+%mor:	noun|dog verb|say-Fin-Imp-S adj|sorry-S1 .
+%xdss:	Z; C1;
+*CHI:	rabbit say [* m:03s:a] okay we build again .
+%mor:	noun|rabbit verb|say-Fin-Imp-S intj|okay pron|we-Prs-Nom-P1
+	verb|build-Fin-Ind-Pres-P1 adv|again .
+%xdss:	Z; C1; B3; C1;
+*CHI:	rabbit and dog build another castle .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Fin-Ind-Pres-P3
+	det|another-Def-Ind noun|castle-Acc .
+%xdss:	Z; F3; Z; C1; A3; Z;
+@Comment:	bundled_story_start=B2
+*CHI:	Rabbit and dog got food for the picnic .
+%mor:	noun|rabbit cconj|and noun|dog verb|get-Fin-Ind-Past-S3-irr
+	noun|food-Acc adp|for det|the-Def-Art noun|picnic .
+%xdss:	Z; F3; Z; C2; Z; F8; Z;
+*CHI:	They got carrots and sandwiches .
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3-irr
+	noun|carrot-Plur-Acc cconj|and noun|sandwich-Plur .
+%xdss:	B3; C2; Z; F3; Z;
+*CHI:	We sit on the blanket and eat .
+%mor:	pron|we-Prs-Nom-P1 verb|sit-Fin-Ind-Pres-P1 adp|on det|the-Def-Art
+	noun|blanket cconj|and verb|eat-Fin-Ind-Pres-P1 .
+%xdss:	B3; C1; Z; F3; C1;
+*CHI:	Me [* s:r:gc:pro] eat too many sandwiches .
+%mor:	pron|I-Prs-Acc-S1 verb|eat-Fin-Ind-Pres-S1 adv|too adj|many-S1
+	noun|sandwich-Plur-Acc .
+%xdss:	B1; C1; Z;
+*CHI:	Oh my tummy hurts .
+%mor:	intj|oh pron|my-Prs-Gen-S1 noun|tummy verb|hurt-Fin-Ind-Pres-S3 .
+%xdss:	B1; Z; C2;
+*CHI:	Me [* s:r:gc:pro] feel sick .
+%mor:	pron|I-Prs-Acc-S1 verb|feel-Fin-Ind-Pres-S1 adj|sick-S1 .
+%xdss:	B1; C1;
+*CHI:	Me [* s:r:gc:pro] go see doctor .
+%mor:	pron|I-Prs-Acc-S1 verb|go-Fin-Ind-Pres-S1 verb|see-Fin-Imp-S
+	noun|doctor-Acc .
+%xdss:	B1; C1; C1; Z;
+*CHI:	He look [* m:03s:a] at me and say [* m:03s:a] I have tummyache .
+%mor:	pron|he-Prs-Nom-S3 verb|look-Fin-Ind-Pres-S3 adp|at
+	pron|I-Prs-Acc-S1 cconj|and verb|say-Fin-Ind-Pres-P3
+	pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 noun|tummyache-Acc .
+%xdss:	B2; C2; B1; F3; C1; D5; B1; C1; Z;
+*CHI:	I have to rest now .
+%mor:	pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 part|to verb|rest-Inf-S
+	adv|now .
+%xdss:	B1; C1; D3; C1;
+*CHI:	My tummy will feel better tomorrow .
+%mor:	pron|my-Prs-Gen-S1 noun|tummy aux|will-Fin-S verb|feel-Inf-S
+	adj|good-Cmp-S1 noun|tomorrow .
+%xdss:	B1; Z; C4; D2; C1; Z;
+@Comment:	bundled_story_start=B3
+*CHI:	they pulled a wagon with a big red balloon .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Past-P3 det|a-Ind-Art
+	noun|wagon-Acc adp|with det|a-Ind-Art adj|big-S1 adj|red-S1
+	noun|balloon .
+%xdss:	B3; C2; Z; Z;
+*CHI:	the string came loose .
+%mor:	det|the-Def-Art noun|string-Ger verb|come-Fin-Ind-Past-S3-irr
+	adv|loose .
+%xdss:	Z; D8; C2;

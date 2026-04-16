@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:25 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli478_td419_rep01_B2_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+bunny and doggy go to the park .       |   |   |1  |   |   |3  |   |   |  1|  5|
+they bring sandwiches and carrots .    |   |3  |1  |   |   |3  |   |   |  1|  8|
+little bunny eats too many carrots .   |   |   |2  |   |   |   |   |   |  1|  3|
+bunny feels sick in the tummy .        |   |   |2  |   |   |   |   |   |  1|  3|
+mommy bunny takes bunny to see the     |   |   |2 1|   |   |   |   |   |  1|  4|
+    doctor .                           |   |   |   |   |   |   |   |   |   |   |
+doctor says .                          |   |   |2  |   |   |   |   |   |  1|  3|
+bunny rests on the couch .             |   |   |2  |   |   |   |   |   |  1|  3|
+bunny feels better now .               |   |   |2  |   |   |   |   |   |  1|  3|
+bunny and doggy go home .              |   |   |1  |   |   |3  |   |   |  1|  5|
+TOTAL                                  |  0|  3| 16|  0|  0|  9|  0|  0|  9| 37|
+WARNING: DSS requires 50 complete sentences and this transcript only has 9.
+
+Developmental sentence score:  4.11

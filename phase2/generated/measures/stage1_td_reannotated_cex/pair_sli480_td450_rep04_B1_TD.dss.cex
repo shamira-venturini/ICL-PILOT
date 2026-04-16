@@ -1,0 +1,38 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep04
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=4
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog built a castle .
+%mor:	noun|rabbit cconj|and noun|dog verb|build-Fin-Ind-Past-S3-irr
+	det|a-Ind-Art noun|castle-Acc .
+%xdss:	Z; F3; Z; C2; Z;
+*CHI:	Rabbit used shovel .
+%mor:	propn|Rabbit verb|use-Fin-Ind-Past-S3 noun|shovel-Acc .
+%xdss:	C2; Z;
+*CHI:	Dog threw sand on it .
+%mor:	noun|dog verb|throw-Fin-Ind-Past-S3-irr noun|sand-Acc adp|on
+	pron|it-Prs-Acc-S3 .
+%xdss:	Z; C2; Z; A1; B5;
+*CHI:	Now castle is broken .
+%mor:	adv|now noun|castle aux|be-Fin-Ind-Pres-S3
+	verb|break-Part-Past-S-irr .
+%xdss:	Z; C7; C2;
+*CHI:	Dog is sad .
+%mor:	noun|dog aux|be-Fin-Ind-Pres-S3 adj|sad-S1 .
+%xdss:	Z; C1;
+*CHI:	Dog says sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Pres-S3 adj|sorry-S1 .
+%xdss:	Z; C2;
+@End

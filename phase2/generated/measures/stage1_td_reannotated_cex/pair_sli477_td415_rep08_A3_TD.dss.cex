@@ -1,0 +1,32 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;08.07||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli477_td415_rep08
+@Comment:	pair_id=pair_sli477_td415
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_03
+@Comment:	replicate_id=8
+@Comment:	source_child_id=415
+*CHI:	then airplane fall [* m:03s:a] into the pool .
+%mor:	adv|then noun|airplane verb|fall-Fin-Ind-Pres-S adp|into
+	det|the-Def-Art noun|pool .
+%xdss:	Z; C1; Z;
+*CHI:	she call [* m:03s:a] lifeguard .
+%mor:	pron|she-Prs-Nom-S3 verb|call-Fin-Ind-Pres-S3 noun|lifeguard-Acc .
+%xdss:	B2; C2; Z;
+*CHI:	lifeguard use [* m:03s:a] pole and get [* m:03s:a] airplane .
+%mor:	noun|lifeguard noun|use noun|pole cconj|and verb|get-Fin-Imp-S
+	noun|airplane-Acc .
+%xdss:	Z; Z; Z; F3; C1; Z;
+*CHI:	kitty's mommy give [* m:03s:a] hug .
+%mor:	noun|kitty~part|s noun|mommy verb|give-Fin-Ind-Pres-S3 noun|hug-Acc
+	.
+%xdss:	Z; Z; C2; Z;
+@End

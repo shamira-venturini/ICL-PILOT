@@ -1,0 +1,70 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;03.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli480_td450_rep09
+@Comment:	pair_id=pair_sli480_td450
+@Comment:	target_story=B3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=9
+@Comment:	source_child_id=450
+*CHI:	Rabbit and dog go to park .
+%mor:	noun|rabbit cconj|and noun|dog verb|go-Fin-Ind-Pres-P3 adp|to
+	noun|park .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	They pull wagon .
+%mor:	pron|they-Prs-Nom-P3 verb|pull-Fin-Ind-Pres-P3 noun|wagon-Acc .
+%xdss:	B3; C1; Z;
+*CHI:	Wagon has balloon .
+%mor:	propn|Wagon verb|have-Fin-Ind-Pres-S3 noun|balloon-Acc .
+%xdss:	C2; Z;
+*CHI:	The balloon is red .
+%mor:	det|the-Def-Art noun|balloon aux|be-Fin-Ind-Pres-S3 adj|red-S1 .
+%xdss:	Z; C1;
+*CHI:	It's so pretty .
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|so adj|pretty-S1 .
+%xdss:	A1; C1; F5;
+*CHI:	The balloon come [* m:03s:a] loose .
+%mor:	det|the-Def-Art noun|balloon verb|come-Fin-Ind-Pres-S3 adj|loose-S1
+	.
+%xdss:	Z; C2;
+*CHI:	It go [* m:03s:a] up in air .
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|up adp|in noun|air .
+%xdss:	A1; C2; Z;
+*CHI:	They want balloon back .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 noun|balloon-Acc
+	adv|back .
+%xdss:	B3; C1; Z;
+*CHI:	They go to man .
+%mor:	pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to noun|man .
+%xdss:	B3; C1; Z;
+*CHI:	He has balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|have-Fin-Ind-Pres-S3 noun|balloon-Plur-Acc
+	.
+%xdss:	B2; C2; Z;
+*CHI:	They want one .
+%mor:	pron|they-Prs-Nom-P3 verb|want-Fin-Ind-Pres-P3 num|one .
+%xdss:	B3; C1; A3;
+*CHI:	The man say [* m:03s:a] it cost money .
+%mor:	det|the-Def-Art noun|man verb|say-Fin-Ind-Pres-S3
+	pron|it-Prs-Nom-S3 verb|cost-Fin-Ind-Past-S3-irr noun|money-Acc .
+%xdss:	Z; C2; D5; A1; C2; Z;
+*CHI:	Rabbit and dog have no money .
+%mor:	noun|rabbit cconj|and noun|dog verb|have-Fin-Ind-Pres-P3
+	det|no-Def-Neg noun|money-Acc .
+%xdss:	Z; F3; Z; C1; Z;
+*CHI:	The man help [* m:03s:a] them .
+%mor:	det|the-Def-Art noun|man verb|help-Fin-Ind-Pres-S
+	pron|they-Prs-Acc-P3 .
+%xdss:	Z; C1; B3;
+*CHI:	He say [* m:03s:a] they can have two balloons .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Pres-S3 pron|they-Prs-Nom-P3
+	aux|can-Fin-S verb|have-Inf-S num|two noun|balloon-Plur-Acc .
+%xdss:	B2; C2; B3; C4; D2; C1; A3; Z;
+@End

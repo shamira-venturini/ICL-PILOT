@@ -9,10 +9,10 @@ __pycache__/
 .mypy_cache/
 
 # New pipeline outputs should stay reproducible, not versioned.
-data/
+
 archive/
 docs/
-
+data/
 runs/
 reports/
 *.log

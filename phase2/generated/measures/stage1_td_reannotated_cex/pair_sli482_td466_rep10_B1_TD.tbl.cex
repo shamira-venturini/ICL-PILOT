@@ -1,0 +1,27 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:36 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli482_td466_rep10_B1_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time there was a doggy and |   |3  |2 2|   |   |3  |   |   |  0| 11|
+    a bunny they was [* m:vsg:a]       |   |   |1  |   |   |   |   |   |   |   |
+    building a sandcastle .            |   |   |   |   |   |   |   |   |   |   |
+the bunny was putting sand on the top .|   |   |2 1|   |   |   |   |   |  1|  4|
+the doggy was getting too excited he   |   |2  |2 1|   |   |   |   |   |  1|  8|
+    dumped sand all over the castle .  |   |   |2  |   |   |   |   |   |   |   |
+the castle was all ruined .            |   |   |2 2|   |   |   |   |   |  1|  5|
+the bunny was sad and started to cry . |   |   |2 2|3  |   |3  |   |   |  1| 12|
+                                       |   |   |1  |   |   |   |   |   |   |   |
+the doggy said sorry and they worked   |1  |3 5|2 2|   |   |3  |   |   |  1| 18|
+    together to fix it .               |   |   |1  |   |   |   |   |   |   |   |
+TOTAL                                  |  1| 13| 27|  3|  0|  9|  0|  0|  5| 58|
+WARNING: DSS requires 50 complete sentences and this transcript only has 6.
+
+Developmental sentence score:  9.67

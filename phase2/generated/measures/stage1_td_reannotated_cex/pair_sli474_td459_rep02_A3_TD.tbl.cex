@@ -1,0 +1,26 @@
+dss +t*CHI +deng.cut +lengu
+Mon Apr 13 10:15:16 2026
+dss (29-Jul-2025) is conducting analyses on:
+  ONLY speaker main tiers matching: *CHI;
+    and those speakers' ONLY dependent tiers matching: %MOR:;
+****************************************
+From file </Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/reannotated/stage1_td_reannotated/pair_sli474_td459_rep02_A3_TD.cha>
+@Font:	CAfont:13:7
+
+Developmental Sentence Analysis
+
+           Sentence                    |IP |PP |MV |SV |NG |CNJ|IR |WHQ|  S|TOT|
+once upon a time two dogs were playing |3  |   |2 1|   |   |   |   |   |  0|  6|
+    with a [* m:allo] airplane near the|   |   |   |   |   |   |   |   |   |   |
+     pool .                            |   |   |   |   |   |   |   |   |   |   |
+then the airplane fell into the water .|   |   |2  |   |   |   |   |   |  1|  3|
+the owner got mad .                    |   |   |2  |   |   |   |   |   |  1|  3|
+a lifeguard came and used a long pole  |   |   |2 2|   |   |3  |   |   |  1|  9|
+    to get the airplane out .          |   |   |1  |   |   |   |   |   |   |   |
+the owner was happy again .            |   |   |2  |   |   |   |   |   |  1|  3|
+the dogs were happy too .              |   |   |2  |   |   |   |   |   |  1|  3|
+the airplane was back with the owner . |   |   |2  |   |   |   |   |   |  1|  3|
+TOTAL                                  |  3|  0| 18|  0|  0|  3|  0|  0|  6| 30|
+WARNING: DSS requires 50 complete sentences and this transcript only has 7.
+
+Developmental sentence score:  4.29

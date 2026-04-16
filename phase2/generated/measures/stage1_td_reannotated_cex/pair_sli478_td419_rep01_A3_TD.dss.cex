@@ -1,0 +1,42 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.29||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	A3
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli478_td419_rep01
+@Comment:	pair_id=pair_sli478_td419
+@Comment:	target_story=A3
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_01
+@Comment:	replicate_id=1
+@Comment:	source_child_id=419
+*CHI:	One day two monkey friends were playing with a little airplane near
+	the pool .
+%mor:	num|one noun|day num|two noun|monkey noun|friend-Plur
+	aux|be-Fin-Ind-Past-P3-irr verb|play-Part-Pres-S adp|with
+	det|a-Ind-Art adj|little-S1 noun|airplane adp|near det|the-Def-Art
+	noun|pool .
+%xdss:	A3; Z; A3; Z; Z; C2; C1; Z; Z;
+*CHI:	Then the airplane fell into the water .
+%mor:	adv|then det|the-Def-Art noun|airplane
+	verb|fall-Fin-Ind-Past-S3-irr adp|into det|the-Def-Art noun|water .
+%xdss:	Z; C2; Z;
+*CHI:	A big monkey got mad .
+%mor:	det|a-Ind-Art adj|big-S1 noun|monkey verb|get-Fin-Ind-Past-S3-irr
+	adj|mad-S1 .
+%xdss:	Z; C2;
+*CHI:	A kind lifeguard went into the water with a big pole and got the
+	airplane out .
+%mor:	det|a-Ind-Art noun|kind noun|lifeguard verb|go-Fin-Ind-Past-S3-irr
+	adp|into det|the-Def-Art noun|water adp|with det|a-Ind-Art
+	adj|big-S1 noun|pole cconj|and verb|get-Fin-Ind-Past-S3-irr
+	det|the-Def-Art noun|airplane-Acc adp|out .
+%xdss:	Z; Z; C2; Z; Z; F3; C2; Z;
+*CHI:	Now everyone is happy .
+%mor:	adv|now pron|everyone-Tot-S1 aux|be-Fin-Ind-Pres-S3 adj|happy-S1 .
+%xdss:	A7; C1;
+@End

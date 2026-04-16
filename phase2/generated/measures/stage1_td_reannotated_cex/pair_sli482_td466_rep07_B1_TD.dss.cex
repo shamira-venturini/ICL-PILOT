@@ -1,0 +1,57 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child
+@ID:	eng|ICL-PILOT|CHI|4;05.26||TD||Target_Child|||
+@Types:	cross, narrative, generated, TD
+@G:	B1
+@Comment:	source_csv=/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/test2/four_year_old_rotating_story_generations.csv
+@Comment:	bundle_id=pair_sli482_td466_rep07
+@Comment:	pair_id=pair_sli482_td466
+@Comment:	target_story=B1
+@Comment:	stage=stage1_td
+@Comment:	group=TD
+@Comment:	round_id=round_02
+@Comment:	replicate_id=7
+@Comment:	source_child_id=466
+*CHI:	we built a big castle .
+%mor:	pron|we-Prs-Nom-P1 verb|build-Fin-Ind-Past-P1-irr det|a-Ind-Art
+	adj|big-S1 noun|castle-Acc .
+%xdss:	B3; C2; Z;
+*CHI:	rabbit did the sand .
+%mor:	noun|rabbit verb|do-Fin-Ind-Past-S3-irr det|the-Def-Art
+	noun|sand-Acc .
+%xdss:	Z; C2; Z;
+*CHI:	dog did the wall .
+%mor:	noun|dog verb|do-Fin-Ind-Past-S3-irr det|the-Def-Art noun|wall-Acc
+	.
+%xdss:	Z; C2; Z;
+*CHI:	it was so pretty .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Past-S3-irr adv|so adj|pretty-S1
+	.
+%xdss:	A1; C2; F5;
+*CHI:	dog dumped the bucket .
+%mor:	noun|dog verb|dump-Fin-Ind-Past-S3 det|the-Def-Art noun|bucket-Acc
+	.
+%xdss:	Z; C2; Z;
+*CHI:	now it's all gone .
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|all
+	adj|gone-S1 .
+%xdss:	A1; C1;
+*CHI:	rabbit cried .
+%mor:	noun|rabbit verb|cry-Fin-Ind-Past-S3 .
+%xdss:	Z; C2;
+*CHI:	he said .
+%mor:	pron|he-Prs-Nom-S3 verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	B2; C2;
+*CHI:	dog said sorry .
+%mor:	noun|dog verb|say-Fin-Ind-Past-S3-irr adj|sorry-S1 .
+%xdss:	Z; C2;
+*CHI:	rabbit said .
+%mor:	noun|rabbit verb|say-Fin-Ind-Past-S3-irr .
+%xdss:	Z; C2;
+*CHI:	we can build it again !
+%mor:	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|build-Inf-S
+	pron|it-Prs-Acc-S3 adv|again !
+%xdss:	B3; C4; D2; C1; A1; B5;
+@End

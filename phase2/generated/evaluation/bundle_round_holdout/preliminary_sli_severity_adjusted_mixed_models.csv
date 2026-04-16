@@ -1,0 +1,16 @@
+outcome,model_spec,formula,estimate,std_err,p_value,ci_low,ci_high,n_obs,n_clusters,converged,error
+MLU_Morphemes,age_only,MLU_Morphemes ~ source_is_synthetic + Age_Month,0.8778617365898513,0.3196330074334933,0.006024081415190635,0.25139255374998104,1.5043309194297216,184,85,True,
+MLU_Morphemes,age_plus_severity_core,MLU_Morphemes ~ source_is_synthetic + Age_Month + severity_core_composite,0.7885413579334444,0.2984195338504117,0.008232274048510823,0.20364981930340598,1.3734328965634828,184,85,True,
+MLU_Morphemes,age_plus_severity_band,MLU_Morphemes ~ source_is_synthetic + Age_Month + C(severity_band),0.7624672358164556,0.2973440676708768,0.010339632248177771,0.1796835721648965,1.3452508994680148,184,85,True,
+VOCD_D_optimum_average,age_only,VOCD_D_optimum_average ~ source_is_synthetic + Age_Month,22.035001848193673,3.1138476366731997,1.4788903054127985e-12,15.931972626969038,28.138031069418307,184,85,True,
+VOCD_D_optimum_average,age_plus_severity_core,VOCD_D_optimum_average ~ source_is_synthetic + Age_Month + severity_core_composite,,,,,,184,85,False,Singular matrix
+VOCD_D_optimum_average,age_plus_severity_band,VOCD_D_optimum_average ~ source_is_synthetic + Age_Month + C(severity_band),,,,,,184,85,False,Singular matrix
+DSS_tbl_score,age_only,DSS_tbl_score ~ source_is_synthetic + Age_Month,-0.20173589061479374,0.46745349204889036,0.6660586518037153,-1.1179278994780995,0.7144561182485119,184,85,True,
+DSS_tbl_score,age_plus_severity_core,DSS_tbl_score ~ source_is_synthetic + Age_Month + severity_core_composite,,,,,,184,85,False,Singular matrix
+DSS_tbl_score,age_plus_severity_band,DSS_tbl_score ~ source_is_synthetic + Age_Month + C(severity_band),,,,,,184,85,False,Singular matrix
+DSS_tbl_MV,age_only,DSS_tbl_MV ~ source_is_synthetic + Age_Month,28.445937618209488,7.34774343166278,0.000108219078116475,14.044625124509697,42.847250111909275,184,85,True,
+DSS_tbl_MV,age_plus_severity_core,DSS_tbl_MV ~ source_is_synthetic + Age_Month + severity_core_composite,25.170876834580778,6.1807683208491335,4.6520966344703735e-05,13.05679352893037,37.284960140231185,184,85,True,
+DSS_tbl_MV,age_plus_severity_band,DSS_tbl_MV ~ source_is_synthetic + Age_Month + C(severity_band),24.86074684254893,6.448254947638385,0.0001155299540751081,12.222399382045484,37.499094303052374,184,85,True,
+past_overgeneralization_errors_per_past_opp,age_only,past_overgeneralization_errors_per_past_opp ~ source_is_synthetic + Age_Month,-0.06048426804925261,0.038340824422514054,0.11467082276143449,-0.13563090305495387,0.014662366956448653,184,85,True,
+past_overgeneralization_errors_per_past_opp,age_plus_severity_core,past_overgeneralization_errors_per_past_opp ~ source_is_synthetic + Age_Month + severity_core_composite,-0.04750010274017064,0.03465251338777356,0.17045137240678288,-0.11541778095399888,0.020417575473657586,184,85,True,
+past_overgeneralization_errors_per_past_opp,age_plus_severity_band,past_overgeneralization_errors_per_past_opp ~ source_is_synthetic + Age_Month + C(severity_band),-0.05358845894087607,0.03781897872595014,0.1564909205768365,-0.12771229517582486,0.02053537729407271,184,85,True,
