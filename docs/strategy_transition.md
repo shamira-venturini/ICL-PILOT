@@ -29,4 +29,4 @@ The PDF extraction surfaced a few ambiguous subject IDs in the 5-year-old cohort
 - `568 2`
 - `576 2`
 
-These values are preserved verbatim in the manifest for traceability. Before using the manifest for production generation, they should be normalized against the source transcripts in `data/raw/`.
+These values are preserved verbatim in the manifest for traceability. Before using the manifest for production generation, they should be normalized against the source transcripts in `data/enni_files_4-5/`.

@@ -5,8 +5,14 @@ import argparse
 from .architecture_pilot_cv import build_architecture_loocv_plan
 from .age_adjustment import build_age_adjusted_severity_table
 from .alignment_repair import repair_alignments
-from .batchalign_runner import run_morphotag
-from .batchalign_batch_runner import run_morphotag_batched
+try:
+    from .batchalign_runner import run_morphotag
+    from .batchalign_batch_runner import run_morphotag_batched
+    _HAS_BATCHALIGN_COMMANDS = True
+except ModuleNotFoundError:
+    run_morphotag = None
+    run_morphotag_batched = None
+    _HAS_BATCHALIGN_COMMANDS = False
 from .bundled_text_perplexity import build_bundled_td_text_perplexity, build_bundled_text_perplexity
 from .bundled_text_semantic_eval import build_bundled_text_semantic_evaluation
 from .dss_features import build_dss_feature_table, merge_dss_into_master
@@ -88,6 +94,9 @@ def _cmd_show_manifest(limit: int | None) -> int:
 
 
 def _cmd_run_batchalign_morphotag(args: argparse.Namespace) -> int:
+    if run_morphotag is None:
+        print("Batchalign commands are unavailable because batchalign modules were removed from src/icl_pilot.")
+        return 2
     return run_morphotag(
         input_dir=args.input_dir,
         output_dir=args.output_dir,
@@ -101,6 +110,9 @@ def _cmd_run_batchalign_morphotag(args: argparse.Namespace) -> int:
 
 
 def _cmd_run_batchalign_morphotag_batched(args: argparse.Namespace) -> int:
+    if run_morphotag_batched is None:
+        print("Batchalign commands are unavailable because batchalign modules were removed from src/icl_pilot.")
+        return 2
     return run_morphotag_batched(
         input_dir=args.input_dir,
         output_dir=args.output_dir,
@@ -404,27 +416,28 @@ def build_parser() -> argparse.ArgumentParser:
     manifest_parser = subparsers.add_parser("show-manifest")
     manifest_parser.add_argument("--limit", type=int, default=None)
 
-    batchalign_parser = subparsers.add_parser("run-batchalign-morphotag")
-    batchalign_parser.add_argument("input_dir")
-    batchalign_parser.add_argument("output_dir")
-    batchalign_parser.add_argument("--retokenize", action="store_true")
-    batchalign_parser.add_argument("--lexicon", default=None)
-    batchalign_parser.add_argument("--override-cache", action="store_true")
-    batchalign_parser.add_argument("--force-cpu", action="store_true")
-    batchalign_parser.add_argument("--workers", type=int, default=None)
-    batchalign_parser.add_argument("--dry-run", action="store_true")
+    if _HAS_BATCHALIGN_COMMANDS:
+        batchalign_parser = subparsers.add_parser("run-batchalign-morphotag")
+        batchalign_parser.add_argument("input_dir")
+        batchalign_parser.add_argument("output_dir")
+        batchalign_parser.add_argument("--retokenize", action="store_true")
+        batchalign_parser.add_argument("--lexicon", default=None)
+        batchalign_parser.add_argument("--override-cache", action="store_true")
+        batchalign_parser.add_argument("--force-cpu", action="store_true")
+        batchalign_parser.add_argument("--workers", type=int, default=None)
+        batchalign_parser.add_argument("--dry-run", action="store_true")
 
-    batchalign_batched_parser = subparsers.add_parser("run-batchalign-morphotag-batched")
-    batchalign_batched_parser.add_argument("input_dir")
-    batchalign_batched_parser.add_argument("output_dir")
-    batchalign_batched_parser.add_argument("--batch-size", type=int, default=200)
-    batchalign_batched_parser.add_argument("--retokenize", action="store_true")
-    batchalign_batched_parser.add_argument("--lexicon", default=None)
-    batchalign_batched_parser.add_argument("--manifest-csv", default=None)
-    batchalign_batched_parser.add_argument("--start-batch", type=int, default=1)
-    batchalign_batched_parser.add_argument("--max-batches", type=int, default=None)
-    batchalign_batched_parser.add_argument("--no-skip-existing", action="store_true")
-    batchalign_batched_parser.add_argument("--dry-run", action="store_true")
+        batchalign_batched_parser = subparsers.add_parser("run-batchalign-morphotag-batched")
+        batchalign_batched_parser.add_argument("input_dir")
+        batchalign_batched_parser.add_argument("output_dir")
+        batchalign_batched_parser.add_argument("--batch-size", type=int, default=200)
+        batchalign_batched_parser.add_argument("--retokenize", action="store_true")
+        batchalign_batched_parser.add_argument("--lexicon", default=None)
+        batchalign_batched_parser.add_argument("--manifest-csv", default=None)
+        batchalign_batched_parser.add_argument("--start-batch", type=int, default=1)
+        batchalign_batched_parser.add_argument("--max-batches", type=int, default=None)
+        batchalign_batched_parser.add_argument("--no-skip-existing", action="store_true")
+        batchalign_batched_parser.add_argument("--dry-run", action="store_true")
 
     filelist_parser = subparsers.add_parser("write-cha-filelist")
     filelist_parser.add_argument("input_dir")

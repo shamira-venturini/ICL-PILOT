@@ -3,24 +3,22 @@
 This repository is now split into two clear areas:
 
 - `data/`, `configs/`, `docs/`, and `src/icl_pilot/` hold the clean scaffold for the next generation pipeline based on the sample-wise multi-step strategy described in the project report.
-- `legacy/phase1_prompting/` preserves the earlier exploratory prompting experiments, scripts, and outputs without letting them dominate the working tree.
+- `archive/phase1_prompting/` preserves the earlier exploratory prompting experiments, scripts, and outputs without letting them dominate the working tree.
 
 ## Repository layout
 
-- `data/raw/enni/`: original ENNI corpus files as currently available in this repo.
-- `data/raw/story_units/`: story-level extracted or normalized CHAT files from the previous phase.
-- `data/interim/`: reproducible intermediate tables created from raw sources.
+- `data/enni_files_4-5/`: original ENNI corpus files (SLI and TD) as currently available in this repo.
 - `data/processed/`: prompt-ready manifests and normalized datasets for the new strategy.
 - `data/generated/`: new TD stage-1 and DLD stage-2 generations.
-- `data/evaluation/`: evaluation-ready exports and metrics.
+- `phase2/generated/evaluation/`: evaluation-ready exports and metrics.
 - `configs/generation/`: checked-in configuration files derived from the revised strategy in the report.
 - `docs/`: transition notes and strategy documentation.
-- `legacy/phase1_prompting/`: preserved phase-1 code, outputs, and generated artifacts.
+- `archive/phase1_prompting/`: preserved phase-1 code, outputs, and generated artifacts.
 - `src/icl_pilot/`: small package scaffold for building the new pipeline as code instead of one-off scripts.
 
 ## Next-step workflow
 
-1. Normalize and validate the raw source locations under `data/raw/`.
+1. Normalize and validate the source transcript locations under `data/enni_files_4-5/` and `data/annotated/ENNI_batchalign/`.
 2. Build reproducible extraction and pairing steps against the manifests in `configs/generation/`.
 3. Implement stage-1 TD baseline generation and stage-2 TD-to-DLD transformation in `src/icl_pilot/`.
 4. Save all new outputs under `data/`, not at the repository root.
@@ -34,8 +32,8 @@ PYTHONPATH=src python -m icl_pilot validate-layout
 PYTHONPATH=src python -m icl_pilot show-counterbalance
 PYTHONPATH=src python -m icl_pilot show-manifest --limit 5
 PYTHONPATH=src python -m icl_pilot write-cha-filelist \
-  data/annotated/ENNI_annotated \
-  data/interim/clan/enni_annotated.cut
+  data/annotated/ENNI_batchalign \
+  phase2/ENNI/measures/enni_batchalign.cut
 ```
 
 The severity-profiling workflow and CLAN command set are documented in `docs/severity_profiling_plan.md`.

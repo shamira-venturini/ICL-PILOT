@@ -1,7 +1,0 @@
-pair_id,round_id,target_story_set,target_story,prompt_td_child_id,prompt_td_age,prompt_td_story_target,prompt_td_story_e1,prompt_sli_child_id,prompt_sli_age,prompt_sli_story_e2,holdout_policy,notes
-pair_407_444,1,A,A1,407,4;02.18,A1,B2,444,4;02.04,B1,exclude both prompt children from evaluation in this round,pre-registered cycle; A-side
-pair_407_444,2,A,A2,407,4;02.18,A2,B1,444,4;02.04,B3,exclude both prompt children from evaluation in this round,pre-registered cycle; A-side
-pair_407_444,3,A,A3,407,4;02.18,A3,B3,444,4;02.04,B2,exclude both prompt children from evaluation in this round,pre-registered cycle; A-side
-pair_407_444,4,B,B1,407,4;02.18,B1,A1,444,4;02.04,A2,exclude both prompt children from evaluation in this round,pre-registered cycle; B-side
-pair_407_444,5,B,B2,407,4;02.18,B2,A1,444,4;02.04,A3,exclude both prompt children from evaluation in this round,pre-registered cycle; B-side
-pair_407_444,6,B,B3,407,4;02.18,B3,A2,444,4;02.04,A1,exclude both prompt children from evaluation in this round,pre-registered cycle; B-side
