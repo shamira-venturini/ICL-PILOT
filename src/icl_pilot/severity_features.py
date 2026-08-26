@@ -46,6 +46,8 @@ _KEEP_ORDER = [
     "bare_marking_errors_per_word",
     "pronoun_errors_per_word",
     "past_overgeneralization_errors_per_past_opp",
+    "agreement_errors_per_word",
+    "agreement_errors_per_finite_verb",
 ]
 
 
@@ -109,6 +111,10 @@ _COLUMN_DECISIONS: dict[str, tuple[str, str, str]] = {
     "past_verb_opportunities": ("drop", "denominator_component", "Total denominator for the past overgeneralization rate; retained in the master archive only."),
     "past_overgeneralization_errors": ("drop", "raw_count_archival", "Raw count retained in the master archive; severity modeling uses the opportunity-based rate."),
     "past_overgeneralization_errors_per_past_opp": ("keep", "feature_rate", "Past overgeneralization normalized by overt past finite verbs plus explicit bare-past error tokens."),
+    "agreement_errors": ("drop", "raw_count_archival", "Raw agreement-error count retained in the master archive; severity modeling uses normalized rates."),
+    "agreement_errors_per_utt": ("drop", "rate_not_selected", "Per-utterance agreement rate retained in archive only; main severity table uses per-word and per-finite-verb normalization."),
+    "agreement_errors_per_word": ("keep", "feature_rate", "Agreement error rate normalized by total word count."),
+    "agreement_errors_per_finite_verb": ("keep", "feature_rate", "Agreement error rate normalized by finite lexical verb opportunities."),
     "Language": ("drop", "constant", "Constant provenance column; no analytical value."),
     "Corpus": ("drop", "constant", "Constant provenance column; no analytical value."),
     "Code": ("drop", "constant", "Constant provenance column; no analytical value."),

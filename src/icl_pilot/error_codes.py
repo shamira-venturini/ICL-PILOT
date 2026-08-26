@@ -7,16 +7,13 @@ from collections import Counter
 from pathlib import Path
 
 
-_FILE_ID_RE = re.compile(r"(\d+)\.cha$")
 _ERROR_RE = re.compile(r"\[\*\s+([^\]]+)\]")
 
 
 def _extract_file_id(path: Path) -> str:
-    match = _FILE_ID_RE.search(path.name)
-    if match:
-        return match.group(1)
-    if path.name.endswith(".cha"):
-        return path.name[:-4]
+    name = path.name
+    if name.endswith(".cha"):
+        return name[:-4]
     return path.stem
 
 

@@ -61,8 +61,14 @@ def _iter_chi_blocks(path: Path) -> list[dict[str, str]]:
             continue
         if line.startswith("%umor:"):
             current["umor"] = _after_tab(line)
+        elif line.startswith("%mor:"):
+            # Fallback for corpora that only provide %mor.
+            current.setdefault("umor", _after_tab(line))
         elif line.startswith("%ugra:"):
             current["ugra"] = _after_tab(line)
+        elif line.startswith("%gra:"):
+            # Fallback for corpora that only provide %gra.
+            current.setdefault("ugra", _after_tab(line))
         elif line.startswith("@"):
             blocks.append(current)
             current = None

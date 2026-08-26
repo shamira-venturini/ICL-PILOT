@@ -7,7 +7,6 @@ from collections import defaultdict
 from pathlib import Path
 
 
-_FILE_ID_RE = re.compile(r"(\d+)(?:\.cha|\.tbl\.cex)?$")
 _FROM_FILE_RE = re.compile(r"^From file <(.+)>$")
 _HEADER_RE = re.compile(r"^\s+Sentence\s+\|")
 _TOTAL_RE = re.compile(r"^TOTAL\s+\|")
@@ -15,11 +14,7 @@ _SCORE_RE = re.compile(r"^Developmental sentence score:\s+(.+)$")
 
 
 def _extract_file_id(value: str) -> str:
-    match = _FILE_ID_RE.search(value)
-    if match:
-        return match.group(1)
-
-    synthetic_id = value
+    synthetic_id = Path(str(value)).name
     for suffix in (".tbl.cex", ".dss.cex", ".cha"):
         if synthetic_id.endswith(suffix):
             synthetic_id = synthetic_id[: -len(suffix)]

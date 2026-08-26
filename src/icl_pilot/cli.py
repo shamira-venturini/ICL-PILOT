@@ -148,7 +148,11 @@ def _cmd_promote_batchalign_tiers(args: argparse.Namespace) -> int:
 
 
 def _cmd_strip_legacy_tiers(args: argparse.Namespace) -> int:
-    return strip_tiers(root_dir=args.input_dir, dry_run=args.dry_run)
+    return strip_tiers(
+        root_dir=args.input_dir,
+        dry_run=args.dry_run,
+        summary_json=args.summary_json,
+    )
 
 
 def _cmd_build_dss_feature_table(args: argparse.Namespace) -> int:
@@ -459,9 +463,15 @@ def build_parser() -> argparse.ArgumentParser:
     promote_parser.add_argument("input_dir")
     promote_parser.add_argument("--dry-run", action="store_true")
 
-    strip_parser = subparsers.add_parser("strip-legacy-mor-gra")
-    strip_parser.add_argument("input_dir")
+    strip_parser = subparsers.add_parser("strip-morphosyntactic-tiers")
+    strip_parser.add_argument("input_dir", nargs="+")
+    strip_parser.add_argument("--summary-json", default=None)
     strip_parser.add_argument("--dry-run", action="store_true")
+
+    legacy_strip_parser = subparsers.add_parser("strip-legacy-mor-gra")
+    legacy_strip_parser.add_argument("input_dir", nargs="+")
+    legacy_strip_parser.add_argument("--summary-json", default=None)
+    legacy_strip_parser.add_argument("--dry-run", action="store_true")
 
     dss_table_parser = subparsers.add_parser("build-dss-feature-table")
     dss_table_parser.add_argument("dss_dir")
@@ -665,7 +675,7 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_normalize_quote_terminators(args)
     if args.command == "promote-batchalign-tiers":
         return _cmd_promote_batchalign_tiers(args)
-    if args.command == "strip-legacy-mor-gra":
+    if args.command in {"strip-morphosyntactic-tiers", "strip-legacy-mor-gra"}:
         return _cmd_strip_legacy_tiers(args)
     if args.command == "build-dss-feature-table":
         return _cmd_build_dss_feature_table(args)
