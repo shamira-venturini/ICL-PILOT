@@ -1,0 +1,90 @@
+{
+  "inputs": {
+    "enni": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/severity_features_raw_real.csv",
+    "gillam": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/Gillam/measures/severity_features_raw_real.csv",
+    "pooled": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/severity_features_raw_real.csv"
+  },
+  "full_counts": {
+    "enni": {
+      "n": 360,
+      "groups": {
+        "SLI": 74,
+        "TD": 286
+      }
+    },
+    "gillam": {
+      "n": 116,
+      "groups": {
+        "SLI": 92,
+        "TD": 24
+      }
+    },
+    "pooled": {
+      "n": 476,
+      "groups": {
+        "SLI": 166,
+        "TD": 310
+      }
+    }
+  },
+  "python_evaluation_window_counts": {
+    "enni": {
+      "n": 235,
+      "groups": {
+        "SLI": 47,
+        "TD": 188
+      }
+    },
+    "gillam": {
+      "n": 116,
+      "groups": {
+        "SLI": 92,
+        "TD": 24
+      }
+    },
+    "pooled": {
+      "n": 351,
+      "groups": {
+        "SLI": 139,
+        "TD": 212
+      }
+    }
+  },
+  "pooled_is_exact_enni_then_gillam_concatenation": true,
+  "file_id_overlap": {
+    "enni_gillam": 0,
+    "pooled_gillam": 116,
+    "gillam_unique_ids": 116
+  },
+  "saved_external_gillam_evaluation": {
+    "summary": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_summary.json",
+    "training_real_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/generated/measures/severity_features_raw_real.csv",
+    "training_real_csv_evidence": "The saved summary records real_overlap n=351 with TD=212 and SLI=139, exactly matching the pooled table in the evaluation window; the runner default is the pooled path.",
+    "holdout_csv": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/Gillam/measures/severity_features_raw_real.csv",
+    "holdout_unique_ids_present_in_training_real_csv": 116,
+    "is_independent_by_file_id": false,
+    "interpretation": "The saved external Gillam result is not an independent external test because the pooled training table already contains every Gillam File_ID."
+  },
+  "saved_text_evaluations": {
+    "summaries": [
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_summary.json",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_bert_text_classification_bundlelevel_zipreal_summary.json"
+    ],
+    "real_csvs": [
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/severity_features_raw_real.csv",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/phase2/ENNI/measures/severity_features_raw_real.csv"
+    ],
+    "real_group_counts": [
+      {
+        "SLI": 47,
+        "TD": 188
+      },
+      {
+        "SLI": 47,
+        "TD": 188
+      }
+    ],
+    "enni_evaluation_file_ids_overlapping_gillam_ids": 0,
+    "interpretation": "The saved TF-IDF and BERT text evaluations already used the ENNI-only real feature table. Their Gillam CHAT search root added no text for ENNI evaluation IDs, because the File_ID sets are disjoint. They are not Gillam-affected evaluation branches."
+  }
+}

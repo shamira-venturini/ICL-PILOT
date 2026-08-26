@@ -1,0 +1,21 @@
+{
+  "output_csv": "phase2/Gillam/text/gillam_external_text_records.csv",
+  "document_unit": "one complete child transcript",
+  "intended_use": "external test only; never append to ENNI training or generic real-vs-synthetic corpora",
+  "measures_source": {
+    "path": "phase2/Gillam/measures/severity_features_raw_real.csv",
+    "sha256": "9128b1a874040af68024bf9f643a30d143fa61eff320b060ffcc0c238b58735f"
+  },
+  "transcript_root": "phase2/Gillam",
+  "text_normalization": "chat_child_text_v1",
+  "records_by_group": {
+    "SLI": 92,
+    "TD": 24
+  },
+  "records_by_cohort": {
+    "5": 17,
+    "6": 41,
+    "7": 58
+  },
+  "total_records": 116
+}

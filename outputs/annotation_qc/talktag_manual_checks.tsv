@@ -1,0 +1,152 @@
+file	line	status	current	source	reason
+data/generated/4_year_old/reannotated_talktag/stage1_td_reannotated/pair_sli476_td460_rep10_B2_TD.cha	32	CHECK	"*CHI:	they're eating ."	"*CHI:	they're eating [/] eating [/] eating."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli427_td406_rep03_B2_SLI.cha	92	CHECK	"*CHI:	is happy ."	"*CHI:	Original story rewritten : is happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli427_td406_rep08_A1_SLI.cha	52	CHECK		"*CHI:	Rewritten narrative : is like two ducks ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli444_td410_rep01_B1_SLI.cha	92	CHECK		"*CHI:	(I replaced the main characters to match the target story and made minor adjustments to the style to fit the example , but it does not match the target story as requested ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli444_td410_rep01_B1_SLI.cha	92	CHECK		"*CHI:	Let me try again .) dog and elephant ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep02_A2_SLI.cha	32	CHECK	"*CHI:	there is a sign ."	"*CHI:	there (i)s a sign."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep02_A2_SLI.cha	57	CHECK	"*CHI:	he is rushing he ."	"*CHI:	he (i)s rushing he ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep02_A2_SLI.cha	62	CHECK	"*CHI:	then he is slip [* m:0ing] he is hurt [* m:03s:a] his knee ."	"*CHI:	then he (i)s slip he (i)s hurt his knee ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep02_A2_SLI.cha	67	CHECK	"*CHI:	he is owwww ."	"*CHI:	he (i)s owwww ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep02_A2_SLI.cha	87	CHECK	"*CHI:	he is resting ."	"*CHI:	he (i)s resting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep03_A2_SLI.cha	37	CHECK	"*CHI:	he is the duck ."	"*CHI:	he (i)s the duck ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep09_A1_SLI.cha	27	CHECK	"*CHI:	he is the duck ."	"*CHI:	he (i)s the duck ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	17	CHECK	"*CHI:	he is playing ."	"*CHI:	he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	22	CHECK	"*CHI:	he is (.) throwing it ."	"*CHI:	he (i)s ( .) throwing it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	27	CHECK	"*CHI:	he is in the water ."	"*CHI:	he (i)s in the water ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	32	CHECK	"*CHI:	she is (.) sad ."	"*CHI:	she (i)s ( .) sad ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	37	CHECK	"*CHI:	he is (.) mad ."	"*CHI:	he (i)s ( .) mad ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	42	CHECK	"*CHI:	he is (.) trying ."	"*CHI:	he (i)s ( .) trying ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	47	CHECK	"*CHI:	he is got a stick ."	"*CHI:	he (i)s got a stick ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	52	CHECK	"*CHI:	he is long ."	"*CHI:	he (i)s long ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	57	CHECK	"*CHI:	he is strong ."	"*CHI:	he (i)s strong ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	62	CHECK	"*CHI:	he is (.) reaching ."	"*CHI:	he (i)s ( .) reaching ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	67	CHECK	"*CHI:	he is got it ."	"*CHI:	he (i)s got it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	72	CHECK	"*CHI:	he is (.) pulling ."	"*CHI:	he (i)s ( .) pulling ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	77	CHECK	"*CHI:	he is out ."	"*CHI:	he (i)s out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	82	CHECK	"*CHI:	he is wet ."	"*CHI:	he (i)s wet ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	87	CHECK	"*CHI:	he is happy ."	"*CHI:	he (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	92	CHECK	"*CHI:	they is [* m:vsg:a] happy ."	"*CHI:	they (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep01_A3_SLI.cha	97	CHECK	"*CHI:	they is [* m:vsg:a] hugging ."	"*CHI:	they (i)s ( .) hugging ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A1_SLI.cha	22	CHECK	"*CHI:	he's is in the water ."	"*CHI:	he's (i)s in the water ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A1_SLI.cha	27	CHECK	"*CHI:	he is getting it ."	"*CHI:	he (i)s getting it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A1_SLI.cha	32	CHECK	"*CHI:	he is out ."	"*CHI:	he (i)s out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A1_SLI.cha	37	CHECK	"*CHI:	he's is [* m:vsg:a] happy ."	"*CHI:	he's (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	22	CHECK	"*CHI:	he's he is finished ."	"*CHI:	he's he (i)s finished ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	27	CHECK	"*CHI:	he is dumping it out ."	"*CHI:	he (i)s dumping it out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	47	CHECK	"*CHI:	he's he is finished ."	"*CHI:	he's he (i)s finished ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	52	CHECK	"*CHI:	he is dumping it out ."	"*CHI:	he (i)s dumping it out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	47	CHECK		"*CHI:	Rewritten narrative : he's running ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	72	CHECK		"*CHI:	Preserved events : 1 ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	72	CHECK		"*CHI:	Two animals approach the pool area - Original : a monkey and a kitty went to the pool place ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	72	CHECK		"*CHI:	- Rewritten : he's running 2 ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	72	CHECK		"*CHI:	One animal starts to run toward the water or jumping board - Original : but the monkey didnt listen ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	77	CHECK		"*CHI:	- Rewritten : he's running 3 ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	82	CHECK		"*CHI:	- Original : oops !"	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha	82	CHECK		"*CHI:	- Rewritten ."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A1_SLI.cha	52	CHECK	"*CHI:	kitty is (.) smiling ."	"*CHI:	kitty (i)s ( .) smiling ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A1_SLI.cha	57	CHECK	"*CHI:	kitty is happy ."	"*CHI:	kitty (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A2_SLI.cha	42	CHECK	"*CHI:	but he is (.) rushing ."	"*CHI:	but he (i)s ( .) rushing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A2_SLI.cha	67	CHECK	"*CHI:	a nice lady is coming ."	"*CHI:	a nice lady (i)s coming ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A2_SLI.cha	72	CHECK	"*CHI:	she is bringing a bandage ."	"*CHI:	she (i)s bringing a bandage ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A2_SLI.cha	82	CHECK	"*CHI:	kitty friend is sitting ."	"*CHI:	kitty friend (i)s sitting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep03_A2_SLI.cha	92	CHECK	"*CHI:	he is resting ."	"*CHI:	he (i)s resting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	17	CHECK	"*CHI:	He's playing he is playing ."	"*CHI:	He's playing he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	27	CHECK	"*CHI:	and he's is throwing it ."	"*CHI:	and he's (i)s throwing it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	37	CHECK	"*CHI:	he's is sad ."	"*CHI:	he's (i)s sad ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	42	CHECK	"*CHI:	and his friend is helping ."	"*CHI:	and his friend (i)s helping ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	47	CHECK	"*CHI:	and a lifeguard is coming ."	"*CHI:	and a lifeguard (i)s coming ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	57	CHECK	"*CHI:	the toy is [/] is out ."	"*CHI:	the toy is (i)s out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	62	CHECK	"*CHI:	and he's is happy ."	"*CHI:	and he's (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_A3_SLI.cha	72	CHECK	"*CHI:	he's is smiling ."	"*CHI:	he's (i)s smiling ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A1_SLI.cha	22	CHECK	"*CHI:	they is [* m:vsg:a] playing ."	"*CHI:	they (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A1_SLI.cha	37	CHECK	"*CHI:	she is getting it ."	"*CHI:	she (i)s getting it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A1_SLI.cha	42	CHECK	"*CHI:	she is bringing it out ."	"*CHI:	she (i)s bringing it out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A1_SLI.cha	47	CHECK	"*CHI:	they is [* m:vsg:a] happy again ."	"*CHI:	they (i)s happy again ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	27	CHECK	"*CHI:	there is a sign ."	"*CHI:	there (i)s a sign."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	38	CHECK	"*CHI:	he is running ."	"*CHI:	he (i)s running ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	51	CHECK	"*CHI:	he is hurtin [* m:0ing] his knee ."	"*CHI:	he (i)s hurtin his knee ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	56	CHECK	"*CHI:	he is on the ground ."	"*CHI:	he (i)s on the ground ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	61	CHECK	"*CHI:	a lifeguard is coming ."	"*CHI:	a lifeguard (i)s coming ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	66	CHECK	"*CHI:	he is bringing a bandage ."	"*CHI:	he (i)s bringing a bandage ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A2_SLI.cha	81	CHECK	"*CHI:	kitty is resting ."	"*CHI:	kitty (i)s resting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	17	CHECK	"*CHI:	he is playing ."	"*CHI:	he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	22	CHECK	"*CHI:	kitty and birdie is playing ."	"*CHI:	kitty and birdie (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	27	CHECK	"*CHI:	they is [* m:vsg:a] having fun ."	"*CHI:	they (i)s having fun ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	37	CHECK	"*CHI:	they is [* m:vsg:a] playing with airplane ."	"*CHI:	they (i)s playing with airplane ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	42	CHECK	"*CHI:	but kitty is (.) dropping ."	"*CHI:	but kitty (i)s ( .) dropping ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	47	CHECK	"*CHI:	airplane is going in ."	"*CHI:	airplane (i)s going in ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	52	CHECK	"*CHI:	kitty's owner is (.) oh no ."	"*CHI:	kitty's owner (i)s ( .) oh no ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	57	CHECK	"*CHI:	someone is (.) throwing ."	"*CHI:	someone (i)s ( .) throwing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	62	CHECK	"*CHI:	it is floating away ."	"*CHI:	it (i)s floating away ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	67	CHECK	"*CHI:	then is a man (.) he is (.) coming ."	"*CHI:	then (i)s a man ( .) he (i)s ( .) coming ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	72	CHECK	"*CHI:	he is (.) got it ."	"*CHI:	he (i)s ( .) got it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	77	CHECK	"*CHI:	kitty's owner is (.) happy ."	"*CHI:	kitty's owner (i)s ( .) happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_A3_SLI.cha	82	CHECK	"*CHI:	kitty is (.) happy too ."	"*CHI:	kitty (i)s ( .) happy too ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	22	CHECK	"*CHI:	he is with his friend ."	"*CHI:	he (i)s with his friend ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	27	CHECK	"*CHI:	there is a sign ."	"*CHI:	there (i)s a sign ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	37	CHECK	"*CHI:	the tiger is rushing ."	"*CHI:	the tiger (i)s rushing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	52	CHECK	"*CHI:	he is slipping ."	"*CHI:	he (i)s slipping ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	57	CHECK	"*CHI:	he is (.) hurting his knee ."	"*CHI:	he (i)s ( .) hurting his knee ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	62	CHECK	"*CHI:	a lady is coming ."	"*CHI:	a lady (i)s coming ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	67	CHECK	"*CHI:	she is bringing a bandage ."	"*CHI:	she (i)s bringing a bandage ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	72	CHECK	"*CHI:	she is putting it on ."	"*CHI:	she (i)s putting it on ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A2_SLI.cha	77	CHECK	"*CHI:	he is sitting ."	"*CHI:	he (i)s sitting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	17	CHECK	"*CHI:	he is playing ."	"*CHI:	he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	22	CHECK	"*CHI:	he is playing ."	"*CHI:	he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	27	CHECK	"*CHI:	they is [* m:vsg:a] playing ."	"*CHI:	they (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	32	CHECK	"*CHI:	he is (.) throwing ."	"*CHI:	he (i)s ( .) throwing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	37	CHECK	"*CHI:	(.) taking it in ."	"*CHI:	or he (i)s ( .) taking it in ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	47	CHECK	"*CHI:	it is (.) splashing ."	"*CHI:	it (i)s ( .) splashing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	62	CHECK	"*CHI:	he is (.) getting them ."	"*CHI:	he (i)s ( .) getting them ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	77	CHECK	"*CHI:	but they is [* m:vsg:a] getting mad ."	"*CHI:	but they (i)s ( .) getting mad ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	82	CHECK	"*CHI:	but they is [* m:vsg:a] throwing ."	"*CHI:	but they (i)s ( .) throwing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha	97	CHECK	"*CHI:	he is holding it ."	"*CHI:	he (i)s holding it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep08_A3_SLI.cha	32	CHECK	"*CHI:	and he's is taking it ."	"*CHI:	and he's (i)s taking it."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep08_A3_SLI.cha	58	CHECK	"*CHI:	A lifeguard is coming ."	"*CHI:	A lifeguard (i)s coming."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A1_SLI.cha	17	CHECK	"*CHI:	he is playing ."	"*CHI:	he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A1_SLI.cha	27	CHECK	"*CHI:	he is got [* m:allo] a ball ."	"*CHI:	he (i)s got a ball ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A1_SLI.cha	42	CHECK	"*CHI:	he is (.) getting it ."	"*CHI:	he (i)s ( .) getting it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A1_SLI.cha	47	CHECK	"*CHI:	he is (.) bringing it back ."	"*CHI:	he (i)s ( .) bringing it back ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A1_SLI.cha	52	CHECK	"*CHI:	now they is [* m:vsg:a] happy again ."	"*CHI:	now they (i)s happy again ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	17	CHECK	"*CHI:	he is playing ."	"*CHI:	he (i)s playing ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	22	CHECK	"*CHI:	he is flying ."	"*CHI:	he (i)s flying ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	27	CHECK	"*CHI:	he is (.) going down ."	"*CHI:	he (i)s ( .) going down ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	32	CHECK	"*CHI:	or he is going in ."	"*CHI:	or he (i)s going in ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	42	CHECK	"*CHI:	it is floating ."	"*CHI:	it (i)s floating ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	52	CHECK	"*CHI:	and he is (.) getting mad ."	"*CHI:	and he (i)s ( .) getting mad ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	57	CHECK	"*CHI:	and he is (.) trying ."	"*CHI:	and he (i)s ( .) trying ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	62	CHECK	"*CHI:	and he is (.) reaching ."	"*CHI:	and he (i)s ( .) reaching ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	67	CHECK	"*CHI:	but he is (.) too far ."	"*CHI:	but he (i)s ( .) too far ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	72	CHECK	"*CHI:	he is calling ."	"*CHI:	he (i)s calling ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	77	CHECK	"*CHI:	and he is getting help ."	"*CHI:	and he (i)s getting help ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	82	CHECK	"*CHI:	and he is getting it ."	"*CHI:	and he (i)s getting it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_A3_SLI.cha	87	CHECK	"*CHI:	and he is (.) happy ."	"*CHI:	and he (i)s ( .) happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A2_SLI.cha	41	CHECK	"*CHI:	she's he is finished ."	"*CHI:	she's he (i)s finished ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A2_SLI.cha	46	CHECK	"*CHI:	she is dumping it out ."	"*CHI:	she (i)s dumping it out ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha	27	CHECK	"*CHI:	and he is flying it ."	"*CHI:	and he (i)s flying it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha	32	CHECK	"*CHI:	and he is flying high ."	"*CHI:	and he (i)s flying high ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha	52	CHECK	"*CHI:	and he is saying ."	"*CHI:	and he (i)s saying ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha	62	CHECK	"*CHI:	he is got a pole ."	"*CHI:	he (i)s got a pole ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha	67	CHECK	"*CHI:	and he is throwing it ."	"*CHI:	and he (i)s throwing it ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha	82	CHECK	"*CHI:	and he is happy ."	"*CHI:	and he (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep01_A3_SLI.cha	32	CHECK	"*CHI:	then it in the pool ."	"*CHI:	then it (i)n the pool ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep02_A2_SLI.cha	77	CHECK	"*CHI:	and the kitty is sitting ."	"*CHI:	and the kitty (i)s sitting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A1_SLI.cha	32	CHECK	"*CHI:	and one dog is going ."	"*CHI:	and one dog (i)s going ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A1_SLI.cha	47	CHECK	"*CHI:	and they is [* m:vsg:a] happy ."	"*CHI:	and they (i)s happy ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A2_SLI.cha	37	CHECK	"*CHI:	monkey running ."	"*CHI:	monkey ( . .) monkey be running ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A2_SLI.cha	42	CHECK	"*CHI:	and it is slipping ."	"*CHI:	and it (i)s slipping ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A2_SLI.cha	47	CHECK	"*CHI:	and monkey is hurting ."	"*CHI:	and monkey (i)s hurting ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A2_SLI.cha	52	CHECK	"*CHI:	and lifeguard is coming ."	"*CHI:	and lifeguard (i)s coming ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_B1_SLI.cha	22	CHECK	"*CHI:	and they is [* m:vsg:a] building castle ."	"*CHI:	and they (i)s building castle ."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep06_A3_SLI.cha	42	CHECK	"*CHI:	and it splashing (.) and he is saying ."	"*CHI:	and it splashing (.) and he (i)s saying."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep06_A3_SLI.cha	52	CHECK	"*CHI:	and he is trying (.) and he is getting (.) and he get [* m:03s:a] ."	"*CHI:	and he (i)s trying (.) and he (i)s getting (.) and he get."	lexical_mismatch
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep06_A3_SLI.cha	67	CHECK		"*CHI:	Rewritten narrative: once upon a time."	missing_source_line
+data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli478_td419_rep09_A3_SLI.cha	42	CHECK	"*CHI:	it is in the water ."	"*CHI:	it (i)s in the water."	lexical_mismatch
+data/generated/5_year_old/talktag-annotated/5_year_old_cha_stage1_td_annotated/pair_sli531_td565_rep03_B3_TD.cha	27	CHECK	"*CHI:	+"" don't worry."	"*CHI:	+"" dont worry ."	lexical_mismatch
+data/generated/5_year_old/talktag-annotated/5_year_old_cha_stage1_td_annotated/pair_sli568_td544_rep09_A2_TD.cha	18	CHECK	"*CHI:	Two monkeys were at the pool."	"*CHI:	Here is a short child-like narrative: Two monkeys were at the pool."	lexical_mismatch
+data/generated/5_year_old/talktag-annotated/5_year_old_cha_stage2_sli_annotated/pair_sli527_td515_rep01_B2_SLI.cha	22	CHECK	"*CHI:	My tummie [: tummy] [* s:r:der]'s hurting."	"*CHI:	My tummie's hurting ."	lexical_mismatch
+data/generated/5_year_old/talktag-annotated/5_year_old_cha_stage2_sli_annotated/pair_sli529_td545_rep06_A2_SLI.cha	23	CHECK	"*CHI:	and then the lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lif"	"*CHI:	and then the lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lifel lif ."	lexical_mismatch
+data/generated/5_year_old/talktag-annotated/5_year_old_cha_stage2_sli_annotated/pair_sli531_td565_rep03_B3_SLI.cha	27	CHECK	"*CHI:	+"" don't worry."	"*CHI:	+"" dont worry ."	lexical_mismatch
+data/generated/6_year_old/1_talktag-annotated/6_year_old_cha_stage1_td_annotated/pair_sli678_td651_rep01_A3_TD.cha	18	CHECK	"*CHI:	There were two monkeys at the pool ."	"*CHI:	Here is a short child-like narrative : There were two monkeys at the pool ."	lexical_mismatch
+data/generated/6_year_old/1_talktag-annotated/6_year_old_cha_stage1_td_annotated/pair_sli680_td671_rep06_B3_TD.cha	18	CHECK	"*CHI:	One day , bunny and doggy are pulling a wagon ."	"*CHI:	Here is a short child-like narrative : One day , bunny and doggy are pulling a wagon ."	lexical_mismatch

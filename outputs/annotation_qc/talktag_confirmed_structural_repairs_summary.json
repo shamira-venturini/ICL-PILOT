@@ -1,0 +1,147 @@
+{
+  "files_changed_this_run": 0,
+  "files_in_scope": 15,
+  "records": [
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_13_way",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli427_td406_rep08_B1_SLI.cha",
+      "source_utterance_index": 0,
+      "target_file": "data/generated/4_year_old/annotated_batchalign/stage2_sli_annotated/pair_sli427_td406_rep08_B1_SLI.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_13_way",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli427_td406_rep08_B1_SLI.cha",
+      "source_utterance_index": 0,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli427_td406_rep08_B1_SLI.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_13_way",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli427_td406_rep08_B1_SLI.cha",
+      "source_utterance_index": 0,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/bundled_synthetic_children/stage2_sli/pair_sli427_td406_rep08_SLI_bundle.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_parenthetical",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+      "source_utterance_index": 3,
+      "target_file": "data/generated/4_year_old/annotated_batchalign/stage2_sli_annotated/pair_sli477_td415_rep05_A2_SLI.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_parenthetical",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+      "source_utterance_index": 3,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep05_A2_SLI.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_parenthetical",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+      "source_utterance_index": 3,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/bundled_synthetic_children/stage2_sli/pair_sli477_td415_rep05_SLI_bundle.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_coordinated_clause",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli480_td450_rep09_A2_SLI.cha",
+      "source_utterance_index": 1,
+      "target_file": "data/generated/4_year_old/annotated_batchalign/stage2_sli_annotated/pair_sli480_td450_rep09_A2_SLI.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_coordinated_clause",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli480_td450_rep09_A2_SLI.cha",
+      "source_utterance_index": 1,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli480_td450_rep09_A2_SLI.cha"
+    },
+    {
+      "action": "restore_source_segmentation",
+      "changed_this_run": false,
+      "label": "batchalign_split_coordinated_clause",
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli480_td450_rep09_A2_SLI.cha",
+      "source_utterance_index": 1,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/bundled_synthetic_children/stage2_sli/pair_sli480_td450_rep09_SLI_bundle.cha"
+    },
+    {
+      "action": "remove_cross_record_inserted_line",
+      "changed_this_run": false,
+      "resolved": true,
+      "target_file": "data/generated/4_year_old/annotated_batchalign/stage2_sli_annotated/pair_sli480_td450_rep07_A1_SLI.cha"
+    },
+    {
+      "action": "remove_cross_record_inserted_line",
+      "changed_this_run": false,
+      "resolved": true,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli480_td450_rep07_A1_SLI.cha"
+    },
+    {
+      "action": "remove_cross_record_inserted_line",
+      "changed_this_run": false,
+      "resolved": true,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/bundled_synthetic_children/stage2_sli/pair_sli480_td450_rep07_SLI_bundle.cha"
+    },
+    {
+      "action": "restore_talktag_output_cap_truncation",
+      "changed_this_run": false,
+      "resolved": true,
+      "source_file": "data/generated/5_year_old/5_year_old_cha/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+      "source_utterance_index": 4,
+      "target_file": "data/generated/5_year_old/talktag-annotated/5_year_old_cha_stage2_sli_annotated/pair_sli529_td545_rep06_A2_SLI.cha"
+    },
+    {
+      "action": "restore_talktag_output_cap_truncation",
+      "changed_this_run": false,
+      "resolved": true,
+      "source_file": "data/generated/5_year_old/5_year_old_cha/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+      "source_utterance_index": 4,
+      "target_file": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli529_td545_rep06_A2_SLI.cha"
+    },
+    {
+      "action": "restore_talktag_output_cap_truncation",
+      "changed_this_run": false,
+      "resolved": true,
+      "source_file": "data/generated/5_year_old/5_year_old_cha/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+      "source_utterance_index": 4,
+      "target_file": "data/generated/5_year_old/fully-annotated/bundled_synthetic_children/stage2_sli/pair_sli529_td545_rep06_SLI_bundle.cha"
+    },
+    {
+      "action": "propagate_exposed_source_text_restoration",
+      "changed_this_run": false,
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli480_td450_rep07_A1_SLI.cha",
+      "source_utterance_index": 9,
+      "target_file": "data/generated/4_year_old/annotated_batchalign/stage2_sli_annotated/pair_sli480_td450_rep07_A1_SLI.cha"
+    },
+    {
+      "action": "propagate_exposed_source_text_restoration",
+      "changed_this_run": false,
+      "resolved": true,
+      "source_file": "data/generated/4_year_old/cha/stage2_sli/pair_sli480_td450_rep07_A1_SLI.cha",
+      "source_utterance_index": 9,
+      "target_file": "data/generated/4_year_old/reannotated_talktag/bundled_synthetic_children/stage2_sli/pair_sli480_td450_rep07_SLI_bundle.cha"
+    }
+  ],
+  "repairs_changed_this_run": 0,
+  "repairs_resolved": 17
+}
