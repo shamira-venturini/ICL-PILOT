@@ -45,12 +45,13 @@ CSVs mark it `test_only`. These outputs are not study data or independent childr
 The full validated study design remains as provenance; a separate
 `generation_design/execution_schedule.csv` records the actual selected jobs.
 
-This batch retains seed 42 and the original sequential random stream. Its first
-job may reproduce the previous one-story result; the second replicate gives
-additional draws for the same six story conditions. This is a local diagnostic
+This batch retains seed 42 and one sequential random stream. Repeating the same
+prompts, seed and execution environment may repeat the same outputs; later jobs
+provide additional draws for the six story conditions. This is a local diagnostic
 of repeated unchanged transformations for one prompt pair, not an estimate
-across all children or age cohorts. No prompts, source pairs, decoding settings
-or error-insertion rules are changed, and unchanged outputs are retained.
+across all children or age cohorts. Changing the test size does not alter the
+configured prompts, source pairs, decoding settings or error-insertion rules.
+The current prompt wording is described below; unchanged outputs are retained.
 
 Smoke mode still requires the normal exemplar CSV under `DATA_ROOT` and loads
 both models, so installation/download/model-loading time remains. It limits
@@ -95,6 +96,17 @@ inputs even if `SAVE_TO_DRIVE=False`; output persistence is controlled separatel
 Configuration assets resolve against their config directory.
 Setup checks exemplar ages, availability, frozen identities and within-round
 prompt/evaluation separation; it does not reoptimize pairs.
+
+The author-approved wording update of 15 October asks both stages to follow
+their exemplar's language and narrative style. Instructions omit corpus/group
+names, child-like/simple-language requests, clinical framing and prescribed
+clause shortening. The same cues have been removed from all inserted story
+constraints. Story events and human transcripts remain unchanged. The complete
+Stage 1 preview prints both template hashes; actual Stage 2 prompts are recorded
+with their generated Stage 1 parents in the journal. To use the update in an
+existing Colab session, pull the checkout, restart the kernel and run from the
+top with `MODE="full"`, `SMOKE_TEST=True` and `SMOKE_TEST_JOBS=12`. The settings
+create a fresh run ID; old outputs remain intact.
 
 Generation writes exact prompt/output records and Stage 1 parent links to
 `prompt_records.jsonl`, cohort/aggregate CSVs and design snapshots. It preserves

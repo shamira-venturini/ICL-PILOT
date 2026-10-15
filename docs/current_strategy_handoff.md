@@ -96,11 +96,13 @@ part of the current paper's generation or RStudio analysis.
   Backup: `/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T131515Z/CHATParsing/`.
   Parsing decisions and audit:
   `docs/chat_narrative_parsing.md` and `outputs/maintenance/chat_parser_fix_2026-10-14/`.
-- Prompt preparation now uses the frozen, verbatim message templates in
+- Prompt preparation uses the versioned message templates in
   `configs/generation/prompts/stage1.json` and `stage2.json`, selected by
   `experiment.json` schema 4. One `PromptBuilder` serves Colab previews and
-  inference. The exact instructions, whitespace, replicate-ID content and
-  age-through-exemplar design are preserved. Preflight validates each selected
+  inference. The initial extraction preserved the pre-cleanup instructions and
+  whitespace; the approved neutral wording update of 15 October is recorded
+  below. Replicate-ID content and age-through-exemplar design are preserved.
+  Preflight validates each selected
   exemplar's raw age against the roster and renders both stage templates.
 - New runs write `prompt_records.jsonl` with attempted prompts before model
   calls and output records after decoding. The journal stores exact messages,
@@ -109,7 +111,7 @@ part of the current paper's generation or RStudio analysis.
   Stage 1 record and matching parent text. Output CSVs store both prompt IDs.
   Template bytes/code hashes are captured, and exports include the journal,
   manifest and generation-design snapshots. Failure records are not completions.
-- All 2,820 job prompt pairs were checked against the original notebook;
+- Before the neutral wording update, all 2,820 job prompt pairs were checked against the pre-cleanup notebook;
   Stage 2 checks use actual saved historical Stage 1 outputs. This verifies
   message preservation, not fresh GPU inference. Checkpoint/restart and frequent
   persistent Drive saving remain the next execution work; journals currently
@@ -290,6 +292,44 @@ part of the current paper's generation or RStudio analysis.
   endings, byte-preserved tagged/dependent tiers, unchanged original manifests,
   already-correct files and rejection before writing of inconsistent headers.
   Actual remote batch repair and CLAN CHECK remain pending.
+- The author subsequently reasserted that generation prompts should contain no
+  TD/SLI or similar diagnostic references. An audit found two literal TD headings
+  in `prompts/stage1.json` and `clinically plausible` in Stage 2's system message.
+  These are model-visible; internal stage/group metadata are separate. Direct
+  rendering checks confirmed that the templates at the time of that audit matched Git notebook
+  versions `f2e61695`, `78a5cada` and `01cace79`. The 7 April `f2e61695` update
+  removed Stage 2's explicit SLI/profile instructions but left those TD/clinical
+  strings. Previous preservation checks therefore establish equality to the
+  pre-cleanup baseline, not compliance with the intended label-free design.
+  The exact intended original wording remains unidentified. No templates or
+  generated artifacts were changed during this audit. Do not claim that prompts
+  or historical generations are label-free on the basis of the prior audit;
+  use the actual run journal where available. See `docs/generation_prompt_records.md`.
+- The author then approved the neutral wording previously shown in chat for
+  the next smoke test, without an additional evaluation experiment. Both stages
+  now use the exemplar's language/narrative style as their linguistic guide.
+  Model-facing instructions omit ENNI/TD/SLI/DLD, child-like/simple-language
+  requests, adult-style avoidance, clinical framing and prescribed shortening.
+  All six scaffold `prompt_constraints` were updated to event order/no new
+  events only. Event units, titles, invariants, optional content, exemplars,
+  rosters, counterbalancing and sampling settings remain unchanged. Internal
+  provenance labels are retained. Templates are still hashed and snapshotted
+  per run; historical templates remain in Git and existing run snapshots.
+  The notebook preview now prints the complete Stage 1 prompt and both template
+  hashes. An existing Colab session must update its checkout and rerun from a
+  restarted kernel into a fresh run. No original generated/annotated files or
+  analysis results were rewritten. Historical execution equivalence and the
+  cause of the poorer smoke outputs remain unresolved.
+  Validation: 211 focused tests passed. All 5,640 assembled stage messages were
+  checked for neutral instruction/constraint wording while preserving exemplar
+  text and historical Stage 1 parents literally. Restoring only the old
+  constraint column reproduces the preceding full-input fingerprint, and the
+  evaluation-manifest fingerprint is unchanged. All 5,640 saved historical
+  narrative texts still match the pre-cleanup inventory. Seventeen historical
+  Stage 1 parents themselves contain inherited style words; these were retained
+  in the rendering audit, never used as new generated outputs or silently
+  filtered. No GPU inference was performed. Audit:
+  `outputs/maintenance/neutral_prompt_wording_2026-10-15/validation.json`.
 
 ## 2. Profiling Is Archived Exploratory Work
 

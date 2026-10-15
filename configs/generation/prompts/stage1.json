@@ -5,17 +5,19 @@
     {
       "role": "system",
       "lines": [
-        "You write short child-like ENNI narratives. Preserve the picture-supported event order, allow small surface variation, and do not add new major plot events."
+        "You write narratives while preserving the supplied events and their order."
       ]
     },
     {
       "role": "user",
       "lines": [
-        "Generate a child retell for the ENNI story below.",
+        "Write a new narrative for the events below.",
+        "Use the example narrative as a guide to language and narrative style.",
+        "Preserve the main events and their order.",
         "",
         "Target story: {target_story} ({story_title})",
         "Target story slot in the schedule: {target_story}",
-        "Cross-story TD exemplar slot: {prompt_td_story_e1}",
+        "Cross-story exemplar slot: {prompt_td_story_e1}",
         "Replicate id: {replicate_id}",
         "",
         "Canonical story spine:",
@@ -30,15 +32,11 @@
         "Constraints:",
         "{prompt_constraints_text}",
         "",
-        "Example natural TD story from another ENNI story slot:",
+        "Example narrative from a different story:",
         "{prompt_td_story_e1}: {prompt_td_exemplar_story}",
         "",
-        "Write one short child-like narrative.",
-        "Keep the story events in order.",
         "Do not add new major events.",
-        "Do not write an adult-style polished retell.",
-        "Use the example mainly for narrative style and level, not for its content.",
-        "Return only the narrative text.",
+        "Return only the narrative.",
         ""
       ]
     }
