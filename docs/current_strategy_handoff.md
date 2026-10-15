@@ -272,6 +272,24 @@ part of the current paper's generation or RStudio analysis.
   still reports its existing Pandas/NumExpr compatibility/deprecation warnings.
   Actual recovery of the remote 287-utterance
   batch must still be executed by the author; it has not been run by the agent.
+- On 15 October, review against the CHAT header specification identified a
+  four-field `@Types: cross, narrative, generated, <group>` defect in the
+  converter. New exports now use `cross, narrative, TD` or `SLI`, with
+  `@Comment: data_source=generated` separately preserving synthetic provenance.
+  No narratives, prompts, model settings, child metadata or analyses change.
+  `repair_generated_chat_types()` can produce a fresh corrected copy of an
+  existing generated CHAT collection, including annotated files, without
+  inference. It checks generated provenance and agreement with the CHI `@ID`
+  group, validates the whole collection before writing, preserves other bytes,
+  and inventories source/output hashes in `formatting_manifest.json`.
+  Original transcripts and annotation manifests remain unchanged; the repair
+  manifest identifies the derived files. This is a narrow header correction,
+  not full CHAT validation. See `docs/post_generation_processing.md` for the
+  saved-batch procedure. All 203 focused generation/annotation/parsing tests,
+  Python compilation and diff checks passed. Tests cover TD/SLI, LF/CRLF line
+  endings, byte-preserved tagged/dependent tiers, unchanged original manifests,
+  already-correct files and rejection before writing of inconsistent headers.
+  Actual remote batch repair and CLAN CHECK remain pending.
 
 ## 2. Profiling Is Archived Exploratory Work
 

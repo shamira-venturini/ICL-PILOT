@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import json
 import re
 from pathlib import Path
 
@@ -178,13 +179,90 @@ def _build_chat_text(
         "@Participants:\tEXA Investigator, CHI Target_Child",
         f"@ID:\teng|{corpus_name}|EXA|||||Investigator|||",
         f"@ID:\teng|{corpus_name}|CHI|{age}||{group}||Target_Child|||",
-        f"@Types:\tcross, narrative, generated, {group}",
+        f"@Types:\tcross, narrative, {group}",
+        "@Comment:\tdata_source=generated",
         f"@G:\t{story_id}",
     ]
     lines.extend(f"@Comment:\t{comment}" for comment in comments)
     lines.extend(f"*CHI:\t{utterance}" for utterance in utterances)
     lines.append("@End")
     return "\n".join(lines) + "\n"
+
+
+def _correct_generated_types(text: str) -> str:
+    """Correct the known generated-only header defect; leave transcript tiers intact."""
+    lines = text.splitlines(keepends=True)
+    indices = [i for i, line in enumerate(lines) if line.startswith("@Types:")]
+    if len(indices) != 1:
+        raise ValueError("Expected exactly one @Types header")
+    index = indices[0]
+    fields = [field.strip() for field in lines[index].split(":", 1)[1].strip().split(",")]
+    generated_marker = any(re.fullmatch(r"@Comment:\s+data_source=generated", line.rstrip("\r\n"))
+                           for line in lines)
+    legacy = len(fields) == 4 and fields[:3] == ["cross", "narrative", "generated"]
+    current = len(fields) == 3 and fields[:2] == ["cross", "narrative"] and generated_marker
+    if not (legacy or current) or fields[-1] not in {"TD", "SLI"}:
+        raise ValueError("Expected a supported generated TD/SLI header; real corpus files are outside this repair")
+    group = fields[-1]
+    child_ids = [line.split(":", 1)[1].strip().split("|") for line in lines if line.startswith("@ID:")]
+    child_ids = [fields for fields in child_ids if len(fields) > 5 and fields[2] == "CHI"]
+    if len(child_ids) != 1 or child_ids[0][5] != group:
+        raise ValueError("@Types group must match the existing CHI @ID group")
+    if current:
+        return text
+    ending = "\r\n" if lines[index].endswith("\r\n") else "\n"
+    lines[index] = f"@Types:\tcross, narrative, {group}{ending}"
+    if not generated_marker:
+        lines.insert(index + 1, "@Comment:\tdata_source=generated" + ending)
+    return "".join(lines)
+
+
+def repair_generated_chat_types(input_dir: str | Path, output_dir: str | Path) -> Path:
+    """Copy generated CHAT into a fresh directory, fixing only the known @Types defect.
+
+    Original files and their existing manifests are never rewritten. The returned
+    manifest inventories source/output hashes; this repair is not full CHAT validation.
+    """
+    source, destination = Path(input_dir).resolve(), Path(output_dir).resolve()
+    if not source.is_dir():
+        raise FileNotFoundError(source)
+    if source == destination or source in destination.parents or destination in source.parents:
+        raise ValueError("Repair inputs and outputs must be separate directory trees")
+    if destination.exists():
+        raise FileExistsError(f"Choose a fresh formatting output directory: {destination}")
+    files = sorted(source.rglob("*.cha"))
+    if not files:
+        raise ValueError(f"No CHAT files found: {source}")
+    planned, inventory = [], []
+    for path in files:
+        before = path.read_bytes()
+        try:
+            after = _correct_generated_types(before.decode("utf-8")).encode("utf-8")
+        except ValueError as error:
+            raise ValueError(f"Cannot repair {path}: {error}") from error
+        relative = path.relative_to(source)
+        planned.append((relative, after))
+        inventory.append({"relative_path": relative.as_posix(),
+                          "source_sha256": hashlib.sha256(before).hexdigest(),
+                          "output_sha256": hashlib.sha256(after).hexdigest(),
+                          "changed": before != after})
+    # Validate the entire collection before creating any output.
+    destination.mkdir(parents=True, exist_ok=False)
+    for relative, content in planned:
+        output = destination / relative
+        output.parent.mkdir(parents=True, exist_ok=True)
+        with output.open("xb") as handle:
+            handle.write(content)
+    manifest = {"schema_version": 1, "operation": "generated_chat_types_header_v1",
+                "status": "formatting_complete", "source_directory": str(source),
+                "output_directory": str(destination),
+                "implementation_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+                "files_checked": len(inventory), "files_changed": sum(item["changed"] for item in inventory),
+                "chat_syntax_validation": "not_run", "files": inventory}
+    manifest_path = destination / "formatting_manifest.json"
+    with manifest_path.open("x", encoding="utf-8") as handle:
+        handle.write(json.dumps(manifest, indent=2) + "\n")
+    return manifest_path
 
 
 def _read_csv_rows(path: Path, required: set[str]) -> list[dict[str, str]]:

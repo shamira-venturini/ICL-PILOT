@@ -210,6 +210,13 @@ if IS_COLAB:
     sync_run(failed_run, DRIVE_EXPORT_ROOT / failed_run.name)
 ```
 
+Earlier exports also contain a four-field `@Types` header. New conversions use
+the correct three fields and a separate generated-provenance comment. For a
+saved annotated batch, follow the [header-only repair procedure](post_generation_processing.md#correcting-saved-generated-chat-headers)
+to produce a fresh `annotation/formatted/` copy without model inference. Keep
+its formatting manifest alongside the annotation record; full CHAT syntax
+validation remains a separate step.
+
 ## Persistence and export
 
 `pipeline_manifest.json` records routes, source paths/hashes and block statuses.

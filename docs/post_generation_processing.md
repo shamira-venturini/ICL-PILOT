@@ -39,6 +39,12 @@ punctuation spacing, quotation handling and utterance segmentation are preserved
 Generated grammar is not corrected. These utterance boundaries are a conversion
 rule for generated prose, not an independent manual segmentation assessment.
 
+New exports use the three-field CHAT header `@Types: cross, narrative, TD`
+or `SLI`. The separate `@Comment: data_source=generated` records synthetic
+provenance; the group field remains the literal conditioning label. This
+corrects the earlier four-field `cross, narrative, generated, <group>` header.
+See the [CHAT header specification](https://talkbank.org/0info/manuals/CHAT.html).
+
 `stage1_td/` and `stage2_sli/` contain the transcripts. `chat_manifest.csv`
 links each file to its source CSV, pair, round, replicate, story, group and child.
 It records the exported age, whether age/child metadata came from the generation
@@ -51,6 +57,50 @@ rejects reused IDs, and retains them in CHAT comments and the manifest. The
 Stage 2 entry points to the same row's Stage 1 record. Historical CSVs without
 these columns remain supported; their missing record IDs are not reconstructed.
 This validates the CSV links, not the contents of a separate prompt journal.
+
+## Correcting saved generated CHAT headers
+
+Use `repair_generated_chat_types` on the reviewed generated CHAT collection to
+correct the known four-field header without rerunning generation or annotation:
+
+```python
+import json
+from pathlib import Path
+from icl_pilot.generated_chat import repair_generated_chat_types
+
+run = Path("/content/ICL-PILOT/data/generated/direct_generation/"
+           "enni_smoke_20261015T094156357444Z")
+manifest = repair_generated_chat_types(
+    run / "annotation/postprocessed", run / "annotation/formatted")
+report = json.loads(manifest.read_text())
+print(report["status"], report["files_checked"], report["files_changed"])
+```
+
+The hierarchy inside `formatted/` matches the source collection. Only the
+`@Types` header and the separate generated-provenance comment are changed;
+utterances, error tags, dependent tiers and other metadata remain byte-for-byte
+intact, including line endings. Already-correct generated files are copied
+unchanged. Missing/duplicate headers, unsupported formats, missing generated
+provenance or a group inconsistent with the CHI `@ID` stop the entire collection
+before any output is written. Real corpus files are outside this repair.
+Existing output directories are refused.
+
+`formatting_manifest.json` inventories before/after file hashes and the number
+changed, identifies the source directory and records the implementation hash.
+Keep the original annotation manifest and files alongside this derived copy;
+their recorded hashes still describe those unchanged originals. Use the
+formatted copy for subsequent format validation and CLAN processing. A
+`formatting_complete` status refers only to this header correction; full CHAT
+syntax and linguistic annotation accuracy have not been validated by this helper.
+
+To include the correction in the saved pipeline record and Drive export:
+
+```python
+from icl_pilot.pipeline import record_stage, sync_run
+record_stage(run, "chat_formatting", "complete", manifest=str(manifest))
+if IS_COLAB:
+    sync_run(run, DRIVE_EXPORT_ROOT / run.name)
+```
 
 ## Annotation and CLAN
 
