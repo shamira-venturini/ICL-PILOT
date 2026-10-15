@@ -227,20 +227,25 @@ def test_invalid_replicate_override_is_rejected(experiment, replicates):
         compile_experiment_design(experiment, n_replicates=replicates)
 
 
-def test_smoke_test_selects_exactly_one_canonical_job_and_labels_outputs(experiment, tmp_path):
+@pytest.mark.parametrize("count", [1, 6, 12])
+def test_smoke_test_selects_canonical_prefix_and_labels_outputs(experiment, tmp_path, count):
     from icl_pilot.generation.execution import run_generation
     original = experiment.read_bytes()
-    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "smoke", smoke_test=True)
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "smoke", smoke_test=True,
+                                        smoke_test_jobs=count)
     complete = prepare_colab_generation(experiment, tmp_path, tmp_path / "study")
-    pd.testing.assert_frame_equal(prepared.run_df, complete.run_df.iloc[:1])
+    pd.testing.assert_frame_equal(prepared.run_df, complete.run_df.iloc[:count])
+    for row in prepared.run_df.itertuples(index=False):
+        assert prepared.prompt_builder.stage1_messages(row) == complete.prompt_builder.stage1_messages(row)
+        assert prepared.prompt_builder.stage2_messages(row, "Same parent.") == complete.prompt_builder.stage2_messages(row, "Same parent.")
     assert experiment.read_bytes() == original
     manifest = json.loads(prepared.run_manifest_path.read_text())
-    assert manifest["generation_jobs"] == 1
+    assert manifest["generation_jobs"] == count
     assert manifest["execution"]["planned_jobs"] == 48
     assert manifest["execution"]["test_only"] is True
     assert manifest["execution"]["mode"] == "smoke_test"
     selection = pd.read_csv(tmp_path / "smoke" / manifest["execution"]["selection_csv"])
-    assert len(selection) == 1
+    assert len(selection) == count
     calls = []
     def generate(messages, *, row, stage, journal, max_new_tokens, parent_record_id=None, stage1_text=None):
         calls.append(stage)
@@ -251,11 +256,34 @@ def test_smoke_test_selects_exactly_one_canonical_job_and_labels_outputs(experim
         return "Fixture narrative .", record_id
     paths = run_generation(prepared, generate, run_id="smoke_test")
     assert len(paths) == 1
-    assert calls == ["stage1_td", "stage2_sli"]
+    assert calls == ["stage1_td", "stage2_sli"] * count
     records = pd.read_csv(paths[0])
-    assert len(records) == 1 and records["test_only"].eq(True).all()
+    assert len(records) == count and records["test_only"].eq(True).all()
     final = json.loads(prepared.run_manifest_path.read_text())
-    assert final["completed_generation_jobs"] == 1 and final["generation_jobs"] == 1
+    assert final["completed_generation_jobs"] == count and final["generation_jobs"] == count
+
+
+@pytest.mark.parametrize("count", [0, -1, 1.5, True, None])
+def test_invalid_smoke_test_job_count_is_rejected(experiment, tmp_path, count):
+    with pytest.raises(ValueError, match="positive integer"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run", smoke_test=True, smoke_test_jobs=count)
+    assert not (tmp_path / "run").exists()
+
+
+def test_smoke_test_count_does_not_silently_truncate_or_change_study_mode(experiment, tmp_path):
+    with pytest.raises(ValueError, match="exceeds"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run", smoke_test=True, smoke_test_jobs=49)
+    with pytest.raises(ValueError, match="smoke_test=True"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run", smoke_test_jobs=12)
+    assert not (tmp_path / "run").exists()
+
+
+def test_smoke_run_size_change_requires_fresh_directory(experiment, tmp_path):
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run", smoke_test=True)
+    original = prepared.run_manifest_path.read_bytes()
+    with pytest.raises(ValueError, match="Run inputs changed"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run", smoke_test=True, smoke_test_jobs=12)
+    assert prepared.run_manifest_path.read_bytes() == original
 
 
 def test_smoke_run_directory_cannot_be_reused_for_full_study(experiment, tmp_path):

@@ -29,15 +29,24 @@ def load_annotation_config(path: str | Path) -> dict:
 
 
 def install_annotation_runtime(environment: str | Path, config: dict) -> Path:
-    """Install only when explicitly called by the notebook's annotation block."""
+    """Install in a separate environment using the caller's pip (>=22.3)."""
     if sys.version_info < (3, 10):
         raise RuntimeError("TalkTag requires Python >=3.10; the project helpers still support Python 3.8")
     environment = Path(environment).expanduser().resolve()
     python = environment / ("Scripts/python.exe" if sys.platform == "win32" else "bin/python")
-    if not python.exists():
-        subprocess.run([sys.executable, "-m", "venv", "--system-site-packages", str(environment)], check=True)
+    # Some hosted Python installations lack ensurepip. Skip that bootstrap and
+    # let the kernel's pip target the environment explicitly instead. Re-running
+    # venv also repairs the configuration left by an interrupted creation; never
+    # clear the directory or mistake an existing Python executable for success.
+    try:
+        subprocess.run([sys.executable, "-m", "venv", "--system-site-packages", "--without-pip",
+                        str(environment)], check=True, capture_output=True, text=True)
+    except subprocess.CalledProcessError as error:
+        details = "\n".join(part for part in (error.stdout, error.stderr) if part)
+        raise RuntimeError(f"Could not prepare the TalkTag environment at {environment}:\n{details}") from error
     requirement = f"talk-tag[runtime] @ git+{config['repository']}@{config['revision']}"
-    subprocess.run([str(python), "-m", "pip", "install", requirement, "transformers>=4.52,<5"], check=True)
+    subprocess.run([sys.executable, "-m", "pip", "--python", str(python), "install",
+                    requirement, "transformers>=4.52,<5"], check=True)
     return python
 
 

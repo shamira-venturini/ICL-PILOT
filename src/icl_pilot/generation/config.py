@@ -154,10 +154,14 @@ class PreparedColabGeneration:
 
 def prepare_colab_generation(
     config_path: str | Path, data_root: str | Path, output_dir: str | Path,
-    *, n_replicates: int | None = None, smoke_test: bool = False,
+    *, n_replicates: int | None = None, smoke_test: bool = False, smoke_test_jobs: int = 1,
 ) -> PreparedColabGeneration:
     if type(smoke_test) is not bool:
         raise ValueError("smoke_test must be a boolean.")
+    if type(smoke_test_jobs) is not int or smoke_test_jobs < 1:
+        raise ValueError("smoke_test_jobs must be a positive integer.")
+    if not smoke_test and smoke_test_jobs != 1:
+        raise ValueError("Set smoke_test=True to request smoke_test_jobs other than 1.")
     config_path = Path(config_path).resolve()
     config, schedule, evaluation, rosters = compile_experiment_design(config_path, n_replicates=n_replicates)
     prompt_builder = load_prompt_builder(config_path, config)
@@ -202,8 +206,10 @@ def prepare_colab_generation(
         prompt_builder.stage2_messages(row, "Preflight parent marker; not a generated narrative.")
 
     # Preserve the complete validated study design; record the execution subset
-    # separately so a one-story integration check cannot masquerade as a full run.
-    execution_run = run.iloc[:1].copy() if smoke_test else run
+    # separately so a small integration check cannot masquerade as a full run.
+    if smoke_test and smoke_test_jobs > len(run):
+        raise ValueError(f"smoke_test_jobs exceeds the {len(run)} configured generation jobs.")
+    execution_run = run.iloc[:smoke_test_jobs].copy() if smoke_test else run
     execution = {"mode": "smoke_test" if smoke_test else "study", "test_only": smoke_test,
                  "planned_jobs": len(run), "selected_jobs": len(execution_run),
                  "selection_csv": "generation_design/execution_schedule.csv"}

@@ -189,6 +189,57 @@ part of the current paper's generation or RStudio analysis.
   a full generation run. Replicate count alone is not a one-job limit.
   The switch applies only to new generation; saved-input routes retain their
   explicit input selection. Source exemplars and both models are still required.
+- The Colab/VS Code setup now defaults to a persistent input tree under
+  `MyDrive/icl_pilot_inputs`; local Jupyter still defaults to the checkout and
+  `ICL_PILOT_DATA_ROOT` overrides both. A first upload of the exemplar CSV to
+  `/content` is copied into the configured relative path on mounted Drive,
+  SHA-256 verified, and recorded in `pipeline_manifest.json`. Later sessions
+  reuse that file. Conflicting uploads stop without replacing existing inputs;
+  saved-input routes skip exemplar staging. Outputs still use the existing
+  Drive export folder. The author handles Drive authorization/upload in VS Code;
+  no desktop control, Drive upload or GPU inference was performed by the agent.
+  Validation: 159 focused checks passed, followed by all 36 pipeline checks
+  after adding an additional Drive-mount test and integrating input staging
+  into the mocked end-to-end route. Actual Colab inference remains pending.
+- Live Colab troubleshooting on 15 October found a failure creating the TalkTag
+  environment with `/usr/bin/python3` (Python 3.13). The VS Code traceback did
+  not contain the child process output, so missing `ensurepip` is a suspected
+  cause, not a verified diagnosis. The installer now uses `venv --without-pip`
+  and kernel pip >=22.3 with `--python` targeting the annotation interpreter.
+  It repairs partial environment configuration without clearing the directory
+  and includes venv stdout/stderr in setup failures. TalkTag revision, annotation
+  options and the generation protocol are unchanged. The remote checkout must
+  receive this helper update or the current session must use the documented
+  environment-recovery commands before retrying annotation.
+- The author subsequently reported a completed smoke test and pasted the two
+  annotated CHAT exports from `enni_smoke_20261015T090021775255Z`: first pair
+  SLI 444 / TD 410, target A1, replicate 1. Their nine CHI utterances are identical
+  and contain no inline error tags. The Stage 2 header links to the supplied
+  Stage 1 prompt-record ID. This is one observed unchanged transformation, not
+  evidence of clinical fidelity or a measured failure rate across the study.
+  The checked Stage 2 prompt requests style/grammatical-level transfer while
+  preserving events; it does not require explicit error insertion or reject
+  unchanged text. The notebook now has a read-only whitespace-normalized copy
+  check for newly generated or selected saved CSVs. It flags identity without
+  changing prompts, outputs, sampling, selection or annotation behavior.
+- The author explicitly confirmed that the prompts must remain unchanged and
+  requested a further very small test. `SMOKE_TEST_JOBS` now controls the size
+  of the canonical schedule prefix used with `SMOKE_TEST=True`. The notebook
+  defaults to 12 jobs: all six stories, replicates 1 and 2, for the first frozen
+  four-year-old pair SLI 444 / TD 410 (24 narratives total). The Python setup API
+  retains one job as its default. Full study mode and its schedule are unchanged.
+  Each test uses a fresh directory, records the exact selection and remains
+  `test_only`. Seed 42 and the sequential sampling stream are retained, so the
+  first job may reproduce the previous test; the later jobs provide additional
+  conditions/draws. This is one-pair diagnostics, not a cohort-wide estimate.
+  The local seven-file focused suite passed 176 tests. A direct comparison with
+  Git commit `01cace79` checks all 5,640 prompts using historical Stage 1 parents,
+  tokenization/chat-template/decoding and the model generation call, alongside
+  the unchanged complete-input/evaluation fingerprints. Detailed verification
+  is under `outputs/maintenance/small_batch_2026-10-15/`. Code reorganization,
+  parsing/age metadata, roster reconciliation, provenance, I/O and annotation
+  runtime changes must not be described as "no code changed". Historical model
+  revisions and complete dependency versions remain incompletely recorded.
 
 ## 2. Profiling Is Archived Exploratory Work
 

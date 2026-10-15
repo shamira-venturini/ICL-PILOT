@@ -10,7 +10,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from icl_pilot.annotation import annotate_chat_directory, load_annotation_config
+from icl_pilot.annotation import annotate_chat_directory, install_annotation_runtime, load_annotation_config
 from icl_pilot.pipeline import annotation_inputs, begin_pipeline, convert_csv_inputs, package_run, stage_flags, sync_run
 
 
@@ -21,6 +21,51 @@ CHAT = "@UTF8\n@Begin\n@Languages:\teng\n@Participants:\tCHI Target_Child\n*CHI:
 @pytest.fixture
 def config():
     return load_annotation_config(ROOT / "configs/annotation/talktag.json")
+
+
+@pytest.mark.parametrize("partial", [False, True])
+def test_annotation_install_skips_ensurepip_and_targets_separate_environment(tmp_path, config, monkeypatch, partial):
+    from icl_pilot import annotation
+
+    environment = tmp_path / "talktag_env"
+    python = environment / "bin/python"
+    if partial:
+        python.parent.mkdir(parents=True)
+        python.write_text("partial environment")
+    calls = []
+
+    def run(command, **kwargs):
+        calls.append((command, kwargs))
+        return SimpleNamespace(returncode=0)
+
+    monkeypatch.setattr(annotation, "sys", SimpleNamespace(version_info=(3, 13), platform="linux",
+                                                          executable="/host/python"))
+    monkeypatch.setattr(annotation.subprocess, "run", run)
+    assert install_annotation_runtime(environment, config) == python
+    assert calls[0][0] == ["/host/python", "-m", "venv", "--system-site-packages", "--without-pip", str(environment)]
+    assert calls[0][1]["capture_output"] and calls[0][1]["text"]
+    assert calls[1][0] == ["/host/python", "-m", "pip", "--python", str(python), "install",
+        f"talk-tag[runtime] @ git+{config['repository']}@{config['revision']}", "transformers>=4.52,<5"]
+    if partial:
+        assert python.read_text() == "partial environment"  # No directory deletion/clear step.
+
+
+def test_annotation_environment_failure_includes_underlying_diagnostic(tmp_path, config, monkeypatch):
+    import subprocess
+    from icl_pilot import annotation
+
+    calls = []
+
+    def run(command, **kwargs):
+        calls.append(command)
+        raise subprocess.CalledProcessError(1, command, output="setup failed", stderr="No module named venv")
+
+    monkeypatch.setattr(annotation, "sys", SimpleNamespace(version_info=(3, 13), platform="linux",
+                                                          executable="/host/python"))
+    monkeypatch.setattr(annotation.subprocess, "run", run)
+    with pytest.raises(RuntimeError, match="No module named venv"):
+        install_annotation_runtime(tmp_path / "environment", config)
+    assert len(calls) == 1  # No package install after unsuccessful environment creation.
 
 
 def fake_tool(monkeypatch, *, mode="normal", limit=0):
@@ -195,6 +240,8 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
     source_chat = tmp_path / "chat_source"
     source_chat.mkdir()
     (source_chat / "sample.cha").write_text(CHAT)
+    input_config = tmp_path / "input_config.json"
+    input_config.write_text(json.dumps({"inputs": {"narratives_csv": "generation.csv"}}))
     original_csv, original_chat = source_csv.read_bytes(), (source_chat / "sample.cha").read_bytes()
     generate, convert, annotate_enabled = stage_flags(mode)
     namespace = {
@@ -208,12 +255,13 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
         "ANNOTATION_CONFIG_PATH": ROOT / "configs/annotation/talktag.json",
         "MAKE_ARCHIVE": True, "DOWNLOAD_ARCHIVE": False, "RELEASE_COLAB_RUNTIME": False,
         "IS_COLAB": False,
+        "CONFIG_PATH": input_config, "DATA_ROOT": tmp_path, "GENERATION_INPUT_UPLOAD": None,
         "SAVE_EVERY": 1,
         "SMOKE_TEST": smoke,
     }
     notebook = json.loads((ROOT / "notebooks/colab_direct_generation_pipeline.ipynb").read_text())
-    ids = ["common-setup", "generation-setup", "generation-model", "generation-function", "generation-preview",
-           "generation-run", "release-generator", "chat-conversion", "annotation-setup", "annotation-run", "export"]
+    ids = ["common-setup", "generation-input", "generation-setup", "generation-model", "generation-function", "generation-preview",
+           "generation-run", "generation-copy-check", "release-generator", "chat-conversion", "annotation-setup", "annotation-run", "export"]
     for name in ids:
         if mode == "full" and name in {"generation-setup", "generation-model", "generation-function", "generation-preview"}:
             # Inference is a fixture; exercise the actual generation runner,
@@ -268,6 +316,162 @@ def test_all_notebook_code_is_valid_python_and_cell_ids_are_unique():
     for cell in notebook["cells"]:
         if cell["cell_type"] == "code":
             ast.parse("".join(cell["source"]))
+
+
+def notebook_cell(name):
+    notebook = json.loads((ROOT / "notebooks/colab_direct_generation_pipeline.ipynb").read_text())
+    return "".join(next(cell["source"] for cell in notebook["cells"] if cell.get("id") == name))
+
+
+@pytest.mark.parametrize("mode", ["full", "from_csv", "convert_only"])
+def test_stage_copy_check_flags_identity_without_changing_inputs(tmp_path, capsys, mode):
+    path = tmp_path / "generated.csv"
+    with path.open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["pair_id", "target_story", "stage1_td_story", "stage2_sli_story"])
+        writer.writeheader()
+        for story, first, second in [("A1", "he goes .", "he goes ."),
+                                     ("A2", "he goes .", "he\n goes   ."),
+                                     ("A3", "he goes .", "he go .")]:
+            writer.writerow({"pair_id": "fixture", "target_story": story,
+                             "stage1_td_story": first, "stage2_sli_story": second})
+    before = path.read_bytes()
+    ns = {"RUN_GENERATION": mode == "full", "MODE": mode, "generation_csvs": {"fixture": path}}
+    exec(notebook_cell("generation-copy-check"), ns)
+    assert ns["stage2_copy_summary"] == [{"source_csv": str(path), "jobs": 3, "unchanged_after_whitespace": 2}]
+    assert "2/3 jobs" in capsys.readouterr().out
+    assert path.read_bytes() == before
+    assert sorted(tmp_path.iterdir()) == [path]  # No resampling, filtering or replacement artifacts.
+
+
+def test_stage_copy_check_skips_chat_only_routes():
+    ns = {"RUN_GENERATION": False, "MODE": "from_chat"}
+    exec(notebook_cell("generation-copy-check"), ns)
+    assert ns["stage2_copy_summary"] == []
+
+
+@pytest.fixture
+def input_namespace(tmp_path):
+    config_path = tmp_path / "experiment.json"
+    config_path.write_text(json.dumps({"inputs": {"narratives_csv": "data/processed/exemplars.csv"}}))
+    upload = tmp_path / "uploaded.csv"
+    upload.write_bytes(b"File_ID,Group,story_id\n410,TD,A1\n")
+    out = begin_pipeline(tmp_path / "run", mode="generation_only", csvs={}, chat_dirs={})
+    return {"Path": Path, "json": json, "RUN_GENERATION": True, "CONFIG_PATH": config_path,
+            "DATA_ROOT": tmp_path / "drive_inputs", "GENERATION_INPUT_UPLOAD": upload,
+            "RUN_OUTPUT_DIR": out, "persist_run": lambda: None}
+
+
+def test_notebook_input_upload_is_verified_and_reused_without_the_upload(input_namespace):
+    from icl_pilot.annotation import sha256_file
+
+    ns = input_namespace
+    source = ns["GENERATION_INPUT_UPLOAD"]
+    original = source.read_bytes()
+    exec(notebook_cell("generation-input"), ns)
+    target = ns["DATA_ROOT"] / "data/processed/exemplars.csv"
+    assert target.read_bytes() == source.read_bytes() == original
+    manifest_path = ns["RUN_OUTPUT_DIR"] / "pipeline_manifest.json"
+    assert json.loads(manifest_path.read_text())["generation_input"] == {
+        "path": str(target), "sha256": sha256_file(source), "action": "copied_and_verified"}
+    before = target.stat().st_mtime_ns
+    exec(notebook_cell("generation-input"), ns)  # An identical upload does not replace the input.
+    assert target.stat().st_mtime_ns == before
+    ns["GENERATION_INPUT_UPLOAD"] = None  # A later runtime has only the persistent copy.
+    exec(notebook_cell("generation-input"), ns)
+    assert target.stat().st_mtime_ns == before
+    assert json.loads(manifest_path.read_text())["generation_input"]["action"] == "reused"
+
+
+def test_notebook_rejects_different_upload_without_overwriting_existing_input(input_namespace):
+    ns = input_namespace
+    exec(notebook_cell("generation-input"), ns)
+    target = ns["DATA_ROOT"] / "data/processed/exemplars.csv"
+    original = target.read_bytes()
+    ns["GENERATION_INPUT_UPLOAD"].write_bytes(b"different corpus\n")
+    with pytest.raises(FileExistsError, match="differs"):
+        exec(notebook_cell("generation-input"), ns)
+    assert target.read_bytes() == original
+    assert ns["GENERATION_INPUT_UPLOAD"].read_bytes() == b"different corpus\n"
+
+
+def test_missing_generation_input_explains_one_time_upload_without_creating_input_tree(input_namespace):
+    ns = input_namespace
+    ns["GENERATION_INPUT_UPLOAD"] = ns["DATA_ROOT"].parent / "absent.csv"
+    with pytest.raises(FileNotFoundError, match="Upload to Colab"):
+        exec(notebook_cell("generation-input"), ns)
+    assert not ns["DATA_ROOT"].exists()
+
+
+@pytest.mark.parametrize("path", ["../outside.csv", "/absolute.csv"])
+def test_notebook_input_upload_cannot_escape_selected_root(input_namespace, path):
+    ns = input_namespace
+    ns["CONFIG_PATH"].write_text(json.dumps({"inputs": {"narratives_csv": path}}))
+    with pytest.raises(ValueError, match="inside DATA_ROOT"):
+        exec(notebook_cell("generation-input"), ns)
+    assert not ns["DATA_ROOT"].exists()
+
+
+def test_interrupted_input_copy_preserves_upload_and_cleans_partial_destination(input_namespace, monkeypatch):
+    ns = input_namespace
+    source = ns["GENERATION_INPUT_UPLOAD"]
+    original = source.read_bytes()
+
+    def interrupted(source_handle, destination_handle):
+        destination_handle.write(b"partial")
+        raise OSError("copy interrupted")
+
+    with monkeypatch.context() as patch:
+        patch.setattr("shutil.copyfileobj", interrupted)
+        with pytest.raises(OSError, match="copy interrupted"):
+            exec(notebook_cell("generation-input"), ns)
+    assert source.read_bytes() == original
+    assert not list(ns["DATA_ROOT"].rglob("*.copying"))
+    assert not (ns["DATA_ROOT"] / "data/processed/exemplars.csv").exists()
+    exec(notebook_cell("generation-input"), ns)
+    assert (ns["DATA_ROOT"] / "data/processed/exemplars.csv").read_bytes() == original
+
+
+def test_saved_input_modes_skip_exemplar_staging():
+    exec(notebook_cell("generation-input"), {"RUN_GENERATION": False})
+
+
+@pytest.mark.parametrize("colab,override", [(False, None), (True, None), (True, "/custom/data")])
+def test_notebook_defaults_to_drive_inputs_only_in_colab(tmp_path, monkeypatch, colab, override):
+    import os
+
+    if override is None:
+        monkeypatch.delenv("ICL_PILOT_DATA_ROOT", raising=False)
+    else:
+        monkeypatch.setenv("ICL_PILOT_DATA_ROOT", override)
+    ns = {"Path": Path, "os": os, "REPO_DIR": tmp_path, "IS_COLAB": colab}
+    exec(notebook_cell("settings"), ns)
+    expected = Path(override) if override else Path("/content/drive/MyDrive/icl_pilot_inputs") if colab else tmp_path
+    assert ns["DATA_ROOT"] == expected
+    assert ns["SMOKE_TEST"] is True
+    assert ns["SMOKE_TEST_JOBS"] == 12
+
+
+def test_drive_inputs_mount_even_when_output_persistence_is_disabled(tmp_path, monkeypatch):
+    import os
+
+    monkeypatch.delenv("ICL_PILOT_DATA_ROOT", raising=False)
+    mounted = []
+    fake_drive = SimpleNamespace(mount=lambda path: mounted.append(path))
+    monkeypatch.setitem(sys.modules, "google.colab", SimpleNamespace(drive=fake_drive))
+    original_is_dir = Path.is_dir
+
+    def is_dir(path):
+        if str(path) == "/content/drive/MyDrive":
+            return bool(mounted)
+        return original_is_dir(path)
+
+    monkeypatch.setattr(Path, "is_dir", is_dir)
+    ns = {"Path": Path, "os": os, "REPO_DIR": tmp_path, "IS_COLAB": True}
+    exec(notebook_cell("settings"), ns)
+    ns["SAVE_TO_DRIVE"] = False
+    exec(notebook_cell("common-setup"), ns)
+    assert mounted == ["/content/drive"]
+    assert (ns["RUN_OUTPUT_DIR"] / "pipeline_manifest.json").is_file()
 
 
 def test_persistent_copy_preserves_artifacts_from_another_run(tmp_path):
