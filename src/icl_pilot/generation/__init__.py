@@ -18,6 +18,14 @@ from .workflow import (
     load_counterbalance_table,
     load_frozen_roster,
 )
+from .config import (
+    compile_experiment_design,
+    load_experiment_config,
+    prepare_colab_generation,
+    validate_prompt_evaluation_separation,
+)
+from .prompts import PromptBuilder, load_prompt_builder
+from .prompt_records import PromptJournal
 
 __all__ = [
     "GenerationPackageArtifacts",
@@ -38,4 +46,11 @@ __all__ = [
     "fit_primary_mixed_models",
     "load_counterbalance_table",
     "load_frozen_roster",
+    "compile_experiment_design",
+    "load_experiment_config",
+    "prepare_colab_generation",
+    "validate_prompt_evaluation_separation",
+    "PromptBuilder",
+    "load_prompt_builder",
+    "PromptJournal",
 ]

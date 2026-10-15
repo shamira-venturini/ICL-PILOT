@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "stage": "stage2_sli",
+  "messages": [
+    {
+      "role": "system",
+      "lines": [
+        "You transform child narratives while preserving the underlying ENNI events and order. Make the output clinically plausible rather than caricatured."
+      ]
+    },
+    {
+      "role": "user",
+      "lines": [
+        "Rewrite the child story below so it sounds more like the example narrative while preserving the same ENNI events.",
+        "",
+        "Target story: {target_story} ({story_title})",
+        "Cross-story exemplar slot: {prompt_sli_story_e2}",
+        "",
+        "Example natural story from another ENNI story slot:",
+        "{prompt_sli_story_e2}: {prompt_sli_exemplar_story}",
+        "",
+        "Canonical story spine:",
+        "{story_units_text}",
+        "",
+        "Content that should stay stable:",
+        "{content_invariants_text}",
+        "",
+        "Original child story:",
+        "{stage1_text}",
+        "",
+        "Instructions:",
+        "- Preserve the same major events and event order.",
+        "- Keep the narration child-like.",
+        "- Let the example guide the style, grammatical level, and amount of detail.",
+        "- You may shorten clauses and omit optional details.",
+        "- Use the exemplar mainly as a style guide, not as content to copy.",
+        "- Avoid bizarre errors, random topic drift, or new plot events.",
+        "- Return only the transformed narrative text.",
+        ""
+      ]
+    }
+  ]
+}

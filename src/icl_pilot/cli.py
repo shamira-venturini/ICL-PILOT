@@ -2,8 +2,6 @@ from __future__ import annotations
 
 import argparse
 
-from .architecture_pilot_cv import build_architecture_loocv_plan
-from .age_adjustment import build_age_adjusted_severity_table
 from .alignment_repair import repair_alignments
 try:
     from .batchalign_runner import run_morphotag
@@ -34,9 +32,6 @@ from .past_verb_features import (
 from .paths import expected_layout
 from .quote_normalizer import normalize_quote_terminators
 from .severity_features import build_severity_feature_table
-from .severity_bands import build_severity_bands
-from .severity_profile import build_severity_profile_table
-from .story_generation_design import build_story_generation_design
 from .story_packet_design import (
     bootstrap_story_packets,
     build_story_packet_template,
@@ -85,10 +80,9 @@ def _cmd_show_manifest(limit: int | None) -> int:
 
     for row in rows:
         print(
-            f"{row.cohort} | target={row.target_story} ({row.target_subject_ids}, {row.target_age}) "
-            f"| E1={row.e1_story} x{row.td_baselines} "
-            f"| E2={row.e2_story} ({row.e2_subject_ids}, {row.e2_subject_age}) "
-            f"| DLD outputs={row.dld_outputs}"
+            f"{row.cohort} | {row.round_id} | {row.pair_id} | replicate={row.replicate_id} "
+            f"| target={row.target_story} | TD exemplar={row.target_subject_ids}:{row.e1_story} "
+            f"| SLI exemplar={row.e2_subject_ids}:{row.e2_story} | one output per stage"
         )
     return 0
 
@@ -189,15 +183,6 @@ def _cmd_build_severity_feature_table(args: argparse.Namespace) -> int:
     )
 
 
-def _cmd_build_age_adjusted_severity_table(args: argparse.Namespace) -> int:
-    return build_age_adjusted_severity_table(
-        input_csv=args.input_csv,
-        output_csv=args.output_csv,
-        output_model_csv=args.output_model_csv,
-        output_summary_json=args.output_summary_json,
-    )
-
-
 def _cmd_build_error_code_feature_table(args: argparse.Namespace) -> int:
     return build_error_code_feature_table(
         transcript_root=args.transcript_root,
@@ -246,48 +231,9 @@ def _cmd_merge_past_verb_features_into_master(args: argparse.Namespace) -> int:
     )
 
 
-def _cmd_build_severity_profile_table(args: argparse.Namespace) -> int:
-    return build_severity_profile_table(
-        input_csv=args.input_csv,
-        output_csv=args.output_csv,
-        output_summary_json=args.output_summary_json,
-    )
-
-
-def _cmd_build_severity_bands(args: argparse.Namespace) -> int:
-    return build_severity_bands(
-        input_csv=args.input_csv,
-        output_csv=args.output_csv,
-        output_summary_json=args.output_summary_json,
-    )
-
-
-def _cmd_build_story_generation_design(args: argparse.Namespace) -> int:
-    return build_story_generation_design(
-        severity_banded_csv=args.severity_banded_csv,
-        counterbalance_csv=args.counterbalance_csv,
-        transcript_root=args.transcript_root,
-        output_dir=args.output_dir,
-        min_prompt_candidates=args.min_prompt_candidates,
-        min_eval_candidates=args.min_eval_candidates,
-    )
-
-
-def _cmd_build_architecture_loocv_plan(args: argparse.Namespace) -> int:
-    return build_architecture_loocv_plan(
-        dev_measures_csv=args.dev_measures_csv,
-        severity_csv=args.severity_csv,
-        transcript_root=args.transcript_root,
-        reference_manifest_csv=args.reference_manifest_csv,
-        output_dir=args.output_dir,
-        cohort=args.cohort,
-    )
-
-
 def _cmd_build_frozen_roster(args: argparse.Namespace) -> int:
     return build_frozen_roster_manifest(
         dev_measures_csv=args.dev_measures_csv,
-        severity_profile_csv=args.severity_profile_csv,
         output_csv=args.output_csv,
         age_min_months=args.age_min_months,
         age_max_months=args.age_max_months,
@@ -388,6 +334,7 @@ def _cmd_extract_story_unit_narratives(args: argparse.Namespace) -> int:
     return extract_story_unit_narratives(
         transcript_root=args.transcript_root,
         output_csv=args.output_csv,
+        summary_json=args.summary_json,
     )
 
 
@@ -495,12 +442,6 @@ def build_parser() -> argparse.ArgumentParser:
     severity_parser.add_argument("output_spec_csv")
     severity_parser.add_argument("output_summary_json")
 
-    age_adjust_parser = subparsers.add_parser("build-age-adjusted-severity-table")
-    age_adjust_parser.add_argument("input_csv")
-    age_adjust_parser.add_argument("output_csv")
-    age_adjust_parser.add_argument("output_model_csv")
-    age_adjust_parser.add_argument("output_summary_json")
-
     error_parser = subparsers.add_parser("build-error-code-feature-table")
     error_parser.add_argument("transcript_root")
     error_parser.add_argument("output_csv")
@@ -531,35 +472,8 @@ def build_parser() -> argparse.ArgumentParser:
     past_verb_merge_parser.add_argument("past_feature_csv")
     past_verb_merge_parser.add_argument("--output-csv", default=None)
 
-    severity_profile_parser = subparsers.add_parser("build-severity-profile-table")
-    severity_profile_parser.add_argument("input_csv")
-    severity_profile_parser.add_argument("output_csv")
-    severity_profile_parser.add_argument("output_summary_json")
-
-    severity_band_parser = subparsers.add_parser("build-severity-bands")
-    severity_band_parser.add_argument("input_csv")
-    severity_band_parser.add_argument("output_csv")
-    severity_band_parser.add_argument("output_summary_json")
-
-    story_design_parser = subparsers.add_parser("build-story-generation-design")
-    story_design_parser.add_argument("severity_banded_csv")
-    story_design_parser.add_argument("counterbalance_csv")
-    story_design_parser.add_argument("transcript_root")
-    story_design_parser.add_argument("output_dir")
-    story_design_parser.add_argument("--min-prompt-candidates", type=int, default=2)
-    story_design_parser.add_argument("--min-eval-candidates", type=int, default=3)
-
-    architecture_loocv_parser = subparsers.add_parser("build-architecture-loocv-plan")
-    architecture_loocv_parser.add_argument("dev_measures_csv")
-    architecture_loocv_parser.add_argument("severity_csv")
-    architecture_loocv_parser.add_argument("transcript_root")
-    architecture_loocv_parser.add_argument("reference_manifest_csv")
-    architecture_loocv_parser.add_argument("output_dir")
-    architecture_loocv_parser.add_argument("--cohort", default="4-year-old")
-
     frozen_roster_parser = subparsers.add_parser("build-frozen-roster")
     frozen_roster_parser.add_argument("dev_measures_csv")
-    frozen_roster_parser.add_argument("severity_profile_csv")
     frozen_roster_parser.add_argument("output_csv")
     frozen_roster_parser.add_argument("--age-min-months", type=int, default=48)
     frozen_roster_parser.add_argument("--age-max-months", type=int, default=59)
@@ -633,6 +547,7 @@ def build_parser() -> argparse.ArgumentParser:
     story_unit_extract_parser = subparsers.add_parser("extract-story-unit-narratives")
     story_unit_extract_parser.add_argument("transcript_root")
     story_unit_extract_parser.add_argument("output_csv")
+    story_unit_extract_parser.add_argument("--summary-json", help="Parsing QC sidecar path; defaults beside the new CSV.")
 
     story_unit_ref_parser = subparsers.add_parser("build-story-unit-reference-template")
     story_unit_ref_parser.add_argument("transcript_root")
@@ -685,8 +600,6 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_audit_feature_redundancy(args)
     if args.command == "build-severity-feature-table":
         return _cmd_build_severity_feature_table(args)
-    if args.command == "build-age-adjusted-severity-table":
-        return _cmd_build_age_adjusted_severity_table(args)
     if args.command == "build-error-code-feature-table":
         return _cmd_build_error_code_feature_table(args)
     if args.command == "build-grouped-error-feature-table":
@@ -699,14 +612,6 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_build_past_verb_feature_table(args)
     if args.command == "merge-past-verb-features-into-master":
         return _cmd_merge_past_verb_features_into_master(args)
-    if args.command == "build-severity-profile-table":
-        return _cmd_build_severity_profile_table(args)
-    if args.command == "build-severity-bands":
-        return _cmd_build_severity_bands(args)
-    if args.command == "build-story-generation-design":
-        return _cmd_build_story_generation_design(args)
-    if args.command == "build-architecture-loocv-plan":
-        return _cmd_build_architecture_loocv_plan(args)
     if args.command == "build-frozen-roster":
         return _cmd_build_frozen_roster(args)
     if args.command == "build-generated-bundle-evaluation":

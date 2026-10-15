@@ -26,9 +26,10 @@ def _normalize_roots(
 def _scan_root(root: Path) -> tuple[dict[Path, list[str]], dict[str, object]]:
     plan: dict[Path, list[str]] = {}
     tier_counts = {
-        tier.removeprefix("%").removesuffix(":"): 0
+        tier[1:-1]: 0
         for tier in MORPHOSYNTACTIC_TIERS
     }
+    continuation_counts = {tier[1:-1]: 0 for tier in MORPHOSYNTACTIC_TIERS}
     transcript_files = 0
     speaker_lines = 0
     retained_lines = 0
@@ -38,6 +39,7 @@ def _scan_root(root: Path) -> tuple[dict[Path, list[str]], dict[str, object]]:
         lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
         kept: list[str] = []
         file_changed = False
+        removed_tier = ""
 
         for line in lines:
             matching_tier = next(
@@ -45,10 +47,18 @@ def _scan_root(root: Path) -> tuple[dict[Path, list[str]], dict[str, object]]:
                 None,
             )
             if matching_tier is not None:
-                tier_name = matching_tier.removeprefix("%").removesuffix(":")
+                tier_name = matching_tier[1:-1]
                 tier_counts[tier_name] += 1
+                removed_tier = tier_name
                 file_changed = True
                 continue
+            if line.startswith(("*", "%", "@")):
+                removed_tier = ""
+            elif removed_tier and line.startswith(("\t", " ")):
+                continuation_counts[removed_tier] += 1
+                continue
+            elif line.strip():
+                removed_tier = ""
             kept.append(line)
             retained_lines += 1
             if line.startswith("*"):
@@ -63,6 +73,8 @@ def _scan_root(root: Path) -> tuple[dict[Path, list[str]], dict[str, object]]:
         "files_with_tiers": len(plan),
         "tier_lines": tier_counts,
         "tier_lines_total": sum(tier_counts.values()),
+        "tier_continuation_lines": continuation_counts,
+        "tier_continuation_lines_total": sum(continuation_counts.values()),
         "retained_lines": retained_lines,
         "speaker_lines": speaker_lines,
     }
@@ -73,7 +85,7 @@ def strip_tiers(
     dry_run: bool = False,
     summary_json: str | Path | None = None,
 ) -> int:
-    """Remove CHAT morphosyntactic tiers while retaining every other line."""
+    """Remove complete CHAT morphosyntactic tiers, including continuations."""
     roots = _normalize_roots(root_dir)
     plans: list[tuple[dict[Path, list[str]], dict[str, object]]] = []
     for root in roots:
@@ -85,7 +97,7 @@ def strip_tiers(
                 path.write_text("\n".join(kept) + "\n", encoding="utf-8")
 
     root_summaries: list[dict[str, object]] = []
-    for root, (plan, before) in zip(roots, plans, strict=True):
+    for root, (plan, before) in zip(roots, plans):
         after_plan, after = _scan_root(root) if not dry_run else (plan, before)
         root_summary = {
             **before,
@@ -111,19 +123,24 @@ def strip_tiers(
     summary = {
         "operation": "remove_morphosyntactic_tiers",
         "dry_run": dry_run,
-        "tiers": [tier.removesuffix(":") for tier in MORPHOSYNTACTIC_TIERS],
+        "tiers": [tier[:-1] for tier in MORPHOSYNTACTIC_TIERS],
         "roots": root_summaries,
         "totals": {
             "transcript_files": sum(int(item["transcript_files"]) for item in root_summaries),
             "files_with_tiers": sum(int(item["files_with_tiers"]) for item in root_summaries),
             "tier_lines": {
-                tier.removeprefix("%").removesuffix(":"): sum(
-                    int(item["tier_lines"][tier.removeprefix("%").removesuffix(":")])
+                tier[1:-1]: sum(
+                    int(item["tier_lines"][tier[1:-1]])
                     for item in root_summaries
                 )
                 for tier in MORPHOSYNTACTIC_TIERS
             },
             "tier_lines_total": sum(int(item["tier_lines_total"]) for item in root_summaries),
+            "tier_continuation_lines": {
+                tier[1:-1]: sum(int(item["tier_continuation_lines"][tier[1:-1]]) for item in root_summaries)
+                for tier in MORPHOSYNTACTIC_TIERS
+            },
+            "tier_continuation_lines_total": sum(int(item["tier_continuation_lines_total"]) for item in root_summaries),
             "tier_lines_remaining": sum(
                 int(item["tier_lines_remaining"]) for item in root_summaries
             ),
@@ -146,6 +163,7 @@ def strip_tiers(
         f"from {totals['files_with_tiers']} of {totals['transcript_files']} CHAT files."
     )
     print(json.dumps(totals["tier_lines"], sort_keys=True))
+    print(f"Morphosyntactic continuation lines: {totals['tier_continuation_lines_total']}")
     if not dry_run:
         print(f"Remaining morphosyntactic tier lines: {totals['tier_lines_remaining']}")
     return 0

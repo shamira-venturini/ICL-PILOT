@@ -1,0 +1,185 @@
+{
+  "A1": {
+    "story_id": "A1",
+    "title": "Ball in the pool",
+    "source": "official ENNI picture sequence",
+    "notes": "Canonical picture-grounded spine for prompt construction. Use the units below as the content plan; do not turn them into an adult-style polished retell.",
+    "units": [
+      "Two animals play near the pool with a ball.",
+      "The ball falls into the water.",
+      "One animal goes into the pool or reaches in to get it.",
+      "The ball is recovered and brought back.",
+      "The animals are happy again."
+    ],
+    "content_invariants": [
+      "pool setting",
+      "ball or small play object in the water",
+      "retrieval attempt",
+      "return of the object",
+      "happy resolution"
+    ],
+    "optional_content": [
+      "exact animal species",
+      "whether the helper swims or uses hands",
+      "small background details such as a sign or pool edge"
+    ],
+    "prompt_constraints": [
+      "Preserve the order of the spine.",
+      "Keep the narration child-like and simple.",
+      "Do not add adult-style exposition or new plot events."
+    ]
+  },
+  "A2": {
+    "story_id": "A2",
+    "title": "No running",
+    "source": "official ENNI picture sequence",
+    "notes": "Canonical picture-grounded spine for prompt construction. The story centers the warning sign, the slip, and the bandage.",
+    "units": [
+      "Two animals approach the pool area and a sign warns not to run.",
+      "One animal starts to run toward the water or jumping board.",
+      "The running animal slips and hurts a knee.",
+      "A helper or lifeguard comes with a bandage.",
+      "The injured animal sits on a bench and rests."
+    ],
+    "content_invariants": [
+      "pool area",
+      "no running sign",
+      "running or rushing toward the water",
+      "slip and knee injury",
+      "bandage and bench/rest"
+    ],
+    "optional_content": [
+      "exact animal species",
+      "whether another character points at the sign",
+      "whether the helper is a lifeguard or a friend"
+    ],
+    "prompt_constraints": [
+      "Preserve the order of the spine.",
+      "Keep the narration child-like and simple.",
+      "Do not add adult-style exposition or new plot events."
+    ]
+  },
+  "A3": {
+    "story_id": "A3",
+    "title": "Airplane in the pool",
+    "source": "official ENNI picture sequence",
+    "notes": "Canonical picture-grounded spine for prompt construction. The story centers a toy airplane, a pool, and a rescue with a tool.",
+    "units": [
+      "Two animals play with an airplane near the pool.",
+      "The airplane is taken or dropped into the water.",
+      "The owner gets upset and someone tries to reach it.",
+      "A helper with a net or pole recovers the airplane.",
+      "The airplane is returned and everyone is happy."
+    ],
+    "content_invariants": [
+      "airplane or toy plane",
+      "pool water",
+      "conflict over the toy",
+      "retrieval attempt",
+      "return and reconciliation"
+    ],
+    "optional_content": [
+      "exact animal species",
+      "whether the helper is a lifeguard, parent, or another adult",
+      "whether the retrieval uses a net, pole, or other tool"
+    ],
+    "prompt_constraints": [
+      "Preserve the order of the spine.",
+      "Keep the narration child-like and simple.",
+      "Do not add adult-style exposition or new plot events."
+    ]
+  },
+  "B1": {
+    "story_id": "B1",
+    "title": "Sandcastle trouble",
+    "source": "official ENNI picture sequence",
+    "notes": "Canonical picture-grounded spine for prompt construction. The story is about collaborative building and the castle being ruined.",
+    "units": [
+      "Rabbit and dog build a sandcastle together.",
+      "One of them adds sand or dumps a bucket onto the castle.",
+      "The sandcastle gets ruined.",
+      "The other animal is sad or cries.",
+      "They try to fix it or make up."
+    ],
+    "content_invariants": [
+      "rabbit and dog",
+      "sandcastle or beach sandbox",
+      "a bucket or shovel",
+      "damage to the castle",
+      "sad reaction and repair attempt"
+    ],
+    "optional_content": [
+      "which child causes the damage",
+      "whether the setting is a beach or sandbox",
+      "whether an apology is explicit"
+    ],
+    "prompt_constraints": [
+      "Preserve the order of the spine.",
+      "Keep the narration child-like and simple.",
+      "Do not add adult-style exposition or new plot events."
+    ]
+  },
+  "B2": {
+    "story_id": "B2",
+    "title": "Picnic tummyache",
+    "source": "official ENNI picture sequence",
+    "notes": "Canonical picture-grounded spine for prompt construction. The story is about a picnic, overeating, and a doctor helping.",
+    "units": [
+      "Rabbit and dog gather food and have a picnic.",
+      "One child eats too much.",
+      "The child gets a tummyache or feels sick.",
+      "A doctor checks the child and helps.",
+      "The child feels better and rests or goes home."
+    ],
+    "content_invariants": [
+      "picnic or food gathering",
+      "rabbit and dog",
+      "overeating",
+      "tummyache or sickness",
+      "doctor help and recovery"
+    ],
+    "optional_content": [
+      "whether the food is carrots, sandwiches, or berries",
+      "whether the child feels dizzy or just sick",
+      "whether the ending is resting, sitting, or going home"
+    ],
+    "prompt_constraints": [
+      "Preserve the order of the spine.",
+      "Keep the narration child-like and simple.",
+      "Do not add adult-style exposition or new plot events."
+    ]
+  },
+  "B3": {
+    "story_id": "B3",
+    "title": "Balloon trouble",
+    "source": "official ENNI picture sequence",
+    "notes": "Canonical picture-grounded spine for prompt construction. The story centers a balloon that gets lost and the search for a replacement.",
+    "units": [
+      "Rabbit and dog carry or pull a wagon with a balloon.",
+      "The balloon comes loose, floats away, or pops.",
+      "The children are upset and look for another balloon.",
+      "They go to an adult who has balloons.",
+      "Money or price becomes an issue, and the adult helps them get balloons.",
+      "The children each get a balloon and are happy."
+    ],
+    "content_invariants": [
+      "rabbit and dog",
+      "wagon and balloon",
+      "lost balloon or popped balloon",
+      "adult with balloons",
+      "money or price issue",
+      "happy ending with balloons"
+    ],
+    "optional_content": [
+      "whether the adult is a seller, vendor, or helper",
+      "whether a doctor-like adult appears in the scene",
+      "the number or color of balloons",
+      "whether the balloon comes loose or pops"
+    ],
+    "prompt_constraints": [
+      "Preserve the order of the spine.",
+      "Keep the narration child-like and simple.",
+      "Do not add adult-style exposition or new plot events."
+    ]
+  }
+}

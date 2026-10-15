@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/OliverHennhoefer/talk-tag.git",
+  "revision": "a9df736acf4efaa0c6ec79240a2d36348de983ab",
+  "target_speaker": "*CHI",
+  "device": "auto",
+  "granularity": "standard",
+  "limit": 0,
+  "show_target": false,
+  "provenance": "Pinned upstream source for new portable runs; not a recovered historical installation. GPU integration validation remains pending."
+}

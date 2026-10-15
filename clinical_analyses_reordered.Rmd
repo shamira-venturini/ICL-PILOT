@@ -43,7 +43,7 @@ syn <- read.csv(
 )
 
 roster <- read.csv(
-  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+  "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/master_frozen_roster_4_to_7_year_old.csv",
   check.names = FALSE
 )
 

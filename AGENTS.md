@@ -36,7 +36,10 @@ Fidelity and utility are separate questions. A synthetic sample can appear close
 Preserve these decisions unless the user explicitly changes the design:
 
 - The primary augmentation unit is one ENNI target story.
-- Child-level profiling is used to characterize the natural population, estimate severity and profile shape, test design feasibility, and interpret results.
+- Severity/profile modelling is archived exploratory work. It did not
+  condition active generation or enter the current RStudio models. Do not
+  present it as an active paper method or require archived profile tables
+  for age-only pairing. Preserve legacy labels in existing artifacts as provenance.
 - Do not impose a full `age x severity x profile` prompt grid by default. The SLI corpus is too sparse at that resolution after evaluation data are reserved.
 - Keep age matching central.
 - Keep cross-story counterbalancing central: when the target comes from ENNI set A, prompt exemplars come from set B, and vice versa.
@@ -67,9 +70,16 @@ When documents conflict, use this order:
 
 1. Explicit instructions from the user in the current task.
 2. `docs/current_strategy_handoff.md` for current agreed generation, profiling, and evaluation decisions.
-3. Checked operational manifests and rosters under `configs/generation/`.
+3. `configs/generation/experiment.json`, `cross_story_counterbalancing.csv`,
+   `configs/generation/master_frozen_roster_4_to_7_year_old.csv`, and
+   `configs/generation/story_unit_reference.json` (project-authored scaffolds),
+   and the frozen message templates under `configs/generation/prompts/`.
+   This single master fixes all recorded child pairs; cohort snapshots and
+   schedules are generated automatically within each run.
 4. Current implementation under `src/icl_pilot/` and the metadata attached to generated artifacts.
-5. `docs/generation_and_evaluation_process.tex` and focused current design notes under `docs/`.
+5. Focused current design notes under `docs/`. The older
+   `docs/generation_and_evaluation_process.tex` is an explicitly historical
+   profiling proposal, not the active paper Methods.
 6. `clinical_analyses_reordered.Rmd` for the active integrated analysis when it exists and is current.
 7. `docs/data-augmentation_project-report.pdf` for the original pilot framing and historical results.
 8. Older draft plans and archived phase-1 material.
@@ -81,7 +91,9 @@ When the repository and documentation disagree, do not silently choose whichever
 ## Repository map
 
 - `src/icl_pilot/`: reusable Python package for manifests, generation design, transcript processing, feature construction, and evaluation.
-- `configs/generation/`: checked generation manifests, counterbalancing tables, frozen rosters, schedules, and evaluation splits.
+- `configs/generation/`: shared portable experiment settings, counterbalancing
+  rules and frozen child rosters. Derived schedules/split bookkeeping belong
+  in each new generation run directory.
 - `data/`: source materials, normalized inputs, annotated CHAT transcripts, ENNI picture materials, and prompt-ready data.
 - `phase2/ENNI/`: real ENNI reference data and derived measures.
 - `phase2/Gillam/`: Gillam reference material and derived artifacts where used.
@@ -89,6 +101,13 @@ When the repository and documentation disagree, do not silently choose whichever
 - `phase2/generated/measures/`: cross-cohort or merged generated-data feature tables.
 - `docs/`: strategy, evaluation, profiling, story-content, and handoff documentation.
 - `notebooks/`: generation notebooks and exploratory execution surfaces.
+- `notebooks/colab_direct_generation_pipeline.ipynb` is the maintained combined
+  generation/CHAT/TalkTag interface. Its modes can start from saved CSVs or CHAT
+  files; evaluation remains in `notebooks/synthtexteval_demo.ipynb` and the active
+  R Markdown. TalkTag adds error tags, not CLAN measurements or clinical validation.
+- `configs/annotation/talktag.json` fixes the source revision and options for
+  new portable annotation runs. It is not proof of the historical installed
+  version. Original inputs are preserved; annotation operates on working copies.
 - `clinical_analyses_reordered.Rmd`: current integrated R analysis organized around multivariate, distributional, mixed-model, and operator-validity analyses.
 - `outputs/`, `images/`, and `results/`: derived presentation, figure, and result artifacts.
 - `archive/phase1_prompting/`: historical prompting experiments. Preserve for provenance; do not treat as the active pipeline.
@@ -118,9 +137,13 @@ Do not write new generated data or analysis artifacts at the repository root. Us
 - Apply the same annotation and feature-extraction pipeline to real and synthetic data whenever making source comparisons.
 - Record tool versions, command options, and any exclusions that can alter derived measures.
 
-## Profiling and feature conventions
+## Linguistic feature conventions and historical profiling
 
-Child-level profiling currently uses structural, lexical, disruption, and morphosyntactic information. Preserve the following operational choices.
+Current linguistic analyses use structural, lexical, disruption, and
+morphosyntactic measures. Raw `severity_features_raw_*` tables and their
+builders remain active despite the legacy names. The derived severity/profile
+analysis and its dedicated builders were externally backed up and retired
+locally on 14 October 2026. Preserve the following feature definitions.
 
 ### Core grouped error features
 
@@ -163,7 +186,10 @@ Do not substitute all words or all verbs as the denominator without treating tha
 
 DSS category totals remain developmental scores; do not convert them to rates merely for scale uniformity.
 
-### Age adjustment and severity
+### Historical age adjustment and severity
+
+The following describes the archived exploratory analysis, not an active
+generation or RStudio evaluation step.
 
 - Fit developmental expectations using the TD group only.
 - Compare each child with the TD expectation for that age.
@@ -172,7 +198,10 @@ DSS category totals remain developmental scores; do not convert them to rates me
 - Keep the distinction between overall severity and profile shape.
 - Treat low/moderate/high SLI severity bands as within-corpus tertiles unless a different, validated specification is explicitly introduced.
 
-The strongest current severity signal is bare marking or missing required morphology. Lower MLU, DSS, IPSyn, and lexical diversity also contribute. Past overgeneralization currently behaves more like a developmental or profile feature than the primary severity driver. Pronoun problems are not exclusive to SLI.
+Earlier exploratory profiling identified bare marking or missing required
+morphology as its strongest severity signal, with contributions from lower
+MLU, DSS, IPSyn, and lexical diversity. Past overgeneralization behaved more
+like a developmental/profile feature. Pronoun problems were not exclusive to SLI.
 
 These are empirical project findings, not universal diagnostic rules.
 
@@ -317,7 +346,12 @@ Useful lightweight validation after Python edits:
 python -m compileall -q src
 ```
 
-The CLI also contains focused builders for DSS features, severity features, age adjustment, error-code features, grouped errors, past-verb features, severity profiles, story-generation designs, frozen rosters, generated-data evaluation, story packets, and story-unit SemR-p. Inspect `PYTHONPATH=src python -m icl_pilot --help` and the relevant implementation before running a mutating builder.
+The CLI contains focused builders for DSS and raw linguistic features,
+error-code features, grouped errors, past-verb features, age-only frozen
+rosters, generated-data evaluation, story packets, and story-unit SemR-p.
+Profiling, age-adjusted severity, clinical-grid design, and the legacy
+profile-matched architecture planner are retired. Inspect
+`PYTHONPATH=src python -m icl_pilot --help` before running a mutating builder.
 
 Do not run broad regeneration commands merely to test an import. Many commands write research artifacts and may overwrite or supersede derived outputs.
 
@@ -373,7 +407,10 @@ The original February 2026 project report established the data-scarcity motivati
 
 The active repository now contains generated and evaluated cohorts spanning ages four through seven. Always state the actual cohort used by an analysis; do not generalize a four-year-old or four-to-five-year-old result to the full age range.
 
-The current working architecture remains age-matched, cross-story, and staged from a canonical story scaffold to TD-like text and then DLD/SLI-like text. Profiling informs interpretation and feasibility but does not justify a maximally fine clinical prompt grid.
+The current working architecture remains age-matched, cross-story, and staged
+from a canonical story scaffold to TD-like text and then DLD/SLI-like text.
+Earlier profiling explored feasibility; it is now archived and does not
+determine prompt selection or the current R analyses.
 
 The current evaluation program combines:
 

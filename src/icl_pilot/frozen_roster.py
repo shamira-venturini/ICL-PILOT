@@ -7,16 +7,6 @@ import pandas as pd
 from scipy.optimize import linear_sum_assignment
 
 from .paths import FROZEN_ROSTER_CSV, ROOT
-from .story_generation_design import _profile_label
-
-
-_SEVERITY_COLUMNS = [
-    "severity_band_sli_tertile_sli_only",
-    "severity_structural",
-    "severity_lexical",
-    "severity_disruption",
-    "severity_morphosyntax_burden",
-]
 
 
 def _default_cohort_label(age_min_months: int, age_max_months: int) -> str:
@@ -34,31 +24,16 @@ def _filter_age_bin(frame: pd.DataFrame, age_min_months: int, age_max_months: in
 
 def _load_roster_frame(
     dev_measures_csv: Path,
-    severity_profile_csv: Path,
     age_min_months: int,
     age_max_months: int,
 ) -> pd.DataFrame:
     dev = pd.read_csv(dev_measures_csv)
-    sev = pd.read_csv(severity_profile_csv)
-
     dev = dev[dev["Group"].isin(["SLI", "TD"])].copy()
-    sev = sev[sev["Group"].isin(["SLI", "TD"])].copy()
-    dev = _filter_age_bin(dev, age_min_months=age_min_months, age_max_months=age_max_months)
-    sev = _filter_age_bin(sev, age_min_months=age_min_months, age_max_months=age_max_months)
-
-    merge_cols = ["File_ID", "Group", *_SEVERITY_COLUMNS]
-    roster = dev.merge(
-        sev[merge_cols],
-        on=["File_ID", "Group"],
-        how="inner",
-        validate="one_to_one",
-    )
+    roster = _filter_age_bin(dev, age_min_months=age_min_months, age_max_months=age_max_months)
+    if roster.duplicated(["File_ID", "Group"]).any():
+        raise ValueError("Developmental metadata contains duplicate child/group records.")
     roster["age_months_approx"] = pd.to_numeric(roster["Age_Month_approx"], errors="coerce")
     roster = roster.loc[roster["age_months_approx"].notna()].copy()
-    roster["profile_label"] = roster.apply(
-        lambda row: "typical" if row["Group"] == "TD" else _profile_label(row),
-        axis=1,
-    )
     return roster
 
 
@@ -97,15 +72,16 @@ def _solve_pairing(roster: pd.DataFrame, cohort_label: str) -> pd.DataFrame:
                 "sli_file_kideval": sli_row["File_kideval"],
                 "sli_age": sli_row["Age"],
                 "sli_age_months_approx": round(float(sli_row["age_months_approx"]), 3),
-                "sli_severity_band": sli_row["severity_band_sli_tertile_sli_only"],
-                "sli_profile_label": sli_row["profile_label"],
+                # Legacy schema fields remain empty; no profile is estimated.
+                "sli_severity_band": "",
+                "sli_profile_label": "",
                 "td_child_id": int(td_row["File_ID"]),
                 "td_file_kideval": td_row["File_kideval"],
                 "td_age": td_row["Age"],
                 "td_age_months_approx": round(float(td_row["age_months_approx"]), 3),
                 "age_gap_months": round(age_gap, 3),
                 "match_rule": "global minimum absolute age gap with one-to-one TD capacity",
-                "notes": "TD child used once; severity and profile are metadata only",
+                "notes": "TD child used once; pairing uses age only",
             }
         )
 
@@ -114,20 +90,19 @@ def _solve_pairing(roster: pd.DataFrame, cohort_label: str) -> pd.DataFrame:
 
 def build_frozen_roster_manifest(
     dev_measures_csv: str,
-    severity_profile_csv: str,
     output_csv: str,
     age_min_months: int = 48,
     age_max_months: int = 59,
     cohort_label: str | None = None,
 ) -> int:
     dev_path = Path(dev_measures_csv).expanduser().resolve()
-    severity_path = Path(severity_profile_csv).expanduser().resolve()
     output_path = Path(output_csv).expanduser().resolve()
+    if output_path.exists():
+        raise FileExistsError("Frozen roster already exists; choose a new output path for a comparison build.")
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     roster = _load_roster_frame(
         dev_measures_csv=dev_path,
-        severity_profile_csv=severity_path,
         age_min_months=age_min_months,
         age_max_months=age_max_months,
     )
@@ -145,7 +120,6 @@ def build_frozen_roster_manifest(
 
 def build_default_frozen_roster_manifest() -> int:
     return build_frozen_roster_manifest(
-        dev_measures_csv=str(ROOT / "phase2" / "measures" / "dev_measures.csv"),
-        severity_profile_csv=str(ROOT / "phase2" / "measures" / "severity_profile_banded_table.csv"),
+        dev_measures_csv=str(ROOT / "phase2" / "ENNI" / "measures" / "dev_measures.csv"),
         output_csv=str(FROZEN_ROSTER_CSV),
     )

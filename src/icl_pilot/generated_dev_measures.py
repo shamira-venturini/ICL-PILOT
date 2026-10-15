@@ -25,6 +25,11 @@ def _bundle_metadata(story_generation_csv: Path) -> pd.DataFrame:
     missing = required.difference(story_df.columns)
     if missing:
         raise ValueError(f"Story-generation CSV is missing required columns: {sorted(missing)}")
+    # Older generation files may carry archived profile labels as provenance.
+    # New runs do not estimate these fields; retain missingness when absent.
+    for column in ("sli_severity_band", "sli_profile_label"):
+        if column not in story_df.columns:
+            story_df[column] = pd.NA
 
     grouped = (
         story_df.sort_values(["bundle_id", "story_slot_order"])

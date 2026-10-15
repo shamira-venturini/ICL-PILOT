@@ -18,24 +18,21 @@ ENNI_IMAGES_DIR = DATA_DIR / "ENNI_images"
 STORY_PACKET_DIR = PROCESSED_DIR / "story_packets"
 
 COUNTERBALANCE_CSV = CONFIGS_DIR / "generation" / "cross_story_counterbalancing.csv"
-MANIFEST_CSV = CONFIGS_DIR / "generation" / "sample_wise_multistep_manifest.csv"
-FROZEN_ROSTER_CSV = CONFIGS_DIR / "generation" / "four_year_old_frozen_roster.csv"
+GENERATION_CONFIG_JSON = CONFIGS_DIR / "generation" / "experiment.json"
+FROZEN_ROSTER_CSV = CONFIGS_DIR / "generation" / "master_frozen_roster_4_to_7_year_old.csv"
+STORY_REFERENCE_JSON = CONFIGS_DIR / "generation" / "story_unit_reference.json"
 
 
 def expected_layout() -> dict[str, Path]:
+    """Required generation code/configuration; run/data directories are separate."""
     return {
         "configs": CONFIGS_DIR,
-        "data": DATA_DIR,
-        "data/raw": RAW_DIR,
-        "data/interim": INTERIM_DIR,
-        "data/processed": PROCESSED_DIR,
-        "data/generated": GENERATED_DIR,
-        "data/evaluation": EVALUATION_DIR,
-        "data/ENNI_images": ENNI_IMAGES_DIR,
-        "data/processed/story_packets": STORY_PACKET_DIR,
-        "docs": DOCS_DIR,
-        "archive": LEGACY_DIR,
+        "source_package": ROOT / "src" / "icl_pilot",
+        "generation_notebook": ROOT / "notebooks" / "colab_direct_generation_pipeline.ipynb",
         "counterbalance_csv": COUNTERBALANCE_CSV,
-        "generation_manifest_csv": MANIFEST_CSV,
+        "generation_config_json": GENERATION_CONFIG_JSON,
         "frozen_roster_csv": FROZEN_ROSTER_CSV,
+        "story_reference_json": STORY_REFERENCE_JSON,
+        "stage1_prompt_template": CONFIGS_DIR / "generation" / "prompts" / "stage1.json",
+        "stage2_prompt_template": CONFIGS_DIR / "generation" / "prompts" / "stage2.json",
     }

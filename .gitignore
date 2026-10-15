@@ -1,7 +1,11 @@
 .DS_Store
 .Rhistory
+.RData
+.RDataTmp
+Rplots.pdf
 .idea/
 .venv/
+.venv-talktag/
 __pycache__/
 *.py[cod]
 *.so
@@ -11,8 +15,17 @@ __pycache__/
 # New pipeline outputs should stay reproducible, not versioned.
 
 archive/
-docs/
+# Exclude other project documents by default; include maintained workflow guides.
+docs/*
+!docs/current_strategy_handoff.md
+!docs/chat_narrative_parsing.md
+!docs/colab_generation_package.md
+!docs/generation_prompt_records.md
+!docs/post_generation_processing.md
 data/
 runs/
 reports/
+outputs/
+results/
+tmp/
 *.log

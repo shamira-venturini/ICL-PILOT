@@ -10,7 +10,6 @@ import numpy as np
 import pandas as pd
 
 from ..frozen_roster import build_frozen_roster_manifest
-from ..story_generation_design import _profile_label
 
 
 _STORY_ORDER = ["A1", "A2", "A3", "B1", "B2", "B3"]
@@ -27,8 +26,6 @@ _FEATURE_COLUMNS = [
     "pronoun_errors_per_word",
     "rule_generalization_errors_per_word",
     "past_overgeneralization_errors_per_past_opp",
-    "severity_core_composite",
-    "severity_domain_composite",
     "qc_anomaly_score",
     "qc_anomaly_flag",
 ]
@@ -104,9 +101,9 @@ def _cohort_slug(label: str) -> str:
     return slug.strip("_") or "cohort"
 
 
-def load_frozen_roster(path: str | Path) -> pd.DataFrame:
-    roster_path = _coerce_path(path)
-    roster = pd.read_csv(roster_path)
+def load_frozen_roster(path: str | Path | pd.DataFrame) -> pd.DataFrame:
+    """Load one cohort, including a subset selected from the master in memory."""
+    roster = path.copy() if isinstance(path, pd.DataFrame) else pd.read_csv(_coerce_path(path))
     required = {
         "pair_order",
         "pair_id",
@@ -115,8 +112,6 @@ def load_frozen_roster(path: str | Path) -> pd.DataFrame:
         "sli_file_kideval",
         "sli_age",
         "sli_age_months_approx",
-        "sli_severity_band",
-        "sli_profile_label",
         "td_child_id",
         "td_file_kideval",
         "td_age",
@@ -128,6 +123,12 @@ def load_frozen_roster(path: str | Path) -> pd.DataFrame:
     missing = required.difference(roster.columns)
     if missing:
         raise ValueError(f"Frozen roster is missing columns: {sorted(missing)}")
+    if roster.empty or roster["cohort"].isna().any() or roster["cohort"].nunique() != 1:
+        raise ValueError("Select one nonempty cohort from the master roster before building a schedule.")
+    # Preserve historical labels if supplied, without requiring profile data.
+    for column in ("sli_severity_band", "sli_profile_label"):
+        if column not in roster.columns:
+            roster[column] = ""
     return roster.sort_values(["pair_order", "sli_child_id", "td_child_id"]).reset_index(drop=True)
 
 
@@ -300,7 +301,7 @@ def build_bundle_index(schedule_df: pd.DataFrame, output_csv: str | Path | None 
 
 
 def build_rotating_prompt_rounds(
-    frozen_roster_csv: str | Path,
+    frozen_roster_csv: str | Path | pd.DataFrame,
     pairs_per_round: int = 3,
     output_csv: str | Path | None = None,
 ) -> pd.DataFrame:
@@ -347,7 +348,7 @@ def build_rotating_prompt_rounds(
 
 
 def build_rotating_generation_schedule(
-    frozen_roster_csv: str | Path,
+    frozen_roster_csv: str | Path | pd.DataFrame,
     counterbalance_csv: str | Path,
     n_replicates: int = 10,
     pairs_per_round: int = 3,
@@ -387,7 +388,7 @@ def build_rotating_generation_schedule(
 
 
 def build_rotating_eval_manifest(
-    frozen_roster_csv: str | Path,
+    frozen_roster_csv: str | Path | pd.DataFrame,
     pairs_per_round: int = 3,
     output_csv: str | Path | None = None,
 ) -> pd.DataFrame:
@@ -517,41 +518,19 @@ def build_bundle_feature_template(
 
 def build_real_bundle_template(
     dev_measures_csv: str | Path,
-    severity_profile_csv: str | Path,
     age_min_months: int = 48,
     age_max_months: int = 59,
     output_csv: str | Path | None = None,
 ) -> pd.DataFrame:
     dev = pd.read_csv(_coerce_path(dev_measures_csv))
-    sev = pd.read_csv(_coerce_path(severity_profile_csv))
-
     dev = dev[dev["Group"].isin(["SLI", "TD"])].copy()
-    sev = sev[sev["Group"].isin(["SLI", "TD"])].copy()
     age_mask = pd.to_numeric(dev["Age(Month)"], errors="coerce").between(age_min_months, age_max_months)
     dev = dev.loc[age_mask].copy()
-    sev = sev.loc[pd.to_numeric(sev["Age(Month)"], errors="coerce").between(age_min_months, age_max_months)].copy()
-
-    merged = dev.merge(
-        sev[
-            [
-                "File_ID",
-                "Group",
-                "severity_band_sli_tertile_sli_only",
-                "severity_core_composite",
-                "severity_domain_composite",
-                "severity_structural",
-                "severity_lexical",
-                "severity_disruption",
-                "severity_morphosyntax_burden",
-            ]
-        ],
-        on=["File_ID", "Group"],
-        how="inner",
-        validate="one_to_one",
-    )
+    if dev.duplicated(["File_ID", "Group"]).any():
+        raise ValueError("Developmental metadata contains duplicate child/group records.")
 
     rows: list[dict[str, object]] = []
-    for _, row in merged.iterrows():
+    for _, row in dev.iterrows():
         child_id = int(row["File_ID"])
         group = str(row["Group"])
         age = str(row["Age"])
@@ -571,8 +550,6 @@ def build_real_bundle_template(
                 "sli_file_kideval": row["File_kideval"] if group == "SLI" else "",
                 "sli_age": age if group == "SLI" else "",
                 "sli_age_months_approx": age_months if group == "SLI" else np.nan,
-                "sli_severity_band": row["severity_band_sli_tertile_sli_only"] if group == "SLI" else "typical",
-                "sli_profile_label": _profile_label(row) if group == "SLI" else "typical",
                 "td_child_id": child_id if group == "TD" else "",
                 "td_file_kideval": row["File_kideval"] if group == "TD" else "",
                 "td_age": age if group == "TD" else "",
@@ -583,12 +560,6 @@ def build_real_bundle_template(
                 "target_story_order": "|".join(_STORY_ORDER),
                 "prompt_td_child_id": "",
                 "prompt_sli_child_id": "",
-                "severity_core_composite": row["severity_core_composite"],
-                "severity_domain_composite": row["severity_domain_composite"],
-                "severity_structural": row["severity_structural"],
-                "severity_lexical": row["severity_lexical"],
-                "severity_disruption": row["severity_disruption"],
-                "severity_morphosyntax_burden": row["severity_morphosyntax_burden"],
             }
         )
 
@@ -599,7 +570,6 @@ def build_real_bundle_template(
 
 def build_generation_package(
     dev_measures_csv: str | Path,
-    severity_profile_csv: str | Path,
     counterbalance_csv: str | Path,
     output_dir: str | Path,
     n_replicates: int = 10,
@@ -624,14 +594,14 @@ def build_generation_package(
     real_template_csv = out_dir / f"{cohort_slug}_real_bundle_template.csv"
     summary_json = out_dir / f"{cohort_slug}_generation_package_summary.json"
 
-    build_frozen_roster_manifest(
-        dev_measures_csv=str(dev_measures_csv),
-        severity_profile_csv=str(severity_profile_csv),
-        output_csv=str(roster_csv),
-        age_min_months=age_min_months,
-        age_max_months=age_max_months,
-        cohort_label=resolved_cohort_label,
-    )
+    if not roster_csv.exists():
+        build_frozen_roster_manifest(
+            dev_measures_csv=str(dev_measures_csv),
+            output_csv=str(roster_csv),
+            age_min_months=age_min_months,
+            age_max_months=age_max_months,
+            cohort_label=resolved_cohort_label,
+        )
 
     schedule = build_story_generation_schedule(
         frozen_roster_csv=roster_csv,
@@ -643,7 +613,6 @@ def build_generation_package(
     build_bundle_feature_template(bundle_index, output_csv=synthetic_template_csv)
     build_real_bundle_template(
         dev_measures_csv=dev_measures_csv,
-        severity_profile_csv=severity_profile_csv,
         age_min_months=age_min_months,
         age_max_months=age_max_months,
         output_csv=real_template_csv,
@@ -651,7 +620,6 @@ def build_generation_package(
 
     summary = {
         "dev_measures_csv": str(_coerce_path(dev_measures_csv)),
-        "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
         "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
         "output_dir": str(out_dir),
         "cohort_label": resolved_cohort_label,
@@ -680,7 +648,6 @@ def build_generation_package(
 
 def build_rotating_generation_package(
     dev_measures_csv: str | Path,
-    severity_profile_csv: str | Path,
     counterbalance_csv: str | Path,
     output_dir: str | Path,
     n_replicates: int = 10,
@@ -707,14 +674,14 @@ def build_rotating_generation_package(
     eval_manifest_csv = out_dir / f"{cohort_slug}_rotating_eval_manifest.csv"
     summary_json = out_dir / f"{cohort_slug}_rotating_generation_package_summary.json"
 
-    build_frozen_roster_manifest(
-        dev_measures_csv=str(dev_measures_csv),
-        severity_profile_csv=str(severity_profile_csv),
-        output_csv=str(roster_csv),
-        age_min_months=age_min_months,
-        age_max_months=age_max_months,
-        cohort_label=resolved_cohort_label,
-    )
+    if not roster_csv.exists():
+        build_frozen_roster_manifest(
+            dev_measures_csv=str(dev_measures_csv),
+            output_csv=str(roster_csv),
+            age_min_months=age_min_months,
+            age_max_months=age_max_months,
+            cohort_label=resolved_cohort_label,
+        )
 
     prompt_rounds = build_rotating_prompt_rounds(
         frozen_roster_csv=roster_csv,
@@ -738,7 +705,6 @@ def build_rotating_generation_package(
 
     summary = {
         "dev_measures_csv": str(_coerce_path(dev_measures_csv)),
-        "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
         "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
         "output_dir": str(out_dir),
         "cohort_label": resolved_cohort_label,
@@ -774,7 +740,6 @@ def build_rotating_generation_package(
 
 def build_multi_age_rotating_generation_packages(
     dev_measures_csv: str | Path,
-    severity_profile_csv: str | Path,
     counterbalance_csv: str | Path,
     output_dir: str | Path,
     age_bins: Sequence[tuple[str, int, int]] | None = None,
@@ -785,11 +750,10 @@ def build_multi_age_rotating_generation_packages(
     out_dir.mkdir(parents=True, exist_ok=True)
 
     bins = list(age_bins) if age_bins is not None else [
+        ("4-year-old", 48, 59),
         ("5-year-old", 60, 71),
         ("6-year-old", 72, 83),
         ("7-year-old", 84, 95),
-        ("8-year-old", 96, 107),
-        ("9-year-old", 108, 119),
     ]
     if not bins:
         raise ValueError("age_bins is empty")
@@ -803,7 +767,6 @@ def build_multi_age_rotating_generation_packages(
 
         artifacts = build_rotating_generation_package(
             dev_measures_csv=dev_measures_csv,
-            severity_profile_csv=severity_profile_csv,
             counterbalance_csv=counterbalance_csv,
             output_dir=cohort_dir,
             n_replicates=n_replicates,
@@ -834,7 +797,6 @@ def build_multi_age_rotating_generation_packages(
     summary = {
         "output_dir": str(out_dir),
         "dev_measures_csv": str(_coerce_path(dev_measures_csv)),
-        "severity_profile_csv": str(_coerce_path(severity_profile_csv)),
         "counterbalance_csv": str(_coerce_path(counterbalance_csv)),
         "n_replicates": int(n_replicates),
         "pairs_per_round": int(pairs_per_round),
