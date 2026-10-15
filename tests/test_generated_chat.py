@@ -3,7 +3,9 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
 from pathlib import Path
+import subprocess
 
 import pytest
 
@@ -288,3 +290,59 @@ def test_malformed_or_incomplete_csv_is_rejected(tmp_path, content):
     with pytest.raises(ValueError):
         convert_generated_story_csv_to_cha(input_csv=source, output_dir=tmp_path / "chat")
     assert not (tmp_path / "chat").exists()
+
+
+@pytest.mark.parametrize("source,expected", [
+    ("he (.) go to the pooo:l. he go (..) back.",
+     ["he (.) go to the pooo:l .", "he go (..) back ."]),
+    ("(. ) he go (be)cause he want it.", ["(.) he go (be)cause he want it ."]),
+    ("he [* m:0ed] go [/] go home.", ["he [* m:0ed] go [/] go home ."]),
+    ('he said +"/. +" no go! then he goed.',
+     ['he said +"/.', '+" no go !', '+" then he goed .']),
+    ('he said "no go!" then he goed.', ['he said +"/.', '+" no go !', 'then he goed .']),
+    ('"hello". He went.', ['“hello” .', 'He went .']),
+    ('he said +"/.', ['he said .']),
+    ("he said 'where's my airplane!' then he goed.",
+     ['he said +"/.', '+" where\'s my airplane !', 'then he goed .']),
+    ("they got 5 balloons for $2. he get 1 balloon for $1.",
+     ['they got five balloons for two dollars .', 'he get one balloon for one dollar .']),
+    ("rabbit & dog got 25 balloons.", ['rabbit and dog got twenty five balloons .']),
+    ("she say (s) no running. they (g)o.", ['she say(s) no running .', 'they (g)o .']),
+    ("me and me (i) eat. it's all (all) messy.", ['me and me i eat .', "it's all all messy ."]),
+    ("Max said / and it hurts! water @. ball + go.", ['Max said and it hurts !', 'water .', 'ball go .']),
+    ("he go &*EXA : mhm. he goed.", ['he go &*EXA:mhm .', 'he goed .']),
+    ("Here is story B2 (Picnic tummyache): he goed.", ['Here is story B@l two Picnic tummyache: he goed .']),
+    ("he go.. then he goed?!", ['he go +...', 'then he goed ?']),
+    ("he *coughs* and =whimpers.", ['he &=coughs and &=whimpers .']),
+])
+def test_chat_formatting_preserves_nonstandard_language_and_valid_notation(tmp_path, row, source, expected):
+    row["stage1_td_story"] = source
+    original = dict(row)
+    output = convert(tmp_path, [row])
+    chat = next(output["stage1_td_dir"].glob("*.cha")).read_text()
+    assert [line.split("\t", 1)[1] for line in chat.splitlines() if line.startswith("*CHI:")] == expected
+    assert row == original
+    with output["manifest_csv"].open() as handle:
+        records = list(csv.DictReader(handle))
+    assert records[0]["source_text_sha256"] == hashlib.sha256(source.encode()).hexdigest()
+    assert isinstance(json.loads(records[0]["formatting_changes"]), list)
+    # If explicitly configured, exercise the same official validator as the
+    # corpus audit, including cross-utterance quotation-link checks.
+    chatter = os.environ.get("ICL_PILOT_CHATTER")
+    if chatter:
+        done = subprocess.run([chatter, "validate", str(output["output_dir"]), "--format", "json",
+                               "--force", "--strict-linkers"], capture_output=True, text=True)
+        assert done.returncode == 0, done.stdout + done.stderr
+
+
+def test_number_and_symbol_normalizations_are_explicitly_recorded(tmp_path, row):
+    row["stage1_td_story"] = "rabbit & dog got 5 balloons for $2."
+    output = convert(tmp_path, [row])
+    with output["manifest_csv"].open() as handle:
+        record = next(csv.DictReader(handle))
+    changes = json.loads(record["formatting_changes"])
+    assert {item["kind"] for item in changes} == {"currency_spelling", "number_spelling", "ampersand_spelling"}
+    assert {item["before"]: item["after"] for item in changes} == {
+        "$2": "two dollars", "5": "five", "&": " and ",
+    }
+    assert "@Comment:\tformatting_normalization_count=3" in Path(record["output_path"]).read_text()

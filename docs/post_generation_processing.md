@@ -1,7 +1,8 @@
 # Post-generation processing
 
 The generation notebook calls
-`icl_pilot.generated_chat.convert_generated_story_csv_to_cha` after each cohort.
+`icl_pilot.generated_chat.convert_generated_story_csv_to_cha` in its conversion
+block, after generation or from explicitly selected saved CSVs.
 This exports Stage 1 TD-like and Stage 2 SLI-conditioned narratives to separate
 CHAT directories. It does not annotate errors, run CLAN, or construct features.
 
@@ -34,10 +35,10 @@ unsafe identifier or malformed record stops conversion before files are written.
 An I/O failure after preflight can leave a partial new directory for inspection.
 
 Empty cells remain empty during parsing; they cannot become the narrative
-`nan`. Literal strings such as `NA` remain text. Existing surface normalization,
-punctuation spacing, quotation handling and utterance segmentation are preserved.
-Generated grammar is not corrected. These utterance boundaries are a conversion
-rule for generated prose, not an independent manual segmentation assessment.
+`nan`. Literal strings such as `NA` remain text. Formatting now follows the
+Chatter-checked policy below. Generated grammar is not corrected. Utterance
+boundaries still depend on the model's punctuation and quotation notation;
+they have not received an independent linguistic C-unit segmentation review.
 
 New exports use the three-field CHAT header `@Types: cross, narrative, TD`
 or `SLI`. The separate `@Comment: data_source=generated` records synthetic
@@ -50,6 +51,60 @@ links each file to its source CSV, pair, round, replicate, story, group and chil
 It records the exported age, whether age/child metadata came from the generation
 CSV or roster, and SHA-256 hashes of the source CSV and CHAT file. Keep the
 roster snapshot and generation run manifest with this export.
+
+### Formatting policy and validation — 15 October 2026
+
+The converter protects existing CHAT pauses, word shortenings, square-bracket
+codes, lengthening colons and interposed-speaker notation while spacing prose
+punctuation. Pauses such as `(.)` no longer create sentence breaks or become
+`( .)`. Explicit CHAT quotation markers and ordinary quotation marks are handled
+separately; quotation linkers are paired, and standalone quoted material without
+a reporting frame uses Unicode quotation marks. No reporting words are invented.
+
+English numerals use a deterministic cardinal spelling (decimals use `point`
+and individual digits; leading-zero strings use individual digits). Dollar
+amounts expand to number words and `dollar(s)`. Literal story identifiers such
+as `B2` become `B@l two`; ampersands used as conjunctions become `and`. These
+are declared orthographic choices for generated text, not recovered pronunciation.
+Known written nonverbal-event forms receive `&=` notation. Standalone prose
+parentheses retain their enclosed words; embedded CHAT shortenings remain intact,
+and separated omitted suffixes are reattached. Uncoded standalone `+`, `/` and
+`@` are removed as prose symbols without assigning a pause, retracing or error.
+
+Every export row now records `source_text_sha256` and a JSON `formatting_changes`
+list with the original and replacement forms. A CHAT comment records the number
+of logged normalizations. Original CSV text is preserved, including model
+commentary; syntax validation does not establish narrative quality. The
+normalization can change word counts and utterance boundaries, so adopting new
+exports in an analysis requires a deliberate measurement rerun.
+
+The full saved ages-4–7 generation CSVs were exported to a fresh audit tree.
+TalkBank Chatter **0.30.0**, with `--force --strict-linkers` and no suppressed
+checks, validated **all 5,640 files**. Before correction, standard validation
+rejected 649 files; strict quotation-link validation rejected 658. The final
+audit found no lexical sequence changes beyond the recorded orthographic
+normalization. Headers, child ages/groups and story/provenance fields were
+preserved. Existing research CHAT, CSVs, annotations and results were not replaced.
+
+To check a fresh export with an installed Chatter CLI:
+
+```bash
+chatter validate PATH_TO_CHAT_EXPORT --force --strict-linkers --format json
+```
+
+Use the returned exit code and final summary; exit zero must cover every file.
+This checks the files actually supplied to Chatter. The latest remote Colab
+smoke export has not been inspected directly by this local audit. Reconvert a
+saved CSV with `MODE="convert_only"` into a new run to use the corrected converter;
+model inference and annotation are unnecessary for that step.
+
+References: [CHAT manual](https://talkbank.org/0info/manuals/CHAT.html),
+[Chatter CLI](https://talkbank.github.io/chatter/chatter/user-guide/cli-reference.html).
+Before/after inventories, replacement logs, pinned binary hashes and validator
+reports: `outputs/maintenance/chat_conversion_validation_2026-10-15/`.
+The focused generation/conversion/annotation suite passed 229 tests, including
+17 formatting regressions checked with the actual Chatter executable. Notebook
+executable cells, generation templates/settings and the R analysis are unchanged.
 
 New generation CSVs contain `stage1_prompt_record_id` and
 `stage2_prompt_record_id`. Conversion requires both when either column exists,
@@ -134,3 +189,5 @@ historical jobs (5,640 CHAT files, ages four through seven). After removing the
 new cohort provenance comment, CHAT contents and existing manifest fields
 match the previous converter. Existing research transcripts and analyses are
 not regenerated. Audit: `outputs/maintenance/post_generation_cleanup_2026-10-14/`.
+That historical preservation check predates the intentional formatting fixes
+and Chatter validation documented above.

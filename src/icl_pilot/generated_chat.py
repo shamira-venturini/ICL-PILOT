@@ -14,9 +14,90 @@ _MULTISPACE_RE = re.compile(r"\s+")
 _TRAILING_CLAUSE_PUNCT_RE = re.compile(r"[,:;.!?]+$")
 _HAS_LEXICAL_CONTENT_RE = re.compile(r"[A-Za-z0-9]")
 _LEADING_BOUNDARY_PUNCT_RE = re.compile(r"^[,.;:!?]+\s*")
-_CHAT_PUNCT_RE = re.compile(r"\s*([,.;:!?])")
+_CHAT_PUNCT_RE = re.compile(r"\s*([,.;!?])")
+# Protect notation before handling prose punctuation. In particular, a pause
+# dot is not an utterance boundary and a colon inside a word marks lengthening.
+_CHAT_NOTATION_RE = re.compile(
+    r'\+(?:"/\.|"\.|"|//[.?]|/[.?]|\.{3}|\.)'
+    r'|\([^()]*\)|\[[^\[\]]*\]|&\*[A-Z][A-Z0-9]*:[^\s.!?,;]+'
+)
 _SAFE_ID_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*\Z")
 _AGE_RE = re.compile(r"(\d+);(\d{1,2})(?:\.(\d{1,2}))?\Z")
+_NUMBER_WORDS = (
+    "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+    "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+    "seventeen", "eighteen", "nineteen",
+)
+_TENS = ("", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety")
+
+
+def _number_words(value: str) -> str:
+    if "." in value:
+        whole, decimal = value.split(".", 1)
+        return _number_words(whole) + " point " + " ".join(_NUMBER_WORDS[int(digit)] for digit in decimal)
+    if len(value) > 1 and value.startswith("0"):
+        return " ".join(_NUMBER_WORDS[int(digit)] for digit in value)
+    number = int(value)
+    if number < 20:
+        return _NUMBER_WORDS[number]
+    if number < 100:
+        return _TENS[number // 10] + (" " + _NUMBER_WORDS[number % 10] if number % 10 else "")
+    for scale, name in ((10**9, "billion"), (10**6, "million"), (1000, "thousand"), (100, "hundred")):
+        if number >= scale:
+            head, tail = divmod(number, scale)
+            return _number_words(str(head)) + " " + name + (" " + _number_words(str(tail)) if tail else "")
+    raise ValueError(f"Unsupported number: {value}")
+
+
+def _normalize_generated_notation(text: str) -> tuple[str, list[dict[str, str]]]:
+    """Normalize explicit written notation, retaining an exact replacement log.
+
+    This does not correct grammar, choose missing words or infer error tags.
+    Number reading is a documented orthographic convention for generated text.
+    """
+    changes: list[dict[str, str]] = []
+
+    def substitute(pattern, replacement, kind):
+        nonlocal text
+
+        def apply(match):
+            after = replacement(match)
+            if after != match.group():
+                changes.append({"kind": kind, "before": match.group(), "after": after})
+            return after
+
+        text = re.sub(pattern, apply, text)
+
+    substitute(r"\(\s*(\.{1,3}|\d+(?:\.\d+)?)\s*\)", lambda m: "(" + m[1] + ")", "pause_spacing")
+    # An isolated omitted suffix belongs to its preceding word, not a new word.
+    substitute(r"\b([A-Za-z][A-Za-z'’]*)\s+\((s|ed|ing)\)",
+               lambda m: m[1] + "(" + m[2] + ")", "omitted_suffix_spacing")
+    # Parentheses enclosing entire words are prose punctuation, not CHAT word
+    # shortenings. Keep every word; do not reinterpret them as omitted speech.
+    def prose_parentheses(match):
+        content = match[1]
+        return content if re.search(r"[A-Za-z]", content) else match.group()
+
+    substitute(r"(?<![\w])\(([^()]*)\)(?![\w])", prose_parentheses, "prose_parentheses")
+    substitute(r"&\*\s*([A-Z][A-Z0-9]*)\s*:\s*([^\s.!?,;]+)",
+               lambda m: "&*" + m[1] + ":" + m[2], "interposed_speaker_spacing")
+    substitute(r"(?<![\w])'((?:[^']|'(?=\w))*[.!?])'(?=\s|$)",
+               lambda m: '"' + m[1] + '"', "single_quoted_utterance")
+    text, protected = _protect_notation(text)
+    substitute(r"\$([0-9]+(?:\.[0-9]+)?)",
+               lambda m: _number_words(m[1]) + (" dollar" if float(m[1]) == 1 else " dollars"), "currency_spelling")
+    substitute(r"\b([AB])([123])\b", lambda m: m[1] + "@l " + _number_words(m[2]), "story_identifier_spelling")
+    substitute(r"(?<![\w])\d+(?:\.\d+)?(?![\w])", lambda m: _number_words(m.group()), "number_spelling")
+    substitute(r"&(?![=*~+\-])", lambda m: " and ", "ampersand_spelling")
+    events = r"(?:coughs|sneezes|laughs|giggles|whimpers|sighs|yawns|cries|growls)"
+    substitute(r"\*(" + events + r")\*", lambda m: "&=" + m[1], "nonverbal_event_notation")
+    substitute(r"(?<![&\w])=(" + events + r")\b", lambda m: "&=" + m[1], "nonverbal_event_notation")
+    # Uncoded stand-alone prose symbols have no spoken word content. Their
+    # exact removal is logged; do not guess a pause, retracing or error code.
+    substitute(r"(?<!\S)[+/@](?=\s|[.!?,;:]|$)", lambda m: "", "uncoded_prose_symbol")
+    substitute(r"([!?])[.!?]+", lambda m: m[1], "utterance_terminator_run")
+    substitute(r"(?<![+.])\.{2,}", lambda m: " +...", "trailing_off_notation")
+    return _restore_notation(text, protected), changes
 
 
 def _normalize_surface(text: str) -> str:
@@ -35,19 +116,46 @@ def _strip_leading_boundary_punct(text: str) -> str:
     return _LEADING_BOUNDARY_PUNCT_RE.sub("", normalized).strip()
 
 
+def _protect_notation(text: str, *, keep_terminators: bool = False) -> tuple[str, dict[str, str]]:
+    protected: dict[str, str] = {}
+
+    def replace(match):
+        value = match.group()
+        terminal = ""
+        if keep_terminators and value.startswith("+") and value[-1:] in ".!?":
+            value, terminal = value[:-1], value[-1]
+        key = "\ue000" + chr(0xE100 + len(protected)) + "\ue001"
+        protected[key] = value
+        return key + terminal
+
+    return _CHAT_NOTATION_RE.sub(replace, text), protected
+
+
+def _restore_notation(text: str, protected: dict[str, str]) -> str:
+    for key, value in protected.items():
+        text = text.replace(key, value)
+    return text
+
+
+def _sentence_parts(text: str, *, maxsplit: int = 0) -> list[str]:
+    guarded, protected = _protect_notation(text, keep_terminators=True)
+    return [_restore_notation(part, protected) for part in _SENTENCE_SPLIT_RE.split(guarded, maxsplit=maxsplit)]
+
+
 def _chat_space_punctuation(text: str) -> str:
     normalized = _normalize_surface(text)
     if not normalized:
         return ""
-    spaced = _CHAT_PUNCT_RE.sub(r" \1", normalized)
-    return _MULTISPACE_RE.sub(" ", spaced).strip()
+    guarded, protected = _protect_notation(normalized)
+    spaced = _CHAT_PUNCT_RE.sub(r" \1", guarded)
+    return _restore_notation(_MULTISPACE_RE.sub(" ", spaced).strip(), protected)
 
 
 def _sentence_lines(text: str) -> list[str]:
     normalized = _normalize_surface(text)
     if not normalized or not _has_lexical_content(normalized):
         return []
-    parts = [part.strip() for part in _SENTENCE_SPLIT_RE.split(normalized) if part.strip()]
+    parts = [part.strip() for part in _sentence_parts(normalized) if part.strip()]
     lines: list[str] = []
     for part in parts:
         if part[-1] not in ".!?":
@@ -64,7 +172,7 @@ def _sentence_lines_with_tail(text: str) -> tuple[list[str], str]:
     normalized = _normalize_surface(text)
     if not normalized:
         return [], ""
-    parts = [part.strip() for part in _SENTENCE_SPLIT_RE.split(normalized) if part.strip()]
+    parts = [part.strip() for part in _sentence_parts(normalized) if part.strip()]
     complete: list[str] = []
     tail = ""
     for part in parts:
@@ -73,16 +181,6 @@ def _sentence_lines_with_tail(text: str) -> tuple[list[str], str]:
         else:
             tail = part
     return complete, tail
-
-
-def _split_first_segment(text: str) -> tuple[str, str]:
-    normalized = _strip_leading_boundary_punct(text)
-    if not normalized:
-        return "", ""
-    parts = _SENTENCE_SPLIT_RE.split(normalized, maxsplit=1)
-    first = parts[0].strip()
-    rest = parts[1].strip() if len(parts) > 1 else ""
-    return first, rest
 
 
 def _strip_clause_edges(text: str) -> str:
@@ -109,54 +207,123 @@ def _format_quote_line(text: str) -> str:
 
 
 def _format_quote_suffix_line(text: str) -> str:
-    clause = _strip_clause_edges(text).replace('"', "")
+    clause = _normalize_surface(_strip_clause_edges(text).replace('"', ""))
     if not _has_lexical_content(clause):
         return ""
     return f'{clause} +".' if clause else '+".'
 
 
-def _chat_utterance_lines(text: str) -> list[str]:
+def _repair_quote_layout(lines: list[str]) -> list[str]:
+    """Pair explicit quotation linkers; use inline quotes when no frame exists.
+
+    Do not invent a reporting clause or speaker for standalone quoted text.
+    CHAT supports Unicode quotation marks without cross-utterance linkers.
+    """
+    lines = list(lines)
+    for index, line in enumerate(lines):
+        if line.endswith('+"/.'):
+            if index + 1 < len(lines) and not lines[index + 1].startswith('+" '):
+                if not lines[index + 1].endswith(('+"/.', '+".')):
+                    lines[index + 1] = '+" ' + lines[index + 1]
+                else:
+                    lines[index] = line[:-4].rstrip() + " ."
+            elif index + 1 == len(lines):
+                lines[index] = line[:-4].rstrip() + " ."
+
+    index = 0
+    while index < len(lines):
+        if not lines[index].startswith('+" '):
+            index += 1
+            continue
+        end = index + 1
+        while end < len(lines) and lines[end].startswith('+" '):
+            end += 1
+        follows = index > 0 and lines[index - 1].endswith('+"/.')
+        precedes = end < len(lines) and lines[end].endswith('+".')
+        if not follows and not precedes:
+            for position in range(index, end):
+                body = lines[position][3:].strip()
+                match = re.search(r"(\+(?:\.{3}|//[.?]|/[.?]|\.)|[.!?])$", body)
+                terminal = match.group() if match else "."
+                content = body[:match.start()].rstrip() if match else body
+                lines[position] = "“" + content + "” " + terminal
+        elif follows and precedes:
+            lines[end] = lines[end][:-3].rstrip() + " ."
+        index = end
+
+    for index, line in enumerate(lines):
+        if line.endswith('+".') and (index == 0 or not lines[index - 1].startswith('+" ')):
+            lines[index] = line[:-3].rstrip() + " ."
+    return lines
+
+
+def _chat_utterance_lines(text: str, *, formatting_changes: list[dict[str, str]] | None = None) -> list[str]:
     normalized = _normalize_surface(text)
     if not normalized:
         return []
     if '"' not in normalized:
         return _sentence_lines(normalized)
 
+    # Recognize complete CHAT controls before ordinary quotes, including mixed
+    # model outputs that open with +" but close with a plain double quote.
+    # Each explicit initiator starts a new main tier; a quoted word or pause
+    # must not be mistaken for an additional participant.
     lines: list[str] = []
-    remaining = normalized
-    while '"' in remaining:
-        before, _, quoted_and_after = remaining.partition('"')
-        quoted, closing_quote, after = quoted_and_after.partition('"')
-        if not closing_quote:
-            stripped = (before + " " + quoted).replace('"', "").strip()
-            lines.extend(_sentence_lines(stripped))
-            remaining = after
-            break
+    quoted = False
+    buffer = ""
 
-        completed_before, before_tail = _sentence_lines_with_tail(before)
-        lines.extend(completed_before)
-        if before_tail:
-            lines.append(_format_quote_prefix_line(before_tail))
+    def append_plain(value):
+        value = _strip_leading_boundary_punct(value)
+        if value in {"+.", "+...", "+/.", "+//."} and lines:
+            lines[-1] = re.sub(r"[.!?]$", "", lines[-1]).rstrip() + " " + value
+        else:
+            lines.extend(_sentence_lines(value))
 
-        quote_lines, quote_tail = _sentence_lines_with_tail(quoted)
-        for quote_line in quote_lines:
-            lines.append(_format_quote_line(quote_line))
-        if quote_tail:
-            lines.append(_format_quote_line(quote_tail))
+    def append_quoted(value):
+        for part in _sentence_parts(value):
+            formatted = _format_quote_line(_strip_leading_boundary_punct(part))
+            if formatted:
+                lines.append(formatted)
 
-        if before_tail:
-            remaining = _strip_leading_boundary_punct(after)
-            continue
+    def append_prefix(value):
+        completed, tail = _sentence_lines_with_tail(value)
+        for part in completed:
+            append_plain(part)
+        if tail:
+            formatted = _format_quote_prefix_line(tail)
+            if formatted:
+                lines.append(formatted)
 
-        suffix, rest = _split_first_segment(after)
-        if suffix:
-            lines.append(_format_quote_suffix_line(suffix))
-        remaining = _strip_leading_boundary_punct(rest)
-
-    if remaining:
-        lines.extend(_sentence_lines(remaining.replace('"', "")))
-
-    return [line for line in lines if line]
+    for part in re.split(r'(\+"/\.|\+"\.|\+"|")', normalized):
+        if part == '+"/.':
+            append_prefix(buffer)
+            buffer, quoted = "", False
+        elif part == '+"':
+            (append_quoted if quoted else append_plain)(buffer)
+            buffer, quoted = "", True
+        elif part == '+".':
+            if quoted:
+                append_quoted(buffer)
+            else:
+                parts = [p for p in _sentence_parts(buffer) if _has_lexical_content(p)]
+                for value in parts[:-1]:
+                    append_plain(value)
+                if parts:
+                    formatted = _format_quote_suffix_line(parts[-1])
+                    if formatted:
+                        lines.append(formatted)
+            buffer, quoted = "", False
+        elif part == '"':
+            (append_quoted if quoted else append_prefix)(buffer)
+            buffer, quoted = "", not quoted
+        else:
+            buffer += part
+    (append_quoted if quoted else append_plain)(buffer)
+    lines = [line for line in lines if line]
+    repaired = _repair_quote_layout(lines)
+    if repaired != lines and formatting_changes is not None:
+        formatting_changes.append({"kind": "quotation_link_layout", "before": "\n".join(lines), "after": "\n".join(repaired)})
+    return repaired
 
 
 def _build_chat_text(
@@ -167,8 +334,9 @@ def _build_chat_text(
     story_id: str,
     story_text: str,
     comments: list[str],
+    formatting_changes: list[dict[str, str]] | None = None,
 ) -> str:
-    utterances = _chat_utterance_lines(story_text)
+    utterances = _chat_utterance_lines(story_text, formatting_changes=formatting_changes)
     if not utterances:
         raise ValueError("Cannot write CHAT file for empty story text")
 
@@ -184,6 +352,8 @@ def _build_chat_text(
         f"@G:\t{story_id}",
     ]
     lines.extend(f"@Comment:\t{comment}" for comment in comments)
+    if formatting_changes:
+        lines.append(f"@Comment:\tformatting_normalization_count={len(formatting_changes)}")
     lines.extend(f"*CHI:\t{utterance}" for utterance in utterances)
     lines.append("@End")
     return "\n".join(lines) + "\n"
@@ -419,6 +589,7 @@ def convert_generated_story_csv_to_cha(
             story_text = _normalize_surface(spec["text"])
             if not story_text or not _has_lexical_content(story_text):
                 raise ValueError(f"Empty or nonlexical {stage} story in CSV record {row_number}")
+            story_text, formatting_changes = _normalize_generated_notation(story_text)
 
             output_path = stage_dirs[stage] / f"{base_stem}_{spec['group']}.cha"
             if output_path in planned_files:
@@ -449,6 +620,7 @@ def convert_generated_story_csv_to_cha(
                 story_id=story_id,
                 story_text=story_text,
                 comments=comments,
+                formatting_changes=formatting_changes,
             )
             planned_files[output_path] = chat_text
             manifest_rows.append(
@@ -471,6 +643,8 @@ def convert_generated_story_csv_to_cha(
                     "parent_prompt_record_id": spec["parent_prompt_record_id"],
                     "source_csv_sha256": source_hash,
                     "chat_sha256": hashlib.sha256(chat_text.encode("utf-8")).hexdigest(),
+                    "source_text_sha256": hashlib.sha256(spec["text"].encode("utf-8")).hexdigest(),
+                    "formatting_changes": json.dumps(formatting_changes, ensure_ascii=False, separators=(",", ":")),
                 }
             )
 

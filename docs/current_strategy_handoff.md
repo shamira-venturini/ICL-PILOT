@@ -354,6 +354,27 @@ part of the current paper's generation or RStudio analysis.
   text hashes still match the original inventory. Notebook executable cells
   are unchanged. Compilation and diff checks passed; no GPU inference was run.
   Audit: `outputs/maintenance/prompt_restoration_2026-10-15/validation.json`.
+- The author subsequently reported improved smoke narratives after prompt
+  restoration and deferred runtime/resume work. They explicitly clarified that
+  the next task is CSV-to-CHAT correctness, not manuscript writing or R changes.
+  A fresh export of all 2,820 saved jobs (5,640 files) exposed 649 standard
+  Chatter failures (658 with strict quotation-link checks), despite preservation
+  of the original lexical sequence. The converter damaged existing pause and
+  quotation codes and did not normalize written numerals or prose symbols.
+  It now protects CHAT notation, repairs quotation layout and records explicit
+  orthographic normalization in `chat_manifest.csv` (`source_text_sha256` and
+  `formatting_changes`). See `docs/post_generation_processing.md` for the exact
+  number, symbol, parentheses and quotation policy. All 5,640 fresh outputs pass
+  Chatter 0.30.0 with `--force --strict-linkers`, without suppressed checks.
+  The original source CSV hashes are unchanged; no original CHAT, annotation,
+  measurement table, prompt, R code, paper text or result was overwritten.
+  These are format checks, not validation of C-unit segmentation or clinical
+  fidelity. The latest remote Colab smoke export remains to be checked directly.
+  Validation: 229 focused tests passed, including 17 regression examples run
+  through the pinned Chatter executable. All final normalized lexical sequences
+  match the emitted main tiers, with zero unexplained changes. Before/after
+  inventories include file and utterance counts; no measurements were rerun.
+  Audit: `outputs/maintenance/chat_conversion_validation_2026-10-15/`.
 
 ## 2. Profiling Is Archived Exploratory Work
 
