@@ -100,8 +100,9 @@ part of the current paper's generation or RStudio analysis.
   `configs/generation/prompts/stage1.json` and `stage2.json`, selected by
   `experiment.json` schema 4. One `PromptBuilder` serves Colab previews and
   inference. The initial extraction preserved the pre-cleanup instructions and
-  whitespace; the approved neutral wording update of 15 October is recorded
-  below. Replicate-ID content and age-through-exemplar design are preserved.
+  whitespace. The neutral wording test and subsequent restoration to the
+  pre-cleanup baseline on 15 October are recorded below. Replicate-ID content
+  and age-through-exemplar design are preserved.
   Preflight validates each selected
   exemplar's raw age against the roster and renders both stage templates.
 - New runs write `prompt_records.jsonl` with attempted prompts before model
@@ -330,6 +331,29 @@ part of the current paper's generation or RStudio analysis.
   in the rendering audit, never used as new generated outputs or silently
   filtered. No GPU inference was performed. Audit:
   `outputs/maintenance/neutral_prompt_wording_2026-10-15/validation.json`.
+- The author reported another smoke test without grammatical errors and then
+  requested a return to the prompts in the original notebook. The active
+  templates and complete scaffold reference have been restored verbatim to
+  `7dbfc657`, whose messages match the pre-cleanup notebook at `78a5cada`.
+  This restores the TD/ENNI headings, child-like/simple-language constraints,
+  clinical framing and Stage 2 guidance on grammatical level/shortening. The
+  neutral version remains in Git commit `9a59fa21`. No severity/profile
+  conditioning is restored; no narrative, model setting, roster, evaluation
+  rule, annotation helper or scientific result is changed. The newest smoke
+  output and runtime have not been inspected directly. Earlier smoke failures
+  predate the neutral edit, so the edit cannot explain the entire discrepancy.
+  Original raw CSVs already contain fragmented clauses (four-year-old first
+  pair A1) and nonstandard agreement (six-year-old first pair A1) before
+  annotation. Historical executed prompts and runtime remain incompletely
+  recorded; restoring known notebook source does not establish historical
+  inference equivalence or guarantee error-bearing output.
+  Validation: 211 focused tests passed; all 5,640 assembled stage messages match
+  the actual functions extracted from Git notebook `78a5cada`, using saved
+  Stage 1 outputs only as rendering inputs. The complete run-input and evaluation
+  fingerprints match the pre-neutral baseline, and all 5,640 saved narrative
+  text hashes still match the original inventory. Notebook executable cells
+  are unchanged. Compilation and diff checks passed; no GPU inference was run.
+  Audit: `outputs/maintenance/prompt_restoration_2026-10-15/validation.json`.
 
 ## 2. Profiling Is Archived Exploratory Work
 

@@ -4,7 +4,6 @@ from contextlib import nullcontext
 import hashlib
 import json
 from pathlib import Path
-import re
 from types import SimpleNamespace
 
 import pytest
@@ -52,32 +51,25 @@ def events(journal):
     return [json.loads(line) for line in journal.path.read_text().splitlines()]
 
 
-def test_templates_match_approved_neutral_messages_byte_for_byte(builder) -> None:
-    # Freeze the wording approved on 15 October, including its whitespace.
-    for messages, expected in ((builder.stage1_messages(ROW), "98ed6dfc6361bc195a522bb21c066749dfe1e32c30b67d95869fe355cb77e288"),
-                               (builder.stage2_messages(ROW, PARENT), "6b3cb4b21e7fcf77b4fe3d22aefbbd7eaa138dacf347dd2b531208dff89a878f")):
+def test_templates_match_pre_cleanup_notebook_messages_byte_for_byte(builder) -> None:
+    # Frozen hashes come from the functions in notebook revision 78a5cada.
+    # Matching source does not establish the actual historical execution.
+    for messages, expected in ((builder.stage1_messages(ROW), "8b0ca2a2665ced6b0d44833c970ee393fe6c59800a00e7a5da56432663b83c54"),
+                               (builder.stage2_messages(ROW, PARENT), "d31377f55a5810774b93392e285d852e1de1e2e9f55036b7595d6015bf4248d9")):
         serialized = json.dumps(messages, ensure_ascii=False, separators=(",", ":"))
         assert hashlib.sha256(serialized.encode()).hexdigest() == expected
     assert builder.stage1_messages(SimpleNamespace(**ROW)) == builder.stage1_messages(ROW)
 
 
-def test_instructions_and_inserted_constraints_omit_diagnostic_and_prescriptive_style_cues():
-    forbidden = re.compile(
-        r"\b(?:TD|SLI|DLD|ENNI|clinical(?:ly)?|severity|profile)\b|"
-        r"child[- ]like|adult[- ]style|\bshort(?:er)?\b|\bsimpl(?:e|er)\b", re.IGNORECASE)
-    for stage in ("stage1", "stage2"):
-        template = json.loads((ROOT / f"configs/generation/prompts/{stage}.json").read_text())
-        instructions = "\n".join(line for message in template["messages"] for line in message["lines"])
-        # Internal placeholder identifiers are replaced with values before inference.
-        instructions = re.sub(r"\{[^}]+\}", "", instructions)
-        assert not forbidden.search(instructions), instructions
-    reference = json.loads((ROOT / "configs/generation/story_unit_reference.json").read_text())
-    for story, record in reference.items():
-        assert not forbidden.search("\n".join(record["prompt_constraints"])), story
+def test_story_reference_matches_pre_cleanup_scaffold_byte_for_byte():
+    # Includes the inserted style constraints, which are part of the prompt.
+    raw = (ROOT / "configs/generation/story_unit_reference.json").read_bytes()
+    assert hashlib.sha256(raw).hexdigest() == (
+        "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e")
 
 
 @pytest.mark.parametrize("story", ["A1", "A2", "A3", "B1", "B2", "B3"])
-def test_neutral_prompts_keep_actual_story_content_exemplars_and_stage1_parent_literal(builder, story):
+def test_prompts_keep_actual_story_content_exemplars_and_stage1_parent_literal(builder, story):
     reference = json.loads((ROOT / "configs/generation/story_unit_reference.json").read_text())[story]
     slots = ("B1", "B3") if story.startswith("A") else ("A1", "A2")
     row = {**ROW, "target_story": story, "story_title": reference["title"],
@@ -92,10 +84,10 @@ def test_neutral_prompts_keep_actual_story_content_exemplars_and_stage1_parent_l
     assert row["prompt_td_exemplar_story"] in first[1]["content"]
     assert row["prompt_sli_exemplar_story"] in second[1]["content"]
     assert PARENT in second[1]["content"]
-    assert "Return only the rewritten narrative." in second[1]["content"]
+    assert "Return only the transformed narrative text." in second[1]["content"]
 
 
-def test_neutral_wording_cleanup_preserves_all_canonical_story_content():
+def test_prompt_restoration_preserves_all_canonical_story_content():
     reference = json.loads((ROOT / "configs/generation/story_unit_reference.json").read_text())
     content = {story: {key: value for key, value in record.items() if key not in {"notes", "prompt_constraints"}}
                for story, record in reference.items()}

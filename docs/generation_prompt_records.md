@@ -4,23 +4,37 @@
 two-stage protocol. Each file contains system/user messages as lists of text
 lines; joining those lines with newline characters fixes the exact message
 whitespace, including the trailing newline. The initial extraction preserved
-the pre-cleanup notebook at Git commit `78a5cada`. The author subsequently
-approved the neutral wording below for the next smoke test on 15 October 2026.
+the pre-cleanup notebook at Git commit `78a5cada`. On 15 October 2026, the author
+tested neutral wording and then requested a return to the historical prompts.
+The active templates and scaffold constraints now match that pre-cleanup baseline.
 
-## Approved neutral wording — 15 October 2026
+## Restored pre-cleanup wording — 15 October 2026
 
-Stage 1 asks for a new narrative from the supplied events, guided by the example's
-language and narrative style. Stage 2 asks for a rewrite guided by its example,
-preserving the same main events and their order. The model-facing instructions
-contain no ENNI/TD/SLI/DLD labels or requests for child-like/simple language,
-shorter clauses, adult-style avoidance or clinical plausibility.
+Both message templates and the complete story reference have been restored
+verbatim from the state before the neutral edit (`7dbfc657`). The rendered
+messages match the functions in notebook revision `78a5cada`, including whitespace.
+Stage 1 again names ENNI and TD and asks for child-like narration without an
+adult-style polished retell. Stage 2 again requests clinical plausibility and
+transfer of the example's style, grammatical level and amount of detail, with
+optional clause shortening. The inserted scaffold constraints again request
+child-like/simple narration. No explicit severity/profile conditioning is restored.
 
-All six stories' inserted `prompt_constraints` now specify event order and no
-new plot events. The event units, titles, content invariants, optional content
-and human exemplar transcripts are unchanged. References to children/adults as
-story characters remain. Internal stage names, source groups and journal
-metadata retain their provenance labels; placeholder names resolve to story IDs
-or text before inference and are not sent as names to the model.
+The neutral version remains recoverable at Git commit `9a59fa21`; its existing
+smoke outputs and run snapshots are separate provenance. Generation/annotation
+helpers, model settings, rosters, counterbalancing, story events and human
+exemplars are unchanged by this restoration. There is no error-insertion or
+selective-resampling step. Restoring this known source version does not prove
+that it was the version executed for the evaluated data or explain the earlier
+smoke failures, which were also reported before the neutral edit.
+
+## Superseded neutral wording — 15 October 2026
+
+The neutral edit asked both stages to follow the example's language and narrative
+style, preserving events. It removed ENNI/TD/SLI/DLD instruction labels and requests
+for child-like/simple language, shorter clauses, adult-style avoidance and
+clinical plausibility. All six stories' inserted constraints specified event
+order and no new plot events only. Story events and exemplar transcripts were
+preserved. This wording is retained in Git history, not the active templates.
 
 Templates are hashed and snapshotted per run. The scaffold configuration is
 hashed, and its rendered content is retained in the actual prompt records.
@@ -28,19 +42,18 @@ Existing runs, their template snapshots and generated/annotated files remain
 unchanged. After updating an existing Colab checkout, restart the kernel and run
 the notebook from the top with a fresh run ID. The preview now shows the complete
 Stage 1 prompt and both template hashes. No additional evaluation experiment is
-introduced by this wording update.
+introduced by the restoration.
 
 ## Historical preservation audit and its limits
 
-Before this wording update, direct rendering checks matched the notebook
+Before the neutral edit, direct rendering checks matched the notebook
 versions at `f2e61695`, `78a5cada` and `01cace79`. The 7 April `f2e61695`
 prompt update removed explicit SLI/profile references from Stage 2 and some TD
 wording from Stage 1, but retained two TD headings and `clinically plausible`.
-The prior preservation audit establishes equality to that historical notebook;
-it does not establish the exact wording executed for the evaluated data, and it
-does not describe the current neutral templates. Do not describe historical
-generations as label-free without evidence of the actual messages used; new
-runs record those messages in `prompt_records.jsonl`.
+The restoration re-establishes equality to that historical notebook. This does
+not establish the exact wording executed for the evaluated data. Do not describe
+historical generations as label-free without evidence of the actual messages
+used; new runs record those messages in `prompt_records.jsonl`.
 
 `experiment.json` schema 4 identifies these files. `PromptBuilder` loads them
 once during preflight, validates their named fields, and supplies messages to
@@ -59,9 +72,16 @@ claim numerical or output equivalence across GPU/software environments.
 
 The initial compatibility audit compared all 2,820 job message pairs with the
 pre-cleanup notebook functions, using saved historical Stage 1 parents for
-Stage 2. These historical checks predate the approved wording change. Hashes
+Stage 2. These historical checks predate the neutral edit and restoration. Hashes
 and verification are stored under
 `outputs/maintenance/prompt_builder_2026-10-14/`.
+
+The restoration audit repeats all 5,640 message comparisons against functions
+extracted directly from Git notebook `78a5cada`, verifies all saved narrative
+text hashes against the original inventory, and checks unchanged notebook code
+cells and run/evaluation fingerprints. All 211 focused tests passed. No GPU
+inference was performed. Audit:
+`outputs/maintenance/prompt_restoration_2026-10-15/validation.json`.
 
 ## Records from a new run
 

@@ -62,7 +62,8 @@ saved-input routes process their explicitly selected inputs.
 
 Generation reads `configs/generation/experiment.json`, the frozen master roster,
 cross-story rules, project-authored scaffolds and frozen prompt templates. The
-author confirmed the shared protocol for ages four through seven. Prompt content,
+author confirmed the shared protocol for ages four through seven. The active
+prompts and scaffold constraints match the pre-cleanup notebook at `78a5cada`;
 exemplar choices and sampling calls are preserved.
 
 `REPLICATES=None` uses ten replicates. A positive integer overrides only the new
@@ -97,16 +98,19 @@ Configuration assets resolve against their config directory.
 Setup checks exemplar ages, availability, frozen identities and within-round
 prompt/evaluation separation; it does not reoptimize pairs.
 
-The author-approved wording update of 15 October asks both stages to follow
-their exemplar's language and narrative style. Instructions omit corpus/group
-names, child-like/simple-language requests, clinical framing and prescribed
-clause shortening. The same cues have been removed from all inserted story
-constraints. Story events and human transcripts remain unchanged. The complete
-Stage 1 preview prints both template hashes; actual Stage 2 prompts are recorded
-with their generated Stage 1 parents in the journal. To use the update in an
-existing Colab session, pull the checkout, restart the kernel and run from the
-top with `MODE="full"`, `SMOKE_TEST=True` and `SMOKE_TEST_JOBS=12`. The settings
-create a fresh run ID; old outputs remain intact.
+Following the author's request on 15 October, both prompts and the inserted
+scaffold constraints have been restored verbatim to the pre-cleanup baseline.
+This restores ENNI/TD headings, child-like/simple-language cues, clinical framing
+and Stage 2 guidance on grammatical level and optional clause shortening. The
+superseded neutral wording is preserved in Git commit `9a59fa21`. Story events,
+human transcripts and inference settings are unchanged. Source equality does
+not establish the exact historical execution or resolve the earlier smoke
+failures. See `generation_prompt_records.md` for provenance and limitations.
+The complete Stage 1 preview prints both template hashes; actual Stage 2 prompts
+are recorded with their generated Stage 1 parents in the journal. To use the
+restoration in an existing Colab session, pull the checkout, restart the kernel
+and run from the top with `MODE="full"`, `SMOKE_TEST=True` and
+`SMOKE_TEST_JOBS=12`. The settings create a fresh run ID; old outputs remain intact.
 
 Generation writes exact prompt/output records and Stage 1 parent links to
 `prompt_records.jsonl`, cohort/aggregate CSVs and design snapshots. It preserves
