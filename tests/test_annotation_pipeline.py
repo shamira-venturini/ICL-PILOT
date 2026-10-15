@@ -179,8 +179,8 @@ def test_archives_include_annotation_logs_inputs_and_qc_without_recursive_archiv
     assert (copied / first.relative_to(tmp_path)).read_bytes() == first.read_bytes()
 
 
-@pytest.mark.parametrize("mode", ["full", "from_csv", "from_chat"])
-def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, config, monkeypatch, mode):
+@pytest.mark.parametrize("mode,smoke", [("full", False), ("full", True), ("from_csv", False), ("from_chat", False)])
+def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, config, monkeypatch, mode, smoke):
     calls = fake_tool(monkeypatch)
     monkeypatch.setattr("icl_pilot.annotation.annotation_runtime_metadata",
                         lambda python, cfg: {"source_commit": cfg["revision"]})
@@ -209,6 +209,7 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
         "MAKE_ARCHIVE": True, "DOWNLOAD_ARCHIVE": False, "RELEASE_COLAB_RUNTIME": False,
         "IS_COLAB": False,
         "SAVE_EVERY": 1,
+        "SMOKE_TEST": smoke,
     }
     notebook = json.loads((ROOT / "notebooks/colab_direct_generation_pipeline.ipynb").read_text())
     ids = ["common-setup", "generation-setup", "generation-model", "generation-function", "generation-preview",
@@ -231,7 +232,7 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
                 "prompt_constraints_text": "Fixture", "prompt_td_story_e1": "B1", "prompt_sli_story_e2": "B3",
                 "prompt_td_exemplar_story": "he go .", "prompt_sli_exemplar_story": "he go ."}
             manifest = tmp_path / "run/run_manifest.json"
-            manifest.write_text("{}")
+            manifest.write_text(json.dumps({"execution": {"test_only": smoke}}))
             namespace["prepared"] = SimpleNamespace(run_manifest_path=manifest, prompt_builder=builder,
                 config={"model": {"max_new_tokens_stage1": 180, "max_new_tokens_stage2": 180}},
                 run_df=pd.DataFrame([generation_row]))
@@ -248,11 +249,16 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
     manifest = json.loads((tmp_path / "run/pipeline_manifest.json").read_text())
     assert manifest["stages"]["generation"]["status"] == ("complete" if mode == "full" else "skipped")
     assert manifest["stages"]["annotation"]["status"] == "complete"
+    assert manifest["test_only"] == (smoke and namespace["RUN_GENERATION"])
     assert source_csv.read_bytes() == original_csv and (source_chat / "sample.cha").read_bytes() == original_chat
     annotation = json.loads((tmp_path / "run/annotation/annotation_manifest.json").read_text())
     assert len(annotation["inputs"]) == (1 if mode == "from_chat" else 2)
     assert len(list((tmp_path / "run/annotation").rglob("annotation_manifest.json"))) == 1
     assert len(calls) == 1  # One annotation model load for the selected collection.
+    if mode == "full":
+        import pandas as pd
+        saved = pd.read_csv(tmp_path / "run/all_cohorts_rotating_story_generations.csv")
+        assert saved["test_only"].eq(smoke).all()
 
 
 def test_all_notebook_code_is_valid_python_and_cell_ids_are_unique():

@@ -36,7 +36,10 @@ def checked_sources(sources: dict, *, directories: bool = False) -> dict[str, Pa
     return resolved
 
 
-def begin_pipeline(output_dir: str | Path, *, mode: str, csvs: dict, chat_dirs: dict) -> Path:
+def begin_pipeline(output_dir: str | Path, *, mode: str, csvs: dict, chat_dirs: dict,
+                   smoke_test: bool = False) -> Path:
+    if type(smoke_test) is not bool:
+        raise ValueError("smoke_test must be a boolean")
     generate, convert, annotate = stage_flags(mode)
     csvs, chat_dirs = checked_sources(csvs), checked_sources(chat_dirs, directories=True)
     if convert and not generate and not csvs:
@@ -48,6 +51,7 @@ def begin_pipeline(output_dir: str | Path, *, mode: str, csvs: dict, chat_dirs: 
         raise ValueError("Pipeline outputs must be separate from CHAT input trees")
     out.mkdir(parents=True, exist_ok=False)
     manifest = {"schema_version": 1, "mode": mode, "started_at_utc": datetime.now(timezone.utc).isoformat(),
+                "test_only": smoke_test,
                 "source_csvs": {key: {"path": str(path), "sha256": sha256_file(path)} for key, path in csvs.items()},
                 "source_chat_dirs": {key: str(path) for key, path in chat_dirs.items()},
                 "stages": {}, "helper_sha256": sha256_file(Path(__file__))}

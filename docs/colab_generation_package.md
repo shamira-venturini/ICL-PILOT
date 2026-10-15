@@ -29,6 +29,22 @@ lock or GPU compatibility; that requires the planned Colab trial.
 
 ## Generation and volume
 
+For a first end-to-end check, use `MODE="full"` and `SMOKE_TEST=True`, the
+notebook's safe default. This executes exactly one target-story job: one TD-like
+parent and one SLI-conditioned narrative, then conversion, annotation and QC for
+both. Setup must display **1 TD-like + 1 SLI-conditioned narrative** before model
+loading. The run ID begins `enni_smoke_`; manifests and generation CSVs mark it
+`test_only`. These outputs are not study data and do not form a six-story bundle.
+The full validated study design remains as provenance; a separate
+`generation_design/execution_schedule.csv` records the actual selected job.
+
+Smoke mode still requires the normal exemplar CSV under `DATA_ROOT` and loads
+both models, so installation/download/model-loading time remains. It limits
+inference and transcript output, not model size. To execute the full study,
+set `SMOKE_TEST=False` and start a fresh run. `REPLICATES=1` alone still schedules
+282 jobs, so it is not a one-story test. The switch applies only to new generation;
+saved-input routes process their explicitly selected inputs.
+
 Generation reads `configs/generation/experiment.json`, the frozen master roster,
 cross-story rules, project-authored scaffolds and frozen prompt templates. The
 author confirmed the shared protocol for ages four through seven. Prompt content,

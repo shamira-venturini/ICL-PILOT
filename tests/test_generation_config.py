@@ -225,3 +225,49 @@ def test_replicate_override_is_recorded_without_editing_study_config(experiment,
 def test_invalid_replicate_override_is_rejected(experiment, replicates):
     with pytest.raises(ValueError, match="positive integer"):
         compile_experiment_design(experiment, n_replicates=replicates)
+
+
+def test_smoke_test_selects_exactly_one_canonical_job_and_labels_outputs(experiment, tmp_path):
+    from icl_pilot.generation.execution import run_generation
+    original = experiment.read_bytes()
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "smoke", smoke_test=True)
+    complete = prepare_colab_generation(experiment, tmp_path, tmp_path / "study")
+    pd.testing.assert_frame_equal(prepared.run_df, complete.run_df.iloc[:1])
+    assert experiment.read_bytes() == original
+    manifest = json.loads(prepared.run_manifest_path.read_text())
+    assert manifest["generation_jobs"] == 1
+    assert manifest["execution"]["planned_jobs"] == 48
+    assert manifest["execution"]["test_only"] is True
+    assert manifest["execution"]["mode"] == "smoke_test"
+    selection = pd.read_csv(tmp_path / "smoke" / manifest["execution"]["selection_csv"])
+    assert len(selection) == 1
+    calls = []
+    def generate(messages, *, row, stage, journal, max_new_tokens, parent_record_id=None, stage1_text=None):
+        calls.append(stage)
+        record_id = journal.record_prompt(row=row, stage=stage, messages=messages,
+            rendered_prompt=json.dumps(messages), input_token_ids=[1], generation_parameters={},
+            parent_record_id=parent_record_id, stage1_text=stage1_text)
+        journal.record_output(record_id, "Fixture narrative .", generated_token_count=3)
+        return "Fixture narrative .", record_id
+    paths = run_generation(prepared, generate, run_id="smoke_test")
+    assert len(paths) == 1
+    assert calls == ["stage1_td", "stage2_sli"]
+    records = pd.read_csv(paths[0])
+    assert len(records) == 1 and records["test_only"].eq(True).all()
+    final = json.loads(prepared.run_manifest_path.read_text())
+    assert final["completed_generation_jobs"] == 1 and final["generation_jobs"] == 1
+
+
+def test_smoke_run_directory_cannot_be_reused_for_full_study(experiment, tmp_path):
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "smoke", smoke_test=True)
+    original = prepared.run_manifest_path.read_bytes()
+    with pytest.raises(ValueError, match="Run inputs changed"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "smoke", smoke_test=False)
+    assert prepared.run_manifest_path.read_bytes() == original
+
+
+@pytest.mark.parametrize("value", [1, "True", None])
+def test_smoke_test_requires_a_boolean(experiment, tmp_path, value):
+    with pytest.raises(ValueError, match="smoke_test must be a boolean"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "smoke", smoke_test=value)
+    assert not (tmp_path / "smoke").exists()

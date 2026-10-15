@@ -154,8 +154,10 @@ class PreparedColabGeneration:
 
 def prepare_colab_generation(
     config_path: str | Path, data_root: str | Path, output_dir: str | Path,
-    *, n_replicates: int | None = None,
+    *, n_replicates: int | None = None, smoke_test: bool = False,
 ) -> PreparedColabGeneration:
+    if type(smoke_test) is not bool:
+        raise ValueError("smoke_test must be a boolean.")
     config_path = Path(config_path).resolve()
     config, schedule, evaluation, rosters = compile_experiment_design(config_path, n_replicates=n_replicates)
     prompt_builder = load_prompt_builder(config_path, config)
@@ -199,8 +201,16 @@ def prepare_colab_generation(
         prompt_builder.stage1_messages(row)
         prompt_builder.stage2_messages(row, "Preflight parent marker; not a generated narrative.")
 
+    # Preserve the complete validated study design; record the execution subset
+    # separately so a one-story integration check cannot masquerade as a full run.
+    execution_run = run.iloc[:1].copy() if smoke_test else run
+    execution = {"mode": "smoke_test" if smoke_test else "study", "test_only": smoke_test,
+                 "planned_jobs": len(run), "selected_jobs": len(execution_run),
+                 "selection_csv": "generation_design/execution_schedule.csv"}
+
     notebook = config_path.parents[2] / "notebooks/colab_direct_generation_pipeline.ipynb"
     input_hashes = {"config": _sha(config_path), "counterbalance": _sha(config_path.parent / config["counterbalance_csv"]),
+                    "execution_selection": hashlib.sha256(json.dumps(execution, sort_keys=True).encode("utf-8")).hexdigest(),
                     "effective_config": hashlib.sha256(json.dumps(config, sort_keys=True).encode("utf-8")).hexdigest(),
                     "notebook": _sha(notebook) if notebook.is_file() else None,
                     "setup_code": _sha(Path(__file__)), "workflow_code": _sha(Path(__file__).with_name("workflow.py")),
@@ -246,9 +256,14 @@ def prepare_colab_generation(
         artifacts[label] = RotatingGenerationPackageArtifacts(folder, roster_path, rounds_path, schedule_path, bundle_path, template_path, eval_path, summary_path)
     summary_path = design / "multi_age_rotating_generation_packages_summary.json"
     summary_path.write_text(json.dumps({"cohorts": summaries, "generation_jobs": len(run)}, indent=2) + "\n")
-    manifest = {"schema_version": 1, "config": config, "input_sha256": input_hashes, "generation_jobs": len(run),
+    selected_columns = ["cohort", "round_id", "pair_id", "bundle_id", "replicate_id", "target_story",
+                        "story_slot_order", "td_child_id", "sli_child_id", "td_age", "sli_age",
+                        "prompt_td_story_e1", "prompt_sli_story_e2"]
+    execution_run[selected_columns].to_csv(output / execution["selection_csv"], index=False)
+    manifest = {"schema_version": 1, "config": config, "input_sha256": input_hashes,
+                "execution": execution, "generation_jobs": len(execution_run),
                 "prompt_records": {"path": "prompt_records.jsonl", "schema_version": 1, "written_during_inference": True},
                 "split_validation": "passed", "status": "generation_setup_prepared; model not yet loaded"}
     if not manifest_path.exists():
         manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
-    return PreparedColabGeneration(config, run, evaluation, MultiAgeRotatingGenerationArtifacts(output, artifacts, summary_path), manifest_path, prompt_builder)
+    return PreparedColabGeneration(config, execution_run, evaluation, MultiAgeRotatingGenerationArtifacts(output, artifacts, summary_path), manifest_path, prompt_builder)

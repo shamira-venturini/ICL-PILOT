@@ -61,7 +61,8 @@ def run_generation(prepared, generate, *, run_id: str, save_every: int = 25,
                 record = {key: getattr(row, key) for key in names}
                 record.update(stage1_group="TD", stage2_group="SLI", evaluation_td_group="TD",
                               evaluation_sli_group="SLI", stage1_td_story=first, stage2_sli_story=second,
-                              stage1_prompt_record_id=first_id, stage2_prompt_record_id=second_id)
+                              stage1_prompt_record_id=first_id, stage2_prompt_record_id=second_id,
+                              test_only=manifest.get("execution", {}).get("test_only", False))
                 cohort_rows.append(record)
                 all_rows.append(record)
                 if len(cohort_rows) % save_every == 0:

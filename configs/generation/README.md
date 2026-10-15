@@ -72,6 +72,10 @@ each replicate contributes 282 narratives per stage. The effective settings are
 hashed and recorded without editing this study configuration. Round size changes
 the prompt/evaluation design and is not a generation-volume setting.
 Every run gets input hashes and a settings snapshot in `run_manifest.json`.
+The notebook now starts with `SMOKE_TEST=True` for a one-target-story pipeline
+check (two stage outputs). Set it to false for the full configured schedule.
+This execution limit does not alter the frozen study configuration. The selected
+job list and `test_only` labels are recorded separately from the complete design.
 Setup and generation reject reuse that would overwrite existing narratives.
 
 During inference, `prompt_records.jsonl` records each attempted prompt before

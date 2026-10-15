@@ -17,6 +17,9 @@ New runs store input fingerprints and resolved model/runtime metadata.
 They also record the exact inference prompts and Stage 1–Stage 2 parent links.
 The notebook's `REPLICATES` setting can change the volume for a new run without
 editing the frozen study settings; counts are shown before model loading.
+For a first check, leave `MODE="full"` and `SMOKE_TEST=True` (the notebook default).
+This generates one target story in both stages and annotates both versions.
+Set `SMOKE_TEST=False` to execute the complete configured study schedule.
 
 | Interface | Purpose |
 | --- | --- |

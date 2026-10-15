@@ -179,6 +179,16 @@ part of the current paper's generation or RStudio analysis.
   GPU inference, annotation, CLAN or scientific analyses were run locally.
   Backup: `/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T143952Z/GenerationAnnotation/`.
   Audit: `outputs/maintenance/combined_notebook_2026-10-14/`.
+- On 15 October the user requested a one-narrative Colab check. The notebook now
+  defaults to `SMOKE_TEST=True`, executing one canonical target-story job through
+  both generation stages, CHAT conversion and annotation. It previews one TD-like
+  and one SLI-conditioned narrative; the test run ID uses `enni_smoke_`. Manifests
+  and CSVs explicitly mark `test_only`, and the selected execution schedule is
+  recorded separately from the unchanged complete study design. These outputs
+  are not study data or complete six-story bundles. Set `SMOKE_TEST=False` for
+  a full generation run. Replicate count alone is not a one-job limit.
+  The switch applies only to new generation; saved-input routes retain their
+  explicit input selection. Source exemplars and both models are still required.
 
 ## 2. Profiling Is Archived Exploratory Work
 

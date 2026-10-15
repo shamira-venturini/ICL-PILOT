@@ -53,6 +53,9 @@ A failed model call leaves its attempted prompt recorded without a fabricated
 completion. Duplicate prompt/output writes are rejected.
 
 The generated CSV includes `stage1_prompt_record_id` and `stage2_prompt_record_id`.
+It also records `test_only`, which is true for the one-job smoke test. Its run
+manifest distinguishes the full planned study design from the selected execution
+schedule; smoke outputs are not study samples.
 `run_manifest.json` identifies the journal and hashes the templates and relevant
 source code. Exact template bytes are copied into `generation_design/prompts/`
 as `stage1_td.json` and `stage2_sli.json`.
