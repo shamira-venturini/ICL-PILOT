@@ -161,12 +161,16 @@ part of the current paper's generation or RStudio analysis.
   environment is separate; its installed source commit and package versions
   are recorded. Full software/model locks and actual GPU validation remain pending.
 - `src/icl_pilot/annotation.py` copies CHAT inputs, joins wrapped CHI main tiers
-  only in the copy, and checks file/utterance coverage, source surface/order and
-  non-target/header/tier preservation. It records hashes, commands, runtime,
-  logs/reports and QC, retains failures and labels debug-limited annotation
-  partial. These checks do not certify linguistic tag accuracy. No existing
-  repair scripts or CLAN/feature builders run automatically. Missing selected
-  stages and overlapping CSV/input collections fail explicitly.
+  only in the copy, and retains raw TalkTag CHAT separately. A deterministic
+  postprocessor restores the snapshot's case/spacing while retaining tags at
+  their token boundaries; changed words, punctuation, order, boundaries or
+  pre-existing annotations are rejected. Final QC compares surface tokens
+  case-sensitively and checks file/utterance coverage and non-target/header/tier
+  preservation. Hashes, commands, runtime, logs/reports and per-file restoration
+  flags are recorded; failures are retained and debug-limited annotation is
+  labelled partial. These checks do not certify linguistic tag accuracy. No
+  existing repair scripts or CLAN/feature builders run automatically. Missing
+  selected stages and overlapping CSV/input collections fail explicitly.
 - `pipeline_manifest.json` records routes and block states. Drive copies are
   hash-verified, preserve the run hierarchy and reject another run's destination;
   exports include all local processing artifacts. Downloads/runtime release are
@@ -240,6 +244,34 @@ part of the current paper's generation or RStudio analysis.
   parsing/age metadata, roster reconciliation, provenance, I/O and annotation
   runtime changes must not be described as "no code changed". Historical model
   revisions and complete dependency versions remain incompletely recorded.
+- The subsequent Colab run `enni_smoke_20261015T094156357444Z` reached annotation
+  QC and stopped with `Annotation QC needs review`. TalkTag returned zero.
+  The author supplied the manifest summary: expected and reported coverage both
+  equal 287 utterances, with exactly one
+  `target_text_or_boundaries_changed` issue for
+  `4_year_old_stage2_sli/pair_sli444_td410_rep02_A2_SLI.cha`.
+  The supplied before/after diff shows `me` changed to `Me`, a pronoun error tag
+  added after that token, and spaces before final periods removed. The existing
+  checker already ignores punctuation spacing and recognized tags; the initial
+  case change caused this flag. Tag correctness has not been adjudicated.
+  `RUN_OUTPUT_DIR` had meanwhile changed to a newer run, so diagnostics/recovery
+  must use the failing run's explicit path.
+- The author requested proper postprocessing rather than accepting changed
+  capitalization in QC. New runs retain exact output under `raw_talktag/` and
+  write restored copies under `annotated/`; the case-sensitive checker remains
+  unchanged. `postprocess_annotation_run()` can recover retained older batches
+  into fresh `postprocessed/` and `postprocessed_manifest.json` artifacts without
+  model inference, replacing the old manifest or altering raw files. It verifies
+  recorded source/snapshot/raw hashes and repeats the coverage/preservation QC.
+  The recovery manifest retains the original issues and source-manifest hash.
+  Prompts, sampling, generation CSVs and scientific analyses are unchanged.
+  All 192 focused tests passed, covering the pasted case, tag anchors, existing
+  annotations, real textual changes and both fresh/recovery workflows. Python
+  compilation and diff checks passed; all notebook code cells and the final
+  case-sensitive comparator match the preceding revision. The local environment
+  still reports its existing Pandas/NumExpr compatibility/deprecation warnings.
+  Actual recovery of the remote 287-utterance
+  batch must still be executed by the author; it has not been run by the agent.
 
 ## 2. Profiling Is Archived Exploratory Work
 

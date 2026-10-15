@@ -10,12 +10,15 @@ from types import SimpleNamespace
 
 import pytest
 
-from icl_pilot.annotation import annotate_chat_directory, install_annotation_runtime, load_annotation_config
+from icl_pilot.annotation import (annotate_chat_directory, install_annotation_runtime, load_annotation_config,
+                                  postprocess_annotated_chat, postprocess_annotation_run, sha256_file, _surface)
 from icl_pilot.pipeline import annotation_inputs, begin_pipeline, convert_csv_inputs, package_run, stage_flags, sync_run
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CHAT = "@UTF8\n@Begin\n@Languages:\teng\n@Participants:\tCHI Target_Child\n*CHI:\the go\n\thome .\n%mor:\tpro|he v|go n|home .\n%gra:\t1|2|SUBJ 2|0|ROOT 3|2|OBJ\n@End\n"
+POSTPROCESS_SOURCE = "@UTF8\n@Begin\n*CHI:\tme and a monkey went to the pool .\n*CHI:\tshe slipped and hurt her knee .\n@End\n"
+POSTPROCESS_RAW = "@UTF8\n@Begin\n*CHI:\tMe [* s:r:gc:pro] and a monkey went to the pool.\n*CHI:\tshe slipped and hurt her knee.\n@End\n"
 
 
 @pytest.fixture
@@ -88,6 +91,10 @@ def fake_tool(monkeypatch, *, mode="normal", limit=0):
             if mode == "missing_output":
                 continue
             annotated = text.replace("go home", "go [* m:03s:a] home")
+            if mode == "orthography":
+                annotated = "\n".join(
+                    line.replace("*CHI:\the", "*CHI:\tHe").replace("home .", "home.")
+                    if line.startswith("*CHI:") else line for line in annotated.splitlines()) + "\n"
             if mode == "text_drift":
                 annotated = annotated.replace("home", "away")
             if mode == "tier_loss":
@@ -130,6 +137,112 @@ def test_annotation_uses_copy_unfolds_main_tier_and_preserves_source_and_depende
     assert str(snapshot.parent) in calls[0] and "--fail-fast" in calls[0]
 
 
+def test_postprocessing_restores_user_reported_case_and_spacing_without_changing_tags():
+    expected = POSTPROCESS_SOURCE.replace("me and", "me [* s:r:gc:pro] and")
+    assert postprocess_annotated_chat(POSTPROCESS_SOURCE, POSTPROCESS_RAW) == expected
+    assert _surface("Me .") != _surface("me .")  # Final QC remains case sensitive.
+
+
+def test_postprocessing_keeps_annotation_anchors_contractions_repetition_and_error_forms():
+    source = "@Begin\n*CHI:\tHe he don't goed .\n%mor:\tunchanged\n@End\n"
+    raw = "@Begin\n*CHI:\the he [* s:r:gc:pro] don't [:: doesn't] [* m:03s:a] goed [* m:over].\n%mor:\tunchanged\n@End\n"
+    expected = "@Begin\n*CHI:\tHe he [* s:r:gc:pro] don't [:: doesn't] [* m:03s:a] goed [* m:over] .\n%mor:\tunchanged\n@End\n"
+    assert postprocess_annotated_chat(source, raw) == expected
+
+
+def test_postprocessing_preserves_existing_annotations_and_their_exact_source_spacing():
+    source = "@Begin\n*CHI:\the goed [:: went]  [* m:over] .\n@End\n"
+    raw = "@Begin\n*CHI:\tHe goed [:: went] [* m:over].\n@End\n"
+    assert postprocess_annotated_chat(source, raw) == source
+    raw = raw.replace("[:: went]", "[* s:r:gc:pro] [:: went]").replace("[* m:over]", "[* m:over] [= note]")
+    expected = source.replace("[:: went]", "[* s:r:gc:pro] [:: went]").replace("[* m:over]", "[* m:over] [= note]")
+    assert postprocess_annotated_chat(source, raw) == expected
+
+
+@pytest.mark.parametrize("changed", [
+    "@Begin\n*CHI:\the goed .\n@End\n",
+    "@Begin\n*CHI:\the goed [* m:03s:a] .\n@End\n",
+    "@Begin\n*CHI:\the [* m:over] goed .\n@End\n",
+    "@Begin\n*CHI:\the goed [* m:over] [:: went] .\n@End\n",
+])
+def test_postprocessing_rejects_loss_or_change_of_existing_source_annotations(changed):
+    source = "@Begin\n*CHI:\the goed [:: went] [* m:over] .\n@End\n"
+    with pytest.raises(ValueError, match="existing source annotation"):
+        postprocess_annotated_chat(source, changed)
+
+
+@pytest.mark.parametrize("changed", [
+    POSTPROCESS_RAW.replace("Me [* s:r:gc:pro]", "I [* s:r:gc:pro]"),
+    POSTPROCESS_RAW.replace("and a monkey", "and monkey"),
+    POSTPROCESS_RAW.replace("and a monkey", "and a little monkey"),
+    POSTPROCESS_RAW.replace("went to", "to went"),
+    POSTPROCESS_RAW.replace("pool.", "pool?"),
+    POSTPROCESS_RAW.replace("and a monkey", "and .\n*CHI:\ta monkey"),
+])
+def test_postprocessing_rejects_word_punctuation_or_utterance_changes(changed):
+    with pytest.raises(ValueError):
+        postprocess_annotated_chat(POSTPROCESS_SOURCE, changed)
+
+
+def test_annotation_preserves_raw_output_then_applies_strict_qc_to_restored_copy(tmp_path, config, monkeypatch):
+    fake_tool(monkeypatch, mode="orthography")
+    path = annotate(tmp_path, config)
+    manifest = json.loads(path.read_text())
+    raw = (path.parent / "raw_talktag/sample.cha").read_text()
+    restored = (path.parent / "annotated/sample.cha").read_text()
+    assert "*CHI:\tHe go [* m:03s:a] home." in raw
+    assert "*CHI:\the go [* m:03s:a] home ." in restored
+    assert (tmp_path / "source/sample.cha").read_text() == CHAT
+    assert manifest["status"] == "annotation_complete" and manifest["qc_issues"] == []
+    assert manifest["raw_outputs"][0]["sha256"] == sha256_file(path.parent / "raw_talktag/sample.cha")
+    assert manifest["postprocessing"]["files"][0]["formatting_restored"] is True
+
+
+def test_existing_failed_annotation_can_be_postprocessed_without_inference_or_rewriting_artifacts(tmp_path, config, monkeypatch):
+    original = tmp_path / "original.cha"
+    original.write_text(POSTPROCESS_SOURCE)
+    out = tmp_path / "annotation"
+    snapshot, raw = out / "input_snapshot/sample.cha", out / "annotated/sample.cha"
+    for path, content in [(snapshot, POSTPROCESS_SOURCE), (raw, POSTPROCESS_RAW)]:
+        path.parent.mkdir(parents=True)
+        path.write_text(content)
+    (raw.parent / "_talk_tag_report.json").write_text(json.dumps({
+        "total_files": 1, "processed_files": 1, "failed_files": 0, "target_lines": 2}))
+    source_manifest = out / "annotation_manifest.json"
+    source_manifest.write_text(json.dumps({"schema_version": 1, "exit_code": 0,
+        "status": "failed_or_interrupted; outputs retained for review", "config": config,
+        "inputs": [{"relative_path": "sample.cha", "source_path": str(original),
+            "source_sha256": sha256_file(original), "snapshot_sha256": sha256_file(snapshot),
+            "target_utterances": 2}],
+        "outputs": [{"relative_path": "sample.cha", "sha256": sha256_file(raw)}],
+        "qc_issues": [{"file": "sample.cha", "issue": "target_text_or_boundaries_changed"}]}))
+    before = {p: p.read_bytes() for p in [original, snapshot, raw, source_manifest]}
+    monkeypatch.setattr("icl_pilot.annotation.subprocess.run", lambda *a, **kw: pytest.fail("No inference allowed"))
+    reviewed = postprocess_annotation_run(source_manifest)
+    result = json.loads(reviewed.read_text())
+    assert result["status"] == "annotation_complete" and result["qc_issues"] == []
+    assert result["expected_target_utterances"] == result["reported_target_utterances"] == 2
+    assert result["prior_qc_issues"] and result["source_annotation_manifest_sha256"] == sha256_file(source_manifest)
+    assert (out / "postprocessed/sample.cha").read_text() == POSTPROCESS_SOURCE.replace("me and", "me [* s:r:gc:pro] and")
+    assert all(p.read_bytes() == content for p, content in before.items())
+    with pytest.raises(FileExistsError):
+        postprocess_annotation_run(source_manifest)
+    raw.write_text(POSTPROCESS_RAW + "\n")
+    with pytest.raises(ValueError, match="changed since"):
+        postprocess_annotation_run(source_manifest, output_name="second_review")
+    assert not (out / "second_review").exists()
+
+
+def test_postprocessing_rejects_a_changed_recorded_tool_report(tmp_path, config, monkeypatch):
+    fake_tool(monkeypatch)
+    manifest_path = annotate(tmp_path, config)
+    report = manifest_path.parent / "raw_talktag/_talk_tag_report.json"
+    report.write_text(report.read_text() + "\n")
+    with pytest.raises(ValueError, match="TalkTag report changed"):
+        postprocess_annotation_run(manifest_path)
+    assert not (manifest_path.parent / "postprocessed").exists()
+
+
 @pytest.mark.parametrize("mode,issue", [
     ("text_drift", "target_text_or_boundaries_changed"), ("tier_loss", "non_target_content_changed"),
     ("missing_output", "missing_output"), ("extra_output", "unexpected_output"),
@@ -137,8 +250,9 @@ def test_annotation_uses_copy_unfolds_main_tier_and_preserves_source_and_depende
 ])
 def test_qc_failures_retain_outputs_and_report_issues(tmp_path, config, monkeypatch, mode, issue):
     fake_tool(monkeypatch, mode=mode)
-    with pytest.raises(RuntimeError, match="QC needs review"):
+    with pytest.raises(RuntimeError, match="QC needs review") as caught:
         annotate(tmp_path, config)
+    assert issue in str(caught.value)
     manifest = json.loads((tmp_path / "annotation/annotation_manifest.json").read_text())
     assert manifest["status"].startswith("failed_or_interrupted")
     assert issue in {item["issue"] for item in manifest["qc_issues"]}

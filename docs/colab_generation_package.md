@@ -147,21 +147,76 @@ settings, log and tool report remain with outputs. This is not a recovered
 historical version or a tested complete software/model lock. Source/API inspection
 used the [pinned upstream code](https://github.com/OliverHennhoefer/talk-tag/tree/a9df736acf4efaa0c6ec79240a2d36348de983ab).
 
-QC checks file/utterance coverage, produced word order, punctuation, boundaries,
-headers and non-target tiers. Added error tags and target reconstructions are
-ignored in the surface comparison. Missing files, textual changes or lost tiers
-stop the block and retain outputs for review. A nonzero debug limit is labelled
-partial. The tool's `annotated_lines` count denotes changed lines; unchanged
+TalkTag's exact CHAT output is retained in `annotation/raw_talktag/`. A deterministic
+postprocessor produces `annotation/annotated/`: it aligns surface tokens within
+each CHI utterance, restores the input snapshot's capitalization and spacing,
+and retains TalkTag's inline tags at the same token boundaries. Alignment permits
+capitalization differences only; changed words, punctuation, order or utterance
+boundaries stop processing for that file. Existing source annotations must also
+be retained at their original anchors. No grammatical correction is performed.
+
+QC then compares source and postprocessed surface tokens **case-sensitively**,
+checks file/utterance coverage, and verifies headers and non-target/dependent
+tiers. Added error tags and target reconstructions are ignored in the surface
+comparison. Missing files, substantive textual changes or lost tiers stop the
+block and retain outputs for review. Raw/derived file hashes and per-file
+formatting-restoration flags are recorded in the manifest. A nonzero debug limit
+is labelled partial. The tool's `annotated_lines` count denotes changed lines; unchanged
 utterances are not treated as unprocessed merely because no tag was added.
 QC does not establish linguistic tag accuracy or comparable clinical annotation
 across real/synthetic data. No historical repair utilities run automatically.
 CLAN measurements and statistical evaluation remain separate.
 
+If annotation raises `Annotation QC needs review`, inspect the run's
+`annotation/annotation_manifest.json`: `qc_issues` identifies failed checks,
+while `expected_target_utterances` and `reported_target_utterances` describe
+coverage. Compare any affected file under `annotation/input_snapshot/` with its
+counterpart under `annotation/raw_talktag/` and, when produced,
+`annotation/annotated/`. Earlier runs stored the raw output directly in
+`annotation/annotated/`. Originals and failed outputs are retained. Exceptions
+also include counts by QC issue; no check is bypassed.
+
+An existing batch can be postprocessed without rerunning generation or TalkTag.
+After updating the checkout, reload the helper in a running kernel and point it
+at the **exact failed run**, since rerunning settings changes `RUN_OUTPUT_DIR`:
+
+```python
+import importlib
+import json
+from pathlib import Path
+import icl_pilot.annotation as annotation
+importlib.reload(annotation)
+
+failed_run = Path("/content/ICL-PILOT/data/generated/direct_generation/"
+                  "enni_smoke_20261015T094156357444Z")
+checked = annotation.postprocess_annotation_run(
+    failed_run / "annotation/annotation_manifest.json")
+result = json.loads(checked.read_text())
+print(result["status"], result["qc_issues"])
+```
+
+This verifies recorded source/snapshot/raw hashes and repeats all coverage and
+preservation checks. It creates `annotation/postprocessed/` and
+`annotation/postprocessed_manifest.json`; the old manifest and raw files are
+unchanged. A repeated call refuses to replace these artifacts; inspect the saved
+report or supply a fresh `output_name`. A successfully reviewed batch can be
+recorded in its pipeline manifest and copied to the existing Drive export root:
+
+```python
+from icl_pilot.pipeline import record_stage, sync_run
+status = "complete" if result["status"] == "annotation_complete" else "partial_debug"
+record_stage(failed_run, "annotation", status, manifests=[str(checked)])
+if IS_COLAB:
+    sync_run(failed_run, DRIVE_EXPORT_ROOT / failed_run.name)
+```
+
 ## Persistence and export
 
 `pipeline_manifest.json` records routes, source paths/hashes and block statuses.
-Annotation directories contain input snapshots, annotated CHAT files,
-`annotation_manifest.json`, `talktag.log` and the upstream report. The final
+Annotation directories contain input snapshots, raw TalkTag and postprocessed
+CHAT files, `annotation_manifest.json`, `talktag.log` and the upstream report.
+Use the manifest's `annotated_output_directory` for the reviewed files; it is
+`annotated` for new runs and `postprocessed` after the recovery above. The final
 archive contains all local run artifacts with relative paths. Archive creation,
 Colab download and runtime release have separate controls; download and runtime
 release are off by default.
