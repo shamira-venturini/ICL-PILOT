@@ -1,0 +1,5 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T131515Z/CHATParsing/intermediate_parser_candidate.tar.gz",
+  "sha256": "9aa98af5c701cf465c6b43cee3026b95ae3321f61bc374e637399784d42ba1e3",
+  "reason": "First corpus comparison exposed duplicated orphan CHAT quoted-speech/abandonment terminators in 40 stories (5 selected exemplars); detection was corrected before use. This intermediate candidate was never configured or analyzed."
+}

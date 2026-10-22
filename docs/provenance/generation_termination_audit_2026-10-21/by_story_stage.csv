@@ -1,0 +1,13 @@
+target_story,stage,narratives,token_proxy_available,median_token_proxy,p95_token_proxy_nearest_rank,max_token_proxy,proxy_equals_reference_limit,proxy_within_two_below_limit,proxy_above_reference_limit,missing_terminal_punctuation
+A1,stage1_td,470,470,63.5,96,134,0,0,0,5
+A1,stage2_sli,470,470,59.0,100,180,8,0,0,32
+A2,stage1_td,470,470,71.0,99,123,0,0,0,0
+A2,stage2_sli,470,470,68.0,119,180,6,1,0,13
+A3,stage1_td,470,470,87.5,131,180,1,0,0,3
+A3,stage2_sli,470,470,83.0,140,180,14,0,0,43
+B1,stage1_td,470,470,83.0,119,158,0,0,0,3
+B1,stage2_sli,470,470,72.0,122,180,5,0,0,18
+B2,stage1_td,470,470,79.0,111,171,0,0,0,3
+B2,stage2_sli,470,470,75.0,135,180,7,2,0,18
+B3,stage1_td,470,470,119.0,166,180,9,2,0,9
+B3,stage2_sli,470,470,109.0,153,180,7,2,0,16

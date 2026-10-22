@@ -1,63 +1,71 @@
 # ICL-PILOT
 
-ICL-PILOT generates synthetic ENNI-style child narratives using age-matched,
-cross-story exemplars and a two-stage TD-like to SLI-conditioned workflow.
+Reusable tools for synthetic child-narrative generation, CHAT processing,
+linguistic feature preparation and evaluation.
 
-Start with [the generation and annotation notebook](notebooks/colab_direct_generation_pipeline.ipynb).
-It provides separate blocks for setup, generation, CHAT conversion, TalkTag error
-annotation, QC and exports. Run them sequentially or start from saved CSV/CHAT
-inputs. Use the project
-revision accompanying the notebook and provide the ENNI prompt inputs listed
-in the configuration. The source corpus is not supplied by an installation.
+**The previous study is frozen on TranscendBU. The revised protocol is pending.**
+See [the archive index](docs/provenance/study_freeze_2026-10-16.md) for the complete
+working-tree snapshot, earlier archives and restoration instructions. Historical
+data, measurements and results have been retired locally after hash verification.
 
-The shared protocol covers ages four through seven. Its settings and recorded
-child pairs are described in [the configuration guide](configs/generation/README.md).
-The author confirmed a common generation configuration across those cohorts.
-New runs store input fingerprints and resolved model/runtime metadata.
-They also record the exact inference prompts and Stage 1–Stage 2 parent links.
-The notebook's `REPLICATES` setting can change the volume for a new run without
-editing the frozen study settings; counts are shown before model loading.
-For a first check, leave `MODE="full"` and `SMOKE_TEST=True` (the notebook default).
-This generates one target story in both stages and annotates both versions.
-Set `SMOKE_TEST=False` to execute the complete configured study schedule.
-
-| Interface | Purpose |
+| Interface | Purpose and status |
 | --- | --- |
-| [Generation and annotation notebook](notebooks/colab_direct_generation_pipeline.ipynb) | Prepare synthetic narratives and error-annotated CHAT files. |
-| [Python evaluation notebook](notebooks/synthtexteval_demo.ipynb) | Existing framework evaluation in Colab/Jupyter. |
-| [R Markdown analysis](clinical_analyses_reordered.Rmd) | Existing ENNI linguistic and statistical analyses. |
+| [Generation and annotation](notebooks/colab_direct_generation_pipeline.ipynb) | Revised story counterbalancing, a pinned official Llama generator and a 640-new-token ceiling per stage; other protocol decisions pending. |
+| [Framework evaluation](notebooks/synthtexteval_demo.ipynb) | Retained evaluation implementation; two input paths are pending. |
+| [R analysis](notebooks/clinical_analyses_reordered.Rmd) | Retained statistical models; five input paths and protocol review are pending. |
 
-The evaluation files retain their existing code and results. This consolidation
-does not revalidate their analyses. Read [the workflow guide](docs/colab_generation_package.md)
-for run modes, input requirements and pending GPU/checkpoint work.
+Saved notebook outputs, older R variants and rendered reports are preserved in
+the freeze. Retained interfaces have clear status notices and clean execution
+outputs. The cleanup did not approve a revised scientific design or rerun results.
 
-- `configs/generation/experiment.json`: shared settings and input paths.
-- `configs/generation/master_frozen_roster_4_to_7_year_old.csv`: the single frozen roster for ages four–seven.
-- `configs/generation/story_unit_reference.json`: fixed picture-derived story scaffolds supplied with the configuration.
-- `configs/generation/prompts/`: the frozen Stage 1 and Stage 2 message templates.
-- `src/icl_pilot/generation/`: reusable setup and validation behind the notebook.
-- `configs/annotation/talktag.json`: pinned TalkTag source and error-annotation options for new runs.
-- `src/icl_pilot/annotation.py` and `pipeline.py`: annotation QC and file-based notebook steps.
-- `data/generated/`: existing artifacts and separate new run folders.
-- `docs/current_strategy_handoff.md`: decisions and known provenance issues.
-- `clinical_analyses_reordered.Rmd`: existing integrated analysis; only its roster path changed during consolidation.
+| Folder | Role |
+| --- | --- |
+| [src/](src/README.md) | Reusable Python package grouped by responsibility. |
+| [configs/](configs/README.md) | Preserved generation assets and explicit pending analysis/evaluation inputs. |
+| [notebooks/](notebooks/) | The three maintained execution interfaces. |
+| [data/](data/README.md) | Inputs and generated outputs needed by future active runs. |
+| [results/](results/README.md) | Outputs from separately identified evaluation runs. |
+| [docs/](docs/README.md) | Workflow guides, pending decisions, historical context and archive provenance. |
+| [tests/](tests/) | Python and base-R regression checks. |
+| [tools/chatter/](tools/chatter/README.md) | Verified local CHAT validator and source record. |
 
-Lightweight inspection from the repository root:
+Start with [the revised-study setup note](docs/guides/revised_study_setup.md).
+The generation interface can run a software smoke check (`SMOKE_TEST=True`;
+twelve jobs by default). On 20 October 2026, the author adopted revised story
+counterbalancing in `enni_staged_4_to_7_counterbalance_v2` and corrected the generator
+to `meta-llama/Llama-3.1-8B-Instruct`, with a pinned revision. See the
+[model-selection note](docs/guides/model_selection.md) for rationale and proposed
+comparisons within one Colab GPU. On 21 October, the output ceiling was raised to
+640 new tokens for both stages based on real-story lengths. The author then
+selected temperature 0.8 and top-p 0.9 for both stages and all cohorts, then removed
+age/status and directional length cues from prompt instructions. The current
+reviewed generation/rewriting pair shares story-information fields and guidance;
+story/exemplar and replicate IDs remain in logs. Canonical story content,
+the exemplar CSV and child roster retain the earlier baseline. Further protocol
+review remains pending. New generation requires a fresh run folder; Colab
+supplies its own runtime and cannot use arbitrary local Mac paths.
+
+Before evaluation, supply the intended experiment's files in:
+
+- [configs/analysis/inputs.R](configs/analysis/inputs.R): five R input paths.
+- [configs/evaluation/inputs.json](configs/evaluation/inputs.json): two framework input paths.
+
+Both evaluation entry points stop before data processing while inputs are pending.
+The current framework settings, raw-feature definitions and statistical models
+remain available for review. New data/schema compatibility and the revised design
+still require validation once the inputs exist. New framework results use fresh
+folders under `results/framework_based_evaluation/`; R figures use dated folders
+under `results/linguistic_evaluation/`.
+
+From the repository root:
 
 ```bash
 PYTHONPATH=src python -m icl_pilot validate-layout
-PYTHONPATH=src python -m icl_pilot show-counterbalance
 PYTHONPATH=src python -m icl_pilot show-manifest --limit 5
+PYTHONPATH=src python -m pytest -q
+Rscript --vanilla tests/test_r_analysis_inputs.R
 ```
 
-The manifest command displays jobs from the shared configuration rather than
-the retired report-era table. Historical configurations and generation source
-are externally backed up with checksums; the local audit is under
-`outputs/maintenance/generation_cleanup_2026-10-14/`.
-
-After generation, use [the post-generation processing guide](docs/post_generation_processing.md)
-for CSV-to-CHAT conversion and its metadata checks. Conversion preserves the
-existing utterance rules, requires a fresh output directory and retains available
-prompt-record links. TalkTag error annotation is included in the same notebook;
-CLAN measurement and evaluation remain separate. The notebook has been checked
-with mocked inference; a real Colab GPU integration run remains pending.
+The configured local `.venv/` was backed up and its installed packages recorded.
+It remains locally because the PyCharm project interpreter points to it. Git
+history and the current uncommitted state are included in the full freeze.

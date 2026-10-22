@@ -1,0 +1,31 @@
+{
+  "files_changed": 1,
+  "reason": "Context review supports retaining get agreement tag despite object spelling/lengthening difference",
+  "summary": {
+    "files": 62,
+    "all_annotations": {
+      "retained": 143,
+      "removed": 37
+    },
+    "error_tags": {
+      "retained": 90,
+      "removed": 34
+    },
+    "reference_projection_checks_passed": 62,
+    "manual_removals": 34,
+    "status": "pending_final_collection_validation",
+    "operation": "reference_guided_annotation_restoration",
+    "unaffected_talktag_files_hash_verified": 5578,
+    "all_corrected_pre_annotation_files_hash_verified": 5640,
+    "annotation_file_coverage": "5640 of 5640",
+    "semantic_review_scope": "Selective removal of unsupported/miscategorized labels in the 62 restored files; retained labels are not independent clinical gold annotation",
+    "annotation_completeness": "No missing error labels inferred for restored words or gaps left by removed tags",
+    "official_error_code_reference": "https://talkbank.org/0info/manuals/CHAT.html",
+    "raw_text_modified": false,
+    "fresh_model_inference": false,
+    "morphosyntactic_tiers_regenerated": false,
+    "original_backup": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T085254Z/Data/data_snapshot.tar.gz",
+    "implementation_sha256": "5b30913de2a47f9791fb43683b8924adbc8bf7ad2f9ec8d8bd65c6b53d321ea1",
+    "manual_retention_decisions": 1
+  }
+}

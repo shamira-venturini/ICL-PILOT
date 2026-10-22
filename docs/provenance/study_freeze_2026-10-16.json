@@ -1,0 +1,237 @@
+{
+  "status": "complete",
+  "updated_at_utc": "2026-10-20T07:41:33.722871+00:00",
+  "snapshot": {
+    "status": "verified",
+    "checked_at_utc": "2026-10-16T13:59:57.261035+00:00",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/repository_as_is.tar.gz",
+    "archive_sha256": "69ceb14329c0404ce0cf017493385d1a2257d7fdab52f6e91a040529fcf3c9b0",
+    "archive_bytes": 964437474,
+    "regular_file_hashes_verified": 66841,
+    "symlink_targets_verified": 3,
+    "source_inventory_rechecked": true,
+    "source_content_bytes": 2093393154,
+    "source_allocated_bytes": 2260889600
+  },
+  "retirement": {
+    "status": "retired_locally",
+    "snapshot": {
+      "status": "verified",
+      "checked_at_utc": "2026-10-16T13:59:57.261035+00:00",
+      "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/repository_as_is.tar.gz",
+      "archive_sha256": "69ceb14329c0404ce0cf017493385d1a2257d7fdab52f6e91a040529fcf3c9b0",
+      "archive_bytes": 964437474,
+      "regular_file_hashes_verified": 66841,
+      "symlink_targets_verified": 3,
+      "source_inventory_rechecked": true,
+      "source_content_bytes": 2093393154,
+      "source_allocated_bytes": 2260889600
+    },
+    "retired_roots": [
+      "phase2",
+      "data/generated",
+      "data/qc",
+      "outputs",
+      ".pytest_cache",
+      "clinical_analyses.Rmd",
+      "clinical_analyses_reordered_purl.R",
+      "clinical_analyses_reordered.html",
+      "clinical_analyses_reordered_check.html",
+      ".RData",
+      ".RDataTmp",
+      ".Rhistory",
+      ".DS_Store",
+      "results/framework_based_evaluation/run_20260827T153330Z",
+      "results/icl_univariate_feature_summary_table.csv"
+    ],
+    "regular_file_count": 20222,
+    "content_bytes": 211919543,
+    "allocated_bytes": 265666560,
+    "completed_at_utc": "2026-10-16T14:04:53.390425+00:00"
+  },
+  "resume_checkpoint": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/RESTRUCTURE_CHECKPOINT",
+  "completed": [
+    "complete as-is archive verified before restructuring",
+    "historical files retired only after hash verification",
+    "R interface moved to notebooks",
+    "explicit pending R/framework inputs and CSV export paths",
+    "historical notebook outputs archived and cleared",
+    "312 Python tests and base-R input/root discovery tests passed on 19 October",
+    "saved baseline/config/source/R expression comparisons completed on 20 October",
+    "dated handoff and documentation updated",
+    "syntax/layout/document links checked",
+    "compact retained-source checkpoint created and every archived file hash verified by read-back",
+    "external completion index and machine-readable receipt saved with checksums"
+  ],
+  "remaining": [],
+  "no_staging_commit_or_push": true,
+  "no_scientific_analyses_rerun": true,
+  "resumed_on": "2026-10-20",
+  "last_updated_on": "2026-10-20",
+  "local_validation_2026_10_19": {
+    "python_tests": {
+      "passed": 312,
+      "warnings": 3,
+      "native_chatter_enabled": true
+    },
+    "r_input_and_notebook_root_discovery_tests": "passed",
+    "python38_source_and_test_syntax": "passed",
+    "r_markdown_syntax": {
+      "status": "passed",
+      "expressions": 533,
+      "statistical_code_executed": false
+    },
+    "layout": "passed",
+    "maintained_local_document_links": {
+      "checked": 60,
+      "broken": 0
+    },
+    "notebook_outputs_cleared": true,
+    "generation_comparison": {
+      "expected_from_recorded_16_october_tool_output": {
+        "jobs": 2820,
+        "messages": 5640,
+        "run_df_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+        "evaluation_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+        "prompts_sha256": "454431ae5cfa3cae3569b4f9bf48cf889ba74962df6d5ad7a54aa16317b74ad0"
+      },
+      "actual": {
+        "jobs": 2820,
+        "messages": 5640,
+        "run_df_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+        "evaluation_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+        "prompts_sha256": "454431ae5cfa3cae3569b4f9bf48cf889ba74962df6d5ad7a54aa16317b74ad0"
+      },
+      "status": "identical"
+    },
+    "git_diff_check": "passed"
+  },
+  "external_drive_status": "TranscendBU mounted; full snapshot checksum and compact checkpoint verified; completion companions saved",
+  "resume_history": [
+    "2026-10-19",
+    "2026-10-20"
+  ],
+  "local_validation_2026_10_20": {
+    "preservation": {
+      "unchanged_existing_definitions": 346,
+      "definition_changes": [
+        {
+          "path": "src/icl_pilot/evaluation/inputs.py",
+          "definition": "load_evaluation_inputs",
+          "change": "added"
+        },
+        {
+          "path": "src/icl_pilot/evaluation/story_text_exports.py",
+          "definition": "_require_explicit_paths",
+          "change": "added"
+        },
+        {
+          "path": "src/icl_pilot/evaluation/story_text_exports.py",
+          "definition": "build_all_story_text_records",
+          "change": "modified"
+        },
+        {
+          "path": "src/icl_pilot/evaluation/story_text_exports.py",
+          "definition": "build_gillam_external_text_records",
+          "change": "modified"
+        },
+        {
+          "path": "src/icl_pilot/evaluation/story_text_exports.py",
+          "definition": "main",
+          "change": "modified"
+        },
+        {
+          "path": "src/icl_pilot/generation/frozen_roster.py",
+          "definition": "build_default_frozen_roster_manifest",
+          "change": "removed"
+        }
+      ],
+      "definition_changes_match_expected": true,
+      "config_payloads_checked": [
+        "configs/analysis/inputs.R",
+        "configs/annotation/talktag.json",
+        "configs/generation/cross_story_counterbalancing.csv",
+        "configs/generation/experiment.json",
+        "configs/generation/master_frozen_roster_4_to_7_year_old.csv",
+        "configs/generation/story_unit_reference.json",
+        "configs/generation/inputs/story_unit_narratives_chat_v2.csv",
+        "configs/generation/inputs/story_unit_narratives_chat_v2.parsing_qc.json",
+        "configs/generation/prompts/stage1.json",
+        "configs/generation/prompts/stage2.json"
+      ],
+      "config_payload_changes": [],
+      "notebooks": {
+        "notebooks/colab_direct_generation_pipeline.ipynb": {
+          "code_cells": 16,
+          "changed_code_cell_ids": [],
+          "outputs_empty": true
+        },
+        "notebooks/synthtexteval_demo.ipynb": {
+          "code_cells": 24,
+          "changed_code_cell_ids": [
+            "8YPXv35RHGG4"
+          ],
+          "outputs_empty": true
+        }
+      },
+      "generation_fingerprint_matches_external_baseline": true
+    },
+    "r_statistical_expression_comparison": {
+      "status": "identical_except_setup_and_output_paths",
+      "non_setup_expressions": 526,
+      "unchanged_expressions": 523,
+      "output_path_expressions": 3,
+      "statistical_code_executed": false
+    },
+    "source_file_comparison": {
+      "original_python_modules": 50,
+      "byte_identical": 48,
+      "changed_modules": [
+        "src/icl_pilot/evaluation/story_text_exports.py",
+        "src/icl_pilot/generation/frozen_roster.py"
+      ],
+      "diff_reviewed": "Only documented explicit-path handling and removal of the unused default-roster wrapper; new evaluation input resolver is additional"
+    },
+    "final_local_checks": {
+      "python38_syntax": {
+        "files": 64,
+        "status": "passed"
+      },
+      "maintained_document_links": {
+        "checked": 65,
+        "broken": []
+      },
+      "git_diff_check": "passed",
+      "layout": "passed"
+    },
+    "original_full_archive_sha256_rechecked": {
+      "status": "identical",
+      "sha256": "69ceb14329c0404ce0cf017493385d1a2257d7fdab52f6e91a040529fcf3c9b0"
+    }
+  },
+  "post_restructure_checkpoint_directory": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20",
+  "completed_on": "2026-10-20",
+  "post_restructure_checkpoint": {
+    "status": "verified",
+    "checked_at_utc": "2026-10-20T07:40:16.838256+00:00",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/retained_repository.tar.gz",
+    "archive_sha256": "d6c63bf43193bed5e49a5d7ee64d881c3be58c83fa7f0c9377296cba6c2a5ca4",
+    "archive_bytes": 16083760,
+    "regular_file_hashes_verified": 236,
+    "symlink_targets_verified": 0,
+    "source_inventory_rechecked": true,
+    "source_content_bytes": 53400828,
+    "completion_companions": "Verified separately after recording final archive verification"
+  },
+  "temporary_workspaces_removed": [
+    "/tmp/icl_study_freeze_resume_20261020"
+  ],
+  "completion_companions": {
+    "policy": "These two files are excluded from the compact archive and stored beside it to avoid circular verification hashes",
+    "index": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/STUDY_FREEZE_INDEX.md",
+    "receipt": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/RESTRUCTURE_STATUS.json",
+    "verification": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/VERIFICATION.json",
+    "manifest": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/MANIFEST.json",
+    "checksums": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/SHA256SUMS"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "backup_dir": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T143952Z/GenerationAnnotation",
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T143952Z/GenerationAnnotation/generation_annotation_snapshot.tar.gz",
+  "sha256": "1b883a71b08a1b2aa6c307c5e79a2d2b36b2d78de87693acd2852b9e5f31854e",
+  "verified_members": [
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "decc4e1ef0404e85bada2a2e442ecb187132a30db667ccf23a3cb08a714bdce6"
+    },
+    {
+      "path": "notebooks/TalkTag.ipynb",
+      "sha256": "b208c79ce1e80fdaae783e02e6be04f7372a101d1a948eae6f04df7e06dd5d7c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "85973bb0122017cd968949be4330c49e4af67522610cb525f88fcdfa7c111e76"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "335e9bc99d80571f6cec47256dcaf2e0762e8e79146fc434a21488f1958399d5"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "4bbe801fd36d39d287a0ff058c9e2e11e9c9838ddea5995c0aac54a15a976e73"
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "sha256": "b02ada611a95b63bc8e2a0b3ccd5ab4dda45cc265c4966b0383020a920711256"
+    },
+    {
+      "path": "docs/post_generation_processing.md",
+      "sha256": "2e4b7c25524f468bca99005a8a69dd9106f14d2b86773bee78f69780ac8feab4"
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "sha256": "cbb260d5ed8ae2393528b70ac5be0f8158751cd9c49a9f2c43ac49c5c179eddc"
+    },
+    {
+      "path": "docs/generation_prompt_records.md",
+      "sha256": "2d6e993a27b60e0ece8649f38b8cc246f5a87519e53c418463dbb45fb1f7d293"
+    },
+    {
+      "path": "configs/generation/README.md",
+      "sha256": "cd2584854dd44866ed095faf7c09106a66944a5cbf38327946b4149ff716897b"
+    },
+    {
+      "path": "src/icl_pilot/generation/config.py",
+      "sha256": "fdc36dc92d08b37105eef72e5d7c25594c8046ffc5fb6f1e338540a4c09b7961"
+    },
+    {
+      "path": "src/icl_pilot/generation/__init__.py",
+      "sha256": "f9c74ab8a50d44dbf495c40c0fc9c2c21f4f3e4bf3b31efe3b17b9f7181b3f5f"
+    },
+    {
+      "path": "tests/test_generation_config.py",
+      "sha256": "49b5945e63ebf2c1c3ef6cf37b53489b471709678e66a4e6d81171c9b9611bed"
+    },
+    {
+      "path": "tests/test_generation_prompts.py",
+      "sha256": "d46ff7c35da72432e5bb33c655d79be30ac96eb34b2d13b3f1485b7b40d47bd3"
+    }
+  ],
+  "volume_uuid": "E33EEB9A-D24F-33F4-B568-08627A9E27E6"
+}

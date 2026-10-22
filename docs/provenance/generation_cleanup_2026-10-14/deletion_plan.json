@@ -1,0 +1,275 @@
+{
+  "verified_external_archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T115428Z/Generation/generation_snapshot.tar.gz",
+  "targets": [
+    {
+      "bytes": 6148,
+      "path": "configs/generation/.DS_Store",
+      "sha256": "29cfe6e9c8fea882c7b8c0060c2e64a1a3feb97189726e476223467bec679b3b"
+    },
+    {
+      "bytes": 3956,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_frozen_roster.csv",
+      "sha256": "3f7e5146ec75fb413b1ab8259857003b08d1145af6f47cbd109f83c542c0cd42"
+    },
+    {
+      "bytes": 3527,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_prompt_rounds.csv",
+      "sha256": "a8f465d787e0cad70c7c566cb68192c6da099f374241c2576ff97428cdf12b12"
+    },
+    {
+      "bytes": 4242,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_bundle_index.csv",
+      "sha256": "5eb287d316d1f5661c2ce7df4583960f75c1a802ed57597b6eff687d3ed6e562"
+    },
+    {
+      "bytes": 23837,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_eval_manifest.csv",
+      "sha256": "ebcf996307e52b41365a6ce4b5d10307af35cfa82ef3b90111dc86bdc7eb2f2f"
+    },
+    {
+      "bytes": 1406,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_package_summary.json",
+      "sha256": "282ce5cbceaa551346f09ac8783596287b4811971210383a1a28d554e11021d3"
+    },
+    {
+      "bytes": 37566,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_schedule.csv",
+      "sha256": "cb7b8d717f04e878259e86a3b59605a3a81b6fc93fed74d4c28d43077ca36e8e"
+    },
+    {
+      "bytes": 4752,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_synthetic_bundle_template.csv",
+      "sha256": "4165d68bb8df991a1d2a7231052a9362764ff4f147be3daea18744b8318eeb27"
+    },
+    {
+      "bytes": 2994,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_frozen_roster.csv",
+      "sha256": "3216d125405a0296e3dbbaa9886dfa3d9ada3e23503241b7e8426d2f338329d5"
+    },
+    {
+      "bytes": 2685,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_prompt_rounds.csv",
+      "sha256": "7e477c828e54f56a010ac108e942e0dedd0e8e85c722afff0539de5f2c6bcd6f"
+    },
+    {
+      "bytes": 3229,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_bundle_index.csv",
+      "sha256": "979d827fb1d89ea7e567ed2c0542e9d59c51e82595b6a3a77f46ce58af24df50"
+    },
+    {
+      "bytes": 10777,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_eval_manifest.csv",
+      "sha256": "7e0367ce8b40bdf41918b1c601fd03f2ace24c23533e5a79f7d54fdf7278cfdd"
+    },
+    {
+      "bytes": 1402,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_package_summary.json",
+      "sha256": "9327c184feb977b7a4147a0cb2305ece739ed35eaf43302a2ebc345f9da6f35d"
+    },
+    {
+      "bytes": 28074,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_schedule.csv",
+      "sha256": "1265cba99f962ee20c9910003efcb72cf5f9629232c2dd04d3f482daa4883be7"
+    },
+    {
+      "bytes": 3687,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_synthetic_bundle_template.csv",
+      "sha256": "dd2dcf12a0ae09a98ba8202b236a5455210b0a02ef927f84282593e9e9d052a6"
+    },
+    {
+      "bytes": 9822,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/multi_age_rotating_generation_packages_summary.json",
+      "sha256": "5ede2891656a4290fbffce5a22c0abcf1a8c9f55edf21d51e38f0d4f768524ba"
+    },
+    {
+      "bytes": 2761,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_frozen_roster.csv",
+      "sha256": "22f8809feb547290221eb6a043c262d48a067d82446e4151be17aa485ca2a329"
+    },
+    {
+      "bytes": 2486,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_prompt_rounds.csv",
+      "sha256": "fa9f6d6fa1438b8982b20a44d450f1bc9dd40146c759a44c2bc9ec88b30e6de2"
+    },
+    {
+      "bytes": 3004,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_bundle_index.csv",
+      "sha256": "586d0bbf23c733c762fec9cbfbd151682aa2340c3b3746ac3772d2d7c6cd58fd"
+    },
+    {
+      "bytes": 9871,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_eval_manifest.csv",
+      "sha256": "c86b157b58b04663b2abd45fe0d676eb4b6974de301e61b97b40b65d298f89ec"
+    },
+    {
+      "bytes": 1404,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_package_summary.json",
+      "sha256": "dfbb136ac5a1ce008be0e5bc59454f418e167c582d0423441cd8f7ba21e718ac"
+    },
+    {
+      "bytes": 25770,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_schedule.csv",
+      "sha256": "4ef8b4800616727f0a249f4a0b7eb86b1d2aacc3f700c731ec0a4768698c8efe"
+    },
+    {
+      "bytes": 3449,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_synthetic_bundle_template.csv",
+      "sha256": "8946d71bccd2457e14cbc6e8b8efc63e8c7dd69ad5acc226dafa3ef67fd623e6"
+    },
+    {
+      "bytes": 3214,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_frozen_roster.csv",
+      "sha256": "6b041ca31032c63e2654efda528d9b657664315887342a64aa6ccd4fdae05a26"
+    },
+    {
+      "bytes": 2884,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_prompt_rounds.csv",
+      "sha256": "6f54aa5e03326a898ce0ca75b42fcc9bfb42589f55ec3ee6a18d595678b88144"
+    },
+    {
+      "bytes": 3458,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_bundle_index.csv",
+      "sha256": "25d1d0be40a3701b11a905fadeefeedc21e7afe4c5b9836f8759619724835e4b"
+    },
+    {
+      "bytes": 15424,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_eval_manifest.csv",
+      "sha256": "87507727a52ff4bacdda562f260abb2827ad7bba3a63f7a3894ba465c2e50113"
+    },
+    {
+      "bytes": 1405,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_package_summary.json",
+      "sha256": "5c15e1da155be25a5b6ed77ca72086283d311c4aa891aa2bc8971f2dda031068"
+    },
+    {
+      "bytes": 30378,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_schedule.csv",
+      "sha256": "ae7e8a685c41ad50578b9474afb4a035da97be9e666712de4b5a5bd87811039e"
+    },
+    {
+      "bytes": 3929,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_synthetic_bundle_template.csv",
+      "sha256": "fc49b2d0c628aa4a4149ab2ec5dfc114e7e77448f40627f3aabe7dbf7e7d229f"
+    },
+    {
+      "bytes": 2807,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_frozen_roster.csv",
+      "sha256": "6013c945bd3a7c96663362cb2212caa47a113338e8ae90130603616db2b4d4ac"
+    },
+    {
+      "bytes": 2532,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_prompt_rounds.csv",
+      "sha256": "15d8fe74543fcd5c15acae9b3703b1bc264d72aa85cdc1bcbb1f9ddfa770f5b0"
+    },
+    {
+      "bytes": 3037,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_bundle_index.csv",
+      "sha256": "2b3646024222bb54c275da869f31f97c2b628ef186d4fd5f06c457956171504e"
+    },
+    {
+      "bytes": 10021,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_eval_manifest.csv",
+      "sha256": "8fa8863f879224b4b3552474c8b6047d55fc7d407f3c4602d440887c7baed5e7"
+    },
+    {
+      "bytes": 1400,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_package_summary.json",
+      "sha256": "8da0050fa6136ebc4eac9fdd5a0dab3a5d22a00ab8a7363022b7e02a4c4e7a2f"
+    },
+    {
+      "bytes": 26046,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_schedule.csv",
+      "sha256": "9cf17f181abc7f90f7b5bcd07d2df4d46d442d50242e9ebb9213f052eb829bb8"
+    },
+    {
+      "bytes": 3482,
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_synthetic_bundle_template.csv",
+      "sha256": "0a3c1c38d2b7b9ade4639261494188f39e3e6a28513683515116d90ba66be67a"
+    },
+    {
+      "bytes": 1659,
+      "path": "configs/generation/four_year_old_architecture_pilot_holdout.csv",
+      "sha256": "f017a7357da8b25b07c3038b29531b492f5481a069a47d7a2b6ea785f2b6af2e"
+    },
+    {
+      "bytes": 1710,
+      "path": "configs/generation/four_year_old_architecture_pilot_manifest.csv",
+      "sha256": "8d25a1497b36d0a4c254b6e036067905ab8e7311623109b7942c6b3f9d3f5009"
+    },
+    {
+      "bytes": 2776,
+      "path": "configs/generation/four_year_old_frozen_roster.csv",
+      "sha256": "bc802be0905c120c44f8bb9237da88a87ad80ea757865afff5fb183ffc885bee"
+    },
+    {
+      "bytes": 21082,
+      "path": "configs/generation/four_year_old_loocv/loocv_eval_manifest.csv",
+      "sha256": "82ebe94693ba22e229377c7fca4aaef9c0371d8d18b214a8433a2d551f872460"
+    },
+    {
+      "bytes": 1694,
+      "path": "configs/generation/four_year_old_loocv/loocv_folds.csv",
+      "sha256": "0c58dacfea720383d49d2cc8c67c83ea6e13f48a993c7198d727c658f3c45629"
+    },
+    {
+      "bytes": 33886,
+      "path": "configs/generation/four_year_old_loocv/loocv_prompt_manifest.csv",
+      "sha256": "6e5951b0ce63722ba39965761a357e4a695b3700f444e29e04d0e13eda0960eb"
+    },
+    {
+      "bytes": 528,
+      "path": "configs/generation/four_year_old_loocv/loocv_summary.json",
+      "sha256": "55b4f1956d6357160f98a08c3426f78853aaf61fa68d8c859f386f324ae9ff69"
+    },
+    {
+      "bytes": 1379,
+      "path": "configs/generation/sample_wise_multistep_manifest.csv",
+      "sha256": "ab6ca3a6a78336eaec2368b182addf7847132168fd2a1ca5f3d1ac0f555c0e48"
+    },
+    {
+      "bytes": 47817,
+      "path": "configs/generation/story_generation_cells.csv",
+      "sha256": "ec90f30e7da878c998eda2073d1b53bae9256fb9d242bf5b72dc1625cf838b97"
+    },
+    {
+      "bytes": 711,
+      "path": "configs/generation/story_generation_design_summary.json",
+      "sha256": "cc79e0ae351db977dc543dc37a8b91d338110e805d1b715feea210d79c1e28cd"
+    },
+    {
+      "bytes": 55093,
+      "path": "configs/generation/story_generation_manifest_v2.csv",
+      "sha256": "7784530ef4ed23d9f58bdcc56b5f8a76525cde8e36a564661a86140fa9e0eb8c"
+    },
+    {
+      "bytes": 2549,
+      "path": "configs/generation/story_generation_overview.csv",
+      "sha256": "1333ae79d28c6521c40657e672faa30371d6a25ec83bb7888ed7183e13c5e6f9"
+    },
+    {
+      "bytes": 371276,
+      "path": "configs/generation/story_pool_assignment.csv",
+      "sha256": "53c5c3a4fbd5eb44535816bd26018f995ad4793717fd694744e0cf2f3908ddb0"
+    },
+    {
+      "bytes": 3800,
+      "path": "docs/four_year_old_architecture_pilot_split.md",
+      "sha256": "466b319ff94126a45086dea9ef266c9b382bb7e3b7a9d036c0c8e80d7a0bc1d2"
+    },
+    {
+      "bytes": 2557,
+      "path": "docs/four_year_old_loocv_setup.md",
+      "sha256": "3a7b5ed56201e8a868acd7ba5a98e9bd4231fba4c43549a99c4cc26633238719"
+    },
+    {
+      "bytes": 3010,
+      "path": "docs/story_generation_design_overview.md",
+      "sha256": "a8cd1b0f60b997ee96aa7e86cbcf7d2c0af90b929823a7c829b88a50fc29c7e5"
+    },
+    {
+      "bytes": 1325,
+      "path": "docs/strategy_transition.md",
+      "sha256": "4745eacdcba3d2a176662a179d1e533bf8baddbec2b293f30e3833e0b4b6f7f2"
+    }
+  ]
+}

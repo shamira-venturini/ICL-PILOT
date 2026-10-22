@@ -1,0 +1,23 @@
+[
+  {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "icl_pilot",
+      "validate-layout"
+    ],
+    "exit_code": 0,
+    "stdout": "Layout OK\n",
+    "stderr": "/opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).\n  from pandas.core.computation.check import NUMEXPR_INSTALLED\n"
+  },
+  {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

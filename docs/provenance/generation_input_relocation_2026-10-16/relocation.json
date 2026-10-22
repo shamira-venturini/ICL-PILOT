@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-16",
+  "operation": "move_without_content_changes",
+  "files": [
+    {
+      "source": "data/processed/generation_inputs/story_unit_narratives_chat_v2.csv",
+      "destination": "configs/generation/inputs/story_unit_narratives_chat_v2.csv",
+      "sha256": "89643c6ca494e525b47eb3863a36bea3d702402c9dd1e3e5d42b401fa9828cbc",
+      "bytes": 2677166
+    },
+    {
+      "source": "data/processed/generation_inputs/story_unit_narratives_chat_v2.parsing_qc.json",
+      "destination": "configs/generation/inputs/story_unit_narratives_chat_v2.parsing_qc.json",
+      "sha256": "25edaed879cbc435509f8c2dea1be614c0a0e7c1f9f74d0c210d11ce122e896a",
+      "bytes": 5519948
+    }
+  ],
+  "old_input_directory_absent": true,
+  "empty_processed_directory_removed": true
+}

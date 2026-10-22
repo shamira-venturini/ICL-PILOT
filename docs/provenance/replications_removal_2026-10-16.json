@@ -1,0 +1,3313 @@
+{
+  "action": "remove externally backed-up replication workspace",
+  "status": "complete",
+  "completed_at_utc": "2026-10-16T12:43:52.903966+00:00",
+  "user_authorization": "remove it (phase2/replications/)",
+  "removed_directory": "phase2/replications",
+  "backup_archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T122903Z/Phase2/phase2_snapshot.tar.gz",
+  "archive_sha256": "f778b7355c42acaf82d79f632377829715566f0dc395c101941ed91a4834f267",
+  "verification": {
+    "local_files_compared_with_backup_manifest": 545,
+    "archive_member_hashes_verified": 545,
+    "archive_sha256_rechecked": true,
+    "local_inventory_rechecked_immediately_before_removal": true,
+    "local_directory_absent": true,
+    "protected_files_hash_verified_unchanged": 20335,
+    "protected_scope": [
+      "phase2/ENNI",
+      "phase2/Gillam",
+      "phase2/generated",
+      "src",
+      "configs",
+      "notebooks",
+      "data",
+      "results",
+      "tests",
+      "clinical_analyses_reordered.Rmd",
+      "pyproject.toml",
+      "README.md",
+      "AGENTS.md",
+      ".gitignore"
+    ]
+  },
+  "removed_file_count": 545,
+  "removed_content_bytes": 1463046521,
+  "removed_allocated_bytes": 1464197120,
+  "removed_files": {
+    "phase2/replications/guo_schneider_6yo_ablation/README.md": {
+      "type": "file",
+      "bytes": 28434,
+      "sha256": "5dc89dfd1557ff27957f77a1d03d367ff7e15e3ceb890565f21eef20c8591b9c",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/clinical_analyses_and_replication_summary.pptx": {
+      "type": "file",
+      "bytes": 328327,
+      "sha256": "234c56d58c495be505e7bc17f46008e32fec267aa9b6e4d486da5da18b47b0f9",
+      "allocated_bytes": 331776
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/synthetic_data_extra_analyses_update.pptx": {
+      "type": "file",
+      "bytes": 45358,
+      "sha256": "4e93654cac09ae396d6ac182eaf9ee3eeb2665866464dee20f0d4351b0ba1646",
+      "allocated_bytes": 49152
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/data/.gitkeep": {
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "allocated_bytes": 0
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/data/age6_combined_manifest.csv": {
+      "type": "file",
+      "bytes": 68783,
+      "sha256": "3df81cdaa47c7a0b27334b5af090247a6d708d0008ce1a13362e2c5d9ba01ba4",
+      "allocated_bytes": 69632
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/data/age6_real_enni_manifest.csv": {
+      "type": "file",
+      "bytes": 6426,
+      "sha256": "3718d0a610f4e613aedebb0f633bb0f25a3b9b8e8a47fea6831df0cf30dda9ae",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/data/age6_synthetic_bundle_manifest.csv": {
+      "type": "file",
+      "bytes": 62513,
+      "sha256": "33b3f77f33d37c12c59734c9e850e14524a1bc14bcc5069b785269453ea0e99e",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/inputs/enni_only/severity_features_raw_syn_qc_prune.csv": {
+      "type": "file",
+      "bytes": 498760,
+      "sha256": "7b7a795b9156c54ebf1d75eda9991b3782cc1ed270ac4ee0e6f4a4258f780c40",
+      "allocated_bytes": 499712
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/inputs/enni_only/severity_features_raw_syn_qc_prune_dropped_rows.csv": {
+      "type": "file",
+      "bytes": 6992,
+      "sha256": "88c15ab88ace0e8cf716c3e09838e9101b532b575979b1348bde5ea7a6ff6f87",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/inputs/enni_only/severity_features_raw_syn_qc_prune_row_flags.csv": {
+      "type": "file",
+      "bytes": 63032,
+      "sha256": "1d3f6248869ab8a8e1a2eea4d39f96450d552aa15c315fa12f7e01dacd196785",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/inputs/enni_only/severity_features_raw_syn_qc_prune_summary.json": {
+      "type": "file",
+      "bytes": 1203,
+      "sha256": "7f75c104fe300ac138afd4aff557ecd19ef98fb15fa63471ae528435fc40a2a1",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/notes/.gitkeep": {
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "allocated_bytes": 0
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/notes/FEATURE_EXTRACTABILITY.md": {
+      "type": "file",
+      "bytes": 4403,
+      "sha256": "f28f790b15e506aa9d51e43848f9794daaeda9931ad4ade6abcfa0aed12d8d66",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/notes/FEATURE_PANEL_LITERATURE.md": {
+      "type": "file",
+      "bytes": 7670,
+      "sha256": "3ac11e770e1bcd9296c5e6094323e31fc057631ecafa01e84bb7abcd4397ec94",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/notes/WORKLOG.md": {
+      "type": "file",
+      "bytes": 42846,
+      "sha256": "3eb47e31278e404ec92ebebe38aa373c4be33d27a4057ae809068a1bfc121381",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/presentation_assets/allages_panel_utility.png": {
+      "type": "file",
+      "bytes": 157624,
+      "sha256": "df78c5303aeb79536ad88e8c64b81e1d99bc7e5ee0c95926d0339ee6ed5fda6f",
+      "allocated_bytes": 159744
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/presentation_assets/augmentation_regimes.png": {
+      "type": "file",
+      "bytes": 116905,
+      "sha256": "a7198d055ca29025983d569d7ae7f82205bdd1b4764b62902ce5e300f1248142",
+      "allocated_bytes": 118784
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/presentation_assets/benchmark_auc.png": {
+      "type": "file",
+      "bytes": 67912,
+      "sha256": "0e28adf20fb7a9045ba6031061d632bb67b5ee418d0f4d2f167aee2589752b13",
+      "allocated_bytes": 69632
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/.gitkeep": {
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "allocated_bytes": 0
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_coefficient_summary.csv": {
+      "type": "file",
+      "bytes": 7411,
+      "sha256": "a512931c21fc3b92c8c9513e027f30203c36edec20f19f1dd5da9fb9a2f85b46",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_coefficients.csv": {
+      "type": "file",
+      "bytes": 11331,
+      "sha256": "8d08e27e21fadd2ee411064ac9412e0f0accec15b439052061ffd95181468c3a",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_concordance.csv": {
+      "type": "file",
+      "bytes": 2662,
+      "sha256": "fd76d0045e62a38b6184fb78431d9869683854d553d9b8be855af9b8c06f34b9",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_concordance_summary.csv": {
+      "type": "file",
+      "bytes": 1949,
+      "sha256": "c3bab279aa0f8cf71db8225f706f2b085a4c210e9ee4c8f1cb36e501c582f99d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_family_importance.csv": {
+      "type": "file",
+      "bytes": 8994,
+      "sha256": "1753818a92b61cb12e30cfc36202a7066aa288d80dc0e2e014d6c4a9ac151fb6",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_family_importance_summary.csv": {
+      "type": "file",
+      "bytes": 6529,
+      "sha256": "94edd74f349ac60525dbf1d9f42c61918a9649b20f1412ae271481a62e2b01f4",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_feature_importance.csv": {
+      "type": "file",
+      "bytes": 26565,
+      "sha256": "80382faee2f4003950f45c6a55cb51a1226d855fcf276fce27db3a3336e62029",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 3816,
+      "sha256": "d13b6959ccd22a8ac40772b4f445fd228c0165ac2c5a87bda3b8879f7ff7afc8",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_performance_summary.csv": {
+      "type": "file",
+      "bytes": 1781,
+      "sha256": "c1f75cc679458d0a3462dc96092a72f21b016befbaf299731bd2398e6ccaf02f",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_summary.json": {
+      "type": "file",
+      "bytes": 3150,
+      "sha256": "b27628f02e91ee978fd3fcc59e9030be2fee82606c9678ea958fafcda7b84117",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_classifier_mechanism_concordance_top_feature_summary.csv": {
+      "type": "file",
+      "bytes": 11547,
+      "sha256": "9c7dbd3e4ae33043069fbbd6bca9d36c3aebb2cd2c5e09e6e1aad51598a359fe",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_enni_4to7_bert_text_classification_config_summary.csv": {
+      "type": "file",
+      "bytes": 2148,
+      "sha256": "9fbd0faf141681221923acdcda81e026ced6fc6147a7c519284c23bb176d4dd7",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_enni_4to7_bert_text_classification_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 3270,
+      "sha256": "31e59e487c5b5e8a49083fa60b7eabc80eab20e093a93d5849c8781e440ff837",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_enni_4to7_bert_text_classification_summary.json": {
+      "type": "file",
+      "bytes": 2225,
+      "sha256": "7416c869114da03823c4a933dc95fc3afe5a6d27d82c3d1f1fa00b30ecabf8dc",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_l1_warning_check_config_summary.csv": {
+      "type": "file",
+      "bytes": 635,
+      "sha256": "46b1afa0016185e7e0bc5a6bc1384103a739e65d1c8b90c6728a5dec5517b18d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_l1_warning_check_feature_stability.csv": {
+      "type": "file",
+      "bytes": 463,
+      "sha256": "b7c13d4e26545c5932d46d46938e0d5465cc62b8e2800903ac652f1828aa7c9f",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_l1_warning_check_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 3180,
+      "sha256": "5dfdc3fbc8a31f6a0c16ebf1bf8f74bdb5a0d168293ee5da807a938d00f9e620",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_l1_warning_check_selected_features.csv": {
+      "type": "file",
+      "bytes": 844,
+      "sha256": "a288025e8b13ee62554a567fa4eab951df1c1de525283f4bd434a02f46d54372",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_l1_warning_check_summary.json": {
+      "type": "file",
+      "bytes": 3476,
+      "sha256": "71d3a87b3276ee0b7e274e9dca633c5c4d6c0ffa18edafc5bba3815f15decef6",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 1540,
+      "sha256": "784381dafb4be6d0bb46e880c2bcafc95484d4a118edfd6be408b5c859bf1e94",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_ratio_sweep_feature_stability.csv": {
+      "type": "file",
+      "bytes": 1660,
+      "sha256": "25581c7a8ec3252f5ffbdda9f70bd9afcc998c6f825153199666acfb3c8f4305",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 11133,
+      "sha256": "7d0dcb09968ef9b1f5da944e89fb90fee261bcfff697eec940d2e65ee8aeec08",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_ratio_sweep_selected_features.csv": {
+      "type": "file",
+      "bytes": 3036,
+      "sha256": "84b835388465cc0b764bc8560d7cd2854561e571f7715052f17b1c08d62de6d1",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_exploratory_ml_feature_selection_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 10076,
+      "sha256": "44d1c17bd30a3ad57a5bdf79b9a5fa9ae730a06b210b7e25baa9eacc24922967",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_adam_es_config_summary.csv": {
+      "type": "file",
+      "bytes": 2056,
+      "sha256": "b3c8a93905fefbb678a031344e7d34fb38d0d09a4a9baa9c9cf76c0e71833ad6",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_adam_es_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 15258,
+      "sha256": "5bdaaebcc88018843e6385f554b605c5af75027779a6ac0cda86d97173a02b60",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_adam_es_summary.json": {
+      "type": "file",
+      "bytes": 14502,
+      "sha256": "ce69101a616a83e789ea0f89f678ff8ea3e3027972fbd3620325ec17a1607f1e",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_config_summary.csv": {
+      "type": "file",
+      "bytes": 2047,
+      "sha256": "934df301c27fdf64458172a8f6d9c64bafdcc62c8c14b0e269cc9adead18ae36",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 15266,
+      "sha256": "0e47cdbdb796135f6354669bcb19155f87c837134463e398236e005433cc4c75",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_lbfgs_config_summary.csv": {
+      "type": "file",
+      "bytes": 2066,
+      "sha256": "7688ee054b1fb97e24d9d843052aa963aa9ba392ee180530230363ef539be78a",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_lbfgs_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 15266,
+      "sha256": "a6984e2d17e671b69d2e723754bab37c84774986622696b4dacacbaee76195b5",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_lbfgs_summary.json": {
+      "type": "file",
+      "bytes": 14526,
+      "sha256": "ee1919f9c3012f39acf4ae603a235b61c8ab57a4e72e7d446e77550427d04199",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_neural_primary_bundle_summary.json": {
+      "type": "file",
+      "bytes": 14467,
+      "sha256": "dd39f597b84e69d45a246e770f57e0275f201c8ff478ea82f1a1c1b077b78aa4",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_balanced_only_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 894,
+      "sha256": "e39bdc1b53ad4234df2f912219d7d8a9412301021925c4043dbca48ba6e0b38d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_balanced_only_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 5408,
+      "sha256": "6ae121d440efc2194409af9e3dc8590ad77a3b7e7c27301e80bb65fac8ed40d7",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_balanced_only_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 5364,
+      "sha256": "38623167046174ec8a8cd52a0be1c598101d21639b6b16c657e88a6f674d33cb",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_clinical_ratio_sweep_conditional_pca_config_summary.csv": {
+      "type": "file",
+      "bytes": 894,
+      "sha256": "e39bdc1b53ad4234df2f912219d7d8a9412301021925c4043dbca48ba6e0b38d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_clinical_ratio_sweep_conditional_pca_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 5408,
+      "sha256": "6ae121d440efc2194409af9e3dc8590ad77a3b7e7c27301e80bb65fac8ed40d7",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_clinical_ratio_sweep_conditional_pca_summary.json": {
+      "type": "file",
+      "bytes": 5364,
+      "sha256": "38623167046174ec8a8cd52a0be1c598101d21639b6b16c657e88a6f674d33cb",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_clinical_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 895,
+      "sha256": "6640b9bd42c8e7754895899dbceadf3c1bb47cab96e14fa45dc52970e7b64427",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_clinical_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 5412,
+      "sha256": "caa9837a8f15fbf330584d9e26ee6a5278c173b5a06657e9884491b7fe0aed5b",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_primary_clinical_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 5352,
+      "sha256": "960c1d7a98ca4a6fa50d9a3add63cd013fdc0528872859a9e90b1bb2a701db37",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_raw_text_classification_config_summary.csv": {
+      "type": "file",
+      "bytes": 2065,
+      "sha256": "9ffeb59eb984127d31052cf8e62bd32a02579df651824eaf6e7256367652963e",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_raw_text_classification_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 3280,
+      "sha256": "0bf8da1bbb0b3c70951dfa16baa5cc2c4fa8090182def65068e178d2c920bbae",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_raw_text_classification_summary.json": {
+      "type": "file",
+      "bytes": 2397,
+      "sha256": "5742b178bbfaff55719c462a5a9a5a7eed20fd99f6c2c626fb6e0f67957e442b",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_raw_text_classification_zipreal_config_summary.csv": {
+      "type": "file",
+      "bytes": 2071,
+      "sha256": "8c522b6b23a014e28473cdc74ad3f1f0ed3626cea23a0bdf093fda7d367ca645",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_raw_text_classification_zipreal_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 3269,
+      "sha256": "d37cdfa0042c6235f99d3c667617aec0c586244214d00df5ca4cad0a7b46f109",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_raw_text_classification_zipreal_summary.json": {
+      "type": "file",
+      "bytes": 2389,
+      "sha256": "6ae2f9ce2682fe53f7d2162af4fc4e4f3c3483f8328a2238185067a09bb2524f",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_scarcity_synthetic_ratio_config_summary.csv": {
+      "type": "file",
+      "bytes": 3968,
+      "sha256": "155a2fdf740f22dd70040c556f763f3e23c030483b9bb2b21533c6b0e6fcac7a",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_scarcity_synthetic_ratio_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 31554,
+      "sha256": "16d26dc5ce6857b4d645af7c67da8c683f475443a7ff574e4a6daf49fc7d6d04",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_scarcity_synthetic_ratio_summary.json": {
+      "type": "file",
+      "bytes": 30304,
+      "sha256": "fc2b58ddd501a9c8695b1c115d0b75d872d615b48691793274cca6c541569b87",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_synthetic_quantity_surface_config_summary.csv": {
+      "type": "file",
+      "bytes": 5168,
+      "sha256": "b23dcba87a81e7392b1648307c6b92ee4bbd5df0e82fe339276c9f22d7fa9a99",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_synthetic_quantity_surface_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 41812,
+      "sha256": "d5bc2e79e2108a75b46b1d4be44215607779613e582533e4659ad429c155d417",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_synthetic_quantity_surface_mlp_tiny_config_summary.csv": {
+      "type": "file",
+      "bytes": 5059,
+      "sha256": "b3611729dd442eca06385b7935f1f43dba03ef6e77a83663f053e36319b21a48",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_synthetic_quantity_surface_mlp_tiny_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 41415,
+      "sha256": "5770b4df37987ceabd458cea51b65ed74ac870cf1e93a077176f7543ee704332",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_synthetic_quantity_surface_mlp_tiny_summary.json": {
+      "type": "file",
+      "bytes": 43502,
+      "sha256": "1eb9f5c28d79415f0d2e7cf6ceb26f7d86ee1f6f3534660693171500579e777e",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/_smoke_real_synthetic_quantity_surface_summary.json": {
+      "type": "file",
+      "bytes": 43807,
+      "sha256": "877e282df4ed6dd5596b2dc655a9c218bd2f58efd48f32f08effca43b8f30d63",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_fvmc_contexts.csv": {
+      "type": "file",
+      "bytes": 4339031,
+      "sha256": "2f2e0379fc7884ae5928a1ab8f349f9e0a2c8118eca213a6cebd3d7470a5707e",
+      "allocated_bytes": 4341760
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_bootstrap_child_level.csv": {
+      "type": "file",
+      "bytes": 9906,
+      "sha256": "e8399e9d8f2ffbb4adbf539292bf9a62fcc22d8a90f062a1b9105c0d800e755c",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_bootstrap_summary.json": {
+      "type": "file",
+      "bytes": 8821,
+      "sha256": "523e6f87cfe28518f5ff6d00668950cd6a343821d05172e09d5ab102320d02d3",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 117633,
+      "sha256": "70453380025add62d3c3c6537316830d5288f73895224c94a6a865520d256043",
+      "allocated_bytes": 118784
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_pair_group_bootstrap_child_level.csv": {
+      "type": "file",
+      "bytes": 9908,
+      "sha256": "81b33fcf3379c4f0744fdfe11fe72e14cc517f021e603490439993a157d08582",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_pair_group_bootstrap_summary.json": {
+      "type": "file",
+      "bytes": 8832,
+      "sha256": "c09df5b1f054b52b279968eabc44dfb31aee4b5514d7c16ea7217d93a46f6176",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_pair_group_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 117658,
+      "sha256": "b454d3879ef6c4f3b5b5f3517ffe8d1513e38d5fe657eba31a281a0d34d131f3",
+      "allocated_bytes": 118784
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_pair_group_predictions.csv": {
+      "type": "file",
+      "bytes": 823268,
+      "sha256": "4eba5e1f0b6bbbb09b9eae3da376fe80253370e4fc3dca3d8b28690f81d6701d",
+      "allocated_bytes": 823296
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_pair_group_summary.json": {
+      "type": "file",
+      "bytes": 5943,
+      "sha256": "62c0448e266ffb2b49c74e59e5c0b50319c9cd4ba2f11bb71628b257924dda70",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_predictions.csv": {
+      "type": "file",
+      "bytes": 823131,
+      "sha256": "dc6278ce0792e8809a17d63464c366a46a6b7f1121a4b69178d214e790795e4a",
+      "allocated_bytes": 823296
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_summary.json": {
+      "type": "file",
+      "bytes": 5945,
+      "sha256": "c40e5eb3bb68f2c368d3167ae04750bd747460fb502e1cf4eba85ec581652b64",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_weighted_half_bootstrap_child_level.csv": {
+      "type": "file",
+      "bytes": 9932,
+      "sha256": "4d0bba8520b017e66b4faa3fbf3fd72cf3e4d8e9c9074ecd29fbc92761078426",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_weighted_half_bootstrap_summary.json": {
+      "type": "file",
+      "bytes": 8839,
+      "sha256": "1bba7abda4d127b0216ea6a03d5a43c6db638a348c98c9fad52d15cca012c691",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_weighted_half_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 117654,
+      "sha256": "0929db542428d0532b27ec020892e88df2df1361446a66f213a2e73245ccfbf7",
+      "allocated_bytes": 118784
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_weighted_half_predictions.csv": {
+      "type": "file",
+      "bytes": 823166,
+      "sha256": "2deb77aa832a33fb893bd4b0d87533cfabc355609b08e61453ce695ca1726668",
+      "allocated_bytes": 823296
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_augmentation_weighted_half_summary.json": {
+      "type": "file",
+      "bytes": 5925,
+      "sha256": "35b1a80127a1401f4cd4e22a9963a85bbf523d0f9ecec687d8909dc8844f597f",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_cutoff_transfer.csv": {
+      "type": "file",
+      "bytes": 3846,
+      "sha256": "d963af7fa57b78efdaf5c717c7f8ea2f6b18558526298ef3d7cb50eedb2f0680",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_cutoff_transfer.json": {
+      "type": "file",
+      "bytes": 18589,
+      "sha256": "30ef76f566c1ff604c15aa38f963040d9f762c6414e9ded867e9d92024894540",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_first_pass_features.csv": {
+      "type": "file",
+      "bytes": 149755,
+      "sha256": "40b7df0c25d0275fb321ce01bf91e184adee006a3ea76f0db472284a5e0f1dca",
+      "allocated_bytes": 151552
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_guo_first_pass_summary.json": {
+      "type": "file",
+      "bytes": 2638,
+      "sha256": "f9950c9410fb09d20afe76291057c0ab83bbc1dbb430925d8346a56ad7a506b8",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/age6_manifest_summary.json": {
+      "type": "file",
+      "bytes": 1374,
+      "sha256": "7e3def274e77741d8f8686ff81217ad025009a063a73d69bae9bf9f92937fc11",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_coefficient_summary.csv": {
+      "type": "file",
+      "bytes": 15130,
+      "sha256": "f74634341482daf311d8dead89f709e93fc1c073959f082430ef5251f7261186",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_coefficients.csv": {
+      "type": "file",
+      "bytes": 561849,
+      "sha256": "1140d86f4c4e8fb54827feb96efce412bea28d361b27d6fc9fa6b2c224d0e45e",
+      "allocated_bytes": 565248
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_concordance.csv": {
+      "type": "file",
+      "bytes": 127789,
+      "sha256": "b1140c8e0230d2cfe1a257ea14124507297789e2c3903b94dcb2227e0e8a1d82",
+      "allocated_bytes": 135168
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_concordance_summary.csv": {
+      "type": "file",
+      "bytes": 4038,
+      "sha256": "3b919f00b0fcccd7e6f2e90f5ab41aa32929f30fe0ab17a180adc704dd1ad104",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_family_importance.csv": {
+      "type": "file",
+      "bytes": 464242,
+      "sha256": "49a68320ac4f10dc26a9d673f2728d9e176e36a18b372c01d4073d3cc4cf43a5",
+      "allocated_bytes": 466944
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_family_importance_summary.csv": {
+      "type": "file",
+      "bytes": 13789,
+      "sha256": "2ada52c791ca8c4f84ffdbad02ec3726feb7ccd4aa9b2bcf8438a3e16beb50dd",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_feature_importance.csv": {
+      "type": "file",
+      "bytes": 1341347,
+      "sha256": "0ccb75dd2f227ed44c7fe897fb4c244aa2b3de0f79019b7c4f6fb786cccb95e1",
+      "allocated_bytes": 1343488
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 178724,
+      "sha256": "f9a9bb67af25ed5a3ccaa47019a29e250485e08134ef2c3dc237b282a697164f",
+      "allocated_bytes": 180224
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_interpretation.md": {
+      "type": "file",
+      "bytes": 3041,
+      "sha256": "ebf62b3e7d429468d668d6f06fcc73163d4a4ecdd031ab28109262af566c3545",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_performance_summary.csv": {
+      "type": "file",
+      "bytes": 3450,
+      "sha256": "41690dcea8a6b5efc0783fd525f0cae527e298392fb6d36a9c98df15e40f2c2c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_summary.json": {
+      "type": "file",
+      "bytes": 3289,
+      "sha256": "401405addc5ecae704268c789b9af4c1629a46a49dfc796e5e4633b040df1244",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_classifier_mechanism_concordance_balanced_bundlelevel_top_feature_summary.csv": {
+      "type": "file",
+      "bytes": 25954,
+      "sha256": "f5ec9618348867b159075bb866e794c88e6b839a4050a51e0b1a160812cf128d",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 83535,
+      "sha256": "efb707e63ad1cd1f6182ee98a8ed5f4937175d8d9ce91b40a3855efcf22575fc",
+      "allocated_bytes": 86016
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_feature_stability.csv": {
+      "type": "file",
+      "bytes": 80899,
+      "sha256": "1e2e9edb9d57e25d18e91f911783680470f63acf3e7f82241238c15ff27e4c41",
+      "allocated_bytes": 81920
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 11047352,
+      "sha256": "59127795e95d79dc6e1ef3f43bc343694ba2c95567dd653a0460fce5f43dc085",
+      "allocated_bytes": 11051008
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_partial_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 11047352,
+      "sha256": "59127795e95d79dc6e1ef3f43bc343694ba2c95567dd653a0460fce5f43dc085",
+      "allocated_bytes": 11051008
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_partial_selected_features.csv": {
+      "type": "file",
+      "bytes": 2590346,
+      "sha256": "cc8c46833ef0b520e901d9beb41363dc58fabfe848e0a17db637b8009321c395",
+      "allocated_bytes": 2592768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_selected_features.csv": {
+      "type": "file",
+      "bytes": 2590346,
+      "sha256": "cc8c46833ef0b520e901d9beb41363dc58fabfe848e0a17db637b8009321c395",
+      "allocated_bytes": 2592768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 59810,
+      "sha256": "b40060959cecc6404c879a103bc6d3099feaa965c44b311f1f23b9dc26448df5",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 41302,
+      "sha256": "533c5045d5294701e87a75ecb56b6431c423ce8d37819e4ff2c1a5d3f956c76b",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_feature_stability.csv": {
+      "type": "file",
+      "bytes": 80899,
+      "sha256": "1e2e9edb9d57e25d18e91f911783680470f63acf3e7f82241238c15ff27e4c41",
+      "allocated_bytes": 81920
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 5495585,
+      "sha256": "e6b522d7285efac30672d54fb1d8e674090cc0b3bbde2ed7edbf91a69b79cb14",
+      "allocated_bytes": 5496832
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_partial_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 5495585,
+      "sha256": "e6b522d7285efac30672d54fb1d8e674090cc0b3bbde2ed7edbf91a69b79cb14",
+      "allocated_bytes": 5496832
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_partial_selected_features.csv": {
+      "type": "file",
+      "bytes": 2590346,
+      "sha256": "cc8c46833ef0b520e901d9beb41363dc58fabfe848e0a17db637b8009321c395",
+      "allocated_bytes": 2592768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_selected_features.csv": {
+      "type": "file",
+      "bytes": 2590346,
+      "sha256": "cc8c46833ef0b520e901d9beb41363dc58fabfe848e0a17db637b8009321c395",
+      "allocated_bytes": 2592768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 59610,
+      "sha256": "1376dd4a342b8fb07f2479d3620b358b99632bff95f8f910928ff02d61c5a0a6",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full.log": {
+      "type": "file",
+      "bytes": 70800,
+      "sha256": "c1a33afeeb64c400c63ea243ea4be24b5997957acf5e50ac81cadd890232c2e4",
+      "allocated_bytes": 73728
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_config_summary.csv": {
+      "type": "file",
+      "bytes": 83443,
+      "sha256": "e40d3d58c82cc933b0c279dceedfe6b9fc1c738104f7d239a526ded2bf9ea922",
+      "allocated_bytes": 86016
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_feature_stability.csv": {
+      "type": "file",
+      "bytes": 79951,
+      "sha256": "515b2e01601224844259bf26d07c47ebc1a9de22385bf9f62185f40ea1695a70",
+      "allocated_bytes": 81920
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 10957236,
+      "sha256": "04a915bb512f56c385f26c4d2912f57fb72ee674423ebdd457e11dc67c42232b",
+      "allocated_bytes": 10960896
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_partial_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 10957236,
+      "sha256": "04a915bb512f56c385f26c4d2912f57fb72ee674423ebdd457e11dc67c42232b",
+      "allocated_bytes": 10960896
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_partial_selected_features.csv": {
+      "type": "file",
+      "bytes": 2548674,
+      "sha256": "7b6b21f0531fee16b79af62e1539b3553bd4426c1eef9dc0e3e33215b84f93ec",
+      "allocated_bytes": 2551808
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_predictions.csv": {
+      "type": "file",
+      "bytes": 106918136,
+      "sha256": "4094381ddbdf4eca06648aded1d5f4b7f690e2d62bf85e7dbfbff5e0526b1df8",
+      "allocated_bytes": 106921984
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_selected_features.csv": {
+      "type": "file",
+      "bytes": 2548674,
+      "sha256": "7b6b21f0531fee16b79af62e1539b3553bd4426c1eef9dc0e3e33215b84f93ec",
+      "allocated_bytes": 2551808
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_summary.json": {
+      "type": "file",
+      "bytes": 59807,
+      "sha256": "be0f65efe121ee2c4652560d2774c0c4daa32fe7e5831600b435b9c6d95b3bbc",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_external_gillam_metrics.csv": {
+      "type": "file",
+      "bytes": 15139,
+      "sha256": "83ed61499945e901b73b263343a23523b91c0d1c4120ca97cc061be5a08b7d5e",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_external_gillam_predictions.csv": {
+      "type": "file",
+      "bytes": 986989,
+      "sha256": "743c99fa137fa91a501d2873986f5c685b1d891a3614bd3324dd50fd2bd438bf",
+      "allocated_bytes": 987136
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_oof_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 2918651,
+      "sha256": "b671ebb2d8a8cfccdbc29cd8ec3a4b82c788e2330bc4770dbcddd311d7c030a8",
+      "allocated_bytes": 2920448
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_oof_predictions.csv": {
+      "type": "file",
+      "bytes": 98687878,
+      "sha256": "d3aa1877f89c2cc78f7baf483eb7e934d0c0c0be68068b85b43a9aa596f88156",
+      "allocated_bytes": 98689024
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_oof_summary.csv": {
+      "type": "file",
+      "bytes": 4195,
+      "sha256": "f276295603f8601b9a855d725a163d040ec49c6d2dd555d09e0cb1d7d487b4a9",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 41137,
+      "sha256": "4b917f58e29d286f7c01f660752fe4dd4a6d6045a82ecfa14b6f0f7abf310222",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_sampling_manifest.csv": {
+      "type": "file",
+      "bytes": 21568453,
+      "sha256": "1a6b78386210112ecc55c6ecdbac251bc42ea8ebab7a79b2d3d7a4d177d578d5",
+      "allocated_bytes": 21569536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_external_gillam_synthetic_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 41137,
+      "sha256": "4b917f58e29d286f7c01f660752fe4dd4a6d6045a82ecfa14b6f0f7abf310222",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_all_shared_bootstrap_child_level.csv": {
+      "type": "file",
+      "bytes": 41093,
+      "sha256": "02938fe8b419be087f1bb2787282ceb36aa0fd12c888bcb951f1a0e182b0f6fa",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_all_shared_bootstrap_summary.json": {
+      "type": "file",
+      "bytes": 9222,
+      "sha256": "d9545d85dc6a832a53ed90140bd97525e8559b035ea69a473fdc1d3c04541679",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_all_shared_predictions.csv": {
+      "type": "file",
+      "bytes": 13493830,
+      "sha256": "11bc3dc4eb2e0dccd960d28075a2c60c631defd4afcc25daec82489a4ec1b2d9",
+      "allocated_bytes": 13496320
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_balanced_literature_bootstrap_child_level.csv": {
+      "type": "file",
+      "bytes": 40244,
+      "sha256": "07070e61629c055dc3a921d7ca5753dedc4ff3d11e77b4ee633c0353b8e7768d",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_balanced_literature_bootstrap_summary.json": {
+      "type": "file",
+      "bytes": 9191,
+      "sha256": "dc4ab5c20bec791e957cb59170d65c54b94f4206a1dbee56f3448754ff62ca9d",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_balanced_literature_predictions.csv": {
+      "type": "file",
+      "bytes": 8527663,
+      "sha256": "d30d83e4c72521191e0e486f20a31fd20f007601acdb28088dd272999943fc8d",
+      "allocated_bytes": 8527872
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_baseline_qccheck_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1273549,
+      "sha256": "c465515ea142297d3230a9aae70889dd426f06ff48d26b97fd4181a04e5793cc",
+      "allocated_bytes": 1273856
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_baseline_qccheck_predictions.csv": {
+      "type": "file",
+      "bytes": 47143529,
+      "sha256": "a4b924bb7f2ccb6248bce6a5c389e9eb0f9eeb4a266cb7d2ce9abc4f629f79a9",
+      "allocated_bytes": 47144960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_baseline_qccheck_summary.json": {
+      "type": "file",
+      "bytes": 39311,
+      "sha256": "cd1e17ca9cdeff6dbaf5f135dd7eb05446be6ab4407bccb9eea5469bd60d8d1e",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_cleaned_prune_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1273389,
+      "sha256": "2d722aca02adc08e78f951eb4b4aedd5b5ceb17cefc2f4807df354f6cab2e68c",
+      "allocated_bytes": 1273856
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_cleaned_prune_predictions.csv": {
+      "type": "file",
+      "bytes": 47144980,
+      "sha256": "e8c85218a4e953883610c8fc80b3ced5036e01867ad5a82a098becf3215d3a47",
+      "allocated_bytes": 47149056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_cleaned_prune_summary.json": {
+      "type": "file",
+      "bytes": 39374,
+      "sha256": "d1cc7751a202caba6337e86096be42e1cd31f71ad39a73ce4a2c6a9899d5a906",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_cleaned_qccheck_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1276404,
+      "sha256": "dbfc1fdb6b79db03f82687318fbb2d378d8d7a99fcc18e74ab0b088069d9cc4f",
+      "allocated_bytes": 1277952
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_cleaned_qccheck_predictions.csv": {
+      "type": "file",
+      "bytes": 47146503,
+      "sha256": "b7717d0aad17ad543e8176f498460d1c796905aa5791130e1f4ba3642a89295a",
+      "allocated_bytes": 47149056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_cleaned_qccheck_summary.json": {
+      "type": "file",
+      "bytes": 39501,
+      "sha256": "d25e0b6087c293f1b7253c4bfd6335bc0c5398e78bdd1118955f52bcf1baa8d4",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_currentdata_qcprune_rerun_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1707020,
+      "sha256": "87e999fb3b8dc8e2d95a2bb3d4e3123f5a302cf9b12bbb0da3073e710ebb701a",
+      "allocated_bytes": 1708032
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_currentdata_qcprune_rerun_predictions.csv": {
+      "type": "file",
+      "bytes": 98884168,
+      "sha256": "7be9f7002d7a1cc1a116bf1aa9418a5b0eb49957f506972c3cb863ec48db0681",
+      "allocated_bytes": 98885632
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_currentdata_qcprune_rerun_summary.json": {
+      "type": "file",
+      "bytes": 39810,
+      "sha256": "5e9d67eb6ed41cdff8c75bbcbd54cf91ca93995debdcd01f281fbe8abd97fbb7",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_external_gillam_metrics.csv": {
+      "type": "file",
+      "bytes": 6311,
+      "sha256": "d6732973be721255b8a0f0f47679b481c4d3fd9ebec292fd4e5e0101fe1f508e",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_external_gillam_predictions.csv": {
+      "type": "file",
+      "bytes": 457112,
+      "sha256": "3ff925739947deaeca2f2bfdb408571d0a0af658b6c2101a11e66475bbf8f84e",
+      "allocated_bytes": 458752
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_external_gillam_summary.json": {
+      "type": "file",
+      "bytes": 15208,
+      "sha256": "bf0ac4e257cac36960ce12ad259d7125031fe15f1adc143a55707889edfa5202",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1707225,
+      "sha256": "cd6b214bcd3dc6628d0c74b0e04cdbf1aee444bbf5457485e147969d63a285ec",
+      "allocated_bytes": 1708032
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_predictions.csv": {
+      "type": "file",
+      "bytes": 98882204,
+      "sha256": "8962712b79696188897f9ed487c01636aec2a048ba6ed11119c4809a83006c57",
+      "allocated_bytes": 98885632
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_gillam_summary.json": {
+      "type": "file",
+      "bytes": 55949,
+      "sha256": "1484a9d0c733a8e6be01ef30863884910af430f4ffe2a5fbdd3bc4a332b43306",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_smoke_external_gillam_metrics.csv": {
+      "type": "file",
+      "bytes": 6296,
+      "sha256": "e2f1de68d2a15171d604b91e13ac39b17b83509f568ff0611cea527192c9cc52",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_smoke_external_gillam_predictions.csv": {
+      "type": "file",
+      "bytes": 457576,
+      "sha256": "19a30676b8927dbfa02211dd0ad0ceea33d43384d4feac015288b88def4996d7",
+      "allocated_bytes": 458752
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_smoke_external_gillam_summary.json": {
+      "type": "file",
+      "bytes": 15219,
+      "sha256": "62d592ff7c22a4d2ed81ef161bbd6648e2fdb58b85c8caede34c7dd73e33f59f",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_smoke_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 40009,
+      "sha256": "5cf9ab4924517bc4fd28d6f566cbf544e93a7d040d5e19c9b1024f61654628bc",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_smoke_predictions.csv": {
+      "type": "file",
+      "bytes": 6249026,
+      "sha256": "5dcb807d2445e3b1d30b206a30c874583de741b6db8558e0f1e7fb90657b62e1",
+      "allocated_bytes": 6250496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_external_smoke_summary.json": {
+      "type": "file",
+      "bytes": 55333,
+      "sha256": "8613fae2054e51e7a9271a37833e421f400c69d59b3a63645ac562c734922e91",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1273549,
+      "sha256": "c465515ea142297d3230a9aae70889dd426f06ff48d26b97fd4181a04e5793cc",
+      "allocated_bytes": 1273856
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_gillam_invalid_vs_valid_comparison.csv": {
+      "type": "file",
+      "bytes": 4955,
+      "sha256": "ddfbe195d23ea4a7c58b92ff50f50bde77431cf7709b8c1f82dccaad22c46f74",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_gillam_invalid_vs_valid_comparison.json": {
+      "type": "file",
+      "bytes": 25048,
+      "sha256": "be4c668fcb0c35122b2ea0e24ea4bd0d9ffec772c159cf3a33beeee5746bd266",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_predictions.csv": {
+      "type": "file",
+      "bytes": 47143529,
+      "sha256": "a4b924bb7f2ccb6248bce6a5c389e9eb0f9eeb4a266cb7d2ce9abc4f629f79a9",
+      "allocated_bytes": 47144960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_summary.json": {
+      "type": "file",
+      "bytes": 39311,
+      "sha256": "cd1e17ca9cdeff6dbaf5f135dd7eb05446be6ab4407bccb9eea5469bd60d8d1e",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_valid_enni_train_external_gillam_external_gillam_metrics.csv": {
+      "type": "file",
+      "bytes": 6423,
+      "sha256": "4ccf760f991b194efd1ea18ac8d59c0a4396f43f824bdd6978e201904328ba18",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_valid_enni_train_external_gillam_external_gillam_predictions.csv": {
+      "type": "file",
+      "bytes": 473276,
+      "sha256": "98041b264ca5d581d9724d3489369ec43fea88e47a50ca4d9a475a4551a421de",
+      "allocated_bytes": 475136
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_valid_enni_train_external_gillam_external_gillam_summary.json": {
+      "type": "file",
+      "bytes": 15624,
+      "sha256": "50c3b4fff9ea34722f93727c67e95ef188c848d62a204b631f0756aeb4465a71",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_valid_enni_train_external_gillam_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1273558,
+      "sha256": "8e5278f4e6e14c6227903a47816246c6e90d3e1240b827e99d40af49094ed690",
+      "allocated_bytes": 1273856
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_valid_enni_train_external_gillam_predictions.csv": {
+      "type": "file",
+      "bytes": 47143982,
+      "sha256": "b871fd2fbb3a088a16d297c7fb144745296f6d4d45419ed535dd7ba747517421",
+      "allocated_bytes": 47144960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_overlap_utility_panels_valid_enni_train_external_gillam_summary.json": {
+      "type": "file",
+      "bytes": 56369,
+      "sha256": "c070e722d30d48e04d532fab8505b32f1bbd28bc7e000183a046df0f52266947",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 9048,
+      "sha256": "8083e050ad02f9f21dfd98dee48546e35678a1cdc01a2130d037b2b16e2c7b31",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 952712,
+      "sha256": "f31a8a1e10a073d9d932ce883ccffe48c5489a8b4d0904daf88679a6db21d107",
+      "allocated_bytes": 954368
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 10364903,
+      "sha256": "536f581787be71243d90e3fcc1efa5ab2b1dff2b7f22e6c29cc510a4bd39b791",
+      "allocated_bytes": 10366976
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 57351,
+      "sha256": "65e265a3556e146b858707e6a4127c5e1109c4d58158daff56dd42819e2d1d6d",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 3962,
+      "sha256": "ffc8f01b944596df06be3a5a4c1f55e56cbdc9429ef10fa564c80b6155536d1f",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 409103,
+      "sha256": "364541702300bffbc528b5ed2eb85b12028d03f50e9d61badd8642e53a920763",
+      "allocated_bytes": 409600
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 4602531,
+      "sha256": "64e6b59ac46458ff9fe28a857e321ba2ccde73543e6732cebae5d0877f788e3c",
+      "allocated_bytes": 4603904
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_summary.json": {
+      "type": "file",
+      "bytes": 27853,
+      "sha256": "5095f2c8c697b16d8e4a3ad6a8f627f79aba8919d2d83ec9cf89bf0e9d0e2c22",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8854,
+      "sha256": "fadd1b2e70cbaab91b62a2e7b93daeb90ea02b6ebe4984213f873ae9b3d6c460",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 943514,
+      "sha256": "11257d9d7840c3cfca9f1667c0c1b9089c45a35e6e2a7d345b2721868b0ac153",
+      "allocated_bytes": 946176
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 9706707,
+      "sha256": "65fcd4db3f28ab5b219c43e34b49bc9846d803fc3e8c3b00b282060863ee8988",
+      "allocated_bytes": 9707520
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 56860,
+      "sha256": "5802a60c84265636a8ad45ede1aace0512e8ee5cdeaa9096a25a716952485c2a",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_neural_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 4506,
+      "sha256": "24134f1f88f2365906c50b2bd18fcb7a242f1632a51f328f241389b51e4599b3",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_neural_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 468413,
+      "sha256": "e22579434471cad6f77029ff7c2fba1c05cad1e80fc9bae7ee7d549f539e241b",
+      "allocated_bytes": 471040
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_neural_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 36452,
+      "sha256": "176ad1e91872f4753233c2d17b19a0771afa6836f91811949dd0b9dba0a43dce",
+      "allocated_bytes": 36864
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8883,
+      "sha256": "c39b92a0b1f1d09930c749a155f2aff4a2861241fb857a24ed7809913c8d0139",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 939673,
+      "sha256": "e52ab4783be1f86a4490f363048a0a032d7735eafc74959a68fdc6cf747e94f9",
+      "allocated_bytes": 942080
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 10262608,
+      "sha256": "54b73540f48ab653a132da22a6a40ca0940a31667a28694f4008412c1b7d01df",
+      "allocated_bytes": 10264576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 57256,
+      "sha256": "2698651b151e15c4932c0ae7a728b0f7ee17423abb24380d0eaae4c320ec00b8",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_selectedonce_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 3828,
+      "sha256": "1aaf44eee8e3a186b9e2b96f75b1d640b75eb667ae05e5a3a31dc5eeee8826e6",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_selectedonce_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 398880,
+      "sha256": "965c44ddce86a0163a2a6917e7391abcf49095c7c3da6d4b5bfd61fa71311693",
+      "allocated_bytes": 401408
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_selectedonce_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 4504013,
+      "sha256": "cf964367185dc7bde9d5195138d37f463ba136d2bc29e75beb9db27dd0513d1c",
+      "allocated_bytes": 4505600
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_balanced_pcaoverlap_selectedonce_sweep_summary.json": {
+      "type": "file",
+      "bytes": 27457,
+      "sha256": "4c6b94c07f8b534c8a684daf8aaffccd2425513d27d485b842b4d9679f30e991",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_clinical_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8769,
+      "sha256": "bd369cc7dfa2f5ef59e79e29e3c7599f494b115fea769f2f499910e1345e4f8d",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_clinical_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 936874,
+      "sha256": "0788a79cdfd2659084f2dbe64451769d046d9eca339767a1e4fc423c36b4cea2",
+      "allocated_bytes": 937984
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_clinical_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 9708805,
+      "sha256": "d049ec12be40844917ed8c2cc912ae13d9539b0a2f5dd9effaab4514f197e7e0",
+      "allocated_bytes": 9711616
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_primary_clinical_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 56670,
+      "sha256": "016a7cbf22e39fd8cd9332ffbb5ace0a7fb3b4cf67fbff7dd043a9e05631d0ec",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 65102,
+      "sha256": "3d2f597a2b251a3d8ddf8aef6683e85d4d4fe1fba2164501ca5cb73ffcdc6b42",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 7518160,
+      "sha256": "7c31c12884cacd1d2a6d2106ab536ff925c86b893f4286720885ac7146b9e40d",
+      "allocated_bytes": 7520256
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 63811,
+      "sha256": "4d17a85dc68c965be7fa212bd6e9764285b1e3d06c5fcf4a29631731104b6c3d",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 27802,
+      "sha256": "ee32d1b1b138dca47b980426370e6e57ed9fa4b55e694c07bf4b4da105b5d338",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 3262855,
+      "sha256": "a57cfcb9fd4f714b8eebf7ced4f729b81bb3502638850cdc49c01f354ec8c29b",
+      "allocated_bytes": 3264512
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_summary.json": {
+      "type": "file",
+      "bytes": 63666,
+      "sha256": "2638a1bfde98436131f01a54cb2d85bb44dca5b3f6bbdd6b59e88c559ae5bced",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_config_summary.csv": {
+      "type": "file",
+      "bytes": 58207,
+      "sha256": "689cac476ce326c667ff814ee30713f2cc2cdf8afa4b7ad799e77fb275d6c805",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 6736302,
+      "sha256": "38626098c60014cbad3531b9092f211818ceb4b8095a8f67e2cc01862b46e827",
+      "allocated_bytes": 6737920
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_fold_metrics_checkpoint.csv": {
+      "type": "file",
+      "bytes": 6736302,
+      "sha256": "38626098c60014cbad3531b9092f211818ceb4b8095a8f67e2cc01862b46e827",
+      "allocated_bytes": 6737920
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_summary.json": {
+      "type": "file",
+      "bytes": 101685,
+      "sha256": "458e7ecb5b6bb1d8c1b346dbfe69b509e891af8aec4af65b4772e359b4cb78fc",
+      "allocated_bytes": 102400
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_synthetic_ratio_sweep_pilot_config_summary.csv": {
+      "type": "file",
+      "bytes": 30355,
+      "sha256": "8ab3afa04b339c28e868e34b322c6b0ba577bf4828600586fa233c1df4cf4169",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_synthetic_ratio_sweep_pilot_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 648106,
+      "sha256": "d5be49a252560314deb10b5c49f76ea3a240971fa54a8c4f274894b3fccc37c0",
+      "allocated_bytes": 651264
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_synthetic_ratio_sweep_pilot_summary.json": {
+      "type": "file",
+      "bytes": 58623,
+      "sha256": "ac24b90e60522273250fce86383458ad1bed1cfefa85acaf2bfba0df09d5d507",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_synthetic_ratio_sweep_smoke_config_summary.csv": {
+      "type": "file",
+      "bytes": 1840,
+      "sha256": "900acd07219d48db41e41f266e3601e9811be5af10057ea02a18e96ca1efd7c5",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_synthetic_ratio_sweep_smoke_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 12859,
+      "sha256": "cf7ee346575f1a6e7924f049222ae4faee6ec156011c48b3e4bb19fc197c1c2c",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/allages_synthetic_ratio_sweep_smoke_summary.json": {
+      "type": "file",
+      "bytes": 13690,
+      "sha256": "894969d18745433142d07251f10898747e959ad05abf348a8a65065cec3b356e",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_age_group_balance.csv": {
+      "type": "file",
+      "bytes": 699,
+      "sha256": "f248d69906678e8b28142d48d62a07e108638ac642740d172c8ccf99618724fa",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_correlation_fidelity.csv": {
+      "type": "file",
+      "bytes": 310,
+      "sha256": "b4b2da2f055c32fb72911954434c49b880afc9037a306beacbb7b024725f1781",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_feature_distribution_gaps.csv": {
+      "type": "file",
+      "bytes": 20303,
+      "sha256": "c91f5362b9b9969279b01c4c272a39d6234027f22a269bcc7fe6d0a0d6126f03",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_local_precision.csv": {
+      "type": "file",
+      "bytes": 321,
+      "sha256": "a9216c047ba9ab8c24c58b426949b42ddc9b3e0034ca72942603f7126e750cb8",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_pc_loadings.csv": {
+      "type": "file",
+      "bytes": 7705,
+      "sha256": "c1d94c024942be6ec62ad42c178930f6d2863620b3f097c29615baef0ddf2423",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_pc_variance.csv": {
+      "type": "file",
+      "bytes": 299,
+      "sha256": "05ac77971387e03e6f74115b3d673b676b8c37e2c7f50187906d4fd90946029d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_phenotype_region_profiles.csv": {
+      "type": "file",
+      "bytes": 1596,
+      "sha256": "e5574b6178660fd09ae56d22a9accfe7119d1b0bd7dceef3e96246946ea889bc",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_phenotype_regions.csv": {
+      "type": "file",
+      "bytes": 1041,
+      "sha256": "556232feeaff2a24496504dfdce94af1a68a5db60f14ed1a99c9d5124c196d03",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_real_coverage.csv": {
+      "type": "file",
+      "bytes": 247,
+      "sha256": "3c86176f7729933b02799a57981dae9e5bb9ec423ecbf183f606c6eb9a0f9b22",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 816072,
+      "sha256": "12eb3e5539c81f04d2adf0cb8351c7efb2addc1b47214a2b383f411003329d52",
+      "allocated_bytes": 819200
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_all_shared_summary.json": {
+      "type": "file",
+      "bytes": 17540,
+      "sha256": "9386bf042b6c53b49736bca72431a76aa11f122d989152c604533ccae5b365b5",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_age_group_balance.csv": {
+      "type": "file",
+      "bytes": 699,
+      "sha256": "f248d69906678e8b28142d48d62a07e108638ac642740d172c8ccf99618724fa",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_correlation_fidelity.csv": {
+      "type": "file",
+      "bytes": 310,
+      "sha256": "51d63ef8a0e677c5e4463eb5d20411b77cff58ca46518441bb5d06e705cb05cb",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_feature_distribution_gaps.csv": {
+      "type": "file",
+      "bytes": 6270,
+      "sha256": "879dc03ec647d872a3623ff44277f2e2cdc6ffb32136ef2b6e11d207689a7fda",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_local_precision.csv": {
+      "type": "file",
+      "bytes": 324,
+      "sha256": "2c35f19c52794fc307aa277a3ed05dd374d25822a8b7c8805ad1fa4402f90d79",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_pc_loadings.csv": {
+      "type": "file",
+      "bytes": 2496,
+      "sha256": "175b0d955aeb788ac0c64ee38d70568a0b46b20e414ec55c2cb1ea5462280115",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_pc_variance.csv": {
+      "type": "file",
+      "bytes": 295,
+      "sha256": "7a1529413a6d4d26b80ff4a556a3ca3f791dcba63adbf822a2b5e550b158cfc1",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_phenotype_region_profiles.csv": {
+      "type": "file",
+      "bytes": 1661,
+      "sha256": "761f99746c86ca5343bae440695fa7048d3e4211c6240bfa87c36b0158d3bd72",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_phenotype_regions.csv": {
+      "type": "file",
+      "bytes": 991,
+      "sha256": "c55df5cc221fa074d7608133cb2a45cd4c6415bb334906fb8f898da12bcc2650",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_real_coverage.csv": {
+      "type": "file",
+      "bytes": 248,
+      "sha256": "6ca240672b750e77164134c6a61f318c4fd108598572579eacdef344568593cd",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 817853,
+      "sha256": "bf4d4b2c61e87bc44fa29f91d9eaf0248232412f79fbd3b54503ee14184296a8",
+      "allocated_bytes": 819200
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/clinical_coverage_fidelity_balanced_literature_summary.json": {
+      "type": "file",
+      "bytes": 16776,
+      "sha256": "197ea6c8b331b2d1d448a0f2451163cb27f612b3e138d280416b367ff7c13714",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_bert_text_classification_bundlelevel_zipreal_config_summary.csv": {
+      "type": "file",
+      "bytes": 4126,
+      "sha256": "cb9cbf3ccba27c59a5b425d7721a64479569f31eef807fd5fe7133c44dd9ce41",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_bert_text_classification_bundlelevel_zipreal_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 141318,
+      "sha256": "90c6232e372f6f2e433c1d48e87e5295d78b1f842e373ab5b75bb8168f3270ce",
+      "allocated_bytes": 143360
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_bert_text_classification_bundlelevel_zipreal_summary.json": {
+      "type": "file",
+      "bytes": 2295,
+      "sha256": "bda1a90a3012ec1c1dc1b46dd58d37e0b872340c5d2bc331de20d8c0e08a4b9c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_config_summary.csv": {
+      "type": "file",
+      "bytes": 2942,
+      "sha256": "73d600f6e1395be32a9929b5a656617e2f162ac87f8d763b26ddbf3d924054f2",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 100399,
+      "sha256": "7ccd0ff80afc9b38c96d2a910b838898945ce262181dcea2ad79c88feb996546",
+      "allocated_bytes": 102400
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_summary.json": {
+      "type": "file",
+      "bytes": 2452,
+      "sha256": "a43f07df6744406833222163fbb1e89eb95ca308f2a2abe390736580e9088ab5",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_feature_selection_auc_fixed_effects.csv": {
+      "type": "file",
+      "bytes": 4651,
+      "sha256": "e03349f90e21593d92e5a4a2a2a9b01ec7803672c280410bdeab0a956f0cfca1",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_feature_selection_balanced_accuracy_fixed_effects.csv": {
+      "type": "file",
+      "bytes": 4655,
+      "sha256": "77abf8109edec41f5a87393f482a97d1de55a2476dbf29087298cc987fc96613",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_feature_selection_paired_ratio_contrasts.csv": {
+      "type": "file",
+      "bytes": 183504,
+      "sha256": "5c9ddbed08d60ee92b615bc2d01a3a0f45fef269cc78644eae694f7ee1529485",
+      "allocated_bytes": 184320
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_feature_selection_vs_balanced_realonly_contrasts.csv": {
+      "type": "file",
+      "bytes": 29538,
+      "sha256": "729a29060d28c3bcbf92b01d18f562828ea19aa00ac4e89d1aee79a99d8e0d0f",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_primary_auc_fixed_effects.csv": {
+      "type": "file",
+      "bytes": 3601,
+      "sha256": "cdad0bd3247fc251e3a6c175be7e8c2d09e7dfbd11c4f0c5e5163c111c2592ab",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_primary_balanced_accuracy_fixed_effects.csv": {
+      "type": "file",
+      "bytes": 3581,
+      "sha256": "4a5e2202f5ffab862d39d3c7c66dbb44d4497543cf5fa2fffeee093158aea5a3",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_primary_paired_ratio_contrasts.csv": {
+      "type": "file",
+      "bytes": 20693,
+      "sha256": "2c009760a53c311a16bdf67bc08d1ab1e1745d24d088dffd760a043a4f03752e",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/mixed_model_ratio_analysis_summary.md": {
+      "type": "file",
+      "bytes": 4356,
+      "sha256": "4417fe1a70f6e7bef017fcc8bebef508cd4f36e0f5520898da66ed52e18dd064",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_pair_summary.csv": {
+      "type": "file",
+      "bytes": 6404,
+      "sha256": "1b1faa2cbf8da1c27c7b4961b702cefa56075b8e7b2c30be0c3ce9a04c356d19",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_real_scores.csv": {
+      "type": "file",
+      "bytes": 137366,
+      "sha256": "2f20d51fa4cb508842ac493c274ff229057b08896063dac5b003acd396402ada",
+      "allocated_bytes": 139264
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_smoke_pair_summary.csv": {
+      "type": "file",
+      "bytes": 6404,
+      "sha256": "1b1faa2cbf8da1c27c7b4961b702cefa56075b8e7b2c30be0c3ce9a04c356d19",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_smoke_real_scores.csv": {
+      "type": "file",
+      "bytes": 137366,
+      "sha256": "2f20d51fa4cb508842ac493c274ff229057b08896063dac5b003acd396402ada",
+      "allocated_bytes": 139264
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_smoke_source_child_summary.csv": {
+      "type": "file",
+      "bytes": 5096,
+      "sha256": "e46cf5ac3a96cb5f5c1f66b32a306f2efa931f7605f0b81ced0d258884eea539",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_smoke_summary.json": {
+      "type": "file",
+      "bytes": 2981,
+      "sha256": "e0a9724cf0389d6c4b3fdcfe394af9e37dac7c48ebc4dd6b935518e43d42af95",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_smoke_synthetic_scores.csv": {
+      "type": "file",
+      "bytes": 407742,
+      "sha256": "b2a56cd710813a2bbe48ce8bfd40e5a5c894c61da78fb45377dbbd3a20522fe3",
+      "allocated_bytes": 409600
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_source_child_summary.csv": {
+      "type": "file",
+      "bytes": 5096,
+      "sha256": "e46cf5ac3a96cb5f5c1f66b32a306f2efa931f7605f0b81ced0d258884eea539",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_summary.json": {
+      "type": "file",
+      "bytes": 2951,
+      "sha256": "a10642fc1ffa3ac87b72620d3ed0a7381a4c362409cabb2a5891a306aeef532a",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/pca_overlap_audit_synthetic_scores.csv": {
+      "type": "file",
+      "bytes": 407742,
+      "sha256": "b2a56cd710813a2bbe48ce8bfd40e5a5c894c61da78fb45377dbbd3a20522fe3",
+      "allocated_bytes": 409600
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_age6_guo_benchmark_metrics.csv": {
+      "type": "file",
+      "bytes": 1136,
+      "sha256": "6f2d194bf87d06c8a1bd6dd953b4425c8dfababff5c094d99a543fc6286f7d4e",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_age6_guo_benchmark_roc.png": {
+      "type": "file",
+      "bytes": 98154,
+      "sha256": "69990702cad9b76a0af7949bbba4e88ef7307262189404ded89e808ff4e91954",
+      "allocated_bytes": 98304
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_age6_guo_benchmark_roc_points.csv": {
+      "type": "file",
+      "bytes": 2460,
+      "sha256": "9dc44d02313a19e40d8c8a874868a3c46131601dbe4d616501420e737a4cd636",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_age6_guo_benchmark_summary.json": {
+      "type": "file",
+      "bytes": 3528,
+      "sha256": "9e094ac7b8a9ac8db1487226f9e80accf67b9ba2d8040be0724e1546e5e9075d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_age_residualizers.csv": {
+      "type": "file",
+      "bytes": 2751,
+      "sha256": "f64368d1e9ab7f6ccf25d3edbe3c3d4b779bf75cc11a431b79892a47f3d67a74",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_classification_config_summary.csv": {
+      "type": "file",
+      "bytes": 3503,
+      "sha256": "cad5f18534bfe7834895997ce6d1d70354ba4bd2e6085e3dccd2be5410b12b51",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_classification_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 131677,
+      "sha256": "e7b85590985eac188c8fad7bad479c19a171caaf01c1d421ca9896647d26f9be",
+      "allocated_bytes": 135168
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_correlation_pairs.csv": {
+      "type": "file",
+      "bytes": 2198,
+      "sha256": "d8606fc43929b3fdb46d692a33cb87da1d6a94e3c0182904a2acb4cd5be438e2",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_correlation_summary.csv": {
+      "type": "file",
+      "bytes": 215,
+      "sha256": "9fb9f4774b377dd9d76c040ac6fd131704d68ba705e67ccea9d4ade83a0646ef",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_coverage_summary.csv": {
+      "type": "file",
+      "bytes": 417,
+      "sha256": "1123e961e53252bb190ac2adb12bd43f7cd5fb32540bf9a2f5af2227d9264ca8",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_domain_loadings.csv": {
+      "type": "file",
+      "bytes": 1970,
+      "sha256": "a5fae196aebacd9de56ad584fd7ee5a7da6f24cd67ac869439d908379b02157c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_global_pca_loadings.csv": {
+      "type": "file",
+      "bytes": 6247,
+      "sha256": "7bd04cbc0288dbdf6a40e97dede9e7d9757384568e7986c01e59e9c42bc8fb19",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_global_pca_variance.csv": {
+      "type": "file",
+      "bytes": 321,
+      "sha256": "9b7db7f548ce01fc5f995f2382cbea725bdf893b603063f53fde7bbd6b520fbb",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_latent_scores.csv": {
+      "type": "file",
+      "bytes": 358021,
+      "sha256": "4466e4f3f13252801850ad7b180c6b022a31f869d4ae1eece070dfcdef941e5d",
+      "allocated_bytes": 360448
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_latent_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 400278,
+      "sha256": "1d2eadcf2675c47c69879eb91cb9a9933512df1e5bbc02487eaefede50d67631",
+      "allocated_bytes": 401408
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_latent_shift_summary.csv": {
+      "type": "file",
+      "bytes": 2579,
+      "sha256": "39cdf937c894dbb13471061269b8ada74f06ba936c4357826c1477ddfd9eac88",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_age_residualizers.csv": {
+      "type": "file",
+      "bytes": 2751,
+      "sha256": "a39002e9e8eebc5ec076dbdb87261ce4da2aea6ec7a7b6d8ce799187a24ce2de",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_classification_config_summary.csv": {
+      "type": "file",
+      "bytes": 3500,
+      "sha256": "d9b89fa7eb434e751a75b9dbb9ee69507ced43e5e34504c20473e9e37c255926",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_classification_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 131789,
+      "sha256": "a0d71a1ada6a9b49ebd806cc960fe3e19eb4f421a9b3fdf0c8421f9d8de38f4a",
+      "allocated_bytes": 135168
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_correlation_pairs.csv": {
+      "type": "file",
+      "bytes": 2203,
+      "sha256": "a3b86e1881d677f8b6f76ee9881df19bc2e3725557e2b7815c1d96c4da416ac9",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_correlation_summary.csv": {
+      "type": "file",
+      "bytes": 219,
+      "sha256": "c857c8db7f39319f8a9b9d7c4f3b6d662e4cdec7015b62259ad737e5ca2e6d66",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_coverage_summary.csv": {
+      "type": "file",
+      "bytes": 416,
+      "sha256": "e82f90a796405c77ea9339de3660e4966bb7d53c052e2d64ccd472423e546043",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_domain_loadings.csv": {
+      "type": "file",
+      "bytes": 1970,
+      "sha256": "a5fae196aebacd9de56ad584fd7ee5a7da6f24cd67ac869439d908379b02157c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_global_pca_loadings.csv": {
+      "type": "file",
+      "bytes": 6247,
+      "sha256": "7bd04cbc0288dbdf6a40e97dede9e7d9757384568e7986c01e59e9c42bc8fb19",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_global_pca_variance.csv": {
+      "type": "file",
+      "bytes": 321,
+      "sha256": "9b7db7f548ce01fc5f995f2382cbea725bdf893b603063f53fde7bbd6b520fbb",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_latent_scores.csv": {
+      "type": "file",
+      "bytes": 360990,
+      "sha256": "b284fed0ff992cda3c2d2f683f07bbc4aa803795a2722ee03610d4d3098ad008",
+      "allocated_bytes": 364544
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_latent_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 403672,
+      "sha256": "cdb2955d413530f099aec16bc50f206f36b01b20777418b20b6b0efdbd19a59f",
+      "allocated_bytes": 405504
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_latent_shift_summary.csv": {
+      "type": "file",
+      "bytes": 2584,
+      "sha256": "a4e281eedd27fc2f6b24d604a4603980f916c116f6f43085edbdf6b6f165d7d5",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_rawsynthetic_summary.json": {
+      "type": "file",
+      "bytes": 16365,
+      "sha256": "b3021e4363a4ecac70e73e93ce2c25c86cd14c0cdf9c358f4f450360baefa6e0",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/real_fitted_latent_clinical_audit_summary.json": {
+      "type": "file",
+      "bytes": 16205,
+      "sha256": "50dc0137e7f1e3b7f09f7730937d903984e1920f97c654cd63ef0c009dcd23f5",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/synthetic_age6_guo_benchmark_metrics.csv": {
+      "type": "file",
+      "bytes": 1144,
+      "sha256": "189ea5d379479584979134e7035b00a255bb545e02d08bf7a42bbfc7d9e41dda",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/synthetic_age6_guo_benchmark_roc.png": {
+      "type": "file",
+      "bytes": 110767,
+      "sha256": "3e63e4bbd8775f6c847b64c7ce2442b4cf95839237cc8b2ef5a3a95392ac932c",
+      "allocated_bytes": 114688
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/synthetic_age6_guo_benchmark_roc_points.csv": {
+      "type": "file",
+      "bytes": 12366,
+      "sha256": "914b86112f48ca37e8d36d1fcd9e6fb338b2824b97160399c4d3832e191f3ac2",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/synthetic_age6_guo_benchmark_summary.json": {
+      "type": "file",
+      "bytes": 3569,
+      "sha256": "80aaf7829c42ee5acae427f52b7daf78791711823b8ed623953d85c32e763feb",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/README.md": {
+      "type": "file",
+      "bytes": 11959,
+      "sha256": "5de5f05d27260c32cb05b8f4ef45eaf2f1746ab447bb8233a6ad4bd5aebd86fd",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_aborted_duplicate_selectedall_sweep_run.log": {
+      "type": "file",
+      "bytes": 548,
+      "sha256": "da9fa481892291561c3aa7913b393c7efab120307814f4184243465d5fd810d3",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_aborted_serial_quantity_surface_fold_metrics_checkpoint.csv": {
+      "type": "file",
+      "bytes": 685511,
+      "sha256": "6c0a4e0f7a9292c1f46d225975da2367dc1f4c742914eba6f8423c08310217fc",
+      "allocated_bytes": 688128
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_aborted_serial_quantity_surface_run.log": {
+      "type": "file",
+      "bytes": 2806,
+      "sha256": "867435ce9b301e37df96e2f9ab09107c71c2a1f2942b0ff50f27d5104a892bf0",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_01_13_config_summary.csv": {
+      "type": "file",
+      "bytes": 59790,
+      "sha256": "abf8ee5bb4267120b525ce2ebfe726181591d53a789e5b48b21c55d84750c138",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_01_13_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1276013,
+      "sha256": "19b072131ed6e8655a3afbf22655ae6d4d7153dc1d1d585ccb279e7454c3be1a",
+      "allocated_bytes": 1277952
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_01_13_fold_metrics_checkpoint.csv": {
+      "type": "file",
+      "bytes": 1276013,
+      "sha256": "19b072131ed6e8655a3afbf22655ae6d4d7153dc1d1d585ccb279e7454c3be1a",
+      "allocated_bytes": 1277952
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_01_13_predictions.csv": {
+      "type": "file",
+      "bytes": 10790806,
+      "sha256": "303be862c131a2a069393944a65303a5026787f40fa88bbd9b2ddcc5a0c6478b",
+      "allocated_bytes": 10792960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_01_13_summary.json": {
+      "type": "file",
+      "bytes": 103502,
+      "sha256": "83b665db35f1379fc4603569d7a3e0756569a5a5f6d43bcc5cf24cffb611cc9a",
+      "allocated_bytes": 106496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_14_25_config_summary.csv": {
+      "type": "file",
+      "bytes": 59481,
+      "sha256": "10f9b5041d0823bdcc9f35a13144bc63802d0f86d6cb6eafe4dc8baea606bedf",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_14_25_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1182087,
+      "sha256": "f4dfb7d3d739a12289e1b51dfe16b37476e52820693fa626dea9ba6ba3965b4a",
+      "allocated_bytes": 1183744
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_14_25_fold_metrics_checkpoint.csv": {
+      "type": "file",
+      "bytes": 1182087,
+      "sha256": "f4dfb7d3d739a12289e1b51dfe16b37476e52820693fa626dea9ba6ba3965b4a",
+      "allocated_bytes": 1183744
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_14_25_predictions.csv": {
+      "type": "file",
+      "bytes": 10040568,
+      "sha256": "63ffccd1fbabf59401ef6892516ef73d3470b0fdb230f7ddbbf44b1d85680e25",
+      "allocated_bytes": 10043392
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_14_25_summary.json": {
+      "type": "file",
+      "bytes": 103978,
+      "sha256": "c35eac7caa916f60e678fb6bb7494e63c4edff4818005208523804ea0643a23d",
+      "allocated_bytes": 106496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_26_38_config_summary.csv": {
+      "type": "file",
+      "bytes": 59771,
+      "sha256": "c5432c0629a683dfe3badb803dc42d660d60589023d5458f3705a232ab7167b3",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_26_38_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1276451,
+      "sha256": "8cf23ceec97c6702e8edc5df0f87b05b4c7944e606510048ea854d40f58a7743",
+      "allocated_bytes": 1277952
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_26_38_fold_metrics_checkpoint.csv": {
+      "type": "file",
+      "bytes": 1276451,
+      "sha256": "8cf23ceec97c6702e8edc5df0f87b05b4c7944e606510048ea854d40f58a7743",
+      "allocated_bytes": 1277952
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_26_38_predictions.csv": {
+      "type": "file",
+      "bytes": 10874449,
+      "sha256": "089e0c791ab0c86ad6c7d9b4ec0f04ed53b83e26091f68fad34df035f706291b",
+      "allocated_bytes": 10874880
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_26_38_summary.json": {
+      "type": "file",
+      "bytes": 103364,
+      "sha256": "e37077a6eb75adf83c649d80a3c6219ea452a7cf0d3b2dbf3ad93c3d89e885f2",
+      "allocated_bytes": 106496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_39_50_config_summary.csv": {
+      "type": "file",
+      "bytes": 59675,
+      "sha256": "17c57201c4c953869755e9a1b9e384274e2f71616e11e7b1387bad22185767f3",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_39_50_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1183280,
+      "sha256": "8a26b100e17ac993b8a7da44f29ecf665690e143c8b8329a908d72b42c2540f5",
+      "allocated_bytes": 1183744
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_39_50_fold_metrics_checkpoint.csv": {
+      "type": "file",
+      "bytes": 1183280,
+      "sha256": "8a26b100e17ac993b8a7da44f29ecf665690e143c8b8329a908d72b42c2540f5",
+      "allocated_bytes": 1183744
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_39_50_predictions.csv": {
+      "type": "file",
+      "bytes": 10039799,
+      "sha256": "f45d42dd0178146bb7b6db70e49fbddb6a24790de5110e515c8ab25c281e1b47",
+      "allocated_bytes": 10043392
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/_quantity_part_39_50_summary.json": {
+      "type": "file",
+      "bytes": 103450,
+      "sha256": "9ca0f3b3909c674372f070f3cfb2305bb594bac36178acaea63a34ab07543199",
+      "allocated_bytes": 106496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_coefficient_summary.csv": {
+      "type": "file",
+      "bytes": 15235,
+      "sha256": "bf7b93531eb27aae45363f263fc7495f929b60a6d14018a435dbe4b60cd51025",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_coefficients.csv": {
+      "type": "file",
+      "bytes": 562431,
+      "sha256": "ad28fd40bbd3ccfb3291f90a21524c46f8c831a3218f7f041f6e2062ecb7ed4b",
+      "allocated_bytes": 565248
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_concordance.csv": {
+      "type": "file",
+      "bytes": 131329,
+      "sha256": "7e87eebd6da19f3bc4fdbe1e9bccbf3a0dd65889db0ab78806ec5e45bb7c9eae",
+      "allocated_bytes": 135168
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_concordance_summary.csv": {
+      "type": "file",
+      "bytes": 4107,
+      "sha256": "11cabc58ce3928fe6ac09a679779ca6e0c7ac1d0b6100cded8a84e7ae40a07ab",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_family_importance.csv": {
+      "type": "file",
+      "bytes": 462142,
+      "sha256": "1606348046297df391751db9b9f220a876974a034d9966f99c7b0988a930d92d",
+      "allocated_bytes": 462848
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_family_importance_summary.csv": {
+      "type": "file",
+      "bytes": 13750,
+      "sha256": "440332c9c7444d077794ed498aa20e35f2b15aecf3f9b854627d303635689c01",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_feature_importance.csv": {
+      "type": "file",
+      "bytes": 1336955,
+      "sha256": "245636e82dcd569cc272a75d9fe391f39340309328b659711d7efda4139ebd46",
+      "allocated_bytes": 1339392
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 170561,
+      "sha256": "5de7f10035b1cfaf57dee165b5715b99acc1e6341139b1081861b6749b977a9e",
+      "allocated_bytes": 172032
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_performance_summary.csv": {
+      "type": "file",
+      "bytes": 3419,
+      "sha256": "d73a90397b6563706e2474fc3b33980ce0531f4f8b9ab6f1d706f59c41719eda",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_run.log": {
+      "type": "file",
+      "bytes": 5920,
+      "sha256": "48345fa29cb8e983acc2770937d93a7f4bc306b2143d12f3f85a253fcdcc6fe6",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_summary.json": {
+      "type": "file",
+      "bytes": 3385,
+      "sha256": "7e71382d74e505170f6a1621a62adec74ecfd559c913fd4b7f68917626f398ec",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_classifier_mechanism_concordance_balanced_bundlelevel_top_feature_summary.csv": {
+      "type": "file",
+      "bytes": 26056,
+      "sha256": "379364c19ddc43dc822ed11d5f3fcbfb8989966b8909cf244f26e3ca1b45637c",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 82885,
+      "sha256": "104df109b6f2765593292eefde571eeec69844adf2ceb276bbdf69a5c988a5bd",
+      "allocated_bytes": 86016
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_feature_stability.csv": {
+      "type": "file",
+      "bytes": 89190,
+      "sha256": "0bfbc811577a0aaff61338d5c2401932d0ec5383762eed581daaa677fe020297",
+      "allocated_bytes": 90112
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 8808474,
+      "sha256": "7ef9a32fe0d0371ae51ff726e9e113b0bacedabeabcdedc647dcf241d7275f45",
+      "allocated_bytes": 8810496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_partial_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 8808474,
+      "sha256": "7ef9a32fe0d0371ae51ff726e9e113b0bacedabeabcdedc647dcf241d7275f45",
+      "allocated_bytes": 8810496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_partial_selected_features.csv": {
+      "type": "file",
+      "bytes": 2650371,
+      "sha256": "f98241ef2b1a0737921058a7781253a0d9a3c404f0e9ad6328b8377c7e9b1966",
+      "allocated_bytes": 2654208
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 70810940,
+      "sha256": "dab7449d7e9c349096b3b2e899c8b6da50efad34acd620e0b33ab0337da156ee",
+      "allocated_bytes": 70811648
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 63703,
+      "sha256": "0dc1db86afc87396ef9f1d81b904e281d47e94096bd9a57625944479f75b1010",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_selected_features.csv": {
+      "type": "file",
+      "bytes": 2650371,
+      "sha256": "f98241ef2b1a0737921058a7781253a0d9a3c404f0e9ad6328b8377c7e9b1966",
+      "allocated_bytes": 2654208
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 59927,
+      "sha256": "ca399bd6ba0959ec6d040bcd05732e6a858a0a8612f817e78cadaaf5a92a7b29",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 40950,
+      "sha256": "ed0e0c55cc63e6f0aab99cfbd919e7646212b90fb136832e884c2ca196a94f77",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_feature_stability.csv": {
+      "type": "file",
+      "bytes": 89190,
+      "sha256": "0bfbc811577a0aaff61338d5c2401932d0ec5383762eed581daaa677fe020297",
+      "allocated_bytes": 90112
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 4389055,
+      "sha256": "ca2763a66df980058c243ce73bbaeaf097ca89cb34061d3d56ddc41e9a5db189",
+      "allocated_bytes": 4390912
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_partial_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 4389055,
+      "sha256": "ca2763a66df980058c243ce73bbaeaf097ca89cb34061d3d56ddc41e9a5db189",
+      "allocated_bytes": 4390912
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_partial_predictions.csv": {
+      "type": "file",
+      "bytes": 34146107,
+      "sha256": "a2251d501c63f5fae1c5d665bd39ff55d17f2b1463da482bb2aeb876976e1a4e",
+      "allocated_bytes": 34148352
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_partial_selected_features.csv": {
+      "type": "file",
+      "bytes": 2650371,
+      "sha256": "f98241ef2b1a0737921058a7781253a0d9a3c404f0e9ad6328b8377c7e9b1966",
+      "allocated_bytes": 2654208
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 34146107,
+      "sha256": "a2251d501c63f5fae1c5d665bd39ff55d17f2b1463da482bb2aeb876976e1a4e",
+      "allocated_bytes": 34148352
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 1291801,
+      "sha256": "10fdec5e962fd90398a82bd40bbc79bf41b15f41db58a00f7918db98356d12bf",
+      "allocated_bytes": 1294336
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_selected_features.csv": {
+      "type": "file",
+      "bytes": 2650371,
+      "sha256": "f98241ef2b1a0737921058a7781253a0d9a3c404f0e9ad6328b8377c7e9b1966",
+      "allocated_bytes": 2654208
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_neural_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 59665,
+      "sha256": "dd03df48175959a45f59380498435365e33285d26828fea41dbaf5308c5f6078",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_config_summary.csv": {
+      "type": "file",
+      "bytes": 82669,
+      "sha256": "4a8fb1825a5e1d5c94b74a07ff757a528ccdae851125dae19fab5a198a30169b",
+      "allocated_bytes": 86016
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_feature_stability.csv": {
+      "type": "file",
+      "bytes": 86703,
+      "sha256": "61935cfc9d0eef6c55baaa8c1b5a3cf8dd488aa358ca3a6c15d939e65b4c7605",
+      "allocated_bytes": 90112
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 8718412,
+      "sha256": "c7b251875865b74239b3885eb3520a9a74f3de060cc8e6d5081afa8fd63602b6",
+      "allocated_bytes": 8720384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_partial_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 8718412,
+      "sha256": "c7b251875865b74239b3885eb3520a9a74f3de060cc8e6d5081afa8fd63602b6",
+      "allocated_bytes": 8720384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_partial_selected_features.csv": {
+      "type": "file",
+      "bytes": 2610530,
+      "sha256": "b859cc29564ba91f63ebc7f30630ef7e1f03f1bc9101602dbc01621b6b4a082e",
+      "allocated_bytes": 2613248
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_predictions.csv": {
+      "type": "file",
+      "bytes": 70852596,
+      "sha256": "667fe70fef11f79a69c39093c1e2b8ec33343a7863707b93ea4d8510b3baabd1",
+      "allocated_bytes": 70852608
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_run.log": {
+      "type": "file",
+      "bytes": 63511,
+      "sha256": "369dfa0d4d5dcc17ea85964e8aa9e087167b0590937d5afe374987dd475941c1",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_selected_features.csv": {
+      "type": "file",
+      "bytes": 2610530,
+      "sha256": "b859cc29564ba91f63ebc7f30630ef7e1f03f1bc9101602dbc01621b6b4a082e",
+      "allocated_bytes": 2613248
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_summary.json": {
+      "type": "file",
+      "bytes": 59805,
+      "sha256": "771f6ad1c1c2dcc662e82d962fc5d7770a5e0635cc42073a8abc731f25fd4b83",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_overlap_utility_panels_currentdata_qcprune_rerun_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 1273360,
+      "sha256": "1a4b1275f3158537288d0c49a68817930c8adb31a795f4c74c62817529a12bb6",
+      "allocated_bytes": 1273856
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_overlap_utility_panels_currentdata_qcprune_rerun_predictions.csv": {
+      "type": "file",
+      "bytes": 47143301,
+      "sha256": "bc15d67c10e36b88ad85b9bca6cda55db055aacd6bcd69c02f20dd15d5e4111a",
+      "allocated_bytes": 47144960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_overlap_utility_panels_currentdata_qcprune_rerun_run.log": {
+      "type": "file",
+      "bytes": 1399727,
+      "sha256": "a273077eabeececb1bb895a256e7edbb3f6b74b3bd4cbad4173fb85d8b0a68ea",
+      "allocated_bytes": 1400832
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_overlap_utility_panels_currentdata_qcprune_rerun_summary.json": {
+      "type": "file",
+      "bytes": 39377,
+      "sha256": "9371631b3c817ba808ab0ef4e53efcfbc4d6da591b37faa19679c86dd2e7be8b",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8948,
+      "sha256": "bc2fcd67b07eac58e4f62e0b87ea1eae3e13241891fbf352da8f02445e1b0d62",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 677661,
+      "sha256": "7020d3d53ecded33cfbe53d7b716a69ed6e78c3ce85f6f9afe57e2f2b4eb8a25",
+      "allocated_bytes": 679936
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 6870302,
+      "sha256": "74ff19aa587cff14cc79bb32d87462eac69940f8f91fe0a483663174da93edc4",
+      "allocated_bytes": 6873088
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 57132,
+      "sha256": "3f0062e946ae83cad3ca42b78600cd892e490424b5627f17966e774e295e873d",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 57132,
+      "sha256": "3f0062e946ae83cad3ca42b78600cd892e490424b5627f17966e774e295e873d",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 3945,
+      "sha256": "77d3e2c6d1c2af3895513e9ed473694a3037bdd0f919caca9fc6884bc7bb807f",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 292298,
+      "sha256": "f5c6108f67a372fe58ba2a737568e9d31f55ef137b2cdf65c8f76a3d9e2ca74d",
+      "allocated_bytes": 294912
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 3051404,
+      "sha256": "8056ecb8a0485b3484a2fd5058ef4cf16242d22b814db0aab761a720cf84ded1",
+      "allocated_bytes": 3051520
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_run.log": {
+      "type": "file",
+      "bytes": 27842,
+      "sha256": "df2b1aa4a1019851c354f7774bc20d40edc6118ac7d67d04ff24a109fe4efc95",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_pcaoverlap_selectedonce_sweep_summary.json": {
+      "type": "file",
+      "bytes": 27842,
+      "sha256": "df2b1aa4a1019851c354f7774bc20d40edc6118ac7d67d04ff24a109fe4efc95",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8735,
+      "sha256": "9c37f2bc8ad0daf321420bd172bc659b65ad48c880445d32a874df156acee417",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 666142,
+      "sha256": "4487874ae4add71b6dbcec98f7318e0f78a174e6c81ce0dc8e599366fcad8e40",
+      "allocated_bytes": 667648
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 6420787,
+      "sha256": "35b7985bdb437b951642de927672f970823ba5139b8b445299ba80e9b431a65a",
+      "allocated_bytes": 6422528
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 56611,
+      "sha256": "476642b859e2ceaa5e0295b16662d93da984205d93fa0c97196f0c7cac19a8e1",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 56611,
+      "sha256": "476642b859e2ceaa5e0295b16662d93da984205d93fa0c97196f0c7cac19a8e1",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_neural_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 4474,
+      "sha256": "58a5142c016a0d55f4b8c4dba94155de5ced302dc83032504fcb7372bfac7f83",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_neural_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 331915,
+      "sha256": "9f29c2225cc4762a60d809e5d3f635c8765366863bb5a2b9acb6dd6fab6cbff7",
+      "allocated_bytes": 335872
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_neural_bundlelevel_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 3078691,
+      "sha256": "f76c3c7675a9a2b68aa8053f41513be3542a3aa9916ba7fcdc84aa5096acec79",
+      "allocated_bytes": 3080192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_neural_bundlelevel_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 205450,
+      "sha256": "883810ed4357f48f7ea7ad7962b8b2dc09243bfc765a5850e1859ba951de896d",
+      "allocated_bytes": 208896
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_neural_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 36392,
+      "sha256": "be343f4d886115db88e11ff020d92d0820008810c52710bd46ff94a714948fba",
+      "allocated_bytes": 36864
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8744,
+      "sha256": "f56a25fb0ad3108b00d6752b8dcb20e61b9728da346b485f05780b501c23fb4f",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 667141,
+      "sha256": "54af9cb8dab0d86014392549d71be40fb6acf2ed4b01c62d4d7f6d2006047ef4",
+      "allocated_bytes": 667648
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 6807795,
+      "sha256": "ad4bf7483997870f07ddbdf6ccc5854e44f705d45ac1dbee43877dec92b25578",
+      "allocated_bytes": 6811648
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 56980,
+      "sha256": "04171f4327fbf22854c3e7fd26d69e45a0301172f8bf76b5b5374e60c6c9a379",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 56980,
+      "sha256": "04171f4327fbf22854c3e7fd26d69e45a0301172f8bf76b5b5374e60c6c9a379",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_selectedonce_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 3768,
+      "sha256": "37ab368ff900d9661a33f42beb52cf8ff2de59fe9d7e0c4bdc0ea9f7d028cc9d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_selectedonce_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 284048,
+      "sha256": "f2c695b1f8befd16b7687d05559f73d11aba158488678648f23209a983b7ed9d",
+      "allocated_bytes": 286720
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_selectedonce_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 2986191,
+      "sha256": "04e743b369740dd33a1dfba958e111c6cb244e025beeadaaf882c663dd64eb42",
+      "allocated_bytes": 2990080
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_selectedonce_sweep_run.log": {
+      "type": "file",
+      "bytes": 27317,
+      "sha256": "755c1c16f87c54742569530462bde2b0abdcc179a333b965ce032f30a7ae481b",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_balanced_pcaoverlap_selectedonce_sweep_summary.json": {
+      "type": "file",
+      "bytes": 27317,
+      "sha256": "755c1c16f87c54742569530462bde2b0abdcc179a333b965ce032f30a7ae481b",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_clinical_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 8703,
+      "sha256": "b90e652dc49f66d38d7c74829cf91ea017b1c1cb2d9dba936322132fd0c82c4c",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_clinical_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 660708,
+      "sha256": "e2ae16689cb366ccb3421b6b6896a3cc3a34f4a2f1c99ff59a7684237023a452",
+      "allocated_bytes": 663552
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_clinical_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 6426393,
+      "sha256": "6054681f171463f9641c93608093dc74e5fc0f4dedd7c6bae43ab2e832992f11",
+      "allocated_bytes": 6426624
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_clinical_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 56550,
+      "sha256": "dd9cc683e55c12d180b53e3eb40438ef3c349f33b29a4412288dd95a5d4e3ba2",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_primary_clinical_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 56550,
+      "sha256": "dd9cc683e55c12d180b53e3eb40438ef3c349f33b29a4412288dd95a5d4e3ba2",
+      "allocated_bytes": 57344
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 64550,
+      "sha256": "b0656c7491b45d88d707b0413e8290c7a4f81d3c7c8fd2c3afe329157fc7181e",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 5487591,
+      "sha256": "267da92ffd592a058b70c48d4eef55d915c9e9955250614a95e4637c4a70fbda",
+      "allocated_bytes": 5488640
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 46664676,
+      "sha256": "e6bfc46f83d8891b968fbcdd8c5d4669525b47da12ba2efce7020784548804b1",
+      "allocated_bytes": 46665728
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_run.log": {
+      "type": "file",
+      "bytes": 774331,
+      "sha256": "a1aa93752662ed05f6ff680a27a8c39874d4ca2457a690a92cf547e90f5845a2",
+      "allocated_bytes": 778240
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_ratio_sweep_summary.json": {
+      "type": "file",
+      "bytes": 63575,
+      "sha256": "05bc4395bd9f9659a86e2034d94f74605f9111b499c1827d0d4441aaa7ebb6f9",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_config_summary.csv": {
+      "type": "file",
+      "bytes": 27600,
+      "sha256": "a953cb03df4d9f816efadaef9f0b7bc0f1aca240b7070ffd30332faab43811ab",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 2388993,
+      "sha256": "d9abc87255472f486c92f460041058750a11305d46408000dd802d8d47990394",
+      "allocated_bytes": 2392064
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_predictions.csv": {
+      "type": "file",
+      "bytes": 21256321,
+      "sha256": "17ba5475ac315db364a4c12129e0fe793a0470a41d5047bce250a4c613f6a4ab",
+      "allocated_bytes": 21258240
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_run.log": {
+      "type": "file",
+      "bytes": 615,
+      "sha256": "082d2a149d3a868cf8e07f73034054fbef13de039b215111b5b97c5bb22e8908",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_scarcity_balanced_bundlelevel_selectedall_sweep_summary.json": {
+      "type": "file",
+      "bytes": 63746,
+      "sha256": "453f52e17594c7d22964129b67f6f2e1496138536aab6a0b1fedd03ff3c2fcfc",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_config_summary.csv": {
+      "type": "file",
+      "bytes": 57692,
+      "sha256": "6d1c324f79a9d0b495c1a1eb664909090fb29508b2135474aa2e5a8b940fd09f",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 4893952,
+      "sha256": "2b7b097bf9b4828a17933d73ed9459b96f2403fbc4c0d5556409fa46aa52811e",
+      "allocated_bytes": 4894720
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_predictions.csv": {
+      "type": "file",
+      "bytes": 40902096,
+      "sha256": "9887a7cd9f237d72aabd0442179f496c1a704801c0308196e1dbbc0abe4e0cd7",
+      "allocated_bytes": 40902656
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_run.log": {
+      "type": "file",
+      "bytes": 423,
+      "sha256": "c9b116f0b8f3304e2c4c397bc983538db4d5fc2019e8d4a3d88e8623fb8889ff",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_real_synthetic_quantity_surface_balanced_bundlelevel_classical_from5_summary.json": {
+      "type": "file",
+      "bytes": 103367,
+      "sha256": "53b6f4548c69f746539de9642d3f57b4fc95b7852928852c693fd480f3dbd55d",
+      "allocated_bytes": 106496
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_synthetic_ratio_sweep_pilot_config_summary.csv": {
+      "type": "file",
+      "bytes": 29971,
+      "sha256": "84dbc5e1d01e9911367f36d19110d4072cc6e52c76f67a97f1f71d0a5fd36acf",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_synthetic_ratio_sweep_pilot_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 458545,
+      "sha256": "5c74b8ebbedc5ee382b7873c654d8fa2abf8b9debfbb7fed33797336b41360b1",
+      "allocated_bytes": 458752
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_synthetic_ratio_sweep_pilot_predictions.csv": {
+      "type": "file",
+      "bytes": 4771302,
+      "sha256": "b2eaa264a148c289a60245744740612240bc85487db267f1f95e557d00ca3947",
+      "allocated_bytes": 4771840
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_synthetic_ratio_sweep_pilot_run.log": {
+      "type": "file",
+      "bytes": 58253,
+      "sha256": "4b1f6a0d23ac9e028de6c84ff0098f2186878580265e4afcee8f3173d8a99c4a",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_synthetic_ratio_sweep_pilot_summary.json": {
+      "type": "file",
+      "bytes": 58253,
+      "sha256": "4b1f6a0d23ac9e028de6c84ff0098f2186878580265e4afcee8f3173d8a99c4a",
+      "allocated_bytes": 61440
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/classifier_headlines.csv": {
+      "type": "file",
+      "bytes": 31004,
+      "sha256": "2cdb5c3b9ccc4f2a400856e9c4c95ac10fe41b25a71c7a6e15d7b0fa9be996e9",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_analyses_pooled_vs_enni_only.diff": {
+      "type": "file",
+      "bytes": 112702,
+      "sha256": "3855733dec7d9c435bb8ca48f88f5b4606f31824aab1fcdf04a4b616025044f5",
+      "allocated_bytes": 114688
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_analyses_reordered_enni_only.html": {
+      "type": "file",
+      "bytes": 15873120,
+      "sha256": "f31edc00e6f8ad418b83a8d1cd1c4e14ce736e1f7aaed9e47c534727283ea9fd",
+      "allocated_bytes": 15876096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_analyses_reordered_enni_only.txt": {
+      "type": "file",
+      "bytes": 218639,
+      "sha256": "c9a71209f3876c81309ce2ea3cef937c55d578801e5bd3baa5943968297ae446",
+      "allocated_bytes": 221184
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_analyses_reordered_pooled_recheck.html": {
+      "type": "file",
+      "bytes": 16607067,
+      "sha256": "3c602edcae35e5d801a419be44596b23d1216611cbb8183049ccbec771266060",
+      "allocated_bytes": 16609280
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_analyses_reordered_pooled_recheck.txt": {
+      "type": "file",
+      "bytes": 218715,
+      "sha256": "d7d3eab891c7f26767943a3a7f42178ca0f1f322eabaf275ef31bc90324005b8",
+      "allocated_bytes": 221184
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_age_group_balance.csv": {
+      "type": "file",
+      "bytes": 698,
+      "sha256": "c503514fe8a9afbfad28301c8330d71e2e17dd19cbbb0801f6a70b06942cd39b",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_correlation_fidelity.csv": {
+      "type": "file",
+      "bytes": 312,
+      "sha256": "cd31ca8b9aee01c9f49a8a0e55b17ad9ba756424c97f79708d6dc3cff25cb656",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_feature_distribution_gaps.csv": {
+      "type": "file",
+      "bytes": 20587,
+      "sha256": "c5ec6405d2f2234b738e1c906052d9928892a01306c5c58783c0703fd329733d",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_local_precision.csv": {
+      "type": "file",
+      "bytes": 319,
+      "sha256": "a469066e485516fbc6082d76b03d1f7fae37cb78dd7a212f8d0f5f659c9dc3aa",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_pc_loadings.csv": {
+      "type": "file",
+      "bytes": 7716,
+      "sha256": "345be5c3c0424b6109ade076aaa8f84dc2961d35c3b7574100240824118db0c5",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_pc_variance.csv": {
+      "type": "file",
+      "bytes": 297,
+      "sha256": "86f4987d08854300bb7b791d1910317a500d358619a0c70e4c93b864b5bc4c6b",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_phenotype_region_profiles.csv": {
+      "type": "file",
+      "bytes": 1630,
+      "sha256": "834066757e90560b3446909ec8054197e46bd60296ac645b367b1232f0374b2c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_phenotype_regions.csv": {
+      "type": "file",
+      "bytes": 1024,
+      "sha256": "60939d2a0d2181a585e67c4fad414fc705e86f2ff7340216f84d6da70580a175",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_real_coverage.csv": {
+      "type": "file",
+      "bytes": 245,
+      "sha256": "1d873002312c300f16afadf4e91547cd7ff5fb79c898f7e62232d37e3b04a7ca",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_run.log": {
+      "type": "file",
+      "bytes": 17558,
+      "sha256": "87b3baa374a99af2b958e2c33ddfffbcc746ba6d1c4be6677346c5c7661c932e",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 764232,
+      "sha256": "81625574eb6e67c16e3c9718e34f676ef672dbb1ce949274067c5f54ebf3dfcf",
+      "allocated_bytes": 765952
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_all_shared_summary.json": {
+      "type": "file",
+      "bytes": 17558,
+      "sha256": "87b3baa374a99af2b958e2c33ddfffbcc746ba6d1c4be6677346c5c7661c932e",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_age_group_balance.csv": {
+      "type": "file",
+      "bytes": 698,
+      "sha256": "c503514fe8a9afbfad28301c8330d71e2e17dd19cbbb0801f6a70b06942cd39b",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_correlation_fidelity.csv": {
+      "type": "file",
+      "bytes": 309,
+      "sha256": "c00625a74f3b5db5ef3242b96952c6faa640267ddb5cd413ef2c19e49376b98c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_feature_distribution_gaps.csv": {
+      "type": "file",
+      "bytes": 6261,
+      "sha256": "fb20d6ce197685f4aba868bc50d5468e242ed83f7933c81b2b7f316b233cc5d8",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_local_precision.csv": {
+      "type": "file",
+      "bytes": 322,
+      "sha256": "c8c26e0c3221c5ccf1320010b4d905fc0d758119eafd7bbcb10b3379650d788d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_pc_loadings.csv": {
+      "type": "file",
+      "bytes": 2506,
+      "sha256": "312ec09c932137e5e4659c460eda5c0a73456a94a2bc57c1c5c6126a02705e8d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_pc_variance.csv": {
+      "type": "file",
+      "bytes": 296,
+      "sha256": "6b4ec8de94bb6963fa059a219a06a85a92dcd49750e3d06eae0d49c527afa2b0",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_phenotype_region_profiles.csv": {
+      "type": "file",
+      "bytes": 1646,
+      "sha256": "55738b8575fb74c31fe25188bf03ca502c1e354a2d26881ddb6e41d55605e134",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_phenotype_regions.csv": {
+      "type": "file",
+      "bytes": 991,
+      "sha256": "5c0ed2aee442be406bfb7b9a8c73a26cf3eecf1839eaca847c0fc72ae5d3bf5b",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_real_coverage.csv": {
+      "type": "file",
+      "bytes": 247,
+      "sha256": "9d3af4f72e3d3a82756266ae473d8c1ea9ed4dc98b8c8c2290b2db38c5bd0233",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_run.log": {
+      "type": "file",
+      "bytes": 16792,
+      "sha256": "9c77477194777bbaee602f42328bf34169f2e7dea6b67bf55212e80e2b1ede51",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 767073,
+      "sha256": "00dc29be042a949865d2a81704585e506a85b84d3078b3df0796e12f671bf540",
+      "allocated_bytes": 770048
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/clinical_coverage_fidelity_balanced_literature_summary.json": {
+      "type": "file",
+      "bytes": 16792,
+      "sha256": "9c77477194777bbaee602f42328bf34169f2e7dea6b67bf55212e80e2b1ede51",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/comparison_manifest.json": {
+      "type": "file",
+      "bytes": 2143,
+      "sha256": "a21c5f044df09a114a99e77b7fae8ef2a92795a0c840448d380ba612402e5b61",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_bert_text_classification_bundlelevel_zipreal_config_summary.csv": {
+      "type": "file",
+      "bytes": 4055,
+      "sha256": "9afc808b3a3fdad29f4d2b6141d2665634c9d5f7f021b4c245ada444d5786ad4",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_bert_text_classification_bundlelevel_zipreal_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 141704,
+      "sha256": "53af11cebeef5cfb9313fb8df5035675c58572cfcb0ee265acb067058bb5f9cb",
+      "allocated_bytes": 143360
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_bert_text_classification_bundlelevel_zipreal_predictions.csv": {
+      "type": "file",
+      "bytes": 2210397,
+      "sha256": "200d9656e14e0a176cbde6f20e6d0714d6e6102bf31d00c329cc1e1ed539d9ed",
+      "allocated_bytes": 2211840
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_bert_text_classification_bundlelevel_zipreal_run.log": {
+      "type": "file",
+      "bytes": 62438,
+      "sha256": "698cffdffc52476ce7545aabe93e567f6159b7ab3f6014a98f489b348053ad1d",
+      "allocated_bytes": 65536
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_bert_text_classification_bundlelevel_zipreal_summary.json": {
+      "type": "file",
+      "bytes": 2328,
+      "sha256": "d6411ef5e308476dd606ec9cb20caeacb3f46de6684e3ea3fb7a5135968d51b5",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_config_summary.csv": {
+      "type": "file",
+      "bytes": 2931,
+      "sha256": "620d934b3efb2b9b7d72c042fe693d9d8674ed52fc6de81844bbefd0fca3cc45",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 100554,
+      "sha256": "2990c1a4d7c3aa5a517a0c5c19c377d007372c5a3b0e9c3706d8a92137c308ee",
+      "allocated_bytes": 102400
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_predictions.csv": {
+      "type": "file",
+      "bytes": 1695279,
+      "sha256": "81aa5d128a195fc863f6f0d406f29e2dd5c6d4f2268aaa5588dd4b0925182f18",
+      "allocated_bytes": 1695744
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_run.log": {
+      "type": "file",
+      "bytes": 4532,
+      "sha256": "a8ec96a5ec72637c1b1f77150d215c7a42d45edab92cb6d5ae8676c52442d35d",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_4to7_raw_text_classification_tfidf_bundlelevel_zipreal_summary.json": {
+      "type": "file",
+      "bytes": 2449,
+      "sha256": "fc99030fe68e2e0b654b660a98db7f5f6b4ddd1fc3b50b1601f087a22ec24b6f",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_only_prompt_ancestry_by_round.csv": {
+      "type": "file",
+      "bytes": 1135,
+      "sha256": "0ccba0dbb1e0dca35dec2566d31a9365870ab2bd1bb0b31ef9ce5a67af8ecf44",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_only_prompt_ancestry_global.csv": {
+      "type": "file",
+      "bytes": 145,
+      "sha256": "39ce916249ad5b32668ffe427b515529cd8feeb39a75c2ad541ca8b05a483fff",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/enni_only_prompt_ancestry_summary.json": {
+      "type": "file",
+      "bytes": 1322,
+      "sha256": "53dd96895c26e1acbfe7bf87abaf6f230218cc833cea4c631126cbf9dd88de68",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/fidelity_metric_deltas.csv": {
+      "type": "file",
+      "bytes": 6511,
+      "sha256": "9135dee933e04e43b0c52f0a16190cc84293b46104bb56294cc3e43631fda77b",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/gillam_lineage_audit.json": {
+      "type": "file",
+      "bytes": 3328,
+      "sha256": "4d99baae2e10cd33d04887ac513079a1cfffa9e9e4ce2c9ffde1df2a570974ad",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/matched_config_metric_deltas.csv": {
+      "type": "file",
+      "bytes": 2314780,
+      "sha256": "19cdd00f22cd50a6500dc7508c879d50a7b3090830005cf4838a516044501e84",
+      "allocated_bytes": 2318336
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/overlap_utility_metric_deltas.csv": {
+      "type": "file",
+      "bytes": 21840,
+      "sha256": "ade6fd84d86322f11cca34528db69ab33da2f223333fad5f1c955e5ac2521c0a",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/pca_overlap_audit_pair_summary.csv": {
+      "type": "file",
+      "bytes": 6409,
+      "sha256": "c9a24966db691cc647272ba88f069cdc17827751d9adc48b9288d25f58785559",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/pca_overlap_audit_real_scores.csv": {
+      "type": "file",
+      "bytes": 96794,
+      "sha256": "9b971b14c948d1135461d31e15b73bac6ccd5721673cf8ed302d75d34db8af6e",
+      "allocated_bytes": 98304
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/pca_overlap_audit_run.log": {
+      "type": "file",
+      "bytes": 3023,
+      "sha256": "67b1f9d790947573da185f53b19f92b7d3deb96f9a6be3d28d23ec0309eb12b4",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/pca_overlap_audit_source_child_summary.csv": {
+      "type": "file",
+      "bytes": 5101,
+      "sha256": "5636a41e185a999c54aab4ff17a36d249b1a59def1ff96519a48b33db581a6fa",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/pca_overlap_audit_summary.json": {
+      "type": "file",
+      "bytes": 3023,
+      "sha256": "67b1f9d790947573da185f53b19f92b7d3deb96f9a6be3d28d23ec0309eb12b4",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/pca_overlap_audit_synthetic_scores.csv": {
+      "type": "file",
+      "bytes": 407871,
+      "sha256": "01f30949e7e27b5b72863f995cd436544311b80ba3e16deeb83032cc10ae06b1",
+      "allocated_bytes": 409600
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_age_residualizers.csv": {
+      "type": "file",
+      "bytes": 2779,
+      "sha256": "2495fc153efd55c9d8ae72739c13f2bf72003d10afbb2044c2b7da1795f2ce3a",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_classification_config_summary.csv": {
+      "type": "file",
+      "bytes": 3450,
+      "sha256": "1185a7b7547f401fa79565d6aa9dfc117e0a80f22669b7efec6cb0ca4fef0b98",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_classification_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 123710,
+      "sha256": "a17a30e0953027d5d85458859257f17fede6acc89a0bed2695adcba3bedbed65",
+      "allocated_bytes": 126976
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_correlation_pairs.csv": {
+      "type": "file",
+      "bytes": 2211,
+      "sha256": "2cdc748e32c26439cc1404e2c5f66375d48934cbeaa397d2fd8c9ddb35db5556",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_correlation_summary.csv": {
+      "type": "file",
+      "bytes": 218,
+      "sha256": "7924e8ed8bf37e655e7778dfbb783647b7324a499b927fcc40e0651d1aa5fd6c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_coverage_summary.csv": {
+      "type": "file",
+      "bytes": 416,
+      "sha256": "a9b42a4b8209b6540a425966cea885d080d68cced0acccfb36dd2511bb8efe7d",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_domain_loadings.csv": {
+      "type": "file",
+      "bytes": 1980,
+      "sha256": "f76f0c38807e449dddda8f656e1e2c00cd1c0721aa4f99e5ef481e34e185c3b1",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_global_pca_loadings.csv": {
+      "type": "file",
+      "bytes": 6260,
+      "sha256": "52fc6435e1e2fd08b60e5860d8da4f0494c37342272cfbdc32b7faacffb5460d",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_global_pca_variance.csv": {
+      "type": "file",
+      "bytes": 321,
+      "sha256": "189a426812948e27314157565a8ceaf87e8b3b0788a74d50a8dfee2c242e2510",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_latent_scores.csv": {
+      "type": "file",
+      "bytes": 333474,
+      "sha256": "4e3249efa8d807c6f912a94461dd0e6ac932ade94eac6811b90187608c54dbc9",
+      "allocated_bytes": 335872
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_latent_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 375024,
+      "sha256": "975a62e8b84e3ff8cf3bb627820d5c022781b6dd7046ee4cd930f1b7bd407205",
+      "allocated_bytes": 376832
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_latent_shift_summary.csv": {
+      "type": "file",
+      "bytes": 2597,
+      "sha256": "48ad2db6212c2dc2ab2bbabf6e8cc2196a7a514a4c7d8b7ee34d7b05800761f0",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_age_residualizers.csv": {
+      "type": "file",
+      "bytes": 2779,
+      "sha256": "205c2255a5609a14b9981ee69154f7a00568b548d276600b6e8785fd9e0697db",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_classification_config_summary.csv": {
+      "type": "file",
+      "bytes": 3472,
+      "sha256": "78b60b3f840179056f8f3675d86bcd84a62bff2f04de065e750de6e1ff242439",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_classification_fold_metrics.csv": {
+      "type": "file",
+      "bytes": 123830,
+      "sha256": "3f363efaa82d2519cf79b01b416b3be4fced46b644d0ee14cb3ff36b037ecab1",
+      "allocated_bytes": 126976
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_correlation_pairs.csv": {
+      "type": "file",
+      "bytes": 2208,
+      "sha256": "bcb95f44f3d16bc0999ff7bfbd816ce345598c3be8342ff11b8be7594844f681",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_correlation_summary.csv": {
+      "type": "file",
+      "bytes": 220,
+      "sha256": "09b8e87dddfc9639692526fbe85fdae8b81bfb4d7787ffc3f0bf43ac6c30769c",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_coverage_summary.csv": {
+      "type": "file",
+      "bytes": 416,
+      "sha256": "f1fe961028ea7cfe0208fb05bf113466956e5408f282049c67e12652925a5692",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_domain_loadings.csv": {
+      "type": "file",
+      "bytes": 1980,
+      "sha256": "f76f0c38807e449dddda8f656e1e2c00cd1c0721aa4f99e5ef481e34e185c3b1",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_global_pca_loadings.csv": {
+      "type": "file",
+      "bytes": 6260,
+      "sha256": "52fc6435e1e2fd08b60e5860d8da4f0494c37342272cfbdc32b7faacffb5460d",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_global_pca_variance.csv": {
+      "type": "file",
+      "bytes": 321,
+      "sha256": "189a426812948e27314157565a8ceaf87e8b3b0788a74d50a8dfee2c242e2510",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_latent_scores.csv": {
+      "type": "file",
+      "bytes": 336472,
+      "sha256": "450079975f9fa8aa01eea5d189301f071ef3115acc58b71cc0d04e9ab644b9fa",
+      "allocated_bytes": 339968
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_latent_scores_with_coverage.csv": {
+      "type": "file",
+      "bytes": 378448,
+      "sha256": "fdff861284500399437bdd167fad5feeced388369f8ba0bbf7f42503a3fb4fbf",
+      "allocated_bytes": 380928
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_latent_shift_summary.csv": {
+      "type": "file",
+      "bytes": 2607,
+      "sha256": "0df1d51b2f966c57f67bd6ff1e4f60f27653a810fd98c30278488d35b14f4ef6",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_run.log": {
+      "type": "file",
+      "bytes": 16470,
+      "sha256": "c384a06a30570503000037de88091a4af72ffdfd2a8d96698143987cc9542933",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_rawsynthetic_summary.json": {
+      "type": "file",
+      "bytes": 16470,
+      "sha256": "c384a06a30570503000037de88091a4af72ffdfd2a8d96698143987cc9542933",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_run.log": {
+      "type": "file",
+      "bytes": 16325,
+      "sha256": "48bfa9f1ba7daa73ee124ed7062b17e5946505cf75a96d3da15c40ae3e5c2f35",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/real_fitted_latent_clinical_audit_summary.json": {
+      "type": "file",
+      "bytes": 16325,
+      "sha256": "48bfa9f1ba7daa73ee124ed7062b17e5946505cf75a96d3da15c40ae3e5c2f35",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/run_manifest.json": {
+      "type": "file",
+      "bytes": 27427,
+      "sha256": "2a6001ea654d7d0d7c1ef44db7f1b215f062c938a1c0b7145050f9003c99c119",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/run_manifest_augmentation.json": {
+      "type": "file",
+      "bytes": 29284,
+      "sha256": "139f105a6f30c4a9d5224d60e0f6f7da0ce96be89319fdb619c0c72a49738f33",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/run_manifest_augmentation__allages_classifier_mechanism_concordance_balanced_bundlelevel.json": {
+      "type": "file",
+      "bytes": 2645,
+      "sha256": "cf74ccc228e80036552ebd543ccf2b526364b9cb0eda06cb26316fc3e52371c2",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/run_manifest_augmentation__allages_real_scarcity_balanced_bundlelevel_selectedall_sweep.json": {
+      "type": "file",
+      "bytes": 2779,
+      "sha256": "174be28b9d39bf1eee64c3147ffd1d6e2ad83e90d34b6bb1fd0f76a292c44bf2",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/run_manifest_fidelity_utility.json": {
+      "type": "file",
+      "bytes": 8497,
+      "sha256": "32a10dca7b58da1ab6470322806d0fad0149c48f73e641517c566f71dc1ed6c6",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/run_manifest_text.json": {
+      "type": "file",
+      "bytes": 5420,
+      "sha256": "649dc46e62ac43b834b5aecaef5a5e32d44e7a21e4faf721cd91de745cce6555",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/.gitkeep": {
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "allocated_bytes": 0
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/analyze_ratio_sweep_mixed_models.R": {
+      "type": "file",
+      "bytes": 8906,
+      "sha256": "13fc48ec73f6a7b964967f6e22f9976fe31a5995f3d1fe4da59d27d9b5ceb314",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/audit_enni_only_prompt_ancestry.py": {
+      "type": "file",
+      "bytes": 5738,
+      "sha256": "480a50767314929d20c2061a8482fef6e612bc0193fd4e1bfdcb403d3b70531c",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/audit_gillam_lineage.py": {
+      "type": "file",
+      "bytes": 4957,
+      "sha256": "7e02170e55e2a196b7bf93597767bfb9a296b59466cff0063ebd736a2d89c4e4",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/build_age6_manifests.py": {
+      "type": "file",
+      "bytes": 7503,
+      "sha256": "a458620cff2c3c676bc63439936b48641fdf775af9c4587fa6b47e3826e3ce12",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/build_synthetic_qc_dataset.py": {
+      "type": "file",
+      "bytes": 13433,
+      "sha256": "34a74f306b7a87afcd05e9b3749a50a78ac389bb2b09340727c5bc1deb535dcf",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/compare_enni_only_evaluations.py": {
+      "type": "file",
+      "bytes": 13789,
+      "sha256": "9587c36fbf01ca89052c5ccb6f616798fbf36c95f1757d328f92e99063fed11c",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/compare_gillam_external_evaluations.py": {
+      "type": "file",
+      "bytes": 9709,
+      "sha256": "ba6f00af98c591b8f2a50cd329b05a34a8908c7921ca8989bec9ffeeca3d1b70",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/create_clinical_replication_pptx.py": {
+      "type": "file",
+      "bytes": 27138,
+      "sha256": "d6e67d92b0e8c601b2e8cd011d3d567dce34e382e3b8556ab34b04132694d5ee",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/extract_guo_age6_features.py": {
+      "type": "file",
+      "bytes": 41138,
+      "sha256": "a5b62081cedf76407dd766ab2adebe6579d4a2096ebedc8eae5c7c1a2fbf0146",
+      "allocated_bytes": 45056
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/merge_enni_only_quantity_partitions.py": {
+      "type": "file",
+      "bytes": 6270,
+      "sha256": "f087fe7deab856044a3786ade0d754096592e4525dbb8a977ca887e7a351ee68",
+      "allocated_bytes": 8192
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_allages_overlap_utility.py": {
+      "type": "file",
+      "bytes": 20614,
+      "sha256": "8053e7c3d27dee21894a515451f4fe653cf4142fe45367a549297c822c1f2999",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_allages_overlap_utility_panels.py": {
+      "type": "file",
+      "bytes": 34904,
+      "sha256": "e9c2d1df73e528c97a239891193d69ba54f44bc07d4c3424c68c6f4f5003b6e0",
+      "allocated_bytes": 36864
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_allages_synthetic_ratio_sweep.py": {
+      "type": "file",
+      "bytes": 38203,
+      "sha256": "95943bbc7dd15cbee5167254304b61a8663b752fe14b69db47f3a1efc72830ef",
+      "allocated_bytes": 40960
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_bert_text_classification.py": {
+      "type": "file",
+      "bytes": 19433,
+      "sha256": "595bec41df6b49f428a23826c3986d9cd285e2b8e37980c1f71935793777e70f",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_classifier_mechanism_concordance.py": {
+      "type": "file",
+      "bytes": 22476,
+      "sha256": "4b395fa53b27787d2ff1f4e30c01b965f41ed4e3c35e8af313e4c95ffa6c28cd",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_clinical_coverage_fidelity_audit.py": {
+      "type": "file",
+      "bytes": 20447,
+      "sha256": "9fb8c7f8a2305e9faaf9c0ce2f3946f8379c037dc2affda0deed1f68d0882a2f",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_enni_only_evaluation_suite.py": {
+      "type": "file",
+      "bytes": 16613,
+      "sha256": "e57b40426bb571925b95306af40d59fedce4a5ca2c33d97e62bb7b59d2d5b11d",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_exploratory_ml_feature_selection_ratio_sweep.py": {
+      "type": "file",
+      "bytes": 24130,
+      "sha256": "5c5c2ccf8b8cde6cafe40e88ed9bde787211ddb20db722b7fd98ef7d6fb4f8fe",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_external_synthetic_ratio_sweep.py": {
+      "type": "file",
+      "bytes": 27503,
+      "sha256": "b7e8ad6afd6954afba6297570e18a3ff82249932a0d3955c45e68a4410b8fc61",
+      "allocated_bytes": 28672
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_guo_age6_augmentation.py": {
+      "type": "file",
+      "bytes": 20355,
+      "sha256": "11c41ec02231476e59905e1bfd2d6d8b2d957c49a32e319791845576ad84eaed",
+      "allocated_bytes": 20480
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_guo_age6_augmentation_bootstrap.py": {
+      "type": "file",
+      "bytes": 8373,
+      "sha256": "8b9d5cfdba9482c571db702c32f1dc9dc7cee9e1876ad5a6a381e12444a97721",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_guo_age6_benchmark.py": {
+      "type": "file",
+      "bytes": 12248,
+      "sha256": "031a3afa1204e12fd4faf676800a1d17bf8e4fba0bf1b1d3ff6f2523d702a89a",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_guo_age6_cutoff_transfer.py": {
+      "type": "file",
+      "bytes": 9668,
+      "sha256": "692b45fa7745c6913ac86e88ff51990f6bcb244bdb3cac548b4de5f054c04314",
+      "allocated_bytes": 12288
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_pca_overlap_audit.py": {
+      "type": "file",
+      "bytes": 13552,
+      "sha256": "4cf2fd5c4a29fe3ccd79e8e680472cc80af9bfc97bb36ef39ded4f9d8d005122",
+      "allocated_bytes": 16384
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_primary_clinical_ratio_sweep.py": {
+      "type": "file",
+      "bytes": 1038,
+      "sha256": "584198dd34f27bc7b8bb87e2647a1591dda2424eb275716f346d52a4993e887a",
+      "allocated_bytes": 4096
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_raw_text_classification.py": {
+      "type": "file",
+      "bytes": 20747,
+      "sha256": "146705f1e176a91819c723e76dfc2563156e27b56aceed41eb0034af40eade3a",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_real_fitted_latent_clinical_audit.py": {
+      "type": "file",
+      "bytes": 31960,
+      "sha256": "e4b28c4dddac20d74099500cfe219dff4cb93c430e5078272367d39a3c66e9b3",
+      "allocated_bytes": 32768
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_real_scarcity_synthetic_ratio_sweep.py": {
+      "type": "file",
+      "bytes": 20942,
+      "sha256": "73681a7a09288e87e6aca3b6cc61bb91d893cf6658a56469a0acb3536ce732c8",
+      "allocated_bytes": 24576
+    },
+    "phase2/replications/guo_schneider_6yo_ablation/scripts/run_real_synthetic_quantity_surface.py": {
+      "type": "file",
+      "bytes": 20521,
+      "sha256": "9bd77e4a21eab5167095ad0816efa3d90124d8fd7e79b0674295ef24394c6f45",
+      "allocated_bytes": 24576
+    }
+  },
+  "notes": [
+    "Historical scripts, input snapshots, results and presentations remain in the verified full phase2 archive.",
+    "Current generation, integrated R analysis and framework notebook have no executable references to the removed directory in the checked source files.",
+    "Historical references in the strategy handoff are retained and marked as archived; no analysis or annotation was rerun."
+  ]
+}

@@ -9,7 +9,7 @@ import subprocess
 
 import pytest
 
-from icl_pilot.generated_chat import convert_generated_story_csv_to_cha, repair_generated_chat_types
+from icl_pilot.chat.generated_chat import convert_generated_story_csv_to_cha, repair_generated_chat_types
 
 
 def write_csv(path: Path, rows: list[dict[str, str]]) -> Path:

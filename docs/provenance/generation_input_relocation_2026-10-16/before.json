@@ -1,0 +1,84 @@
+{
+  "configuration": {
+    "schema_version": 4,
+    "experiment_id": "enni_staged_4_to_7",
+    "counterbalance_csv": "cross_story_counterbalancing.csv",
+    "roster_csv": "master_frozen_roster_4_to_7_year_old.csv",
+    "story_reference_json": "story_unit_reference.json",
+    "prompt_templates": {
+      "stage1_td": "prompts/stage1.json",
+      "stage2_sli": "prompts/stage2.json"
+    },
+    "n_replicates": 10,
+    "pairs_per_round": 3,
+    "seed": 42,
+    "model": {
+      "id": "avans06/Meta-Llama-3.2-8B-Instruct",
+      "revision": null,
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_new_tokens_stage1": 180,
+      "max_new_tokens_stage2": 180,
+      "quantization": {
+        "load_in_4bit": true,
+        "quant_type": "nf4",
+        "compute_dtype": "bfloat16"
+      }
+    },
+    "inputs": {
+      "narratives_csv": "data/processed/generation_inputs/story_unit_narratives_chat_v2.csv"
+    },
+    "cohorts": [
+      {
+        "label": "4-year-old",
+        "slug": "four_year_old",
+        "age_min_months": 48,
+        "age_max_months": 59,
+        "expected_pairs": 11
+      },
+      {
+        "label": "5-year-old",
+        "slug": "five_year_old",
+        "age_min_months": 60,
+        "age_max_months": 71,
+        "expected_pairs": 12
+      },
+      {
+        "label": "6-year-old",
+        "slug": "six_year_old",
+        "age_min_months": 72,
+        "age_max_months": 83,
+        "expected_pairs": 11
+      },
+      {
+        "label": "7-year-old",
+        "slug": "seven_year_old",
+        "age_min_months": 84,
+        "age_max_months": 95,
+        "expected_pairs": 13
+      }
+    ],
+    "provenance": {
+      "shared_generation_protocol": {
+        "basis": "author_confirmation",
+        "confirmed_on": "2026-10-14",
+        "note": "The author confirmed that age four used the same generation configuration as ages five through seven. The portable notebook applies these shared settings to every cohort."
+      },
+      "historical_model_revision": "not recorded in original generation CSVs",
+      "rosters": "Child pairs and rounds are reconstructed from recorded generation identities. Ages and KIDEVAL identifiers are joined by child ID to the existing developmental metadata. No new child pairing is optimized.",
+      "four_year_old_reconciliation": "Recorded pairs SLI 474 / TD 459 and SLI 475 / TD 417 replace the reversed assignments in the archived roster for this new generation configuration. Existing transcripts, analysis inputs and results are unchanged."
+    }
+  },
+  "jobs": 2820,
+  "schedule_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+  "evaluation_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+  "all_stage_message_sha256": "da90e3be4df8926891ff698eabf599fd14fd3975e7e1df4cfb6fc2525395d884",
+  "input_files": {
+    "data/processed/generation_inputs/story_unit_narratives_chat_v2.parsing_qc.json": "25edaed879cbc435509f8c2dea1be614c0a0e7c1f9f74d0c210d11ce122e896a",
+    "data/processed/generation_inputs/story_unit_narratives_chat_v2.csv": "89643c6ca494e525b47eb3863a36bea3d702402c9dd1e3e5d42b401fa9828cbc"
+  },
+  "notebook_sha256": "ece20172e5dec766d49d15f60643e9b202681ce978d4ad45c14fc84967f4ea04",
+  "generated_file_count": 11292,
+  "generated_inventory_sha256": "f4a500bc0f84a2fa4e7d2738529b9b31663e62f2eb9534764d829597eaa9b48d"
+}

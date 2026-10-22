@@ -1,0 +1,16 @@
+{
+  "generation_jobs": 2820,
+  "stage_prompts_compared": 5640,
+  "prompt_messages_and_exemplar_inputs_unchanged": true,
+  "schedule_and_evaluation_manifest_unchanged": true,
+  "inference_function_ast_unchanged_except_journal_argument": true,
+  "replicate_override_job_counts": {
+    "1": 282,
+    "2": 564
+  },
+  "protected_files_unchanged": 29598,
+  "intentional_documentation_changes": [
+    "configs/generation/README.md"
+  ],
+  "real_inference_executed": false
+}

@@ -1,0 +1,30 @@
+{
+  "old_path": "phase2/ENNI/measures/story_units/story_unit_reference.json",
+  "new_path": "configs/generation/story_unit_reference.json",
+  "scaffold_bytes_unchanged": true,
+  "scaffold_sha256": "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e",
+  "old_copy_removed": true,
+  "generation_jobs": 2820,
+  "all_generation_rows_including_prompt_content_identical": true,
+  "evaluation_manifest_identical": true,
+  "prompt_functions_unchanged": true,
+  "notebook_cells_executed": [
+    5,
+    8,
+    9
+  ],
+  "external_data_root_contains_only_exemplar_csv": true,
+  "protected_research_files_rehashed": 6036,
+  "protected_files_changed": [],
+  "analysis_sources_unchanged": [
+    "clinical_analyses_reordered.Rmd",
+    "clinical_analyses.Rmd",
+    "clinical_analyses_reordered_purl.R"
+  ],
+  "focused_tests": "21 passed; three pre-existing dependency warnings",
+  "model_loaded_or_inference_run": false,
+  "command_exit_codes": [
+    0,
+    0
+  ]
+}

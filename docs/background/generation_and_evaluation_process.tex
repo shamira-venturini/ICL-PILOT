@@ -1,0 +1,237 @@
+\section{Historical Profiling and Generation Proposal}
+
+\paragraph{Status, 14 October 2026.}
+This document records an earlier exploratory profiling proposal. Derived
+severity/profile scores were not adopted as active prompt conditioning or
+as part of the current integrated R analysis. The dedicated implementation
+and outputs are now preserved in the external profiling backup. Use
+\texttt{docs/current\_strategy\_handoff.md} for the current design; the
+profiling steps below are historical context, not the current paper Methods.
+
+\subsection{Overview}
+
+The overall goal of the project is to generate synthetic ENNI-style narratives that remain close to the natural distribution of developmental language data while making more efficient use of a small clinical corpus. The final design keeps generation at the story level, because that is the intended augmentation unit, but it uses child-level profiling to define the linguistic space from which story-level generations should plausibly be drawn.
+
+The process therefore has two levels:
+
+\begin{enumerate}
+    \item \textbf{Child-level profiling}, used to estimate each child's overall severity and linguistic profile from the full transcript.
+    \item \textbf{Story-level generation and evaluation}, used to prompt the model and assess whether generated narratives overlap with natural short-sample distributions.
+\end{enumerate}
+
+\subsection{Step 1: Build a Child-Level Reference Table}
+
+Each ENNI transcript contains all six elicited narratives for one child. These full transcripts were used to derive a more stable developmental profile than would be possible from a single story alone. The resulting reference table contains one row per child and includes:
+
+\begin{itemize}
+    \item age and group information,
+    \item structural measures such as MLU, DSS, and IPSyn,
+    \item lexical measures such as VOCD,
+    \item disfluency and error measures,
+    \item grouped morphosyntactic error features derived from the manual CHAT error codes.
+\end{itemize}
+
+This full-child table is the basis for severity estimation. It is not the unit used for generation, but it is the unit used to define what type of child a story-level sample is supposed to represent.
+
+\subsection{Step 2: Remove Redundancy and Select the Analysis Features}
+
+The merged table was then cleaned before modelling. Constant columns, duplicate columns, path metadata, and obvious near-duplicates were removed from the severity feature set. This step was necessary because the raw merged table contained several fields that measured essentially the same thing under different names or that carried no variation at all.
+
+The final retained features included:
+
+\begin{itemize}
+    \item structural measures: MLU in morphemes, DSS, IPSyn, and selected DSS subscales,
+    \item lexical diversity: VOCD,
+    \item disruption measures: repetitions, retracing, and general word-error burden,
+    \item grouped morphosyntactic burden measures derived from transcript annotations.
+\end{itemize}
+
+\subsection{Step 3: Group the Error Annotations Into Interpretable Macro-Categories}
+
+The transcript error codes were highly specific and often sparse. To make them more interpretable, the fine-grained codes were grouped into a small number of macro-categories. The final grouped categories were:
+
+\begin{itemize}
+    \item \texttt{bare\_marking\_errors},
+    \item \texttt{pronoun\_errors},
+    \item \texttt{past\_overgeneralization\_errors}.
+\end{itemize}
+
+The most informative distinction in the current corpus was between:
+
+\begin{itemize}
+    \item \textbf{bare marking}, that is, failure to supply expected overt morphology, and
+    \item \textbf{past overgeneralization}, that is, productive but incorrect past-tense marking such as regularisation of irregular forms.
+\end{itemize}
+
+This distinction is linguistically important because the strongest severity signal in the data was associated with missing obligatory marking rather than with increased overgeneralization. Determiner errors were removed from the core profiling set after cleaning showed that the remaining determiner feature was too sparse once broad allomorphy cases were excluded.
+
+\subsection{Step 4: Convert Some Measures to Rates}
+
+Not all count measures should be treated in the same way. Some counts mainly reflect the size of the sample, whereas others are better understood as rates of disruption or morphosyntactic burden.
+
+For that reason, the selected counts were normalized as follows:
+
+\begin{itemize}
+    \item utterance-level disruption measures were converted to \textbf{per-utterance rates},
+    \item bare-marking and pronoun error measures were converted to broad burden rates,
+    \item past overgeneralization was normalized by a more specific opportunity denominator.
+\end{itemize}
+
+The current past-overgeneralization denominator is the sum of:
+
+\begin{itemize}
+    \item overt past finite lexical verbs identified in the UD-style morphological annotation,
+    \item plus explicit bare-past error tokens marked in the transcript annotations.
+\end{itemize}
+
+This is still an approximation, but it is more linguistically defensible than normalizing past overgeneralization by all words. For bare marking and pronouns, broader burden-style normalization was retained.
+
+\subsection{Step 5: Age-Adjust the Features Using the TD Group}
+
+Because the corpus spans multiple developmental stages, raw values cannot be interpreted directly as severity. A younger child may have a lower MLU than an older child for developmental reasons alone. To separate developmental level from impairment burden, all retained features were age-adjusted relative to the typically developing group.
+
+For each retained feature:
+
+\begin{enumerate}
+    \item an age curve was fitted using the TD children only,
+    \item each child's observed value was compared against the TD expectation for that age,
+    \item the deviation was scaled by the residual variability of the TD group.
+\end{enumerate}
+
+This produced TD-referenced age-adjusted scores. In practical terms, each feature was converted into a value that indicates how far the child departs from the typical developmental expectation for that age.
+
+\subsection{Step 6: Put All Features in the Same Severity Direction}
+
+The age-adjusted features do not all point in the same direction naturally. For example:
+
+\begin{itemize}
+    \item lower MLU indicates greater difficulty,
+    \item higher error rates indicate greater difficulty.
+\end{itemize}
+
+To make the feature space interpretable, all retained features were aligned so that \textbf{higher values always indicate greater severity}. This allowed domain scores and composite scores to be calculated coherently.
+
+\subsection{Step 7: Build Domain Scores and a Composite Severity Score}
+
+The adjusted features were grouped into broad domains:
+
+\begin{itemize}
+    \item structural weakness,
+    \item lexical weakness,
+    \item disruption burden,
+    \item morphosyntactic burden.
+\end{itemize}
+
+These domain scores were then combined into a composite severity score. The goal was not to claim discovery of new clinical markers, but to obtain a compact, interpretable representation of each child's linguistic phenotype that could later be used for matching and prompt design.
+
+\subsection{Step 8: Derive Corpus-Internal Severity Bands}
+
+The SLI group was then divided into low, moderate, and high severity bands using tertiles of the composite severity score. These bands are not intended as universal clinical categories. They are best understood as \textbf{corpus-internal severity strata}.
+
+Linguistically, the bands showed a graded pattern:
+
+\begin{itemize}
+    \item lower-severity children showed relatively mild structural reduction and limited overt burden,
+    \item moderate-severity children showed clearer morphosyntactic vulnerability and increased bare-marking burden,
+    \item higher-severity children showed the strongest combination of reduced structural complexity and frequent missing obligatory marking.
+\end{itemize}
+
+This pattern is consistent with the English SLI/DLD literature, which has repeatedly identified tense and finiteness omission, reduced grammatical complexity, and related morphosyntactic weakness as more reliable clinical indicators than overgeneralization alone.
+
+\subsection{Step 9: Decide the Generation Unit}
+
+At this stage, a design choice had to be made. One option would have been to generate synthetic children by producing multiple stories for the same synthetic profile. However, that approach would not directly reduce the scarcity of story-level training material. Since the main goal of the project is augmentation, the decision was to keep the generation unit at the \textbf{single-story level}.
+
+This means:
+
+\begin{itemize}
+    \item the model generates one target story at a time,
+    \item the severity and profile scores are used to characterize the natural population,
+    \item generated stories are evaluated against natural story-level references rather than against full child-level transcripts.
+\end{itemize}
+
+\subsection{Step 10: Use Child-Level Profiles to Inform Story-Level Prompting}
+
+Even though generation remains story-level, the child-level profiling is still useful. It tells us what type of natural child a story-level sample should resemble. In principle, this could be used to define highly specific prompt cells such as:
+
+\begin{itemize}
+    \item age cohort,
+    \item target story,
+    \item severity band,
+    \item dominant profile type.
+\end{itemize}
+
+However, once evaluation data are held out, the SLI corpus fragments very quickly. A strict design that simultaneously conditions on age, story, severity, and profile leaves too few SLI children in many cells. The profiling step was therefore not useless, but it functioned partly as a \textbf{feasibility audit}: it showed how much clinical precision the current corpus can support.
+
+\subsection{Step 11: Keep the Original Story-Level Prompting Logic for the Pilot}
+
+The practical conclusion is that the original prompting architecture described in the project report remains the right base design for the pilot:
+
+\begin{itemize}
+    \item generation is still story-level,
+    \item age matching remains central,
+    \item cross-story counterbalancing remains central,
+    \item the two-step TD-to-DLD transformation remains central.
+\end{itemize}
+
+What changes is not the architecture itself, but the understanding of which additional conditioning variables are currently feasible. The corpus appears too small to support a fully stratified age \(\times\) severity \(\times\) profile prompt design for SLI without sacrificing evaluation coverage.
+
+\subsection{Step 12: Use Canonical Story Content Representations Rather Than Invented Adult Scripts}
+
+One further design decision concerns the source content used in the first prompting stage. The ENNI is a picture-based storytelling instrument. The official materials provide the picture stories and the administration prompts, but they do not provide a canonical adult verbal version of each story that should be treated as the instrument's normative text.
+
+For that reason, the project should not fabricate an ``adult ENNI story'' and present it as though it were an official part of the task. Instead, each ENNI story should be represented internally by a concise canonical content outline derived directly from the official picture sequence. This outline can include:
+
+\begin{itemize}
+    \item the page-by-page event sequence,
+    \item the main referents,
+    \item the key actions and outcomes,
+    \item and, where useful, simple story grammar units.
+\end{itemize}
+
+This canonical outline functions as a stable content scaffold for prompting, while preserving the fact that ENNI is fundamentally a picture-based storytelling task rather than a text-retell task.
+
+\subsection{Step 13: Reserve Natural Data for Evaluation}
+
+Another key constraint is that the same natural material should not be used both to build prompts and to evaluate the generated outputs within the same round. Since each child contributes six stories, one possibility is to reserve some stories for prompting and others for evaluation. That strategy is reasonable, but if it is combined with very fine clinical stratification it causes the SLI prompt cells to become extremely sparse.
+
+The cleaner solution is to keep the story-level generation framework while controlling prompt and evaluation pools at the \textbf{child level}. In other words, if a child is reserved for evaluation in a given round, none of that child's stories are used for prompting in that round.
+
+\subsection{Step 14: Use a Rotating Held-Out Evaluation Design}
+
+Because the SLI corpus is limited, a single fixed prompt/evaluation split would waste too much data. The preferred solution is a rotating held-out design. In each round:
+
+\begin{itemize}
+    \item one stratified subset of children is reserved for evaluation,
+    \item the remaining children are available for prompt construction,
+    \item no child contributes to both roles within the same round.
+\end{itemize}
+
+Across rounds, the same child may change role. This is analogous to a stratified cross-validated evaluation design. It allows broader use of the limited clinical corpus while preserving out-of-sample evaluation in every round.
+
+\subsection{Step 15: Final Interpretation of the Design}
+
+The final process can therefore be summarised as follows:
+
+\begin{enumerate}
+    \item build robust child-level severity and profile estimates from full transcripts;
+    \item keep generation at the story level;
+    \item preserve the original age-matched, cross-story, two-step prompting logic;
+    \item use canonical story-content outlines derived from the official ENNI picture sequences as the stable source scaffold for stage 1 prompting;
+    \item use child-level severity and profile information mainly to understand corpus structure and feasibility;
+    \item avoid over-fragmenting the SLI corpus at the prompting stage;
+    \item evaluate generated stories in rotating held-out rounds so that prompt and evaluation data remain separated within each round.
+\end{enumerate}
+
+\subsection{Practical Consequence}
+
+The main practical consequence is that the current profiling results should not be used to build a maximally fine prompt grid. Instead, they should be used to:
+
+\begin{itemize}
+    \item justify the linguistic validity of the reference population,
+    \item identify which features are most characteristic of greater severity,
+    \item support later matching and post hoc interpretation,
+    \item and warn against clinically over-precise prompt stratification when the corpus does not support it.
+\end{itemize}
+
+In short, the project should continue with the original story-level generation strategy, but now with a clearer understanding of the linguistic structure of the natural data and a more defensible evaluation design.

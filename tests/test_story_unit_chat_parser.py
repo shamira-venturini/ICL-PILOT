@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-from icl_pilot.story_unit_semrp import (
+from icl_pilot.chat.story_unit_semrp import (
     _iter_story_utterances, _parse_age_group, extract_story_unit_narratives,
 )
 

@@ -1,0 +1,44 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T131515Z/CHATParsing/chat_parser_snapshot.tar.gz",
+  "archive_sha256": "9ef042d5c13c60cd1a9c9391be07653157b6452d47609fa0d1fbea1a075c9c83",
+  "verified_files": [
+    {
+      "path": "src/icl_pilot/story_unit_semrp.py",
+      "sha256": "809eae60399404480ade067377a2785fb874366b0ce41bed4a19cbf4e81ce0be",
+      "bytes": 7165
+    },
+    {
+      "path": "src/icl_pilot/cli.py",
+      "sha256": "0f5229189304aff9fd0f7cc981693edc960398436e8c1902d078f4e93ee878b6",
+      "bytes": 27182
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "sha256": "0c13c406ad80ac48583fe747e3d02cc4247596910735c49614f3ac9f9a92d0cf",
+      "bytes": 18386
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "sha256": "1381e3c361c91cf64e118b612b5df2098cefe564ac794406df5df37855324bd8",
+      "bytes": 2047
+    },
+    {
+      "path": "configs/generation/README.md",
+      "sha256": "b862cda7af439afcad1c4b05e68b71f27b5cabe6db2411b2f8c2aaabe82edef6",
+      "bytes": 4843
+    },
+    {
+      "path": "configs/generation/experiment.json",
+      "sha256": "16b2401eb1e82ae634bbe748f9d64934264d33bf1cd2146faa00c5cfa82944d2",
+      "bytes": 2264
+    },
+    {
+      "path": "phase2/ENNI/measures/story_units/story_unit_narratives.csv",
+      "sha256": "897153a81d831783c04ac719f1a34545f1b2e0c67172fdb7bf4ca7572d50fcb6",
+      "bytes": 2672168
+    }
+  ],
+  "all_members_verified": true,
+  "source_transcript_files": 361,
+  "historical_story_rows": 2166
+}

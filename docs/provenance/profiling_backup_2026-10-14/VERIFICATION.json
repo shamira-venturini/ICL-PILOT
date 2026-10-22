@@ -1,0 +1,17 @@
+{
+  "archive_bytes": 29658150,
+  "archive_checksum_verified_after_relocation": true,
+  "archive_members_verified": 8479,
+  "archive_path": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T092052Z/Profiling/profiling_snapshot.tar.gz",
+  "archive_sha256": "bd67e8f0a18e381f93ee1c1378a6363e6c9aa76605ca2ba2c2c53f016600fc28",
+  "completed_local": "2026-10-14T11:20:54.799411+02:00",
+  "current_directory": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T092052Z/Profiling",
+  "current_files_verified": 8472,
+  "git_HEAD_deleted_files_verified": 3,
+  "local_deletions_performed": false,
+  "original_archive_path": "/Volumes/TranscendBU/ICL-PILOT-backups/profiling_2026-10-14_112043/profiling_snapshot.tar.gz",
+  "relocated_at_utc": "2026-10-14T09:26:56.808442+00:00",
+  "source_content_rechecked": true,
+  "status": "passed",
+  "volume_device_unchanged": true
+}

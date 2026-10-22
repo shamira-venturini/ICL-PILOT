@@ -1,0 +1,120 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T123617Z/GenerationRoster/generation_roster_snapshot.tar.gz",
+  "archive_sha256": "1b1f568726b128bc53667603797e339df821f37c0605f1d9fbd10dfc36d54e05",
+  "archive_bytes": 70009,
+  "verified_files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 26604,
+      "sha256": "829719639338321d3608441d4e849871d285af3310103b76aa5bec2d56231cc8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1861,
+      "sha256": "c63478a6f5882529ec4706895f3cccea429cc4ed8e351197b5f6f4d20d1f1ebb"
+    },
+    {
+      "path": "clinical_analyses_reordered.Rmd",
+      "bytes": 108441,
+      "sha256": "9ce9e6b0e24e7231ba1ec6cf588723f269090c08f2f2e33b269cfdc63a6233f9"
+    },
+    {
+      "path": "configs/generation/README.md",
+      "bytes": 4159,
+      "sha256": "9924ebaf1ef4e2e95bfe9e2bf0682d178b3243d4f296ea362257af18ba3798cf"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/README.md",
+      "bytes": 610,
+      "sha256": "cc7761eb02b81f80f661a11cc7480d1ee6298699de24b5a248e401b7b1f2c6c3"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+      "bytes": 11693,
+      "sha256": "56179cf254407688eaf0e6dc4c972088f19221254c4d93feb6e3276abb40da12"
+    },
+    {
+      "path": "configs/generation/cross_story_counterbalancing.csv",
+      "bytes": 174,
+      "sha256": "73b8509bd7b1cd6f6949d9e44ad253e92f20b2b6497903171b2320bdca85a3c0"
+    },
+    {
+      "path": "configs/generation/experiment.json",
+      "bytes": 2435,
+      "sha256": "1f08a9d801953fca5e4d4f6f1e2a36776cad98e375b663da856a19d384417a51"
+    },
+    {
+      "path": "configs/generation/rosters/five_year_old.csv",
+      "bytes": 3203,
+      "sha256": "d62f5299b86f6cfff2e10fba92d3feeb8cc9fc8f5d92d018ab852bf0db9c3a5a"
+    },
+    {
+      "path": "configs/generation/rosters/four_year_old.csv",
+      "bytes": 2993,
+      "sha256": "374a678d9ad57aeb48d2dc015d410847265ea0ce1a3d66193281b83c99a58b92"
+    },
+    {
+      "path": "configs/generation/rosters/seven_year_old.csv",
+      "bytes": 3445,
+      "sha256": "32d4969887181b5544b3e0d6b0d10c0f8b223421d67f26cfd136b4aa7f34d562"
+    },
+    {
+      "path": "configs/generation/rosters/six_year_old.csv",
+      "bytes": 2958,
+      "sha256": "672eb834aca7874ecddd7faee1611f54482b766c77918c407546d43e1e1d50da"
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "bytes": 1735,
+      "sha256": "9f885be4f7a46490e78bb1c4497ad18b7b47ecfe6de845403f3e59cd3db14a1f"
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "bytes": 16978,
+      "sha256": "cd66d76ba6c23d9647df4f754778b1f4595168ed7e1a56029c08e41b3b7c8da7"
+    },
+    {
+      "path": "docs/four_year_old_frozen_roster.md",
+      "bytes": 1199,
+      "sha256": "589e266c4768472c436a9c86c9d236f31af766ce0dd7f35074d06a940d5c1a1e"
+    },
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "bytes": 33572,
+      "sha256": "6499aefe237a19faff3cf66b5909196996be4517ecceef8d694f75529075343f"
+    },
+    {
+      "path": "src/icl_pilot/generated_chat.py",
+      "bytes": 11030,
+      "sha256": "e44ac9db7afbe381951e82788449ceacf131941970e3752052cf120585dec581"
+    },
+    {
+      "path": "src/icl_pilot/generation/config.py",
+      "bytes": 12899,
+      "sha256": "23caa06f9447c6521bdef10272c5072b10b3dcc574e1fca0a86cc460e47cdab4"
+    },
+    {
+      "path": "src/icl_pilot/generation/workflow.py",
+      "bytes": 38029,
+      "sha256": "b1dbd7418b50edec1c476a0cb6d9f51ea1f5627ca2aef52506db30163aedc671"
+    },
+    {
+      "path": "src/icl_pilot/paths.py",
+      "bytes": 1498,
+      "sha256": "93c8b0e22b183fc12a829bc1cd5e72368bc0a8417f58f915d35fc2a27c26b82d"
+    },
+    {
+      "path": "tests/test_generation_config.py",
+      "bytes": 7009,
+      "sha256": "fb38df15355a31cfef897f08a609f979a72190e69655e4e4e5bb136196fb1796"
+    },
+    {
+      "path": "tests/test_profiling_retirement.py",
+      "bytes": 5634,
+      "sha256": "f1fd1f7367105f0f1840019e61ba24b7181460656c1fab1534b624892596de70"
+    }
+  ],
+  "all_members_verified": true,
+  "volume_uuid": "E33EEB9A-D24F-33F4-B568-08627A9E27E6",
+  "generation_jobs_before": 2820
+}

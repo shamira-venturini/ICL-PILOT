@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "experiment_id": "enni_staged_4_to_7",
+  "experiment_id": "enni_staged_4_to_7_counterbalance_v2",
   "counterbalance_csv": "cross_story_counterbalancing.csv",
   "roster_csv": "master_frozen_roster_4_to_7_year_old.csv",
   "story_reference_json": "story_unit_reference.json",
@@ -12,13 +12,13 @@
   "pairs_per_round": 3,
   "seed": 42,
   "model": {
-    "id": "avans06/Meta-Llama-3.2-8B-Instruct",
-    "revision": null,
+    "id": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
     "do_sample": true,
-    "temperature": 0.7,
-    "top_p": 0.95,
-    "max_new_tokens_stage1": 180,
-    "max_new_tokens_stage2": 180,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "max_new_tokens_stage1": 640,
+    "max_new_tokens_stage2": 640,
     "quantization": {
       "load_in_4bit": true,
       "quant_type": "nf4",
@@ -26,7 +26,7 @@
     }
   },
   "inputs": {
-    "narratives_csv": "data/processed/generation_inputs/story_unit_narratives_chat_v2.csv"
+    "narratives_csv": "configs/generation/inputs/story_unit_narratives_chat_v2.csv"
   },
   "cohorts": [
     {
@@ -59,6 +59,70 @@
     }
   ],
   "provenance": {
+    "matched_prompt_pair": {
+      "adopted_on": "2026-10-21",
+      "basis": "author_supplied_reviewer_prompt_pair",
+      "previous_template_sha256": {
+        "stage1_td": "8cfd3ef330e99b2db524654833543eb783870a1be1a0bd7a12a3de9254879ee0",
+        "stage2_sli": "ecac051d72b59723dc3ec02c9ccf1651a234a0f3b606b4d92cebed6d2b2ad6ce"
+      },
+      "note": "Templates implement the supplied review pair exactly. Both stages share the system instruction, all four story-information fields and the complete instruction list, including exemplar-based wording, sentence construction, style and level-of-detail guidance. Stage 2 additionally receives the exact Stage 1 narrative to rewrite and its own selected exemplar. ENNI/task labels, story/exemplar IDs, titles and replicate IDs are absent from the instruction templates; identities remain in validation and logs. Additional constraints remain content-only. No age/clinical-status labels or directional shortening instructions are supplied. The 640-new-token ceilings, other decoding settings, scaffolds, literal exemplars, roster and assignments are unchanged."
+    },
+    "prompt_length_update": {
+      "adopted_on": "2026-10-21",
+      "basis": "author_instruction_remove_story_length_references",
+      "previous_template_sha256": {
+        "stage1_td": "c0f51ee7e4913e3a8f5192adf3d0649e4604993b63118bdd166a77a666b197a6",
+        "stage2_sli": "c5d338a4e806f9eb63bcf154a4e36681d23ed6cac3d7dff9b7f7d00d0a312690"
+      },
+      "note": "Stage 1 no longer requests short narratives. Stage 2 no longer requests matching the exemplar's amount of detail or permits clause shortening and omission of optional details. Exemplar-based style and grammatical-level guidance, content/event-order constraints and the prior removal of age/clinical-status cues remain. The 640-new-token safety ceiling, other model settings, scaffolds, literal exemplars and experimental assignments are unchanged. New runs use the revised templates."
+    },
+    "prompt_revision": {
+      "revision": 2,
+      "adopted_on": "2026-10-21",
+      "basis": "author_instruction_remove_age_and_clinical_status_cues",
+      "previous_template_sha256": {
+        "stage1_td": "cb31033115a2fe2d81162235613f141ae50ce5a72d44c2c4d73f4da524efcbaa",
+        "stage2_sli": "a39e0f35fab54a0594b4c6bb83f3333909abf4ad15e412b6786abb5374617a38"
+      },
+      "previous_story_reference_sha256": "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e",
+      "note": "Model-facing instructions and inserted scaffold constraints no longer name age, child/adult narration or clinical/non-clinical status. Age matching and corpus group labels remain in exemplar selection and provenance, outside the model messages. Literal exemplars, canonical story content and Stage 1 parent text are preserved, including any story characters described as children or adults. ENNI labels, the two-stage architecture, other instructions, decoding settings and experimental assignments are unchanged. Earlier templates are preserved in the external study freeze; this revision applies to new runs only."
+    },
+    "sampling_update": {
+      "adopted_on": "2026-10-21",
+      "basis": "author_instruction_after_checking_previous_research",
+      "previous_temperature": 0.7,
+      "previous_top_p": 0.95,
+      "reference_status": "Author reports checking previous research; a specific citation was not supplied in this instruction.",
+      "note": "New runs use temperature 0.8 and nucleus threshold top_p 0.9 for both stages and all cohorts. The 640-new-token ceilings, model revision, prompt text, seed, quantization, child pairs and story assignments are unchanged by this update. This records an author-adopted setting, not a claim of task-specific empirical validation. The inherited top-k behavior is unchanged; an explicit top-k decision remains pending."
+    },
+    "output_ceiling": {
+      "adopted_on": "2026-10-21",
+      "basis": "author_approved_real_ENNI_tokenizer_comparison",
+      "previous_max_new_tokens_stage1": 180,
+      "previous_max_new_tokens_stage2": 180,
+      "reference_age_months": [48, 95],
+      "reference_story_count": 1428,
+      "reference_max_stored_text_tokens": 568,
+      "reference_max_lightly_cleaned_text_tokens": 556,
+      "audit": "docs/provenance/real_story_tokenizers_2026-10-21/README.md",
+      "note": "New runs allow up to 640 new tokens per stage for every cohort, with 72 tokens above the longest saved real story at ages four through seven under all four checked tokenizers, including the pinned official Llama tokenizer. The budget excludes input tokens; earlier end-of-sequence stopping remains in effect. This is an operational ceiling, not a requested narrative length or a guarantee that generated outputs cannot reach it. Prompt wording and all other generation settings are unchanged."
+    },
+    "model_source_correction": {
+      "adopted_on": "2026-10-20",
+      "basis": "author_request_for_an_official_llama_checkpoint",
+      "previous_model_id": "avans06/Meta-Llama-3.2-8B-Instruct",
+      "previous_requested_revision": null,
+      "official_model_card": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "note": "The previous publisher describes a community conversion of Llama 3.2 11B Vision with its vision components removed. New runs use Meta's official Llama 3.1 8B Instruct checkpoint, pinned to the revision checked on 20 October 2026. This is a model change; it does not relabel or reconstruct the historical generator. Decoding settings, prompt templates and experimental assignments are unchanged by this correction. Comparative and vision conditions remain proposals pending protocol review."
+    },
+    "counterbalancing": {
+      "revision": 2,
+      "adopted_on": "2026-10-20",
+      "basis": "author_approved_reviewer_schedule",
+      "previous_csv_sha256": "73b8509bd7b1cd6f6949d9e44ad253e92f20b2b6497903171b2320bdca85a3c0",
+      "note": "Two reversed exemplar assignments per target, always from the opposite story set. At ten replicates, the existing alternating scheduler uses each assignment five times per prompt pair and target. This balances exemplar roles and overall complexity levels; other revised-study decisions remain pending. The previous configuration is preserved in the verified study freeze."
+    },
     "shared_generation_protocol": {
       "basis": "author_confirmation",
       "confirmed_on": "2026-10-14",

@@ -1,0 +1,24 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261021T095453Z/RealStoryTokenizers/real_story_tokenizers.tar.gz",
+  "archive_sha256": "3aedb4971d40a29e33f66cc1386534002162962c3dd7336c61a6bdb6b2fa82c4",
+  "regular_files_verified": 4,
+  "status": "all_archived_files_verified_by_readback",
+  "official_llama_check": "complete_exact_file_identity_verified",
+  "sidecar_sha256": {
+    "MANIFEST.json": "ccaf53e02cac1d5867b90eb2b9873ed3ab92c42936b720052a2a3d0bcb53538c",
+    "VERIFICATION.json": "095169b7570edd66ed81fd44ea62db26009c38e5eb02f3068b03ee6e94a85798"
+  },
+  "previous_partial_backup": {
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261021T094603Z/RealStoryTokenizers/real_story_tokenizers.tar.gz",
+    "archive_sha256": "f9c1a576a7c8494b311a9b6dc2e667df861a4ba3b7ad669ed9d7459019ed0e2a",
+    "regular_files_verified": 5,
+    "status": "all_archived_files_verified_by_readback",
+    "official_llama_check": "pending_author_Colab_output",
+    "sidecar_sha256": {
+      "MANIFEST.json": "7305a720f76702785668ebee1df62db88e1cdf63355c0da4d79c3396a0834065",
+      "VERIFICATION.json": "1055a7c50c275ba4e0cf6f34b8d74049cc4903be2c31ef0d46d5934d56efc2ea"
+    },
+    "scope": "Tokenizer files and completed local comparisons only; the official result remains pending. Historical tokenizer is already preserved in the earlier generation termination audit."
+  },
+  "scope": "Completed four-tokenizer audit and verified official tokenizer bytes. The earlier partial archive preserves the Qwen tokenizer files and original partial tables."
+}

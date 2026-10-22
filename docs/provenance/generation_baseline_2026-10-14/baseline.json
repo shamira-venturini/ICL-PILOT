@@ -1,0 +1,618 @@
+{
+  "backup_status": "checksum baseline only, not an external backup",
+  "captured_at_utc": "2026-10-14T11:33:32.376448+00:00",
+  "cohorts": {
+    "4": {
+      "configuration_counterbalance_violations": 0,
+      "configured_round_prompt_eval_overlaps": [],
+      "missing_or_empty_exemplar_keys": [],
+      "n_pairs": 11,
+      "n_rounds": 4,
+      "observed_generation": {
+        "CHAT_manifest_missing_ages_by_stage": {
+          "stage1_td": 120
+        },
+        "CHAT_manifest_rows": 1320,
+        "bundles_per_stage": 110,
+        "bundles_without_exactly_six_distinct_stories": 0,
+        "columns": [
+          "round_id",
+          "bundle_id",
+          "pair_id",
+          "replicate_id",
+          "story_slot_order",
+          "target_story",
+          "story_title",
+          "sli_child_id",
+          "td_child_id",
+          "sli_age",
+          "sli_severity_band",
+          "sli_profile_label",
+          "prompt_td_story_e1",
+          "prompt_sli_story_e2",
+          "story_units_text",
+          "stage1_group",
+          "stage2_group",
+          "evaluation_td_group",
+          "evaluation_sli_group",
+          "stage1_td_story",
+          "stage2_sli_story"
+        ],
+        "counterbalance_violations": 0,
+        "current_schedule_keys_absent_from_saved_generations": 120,
+        "duplicate_job_keys": 0,
+        "empty_stage1_texts": 0,
+        "empty_stage2_texts": 0,
+        "job_keys_absent_from_current_schedule": 120,
+        "jobs": 660,
+        "metadata_differences_for_shared_keys": [],
+        "model_seed_decoding_revision_columns": [],
+        "pair_differences": [
+          {
+            "configured_td_child_id": "417",
+            "observed_td_child_id": "459",
+            "round_id": "round_02",
+            "sli_child_id": "474"
+          },
+          {
+            "configured_td_child_id": "459",
+            "observed_td_child_id": "417",
+            "round_id": "round_03",
+            "sli_child_id": "475"
+          }
+        ],
+        "pairs": 11,
+        "raw_CHAT_files_by_stage": {
+          "stage1_td": 660,
+          "stage2_sli": 660
+        },
+        "replicate_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "round_job_counts": {
+          "round_01": 180,
+          "round_02": 180,
+          "round_03": 180,
+          "round_04": 120
+        },
+        "round_prompt_child_differences": [
+          {
+            "configured_only": [
+              "417"
+            ],
+            "observed_only": [
+              "459"
+            ],
+            "round_id": "round_02"
+          },
+          {
+            "configured_only": [
+              "459"
+            ],
+            "observed_only": [
+              "417"
+            ],
+            "round_id": "round_03"
+          }
+        ],
+        "schedule_semantic_sha256": "881ec321d887366200911706551687e15eeb954c677a9321589f7fd874ccb326",
+        "source_csv": "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+        "story_spine_mismatches_current_reference": 0
+      },
+      "roster": "configs/generation/four_year_old_frozen_roster.csv",
+      "ten_replicate_job_count": 660,
+      "ten_replicate_schedule_semantic_sha256": "710c4b5e3ca4584afca523d0d457f859d5328ef774797a844a459aa246fe13ee",
+      "unique_SLI_children": 11,
+      "unique_TD_children": 11
+    },
+    "5": {
+      "configuration_counterbalance_violations": 0,
+      "configured_round_prompt_eval_overlaps": [],
+      "missing_or_empty_exemplar_keys": [],
+      "n_pairs": 12,
+      "n_rounds": 4,
+      "observed_generation": {
+        "CHAT_manifest_missing_ages_by_stage": {},
+        "CHAT_manifest_rows": 1440,
+        "bundles_per_stage": 120,
+        "bundles_without_exactly_six_distinct_stories": 0,
+        "columns": [
+          "cohort",
+          "cohort_label",
+          "round_id",
+          "bundle_id",
+          "pair_id",
+          "replicate_id",
+          "story_slot_order",
+          "target_story",
+          "story_title",
+          "sli_child_id",
+          "td_child_id",
+          "sli_age",
+          "sli_severity_band",
+          "sli_profile_label",
+          "prompt_td_story_e1",
+          "prompt_sli_story_e2",
+          "story_units_text",
+          "stage1_group",
+          "stage2_group",
+          "evaluation_td_group",
+          "evaluation_sli_group",
+          "stage1_td_story",
+          "stage2_sli_story"
+        ],
+        "counterbalance_violations": 0,
+        "current_schedule_keys_absent_from_saved_generations": 0,
+        "duplicate_job_keys": 0,
+        "empty_stage1_texts": 0,
+        "empty_stage2_texts": 0,
+        "job_keys_absent_from_current_schedule": 0,
+        "jobs": 720,
+        "metadata_differences_for_shared_keys": [],
+        "model_seed_decoding_revision_columns": [],
+        "pair_differences": [],
+        "pairs": 12,
+        "raw_CHAT_files_by_stage": {
+          "stage1_td": 720,
+          "stage2_sli": 720
+        },
+        "replicate_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "round_job_counts": {
+          "round_01": 180,
+          "round_02": 180,
+          "round_03": 180,
+          "round_04": 180
+        },
+        "round_prompt_child_differences": [],
+        "schedule_semantic_sha256": "43c076529133e2b490d8536471b20d2c93e8aa82cfaf06a9f5c23b43d9b40021",
+        "source_csv": "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+        "story_spine_mismatches_current_reference": 0
+      },
+      "roster": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_frozen_roster.csv",
+      "saved_package": {
+        "jobs": 72,
+        "matches_current_one_replicate_schedule": true,
+        "replicate_ids": [
+          "1"
+        ],
+        "schedule": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_schedule.csv"
+      },
+      "ten_replicate_job_count": 720,
+      "ten_replicate_schedule_semantic_sha256": "43c076529133e2b490d8536471b20d2c93e8aa82cfaf06a9f5c23b43d9b40021",
+      "unique_SLI_children": 12,
+      "unique_TD_children": 12
+    },
+    "6": {
+      "configuration_counterbalance_violations": 0,
+      "configured_round_prompt_eval_overlaps": [],
+      "missing_or_empty_exemplar_keys": [],
+      "n_pairs": 11,
+      "n_rounds": 4,
+      "observed_generation": {
+        "CHAT_manifest_missing_ages_by_stage": {},
+        "CHAT_manifest_rows": 1320,
+        "bundles_per_stage": 110,
+        "bundles_without_exactly_six_distinct_stories": 0,
+        "columns": [
+          "cohort",
+          "cohort_label",
+          "round_id",
+          "bundle_id",
+          "pair_id",
+          "replicate_id",
+          "story_slot_order",
+          "target_story",
+          "story_title",
+          "sli_child_id",
+          "td_child_id",
+          "sli_age",
+          "sli_severity_band",
+          "sli_profile_label",
+          "prompt_td_story_e1",
+          "prompt_sli_story_e2",
+          "story_units_text",
+          "stage1_group",
+          "stage2_group",
+          "evaluation_td_group",
+          "evaluation_sli_group",
+          "stage1_td_story",
+          "stage2_sli_story"
+        ],
+        "counterbalance_violations": 0,
+        "current_schedule_keys_absent_from_saved_generations": 0,
+        "duplicate_job_keys": 0,
+        "empty_stage1_texts": 0,
+        "empty_stage2_texts": 0,
+        "job_keys_absent_from_current_schedule": 0,
+        "jobs": 660,
+        "metadata_differences_for_shared_keys": [],
+        "model_seed_decoding_revision_columns": [],
+        "pair_differences": [],
+        "pairs": 11,
+        "raw_CHAT_files_by_stage": {
+          "stage1_td": 660,
+          "stage2_sli": 660
+        },
+        "replicate_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "round_job_counts": {
+          "round_01": 180,
+          "round_02": 180,
+          "round_03": 180,
+          "round_04": 120
+        },
+        "round_prompt_child_differences": [],
+        "schedule_semantic_sha256": "0c82709c9bfe81eff89979fef298b90ce11cebf26b244743974113c27c09014d",
+        "source_csv": "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+        "story_spine_mismatches_current_reference": 0
+      },
+      "roster": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_frozen_roster.csv",
+      "saved_package": {
+        "jobs": 66,
+        "matches_current_one_replicate_schedule": true,
+        "replicate_ids": [
+          "1"
+        ],
+        "schedule": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_schedule.csv"
+      },
+      "ten_replicate_job_count": 660,
+      "ten_replicate_schedule_semantic_sha256": "0c82709c9bfe81eff89979fef298b90ce11cebf26b244743974113c27c09014d",
+      "unique_SLI_children": 11,
+      "unique_TD_children": 11
+    },
+    "7": {
+      "configuration_counterbalance_violations": 0,
+      "configured_round_prompt_eval_overlaps": [],
+      "missing_or_empty_exemplar_keys": [],
+      "n_pairs": 13,
+      "n_rounds": 5,
+      "observed_generation": {
+        "CHAT_manifest_missing_ages_by_stage": {},
+        "CHAT_manifest_rows": 1560,
+        "bundles_per_stage": 130,
+        "bundles_without_exactly_six_distinct_stories": 0,
+        "columns": [
+          "cohort",
+          "cohort_label",
+          "round_id",
+          "bundle_id",
+          "pair_id",
+          "replicate_id",
+          "story_slot_order",
+          "target_story",
+          "story_title",
+          "sli_child_id",
+          "td_child_id",
+          "sli_age",
+          "sli_severity_band",
+          "sli_profile_label",
+          "prompt_td_story_e1",
+          "prompt_sli_story_e2",
+          "story_units_text",
+          "stage1_group",
+          "stage2_group",
+          "evaluation_td_group",
+          "evaluation_sli_group",
+          "stage1_td_story",
+          "stage2_sli_story"
+        ],
+        "counterbalance_violations": 0,
+        "current_schedule_keys_absent_from_saved_generations": 0,
+        "duplicate_job_keys": 0,
+        "empty_stage1_texts": 0,
+        "empty_stage2_texts": 0,
+        "job_keys_absent_from_current_schedule": 0,
+        "jobs": 780,
+        "metadata_differences_for_shared_keys": [],
+        "model_seed_decoding_revision_columns": [],
+        "pair_differences": [],
+        "pairs": 13,
+        "raw_CHAT_files_by_stage": {
+          "stage1_td": 780,
+          "stage2_sli": 780
+        },
+        "replicate_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "round_job_counts": {
+          "round_01": 180,
+          "round_02": 180,
+          "round_03": 180,
+          "round_04": 180,
+          "round_05": 60
+        },
+        "round_prompt_child_differences": [],
+        "schedule_semantic_sha256": "bf54ec6d7e008cb0e5d7987b406d4dd55c73ea202ed072259fa4dfed6d39b987",
+        "source_csv": "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+        "story_spine_mismatches_current_reference": 0
+      },
+      "roster": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_frozen_roster.csv",
+      "saved_package": {
+        "jobs": 78,
+        "matches_current_one_replicate_schedule": true,
+        "replicate_ids": [
+          "1"
+        ],
+        "schedule": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_schedule.csv"
+      },
+      "ten_replicate_job_count": 780,
+      "ten_replicate_schedule_semantic_sha256": "bf54ec6d7e008cb0e5d7987b406d4dd55c73ea202ed072259fa4dfed6d39b987",
+      "unique_SLI_children": 13,
+      "unique_TD_children": 13
+    },
+    "8": {
+      "configuration_counterbalance_violations": 0,
+      "configured_round_prompt_eval_overlaps": [],
+      "missing_or_empty_exemplar_keys": [],
+      "n_pairs": 16,
+      "n_rounds": 6,
+      "roster": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_frozen_roster.csv",
+      "saved_package": {
+        "jobs": 96,
+        "matches_current_one_replicate_schedule": true,
+        "replicate_ids": [
+          "1"
+        ],
+        "schedule": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_schedule.csv"
+      },
+      "ten_replicate_job_count": 960,
+      "ten_replicate_schedule_semantic_sha256": "4c440578b6e6a2cd65a82c9ec3758130658ca038203cc912954cd42a9674840f",
+      "unique_SLI_children": 16,
+      "unique_TD_children": 16
+    },
+    "9": {
+      "configuration_counterbalance_violations": 0,
+      "configured_round_prompt_eval_overlaps": [],
+      "missing_or_empty_exemplar_keys": [],
+      "n_pairs": 11,
+      "n_rounds": 4,
+      "roster": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_frozen_roster.csv",
+      "saved_package": {
+        "jobs": 66,
+        "matches_current_one_replicate_schedule": true,
+        "replicate_ids": [
+          "1"
+        ],
+        "schedule": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_schedule.csv"
+      },
+      "ten_replicate_job_count": 660,
+      "ten_replicate_schedule_semantic_sha256": "96142c4a4c916b15f1035f19f31a5fd50c1410fd09c1d661a06f1448e3b1f7e4",
+      "unique_SLI_children": 11,
+      "unique_TD_children": 11
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/anaconda3/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/generation_baseline_2026-10-14/pytest_tmp",
+        "tests/test_profiling_retirement.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/anaconda3/bin/python",
+        "-m",
+        "icl_pilot",
+        "validate-layout"
+      ],
+      "exit_code": 1
+    },
+    {
+      "argv": [
+        "/opt/anaconda3/bin/python",
+        "-m",
+        "icl_pilot",
+        "show-counterbalance"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/anaconda3/bin/python",
+        "-m",
+        "icl_pilot",
+        "show-manifest",
+        "--limit",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/anaconda3/bin/python",
+        "-c",
+        "from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig; print('Notebook model-loading imports available; no model loaded')"
+      ],
+      "exit_code": 1
+    }
+  ],
+  "current_notebook": {
+    "ages_explicitly_inserted_by_prompt_functions": false,
+    "executed_cells": 0,
+    "model_and_tokenizer_revision_pinned": false,
+    "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+    "per_job_generation_seed_used_by_runner": false,
+    "prompt_cell_index": 12,
+    "prompt_source_is_proof_of_historical_execution": false,
+    "prompt_source_sha256": "6f85397963bd0b66024e323f9d358b8380cff96fdb20aeef073e85331ab569dd",
+    "settings": {
+      "AGE_BINS": [
+        [
+          "5-year-old",
+          60,
+          71
+        ],
+        [
+          "6-year-old",
+          72,
+          83
+        ],
+        [
+          "7-year-old",
+          84,
+          95
+        ],
+        [
+          "8-year-old",
+          96,
+          107
+        ],
+        [
+          "9-year-old",
+          108,
+          119
+        ]
+      ],
+      "AUTO_MOUNT_DRIVE": true,
+      "CONVERT_TO_CHA": true,
+      "DELETE_LOCAL_AFTER_EXPORT": false,
+      "DOWNLOAD_CHA_AND_TALKTAG": true,
+      "DOWNLOAD_EACH_COHORT_CSV": false,
+      "DO_SAMPLE": true,
+      "MAX_NEW_TOKENS_STAGE1": 180,
+      "MAX_NEW_TOKENS_STAGE2": 180,
+      "MODEL_NAME": "avans06/Meta-Llama-3.2-8B-Instruct",
+      "N_REPLICATES": 10,
+      "PAIRS_PER_ROUND": 3,
+      "ROW_LIMIT": null,
+      "RUN_TALKTAG": false,
+      "SAVE_EVERY": 25,
+      "SAVE_TO_DRIVE": true,
+      "SEED": 42,
+      "START_COHORT_LABEL": "6-year-old",
+      "TALKTAG_CMD_TEMPLATE": [
+        "python",
+        "-m",
+        "talk_tag.cli",
+        "annotate",
+        "--input-dir",
+        "{input_dir}",
+        "--output-dir",
+        "{output_dir}",
+        "--target-speaker",
+        "*CHI",
+        "--speaker-field",
+        "speaker",
+        "--text-field",
+        "utterance",
+        "--limit",
+        "0"
+      ],
+      "TALKTAG_STAGES": [
+        "stage2_sli"
+      ],
+      "TEMPERATURE": 0.7
+    },
+    "stored_output_cells": 0,
+    "top_p_in_current_generation_function": 0.95
+  },
+  "environment": {
+    "executable": "/opt/anaconda3/bin/python",
+    "packages": {
+      "Pillow": "10.4.0",
+      "accelerate": "1.0.1",
+      "bitsandbytes": "0.42.0",
+      "huggingface_hub": "0.36.0",
+      "numpy": "1.23.5",
+      "pandas": "2.0.1",
+      "pypdf": "5.9.0",
+      "pytest": "0.0.0",
+      "scipy": "1.5.2",
+      "torch": "1.6.0",
+      "transformers": "4.12.5"
+    },
+    "platform": "macOS-26.5.2-x86_64-i386-64bit",
+    "python": "3.8.5 (default, Sep  4 2020, 02:22:02) \n[Clang 10.0.0 ]"
+  },
+  "exemplar_input": {
+    "blank_group_rows": 6,
+    "duplicate_lookup_keys": 0,
+    "missing_referenced_transcript_paths": 0,
+    "rows": 2166
+  },
+  "git_after": {
+    "generation_scope_changes": [
+      " M notebooks/colab_direct_generation_pipeline.ipynb",
+      " M src/icl_pilot/frozen_roster.py",
+      " M src/icl_pilot/generation/workflow.py"
+    ],
+    "head": "01cace795c7a0fa3e2ed909c82407fc2e36ec9d7",
+    "status_counts_full_untracked_expansion": {
+      " D": 2488,
+      " M": 8,
+      "??": 8733
+    },
+    "status_sha256": "bf2f0244a3645aa0180365eb1ad22c778f8d47c1e8dcf6100789194910b4000d"
+  },
+  "git_before": {
+    "generation_scope_changes": [
+      " M notebooks/colab_direct_generation_pipeline.ipynb",
+      " M src/icl_pilot/frozen_roster.py",
+      " M src/icl_pilot/generation/workflow.py"
+    ],
+    "head": "01cace795c7a0fa3e2ed909c82407fc2e36ec9d7",
+    "status_counts_full_untracked_expansion": {
+      " D": 2488,
+      " M": 8,
+      "??": 8708
+    },
+    "status_sha256": "a5c70c072288b567508c3ae3cf45c8498a8da5715960edef4d14cc8a3ddc4858"
+  },
+  "inventory": {
+    "copies_of_source_data_created": 0,
+    "files": 6116,
+    "source_bytes": 20388339
+  },
+  "preservation": {
+    "changed_or_missing_files": [],
+    "inventoried_files_rehashed": 6116
+  },
+  "scope": "generation only; no annotation, feature construction, analysis, or model inference"
+}

@@ -1,0 +1,10 @@
+{
+  "release": "v0.30.0",
+  "url": "https://github.com/TalkBank/chatter/releases/download/v0.30.0/talkbank-chatter-x86_64-apple-darwin.tar.xz",
+  "archive_sha256": "e09e1378d5389beb27bd3a6ae1f658cd6730c495a231200199e3ad623146d315",
+  "binary_sha256": "144f00badb92553abb58c1b1b12e1902134f565b3254a077cd85098d8d43a286",
+  "platform": "macOS-26.5.2-x86_64-i386-64bit",
+  "version_command_exit": 0,
+  "version_stdout": "chatter 0.30.0 (build 0.30.0-v0.30.0-1792014318)\n",
+  "version_stderr": ""
+}

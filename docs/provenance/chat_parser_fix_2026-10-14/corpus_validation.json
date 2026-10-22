@@ -1,0 +1,23 @@
+{
+  "old_csv": "phase2/ENNI/measures/story_units/story_unit_narratives.csv",
+  "new_csv": "data/processed/generation_inputs/story_unit_narratives_chat_v2.csv",
+  "old_csv_sha256": "897153a81d831783c04ac719f1a34545f1b2e0c67172fdb7bf4ca7572d50fcb6",
+  "new_csv_sha256": "89643c6ca494e525b47eb3863a36bea3d702402c9dd1e3e5d42b401fa9828cbc",
+  "story_rows": 2166,
+  "source_transcripts_checked_unchanged": 361,
+  "historical_csv_unchanged": true,
+  "changed_field_counts": {
+    "Age_Month": 2160
+  },
+  "selected_prompt_rows": 564,
+  "selected_age_metadata_matches_roster": true,
+  "selected_prompt_text_and_utterance_arrays_unchanged": true,
+  "remaining_unknown_group_rows": 6,
+  "remaining_unknown_age_rows": 6,
+  "parser_issue_counts": {
+    "orphan_annotation_continuation": 33437,
+    "redundant_punctuation_continuation": 948,
+    "missing_age": 1,
+    "missing_group": 1
+  }
+}

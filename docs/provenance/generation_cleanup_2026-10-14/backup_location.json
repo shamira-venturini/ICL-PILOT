@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "f911ebe4cea11c148b6e11d80d71ed6e6179ea02fa92efaf3a3a379d7b15c280",
+  "external_transfer_verified": true,
+  "external_verification": {
+    "archive_bytes": 193485,
+    "archive_members_verified": 106,
+    "archive_sha256": "f911ebe4cea11c148b6e11d80d71ed6e6179ea02fa92efaf3a3a379d7b15c280",
+    "external_directory": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T115428Z/Generation",
+    "external_transfer_verified": true,
+    "source_hashes_rechecked": true,
+    "verified_at_utc": "2026-10-14T11:55:10.803118+00:00",
+    "volume": {
+      "DeviceIdentifier": "disk4s2",
+      "Internal": false,
+      "MountPoint": "/Volumes/TranscendBU",
+      "VolumeName": "TranscendBU",
+      "VolumeUUID": "E33EEB9A-D24F-33F4-B568-08627A9E27E6"
+    }
+  },
+  "intended_external_directory": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T115428Z/Generation",
+  "local_archive_removed_after_external_verification": true,
+  "local_directory": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/generation_cleanup_2026-10-14/backup_ready/ICL-PILOT_78a5cadad659_20261014T115428Z/Generation"
+}

@@ -2,48 +2,40 @@ from __future__ import annotations
 
 import argparse
 
-from .alignment_repair import repair_alignments
-try:
-    from .batchalign_runner import run_morphotag
-    from .batchalign_batch_runner import run_morphotag_batched
-    _HAS_BATCHALIGN_COMMANDS = True
-except ModuleNotFoundError:
-    run_morphotag = None
-    run_morphotag_batched = None
-    _HAS_BATCHALIGN_COMMANDS = False
-from .bundled_text_perplexity import build_bundled_td_text_perplexity, build_bundled_text_perplexity
-from .bundled_text_semantic_eval import build_bundled_text_semantic_evaluation
-from .dss_features import build_dss_feature_table, merge_dss_into_master
-from .error_codes import build_error_code_feature_table
-from .error_rate_features import add_error_rate_features_to_master
-from .feature_redundancy import audit_feature_redundancy
-from .filelist import write_cha_filelist
-from .frozen_roster import build_frozen_roster_manifest
-from .generated_bundle_evaluation import build_generated_bundle_evaluation
-from .grouped_error_features import build_grouped_error_feature_table
-from .grouped_error_features import merge_grouped_error_features_into_master
-from .generated_text_evaluation import build_generated_text_evaluation
+from .maintenance.alignment_repair import repair_alignments
+from .evaluation.bundled_text_perplexity import build_bundled_td_text_perplexity, build_bundled_text_perplexity
+from .evaluation.bundled_text_semantic_eval import build_bundled_text_semantic_evaluation
+from .features.dss_features import build_dss_feature_table, merge_dss_into_master
+from .features.error_codes import build_error_code_feature_table
+from .features.error_rate_features import add_error_rate_features_to_master
+from .features.feature_redundancy import audit_feature_redundancy
+from .chat.filelist import write_cha_filelist
+from .generation.frozen_roster import build_frozen_roster_manifest
+from .evaluation.generated_bundle_evaluation import build_generated_bundle_evaluation
+from .features.grouped_error_features import build_grouped_error_feature_table
+from .features.grouped_error_features import merge_grouped_error_features_into_master
+from .evaluation.generated_text_evaluation import build_generated_text_evaluation
 from .manifest import load_counterbalance_rules, load_generation_manifest
-from .pause_normalizer import normalize_initial_pauses
-from .past_verb_features import (
+from .maintenance.pause_normalizer import normalize_initial_pauses
+from .features.past_verb_features import (
     build_past_verb_feature_table,
     merge_past_verb_features_into_master,
 )
 from .paths import expected_layout
-from .quote_normalizer import normalize_quote_terminators
-from .severity_features import build_severity_feature_table
-from .story_packet_design import (
+from .maintenance.quote_normalizer import normalize_quote_terminators
+from .features.raw_features import build_severity_feature_table
+from .maintenance.story_packet_design import (
     bootstrap_story_packets,
     build_story_packet_template,
     extract_story_panels,
 )
-from .story_unit_semrp import (
+from .chat.story_unit_semrp import (
     build_story_unit_reference_template,
     extract_story_unit_narratives,
     score_story_unit_semrp,
 )
-from .tier_promotion import promote_batchalign_tiers
-from .tier_stripper import strip_tiers
+from .maintenance.tier_promotion import promote_batchalign_tiers
+from .chat.tier_stripper import strip_tiers
 
 
 def _cmd_validate_layout() -> int:
@@ -85,40 +77,6 @@ def _cmd_show_manifest(limit: int | None) -> int:
             f"| SLI exemplar={row.e2_subject_ids}:{row.e2_story} | one output per stage"
         )
     return 0
-
-
-def _cmd_run_batchalign_morphotag(args: argparse.Namespace) -> int:
-    if run_morphotag is None:
-        print("Batchalign commands are unavailable because batchalign modules were removed from src/icl_pilot.")
-        return 2
-    return run_morphotag(
-        input_dir=args.input_dir,
-        output_dir=args.output_dir,
-        keeptokens=not args.retokenize,
-        lexicon=args.lexicon,
-        override_cache=args.override_cache,
-        force_cpu=args.force_cpu,
-        workers=args.workers,
-        dry_run=args.dry_run,
-    )
-
-
-def _cmd_run_batchalign_morphotag_batched(args: argparse.Namespace) -> int:
-    if run_morphotag_batched is None:
-        print("Batchalign commands are unavailable because batchalign modules were removed from src/icl_pilot.")
-        return 2
-    return run_morphotag_batched(
-        input_dir=args.input_dir,
-        output_dir=args.output_dir,
-        batch_size=args.batch_size,
-        keeptokens=not args.retokenize,
-        lexicon=args.lexicon,
-        manifest_csv=args.manifest_csv,
-        start_batch=args.start_batch,
-        max_batches=args.max_batches,
-        skip_existing=not args.no_skip_existing,
-        dry_run=args.dry_run,
-    )
 
 
 def _cmd_write_cha_filelist(args: argparse.Namespace) -> int:
@@ -367,28 +325,6 @@ def build_parser() -> argparse.ArgumentParser:
     manifest_parser = subparsers.add_parser("show-manifest")
     manifest_parser.add_argument("--limit", type=int, default=None)
 
-    if _HAS_BATCHALIGN_COMMANDS:
-        batchalign_parser = subparsers.add_parser("run-batchalign-morphotag")
-        batchalign_parser.add_argument("input_dir")
-        batchalign_parser.add_argument("output_dir")
-        batchalign_parser.add_argument("--retokenize", action="store_true")
-        batchalign_parser.add_argument("--lexicon", default=None)
-        batchalign_parser.add_argument("--override-cache", action="store_true")
-        batchalign_parser.add_argument("--force-cpu", action="store_true")
-        batchalign_parser.add_argument("--workers", type=int, default=None)
-        batchalign_parser.add_argument("--dry-run", action="store_true")
-
-        batchalign_batched_parser = subparsers.add_parser("run-batchalign-morphotag-batched")
-        batchalign_batched_parser.add_argument("input_dir")
-        batchalign_batched_parser.add_argument("output_dir")
-        batchalign_batched_parser.add_argument("--batch-size", type=int, default=200)
-        batchalign_batched_parser.add_argument("--retokenize", action="store_true")
-        batchalign_batched_parser.add_argument("--lexicon", default=None)
-        batchalign_batched_parser.add_argument("--manifest-csv", default=None)
-        batchalign_batched_parser.add_argument("--start-batch", type=int, default=1)
-        batchalign_batched_parser.add_argument("--max-batches", type=int, default=None)
-        batchalign_batched_parser.add_argument("--no-skip-existing", action="store_true")
-        batchalign_batched_parser.add_argument("--dry-run", action="store_true")
 
     filelist_parser = subparsers.add_parser("write-cha-filelist")
     filelist_parser.add_argument("input_dir")

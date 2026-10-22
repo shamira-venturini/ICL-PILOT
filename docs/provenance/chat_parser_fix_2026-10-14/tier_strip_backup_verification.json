@@ -1,0 +1,8 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T131515Z/CHATParsing/tier_strip_code_snapshot.tar.gz",
+  "archive_sha256": "64a37a973c2c8a3be11af80f9cdd4e1d59870614ef54f9a5de0bf928ba7cc3a8",
+  "verified_paths": [
+    "src/icl_pilot/tier_stripper.py",
+    "tests/test_tier_stripper.py"
+  ]
+}

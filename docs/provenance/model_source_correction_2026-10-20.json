@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "recorded_at_utc": "2026-10-20T10:00:18.250545+00:00",
+  "basis": "Author request for an official Llama model and justified comparisons; author confirmed one Colab GPU as compute constraint",
+  "before_config_sha256": "4066950dc5243903aceda45eebafad795bd274b1aa16497e00541a9f811ffd2f",
+  "after_config_sha256": "e88cfbccdf54e46de7be51dcf2574ed939e347e452511c4cfac32a6ae3fbbb88",
+  "previous_requested_model": {
+    "id": "avans06/Meta-Llama-3.2-8B-Instruct",
+    "revision": null,
+    "publisher_description": "Text-only conversion of Llama 3.2 11B Vision with vision components and cross-attention layers removed",
+    "historical_installed_weights_revision": "not recovered",
+    "current_public_metadata_checked_on": "2026-10-20",
+    "current_public_repository_revision": "61f0ad72eb603310b03ec8a3260fd912a82a1cb5",
+    "source": "https://huggingface.co/avans06/Meta-Llama-3.2-8B-Instruct"
+  },
+  "new_requested_model": {
+    "id": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "publisher": "Meta",
+    "public_metadata_endpoint": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct",
+    "metadata_access": "public metadata only; no model weights downloaded",
+    "gated_access": "manual approval required",
+    "model_card": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+  },
+  "validation": {
+    "before_config_reconstructed_exactly_against_previous_audit": true,
+    "approved_counterbalancing_hash_unchanged": true,
+    "focused_tests": {
+      "passed": 66,
+      "warnings": 3,
+      "files": [
+        "tests/test_generation_config.py",
+        "tests/test_generation_prompts.py"
+      ],
+      "warnings_basis": "pre-existing numexpr/distutils dependency warnings"
+    },
+    "notebook_code_cell_syntax_after_ipython_transformation": {
+      "passed": true,
+      "cells": 40
+    },
+    "notebook_outputs_empty": true,
+    "edited_document_local_links_checked": 48,
+    "gpu_loading_and_inference": "pending in Colab with approved model access",
+    "scientific_analyses_or_generation_run": false,
+    "only_existing_config_values_changed_are_model_id_and_revision": true
+  },
+  "comparison_status": {
+    "compute_constraint": "single Colab GPU",
+    "proposed_text_comparator": "Qwen/Qwen3-8B with thinking disabled via chat template",
+    "proposed_vision_pilot": "Qwen/Qwen3-VL-8B-Instruct with a same-checkpoint text control",
+    "adopted_comparison_conditions": false,
+    "model_selection_note": "docs/guides/model_selection.md"
+  },
+  "historical_artifacts": "Existing model attribution and frozen archives remain unchanged; the metadata checked today is not evidence of the historical installed checkpoint."
+}

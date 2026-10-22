@@ -1,0 +1,79 @@
+{
+  "scope": "Generation configuration, prompt construction, paired stage inference, and the existing CHAT export boundary. Annotation, features, analyses, results, and classifiers are outside this audit.",
+  "runtime_flow": [
+    {
+      "input": "phase2/ENNI/measures/dev_measures.csv",
+      "consumer": "src/icl_pilot/frozen_roster.py:build_frozen_roster_manifest",
+      "purpose": "Select TD/SLI children in an age bin and solve one-to-one minimum-total-age-gap pairing.",
+      "condition": "Package builders only build a roster when the cohort roster file does not already exist.",
+      "caution": "The table is consumed for child metadata; no severity/profile table is required. Do not overwrite frozen historical pairings."
+    },
+    {
+      "input": "configs/generation/*frozen_roster.csv and the age-specific rosters inside colab_generation_package_direct_rotating_multi_age",
+      "consumer": "src/icl_pilot/generation/workflow.py:build_rotating_generation_package",
+      "purpose": "Build rounds, schedules, bundle indexes, feature placeholders, and split bookkeeping.",
+      "caution": "This baseline called only the in-memory schedule/round/split functions. It did not call a package-writing builder. The four-year-old saved generations differ from the current frozen roster in two pairs."
+    },
+    {
+      "input": "configs/generation/cross_story_counterbalancing.csv",
+      "consumer": "src/icl_pilot/generation/workflow.py:_build_story_generation_schedule_from_roster",
+      "purpose": "Choose opposite-set TD and SLI exemplar story slots. Variant selection uses pair order and replicate number.",
+      "caution": "One schedule row is a target-story job with two stages; a six-story bundle groups one pair and replicate."
+    },
+    {
+      "input": "phase2/ENNI/measures/story_units/story_unit_reference.json",
+      "consumer": "notebooks/colab_direct_generation_pipeline.ipynb:cell 9",
+      "purpose": "Load the project-authored picture-derived story spine, title, invariants, optional details, and constraints.",
+      "caution": "This is the actual runtime scaffold. Official picture PDFs and story-packet drafts support its provenance but are not loaded during text generation."
+    },
+    {
+      "input": "phase2/ENNI/measures/story_units/story_unit_narratives.csv",
+      "consumer": "notebooks/colab_direct_generation_pipeline.ipynb:cell 9",
+      "purpose": "Look up exemplar text by child ID, literal corpus group, and story slot.",
+      "upstream_builder": "src/icl_pilot/story_unit_semrp.py:extract_story_unit_narratives",
+      "caution": "The notebook substitutes an empty string for a missing key. The audited configured exemplar keys are currently present and nonempty."
+    },
+    {
+      "input": "Enriched generation schedule and current notebook settings",
+      "consumer": "notebooks/colab_direct_generation_pipeline.ipynb:cells 11-15",
+      "purpose": "Load the tokenizer/model; construct Stage 1 messages; generate TD-like text; insert that text into Stage 2 messages; generate SLI-conditioned text; save the two outputs in the same CSV row.",
+      "caution": "The word 'direct' in the notebook name means native transformers execution. The implemented generation remains two-stage. Model loading and inference were not executed by this audit."
+    },
+    {
+      "input": "Paired-stage generation CSV and matching cohort roster",
+      "consumer": "src/icl_pilot/generated_chat.py:convert_generated_story_csv_to_cha",
+      "purpose": "Export one CHAT transcript for each stage of each target-story job, with a chat_manifest.csv.",
+      "caution": "Historical source/output paths in existing CHAT comments and manifests can be stale. Existing transcripts were only read and hashed."
+    }
+  ],
+  "historical_or_shared_consumers": [
+    {
+      "input": "configs/generation/sample_wise_multistep_manifest.csv",
+      "consumers": ["src/icl_pilot/paths.py:MANIFEST_CSV", "src/icl_pilot/manifest.py:load_generation_manifest", "src/icl_pilot/cli.py:show-manifest", "src/icl_pilot/paths.py:expected_layout"],
+      "status": "Historical report manifest, still read by inspection/layout utilities; not read by the active notebook generation path. Update these consumers before retirement."
+    },
+    {
+      "inputs": ["configs/generation/four_year_old_architecture_pilot_manifest.csv", "configs/generation/four_year_old_architecture_pilot_holdout.csv", "configs/generation/four_year_old_loocv/"],
+      "status": "Earlier architecture-comparison plans; referenced by historical generation documentation. The profile-matched LOOCV builder was previously retired."
+    },
+    {
+      "inputs": ["configs/generation/story_pool_assignment.csv", "configs/generation/story_generation_cells.csv", "configs/generation/story_generation_manifest_v2.csv", "configs/generation/story_generation_overview.csv", "configs/generation/story_generation_design_summary.json"],
+      "status": "Abandoned profiling-stratification feasibility records retained during the previous cleanup. No active generation notebook dependency was found. No files were removed in this step."
+    },
+    {
+      "input": "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+      "status": "Combined roster with downstream consumers. Not loaded by the active generation notebook. Its assignments agree with the individual frozen rosters, including the four-year-old discrepancy with saved generations. Downstream consumers were not changed or executed."
+    },
+    {
+      "inputs": ["data/ENNI_images/", "data/processed/story_packets/", "src/icl_pilot/story_packet_design.py"],
+      "status": "Supporting picture/scaffold design materials. Their absence from the inference runtime does not establish that they are disposable. No visual verification or regeneration was performed."
+    }
+  ],
+  "current_notebook_write_behaviour_to_preserve_for_review": [
+    "Building a package reuses an existing frozen roster, but writes schedules, templates, split manifests, and summaries into the chosen output directory.",
+    "The generation loop deletes an existing aggregate CSV when its cell starts, then rewrites cohort CSVs from an empty in-memory row list.",
+    "START_COHORT_LABEL is currently 6-year-old despite requested AGE_BINS beginning at 5-year-old. This is a cohort restart control, not per-job resume.",
+    "Drive synchronization can replace existing cohort export directories. The audit did not mount Drive, copy exports, or run these cells.",
+    "The schedule has generation_seed metadata, but the loop does not pass a row-specific seed to inference. Current notebook seeding initializes one random stream."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "completed_at_utc": "2026-10-14T12:16:14.005515+00:00",
+  "deleted_files": 54,
+  "deleted_source_bytes": 859718,
+  "external_archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T115428Z/Generation/generation_snapshot.tar.gz",
+  "external_archive_sha256": "f911ebe4cea11c148b6e11d80d71ed6e6179ea02fa92efaf3a3a379d7b15c280",
+  "raw_data_or_results_deleted": false,
+  "retained_compatibility_files": [
+    "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+    "configs/generation/cross_story_counterbalancing.csv"
+  ]
+}

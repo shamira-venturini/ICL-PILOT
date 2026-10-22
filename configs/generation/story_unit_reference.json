@@ -3,7 +3,7 @@
     "story_id": "A1",
     "title": "Ball in the pool",
     "source": "official ENNI picture sequence",
-    "notes": "Canonical picture-grounded spine for prompt construction. Use the units below as the content plan; do not turn them into an adult-style polished retell.",
+    "notes": "Canonical picture-grounded spine for prompt construction. Use the units below as the content plan.",
     "units": [
       "Two animals play near the pool with a ball.",
       "The ball falls into the water.",
@@ -25,8 +25,7 @@
     ],
     "prompt_constraints": [
       "Preserve the order of the spine.",
-      "Keep the narration child-like and simple.",
-      "Do not add adult-style exposition or new plot events."
+      "Do not add new plot events."
     ]
   },
   "A2": {
@@ -55,8 +54,7 @@
     ],
     "prompt_constraints": [
       "Preserve the order of the spine.",
-      "Keep the narration child-like and simple.",
-      "Do not add adult-style exposition or new plot events."
+      "Do not add new plot events."
     ]
   },
   "A3": {
@@ -85,8 +83,7 @@
     ],
     "prompt_constraints": [
       "Preserve the order of the spine.",
-      "Keep the narration child-like and simple.",
-      "Do not add adult-style exposition or new plot events."
+      "Do not add new plot events."
     ]
   },
   "B1": {
@@ -115,8 +112,7 @@
     ],
     "prompt_constraints": [
       "Preserve the order of the spine.",
-      "Keep the narration child-like and simple.",
-      "Do not add adult-style exposition or new plot events."
+      "Do not add new plot events."
     ]
   },
   "B2": {
@@ -145,8 +141,7 @@
     ],
     "prompt_constraints": [
       "Preserve the order of the spine.",
-      "Keep the narration child-like and simple.",
-      "Do not add adult-style exposition or new plot events."
+      "Do not add new plot events."
     ]
   },
   "B3": {
@@ -178,8 +173,7 @@
     ],
     "prompt_constraints": [
       "Preserve the order of the spine.",
-      "Keep the narration child-like and simple.",
-      "Do not add adult-style exposition or new plot events."
+      "Do not add new plot events."
     ]
   }
 }

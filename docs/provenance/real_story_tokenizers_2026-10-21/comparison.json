@@ -1,0 +1,1836 @@
+{
+  "source_csv": "configs/generation/inputs/story_unit_narratives_chat_v2.csv",
+  "source_sha256": "89643c6ca494e525b47eb3863a36bea3d702402c9dd1e3e5d42b401fa9828cbc",
+  "sources": [
+    {
+      "label": "qwen3_8b",
+      "repo": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3-8B/revision/b968826d9c46dd6066d109eabc6255188de91218?blobs=true",
+      "download_url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "git_blob_sha1": "949e1ec83f61520a25c75426edc4a43acc36f29a",
+      "repository_file_metadata": {
+        "rfilename": "tokenizer.json",
+        "blobId": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+        "size": 11422654,
+        "lfs": {
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "size": 11422654,
+          "pointerSize": 133
+        }
+      }
+    },
+    {
+      "label": "qwen3_vl_8b",
+      "repo": "Qwen/Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-8B-Instruct/revision/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b?blobs=true",
+      "download_url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/resolve/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b/tokenizer.json",
+      "bytes": 7032403,
+      "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+      "git_blob_sha1": "c6cc1014128b19d1fc46b1d30a23e3b1d35db421",
+      "repository_file_metadata": {
+        "rfilename": "tokenizer.json",
+        "blobId": "c6cc1014128b19d1fc46b1d30a23e3b1d35db421",
+        "size": 7032403
+      }
+    },
+    {
+      "label": "historical_reference",
+      "repo": "avans06/Meta-Llama-3.2-8B-Instruct",
+      "revision": "61f0ad72eb603310b03ec8a3260fd912a82a1cb5",
+      "bytes": 9085825,
+      "sha256": "bbeb3ac656ce31599b5192b8442ab7f13a25cf0d72fde82cd01f17895b50ca37",
+      "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261021T091052Z/GenerationTerminationAudit/generation_termination_audit.tar.gz",
+      "archive_member": "generation_termination_audit/tokenizer.json",
+      "scope": "Pinned reference from earlier audit; historical installed revision is unknown."
+    },
+    {
+      "label": "official_llama_3_1_8b",
+      "repo": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "download_repo": "Xenova/Meta-Llama-3.1-Tokenizer",
+      "download_revision": "d49ea33e96b3fcf8738bb79ff9d85da81742fa82",
+      "download_url": "https://huggingface.co/Xenova/Meta-Llama-3.1-Tokenizer/resolve/d49ea33e96b3fcf8738bb79ff9d85da81742fa82/tokenizer.json",
+      "bytes": 9085657,
+      "git_blob_sha1": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+      "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "identity_verification": "Downloaded bytes match official pinned revision Git blob SHA-1 and size; not merely an equivalent tokenizer.",
+      "metadata": [
+        {
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct/revision/0e9e39f249a16976918f6564b8830bc894c89659?blobs=true",
+          "repo": "meta-llama/Llama-3.1-8B-Instruct",
+          "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+          "file": {
+            "rfilename": "tokenizer.json",
+            "blobId": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+            "size": 9085657
+          }
+        },
+        {
+          "url": "https://huggingface.co/api/models/Xenova/Meta-Llama-3.1-Tokenizer/revision/d49ea33e96b3fcf8738bb79ff9d85da81742fa82?blobs=true",
+          "repo": "Xenova/Meta-Llama-3.1-Tokenizer",
+          "revision": "d49ea33e96b3fcf8738bb79ff9d85da81742fa82",
+          "file": {
+            "rfilename": "tokenizer.json",
+            "blobId": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+            "size": 9085657
+          }
+        }
+      ]
+    }
+  ],
+  "official_llama_status": "complete_exact_file_identity_verified",
+  "summary": [
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "all_saved",
+      "representation": "stored_chat_surface",
+      "n": 2166,
+      "median": 107.0,
+      "p95_nearest_rank": 259,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "all_saved",
+      "representation": "descriptive_cleanup_v1",
+      "n": 2166,
+      "median": 103.0,
+      "p95_nearest_rank": 249,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "ages_4_to_7",
+      "representation": "stored_chat_surface",
+      "n": 1428,
+      "median": 101.0,
+      "p95_nearest_rank": 248,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "ages_4_to_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 1428,
+      "median": 97.0,
+      "p95_nearest_rank": 235,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_4",
+      "representation": "stored_chat_surface",
+      "n": 336,
+      "median": 91.0,
+      "p95_nearest_rank": 236,
+      "max_text_tokens": 509,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": 4,
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_4",
+      "representation": "descriptive_cleanup_v1",
+      "n": 336,
+      "median": 87.5,
+      "p95_nearest_rank": 221,
+      "max_text_tokens": 452,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": 4,
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_5",
+      "representation": "stored_chat_surface",
+      "n": 354,
+      "median": 106.5,
+      "p95_nearest_rank": 255,
+      "max_text_tokens": 333,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "572",
+          "Group": "SLI",
+          "Age_Raw": "5;05.00",
+          "Age_Month": "65",
+          "age_year": 5,
+          "story_id": "A3",
+          "text_sha256": "e8a1b3093f2a67c06308507ac68f7a832dd02f7d145f52f9651c87e6ae6fa0b2",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_5",
+      "representation": "descriptive_cleanup_v1",
+      "n": 354,
+      "median": 101.5,
+      "p95_nearest_rank": 234,
+      "max_text_tokens": 331,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "536",
+          "Group": "TD",
+          "Age_Raw": "5;08.01",
+          "Age_Month": "68",
+          "age_year": 5,
+          "story_id": "B3",
+          "text_sha256": "d7326cc74f3eb2b8a492e814f2f6e1dbde150fa90ea6665b95899d2b70379418",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_6",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 102.0,
+      "p95_nearest_rank": 236,
+      "max_text_tokens": 524,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": 6,
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_6",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 97.5,
+      "p95_nearest_rank": 229,
+      "max_text_tokens": 466,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": 6,
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_7",
+      "representation": "stored_chat_surface",
+      "n": 378,
+      "median": 104.5,
+      "p95_nearest_rank": 257,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 378,
+      "median": 103.0,
+      "p95_nearest_rank": 254,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_8",
+      "representation": "stored_chat_surface",
+      "n": 372,
+      "median": 124.0,
+      "p95_nearest_rank": 278,
+      "max_text_tokens": 547,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": 8,
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_8",
+      "representation": "descriptive_cleanup_v1",
+      "n": 372,
+      "median": 119.5,
+      "p95_nearest_rank": 269,
+      "max_text_tokens": 463,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": 8,
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_9",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 114.0,
+      "p95_nearest_rank": 276,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "scope": "age_9",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 113.0,
+      "p95_nearest_rank": 270,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "all_saved",
+      "representation": "stored_chat_surface",
+      "n": 2166,
+      "median": 107.0,
+      "p95_nearest_rank": 259,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "all_saved",
+      "representation": "descriptive_cleanup_v1",
+      "n": 2166,
+      "median": 103.0,
+      "p95_nearest_rank": 249,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "ages_4_to_7",
+      "representation": "stored_chat_surface",
+      "n": 1428,
+      "median": 101.0,
+      "p95_nearest_rank": 248,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "ages_4_to_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 1428,
+      "median": 97.0,
+      "p95_nearest_rank": 235,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_4",
+      "representation": "stored_chat_surface",
+      "n": 336,
+      "median": 91.0,
+      "p95_nearest_rank": 236,
+      "max_text_tokens": 509,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": 4,
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_4",
+      "representation": "descriptive_cleanup_v1",
+      "n": 336,
+      "median": 87.5,
+      "p95_nearest_rank": 221,
+      "max_text_tokens": 452,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": 4,
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_5",
+      "representation": "stored_chat_surface",
+      "n": 354,
+      "median": 106.5,
+      "p95_nearest_rank": 255,
+      "max_text_tokens": 333,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "572",
+          "Group": "SLI",
+          "Age_Raw": "5;05.00",
+          "Age_Month": "65",
+          "age_year": 5,
+          "story_id": "A3",
+          "text_sha256": "e8a1b3093f2a67c06308507ac68f7a832dd02f7d145f52f9651c87e6ae6fa0b2",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_5",
+      "representation": "descriptive_cleanup_v1",
+      "n": 354,
+      "median": 101.5,
+      "p95_nearest_rank": 234,
+      "max_text_tokens": 331,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "536",
+          "Group": "TD",
+          "Age_Raw": "5;08.01",
+          "Age_Month": "68",
+          "age_year": 5,
+          "story_id": "B3",
+          "text_sha256": "d7326cc74f3eb2b8a492e814f2f6e1dbde150fa90ea6665b95899d2b70379418",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_6",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 102.0,
+      "p95_nearest_rank": 236,
+      "max_text_tokens": 524,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": 6,
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_6",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 97.5,
+      "p95_nearest_rank": 229,
+      "max_text_tokens": 466,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": 6,
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_7",
+      "representation": "stored_chat_surface",
+      "n": 378,
+      "median": 104.5,
+      "p95_nearest_rank": 257,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 378,
+      "median": 103.0,
+      "p95_nearest_rank": 254,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_8",
+      "representation": "stored_chat_surface",
+      "n": 372,
+      "median": 124.0,
+      "p95_nearest_rank": 278,
+      "max_text_tokens": 547,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": 8,
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_8",
+      "representation": "descriptive_cleanup_v1",
+      "n": 372,
+      "median": 119.5,
+      "p95_nearest_rank": 269,
+      "max_text_tokens": 463,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": 8,
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_9",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 114.0,
+      "p95_nearest_rank": 276,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_vl_8b",
+      "scope": "age_9",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 113.0,
+      "p95_nearest_rank": 270,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "qwen3_vl_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "all_saved",
+      "representation": "stored_chat_surface",
+      "n": 2166,
+      "median": 107.0,
+      "p95_nearest_rank": 259,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "all_saved",
+      "representation": "descriptive_cleanup_v1",
+      "n": 2166,
+      "median": 103.0,
+      "p95_nearest_rank": 249,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "ages_4_to_7",
+      "representation": "stored_chat_surface",
+      "n": 1428,
+      "median": 101.0,
+      "p95_nearest_rank": 248,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "ages_4_to_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 1428,
+      "median": 97.0,
+      "p95_nearest_rank": 235,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_4",
+      "representation": "stored_chat_surface",
+      "n": 336,
+      "median": 91.0,
+      "p95_nearest_rank": 235,
+      "max_text_tokens": 509,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": 4,
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_4",
+      "representation": "descriptive_cleanup_v1",
+      "n": 336,
+      "median": 87.5,
+      "p95_nearest_rank": 221,
+      "max_text_tokens": 452,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": 4,
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_5",
+      "representation": "stored_chat_surface",
+      "n": 354,
+      "median": 106.5,
+      "p95_nearest_rank": 255,
+      "max_text_tokens": 332,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "572",
+          "Group": "SLI",
+          "Age_Raw": "5;05.00",
+          "Age_Month": "65",
+          "age_year": 5,
+          "story_id": "A3",
+          "text_sha256": "e8a1b3093f2a67c06308507ac68f7a832dd02f7d145f52f9651c87e6ae6fa0b2",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_5",
+      "representation": "descriptive_cleanup_v1",
+      "n": 354,
+      "median": 101.5,
+      "p95_nearest_rank": 234,
+      "max_text_tokens": 331,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "536",
+          "Group": "TD",
+          "Age_Raw": "5;08.01",
+          "Age_Month": "68",
+          "age_year": 5,
+          "story_id": "B3",
+          "text_sha256": "d7326cc74f3eb2b8a492e814f2f6e1dbde150fa90ea6665b95899d2b70379418",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_6",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 102.0,
+      "p95_nearest_rank": 236,
+      "max_text_tokens": 524,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": 6,
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_6",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 97.5,
+      "p95_nearest_rank": 229,
+      "max_text_tokens": 466,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": 6,
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_7",
+      "representation": "stored_chat_surface",
+      "n": 378,
+      "median": 104.5,
+      "p95_nearest_rank": 257,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 378,
+      "median": 103.0,
+      "p95_nearest_rank": 254,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": 7,
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_8",
+      "representation": "stored_chat_surface",
+      "n": 372,
+      "median": 124.0,
+      "p95_nearest_rank": 278,
+      "max_text_tokens": 547,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": 8,
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_8",
+      "representation": "descriptive_cleanup_v1",
+      "n": 372,
+      "median": 119.5,
+      "p95_nearest_rank": 269,
+      "max_text_tokens": 463,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": 8,
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_9",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 114.0,
+      "p95_nearest_rank": 276,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "historical_reference",
+      "scope": "age_9",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 113.0,
+      "p95_nearest_rank": 270,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": 9,
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "historical_reference"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "all_saved",
+      "representation": "stored_chat_surface",
+      "n": 2166,
+      "median": 107.0,
+      "p95_nearest_rank": 259,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": "9",
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "all_saved",
+      "representation": "descriptive_cleanup_v1",
+      "n": 2166,
+      "median": 103.0,
+      "p95_nearest_rank": 249,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": "9",
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "ages_4_to_7",
+      "representation": "stored_chat_surface",
+      "n": 1428,
+      "median": 101.0,
+      "p95_nearest_rank": 248,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": "7",
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "ages_4_to_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 1428,
+      "median": 97.0,
+      "p95_nearest_rank": 235,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": "7",
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_4",
+      "representation": "stored_chat_surface",
+      "n": 336,
+      "median": 91.0,
+      "p95_nearest_rank": 235,
+      "max_text_tokens": 509,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": "4",
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_4",
+      "representation": "descriptive_cleanup_v1",
+      "n": 336,
+      "median": 87.5,
+      "p95_nearest_rank": 221,
+      "max_text_tokens": 452,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "421",
+          "Group": "TD",
+          "Age_Raw": "4;05.20",
+          "Age_Month": "53",
+          "age_year": "4",
+          "story_id": "B3",
+          "text_sha256": "02455bff2aa8f07d80f0ad725ec2b387092d0a08059c25df6b90d385d1636066",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_5",
+      "representation": "stored_chat_surface",
+      "n": 354,
+      "median": 106.5,
+      "p95_nearest_rank": 255,
+      "max_text_tokens": 332,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "572",
+          "Group": "SLI",
+          "Age_Raw": "5;05.00",
+          "Age_Month": "65",
+          "age_year": "5",
+          "story_id": "A3",
+          "text_sha256": "e8a1b3093f2a67c06308507ac68f7a832dd02f7d145f52f9651c87e6ae6fa0b2",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_5",
+      "representation": "descriptive_cleanup_v1",
+      "n": 354,
+      "median": 101.5,
+      "p95_nearest_rank": 234,
+      "max_text_tokens": 331,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "536",
+          "Group": "TD",
+          "Age_Raw": "5;08.01",
+          "Age_Month": "68",
+          "age_year": "5",
+          "story_id": "B3",
+          "text_sha256": "d7326cc74f3eb2b8a492e814f2f6e1dbde150fa90ea6665b95899d2b70379418",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_6",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 102.0,
+      "p95_nearest_rank": 236,
+      "max_text_tokens": 524,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": "6",
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_6",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 97.5,
+      "p95_nearest_rank": 229,
+      "max_text_tokens": 466,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "673",
+          "Group": "SLI",
+          "Age_Raw": "6;11.08",
+          "Age_Month": "83",
+          "age_year": "6",
+          "story_id": "A3",
+          "text_sha256": "185494da93e77f383ad00fbfbf1d7bf8dc2ca8e2ca281be6aa2fc87cb6e5e58a",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_7",
+      "representation": "stored_chat_surface",
+      "n": 378,
+      "median": 104.5,
+      "p95_nearest_rank": 257,
+      "max_text_tokens": 568,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": "7",
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_7",
+      "representation": "descriptive_cleanup_v1",
+      "n": 378,
+      "median": 103.0,
+      "p95_nearest_rank": 254,
+      "max_text_tokens": 556,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "Age_Month": "94",
+          "age_year": "7",
+          "story_id": "B3",
+          "text_sha256": "1d7a11633d28c9d9ee379d0ea28cbbdbd343ed9e6ad78a336cfeee89d0b4122c",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_8",
+      "representation": "stored_chat_surface",
+      "n": 372,
+      "median": 124.0,
+      "p95_nearest_rank": 278,
+      "max_text_tokens": 547,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": "8",
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_8",
+      "representation": "descriptive_cleanup_v1",
+      "n": 372,
+      "median": 119.5,
+      "p95_nearest_rank": 269,
+      "max_text_tokens": 463,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "844",
+          "Group": "TD",
+          "Age_Raw": "8;11.06",
+          "Age_Month": "107",
+          "age_year": "8",
+          "story_id": "B3",
+          "text_sha256": "335f8dcbb50853f024457bc90e9b401d7711a044cce660417304af311faa81a0",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_9",
+      "representation": "stored_chat_surface",
+      "n": 360,
+      "median": 114.0,
+      "p95_nearest_rank": 276,
+      "max_text_tokens": 643,
+      "over_640_text_tokens": 1,
+      "at_or_over_640_text_tokens": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": "9",
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    },
+    {
+      "tokenizer": "official_llama_3_1_8b",
+      "scope": "age_9",
+      "representation": "descriptive_cleanup_v1",
+      "n": 360,
+      "median": 113.0,
+      "p95_nearest_rank": 270,
+      "max_text_tokens": 604,
+      "over_640_text_tokens": 0,
+      "at_or_over_640_text_tokens": 0,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "Age_Month": "113",
+          "age_year": "9",
+          "story_id": "B3",
+          "text_sha256": "324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10",
+          "tokenizer": "official_llama_3_1_8b"
+        }
+      ]
+    }
+  ],
+  "source_qc": "configs/generation/inputs/story_unit_narratives_chat_v2.parsing_qc.json",
+  "software": {
+    "python": "3.12.8",
+    "tokenizers": "0.22.2"
+  },
+  "checked_output_ceiling": 640,
+  "ceilings_changed": false,
+  "special_tokens_added": false,
+  "prompt_and_image_input_tokens_counted": false,
+  "generation_finish_reason_claimed": false,
+  "descriptive_cleanup_python": "def cleaned(text):\n    text = re.sub(r\"\\[[^]]*\\]\", \" \", text)\n    text = re.sub(r\"&=[^\\s]+\", \" \", text)\n    text = re.sub(r\"\\(([^)]*)\\)\", lambda m: m.group(1) if re.fullmatch(\"[A-Za-z]+\", m.group(1)) else \" \", text)\n    text = re.sub(r\"\\b(?:xxx|yyy|www)\\b\", \" \", text)\n    text = re.sub(r'\\+(?:\"/\\.|\"|[^\\s]*)', \" \", text)\n    text = re.sub(r\"(?<=[A-Za-z]):+(?=[A-Za-z])\", \"\", text)\n    return \" \".join(text.split())\n",
+  "official_llama_metadata": {
+    "repo": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "metadata_url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct/revision/0e9e39f249a16976918f6564b8830bc894c89659?blobs=true",
+    "tokenizer_json_bytes": 9085657,
+    "tokenizer_json_git_blob_sha1": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+    "local_download_http_status": 401,
+    "status": "complete_using_public_copy_with_matching_official_Git_blob_hash",
+    "author_preference": "reuse_existing_Colab_login; no local authentication",
+    "verification": {
+      "label": "official_llama_3_1_8b",
+      "repo": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "download_repo": "Xenova/Meta-Llama-3.1-Tokenizer",
+      "download_revision": "d49ea33e96b3fcf8738bb79ff9d85da81742fa82",
+      "download_url": "https://huggingface.co/Xenova/Meta-Llama-3.1-Tokenizer/resolve/d49ea33e96b3fcf8738bb79ff9d85da81742fa82/tokenizer.json",
+      "bytes": 9085657,
+      "git_blob_sha1": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+      "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "identity_verification": "Downloaded bytes match official pinned revision Git blob SHA-1 and size; not merely an equivalent tokenizer.",
+      "metadata": [
+        {
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct/revision/0e9e39f249a16976918f6564b8830bc894c89659?blobs=true",
+          "repo": "meta-llama/Llama-3.1-8B-Instruct",
+          "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+          "file": {
+            "rfilename": "tokenizer.json",
+            "blobId": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+            "size": 9085657
+          }
+        },
+        {
+          "url": "https://huggingface.co/api/models/Xenova/Meta-Llama-3.1-Tokenizer/revision/d49ea33e96b3fcf8738bb79ff9d85da81742fa82?blobs=true",
+          "repo": "Xenova/Meta-Llama-3.1-Tokenizer",
+          "revision": "d49ea33e96b3fcf8738bb79ff9d85da81742fa82",
+          "file": {
+            "rfilename": "tokenizer.json",
+            "blobId": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8",
+            "size": 9085657
+          }
+        }
+      ]
+    }
+  },
+  "ordered_count_fingerprints": {
+    "historical_reference": {
+      "stored_chat_surface": "3fd696dfb13a1d9e854dce863de5c74d98969117c113533b982d8ea44a27dbc7",
+      "descriptive_cleanup_v1": "867456cee7c026a259351683d74948e01bc0860f8edf2947ab90ee9ce73f65b9"
+    },
+    "qwen3_8b": {
+      "stored_chat_surface": "c7afbbe188df77776abf4823fa5ff4ea2194fe6fec74da14b64518a79ed94cae",
+      "descriptive_cleanup_v1": "24cb4e7fe315059710cf60ec279a0b714f3429d056a8b2ad3601477f708895c8"
+    },
+    "qwen3_vl_8b": {
+      "stored_chat_surface": "c7afbbe188df77776abf4823fa5ff4ea2194fe6fec74da14b64518a79ed94cae",
+      "descriptive_cleanup_v1": "24cb4e7fe315059710cf60ec279a0b714f3429d056a8b2ad3601477f708895c8"
+    },
+    "official_llama_3_1_8b": {
+      "stored_chat_surface": "3fd696dfb13a1d9e854dce863de5c74d98969117c113533b982d8ea44a27dbc7",
+      "descriptive_cleanup_v1": "867456cee7c026a259351683d74948e01bc0860f8edf2947ab90ee9ce73f65b9"
+    }
+  },
+  "count_differences": [
+    {
+      "scope": "all_saved",
+      "from": "historical_reference",
+      "to": "qwen3_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 110,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "all_saved",
+      "from": "historical_reference",
+      "to": "qwen3_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 108,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "all_saved",
+      "from": "qwen3_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "all_saved",
+      "from": "qwen3_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "historical_reference",
+      "to": "qwen3_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 83,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "historical_reference",
+      "to": "qwen3_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 82,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "qwen3_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "qwen3_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "all_saved",
+      "from": "official_llama_3_1_8b",
+      "to": "historical_reference",
+      "representation": "stored_chat_surface",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "all_saved",
+      "from": "official_llama_3_1_8b",
+      "to": "historical_reference",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "all_saved",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 110,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "all_saved",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 108,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "all_saved",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 110,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "all_saved",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 108,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "official_llama_3_1_8b",
+      "to": "historical_reference",
+      "representation": "stored_chat_surface",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "official_llama_3_1_8b",
+      "to": "historical_reference",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 0,
+      "minimum_delta": 0,
+      "maximum_delta": 0
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 83,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 82,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "stored_chat_surface",
+      "different_stories": 83,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    },
+    {
+      "scope": "ages_4_to_7",
+      "from": "official_llama_3_1_8b",
+      "to": "qwen3_vl_8b",
+      "representation": "descriptive_cleanup_v1",
+      "different_stories": 82,
+      "minimum_delta": -5,
+      "maximum_delta": 6
+    }
+  ],
+  "checks": {
+    "source_csv_hash_matches_frozen_qc": true,
+    "unique_story_tokenizer_records": 8664,
+    "all_tokenizers_have_no_truncation_or_padding": true,
+    "cleanup_fixture_checks_passed": 6,
+    "no_inference_or_source_edit": true,
+    "official_file_hash_matches_pinned_repository": true,
+    "official_and_historical_all_story_count_fingerprints_match": true
+  },
+  "previous_partial_backup": {
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261021T094603Z/RealStoryTokenizers/real_story_tokenizers.tar.gz",
+    "archive_sha256": "f9c1a576a7c8494b311a9b6dc2e667df861a4ba3b7ad669ed9d7459019ed0e2a",
+    "regular_files_verified": 5,
+    "status": "all_archived_files_verified_by_readback",
+    "official_llama_check": "pending_author_Colab_output",
+    "sidecar_sha256": {
+      "MANIFEST.json": "7305a720f76702785668ebee1df62db88e1cdf63355c0da4d79c3396a0834065",
+      "VERIFICATION.json": "1055a7c50c275ba4e0cf6f34b8d74049cc4903be2c31ef0d46d5934d56efc2ea"
+    },
+    "scope": "Tokenizer files and completed local comparisons only; the official result remains pending. Historical tokenizer is already preserved in the earlier generation termination audit."
+  }
+}

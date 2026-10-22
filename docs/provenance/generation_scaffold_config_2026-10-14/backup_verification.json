@@ -1,0 +1,88 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T125103Z/GenerationScaffolds/generation_scaffolds_snapshot.tar.gz",
+  "archive_sha256": "a7aa511727a72c32f3103c6a613e5792384a106f41d04aff61dc00bc58392562",
+  "verified_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "93f8f2e629004ffadd81823cec3cad3e2442b844cb1e381be57264b2b5dc7d5e",
+      "bytes": 26655
+    },
+    {
+      "path": "README.md",
+      "sha256": "ee57152184370433aafb3ed5260a0582f969c5969ec7c9368f7c2973817f481e",
+      "bytes": 1923
+    },
+    {
+      "path": "configs/generation/README.md",
+      "sha256": "39dc62fb0bef02160bb6b5c685f2800ba4cbdd7d4025ffbe0121711fe5347671",
+      "bytes": 4383
+    },
+    {
+      "path": "configs/generation/cross_story_counterbalancing.csv",
+      "sha256": "73b8509bd7b1cd6f6949d9e44ad253e92f20b2b6497903171b2320bdca85a3c0",
+      "bytes": 174
+    },
+    {
+      "path": "configs/generation/experiment.json",
+      "sha256": "b9b0c51db15ef1d361c73937ab2de69e6ccce9c62573b176f8894f9fbc0cf6e9",
+      "bytes": 2299
+    },
+    {
+      "path": "configs/generation/master_frozen_roster_4_to_7_year_old.csv",
+      "sha256": "f79269abc282c54611504e8f1d2e77b1230814588d8f677151b6bfc82ed1e2dd",
+      "bytes": 12026
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "sha256": "d3943cc3835564bb0190a6342779d1bc30ddf0e20d05f892ff0b5a06008ee67c",
+      "bytes": 1903
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "sha256": "6e40349d0962edbdf0248df3f678abd2eafa5258e0d1ba64472762a22f13db28",
+      "bytes": 17758
+    },
+    {
+      "path": "docs/story_unit_semrp_plan.md",
+      "sha256": "81dbc8f4c43b93f7f81249fc0a9dfd594efb24596c1d9462ed42655cdc329bef",
+      "bytes": 5521
+    },
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "2b7e5dcb18bf788fca1ab7a8cb17446521a246f9f53dc4588095a2a51ee139db",
+      "bytes": 33602
+    },
+    {
+      "path": "phase2/ENNI/measures/story_units/story_unit_reference.json",
+      "sha256": "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e",
+      "bytes": 6822
+    },
+    {
+      "path": "src/icl_pilot/generation/config.py",
+      "sha256": "781d52f4b05b1e45c0c8d3f911fc59de18737e601058abdd39aea8b76156d88a",
+      "bytes": 13456
+    },
+    {
+      "path": "src/icl_pilot/paths.py",
+      "sha256": "a963a9ac55527ae09d24c782f0ce68ff205f6c08b258bb4a06fb61eaa142196f",
+      "bytes": 1227
+    },
+    {
+      "path": "tests/test_generation_config.py",
+      "sha256": "383dc80cb453a72fc1df365a6347b55b0e7d91d83a70d216800a4f00f269fe8a",
+      "bytes": 9517
+    }
+  ],
+  "all_members_verified": true,
+  "volume_uuid": "E33EEB9A-D24F-33F4-B568-08627A9E27E6",
+  "before": {
+    "run_df_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+    "evaluation_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+    "generation_jobs": 2820
+  },
+  "analysis_source_sha256": {
+    "clinical_analyses_reordered.Rmd": "83c53a0f12cb793135d6cd70983ffcd4b30e7759d9c74a361dea88ad42be41e7",
+    "clinical_analyses.Rmd": "91f32b04655771f7f2c7316e8ada4d7d2da34fb35f908799f854300de520d324",
+    "clinical_analyses_reordered_purl.R": "747fcd4bbcf260a92b7ad3fc57743e4c6122891f1025408749e0ab1dd8222a81"
+  }
+}

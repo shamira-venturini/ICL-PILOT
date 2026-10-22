@@ -1,0 +1,35 @@
+{
+  "analysis_and_generation_audit_inputs_unchanged": [
+    "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+    "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+    "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+    "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+    "clinical_analyses_reordered.Rmd",
+    "phase2/generated/measures/severity_features_raw_syn.csv",
+    "phase2/ENNI/measures/severity_features_raw_real.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/rotating_eval_manifest.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/heldout_real_pool.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/pairwise_feature_distances.csv"
+  ],
+  "current_config_files": [
+    "configs/generation/README.md",
+    "configs/generation/colab_generation_package_direct_rotating_multi_age/README.md",
+    "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+    "configs/generation/cross_story_counterbalancing.csv",
+    "configs/generation/experiment.json",
+    "configs/generation/rosters/five_year_old.csv",
+    "configs/generation/rosters/four_year_old.csv",
+    "configs/generation/rosters/seven_year_old.csv",
+    "configs/generation/rosters/six_year_old.csv"
+  ],
+  "existing_generation_outputs_changed": false,
+  "external_archive_sha256": "f911ebe4cea11c148b6e11d80d71ed6e6179ea02fa92efaf3a3a379d7b15c280",
+  "legacy_compatibility_and_counterbalance_unchanged": [
+    "configs/generation/cross_story_counterbalancing.csv",
+    "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv"
+  ],
+  "model_inference_executed": false,
+  "notebook_and_source_syntax_valid": true,
+  "protected_files_changed": [],
+  "protected_generation_data_files_rehashed": 6037
+}

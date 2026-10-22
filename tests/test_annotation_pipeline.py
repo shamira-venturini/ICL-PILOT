@@ -10,7 +10,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from icl_pilot.annotation import (annotate_chat_directory, install_annotation_runtime, load_annotation_config,
+from icl_pilot.chat.annotation import (annotate_chat_directory, install_annotation_runtime, load_annotation_config,
                                   postprocess_annotated_chat, postprocess_annotation_run, sha256_file, _surface)
 from icl_pilot.pipeline import annotation_inputs, begin_pipeline, convert_csv_inputs, package_run, stage_flags, sync_run
 
@@ -28,7 +28,7 @@ def config():
 
 @pytest.mark.parametrize("partial", [False, True])
 def test_annotation_install_skips_ensurepip_and_targets_separate_environment(tmp_path, config, monkeypatch, partial):
-    from icl_pilot import annotation
+    from icl_pilot.chat import annotation
 
     environment = tmp_path / "talktag_env"
     python = environment / "bin/python"
@@ -55,7 +55,7 @@ def test_annotation_install_skips_ensurepip_and_targets_separate_environment(tmp
 
 def test_annotation_environment_failure_includes_underlying_diagnostic(tmp_path, config, monkeypatch):
     import subprocess
-    from icl_pilot import annotation
+    from icl_pilot.chat import annotation
 
     calls = []
 
@@ -110,7 +110,7 @@ def fake_tool(monkeypatch, *, mode="normal", limit=0):
         (out / "_talk_tag_report.json").write_text(json.dumps(report))
         return SimpleNamespace(returncode=0)
 
-    monkeypatch.setattr("icl_pilot.annotation.subprocess.run", run)
+    monkeypatch.setattr("icl_pilot.chat.annotation.subprocess.run", run)
     return calls
 
 
@@ -217,7 +217,7 @@ def test_existing_failed_annotation_can_be_postprocessed_without_inference_or_re
         "outputs": [{"relative_path": "sample.cha", "sha256": sha256_file(raw)}],
         "qc_issues": [{"file": "sample.cha", "issue": "target_text_or_boundaries_changed"}]}))
     before = {p: p.read_bytes() for p in [original, snapshot, raw, source_manifest]}
-    monkeypatch.setattr("icl_pilot.annotation.subprocess.run", lambda *a, **kw: pytest.fail("No inference allowed"))
+    monkeypatch.setattr("icl_pilot.chat.annotation.subprocess.run", lambda *a, **kw: pytest.fail("No inference allowed"))
     reviewed = postprocess_annotation_run(source_manifest)
     result = json.loads(reviewed.read_text())
     assert result["status"] == "annotation_complete" and result["qc_issues"] == []
@@ -341,7 +341,7 @@ def test_archives_include_annotation_logs_inputs_and_qc_without_recursive_archiv
 @pytest.mark.parametrize("mode,smoke", [("full", False), ("full", True), ("from_csv", False), ("from_chat", False)])
 def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, config, monkeypatch, mode, smoke):
     calls = fake_tool(monkeypatch)
-    monkeypatch.setattr("icl_pilot.annotation.annotation_runtime_metadata",
+    monkeypatch.setattr("icl_pilot.chat.annotation.annotation_runtime_metadata",
                         lambda python, cfg: {"source_commit": cfg["revision"]})
     source_csv = tmp_path / "generation.csv"
     row = {"bundle_id": "pair_sli444_td410_rep01", "pair_id": "pair_sli444_td410", "target_story": "A1",
@@ -466,7 +466,7 @@ def test_stage_copy_check_skips_chat_only_routes():
 @pytest.fixture
 def input_namespace(tmp_path):
     config_path = tmp_path / "experiment.json"
-    config_path.write_text(json.dumps({"inputs": {"narratives_csv": "data/processed/exemplars.csv"}}))
+    config_path.write_text(json.dumps({"inputs": {"narratives_csv": "configs/generation/inputs/exemplars.csv"}}))
     upload = tmp_path / "uploaded.csv"
     upload.write_bytes(b"File_ID,Group,story_id\n410,TD,A1\n")
     out = begin_pipeline(tmp_path / "run", mode="generation_only", csvs={}, chat_dirs={})
@@ -476,13 +476,13 @@ def input_namespace(tmp_path):
 
 
 def test_notebook_input_upload_is_verified_and_reused_without_the_upload(input_namespace):
-    from icl_pilot.annotation import sha256_file
+    from icl_pilot.chat.annotation import sha256_file
 
     ns = input_namespace
     source = ns["GENERATION_INPUT_UPLOAD"]
     original = source.read_bytes()
     exec(notebook_cell("generation-input"), ns)
-    target = ns["DATA_ROOT"] / "data/processed/exemplars.csv"
+    target = ns["DATA_ROOT"] / "configs/generation/inputs/exemplars.csv"
     assert target.read_bytes() == source.read_bytes() == original
     manifest_path = ns["RUN_OUTPUT_DIR"] / "pipeline_manifest.json"
     assert json.loads(manifest_path.read_text())["generation_input"] == {
@@ -499,7 +499,7 @@ def test_notebook_input_upload_is_verified_and_reused_without_the_upload(input_n
 def test_notebook_rejects_different_upload_without_overwriting_existing_input(input_namespace):
     ns = input_namespace
     exec(notebook_cell("generation-input"), ns)
-    target = ns["DATA_ROOT"] / "data/processed/exemplars.csv"
+    target = ns["DATA_ROOT"] / "configs/generation/inputs/exemplars.csv"
     original = target.read_bytes()
     ns["GENERATION_INPUT_UPLOAD"].write_bytes(b"different corpus\n")
     with pytest.raises(FileExistsError, match="differs"):
@@ -540,17 +540,17 @@ def test_interrupted_input_copy_preserves_upload_and_cleans_partial_destination(
             exec(notebook_cell("generation-input"), ns)
     assert source.read_bytes() == original
     assert not list(ns["DATA_ROOT"].rglob("*.copying"))
-    assert not (ns["DATA_ROOT"] / "data/processed/exemplars.csv").exists()
+    assert not (ns["DATA_ROOT"] / "configs/generation/inputs/exemplars.csv").exists()
     exec(notebook_cell("generation-input"), ns)
-    assert (ns["DATA_ROOT"] / "data/processed/exemplars.csv").read_bytes() == original
+    assert (ns["DATA_ROOT"] / "configs/generation/inputs/exemplars.csv").read_bytes() == original
 
 
 def test_saved_input_modes_skip_exemplar_staging():
     exec(notebook_cell("generation-input"), {"RUN_GENERATION": False})
 
 
-@pytest.mark.parametrize("colab,override", [(False, None), (True, None), (True, "/custom/data")])
-def test_notebook_defaults_to_drive_inputs_only_in_colab(tmp_path, monkeypatch, colab, override):
+@pytest.mark.parametrize("colab,override", [(False, None), (True, None), (True, "/custom/data"), (False, "/custom/data")])
+def test_notebook_uses_checkout_inputs_and_preserves_explicit_overrides(tmp_path, monkeypatch, colab, override):
     import os
 
     if override is None:
@@ -559,16 +559,25 @@ def test_notebook_defaults_to_drive_inputs_only_in_colab(tmp_path, monkeypatch, 
         monkeypatch.setenv("ICL_PILOT_DATA_ROOT", override)
     ns = {"Path": Path, "os": os, "REPO_DIR": tmp_path, "IS_COLAB": colab}
     exec(notebook_cell("settings"), ns)
-    expected = Path(override) if override else Path("/content/drive/MyDrive/icl_pilot_inputs") if colab else tmp_path
+    expected = Path(override) if override else tmp_path
     assert ns["DATA_ROOT"] == expected
+    assert ns["GENERATION_INPUT_UPLOAD"] is None
     assert ns["SMOKE_TEST"] is True
     assert ns["SMOKE_TEST_JOBS"] == 12
 
 
-def test_drive_inputs_mount_even_when_output_persistence_is_disabled(tmp_path, monkeypatch):
+@pytest.mark.parametrize("input_root,expected_mounts", [
+    (None, []), ("/content/drive/MyDrive/icl_pilot_inputs", ["/content/drive"]),
+])
+def test_drive_mount_depends_on_explicit_input_override_when_exports_disabled(
+    tmp_path, monkeypatch, input_root, expected_mounts,
+):
     import os
 
-    monkeypatch.delenv("ICL_PILOT_DATA_ROOT", raising=False)
+    if input_root is None:
+        monkeypatch.delenv("ICL_PILOT_DATA_ROOT", raising=False)
+    else:
+        monkeypatch.setenv("ICL_PILOT_DATA_ROOT", input_root)
     mounted = []
     fake_drive = SimpleNamespace(mount=lambda path: mounted.append(path))
     monkeypatch.setitem(sys.modules, "google.colab", SimpleNamespace(drive=fake_drive))
@@ -584,7 +593,7 @@ def test_drive_inputs_mount_even_when_output_persistence_is_disabled(tmp_path, m
     exec(notebook_cell("settings"), ns)
     ns["SAVE_TO_DRIVE"] = False
     exec(notebook_cell("common-setup"), ns)
-    assert mounted == ["/content/drive"]
+    assert mounted == expected_mounts
     assert (ns["RUN_OUTPUT_DIR"] / "pipeline_manifest.json").is_file()
 
 

@@ -66,6 +66,41 @@ The primary generation unit and the evaluation unit need not be identical. Story
 
 ## Source-of-truth hierarchy
 
+The previous study was frozen externally on 16 October 2026 at the author's
+request. `docs/provenance/study_freeze_2026-10-16.md` identifies the complete
+snapshot and earlier archives. Historical data/results, Phase 2, older R variants
+and rendered reports have been retired locally. Reusable code and generation
+assets remain for software checks. The author adopted symmetric story
+counterbalancing and requested an official Llama checkpoint on 20 October 2026;
+the active generator is pinned Meta Llama 3.1 8B Instruct. On 21 October, the author
+adopted 640 new tokens per stage for all cohorts, based on the checked maximum
+of 568 among real stories at ages four through seven. Prompt wording and other
+sampling settings are unchanged by that ceiling update. The author subsequently
+selected temperature 0.8 and top-p 0.9 for both stages and all cohorts, after
+checking previous research. Top-k remains inherited pending an explicit decision.
+The author then removed narrator-age and clinical-status cues from model-facing
+instructions and inserted scaffold constraints. Age matching and literal corpus
+groups remain in selection/provenance; canonical story content, exemplars and
+Stage 1 parent text remain literal. Do not restore child-like/adult-style or
+clinical narration instructions without the author's decision.
+The author subsequently removed story-length requests from both stages, including
+short-narrative wording and clause-shortening/detail-omission guidance. Retain
+the 640-new-token operational ceiling without adding a verbal length target.
+The author then adopted the supplied reviewed generation/rewriting pair. Both
+stages share the system message, all four story-information fields and complete
+instruction list, including exemplar-based wording, sentence construction, style
+and level-of-detail guidance. Stage 2 additionally receives its exact Stage 1
+parent to rewrite with its own selected exemplar. Keep additional constraints
+content-only and ENNI/task labels, story/exemplar IDs, titles and replicate IDs
+outside message templates; preserve identities in validation and logs.
+Model comparisons must
+fit one Colab GPU. `docs/current_strategy_handoff.md`, `docs/guides/model_selection.md`
+and `configs/generation/` record the correction and distinguish proposed
+comparisons from configured conditions. Other revised-study decisions remain
+pending. Treat earlier design decisions and findings as the preserved baseline
+until the author explicitly settles the revision. Do not silently restore old
+data defaults or claim that baseline settings implement the revised study.
+
 When documents conflict, use this order:
 
 1. Explicit instructions from the user in the current task.
@@ -78,10 +113,11 @@ When documents conflict, use this order:
    schedules are generated automatically within each run.
 4. Current implementation under `src/icl_pilot/` and the metadata attached to generated artifacts.
 5. Focused current design notes under `docs/`. The older
-   `docs/generation_and_evaluation_process.tex` is an explicitly historical
+   `docs/background/generation_and_evaluation_process.tex` is an explicitly historical
    profiling proposal, not the active paper Methods.
-6. `clinical_analyses_reordered.Rmd` for the active integrated analysis when it exists and is current.
-7. `docs/data-augmentation_project-report.pdf` for the original pilot framing and historical results.
+6. `notebooks/clinical_analyses_reordered.Rmd` for the retained integrated analysis,
+   with revised inputs pending and statistical specifications awaiting review.
+7. `docs/background/data-augmentation_project-report.pdf` for the original pilot framing and historical results.
 8. Older draft plans and archived phase-1 material.
 
 Do not assume that a table copied from the PDF report is an operational manifest. Some report-era IDs and mappings were later found to be invalid or unavailable. Use the checked manifests and frozen rosters for executable work.
@@ -90,16 +126,29 @@ When the repository and documentation disagree, do not silently choose whichever
 
 ## Repository map
 
-- `src/icl_pilot/`: reusable Python package for manifests, generation design, transcript processing, feature construction, and evaluation.
+- `src/icl_pilot/`: reusable Python package, grouped into `generation/`, `chat/`,
+  `features/`, `evaluation/` and `maintenance/`. `src/README.md` maps the modules
+  and distinguishes current workflow steps from historical diagnostics/repairs.
+  Stage coordination, configuration paths/manifests and the CLI remain at the
+  package root. Raw feature builders are `features/raw_features.py` and
+  `features/generated_raw_features.py`; their scientific definitions and legacy
+  function/output names are preserved.
 - `configs/generation/`: shared portable experiment settings, counterbalancing
-  rules and frozen child rosters. Derived schedules/split bookkeeping belong
-  in each new generation run directory.
+  rules and frozen child rosters. `configs/generation/inputs/` contains the frozen
+  ENNI exemplar CSV and parsing-QC sidecar. The notebook defaults `DATA_ROOT` to
+  the checkout in both Colab and Jupyter. Derived schedules/split bookkeeping
+  belong in each new generation run directory.
 - `data/`: source materials, normalized inputs, annotated CHAT transcripts, ENNI picture materials, and prompt-ready data.
-- `phase2/ENNI/`: real ENNI reference data and derived measures.
-- `phase2/Gillam/`: Gillam reference material and derived artifacts where used.
-- `phase2/generated/<age>_year_old/`: age-cohort-specific generated transcripts, measures, and evaluation artifacts.
-- `phase2/generated/measures/`: cross-cohort or merged generated-data feature tables.
-- `docs/`: strategy, evaluation, profiling, story-content, and handoff documentation.
+- `phase2/`: externally frozen historical reference data, measurements and
+  evaluation artifacts; no longer present locally. The archive manifest retains
+  all original paths, hashes, child IDs, groups and annotation provenance.
+- `docs/`: the documentation index and current strategy handoff.
+- `docs/guides/`: maintained workflow instructions and the supporting roster note.
+- `docs/background/`: the original project report and earlier/exploratory design notes.
+- `docs/provenance/`: selected historical cleanup/audit reports and the verified
+  external archive location; embedded paths describe the original audit state.
+- `tools/chatter/`: the local verified CHAT validator and its source/hash record.
+  The platform-specific executable is ignored by Git.
 - `notebooks/`: generation notebooks and exploratory execution surfaces.
 - `notebooks/colab_direct_generation_pipeline.ipynb` is the maintained combined
   generation/CHAT/TalkTag interface. Its modes can start from saved CSVs or CHAT
@@ -108,8 +157,19 @@ When the repository and documentation disagree, do not silently choose whichever
 - `configs/annotation/talktag.json` fixes the source revision and options for
   new portable annotation runs. It is not proof of the historical installed
   version. Original inputs are preserved; annotation operates on working copies.
-- `clinical_analyses_reordered.Rmd`: current integrated R analysis organized around multivariate, distributional, mixed-model, and operator-validity analyses.
-- `outputs/`, `images/`, and `results/`: derived presentation, figure, and result artifacts.
+- `notebooks/clinical_analyses_reordered.Rmd`: retained integrated R analysis;
+  statistical code awaits review for the revised protocol. Figures use dated
+  directories under `results/linguistic_evaluation/`.
+- `configs/analysis/inputs.R`: shared R input signpost for the revised study.
+  All five paths are pending; the maintained R entry point stops before
+  data loading until explicitly configured. Do not restore automatic Phase 2
+  input or historical-roster defaults. Statistical code awaits protocol review.
+- `configs/evaluation/inputs.json`: two pending framework input paths. The
+  notebook stops before creating results until both explicit inputs exist.
+- `results/`: fresh dated result directories. Historical result payloads and
+  outputs were externally frozen and removed locally.
+- `results/framework_based_evaluation/`: fresh dated framework runs; existing
+  names are refused. The August 2026 bundle is in the external study freeze.
 - `archive/phase1_prompting/`: historical prompting experiments. Preserve for provenance; do not treat as the active pipeline.
 
 Do not write new generated data or analysis artifacts at the repository root. Use the existing age-, phase-, and purpose-specific directories.
@@ -275,9 +335,12 @@ The confirmatory endpoint is performance on held-out real children.
 - Keep real-reference standardization fold-local when it could otherwise leak evaluation information.
 - If a model is singular, unstable, separation-prone, or sensitive to scaling choices, report that limitation rather than selecting a favorable specification silently.
 
-## Current evidence state
+## Archived evidence state
 
 Treat the following as provisional project findings that must remain traceable to current result files and analysis code:
+
+These findings describe the externally frozen previous study. They are not
+results of the revised experiment, which has not yet been designed or run.
 
 - Some synthetic cases overlap local regions of the real clinical feature space, but overlap is limited and concentrated in a subset of source pairs.
 - Synthetic data can preserve some clinical signal while shifting marginal distributions and distorting feature relationships.

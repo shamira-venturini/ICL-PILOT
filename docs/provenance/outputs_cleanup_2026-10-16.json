@@ -1,0 +1,781 @@
+{
+  "date": "2026-10-16T11:39:02.663627+00:00",
+  "status": "complete",
+  "backup": {
+    "checked_at_utc": "2026-10-16T11:37:59.254407+00:00",
+    "status": "verified",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T113750Z/Outputs/maintenance_and_manual_snapshot.tar.gz",
+    "archive_sha256": "662d59a7b7541b1eb5f54500527121eef5d02ff888daf5f759ca3f6af13d3671",
+    "regular_file_hashes_verified": 6196,
+    "symlinks_verified": 748,
+    "source_inventory_rechecked": true,
+    "source_content_bytes": 232820806,
+    "source_allocated_bytes": 251437056
+  },
+  "removed_directories": [
+    "outputs/manual-20260601-icl-update",
+    "outputs/maintenance"
+  ],
+  "retained_report_files": 119,
+  "retained_report_content_bytes": 5246608,
+  "retained_reports": [
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/audit_backup_verification.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/audit_backup_verification.json",
+      "sha256": "52475f5bdc889a48b934be09a45383a44e232099c6c34ba651b01ddeec5665e6",
+      "bytes": 271
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/chatter_candidates.jsonl",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/chatter_candidates.jsonl",
+      "sha256": "7085349d961a4cfb79086ae8f91f23152c0014219cdecd9493143370b86d3f69",
+      "bytes": 11983
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/data_backup_verification.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/data_backup_verification.json",
+      "sha256": "0c8743eac53fce084b140d680b0598f3e6b70e896fbe88358f0dcf3a806004c9",
+      "bytes": 279
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/dry_run.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/dry_run.json",
+      "sha256": "f850f9a30462882e5b8d6a09539534471e3dc3de86eaed12ce3d4a354713869d",
+      "bytes": 127498
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/final_review_revision.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/final_review_revision.json",
+      "sha256": "b8912e3c72da57c00ca671e7f707b483fe6c742dd6e7617cf8560fddd6b28f7c",
+      "bytes": 1404
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/preflight_summary.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/preflight_summary.json",
+      "sha256": "542b32daebdff43420678a5bbb493f362f35ec26aa36a101bb5d2ceaaa452b5f",
+      "bytes": 215
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/preservation_checks.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/preservation_checks.json",
+      "sha256": "62009a32c2558ccdffe50a1edc31f8ccced618556776018de5e891a5b5459034",
+      "bytes": 223
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/promoted.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/promoted.json",
+      "sha256": "354022eed46aea8a247850a8c2ed33850123511d532b2a75d3a25229c3c58669",
+      "bytes": 1164
+    },
+    {
+      "source": "outputs/maintenance/annotated_restoration_2026-10-16/recovery_plan.json",
+      "destination": "docs/provenance/annotated_restoration_2026-10-16/recovery_plan.json",
+      "sha256": "e7bfbc9869344c581009f0483e33f2e0dc2e09053c8766512277d7231f50a090",
+      "bytes": 190780
+    },
+    {
+      "source": "outputs/maintenance/chat_conversion_validation_2026-10-15/README.md",
+      "destination": "docs/provenance/chat_conversion_validation_2026-10-15/README.md",
+      "sha256": "54d745125cba7ac6e1279daed0169117b5fb4bf4490216896624b178b71f8247",
+      "bytes": 3870
+    },
+    {
+      "source": "outputs/maintenance/chat_conversion_validation_2026-10-15/before_after_inventory.csv",
+      "destination": "docs/provenance/chat_conversion_validation_2026-10-15/before_after_inventory.csv",
+      "sha256": "4b49de8decd8ffadef577f5b5b7059aa70622f5bc287d105e6c49de2e9622b96",
+      "bytes": 1098088
+    },
+    {
+      "source": "outputs/maintenance/chat_conversion_validation_2026-10-15/before_after_summary.json",
+      "destination": "docs/provenance/chat_conversion_validation_2026-10-15/before_after_summary.json",
+      "sha256": "a558f65f8495f799f9319ab917452a58ad3b77dd6bee0f054a7b6c14202fdd29",
+      "bytes": 166
+    },
+    {
+      "source": "outputs/maintenance/chat_conversion_validation_2026-10-15/validation.json",
+      "destination": "docs/provenance/chat_conversion_validation_2026-10-15/validation.json",
+      "sha256": "f9a4c0e2b8bc48f5420ae48eff4292453ccd31efc75a4fd1991b96ac3868966b",
+      "bytes": 2306
+    },
+    {
+      "source": "outputs/maintenance/chat_conversion_validation_2026-10-15/validator_source.json",
+      "destination": "docs/provenance/chat_conversion_validation_2026-10-15/validator_source.json",
+      "sha256": "39520f9383f92b492f13be72cf2893e0b28d014b10132023d5d2d101c1488389",
+      "bytes": 495
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/README.md",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/README.md",
+      "sha256": "f9ec9da4c39258f296af7826e96ca54d7451a4fbbd9c1c69566bc5f4dfc78939",
+      "bytes": 3812
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/backup_verification.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/backup_verification.json",
+      "sha256": "c68b8e532b73dcdb0d72afe9eeff9c050fb93124b2be1c4f4a46ea5fea5f5841",
+      "bytes": 1520
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/corpus_validation.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/corpus_validation.json",
+      "sha256": "6fb8f49ab5d6db945b000c4f28fb02f337e0eafbb2b3e0f37722e6c2ebbf674c",
+      "bytes": 880
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/corrected_input_backup.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/corrected_input_backup.json",
+      "sha256": "c9a2dba734e2306e885fcd58c6d79014327e71cefbbe0a7dcbf22229f5f73808",
+      "bytes": 245
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/csv_changes.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/csv_changes.json",
+      "sha256": "faa995f530ef4bc3054ae4d8bec542f223c9fc2469cbf18a6c781f329965d060",
+      "bytes": 259653
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/final_verification.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/final_verification.json",
+      "sha256": "99eda65f4e18b2fe87ea1377d08bcdcd275324065fd2d2d48b853b6c707165a0",
+      "bytes": 1194
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/intermediate_candidate.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/intermediate_candidate.json",
+      "sha256": "5326477297f0d63f95737b83d3d3d9bc845b896cb282330b5cdaef8c98f7d084",
+      "bytes": 453
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/intermediate_prefixed_candidate.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/intermediate_prefixed_candidate.json",
+      "sha256": "73c4f984b7adaa5726bbc8057fcffcffa9d2b0157386f04a53703d9161f8b9a0",
+      "bytes": 446
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/source_chat_inventory.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/source_chat_inventory.json",
+      "sha256": "8982174200087599dbdbc50a6491eafa9984dcbb9e40e34c0714715c339fe756",
+      "bytes": 53948
+    },
+    {
+      "source": "outputs/maintenance/chat_parser_fix_2026-10-14/tier_strip_backup_verification.json",
+      "destination": "docs/provenance/chat_parser_fix_2026-10-14/tier_strip_backup_verification.json",
+      "sha256": "3c0f5e19feff78d4ffafee64cdba9cd98a9969c16f633d606ccd377d8aa89d9b",
+      "bytes": 311
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/README.md",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/README.md",
+      "sha256": "1030f2a62f6373819ce72a0c75a4aa978bd6cdae519a3b5d4dcf27f801500851",
+      "bytes": 4658
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/backup_verification.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/backup_verification.json",
+      "sha256": "c957756426198385f8671e32881d06a380ae9ec3d51baca660fe441ad6fd6a07",
+      "bytes": 2392
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/completed_work_backup.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/completed_work_backup.json",
+      "sha256": "7658cc0f9555c4ffcda065e1f51d71537f437c445bc1a097123b2638cfb03147",
+      "bytes": 2389
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/final_checks.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/final_checks.json",
+      "sha256": "a8e5168c3b387c8328e7bc7ba27965b97f5f7c1d8802c18db540db94361ad012",
+      "bytes": 385
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/guide_backup_verification.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/guide_backup_verification.json",
+      "sha256": "441f6631ccdb4ea52e91594690103549c8b8c6905c88536444f0784667f72418",
+      "bytes": 516
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/original_notebook.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/original_notebook.json",
+      "sha256": "decc4e1ef0404e85bada2a2e442ecb187132a30db667ccf23a3cb08a714bdce6",
+      "bytes": 32716
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/source_hashes.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/source_hashes.json",
+      "sha256": "a1304bacee5fa2c43662725790159c3843e00793ad9344371b5cb96bb3a4efc2",
+      "bytes": 1746
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/validation.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/validation.json",
+      "sha256": "b333cac7cdb7c3321864ae978a11cc687f56bcdef46d931b725928a7b9f044d9",
+      "bytes": 467
+    },
+    {
+      "source": "outputs/maintenance/combined_notebook_2026-10-14/validation_commands.json",
+      "destination": "docs/provenance/combined_notebook_2026-10-14/validation_commands.json",
+      "sha256": "99bf954a4138b4243d60e123b2fed58be5f89c38fc1cbcd29355f754db0d8463",
+      "bytes": 2277
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/audit_exports_relocated.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/audit_exports_relocated.json",
+      "sha256": "400ae87aa6ed7341bd613c2ff346fec8ba49b93ea58ed719533e6aade9bfa58f",
+      "bytes": 545
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/backup_verification.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/backup_verification.json",
+      "sha256": "35339f52792bece2792f5ee6f7a1f86acd6c663ad918fa86a7965ad9dad121d9",
+      "bytes": 433
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/before_command.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/before_command.json",
+      "sha256": "31362cf24d47c28f42042ea269faa163f665edf7cd4d283c38ed0c4ca12da379",
+      "bytes": 1601
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/cleanup_completed.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/cleanup_completed.json",
+      "sha256": "8f36e5f05d4791388d6601bce65fa0baaa8ee84ac672fee516808a7f5fc9cb9c",
+      "bytes": 2363
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/fallback_candidates.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/fallback_candidates.json",
+      "sha256": "12d77839432f681c189d3efdb0aca306d3d9cfc090bfd048779cb08ded213d40",
+      "bytes": 212337
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/fallback_chatter.jsonl",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/fallback_chatter.jsonl",
+      "sha256": "d0a0a35a80f5e412ebbe4af3c232280086cd26ae61c297b1576f8cd871f97754",
+      "bytes": 17213
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/fallback_selected.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/fallback_selected.json",
+      "sha256": "bc310f72a41e72c916f889b10557a8af19195454908670d6a8f46472a61ee728",
+      "bytes": 145723
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/retained_backup_verification.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/retained_backup_verification.json",
+      "sha256": "b6d88348b2520e7d110a405bf30a4135fef83bf623b89efa346a9ceb86fadc7c",
+      "bytes": 407
+    },
+    {
+      "source": "outputs/maintenance/data_cleanup_2026-10-16/selection_audit_verification.json",
+      "destination": "docs/provenance/data_cleanup_2026-10-16/selection_audit_verification.json",
+      "sha256": "a953822cb00c7b4d128f818f1c4870aa44472caadc6da30c0dafd2de4f77e3d2",
+      "bytes": 270
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/README.md",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/README.md",
+      "sha256": "9aed5c300c5ee2a209ae454baf958fa191c109e2b14f97c635ab7946ab295389",
+      "bytes": 11717
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/baseline.json",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/baseline.json",
+      "sha256": "2b9ba94a16a33e809fc3f5ff59e8be931b8909578d2449a5681326c7a6a5ab49",
+      "bytes": 19116
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/commands.json",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/commands.json",
+      "sha256": "915082f4d77f2e465c3f2c327ef67bc82f29d028335f343195de460eefb0c5c1",
+      "bytes": 3842
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/current_prompt_functions.py.txt",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/current_prompt_functions.py.txt",
+      "sha256": "6f85397963bd0b66024e323f9d358b8380cff96fdb20aeef073e85331ab569dd",
+      "bytes": 2527
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/dependency_map.json",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/dependency_map.json",
+      "sha256": "0ef6d5311769336f38cc1fcec3ad4f4c6f3cac364a8d7d637e494e663943677a",
+      "bytes": 6709
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/inventory.csv",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/inventory.csv",
+      "sha256": "4679ac87c6e36ecec62ab5410af0400855113b11211f5bd01f9a5b87e83ebd6c",
+      "bytes": 1105144
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/observed_job_fingerprints.csv",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/observed_job_fingerprints.csv",
+      "sha256": "7e66bfa287345273bcd32f97ee3037d939728abdd935bd003446c6bfed01e70d",
+      "bytes": 833466
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/observed_prompt_pairs.csv",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/observed_prompt_pairs.csv",
+      "sha256": "e7c8b5af0e0cc1bbd6ce01e9b41c744b5730aeaeb39c285550d6395609ff9f94",
+      "bytes": 6117
+    },
+    {
+      "source": "outputs/maintenance/generation_baseline_2026-10-14/verification.json",
+      "destination": "docs/provenance/generation_baseline_2026-10-14/verification.json",
+      "sha256": "b1dbc24f910fc9a68d781c04446573e1790e61a503409431279d2d78c40040db",
+      "bytes": 11914
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/README.md",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/README.md",
+      "sha256": "65e545ced6d67a85ba8d8a11811a2cc334e90c422a4b76c3282f575a24fb8434",
+      "bytes": 5098
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/backup_location.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/backup_location.json",
+      "sha256": "16f9592ae8840c80eb4e8e43e59284bf892802bf551f7f2c954136657eb4c624",
+      "bytes": 1135
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/deletion_plan.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/deletion_plan.json",
+      "sha256": "57c1ad62bcb33a1ec07948c561e6fb825ca660e186b4eac9f716ca23a99168b9",
+      "bytes": 12882
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/deletions.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/deletions.json",
+      "sha256": "97087c5ce6231c23942213dbf8ad55dc9033dc32deb5fed854da0f4090fe6ffc",
+      "bytes": 596
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/external_verification.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/external_verification.json",
+      "sha256": "17ab3c8a347292a9ebe61e332598dfedd666122561a2293ace903e8fd483153c",
+      "bytes": 591
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/final_preservation.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/final_preservation.json",
+      "sha256": "d41ca96d3a34fdc2775a9002e13de8301fe10b06bccb63d4942538139ac6c031",
+      "bytes": 1991
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/portable_roster_provenance.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/portable_roster_provenance.json",
+      "sha256": "5cac770a6623e2a6f5b81ca261715c7a5a417bcae043eb8c2beac4de46cf238d",
+      "bytes": 1730
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/portable_setup_validation.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/portable_setup_validation.json",
+      "sha256": "5c8909ec8063c0ace0a18746689d5501b339c373012cfa0182e8af0fa54b95f1",
+      "bytes": 1139
+    },
+    {
+      "source": "outputs/maintenance/generation_cleanup_2026-10-14/validation_commands.json",
+      "destination": "docs/provenance/generation_cleanup_2026-10-14/validation_commands.json",
+      "sha256": "c810cfd9e4afa59dd51ed0fd746d0bb102d967d347a1a922fe97207387309807",
+      "bytes": 2638
+    },
+    {
+      "source": "outputs/maintenance/generation_input_relocation_2026-10-16/before.json",
+      "destination": "docs/provenance/generation_input_relocation_2026-10-16/before.json",
+      "sha256": "7a9e78f55af4b171fde466e548a0b43d37f52b2d1e7d34d1f4673d8ee862d145",
+      "bytes": 3379
+    },
+    {
+      "source": "outputs/maintenance/generation_input_relocation_2026-10-16/relocation.json",
+      "destination": "docs/provenance/generation_input_relocation_2026-10-16/relocation.json",
+      "sha256": "e584393242124159c33a004d01f7957714554b292ddd373cfdcf4fb94e6d1dfa",
+      "bytes": 778
+    },
+    {
+      "source": "outputs/maintenance/generation_input_relocation_2026-10-16/verification.json",
+      "destination": "docs/provenance/generation_input_relocation_2026-10-16/verification.json",
+      "sha256": "843b258f3c82e3a853893600f60e16a20c3eef5a90b9ba293ca0f4c3ddd64538",
+      "bytes": 1581
+    },
+    {
+      "source": "outputs/maintenance/generation_scaffold_config_2026-10-14/README.md",
+      "destination": "docs/provenance/generation_scaffold_config_2026-10-14/README.md",
+      "sha256": "c250527f537c5acb6cb4ba84356feab15e50a1b48d1624a285f031561e43148e",
+      "bytes": 2202
+    },
+    {
+      "source": "outputs/maintenance/generation_scaffold_config_2026-10-14/backup_verification.json",
+      "destination": "docs/provenance/generation_scaffold_config_2026-10-14/backup_verification.json",
+      "sha256": "6c954432848f9ad0e7ffc068e35d128749770c04db646ba8c4fb9d7c56cb0881",
+      "bytes": 3287
+    },
+    {
+      "source": "outputs/maintenance/generation_scaffold_config_2026-10-14/validation.json",
+      "destination": "docs/provenance/generation_scaffold_config_2026-10-14/validation.json",
+      "sha256": "fc662ef12beb28c487dae7a98bf4d9426b4288b3b40a12f578d22fef124c0f4f",
+      "bytes": 963
+    },
+    {
+      "source": "outputs/maintenance/generation_scaffold_config_2026-10-14/validation_commands.json",
+      "destination": "docs/provenance/generation_scaffold_config_2026-10-14/validation_commands.json",
+      "sha256": "27631a079efa49425322e556cf62f3079189bf59ef71ade130cd94a5c33e7f4f",
+      "bytes": 573
+    },
+    {
+      "source": "outputs/maintenance/generation_separation_2026-10-14/README.md",
+      "destination": "docs/provenance/generation_separation_2026-10-14/README.md",
+      "sha256": "9133a9b64805aa65ccc86c228d01a4ab1c7aabc403379ff215bb001e84c8dd08",
+      "bytes": 1556
+    },
+    {
+      "source": "outputs/maintenance/generation_separation_2026-10-14/R_runtime.txt",
+      "destination": "docs/provenance/generation_separation_2026-10-14/R_runtime.txt",
+      "sha256": "545310133d73d4ef4bdd53bd79c336bd68031d539432a3a5754b4610fc2d2ca6",
+      "bytes": 90
+    },
+    {
+      "source": "outputs/maintenance/generation_separation_2026-10-14/r_developmental_memberships.csv",
+      "destination": "docs/provenance/generation_separation_2026-10-14/r_developmental_memberships.csv",
+      "sha256": "d7372d9ee9aeff743575931fd161eb6f1dc6f789eb0cb82749af17eedc806d84",
+      "bytes": 78783
+    },
+    {
+      "source": "outputs/maintenance/generation_separation_2026-10-14/r_main_memberships.csv",
+      "destination": "docs/provenance/generation_separation_2026-10-14/r_main_memberships.csv",
+      "sha256": "7961174dc0cd3c03ba59fd459f9d02318a5f9b5c2f1d54868a2d3c6c1bf7171d",
+      "bytes": 131524
+    },
+    {
+      "source": "outputs/maintenance/generation_separation_2026-10-14/separation_audit.json",
+      "destination": "docs/provenance/generation_separation_2026-10-14/separation_audit.json",
+      "sha256": "9766773a3fa3b990b8890b03c416178292ea5af50d4f28f2bb3a577e2909c7c8",
+      "bytes": 9320
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/README.md",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/README.md",
+      "sha256": "16d534c12a7c000286631921b21de67a3dc8781176ac2c3dd7a20e1c3a8452af",
+      "bytes": 3177
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/backup_verification.json",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/backup_verification.json",
+      "sha256": "cf9922a4c945b051a4d44952b6af1dd9695602649f8797ca032d8b238e8ecc95",
+      "bytes": 4233
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/deletions.json",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/deletions.json",
+      "sha256": "73e616a8d35971421da1647ad20b828a49779dd5215cc52342c6a3a503982da4",
+      "bytes": 1784
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/evaluation_before.csv",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/evaluation_before.csv",
+      "sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+      "bytes": 46101
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/supplemental_backup.json",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/supplemental_backup.json",
+      "sha256": "dbf6f28f609b3533d5db3a6ed2670bdc8a006b268d3902c2bd2183bdc7c896f9",
+      "bytes": 299
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/validation.json",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/validation.json",
+      "sha256": "2b4daef10f3e8c44440b2a77a8f2335c52f67a7a6f803aaf9bbbed5ea44a4f3b",
+      "bytes": 995
+    },
+    {
+      "source": "outputs/maintenance/master_roster_consolidation_2026-10-14/validation_commands.json",
+      "destination": "docs/provenance/master_roster_consolidation_2026-10-14/validation_commands.json",
+      "sha256": "1509f76de601a9dfd9b9e51f4e7cb3e867f564c8c75155dd3eff070b950a13f8",
+      "bytes": 1923
+    },
+    {
+      "source": "outputs/maintenance/neutral_prompt_wording_2026-10-15/validation.json",
+      "destination": "docs/provenance/neutral_prompt_wording_2026-10-15/validation.json",
+      "sha256": "cd5ee9944d8cffb3f0f20d517258d4b0f1e0269fb682d10dc69f81b5010e3ba6",
+      "bytes": 2867
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/README.md",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/README.md",
+      "sha256": "8471bf2ae075aed8aba3eb2c2eb0110077b49345c9ee7edd5e5eecff3dfc5a66",
+      "bytes": 4024
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/backup_verification.json",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/backup_verification.json",
+      "sha256": "14cb33448a85c5f3e5e5c4a3a4d7fcbe7252a606f88e0ff3bff6f98bf43759cc",
+      "bytes": 2029
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/completed_work_backup.json",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/completed_work_backup.json",
+      "sha256": "8dfb4c6ecfcd822d8d9fe0639859bdcd648d79b89a4844784e529ba0de991918",
+      "bytes": 830
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/git_status_before.txt",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/git_status_before.txt",
+      "sha256": "3497fc648b45594d78db8b12d45759de08cae0a7c8f1aae8a3583e18c447e880",
+      "bytes": 295245
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/legacy_generated_chat.py.txt",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/legacy_generated_chat.py.txt",
+      "sha256": "e44ac9db7afbe381951e82788449ceacf131941970e3752052cf120585dec581",
+      "bytes": 11030
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/validation.json",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/validation.json",
+      "sha256": "2321ce893b1d72707b4d6d331f5f6170515d49e0feeda43cdaa47f96b5473ccb",
+      "bytes": 1715
+    },
+    {
+      "source": "outputs/maintenance/post_generation_cleanup_2026-10-14/validation_commands.json",
+      "destination": "docs/provenance/post_generation_cleanup_2026-10-14/validation_commands.json",
+      "sha256": "41f1264df49c1b354671f6244e2cfe53d3fe089891979f2a7091527ec9972261",
+      "bytes": 616
+    },
+    {
+      "source": "outputs/maintenance/profiling_backup_2026-10-14/CURRENT_LOCATION.json",
+      "destination": "docs/provenance/profiling_backup_2026-10-14/CURRENT_LOCATION.json",
+      "sha256": "dfc8cbae8ee35937f4974c0cd9d7bb16ddddfc360668c07c277797c60a471544",
+      "bytes": 916
+    },
+    {
+      "source": "outputs/maintenance/profiling_backup_2026-10-14/README.md",
+      "destination": "docs/provenance/profiling_backup_2026-10-14/README.md",
+      "sha256": "6e69163eb2b5540e9c0119ee58522711832e4d30f6daf9e7d56a310ed48f227f",
+      "bytes": 3150
+    },
+    {
+      "source": "outputs/maintenance/profiling_backup_2026-10-14/VERIFICATION.json",
+      "destination": "docs/provenance/profiling_backup_2026-10-14/VERIFICATION.json",
+      "sha256": "822481eb86570c8ba8d7d6133a177b5dbae3fedea801f381f865d4477966b3bf",
+      "bytes": 868
+    },
+    {
+      "source": "outputs/maintenance/profiling_backup_2026-10-14/icl_profiling_content_candidates.txt",
+      "destination": "docs/provenance/profiling_backup_2026-10-14/icl_profiling_content_candidates.txt",
+      "sha256": "9b1590b18d494cff65e6422e8b5f1e01325b76c35e1e9ad41f3d6be4eef69071",
+      "bytes": 2515
+    },
+    {
+      "source": "outputs/maintenance/profiling_backup_2026-10-14/icl_profiling_path_candidates.txt",
+      "destination": "docs/provenance/profiling_backup_2026-10-14/icl_profiling_path_candidates.txt",
+      "sha256": "7f224d425504fe47cd9da3d6d8754ce44d97d25ccf85e55ff02cfd0e91bd4af2",
+      "bytes": 4326
+    },
+    {
+      "source": "outputs/maintenance/profiling_backup_2026-10-14/profiling_candidates.tsv",
+      "destination": "docs/provenance/profiling_backup_2026-10-14/profiling_candidates.tsv",
+      "sha256": "f3d4d6763d26014d15f5a0c19803ccd4e4daaa012cc62b257e0e13c16c995f34",
+      "bytes": 2957
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/README.md",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/README.md",
+      "sha256": "dd2563f04de01b54f306350282ff7907d0463adc07e6a6cc64d55d97632f3a7c",
+      "bytes": 4342
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/baseline.json",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/baseline.json",
+      "sha256": "a0be9106f125036038d394bdbde17c154acee2bdb6ac88a8ee679842bc5c1f5c",
+      "bytes": 110660
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/cleanup_summary.json",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/cleanup_summary.json",
+      "sha256": "9e4c70c176ddd4ed0368b48a05c9066642b111c64c7a7264daaeaa796626cc79",
+      "bytes": 1797
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/deletion_plan.json",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/deletion_plan.json",
+      "sha256": "2920892485c5fd0159ac8a61aa17b6f1618fb1632e34192617bf19d48a54e617",
+      "bytes": 8027
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/deletions.json",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/deletions.json",
+      "sha256": "f14cf4bfa8a6f8c0a66fe1fd951ed0915efb52fd6080c9b2d596d6400771fcad",
+      "bytes": 2193
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/generation_validation.json",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/generation_validation.json",
+      "sha256": "d90bfe3f02532cc3a735328c0d821131205cc4e91897ec7587f236d6d48dc7ff",
+      "bytes": 745
+    },
+    {
+      "source": "outputs/maintenance/profiling_cleanup_2026-10-14/preservation_checks.json",
+      "destination": "docs/provenance/profiling_cleanup_2026-10-14/preservation_checks.json",
+      "sha256": "e85b15c2d10493907573f871470eb94f4e2747fd0c234bb693045d3e28a1ef0d",
+      "bytes": 156
+    },
+    {
+      "source": "outputs/maintenance/prompt_builder_2026-10-14/README.md",
+      "destination": "docs/provenance/prompt_builder_2026-10-14/README.md",
+      "sha256": "9dc14d3bf9096faabae8dff3950b2ba4dc90dbd6897ed2d0c1bb31e4226bdf94",
+      "bytes": 4150
+    },
+    {
+      "source": "outputs/maintenance/prompt_builder_2026-10-14/backup_verification.json",
+      "destination": "docs/provenance/prompt_builder_2026-10-14/backup_verification.json",
+      "sha256": "331e665b6ddcb250cc6a044b6b0307a4ab317be7cfd6ee57fef7a6edc2d3bf20",
+      "bytes": 2642
+    },
+    {
+      "source": "outputs/maintenance/prompt_builder_2026-10-14/completed_work_backup.json",
+      "destination": "docs/provenance/prompt_builder_2026-10-14/completed_work_backup.json",
+      "sha256": "c39d124a8266a6b9b0d1a9b7f6c22e0fb581a9ca7baec587345711594322892e",
+      "bytes": 235
+    },
+    {
+      "source": "outputs/maintenance/prompt_builder_2026-10-14/validation.json",
+      "destination": "docs/provenance/prompt_builder_2026-10-14/validation.json",
+      "sha256": "ec5a80b914c6185a53b017725707797af01ad447e81d1a9f441d8d400067f119",
+      "bytes": 765
+    },
+    {
+      "source": "outputs/maintenance/prompt_builder_2026-10-14/validation_commands.json",
+      "destination": "docs/provenance/prompt_builder_2026-10-14/validation_commands.json",
+      "sha256": "c85abfdcb58320888152ca6b009daec1ee75b5f7283e2bfb1d97da9872b455b3",
+      "bytes": 2242
+    },
+    {
+      "source": "outputs/maintenance/prompt_restoration_2026-10-15/validation.json",
+      "destination": "docs/provenance/prompt_restoration_2026-10-15/validation.json",
+      "sha256": "668fc55cff9abb000313ae688fb7a833c69088955c722de904c4a4dd5893c6e1",
+      "bytes": 1010
+    },
+    {
+      "source": "outputs/maintenance/publish_pipeline_2026-10-15/isolation_summary.json",
+      "destination": "docs/provenance/publish_pipeline_2026-10-15/isolation_summary.json",
+      "sha256": "5c347130d9d8e3ae6f19296362092badef258a5dc0aeb259941cb05406ff1e21",
+      "bytes": 116
+    },
+    {
+      "source": "outputs/maintenance/publish_pipeline_2026-10-15/publication.json",
+      "destination": "docs/provenance/publish_pipeline_2026-10-15/publication.json",
+      "sha256": "ced85adee2f7bf42361fb4d147feff201bec8df51e2e2769dfb2dd23425cbc72",
+      "bytes": 356
+    },
+    {
+      "source": "outputs/maintenance/publish_pipeline_2026-10-15/selected_paths.json",
+      "destination": "docs/provenance/publish_pipeline_2026-10-15/selected_paths.json",
+      "sha256": "ad310e8fa04f4a1b5d6fb600c1f0db7d33922da78b138c942ac3b76e2f33d666",
+      "bytes": 7597
+    },
+    {
+      "source": "outputs/maintenance/publish_pipeline_2026-10-15/staged_manifest.json",
+      "destination": "docs/provenance/publish_pipeline_2026-10-15/staged_manifest.json",
+      "sha256": "7fcfc5e69fe2f1e2cb924d1e7c17f18189702c50e07de21be72cf06372bbf060",
+      "bytes": 13557
+    },
+    {
+      "source": "outputs/maintenance/publish_pipeline_2026-10-15/staged_validation.json",
+      "destination": "docs/provenance/publish_pipeline_2026-10-15/staged_validation.json",
+      "sha256": "b3a49488d44d16cf8f19a014307e66afed5d6ac08f9ac03392fec371832f6488",
+      "bytes": 2653
+    },
+    {
+      "source": "outputs/maintenance/publish_pipeline_2026-10-15/status_before.txt",
+      "destination": "docs/provenance/publish_pipeline_2026-10-15/status_before.txt",
+      "sha256": "a099fe5b6e2475a2cad655f40a9761f04d8a07bf5f80e60ce0b9bdf7f8ace773",
+      "bytes": 234714
+    },
+    {
+      "source": "outputs/maintenance/small_batch_2026-10-15/publication.json",
+      "destination": "docs/provenance/small_batch_2026-10-15/publication.json",
+      "sha256": "1c86e75ce3d855e288b8ddc1626c04a719283dec70a039b14c948e8702ccccf9",
+      "bytes": 602
+    },
+    {
+      "source": "outputs/maintenance/small_batch_2026-10-15/publication_selection.json",
+      "destination": "docs/provenance/small_batch_2026-10-15/publication_selection.json",
+      "sha256": "1f02652236a73966fa46fd57009499d4cd8d4407ddac371230e1d7b99817e210",
+      "bytes": 490
+    },
+    {
+      "source": "outputs/maintenance/small_batch_2026-10-15/selected_jobs.csv",
+      "destination": "docs/provenance/small_batch_2026-10-15/selected_jobs.csv",
+      "sha256": "498cbb13c912c7ff8c9c35b053c447b6e8146e58bf1077efd4c6bf587e8bfdb5",
+      "bytes": 570
+    },
+    {
+      "source": "outputs/maintenance/small_batch_2026-10-15/validation.json",
+      "destination": "docs/provenance/small_batch_2026-10-15/validation.json",
+      "sha256": "26cabbdee4b60d64cddeb7b8f2dfa121ce1e4ecc863c39b5165f152b6ef8cfe6",
+      "bytes": 1010
+    },
+    {
+      "source": "outputs/maintenance/smoke_test_2026-10-15/design_validation.json",
+      "destination": "docs/provenance/smoke_test_2026-10-15/design_validation.json",
+      "sha256": "d556d3462c941236842e9ceb13c93e4b40c17ed6d008b9e69e827b8f9187b134",
+      "bytes": 561
+    },
+    {
+      "source": "outputs/maintenance/smoke_test_2026-10-15/publication.json",
+      "destination": "docs/provenance/smoke_test_2026-10-15/publication.json",
+      "sha256": "deaf92fa1668f6293d5feb876a4e5df733ff7f275bc24b93fd56f13f3f765b8c",
+      "bytes": 233
+    },
+    {
+      "source": "outputs/maintenance/smoke_test_2026-10-15/test_results.json",
+      "destination": "docs/provenance/smoke_test_2026-10-15/test_results.json",
+      "sha256": "142e8a604fb7adb705ad6c29d6c79e7935e67443d57676b441a337234cc1b75e",
+      "bytes": 1555
+    }
+  ],
+  "chatter": {
+    "path": "tools/chatter/chatter",
+    "source_record": "tools/chatter/source.json",
+    "sha256": "144f00badb92553abb58c1b1b12e1902134f565b3254a077cd85098d8d43a286",
+    "executable": true
+  },
+  "preservation_checks": {
+    "generated_config_and_other_output_files_hash_verified_unchanged": 11487,
+    "protected_file_inventory_sha256": "7bbf02b672fc2cf0238ae78687e57914c07569bc10fe0db6b925329374aedaec",
+    "documentation_path_updates_excluded_from_unchanged_check": [
+      "configs/generation/README.md"
+    ]
+  },
+  "scope": "Existing evaluation and annotation-QC outputs retained; generated data, generation inputs, model settings and scientific analyses unchanged",
+  "completed_at_utc": "2026-10-16T11:42:31.582861+00:00",
+  "after_checks": {
+    "protected_non_documentation_files_unchanged": 11486,
+    "local_reports_byte_verified": 119,
+    "removed_source_allocated_MiB": 239.79,
+    "retained_reports_and_tools_allocated_MiB": 38.97,
+    "approximate_local_file_footprint_reduction_MiB": 200.82,
+    "remaining_outputs_files": 186,
+    "remaining_outputs_allocated_MiB": 36.29
+  },
+  "native_validator_regressions": {
+    "command": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/var/folders/c2/dk6zh1zs79j1_317l8_g5bq40000gn/T/icl_pilot_chatter_relocation__cyg9jcf/tests",
+      "tests/test_generated_chat.py",
+      "-k",
+      "test_chat_formatting_preserves_nonstandard_language_and_valid_notation"
+    ],
+    "exit_code": 0,
+    "stdout": ".................                                                        [100%]\n17 passed, 51 deselected in 1.47s\n",
+    "stderr": "",
+    "validator_version": "chatter 0.30.0 (build 0.30.0-v0.30.0-1792014318)",
+    "cache_and_test_artifacts": "temporary directory removed after completion"
+  }
+}

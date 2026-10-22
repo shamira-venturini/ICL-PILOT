@@ -1,0 +1,20 @@
+{
+  "full_jobs": 2820,
+  "smoke_jobs": 1,
+  "full_input_rows_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+  "full_study_input_rows_unchanged": true,
+  "smoke_execution": {
+    "mode": "smoke_test",
+    "test_only": true,
+    "planned_jobs": 2820,
+    "selected_jobs": 1,
+    "selection_csv": "generation_design/execution_schedule.csv"
+  },
+  "selected_identity": {
+    "cohort": "4-year-old",
+    "pair_id": "pair_sli444_td410",
+    "target_story": "A1",
+    "replicate_id": "1"
+  },
+  "actual_model_inference_executed": false
+}

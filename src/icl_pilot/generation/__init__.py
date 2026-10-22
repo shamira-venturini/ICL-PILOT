@@ -13,8 +13,6 @@ from .workflow import (
     build_rotating_prompt_rounds,
     build_real_bundle_template,
     build_story_generation_schedule,
-    fit_anomaly_qc,
-    fit_primary_mixed_models,
     load_counterbalance_table,
     load_frozen_roster,
 )
@@ -42,8 +40,6 @@ __all__ = [
     "build_rotating_prompt_rounds",
     "build_real_bundle_template",
     "build_story_generation_schedule",
-    "fit_anomaly_qc",
-    "fit_primary_mixed_models",
     "load_counterbalance_table",
     "load_frozen_roster",
     "compile_experiment_design",

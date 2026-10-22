@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "status": "partial_annotation",
+  "backup": {
+    "external_directory": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T085254Z/Data",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T085254Z/Data/data_snapshot.tar.gz",
+    "archive_sha256": "f5ad10779df14859da62ccfaf3f67e9f85e3cba15bf7eaae72485f46f938b0e0",
+    "archive_members_verified": 20411,
+    "file_hashes_verified": 20330,
+    "source_inventory_rechecked": true,
+    "external_transfer_verified": true
+  },
+  "removed_obsolete_files": 19960,
+  "removed_obsolete_file_bytes": 45019837,
+  "retained_real_enni_transcripts": 361,
+  "retained_prompt_inputs_unchanged": true,
+  "chatter": {
+    "pre_annotation": {
+      "type": "summary",
+      "directory": "data/generated/4_year_old/pre_annotation",
+      "outcome": "complete",
+      "total_files": 5640,
+      "valid": 5640,
+      "invalid": 0,
+      "internal_failures": 0,
+      "cache_hits": 0,
+      "cache_misses": 5640,
+      "cache_hit_rate": 0.0,
+      "cache_errors": 0
+    },
+    "talktag": {
+      "type": "summary",
+      "directory": "data/generated/4_year_old/talktag",
+      "outcome": "complete",
+      "total_files": 5578,
+      "valid": 5578,
+      "invalid": 0,
+      "internal_failures": 0,
+      "cache_hits": 0,
+      "cache_misses": 5578,
+      "cache_hit_rate": 0.0,
+      "cache_errors": 0
+    }
+  },
+  "needs_reannotation": 62,
+  "retained_annotation_coverage": "5578 of 5640 generated stories; do not treat queued cases as scientific exclusions",
+  "retained_source_and_boundary_checks": "All active TalkTag files match the corresponding corrected pre-annotation CHI word sequence and utterance boundaries under the documented written-variant comparison",
+  "morphosyntactic_annotation": "not run",
+  "analysis_rerun": "not run",
+  "real_enni_chatter_validation": "not performed by this generated-data cleanup",
+  "tool": {
+    "version": "chatter 0.30.0",
+    "strict_linkers": true,
+    "skip_alignment": false,
+    "suppressions": [],
+    "binary_sha256": "144f00badb92553abb58c1b1b12e1902134f565b3254a077cd85098d8d43a286"
+  },
+  "implementation": {
+    "src/icl_pilot/chat_structure.py": "3793ab7233523c462f0607ef6dda55106f81733d602021ace46c2b43c748a1aa",
+    "src/icl_pilot/generated_chat.py": "43de4243caf17fca6a956e8730713dafa942e30bbcf4a9222298e7c493438626"
+  }
+}

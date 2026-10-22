@@ -15,17 +15,24 @@ __pycache__/
 # New pipeline outputs should stay reproducible, not versioned.
 
 archive/
-# Exclude other project documents by default; include maintained workflow guides.
+# Keep the documentation index, guides, background and provenance versionable.
 docs/*
+!docs/README.md
 !docs/current_strategy_handoff.md
-!docs/chat_narrative_parsing.md
-!docs/colab_generation_package.md
-!docs/generation_prompt_records.md
-!docs/post_generation_processing.md
-data/
+!docs/guides/
+!docs/background/
+!docs/provenance/
+# Keep the local validator executable out of version control; retain its source record.
+/tools/chatter/chatter
+data/*
+!data/README.md
 runs/
 reports/
 outputs/
-results/
+results/*
+!results/README.md
+!results/framework_based_evaluation/
+results/framework_based_evaluation/*
+!results/framework_based_evaluation/README.md
 tmp/
 *.log

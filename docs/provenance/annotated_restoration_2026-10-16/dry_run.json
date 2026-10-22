@@ -1,0 +1,4154 @@
+[
+  {
+    "file": "data/generated/4_year_old/talktag/stage1_td/pair_sli413_td439_rep07_B2_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 73,
+      "reference_words": 73,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage1_td/pair_sli413_td439_rep08_B2_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 65,
+      "reference_words": 73,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli413_td439_rep07_B2_SLI.cha",
+    "report": {
+      "source_annotations": 31,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 0,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 546,
+          "line": "*CHI:\tplay [/] play picnic .",
+          "source_word": "play",
+          "reference_word": "play",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 708
+        },
+        {
+          "index": 1,
+          "code": "[/]",
+          "anchor": 4,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 579,
+          "line": "*CHI:\tand pick [/] pick [/] pick food .",
+          "source_word": "pick",
+          "reference_word": "pick",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 737
+        },
+        {
+          "index": 2,
+          "code": "[/]",
+          "anchor": 5,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 588,
+          "line": "*CHI:\tand pick [/] pick [/] pick food .",
+          "source_word": "pick",
+          "reference_word": "pick",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 742
+        },
+        {
+          "index": 3,
+          "code": "[/]",
+          "anchor": 9,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 618,
+          "line": "*CHI:\tand dog [/] dog .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 768
+        },
+        {
+          "index": 4,
+          "code": "[/]",
+          "anchor": 12,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 645,
+          "line": "*CHI:\tand rabbit [/] rabbit .",
+          "source_word": "rabbit",
+          "reference_word": "rabbit",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 791
+        },
+        {
+          "index": 5,
+          "code": "[/]",
+          "anchor": 15,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 674,
+          "line": "*CHI:\tand yummy [/] yummy sandwiches .",
+          "source_word": "yummy",
+          "reference_word": "yummy",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 816
+        },
+        {
+          "index": 6,
+          "code": "[/]",
+          "anchor": 21,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 734,
+          "line": "*CHI:\tand little [/] little rabbit .",
+          "source_word": "little",
+          "reference_word": "little",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 872
+        },
+        {
+          "index": 7,
+          "code": "[/]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 764,
+          "line": "*CHI:\teat [/] eat [/] eat too [/] too much .",
+          "source_word": "eat",
+          "reference_word": "eat",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 898
+        },
+        {
+          "index": 8,
+          "code": "[/]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 772,
+          "line": "*CHI:\teat [/] eat [/] eat too [/] too much .",
+          "source_word": "eat",
+          "reference_word": "eat",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 902
+        },
+        {
+          "index": 9,
+          "code": "[/]",
+          "anchor": 27,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 784,
+          "line": "*CHI:\teat [/] eat [/] eat too [/] too much .",
+          "source_word": "too",
+          "reference_word": "too",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 910
+        },
+        {
+          "index": 10,
+          "code": "[/]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 808,
+          "line": "*CHI:\toh [/] oh .",
+          "source_word": "oh",
+          "reference_word": "oh",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 931
+        },
+        {
+          "index": 11,
+          "code": "[/]",
+          "anchor": 32,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 827,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 947
+        },
+        {
+          "index": 12,
+          "code": "[/]",
+          "anchor": 34,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 838,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "my",
+          "reference_word": "my",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 968
+        },
+        {
+          "index": 13,
+          "code": "[/]",
+          "anchor": 36,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 851,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "tummy",
+          "reference_word": "tummy",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 977
+        },
+        {
+          "index": 14,
+          "code": "[/]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 867,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "hurts",
+          "reference_word": "hurts",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 989
+        },
+        {
+          "index": 15,
+          "code": "[/]",
+          "anchor": 41,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 895,
+          "line": "*CHI:\tand dizzy [/] dizzy .",
+          "source_word": "dizzy",
+          "reference_word": "dizzy",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1013
+        },
+        {
+          "index": 16,
+          "code": "[/]",
+          "anchor": 44,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 921,
+          "line": "*CHI:\tand lay [/] lay down [/] down .",
+          "source_word": "lay",
+          "reference_word": "lay",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1035
+        },
+        {
+          "index": 17,
+          "code": "[/]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 934,
+          "line": "*CHI:\tand lay [/] lay down [/] down .",
+          "source_word": "down",
+          "reference_word": "down",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1044
+        },
+        {
+          "index": 18,
+          "code": "[/]",
+          "anchor": 48,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 956,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "wise",
+          "reference_word": "wise",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1062
+        },
+        {
+          "index": 19,
+          "code": "[* m:03s:a]",
+          "anchor": 52,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 980,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1082
+        },
+        {
+          "index": 20,
+          "code": "[/]",
+          "anchor": 52,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 992,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1082
+        },
+        {
+          "index": 21,
+          "code": "[* m:03s:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1000,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1086
+        },
+        {
+          "index": 22,
+          "code": "[/]",
+          "anchor": 54,
+          "event_intervenes": false,
+          "utterance": 13,
+          "start": 1025,
+          "line": "*CHI:\tcall [/] call the doctor .",
+          "source_word": "call",
+          "reference_word": "call",
+          "reference_utterance": 14,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1105
+        },
+        {
+          "index": 23,
+          "code": "[/]",
+          "anchor": 59,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1065,
+          "line": "*CHI:\tdoctor come [/] come and say [/] say .",
+          "source_word": "come",
+          "reference_word": "come",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1141
+        },
+        {
+          "index": 24,
+          "code": "[/]",
+          "anchor": 62,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1082,
+          "line": "*CHI:\tdoctor come [/] come and say [/] say .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1154
+        },
+        {
+          "index": 25,
+          "code": "[/]",
+          "anchor": 64,
+          "event_intervenes": false,
+          "utterance": 15,
+          "start": 1103,
+          "line": "*CHI:\trest [/] rest little one .",
+          "source_word": "rest",
+          "reference_word": "rest",
+          "reference_utterance": 16,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1177
+        },
+        {
+          "index": 26,
+          "code": "[/]",
+          "anchor": 69,
+          "event_intervenes": false,
+          "utterance": 16,
+          "start": 1140,
+          "line": "*CHI:\tand rest [/] rest .",
+          "source_word": "rest",
+          "reference_word": "rest",
+          "reference_utterance": 17,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1210
+        },
+        {
+          "index": 27,
+          "code": "[/]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1164,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "go",
+          "reference_word": "go",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1230
+        },
+        {
+          "index": 28,
+          "code": "[/]",
+          "anchor": 74,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1176,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "home",
+          "reference_word": "home",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1238
+        },
+        {
+          "index": 29,
+          "code": "[/]",
+          "anchor": 76,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1190,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "with",
+          "reference_word": "with",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1248
+        },
+        {
+          "index": 30,
+          "code": "[/]",
+          "anchor": 78,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1203,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1257
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 708,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 737,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 742,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 768,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 791,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 816,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 872,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 898,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 902,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 910,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 931,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 947,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 968,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 977,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 989,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1013,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1035,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1044,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1062,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1082,
+          "text": " [* m:03s:a] [/]"
+        },
+        {
+          "reference_position": 1086,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1105,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1141,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1154,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1177,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1210,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1230,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1238,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1248,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1257,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 80,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli427_td406_rep03_B2_SLI.cha",
+    "report": {
+      "source_annotations": 3,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 81,
+          "event_intervenes": false,
+          "utterance": 29,
+          "start": 1161,
+          "line": "*CHI:\tthe bunny say [* m:03s:a] &=growls oh no .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 29,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1308
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 90,
+          "event_intervenes": false,
+          "utterance": 31,
+          "start": 1232,
+          "line": "*CHI:\tthe doctor say [* m:03s:a] &=growls don't worry .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 31,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1367
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 94,
+          "event_intervenes": false,
+          "utterance": 32,
+          "start": 1281,
+          "line": "*CHI:\the give [* m:03s:a] me medicine .",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 32,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1404
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1308,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1367,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1404,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 105,
+      "reference_words": 108,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli427_td406_rep08_A1_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 31,
+      "reference_words": 37,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli444_td410_rep01_B1_SLI.cha",
+    "report": {
+      "source_annotations": 18,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:allo]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 648,
+          "line": "*CHI:\tdog has a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 810
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 19,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 695,
+          "line": "*CHI:\tand the elephant don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "dont",
+          "reference_word": "dont",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 846
+        },
+        {
+          "index": 2,
+          "code": "[* m:+3s]",
+          "anchor": 20,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 711,
+          "line": "*CHI:\tand the elephant don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "has",
+          "reference_word": "has",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 850
+        },
+        {
+          "index": 3,
+          "code": "[* m:allo]",
+          "anchor": 21,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 723,
+          "line": "*CHI:\tand the elephant don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 852
+        },
+        {
+          "index": 4,
+          "code": "[* m:0s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 763,
+          "line": "*CHI:\tthere's two dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 881
+        },
+        {
+          "index": 5,
+          "code": "[* m:0s:a]",
+          "anchor": 28,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 807,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 914
+        },
+        {
+          "index": 6,
+          "code": "[* m:0s:a]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 834,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 930
+        },
+        {
+          "index": 7,
+          "code": "[* m:0s:a]",
+          "anchor": 34,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 874,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 959
+        },
+        {
+          "index": 8,
+          "code": "[* m:0s:a]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 914,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 988
+        },
+        {
+          "index": 9,
+          "code": "[* m:allo]",
+          "anchor": 61,
+          "event_intervenes": false,
+          "utterance": 18,
+          "start": 1095,
+          "line": "*CHI:\telephant has a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 21,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1386
+        },
+        {
+          "index": 10,
+          "code": "[* m:03s:a]",
+          "anchor": 66,
+          "event_intervenes": false,
+          "utterance": 19,
+          "start": 1137,
+          "line": "*CHI:\tand the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "dont",
+          "reference_word": "dont",
+          "reference_utterance": 22,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1417
+        },
+        {
+          "index": 11,
+          "code": "[* m:+3s]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 19,
+          "start": 1153,
+          "line": "*CHI:\tand the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "has",
+          "reference_word": "has",
+          "reference_utterance": 22,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1421
+        },
+        {
+          "index": 12,
+          "code": "[* m:allo]",
+          "anchor": 68,
+          "event_intervenes": false,
+          "utterance": 19,
+          "start": 1165,
+          "line": "*CHI:\tand the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 22,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1423
+        },
+        {
+          "index": 13,
+          "code": "[* m:0s:a]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 20,
+          "start": 1205,
+          "line": "*CHI:\tthere's two dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 23,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1452
+        },
+        {
+          "index": 14,
+          "code": "[* m:0s:a]",
+          "anchor": 75,
+          "event_intervenes": false,
+          "utterance": 22,
+          "start": 1249,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 25,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1485
+        },
+        {
+          "index": 15,
+          "code": "[* m:0s:a]",
+          "anchor": 77,
+          "event_intervenes": false,
+          "utterance": 23,
+          "start": 1276,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 26,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1501
+        },
+        {
+          "index": 16,
+          "code": "[* m:0s:a]",
+          "anchor": 81,
+          "event_intervenes": false,
+          "utterance": 24,
+          "start": 1316,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 27,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1530
+        },
+        {
+          "index": 17,
+          "code": "[* m:0s:a]",
+          "anchor": 85,
+          "event_intervenes": false,
+          "utterance": 25,
+          "start": 1356,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 28,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1559
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 810,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 846,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 850,
+          "text": " [* m:+3s]"
+        },
+        {
+          "reference_position": 852,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 881,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 914,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 930,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 959,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 988,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1386,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 1417,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1421,
+          "text": " [* m:+3s]"
+        },
+        {
+          "reference_position": 1423,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 1452,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1485,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1501,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1530,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1559,
+          "text": " [* m:0s:a]"
+        }
+      ],
+      "source_words": 97,
+      "reference_words": 135,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli474_td459_rep03_A2_SLI.cha",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 17,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 652,
+          "line": "*CHI:\the want [* m:03s:a] to go to the wata .",
+          "source_word": "want",
+          "reference_word": "want",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 773
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 28,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 724,
+          "line": "*CHI:\tthen he slip [* m:03s:a] .",
+          "source_word": "slip",
+          "reference_word": "slip",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 835
+        },
+        {
+          "index": 2,
+          "code": "[/]",
+          "anchor": 31,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 756,
+          "line": "*CHI:\tthen he boo [/] boo his knee .",
+          "source_word": "boo",
+          "reference_word": "boo",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 855
+        },
+        {
+          "index": 3,
+          "code": "[: band]",
+          "anchor": 43,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 827,
+          "line": "*CHI:\tthen he put a baid [: band] [* s:r:der] on it .",
+          "source_word": "baid",
+          "reference_word": "baid",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 922
+        },
+        {
+          "index": 4,
+          "code": "[* s:r:der]",
+          "anchor": 43,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 836,
+          "line": "*CHI:\tthen he put a baid [: band] [* s:r:der] on it .",
+          "source_word": "baid",
+          "reference_word": "baid",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 922
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 773,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 835,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 855,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 922,
+          "text": " [: band] [* s:r:der]"
+        }
+      ],
+      "source_words": 55,
+      "reference_words": 55,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep02_A2_SLI.cha",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 16,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 655,
+          "line": "*CHI:\tand it break [* m:03s:a] .",
+          "source_word": "break",
+          "reference_word": "break",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 821
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 35,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 794,
+          "line": "*CHI:\tand it break [* m:03s:a] .",
+          "source_word": "break",
+          "reference_word": "break",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 994
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 821,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 994,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 63,
+      "reference_words": 115,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep02_B1_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 77,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep04_B2_SLI.cha",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 16,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 639,
+          "line": "*CHI:\tand we were (.) having [/] (.) having a yummy picnic .",
+          "source_word": "having",
+          "reference_word": "having",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 760
+        },
+        {
+          "index": 1,
+          "code": "[/]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 752,
+          "line": "*CHI:\ti was (.) eating [/] (.) eating too much .",
+          "source_word": "eating",
+          "reference_word": "eating",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 869
+        },
+        {
+          "index": 2,
+          "code": "[/]",
+          "anchor": 37,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 811,
+          "line": "*CHI:\tand then i was (.) feeling [/] (.) feeling sick .",
+          "source_word": "feeling",
+          "reference_word": "feeling",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 924
+        },
+        {
+          "index": 3,
+          "code": "[/]",
+          "anchor": 50,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 920,
+          "line": "*CHI:\twe were (.) going [/] (.) going to see the doctor .",
+          "source_word": "going",
+          "reference_word": "going",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1029
+        },
+        {
+          "index": 4,
+          "code": "[/]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 1045,
+          "line": "*CHI:\tshe was (.) giving [/] (.) giving me some medicine .",
+          "source_word": "giving",
+          "reference_word": "giving",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1156
+        },
+        {
+          "index": 5,
+          "code": "[/]",
+          "anchor": 74,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1103,
+          "line": "*CHI:\ti was (.) resting [/] (.) resting on the couch .",
+          "source_word": "resting",
+          "reference_word": "resting",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1210
+        },
+        {
+          "index": 6,
+          "code": "[/]",
+          "anchor": 81,
+          "event_intervenes": false,
+          "utterance": 13,
+          "start": 1158,
+          "line": "*CHI:\ti was (.) feeling [/] (.) feeling better .",
+          "source_word": "feeling",
+          "reference_word": "feeling",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1261
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 760,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 869,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 924,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1029,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1156,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1210,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1261,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 84,
+      "reference_words": 84,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep05_B3_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 112,
+      "reference_words": 112,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep07_A3_SLI.cha",
+    "report": {
+      "source_annotations": 6,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 593,
+          "line": "*CHI:\tthey is [* m:vsg:a] playing .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 718
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 773,
+          "line": "*CHI:\tand he get [* m:03s:a] some more (.) friends .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 901
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 42,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 878,
+          "line": "*CHI:\tand he get [* m:03s:a] some more (.) friends .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 996
+        },
+        {
+          "index": 3,
+          "code": "[* m:vsg:a]",
+          "anchor": 48,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 932,
+          "line": "*CHI:\tbut they is [* m:vsg:a] getting mad .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1040
+        },
+        {
+          "index": 4,
+          "code": "[* m:vsg:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 13,
+          "start": 976,
+          "line": "*CHI:\tbut they is [* m:vsg:a] throwing .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1078
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 56,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1014,
+          "line": "*CHI:\the bring [* m:03s:a] some more (.) friends .",
+          "source_word": "bring",
+          "reference_word": "bring",
+          "reference_utterance": 14,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1108
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 718,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 901,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 996,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1040,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 1078,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 1108,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 74,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep07_B1_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 41,
+      "reference_words": 41,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_A3_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 11,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 621,
+          "line": "*CHI:\tand she's [/] (..) she's flying it .",
+          "source_word": "shes",
+          "reference_word": "shes",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 741
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 741,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 80,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_B1_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 0,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 544,
+          "line": "*CHI:\tme [* s:r:gc:pro] and my dog .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 663
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 663,
+          "text": " [* s:r:gc:pro]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 80,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_B3_SLI.cha",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 587,
+          "line": "*CHI:\the was (.) talking (..) he was talking to the [/] (.) the lady .",
+          "source_word": "the",
+          "reference_word": "the",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 749
+        },
+        {
+          "index": 1,
+          "code": "[/]",
+          "anchor": 58,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 955,
+          "line": "*CHI:\the was (.) the rabbit and dog were [/] (.) were sad .",
+          "source_word": "were",
+          "reference_word": "were",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1131
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 749,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1131,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 99,
+      "reference_words": 99,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep09_B1_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 49,
+      "reference_words": 49,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep10_A3_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:allo]",
+          "anchor": 13,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 616,
+          "line": "*CHI:\tand he (i)s got a [* m:allo] airplane .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 735
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 735,
+          "text": " [* m:allo]"
+        }
+      ],
+      "source_words": 79,
+      "reference_words": 79,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep02_B2_SLI.cha",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 580,
+          "line": "*CHI:\tOnce upon a time (.) Rabbit and dog go [* m:base:ed] to the park .",
+          "source_word": "go",
+          "reference_word": "go",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 742
+        },
+        {
+          "index": 1,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 20,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 676,
+          "line": "*CHI:\tme and me [* s:r:gc:pro] eat carrots and sandwiches .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 3,
+          "status": "removed",
+          "reason": "changed_or_ambiguous_adjacent_context"
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 729,
+          "line": "*CHI:\tme [* s:r:gc:pro] eat too much .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 864
+        },
+        {
+          "index": 3,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 772,
+          "line": "*CHI:\tnow me [* s:r:gc:pro] feel sick .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 892
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 36,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 836,
+          "line": "*CHI:\tdoctor come [* m:03s:a] and check me .",
+          "source_word": "come",
+          "reference_word": "come",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 941
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 41,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 876,
+          "line": "*CHI:\the say [* m:03s:a] me eat too much food .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 969
+        },
+        {
+          "index": 6,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 47,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 920,
+          "line": "*CHI:\tme [* s:r:gc:pro] go home and take a nap .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1001
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 742,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 864,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 892,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 941,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 969,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1001,
+          "text": " [* s:r:gc:pro]"
+        }
+      ],
+      "source_words": 56,
+      "reference_words": 57,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep04_A1_SLI.cha",
+    "report": {
+      "source_annotations": 4,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 701,
+          "line": "*CHI:\tand she get [* m:03s:a] it .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 828
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 738,
+          "line": "*CHI:\tand she bring [* m:03s:a] (.) it back .",
+          "source_word": "bring",
+          "reference_word": "bring",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 853
+        },
+        {
+          "index": 2,
+          "code": "[* m:vsg:a]",
+          "anchor": 34,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 782,
+          "line": "*CHI:\tand they is [* m:vsg:a] happy .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 887
+        },
+        {
+          "index": 3,
+          "code": "[* m:vun:a]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 820,
+          "line": "*CHI:\tand they be [* m:vun:a] happy again .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 913
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 828,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 853,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 887,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 913,
+          "text": " [* m:vun:a]"
+        }
+      ],
+      "source_words": 43,
+      "reference_words": 43,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep04_A2_SLI.cha",
+    "report": {
+      "source_annotations": 3,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 12,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 658,
+          "line": "*CHI:\tmonkey [/] monkey be [= is] [* m:vun:a] running .",
+          "source_word": "monkey",
+          "reference_word": "monkey",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 781
+        },
+        {
+          "index": 1,
+          "code": "[= is]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 672,
+          "line": "*CHI:\tmonkey [/] monkey be [= is] [* m:vun:a] running .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 796
+        },
+        {
+          "index": 2,
+          "code": "[* m:vun:a]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 679,
+          "line": "*CHI:\tmonkey [/] monkey be [= is] [* m:vun:a] running .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 796
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 781,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 796,
+          "text": " [= is] [* m:vun:a]"
+        }
+      ],
+      "source_words": 35,
+      "reference_words": 35,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 708,
+          "line": "*CHI:\tnice man come [* m:03s:a] with band-aid .",
+          "source_word": "come",
+          "reference_word": "come",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 874
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 752,
+          "line": "*CHI:\tkitty sit [* m:03s:a] on bench .",
+          "source_word": "sit",
+          "reference_word": "sit",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 906
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 874,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 906,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 32,
+      "reference_words": 32,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep06_A3_SLI.cha",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 6,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 592,
+          "line": "*CHI:\thm [/] (..) hm (..) a pool .",
+          "source_word": "hm",
+          "reference_word": "hm",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 711
+        },
+        {
+          "index": 1,
+          "code": "[* m:+ing]",
+          "anchor": 18,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 688,
+          "line": "*CHI:\tand it splashing [* m:+ing] (.) and he is saying .",
+          "source_word": "splashing",
+          "reference_word": "splashing",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 803
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 739,
+          "line": "*CHI:\tand he get [* m:03s:a] upset .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 845
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 37,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 819,
+          "line": "*CHI:\tand he is trying (.) and he is getting (.) and he get [* m:03s:a] .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 917
+        },
+        {
+          "index": 4,
+          "code": "[* m:vun:a]",
+          "anchor": 40,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 849,
+          "line": "*CHI:\tand he be [* m:vun:a] happy .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 935
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 711,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 803,
+          "text": " [* m:+ing]"
+        },
+        {
+          "reference_position": 845,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 917,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 935,
+          "text": " [* m:vun:a]"
+        }
+      ],
+      "source_words": 71,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli478_td419_rep02_A3_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 33,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 771,
+          "line": "*CHI:\tno [/] no kitty .",
+          "source_word": "no",
+          "reference_word": "no",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 957
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 957,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 93,
+      "reference_words": 93,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli479_td471_rep07_B1_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 52,
+      "reference_words": 52,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage1_td/pair_sli568_td544_rep09_A2_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 43,
+      "reference_words": 50,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage1_td/pair_sli574_td528_rep05_A1_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 100,
+      "reference_words": 100,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage1_td/pair_sli574_td528_rep10_B3_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 149,
+      "reference_words": 149,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli527_td515_rep01_B2_SLI.cha",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 0,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 522,
+          "line": "*CHI:\tMe [* s:r:gc:pro] and my doggy went to the park.",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 670
+        },
+        {
+          "index": 1,
+          "code": "[: tummy]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 690,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der]'s hurting.",
+          "source_word": "tummie",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:der]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 700,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der]'s hurting.",
+          "source_word": "tummie",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        },
+        {
+          "index": 3,
+          "code": "[: tummy]",
+          "anchor": 47,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 859,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der] feels better now.",
+          "source_word": "tummie",
+          "reference_word": "tummie",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 978
+        },
+        {
+          "index": 4,
+          "code": "[* s:r:der]",
+          "anchor": 47,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 869,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der] feels better now.",
+          "source_word": "tummie",
+          "reference_word": "tummie",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 978
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 670,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 978,
+          "text": " [: tummy] [* s:r:der]"
+        }
+      ],
+      "source_words": 57,
+      "reference_words": 56,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+    "report": {
+      "source_annotations": 3,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 66,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 892,
+          "line": "*CHI:\ther [* s:r:gc:pro] her [* s:r:gc:pro] her [* s:r:gc:pro] her her knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee got got got got got got got got got got got got got got got got hurt hurt hurt hurt hurt hurt hurt hurt hurt .",
+          "source_word": "her",
+          "reference_word": "her",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1040
+        },
+        {
+          "index": 1,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 911,
+          "line": "*CHI:\ther [* s:r:gc:pro] her [* s:r:gc:pro] her [* s:r:gc:pro] her her knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee got got got got got got got got got got got got got got got got hurt hurt hurt hurt hurt hurt hurt hurt hurt .",
+          "source_word": "her",
+          "reference_word": "her",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1044
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 68,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 930,
+          "line": "*CHI:\ther [* s:r:gc:pro] her [* s:r:gc:pro] her [* s:r:gc:pro] her her knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee got got got got got got got got got got got got got got got got hurt hurt hurt hurt hurt hurt hurt hurt hurt .",
+          "source_word": "her",
+          "reference_word": "her",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1048
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1040,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 1044,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 1048,
+          "text": " [* s:r:gc:pro]"
+        }
+      ],
+      "source_words": 178,
+      "reference_words": 144,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli531_td565_rep10_B2_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 47,
+      "reference_words": 46,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli569_td532_rep02_B2_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 16,
+          "start": 1004,
+          "line": "*CHI:\t+ the doctor take [* m:base:ed] him in and gave him some medicine.",
+          "source_word": "take",
+          "reference_word": "take",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1195
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1195,
+          "text": " [* m:base:ed]"
+        }
+      ],
+      "source_words": 86,
+      "reference_words": 86,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli570_td530_rep07_A2_SLI.cha",
+    "report": {
+      "source_annotations": 6,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 37,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 730,
+          "line": "*CHI:\t+\" and the doggy start to run towards the water and he's like this and and he's like that and he rush [* m:03s:a] to the water and he slipped and he hurt [* m:03s:a] his knee.",
+          "source_word": "rush",
+          "reference_word": "rush",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 919
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 782,
+          "line": "*CHI:\t+\" and the doggy start to run towards the water and he's like this and and he's like that and he rush [* m:03s:a] to the water and he slipped and he hurt [* m:03s:a] his knee.",
+          "source_word": "hurt",
+          "reference_word": "hurt",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 959
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 59,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 866,
+          "line": "*CHI:\t+\" and the lifeguard came and he's like this and he say [* m:03s:a] +.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1029
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 68,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 945,
+          "line": "*CHI:\t+\" and he get [* m:03s:a] a bandage and he say [* m:03s:a] +.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1087
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 73,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 978,
+          "line": "*CHI:\t+\" and he get [* m:03s:a] a bandage and he say [* m:03s:a] +.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1108
+        },
+        {
+          "index": 5,
+          "code": "[* m:0ed]",
+          "anchor": 92,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1098,
+          "line": "*CHI:\tand the doggy is like this and he sat on the bench and he rest [* m:0ed].",
+          "source_word": "rest",
+          "reference_word": "rest",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1214
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 919,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 959,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1029,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1087,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1108,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1214,
+          "text": " [* m:0ed]"
+        }
+      ],
+      "source_words": 93,
+      "reference_words": 93,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli575_td561_rep03_B2_SLI.cha",
+    "report": {
+      "source_annotations": 8,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 36,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 733,
+          "line": "*CHI:\tand then the little one eat [* m:03s:a] all the carwots and sandwitches.",
+          "source_word": "eat",
+          "reference_word": "eat",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 884
+        },
+        {
+          "index": 1,
+          "code": "[: doctor]",
+          "anchor": 65,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 917,
+          "line": "*CHI:\tbunny said don't worry i will get the doctow [: doctor] [* s:r:der].",
+          "source_word": "doctow",
+          "reference_word": "doctow",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1060
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:der]",
+          "anchor": 65,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 928,
+          "line": "*CHI:\tbunny said don't worry i will get the doctow [: doctor] [* s:r:der].",
+          "source_word": "doctow",
+          "reference_word": "doctow",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1060
+        },
+        {
+          "index": 3,
+          "code": "[: doctor]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 958,
+          "line": "*CHI:\tthe doctow [: doctor] [* s:r:der] came and gave him some medisine.",
+          "source_word": "doctow",
+          "reference_word": "doctow",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1079
+        },
+        {
+          "index": 4,
+          "code": "[* s:r:der]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 969,
+          "line": "*CHI:\tthe doctow [: doctor] [* s:r:der] came and gave him some medisine.",
+          "source_word": "doctow",
+          "reference_word": "doctow",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1079
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 78,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1044,
+          "line": "*CHI:\tnow the little one feel [* m:03s:a] beter [: better] [* m:base:er].",
+          "source_word": "feel",
+          "reference_word": "feel",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1143
+        },
+        {
+          "index": 6,
+          "code": "[: better]",
+          "anchor": 79,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1062,
+          "line": "*CHI:\tnow the little one feel [* m:03s:a] beter [: better] [* m:base:er].",
+          "source_word": "beter",
+          "reference_word": "beter",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1149
+        },
+        {
+          "index": 7,
+          "code": "[* m:base:er]",
+          "anchor": 79,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1073,
+          "line": "*CHI:\tnow the little one feel [* m:03s:a] beter [: better] [* m:base:er].",
+          "source_word": "beter",
+          "reference_word": "beter",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1149
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 884,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1060,
+          "text": " [: doctor] [* s:r:der]"
+        },
+        {
+          "reference_position": 1079,
+          "text": " [: doctor] [* s:r:der]"
+        },
+        {
+          "reference_position": 1143,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1149,
+          "text": " [: better] [* m:base:er]"
+        }
+      ],
+      "source_words": 87,
+      "reference_words": 86,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli575_td561_rep07_A3_SLI.cha",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:0ing]",
+          "anchor": 9,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 572,
+          "line": "*CHI:\the was play [* m:0ing] with dog.",
+          "source_word": "play",
+          "reference_word": "play",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 720
+        },
+        {
+          "index": 1,
+          "code": "[* m:vsg:a]",
+          "anchor": 23,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 658,
+          "line": "*CHI:\tand then they was [* m:vsg:a] going to drop it.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 797
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 31,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 711,
+          "line": "*CHI:\tand then it fall [* m:03s:a] in water.",
+          "source_word": "fall",
+          "reference_word": "fall",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 839
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 59,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 899,
+          "line": "*CHI:\tand lifeguard take [* m:03s:a] pole and get [* m:03s:a] airplan :e.",
+          "source_word": "take",
+          "reference_word": "take",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1017
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 62,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 924,
+          "line": "*CHI:\tand lifeguard take [* m:03s:a] pole and get [* m:03s:a] airplan :e.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 9,
+          "status": "removed",
+          "reason": "changed_or_ambiguous_adjacent_context"
+        },
+        {
+          "index": 5,
+          "code": "[: airplane]",
+          "anchor": 77,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1031,
+          "line": "*CHI:\tand they play with airplan [: airplane] [* s:r:der] :e again.",
+          "source_word": "airplan",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        },
+        {
+          "index": 6,
+          "code": "[* s:r:der]",
+          "anchor": 77,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1044,
+          "line": "*CHI:\tand they play with airplan [: airplane] [* s:r:der] :e again.",
+          "source_word": "airplan",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 720,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 797,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 839,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1017,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli607_td634_rep04_A3_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 71,
+      "reference_words": 71,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli609_td661_rep02_B1_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 92,
+      "reference_words": 92,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli673_td606_rep05_B1_TD.cha",
+    "report": {
+      "source_annotations": 11,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 3,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 595,
+          "line": "*CHI:\tRabbit and dog was [* m:vsg:a] buildin [* m:0ing] a sandcastle.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 727
+        },
+        {
+          "index": 1,
+          "code": "[* m:0ing]",
+          "anchor": 4,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 615,
+          "line": "*CHI:\tRabbit and dog was [* m:vsg:a] buildin [* m:0ing] a sandcastle.",
+          "source_word": "buildin",
+          "reference_word": "buildin",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 735
+        },
+        {
+          "index": 2,
+          "code": "[* m:0ing]",
+          "anchor": 9,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 662,
+          "line": "*CHI:\tDog was carryin [* m:0ing] a big bucket.",
+          "source_word": "carryin",
+          "reference_word": "carryin",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 772
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 703,
+          "line": "*CHI:\tDog throw [* m:03s:a] sand on the castle.",
+          "source_word": "throw",
+          "reference_word": "throw",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 803
+        },
+        {
+          "index": 4,
+          "code": "[* m:0ing]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 781,
+          "line": "*CHI:\tRabbit's castle was fallin [* m:0ing] down!",
+          "source_word": "fallin",
+          "reference_word": "fallin",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 871
+        },
+        {
+          "index": 5,
+          "code": "[* m:0ing]",
+          "anchor": 28,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 821,
+          "line": "*CHI:\tRabbit was cryin [* m:0ing].",
+          "source_word": "cryin",
+          "reference_word": "cryin",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 901
+        },
+        {
+          "index": 6,
+          "code": "[* m:0ing]",
+          "anchor": 32,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 863,
+          "line": "*CHI:\t+\" Doggy, I was buildin [* m:0ing] somethin pretty!",
+          "source_word": "buildin",
+          "reference_word": "buildin",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 932
+        },
+        {
+          "index": 7,
+          "code": "[* m:base:ed]",
+          "anchor": 40,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 931,
+          "line": "*CHI:\tHe give [* m:base:ed] Rabbit a big hug.",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 989
+        },
+        {
+          "index": 8,
+          "code": "[: sorry]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 982,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der], I did a boo-boo.",
+          "source_word": "sowwy",
+          "reference_word": "sowwy",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1025
+        },
+        {
+          "index": 9,
+          "code": "[* s:r:der]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 992,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der], I did a boo-boo.",
+          "source_word": "sowwy",
+          "reference_word": "sowwy",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1025
+        },
+        {
+          "index": 10,
+          "code": "[* m:03s:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1039,
+          "line": "*CHI:\tRabbit say [* m:03s:a] it's okay, doggy +\".",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1063
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 727,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 735,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 772,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 803,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 871,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 901,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 932,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 989,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 1025,
+          "text": " [: sorry] [* s:r:der]"
+        },
+        {
+          "reference_position": 1063,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 61,
+      "reference_words": 61,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli678_td651_rep01_A3_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 84,
+      "reference_words": 91,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli680_td671_rep06_B3_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 95,
+      "reference_words": 102,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli607_td634_rep04_A3_SLI.cha",
+    "report": {
+      "source_annotations": 4,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 4,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 541,
+          "line": "*CHI:\tone day two birds was [* m:vsg:a] flying near the pool.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 691
+        },
+        {
+          "index": 1,
+          "code": "[* m:allo]",
+          "anchor": 11,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 593,
+          "line": "*CHI:\tthere was a [* m:allo] airplane toy in the water.",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 732
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 828,
+          "line": "*CHI:\the use [* m:03s:a] a big long pole and he get [* m:03s:a] it.",
+          "source_word": "use",
+          "reference_word": "use",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 963
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 867,
+          "line": "*CHI:\the use [* m:03s:a] a big long pole and he get [* m:03s:a] it.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 990
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 691,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 732,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 963,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 990,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 68,
+      "reference_words": 68,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli607_td634_rep06_A3_SLI.cha",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 2,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 533,
+          "line": "*CHI:\tThe ducks was [* m:vsg:a] near the pool.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 683
+        },
+        {
+          "index": 1,
+          "code": "[* m:vsg:a]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 575,
+          "line": "*CHI:\tthey was [* m:vsg:a] playing with a little airplane.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 714
+        },
+        {
+          "index": 2,
+          "code": "[* m:vsg:a]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 634,
+          "line": "*CHI:\tthey was [* m:vsg:a] having lots of fun.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 762
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 48,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 876,
+          "line": "*CHI:\tone duck's mom get [* m:03s:a] upset.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 997
+        },
+        {
+          "index": 4,
+          "code": "[* m:base:ed]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 936,
+          "line": "*CHI:\t+\" What happen [* m:base:ed] to my airplane?",
+          "source_word": "happen",
+          "reference_word": "happen",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1046
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1060,
+          "line": "*CHI:\tshe use [* m:03s:a] a big long pole to get the airplane.",
+          "source_word": "use",
+          "reference_word": "use",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1176
+        },
+        {
+          "index": 6,
+          "code": "[* m:vsg:a]",
+          "anchor": 90,
+          "event_intervenes": false,
+          "utterance": 16,
+          "start": 1164,
+          "line": "*CHI:\tthe ducks was [* m:vsg:a] happy.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 17,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1276
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 683,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 714,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 762,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 997,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1046,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 1176,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1276,
+          "text": " [* m:vsg:a]"
+        }
+      ],
+      "source_words": 105,
+      "reference_words": 105,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli609_td661_rep02_B1_SLI.cha",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 8,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 569,
+          "line": "*CHI:\tBenny the rabbit and his dog friend , Max , build [* m:03s:a] a big castle on the beach.",
+          "source_word": "build",
+          "reference_word": "build",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 762
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 16,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 623,
+          "line": "*CHI:\tMax dump [* m:03s:a] water on it.",
+          "source_word": "dump",
+          "reference_word": "dump",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 805
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 22,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 668,
+          "line": "*CHI:\tThe castle go [* m:03s:a] splat!",
+          "source_word": "go",
+          "reference_word": "go",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 839
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 703,
+          "line": "*CHI:\tBenny cry [* m:03s:a].",
+          "source_word": "cry",
+          "reference_word": "cry",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 863
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 745,
+          "line": "*CHI:\the say [* m:03s:a] , Our castle is broken!",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 894
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 35,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 796,
+          "line": "*CHI:\tMax feel [* m:03s:a] bad +\".",
+          "source_word": "feel",
+          "reference_word": "feel",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 946
+        },
+        {
+          "index": 6,
+          "code": "[* m:base:ed]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 863,
+          "line": "*CHI:\tHe and Benny try to fix it , but it hard [* m:base:ed] to make it same.",
+          "source_word": "hard",
+          "reference_word": "hard",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 999
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 762,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 805,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 839,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 863,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 894,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 946,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 999,
+          "text": " [* m:base:ed]"
+        }
+      ],
+      "source_words": 51,
+      "reference_words": 51,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli609_td661_rep07_B2_SLI.cha",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 19,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 644,
+          "line": "*CHI:\tAnd little boy say [* m:03s:a] +\"/.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 797
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 84,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1110,
+          "line": "*CHI:\tand doctor say [* m:03s:a] ah-ah.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 17,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1242
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 88,
+          "event_intervenes": false,
+          "utterance": 18,
+          "start": 1143,
+          "line": "*CHI:\tHe give [* m:03s:a] little boy a sticker.",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1267
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 97,
+          "event_intervenes": false,
+          "utterance": 20,
+          "start": 1214,
+          "line": "*CHI:\tand little boy say [* m:03s:a] thank you!",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 20,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1334
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 103,
+          "event_intervenes": false,
+          "utterance": 21,
+          "start": 1262,
+          "line": "*CHI:\tand the doctor say [* m:03s:a] you gotta sit down and rest.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 21,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1374
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 797,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1242,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1267,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1334,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1374,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 117,
+      "reference_words": 117,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli613_td620_rep07_B3_SLI.cha",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 22,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 675,
+          "line": "*CHI:\tthe kids (i)s [* m:vsg:a] sad.",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 873
+        },
+        {
+          "index": 1,
+          "code": "[* m:vsg:a]",
+          "anchor": 63,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 980,
+          "line": "*CHI:\tthe kids (i)s [* m:vsg:a] happy.",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 14,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1175
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 873,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 1175,
+          "text": " [* m:vsg:a]"
+        }
+      ],
+      "source_words": 70,
+      "reference_words": 71,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli673_td606_rep05_B1_SLI.cha",
+    "report": {
+      "source_annotations": 10,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:0ing]",
+          "anchor": 3,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 544,
+          "line": "*CHI:\tRabbit and doggy buildin [* m:0ing] sandcastle.",
+          "source_word": "buildin",
+          "reference_word": "buildin",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 737
+        },
+        {
+          "index": 1,
+          "code": "[* m:0ing]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 589,
+          "line": "*CHI:\tDog was carryin [* m:0ing] a big bucket.",
+          "source_word": "carryin",
+          "reference_word": "carryin",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 772
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 12,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 630,
+          "line": "*CHI:\tDog throw [* m:03s:a] sand on the castle.",
+          "source_word": "throw",
+          "reference_word": "throw",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 803
+        },
+        {
+          "index": 3,
+          "code": "[* m:0ing]",
+          "anchor": 22,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 708,
+          "line": "*CHI:\tRabbit's castle was fallin [* m:0ing] down!",
+          "source_word": "fallin",
+          "reference_word": "fallin",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 871
+        },
+        {
+          "index": 4,
+          "code": "[* m:0ing]",
+          "anchor": 26,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 748,
+          "line": "*CHI:\tRabbit was cryin [* m:0ing].",
+          "source_word": "cryin",
+          "reference_word": "cryin",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 901
+        },
+        {
+          "index": 5,
+          "code": "[* m:0ing]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 791,
+          "line": "*CHI:\t+\" Doggy , I was buildin [* m:0ing] somethin pretty!",
+          "source_word": "buildin",
+          "reference_word": "buildin",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 932
+        },
+        {
+          "index": 6,
+          "code": "[* m:base:ed]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 859,
+          "line": "*CHI:\tHe give [* m:base:ed] Rabbit a big hug.",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 989
+        },
+        {
+          "index": 7,
+          "code": "[: sorry]",
+          "anchor": 44,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 910,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der] , I did a boo-boo.",
+          "source_word": "sowwy",
+          "reference_word": "sowwy",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1025
+        },
+        {
+          "index": 8,
+          "code": "[* s:r:der]",
+          "anchor": 44,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 920,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der] , I did a boo-boo.",
+          "source_word": "sowwy",
+          "reference_word": "sowwy",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1025
+        },
+        {
+          "index": 9,
+          "code": "[* m:03s:a]",
+          "anchor": 51,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 968,
+          "line": "*CHI:\tRabbit say [* m:03s:a] it's okay , doggy +\".",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1063
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 737,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 772,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 803,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 871,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 901,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 932,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 989,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 1025,
+          "text": " [: sorry] [* s:r:der]"
+        },
+        {
+          "reference_position": 1063,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 59,
+      "reference_words": 59,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli673_td606_rep09_B3_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 105,
+      "reference_words": 105,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli723_td771_rep10_B2_TD.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 82,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1016,
+          "line": "*CHI:\tThe little rabbit felt better and lay [* m:base:ed] down to rest.",
+          "source_word": "lay",
+          "reference_word": "lay",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1228
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1228,
+          "text": " [* m:base:ed]"
+        }
+      ],
+      "source_words": 86,
+      "reference_words": 86,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli725_td744_rep08_A2_TD.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[!]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 672,
+          "line": "*CHI:\tbear didn't see it , so I shouted bear , look [!] but bear didn't stop.",
+          "source_word": "look",
+          "reference_word": "look",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 880
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 880,
+          "text": " [!]"
+        }
+      ],
+      "source_words": 63,
+      "reference_words": 63,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli727_td709_rep10_B2_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 76,
+      "reference_words": 76,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli731_td722_rep04_B1_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 62,
+      "reference_words": 62,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli733_td711_rep08_B1_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 91,
+      "reference_words": 91,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli739_td759_rep02_B3_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 137,
+      "reference_words": 137,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli739_td759_rep05_A3_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 69,
+      "reference_words": 69,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli777_td707_rep07_B1_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 94,
+      "reference_words": 94,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli778_td718_rep05_A1_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 94,
+      "reference_words": 106,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli778_td718_rep07_B2_TD.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 55,
+      "reference_words": 69,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli723_td771_rep10_B2_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 82,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1020,
+          "line": "*CHI:\tThe little rabbit felt better and lay [* m:base:ed] down.",
+          "source_word": "lay",
+          "reference_word": "lay",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1232
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1232,
+          "text": " [* m:base:ed]"
+        }
+      ],
+      "source_words": 84,
+      "reference_words": 84,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli725_td744_rep08_A2_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[!]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 655,
+          "line": "*CHI:\ti yelled bear , look [!] but bear didn't stop.",
+          "source_word": "look",
+          "reference_word": "look",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 864
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 864,
+          "text": " [!]"
+        }
+      ],
+      "source_words": 64,
+      "reference_words": 64,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli739_td759_rep05_A3_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 68,
+      "reference_words": 68,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli774_td714_rep03_A2_SLI.cha",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 32,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 736,
+          "line": "*CHI:\t&*EXA : no [/] no.",
+          "source_word": "no",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        }
+      ],
+      "insertions": [],
+      "source_words": 72,
+      "reference_words": 70,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli778_td718_rep09_A3_SLI.cha",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 82,
+      "reference_words": 82,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    }
+  }
+]

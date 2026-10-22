@@ -6,8 +6,8 @@ import pandas as pd
 import pytest
 
 from icl_pilot.cli import build_parser
-from icl_pilot.frozen_roster import build_frozen_roster_manifest
-from icl_pilot.generated_dev_measures import _bundle_metadata
+from icl_pilot.generation.frozen_roster import build_frozen_roster_manifest
+from icl_pilot.features.generated_dev_measures import _bundle_metadata
 from icl_pilot.generation import (
     build_real_bundle_template,
     build_generation_package,

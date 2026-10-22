@@ -1,0 +1,43 @@
+[
+  {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/generation_cleanup_2026-10-14/final_test_tmp",
+      "tests/test_generation_config.py",
+      "tests/test_profiling_retirement.py"
+    ],
+    "exit_code": 0,
+    "stdout": ".................                                                        [100%]\n=============================== warnings summary ===============================\n../../../../opt/anaconda3/lib/python3.8/site-packages/numexpr/expressions.py:21\n../../../../opt/anaconda3/lib/python3.8/site-packages/numexpr/expressions.py:21\n  /opt/anaconda3/lib/python3.8/site-packages/numexpr/expressions.py:21: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.\n    _np_version_forbids_neg_powint = LooseVersion(numpy.__version__) >= LooseVersion('1.12.0b1')\n\n../../../../opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20\n  /opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).\n    from pandas.core.computation.check import NUMEXPR_INSTALLED\n\n-- Docs: https://docs.pytest.org/en/stable/warnings.html\n17 passed, 3 warnings in 1.83s\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "icl_pilot",
+      "validate-layout"
+    ],
+    "exit_code": 0,
+    "stdout": "Layout OK\n",
+    "stderr": "/opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).\n  from pandas.core.computation.check import NUMEXPR_INSTALLED\n"
+  },
+  {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "icl_pilot",
+      "show-manifest",
+      "--limit",
+      "2"
+    ],
+    "exit_code": 0,
+    "stdout": "4-year-old | round_01 | pair_sli444_td410 | replicate=1 | target=A1 | TD exemplar=410:B1 | SLI exemplar=444:B3 | one output per stage\n4-year-old | round_01 | pair_sli444_td410 | replicate=1 | target=A2 | TD exemplar=410:B1 | SLI exemplar=444:B3 | one output per stage\n",
+    "stderr": "/opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).\n  from pandas.core.computation.check import NUMEXPR_INSTALLED\n"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "notebooks/colab_direct_generation_pipeline.ipynb": "4498558c94a4dc01179fa8dc13926a9487e3794465c6d7b924683a3cbc39bf81",
+  "configs/annotation/talktag.json": "978a75ecc21f460e4978a45650dd501035c58b8175950f4f26df1338c23238b7",
+  "src/icl_pilot/annotation.py": "4f0067705b84571b3898c9b27b1bb0a709228845cf302b6b0be9a3d07fc119d1",
+  "src/icl_pilot/pipeline.py": "05d3daa5f889f1acb75a138a9cd8032cd776e9b82a4abb9a39258589e5d4da23",
+  "src/icl_pilot/generation/execution.py": "dce8489a6f20384a991b63815e24cb824798a95137b2198f8d65400f3fda3284",
+  "src/icl_pilot/generation/config.py": "a4f4e3a2eae056f0d0424b63ef053dcb76142950f2001d142d1acf68bf7bd483",
+  "tests/test_annotation_pipeline.py": "77828b595250667531c6dccfbc768193ce62844a1910b3bbd93f3856a9c4032a",
+  "tests/test_generation_config.py": "06faeda2abb6c9af4ad40a246a3ddc03c4ce0a85d2b359ab956115f0fda542a8",
+  "tests/test_generation_prompts.py": "aa6ba9c9f985f95021825adc8b1bf9512c776d9babb3489a07a338db9a951137",
+  "README.md": "df4ab69e5b4de937131e3a65c5facea235898084bc3338d5d2f4613f1f26e429",
+  ".gitignore": "58be28ea13abeedcdec691f360bafa620ba9c02be77cdd048fa1f88dfd0b9c50",
+  "AGENTS.md": "58d2c9077fdc61ca778c5747966ffd3d149555ac57aa05112acea0ecd09ee19c",
+  "docs/current_strategy_handoff.md": "a355274d21b4c5a6f58506df19dff4476d5148bb9cb769f7ded655fd0d441c6e",
+  "docs/colab_generation_package.md": "f2b467c0f4d28d7d460ec9908806d057e3d3f22f9456c81c3558357e51f58621",
+  "docs/post_generation_processing.md": "cdcf41d7198780cbdb4b7b8c6a627fd88a895f3491453d4bb5d32f279f2263ea",
+  "docs/generation_prompt_records.md": "d48b4e9928778099b290014e86ae2d50a1d1792c341db13b023017d656fe69ee",
+  "configs/generation/README.md": "7af373f0da91d1060a3e7e9b5f70960def1ef4e6e362ede6cc6c0c79d5e4de11"
+}

@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-21",
+  "created_at_utc": "2026-10-21T09:10:53.382830+00:00",
+  "git_head": "af80b106b6dd846dab44551935c226e6a67afd74",
+  "scope": "Historical raw saved generation CSVs, ages four through seven, both stages. Descriptive termination screening; no generation, annotation or linguistic analyses rerun.",
+  "research_gap": "Measurement-and-annotation gap / Task-anchoring gap: output-length censoring and narrative-length instructions",
+  "source_archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T085254Z/Data/data_snapshot.tar.gz",
+  "source_verification": {
+    "data_archive_sha256": "f5ad10779df14859da62ccfaf3f67e9f85e3cba15bf7eaae72485f46f938b0e0",
+    "source_csv_hashes_matched_archived_manifest": 4,
+    "narrative_text_hashes_and_job_metadata_matched_14_october_baseline": 5640,
+    "no_source_edits": true
+  },
+  "sources": [
+    {
+      "archive_member": "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+      "local_path": "/tmp/icl_generation_endings_audit_20261021/four_year_old_rotating_story_generations.csv",
+      "bytes": 678267,
+      "sha256": "db72225277319c00a4741830808840c1f7dd03fb2014d527c54a5f96080f7bc8",
+      "rows": 660,
+      "columns": [
+        "round_id",
+        "bundle_id",
+        "pair_id",
+        "replicate_id",
+        "story_slot_order",
+        "target_story",
+        "story_title",
+        "sli_child_id",
+        "td_child_id",
+        "sli_age",
+        "sli_severity_band",
+        "sli_profile_label",
+        "prompt_td_story_e1",
+        "prompt_sli_story_e2",
+        "story_units_text",
+        "stage1_group",
+        "stage2_group",
+        "evaluation_td_group",
+        "evaluation_sli_group",
+        "stage1_td_story",
+        "stage2_sli_story"
+      ]
+    },
+    {
+      "archive_member": "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+      "local_path": "/tmp/icl_generation_endings_audit_20261021/5_year_old_rotating_story_generations.csv",
+      "bytes": 769323,
+      "sha256": "67be2a0f793b4ed8a7796eec3027b0ecd2979c81957904255149140b36379956",
+      "rows": 720,
+      "columns": [
+        "cohort",
+        "cohort_label",
+        "round_id",
+        "bundle_id",
+        "pair_id",
+        "replicate_id",
+        "story_slot_order",
+        "target_story",
+        "story_title",
+        "sli_child_id",
+        "td_child_id",
+        "sli_age",
+        "sli_severity_band",
+        "sli_profile_label",
+        "prompt_td_story_e1",
+        "prompt_sli_story_e2",
+        "story_units_text",
+        "stage1_group",
+        "stage2_group",
+        "evaluation_td_group",
+        "evaluation_sli_group",
+        "stage1_td_story",
+        "stage2_sli_story"
+      ]
+    },
+    {
+      "archive_member": "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+      "local_path": "/tmp/icl_generation_endings_audit_20261021/6_year_old_rotating_story_generations.csv",
+      "bytes": 724428,
+      "sha256": "3b0e6ec687f1c4612889dccc9e6b219722f09e53c55d84e38e1181ac59445eab",
+      "rows": 660,
+      "columns": [
+        "cohort",
+        "cohort_label",
+        "round_id",
+        "bundle_id",
+        "pair_id",
+        "replicate_id",
+        "story_slot_order",
+        "target_story",
+        "story_title",
+        "sli_child_id",
+        "td_child_id",
+        "sli_age",
+        "sli_severity_band",
+        "sli_profile_label",
+        "prompt_td_story_e1",
+        "prompt_sli_story_e2",
+        "story_units_text",
+        "stage1_group",
+        "stage2_group",
+        "evaluation_td_group",
+        "evaluation_sli_group",
+        "stage1_td_story",
+        "stage2_sli_story"
+      ]
+    },
+    {
+      "archive_member": "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+      "local_path": "/tmp/icl_generation_endings_audit_20261021/7_year_old_rotating_story_generations.csv",
+      "bytes": 888143,
+      "sha256": "b87fe7e6a4ceb3f0d408e7b9fbf98693166938e91abc3f5694cb689350303471",
+      "rows": 780,
+      "columns": [
+        "cohort",
+        "cohort_label",
+        "round_id",
+        "bundle_id",
+        "pair_id",
+        "replicate_id",
+        "story_slot_order",
+        "target_story",
+        "story_title",
+        "sli_child_id",
+        "td_child_id",
+        "sli_age",
+        "sli_severity_band",
+        "sli_profile_label",
+        "prompt_td_story_e1",
+        "prompt_sli_story_e2",
+        "story_units_text",
+        "stage1_group",
+        "stage2_group",
+        "evaluation_td_group",
+        "evaluation_sli_group",
+        "stage1_td_story",
+        "stage2_sli_story"
+      ]
+    }
+  ],
+  "metadata_availability": {
+    "raw_csv_has_original_generated_token_ids": false,
+    "raw_csv_has_per_output_generated_token_counts": false,
+    "raw_csv_has_stop_reasons": false,
+    "data_archive_contains_generation_journals_or_run_manifests": false,
+    "full_freeze_manifest_has_prompt_records_jsonl": false
+  },
+  "reference_ceiling": {
+    "tokens": 180,
+    "basis": "Archived pre-cleanup notebook source specifies 180 new tokens per stage; original CSVs do not record the per-run limit. Historical model/tokenizer revisions were not recovered.",
+    "not_a_per_output_proven_finish_reason": true
+  },
+  "tokenizer": {
+    "repository": "avans06/Meta-Llama-3.2-8B-Instruct",
+    "revision": "61f0ad72eb603310b03ec8a3260fd912a82a1cb5",
+    "file": "tokenizer.json",
+    "bytes": 9085825,
+    "sha256": "bbeb3ac656ce31599b5192b8442ab7f13a25cf0d72fde82cd01f17895b50ca37",
+    "url": "https://huggingface.co/avans06/Meta-Llama-3.2-8B-Instruct/resolve/61f0ad72eb603310b03ec8a3260fd912a82a1cb5/tokenizer.json",
+    "metadata_url": "https://huggingface.co/api/models/avans06/Meta-Llama-3.2-8B-Instruct/revision/61f0ad72eb603310b03ec8a3260fd912a82a1cb5?blobs=true",
+    "file_metadata": {
+      "rfilename": "tokenizer.json",
+      "blobId": "911cdc84e935335b949658e9060e4f29b630f5c3",
+      "size": 9085825
+    },
+    "historical_revision_verified": false,
+    "purpose": "Re-encode saved decoded text as a proxy; no model weights downloaded"
+  },
+  "results": {
+    "narratives": 5640,
+    "paired_story_jobs": 2820,
+    "proxy_exactly_180": 57,
+    "proxy_at_178_or_179": 7,
+    "proxy_above_180": 0,
+    "proxy_exactly_180_with_terminal_punctuation": 9,
+    "proxy_exactly_180_without_terminal_punctuation": 48,
+    "at_180_stage1_target_counts": {
+      "B3": 9,
+      "A3": 1
+    },
+    "both_stages_at_180": 2,
+    "by_stage": [
+      {
+        "stage": "stage1_td",
+        "narratives": 2820,
+        "token_proxy_available": 2820,
+        "median_token_proxy": 81.0,
+        "p95_token_proxy_nearest_rank": 137,
+        "max_token_proxy": 180,
+        "proxy_equals_reference_limit": 10,
+        "proxy_within_two_below_limit": 2,
+        "proxy_above_reference_limit": 0,
+        "missing_terminal_punctuation": 23
+      },
+      {
+        "stage": "stage2_sli",
+        "narratives": 2820,
+        "token_proxy_available": 2820,
+        "median_token_proxy": 75.0,
+        "p95_token_proxy_nearest_rank": 138,
+        "max_token_proxy": 180,
+        "proxy_equals_reference_limit": 47,
+        "proxy_within_two_below_limit": 5,
+        "proxy_above_reference_limit": 0,
+        "missing_terminal_punctuation": 140
+      }
+    ],
+    "boundary_tails_manually_reviewed": 64
+  },
+  "interpretation": "The decoded-text proxy has a sharp observed ceiling at 180 and includes unfinished-looking phrases, complete-looking endings, long repeated-word runs and response-format artifacts. This supports concern about a nonuniform ceiling effect, especially Stage 2, but cannot identify confirmed truncation or a natural EOS for individual outputs. Missing punctuation alone is not evidence of truncation.",
+  "limits": [
+    "Re-encoding saved stripped text cannot recover original generation token IDs; EOS/special tokens, whitespace and segmentation may alter counts.",
+    "Pinned tokenizer belongs to the previously configured community model; the historical installed tokenizer revision is unknown.",
+    "Only the 64 boundary tails were manually reviewed; there was no complete clinical or content annotation of all narratives.",
+    "Counts describe correlated synthetic outputs, not independent children; no inferential tests were performed.",
+    "Historical findings do not determine a safe final limit for the newly configured official model and revised prompts."
+  ],
+  "software": {
+    "text_proxy_python": "3.12.8",
+    "tokenizers": "0.22.2",
+    "auditor_support": "Python >=3.8; core tests run under Python 3.8.5",
+    "audit_module": "src/icl_pilot/maintenance/generation_endings_audit.py"
+  },
+  "validation": {
+    "focused_tests_passed": 11,
+    "source_preservation": "Source archive checksum and all four CSV hashes verified; 5640 text hashes and their job metadata match the 14 October baseline",
+    "configuration_and_prompt_changes_during_audit": false,
+    "python38_audit_source_and_tests_syntax": "passed",
+    "active_generation_config_hash_unchanged_from_model_correction": true
+  },
+  "recommendation_status": "180 should not be assumed nonbinding. Keep a generous technical ceiling, measure EOS-versus-budget termination in a balanced new-model pilot, and decide prompt length instructions separately. No new ceiling has been adopted.",
+  "external_report_directory": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261021T091052Z/GenerationTerminationAudit",
+  "external_verification": {
+    "status": "verified",
+    "checked_at_utc": "2026-10-21T09:14:05.282496+00:00",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261021T091052Z/GenerationTerminationAudit/generation_termination_audit.tar.gz",
+    "archive_sha256": "d7cb9de613cc258f357f7ccf60cfd6207ee77f32dfc7f370c247592e6c30540b",
+    "archive_bytes": 2981610,
+    "regular_file_hashes_verified": 17,
+    "source_data_archive_sha256_rechecked_unchanged": true,
+    "original_backups_modified": false,
+    "raw_csv_copies_in_new_archive": false,
+    "raw_csv_source": "The original four members remain in the verified earlier data archive; this archive contains reports, the tokenizer snapshot and audit code."
+  }
+}

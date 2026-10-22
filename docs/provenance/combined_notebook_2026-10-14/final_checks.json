@@ -1,0 +1,11 @@
+{
+  "notebook_schema": "passed",
+  "notebook_python_syntax": "passed",
+  "local_checkout_bootstrap": "passed",
+  "git_diff_check": "passed",
+  "standalone_talktag_removed_after_backup_verification": true,
+  "focused_tests_passed": 143,
+  "full_and_saved_input_routes": "passed with mocked inference",
+  "real_model_inference_executed": false,
+  "local_dependencies_installed": false
+}

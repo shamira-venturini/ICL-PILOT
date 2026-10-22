@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from icl_pilot.tier_stripper import strip_tiers
+from icl_pilot.chat.tier_stripper import strip_tiers
 
 
 def _write_chat(path: Path) -> str:

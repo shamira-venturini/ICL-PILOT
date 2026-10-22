@@ -5,40 +5,37 @@
     {
       "role": "system",
       "lines": [
-        "You write short child-like ENNI narratives. Preserve the picture-supported event order, allow small surface variation, and do not add new major plot events."
+        "You produce narratives using the supplied story information and language example."
       ]
     },
     {
       "role": "user",
       "lines": [
-        "Generate a child retell for the ENNI story below.",
+        "Generate one narrative using the target story information and example below.",
         "",
-        "Target story: {target_story} ({story_title})",
-        "Target story slot in the schedule: {target_story}",
-        "Cross-story TD exemplar slot: {prompt_td_story_e1}",
-        "Replicate id: {replicate_id}",
-        "",
-        "Canonical story spine:",
+        "Target story events:",
         "{story_units_text}",
         "",
-        "Content that should stay stable:",
+        "Required content:",
         "{content_invariants_text}",
         "",
-        "Optional details:",
+        "Optional content:",
         "{optional_content_text}",
         "",
-        "Constraints:",
+        "Additional content constraints:",
         "{prompt_constraints_text}",
         "",
-        "Example natural TD story from another ENNI story slot:",
-        "{prompt_td_story_e1}: {prompt_td_exemplar_story}",
+        "Example narrative about a different story:",
+        "{prompt_td_exemplar_story}",
         "",
-        "Write one short child-like narrative.",
-        "Keep the story events in order.",
-        "Do not add new major events.",
-        "Do not write an adult-style polished retell.",
-        "Use the example mainly for narrative style and level, not for its content.",
-        "Return only the narrative text.",
+        "Instructions:",
+        "- Preserve the target story's major events and their order.",
+        "- Include the required content and follow the additional content constraints.",
+        "- Optional content may be included but is not required.",
+        "- Use the example to guide wording, sentence construction, narrative style, and level of detail.",
+        "- Describe the target story rather than the story in the example.",
+        "- Do not introduce new major events.",
+        "- Return only the narrative text.",
         ""
       ]
     }

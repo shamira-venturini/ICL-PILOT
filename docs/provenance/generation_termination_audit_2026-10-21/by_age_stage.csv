@@ -1,0 +1,9 @@
+cohort_year,stage,narratives,token_proxy_available,median_token_proxy,p95_token_proxy_nearest_rank,max_token_proxy,proxy_equals_reference_limit,proxy_within_two_below_limit,proxy_above_reference_limit,missing_terminal_punctuation
+4,stage1_td,660,660,78.0,135,180,1,0,0,7
+4,stage2_sli,660,660,72.0,139,180,10,3,0,48
+5,stage1_td,720,720,78.0,132,180,1,1,0,4
+5,stage2_sli,720,720,75.0,131,180,9,2,0,43
+6,stage1_td,660,660,81.0,134,180,4,0,0,5
+6,stage2_sli,660,660,75.0,134,180,12,0,0,17
+7,stage1_td,780,780,85.0,144,180,4,1,0,7
+7,stage2_sli,780,780,80.0,146,180,16,0,0,32

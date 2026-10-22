@@ -9,8 +9,8 @@ import shutil
 import zipfile
 from pathlib import Path
 
-from .annotation import sha256_file
-from .generated_chat import convert_generated_story_csv_to_cha
+from .chat.annotation import sha256_file
+from .chat.generated_chat import convert_generated_story_csv_to_cha
 
 
 def stage_flags(mode: str) -> tuple[bool, bool, bool]:

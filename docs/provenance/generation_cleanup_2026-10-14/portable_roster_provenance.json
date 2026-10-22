@@ -1,0 +1,37 @@
+{
+  "cohorts": [
+    {
+      "cohort": 4,
+      "pairs": 11,
+      "source_csv": "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+      "source_sha256": "db72225277319c00a4741830808840c1f7dd03fb2014d527c54a5f96080f7bc8",
+      "roster": "configs/generation/rosters/four_year_old.csv",
+      "roster_sha256": "374a678d9ad57aeb48d2dc015d410847265ea0ce1a3d66193281b83c99a58b92"
+    },
+    {
+      "cohort": 5,
+      "pairs": 12,
+      "source_csv": "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+      "source_sha256": "67be2a0f793b4ed8a7796eec3027b0ecd2979c81957904255149140b36379956",
+      "roster": "configs/generation/rosters/five_year_old.csv",
+      "roster_sha256": "d62f5299b86f6cfff2e10fba92d3feeb8cc9fc8f5d92d018ab852bf0db9c3a5a"
+    },
+    {
+      "cohort": 6,
+      "pairs": 11,
+      "source_csv": "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+      "source_sha256": "3b0e6ec687f1c4612889dccc9e6b219722f09e53c55d84e38e1181ac59445eab",
+      "roster": "configs/generation/rosters/six_year_old.csv",
+      "roster_sha256": "672eb834aca7874ecddd7faee1611f54482b766c77918c407546d43e1e1d50da"
+    },
+    {
+      "cohort": 7,
+      "pairs": 13,
+      "source_csv": "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+      "source_sha256": "b87fe7e6a4ceb3f0d408e7b9fbf98693166938e91abc3f5694cb689350303471",
+      "roster": "configs/generation/rosters/seven_year_old.csv",
+      "roster_sha256": "32d4969887181b5544b3e0d6b0d10c0f8b223421d67f26cfd136b4aa7f34d562"
+    }
+  ],
+  "developmental_metadata_sha256": "e9d3499cbdba98148b135cb60879ff889c637288f4f9283546b930a9c2845770"
+}

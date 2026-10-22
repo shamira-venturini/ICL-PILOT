@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-16T13:44:18.793524+00:00",
+  "scope": "R input dependencies and revised-study pending-input signpost",
+  "backup": {
+    "created_at_utc": "2026-10-16T13:37:46.331085+00:00",
+    "git_head": "af80b106b6dd846dab44551935c226e6a67afd74",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T133744Z/RAnalysisInputs/r_analysis_before_input_refactor.tar.gz",
+    "archive_sha256": "e8dbdb3e5ae5025511b7656ce59f2243a57a96ddfa04135ad26c6af56bd29c51",
+    "entries": {
+      "clinical_analyses.Rmd": {
+        "bytes": 92762,
+        "sha256": "91f32b04655771f7f2c7316e8ada4d7d2da34fb35f908799f854300de520d324"
+      },
+      "clinical_analyses_reordered.Rmd": {
+        "bytes": 108390,
+        "sha256": "83c53a0f12cb793135d6cd70983ffcd4b30e7759d9c74a361dea88ad42be41e7"
+      },
+      "clinical_analyses_reordered_purl.R": {
+        "bytes": 86729,
+        "sha256": "747fcd4bbcf260a92b7ad3fc57743e4c6122891f1025408749e0ab1dd8222a81"
+      },
+      "docs/current_strategy_handoff.md": {
+        "bytes": 63848,
+        "sha256": "9bd6a2f288ef78935721150b3f5f5fcd1ee17c8ca7fbc18dc4ab811348b23039"
+      }
+    },
+    "status": "verified_by_archive_readback"
+  },
+  "after": {
+    "clinical_analyses.Rmd": {
+      "bytes": 93224,
+      "sha256": "c3d952c593d828e89066f07997e9445b8f1ffe82bf74a263d52f56c74104c120"
+    },
+    "clinical_analyses_reordered.Rmd": {
+      "bytes": 108756,
+      "sha256": "f462a3d38834391d18f6be1729eae162d3d8539aa31b4b4009c6c6c536d5c640"
+    },
+    "clinical_analyses_reordered_purl.R": {
+      "bytes": 87080,
+      "sha256": "1f87b6630f8378abb981e4b71398d0a2acbd8b88b4cd3f14dadc95f1a8dede01"
+    },
+    "configs/analysis/inputs.R": {
+      "bytes": 2627,
+      "sha256": "90783d2e6ef4b8f74149c571c28ed768656cf1a4259ff57d3c6d2db55957784f"
+    },
+    "configs/analysis/README.md": {
+      "bytes": 2483,
+      "sha256": "4c941168fbc6d01018ebaced53206fd0466781f544dec91b48d6d84289a54b10"
+    },
+    "tests/test_r_analysis_inputs.R": {
+      "bytes": 4157,
+      "sha256": "91558301f653408ab96f39a71f365fed0f73836f038298cf1e1df691971df727"
+    }
+  },
+  "signpost": "configs/analysis/inputs.R",
+  "required_inputs": [
+    "real_features_csv",
+    "synthetic_features_csv",
+    "frozen_roster_csv",
+    "real_dev_csv",
+    "synthetic_dev_csv"
+  ],
+  "pending_paths_are_blank": true,
+  "automatic_phase2_and_historical_roster_defaults_removed": true,
+  "verification": {
+    "base_r_path_and_entrypoint_regressions": "passed",
+    "direct_retained_rscript_execution": "stops at pending-input guard before packages/data",
+    "rmd_and_r_syntax": "parsed completely",
+    "preserved_non_setup_expressions": {
+      "clinical_analyses.Rmd": 461,
+      "clinical_analyses_reordered.Rmd": 525,
+      "clinical_analyses_reordered_purl.R": 460
+    },
+    "parsed_expression_comparison": "identical after excluding the five setup expressions, the real_csv_path binding and the five CSV input arguments",
+    "statistical_expressions_unchanged": true,
+    "models_and_analyses_rerun": false,
+    "rendered_outputs_regenerated": false,
+    "git_diff_check": "passed"
+  },
+  "notes": [
+    "The historical pooled/ENNI-only difference in real feature defaults was documented; revised corpus choice is explicitly pending.",
+    "No historical input file or frozen roster was overwritten.",
+    "The retained extracted script was not regenerated.",
+    "Existing knitr/xfun attr() deprecation warnings also occur during extraction of the pre-edit R Markdown; no package changes were made.",
+    "Phase2 data were not removed; framework notebook/exporter dependencies remain outside this R-only change.",
+    "No staging, commit or push was performed."
+  ]
+}

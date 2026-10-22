@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-16T12:30:47.138195+00:00",
+  "status": "first_cleanup_pass_complete",
+  "backup": {
+    "status": "verified",
+    "checked_at_utc": "2026-10-16T12:29:39.457298+00:00",
+    "archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T122903Z/Phase2/phase2_snapshot.tar.gz",
+    "archive_sha256": "f778b7355c42acaf82d79f632377829715566f0dc395c101941ed91a4834f267",
+    "archive_bytes": 221750348,
+    "regular_file_hashes_verified": 9282,
+    "symlink_targets_verified": 0,
+    "source_inventory_rechecked": true,
+    "source_content_bytes": 1804134132,
+    "source_allocated_bytes": 1824071680
+  },
+  "removed_files": [
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_partial_predictions.csv",
+      "reason": "redundant checkpoint identical to retained complete prediction table",
+      "retained_identical_copy": "phase2/replications/guo_schneider_6yo_ablation/results/allages_exploratory_ml_feature_selection_ratio_sweep_full_predictions.csv",
+      "bytes": 106918136,
+      "sha256": "4094381ddbdf4eca06648aded1d5f4b7f690e2d62bf85e7dbfbff5e0526b1df8",
+      "allocated_bytes": 106921984
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_partial_predictions.csv",
+      "reason": "redundant checkpoint identical to retained complete prediction table",
+      "retained_identical_copy": "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_ratio_sweep_full_predictions.csv",
+      "bytes": 70852596,
+      "sha256": "667fe70fef11f79a69c39093c1e2b8ec33343a7863707b93ea4d8510b3baabd1",
+      "allocated_bytes": 70852608
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_partial_predictions.csv",
+      "reason": "redundant checkpoint identical to retained complete prediction table",
+      "retained_identical_copy": "phase2/replications/guo_schneider_6yo_ablation/results/enni_only_rerun/allages_exploratory_ml_feature_selection_bundlelevel_ratio_sweep_predictions.csv",
+      "bytes": 70810940,
+      "sha256": "dab7449d7e9c349096b3b2e899c8b6da50efad34acd620e0b33ab0337da156ee",
+      "allocated_bytes": 70811648
+    },
+    {
+      "path": "phase2/.DS_Store",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 8196,
+      "sha256": "542681b9ca9756c94bf1e80b3ca9fc6489365b57e1c841f56e9c1b3f72f645a1",
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "phase2/generated/.DS_Store",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 6148,
+      "sha256": "dee4c197c2483ea0fb629fd40c2c129b4ce7d9697e18dfc5364c2f26233bfcbd",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/.DS_Store",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 6148,
+      "sha256": "f17503f962a14f507ab92e5a9468c6acc5570ecb309ad00705beda629578d94e",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/.DS_Store",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 8196,
+      "sha256": "d1f7788ddcf3a998ba55d3ad205a48cbbba02a95c69b4f7faca146849caf8d29",
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/extract_guo_age6_features.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 32153,
+      "sha256": "b6e7b6c943f093566ad7ba3bac329fc890ad93711f5afa7888ba136dcc49c0a1",
+      "allocated_bytes": 32768
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/audit_enni_only_prompt_ancestry.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 4233,
+      "sha256": "3a63cc7df82c82bfc068bcaebf6c8dc170c8b2a30e30e50b3de66e0e16422f62",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_allages_overlap_utility_panels.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 25697,
+      "sha256": "e3b88a4f36c3a9025a86b416c83a460846bf58aa3ad718f3004d40b36fb77426",
+      "allocated_bytes": 28672
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/compare_enni_only_evaluations.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 16099,
+      "sha256": "2e57f82c46d15d2add93865c280a212c1912a05db9a7a750b4ac08d90a7ccb37",
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_allages_synthetic_ratio_sweep.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 46233,
+      "sha256": "17ba0eaf3150ed01e77e3acec267adef88655845ca26e1a2eae998ec4d223420",
+      "allocated_bytes": 49152
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/merge_enni_only_quantity_partitions.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 5749,
+      "sha256": "465875f1fe69016f3f5005eb41a0d52a3213cfc3942d06db3c8ef9a53bcfc6b5",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/audit_gillam_lineage.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 4698,
+      "sha256": "a5040967e89b6565e01266a351c7c06b44451f14a474b85ed31b6abaadc946ad",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_raw_text_classification.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 30125,
+      "sha256": "6b94188e71e3589914799536914647c19773b2bd07ddf1856f923bb8f2fdcb0f",
+      "allocated_bytes": 32768
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_allages_overlap_utility_panels.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 41512,
+      "sha256": "6c7079662e684cd8754354ba65df8da0e746f27f4fe4eb9389caa32c73dc9699",
+      "allocated_bytes": 45056
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_bert_text_classification.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 27332,
+      "sha256": "79162ea508824b217ce30fe55dbb30a067c735c02171cfa30529a7b525484f11",
+      "allocated_bytes": 28672
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/audit_gillam_lineage.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 6844,
+      "sha256": "bc2a7e1380853d172f3f7f5145ff4ac3f4ddcd54899923173dfd14b339bc6352",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_bert_text_classification.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 16221,
+      "sha256": "ff8452047257c914fcca0bb1aebe9a20e3b11966686eacc6105ada9cdf0b917b",
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/audit_enni_only_prompt_ancestry.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 7077,
+      "sha256": "4bb442e11cdd976c220634ab6dd5b267cb25afa53585f8456c33320bda005d55",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_enni_only_evaluation_suite.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 18278,
+      "sha256": "e5e6df40446484820d1894ff592ef8d2e55db6e89ab86ac876ec528fdc3ff5bf",
+      "allocated_bytes": 20480
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_external_synthetic_ratio_sweep.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 20147,
+      "sha256": "450135abd02004caced7c71afdd8b0a4c2e1fb3b9e7d83c5c105e0c2be75eb38",
+      "allocated_bytes": 20480
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_real_synthetic_quantity_surface.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 25241,
+      "sha256": "99585c3bf0b9ebce241b9260846a2fa9998a6adc2560d1ba5c44c6ad5c91c2a4",
+      "allocated_bytes": 28672
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_enni_only_evaluation_suite.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 11823,
+      "sha256": "694eb701a589d16058b7fe39fc6d219b9e78e9be72673830977e2d234b3da1ba",
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/compare_gillam_external_evaluations.cpython-312.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 12060,
+      "sha256": "e6cf13e68351b7b49b5781e6c20658134d6574de321c317df50edc99a12af33b",
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/compare_enni_only_evaluations.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 9847,
+      "sha256": "902850b54afeec3edc2f5740b21443db15693009c4fef1f61a8e2a2052e18139",
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_guo_age6_benchmark.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 10811,
+      "sha256": "5cddfa005e88c959db674c4bb999559689c08e97c00213f35617ed37d3649a87",
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_real_synthetic_quantity_surface.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 15276,
+      "sha256": "b5b2a6c1f8f3c0ab4b9a4beeb4e625029a4d86bb4be4387de76467f850d27826",
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/scripts/__pycache__/run_raw_text_classification.cpython-38.pyc",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 17454,
+      "sha256": "f4c20aa8f880a42711ec945534d0af13d799afeff9b0972e5dbcdadd61e613df",
+      "allocated_bytes": 20480
+    },
+    {
+      "path": "phase2/replications/guo_schneider_6yo_ablation/presentation_assets/.DS_Store",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "allocated_bytes": 8192
+    },
+    {
+      "path": "phase2/ENNI/.DS_Store",
+      "reason": "disposable Finder metadata or Python bytecode cache",
+      "bytes": 6148,
+      "sha256": "5375eee1c70be130e54d1caec26b77331e96e39d3f3b51e2edc64cad6ca00206",
+      "allocated_bytes": 8192
+    }
+  ],
+  "removed_duplicate_prediction_files": 3,
+  "removed_disposable_metadata_cache_files": 28,
+  "removed_content_bytes": 249027566,
+  "removed_file_allocated_bytes": 249090048,
+  "unchanged_original_phase2_files": 9251,
+  "outside_phase2_files_verified_unchanged": 11488,
+  "no_analysis_or_measurement_rerun": true,
+  "scope": "Only three byte-identical checkpoint copies and disposable metadata/bytecode removed; complete prediction results, raw features, CLAN outputs, transcripts, scripts and scientific findings retained",
+  "remaining_review_items": [
+    "Separate current inputs from historical and exploratory result runs before further reorganization",
+    "Review missing-group fallback for real child 523 in the preserved framework text export",
+    "Refresh CLAN measurements from corrected CHAT before interpreting a rerun; legacy severity_features_raw tables remain active inputs"
+  ],
+  "finalized_at_utc": "2026-10-16T12:32:28.065027+00:00",
+  "checks": {
+    "archive_read_back_verified_files": 9282,
+    "all_remaining_original_phase2_files_unchanged": 9251,
+    "outside_phase2_files_unchanged": 11488,
+    "active_R_and_framework_inputs_present": true,
+    "retained_complete_prediction_hashes_match_deleted_checkpoints": true,
+    "phase2_readme_links_valid": true,
+    "remaining_original_content_bytes": 1555106566,
+    "phase2_files_after_including_new_readme": 9252
+  },
+  "protected_outside_phase2_inventory_sha256": "272d44fc29cd1f22759bf5fa88ac7bcf3fee5d1061eb785ca4c86905b05c6b56",
+  "new_documentation": {
+    "path": "phase2/README.md",
+    "sha256": "a00de636b277e94a9df7974bcf7b4d716bd6240c498f06464e6390168fcc882f"
+  }
+}

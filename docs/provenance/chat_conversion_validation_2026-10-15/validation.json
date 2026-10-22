@@ -1,0 +1,60 @@
+{
+  "phase": "final",
+  "source_sha256": {
+    "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv": "db72225277319c00a4741830808840c1f7dd03fb2014d527c54a5f96080f7bc8",
+    "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv": "67be2a0f793b4ed8a7796eec3027b0ecd2979c81957904255149140b36379956",
+    "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv": "3b0e6ec687f1c4612889dccc9e6b219722f09e53c55d84e38e1181ac59445eab",
+    "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv": "b87fe7e6a4ceb3f0d408e7b9fbf98693166938e91abc3f5694cb689350303471"
+  },
+  "source_files_unchanged": true,
+  "exported_files": 5640,
+  "files_by_age": {
+    "4": 1320,
+    "5": 1440,
+    "6": 1320,
+    "7": 1560
+  },
+  "preservation_issues": 0,
+  "chatter_command": [
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/chat_conversion_validation_2026-10-15/tools/chatter",
+    "validate",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/chat_conversion_validation_2026-10-15/final/exports",
+    "--format",
+    "json",
+    "--force",
+    "--jobs",
+    "2",
+    "--strict-linkers"
+  ],
+  "files_with_recorded_normalizations": 729,
+  "files_with_changed_lexical_encoding": 392,
+  "normalization_operations": {
+    "prose_parentheses": 7,
+    "currency_spelling": 33,
+    "quotation_link_layout": 356,
+    "number_spelling": 854,
+    "ampersand_spelling": 47,
+    "utterance_terminator_run": 22,
+    "omitted_suffix_spacing": 7,
+    "pause_spacing": 1,
+    "trailing_off_notation": 1,
+    "nonverbal_event_notation": 8,
+    "uncoded_prose_symbol": 31,
+    "interposed_speaker_spacing": 8,
+    "single_quoted_utterance": 4,
+    "story_identifier_spelling": 2
+  },
+  "chatter_exit_code": 0,
+  "converter_sha256": "43de4243caf17fca6a956e8730713dafa942e30bbcf4a9222298e7c493438626",
+  "existing_research_artifacts_overwritten": false,
+  "focused_tests_passed": 229,
+  "formatting_regressions_checked_by_real_chatter": 17,
+  "before_after": {
+    "files_checked": 5640,
+    "files_with_text_changes": 2785,
+    "files_with_utterance_count_changes": 42,
+    "before_utterances": 62684,
+    "after_utterances": 62705
+  },
+  "intermediate_archives_verified": 9
+}

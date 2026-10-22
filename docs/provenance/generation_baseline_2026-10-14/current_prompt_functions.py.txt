@@ -1,0 +1,83 @@
+def stage1_messages(row):
+    return [
+        {
+            "role": "system",
+            "content": (
+                "You write short child-like ENNI narratives. Preserve the picture-supported event order, "
+                "allow small surface variation, and do not add new major plot events."
+            ),
+        },
+        {
+            "role": "user",
+            "content": f"""Generate a child retell for the ENNI story below.
+
+Target story: {row.target_story} ({row.story_title})
+Target story slot in the schedule: {row.target_story}
+Cross-story TD exemplar slot: {row.prompt_td_story_e1}
+Replicate id: {row.replicate_id}
+
+Canonical story spine:
+{row.story_units_text}
+
+Content that should stay stable:
+{row.content_invariants_text}
+
+Optional details:
+{row.optional_content_text}
+
+Constraints:
+{row.prompt_constraints_text}
+
+Example natural TD story from another ENNI story slot:
+{row.prompt_td_story_e1}: {row.prompt_td_exemplar_story}
+
+Write one short child-like narrative.
+Keep the story events in order.
+Do not add new major events.
+Do not write an adult-style polished retell.
+Use the example mainly for narrative style and level, not for its content.
+Return only the narrative text.
+""",
+        },
+    ]
+
+
+def stage2_messages(row, stage1_text):
+    return [
+        {
+            "role": "system",
+            "content": (
+                "You transform child narratives while preserving the underlying ENNI events and order. "
+                "Make the output clinically plausible rather than caricatured."
+            ),
+        },
+        {
+            "role": "user",
+            "content": f"""Rewrite the child story below so it sounds more like the example narrative while preserving the same ENNI events.
+
+Target story: {row.target_story} ({row.story_title})
+Cross-story exemplar slot: {row.prompt_sli_story_e2}
+
+Example natural story from another ENNI story slot:
+{row.prompt_sli_story_e2}: {row.prompt_sli_exemplar_story}
+
+Canonical story spine:
+{row.story_units_text}
+
+Content that should stay stable:
+{row.content_invariants_text}
+
+Original child story:
+{stage1_text}
+
+Instructions:
+- Preserve the same major events and event order.
+- Keep the narration child-like.
+- Let the example guide the style, grammatical level, and amount of detail.
+- You may shorten clauses and omit optional details.
+- Use the exemplar mainly as a style guide, not as content to copy.
+- Avoid bizarre errors, random topic drift, or new plot events.
+- Return only the transformed narrative text.
+""",
+        },
+    ]

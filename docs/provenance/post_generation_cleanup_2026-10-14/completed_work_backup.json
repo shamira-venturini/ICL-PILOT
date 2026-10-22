@@ -1,0 +1,24 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T141926Z/PostGeneration/verified_chat_export_cleanup.tar.gz",
+  "archive_sha256": "55b55842a6430c8c502ed5470cd6d540f6fd7057b8b51689a3a09a832ef3e155",
+  "members_verified": [
+    ".gitignore",
+    "README.md",
+    "src/icl_pilot/generated_chat.py",
+    "tests/test_generated_chat.py",
+    "docs/post_generation_processing.md",
+    "docs/current_strategy_handoff.md"
+  ],
+  "audit_dir": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T141926Z/PostGeneration/post_generation_audit",
+  "audit_files_verified": [
+    "README.md",
+    "backup_verification.json",
+    "protected_before.json",
+    "git_status_before.txt",
+    "legacy_generated_chat.py.txt",
+    "validate_exports.py",
+    "validation.json",
+    "validation_commands.json",
+    "SHA256SUMS"
+  ]
+}

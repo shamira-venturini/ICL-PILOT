@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-14",
+  "user_authorized_local_deletion": true,
+  "backup_archive_path": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T092052Z/Profiling/profiling_snapshot.tar.gz",
+  "backup_archive_sha256": "bd67e8f0a18e381f93ee1c1378a6363e6c9aa76605ca2ba2c2c53f016600fc28",
+  "backup_previously_verified": true,
+  "backup_currently_mounted": false,
+  "source_files_match_verified_snapshot": true,
+  "files": [
+    {
+      "path": "docs/severity_bands_interpretation.tex",
+      "role": "profiling_documentation",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "a46d0c1de069e6e2250fdfe051c272b28b094463f84bdd0c73ad4670fb3735bb",
+      "size_bytes": 3688
+    },
+    {
+      "path": "docs/severity_profiling_plan.md",
+      "role": "profiling_documentation",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "1df7d90ff7148eacd3619668be01634d75312701afc7b655b3c0028e0fbbdcd5",
+      "size_bytes": 5840
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_age_adjustment_summary.json",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "c3c2b12b155854203d2e977a7a721aaa7ab97eb9b60f965cceed2458b3b93e1c",
+      "size_bytes": 1274
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_age_models.csv",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "6ff1860f1efebb3084309d6be667c98283e6f9f84981ee382bdfd609c5e6134f",
+      "size_bytes": 3193
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_band_summary.json",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "c931cafff3ee1d174d15dfc99cffa4d89039be1a4d82516753d94b00c64d2a70",
+      "size_bytes": 545
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_features_age_adjusted.csv",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "08cf3dddb98f11e6c8e10095a72fad948af34242a7f35e56c067faa8f9e12744",
+      "size_bytes": 563271
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_banded_table.csv",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "cd33f3a0e7a11f4d1005e91a41cd9dfac4b7661d5634d0dd792c10ffe294bfc2",
+      "size_bytes": 196233
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/column_inventory.csv",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "3c0ddb269eee8a50a83e863c8d5e1b54f96e9374c9306efb4b7c24c49d82462a",
+      "size_bytes": 1827
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/correlation_clusters.csv",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "5eb79f343340b3369924e6af7a1ae350e6a58840cb83bd75109444966acc6a7a",
+      "size_bytes": 193
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/duplicate_columns.csv",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "99b4223ea988400257421721b7b286fdf135570d60a02337e7ece5ea8bab54fe",
+      "size_bytes": 143
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/feature_redundancy_report.md",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "116aaa8af4abfe2dcb1da4d36a3be1b3412acac3dde907f3cbe310dce0fd56ab",
+      "size_bytes": 1981
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/feature_redundancy_summary.json",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "6c9e2f48df164a6c894b2c51f5d74f0cceb6c31b14d6805b65a483ffddc9ff8c",
+      "size_bytes": 1236
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/high_correlation_pairs.csv",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "b192276b7091b51ade1033f695aae59f440d425dd18d37bc08089a21c4f2f3a3",
+      "size_bytes": 946
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_redundancy_audit/numeric_pair_metrics.csv",
+      "role": "profiling_redundancy_audit",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "b9ac2acd4e3d75079d9c7861b8eaf344a1d09aa7fa974c0b2f1b14e8ff497444",
+      "size_bytes": 45161
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_summary.json",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "57de2060c9f47830720aaa75577a3558278bb4b98a5751e80af03bdb62e1952f",
+      "size_bytes": 2612
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_profile_table.csv",
+      "role": "profiling_outputs",
+      "local_deletion_status": "requires_profile_input_dependency_review",
+      "sha256": "7cdd94ab9b89994b6c1bd89878e471eba53912984c1ad938e5bb2255c2320485",
+      "size_bytes": 189114
+    },
+    {
+      "path": "phase2/generated/4_year_old/evaluation/bundle_round_holdout/preliminary_sli_severity_adjusted_mixed_models.csv",
+      "role": "historical_severity_models",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "6b6ea014b70b3e136029434d05778c67d9123a24b488fc86d8cfe958d7e7d731",
+      "size_bytes": 3113
+    },
+    {
+      "path": "phase2/generated/4_year_old/evaluation/bundle_round_holdout/preliminary_sli_severity_adjusted_mixed_models_summary.json",
+      "role": "historical_severity_models",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "fbccd3b4b14e181b5a55370a3ec4477f079cc547124298eacffbc9a4e990f561",
+      "size_bytes": 326
+    },
+    {
+      "path": "phase2/generated/4_year_old/evaluation/bundle_round_holdout/preliminary_sli_severity_core_sensitivity.csv",
+      "role": "historical_severity_models",
+      "local_deletion_status": "archive_candidate_after_reference_review",
+      "sha256": "f445fbdb5ca8a4ccc14db708ea8dff2a3ae978f54f210e6d5ff4662cc4817948",
+      "size_bytes": 1430
+    },
+    {
+      "path": "src/icl_pilot/age_adjustment.py",
+      "role": "profiling_implementation",
+      "local_deletion_status": "requires_import_and_cli_cleanup",
+      "sha256": "4b88995d884205f5fdb046519052e607712dcb66fbea02b8384b37ba803ab905",
+      "size_bytes": 6767
+    },
+    {
+      "path": "src/icl_pilot/severity_bands.py",
+      "role": "profiling_implementation",
+      "local_deletion_status": "requires_import_and_cli_cleanup",
+      "sha256": "b1d1618a512cbfdfb05fb302cc153dfb73379e3a5649c659d86e27961d01bfe2",
+      "size_bytes": 2485
+    },
+    {
+      "path": "src/icl_pilot/severity_profile.py",
+      "role": "profiling_implementation",
+      "local_deletion_status": "requires_import_and_cli_cleanup",
+      "sha256": "d8a8ffb6c889dbdcbb11c2621ca95ee50e6a0cfc13be67782d936b0ab5657f82",
+      "size_bytes": 5104
+    },
+    {
+      "path": "src/icl_pilot/story_generation_design.py",
+      "role": "profiling_implementation",
+      "local_deletion_status": "requires_import_and_cli_cleanup",
+      "sha256": "ce51f33ee868ae17db0078e82ea1796161cdd6b598fdf73d324137cf0465cb88",
+      "size_bytes": 10255
+    },
+    {
+      "path": "src/icl_pilot/architecture_pilot_cv.py",
+      "role": "legacy_profile_matched_architecture",
+      "local_deletion_status": "retired_with_profile_dependencies",
+      "sha256": "ade6be589a6acec4dbb6510133756808d12dcf324e8208a72e4db8f9d82ca5ea",
+      "size_bytes": 17025
+    }
+  ]
+}

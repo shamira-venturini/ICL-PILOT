@@ -1,0 +1,36 @@
+{
+  "generation_jobs": 2820,
+  "pairs": 47,
+  "cohort_pair_counts": {
+    "4-year-old": 11,
+    "5-year-old": 12,
+    "6-year-old": 11,
+    "7-year-old": 13
+  },
+  "full_schedule_and_evaluation_identical_to_pre_consolidation": true,
+  "all_recorded_generation_job_identities_match": true,
+  "master_rows_match_backed_up_cohort_rosters": true,
+  "notebook_setup_cells_executed": [
+    5,
+    8,
+    9
+  ],
+  "prompt_functions_unchanged": true,
+  "model_inference_executed": false,
+  "r_files_changed_only_in_roster_path": [
+    "clinical_analyses_reordered.Rmd",
+    "clinical_analyses.Rmd",
+    "clinical_analyses_reordered_purl.R"
+  ],
+  "r_main_and_developmental_memberships_identical": true,
+  "protected_research_files_rehashed": 6037,
+  "protected_files_changed": [],
+  "focused_pytest_result": "21 passed, 3 pre-existing dependency warnings",
+  "master_sha256": "f79269abc282c54611504e8f1d2e77b1230814588d8f677151b6bfc82ed1e2dd",
+  "command_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

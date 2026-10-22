@@ -1,0 +1,18 @@
+{
+  "prompt_source_notebook_revision": "78a5cada",
+  "neutral_version_retained_at": "9a59fa21",
+  "restored_file_sha256": {
+    "configs/generation/prompts/stage1.json": "cb31033115a2fe2d81162235613f141ae50ce5a72d44c2c4d73f4da524efcbaa",
+    "configs/generation/prompts/stage2.json": "a39e0f35fab54a0594b4c6bb83f3333909abf4ad15e412b6786abb5374617a38",
+    "configs/generation/story_unit_reference.json": "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e"
+  },
+  "generation_jobs": 2820,
+  "rendered_stage_messages_equal_to_historical_functions": 5640,
+  "historical_stage1_parents_used_only_for_rendering": true,
+  "run_input_rows_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+  "evaluation_manifest_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+  "existing_narrative_text_hashes_verified": 5640,
+  "notebook_code_cells_unchanged": true,
+  "gpu_inference_performed": false,
+  "historical_execution_equivalence_established": false
+}

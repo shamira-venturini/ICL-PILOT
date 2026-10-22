@@ -1,0 +1,38 @@
+{
+  "deleted_paths": [
+    "docs/severity_bands_interpretation.tex",
+    "docs/severity_profiling_plan.md",
+    "phase2/ENNI/measures/severity_age_adjustment_summary.json",
+    "phase2/ENNI/measures/severity_age_models.csv",
+    "phase2/ENNI/measures/severity_band_summary.json",
+    "phase2/ENNI/measures/severity_features_age_adjusted.csv",
+    "phase2/ENNI/measures/severity_profile_banded_table.csv",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/column_inventory.csv",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/correlation_clusters.csv",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/duplicate_columns.csv",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/feature_redundancy_report.md",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/feature_redundancy_summary.json",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/high_correlation_pairs.csv",
+    "phase2/ENNI/measures/severity_profile_redundancy_audit/numeric_pair_metrics.csv",
+    "phase2/ENNI/measures/severity_profile_summary.json",
+    "phase2/ENNI/measures/severity_profile_table.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/preliminary_sli_severity_adjusted_mixed_models.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/preliminary_sli_severity_adjusted_mixed_models_summary.json",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/preliminary_sli_severity_core_sensitivity.csv",
+    "src/icl_pilot/age_adjustment.py",
+    "src/icl_pilot/severity_bands.py",
+    "src/icl_pilot/severity_profile.py",
+    "src/icl_pilot/story_generation_design.py",
+    "src/icl_pilot/architecture_pilot_cv.py"
+  ],
+  "deleted_count": 24,
+  "deleted_cached_bytecode": [
+    "src/icl_pilot/__pycache__/severity_profile.cpython-38.pyc",
+    "src/icl_pilot/__pycache__/age_adjustment.cpython-38.pyc",
+    "src/icl_pilot/__pycache__/architecture_pilot_cv.cpython-38.pyc",
+    "src/icl_pilot/__pycache__/severity_bands.cpython-38.pyc",
+    "src/icl_pilot/__pycache__/story_generation_design.cpython-38.pyc"
+  ],
+  "source_hashes_verified_before_deletion": true,
+  "backup_mounted_during_deletion": false
+}

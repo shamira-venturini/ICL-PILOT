@@ -1,0 +1,48 @@
+[
+  {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "icl_pilot",
+      "validate-layout"
+    ],
+    "exit_code": 0,
+    "stdout": "Layout OK\n",
+    "stderr": "/opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).\n  from pandas.core.computation.check import NUMEXPR_INSTALLED\n"
+  },
+  {
+    "argv": [
+      "/opt/anaconda3/bin/python",
+      "-m",
+      "icl_pilot",
+      "show-manifest",
+      "--limit",
+      "2"
+    ],
+    "exit_code": 0,
+    "stdout": "4-year-old | round_01 | pair_sli444_td410 | replicate=1 | target=A1 | TD exemplar=410:B1 | SLI exemplar=444:B3 | one output per stage\n4-year-old | round_01 | pair_sli444_td410 | replicate=1 | target=A2 | TD exemplar=410:B1 | SLI exemplar=444:B3 | one output per stage\n",
+    "stderr": "/opt/anaconda3/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).\n  from pandas.core.computation.check import NUMEXPR_INSTALLED\n"
+  },
+  {
+    "argv": [
+      "Rscript",
+      "--vanilla",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/generation_separation_2026-10-14/check_r_memberships.R",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/outputs/maintenance/master_roster_consolidation_2026-10-14/r_memberships"
+    ],
+    "exit_code": 0,
+    "stdout": "   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  48.00   61.00   74.00   73.67   88.00   95.00 \n",
+    "stderr": "Warning message:\npackage \u2018dplyr\u2019 was built under R version 4.4.3 \n"
+  },
+  {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

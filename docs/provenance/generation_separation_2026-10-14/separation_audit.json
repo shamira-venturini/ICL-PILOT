@@ -1,0 +1,322 @@
+{
+  "actual_prompt_rounds": 17,
+  "current_R_data_assembly": {
+    "r_developmental_memberships.csv": {
+      "age_specific_rounds_checked": 17,
+      "overlaps": [],
+      "per_round": [
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 48,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 48,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 48,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 4,
+          "n_real_evaluation_children": 50,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 56,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 56,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 56,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 4,
+          "n_real_evaluation_children": 58,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 2,
+          "n_real_evaluation_children": 59,
+          "round_id": "round_05"
+        }
+      ],
+      "rows": 1312
+    },
+    "r_main_memberships.csv": {
+      "age_specific_rounds_checked": 17,
+      "overlaps": [],
+      "per_round": [
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 48,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 48,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 48,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "4_year_old",
+          "n_prompt_children": 4,
+          "n_real_evaluation_children": 50,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "5_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 53,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 56,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 56,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 56,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "6_year_old",
+          "n_prompt_children": 4,
+          "n_real_evaluation_children": 58,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_01"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_02"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_03"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 6,
+          "n_real_evaluation_children": 55,
+          "round_id": "round_04"
+        },
+        {
+          "cohort": "7_year_old",
+          "n_prompt_children": 2,
+          "n_real_evaluation_children": 59,
+          "round_id": "round_05"
+        }
+      ],
+      "rows": 1851
+    }
+  },
+  "historical_four_year_old_python_evaluation": {
+    "heldout_real_pool.csv": {
+      "prompt_children_present_as_evaluation": [
+        {
+          "child_id": "459",
+          "group": "TD",
+          "n_rows": 1,
+          "round_id": "round_02"
+        },
+        {
+          "child_id": "417",
+          "group": "TD",
+          "n_rows": 1,
+          "round_id": "round_03"
+        }
+      ],
+      "rows": 66
+    },
+    "pairwise_feature_distances.csv": {
+      "prompt_children_present_as_evaluation": [
+        {
+          "child_id": "459",
+          "group": "TD",
+          "n_rows": 20,
+          "round_id": "round_02"
+        },
+        {
+          "child_id": "417",
+          "group": "TD",
+          "n_rows": 20,
+          "round_id": "round_03"
+        }
+      ],
+      "rows": 1780
+    },
+    "rotating_eval_manifest.csv": {
+      "prompt_children_present_as_evaluation": [
+        {
+          "child_id": "459",
+          "group": "TD",
+          "n_rows": 1,
+          "round_id": "round_02"
+        },
+        {
+          "child_id": "417",
+          "group": "TD",
+          "n_rows": 1,
+          "round_id": "round_03"
+        }
+      ],
+      "rows": 66
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+      "sha256": "db72225277319c00a4741830808840c1f7dd03fb2014d527c54a5f96080f7bc8"
+    },
+    {
+      "path": "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+      "sha256": "67be2a0f793b4ed8a7796eec3027b0ecd2979c81957904255149140b36379956"
+    },
+    {
+      "path": "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+      "sha256": "3b0e6ec687f1c4612889dccc9e6b219722f09e53c55d84e38e1181ac59445eab"
+    },
+    {
+      "path": "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+      "sha256": "b87fe7e6a4ceb3f0d408e7b9fbf98693166938e91abc3f5694cb689350303471"
+    },
+    {
+      "path": "clinical_analyses_reordered.Rmd",
+      "sha256": "9ce9e6b0e24e7231ba1ec6cf588723f269090c08f2f2e33b269cfdc63a6233f9"
+    },
+    {
+      "path": "phase2/generated/measures/severity_features_raw_syn.csv",
+      "sha256": "7f041ae3a4a3a73402d3f111e69412cf1dfd4ae9a37876c33f1b862e4a84357b"
+    },
+    {
+      "path": "phase2/ENNI/measures/severity_features_raw_real.csv",
+      "sha256": "c996eb87c846b22aa0f385b21364fd11dc02dae95fefb045c57f008712bbc782"
+    },
+    {
+      "path": "phase2/generated/4_year_old/evaluation/bundle_round_holdout/rotating_eval_manifest.csv",
+      "sha256": "194e7767d838dead174860ee6fc82c4a25cc6215228215d52d45e88cadfb1f36"
+    },
+    {
+      "path": "phase2/generated/4_year_old/evaluation/bundle_round_holdout/heldout_real_pool.csv",
+      "sha256": "2755a5f69c47ade147fc392299ed0f1449afd64675e7e20703ab607e92d9bf24"
+    },
+    {
+      "path": "phase2/generated/4_year_old/evaluation/bundle_round_holdout/pairwise_feature_distances.csv",
+      "sha256": "a8e9642116e84b2cedb4ea48f83928005d93affb72367ea0fc6ab73ec9de6b7b"
+    }
+  ],
+  "original_generation_jobs": 2820,
+  "scope": "Child identity/round separation only; existing analysis code/results were read, not changed.",
+  "synthetic_feature_ancestry_errors": [],
+  "synthetic_feature_metadata_rows": 940
+}

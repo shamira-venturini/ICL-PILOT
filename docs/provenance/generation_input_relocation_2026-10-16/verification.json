@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-16T11:23:52.681721+00:00",
+  "status": "passed",
+  "files_moved_without_byte_changes": 2,
+  "old_input_directory_absent": true,
+  "configuration_changed_only_input_path": true,
+  "generated_files_hash_verified_unchanged": 11292,
+  "before_after_generation_design": {
+    "jobs": 2820,
+    "schedule_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+    "evaluation_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+    "all_stage_message_sha256": "da90e3be4df8926891ff698eabf599fd14fd3975e7e1df4cfb6fc2525395d884"
+  },
+  "all_stage_messages_checked": 5640,
+  "prompt_evaluation_separation": "passed",
+  "notebook_code_cells_changed": [
+    "settings",
+    "generation-input"
+  ],
+  "model_calls": 0,
+  "annotation_calls": 0,
+  "clan_or_analysis_rerun": false,
+  "runtime_limit": "CPU preparation and mocked pipeline checks; no Colab/CUDA inference rerun",
+  "tests": {
+    "passed": 222,
+    "warnings": 3,
+    "warning_basis": "Existing Pandas/NumExpr compatibility and distutils deprecation warnings",
+    "command": "PYTHONPATH=src PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider --basetemp outputs/maintenance/generation_input_relocation_2026-10-16/test_tmp tests/test_generation_config.py tests/test_generation_prompts.py tests/test_annotation_pipeline.py tests/test_story_unit_chat_parser.py tests/test_generated_chat.py"
+  },
+  "generated_inventory_sha256": "f4a500bc0f84a2fa4e7d2738529b9b31663e62f2eb9534764d829597eaa9b48d",
+  "temporary_test_artifacts_removed": true
+}

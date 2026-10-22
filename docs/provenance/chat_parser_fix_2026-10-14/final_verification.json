@@ -1,0 +1,25 @@
+{
+  "generation_jobs": 2820,
+  "configured_input": "data/processed/generation_inputs/story_unit_narratives_chat_v2.csv",
+  "all_generation_rows_including_prompt_inputs_identical": true,
+  "evaluation_manifest_identical": true,
+  "python_syntax_valid": true,
+  "python_version": "3.8.5",
+  "focused_tests_passed": 53,
+  "protected_research_files_rehashed": 6036,
+  "protected_files_changed": [],
+  "existing_analysis_source_files_unchanged": [
+    "clinical_analyses_reordered.Rmd",
+    "clinical_analyses.Rmd",
+    "clinical_analyses_reordered_purl.R"
+  ],
+  "source_code_sha256": {
+    "src/icl_pilot/story_unit_semrp.py": "80a22ba004e19ecb24f465fd8fead2e47c44c77875227c96e9f6eb348e066cf3",
+    "src/icl_pilot/tier_stripper.py": "395030cc58c431b268851cb8bfa8b87a8ed2c70f286118903422c8f316f1a039",
+    "src/icl_pilot/cli.py": "9c802694e6fbd0aca02e2b06102975f96d7a0da37e190af83fe1fa293090c614",
+    "tests/test_story_unit_chat_parser.py": "8974f232999bf2cc5c624337ff3070054bf91ec9949444ccf1133ce4d8cd0cee",
+    "tests/test_tier_stripper.py": "f3aa4a9886b43e09fd94d1bf58123f46d8c1f5eacfcd566cd4abb8d2159c5f78"
+  },
+  "corpus_tier_stripping_executed": false,
+  "model_inference_executed": false
+}

@@ -1,0 +1,5 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T131515Z/CHATParsing/intermediate_prefixed_morphology_candidate.tar.gz",
+  "sha256": "6138f4e32e83500b5af2473ddf10021808b50fb3f030fa6d7af69fdf5eba7f19",
+  "reason": "Full corpus comparison exposed prefixed morphology remnants (un#adj|...) in 4 nonselected stories; orphan-token detection was broadened before use. No scientific analysis or configuration used this candidate."
+}

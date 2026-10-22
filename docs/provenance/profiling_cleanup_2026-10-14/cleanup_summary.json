@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-14",
+  "status": "cleanup_complete",
+  "deleted_research_and_source_files": 24,
+  "deleted_bytecode_files": 5,
+  "deleted_bytes": 1063762,
+  "previously_verified_backup_sha256": "bd67e8f0a18e381f93ee1c1378a6363e6c9aa76605ca2ba2c2c53f016600fc28",
+  "backup_mounted_at_deletion": false,
+  "all_deleted_files_matched_verified_backup": true,
+  "protected_shared_files_unchanged": 848,
+  "frozen_configuration_files_unchanged": 52,
+  "generation_identity_checks": {
+    "4": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "5": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "6": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "7": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "8": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "9": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    }
+  },
+  "cleanup_regression_tests_passed": 7,
+  "full_suite": {
+    "passed": 22,
+    "failed": 2,
+    "preexisting_failures": [
+      "tests/test_tier_stripper.py::test_strip_tiers_dry_run_does_not_change_file",
+      "tests/test_tier_stripper.py::test_strip_tiers_removes_old_and_ud_tiers_only"
+    ],
+    "reason": "Python 3.8 lacks str.removeprefix/removesuffix; source and tests unchanged from backup"
+  },
+  "python_version": "3.8.5",
+  "compileall": "passed",
+  "cli_help": "passed",
+  "git_diff_check": "passed",
+  "raw_data_or_annotations_changed": false,
+  "current_R_analysis_changed": false,
+  "frozen_rosters_or_schedules_overwritten": false
+}

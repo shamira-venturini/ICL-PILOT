@@ -1,0 +1,46 @@
+{
+  "removed_backed_up_files": [
+    {
+      "path": "configs/generation/rosters/four_year_old.csv",
+      "bytes": 2993,
+      "sha256": "374a678d9ad57aeb48d2dc015d410847265ea0ce1a3d66193281b83c99a58b92"
+    },
+    {
+      "path": "configs/generation/rosters/five_year_old.csv",
+      "bytes": 3203,
+      "sha256": "d62f5299b86f6cfff2e10fba92d3feeb8cc9fc8f5d92d018ab852bf0db9c3a5a"
+    },
+    {
+      "path": "configs/generation/rosters/six_year_old.csv",
+      "bytes": 2958,
+      "sha256": "672eb834aca7874ecddd7faee1611f54482b766c77918c407546d43e1e1d50da"
+    },
+    {
+      "path": "configs/generation/rosters/seven_year_old.csv",
+      "bytes": 3445,
+      "sha256": "32d4969887181b5544b3e0d6b0d10c0f8b223421d67f26cfd136b4aa7f34d562"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+      "bytes": 11693,
+      "sha256": "56179cf254407688eaf0e6dc4c972088f19221254c4d93feb6e3276abb40da12"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/README.md",
+      "bytes": 610,
+      "sha256": "cc7761eb02b81f80f661a11cc7480d1ee6298699de24b5a248e401b7b1f2c6c3"
+    }
+  ],
+  "removed_empty_folders": [
+    "configs/generation/rosters",
+    "configs/generation/colab_generation_package_direct_rotating_multi_age"
+  ],
+  "remaining_config_files": [
+    "configs/generation/README.md",
+    "configs/generation/cross_story_counterbalancing.csv",
+    "configs/generation/experiment.json",
+    "configs/generation/master_frozen_roster_4_to_7_year_old.csv"
+  ],
+  "external_backup": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T123617Z/GenerationRoster/generation_roster_snapshot.tar.gz",
+  "external_archive_verified_before_deletion": true
+}

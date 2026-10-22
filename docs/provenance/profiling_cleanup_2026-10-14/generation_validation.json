@@ -1,0 +1,41 @@
+{
+  "cohorts_unchanged": {
+    "4": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "5": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "6": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "7": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "8": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    },
+    "9": {
+      "pairs": true,
+      "schedule": true,
+      "rounds": true,
+      "evaluation": true
+    }
+  },
+  "fixed_and_rotating_package_smoke_test": "passed"
+}

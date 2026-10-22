@@ -1,0 +1,77 @@
+{
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T134815Z/GenerationPrompts/generation_prompts_snapshot.tar.gz",
+  "archive_sha256": "338180a02e42711e07eea0c9b9ad266f3bede33c4957d712838686fd02df6a09",
+  "all_members_verified": true,
+  "verified_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6a1474bdacdfb723366fd723097b9fd80419d3e3c7077deb3fafdd24624f5ab7",
+      "bytes": 26735
+    },
+    {
+      "path": "README.md",
+      "sha256": "aa84d291d85467604546910b224b65f7a9857a7c1dfe809f7063fdec76b3212b",
+      "bytes": 2044
+    },
+    {
+      "path": "configs/generation/README.md",
+      "sha256": "b4f597436334f308c6b571f7d180bb9c2d787bcef1447d6657141fbf8454b401",
+      "bytes": 5217
+    },
+    {
+      "path": "configs/generation/cross_story_counterbalancing.csv",
+      "sha256": "73b8509bd7b1cd6f6949d9e44ad253e92f20b2b6497903171b2320bdca85a3c0",
+      "bytes": 174
+    },
+    {
+      "path": "configs/generation/experiment.json",
+      "sha256": "3bb62428f7ac1ae9983efe1e63eae402fff5c5bdfdc39778eccc5aa3b6e62a34",
+      "bytes": 2272
+    },
+    {
+      "path": "configs/generation/master_frozen_roster_4_to_7_year_old.csv",
+      "sha256": "f79269abc282c54611504e8f1d2e77b1230814588d8f677151b6bfc82ed1e2dd",
+      "bytes": 12026
+    },
+    {
+      "path": "configs/generation/story_unit_reference.json",
+      "sha256": "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e",
+      "bytes": 6822
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "sha256": "bc4e3236bcf662b97e3db11ac80a5ea0386cbbac9da91c031275d44d518333e7",
+      "bytes": 2386
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "sha256": "423aa1c2ab4214e7d25bbe239269601ee49dd61a22d0f487accbe541367731be",
+      "bytes": 20093
+    },
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "8b0f4352ef8cd56e0b59cf412ad1e8a2a71d15a96e034cda21f693ad60da9380",
+      "bytes": 33742
+    },
+    {
+      "path": "src/icl_pilot/generation/__init__.py",
+      "sha256": "a65b196c0e4a0bebadab524f4b1db8479752a2ed119381848855545bbc16e7d1",
+      "bytes": 1575
+    },
+    {
+      "path": "src/icl_pilot/generation/config.py",
+      "sha256": "2198cab34f7982f346a01e2dd667ccda9946fbe2af9700ea842b5ce942e6453c",
+      "bytes": 13672
+    },
+    {
+      "path": "src/icl_pilot/paths.py",
+      "sha256": "1968826bc6fe018be6c180d634719db7f681ddbd138c92d1b6e7d4892598cc3c",
+      "bytes": 1361
+    },
+    {
+      "path": "tests/test_generation_config.py",
+      "sha256": "8ca571f008e2a3318232f2c0404d1c04931a569746d0401d2eb6f2eb60260963",
+      "bytes": 9744
+    }
+  ]
+}

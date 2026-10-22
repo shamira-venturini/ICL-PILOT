@@ -1,0 +1,58 @@
+{
+  "backup_dir": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T141926Z/PostGeneration",
+  "archive": "/Volumes/TranscendBU/ICL-PILOT_78a5cadad659_20261014T141926Z/PostGeneration/post_generation_snapshot.tar.gz",
+  "archive_sha256": "f0cadb1cdfc5ed3a22785e0f13c9f4ef6bd2b36707b5864e9eeed1496fb981e6",
+  "verified_members": [
+    {
+      "path": ".gitignore",
+      "sha256": "e50eb617fb2007bfb6097fe5eb60a07ced50807bf1e925f348f842bdfc90cd37",
+      "bytes": 198
+    },
+    {
+      "path": "README.md",
+      "sha256": "a1618966a569d52ae15a554afd3f8a1de4a011cbd2c078fe653676e983cb8ff7",
+      "bytes": 2208
+    },
+    {
+      "path": "src/icl_pilot/generated_chat.py",
+      "sha256": "e44ac9db7afbe381951e82788449ceacf131941970e3752052cf120585dec581",
+      "bytes": 11030
+    },
+    {
+      "path": "tests/test_generation_config.py",
+      "sha256": "49b5945e63ebf2c1c3ef6cf37b53489b471709678e66a4e6d81171c9b9611bed",
+      "bytes": 10760
+    },
+    {
+      "path": "notebooks/TalkTag.ipynb",
+      "sha256": "b208c79ce1e80fdaae783e02e6be04f7372a101d1a948eae6f04df7e06dd5d7c",
+      "bytes": 506431
+    },
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "decc4e1ef0404e85bada2a2e442ecb187132a30db667ccf23a3cb08a714bdce6",
+      "bytes": 32716
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "sha256": "a074a8ef21519e84f46958d0142b4395bd50727f95c28c5c134157fa4b74e5ae",
+      "bytes": 21705
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "sha256": "cbb260d5ed8ae2393528b70ac5be0f8158751cd9c49a9f2c43ac49c5c179eddc",
+      "bytes": 3357
+    },
+    {
+      "path": "docs/generation_prompt_records.md",
+      "sha256": "2d6e993a27b60e0ece8649f38b8cc246f5a87519e53c418463dbb45fb1f7d293",
+      "bytes": 4103
+    },
+    {
+      "path": "docs/chat_narrative_parsing.md",
+      "sha256": "6445f912aaa59d73677a196c2ba536451c2f8f45bc20cfe1ba335ae67f769200",
+      "bytes": 4061
+    }
+  ],
+  "volume_uuid": "E33EEB9A-D24F-33F4-B568-08627A9E27E6"
+}

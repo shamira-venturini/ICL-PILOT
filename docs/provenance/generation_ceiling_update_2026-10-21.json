@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-21",
+  "recorded_at_utc": "2026-10-21T10:05:36.713017+00:00",
+  "basis": "author_instruction_to_update_generation_after_real_story_tokenizer_comparison",
+  "source_of_truth": "configs/generation/experiment.json",
+  "before_config_sha256": "e88cfbccdf54e46de7be51dcf2574ed939e347e452511c4cfac32a6ae3fbbb88",
+  "after_config_sha256": "084427fee3476e0c45bac5a472377274253c7b2cf1b3e69a293d7bf00a1630b9",
+  "changes": {
+    "model.max_new_tokens_stage1": {
+      "before": 180,
+      "after": 640
+    },
+    "model.max_new_tokens_stage2": {
+      "before": 180,
+      "after": 640
+    },
+    "provenance.output_ceiling": {
+      "adopted_on": "2026-10-21",
+      "basis": "author_approved_real_ENNI_tokenizer_comparison",
+      "previous_max_new_tokens_stage1": 180,
+      "previous_max_new_tokens_stage2": 180,
+      "reference_age_months": [
+        48,
+        95
+      ],
+      "reference_story_count": 1428,
+      "reference_max_stored_text_tokens": 568,
+      "reference_max_lightly_cleaned_text_tokens": 556,
+      "audit": "docs/provenance/real_story_tokenizers_2026-10-21/README.md",
+      "note": "New runs allow up to 640 new tokens per stage for every cohort, with 72 tokens above the longest saved real story at ages four through seven under all four checked tokenizers, including the pinned official Llama tokenizer. The budget excludes input tokens; earlier end-of-sequence stopping remains in effect. This is an operational ceiling, not a requested narrative length or a guarantee that generated outputs cannot reach it. Prompt wording and all other generation settings are unchanged."
+    }
+  },
+  "previous_config": {
+    "schema_version": 4,
+    "experiment_id": "enni_staged_4_to_7_counterbalance_v2",
+    "counterbalance_csv": "cross_story_counterbalancing.csv",
+    "roster_csv": "master_frozen_roster_4_to_7_year_old.csv",
+    "story_reference_json": "story_unit_reference.json",
+    "prompt_templates": {
+      "stage1_td": "prompts/stage1.json",
+      "stage2_sli": "prompts/stage2.json"
+    },
+    "n_replicates": 10,
+    "pairs_per_round": 3,
+    "seed": 42,
+    "model": {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_new_tokens_stage1": 180,
+      "max_new_tokens_stage2": 180,
+      "quantization": {
+        "load_in_4bit": true,
+        "quant_type": "nf4",
+        "compute_dtype": "bfloat16"
+      }
+    },
+    "inputs": {
+      "narratives_csv": "configs/generation/inputs/story_unit_narratives_chat_v2.csv"
+    },
+    "cohorts": [
+      {
+        "label": "4-year-old",
+        "slug": "four_year_old",
+        "age_min_months": 48,
+        "age_max_months": 59,
+        "expected_pairs": 11
+      },
+      {
+        "label": "5-year-old",
+        "slug": "five_year_old",
+        "age_min_months": 60,
+        "age_max_months": 71,
+        "expected_pairs": 12
+      },
+      {
+        "label": "6-year-old",
+        "slug": "six_year_old",
+        "age_min_months": 72,
+        "age_max_months": 83,
+        "expected_pairs": 11
+      },
+      {
+        "label": "7-year-old",
+        "slug": "seven_year_old",
+        "age_min_months": 84,
+        "age_max_months": 95,
+        "expected_pairs": 13
+      }
+    ],
+    "provenance": {
+      "model_source_correction": {
+        "adopted_on": "2026-10-20",
+        "basis": "author_request_for_an_official_llama_checkpoint",
+        "previous_model_id": "avans06/Meta-Llama-3.2-8B-Instruct",
+        "previous_requested_revision": null,
+        "official_model_card": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+        "note": "The previous publisher describes a community conversion of Llama 3.2 11B Vision with its vision components removed. New runs use Meta's official Llama 3.1 8B Instruct checkpoint, pinned to the revision checked on 20 October 2026. This is a model change; it does not relabel or reconstruct the historical generator. Decoding settings, prompt templates and experimental assignments are unchanged by this correction. Comparative and vision conditions remain proposals pending protocol review."
+      },
+      "counterbalancing": {
+        "revision": 2,
+        "adopted_on": "2026-10-20",
+        "basis": "author_approved_reviewer_schedule",
+        "previous_csv_sha256": "73b8509bd7b1cd6f6949d9e44ad253e92f20b2b6497903171b2320bdca85a3c0",
+        "note": "Two reversed exemplar assignments per target, always from the opposite story set. At ten replicates, the existing alternating scheduler uses each assignment five times per prompt pair and target. This balances exemplar roles and overall complexity levels; other revised-study decisions remain pending. The previous configuration is preserved in the verified study freeze."
+      },
+      "shared_generation_protocol": {
+        "basis": "author_confirmation",
+        "confirmed_on": "2026-10-14",
+        "note": "The author confirmed that age four used the same generation configuration as ages five through seven. The portable notebook applies these shared settings to every cohort."
+      },
+      "historical_model_revision": "not recorded in original generation CSVs",
+      "rosters": "Child pairs and rounds are reconstructed from recorded generation identities. Ages and KIDEVAL identifiers are joined by child ID to the existing developmental metadata. No new child pairing is optimized.",
+      "four_year_old_reconciliation": "Recorded pairs SLI 474 / TD 459 and SLI 475 / TD 417 replace the reversed assignments in the archived roster for this new generation configuration. Existing transcripts, analysis inputs and results are unchanged."
+    }
+  },
+  "previous_config_reconstruction": "json.dumps(previous_config, indent=2) + newline reproduces before_config_sha256",
+  "reference_audit": "docs/provenance/real_story_tokenizers_2026-10-21/comparison.json",
+  "reference_audit_sha256": "8d016a58d4568aabba1252fb95875c6c99c38d2ab39dd53d8b92cb2ed0f5fa0b",
+  "scope": "Both generation stages, all configured cohorts aged four through seven. No minimum length, prompt revision, model change or other decoding change.",
+  "notebook": {
+    "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+    "before_sha256": "baaeae2c122c2be6dd33a66cc4e57a014b69fdf0eeee4bbf519625bbc72f9246",
+    "after_sha256": "8c983e7816b637bc2a0245b55fea5f377c74f549fb586a1d4adb3a909f8a066f",
+    "changes": "Required explicit max_new_tokens from shared runner; setup prints both limits; explanatory Markdown updated. Model/tokenizer function body unchanged."
+  },
+  "preserved_input_sha256": {
+    "src/icl_pilot/generation/execution.py": "81ebe08ae40daf7a6ac78189a999c38db66f3ebda35f8b9e6f27ed0af9216655",
+    "src/icl_pilot/generation/prompt_records.py": "40c57d073d4ddba87b73af1f4a95da90f380515fcde202cdfb9f9439c421fd74",
+    "configs/generation/prompts/stage1.json": "cb31033115a2fe2d81162235613f141ae50ce5a72d44c2c4d73f4da524efcbaa",
+    "configs/generation/prompts/stage2.json": "a39e0f35fab54a0594b4c6bb83f3333909abf4ad15e412b6786abb5374617a38",
+    "configs/generation/master_frozen_roster_4_to_7_year_old.csv": "f79269abc282c54611504e8f1d2e77b1230814588d8f677151b6bfc82ed1e2dd",
+    "configs/generation/cross_story_counterbalancing.csv": "aef5e518871036b1911778505b4e641f3d5af6986f259cc542a4bc69f8a59fcb",
+    "configs/generation/story_unit_reference.json": "e1cd483eb249e5ce80169cd73b43dee6456a104b0e0c1789af75c874647b353e",
+    "configs/generation/inputs/story_unit_narratives_chat_v2.csv": "89643c6ca494e525b47eb3863a36bea3d702402c9dd1e3e5d42b401fa9828cbc"
+  },
+  "validation": {
+    "notebook_code_cells_parse": 16,
+    "notebook_outputs_empty": true,
+    "changed_notebook_cells": [
+      "overview",
+      "generation-guide",
+      "generation-setup",
+      "generation-function"
+    ],
+    "generation_function_body_unchanged": true,
+    "configured_limits_both_640": true,
+    "no_fallback_generation_limit": true,
+    "only_config_changes": [
+      "model.max_new_tokens_stage1",
+      "model.max_new_tokens_stage2",
+      "provenance.output_ceiling"
+    ],
+    "frozen_prompts_roster_counterbalance_scaffolds_exemplars_preserved": true,
+    "shared_execution_and_journal_source_preserved": true,
+    "focused_pytest": {
+      "tests": 68,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "commands": "PYTHONPATH=src python -m pytest -q tests/test_generation_config.py tests/test_generation_prompts.py",
+      "warnings": "Three pre-existing numexpr/pandas dependency warnings.",
+      "coverage": "Configured 640 reaches both model calls and prompt journal through notebook/shared runner; changing either stage limit refuses an existing run; prompt/scaffold fidelity, setup/splits and CSV/export ancestry checks pass."
+    },
+    "compileall_src": "passed",
+    "validate_layout": "passed",
+    "git_diff_check": "passed",
+    "edited_documentation_local_links_checked": 56
+  },
+  "pending": [
+    "Fresh Colab GPU loading/inference with official model and updated ceiling.",
+    "Explicit stopping-token/finish-reason logging.",
+    "Remaining revised-study protocol decisions, including prompt review."
+  ],
+  "not_performed": [
+    "No GPU inference or model-weight download.",
+    "No source transcript edit, historical output rewrite or scientific analysis rerun.",
+    "No Git staging, commit or push."
+  ]
+}

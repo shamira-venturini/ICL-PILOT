@@ -1,0 +1,4834 @@
+[
+  {
+    "file": "data/generated/4_year_old/talktag/stage1_td/pair_sli413_td439_rep07_B2_TD.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage1_td/pair_sli413_td439_rep07_B2_TD.cha",
+    "reference_sha256": "9ebc72bba7f2895b32c72c225d000f6e8d36bbcfcbecf74b49da232d8e9f91e7",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage1_td_reannotated/pair_sli413_td439_rep07_B2_TD.cha",
+    "archived_source_sha256": "7ad0e36ab5fffc9c48bb4a0329d04583252213cd573b174884a14e7551e27793",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage1_td/pair_sli413_td439_rep07_B2_TD.cha",
+    "output_sha256": "9ebc72bba7f2895b32c72c225d000f6e8d36bbcfcbecf74b49da232d8e9f91e7",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 73,
+      "reference_words": 73,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage1_td/pair_sli413_td439_rep08_B2_TD.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage1_td/pair_sli413_td439_rep08_B2_TD.cha",
+    "reference_sha256": "a2f91bb18a5b64306624c7f335577738b5c448d8d8ce144cc3a24f56a5166079",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage1_td_reannotated/pair_sli413_td439_rep08_B2_TD.cha",
+    "archived_source_sha256": "e9ca87e062d9af76bcffd65a0494b9e83a6be2313319df463bab86e442a51a50",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage1_td/pair_sli413_td439_rep08_B2_TD.cha",
+    "output_sha256": "a2f91bb18a5b64306624c7f335577738b5c448d8d8ce144cc3a24f56a5166079",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 65,
+      "reference_words": 73,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli413_td439_rep07_B2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli413_td439_rep07_B2_SLI.cha",
+    "reference_sha256": "59d4a0dc6aa2aeb63c65b1d77e60600133e41b3c8a81b09dd469884e10ce6134",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli413_td439_rep07_B2_SLI.cha",
+    "archived_source_sha256": "26d3ed8843f6b35158eb81337b4f3a707a081a6f9595fb847ca02bd9299adc38",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli413_td439_rep07_B2_SLI.cha",
+    "output_sha256": "bad7540c852ef41e9f9e3aa8c484fb58bbb442fbeb68edd3b4757d9e12fff444",
+    "report": {
+      "source_annotations": 31,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 0,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 546,
+          "line": "*CHI:\tplay [/] play picnic .",
+          "source_word": "play",
+          "reference_word": "play",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 708
+        },
+        {
+          "index": 1,
+          "code": "[/]",
+          "anchor": 4,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 579,
+          "line": "*CHI:\tand pick [/] pick [/] pick food .",
+          "source_word": "pick",
+          "reference_word": "pick",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 737
+        },
+        {
+          "index": 2,
+          "code": "[/]",
+          "anchor": 5,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 588,
+          "line": "*CHI:\tand pick [/] pick [/] pick food .",
+          "source_word": "pick",
+          "reference_word": "pick",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 742
+        },
+        {
+          "index": 3,
+          "code": "[/]",
+          "anchor": 9,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 618,
+          "line": "*CHI:\tand dog [/] dog .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 768
+        },
+        {
+          "index": 4,
+          "code": "[/]",
+          "anchor": 12,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 645,
+          "line": "*CHI:\tand rabbit [/] rabbit .",
+          "source_word": "rabbit",
+          "reference_word": "rabbit",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 791
+        },
+        {
+          "index": 5,
+          "code": "[/]",
+          "anchor": 15,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 674,
+          "line": "*CHI:\tand yummy [/] yummy sandwiches .",
+          "source_word": "yummy",
+          "reference_word": "yummy",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 816
+        },
+        {
+          "index": 6,
+          "code": "[/]",
+          "anchor": 21,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 734,
+          "line": "*CHI:\tand little [/] little rabbit .",
+          "source_word": "little",
+          "reference_word": "little",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 872
+        },
+        {
+          "index": 7,
+          "code": "[/]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 764,
+          "line": "*CHI:\teat [/] eat [/] eat too [/] too much .",
+          "source_word": "eat",
+          "reference_word": "eat",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 898
+        },
+        {
+          "index": 8,
+          "code": "[/]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 772,
+          "line": "*CHI:\teat [/] eat [/] eat too [/] too much .",
+          "source_word": "eat",
+          "reference_word": "eat",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 902
+        },
+        {
+          "index": 9,
+          "code": "[/]",
+          "anchor": 27,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 784,
+          "line": "*CHI:\teat [/] eat [/] eat too [/] too much .",
+          "source_word": "too",
+          "reference_word": "too",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 910
+        },
+        {
+          "index": 10,
+          "code": "[/]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 808,
+          "line": "*CHI:\toh [/] oh .",
+          "source_word": "oh",
+          "reference_word": "oh",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 931
+        },
+        {
+          "index": 11,
+          "code": "[/]",
+          "anchor": 32,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 827,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 947
+        },
+        {
+          "index": 12,
+          "code": "[/]",
+          "anchor": 34,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 838,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "my",
+          "reference_word": "my",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 968
+        },
+        {
+          "index": 13,
+          "code": "[/]",
+          "anchor": 36,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 851,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "tummy",
+          "reference_word": "tummy",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 977
+        },
+        {
+          "index": 14,
+          "code": "[/]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 867,
+          "line": "*CHI:\tsay [/] say my [/] my tummy [/] tummy hurts [/] hurts .",
+          "source_word": "hurts",
+          "reference_word": "hurts",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 989
+        },
+        {
+          "index": 15,
+          "code": "[/]",
+          "anchor": 41,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 895,
+          "line": "*CHI:\tand dizzy [/] dizzy .",
+          "source_word": "dizzy",
+          "reference_word": "dizzy",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1013
+        },
+        {
+          "index": 16,
+          "code": "[/]",
+          "anchor": 44,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 921,
+          "line": "*CHI:\tand lay [/] lay down [/] down .",
+          "source_word": "lay",
+          "reference_word": "lay",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1035
+        },
+        {
+          "index": 17,
+          "code": "[/]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 934,
+          "line": "*CHI:\tand lay [/] lay down [/] down .",
+          "source_word": "down",
+          "reference_word": "down",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1044
+        },
+        {
+          "index": 18,
+          "code": "[/]",
+          "anchor": 48,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 956,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "wise",
+          "reference_word": "wise",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1062
+        },
+        {
+          "index": 19,
+          "code": "[* m:03s:a]",
+          "anchor": 52,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 980,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1082
+        },
+        {
+          "index": 20,
+          "code": "[/]",
+          "anchor": 52,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 992,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1082
+        },
+        {
+          "index": 21,
+          "code": "[* m:03s:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1000,
+          "line": "*CHI:\twise [/] wise old rabbit say [* m:03s:a] [/] say [* m:03s:a] .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1086
+        },
+        {
+          "index": 22,
+          "code": "[/]",
+          "anchor": 54,
+          "event_intervenes": false,
+          "utterance": 13,
+          "start": 1025,
+          "line": "*CHI:\tcall [/] call the doctor .",
+          "source_word": "call",
+          "reference_word": "call",
+          "reference_utterance": 14,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1105
+        },
+        {
+          "index": 23,
+          "code": "[/]",
+          "anchor": 59,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1065,
+          "line": "*CHI:\tdoctor come [/] come and say [/] say .",
+          "source_word": "come",
+          "reference_word": "come",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1141
+        },
+        {
+          "index": 24,
+          "code": "[/]",
+          "anchor": 62,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1082,
+          "line": "*CHI:\tdoctor come [/] come and say [/] say .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1154
+        },
+        {
+          "index": 25,
+          "code": "[/]",
+          "anchor": 64,
+          "event_intervenes": false,
+          "utterance": 15,
+          "start": 1103,
+          "line": "*CHI:\trest [/] rest little one .",
+          "source_word": "rest",
+          "reference_word": "rest",
+          "reference_utterance": 16,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1177
+        },
+        {
+          "index": 26,
+          "code": "[/]",
+          "anchor": 69,
+          "event_intervenes": false,
+          "utterance": 16,
+          "start": 1140,
+          "line": "*CHI:\tand rest [/] rest .",
+          "source_word": "rest",
+          "reference_word": "rest",
+          "reference_utterance": 17,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1210
+        },
+        {
+          "index": 27,
+          "code": "[/]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1164,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "go",
+          "reference_word": "go",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1230
+        },
+        {
+          "index": 28,
+          "code": "[/]",
+          "anchor": 74,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1176,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "home",
+          "reference_word": "home",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1238
+        },
+        {
+          "index": 29,
+          "code": "[/]",
+          "anchor": 76,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1190,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "with",
+          "reference_word": "with",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1248
+        },
+        {
+          "index": 30,
+          "code": "[/]",
+          "anchor": 78,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1203,
+          "line": "*CHI:\tand go [/] go home [/] home with [/] with dog [/] dog .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1257
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 708,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 737,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 742,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 768,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 791,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 816,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 872,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 898,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 902,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 910,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 931,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 947,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 968,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 977,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 989,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1013,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1035,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1044,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1062,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1082,
+          "text": " [* m:03s:a] [/]"
+        },
+        {
+          "reference_position": 1086,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1105,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1141,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1154,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1177,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1210,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1230,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1238,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1248,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1257,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 80,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli427_td406_rep03_B2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli427_td406_rep03_B2_SLI.cha",
+    "reference_sha256": "f5ee10f2d6de5298bc534d65af22dd120ddbc7b8033848ee12c96bf7a9230747",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli427_td406_rep03_B2_SLI.cha",
+    "archived_source_sha256": "c15aafbe47dbe52ea65272d88dddffc26f2279ad34f24c26aa2f3ce61bf8129d",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli427_td406_rep03_B2_SLI.cha",
+    "output_sha256": "8e023ffe9d573b15765853bc4d98f02e6192b28f100bb96c3845f955c74c7ed4",
+    "report": {
+      "source_annotations": 3,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 81,
+          "event_intervenes": false,
+          "utterance": 29,
+          "start": 1161,
+          "line": "*CHI:\tthe bunny say [* m:03s:a] &=growls oh no .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 29,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1308
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 90,
+          "event_intervenes": false,
+          "utterance": 31,
+          "start": 1232,
+          "line": "*CHI:\tthe doctor say [* m:03s:a] &=growls don't worry .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 31,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1367
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 94,
+          "event_intervenes": false,
+          "utterance": 32,
+          "start": 1281,
+          "line": "*CHI:\the give [* m:03s:a] me medicine .",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 32,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1404
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1308,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1367,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1404,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 105,
+      "reference_words": 108,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli427_td406_rep08_A1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli427_td406_rep08_A1_SLI.cha",
+    "reference_sha256": "34e20e8ef12a56f59c34076fb05204041ca39e43726efadf61d33bf5b8751af6",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli427_td406_rep08_A1_SLI.cha",
+    "archived_source_sha256": "b833d4430ea88a090bc1adc51da6427aaa613ff3e780340d57cbc7e017c385cb",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli427_td406_rep08_A1_SLI.cha",
+    "output_sha256": "34e20e8ef12a56f59c34076fb05204041ca39e43726efadf61d33bf5b8751af6",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 31,
+      "reference_words": 37,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli444_td410_rep01_B1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli444_td410_rep01_B1_SLI.cha",
+    "reference_sha256": "deab68ce638e4d0d0a0554fb19d79d07ebf081f53441110af9a12ba0872b7869",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli444_td410_rep01_B1_SLI.cha",
+    "archived_source_sha256": "6324eae70a85e033c6b552663f7323a855f7a05622b5099c7ffc5305682d3ae8",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli444_td410_rep01_B1_SLI.cha",
+    "output_sha256": "1f1f4804657ea7ec0d99c64041435941f0adce875d733fd4904f88fb97090fa5",
+    "report": {
+      "source_annotations": 18,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:allo]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 648,
+          "line": "*CHI:\tdog has a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 810
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 19,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 695,
+          "line": "*CHI:\tand the elephant don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "dont",
+          "review": {
+            "action": "remove",
+            "reason": "The intended do/does agreement contrast uses irregular forms; this regular third-singular omission label is not the appropriate existing code.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The intended do/does agreement contrast uses irregular forms; this regular third-singular omission label is not the appropriate existing code."
+        },
+        {
+          "index": 2,
+          "code": "[* m:+3s]",
+          "anchor": 20,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 711,
+          "line": "*CHI:\tand the elephant don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "has",
+          "review": {
+            "action": "remove",
+            "reason": "Has/have is an irregular-form contrast after do, not a regular surplus third-singular suffix; no replacement label is introduced.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "Has/have is an irregular-form contrast after do, not a regular surplus third-singular suffix; no replacement label is introduced."
+        },
+        {
+          "index": 3,
+          "code": "[* m:allo]",
+          "anchor": 21,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 723,
+          "line": "*CHI:\tand the elephant don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 852
+        },
+        {
+          "index": 4,
+          "code": "[* m:0s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 763,
+          "line": "*CHI:\tthere's two dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 881
+        },
+        {
+          "index": 5,
+          "code": "[* m:0s:a]",
+          "anchor": 28,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 807,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 914
+        },
+        {
+          "index": 6,
+          "code": "[* m:0s:a]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 834,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 930
+        },
+        {
+          "index": 7,
+          "code": "[* m:0s:a]",
+          "anchor": 34,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 874,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 959
+        },
+        {
+          "index": 8,
+          "code": "[* m:0s:a]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 914,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 988
+        },
+        {
+          "index": 9,
+          "code": "[* m:allo]",
+          "anchor": 61,
+          "event_intervenes": false,
+          "utterance": 18,
+          "start": 1095,
+          "line": "*CHI:\telephant has a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 21,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1386
+        },
+        {
+          "index": 10,
+          "code": "[* m:03s:a]",
+          "anchor": 66,
+          "event_intervenes": false,
+          "utterance": 19,
+          "start": 1137,
+          "line": "*CHI:\tand the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "dont",
+          "review": {
+            "action": "remove",
+            "reason": "The intended do/does agreement contrast uses irregular forms; this regular third-singular omission label is not the appropriate existing code.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The intended do/does agreement contrast uses irregular forms; this regular third-singular omission label is not the appropriate existing code."
+        },
+        {
+          "index": 11,
+          "code": "[* m:+3s]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 19,
+          "start": 1153,
+          "line": "*CHI:\tand the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "has",
+          "review": {
+            "action": "remove",
+            "reason": "Has/have is an irregular-form contrast after do, not a regular surplus third-singular suffix; no replacement label is introduced.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "Has/have is an irregular-form contrast after do, not a regular surplus third-singular suffix; no replacement label is introduced."
+        },
+        {
+          "index": 12,
+          "code": "[* m:allo]",
+          "anchor": 68,
+          "event_intervenes": false,
+          "utterance": 19,
+          "start": 1165,
+          "line": "*CHI:\tand the dog don't [* m:03s:a] has [* m:+3s] a [* m:allo] owie .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 22,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1423
+        },
+        {
+          "index": 13,
+          "code": "[* m:0s:a]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 20,
+          "start": 1205,
+          "line": "*CHI:\tthere's two dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 23,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1452
+        },
+        {
+          "index": 14,
+          "code": "[* m:0s:a]",
+          "anchor": 75,
+          "event_intervenes": false,
+          "utterance": 22,
+          "start": 1249,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 25,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1485
+        },
+        {
+          "index": 15,
+          "code": "[* m:0s:a]",
+          "anchor": 77,
+          "event_intervenes": false,
+          "utterance": 23,
+          "start": 1276,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 26,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1501
+        },
+        {
+          "index": 16,
+          "code": "[* m:0s:a]",
+          "anchor": 81,
+          "event_intervenes": false,
+          "utterance": 24,
+          "start": 1316,
+          "line": "*CHI:\ttwo dog [* m:0s:a] and elephant .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 27,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1530
+        },
+        {
+          "index": 17,
+          "code": "[* m:0s:a]",
+          "anchor": 85,
+          "event_intervenes": false,
+          "utterance": 25,
+          "start": 1356,
+          "line": "*CHI:\ttwo dog [* m:0s:a] .",
+          "source_word": "dog",
+          "reference_word": "dog",
+          "reference_utterance": 28,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1559
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 810,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 852,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 881,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 914,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 930,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 959,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 988,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1386,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 1423,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 1452,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1485,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1501,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1530,
+          "text": " [* m:0s:a]"
+        },
+        {
+          "reference_position": 1559,
+          "text": " [* m:0s:a]"
+        }
+      ],
+      "source_words": 97,
+      "reference_words": 135,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "1": {
+        "action": "remove",
+        "reason": "The intended do/does agreement contrast uses irregular forms; this regular third-singular omission label is not the appropriate existing code.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "2": {
+        "action": "remove",
+        "reason": "Has/have is an irregular-form contrast after do, not a regular surplus third-singular suffix; no replacement label is introduced.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "10": {
+        "action": "remove",
+        "reason": "The intended do/does agreement contrast uses irregular forms; this regular third-singular omission label is not the appropriate existing code.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "11": {
+        "action": "remove",
+        "reason": "Has/have is an irregular-form contrast after do, not a regular surplus third-singular suffix; no replacement label is introduced.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli474_td459_rep03_A2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli474_td459_rep03_A2_SLI.cha",
+    "reference_sha256": "2355e8eb8cdc96d52c35e1376d77e2e21facabf7e39b6b72d9bfb4f47f35c0a7",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli474_td459_rep03_A2_SLI.cha",
+    "archived_source_sha256": "d9c30aafb8fe194a5ebb883a115b2e21cda88aa4e477260c1546079a01d612fc",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli474_td459_rep03_A2_SLI.cha",
+    "output_sha256": "12bee0d633eaab39e0e3704fc7748188b83e8cbc80fcf442ad3c262b8933d48d",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 17,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 652,
+          "line": "*CHI:\the want [* m:03s:a] to go to the wata .",
+          "source_word": "want",
+          "reference_word": "want",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 773
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 28,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 724,
+          "line": "*CHI:\tthen he slip [* m:03s:a] .",
+          "source_word": "slip",
+          "reference_word": "slip",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 835
+        },
+        {
+          "index": 2,
+          "code": "[/]",
+          "anchor": 31,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 756,
+          "line": "*CHI:\tthen he boo [/] boo his knee .",
+          "source_word": "boo",
+          "reference_word": "boo",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 855
+        },
+        {
+          "index": 3,
+          "code": "[: band]",
+          "anchor": 43,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 827,
+          "line": "*CHI:\tthen he put a baid [: band] [* s:r:der] on it .",
+          "source_word": "baid",
+          "reference_word": "baid",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 922
+        },
+        {
+          "index": 4,
+          "code": "[* s:r:der]",
+          "anchor": 43,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 836,
+          "line": "*CHI:\tthen he put a baid [: band] [* s:r:der] on it .",
+          "source_word": "baid",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 773,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 835,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 855,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 922,
+          "text": " [: band]"
+        }
+      ],
+      "source_words": 55,
+      "reference_words": 55,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "4": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep02_A2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep02_A2_SLI.cha",
+    "reference_sha256": "ab5325febcc185500acd0e3f291ecb8fddb468819f744955350d58f2bf68e011",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_A2_SLI.cha",
+    "archived_source_sha256": "22f623e4928706574543d413d924aba43af3aedfb2eb3e10fab84c364b202751",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep02_A2_SLI.cha",
+    "output_sha256": "bd82f895299ac8e25bc20685ffccf8c019915c31bda5711a58a6e3302d194466",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 16,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 655,
+          "line": "*CHI:\tand it break [* m:03s:a] .",
+          "source_word": "break",
+          "reference_word": "break",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 821
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 35,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 794,
+          "line": "*CHI:\tand it break [* m:03s:a] .",
+          "source_word": "break",
+          "reference_word": "break",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 994
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 821,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 994,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 63,
+      "reference_words": 115,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep02_B1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep02_B1_SLI.cha",
+    "reference_sha256": "b979cbc5e35aea78ef524ad9978bfecb62beca8918cb2f098cf563e931758d74",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep02_B1_SLI.cha",
+    "archived_source_sha256": "e60da3669682689edea781201fe90975383f8e13ed93556b28413b6f88a230ff",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep02_B1_SLI.cha",
+    "output_sha256": "b979cbc5e35aea78ef524ad9978bfecb62beca8918cb2f098cf563e931758d74",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 77,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep04_B2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep04_B2_SLI.cha",
+    "reference_sha256": "381cec7e74148ccef28c62e558b5ecdf3e7ee63db04c17c2353f52f1a87d3ecc",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep04_B2_SLI.cha",
+    "archived_source_sha256": "84dbd2cdf22725abe8c8130de43a829fec7038f11375f61f27ac6649255bba5f",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep04_B2_SLI.cha",
+    "output_sha256": "39d7f3887e00cca4b3085477d9608d9e47d82b1ed04577ee0051f59153bfbb41",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 16,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 639,
+          "line": "*CHI:\tand we were (.) having [/] (.) having a yummy picnic .",
+          "source_word": "having",
+          "reference_word": "having",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 760
+        },
+        {
+          "index": 1,
+          "code": "[/]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 752,
+          "line": "*CHI:\ti was (.) eating [/] (.) eating too much .",
+          "source_word": "eating",
+          "reference_word": "eating",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 869
+        },
+        {
+          "index": 2,
+          "code": "[/]",
+          "anchor": 37,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 811,
+          "line": "*CHI:\tand then i was (.) feeling [/] (.) feeling sick .",
+          "source_word": "feeling",
+          "reference_word": "feeling",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 924
+        },
+        {
+          "index": 3,
+          "code": "[/]",
+          "anchor": 50,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 920,
+          "line": "*CHI:\twe were (.) going [/] (.) going to see the doctor .",
+          "source_word": "going",
+          "reference_word": "going",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1029
+        },
+        {
+          "index": 4,
+          "code": "[/]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 1045,
+          "line": "*CHI:\tshe was (.) giving [/] (.) giving me some medicine .",
+          "source_word": "giving",
+          "reference_word": "giving",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1156
+        },
+        {
+          "index": 5,
+          "code": "[/]",
+          "anchor": 74,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1103,
+          "line": "*CHI:\ti was (.) resting [/] (.) resting on the couch .",
+          "source_word": "resting",
+          "reference_word": "resting",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1210
+        },
+        {
+          "index": 6,
+          "code": "[/]",
+          "anchor": 81,
+          "event_intervenes": false,
+          "utterance": 13,
+          "start": 1158,
+          "line": "*CHI:\ti was (.) feeling [/] (.) feeling better .",
+          "source_word": "feeling",
+          "reference_word": "feeling",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1261
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 760,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 869,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 924,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1029,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1156,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1210,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1261,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 84,
+      "reference_words": 84,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep05_B3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep05_B3_SLI.cha",
+    "reference_sha256": "d5ae9e43c3f06e9f1e4fee0d566d0f58d9c6f40bcc2f1e3da04dc513dc34df67",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep05_B3_SLI.cha",
+    "archived_source_sha256": "af4e01da2c47e5319dc18a7ad1e9f1f78c8b97df8d482f3c5a99c8ca499ef7fa",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep05_B3_SLI.cha",
+    "output_sha256": "d5ae9e43c3f06e9f1e4fee0d566d0f58d9c6f40bcc2f1e3da04dc513dc34df67",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 112,
+      "reference_words": 112,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep07_A3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep07_A3_SLI.cha",
+    "reference_sha256": "a0e8ebea2ae17b76f5bf222d98b48393f0e5c7705356fced1eef9f0f6ee1ddd3",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_A3_SLI.cha",
+    "archived_source_sha256": "7ff72250288eedb1ec7b0fd0793663e8901061b04e76f4b79ebe4648e1263504",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep07_A3_SLI.cha",
+    "output_sha256": "1d151632db3117e3b1735bdc9a7145d5c26b2c580424974c2630602bc1aeb403",
+    "report": {
+      "source_annotations": 6,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 593,
+          "line": "*CHI:\tthey is [* m:vsg:a] playing .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 718
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 773,
+          "line": "*CHI:\tand he get [* m:03s:a] some more (.) friends .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 901
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 42,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 878,
+          "line": "*CHI:\tand he get [* m:03s:a] some more (.) friends .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 11,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 996
+        },
+        {
+          "index": 3,
+          "code": "[* m:vsg:a]",
+          "anchor": 48,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 932,
+          "line": "*CHI:\tbut they is [* m:vsg:a] getting mad .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 12,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1040
+        },
+        {
+          "index": 4,
+          "code": "[* m:vsg:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 13,
+          "start": 976,
+          "line": "*CHI:\tbut they is [* m:vsg:a] throwing .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 13,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1078
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 56,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1014,
+          "line": "*CHI:\the bring [* m:03s:a] some more (.) friends .",
+          "source_word": "bring",
+          "reference_word": "bring",
+          "reference_utterance": 14,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1108
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 718,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 901,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 996,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1040,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 1078,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 1108,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 74,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep07_B1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep07_B1_SLI.cha",
+    "reference_sha256": "3df6e0a85b169ba98a7ff7538594ddc69257aa351bf74339082fbd3fa23eae5c",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep07_B1_SLI.cha",
+    "archived_source_sha256": "4252a3383885e824ac372e375ee954c4950d110f3b34d9e27db83c87644e87ca",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep07_B1_SLI.cha",
+    "output_sha256": "3df6e0a85b169ba98a7ff7538594ddc69257aa351bf74339082fbd3fa23eae5c",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 41,
+      "reference_words": 41,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_A3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep08_A3_SLI.cha",
+    "reference_sha256": "3834adefbf4301a264ca5915448c15658a6cf3c77135add2c5de7bc4e2433b53",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep08_A3_SLI.cha",
+    "archived_source_sha256": "c23ae6889a4e03df705d0db5a7ebdde4d1c5eb0b0113cd7a447dd847b574a253",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_A3_SLI.cha",
+    "output_sha256": "fa48c190e4c79a6458c68b595a8f606b445983a142c8bacbb9895ea006f67692",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 11,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 621,
+          "line": "*CHI:\tand she's [/] (..) she's flying it .",
+          "source_word": "shes",
+          "reference_word": "shes",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 741
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 741,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 80,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_B1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep08_B1_SLI.cha",
+    "reference_sha256": "80cf2508f0040da44fb18ad74fbff4930a67a394841b4cbe8fe1d2638b2249ce",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep08_B1_SLI.cha",
+    "archived_source_sha256": "c010ae2e81a1798d82a08ae51f968e402a175550ad2f0bab72aae9f9c662f12a",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_B1_SLI.cha",
+    "output_sha256": "80cf2508f0040da44fb18ad74fbff4930a67a394841b4cbe8fe1d2638b2249ce",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 0,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 544,
+          "line": "*CHI:\tme [* s:r:gc:pro] and my dog .",
+          "source_word": "me",
+          "review": {
+            "action": "remove",
+            "reason": "Me and my dog is a standalone nominal fragment; without a subject predicate the proposed pronoun-case error is unsupported.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "Me and my dog is a standalone nominal fragment; without a subject predicate the proposed pronoun-case error is unsupported."
+        }
+      ],
+      "insertions": [],
+      "source_words": 80,
+      "reference_words": 80,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "0": {
+        "action": "remove",
+        "reason": "Me and my dog is a standalone nominal fragment; without a subject predicate the proposed pronoun-case error is unsupported.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_B3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep08_B3_SLI.cha",
+    "reference_sha256": "7b39ff4a84adfe516639905248bd5f97514a59f6205a41eded14e8a911683ff6",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep08_B3_SLI.cha",
+    "archived_source_sha256": "d6bd12143dd442e16a463e7a11942e19973d916256532a091cf0c74225669598",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep08_B3_SLI.cha",
+    "output_sha256": "8d11d7f02b721ebebb6d64a06af74b628a2e5cfba2a8fe45dda74cef85684cf6",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 587,
+          "line": "*CHI:\the was (.) talking (..) he was talking to the [/] (.) the lady .",
+          "source_word": "the",
+          "reference_word": "the",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 749
+        },
+        {
+          "index": 1,
+          "code": "[/]",
+          "anchor": 58,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 955,
+          "line": "*CHI:\the was (.) the rabbit and dog were [/] (.) were sad .",
+          "source_word": "were",
+          "reference_word": "were",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1131
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 749,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 1131,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 99,
+      "reference_words": 99,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep09_B1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep09_B1_SLI.cha",
+    "reference_sha256": "c29cec8c368d32f7b0b8a22e7dd14a8bc0c6638fca9b099682a4dbdbd38b810e",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep09_B1_SLI.cha",
+    "archived_source_sha256": "f992d5b8539404cc702e4ffdb7314943693fe10ef8550499622832f7b4d3dd28",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep09_B1_SLI.cha",
+    "output_sha256": "c29cec8c368d32f7b0b8a22e7dd14a8bc0c6638fca9b099682a4dbdbd38b810e",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 49,
+      "reference_words": 49,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep10_A3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli475_td417_rep10_A3_SLI.cha",
+    "reference_sha256": "a0d894a904c07276c0702b1245a3b41f78a2f0f31f86f2219aae85f69eb27ac4",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli475_td417_rep10_A3_SLI.cha",
+    "archived_source_sha256": "1b3e61949c63a7cebd34d5b21db2f0f8e741dddaae171a154ad44e1425b06ca0",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli475_td417_rep10_A3_SLI.cha",
+    "output_sha256": "8d62e507eee6d265bf943aebd5f1d315e69f2b7e973ff26d1c54d1a263432f24",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:allo]",
+          "anchor": 13,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 616,
+          "line": "*CHI:\tand he (i)s got a [* m:allo] airplane .",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 735
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 735,
+          "text": " [* m:allo]"
+        }
+      ],
+      "source_words": 79,
+      "reference_words": 79,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep02_B2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli477_td415_rep02_B2_SLI.cha",
+    "reference_sha256": "caa1bcd759e270b4aa7d627ff381e29f89a6c1f0ef63d18b387c5af771e512a4",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep02_B2_SLI.cha",
+    "archived_source_sha256": "0e45d614ef764f03a85324f682f2998714e72eda5d837f6f0f06028392548bab",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep02_B2_SLI.cha",
+    "output_sha256": "c14a0ae56631fe63d03865e280cd0d3dd8198b4e05fee5c7a4f1cb4c4c3ae5be",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 580,
+          "line": "*CHI:\tOnce upon a time (.) Rabbit and dog go [* m:base:ed] to the park .",
+          "source_word": "go",
+          "reference_word": "go",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 742
+        },
+        {
+          "index": 1,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 20,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 676,
+          "line": "*CHI:\tme and me [* s:r:gc:pro] eat carrots and sandwiches .",
+          "source_word": "me",
+          "review": {
+            "action": "remove",
+            "reason": "The corrected reference restores I after me and me, so the original pronoun-case judgment was made in a different syntactic context.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The corrected reference restores I after me and me, so the original pronoun-case judgment was made in a different syntactic context."
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 729,
+          "line": "*CHI:\tme [* s:r:gc:pro] eat too much .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 864
+        },
+        {
+          "index": 3,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 772,
+          "line": "*CHI:\tnow me [* s:r:gc:pro] feel sick .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 892
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 36,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 836,
+          "line": "*CHI:\tdoctor come [* m:03s:a] and check me .",
+          "source_word": "come",
+          "reference_word": "come",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 941
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 41,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 876,
+          "line": "*CHI:\the say [* m:03s:a] me eat too much food .",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 969
+        },
+        {
+          "index": 6,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 47,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 920,
+          "line": "*CHI:\tme [* s:r:gc:pro] go home and take a nap .",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1001
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 742,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 864,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 892,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 941,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 969,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1001,
+          "text": " [* s:r:gc:pro]"
+        }
+      ],
+      "source_words": 56,
+      "reference_words": 57,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "1": {
+        "action": "remove",
+        "reason": "The corrected reference restores I after me and me, so the original pronoun-case judgment was made in a different syntactic context.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep04_A1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli477_td415_rep04_A1_SLI.cha",
+    "reference_sha256": "7d72a0e49f7a92194adc24ea212e171f954528dd284a2e7ba4b78b22967c152a",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A1_SLI.cha",
+    "archived_source_sha256": "207908305bd8abeceb4b6442bc8ac10e64bbe43fd351cefdd63de57168d3e724",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep04_A1_SLI.cha",
+    "output_sha256": "d68c463a626f12ee6b291f2b17c6c3661a8bb18ab3d239957c76fab09b4bbcb5",
+    "report": {
+      "source_annotations": 4,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 701,
+          "line": "*CHI:\tand she get [* m:03s:a] it .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 828
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 738,
+          "line": "*CHI:\tand she bring [* m:03s:a] (.) it back .",
+          "source_word": "bring",
+          "reference_word": "bring",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 853
+        },
+        {
+          "index": 2,
+          "code": "[* m:vsg:a]",
+          "anchor": 34,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 782,
+          "line": "*CHI:\tand they is [* m:vsg:a] happy .",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 887
+        },
+        {
+          "index": 3,
+          "code": "[* m:vun:a]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 820,
+          "line": "*CHI:\tand they be [* m:vun:a] happy again .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 913
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 828,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 853,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 887,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 913,
+          "text": " [* m:vun:a]"
+        }
+      ],
+      "source_words": 43,
+      "reference_words": 43,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep04_A2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli477_td415_rep04_A2_SLI.cha",
+    "reference_sha256": "9a513a7a58ae6dd976bfbb62d4cc445c886bc96dab6c271cb802c3bc5c5edfcc",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep04_A2_SLI.cha",
+    "archived_source_sha256": "52a87af202ae0bdaf9fb9d3f7ab5bd364673fb48396588ed72458bf804f8911d",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep04_A2_SLI.cha",
+    "output_sha256": "a38c2eb7c48166bbd07bcea0a8009d5a8ab4384274867ec7c5bf9051b55ec8a3",
+    "report": {
+      "source_annotations": 3,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 12,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 658,
+          "line": "*CHI:\tmonkey [/] monkey be [= is] [* m:vun:a] running .",
+          "source_word": "monkey",
+          "reference_word": "monkey",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 781
+        },
+        {
+          "index": 1,
+          "code": "[= is]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 672,
+          "line": "*CHI:\tmonkey [/] monkey be [= is] [* m:vun:a] running .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 796
+        },
+        {
+          "index": 2,
+          "code": "[* m:vun:a]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 679,
+          "line": "*CHI:\tmonkey [/] monkey be [= is] [* m:vun:a] running .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 796
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 781,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 796,
+          "text": " [= is] [* m:vun:a]"
+        }
+      ],
+      "source_words": 35,
+      "reference_words": 35,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+    "reference_sha256": "d692d5234aca07877a1e8ca2e3550c50a708dc8884d8bd08edcc1a4ba8481144",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep05_A2_SLI.cha",
+    "archived_source_sha256": "a34065cb0f0b21cdefd0a31eb68187f61a7ca15a2c8e3a6c5e0e4f1d37d9ed49",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep05_A2_SLI.cha",
+    "output_sha256": "ab8285f8bd8847c00768ea3a5179df43f562b9caedd2997ed12ca5e7ee0ba8e4",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 708,
+          "line": "*CHI:\tnice man come [* m:03s:a] with band-aid .",
+          "source_word": "come",
+          "reference_word": "come",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 874
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 752,
+          "line": "*CHI:\tkitty sit [* m:03s:a] on bench .",
+          "source_word": "sit",
+          "reference_word": "sit",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 906
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 874,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 906,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 32,
+      "reference_words": 32,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep06_A3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli477_td415_rep06_A3_SLI.cha",
+    "reference_sha256": "f82054d7155f25361cc36c48f60e27045d9ebe1b2af6c18f5db5a4d665337ebb",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli477_td415_rep06_A3_SLI.cha",
+    "archived_source_sha256": "10ddce4d2b356e660e1a66462d32c3dc9c042883c6fc71ef780d88c641caa7c3",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli477_td415_rep06_A3_SLI.cha",
+    "output_sha256": "6cb6ebab0baee3a11afc26a5bca8bd82d7d91fea0e58ec40a8133f6a0b5c21a9",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 6,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 592,
+          "line": "*CHI:\thm [/] (..) hm (..) a pool .",
+          "source_word": "hm",
+          "reference_word": "hm",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 711
+        },
+        {
+          "index": 1,
+          "code": "[* m:+ing]",
+          "anchor": 18,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 688,
+          "line": "*CHI:\tand it splashing [* m:+ing] (.) and he is saying .",
+          "source_word": "splashing",
+          "review": {
+            "action": "remove",
+            "reason": "It splashing lacks a finite auxiliary in the intended progressive construction; the progressive form itself is not demonstrably superfluous.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "It splashing lacks a finite auxiliary in the intended progressive construction; the progressive form itself is not demonstrably superfluous."
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 739,
+          "line": "*CHI:\tand he get [* m:03s:a] upset .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 845
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 37,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 819,
+          "line": "*CHI:\tand he is trying (.) and he is getting (.) and he get [* m:03s:a] .",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 917
+        },
+        {
+          "index": 4,
+          "code": "[* m:vun:a]",
+          "anchor": 40,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 849,
+          "line": "*CHI:\tand he be [* m:vun:a] happy .",
+          "source_word": "be",
+          "reference_word": "be",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 935
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 711,
+          "text": " [/]"
+        },
+        {
+          "reference_position": 845,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 917,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 935,
+          "text": " [* m:vun:a]"
+        }
+      ],
+      "source_words": 71,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "1": {
+        "action": "remove",
+        "reason": "It splashing lacks a finite auxiliary in the intended progressive construction; the progressive form itself is not demonstrably superfluous.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli478_td419_rep02_A3_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli478_td419_rep02_A3_SLI.cha",
+    "reference_sha256": "7d99ee90a6e9a64980840105315b2d1a54dc10277592c0fbd5bdb49da0c9e5f1",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli478_td419_rep02_A3_SLI.cha",
+    "archived_source_sha256": "6011f91c4d5d658728f4e7f2719cf25453020103a45b1a69b787ec17654d9440",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli478_td419_rep02_A3_SLI.cha",
+    "output_sha256": "aed8bcd9339f5cff0b2e8f5722c28d908b8777bfae99525a87a6d30388a185d6",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 33,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 771,
+          "line": "*CHI:\tno [/] no kitty .",
+          "source_word": "no",
+          "reference_word": "no",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 957
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 957,
+          "text": " [/]"
+        }
+      ],
+      "source_words": 93,
+      "reference_words": 93,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/4_year_old/talktag/stage2_sli/pair_sli479_td471_rep07_B1_SLI.cha",
+    "reference": "data/generated/4_year_old/pre_annotation/stage2_sli/pair_sli479_td471_rep07_B1_SLI.cha",
+    "reference_sha256": "081ed21ae8b00b8b6c5f6c9d625d35a1f5c9cd456937e14d353cd24470813b5f",
+    "archived_source": "data/generated/4_year_old/reannotated_talktag/stage2_sli_reannotated/pair_sli479_td471_rep07_B1_SLI.cha",
+    "archived_source_sha256": "63c34f9bb462442cf5d0f0b751e0afe2b7c2c2056510305ccd6d9fba00313206",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/4_year_old/talktag/stage2_sli/pair_sli479_td471_rep07_B1_SLI.cha",
+    "output_sha256": "081ed21ae8b00b8b6c5f6c9d625d35a1f5c9cd456937e14d353cd24470813b5f",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 52,
+      "reference_words": 52,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage1_td/pair_sli568_td544_rep09_A2_TD.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage1_td/pair_sli568_td544_rep09_A2_TD.cha",
+    "reference_sha256": "a573df1f26cee3be1dddbf6bc8b1665b708d4e951e89d41446703ffa9c0c22a3",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage1_td_reannotated/pair_sli568_td544_rep09_A2_TD.cha",
+    "archived_source_sha256": "cbeba96519223ace69988ea1b65274a3848080d04814eabb5a5a7fa1f4aaa164",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage1_td/pair_sli568_td544_rep09_A2_TD.cha",
+    "output_sha256": "a573df1f26cee3be1dddbf6bc8b1665b708d4e951e89d41446703ffa9c0c22a3",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 43,
+      "reference_words": 50,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage1_td/pair_sli574_td528_rep05_A1_TD.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage1_td/pair_sli574_td528_rep05_A1_TD.cha",
+    "reference_sha256": "b981c534f8540af87effaaccbc13ff08529927f21f85cdaedbe9ea0a56b99120",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage1_td_reannotated/pair_sli574_td528_rep05_A1_TD.cha",
+    "archived_source_sha256": "1a4d072e81a5c829e9d759c671a64ef9fb01efd2662f2a9514b28e40d15b190c",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage1_td/pair_sli574_td528_rep05_A1_TD.cha",
+    "output_sha256": "b981c534f8540af87effaaccbc13ff08529927f21f85cdaedbe9ea0a56b99120",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 100,
+      "reference_words": 100,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage1_td/pair_sli574_td528_rep10_B3_TD.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage1_td/pair_sli574_td528_rep10_B3_TD.cha",
+    "reference_sha256": "92ae81493dd2f7b06af2b61894c83281cca8939e0366eca22d607997238e9c86",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage1_td_reannotated/pair_sli574_td528_rep10_B3_TD.cha",
+    "archived_source_sha256": "433deaa07d8e83dd148adaa8eca4ffb96737011a3a4aa2b64873fff81107840b",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage1_td/pair_sli574_td528_rep10_B3_TD.cha",
+    "output_sha256": "92ae81493dd2f7b06af2b61894c83281cca8939e0366eca22d607997238e9c86",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 149,
+      "reference_words": 149,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli527_td515_rep01_B2_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli527_td515_rep01_B2_SLI.cha",
+    "reference_sha256": "28302be59d9c49a2a356d5c2ab753c3113d2f0c770a65e841901a18d85debe82",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli527_td515_rep01_B2_SLI.cha",
+    "archived_source_sha256": "0f300ca0d0838cedf9dea641346dc5709ae0ce62048c720b7539494022b295eb",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli527_td515_rep01_B2_SLI.cha",
+    "output_sha256": "59cb65929ed7cbebd80738cb7f9115c419191c31066b4debbc28f0d4bfcfdf07",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 0,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 522,
+          "line": "*CHI:\tMe [* s:r:gc:pro] and my doggy went to the park.",
+          "source_word": "me",
+          "reference_word": "me",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 670
+        },
+        {
+          "index": 1,
+          "code": "[: tummy]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 690,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der]'s hurting.",
+          "source_word": "tummie",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:der]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 700,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der]'s hurting.",
+          "source_word": "tummie",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        },
+        {
+          "index": 3,
+          "code": "[: tummy]",
+          "anchor": 47,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 859,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der] feels better now.",
+          "source_word": "tummie",
+          "reference_word": "tummie",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 978
+        },
+        {
+          "index": 4,
+          "code": "[* s:r:der]",
+          "anchor": 47,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 869,
+          "line": "*CHI:\tMy tummie [: tummy] [* s:r:der] feels better now.",
+          "source_word": "tummie",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 670,
+          "text": " [* s:r:gc:pro]"
+        },
+        {
+          "reference_position": 978,
+          "text": " [: tummy]"
+        }
+      ],
+      "source_words": 57,
+      "reference_words": 56,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "2": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "4": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+    "reference_sha256": "ef72a1f4e3cd1253297ec0721664ac1e331dd6eb2f6f8a0c1c70cc231e3d8861",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli529_td545_rep06_A2_SLI.cha",
+    "archived_source_sha256": "af2e24d69f698a748a90d1a69b35f325eef3101bd388ea3dddef0c952cc02c02",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli529_td545_rep06_A2_SLI.cha",
+    "output_sha256": "ef72a1f4e3cd1253297ec0721664ac1e331dd6eb2f6f8a0c1c70cc231e3d8861",
+    "report": {
+      "source_annotations": 3,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 66,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 892,
+          "line": "*CHI:\ther [* s:r:gc:pro] her [* s:r:gc:pro] her [* s:r:gc:pro] her her knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee got got got got got got got got got got got got got got got got hurt hurt hurt hurt hurt hurt hurt hurt hurt .",
+          "source_word": "her",
+          "review": {
+            "action": "remove",
+            "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution."
+        },
+        {
+          "index": 1,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 911,
+          "line": "*CHI:\ther [* s:r:gc:pro] her [* s:r:gc:pro] her [* s:r:gc:pro] her her knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee got got got got got got got got got got got got got got got got hurt hurt hurt hurt hurt hurt hurt hurt hurt .",
+          "source_word": "her",
+          "review": {
+            "action": "remove",
+            "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution."
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:gc:pro]",
+          "anchor": 68,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 930,
+          "line": "*CHI:\ther [* s:r:gc:pro] her [* s:r:gc:pro] her [* s:r:gc:pro] her her knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee knee got got got got got got got got got got got got got got got got hurt hurt hurt hurt hurt hurt hurt hurt hurt .",
+          "source_word": "her",
+          "review": {
+            "action": "remove",
+            "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution."
+        }
+      ],
+      "insertions": [],
+      "source_words": 178,
+      "reference_words": 144,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "0": {
+        "action": "remove",
+        "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "1": {
+        "action": "remove",
+        "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "2": {
+        "action": "remove",
+        "reason": "The repeated her tokens introduce her knee; this context does not establish a subject/object pronoun-case substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli531_td565_rep10_B2_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli531_td565_rep10_B2_SLI.cha",
+    "reference_sha256": "8a9e2a88502f491a0aaee17d0607e44ddbbae794f6c99560a1fed6bfbecbfb75",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli531_td565_rep10_B2_SLI.cha",
+    "archived_source_sha256": "529dbef25b78348d7e447cfe65e9369ccb49e82b65448e5a546acc0ff4c098d9",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli531_td565_rep10_B2_SLI.cha",
+    "output_sha256": "8a9e2a88502f491a0aaee17d0607e44ddbbae794f6c99560a1fed6bfbecbfb75",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 47,
+      "reference_words": 46,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli569_td532_rep02_B2_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli569_td532_rep02_B2_SLI.cha",
+    "reference_sha256": "e26002329a5ed3aa629653d811d656ff40d82dbcbb5afd1190484efe2670431c",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli569_td532_rep02_B2_SLI.cha",
+    "archived_source_sha256": "074e84539011b1a9690544b643e8f57f498b8047202cb02e2138e785ffd987c4",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli569_td532_rep02_B2_SLI.cha",
+    "output_sha256": "d73a0e856ded22cf92e7c432f9a57d1d244e44221959e244c37f9b13210f0728",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 16,
+          "start": 1004,
+          "line": "*CHI:\t+ the doctor take [* m:base:ed] him in and gave him some medicine.",
+          "source_word": "take",
+          "reference_word": "take",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1195
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 1195,
+          "text": " [* m:base:ed]"
+        }
+      ],
+      "source_words": 86,
+      "reference_words": 86,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli570_td530_rep07_A2_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli570_td530_rep07_A2_SLI.cha",
+    "reference_sha256": "622e219ddb8a095d53ddc639ae59c164e7eec2d2b28f27933e80de1338e509cb",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli570_td530_rep07_A2_SLI.cha",
+    "archived_source_sha256": "a3ade5a0d71486c1f0774688ac08e0985de601262f8821e5299f751509a1c908",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli570_td530_rep07_A2_SLI.cha",
+    "output_sha256": "e87d31f021665d10a1afd34a5a149bd75352466d22661be9f97e13c74a883fa9",
+    "report": {
+      "source_annotations": 6,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 37,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 730,
+          "line": "*CHI:\t+\" and the doggy start to run towards the water and he's like this and and he's like that and he rush [* m:03s:a] to the water and he slipped and he hurt [* m:03s:a] his knee.",
+          "source_word": "rush",
+          "reference_word": "rush",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 919
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 782,
+          "line": "*CHI:\t+\" and the doggy start to run towards the water and he's like this and and he's like that and he rush [* m:03s:a] to the water and he slipped and he hurt [* m:03s:a] his knee.",
+          "source_word": "hurt",
+          "review": {
+            "action": "remove",
+            "reason": "He slipped and he hurt his knee has a grammatical past hurt coordinated with slipped; a missing present agreement suffix is not supported.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "He slipped and he hurt his knee has a grammatical past hurt coordinated with slipped; a missing present agreement suffix is not supported."
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 59,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 866,
+          "line": "*CHI:\t+\" and the lifeguard came and he's like this and he say [* m:03s:a] +.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1029
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 68,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 945,
+          "line": "*CHI:\t+\" and he get [* m:03s:a] a bandage and he say [* m:03s:a] +.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1087
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 73,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 978,
+          "line": "*CHI:\t+\" and he get [* m:03s:a] a bandage and he say [* m:03s:a] +.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 6,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1108
+        },
+        {
+          "index": 5,
+          "code": "[* m:0ed]",
+          "anchor": 92,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1098,
+          "line": "*CHI:\tand the doggy is like this and he sat on the bench and he rest [* m:0ed].",
+          "source_word": "rest",
+          "reference_word": "rest",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1214
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 919,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1029,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1087,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1108,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1214,
+          "text": " [* m:0ed]"
+        }
+      ],
+      "source_words": 93,
+      "reference_words": 93,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "1": {
+        "action": "remove",
+        "reason": "He slipped and he hurt his knee has a grammatical past hurt coordinated with slipped; a missing present agreement suffix is not supported.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli575_td561_rep03_B2_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli575_td561_rep03_B2_SLI.cha",
+    "reference_sha256": "911ad59f113270f1607e84444796b83b5b23c0e12c4407c7fafe684dde2dd255",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli575_td561_rep03_B2_SLI.cha",
+    "archived_source_sha256": "bed792da7f0a6a231d604f9affd34e2fc09fe3dc15c5223db62e332a26d9620b",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli575_td561_rep03_B2_SLI.cha",
+    "output_sha256": "e3a5abb1cc22a747b429aa159cb12f321cc59c2c977ec08be75863ca6054df4b",
+    "report": {
+      "source_annotations": 8,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 36,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 733,
+          "line": "*CHI:\tand then the little one eat [* m:03s:a] all the carwots and sandwitches.",
+          "source_word": "eat",
+          "reference_word": "eat",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 884
+        },
+        {
+          "index": 1,
+          "code": "[: doctor]",
+          "anchor": 65,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 917,
+          "line": "*CHI:\tbunny said don't worry i will get the doctow [: doctor] [* s:r:der].",
+          "source_word": "doctow",
+          "reference_word": "doctow",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1060
+        },
+        {
+          "index": 2,
+          "code": "[* s:r:der]",
+          "anchor": 65,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 928,
+          "line": "*CHI:\tbunny said don't worry i will get the doctow [: doctor] [* s:r:der].",
+          "source_word": "doctow",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        },
+        {
+          "index": 3,
+          "code": "[: doctor]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 958,
+          "line": "*CHI:\tthe doctow [: doctor] [* s:r:der] came and gave him some medisine.",
+          "source_word": "doctow",
+          "reference_word": "doctow",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1079
+        },
+        {
+          "index": 4,
+          "code": "[* s:r:der]",
+          "anchor": 67,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 969,
+          "line": "*CHI:\tthe doctow [: doctor] [* s:r:der] came and gave him some medisine.",
+          "source_word": "doctow",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 78,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1044,
+          "line": "*CHI:\tnow the little one feel [* m:03s:a] beter [: better] [* m:base:er].",
+          "source_word": "feel",
+          "reference_word": "feel",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1143
+        },
+        {
+          "index": 6,
+          "code": "[: better]",
+          "anchor": 79,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1062,
+          "line": "*CHI:\tnow the little one feel [* m:03s:a] beter [: better] [* m:base:er].",
+          "source_word": "beter",
+          "reference_word": "beter",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1149
+        },
+        {
+          "index": 7,
+          "code": "[* m:base:er]",
+          "anchor": 79,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1073,
+          "line": "*CHI:\tnow the little one feel [* m:03s:a] beter [: better] [* m:base:er].",
+          "source_word": "beter",
+          "review": {
+            "action": "remove",
+            "reason": "The word represents better with a spelling difference, not a base adjective substituted for an irregular comparative.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The word represents better with a spelling difference, not a base adjective substituted for an irregular comparative."
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 884,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1060,
+          "text": " [: doctor]"
+        },
+        {
+          "reference_position": 1079,
+          "text": " [: doctor]"
+        },
+        {
+          "reference_position": 1143,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1149,
+          "text": " [: better]"
+        }
+      ],
+      "source_words": 87,
+      "reference_words": 86,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "2": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "4": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "7": {
+        "action": "remove",
+        "reason": "The word represents better with a spelling difference, not a base adjective substituted for an irregular comparative.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/5_year_old/talktag/stage2_sli/pair_sli575_td561_rep07_A3_SLI.cha",
+    "reference": "data/generated/5_year_old/pre_annotation/stage2_sli/pair_sli575_td561_rep07_A3_SLI.cha",
+    "reference_sha256": "3305745e4b0dfdc2445c58d3626cd25961daf126f238a843a68baafe1c900df6",
+    "archived_source": "data/generated/5_year_old/fully-annotated/5_year_old_cha_stage2_sli_reannotated/pair_sli575_td561_rep07_A3_SLI.cha",
+    "archived_source_sha256": "80aeea62fc86a463351e2cc9bbad9586ca490a9d2c533606d7bb51e9112b070b",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/5_year_old/talktag/stage2_sli/pair_sli575_td561_rep07_A3_SLI.cha",
+    "output_sha256": "68b2655f519c3ed8aec2cffd57b1be92799ecd785c5ef0271600e0c3653eb733",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:0ing]",
+          "anchor": 9,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 572,
+          "line": "*CHI:\the was play [* m:0ing] with dog.",
+          "source_word": "play",
+          "reference_word": "play",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 720
+        },
+        {
+          "index": 1,
+          "code": "[* m:vsg:a]",
+          "anchor": 23,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 658,
+          "line": "*CHI:\tand then they was [* m:vsg:a] going to drop it.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 797
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 31,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 711,
+          "line": "*CHI:\tand then it fall [* m:03s:a] in water.",
+          "source_word": "fall",
+          "reference_word": "fall",
+          "reference_utterance": 4,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 839
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 59,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 899,
+          "line": "*CHI:\tand lifeguard take [* m:03s:a] pole and get [* m:03s:a] airplan :e.",
+          "source_word": "take",
+          "reference_word": "take",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1017
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 62,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 924,
+          "line": "*CHI:\tand lifeguard take [* m:03s:a] pole and get [* m:03s:a] airplan :e.",
+          "source_word": "get",
+          "review": {
+            "action": "retain",
+            "reason": "The object spelling/lengthening changes, but the same bare get retains its singular lifeguard subject and coordination with take.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "reference_word": "get",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "reviewed_context_with_unique_word_anchor",
+          "reference_position": 1030
+        },
+        {
+          "index": 5,
+          "code": "[: airplane]",
+          "anchor": 77,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1031,
+          "line": "*CHI:\tand they play with airplan [: airplane] [* s:r:der] :e again.",
+          "source_word": "airplan",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        },
+        {
+          "index": 6,
+          "code": "[* s:r:der]",
+          "anchor": 77,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1044,
+          "line": "*CHI:\tand they play with airplan [: airplane] [* s:r:der] :e again.",
+          "source_word": "airplan",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 720,
+          "text": " [* m:0ing]"
+        },
+        {
+          "reference_position": 797,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 839,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1017,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1030,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 80,
+      "reference_words": 77,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "4": {
+        "action": "retain",
+        "reason": "The object spelling/lengthening changes, but the same bare get retains its singular lifeguard subject and coordination with take.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "6": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli607_td634_rep04_A3_TD.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage1_td/pair_sli607_td634_rep04_A3_TD.cha",
+    "reference_sha256": "aa0bbc41510033b92bad58d5574c15a66a39baa13b865a68033545a1ef1ddb0f",
+    "archived_source": "data/processed/6_year_old_cha_stage1_td_reannotated/pair_sli607_td634_rep04_A3_TD.cha",
+    "archived_source_sha256": "dcbff5a5aa02d89bab6dba9c2618a612632458990781c87af3762ce714ae690e",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage1_td/pair_sli607_td634_rep04_A3_TD.cha",
+    "output_sha256": "aa0bbc41510033b92bad58d5574c15a66a39baa13b865a68033545a1ef1ddb0f",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 71,
+      "reference_words": 71,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli609_td661_rep02_B1_TD.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage1_td/pair_sli609_td661_rep02_B1_TD.cha",
+    "reference_sha256": "b2280e2b6ef2bcf143844f0d12cea76dd2d0c25748f2276c9baa954146e5d3b3",
+    "archived_source": "data/processed/6_year_old_cha_stage1_td_reannotated/pair_sli609_td661_rep02_B1_TD.cha",
+    "archived_source_sha256": "eaef7aff815da593a17ef3c1cb2eeb733d3dd3418a5b299d6076e6a4efdc8ac1",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage1_td/pair_sli609_td661_rep02_B1_TD.cha",
+    "output_sha256": "b2280e2b6ef2bcf143844f0d12cea76dd2d0c25748f2276c9baa954146e5d3b3",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 92,
+      "reference_words": 92,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli673_td606_rep05_B1_TD.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage1_td/pair_sli673_td606_rep05_B1_TD.cha",
+    "reference_sha256": "5673a637fa3897db52a812243747c249d98ccb95b6f3f78397c7d4ef07d38093",
+    "archived_source": "data/processed/6_year_old_cha_stage1_td_reannotated/pair_sli673_td606_rep05_B1_TD.cha",
+    "archived_source_sha256": "1983ee1d0815c98b7c0ecb5e79581548964014a25ea2bc7b9980eeac79cb3437",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage1_td/pair_sli673_td606_rep05_B1_TD.cha",
+    "output_sha256": "8242a981a10d73b44d2a8882ff426b1ddfad867f0dca227a4d9cd915614d24f8",
+    "report": {
+      "source_annotations": 11,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 3,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 595,
+          "line": "*CHI:\tRabbit and dog was [* m:vsg:a] buildin [* m:0ing] a sandcastle.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 727
+        },
+        {
+          "index": 1,
+          "code": "[* m:0ing]",
+          "anchor": 4,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 615,
+          "line": "*CHI:\tRabbit and dog was [* m:vsg:a] buildin [* m:0ing] a sandcastle.",
+          "source_word": "buildin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 2,
+          "code": "[* m:0ing]",
+          "anchor": 9,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 662,
+          "line": "*CHI:\tDog was carryin [* m:0ing] a big bucket.",
+          "source_word": "carryin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 703,
+          "line": "*CHI:\tDog throw [* m:03s:a] sand on the castle.",
+          "source_word": "throw",
+          "reference_word": "throw",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 803
+        },
+        {
+          "index": 4,
+          "code": "[* m:0ing]",
+          "anchor": 24,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 781,
+          "line": "*CHI:\tRabbit's castle was fallin [* m:0ing] down!",
+          "source_word": "fallin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 5,
+          "code": "[* m:0ing]",
+          "anchor": 28,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 821,
+          "line": "*CHI:\tRabbit was cryin [* m:0ing].",
+          "source_word": "cryin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 6,
+          "code": "[* m:0ing]",
+          "anchor": 32,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 863,
+          "line": "*CHI:\t+\" Doggy, I was buildin [* m:0ing] somethin pretty!",
+          "source_word": "buildin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 7,
+          "code": "[* m:base:ed]",
+          "anchor": 40,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 931,
+          "line": "*CHI:\tHe give [* m:base:ed] Rabbit a big hug.",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 989
+        },
+        {
+          "index": 8,
+          "code": "[: sorry]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 982,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der], I did a boo-boo.",
+          "source_word": "sowwy",
+          "reference_word": "sowwy",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1025
+        },
+        {
+          "index": 9,
+          "code": "[* s:r:der]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 992,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der], I did a boo-boo.",
+          "source_word": "sowwy",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        },
+        {
+          "index": 10,
+          "code": "[* m:03s:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 1039,
+          "line": "*CHI:\tRabbit say [* m:03s:a] it's okay, doggy +\".",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1063
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 727,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 803,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 989,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 1025,
+          "text": " [: sorry]"
+        },
+        {
+          "reference_position": 1063,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 61,
+      "reference_words": 61,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "1": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "2": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "4": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "5": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "6": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "9": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli678_td651_rep01_A3_TD.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage1_td/pair_sli678_td651_rep01_A3_TD.cha",
+    "reference_sha256": "8682673ba619c3c7f82896ff383a7cc8c38f3bd5ffba7706c9b0e1b30b7ae03f",
+    "archived_source": "data/processed/6_year_old_cha_stage1_td_reannotated/pair_sli678_td651_rep01_A3_TD.cha",
+    "archived_source_sha256": "c0e8bf9188d90167da70440019aa424e89ea761771dad02cce21b49eee0045b6",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage1_td/pair_sli678_td651_rep01_A3_TD.cha",
+    "output_sha256": "8682673ba619c3c7f82896ff383a7cc8c38f3bd5ffba7706c9b0e1b30b7ae03f",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 84,
+      "reference_words": 91,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage1_td/pair_sli680_td671_rep06_B3_TD.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage1_td/pair_sli680_td671_rep06_B3_TD.cha",
+    "reference_sha256": "37b2da1ee439f4abce91d83f47f1ffccef869b8bd4182b806adf0e352a89f53b",
+    "archived_source": "data/processed/6_year_old_cha_stage1_td_reannotated/pair_sli680_td671_rep06_B3_TD.cha",
+    "archived_source_sha256": "8c7ec6762e34019019ce6bb95fbfbecb325a8855c254e008930413ef93613de0",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage1_td/pair_sli680_td671_rep06_B3_TD.cha",
+    "output_sha256": "37b2da1ee439f4abce91d83f47f1ffccef869b8bd4182b806adf0e352a89f53b",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 95,
+      "reference_words": 102,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli607_td634_rep04_A3_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli607_td634_rep04_A3_SLI.cha",
+    "reference_sha256": "370aaac6300c0b2ab8835370b708ca96140ea10a06e468154540ac103442da73",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli607_td634_rep04_A3_SLI.cha",
+    "archived_source_sha256": "e076634fbbfd7767875e2eb78df30f5489e6ce8d2cce74d6539d79c17870b2a1",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli607_td634_rep04_A3_SLI.cha",
+    "output_sha256": "64d528c1b32ad9be0bb35736aba9447e261ff4d1a44c31eb47f97f9ff9e200d8",
+    "report": {
+      "source_annotations": 4,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 4,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 541,
+          "line": "*CHI:\tone day two birds was [* m:vsg:a] flying near the pool.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 691
+        },
+        {
+          "index": 1,
+          "code": "[* m:allo]",
+          "anchor": 11,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 593,
+          "line": "*CHI:\tthere was a [* m:allo] airplane toy in the water.",
+          "source_word": "a",
+          "reference_word": "a",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 732
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 828,
+          "line": "*CHI:\the use [* m:03s:a] a big long pole and he get [* m:03s:a] it.",
+          "source_word": "use",
+          "reference_word": "use",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 963
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 867,
+          "line": "*CHI:\the use [* m:03s:a] a big long pole and he get [* m:03s:a] it.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 990
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 691,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 732,
+          "text": " [* m:allo]"
+        },
+        {
+          "reference_position": 963,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 990,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 68,
+      "reference_words": 68,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli607_td634_rep06_A3_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli607_td634_rep06_A3_SLI.cha",
+    "reference_sha256": "7f74a8eac05a2811cc4f6c58fae861b95610d45f31d4454f73d77bc17fbaea78",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli607_td634_rep06_A3_SLI.cha",
+    "archived_source_sha256": "0e271995eaaa55752923c1e89d071167b57e5962d41989220805f7e68354bee4",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli607_td634_rep06_A3_SLI.cha",
+    "output_sha256": "fd6a637f10bf04cc319074755b9adfcfc6da6455706740f81b5d1aaa2432c4af",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 2,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 533,
+          "line": "*CHI:\tThe ducks was [* m:vsg:a] near the pool.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 683
+        },
+        {
+          "index": 1,
+          "code": "[* m:vsg:a]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 575,
+          "line": "*CHI:\tthey was [* m:vsg:a] playing with a little airplane.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 714
+        },
+        {
+          "index": 2,
+          "code": "[* m:vsg:a]",
+          "anchor": 14,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 634,
+          "line": "*CHI:\tthey was [* m:vsg:a] having lots of fun.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 762
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 48,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 876,
+          "line": "*CHI:\tone duck's mom get [* m:03s:a] upset.",
+          "source_word": "get",
+          "reference_word": "get",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 997
+        },
+        {
+          "index": 4,
+          "code": "[* m:base:ed]",
+          "anchor": 53,
+          "event_intervenes": false,
+          "utterance": 11,
+          "start": 936,
+          "line": "*CHI:\t+\" What happen [* m:base:ed] to my airplane?",
+          "source_word": "happen",
+          "review": {
+            "action": "remove",
+            "reason": "Happen has regular past happened; the existing label incorrectly specifies an irregular-past contrast. No substitute label is inferred.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "Happen has regular past happened; the existing label incorrectly specifies an irregular-past contrast. No substitute label is inferred."
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 72,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 1060,
+          "line": "*CHI:\tshe use [* m:03s:a] a big long pole to get the airplane.",
+          "source_word": "use",
+          "reference_word": "use",
+          "reference_utterance": 15,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1176
+        },
+        {
+          "index": 6,
+          "code": "[* m:vsg:a]",
+          "anchor": 90,
+          "event_intervenes": false,
+          "utterance": 16,
+          "start": 1164,
+          "line": "*CHI:\tthe ducks was [* m:vsg:a] happy.",
+          "source_word": "was",
+          "reference_word": "was",
+          "reference_utterance": 17,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1276
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 683,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 714,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 762,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 997,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1176,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1276,
+          "text": " [* m:vsg:a]"
+        }
+      ],
+      "source_words": 105,
+      "reference_words": 105,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "4": {
+        "action": "remove",
+        "reason": "Happen has regular past happened; the existing label incorrectly specifies an irregular-past contrast. No substitute label is inferred.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli609_td661_rep02_B1_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli609_td661_rep02_B1_SLI.cha",
+    "reference_sha256": "89f098f9044c948ad8f23a666d9a12f683a9d0f5b7aa500e12a52a108dc2e0fa",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli609_td661_rep02_B1_SLI.cha",
+    "archived_source_sha256": "c9a13eb90c8e2ab6ae0346cd1b40894c98d768cbacdc85d171b92c94ba25303c",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli609_td661_rep02_B1_SLI.cha",
+    "output_sha256": "53bedcc4958d4341661cf6e651597816e84e4703fa234832701d1097966822de",
+    "report": {
+      "source_annotations": 7,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 8,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 569,
+          "line": "*CHI:\tBenny the rabbit and his dog friend , Max , build [* m:03s:a] a big castle on the beach.",
+          "source_word": "build",
+          "reference_word": "build",
+          "reference_utterance": 0,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 762
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 16,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 623,
+          "line": "*CHI:\tMax dump [* m:03s:a] water on it.",
+          "source_word": "dump",
+          "reference_word": "dump",
+          "reference_utterance": 1,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 805
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 22,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 668,
+          "line": "*CHI:\tThe castle go [* m:03s:a] splat!",
+          "source_word": "go",
+          "reference_word": "go",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 839
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 703,
+          "line": "*CHI:\tBenny cry [* m:03s:a].",
+          "source_word": "cry",
+          "reference_word": "cry",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 863
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 745,
+          "line": "*CHI:\the say [* m:03s:a] , Our castle is broken!",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 894
+        },
+        {
+          "index": 5,
+          "code": "[* m:03s:a]",
+          "anchor": 35,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 796,
+          "line": "*CHI:\tMax feel [* m:03s:a] bad +\".",
+          "source_word": "feel",
+          "reference_word": "feel",
+          "reference_utterance": 7,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 946
+        },
+        {
+          "index": 6,
+          "code": "[* m:base:ed]",
+          "anchor": 46,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 863,
+          "line": "*CHI:\tHe and Benny try to fix it , but it hard [* m:base:ed] to make it same.",
+          "source_word": "hard",
+          "review": {
+            "action": "remove",
+            "reason": "Hard is an adjective here; this label incorrectly treats it as an uninflected irregular past verb.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "Hard is an adjective here; this label incorrectly treats it as an uninflected irregular past verb."
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 762,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 805,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 839,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 863,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 894,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 946,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 51,
+      "reference_words": 51,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "6": {
+        "action": "remove",
+        "reason": "Hard is an adjective here; this label incorrectly treats it as an uninflected irregular past verb.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli609_td661_rep07_B2_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli609_td661_rep07_B2_SLI.cha",
+    "reference_sha256": "9c68d21447c7bd0802c2451be99e4f2db46bbb9f2153f50fc831948526bc58b6",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli609_td661_rep07_B2_SLI.cha",
+    "archived_source_sha256": "e63dad5a99878102f4a44281044eecb7888eedd3d14ca4d862a0170beff4960f",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli609_td661_rep07_B2_SLI.cha",
+    "output_sha256": "5bd1f61f93aba4e926d4d69b7069998dc7a177f9c80790b280e7920e9628a93b",
+    "report": {
+      "source_annotations": 5,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:03s:a]",
+          "anchor": 19,
+          "event_intervenes": false,
+          "utterance": 3,
+          "start": 644,
+          "line": "*CHI:\tAnd little boy say [* m:03s:a] +\"/.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 797
+        },
+        {
+          "index": 1,
+          "code": "[* m:03s:a]",
+          "anchor": 84,
+          "event_intervenes": false,
+          "utterance": 17,
+          "start": 1110,
+          "line": "*CHI:\tand doctor say [* m:03s:a] ah-ah.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 17,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1242
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 88,
+          "event_intervenes": false,
+          "utterance": 18,
+          "start": 1143,
+          "line": "*CHI:\tHe give [* m:03s:a] little boy a sticker.",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 18,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1267
+        },
+        {
+          "index": 3,
+          "code": "[* m:03s:a]",
+          "anchor": 97,
+          "event_intervenes": false,
+          "utterance": 20,
+          "start": 1214,
+          "line": "*CHI:\tand little boy say [* m:03s:a] thank you!",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 20,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1334
+        },
+        {
+          "index": 4,
+          "code": "[* m:03s:a]",
+          "anchor": 103,
+          "event_intervenes": false,
+          "utterance": 21,
+          "start": 1262,
+          "line": "*CHI:\tand the doctor say [* m:03s:a] you gotta sit down and rest.",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 21,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1374
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 797,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1242,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1267,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1334,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 1374,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 117,
+      "reference_words": 117,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli613_td620_rep07_B3_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli613_td620_rep07_B3_SLI.cha",
+    "reference_sha256": "fbaa59850c7cc1656135cbe9a8165fdb8a6f4139d41acef53314f0e349cb3d34",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli613_td620_rep07_B3_SLI.cha",
+    "archived_source_sha256": "56fcf10eb56a2e4702409ffc13aa194c59a28fff1e22071b399a021cd3365bbe",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli613_td620_rep07_B3_SLI.cha",
+    "output_sha256": "27c019e4a6c07287ff24eba932539a0dc7df4353dcdbfe840a27c2c9c81f798a",
+    "report": {
+      "source_annotations": 2,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:vsg:a]",
+          "anchor": 22,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 675,
+          "line": "*CHI:\tthe kids (i)s [* m:vsg:a] sad.",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 5,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 873
+        },
+        {
+          "index": 1,
+          "code": "[* m:vsg:a]",
+          "anchor": 63,
+          "event_intervenes": false,
+          "utterance": 14,
+          "start": 980,
+          "line": "*CHI:\tthe kids (i)s [* m:vsg:a] happy.",
+          "source_word": "is",
+          "reference_word": "is",
+          "reference_utterance": 14,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1175
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 873,
+          "text": " [* m:vsg:a]"
+        },
+        {
+          "reference_position": 1175,
+          "text": " [* m:vsg:a]"
+        }
+      ],
+      "source_words": 70,
+      "reference_words": 71,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli673_td606_rep05_B1_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli673_td606_rep05_B1_SLI.cha",
+    "reference_sha256": "79cc6bb61b670212ac8d587f718a4000ffc354e482eb06f3251c7025de2ab403",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli673_td606_rep05_B1_SLI.cha",
+    "archived_source_sha256": "b4b5364699e6d91e975b77b389666373a3e613a96327d8648b260ae9aa236b58",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli673_td606_rep05_B1_SLI.cha",
+    "output_sha256": "38d187f2542cb67fbc651d5a656877e45f1b5253c385697874dc6a6f61fffe52",
+    "report": {
+      "source_annotations": 10,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:0ing]",
+          "anchor": 3,
+          "event_intervenes": false,
+          "utterance": 0,
+          "start": 544,
+          "line": "*CHI:\tRabbit and doggy buildin [* m:0ing] sandcastle.",
+          "source_word": "buildin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 1,
+          "code": "[* m:0ing]",
+          "anchor": 7,
+          "event_intervenes": false,
+          "utterance": 1,
+          "start": 589,
+          "line": "*CHI:\tDog was carryin [* m:0ing] a big bucket.",
+          "source_word": "carryin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 2,
+          "code": "[* m:03s:a]",
+          "anchor": 12,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 630,
+          "line": "*CHI:\tDog throw [* m:03s:a] sand on the castle.",
+          "source_word": "throw",
+          "reference_word": "throw",
+          "reference_utterance": 2,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 803
+        },
+        {
+          "index": 3,
+          "code": "[* m:0ing]",
+          "anchor": 22,
+          "event_intervenes": false,
+          "utterance": 4,
+          "start": 708,
+          "line": "*CHI:\tRabbit's castle was fallin [* m:0ing] down!",
+          "source_word": "fallin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 4,
+          "code": "[* m:0ing]",
+          "anchor": 26,
+          "event_intervenes": false,
+          "utterance": 5,
+          "start": 748,
+          "line": "*CHI:\tRabbit was cryin [* m:0ing].",
+          "source_word": "cryin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 5,
+          "code": "[* m:0ing]",
+          "anchor": 30,
+          "event_intervenes": false,
+          "utterance": 6,
+          "start": 791,
+          "line": "*CHI:\t+\" Doggy , I was buildin [* m:0ing] somethin pretty!",
+          "source_word": "buildin",
+          "review": {
+            "action": "remove",
+            "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix."
+        },
+        {
+          "index": 6,
+          "code": "[* m:base:ed]",
+          "anchor": 38,
+          "event_intervenes": false,
+          "utterance": 8,
+          "start": 859,
+          "line": "*CHI:\tHe give [* m:base:ed] Rabbit a big hug.",
+          "source_word": "give",
+          "reference_word": "give",
+          "reference_utterance": 8,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 989
+        },
+        {
+          "index": 7,
+          "code": "[: sorry]",
+          "anchor": 44,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 910,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der] , I did a boo-boo.",
+          "source_word": "sowwy",
+          "reference_word": "sowwy",
+          "reference_utterance": 9,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1025
+        },
+        {
+          "index": 8,
+          "code": "[* s:r:der]",
+          "anchor": 44,
+          "event_intervenes": false,
+          "utterance": 9,
+          "start": 920,
+          "line": "*CHI:\t+\" I'm sowwy [: sorry] [* s:r:der] , I did a boo-boo.",
+          "source_word": "sowwy",
+          "review": {
+            "action": "remove",
+            "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution."
+        },
+        {
+          "index": 9,
+          "code": "[* m:03s:a]",
+          "anchor": 51,
+          "event_intervenes": false,
+          "utterance": 10,
+          "start": 968,
+          "line": "*CHI:\tRabbit say [* m:03s:a] it's okay , doggy +\".",
+          "source_word": "say",
+          "reference_word": "say",
+          "reference_utterance": 10,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 1063
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 803,
+          "text": " [* m:03s:a]"
+        },
+        {
+          "reference_position": 989,
+          "text": " [* m:base:ed]"
+        },
+        {
+          "reference_position": 1025,
+          "text": " [: sorry]"
+        },
+        {
+          "reference_position": 1063,
+          "text": " [* m:03s:a]"
+        }
+      ],
+      "source_words": 59,
+      "reference_words": 59,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "0": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "1": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "3": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "4": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "5": {
+        "action": "remove",
+        "reason": "The written -in form already realizes progressive morphology; reduced final consonant spelling is not omission of the progressive suffix.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      },
+      "8": {
+        "action": "remove",
+        "reason": "This is a nonword/spelling or sound-form contrast, not a real-word derivational substitution.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/6_year_old/talktag/stage2_sli/pair_sli673_td606_rep09_B3_SLI.cha",
+    "reference": "data/generated/6_year_old/pre_annotation/stage2_sli/pair_sli673_td606_rep09_B3_SLI.cha",
+    "reference_sha256": "b4a223fe7146684fdaa66f440788609bf7946434cbf30725e4a972b86db52620",
+    "archived_source": "data/generated/6_year_old/2_fully-annotated/6_year_old_cha_stage2_sli_reannotated/pair_sli673_td606_rep09_B3_SLI.cha",
+    "archived_source_sha256": "e7e0237542aa0f854408f985f4d6eef6295bccdbf49f838ba6fb15318c0648ea",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/6_year_old/talktag/stage2_sli/pair_sli673_td606_rep09_B3_SLI.cha",
+    "output_sha256": "b4a223fe7146684fdaa66f440788609bf7946434cbf30725e4a972b86db52620",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 105,
+      "reference_words": 105,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli723_td771_rep10_B2_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli723_td771_rep10_B2_TD.cha",
+    "reference_sha256": "26664fd21f38d85ac0e19d4b66c227c8a1b90d775bfbc8d05030d121341785f6",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli723_td771_rep10_B2_TD.cha",
+    "archived_source_sha256": "941a92ad7a256fc7ae01c0080ea814a07ba712f874803e8500a05eeebe0e0222",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli723_td771_rep10_B2_TD.cha",
+    "output_sha256": "26664fd21f38d85ac0e19d4b66c227c8a1b90d775bfbc8d05030d121341785f6",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 82,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1016,
+          "line": "*CHI:\tThe little rabbit felt better and lay [* m:base:ed] down to rest.",
+          "source_word": "lay",
+          "review": {
+            "action": "remove",
+            "reason": "In felt better and lay down, lay is a grammatical past form of intransitive lie.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "In felt better and lay down, lay is a grammatical past form of intransitive lie."
+        }
+      ],
+      "insertions": [],
+      "source_words": 86,
+      "reference_words": 86,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "0": {
+        "action": "remove",
+        "reason": "In felt better and lay down, lay is a grammatical past form of intransitive lie.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli725_td744_rep08_A2_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli725_td744_rep08_A2_TD.cha",
+    "reference_sha256": "820565a871f39e8d100a9b842dd639f9bf921a14f55242b50eb0266a005e3e05",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli725_td744_rep08_A2_TD.cha",
+    "archived_source_sha256": "62be80e6715ac0526af4bf42ecb8e507e38ace66b0be5eacf241d40b8ea01c9a",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli725_td744_rep08_A2_TD.cha",
+    "output_sha256": "0e0f0b738588ba782e9e87e5cbe8254829bf38476a05642af32a2409f715e950",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[!]",
+          "anchor": 29,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 672,
+          "line": "*CHI:\tbear didn't see it , so I shouted bear , look [!] but bear didn't stop.",
+          "source_word": "look",
+          "reference_word": "look",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 880
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 880,
+          "text": " [!]"
+        }
+      ],
+      "source_words": 63,
+      "reference_words": 63,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli727_td709_rep10_B2_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli727_td709_rep10_B2_TD.cha",
+    "reference_sha256": "b929cb5eab3b9d7152ea2dd0438c93caf08d9f1e6cc8ddde5aae779ad5a03d31",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli727_td709_rep10_B2_TD.cha",
+    "archived_source_sha256": "2026727c15f8f17a7d4c7c0d43aaf05152b5096c9d077d771650f91bb50fe1aa",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli727_td709_rep10_B2_TD.cha",
+    "output_sha256": "b929cb5eab3b9d7152ea2dd0438c93caf08d9f1e6cc8ddde5aae779ad5a03d31",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 76,
+      "reference_words": 76,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli731_td722_rep04_B1_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli731_td722_rep04_B1_TD.cha",
+    "reference_sha256": "8271e6f4ba070e06362d1173cadfc6a6ebd45a881110c1cdaa60021ed6dfa4cc",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli731_td722_rep04_B1_TD.cha",
+    "archived_source_sha256": "67d44ae11c8bf8007562a7075ec059fcf882473daef4d287f7c576b79cfc03a2",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli731_td722_rep04_B1_TD.cha",
+    "output_sha256": "8271e6f4ba070e06362d1173cadfc6a6ebd45a881110c1cdaa60021ed6dfa4cc",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 62,
+      "reference_words": 62,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli733_td711_rep08_B1_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli733_td711_rep08_B1_TD.cha",
+    "reference_sha256": "bfe281f81926c8f96283e370b864dcb388968c82e8018a127fc9f74b7fca40c6",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli733_td711_rep08_B1_TD.cha",
+    "archived_source_sha256": "0468a5bcfaf6bce96b2640ce7d3521053a0f4e948fb17b02a537772d7df37c11",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli733_td711_rep08_B1_TD.cha",
+    "output_sha256": "bfe281f81926c8f96283e370b864dcb388968c82e8018a127fc9f74b7fca40c6",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 91,
+      "reference_words": 91,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli739_td759_rep02_B3_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli739_td759_rep02_B3_TD.cha",
+    "reference_sha256": "57fd20ea5677e50a0cc101a0018ed44be71387b6e8f5b3a47f61906ae3843af0",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli739_td759_rep02_B3_TD.cha",
+    "archived_source_sha256": "85be97f834a6580f5175a28b59ff6e212120b8f8b18f1cf0be2ba577a314bf18",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli739_td759_rep02_B3_TD.cha",
+    "output_sha256": "57fd20ea5677e50a0cc101a0018ed44be71387b6e8f5b3a47f61906ae3843af0",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 137,
+      "reference_words": 137,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli739_td759_rep05_A3_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli739_td759_rep05_A3_TD.cha",
+    "reference_sha256": "1aab3b968321061cb83c6ecf9d840f32bf127371ba24cc37a8a1952e905e1be3",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli739_td759_rep05_A3_TD.cha",
+    "archived_source_sha256": "546557856822d1b3e6ea4063537b32edb4d92975070341a410d41f28dd2727d9",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli739_td759_rep05_A3_TD.cha",
+    "output_sha256": "1aab3b968321061cb83c6ecf9d840f32bf127371ba24cc37a8a1952e905e1be3",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 69,
+      "reference_words": 69,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli777_td707_rep07_B1_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli777_td707_rep07_B1_TD.cha",
+    "reference_sha256": "187ea031709ebdd738d66140b28be793873785dd64a7341800c9a4629d7ad6a8",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli777_td707_rep07_B1_TD.cha",
+    "archived_source_sha256": "cc86a3310a858db3ff4156ad30737a0153afab1221cd3de029537121ffd1e25e",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli777_td707_rep07_B1_TD.cha",
+    "output_sha256": "187ea031709ebdd738d66140b28be793873785dd64a7341800c9a4629d7ad6a8",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 94,
+      "reference_words": 94,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli778_td718_rep05_A1_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli778_td718_rep05_A1_TD.cha",
+    "reference_sha256": "cd9915daadce9372a04770f140abfbb1139d4e1262f7c7582182f8020803624d",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli778_td718_rep05_A1_TD.cha",
+    "archived_source_sha256": "ad9a55959e54ea8c61b06c34637629ffc2b326b814b0ee33702b3c5b3d9323d9",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli778_td718_rep05_A1_TD.cha",
+    "output_sha256": "cd9915daadce9372a04770f140abfbb1139d4e1262f7c7582182f8020803624d",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 94,
+      "reference_words": 106,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage1_td/pair_sli778_td718_rep07_B2_TD.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage1_td/pair_sli778_td718_rep07_B2_TD.cha",
+    "reference_sha256": "92b109d85aae9d995b1c0be51838644c781fdeda9fe4f99b4c0d2e55f7a55bd4",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage1_td_reannotated/pair_sli778_td718_rep07_B2_TD.cha",
+    "archived_source_sha256": "6bdcaf30ed9b0c72fcd44c6497325a23a7821802843eb05d10fc654293b8041f",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage1_td/pair_sli778_td718_rep07_B2_TD.cha",
+    "output_sha256": "92b109d85aae9d995b1c0be51838644c781fdeda9fe4f99b4c0d2e55f7a55bd4",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 55,
+      "reference_words": 69,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli723_td771_rep10_B2_SLI.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage2_sli/pair_sli723_td771_rep10_B2_SLI.cha",
+    "reference_sha256": "c15066e728ea74470f1147ae018cd4e5596ef2a883d3bf759924a5dd8457436c",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage2_sli_reannotated/pair_sli723_td771_rep10_B2_SLI.cha",
+    "archived_source_sha256": "44ca612ff114bb270eb721a6b1774edcdd09f5442b170cfcabcd256da5bc23fa",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage2_sli/pair_sli723_td771_rep10_B2_SLI.cha",
+    "output_sha256": "c15066e728ea74470f1147ae018cd4e5596ef2a883d3bf759924a5dd8457436c",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[* m:base:ed]",
+          "anchor": 82,
+          "event_intervenes": false,
+          "utterance": 12,
+          "start": 1020,
+          "line": "*CHI:\tThe little rabbit felt better and lay [* m:base:ed] down.",
+          "source_word": "lay",
+          "review": {
+            "action": "remove",
+            "reason": "In felt better and lay down, lay is a grammatical past form of intransitive lie.",
+            "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+            "review_type": "selective_text_based_adjudication"
+          },
+          "status": "removed",
+          "reason": "In felt better and lay down, lay is a grammatical past form of intransitive lie."
+        }
+      ],
+      "insertions": [],
+      "source_words": 84,
+      "reference_words": 84,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {
+      "0": {
+        "action": "remove",
+        "reason": "In felt better and lay down, lay is a grammatical past form of intransitive lie.",
+        "basis": "https://talkbank.org/0info/manuals/CHAT.html",
+        "review_type": "selective_text_based_adjudication"
+      }
+    }
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli725_td744_rep08_A2_SLI.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage2_sli/pair_sli725_td744_rep08_A2_SLI.cha",
+    "reference_sha256": "f7c2f4050aecfb5474527c478fb44cad67afe7940372570548ad386e6d654a56",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage2_sli_reannotated/pair_sli725_td744_rep08_A2_SLI.cha",
+    "archived_source_sha256": "457e912f900fab06a7880667c7fb7d72a80d2e9fa60debfe2ebdaa3a71dace2c",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage2_sli/pair_sli725_td744_rep08_A2_SLI.cha",
+    "output_sha256": "41bfb936dfb4e6560bf62721529107b89626846dfaa7224aa0a671be427de5bd",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[!]",
+          "anchor": 25,
+          "event_intervenes": false,
+          "utterance": 2,
+          "start": 655,
+          "line": "*CHI:\ti yelled bear , look [!] but bear didn't stop.",
+          "source_word": "look",
+          "reference_word": "look",
+          "reference_utterance": 3,
+          "status": "retained",
+          "reason": "unique_anchor_and_unchanged_adjacent_words",
+          "reference_position": 864
+        }
+      ],
+      "insertions": [
+        {
+          "reference_position": 864,
+          "text": " [!]"
+        }
+      ],
+      "source_words": 64,
+      "reference_words": 64,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli739_td759_rep05_A3_SLI.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage2_sli/pair_sli739_td759_rep05_A3_SLI.cha",
+    "reference_sha256": "91417abaaa8624009a654926954cd05ee8a33dc67bb2fa65363538a2b3dbcf3c",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage2_sli_reannotated/pair_sli739_td759_rep05_A3_SLI.cha",
+    "archived_source_sha256": "575c268fc6ae7e88fd7d57d1a3a8e16167fb94b126051a61f473442df46b4cc0",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage2_sli/pair_sli739_td759_rep05_A3_SLI.cha",
+    "output_sha256": "91417abaaa8624009a654926954cd05ee8a33dc67bb2fa65363538a2b3dbcf3c",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 68,
+      "reference_words": 68,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli774_td714_rep03_A2_SLI.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage2_sli/pair_sli774_td714_rep03_A2_SLI.cha",
+    "reference_sha256": "c9c596d7fd46c334e758025aa00796bff454f9b82da753c5ffcac2ee93950884",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage2_sli_reannotated/pair_sli774_td714_rep03_A2_SLI.cha",
+    "archived_source_sha256": "ee4b434c71f7374419792436e5edf26e39f99d72647f7c5a3fe27bb095558656",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage2_sli/pair_sli774_td714_rep03_A2_SLI.cha",
+    "output_sha256": "c9c596d7fd46c334e758025aa00796bff454f9b82da753c5ffcac2ee93950884",
+    "report": {
+      "source_annotations": 1,
+      "annotations": [
+        {
+          "index": 0,
+          "code": "[/]",
+          "anchor": 32,
+          "event_intervenes": false,
+          "utterance": 7,
+          "start": 736,
+          "line": "*CHI:\t&*EXA : no [/] no.",
+          "source_word": "no",
+          "status": "removed",
+          "reason": "changed_or_ambiguous_word_anchor"
+        }
+      ],
+      "insertions": [],
+      "source_words": 72,
+      "reference_words": 70,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  },
+  {
+    "file": "data/generated/7_year_old/talktag/stage2_sli/pair_sli778_td718_rep09_A3_SLI.cha",
+    "reference": "data/generated/7_year_old/pre_annotation/stage2_sli/pair_sli778_td718_rep09_A3_SLI.cha",
+    "reference_sha256": "73e24cf7aedc5720febd61e836765b8d1aa0c9db858052de9a8fce1f6ddabe5a",
+    "archived_source": "data/generated/7_year_old/2_fully-annotated/7_year_old_cha_stage2_sli_reannotated/pair_sli778_td718_rep09_A3_SLI.cha",
+    "archived_source_sha256": "f4783709b3ac1130a654e13a648c74fc8c11f1e6f03f996bf113e9bed5d41806",
+    "candidate": "outputs/maintenance/annotated_restoration_2026-10-16/candidates/7_year_old/talktag/stage2_sli/pair_sli778_td718_rep09_A3_SLI.cha",
+    "output_sha256": "73e24cf7aedc5720febd61e836765b8d1aa0c9db858052de9a8fce1f6ddabe5a",
+    "report": {
+      "source_annotations": 0,
+      "annotations": [],
+      "insertions": [],
+      "source_words": 82,
+      "reference_words": 82,
+      "reference_supplies_all_speech_and_boundaries": true,
+      "new_error_labels_inferred": false
+    },
+    "manual_decisions": {}
+  }
+]

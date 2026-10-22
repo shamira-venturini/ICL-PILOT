@@ -7,8 +7,8 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from icl_pilot.frozen_roster import build_frozen_roster_manifest
-from icl_pilot.generated_chat import convert_generated_story_csv_to_cha
+from icl_pilot.generation.frozen_roster import build_frozen_roster_manifest
+from icl_pilot.chat.generated_chat import convert_generated_story_csv_to_cha
 from icl_pilot.generation.config import (
     compile_experiment_design, prepare_colab_generation,
     validate_prompt_evaluation_separation,
@@ -17,6 +17,56 @@ from icl_pilot.generation.workflow import build_rotating_generation_schedule
 
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_default_schedule_balances_exemplar_roles_and_complexity() -> None:
+    config, schedule, _evaluation, rosters = compile_experiment_design(
+        ROOT / "configs/generation/experiment.json"
+    )
+    assert config["n_replicates"] == 10
+    assert sum(len(roster) for roster in rosters.values()) == 47
+    assert len(schedule) == 2820
+    allocation = schedule.groupby(
+        ["pair_id", "target_story", "counterbalance_variant_index"]
+    ).size().unstack("counterbalance_variant_index")
+    assert set(allocation.columns) == {1, 2}
+    assert len(allocation) == 47 * 6
+    assert allocation.eq(5).all().all()
+
+    e1_column, e2_column = "prompt_td_story_e1", "prompt_sli_story_e2"
+    for column in (e1_column, e2_column):
+        assert schedule[column].str[0].ne(schedule["target_story"].str[0]).all()
+    assert schedule[e1_column].ne(schedule[e2_column]).all()
+    for _, rows in schedule.groupby(["pair_id", "target_story"]):
+        e1_counts = rows[e1_column].value_counts().sort_index()
+        e2_counts = rows[e2_column].value_counts().sort_index()
+        assert len(e1_counts) == 2
+        assert e1_counts.to_dict() == e2_counts.to_dict()
+        assert e1_counts.eq(5).all()
+    for _, rows in schedule.groupby("pair_id"):
+        for column in (e1_column, e2_column):
+            assert rows[column].value_counts().to_dict() == {
+                story: 10 for story in ("A1", "A2", "A3", "B1", "B2", "B3")
+            }
+            assert rows[column].str[-1].value_counts().to_dict() == {
+                "1": 20, "2": 20, "3": 20
+            }
+
+
+def test_packaged_exemplars_prepare_all_cohorts_and_match_their_qc_hash(tmp_path: Path) -> None:
+    config_path = ROOT / "configs/generation/experiment.json"
+    config = json.loads(config_path.read_text())
+    csv_path = ROOT / config["inputs"]["narratives_csv"]
+    qc = json.loads(csv_path.with_suffix(".parsing_qc.json").read_text())
+    original_csv = csv_path.read_bytes()
+    prepared = prepare_colab_generation(config_path, ROOT, tmp_path / "run", n_replicates=1)
+    assert len(prepared.run_df) == 282
+    assert set(prepared.run_df["cohort"]) == {"4-year-old", "5-year-old", "6-year-old", "7-year-old"}
+    assert prepared.run_df.groupby("pair_id")["target_story"].nunique().eq(6).all()
+    manifest = json.loads(prepared.run_manifest_path.read_text())
+    assert manifest["split_validation"] == "passed"
+    assert manifest["input_sha256"]["narratives"] == qc["output_csv_sha256"]
+    assert csv_path.read_bytes() == original_csv
 
 
 @pytest.fixture
@@ -149,11 +199,41 @@ def test_changed_inputs_cannot_reuse_run_directory(experiment: Path, tmp_path: P
     assert prepared.run_manifest_path.read_bytes() == manifest
 
 
+@pytest.mark.parametrize("setting,value", [
+    ("max_new_tokens_stage1", 641), ("max_new_tokens_stage2", 641),
+    ("temperature", 0.85), ("top_p", 0.92),
+])
+def test_changed_decoding_setting_requires_fresh_run(experiment: Path, tmp_path: Path, setting: str, value) -> None:
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    original_manifest = prepared.run_manifest_path.read_bytes()
+    config = json.loads(experiment.read_text())
+    config["model"][setting] = value
+    experiment.write_text(json.dumps(config))
+    with pytest.raises(ValueError, match="Run inputs changed"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    assert prepared.run_manifest_path.read_bytes() == original_manifest
+
+
 def test_changed_prompt_template_cannot_reuse_run_directory(experiment: Path, tmp_path: Path) -> None:
     prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
     manifest = prepared.run_manifest_path.read_bytes()
     template_path = experiment.parent / "prompts/stage1.json"
-    template_path.write_text(template_path.read_text().replace("You write", "You create"))
+    original_template = template_path.read_text()
+    changed_template = original_template.replace("You produce", "You create")
+    assert changed_template != original_template
+    template_path.write_text(changed_template)
+    with pytest.raises(ValueError, match="Run inputs changed"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    assert prepared.run_manifest_path.read_bytes() == manifest
+
+
+def test_changed_counterbalance_cannot_reuse_run_directory(experiment: Path, tmp_path: Path) -> None:
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    manifest = prepared.run_manifest_path.read_bytes()
+    path = experiment.parent / "cross_story_counterbalancing.csv"
+    table = pd.read_csv(path)
+    table.loc[0, "e2_story"] = "B3"
+    table.to_csv(path, index=False)
     with pytest.raises(ValueError, match="Run inputs changed"):
         prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
     assert prepared.run_manifest_path.read_bytes() == manifest

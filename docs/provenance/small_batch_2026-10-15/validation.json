@@ -1,0 +1,31 @@
+{
+  "original_git_commit": "01cace79",
+  "original_notebook_sha256": "5782f3a6d9d110a3a7d48f04a27e5ca258849dfc96e44143f91db610352737f4",
+  "generation_jobs": 2820,
+  "stage_prompts_compared": 5640,
+  "all_prompts_equal_to_original_git_notebook": true,
+  "actual_historical_stage1_parents_used": true,
+  "tokenization_chat_template_and_decode_calls_unchanged": true,
+  "model_generate_call_unchanged": true,
+  "original_model_seed_temperature_and_sampling_unchanged": true,
+  "top_p": 0.95,
+  "full_input_rows_sha256": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+  "evaluation_manifest_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+  "small_batch_jobs": 12,
+  "small_batch_narratives": 24,
+  "small_batch_pair": "pair_sli444_td410",
+  "small_batch_replicates": [
+    1,
+    2
+  ],
+  "small_batch_stories": [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "focused_tests_passed": 176,
+  "actual_gpu_inference_performed_by_agent": false
+}

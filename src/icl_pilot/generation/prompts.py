@@ -11,12 +11,11 @@ from string import Formatter
 
 STAGES = ("stage1_td", "stage2_sli")
 _STORIES = {"A1", "A2", "A3", "B1", "B2", "B3"}
+_STORY_FIELDS = {"story_units_text", "content_invariants_text", "optional_content_text",
+                 "prompt_constraints_text"}
 _FIELDS = {
-    "stage1_td": {"target_story", "story_title", "replicate_id", "prompt_td_story_e1",
-                  "story_units_text", "content_invariants_text", "optional_content_text",
-                  "prompt_constraints_text", "prompt_td_exemplar_story"},
-    "stage2_sli": {"target_story", "story_title", "prompt_sli_story_e2", "story_units_text",
-                   "content_invariants_text", "prompt_sli_exemplar_story", "stage1_text"},
+    "stage1_td": _STORY_FIELDS | {"prompt_td_exemplar_story"},
+    "stage2_sli": _STORY_FIELDS | {"prompt_sli_exemplar_story", "stage1_text"},
 }
 
 

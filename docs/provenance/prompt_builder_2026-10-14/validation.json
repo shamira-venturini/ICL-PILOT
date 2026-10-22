@@ -1,0 +1,24 @@
+{
+  "generation_jobs": 2820,
+  "stage_prompts_compared": 5640,
+  "all_messages_identical_to_original_notebook": true,
+  "stage2_compared_with_actual_historical_stage1_outputs": true,
+  "run_input_rows_and_evaluation_manifest_unchanged": true,
+  "template_snapshots_match": true,
+  "notebook_code_syntax_valid": true,
+  "prompt_recording_and_export_checked_with_mock_model": true,
+  "protected_research_files_rehashed": 6036,
+  "protected_files_changed": [],
+  "configured_generation_input_unchanged": true,
+  "analysis_sources_unchanged": [
+    "clinical_analyses_reordered.Rmd",
+    "clinical_analyses.Rmd",
+    "clinical_analyses_reordered_purl.R"
+  ],
+  "command_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "cuda_model_loading_or_real_inference_executed": false
+}

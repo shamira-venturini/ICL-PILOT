@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-20",
+  "verified_at_utc": "2026-10-20T09:19:37.613546+00:00",
+  "basis": "Explicit author instruction to adopt the previously proposed reviewer schedule after verified backup",
+  "experiment_id": "enni_staged_4_to_7_counterbalance_v2",
+  "previous_experiment_id": "enni_staged_4_to_7",
+  "previous_configuration_archive": "/Volumes/TranscendBU/ICL-PILOT_af80b106b6dd_20261016T135824Z/StudyFreeze/POST_RESTRUCTURE_2026-10-20/retained_repository.tar.gz",
+  "before_counterbalance_sha256": "73b8509bd7b1cd6f6949d9e44ad253e92f20b2b6497903171b2320bdca85a3c0",
+  "after_counterbalance_sha256": "aef5e518871036b1911778505b4e641f3d5af6986f259cc542a4bc69f8a59fcb",
+  "new_config_sha256": "4066950dc5243903aceda45eebafad795bd274b1aa16497e00541a9f811ffd2f",
+  "approved_table_matched_exactly": true,
+  "changed_assignments": [
+    {
+      "target": "A1",
+      "assignment": 1,
+      "before": [
+        "B1",
+        "B3"
+      ],
+      "after": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "target": "B3",
+      "assignment": 1,
+      "before": [
+        "A1",
+        "A2"
+      ],
+      "after": [
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "target": "B3",
+      "assignment": 2,
+      "before": [
+        "A2",
+        "A1"
+      ],
+      "after": [
+        "A3",
+        "A2"
+      ]
+    }
+  ],
+  "validation": {
+    "cohort_pairs": {
+      "4-year-old": 11,
+      "5-year-old": 12,
+      "6-year-old": 11,
+      "7-year-old": 13
+    },
+    "total_pairs": 47,
+    "target_story_jobs": 2820,
+    "rendered_stage_message_lists": 5640,
+    "jobs_with_changed_exemplar_assignment": 705,
+    "jobs_per_assignment": {
+      "1": 1410,
+      "2": 1410
+    },
+    "each_pair_target_assignment_has_five_replicates": true,
+    "exemplar_story_count_per_position_per_pair": 10,
+    "complexity_level_count_per_position_per_pair": 20,
+    "non_exemplar_schedule_metadata_identical_to_archived_configuration": true,
+    "all_selected_exemplars_and_ages_validated": true,
+    "matched_roster_prompt_evaluation_separation": "passed",
+    "manifest_records_revised_csv_hash": true,
+    "narrative_generation_or_model_inference_performed": false,
+    "focused_regression_tests": {
+      "passed": 73,
+      "warnings": 3,
+      "warnings_basis": "pre-existing numexpr/distutils dependency warnings",
+      "files": [
+        "tests/test_generation_config.py",
+        "tests/test_generation_prompts.py",
+        "tests/test_profiling_retirement.py"
+      ]
+    },
+    "python38_test_syntax": "passed",
+    "notebook_executable_cells_unchanged_by_revision": true
+  },
+  "scope": "Counterbalancing and configuration lineage only; prompts, child pairs, scaffolds, model/decoding settings, seed and round size unchanged. Remaining revised-study decisions are pending."
+}

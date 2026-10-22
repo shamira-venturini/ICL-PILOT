@@ -1,0 +1,43 @@
+{
+  "cohorts": [
+    {
+      "age": 4,
+      "source_csv": "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+      "source_sha256": "db72225277319c00a4741830808840c1f7dd03fb2014d527c54a5f96080f7bc8",
+      "two_stage_jobs": 660,
+      "compared_chat_files": 1320,
+      "narrative_and_segmentation_match": true,
+      "legacy_manifest_fields_match": true
+    },
+    {
+      "age": 5,
+      "source_csv": "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+      "source_sha256": "67be2a0f793b4ed8a7796eec3027b0ecd2979c81957904255149140b36379956",
+      "two_stage_jobs": 720,
+      "compared_chat_files": 1440,
+      "narrative_and_segmentation_match": true,
+      "legacy_manifest_fields_match": true
+    },
+    {
+      "age": 6,
+      "source_csv": "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+      "source_sha256": "3b0e6ec687f1c4612889dccc9e6b219722f09e53c55d84e38e1181ac59445eab",
+      "two_stage_jobs": 660,
+      "compared_chat_files": 1320,
+      "narrative_and_segmentation_match": true,
+      "legacy_manifest_fields_match": true
+    },
+    {
+      "age": 7,
+      "source_csv": "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+      "source_sha256": "b87fe7e6a4ceb3f0d408e7b9fbf98693166938e91abc3f5694cb689350303471",
+      "two_stage_jobs": 780,
+      "compared_chat_files": 1560,
+      "narrative_and_segmentation_match": true,
+      "legacy_manifest_fields_match": true
+    }
+  ],
+  "protected_files_unchanged": 29602,
+  "legacy_converter_sha256": "e44ac9db7afbe381951e82788449ceacf131941970e3752052cf120585dec581",
+  "temporary_exports_removed": true
+}

@@ -1,0 +1,28 @@
+{
+  "generation_jobs": 2820,
+  "matches_all_original_recorded_job_identities": true,
+  "notebook_code_syntax_valid": true,
+  "configuration_and_input_cells_executed": [
+    5,
+    8,
+    9
+  ],
+  "model_loaded_or_inference_run": false,
+  "unchanged_analysis_and_generation_inputs": [
+    "data/annotated/ENNI_batchalign/four_year_old_rotating_story_generations.csv",
+    "data/generated/5_year_old/5_year_old_cha/5_year_old_rotating_story_generations.csv",
+    "data/generated/6_year_old/0_6_year_old_cha/6_year_old_rotating_story_generations.csv",
+    "data/generated/7_year_old/0_7_year_old_cha/7_year_old_rotating_story_generations.csv",
+    "clinical_analyses_reordered.Rmd",
+    "phase2/generated/measures/severity_features_raw_syn.csv",
+    "phase2/ENNI/measures/severity_features_raw_real.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/rotating_eval_manifest.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/heldout_real_pool.csv",
+    "phase2/generated/4_year_old/evaluation/bundle_round_holdout/pairwise_feature_distances.csv"
+  ],
+  "command_exit_codes": [
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "summary": {
+    "paths": 101,
+    "statuses": {
+      "M": 19,
+      "A": 25,
+      "D": 57
+    },
+    "new_or_modified_content_bytes": 660962,
+    "max_blob_bytes": 108390,
+    "excluded": [
+      "data/",
+      "phase2/",
+      "archive/",
+      "outputs/",
+      "results/",
+      "tmp/",
+      "unrelated source additions"
+    ]
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "status": "M",
+      "new_bytes": 518
+    },
+    {
+      "path": "AGENTS.md",
+      "status": "M",
+      "new_bytes": 27372
+    },
+    {
+      "path": "README.md",
+      "status": "M",
+      "new_bytes": 3752
+    },
+    {
+      "path": "clinical_analyses.Rmd",
+      "status": "M",
+      "new_bytes": 92762
+    },
+    {
+      "path": "clinical_analyses_reordered.Rmd",
+      "status": "M",
+      "new_bytes": 108390
+    },
+    {
+      "path": "clinical_analyses_reordered_purl.R",
+      "status": "M",
+      "new_bytes": 86729
+    },
+    {
+      "path": "configs/annotation/talktag.json",
+      "status": "A",
+      "new_bytes": 417
+    },
+    {
+      "path": "configs/generation/README.md",
+      "status": "A",
+      "new_bytes": 7387
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_frozen_roster.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_prompt_rounds.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_bundle_index.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_eval_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_package_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_generation_schedule.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/eight_year_old/eight_year_old_rotating_synthetic_bundle_template.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_frozen_roster.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_prompt_rounds.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_bundle_index.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_eval_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_package_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_generation_schedule.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/five_year_old/five_year_old_rotating_synthetic_bundle_template.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/master_frozen_roster_4_to_7_year_old.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/multi_age_rotating_generation_packages_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_frozen_roster.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_prompt_rounds.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_bundle_index.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_eval_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_package_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_generation_schedule.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/nine_year_old/nine_year_old_rotating_synthetic_bundle_template.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_frozen_roster.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_prompt_rounds.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_bundle_index.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_eval_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_package_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_generation_schedule.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/seven_year_old/seven_year_old_rotating_synthetic_bundle_template.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_frozen_roster.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_prompt_rounds.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_bundle_index.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_eval_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_package_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_generation_schedule.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/colab_generation_package_direct_rotating_multi_age/six_year_old/six_year_old_rotating_synthetic_bundle_template.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/experiment.json",
+      "status": "A",
+      "new_bytes": 2381
+    },
+    {
+      "path": "configs/generation/four_year_old_architecture_pilot_holdout.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/four_year_old_architecture_pilot_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/four_year_old_frozen_roster.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/four_year_old_loocv/loocv_eval_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/four_year_old_loocv/loocv_folds.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/four_year_old_loocv/loocv_prompt_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/four_year_old_loocv/loocv_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/master_frozen_roster_4_to_7_year_old.csv",
+      "status": "A",
+      "new_bytes": 12026
+    },
+    {
+      "path": "configs/generation/prompts/stage1.json",
+      "status": "A",
+      "new_bytes": 1447
+    },
+    {
+      "path": "configs/generation/prompts/stage2.json",
+      "status": "A",
+      "new_bytes": 1495
+    },
+    {
+      "path": "configs/generation/sample_wise_multistep_manifest.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/story_generation_cells.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/story_generation_design_summary.json",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/story_generation_manifest_v2.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/story_generation_overview.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/story_pool_assignment.csv",
+      "status": "D"
+    },
+    {
+      "path": "configs/generation/story_unit_reference.json",
+      "status": "A",
+      "new_bytes": 6822
+    },
+    {
+      "path": "docs/chat_narrative_parsing.md",
+      "status": "A",
+      "new_bytes": 4061
+    },
+    {
+      "path": "docs/colab_generation_package.md",
+      "status": "A",
+      "new_bytes": 6050
+    },
+    {
+      "path": "docs/current_strategy_handoff.md",
+      "status": "A",
+      "new_bytes": 26564
+    },
+    {
+      "path": "docs/generation_prompt_records.md",
+      "status": "A",
+      "new_bytes": 4328
+    },
+    {
+      "path": "docs/post_generation_processing.md",
+      "status": "A",
+      "new_bytes": 4711
+    },
+    {
+      "path": "docs/strategy_transition.md",
+      "status": "D"
+    },
+    {
+      "path": "notebooks/TalkTag.ipynb",
+      "status": "D"
+    },
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "status": "M",
+      "new_bytes": 25300
+    },
+    {
+      "path": "pyproject.toml",
+      "status": "M",
+      "new_bytes": 565
+    },
+    {
+      "path": "requirements.txt",
+      "status": "M",
+      "new_bytes": 122
+    },
+    {
+      "path": "src/icl_pilot/age_adjustment.py",
+      "status": "D"
+    },
+    {
+      "path": "src/icl_pilot/annotation.py",
+      "status": "A",
+      "new_bytes": 11264
+    },
+    {
+      "path": "src/icl_pilot/architecture_pilot_cv.py",
+      "status": "D"
+    },
+    {
+      "path": "src/icl_pilot/cli.py",
+      "status": "M",
+      "new_bytes": 27345
+    },
+    {
+      "path": "src/icl_pilot/frozen_roster.py",
+      "status": "M",
+      "new_bytes": 5369
+    },
+    {
+      "path": "src/icl_pilot/generated_chat.py",
+      "status": "M",
+      "new_bytes": 16576
+    },
+    {
+      "path": "src/icl_pilot/generated_dev_measures.py",
+      "status": "M",
+      "new_bytes": 10074
+    },
+    {
+      "path": "src/icl_pilot/generation/__init__.py",
+      "status": "M",
+      "new_bytes": 1742
+    },
+    {
+      "path": "src/icl_pilot/generation/config.py",
+      "status": "A",
+      "new_bytes": 15868
+    },
+    {
+      "path": "src/icl_pilot/generation/execution.py",
+      "status": "A",
+      "new_bytes": 4067
+    },
+    {
+      "path": "src/icl_pilot/generation/prompt_records.py",
+      "status": "A",
+      "new_bytes": 5459
+    },
+    {
+      "path": "src/icl_pilot/generation/prompts.py",
+      "status": "A",
+      "new_bytes": 5419
+    },
+    {
+      "path": "src/icl_pilot/generation/workflow.py",
+      "status": "M",
+      "new_bytes": 38387
+    },
+    {
+      "path": "src/icl_pilot/manifest.py",
+      "status": "M",
+      "new_bytes": 1995
+    },
+    {
+      "path": "src/icl_pilot/paths.py",
+      "status": "M",
+      "new_bytes": 1541
+    },
+    {
+      "path": "src/icl_pilot/pipeline.py",
+      "status": "A",
+      "new_bytes": 7944
+    },
+    {
+      "path": "src/icl_pilot/severity_bands.py",
+      "status": "D"
+    },
+    {
+      "path": "src/icl_pilot/severity_profile.py",
+      "status": "D"
+    },
+    {
+      "path": "src/icl_pilot/story_generation_design.py",
+      "status": "D"
+    },
+    {
+      "path": "src/icl_pilot/story_unit_semrp.py",
+      "status": "M",
+      "new_bytes": 13125
+    },
+    {
+      "path": "src/icl_pilot/tier_stripper.py",
+      "status": "M",
+      "new_bytes": 6719
+    },
+    {
+      "path": "tests/test_annotation_pipeline.py",
+      "status": "A",
+      "new_bytes": 14791
+    },
+    {
+      "path": "tests/test_generated_chat.py",
+      "status": "A",
+      "new_bytes": 8200
+    },
+    {
+      "path": "tests/test_generation_config.py",
+      "status": "A",
+      "new_bytes": 11717
+    },
+    {
+      "path": "tests/test_generation_prompts.py",
+      "status": "A",
+      "new_bytes": 14126
+    },
+    {
+      "path": "tests/test_profiling_retirement.py",
+      "status": "A",
+      "new_bytes": 5634
+    },
+    {
+      "path": "tests/test_story_unit_chat_parser.py",
+      "status": "A",
+      "new_bytes": 6972
+    },
+    {
+      "path": "tests/test_tier_stripper.py",
+      "status": "A",
+      "new_bytes": 3429
+    }
+  ]
+}

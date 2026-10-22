@@ -1,0 +1,104 @@
+{
+  "generation_jobs": 2820,
+  "assembled_stage_messages_checked": 5640,
+  "neutral_instruction_and_constraint_checks_passed": true,
+  "all_story_content_unchanged": true,
+  "all_non_constraint_run_inputs_unchanged": true,
+  "historical_parents_used_only_for_rendering_checks": true,
+  "exemplar_and_parent_text_preserved": true,
+  "old_run_rows_sha256_after_restoring_only_old_constraints": "6c1eea7885a3259190c053725d710184cca5a67cb3d3f87fa20c78851359ebea",
+  "evaluation_manifest_sha256": "15c47b901ce63331791cd62c29eeeaec8c9039ecc97656b36f11c0f71ecb40a7",
+  "template_sha256": {
+    "stage1_td": "c7d68b6b80f4c152c496ef6d3215230673adafd34b91420d6b92a788e740a013",
+    "stage2_sli": "cb0c3321bbc440841d2ea532631619f2b3edce27a87b3bf04bc131aecf2afeb0"
+  },
+  "historical_parents_with_inherited_style_words_not_removed": [
+    {
+      "cohort": "5-year-old",
+      "bundle_id": "pair_sli567_td510_rep10",
+      "target_story": "B3"
+    },
+    {
+      "cohort": "5-year-old",
+      "bundle_id": "pair_sli568_td544_rep09",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "5-year-old",
+      "bundle_id": "pair_sli527_td515_rep08",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "6-year-old",
+      "bundle_id": "pair_sli607_td634_rep10",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "6-year-old",
+      "bundle_id": "pair_sli680_td671_rep03",
+      "target_story": "A1"
+    },
+    {
+      "cohort": "6-year-old",
+      "bundle_id": "pair_sli680_td671_rep06",
+      "target_story": "B3"
+    },
+    {
+      "cohort": "6-year-old",
+      "bundle_id": "pair_sli679_td677_rep03",
+      "target_story": "B3"
+    },
+    {
+      "cohort": "6-year-old",
+      "bundle_id": "pair_sli678_td651_rep01",
+      "target_story": "A3"
+    },
+    {
+      "cohort": "6-year-old",
+      "bundle_id": "pair_sli678_td651_rep04",
+      "target_story": "A1"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli777_td707_rep05",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli729_td738_rep01",
+      "target_story": "B3"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli774_td714_rep08",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli731_td722_rep01",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli778_td718_rep01",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli778_td718_rep05",
+      "target_story": "A1"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli778_td718_rep07",
+      "target_story": "A2"
+    },
+    {
+      "cohort": "7-year-old",
+      "bundle_id": "pair_sli778_td718_rep07",
+      "target_story": "B2"
+    }
+  ],
+  "focused_tests_passed": 211,
+  "gpu_inference_performed": false
+}
