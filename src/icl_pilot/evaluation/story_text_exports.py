@@ -12,6 +12,8 @@ from typing import Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
 
 import pandas as pd
 
+from .framework_text import TEXT_POLICY, normalize_framework_text
+
 
 DEFAULT_GILLAM_TD_SELECTION_SEED = 20260827
 
@@ -20,6 +22,16 @@ RECORD_COLUMNS: Tuple[str, ...] = (
     "source_dataset",
     "source_csv",
     "source_row_number",
+    "model_key",
+    "model_id",
+    "model_revision",
+    "run_id",
+    "test_only",
+    "stage1_prompt_record_id",
+    "stage2_prompt_record_id",
+    "stage1_text_sha256",
+    "stage2_parent_text_sha256",
+    "raw_story_text_sha256",
     "cohort_year",
     "cohort_label",
     "round_id",
@@ -51,6 +63,7 @@ GILLAM_RECORD_COLUMNS: Tuple[str, ...] = (
     "source_csv",
     "source_row_number",
     "source_child_id",
+    "source_session_id",
     "group",
     "group_label_source",
     "story_id",
@@ -95,43 +108,15 @@ def _text_or_none(value: object) -> Optional[str]:
     return text or None
 
 
-def _group_from_transcript_path(value: object) -> Optional[str]:
-    """Return an explicit ENNI corpus label embedded in a transcript path.
-
-    This is deliberately limited to literal directory names, rather than any
-    linguistic or derived-measure inference.  It is used only where the
-    story-unit table has a missing group label.
-    """
-
-    if pd.isna(value):
-        return None
-    candidates = {
-        part.upper()
-        for part in Path(str(value)).parts
-        if part.upper() in {"TD", "SLI"}
-    }
-    if len(candidates) == 1:
-        return candidates.pop()
-    return None
-
-
 def _clean_chat_child_text(text: str) -> str:
     """Normalize CHAT child utterances for the text-classification input.
 
-    The transformation is intentionally conservative and matches the existing
-    raw-text classification experiment: CHAT annotations are removed, lexical
-    material within retracing parentheses is retained, and the result is
-    lower-cased word text.  Raw CHAT files remain unchanged and are referenced
-    by path and checksum in the derived export.
+    The revised common policy removes notation while preserving grammar,
+    punctuation, case, repetitions and parenthesized partial words. Raw CHAT
+    files remain unchanged and are referenced by path and checksum.
     """
 
-    text = re.sub(r"\[[^\]]*\]", " ", text)
-    text = re.sub(r"&=[A-Za-z_:-]+", " ", text)
-    text = re.sub(r"\bxxx\b", " ", text, flags=re.IGNORECASE)
-    text = re.sub(r"\(([^)]*)\)", r"\1", text)
-    text = text.replace(":", "")
-    text = re.sub(r"[^A-Za-z' ]+", " ", text)
-    return re.sub(r"\s+", " ", text).strip().lower()
+    return normalize_framework_text(text)
 
 
 def _clean_enni_story_text(text: str) -> str:
@@ -139,27 +124,11 @@ def _clean_enni_story_text(text: str) -> str:
 
     This removes transcription notation while retaining the child's lexical
     material, grammatical forms, repetitions, retracings, and punctuation.
-    Parenthesized partial-word restorations are joined to the surrounding word
-    (for example, ``(be)cause`` becomes ``because``), while pause markers and
-    non-speech events are removed.
+    Parenthesized partial words remain literal. No spoken word is restored or
+    corrected; the common analysis-only policy also applies to Gillam/generated text.
     """
 
-    text = re.sub(r"\x15[^\x15]*\x15", " ", text)
-    text = re.sub(r"\[[^\]]*\]", " ", text)
-    text = re.sub(r"&\*[^\s]+", " ", text)
-    text = re.sub(r"&=[A-Za-z_:-]+", " ", text)
-    text = re.sub(r"&[+-][A-Za-z:']+", " ", text)
-    text = text.replace("&~", "")
-    text = re.sub(r"<([^>]*)>", r"\1", text)
-    text = re.sub(r"\((?:\.+)\)", " ", text)
-    text = re.sub(r"\(([^)]*)\)", r"\1", text)
-    text = re.sub(r"\b([A-Za-z']+)@[A-Za-z]+\b", r"\1", text)
-    text = re.sub(r"\b0[A-Za-z']+", " ", text)
-    text = re.sub(r"\b(?:xxx|yyy|www)\b", " ", text, flags=re.IGNORECASE)
-    text = re.sub(r"(?<!\S)\++(?:[\"/.!?]+)?", " ", text)
-    text = re.sub(r"(?<!\S):(?!\S)", " ", text)
-    text = re.sub(r"\s+([,.;?!])", r"\1", text)
-    return re.sub(r"\s+", " ", text).strip()
+    return normalize_framework_text(text)
 
 
 def _extract_chat_child_utterances(raw_text: str) -> List[str]:
@@ -233,6 +202,8 @@ def _extract_chat_child_stories(raw_text: str) -> List[Dict[str, object]]:
 
 
 def _gillam_child_metadata(raw_text: str, transcript: Path, corpus_root: Path) -> Dict[str, object]:
+    from ..chat.enni_metadata import completed_age_months
+
     id_match = re.search(
         r"^@ID:\s*eng\|Gillam\|CHI\|([^|]+)\|([^|]*)\|",
         raw_text,
@@ -245,19 +216,70 @@ def _gillam_child_metadata(raw_text: str, transcript: Path, corpus_root: Path) -
     if age_match is None:
         raise ValueError("Unparseable Gillam age {!r} in {}".format(age_raw, transcript))
     years = int(age_match.group(1))
-    months = int(age_match.group(2) or 0)
+    try:
+        age_months = completed_age_months(age_raw)
+    except ValueError:
+        age_months = None
     relative_parts = transcript.resolve().relative_to(corpus_root.resolve()).parts
     group_candidates = [part.upper() for part in relative_parts if part.upper() in {"TD", "SLI"}]
     if len(set(group_candidates)) != 1:
         raise ValueError("Cannot resolve a literal Gillam group from {}".format(transcript))
+    typed_groups = {
+        value.strip().upper()
+        for line in re.findall(r"^@Types:[ \t]*([^\n]+)", raw_text, flags=re.MULTILINE)
+        for value in line.split(",") if value.strip().upper() in {"TD", "SLI"}
+    }
+    if typed_groups != {group_candidates[0]}:
+        raise ValueError("Gillam @Types clinical group conflicts with its corpus directory: {}".format(transcript))
+    normalized_sex = sex.strip().lower()
+    if normalized_sex not in {"female", "male"}:
+        raise ValueError("Missing or invalid Gillam CHI sex: {}".format(transcript))
+    session_id = transcript.stem
+    child_id = re.sub(r"(?:pre|post)$", "", session_id) if re.fullmatch(r"a-\d+-\d+(?:pre|post)?", session_id) else session_id
+    dates = re.findall(r"^@Date:[ \t]*([^\n]+)", raw_text, flags=re.MULTILINE)
+    births = re.findall(r"^@Comment:[ \t]*DOB\s*=\s*([^\n]+)", raw_text, flags=re.MULTILINE)
+    if len(dates) > 1 or len(births) > 1:
+        raise ValueError("Ambiguous Gillam recording/birth dates: {}".format(transcript))
     return {
-        "source_child_id": transcript.stem,
+        "source_child_id": child_id,
+        "source_session_id": session_id,
+        "recording_date_raw": dates[0].strip() if dates else None,
+        "birth_date_raw": births[0].strip() if births else None,
         "group": group_candidates[0],
         "age_raw": age_raw,
-        "age_months": years * 12 + months,
+        "age_months": age_months,
         "cohort_year": years,
-        "sex": sex.strip().lower(),
+        "sex": normalized_sex,
     }
+
+
+def _select_gillam_sessions(children):
+    """Keep the earliest eligible visit for an explicitly identified child."""
+    from datetime import datetime
+
+    grouped = defaultdict(list)
+    for child in children:
+        grouped[child["source_child_id"]].append(child)
+    selected, repeated = [], []
+    for child_id, sessions in sorted(grouped.items()):
+        if len(sessions) == 1:
+            selected.extend(sessions)
+            continue
+        identities = {(s["group"], s["sex"], s["birth_date_raw"]) for s in sessions}
+        if len(identities) != 1 or sessions[0]["birth_date_raw"] is None:
+            raise ValueError("Conflicting or unverified repeated Gillam child: {}".format(child_id))
+        try:
+            ranked = sorted(sessions, key=lambda s: datetime.strptime(s["recording_date_raw"], "%d-%b-%Y"))
+        except (TypeError, ValueError) as exc:
+            raise ValueError("Repeated Gillam child needs valid recording dates: {}".format(child_id)) from exc
+        if len({s["recording_date_raw"] for s in ranked}) != len(ranked):
+            raise ValueError("Ambiguous same-date Gillam sessions: {}".format(child_id))
+        selected.append(ranked[0])
+        repeated.append({"source_child_id": child_id, "selected_session_id": ranked[0]["source_session_id"],
+                         "excluded_session_ids": [s["source_session_id"] for s in ranked[1:]],
+                         "identity_evidence": "same explicit child ID stem, sex and date of birth",
+                         "rule": "earliest eligible recording date"})
+    return selected, repeated
 
 
 def _generated_records(
@@ -286,11 +308,23 @@ def _generated_records(
     source_csv = _relative_path(source_path, project_root)
     records: List[Dict[str, object]] = []
     for row_index, row in frame.iterrows():
+        parent_value = row.get("stage1_td_story")
+        parent = None if pd.isna(parent_value) or not str(parent_value).strip() else str(parent_value)
+        if parent is not None:
+            observed_hash = hashlib.sha256(parent.encode("utf-8")).hexdigest()
+            for field in ("stage1_text_sha256", "stage2_parent_text_sha256"):
+                recorded_hash = _text_or_none(row.get(field))
+                if recorded_hash is not None and recorded_hash != observed_hash:
+                    raise ValueError("Stage 1 / Stage 2 parent hash mismatch in {} row {}".format(source_path, row_index + 2))
         common = {
             "source": "synthetic",
             "source_dataset": "ICL-PILOT generated ENNI narratives",
             "source_csv": source_csv,
             "source_row_number": int(row_index) + 2,
+            **{field: row.get(field) for field in (
+                "model_key", "model_id", "model_revision", "run_id", "test_only",
+                "stage1_prompt_record_id", "stage2_prompt_record_id",
+                "stage1_text_sha256", "stage2_parent_text_sha256")},
             "cohort_year": cohort_year,
             "cohort_label": row.get("cohort_label", "{}-year-old".format(cohort_year)),
             "round_id": row.get("round_id"),
@@ -307,7 +341,7 @@ def _generated_records(
             "prompt_td_story_e1": row.get("prompt_td_story_e1"),
             "prompt_sli_story_e2": row.get("prompt_sli_story_e2"),
             "transcript_path": pd.NA,
-            "text_normalization": "synthetic_source_text_as_exported",
+            "text_normalization": TEXT_POLICY,
         }
         stage_specs = (
             ("stage1_td", row.get("stage1_group", "TD"), "td_child_id", "stage1_td_story"),
@@ -317,6 +351,11 @@ def _generated_records(
             story_text = _text_or_none(row.get(story_key))
             if story_text is None:
                 continue
+            raw_text = str(row.get(story_key))
+            raw_hash = hashlib.sha256(raw_text.encode("utf-8")).hexdigest()
+            story_text = normalize_framework_text(raw_text)
+            if not story_text:
+                raise ValueError("Generated story has no lexical text after analysis preparation.")
             record = dict(common)
             record.update(
                 {
@@ -325,6 +364,8 @@ def _generated_records(
                     "group_label_source": "generation_csv",
                     "comparison_target_group": group,
                     "source_child_id": row.get(source_child_key),
+                    "age_raw": row.get("td_age" if group == "TD" else "sli_age"),
+                    "raw_story_text_sha256": raw_hash,
                     "story_text": story_text,
                 }
             )
@@ -349,36 +390,31 @@ def _real_records(
         stories_path,
     )
 
-    # Do not alter the source table.  A small number of its rows lack a Group
-    # value even though their transcript path contains the literal ENNI corpus
-    # directory label (for example, /TD/B/523.cha).  Resolve only those blank
-    # cells from that direct source metadata and retain an audit field.
+    # Participant headers are authoritative. The original corpus itself has a
+    # TD/B/523.cha with blank CHI metadata and an ID collision with SLI 523.
+    # Directory names cannot repair it; the verified intake quarantines it.
+    from ..chat.enni_metadata import completed_age_months
+
     stories = stories.copy()
     stories["_source_row_number"] = stories.index + 2
     stories["Group"] = stories["Group"].replace(r"^\s*$", pd.NA, regex=True)
     stories["group_label_source"] = "story_unit_narratives"
     missing_group = stories["Group"].isna()
     if missing_group.any():
-        resolved_groups = stories.loc[missing_group, "transcript_path"].map(
-            _group_from_transcript_path
-        )
-        unresolved_index = resolved_groups.index[resolved_groups.isna()]
-        if len(unresolved_index):
-            unresolved_rows = stories.loc[
-                unresolved_index, ["File_ID", "transcript_path", "story_id"]
-            ].to_dict(orient="records")
-            raise ValueError(
-                "Cannot resolve a missing ENNI Group from transcript-path metadata: {}"
-                .format(unresolved_rows)
-            )
-        stories.loc[resolved_groups.index, "Group"] = resolved_groups
-        stories.loc[resolved_groups.index, "group_label_source"] = "transcript_path"
-
-    children = measures.loc[
-        measures["Age(Month)"].between(minimum_age_months, maximum_age_months),
-        ["File_ID", "Group", "Age(Month)"],
-    ].copy()
-    children = children.drop_duplicates(subset=["File_ID", "Group"])
+        raise ValueError("Missing ENNI CHI group metadata; never infer it from a directory. "
+                         "Use the verified ENNI intake and its quarantine manifest.")
+    header = stories[["File_ID", "Group", "Age_Raw"]].drop_duplicates()
+    if header.duplicated("File_ID").any() or stories.duplicated(["File_ID", "Group", "story_id"]).any():
+        raise ValueError("Duplicate or conflicting ENNI participant/story identity.")
+    if measures.duplicated("File_ID").any():
+        raise ValueError("Duplicate ENNI metadata IDs; reconcile against the verified participant manifest.")
+    children = measures[["File_ID", "Group"]].merge(header, on=["File_ID", "Group"], how="left", validate="one_to_one")
+    if children["Age_Raw"].isna().any():
+        bad = children.loc[children["Age_Raw"].isna(), ["File_ID", "Group"]].to_dict(orient="records")
+        raise ValueError("ENNI metadata has no matching literal CHI header (including possible 523 group collision): {}".format(bad))
+    children["Age(Month)"] = children["Age_Raw"].map(completed_age_months)
+    children = children.loc[(children["Age(Month)"] >= minimum_age_months) &
+                            (children["Age(Month)"] < maximum_age_months)].drop(columns="Age_Raw")
     available_story_children = stories[["File_ID", "Group"]].drop_duplicates()
     missing_story_children = children.merge(
         available_story_children,
@@ -439,7 +475,8 @@ def _real_records(
                 "prompt_td_story_e1": pd.NA,
                 "prompt_sli_story_e2": pd.NA,
                 "transcript_path": row.get("transcript_path"),
-                "text_normalization": "enni_chat_plain_text_v1",
+                "text_normalization": TEXT_POLICY,
+                "raw_story_text_sha256": hashlib.sha256(str(row.get("story_text")).encode("utf-8")).hexdigest(),
                 "story_text": story_text,
             }
         )
@@ -473,6 +510,9 @@ def build_gillam_external_text_records(
     _require_explicit_paths(output_csv=output_csv, transcripts_dir=transcripts_dir)
     root = Path(project_root).expanduser().resolve()
     output_path = (root / output_csv).resolve()
+    summary_path = output_path.with_name("{}_summary.json".format(output_path.stem))
+    if output_path.exists() or summary_path.exists():
+        raise FileExistsError("Gillam export already exists; choose a fresh destination.")
     transcripts_arg = Path(transcripts_dir).expanduser()
     transcripts_path = (
         transcripts_arg.resolve()
@@ -484,22 +524,37 @@ def build_gillam_external_text_records(
 
     children: List[Dict[str, object]] = []
     seen_ids: Dict[str, str] = {}
-    for transcript in sorted(transcripts_path.rglob("*.cha")):
-        raw_text = transcript.read_text(encoding="utf-8", errors="ignore")
+    ignored_empty_markers = []
+    from ..chat.corpus_archives import original_member_paths, original_source_bytes
+    for transcript in original_member_paths(transcripts_path, root, "Gillam"):
+        raw_bytes = original_source_bytes(transcript, root)
+        raw_text = raw_bytes.decode("utf-8-sig")
         metadata = _gillam_child_metadata(raw_text, transcript, transcripts_path)
-        child_id = str(metadata["source_child_id"])
-        if child_id in seen_ids:
+        session_id = str(metadata["source_session_id"])
+        if session_id in seen_ids:
             raise ValueError(
                 "Duplicate Gillam transcript ID {}: {}, {}".format(
-                    child_id, seen_ids[child_id], transcript
+                    session_id, seen_ids[session_id], transcript
                 )
             )
-        seen_ids[child_id] = str(transcript)
+        seen_ids[session_id] = str(transcript)
         if not minimum_year <= int(metadata["cohort_year"]) <= maximum_year:
             continue
+        if metadata["age_months"] is None:
+            raise ValueError("Eligible Gillam child has unknown/invalid age months: {}".format(transcript))
         stories = _extract_chat_child_stories(raw_text)
-        children.append({**metadata, "transcript": transcript, "stories": stories})
+        for story in stories:
+            if not story["utterances"]:
+                ignored_empty_markers.append({"source_child_id": metadata["source_child_id"], "story_id": story["story_id"],
+                                               "line_number": story["story_marker_line_number"]})
+        stories = [story for story in stories if story["utterances"]]
+        sequence = [story["story_id"] for story in stories]
+        if not sequence or len(sequence) != len(set(sequence)) or set(sequence) - set(canonical_stories):
+            raise ValueError("Ambiguous, missing or unexpected Gillam story identity: {}".format(transcript))
+        children.append({**metadata, "transcript": transcript, "stories": stories,
+                         "transcript_sha256": hashlib.sha256(raw_bytes).hexdigest()})
 
+    children, repeated_sessions = _select_gillam_sessions(children)
     sli_children = [child for child in children if child["group"] == "SLI"]
     td_children = [child for child in children if child["group"] == "TD"]
     sli_strata = Counter((child["cohort_year"], child["sex"]) for child in sli_children)
@@ -542,7 +597,17 @@ def build_gillam_external_text_records(
 
     records: List[Dict[str, object]] = []
     metadata_path = transcripts_path / "0metadata.cdc"
-    source_metadata = str(metadata_path.resolve()) if metadata_path.exists() else pd.NA
+    def portable_source_path(path):
+        try:
+            return _relative_path(path, root)
+        except ValueError:
+            return str(path.resolve())
+
+    try:
+        metadata_bytes = original_source_bytes(metadata_path, root)
+    except (FileNotFoundError, KeyError):
+        metadata_bytes = None
+    source_metadata = portable_source_path(metadata_path) if metadata_bytes is not None else None
     for child in sorted(selected_children, key=lambda item: str(item["source_child_id"])):
         transcript = Path(child["transcript"])
         for story in child["stories"]:
@@ -562,8 +627,9 @@ def build_gillam_external_text_records(
                     "source_csv": source_metadata,
                     "source_row_number": int(story["story_marker_line_number"]),
                     "source_child_id": child["source_child_id"],
+                    "source_session_id": child["source_session_id"],
                     "group": child["group"],
-                    "group_label_source": "literal Gillam corpus directory",
+                    "group_label_source": "explicit Gillam @Types verified against corpus directory",
                     "story_id": story_id,
                     "story_title": story_id,
                     "story_slot_order": story_order[story_id],
@@ -571,12 +637,12 @@ def build_gillam_external_text_records(
                     "cohort_year": child["cohort_year"],
                     "cohort_label": "{}-year-old".format(child["cohort_year"]),
                     "sex": child["sex"],
-                    "transcript_path": str(transcript.resolve()),
+                    "transcript_path": portable_source_path(transcript),
                     "transcript_corpus_relative_path": str(transcript.relative_to(transcripts_path)),
-                    "transcript_sha256": _sha256(transcript),
+                    "transcript_sha256": child["transcript_sha256"],
                     "n_child_utterances": len(utterances),
                     "n_child_tokens": len(story_text.split()),
-                    "text_normalization": "gillam_chat_plain_text_v2",
+                    "text_normalization": TEXT_POLICY,
                     "story_text": story_text,
                 }
             )
@@ -598,9 +664,9 @@ def build_gillam_external_text_records(
         "document_unit": "one Gillam @G-bounded story",
         "intended_use": "external test only; never append to ENNI training or generic real-vs-synthetic corpora",
         "source": {
-            "transcript_root": str(transcripts_path),
+            "transcript_root": portable_source_path(transcripts_path),
             "metadata_path": source_metadata,
-            "metadata_sha256": _sha256(metadata_path) if metadata_path.exists() else None,
+            "metadata_sha256": hashlib.sha256(metadata_bytes).hexdigest() if metadata_bytes is not None else None,
         },
         "selection": {
             "minimum_year": minimum_year,
@@ -610,11 +676,15 @@ def build_gillam_external_text_records(
             "td_selection_seed": td_selection_seed,
             "selected_td_child_ids_by_age_sex": selected_td_by_stratum,
             "excluded_noncanonical_td_transcripts": excluded_td,
+            "ignored_empty_story_markers": ignored_empty_markers,
+            "child_session_rule": "one earliest eligible recording per normalized child ID; pre/post suffixes identify sessions",
+            "repeated_child_sessions": repeated_sessions,
+            "sli_story_rule": "retain all available canonical stories; do not invent missing narratives",
         },
         "column_semantics": {
             "source_row_number": "one-based line number of the story's @G marker in the source CHAT transcript"
         },
-        "text_normalization": "gillam_chat_plain_text_v2",
+        "text_normalization": TEXT_POLICY,
         "records_by_group": frame.groupby("group").size().to_dict(),
         "unique_children_by_group": unique_by_group,
         "unique_children_by_age_sex_group": (
@@ -639,8 +709,8 @@ def build_all_story_text_records(
     generation_sources: Optional[Sequence[Tuple[int, str]]] = None,
     real_measures_csv: str | Path | None = None,
     real_stories_csv: str | Path | None = None,
-    minimum_age_months: float = 49.9,
-    maximum_age_months: float = 95,
+    minimum_age_months: float = 48,
+    maximum_age_months: float = 96,
 ) -> Mapping[str, Path]:
     """Export all 4--7-year-old generated stories plus matched real ENNI texts.
 
@@ -711,6 +781,7 @@ def build_all_story_text_records(
         "output_csv": _relative_path(output_path, root),
         "minimum_age_months": minimum_age_months,
         "maximum_age_months": maximum_age_months,
+        "age_window": "minimum inclusive; maximum exclusive",
         "generated_sources": source_inventory,
         "real_sources": [
             {"path": _relative_path(measures_path, root), "sha256": _sha256(measures_path)},
@@ -725,8 +796,8 @@ def build_all_story_text_records(
             .to_dict(orient="records")
         ),
         "text_normalization": {
-            "synthetic": "synthetic_source_text_as_exported",
-            "real": "enni_chat_plain_text_v1",
+            "synthetic": TEXT_POLICY,
+            "real": TEXT_POLICY,
             "real_source_csv_preserved": True,
         },
         "records_by_source_group_stage": (
@@ -742,6 +813,8 @@ def build_all_story_text_records(
             .to_dict(orient="records")
         ),
         "total_records": int(len(records)),
+        "generator_inventory": records.loc[records["source"].eq("synthetic"),
+            ["model_key", "model_id", "model_revision", "run_id"]].drop_duplicates().fillna("").to_dict(orient="records"),
         "synthetic_records": generated_count,
         "real_records": int((records["source"] == "real").sum()),
     }
@@ -774,8 +847,8 @@ def main() -> None:
         "--generation-source", action="append", type=_generation_source,
         metavar="AGE=CSV", help="Generation CSV for the intended run; repeat for each cohort. Required for the ENNI export.",
     )
-    parser.add_argument("--minimum-age-months", type=float, default=49.9)
-    parser.add_argument("--maximum-age-months", type=float, default=95)
+    parser.add_argument("--minimum-age-months", type=float, default=48, help="Inclusive lower bound; default 48 months.")
+    parser.add_argument("--maximum-age-months", type=float, default=96, help="Exclusive upper bound; default 96 months.")
     parser.add_argument(
         "--gillam-external-only",
         action="store_true",

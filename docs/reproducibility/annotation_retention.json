@@ -1,0 +1,69 @@
+{
+  "checked_on": "2026-10-30",
+  "original_zip_hashes": {
+    "ENNI": "25e360e43ec5984ccd54e9b4679b5070a5544ff09d98829e9496622c30394dcf",
+    "Gillam": "c54a7308e3041fb5ad49062d4026784d6c81320669b42a4e2564a03ffca1d86e"
+  },
+  "enni_sources_mapped_by_pid_and_checksum": 238,
+  "enni_speech_fingerprints_checked": 238,
+  "enni_zip_backed_study_view_byte_identical_files": 238,
+  "gillam_zip_backed_export_byte_identical": true,
+  "gillam_children": 182,
+  "gillam_stories": 543,
+  "full_annotation_run": false,
+  "schema_version": 1,
+  "policy": "validated-annotation-retention-v1",
+  "config": "configs/annotation/retention.json",
+  "default_notebook_setting": "LEAN_ANNOTATION=True",
+  "retention_checks": {
+    "passed": 18,
+    "coverage": [
+      "complete mixed real/synthetic TalkTag and UD runs",
+      "word/case/repetition/boundary/header tampering",
+      "missing/changed archive preflight",
+      "changed source/raw/final files and failed stage preservation",
+      "interrupted pruning recovery",
+      "relocated receipt verification",
+      "Drive checksum-protected pruning",
+      "exact ZIP member recovery",
+      "partial expansion inventory safety"
+    ]
+  },
+  "native_real_preparation": {
+    "files": 238,
+    "passed": 238,
+    "source_and_prepared_fingerprints": 238,
+    "original_snapshot_files": 0,
+    "chatter": "0.30.0 standard structural/alignment checks"
+  },
+  "regression_check": {
+    "passed": 200,
+    "skipped": 2,
+    "location": "Installed repository, after removal of expanded originals",
+    "skipped_reason": "Opt-in native UD runtime/model checks unavailable; no models downloaded for this pass",
+    "files": [
+      "tests/test_annotation_retention.py",
+      "tests/test_annotation_pipeline.py",
+      "tests/test_annotation_preparation.py",
+      "tests/test_annotation_recovery.py",
+      "tests/test_morphosyntax.py",
+      "tests/test_chat_validation.py",
+      "tests/test_story_text_exports.py",
+      "tests/test_enni_corpus.py",
+      "tests/test_gillam_corpus.py"
+    ]
+  },
+  "corrected_stale_test_expectation": "Existing five-fold all-child protocol: 5 folds and 120 jobs, replacing obsolete 4/96 test expectation; no classifier change",
+  "pending": [
+    "Full real and synthetic TalkTag/UD corpus execution",
+    "Colab execution",
+    "Manual annotation accuracy review"
+  ],
+  "expanded_original_retention": {
+    "status": "complete",
+    "verified_removed_files": 1036,
+    "original_zips_retained": 2,
+    "ENNI_study_inputs_retained": 238,
+    "inventory": "docs/reproducibility/original_archive_retention.json"
+  }
+}

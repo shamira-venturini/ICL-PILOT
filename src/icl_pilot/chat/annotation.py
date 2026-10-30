@@ -9,6 +9,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from . import validation
+
 
 def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -216,7 +218,15 @@ def _check_and_postprocess(out: Path, manifest: dict, raw: Path, annotated: Path
                               if not line.startswith(config["target_speaker"] + ":")]
         if other(before) != other(after):
             issues.append({"file": relative, "issue": "non_target_content_changed"})
-        outputs.append({"relative_path": relative, "sha256": sha256_file(path)})
+        from .preservation import text_fingerprint, require_text_preserved
+        baseline = item.get("text_fingerprint", text_fingerprint(before))
+        try:
+            fingerprint = require_text_preserved(baseline, after)
+        except ValueError as error:
+            issues.append({"file": relative, "issue": "text_fingerprint_changed", "detail": str(error)})
+            fingerprint = text_fingerprint(after)
+        outputs.append({"relative_path": relative, "sha256": sha256_file(path),
+                        "text_fingerprint": fingerprint})
     expected = {item["relative_path"] for item in inventory}
     unexpected = {p.relative_to(raw).as_posix() for p in raw.rglob("*.cha")} - expected
     for path in sorted(unexpected):
@@ -243,7 +253,20 @@ def _raise_qc_issues(manifest: dict, manifest_path: Path) -> None:
     raise RuntimeError(f"Annotation QC needs review ({details}); see {manifest_path}")
 
 
-def postprocess_annotation_run(manifest_path: str | Path, *, output_name: str = "postprocessed") -> Path:
+def _chatter_stage(manifest, name, inputs, output, validator, *, blocking=True):
+    """Retain the diagnostic reference on failure as well as success."""
+    try:
+        report = validation.validate_chat_directories(inputs, output, validator=validator,
+                                                      raise_on_failure=blocking)
+    except validation.ChatterValidationError as error:
+        manifest.setdefault("chatter", {})[name] = validation.validation_reference(error.manifest_path)
+        raise
+    manifest.setdefault("chatter", {})[name] = validation.validation_reference(report)
+    return report
+
+
+def postprocess_annotation_run(manifest_path: str | Path, *, output_name: str = "postprocessed",
+                              validator: dict | None = None) -> Path:
     """Postprocess/recheck retained outputs without inference or rewriting a prior manifest."""
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", output_name):
         raise ValueError("Use a simple new output_name")
@@ -272,9 +295,17 @@ def postprocess_annotation_run(manifest_path: str | Path, *, output_name: str = 
     with reviewed_manifest.open("x", encoding="utf-8") as handle:
         handle.write(json.dumps(reviewed, indent=2) + "\n")
     try:
+        selected_validator = validator or validation.ensure_chatter()
+        reviewed["chatter_tool"] = selected_validator
+        _chatter_stage(reviewed, "snapshot_recheck", {"input": out / "input_snapshot"},
+                       out / "validation" / (output_name + "_before"), selected_validator)
+        _chatter_stage(reviewed, "raw_output_recheck", {"raw": raw},
+                       out / "validation" / (output_name + "_raw"), selected_validator, blocking=False)
         reviewed.update(_check_and_postprocess(out, manifest, raw, destination))
         if reviewed["qc_issues"]:
             _raise_qc_issues(reviewed, reviewed_manifest)
+        _chatter_stage(reviewed, "after", {"annotated": destination},
+                       out / "validation" / (output_name + "_after"), selected_validator)
         reviewed["status"] = "partial_debug" if manifest["config"]["limit"] else "annotation_complete"
     except BaseException:
         reviewed["status"] = "failed_or_interrupted; outputs retained for review"
@@ -285,10 +316,18 @@ def postprocess_annotation_run(manifest_path: str | Path, *, output_name: str = 
 
 
 def annotate_chat_directory(input_dir: str | Path | dict[str, Path], output_dir: str | Path, *,
-                            config: dict, python: str | Path, runtime: dict | None = None) -> Path:
+                            config: dict, python: str | Path, runtime: dict | None = None,
+                            validator: dict | None = None, preparation_reference: dict | None = None) -> Path:
     """Annotate one directory or labelled directories in a single model process."""
     sources = ({label: Path(path).resolve() for label, path in input_dir.items()}
                if isinstance(input_dir, dict) else {"": Path(input_dir).resolve()})
+    preparation = None
+    if preparation_reference is not None:
+        from .annotation_preparation import require_prepared_annotations
+        preparation = require_prepared_annotations(preparation_reference)
+        expected = {label: Path(item["prepared"]).resolve() for label, item in preparation["collections"].items()}
+        if sources != expected:
+            raise ValueError("TalkTag inputs do not match the checked shared preparation")
     out = Path(output_dir).resolve()
     for label, source in sources.items():
         if label and not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", label):
@@ -309,6 +348,8 @@ def annotate_chat_directory(input_dir: str | Path | dict[str, Path], output_dir:
         raise ValueError("No CHAT files found in the selected annotation inputs")
     if len({path for relative, path in files}) != len(files):
         raise ValueError("Annotation source directories overlap")
+    if len({relative for relative, path in files}) != len(files):
+        raise ValueError("Annotation input labels create colliding snapshot paths")
     snapshots = {}
     for relative, path in files:
         text = _unfold_target(path.read_text(encoding="utf-8-sig"), config["target_speaker"])
@@ -322,13 +363,15 @@ def annotate_chat_directory(input_dir: str | Path | dict[str, Path], output_dir:
     out.mkdir(parents=True, exist_ok=False)
     inputs, raw, annotated = out / "input_snapshot", out / "raw_talktag", out / "annotated"
     inventory = []
+    from .preservation import text_fingerprint
     for relative, (path, text, count, digest) in snapshots.items():
         copied = inputs / relative
         copied.parent.mkdir(parents=True, exist_ok=True)
         copied.write_text(text, encoding="utf-8")
         inventory.append({"source_path": str(path), "relative_path": relative.as_posix(),
                           "source_sha256": digest, "snapshot_sha256": sha256_file(copied),
-                          "target_utterances": count})
+                          "target_utterances": count,
+                          "text_fingerprint": text_fingerprint(text)})
     command = [str(python), "-m", "talk_tag.cli", "annotate", "--input-dir", str(inputs),
                "--output-dir", str(raw), "--target-speaker", config["target_speaker"],
                "--device", config["device"], "--granularity", config["granularity"],
@@ -341,21 +384,37 @@ def annotate_chat_directory(input_dir: str | Path | dict[str, Path], output_dir:
                 "runtime": runtime, "command": command, "inputs": inventory,
                 "raw_output_directory": raw.name, "annotated_output_directory": annotated.name,
                 "wrapper_sha256": sha256_file(Path(__file__))}
+    if preparation is not None:
+        manifest["input_preparation"] = preparation_reference
+        manifest["collections"] = preparation["collections"]
 
     def save():
         manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
 
     save()
     try:
+        selected_validator = validator or validation.ensure_chatter()
+        manifest["chatter_tool"] = selected_validator
+        _chatter_stage(manifest, "before_sources", {f"source_{index:04d}": path
+                       for index, path in enumerate(sources.values(), 1)},
+                       out / "validation/before_sources", selected_validator)
+        _chatter_stage(manifest, "before_snapshot", {"input": inputs},
+                       out / "validation/before_snapshot", selected_validator)
+        save()
         print(f"TalkTag: {len(inventory)} CHAT files, {sum(item['target_utterances'] for item in inventory)} target utterances")
         with (out / "talktag.log").open("w", encoding="utf-8") as log:
             completed = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, text=True, check=False)
         manifest["exit_code"] = completed.returncode
         if completed.returncode:
             raise RuntimeError(f"TalkTag failed; see {out / 'talktag.log'}")
+        _chatter_stage(manifest, "raw_output", {"raw": raw}, out / "validation/raw_output",
+                       selected_validator, blocking=False)
         manifest.update(_check_and_postprocess(out, manifest, raw, annotated))
         if manifest["qc_issues"]:
             _raise_qc_issues(manifest, manifest_path)
+        _chatter_stage(manifest, "after", {"annotated": annotated}, out / "validation/after", selected_validator)
+        if preparation_reference is not None:
+            require_prepared_annotations(preparation_reference)
         manifest["status"] = "partial_debug" if config["limit"] else "annotation_complete"
         save()
     except BaseException:

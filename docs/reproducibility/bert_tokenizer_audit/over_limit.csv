@@ -1,0 +1,11 @@
+corpus,source_child_id,group,story_id,age_months,cohort_year,prompt_child,representation,text_sha256,original_tokens_including_special,retained_tokens_including_special,removed_content_tokens,removed_content_fraction,would_truncate
+ENNI,725,SLI,B3,94,7,True,generation_prepared,4c74eb6f1642bc0d028ef407170e0a154f90fb1390a432a7eb456c9b7a9df831,604,512,92,0.15282392026578073,True
+ENNI,725,SLI,B3,94,7,True,classifier_prepared,99a03288b3101c291ddd687908a9d8bf3b28cd5b123a7c074a209ce97a922ce7,604,512,92,0.15282392026578073,True
+ENNI,673,SLI,A3,83,6,True,generation_prepared,9b04593f7eb330592e8c8a151355992d8b8843ae657926ff0a56626b3574b6b9,598,512,86,0.14429530201342283,True
+ENNI,421,TD,B3,53,4,False,generation_prepared,e7bf6bea45c7d92ca6560ee69c3aaf1556718e1e635ef5ac271e7a9276c93e5e,540,512,28,0.05204460966542751,True
+ENNI,844,TD,B3,107,8,False,generation_prepared,e122781eedcd4940d08514c6d9388f4210fb2021a64959da8bbcf0440b1d2f43,615,512,103,0.16802610114192496,True
+ENNI,905,TD,B3,113,9,False,generation_prepared,324cc99e3e53da53609dfe48a482719df93479767209fcb651631c3f61caad10,670,512,158,0.23652694610778444,True
+ENNI,905,TD,B3,113,9,False,classifier_prepared,0c5e03dbab76a061465005727d612b4c7b5cb25d10dbb2b1913f344b4fb8a790,632,512,120,0.19047619047619047,True
+ENNI,912,TD,A3,118,9,False,generation_prepared,a24db1559a59f279cc53ad3cd0f794b931d78c27124eed18ba645e5e11f14d86,513,512,1,0.0019569471624266144,True
+ENNI,955,TD,B2,116,9,False,generation_prepared,32e61c73dc5e7c878cad10c34f8ef735e9b67c9e3439b1b523bfcd329f848fa2,558,512,46,0.08273381294964029,True
+ENNI,955,TD,B2,116,9,False,classifier_prepared,91f4f18c59f066622b3ed765f676460242a01ca38cfed28b2dff572b4437c777,538,512,26,0.048507462686567165,True

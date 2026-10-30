@@ -1,11 +1,5 @@
-# Framework evaluation runs
+# Framework outputs
 
-The historical `run_20260827T153330Z/` bundle was frozen externally and removed
-locally. Its 180 original files, manifests, predictions, diagnostics, feature
-caches and posthoc results are recoverable from the complete study snapshot.
-See the [archive index](../../docs/provenance/study_freeze_2026-10-16.md).
+The evaluation notebook creates a fresh run directory here after both explicit inputs validate. Store per-generator corpus metrics, shared split/count audits, fixed-budget classifier plans, predictions, child aggregation and conditional paired intervals.
 
-`notebooks/synthtexteval_demo.ipynb` uses explicit input settings in
-`configs/evaluation/inputs.json`. Both paths are pending. Once supplied, a fresh
-result directory is created here; an existing run name cannot be reused.
-The revised scientific protocol is pending review.
+Keep the real-only baseline and update-matched control shared across generators. Optional checkpoint inclusion is configured explicitly for exports. Existing runs and partial fits are preserved rather than silently overwritten.

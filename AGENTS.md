@@ -1,487 +1,133 @@
-# AGENTS.md
-
-This repository is the accumulated working memory and implementation surface for the ICL-PILOT research program. Work here should compound the project’s evidence without blurring the distinction between a plausible synthetic narrative, a faithful model of developmental language, and a clinically useful augmentation sample.
-
-## Mission
-
-Build, evaluate, and document a reproducible pipeline for generating synthetic ENNI-style child narratives with large language models, with particular attention to Developmental Language Disorder (DLD).
-
-The project asks whether in-context learning can reduce the scarcity of naturalistic clinical language data while preserving the developmental, morphosyntactic, lexical, and distributional properties of real child language. Its practical endpoint is whether synthetic data improve models evaluated on held-out real children.
-
-The project is not:
-
-- a generic child-story generator;
-- a replacement for clinical assessment;
-- evidence that an LLM has acquired DLD;
-- permission to infer diagnoses from generated or corpus-derived language measures;
-- a generic model-editing or mechanistic-interpretability project.
-
-Frame work as a research peer. Prioritize source fidelity, developmental and clinical precision, leakage control, reproducibility, and careful separation between what the data show and what the project can responsibly claim.
-
-## Canonical research questions
-
-Use these as the current paper-facing questions unless the user explicitly revises them:
-
-1. **Generation fidelity:** Can in-context learning generate age-appropriate ENNI narratives that plausibly represent typically developing (TD) and DLD/SLI language while retaining natural variability?
-2. **Architecture:** Does the staged story-scaffold -> TD -> DLD pipeline produce more faithful clinical language than direct generation, and does Stage 2 introduce appropriate DLD-like changes without distorting story content or caricaturing impairment?
-3. **Phenotype preservation:** Do synthetic narratives preserve real TD-DLD differences, developmental trajectories, severity heterogeneity, feature distributions, and the covariance or latent structure of the natural population?
-4. **Linguistic mechanism:** Which structural, lexical, disruption, and morphosyntactic features explain synthetic fidelity or non-conformity? In particular, can generation reproduce missing obligatory morphology, pronoun patterns, and past-tense behavior at natural rates?
-5. **Downstream utility:** Does adding synthetic data improve TD-vs-DLD classification on held-out real children, and how do augmentation ratio, filtering, and feature selection affect that result?
-6. **Design feasibility:** With the available clinical corpus, how much age, severity, profile, and story stratification can be supported while retaining a valid held-out evaluation pool?
-
-Fidelity and utility are separate questions. A synthetic sample can appear close to real data in one feature space without improving a classifier. Conversely, a classifier result alone does not establish ecological or clinical fidelity.
-
-## Stable design decisions
-
-Preserve these decisions unless the user explicitly changes the design:
-
-- The primary augmentation unit is one ENNI target story.
-- Severity/profile modelling is archived exploratory work. It did not
-  condition active generation or enter the current RStudio models. Do not
-  present it as an active paper method or require archived profile tables
-  for age-only pairing. Preserve legacy labels in existing artifacts as provenance.
-- Do not impose a full `age x severity x profile` prompt grid by default. The SLI corpus is too sparse at that resolution after evaluation data are reserved.
-- Keep age matching central.
-- Keep cross-story counterbalancing central: when the target comes from ENNI set A, prompt exemplars come from set B, and vice versa.
-- Keep the two-stage generation logic:
-  1. realize the target story as an age-appropriate TD-like narrative;
-  2. transform that baseline into a DLD/SLI-like narrative.
-- Use a project-internal canonical story-content representation derived from the official ENNI picture sequence as the stable content scaffold.
-- Do not invent an “official adult ENNI story.” ENNI supplies picture sequences and administration materials, not a normative adult verbal retell.
-- Separate prompt children from evaluation children within every evaluation round.
-- Prefer a stratified rotating held-out or cross-validated prompt/evaluation design over a single permanent split.
-- A child held out in a round contributes none of that child’s stories to prompts in that round.
-- Across rounds, a child may change role, but never within the same round.
-
-The primary generation unit and the evaluation unit need not be identical. Story-level samples may be assembled into six-story synthetic child bundles for bundle-level analyses, but this aggregation does not redefine the main augmentation unit or make repeated synthetic bundles independent children.
-
-## Terminology
-
-- Use **DLD** for the contemporary clinical construct when discussing the research target.
-- Preserve **SLI** when it is the literal corpus label, directory name, variable value, or historical study terminology.
-- When necessary, write “SLI-labelled corpus data used as the DLD reference population” rather than silently relabelling records.
-- Use **TD** for typically developing controls.
-- Treat generated outputs as **DLD-like** or **SLI-conditioned**, not as children with a diagnosis.
-- Treat severity bands as corpus-internal strata, not validated clinical subtypes.
-
-## Source-of-truth hierarchy
-
-The previous study was frozen externally on 16 October 2026 at the author's
-request. `docs/provenance/study_freeze_2026-10-16.md` identifies the complete
-snapshot and earlier archives. Historical data/results, Phase 2, older R variants
-and rendered reports have been retired locally. Reusable code and generation
-assets remain for software checks. The author adopted symmetric story
-counterbalancing and requested an official Llama checkpoint on 20 October 2026;
-the active generator is pinned Meta Llama 3.1 8B Instruct. On 21 October, the author
-adopted 640 new tokens per stage for all cohorts, based on the checked maximum
-of 568 among real stories at ages four through seven. Prompt wording and other
-sampling settings are unchanged by that ceiling update. The author subsequently
-selected temperature 0.8 and top-p 0.9 for both stages and all cohorts, after
-checking previous research. Top-k remains inherited pending an explicit decision.
-The author then removed narrator-age and clinical-status cues from model-facing
-instructions and inserted scaffold constraints. Age matching and literal corpus
-groups remain in selection/provenance; canonical story content, exemplars and
-Stage 1 parent text remain literal. Do not restore child-like/adult-style or
-clinical narration instructions without the author's decision.
-The author subsequently removed story-length requests from both stages, including
-short-narrative wording and clause-shortening/detail-omission guidance. Retain
-the 640-new-token operational ceiling without adding a verbal length target.
-The author then adopted the supplied reviewed generation/rewriting pair. Both
-stages share the system message, all four story-information fields and complete
-instruction list, including exemplar-based wording, sentence construction, style
-and level-of-detail guidance. Stage 2 additionally receives its exact Stage 1
-parent to rewrite with its own selected exemplar. Keep additional constraints
-content-only and ENNI/task labels, story/exemplar IDs, titles and replicate IDs
-outside message templates; preserve identities in validation and logs.
-Model comparisons must
-fit one Colab GPU. `docs/current_strategy_handoff.md`, `docs/guides/model_selection.md`
-and `configs/generation/` record the correction and distinguish proposed
-comparisons from configured conditions. Other revised-study decisions remain
-pending. Treat earlier design decisions and findings as the preserved baseline
-until the author explicitly settles the revision. Do not silently restore old
-data defaults or claim that baseline settings implement the revised study.
-
-When documents conflict, use this order:
-
-1. Explicit instructions from the user in the current task.
-2. `docs/current_strategy_handoff.md` for current agreed generation, profiling, and evaluation decisions.
-3. `configs/generation/experiment.json`, `cross_story_counterbalancing.csv`,
-   `configs/generation/master_frozen_roster_4_to_7_year_old.csv`, and
-   `configs/generation/story_unit_reference.json` (project-authored scaffolds),
-   and the frozen message templates under `configs/generation/prompts/`.
-   This single master fixes all recorded child pairs; cohort snapshots and
-   schedules are generated automatically within each run.
-4. Current implementation under `src/icl_pilot/` and the metadata attached to generated artifacts.
-5. Focused current design notes under `docs/`. The older
-   `docs/background/generation_and_evaluation_process.tex` is an explicitly historical
-   profiling proposal, not the active paper Methods.
-6. `notebooks/clinical_analyses_reordered.Rmd` for the retained integrated analysis,
-   with revised inputs pending and statistical specifications awaiting review.
-7. `docs/background/data-augmentation_project-report.pdf` for the original pilot framing and historical results.
-8. Older draft plans and archived phase-1 material.
-
-Do not assume that a table copied from the PDF report is an operational manifest. Some report-era IDs and mappings were later found to be invalid or unavailable. Use the checked manifests and frozen rosters for executable work.
-
-When the repository and documentation disagree, do not silently choose whichever is convenient. Report the discrepancy, identify the likely authoritative source, and preserve traceability.
-
-## Repository map
-
-- `src/icl_pilot/`: reusable Python package, grouped into `generation/`, `chat/`,
-  `features/`, `evaluation/` and `maintenance/`. `src/README.md` maps the modules
-  and distinguishes current workflow steps from historical diagnostics/repairs.
-  Stage coordination, configuration paths/manifests and the CLI remain at the
-  package root. Raw feature builders are `features/raw_features.py` and
-  `features/generated_raw_features.py`; their scientific definitions and legacy
-  function/output names are preserved.
-- `configs/generation/`: shared portable experiment settings, counterbalancing
-  rules and frozen child rosters. `configs/generation/inputs/` contains the frozen
-  ENNI exemplar CSV and parsing-QC sidecar. The notebook defaults `DATA_ROOT` to
-  the checkout in both Colab and Jupyter. Derived schedules/split bookkeeping
-  belong in each new generation run directory.
-- `data/`: source materials, normalized inputs, annotated CHAT transcripts, ENNI picture materials, and prompt-ready data.
-- `phase2/`: externally frozen historical reference data, measurements and
-  evaluation artifacts; no longer present locally. The archive manifest retains
-  all original paths, hashes, child IDs, groups and annotation provenance.
-- `docs/`: the documentation index and current strategy handoff.
-- `docs/guides/`: maintained workflow instructions and the supporting roster note.
-- `docs/background/`: the original project report and earlier/exploratory design notes.
-- `docs/provenance/`: selected historical cleanup/audit reports and the verified
-  external archive location; embedded paths describe the original audit state.
-- `tools/chatter/`: the local verified CHAT validator and its source/hash record.
-  The platform-specific executable is ignored by Git.
-- `notebooks/`: generation notebooks and exploratory execution surfaces.
-- `notebooks/colab_direct_generation_pipeline.ipynb` is the maintained combined
-  generation/CHAT/TalkTag interface. Its modes can start from saved CSVs or CHAT
-  files; evaluation remains in `notebooks/synthtexteval_demo.ipynb` and the active
-  R Markdown. TalkTag adds error tags, not CLAN measurements or clinical validation.
-- `configs/annotation/talktag.json` fixes the source revision and options for
-  new portable annotation runs. It is not proof of the historical installed
-  version. Original inputs are preserved; annotation operates on working copies.
-- `notebooks/clinical_analyses_reordered.Rmd`: retained integrated R analysis;
-  statistical code awaits review for the revised protocol. Figures use dated
-  directories under `results/linguistic_evaluation/`.
-- `configs/analysis/inputs.R`: shared R input signpost for the revised study.
-  All five paths are pending; the maintained R entry point stops before
-  data loading until explicitly configured. Do not restore automatic Phase 2
-  input or historical-roster defaults. Statistical code awaits protocol review.
-- `configs/evaluation/inputs.json`: two pending framework input paths. The
-  notebook stops before creating results until both explicit inputs exist.
-- `results/`: fresh dated result directories. Historical result payloads and
-  outputs were externally frozen and removed locally.
-- `results/framework_based_evaluation/`: fresh dated framework runs; existing
-  names are refused. The August 2026 bundle is in the external study freeze.
-- `archive/phase1_prompting/`: historical prompting experiments. Preserve for provenance; do not treat as the active pipeline.
-
-Do not write new generated data or analysis artifacts at the repository root. Use the existing age-, phase-, and purpose-specific directories.
-
-## Data boundaries and provenance
-
-- Never edit raw corpus data, official ENNI materials, or source CHAT transcripts in place.
-- Keep processed data reproducible from code, manifests, and explicit commands.
-- Preserve child IDs, story IDs, source groups, ages, round IDs, pair IDs, replicate IDs, and stage metadata.
-- Never fabricate missing ages, clinical labels, source stories, error annotations, or prompt exemplars.
-- Never move a child between TD and SLI/DLD based on derived measures.
-- Do not use generated samples as if they were independent human participants.
-- Preserve prompt ancestry. A Stage 2 sample must remain traceable to its Stage 1 parent and prompt pair.
-- Preserve the distinction between official ENNI content, project-authored canonical story outlines, human transcripts, and model-generated text.
-- Treat `.cha`, `.cex`, `.xls`, `.xlsx`, `.csv`, `.json`, and model output files as research artifacts, not disposable build products.
-- Large mechanical changes to annotations or tiers require before/after inventories and explicit QC summaries.
-
-## CHAT, CLAN, and annotation rules
-
-- CHAT is the canonical transcript format for linguistic processing.
-- CLAN/KIDEVAL, DSS, MLT, IPSyn-related outputs, morphological tiers, grammatical-relation tiers, and manual error codes have distinct meanings. Do not collapse them into a single generic “language score.”
-- Preserve `%mor`, `%gra`, `%err`, and other dependent tiers unless a documented normalization or repair step explicitly targets them.
-- Do not globally regenerate `%mor` or `%gra` without checking known repaired cases and downstream compatibility.
-- Do not interpret absence of an error code as proof that an error was absent unless annotation coverage is known to be complete.
-- Apply the same annotation and feature-extraction pipeline to real and synthetic data whenever making source comparisons.
-- Record tool versions, command options, and any exclusions that can alter derived measures.
-
-## Linguistic feature conventions and historical profiling
-
-Current linguistic analyses use structural, lexical, disruption, and
-morphosyntactic measures. Raw `severity_features_raw_*` tables and their
-builders remain active despite the legacy names. The derived severity/profile
-analysis and its dedicated builders were externally backed up and retired
-locally on 14 October 2026. Preserve the following feature definitions.
-
-### Core grouped error features
-
-- `bare_marking_errors`
-- `pronoun_errors`
-- `past_overgeneralization_errors`
-
-Do not restore `determiner_errors` to the core profile without a new sparsity and validity review. Do not replace the narrow past-overgeneralization feature with the older broad `rule_generalization_errors` category without documenting the scientific reason.
-
-### Normalization
-
-Use per-utterance rates for general disruption or error burden:
-
-- `Word_Errors_per_utt`
-- `retracing_per_utt`
-- `repetition_per_utt`
-
-Use the current burden or opportunity-based normalizations for grouped morphology:
-
-- `bare_marking_errors_per_word`
-- `pronoun_errors_per_word`
-- `past_overgeneralization_errors_per_past_opp`
-
-The current past-opportunity denominator is:
-
-```text
-overt past finite lexical verbs from %umor
-+ explicit bare-past error tokens (m:0ed, m:base:ed)
-```
-
-Therefore:
-
-```text
-past_overgeneralization_errors_per_past_opp
-= past_overgeneralization_errors
-  / (overt past finite verbs + explicit bare-past error tokens)
-```
-
-Do not substitute all words or all verbs as the denominator without treating that as a new analysis decision.
-
-DSS category totals remain developmental scores; do not convert them to rates merely for scale uniformity.
-
-### Historical age adjustment and severity
-
-The following describes the archived exploratory analysis, not an active
-generation or RStudio evaluation step.
-
-- Fit developmental expectations using the TD group only.
-- Compare each child with the TD expectation for that age.
-- Scale deviations using the TD residual variability defined by the active pipeline.
-- Orient retained features so higher adjusted values indicate greater severity.
-- Keep the distinction between overall severity and profile shape.
-- Treat low/moderate/high SLI severity bands as within-corpus tertiles unless a different, validated specification is explicitly introduced.
-
-Earlier exploratory profiling identified bare marking or missing required
-morphology as its strongest severity signal, with contributions from lower
-MLU, DSS, IPSyn, and lexical diversity. Past overgeneralization behaved more
-like a developmental/profile feature. Pronoun problems were not exclusive to SLI.
-
-These are empirical project findings, not universal diagnostic rules.
-
-## Evaluation framework
-
-Evaluation should address at least four distinct layers.
-
-### 1. Content fidelity
-
-Ask whether a generated narrative realizes the intended ENNI event structure without copying a human transcript.
-
-- Use canonical story units or picture-derived content representations.
-- Treat story-unit SemR-p and semantic similarity as supplementary until validated against manual macrostructure judgments.
-- Do not allow content similarity alone to stand in for clinical fidelity.
-
-### 2. Linguistic and developmental fidelity
-
-Compare real and synthetic data on pre-specified, interpretable measures such as:
-
-- MLU in morphemes and words;
-- DSS;
-- IPSyn or syntax-derived measures;
-- VOCD-D or other lexical-diversity measures;
-- bare-marking, pronoun, and past-overgeneralization rates;
-- agreement, auxiliary, determiner, subordination, complex-NP, subject-realization, and dependency-depth measures when justified;
-- disfluency and general error burden.
-
-Evaluate more than marginal means. Where the sample supports it, assess:
-
-- distributional distance;
-- variance and tail coverage;
-- TD-SLI group separation;
-- age trajectories;
-- covariance and correlation preservation;
-- PCA or latent-domain geometry;
-- source-pair concentration;
-- Stage 2 minus Stage 1 operator effects.
-
-Anomaly detection is a secondary plausibility or QC layer, not the headline clinical result.
-
-### 3. Detectability and synthetic artifacts
-
-Test whether real and synthetic narratives are distinguishable under properly held-out evaluation. High detectability can reveal source artifacts even when selected clinical measures overlap.
-
-Keep detectability separate from TD-vs-SLI classification. They answer different questions.
-
-### 4. Downstream augmentation utility
-
-The confirmatory endpoint is performance on held-out real children.
-
-- Compare against a real-only baseline.
-- Use real-only validation/test folds for primary claims.
-- Fit feature selection inside each training fold.
-- Sweep augmentation ratios without using the held-out test fold for selection.
-- Report AUC and balanced accuracy together; include sensitivity, specificity, and uncertainty when available.
-- Include synthetic-only performance as a diagnostic, not as evidence of clinical utility.
-- Treat overlap-filtered or anomaly-filtered augmentation as a separate analysis.
-- Do not describe a tiny AUC increase as useful when balanced accuracy, confidence intervals, or paired-fold contrasts do not support the claim.
-
-## Statistical rules
-
-- State the unit of analysis for every model: story, transcript, bundle, child, prompt pair, or fold.
-- Do not treat repeated generations from one prompt pair as independent children.
-- Use `cluster_id`, pair-level aggregation, random effects, or another justified dependence correction for replicated synthetic outputs.
-- Include age when cohorts span meaningful developmental ranges.
-- Account for evaluation round or `round_batch` when fold-stacked data reuse real children across rounds.
-- Test source (`real` vs `synthetic`), clinical group (`TD` vs `SLI`), and their interaction when asking whether synthetic-real shifts differ by group.
-- Distinguish confirmatory pre-specified measures from exploratory feature sweeps.
-- Report effect estimates and uncertainty, not p-values alone.
-- Preserve zero denominators and missingness explicitly. Do not silently turn undefined rates into zero.
-- Keep real-reference standardization fold-local when it could otherwise leak evaluation information.
-- If a model is singular, unstable, separation-prone, or sensitive to scaling choices, report that limitation rather than selecting a favorable specification silently.
-
-## Archived evidence state
-
-Treat the following as provisional project findings that must remain traceable to current result files and analysis code:
-
-These findings describe the externally frozen previous study. They are not
-results of the revised experiment, which has not yet been designed or run.
-
-- Some synthetic cases overlap local regions of the real clinical feature space, but overlap is limited and concentrated in a subset of source pairs.
-- Synthetic data can preserve some clinical signal while shifting marginal distributions and distorting feature relationships.
-- Current analyses indicate substantial synthetic-real mismatch in core syntactic and lexical measures and weak preservation of SLI latent/correlation structure.
-- Feature selection has contributed more to classifier performance than synthetic augmentation in the analyses run so far.
-- Current augmentation sweeps show little or no practical improvement over strong real-only classification baselines.
-- Filtering to the most plausible-looking synthetic cases has not yet produced a reliable augmentation gain.
-
-Do not hard-code these as permanent conclusions. Re-check them when data, generation models, annotation, features, folds, or analysis specifications change. Preserve negative results: they constrain the next generation design.
-
-## Research-gap taxonomy
-
-Use these labels when recording limitations or open questions:
-
-1. **Generation-to-clinic gap** — generated text exhibits selected DLD-like markers but has not been shown to represent the natural clinical population.
-2. **Fidelity-to-utility gap** — synthetic samples look plausible under one or more fidelity tests but do not improve held-out real-data performance.
-3. **Distributional-structure gap** — marginal measures overlap while covariance, latent geometry, variability, or profile relationships remain distorted.
-4. **Developmental-validity gap** — age matching or age trajectories are inadequate, unstable, or unsupported across cohorts.
-5. **Prompt-evaluation leakage gap** — prompt children, source stories, feature fitting, filtering, or model selection contaminate evaluation.
-6. **Task-anchoring gap** — a verbal scaffold, exemplar, or retelling setup constrains outputs in ways that differ from picture-elicited ENNI narration.
-7. **Measurement-and-annotation gap** — automated tiers, error codes, derived measures, or denominators do not capture the intended linguistic construct consistently.
-8. **Corpus-support gap** — the available SLI/DLD data are too sparse for the proposed age, story, severity, and profile stratification.
-9. **Model-to-child gap** — similar surface behavior does not imply a shared developmental process or impairment mechanism.
-
-## Source and claim fidelity
-
-- Never invent citations, quotes, sample sizes, model settings, diagnoses, results, or conclusions.
-- When evidence is incomplete, mark the claim as provisional or needing verification.
-- State the evidence basis: full PDF, source transcript, manifest, generated output, R analysis, result table, presentation summary, or secondary note.
-- Preserve exact formulas, thresholds, feature definitions, and denominators from their source. If unreadable or ambiguous, mark them for verification rather than reconstructing them from memory.
-- Keep authors’ interpretations separate from project interpretations and both separate from new hypotheses.
-- Do not turn a project-internal QC threshold into a universal clinical cutoff.
-- Do not collapse disagreement between analyses into false consensus. Record why results differ: unit, cohort, feature set, fold, stage, annotation version, or model specification.
-- When drafting paper text, make sample sizes, age ranges, source corpora, model versions, prompt architecture, evaluation unit, and leakage controls explicit.
-- New speculative explanations must be labelled as hypotheses and accompanied by the evidence that would confirm or refute them.
-
-## Coding and repository behavior
-
-- Inspect `git status` before edits. This worktree may contain substantial human-authored changes and moved generated artifacts.
-- Preserve unrelated modifications and untracked research outputs.
-- Never use destructive Git commands to simplify a dirty worktree.
-- Prefer reusable code under `src/icl_pilot/` over one-off root scripts.
-- Use `apply_patch` for hand-edited source changes.
-- Keep manifests and configs versioned and human-inspectable.
-- Do not silently rewrite frozen rosters, counterbalancing rules, child IDs, or evaluation folds.
-- Add targeted tests or reproducible validation checks when changing parsing, pairing, tier handling, feature construction, denominators, bundle assembly, or evaluation logic.
-- Keep paper-facing tables and figures traceable to machine-readable result files and the code that generated them.
-- Avoid committing large rendered or regenerated artifacts unless they are intentional project outputs.
-- Do not edit generated HTML as the source of an analysis. Edit the `.Rmd` and regenerate deliberately.
-- Keep Python support compatible with the version declared in `pyproject.toml` unless the project explicitly raises the minimum.
-
-## Routine commands
-
-Run package commands from the repository root with `src` on `PYTHONPATH`:
-
-```bash
-PYTHONPATH=src python -m icl_pilot validate-layout
-PYTHONPATH=src python -m icl_pilot show-layout
-PYTHONPATH=src python -m icl_pilot show-counterbalance
-PYTHONPATH=src python -m icl_pilot show-manifest --limit 5
-```
-
-Useful lightweight validation after Python edits:
-
-```bash
-python -m compileall -q src
-```
-
-The CLI contains focused builders for DSS and raw linguistic features,
-error-code features, grouped errors, past-verb features, age-only frozen
-rosters, generated-data evaluation, story packets, and story-unit SemR-p.
-Profiling, age-adjusted severity, clinical-grid design, and the legacy
-profile-matched architecture planner are retired. Inspect
-`PYTHONPATH=src python -m icl_pilot --help` before running a mutating builder.
-
-Do not run broad regeneration commands merely to test an import. Many commands write research artifacts and may overwrite or supersede derived outputs.
-
-## Session workflow
-
-At the start of a task:
-
-1. Inspect `git status` and preserve the user’s existing changes.
-2. Read `docs/current_strategy_handoff.md` for project decisions relevant to the task.
-3. Identify the exact cohort, stage, story unit, prompt/evaluation round, and source files in scope.
-4. Inspect the checked manifest or artifact metadata rather than inferring lineage from filenames alone.
-
-During work:
-
-1. Keep scientific assumptions explicit.
-2. Make small, reviewable changes.
-3. Validate at the level appropriate to the risk.
-4. Record reusable design decisions in the relevant Markdown or TeX handoff document.
-5. Preserve negative and contradictory results.
-
-At the end of a task:
-
-1. Summarize what changed and what was verified.
-2. Name the files that are now sources of truth.
-3. Report tests or checks run and any checks that could not be run.
-4. Flag stale documentation, data lineage uncertainty, leakage risks, or unresolved contradictions.
-
-## What to flag immediately
-
-Report these conditions instead of silently normalizing them away:
-
-- prompt/evaluation child overlap within a round;
-- the same story or child used in a way that violates counterbalancing;
-- invalid, missing, duplicated, or inconsistently formatted child IDs;
-- age mismatches or cohort labels inconsistent with age in months;
-- Stage 2 outputs with missing or ambiguous Stage 1 parents;
-- synthetic replicates treated as independent human participants;
-- SLI corpus labels silently rewritten as verified DLD diagnoses;
-- fabricated adult story scripts presented as official ENNI material;
-- manual or automated annotation versions mixed without provenance;
-- real and synthetic features built with different pipelines;
-- changed rate denominators or severity direction without documentation;
-- severity tertiles described as clinical categories;
-- missing fold-local fitting for feature selection, scaling, filtering, or thresholding;
-- optimization on held-out real test children;
-- claims of augmentation benefit supported only by a negligible metric increase;
-- documentation that conflicts with operational manifests or current code;
-- a request that would overwrite raw data, frozen manifests, or human-authored conclusions.
-
-## Persistent project memory
-
-The original February 2026 project report established the data-scarcity motivation, the first prompting comparison, conformal-anomaly evaluation, and the sample-wise multi-step proposal. Its early pilot focused on ages four and five.
-
-The active repository now contains generated and evaluated cohorts spanning ages four through seven. Always state the actual cohort used by an analysis; do not generalize a four-year-old or four-to-five-year-old result to the full age range.
-
-The current working architecture remains age-matched, cross-story, and staged
-from a canonical story scaffold to TD-like text and then DLD/SLI-like text.
-Earlier profiling explored feasibility; it is now archived and does not
-determine prompt selection or the current R analyses.
-
-The current evaluation program combines:
-
-- held-out real-vs-synthetic linguistic comparisons;
-- age- and group-aware mixed-effects models;
-- distributional and latent-structure audits;
-- content, semantic, perplexity, and detectability diagnostics;
-- paired Stage 2 minus Stage 1 operator-validity analyses;
-- downstream TD-vs-SLI classification with real-only held-out evaluation.
-
-The most important unresolved issue is not whether the generated data contain any clinical signal. It is whether they preserve the natural developmental phenotype well enough to provide reproducible value beyond strong real-only baselines.
+# ICL-PILOT working instructions
+
+## Scope and authority
+
+This repository contains one definitive ENNI study. Superseded datasets, rosters, draft reports and comparison logs belong on the external archive, not in the active repository or paper. The recovery location is recorded in docs/reproducibility/external_archive.json. Never restore an archived variant as a study default.
+
+Instruction order:
+1. The human user's current directions.
+2. docs/current_strategy_handoff.md.
+3. The model, prompt, scaffold, roster and input files named by configs/generation/experiment.json.
+4. Current implementation and run manifests.
+5. Workflow guides and current source/validation records.
+
+Preserve unrelated working-tree edits. Inspect git status before changes. Do not stage, commit, push or rewrite Git history unless requested.
+
+## Scientific purpose
+
+Assess generation fidelity, developmental and clinical pattern preservation, and classification utility separately. A plausible story does not establish a clinical phenotype; classifier accuracy does not establish linguistic fidelity.
+
+The staged procedure is one practical method, not a demonstrated improvement over direct generation. Stage 1–Stage 2 differences combine rewriting and exemplar conditioning. Additional direct-DLD and TD-to-TD generation experiments are outside the current scope.
+
+Use DLD for the research construct, SLI for literal corpus labels, and TD for controls. Generated outputs are TD-conditioned or SLI-conditioned narratives, not diagnosed children. Do not infer clinical labels from linguistic measures, directory names or model behavior.
+
+## Definitive data and design
+
+- Raw source: data/raw/enni/2026-10-28/ENNI.zip and its unmodified members.
+- Participant authority: configs/generation/inputs/enni_participants_2026-10-28.csv.
+- Prepared text: configs/generation/inputs/story_unit_narratives_enni_2026-10-28.csv and its parsing QC.
+- Roster: configs/generation/master_frozen_roster_enni_2026-10-28.csv.
+- Annotation inputs: data/inputs/enni_verified_2026-10-28/chat_4_to_7/.
+
+The ZIP contains 361 CHAT files. Complete age/group metadata and unique usable IDs yield 360 participant records. TD/B/523.cha lacks CHI age/group and is excluded; fully specified SLI 523 is included and independently identified in the original demographics table. The study window is 48 <= completed months < 96: 238 children, 190 TD and 48 SLI.
+
+Age cohorts use completed CHAT years/months; retain raw days and never round into a new age year. Days/30 is used only for fine within-cohort matching. Sex follows the original demographic table, with literal Sex_CHI retained. Working-copy sex-header adjustments are recorded; raw files remain unchanged.
+
+All 48 study-age SLI children are paired once with unique TD children by within-cohort Hungarian age matching. Cohort pair counts are 11/13/11/13, yielding 18 batches of at most three pairs. Six stories and ten replicates produce 2,880 stories per stage per model, 480 bundles per stage per model, and 17,280 stories across three models. Six-story bundles and stochastic repetitions are not independent human participants.
+
+## Generation protocol
+
+Use the three exact checkpoints/revisions in configs/generation/models.json. Qwen thinking is disabled. Apply native chat templates, fold the shared system sentence into the user message for every model, and use each model's own Stage 1 parent for Stage 2.
+
+Keep temperature 0.8, top-p 0.9, top-k 0 and a 640-new-token ceiling for both stages. Initialize Python, NumPy and PyTorch CPU/CUDA once per fresh model run with seed 42 before model loading. Replicate IDs are identifiers, not seeds. Resume only from verified completed-call checkpoints after model reload and RNG-state restoration.
+
+Prompts contain the full selected exemplar and canonical story scaffold without narrator-age or clinical-status labels, prescribed error patterns or verbal length targets. Preserve cross-story counterbalancing: opposite story sets, two reversed assignments per target, five uses per assignment at ten replicates. No vision condition is included.
+
+Log checkpoint identity, native template options, effective decoding settings, token counts, finish reasons, prompts, outputs and exact parent hashes. Do not invent missing provenance or imply GPU/model validation from local fixtures.
+
+Generation QC is review-only. Use configs/generation/review.json and the notebook
+review block for possible cutoffs, unchanged Stage 2, prompt leakage and word or
+phrase loops. Retain every story and complete bundle; flags and downloaded notes
+must not change generation, conversion, annotation, classifier sampling or domain
+analysis eligibility. Stopping information comes from verified prompt journals;
+mark missing information unknown. Review thresholds are heuristics, not clinical
+norms. Review-only saved-CSV mode loads no models. Keep full paired text, reasons,
+source hashes and provenance in the report; any future exclusions require a
+separate explicit decision about analysis units and coverage.
+
+## Text, CHAT and annotations
+
+Never edit raw corpus files or original generated text in place. Do not repair grammar, infer unknown speech or reconstruct parenthesized word fragments. Extraction removes annotation comments, pauses, unintelligibility markers and non-speech codes; it preserves grammatical forms and repetitions.
+
+For generated prose: whole narrative -> pinned Batchalign boundaries -> CHAT -> shared annotation preparation and Chatter -> TalkTag -> preservation QC and Chatter -> Batchalign 3 English UD -> preservation QC and Chatter -> compatible measurement. Do not resegment after annotation. Real ENNI boundaries are retained. Structural validity and word preservation do not establish linguistic boundary or tag accuracy; manual boundary review remains pending.
+
+Use configs/annotation/preparation.json for the same deletion-only preparation
+of real and synthetic CHAT before fresh TalkTag. Remove all old dependent tiers,
+error judgments, replacement/correction hints and inline annotator comments;
+retain produced words and transcription structure, including bch/trn bookkeeping.
+Never substitute corrected words. In shared preparation, keep original snapshots
+temporarily for synthetic or unspecified collections. Do not duplicate original files for
+collections explicitly marked source_type=real; retain file identities, source
+checksums, available CHAT PIDs and deletion audits instead. Real originals need
+not remain locally available after preparation; verify their checksums whenever
+they are available. Keep one original checksum-pinned ZIP per real corpus for
+recovery, referenced without copying it into each run. With LEAN_ANNOTATION=True,
+the final notebook block verifies the complete shared preparation/TalkTag/UD
+chain and source-to-final text fingerprints before removing verified run-owned
+intermediate CHAT. Keep final annotations, the checksum-anchored retention
+receipt, deletion audits, runtime/manifests and validation diagnostics. Failed,
+incomplete and standalone UD runs retain working files. After compaction use
+verify_retained_annotations, rather than live intermediate-stage checks; historical
+manifests stay immutable. Drive may remove only explicitly recorded intermediate
+files with matching checksums. Never remove external inputs, original ZIPs or
+generation CSVs/journals through annotation retention. Expanded downloaded
+originals may be removed only after all members match their retained ZIPs;
+ZIP-backed readers and exact-member recovery must remain usable.
+Keep explicit collection provenance. Select real ENNI once alongside all
+generator collections in from_chat; prepare_only performs just cleaning and
+Chatter. Use standard Chatter structural/alignment checks for real and synthetic
+CHAT. Optional strict cross-utterance quotation/completion linker checks are
+outside the study outcomes and are not enabled. Preserve original markers and
+boundaries rather than repairing their relationships. UD-only on already annotated CHAT
+preserves inline codes and intentionally does not repeat the fresh-cleaning pass.
+
+Use configs/annotation/batchalign.json for fresh UD tagging of both real and
+synthetic CHAT. Preserve words, codes, headers and main-tier boundaries. Replace
+old morphology only in derived copies, retaining snapshots and replacement
+counts. Canonical new UD tiers are %mor/%gra for all speakers, with CHI coverage
+recorded separately. Do not leave stale %umor/%ugra as preferred feature inputs.
+Traditional MOR/MEGRASP and IPSyn are not run by this annotation notebook; R
+analyses remain separate. Full corpus execution and manual review remain pending.
+
+Use the pinned validation, segmentation and TalkTag settings. Require complete fresh validation results. Retain failures for review rather than silently skipping files, suppressing errors or replacing words. Annotation works on copies and preserves headers, words, boundaries and existing tiers except explicitly documented preparation.
+
+## Linguistic features
+
+Retain interpretable structural, lexical, disruption, syntax and morphosyntactic measures. Table names containing severity denote raw features, not a severity/profile model.
+
+- General error burden, retracing and repetition use per-utterance rates.
+- Bare-marking and pronoun errors use per-word rates.
+- Past-overgeneralization opportunities are overt past finite lexical verbs from UD morphology plus explicit bare-past tokens m:0ed and m:base:ed. New annotation uses canonical %mor; older %umor inputs require explicit lineage mapping when fresh feature tables are built.
+- Zero opportunities remain missing, not zero rates.
+- DSS category totals retain their developmental-score meaning.
+- Do not replace narrow past-overgeneralization with a broader error category.
+
+The R notebook's feature inputs and reviewer-requested statistical revisions are pending. Do not report its unexecuted code as results. Domain inference must address unique-child reference observations, repeated synthetic ancestry, generator differences and paired stages. Changing those specifications requires explicit implementation and validation.
+
+## Framework evaluation
+
+Use configs/evaluation/protocol.json and the framework_* modules. Keep generators separate and real splits shared. All eligible real children enter age-stratified classifier folds independent of generation batches. Prompt-pair members remain in one fold; unmatched TD children are individual groups. Use one fold for test, the next for real validation and the others for training. Only synthetic descendants whose two prompt ancestors are both in training are eligible for that fit.
+
+Bootstrap complete synthetic story bundles with replacement within age and clinical group to match each real training fold's counts at the requested synthetic:real ratio. Keep unweighted loss: the target is the observed real training distribution, not 50:50 or population prevalence. Synthetic selections are common across generators and nested across ratio levels. Log sampled rows and unique narratives/bundles/ancestors separately. Preserve the complete original paired-stage data for linguistic analyses.
+
+BERT uses story inputs, fixed update budgets and three classifier seeds; child predictions average story probabilities. Gillam's verified 182-child external sample remains unchanged. Maintain the shared real-only baseline and update-matched controls. Confidence intervals resample ENNI prompt pairs jointly and unmatched TD children individually in separate age/unit-type strata, retaining repeated predictions. Gillam uncertainty resamples children within age/group. This conditional uncertainty bootstrap is distinct from synthetic training resampling.
+
+Corpus metrics are descriptive. Use common text preparation, shared-real TF-IDF, all-cross-document whitespace Jaccard, pinned GPT-2 perplexity and Gaussian mean/covariance Fréchet distance in pinned MiniLM embeddings. IG, MAUVE, exploratory topic modeling and privacy analysis are not included.
+
+## Repository workflow
+
+Use reusable source modules and explicit paths. Keep generated outputs out of the root. Preserve raw/source hashes, child/story identities, ages, model/run/pair/round/replicate IDs and parent ancestry. Fail on missing, conflicting or duplicated identities.
+
+Use apply_patch for hand-edited source. Add meaningful checks for parsing, pairing, split separation, normalization and annotation preservation. Maintain Python compatibility declared by pyproject.toml. Test the changed paths; do not run expensive scientific jobs merely to check imports.
+
+Update current documentation after implementation. Keep reproducibility records factual and limited to this study. External backups require archive/member checksum verification before local removal. Report what was changed, checked and still pending; never fabricate empirical findings or claim that stale outputs were corrected by metadata changes alone.

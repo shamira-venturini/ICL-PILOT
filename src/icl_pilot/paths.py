@@ -7,7 +7,6 @@ ROOT = Path(__file__).resolve().parents[2]
 CONFIGS_DIR = ROOT / "configs"
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT / "docs"
-LEGACY_DIR = ROOT / "archive"
 
 RAW_DIR = DATA_DIR / "raw"
 INTERIM_DIR = DATA_DIR / "interim"
@@ -19,7 +18,7 @@ STORY_PACKET_DIR = PROCESSED_DIR / "story_packets"
 
 COUNTERBALANCE_CSV = CONFIGS_DIR / "generation" / "cross_story_counterbalancing.csv"
 GENERATION_CONFIG_JSON = CONFIGS_DIR / "generation" / "experiment.json"
-FROZEN_ROSTER_CSV = CONFIGS_DIR / "generation" / "master_frozen_roster_4_to_7_year_old.csv"
+FROZEN_ROSTER_CSV = CONFIGS_DIR / "generation" / "master_frozen_roster_enni_2026-10-28.csv"
 STORY_REFERENCE_JSON = CONFIGS_DIR / "generation" / "story_unit_reference.json"
 
 

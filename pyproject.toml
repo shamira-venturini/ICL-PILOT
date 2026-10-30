@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "icl-pilot"
 version = "0.1.0"
-description = "Scaffold for the sample-wise multi-step DLD augmentation pipeline."
+description = "ENNI staged narrative generation and evaluation study."
 requires-python = ">=3.8"
 dependencies = [
     "accelerate",

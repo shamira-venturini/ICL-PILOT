@@ -1,0 +1,217 @@
+{
+  "source_csv": "configs/generation/inputs/story_unit_narratives_enni_2026-10-28.csv",
+  "source_sha256": "4f1d3afc439b36f5e7e7e743ad6cd5dbd4a00242ac9207da3dd4e3b2c8c7544d",
+  "roster_sha256": "b3add45a9918d9a29b8a811b2b4e4fb43d131e2b47be0af6dbb6825b3736b5d7",
+  "tokenizer_sha256": {
+    "gemma2_9b": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922",
+    "llama3_1_8b": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "qwen3_8b": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  "output_ceiling_checked": 640,
+  "special_tokens_added": false,
+  "padding_or_truncation": false,
+  "ceilings_changed": false,
+  "model_weights_loaded": false,
+  "generation_performed": false,
+  "gemma_independent_full_token_id_agreements": 2160,
+  "summary": [
+    {
+      "tokenizer": "gemma2_9b",
+      "representation": "prepared_text",
+      "scope": "all_saved",
+      "stories": 2160,
+      "counted": 2160,
+      "unusable": 0,
+      "median_tokens": 106.0,
+      "p95_nearest_rank": 259,
+      "max_tokens": 650,
+      "ceiling_minus_max": -10,
+      "above_ceiling": 1,
+      "at_or_above_ceiling": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "gemma2_9b",
+      "representation": "prepared_text",
+      "scope": "ages_4_to_7",
+      "stories": 1428,
+      "counted": 1428,
+      "unusable": 0,
+      "median_tokens": 100.0,
+      "p95_nearest_rank": 247,
+      "max_tokens": 598,
+      "ceiling_minus_max": 42,
+      "above_ceiling": 0,
+      "at_or_above_ceiling": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "gemma2_9b",
+      "representation": "prepared_text",
+      "scope": "configured_prompt_pool",
+      "stories": 576,
+      "counted": 576,
+      "unusable": 0,
+      "median_tokens": 96.5,
+      "p95_nearest_rank": 239,
+      "max_tokens": 598,
+      "ceiling_minus_max": 42,
+      "above_ceiling": 0,
+      "at_or_above_ceiling": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "llama3_1_8b",
+      "representation": "prepared_text",
+      "scope": "all_saved",
+      "stories": 2160,
+      "counted": 2160,
+      "unusable": 0,
+      "median_tokens": 105.0,
+      "p95_nearest_rank": 257,
+      "max_tokens": 643,
+      "ceiling_minus_max": -3,
+      "above_ceiling": 1,
+      "at_or_above_ceiling": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "llama3_1_8b",
+      "representation": "prepared_text",
+      "scope": "ages_4_to_7",
+      "stories": 1428,
+      "counted": 1428,
+      "unusable": 0,
+      "median_tokens": 100.0,
+      "p95_nearest_rank": 244,
+      "max_tokens": 568,
+      "ceiling_minus_max": 72,
+      "above_ceiling": 0,
+      "at_or_above_ceiling": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "llama3_1_8b",
+      "representation": "prepared_text",
+      "scope": "configured_prompt_pool",
+      "stories": 576,
+      "counted": 576,
+      "unusable": 0,
+      "median_tokens": 96.0,
+      "p95_nearest_rank": 235,
+      "max_tokens": 568,
+      "ceiling_minus_max": 72,
+      "above_ceiling": 0,
+      "at_or_above_ceiling": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "representation": "prepared_text",
+      "scope": "all_saved",
+      "stories": 2160,
+      "counted": 2160,
+      "unusable": 0,
+      "median_tokens": 105.0,
+      "p95_nearest_rank": 257,
+      "max_tokens": 643,
+      "ceiling_minus_max": -3,
+      "above_ceiling": 1,
+      "at_or_above_ceiling": 1,
+      "maxima": [
+        {
+          "File_ID": "905",
+          "Group": "TD",
+          "Age_Raw": "9;05.05",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "representation": "prepared_text",
+      "scope": "ages_4_to_7",
+      "stories": 1428,
+      "counted": 1428,
+      "unusable": 0,
+      "median_tokens": 100.0,
+      "p95_nearest_rank": 244,
+      "max_tokens": 568,
+      "ceiling_minus_max": 72,
+      "above_ceiling": 0,
+      "at_or_above_ceiling": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "story_id": "B3"
+        }
+      ]
+    },
+    {
+      "tokenizer": "qwen3_8b",
+      "representation": "prepared_text",
+      "scope": "configured_prompt_pool",
+      "stories": 576,
+      "counted": 576,
+      "unusable": 0,
+      "median_tokens": 96.0,
+      "p95_nearest_rank": 235,
+      "max_tokens": 568,
+      "ceiling_minus_max": 72,
+      "above_ceiling": 0,
+      "at_or_above_ceiling": 0,
+      "maxima": [
+        {
+          "File_ID": "725",
+          "Group": "SLI",
+          "Age_Raw": "7;10.30",
+          "story_id": "B3"
+        }
+      ]
+    }
+  ]
+}

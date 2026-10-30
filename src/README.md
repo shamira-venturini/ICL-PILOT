@@ -1,66 +1,23 @@
-# Python source map
+# Source map
 
-`icl_pilot` implements the reusable steps called by the generation/annotation
-notebook, terminal commands and data-preparation tools. Run commands from the
-repository root with `PYTHONPATH=src`; experiment inputs remain in `configs/`.
+| Package | Responsibility |
+|---|---|
+| generation | Frozen roster, cross-story schedule, prompts, model adapters, execution, recorded parents and RNG recovery. |
+| chat | Canonical metadata, text preparation, generated segmentation/CHAT, TalkTag and validation/preservation. |
+| features | CLAN table readers and interpretable structural, lexical, disruption and morphosyntactic measures. |
+| evaluation | Text exports, shared real splits, generator-aware classifiers, paired uncertainty and corpus diagnostics. |
+| maintenance | Explicit source intake, tokenizer auditing and optional data-format utilities. |
 
-| Package | Responsibility | Main modules |
-| --- | --- | --- |
-| [`generation/`](icl_pilot/generation/) | Frozen-roster validation, age/cohort checks, cross-story schedules, prompts, two-stage execution and prompt ancestry. | `config`, `frozen_roster`, `workflow`, `prompts`, `execution`, `prompt_records` |
-| [`chat/`](icl_pilot/chat/) | Generated CSV-to-CHAT conversion, TalkTag execution and QC, structural formatting, annotation recovery, story extraction, tier removal and file lists. | `generated_chat`, `annotation`, `chat_structure`, `annotation_recovery`, `story_unit_semrp`, `tier_stripper`, `filelist` |
-| [`features/`](icl_pilot/features/) | CLAN export readers and raw structural, lexical, disruption, error and morphosyntactic feature preparation. | `spreadsheetml_measures`, `generated_dev_measures`, `dss_features`, `raw_features`, `generated_raw_features`, `error_codes`, `error_rate_features`, `grouped_error_features`, `past_verb_features`, `syntax_features`, `feature_redundancy` |
-| [`evaluation/`](icl_pilot/evaluation/) | Framework run directories and text exports, plus retained Python bundle/text diagnostics. | `runs`, `story_text_exports`, `generated_bundle_evaluation`, `generated_text_evaluation`, `bundled_text_perplexity`, `bundled_text_semantic_eval`, `bundle_models` |
-| [`maintenance/`](icl_pilot/maintenance/) | Explicit transcript normalization, historical repairs, generation-ending audits, rebundling and picture-packet preparation. | `alignment_repair`, `bundled_gra_repair`, `generation_endings_audit`, `pause_normalizer`, `quote_normalizer`, `rebundle_synthetic_children`, `talktag_repair`, `tier_promotion`, `story_packet_design` |
+The active entry points are the two Python notebooks and the R analysis source. paths.py names the definitive roster; configs/generation/experiment.json names the authoritative prepared exemplars.
 
-The package root contains `pipeline.py` (notebook stage coordination and exports),
-`paths.py` and `manifest.py` (configuration locations and job inspection), and
-`cli.py`/`__main__.py` (terminal entry points).
+maintenance.enni_corpus imports the official ZIP without changing raw files, checks the original demographic table, excludes incomplete identities, builds the participant/story tables and within-cohort roster, and prepares study-only CHAT copies. It requires Rscript/readxl for the one-time XLS cross-check. Generation itself reads the frozen CSVs.
 
-The current generation notebook imports `generation`, `chat.annotation` and
-`pipeline`; the framework notebook uses `evaluation.runs`. The integrated
-statistical analysis remains in `notebooks/clinical_analyses_reordered.Rmd`. Python
-diagnostics retained under `evaluation/` have their own historical analysis
-scope and do not define the current R models. `bundle_models.py` contains the
-mixed-model and anomaly helpers formerly embedded in generation setup.
+chat.text_cleaning performs deletion-only preparation before narratives are saved. generation.exemplars validates literal text. chat.segmentation predicts whole-narrative boundaries without replacing words; chat.annotation enforces Chatter gates and source preservation. These checks do not establish clinical annotation accuracy.
 
-`features/raw_features.py` and `features/generated_raw_features.py` retain their
-existing builder function names and `severity_features_raw_*` output conventions.
-They prepare active linguistic features; they do not calculate the retired
-severity/profile scores. Formulas and denominators are unchanged.
+generation.randomness and generation.recovery implement run-level seeding and exact completed-call recovery. generation.prompt_records preserves canonical messages, native model-facing templates, output hashes and Stage 2 ancestry.
 
-Maintenance functions act only when explicitly called. Several use the older
-data layout or case-specific repair decisions. Their paths document historical
-inputs and must be checked before reuse. New error annotation goes through
-`chat.annotation`; it does not produce CLAN MOR/GRA tiers. Structural formatting
-and annotation recovery do not establish clinical annotation accuracy.
+The framework_* modules implement the classifier and descriptive protocol in configs/evaluation/protocol.json. Gaussian Fréchet distance uses means and covariances. Dataset identity, generator lineage and common reference samples are validated before fits.
 
-`maintenance.generation_endings_audit` reads explicit raw generation CSVs into a
-fresh audit directory. Optional saved-text re-tokenization gives a proxy count;
-it cannot recover historical output token IDs or stopping reasons. The
-[21 October audit](../docs/provenance/generation_termination_audit_2026-10-21/README.md)
-records its source hashes, methods and interpretation limits. It does not run
-automatically during generation or modify narratives.
+Feature builders retain their public function names, including severity_feature names for raw linguistic tables. They do not calculate a severity/profile model. Statistical specifications remain in the R notebook and require the documented domain-analysis revisions before reporting results.
 
-The CSV-based text exporter requires the intended generation files explicitly:
-
-```bash
-PYTHONPATH=src python -m icl_pilot.evaluation.story_text_exports \
-  --generation-source 4=runs/example/4_year_old_rotating_story_generations.csv \
-  --real-measures-csv data/inputs/example/dev_measures.csv \
-  --real-stories-csv data/inputs/example/story_unit_narratives.csv \
-  --output-csv runs/example/evaluation/story_text_records.csv
-```
-
-Repeat `--generation-source AGE=CSV` for additional cohorts. All input/output
-paths are explicit; the historical age-window/selection methods await review.
-This exporter reads the supplied CSV text, so it does not incorporate
-later CHAT repairs. Existing exports and known metadata limitations are described
-in [`the strategy handoff`](../docs/current_strategy_handoff.md). Nothing is
-regenerated by importing the module or moving its source code.
-
-Imports in maintained notebooks, tests and guides use these package paths.
-The terminal interface remains `python -m icl_pilot`; its 33 available commands
-are preserved. The framework notebook's two inputs are pending in
-`configs/evaluation/inputs.json`. Historical import paths in audit records describe the earlier
-layout. The source-reorganization receipt under `docs/provenance/` records the
-old-to-new module map and verified external snapshot.
+Maintenance utilities operate only when explicitly invoked. They are not an automatic preprocessing sequence. Any transformation must preserve or explicitly audit source words, headers, boundaries, identities and tiers.

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "policy": "batchalign3-word-boundaries-v1",
+  "package": "batchalign",
+  "version": "0.10.7",
+  "source_repository": "https://github.com/TalkBank/batchalign",
+  "source_revision": "c8cd2e0eb36e4cf5a51195f169d8c5bf2d30f029",
+  "inference_source_sha256": "ef145ca88a73bca1e6c40c96f87756a244b742b184e0ccd533b66ea92c980cac",
+  "transformers_version": "4.57.1",
+  "torch_version": "2.10.0",
+  "numpy_version": "2.2.0",
+  "model_id": "talkbank/CHATUtterance-en",
+  "model_revision": "764ec3f762c2e24df2def8df98b5fe34940085c6",
+  "model_files": ["config.json", "pytorch_model.bin", "special_tokens_map.json", "tokenizer.json", "tokenizer_config.json", "vocab.txt"],
+  "device": "cpu",
+  "narratives_per_batch": 32,
+  "terminators": {"2": ".", "3": "?", "4": "!"},
+  "final_fragment_terminator": ".",
+  "provenance": "Whole-narrative English segmentation using Batchalign's typed BERT predictions. Original words/case are retained; no legacy reconstruction, disfluency cleanup, grammar correction or Stanza fallback. Boundary quality needs manual ENNI review."
+}

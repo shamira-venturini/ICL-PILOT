@@ -9,6 +9,9 @@ import re
 import warnings
 from pathlib import Path
 
+from .text_cleaning import TEXT_CLEANING_POLICY, prepare_extracted_story
+from .enni_metadata import read_chi_metadata
+
 
 _FILE_ID_RE = re.compile(r"(\d+)\.cha$")
 _AGE_RE = re.compile(r"^@ID:[ \t]*[^|\n]*\|[^|\n]*\|CHI\|([^|\n]*)\|([^|\n]*)\|([^|\n]*)\|", re.MULTILINE)
@@ -19,7 +22,7 @@ _ANNOTATION_TOKEN_RE = re.compile(r"(?:^|\s)\S*\|\S+")
 _TIMING_RE = re.compile(r"\x15[^\x15]*\x15")
 _ANGLE_RE = re.compile(r"<([^<>]*)>")
 _BRACKET_RE = re.compile(r"\[[^\]]*\]")
-CHAT_STORY_PARSER_VERSION = "chat-story-v2"
+CHAT_STORY_PARSER_VERSION = "chat-story-v3"
 
 
 def _extract_file_id(path: Path) -> str:
@@ -49,26 +52,15 @@ def _parse_age_group(text: str) -> tuple[str, str, str]:
     CHAT ages use years;months.days. Days stay in the raw age field; unknown
     months and malformed ages remain undefined rather than becoming zero.
     """
-    matches = list(_AGE_RE.finditer(text.lstrip("\ufeff")))
-    if not matches:
-        return "", "", ""
-    values = {tuple(value.strip() for value in match.groups()) for match in matches}
-    if len(values) != 1:
-        raise ValueError("Conflicting CHI @ID headers; age/group metadata is ambiguous.")
-    age_raw, _sex, group = values.pop()
-    age_months = ""
-    age = _CHAT_AGE_RE.fullmatch(age_raw)
-    if age:
-        years, months, days = age.groups()
-        if int(months) < 12 and (not days or int(days) <= 31):
-            age_months = str(int(years) * 12 + int(months))
-    return age_raw, age_months, group
+    metadata = read_chi_metadata(text)
+    months = metadata["Age_Month"]
+    return metadata["Age_Raw"], "" if months is None else str(months), metadata["Group"]
 
 
-def _clean_chat_surface(text: str) -> str:
+def _clean_chat_surface(text: str, removals: dict | None = None) -> str:
     text = _TIMING_RE.sub(" ", text)
     text = _ANGLE_RE.sub(r"\1", text)
-    text = _BRACKET_RE.sub(" ", text)
+    text, annotations = _BRACKET_RE.subn(" ", text)
     text = text.replace("\u0015", " ")
     text = text.replace("\t", " ")
     text = re.sub(r"\+\.\.\.", " ", text)
@@ -77,11 +69,16 @@ def _clean_chat_surface(text: str) -> str:
     text = re.sub(r"&[+-][A-Za-z:']+", " ", text)
     text = re.sub(r"\b0[A-Za-z']+", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text
+    cleaned = prepare_extracted_story(text, allow_empty=True)
+    if removals is not None:
+        removals.update(cleaned.removed)
+        removals["annotator_annotations"] += annotations
+    return cleaned.text
 
 
 def _iter_story_utterances(
     text: str, diagnostics: list[dict[str, object]] | None = None,
+    preparation: list[dict] | None = None,
 ) -> dict[str, list[str]]:
     """Read complete CHI main tiers, keeping dependent-tier text separate.
 
@@ -96,11 +93,20 @@ def _iter_story_utterances(
     parts: list[str] = []
     orphan_block = False
     issues: list[dict[str, object]] = []
+    raw_stories, audits = {}, {}
 
     def flush() -> None:
         nonlocal parts
         if current_story and speaker == "CHI" and parts:
-            cleaned = _clean_chat_surface(" ".join(parts))
+            original = " ".join(parts)
+            raw_stories.setdefault(current_story, []).append(original)
+            removals = {}
+            cleaned = _clean_chat_surface(original, removals)
+            audit = audits.setdefault(current_story, {"source_utterances": 0, "dropped_non_speech_utterances": 0,
+                                                      "removed": Counter()})
+            audit["source_utterances"] += 1
+            audit["dropped_non_speech_utterances"] += int(not cleaned)
+            audit["removed"].update(removals)
             if cleaned:
                 stories[current_story].append(cleaned)
         parts = []
@@ -155,6 +161,12 @@ def _iter_story_utterances(
             flush()
             speaker, orphan_block = "", False
     flush()
+    if preparation is not None:
+        for story, audit in audits.items():
+            preparation.append({"story_id": story, **audit, "removed": dict(audit["removed"]),
+                                "output_utterances": len(stories[story]),
+                                "source_text_sha256": hashlib.sha256(" ".join(raw_stories[story]).encode()).hexdigest(),
+                                "prepared_text_sha256": hashlib.sha256(" ".join(stories[story]).encode()).hexdigest()})
     if diagnostics is not None:
         diagnostics.extend(issues)
     elif issues:
@@ -200,7 +212,8 @@ def extract_story_unit_narratives(
         text = raw.decode("utf-8-sig")
         age_raw, age_months, group = _parse_age_group(text)
         issues: list[dict[str, object]] = []
-        story_map = _iter_story_utterances(text, diagnostics=issues)
+        preparation = []
+        story_map = _iter_story_utterances(text, diagnostics=issues, preparation=preparation)
         child_id = _extract_file_id(path)
         for missing, kind in ((not child_id, "missing_child_id"),
                               (not age_raw, "missing_age"),
@@ -211,7 +224,7 @@ def extract_story_unit_narratives(
         sources.append({"transcript_path": str(path.relative_to(root)),
                         "sha256": hashlib.sha256(raw).hexdigest(), "File_ID": child_id,
                         "Group": group, "Age_Raw": age_raw, "Age_Month": age_months,
-                        "story_rows": len(story_map), "issues": issues})
+                        "story_rows": len(story_map), "issues": issues, "text_preparation": preparation})
         for story_id, units in story_map.items():
             rows.append(
                 {
@@ -235,7 +248,11 @@ def extract_story_unit_narratives(
 
     issue_counts = Counter(issue["kind"] for source in sources for issue in source["issues"])
     qc = {"parser_version": CHAT_STORY_PARSER_VERSION,
-          "surface_normalization": "legacy_surface_v1; applied after joining main-tier continuations",
+          "surface_normalization": "legacy_surface_v1 + chat-story-text-v3; applied after joining main-tier continuations",
+          "text_preparation": {"policy": TEXT_CLEANING_POLICY, "performed_at": "chat_to_csv_extraction",
+                               "unknown_word_replacement": "deletion_only; no inferred words or replacement tokens",
+                               "removed": dict(sum((Counter(audit["removed"]) for source in sources
+                                                    for audit in source["text_preparation"]), Counter()))},
           "age_month_definition": "12 * years + months; days retained only in Age_Raw; unknown months remain blank",
           "transcript_root": str(root), "transcript_files": len(sources), "story_rows": len(rows),
           "issue_counts": dict(issue_counts), "sources": sources,
@@ -247,6 +264,74 @@ def extract_story_unit_narratives(
     print(f"Wrote story-unit narrative table to {out_csv}")
     print(f"Parsing QC: {qc_path}; issue counts: {dict(issue_counts)}")
     return 0
+
+
+def prepare_extracted_story_csv(
+    source_csv: str | Path, output_csv: str | Path, summary_json: str | Path | None = None,
+) -> Path:
+    """Finalize an older extraction once, without pretending to reparse CHAT.
+
+    Used when the original CHAT files are archived. Preserve every row/identity,
+    apply the same deletion-only text preparation as new extraction, and link
+    the original CSV and parsing audit. Generation never calls this migration.
+    """
+    source, output = Path(source_csv).resolve(), Path(output_csv).resolve()
+    summary = Path(summary_json).resolve() if summary_json else output.with_suffix(".parsing_qc.json")
+    if output == summary or output.exists() or summary.exists():
+        raise FileExistsError("Prepared CSV/QC outputs must be distinct fresh paths.")
+    source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+    source_qc = source.with_suffix(".parsing_qc.json")
+    upstream = None
+    if source_qc.is_file():
+        qc = json.loads(source_qc.read_text())
+        if qc.get("output_csv_sha256") != source_hash:
+            raise ValueError("Source extraction CSV does not match its parsing QC.")
+        upstream = {"path": str(source_qc), "sha256": hashlib.sha256(source_qc.read_bytes()).hexdigest(),
+                    "parser_version": qc.get("parser_version"), "transcript_files": qc.get("transcript_files")}
+    rows, audits = [], []
+    with source.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        fields = reader.fieldnames
+        required = {"File_ID", "Group", "story_id", "story_text", "story_units_json", "story_unit_count"}
+        if not fields or not required.issubset(fields):
+            raise ValueError("An extracted story CSV requires identity, text and utterance-array columns.")
+        for row_number, row in enumerate(reader, 2):
+            before = row["story_text"]
+            prepared = prepare_extracted_story(before, row["story_units_json"], allow_empty=True)
+            audits.append({"csv_row": row_number, **{key: row[key] for key in ("File_ID", "Group", "story_id")},
+                           "source_text_sha256": hashlib.sha256(before.encode()).hexdigest(),
+                           "prepared_text_sha256": hashlib.sha256(prepared.text.encode()).hexdigest(),
+                           "text_changed": before != prepared.text,
+                           "source_utterances": prepared.original_utterances,
+                           "output_utterances": len(prepared.utterances),
+                           "dropped_non_speech_utterances": prepared.dropped_utterances,
+                           "removed": prepared.removed})
+            rows.append({**row, "story_text": prepared.text,
+                         "story_units_json": json.dumps(prepared.utterances, ensure_ascii=True),
+                         "story_unit_count": str(len(prepared.utterances))})
+    if not rows:
+        raise ValueError("Source extraction CSV contains no story records.")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("x", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    qc = {"schema_version": 1, "operation": "finalize_existing_extraction", "source_chat_reparsed": False,
+          "source_csv": str(source), "source_csv_sha256": source_hash,
+          "source_extraction_qc": upstream, "story_rows": len(rows),
+          "text_preparation": {"policy": TEXT_CLEANING_POLICY, "performed_at": "chat_to_csv_extraction",
+                               "unknown_word_replacement": "deletion_only; no inferred words or replacement tokens",
+                               "changed_stories": sum(item["text_changed"] for item in audits),
+                               "empty_stories_retained": sum(not row["story_text"] for row in rows),
+                               "dropped_non_speech_utterances": sum(item["dropped_non_speech_utterances"] for item in audits),
+                               "removed": dict(sum((Counter(item["removed"]) for item in audits), Counter())),
+                               "upstream_removal_counts_not_reconstructed": True},
+          "preparation_code_sha256": hashlib.sha256(Path(__file__).with_name("text_cleaning.py").read_bytes()).hexdigest(),
+          "records": audits, "output_csv_sha256": hashlib.sha256(output.read_bytes()).hexdigest()}
+    summary.parent.mkdir(parents=True, exist_ok=True)
+    with summary.open("x", encoding="utf-8") as handle:
+        handle.write(json.dumps(qc, indent=2) + "\n")
+    return output
 
 
 def build_story_unit_reference_template(

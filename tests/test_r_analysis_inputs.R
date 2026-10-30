@@ -25,7 +25,7 @@ local({
   }
 
   # A checked-in pending config cannot fall back to existing historical files.
-  expect_error(config$resolve_analysis_inputs(project_root), "REVISED STUDY: input paths are pending")
+  expect_error(config$resolve_analysis_inputs(project_root), "STUDY INPUTS: input paths are pending")
   relative <- setNames(as.list(paste0("fixture ", seq_along(keys), ".csv")), keys)
   for (path in relative) writeLines("fixture", file.path(fixture, path))
   resolved <- config$resolve_analysis_inputs(fixture, relative)
@@ -75,13 +75,13 @@ local({
     }
     environment <- new.env(parent = baseenv())
     environment$read.csv <- function(...) stop("Data loading must not occur during the pending-input check")
-    expect_error(eval(parse(text = setup), envir = environment), "REVISED STUDY: input paths are pending")
+    expect_error(eval(parse(text = setup), envir = environment), "STUDY INPUTS: input paths are pending")
   }
   setwd(previous_wd)
   # Knitting from notebooks/ also finds the checkout without an override.
   Sys.unsetenv("ICL_PILOT_PROJECT_ROOT")
   setwd(file.path(project_root, "notebooks"))
-  expect_error(eval(parse(text = setup), envir = new.env(parent = baseenv())), "REVISED STUDY: input paths are pending")
+  expect_error(eval(parse(text = setup), envir = new.env(parent = baseenv())), "STUDY INPUTS: input paths are pending")
   setwd(previous_wd)
   cat("R input checks passed: pending paths, explicit files, relative/absolute paths, overrides, missing files and the maintained R entry point.\n")
 })

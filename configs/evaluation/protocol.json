@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "generator_catalog": "configs/generation/models.json",
+  "generator_keys": ["llama3_1_8b", "qwen3_8b", "gemma2_9b"],
+  "cohorts": [4, 5, 6, 7],
+  "story_ids": ["A1", "A2", "A3", "B1", "B2", "B3"],
+  "sampling_seed": 42,
+  "synthetic_to_real_ratio": 10,
+  "classification_split": {"n_splits": 5, "seed": 42, "validation": "next_fold"},
+  "synthetic_sampling": {"method": "stratified_bundle_bootstrap", "unit": "complete_story_bundle", "replacement": true, "match_real_strata": ["cohort_year", "group", "story_id"]},
+  "text_quality": {
+    "perplexity_model_id": "openai-community/gpt2",
+    "perplexity_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "embedding_model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  },
+  "classifier": {
+    "model_id": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "seeds": [42, 43, 44],
+    "max_length": 512,
+    "epochs": 3,
+    "batch_size": 8,
+    "eval_batch_size": 32,
+    "learning_rate": 0.00002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.0,
+    "gradient_accumulation_steps": 1,
+    "class_weighting": "none",
+    "decision_threshold_sli": 0.5,
+    "include_update_matched_real_control": true,
+    "retain_model_checkpoints": false
+  },
+  "uncertainty": {
+    "units": ["child"],
+    "bootstrap_samples": 2000,
+    "confidence": 0.95,
+    "seed": 20261028
+  }
+}

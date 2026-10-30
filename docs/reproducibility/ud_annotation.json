@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "scope": "software/native smoke validation only; no complete corpus annotation or linguistic accuracy assessment",
+  "batchalign_version": "0.10.7",
+  "stanza_version": "1.15.0",
+  "torch_version": "2.11.0",
+  "model_catalog_sha256": "b9a397f594aa68b6b09806b0f6f8c95b8f1dd4d1f4459a9ce1553016200d234a",
+  "checks": {
+    "targeted_regressions": {
+      "passed": 170,
+      "skipped": 2,
+      "files": [
+        "tests/test_morphosyntax.py",
+        "tests/test_annotation_pipeline.py",
+        "tests/test_annotation_recovery.py",
+        "tests/test_chat_validation.py",
+        "tests/test_generation_recovery.py",
+        "tests/test_segmentation.py"
+      ]
+    },
+    "native_saved_chat_route": {
+      "passed": 1,
+      "files": 2,
+      "checks": [
+        "retag existing morphology",
+        "preserve wrapped speech and error codes",
+        "contraction alignment",
+        "fresh Chatter before and after",
+        "no generator or TalkTag model loaded"
+      ]
+    }
+  },
+  "pending": [
+    "full-corpus execution",
+    "Colab integration",
+    "manual linguistic annotation review",
+    "fresh compatible feature tables"
+  ]
+}

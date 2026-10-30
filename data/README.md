@@ -1,18 +1,20 @@
-# Active data workspace
+# Study data
 
-Historical generated CHAT, annotations and QC records were frozen externally
-and removed locally after archive verification. This includes all 5,640 corrected
-pre-annotation CHAT files and all 5,640 retained TalkTag files. Their exact paths,
-hashes, repair decisions and validation records remain recoverable from the
-[study-freeze index](../docs/provenance/study_freeze_2026-10-16.md).
+Keep the official ZIPs under raw/enni/2026-10-28/ and raw/gillam/2026-10-28/ unchanged.
+One ZIP per corpus retains every original member. Redundant expanded originals
+can be removed only after byte-for-byte ZIP verification; the removal inventory
+is in docs/reproducibility/original_archive_retention.json. ZIP-backed readers and
+exact-member recovery avoid expanding the corpora again.
 
-This workspace is ready for inputs and outputs needed by the revised experiment.
-New generation runs create separate folders under `generated/`; the combined
-notebook currently uses `generated/direct_generation/<run_id>/`. Supply real
-corpus inputs explicitly when rebuilding transcripts or measurements.
+The canonical participant and prepared story tables are in configs/generation/inputs/. Their source hashes, eligibility and preparation audit define the study reference: 238 children aged 4–7, 190 TD and 48 SLI-labelled.
 
-The preserved exemplar CSV, parsing-QC sidecar, roster and story scaffolds remain
-in [`configs/generation/`](../configs/generation/). They support the working
-baseline and tests; the revised generation protocol is pending. Analysis and
-framework input paths are explicit pending settings under `configs/analysis/`
-and `configs/evaluation/`. Historical data are never selected as a fallback.
+Use inputs/enni_verified_2026-10-28/chat_4_to_7/ for real-data annotation. It contains only the 238 verified study records. Words, boundaries, groups, ages and existing tiers remain literal; documented sex-header adjustments follow the original demographics table.
+
+Keep generated runs, annotation outputs, CLAN measurements and derived feature tables in purpose-specific fresh directories. Preserve source, model, child/story, pair, batch, replicate and stage identities. Never treat repeated synthetic bundles as independent children.
+
+The notebook verifies final text fingerprints before removing successful-run
+intermediate CHAT. Keep final annotated files, retention receipts, audits and
+diagnostics. Failed/incomplete runs retain their working files. Selected ENNI
+study inputs and original generation CSVs/journals remain available.
+
+Corpus and run payloads are ignored by Git. Current verification records are in docs/reproducibility/.

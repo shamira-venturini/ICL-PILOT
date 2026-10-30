@@ -5,9 +5,7 @@ output:
   pdf_document: default
 ---
 
-> **Revised study: input paths pending.** Update `configs/analysis/inputs.R` when
-> the necessary files and paths are available. The analyses and interpretations
-> below are retained from the earlier study and await protocol review.
+> Domain-specific analysis implementation. Use only the definitive ENNI metadata, roster and newly measured features. Feature inputs and the reviewer-requested statistical revisions remain pending. This source contains analysis code, without empirical interpretations or reported results.
 
 ```{r analysis-inputs}
 # REVISED STUDY: configure the five pending input paths before running analyses.
@@ -29,12 +27,10 @@ analysis_inputs <- resolve_analysis_inputs(analysis_project_root)
 analysis_output_dir <- file.path(analysis_project_root, "results", "linguistic_evaluation",
   paste0("run_", format(Sys.time(), "%Y%m%dT%H%M%OS6Z", tz = "UTC")))
 ```
-
 ```{r}
 # Packages
 #install.packages(c("dplyr", "lme4", "lmerTest", "purrr", "broom.mixed","rlang"))
 ```
-
 ```{r}
 library(dplyr)
 library(lme4)
@@ -46,7 +42,6 @@ library(ggplot2)
 library(emmeans)
 library(tidyr)
 ```
-
 ```{r}
 # Read data from the shared, explicitly configured revised-study inputs.
 real_csv_path <- analysis_inputs$real_features_csv
@@ -57,6 +52,12 @@ real <- read.csv(
   real_csv_path,
   check.names = FALSE
 )
+
+# The fresh corpus, not CLAN's rounded ages or directory-derived groups, defines
+# participant identity and age. Conflicting legacy features require rebuilding.
+source(file.path(analysis_project_root, "configs", "analysis", "enni_metadata.R"))
+real <- reconcile_enni_metadata(real, file.path(analysis_project_root, "configs", "generation", "inputs",
+                                               "enni_participants_2026-10-28.csv"))
 
 syn <- read.csv(
   analysis_inputs$synthetic_features_csv,
@@ -248,12 +249,10 @@ df_all <- df_all %>%
   )
 ```
 
-
-
 # Analyses {.tabset}
 
-## PCA {.tabset}
 
+## PCA {.tabset}
 
 ```{r}
 library(dplyr)
@@ -435,9 +434,6 @@ fa.parallel(
   main = "Parallel analysis"
 )
 ```
-The PCA suggests that the feature space is not one-dimensional. There are about four meaningful latent components, with the first two already explaining more than half of the variance. So the data seem to have a compact but non-trivial internal structure: a strong broad first dimension, a second major contrast, and then two smaller but still meaningful components.
-
-
 ```{r}
 # loadings
 pca_loadings <- as_tibble(pca_fit$rotation, rownames = "feature")
@@ -479,10 +475,6 @@ pca_loadings %>%
   arrange(desc(abs(PC4))) %>%
   print(n = Inf)
 ```
-* PC1: syntactic complexity; higher = more syntactically complex speech (> coordination & subordination; longer & deeper structures; > complex NPs; > aux/copulas structures).
-* PC2: grammatical maturity; higher = longer, grammatically richer sentences and phrase structures, less word-level errors.
-* PC3: error proneness and lexical instability; lower lexical richness.
-* PC4: Residual morphosyntactic control; a weaker residual component, roughly contrasting interrogative/irregular-form control with errorful production
 ```{r}
 library(dplyr)
 
@@ -494,7 +486,6 @@ pca_scores_named <- pca_scores %>%
     Residual_Morphosyntactic_Control = PC4
   )
 ```
-
 ```{r}
 library(dplyr)
 library(GGally)
@@ -522,12 +513,6 @@ GGally::ggpairs(
   aes(color = population, alpha = 0.7)
 )
 ```
-The first two components already separate the populations in a meaningful way, but not perfectly.
-Synthetic data are not identical to real data, and synthetic SLI does not sit neatly on top of real SLI.
-
-* PC1-PC2 correlation: real strong positive correlation; synthetic weakly negative correlation.= In the real data, more syntactic complexity tends to go together with more grammatical maturity.
-In the synthetic data, that relationship is not preserved in the same way.
-
 ```{r}
 library(ggplot2)
 
@@ -545,8 +530,6 @@ plot_pc <- function(df, xpc, ypc, var_explained) {
 
 plot_pc(pca_scores_plotly, "Syntax", "Grammar", var_explained)
 ```
-
-
 ```{r}
 library(dplyr)
 library(plotly)
@@ -587,8 +570,6 @@ plot_ly(
   )
 ```
 
-
-
 ## Distributional Distance {.tabset}
 
 ```{r}
@@ -623,8 +604,6 @@ table(profile_df$population)
 # Reuse the PCA feature set for distributional comparisons.
 main_features <- colnames(feature_df_pruned)
 ```
-
-
 ```{r}
 wasserstein_1d <- function(x, y, probs = seq(0, 1, length.out = 200)) {
   x <- x[is.finite(x)]
@@ -746,8 +725,6 @@ dist_std_results <- map_dfr(main_features, ~ compare_distribution_std(profile_df
 dist_std_results %>%
   arrange(group, desc(wasserstein_std))
 ```
-Synthetic data are distributionally mismatched from real data in both groups, and the mismatch is especially severe for core syntactic measures.
-
 ```{r}
 plot_df <- dist_std_results %>%
   group_by(feature) %>%
@@ -846,7 +823,6 @@ corr_similarity <- function(cor_real, cor_syn) {
   )
 }
 ```
-
 ```{r}
 # -----------------------------
 # Compute TD and SLI correlation matrices
@@ -868,7 +844,6 @@ td_similarity_broad
 ```{r}
 sli_similarity_broad
 ```
-
 ```{r}
 plot_corr_preservation <- function(cor_real, cor_syn, title_text) {
   df_plot <- tibble(
@@ -940,10 +915,6 @@ plot_corr_diff(
   "SLI: correlation differences"
 )
 ```
-RED = synthetic correlation > real
-BLUE = synthetic correlation < real
-
-The synthetic data do not just shift feature values; they change the architecture of the profile.
 ```{r}
 corr_summary_plot <- bind_rows(
   td_similarity_broad  %>% mutate(group = "TD"),
@@ -977,7 +948,6 @@ ggplot(corr_summary_plot, aes(x = metric, y = value, fill = group)) +
   ) +
   theme_classic()
 ```
-
 ```{r}
 top_corr_diffs <- function(cor_real, cor_syn, top_n = 15) {
   diff_mat <- cor_syn - cor_real
@@ -1009,7 +979,6 @@ top_sli_broad
 
 ## Linear Mixed-Effects Models {.tabset}
 
-round_batch as fixed or random effect?
 ```{r}
 m_fixed <- lmer(
   MLU_Morphemes ~ source_is_synthetic * clinical_group +
@@ -1029,12 +998,12 @@ summary(m_fixed)
 summary(m_random)
 VarCorr(m_random)
 ```
-keep round_batch as fixed-effect sensitivity check.
 
 ### Classic Measures {.tabset}
+
+
 #### mlu
 
-age linear or quadratic?
 ```{r}
 m_lin <- lmer(
   MLU_Morphemes ~ source_is_synthetic * clinical_group +
@@ -1082,9 +1051,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
-
-
 ```{r}
 m0_mlu <- lmer(
   `MLU_Morphemes` ~ source_is_synthetic * clinical_group + (1 | cluster_id),
@@ -1111,20 +1077,9 @@ m3_mlu <- lmer(
 anova(m0_mlu, m1_mlu, m2_mlu, m3_mlu)
 
 ```
-
 ```{r}
 summary(m2_mlu)
 ```
-Synthetic transcript have higher mlu than real ones. SLI lower than TD. Magnitude of difference is the same between synthetic SLI and TD. mlu increases with age. clear inflation in synthetic SLI
-
-* Intercept = predicted mlu for real TD in round 1 at mean age (centered)
-* source_is_synthetic = TD synthetic data are about 5.5 morphemes higher
-* clinical_groupSLI = real SLI is 1.36 morphemes lower
-* Age_c = mlu increases with age
-* source_is_synthetic:clinical_groupSLI = synthetic boost is higher in SLI
-* source_is_synthetic:Age_c = Synthetic data show a somewhat flatter age slope than real data, but this is only marginal.
-* clinical_groupSLI:Age_c = SLI shows steeper age-related increase than TD
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -1166,7 +1121,6 @@ ggplot(df_plot, aes(x = population, y = MLU_Morphemes, color = population)) +
   theme_classic() +
   theme(legend.position = "none")
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -1246,9 +1200,6 @@ ggplot(plot_df, aes(x = Age_Month, y = MLU_Morphemes, color = source_label)) +
 
 #### lexical diversity
 
-calculates the diversity of a text by modelling how the Type-Token Ratio (TTR) changes as sample sizes increase.
-
-is age linear or quadratic?
 ```{r}
 library(splines)
 library(lme4)
@@ -1271,8 +1222,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
-
 ```{r}
 m0_vocd <- lmer(
   VOCD_D_optimum_average ~ source_is_synthetic * clinical_group  + (1 | cluster_id),
@@ -1302,14 +1251,6 @@ anova(m0_vocd, m1_vocd, m2_vocd, m3_vocd)
 ```{r}
 summary(m1_vocd)  # main model - do real vs syn and td vs sli differ? does the difference depend from clinical group? does mlu change with age overall?
 ```
-In the real data, SLI has lower lexical diversity than TD. In the synthetic data, lexical diversity is inflated for both groups, but especially for SLI, so the real TD–SLI difference is greatly reduced or effectively erased.
-
-* Intercept = predicted lexical diversity for real TD in round 1 at mean age (centered)
-* source_is_synthetic = TD synthetic data have a much higher lexical diversity than real transcripts.
-* clinical_groupSLI = real SLI is 5.4 points lower than TD
-* Age_c = lexical diversity increases with age
-* source_is_synthetic:clinical_groupSLI = the synthetic-real difference is even larger in SLI than in TD.
-
 ```{r}
 library(emmeans)
 
@@ -1333,9 +1274,6 @@ pairs(
   adjust = "none"
 )
 ```
-* real vs synthetic TD extremely different.
-* real vs synthetic SLI extremely different.
-
 ```{r}
 pairs(
   emmeans(
@@ -1347,9 +1285,6 @@ pairs(
   adjust = "none"
 )
 ```
-* significant difference between real TD and SLI.
-* no difference between synthetic TD and SLI.
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -1389,7 +1324,6 @@ ggplot(df_plot, aes(x = population, y = VOCD_D_optimum_average, color = populati
   theme_classic() +
   theme(legend.position = "none")
 ```
-
 ```{r}
 df_all %>%
   mutate(
@@ -1403,15 +1337,9 @@ df_all %>%
     .groups = "drop"
   )
 ```
-Real SLI much lower than TD. Synthetic no difference.
-
 ```{r}
 summary(m2_vocd)
 ```
-
-* vocd-d rises with age for real TD and even more for SLI
-* flat for synthetic TD and rises a little bit for SLI
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -1482,10 +1410,9 @@ ggplot(df_plot, aes(x = Age_Month_plot, y = VOCD_D_optimum_average, color = sour
   ) +
   theme_classic()
 ```
-source_is_synthetic:age is not significant, so the downward slope of TD is to interpret cautiously.
 
 #### developmental sentence score
-is age linear or quadratic?
+
 ```{r}
 library(splines)
 library(lme4)
@@ -1508,8 +1435,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
-
 ```{r}
 m0_dss <- lmer(
   DSS_tbl_score ~ source_is_synthetic * clinical_group  + (1 | cluster_id),
@@ -1535,18 +1460,9 @@ m3_dss <- lmer(
 
 anova(m0_dss, m1_dss, m2_dss, m3_dss)
 ```
-
 ```{r}
 summary(m1_dss)
 ```
-Synthetic transcripts have lower DSS than real ones. SLI < TD. DSS increases with age. synthetic vs real gap smaller in SLI than TD (only marginally significant). The synthetic data do not erase the clinical-group difference; they preserve it fairly well.
-
-* Intercept = Predicted DSS for real TD at mean age.
-* source_is_synthetic = In the TD group, synthetic transcripts are about 0.54 DSS points lower than real transcripts.
-* clinical_groupSLI = Among real transcripts, SLI is about 1.65 DSS points lower than TD.
-* Age_c = DSS increases of 0.03 points per months.
-* source_is_synthetic:clinical_groupSLI = This suggests the synthetic penalty is more positive in SLI than in TD.
-
 ```{r}
 # Adjusted means from the retained model
 emm_dss <- emmeans(
@@ -1591,7 +1507,6 @@ ggplot(df_plot, aes(x = population, y = DSS_tbl_score, color = population)) +
   theme_classic() +
   theme(legend.position = "none")
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -1647,15 +1562,11 @@ ggplot(df_age_plot, aes(x = Age_Month_plot, y = DSS_tbl_score, color = populatio
   ) +
   theme_classic()
 ```
-DSS is broadly clinically plausible, but the synthetic data make TD and SLI look more similar than they are in the real data.
-
 
 ### Productive Morphology {.tabset}
+
+
 #### past over-generalisation
-
-Overgeneralization is primarily a developmental phenomenon tied to productive morphology. These errors appear after acquisition of regular past tense is completed. In SLI/DLD, the better-established clinical pattern is reduced tense marking and increased zero-marking, not necessarily increased overgeneralization. They lag behind past acquisition therefore, they do not yet showcase this error pattern.
-
-Given a past-tense opportunity, what is the probability of producing an overgeneralized past form?
 
 ```{r}
 # -----------------------------
@@ -1665,6 +1576,8 @@ real_dev <- read.csv(
   analysis_inputs$real_dev_csv,
   check.names = FALSE
 )
+real_dev <- reconcile_enni_metadata(real_dev, file.path(analysis_project_root, "configs", "generation", "inputs",
+                                                       "enni_participants_2026-10-28.csv"))
 
 syn_dev <- read.csv(
   analysis_inputs$synthetic_dev_csv,
@@ -1847,8 +1760,6 @@ summary(df_dev_all_clean$past_overgeneralization_errors)
 summary(df_dev_all_clean$past_verb_opportunities)
 
 ```
-
-is age linear or quadratic?
 ```{r}
 library(lme4)
 
@@ -1894,7 +1805,6 @@ anova(m_age0_overgen, m_age1_overgen, m_age2_overgen, test = "Chisq")
 AIC(m_age0_overgen, m_age1_overgen, m_age2_overgen)
 BIC(m_age0_overgen, m_age1_overgen, m_age2_overgen)
 ```
-
 ```{r}
 m0_overgen <- glmer(
   cbind(past_overgeneralization_errors,
@@ -1940,16 +1850,6 @@ anova(m0_overgen, m1_overgen, m2_overgen, m3_overgen, test = "Chisq")
 ```{r}
 summary(m3_overgen) # Does the developmental pattern across age differ jointly by source and clinical group?
 ```
-At mean age, real and synthetic data are fairly similar in overall past-overgeneralization rate, but they differ sharply in how that rate changes with age.
-
-* real TD lower overgeneralisation probability than SLI
-* synthetic vs real TD and synthetic vs real SLI not significantly different at mean age
-* real TD probability of continue overgeneralising decreases with age
-* real SLI have an almost flat slope or only slightly positive
-INTERESTING PART:
-* synthetic TD and SLI probability of overgeneralisation INCREASES WITH AGE -> flipped developmental pattern
-* synthetic SLI slope is also different from synthetic TD
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2098,7 +1998,7 @@ ggplot() +
 ```
 
 #### non-finiteness
-is age linear or quadratic?
+
 ```{r}
 library(splines)
 library(lme4)
@@ -2121,7 +2021,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
 ```{r}
 library(lme4)
 library(lmerTest)
@@ -2162,21 +2061,6 @@ anova(m0_bare, m1_bare, m2_bare, m3_bare)
 ```{r}
 summary(m3_bare)
 ```
-the developmental pattern of bare marking errors is different across the four groups, not just in level but in trajectory.
-* at mean age td has a very low bare-marking error rate
-* synthetic td is higher than real td
-* real sli is higher than td
-* synthetic sli much higher
-
-SYNTHETIC DATA INFLATE BARE MARKING ERRORS ESPECIALLY FOR SLI
-
-* no effect of age for td = number of error stays low and costant
-* sli errors increase with age (not a worsening of condition but more opportunities probably)
-* synthetic sli errors decrease considerably with age
-
-SYNTHETIC DATA PRODUCE THE WRONG DEVELOPMENTAL TRAJECTORY
-
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2265,8 +2149,9 @@ ggplot(plot_df, aes(x = Age_Month, y = bare_marking_errors_per_word, color = sou
     strip.text = element_text(face = "bold")
   )
 ```
+
 #### agreement
-is age linear or quadratic?
+
 ```{r}
 library(splines)
 library(lme4)
@@ -2289,7 +2174,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
 ```{r}
 m0_agr <- lmer(
   agreement_errors_per_finite_verb ~ source_is_synthetic * clinical_group +
@@ -2324,11 +2208,9 @@ m3_agr <- lmer(
 
 anova(m0_agr, m1_agr, m2_agr, m3_agr)
 ```
-
 ```{r}
 summary(m2_agr)
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2377,11 +2259,12 @@ ggplot(df_plot, aes(x = population, y = agreement_errors_per_finite_verb, color 
   theme_classic() +
   theme(legend.position = "none")
 ```
-The synthetic data inflate morphosyntactic error rates, and the inflation is especially strong for SLI.
 
 ### Usage Measures {.tabset}
+
+
 #### auxiliaries
-is age linear or quadratic?
+
 ```{r}
 library(splines)
 library(lme4)
@@ -2404,7 +2287,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
 ```{r}
 m0_auxcop <- lmer(
   Syntax_AuxCop_Utt_Prop ~ source_is_synthetic * clinical_group +
@@ -2442,7 +2324,6 @@ anova(m0_auxcop, m1_auxcop, m2_auxcop, m3_auxcop)
 ```{r}
 summary(m2_auxcop)
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2496,7 +2377,6 @@ ggplot(df_plot, aes(x = source_label, y = Syntax_AuxCop_Utt_Prop, color = source
   theme_classic() +
   theme(legend.position = "none")
 ```
-
 ```{r}
 
 age_mean <- mean(df_all$Age_Month, na.rm = TRUE)
@@ -2568,8 +2448,6 @@ df_dev_all_clean <- df_dev_all_clean %>%
     det_art_per_utt = `det:art` / `#utterances`
   )
 ```
-
-is age linear or quadratic?
 ```{r}
 library(splines)
 library(lme4)
@@ -2592,7 +2470,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
 ```{r}
 m0_detuse <- lmer(
   det_art_per_utt ~ source_is_synthetic * clinical_group +
@@ -2630,7 +2507,6 @@ anova(m0_detuse, m1_detuse, m2_detuse, m3_detuse)
 ```{r}
 summary(m2_detuse)
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2682,8 +2558,6 @@ ggplot(df_plot, aes(x = source_label, y = det_art_per_utt, color = source_label)
   theme_classic() +
   theme(legend.position = "none")
 ```
-
-
 ```{r}
 library(emmeans)
 
@@ -2750,10 +2624,9 @@ ggplot(df_age_plot, aes(x = Age_Month_plot, y = det_art_per_utt, color = source_
 
 ### Syntax {.tabset}
 
-#### Syntax_Mean_TreeDepth (average dependency tree depth)
-How often does any subordinate structure appear at all?
 
-is age linear or quadratic?
+#### Syntax_Mean_TreeDepth (average dependency tree depth)
+
 ```{r}
 library(splines)
 library(lme4)
@@ -2776,7 +2649,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
 ```{r }
 m0_mtd <- lmer(
   Syntax_Mean_TreeDepth ~ source_is_synthetic * clinical_group +
@@ -2812,12 +2684,9 @@ m3_mtd <- lmer(
 anova(m0_mtd, m1_mtd, m2_mtd, m3_mtd)
 
 ```
-
-
 ```{r}
 summary(m2_mtd)
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2871,7 +2740,6 @@ ggplot(df_plot, aes(x = source_label, y = Syntax_Mean_TreeDepth, color = source_
   theme_classic() +
   theme(legend.position = "none")
 ```
-synthetic transcripts have deeper syntactic structure than real. TD > SLI. No apparent difference within sources.
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -2937,13 +2805,9 @@ ggplot(df_age_plot, aes(x = Age_Month_plot, y = Syntax_Mean_TreeDepth, color = s
   ) +
   theme_classic()
 ```
-Synthetic transcripts appeared to contain greater hierarchical syntactic depth, but this increase in structural complexity was not accompanied by higher developmental morphosyntactic scores; if anything, DSS was slightly lower in the synthetic data.
 
 #### Syntax_ComplexNP_Utt_Prop
 
-How deep is the dependency structure on average?
-
-is age linear or quadratic?
 ```{r}
 library(splines)
 library(lme4)
@@ -2966,7 +2830,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
 ```{r}
 m0_cnp <- lmer(
   Syntax_ComplexNP_Utt_Prop ~ source_is_synthetic * clinical_group +
@@ -3001,11 +2864,9 @@ m3_cnp <- lmer(
 
 anova(m0_cnp, m1_cnp, m2_cnp, m3_cnp)
 ```
-
 ```{r}
 summary(m0_cnp)
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -3059,12 +2920,9 @@ ggplot(df_plot, aes(x = source_label, y = Syntax_ComplexNP_Utt_Prop, color = sou
   theme_classic() +
   theme(legend.position = "none")
 ```
-synthetic transcripts present higher NP complexity than the real ones.
 
 #### Syntax_Subordination_Utt_Prop
-number of utterances containing subordination / number of analyzed utterances
 
-is age linear or quadratic?
 ```{r}
 library(splines)
 library(lme4)
@@ -3087,8 +2945,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
-
 ```{r}
 m0_sub <- lmer(
   Syntax_Subordination_Utt_Prop ~ source_is_synthetic * clinical_group +
@@ -3126,7 +2982,6 @@ anova(m0_sub, m1_sub, m2_sub, m3_sub)
 ```{r}
 summary(m1_sub)
 ```
-
 ```{r}
 library(dplyr)
 library(ggplot2)
@@ -3193,9 +3048,9 @@ pairs(
   adjust = "none"
 )
 ```
+
 #### Syntax_Subject_Utt_Prop
 
-is age linear or quadratic?
 ```{r}
 library(splines)
 library(lme4)
@@ -3218,8 +3073,6 @@ m_spline_int <- lmer(
 AIC(m_lin_int, m_spline_int)
 BIC(m_lin_int, m_spline_int)
 ```
-
-
 ```{r}
 m0_subj <- lmer(
   Syntax_Subject_Utt_Prop ~ source_is_synthetic * clinical_group +
@@ -3254,11 +3107,9 @@ m3_subj <- lmer(
 
 anova(m0_subj, m1_subj, m2_subj, m3_subj)
 ```
-
 ```{r}
 summary(m2_subj)
 ```
-
 ```{r}
 library(ggplot2)
 library(dplyr)
@@ -3357,33 +3208,6 @@ ggplot(plot_df, aes(x = source, y = Syntax_Subject_Utt_Prop, color = source)) +
     panel.grid.minor = element_blank()
   )
 ```
-In the real data, children with SLI produce subjects in a much smaller proportion of utterances than TD children—about 30 percentage points lower at mean age. Subject use increases with age in both groups, but the increase is steeper in SLI, suggesting some developmental catch-up. In the synthetic data, subject use is inflated especially for SLI: synthetic SLI transcripts contain far more subject-bearing utterances than real SLI transcripts, which substantially reduces the real TD–SLI gap.
-
-
-# Summary
-
-The clearest high-level conclusion is that the synthetic data do not fail in just one way. They show different distortions for different linguistic domains. On broad productivity, synthetic transcripts are more verbose or denser in some respects: MLU is higher in synthetic than real, SLI is lower than TD, and age increases MLU, but the TD–SLI separation is broadly preserved.  On lexical diversity, though, the distortion is much stronger: real SLI is much lower than real TD, but synthetic SLI is pushed up to the same level as synthetic TD, effectively flattening a clinically meaningful difference. 
-For developmental grammar, DSS tells a different story from VOCD-D. Synthetic transcripts are slightly lower than real ones on DSS, SLI is lower than TD, and DSS increases with age; the source-by-group interaction is only weak, so the TD–SLI difference is still broadly preserved. That means the synthetic data do not simply look globally “better” or “worse” than real data. They look richer on some measures and poorer on others. 
-The productive-morphology results are especially informative. Past overgeneralization is rare overall, as expected in spontaneous speech, but it is pushed almost to floor in the synthetic data, especially for TD, and the age-by-group pattern differs between real and synthetic transcripts. In other words, the generator underproduces a normal developmental error pattern rather than reproducing it faithfully.  By contrast, nonfiniteness-related error measures go in the opposite direction: bare-marking errors and agreement errors are both much higher in the synthetic data, especially for synthetic SLI, suggesting that the generator overcreates morphosyntactic errorfulness in that group.  Determiner usage per utterance also shows a strong distortion: real SLI uses determiners much less than real TD, but synthetic SLI is boosted upward, partially narrowing the real clinical gap. 
-The syntax results are more mixed, but again interpretable. Mean tree depth and complex NP proportion are both higher in synthetic than real transcripts, while SLI remains lower than TD; there is no strong interaction, so the basic group ordering is preserved even though the synthetic data are structurally denser overall.  Subordination behaves more conservatively: SLI is lower than TD, subordination increases with age, and there is no strong real-versus-synthetic difference.  So the synthetic data seem to increase structural depth more than they increase developmentally appropriate syntax.
-If I had to reduce the whole PDF to one thesis sentence, it would be this:
-The synthetic transcripts often preserve broad developmental ordering, but they do not preserve the linguistic profile faithfully: they inflate lexical richness and structural density, suppress normal developmental error patterns like past overgeneralization, and exaggerate morphosyntactic error rates—especially in SLI.
-
-Take-home points:
-
-
-first, measures where synthetic data mostly preserve the real group structure while shifting level: MLU, DSS, mean tree depth, complex NP proportion
-
-
-second, measures where synthetic data distort clinically meaningful contrasts: VOCD-D, determiner usage
-
-
-third, error-pattern measures showing opposite failures: past overgeneralization too low, bare/agreement errors too high, especially in synthetic SLI.
-
-
-A strong discussion paragraph could be built around the contrast between “deeper syntax without better grammar” and “richer vocabulary without realistic clinical separation.”
-
-
 ```{r}
 # ============================================================
 # Compact univariate feature-summary plot
@@ -3972,4 +3796,3 @@ p_operator
 
 
 ```
-

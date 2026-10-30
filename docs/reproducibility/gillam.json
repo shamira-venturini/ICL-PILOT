@@ -1,0 +1,366 @@
+{
+  "archive_path": "data/raw/gillam/2026-10-28/Gillam.zip",
+  "archive_sha256": "c54a7308e3041fb5ad49062d4026784d6c81320669b42a4e2564a03ffca1d86e",
+  "raw_members": 671,
+  "transcripts": 668,
+  "raw_group_counts": {
+    "TD": 497,
+    "SLI": 171
+  },
+  "duplicate_session_ids": 0,
+  "duplicate_pids": 0,
+  "raw_unique_children": 667,
+  "repeated_child_sessions": [
+    {
+      "source_child_id": "a-1-68",
+      "selected_session_id": "a-1-68pre",
+      "excluded_session_ids": [
+        "a-1-68"
+      ],
+      "identity_evidence": "same explicit child ID stem, sex and date of birth",
+      "rule": "earliest eligible recording date"
+    }
+  ],
+  "group_authority": "explicit @Types, verified against corpus directory",
+  "age_sex_authority": "literal CHI headers, independent of age/sex folders",
+  "source_metadata_anomalies": [
+    {
+      "source_path": "SLI/6m/55696il-l.cha",
+      "age_raw": "5;11.",
+      "sex": "male",
+      "issues": [
+        "folder_age_disagrees_with_CHI_header"
+      ]
+    },
+    {
+      "source_path": "TD/10m/46721nj.cha",
+      "age_raw": "10;11.",
+      "sex": "female",
+      "issues": [
+        "folder_sex_disagrees_with_CHI_header"
+      ]
+    },
+    {
+      "source_path": "TD/10m/46740nj.cha",
+      "age_raw": "10;10.",
+      "sex": "female",
+      "issues": [
+        "folder_sex_disagrees_with_CHI_header"
+      ]
+    },
+    {
+      "source_path": "TD/6f/41613md.cha",
+      "age_raw": "5;02.",
+      "sex": "female",
+      "issues": [
+        "folder_age_disagrees_with_CHI_header"
+      ]
+    },
+    {
+      "source_path": "TD/8m/46655nj.cha",
+      "age_raw": "9;00.",
+      "sex": "male",
+      "issues": [
+        "folder_age_disagrees_with_CHI_header"
+      ]
+    },
+    {
+      "source_path": "TD/8m/46829ca.cha",
+      "age_raw": "8;",
+      "sex": "male",
+      "issues": [
+        "unknown_completed_months"
+      ]
+    },
+    {
+      "source_path": "TD/8m/46830ca.cha",
+      "age_raw": "8;",
+      "sex": "male",
+      "issues": [
+        "unknown_completed_months"
+      ]
+    },
+    {
+      "source_path": "TD/9f/54978ks.cha",
+      "age_raw": "10;06.",
+      "sex": "female",
+      "issues": [
+        "folder_age_disagrees_with_CHI_header"
+      ]
+    },
+    {
+      "source_path": "TD/9m/46828ca.cha",
+      "age_raw": "9;",
+      "sex": "male",
+      "issues": [
+        "unknown_completed_months"
+      ]
+    },
+    {
+      "source_path": "TD/9m/46832ca.cha",
+      "age_raw": "9;",
+      "sex": "male",
+      "issues": [
+        "unknown_completed_months"
+      ]
+    }
+  ],
+  "output_csv": "data/inputs/gillam/external_story_records.csv",
+  "output_csv_sha256": "998f2379b54ac20b13443dcae7bf472d7c2cfe2bea65126b9567e99b11f6f0e0",
+  "selected_children": 182,
+  "selected_children_by_group": {
+    "SLI": 91,
+    "TD": 91
+  },
+  "selected_child_age_range_months": [
+    60,
+    95
+  ],
+  "selection": {
+    "minimum_year": 5,
+    "maximum_year": 7,
+    "sli_rule": "all eligible SLI children",
+    "td_rule": "complete canonical-story transcripts, hash-ranked to match each SLI age-by-sex stratum",
+    "td_selection_seed": 20260827,
+    "selected_td_child_ids_by_age_sex": {
+      "5|female": [
+        "46905ca",
+        "47497tx",
+        "41613md",
+        "41597ny",
+        "39602oh"
+      ],
+      "5|male": [
+        "46952wy",
+        "41598ny",
+        "28800tx",
+        "28773tx"
+      ],
+      "6|female": [
+        "28798tx",
+        "41510nm",
+        "46963wy",
+        "39605oh",
+        "31250tx",
+        "39577oh",
+        "46915ca",
+        "46074v",
+        "46719nj",
+        "45587oh",
+        "46725nj",
+        "46954wy",
+        "46182v"
+      ],
+      "6|male": [
+        "46644nj",
+        "23541tx",
+        "46184v",
+        "48568v",
+        "46822az",
+        "46071v",
+        "54849nj",
+        "45589oh",
+        "31239tx",
+        "46651nj",
+        "41688oh",
+        "57264tx",
+        "28780tx",
+        "57288tx",
+        "46700nj",
+        "39065wy",
+        "46667nj",
+        "46801ca",
+        "46913ca"
+      ],
+      "7|female": [
+        "46826ca",
+        "39063wy",
+        "46659nj",
+        "46204wy",
+        "28838ca",
+        "46726nj",
+        "41605nv",
+        "28796tx",
+        "46922wy",
+        "28797tx",
+        "46128v",
+        "46758nj",
+        "46931wy",
+        "46181v",
+        "41627fl",
+        "46144v",
+        "31230tx",
+        "46666nj",
+        "54986ks",
+        "41614md",
+        "41600nv"
+      ],
+      "7|male": [
+        "46664nj",
+        "46902ca",
+        "46668nj",
+        "46145v",
+        "46746nj",
+        "46183v",
+        "46665nj",
+        "39331ks",
+        "54985ks",
+        "57275tx",
+        "28784tx",
+        "41316oh",
+        "54969ks",
+        "41696il",
+        "46932wy",
+        "31236tx",
+        "46129v",
+        "46969wy",
+        "31222tx",
+        "46130v",
+        "41596ny",
+        "41599nv",
+        "41762ct",
+        "54972ks",
+        "41730ny",
+        "57263tx",
+        "41761ct",
+        "31241tx",
+        "41324oh"
+      ]
+    },
+    "excluded_noncanonical_td_transcripts": [
+      {
+        "source_child_id": "28788tx",
+        "story_sequence": [
+          "McDonalds",
+          "Aliens"
+        ]
+      }
+    ],
+    "ignored_empty_story_markers": [
+      {
+        "source_child_id": "46884ca",
+        "story_id": "Aliens",
+        "line_number": 200
+      }
+    ],
+    "child_session_rule": "one earliest eligible recording per normalized child ID; pre/post suffixes identify sessions",
+    "repeated_child_sessions": [
+      {
+        "source_child_id": "a-1-68",
+        "selected_session_id": "a-1-68pre",
+        "excluded_session_ids": [
+          "a-1-68"
+        ],
+        "identity_evidence": "same explicit child ID stem, sex and date of birth",
+        "rule": "earliest eligible recording date"
+      }
+    ],
+    "sli_story_rule": "retain all available canonical stories; do not invent missing narratives"
+  },
+  "selected_age_sex_group_counts": [
+    {
+      "cohort_year": 5,
+      "sex": "female",
+      "group": "SLI",
+      "n_children": 5
+    },
+    {
+      "cohort_year": 5,
+      "sex": "female",
+      "group": "TD",
+      "n_children": 5
+    },
+    {
+      "cohort_year": 5,
+      "sex": "male",
+      "group": "SLI",
+      "n_children": 4
+    },
+    {
+      "cohort_year": 5,
+      "sex": "male",
+      "group": "TD",
+      "n_children": 4
+    },
+    {
+      "cohort_year": 6,
+      "sex": "female",
+      "group": "SLI",
+      "n_children": 13
+    },
+    {
+      "cohort_year": 6,
+      "sex": "female",
+      "group": "TD",
+      "n_children": 13
+    },
+    {
+      "cohort_year": 6,
+      "sex": "male",
+      "group": "SLI",
+      "n_children": 19
+    },
+    {
+      "cohort_year": 6,
+      "sex": "male",
+      "group": "TD",
+      "n_children": 19
+    },
+    {
+      "cohort_year": 7,
+      "sex": "female",
+      "group": "SLI",
+      "n_children": 21
+    },
+    {
+      "cohort_year": 7,
+      "sex": "female",
+      "group": "TD",
+      "n_children": 21
+    },
+    {
+      "cohort_year": 7,
+      "sex": "male",
+      "group": "SLI",
+      "n_children": 29
+    },
+    {
+      "cohort_year": 7,
+      "sex": "male",
+      "group": "TD",
+      "n_children": 29
+    }
+  ],
+  "story_rows": 543,
+  "stories_by_group": {
+    "SLI": 270,
+    "TD": 273
+  },
+  "incomplete_selected_children": [
+    {
+      "group": "SLI",
+      "source_child_id": "a-2-07",
+      "available_stories": [
+        "McDonalds",
+        "LateForSchool"
+      ]
+    },
+    {
+      "group": "SLI",
+      "source_child_id": "a-2-19",
+      "available_stories": [
+        "McDonalds",
+        "Aliens"
+      ]
+    },
+    {
+      "group": "SLI",
+      "source_child_id": "a-3-29",
+      "available_stories": [
+        "LateForSchool",
+        "Aliens"
+      ]
+    }
+  ],
+  "intended_use": "external classifier evaluation only; never model selection, training, validation or ENNI descriptive reference"
+}

@@ -1,71 +1,38 @@
 # ICL-PILOT
 
-Reusable tools for synthetic child-narrative generation, CHAT processing,
-linguistic feature preparation and evaluation.
+The definitive study evaluates whether three instruction-tuned language models can generate ENNI narratives that preserve developmental and clinical language patterns and support TD-versus-DLD classification.
 
-**The previous study is frozen on TranscendBU. The revised protocol is pending.**
-See [the archive index](docs/provenance/study_freeze_2026-10-16.md) for the complete
-working-tree snapshot, earlier archives and restoration instructions. Historical
-data, measurements and results have been retired locally after hash verification.
+## Study design
 
-| Interface | Purpose and status |
-| --- | --- |
-| [Generation and annotation](notebooks/colab_direct_generation_pipeline.ipynb) | Revised story counterbalancing, a pinned official Llama generator and a 640-new-token ceiling per stage; other protocol decisions pending. |
-| [Framework evaluation](notebooks/synthtexteval_demo.ipynb) | Retained evaluation implementation; two input paths are pending. |
-| [R analysis](notebooks/clinical_analyses_reordered.Rmd) | Retained statistical models; five input paths and protocol review are pending. |
+- Real reference: 238 children aged 4–7 years, 190 TD and 48 SLI-labelled.
+- Prompt selection: 48 age-matched TD–SLI pairs, organized into 18 age-specific generation batches.
+- Models: Llama-3.1-8B-Instruct, Qwen3-8B with thinking disabled, and Gemma-2-9B-IT.
+- Stage 1 generates from a story scaffold and a cross-story TD exemplar. Stage 2 rewrites that same model's exact output with a cross-story SLI exemplar.
+- Six targets and ten replicates yield 2,880 stories per stage per model, 480 six-story bundles per stage per model, and 17,280 stories overall.
+- Sampling: temperature 0.8, top-p 0.9, top-k 0, 640 new tokens per stage. Seed 42 initializes each model run once.
 
-Saved notebook outputs, older R variants and rendered reports are preserved in
-the freeze. Retained interfaces have clear status notices and clean execution
-outputs. The cleanup did not approve a revised scientific design or rerun results.
+The procedure is evaluated as one practical design. Stage changes combine rewriting and exemplar conditioning.
 
-| Folder | Role |
-| --- | --- |
-| [src/](src/README.md) | Reusable Python package grouped by responsibility. |
-| [configs/](configs/README.md) | Preserved generation assets and explicit pending analysis/evaluation inputs. |
-| [notebooks/](notebooks/) | The three maintained execution interfaces. |
-| [data/](data/README.md) | Inputs and generated outputs needed by future active runs. |
-| [results/](results/README.md) | Outputs from separately identified evaluation runs. |
-| [docs/](docs/README.md) | Workflow guides, pending decisions, historical context and archive provenance. |
-| [tests/](tests/) | Python and base-R regression checks. |
-| [tools/chatter/](tools/chatter/README.md) | Verified local CHAT validator and source record. |
+## Working files
 
-Start with [the revised-study setup note](docs/guides/revised_study_setup.md).
-The generation interface can run a software smoke check (`SMOKE_TEST=True`;
-twelve jobs by default). On 20 October 2026, the author adopted revised story
-counterbalancing in `enni_staged_4_to_7_counterbalance_v2` and corrected the generator
-to `meta-llama/Llama-3.1-8B-Instruct`, with a pinned revision. See the
-[model-selection note](docs/guides/model_selection.md) for rationale and proposed
-comparisons within one Colab GPU. On 21 October, the output ceiling was raised to
-640 new tokens for both stages based on real-story lengths. The author then
-selected temperature 0.8 and top-p 0.9 for both stages and all cohorts, then removed
-age/status and directional length cues from prompt instructions. The current
-reviewed generation/rewriting pair shares story-information fields and guidance;
-story/exemplar and replicate IDs remain in logs. Canonical story content,
-the exemplar CSV and child roster retain the earlier baseline. Further protocol
-review remains pending. New generation requires a fresh run folder; Colab
-supplies its own runtime and cannot use arbitrary local Mac paths.
+| Location | Purpose |
+|---|---|
+| [Generation configuration](configs/generation/README.md) | Model pins, prompts, story scaffolds, prepared exemplars and the definitive pair roster. |
+| [Generation notebook](notebooks/colab_direct_generation_pipeline.ipynb) | Generation, CHAT conversion and TalkTag annotation. |
+| [Framework notebook](notebooks/synthtexteval_demo.ipynb) | Shared splits, BERT classifiers and corpus diagnostics. |
+| [Domain analysis](notebooks/clinical_analyses_reordered.Rmd) | Linguistic analysis code; feature inputs and statistical revisions are pending. |
+| [Documentation](docs/README.md) | Current methods and execution guides. |
+| [Reproducibility](docs/reproducibility/README.md) | Source integrity, participant selection, roster and tokenizer checks. |
 
-Before evaluation, supply the intended experiment's files in:
+## Execution
 
-- [configs/analysis/inputs.R](configs/analysis/inputs.R): five R input paths.
-- [configs/evaluation/inputs.json](configs/evaluation/inputs.json): two framework input paths.
+Install the project dependencies in the intended runtime. Colab uses its own environment. From the repository root:
 
-Both evaluation entry points stop before data processing while inputs are pending.
-The current framework settings, raw-feature definitions and statistical models
-remain available for review. New data/schema compatibility and the revised design
-still require validation once the inputs exist. New framework results use fresh
-folders under `results/framework_based_evaluation/`; R figures use dated folders
-under `results/linguistic_evaluation/`.
+    PYTHONPATH=src python -m icl_pilot validate-layout
+    PYTHONPATH=src python -m icl_pilot show-manifest --limit 5
+    PYTHONPATH=src python -m pytest -q
+    Rscript --vanilla tests/test_r_analysis_inputs.R
 
-From the repository root:
+The notebooks stop before scientific evaluation when their required inputs are absent. Configure the four pending feature paths in [R inputs](configs/analysis/inputs.R) and the two combined text inputs in [framework inputs](configs/evaluation/inputs.json). The definitive roster is already selected.
 
-```bash
-PYTHONPATH=src python -m icl_pilot validate-layout
-PYTHONPATH=src python -m icl_pilot show-manifest --limit 5
-PYTHONPATH=src python -m pytest -q
-Rscript --vanilla tests/test_r_analysis_inputs.R
-```
-
-The configured local `.venv/` was backed up and its installed packages recorded.
-It remains locally because the PyCharm project interpreter points to it. Git
-history and the current uncommitted state are included in the full freeze.
+Scientific generation, fresh feature extraction, domain statistical revisions and classifier fitting remain to be completed. Local software checks are not scientific results.

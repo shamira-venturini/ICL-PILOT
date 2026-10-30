@@ -10,6 +10,7 @@ import subprocess
 import pytest
 
 from icl_pilot.chat.generated_chat import convert_generated_story_csv_to_cha, repair_generated_chat_types
+from segmentation_stub import StubSegmenter
 
 
 def write_csv(path: Path, rows: list[dict[str, str]]) -> Path:
@@ -24,10 +25,10 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> Path:
 def row() -> dict[str, str]:
     return {
         "cohort": "4-year-old", "round_id": "round_01",
-        "bundle_id": "pair_sli474_td459_rep01", "pair_id": "pair_sli474_td459",
+        "bundle_id": "pair_sli474_td405_rep01", "pair_id": "pair_sli474_td405",
         "replicate_id": "1", "target_story": "A1",
-        "td_child_id": "459", "sli_child_id": "474",
-        "td_age": "4;08.04", "sli_age": "4;08.18",
+        "td_child_id": "405", "sli_child_id": "474",
+        "td_age": "4;08.15", "sli_age": "4;08.18",
         "stage1_group": "TD", "stage2_group": "SLI",
         "stage1_td_story": "The elephant ran. He got the ball!",
         "stage2_sli_story": "Elephant run. He get ball.",
@@ -38,6 +39,10 @@ def row() -> dict[str, str]:
 
 def convert(tmp_path: Path, rows: list[dict[str, str]], **kwargs):
     source = write_csv(tmp_path / "source.csv", rows)
+    kwargs.setdefault("segmenter", StubSegmenter())
+    # Use the definitive study roster for all metadata checks.
+    kwargs.setdefault("roster_csv", Path(__file__).resolve().parents[1] /
+                      "configs/generation/master_frozen_roster_enni_2026-10-28.csv")
     return convert_generated_story_csv_to_cha(
         input_csv=source, output_dir=tmp_path / "chat", **kwargs,
     )
@@ -67,8 +72,27 @@ def test_export_preserves_text_and_records_actual_parents_and_hashes(tmp_path, r
     assert [line for line in td_text.splitlines() if line.startswith("*CHI:")] == [
         "*CHI:\tThe elephant ran .", "*CHI:\tHe got the ball !",
     ]
-    assert "|CHI|4;08.04||TD|" in td_text
+    assert "|CHI|4;08.15||TD|" in td_text
     assert "@Comment:\tparent_prompt_record_id=td_prompt_1" in Path(sli["output_path"]).read_text()
+
+
+def test_export_preserves_generation_model_identity_in_chat_and_manifest(tmp_path, row):
+    row.update(run_id="enni_smoke_qwen3_8b_test", model_key="qwen3_8b", model_id="Qwen/Qwen3-8B",
+               model_revision="b968826d9c46dd6066d109eabc6255188de91218", master_seed="42", seed_policy="run_level")
+    output = convert(tmp_path, [row])
+    with output["manifest_csv"].open() as handle:
+        records = list(csv.DictReader(handle))
+    for record in records:
+        text = Path(record["output_path"]).read_text()
+        for field in ("run_id", "model_key", "model_id", "model_revision", "master_seed", "seed_policy"):
+            assert record[field] == row[field]
+            assert f"@Comment:\t{field}={row[field]}\n" in text
+
+
+def test_model_metadata_cannot_inject_chat_lines(tmp_path, row):
+    row["model_id"] = "Qwen/Qwen3-8B\n@End"
+    with pytest.raises(ValueError, match="Control characters"):
+        convert(tmp_path, [row])
 
 
 @pytest.mark.parametrize("field", ["stage1_td_story", "stage2_sli_story"])
@@ -180,7 +204,7 @@ def test_blank_age_and_child_cells_use_checked_roster(tmp_path, row):
     output = convert(tmp_path, [row])
     with output["manifest_csv"].open() as handle:
         td, sli = csv.DictReader(handle)
-    assert (td["age"], td["source_child_id"]) == ("4;08.04", "459")
+    assert (td["age"], td["source_child_id"]) == ("4;08.15", "405")
     assert (sli["age"], sli["source_child_id"]) == ("4;08.18", "474")
     assert td["age_source"] == sli["source_child_id_source"] == "roster"
 
@@ -316,22 +340,30 @@ def test_malformed_or_incomplete_csv_is_rejected(tmp_path, content):
     ("he *coughs* and =whimpers.", ['he &=coughs and &=whimpers .']),
 ])
 def test_chat_formatting_preserves_nonstandard_language_and_valid_notation(tmp_path, row, source, expected):
+    # Preserve the historical formatter's exact regression cases independently;
+    # current export uses the learned-boundary interface instead.
+    from icl_pilot.chat.generated_chat import _normalize_generated_notation, _chat_utterance_lines, _normalize_surface
+    from icl_pilot.chat.segmentation import prepare_narrative
+    normalized, _ = _normalize_generated_notation(_normalize_surface(source))
+    assert _chat_utterance_lines(normalized) == expected
     row["stage1_td_story"] = source
     original = dict(row)
     output = convert(tmp_path, [row])
     chat = next(output["stage1_td_dir"].glob("*.cha")).read_text()
-    assert [line.split("\t", 1)[1] for line in chat.splitlines() if line.startswith("*CHI:")] == expected
+    lines = [line.split("\t", 1)[1] for line in chat.splitlines() if line.startswith("*CHI:")]
+    assert prepare_narrative(" ".join(lines))["words"] == prepare_narrative(normalized)["words"]
     assert row == original
     with output["manifest_csv"].open() as handle:
         records = list(csv.DictReader(handle))
     assert records[0]["source_text_sha256"] == hashlib.sha256(source.encode()).hexdigest()
     assert isinstance(json.loads(records[0]["formatting_changes"]), list)
-    # If explicitly configured, exercise the same official validator as the
-    # corpus audit, including cross-utterance quotation-link checks.
+    # Exercise the same pinned structural/alignment policy as the corpus audit.
     chatter = os.environ.get("ICL_PILOT_CHATTER")
     if chatter:
-        done = subprocess.run([chatter, "validate", str(output["output_dir"]), "--format", "json",
-                               "--force", "--strict-linkers"], capture_output=True, text=True)
+        from icl_pilot.chat.chatter_runtime import verify_chatter
+        tool = verify_chatter(chatter)
+        done = subprocess.run([tool["path"], "validate", str(output["output_dir"]), *tool["validation_args"]],
+                              capture_output=True, text=True)
         assert done.returncode == 0, done.stdout + done.stderr
 
 

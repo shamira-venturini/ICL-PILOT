@@ -10,7 +10,7 @@ import pytest
 from icl_pilot.generation.frozen_roster import build_frozen_roster_manifest
 from icl_pilot.chat.generated_chat import convert_generated_story_csv_to_cha
 from icl_pilot.generation.config import (
-    compile_experiment_design, prepare_colab_generation,
+    compile_experiment_design, load_experiment_config, prepare_colab_generation,
     validate_prompt_evaluation_separation,
 )
 from icl_pilot.generation.workflow import build_rotating_generation_schedule
@@ -24,13 +24,13 @@ def test_default_schedule_balances_exemplar_roles_and_complexity() -> None:
         ROOT / "configs/generation/experiment.json"
     )
     assert config["n_replicates"] == 10
-    assert sum(len(roster) for roster in rosters.values()) == 47
-    assert len(schedule) == 2820
+    assert sum(len(roster) for roster in rosters.values()) == 48
+    assert len(schedule) == 2880
     allocation = schedule.groupby(
         ["pair_id", "target_story", "counterbalance_variant_index"]
     ).size().unstack("counterbalance_variant_index")
     assert set(allocation.columns) == {1, 2}
-    assert len(allocation) == 47 * 6
+    assert len(allocation) == 48 * 6
     assert allocation.eq(5).all().all()
 
     e1_column, e2_column = "prompt_td_story_e1", "prompt_sli_story_e2"
@@ -60,13 +60,29 @@ def test_packaged_exemplars_prepare_all_cohorts_and_match_their_qc_hash(tmp_path
     qc = json.loads(csv_path.with_suffix(".parsing_qc.json").read_text())
     original_csv = csv_path.read_bytes()
     prepared = prepare_colab_generation(config_path, ROOT, tmp_path / "run", n_replicates=1)
-    assert len(prepared.run_df) == 282
+    assert len(prepared.run_df) == 288
     assert set(prepared.run_df["cohort"]) == {"4-year-old", "5-year-old", "6-year-old", "7-year-old"}
     assert prepared.run_df.groupby("pair_id")["target_story"].nunique().eq(6).all()
     manifest = json.loads(prepared.run_manifest_path.read_text())
     assert manifest["split_validation"] == "passed"
+    assert manifest["config"]["model"]["top_k"] == 0
     assert manifest["input_sha256"]["narratives"] == qc["output_csv_sha256"]
     assert csv_path.read_bytes() == original_csv
+    preparation = manifest["exemplar_preparation"]
+    expected = {(str(row.td_child_id), "TD", row.prompt_td_story_e1)
+                for row in prepared.run_df.itertuples(index=False)}
+    expected |= {(str(row.sli_child_id), "SLI", row.prompt_sli_story_e2)
+                 for row in prepared.run_df.itertuples(index=False)}
+    assert preparation["unique_exemplars"] == len(expected)
+    snapshot = tmp_path / "run" / preparation["snapshot_csv"]
+    assert hashlib.sha256(snapshot.read_bytes()).hexdigest() == preparation["snapshot_sha256"]
+    inventory = pd.read_csv(snapshot, dtype={"File_ID": str}, keep_default_na=False)
+    assert set(zip(inventory["File_ID"], inventory["Group"], inventory["story_id"])) == expected
+    assert len(inventory) == len(expected) and inventory["story_text"].str.len().gt(0).all()
+    for column in ("prompt_td_exemplar_story", "prompt_sli_exemplar_story"):
+        assert not prepared.run_df[column].str.contains(
+            r"\((?:\.{1,3}|\d+(?:\.\d+)?)\)|\b(?:xxx|yyy|www)\b|&=", case=False, regex=True
+        ).any()
 
 
 @pytest.fixture
@@ -74,6 +90,7 @@ def experiment(tmp_path: Path) -> Path:
     source = ROOT / "configs/generation"
     config_dir = tmp_path / "config"
     config_dir.mkdir()
+    (config_dir / "models.json").write_bytes((source / "models.json").read_bytes())
     (config_dir / "prompts").mkdir()
     for stage in ("stage1", "stage2"):
         (config_dir / "prompts" / (stage + ".json")).write_bytes((source / "prompts" / (stage + ".json")).read_bytes())
@@ -98,12 +115,31 @@ def experiment(tmp_path: Path) -> Path:
             age = pair.td_age if group == "TD" else pair.sli_age
             for story in stories:
                 rows.append({"File_ID": str(child), "Group": group, "Age_Raw": age, "story_id": story,
-                             "story_text": f"Fixture exemplar {child} {story}."})
+                             "story_text": f"Fixture exemplar {child} {story}.",
+                             "story_units_json": json.dumps([f"Fixture exemplar {child} {story}."]),
+                             "story_unit_count": 1})
     pd.DataFrame(rows).to_csv(tmp_path / "narratives.csv", index=False)
     (config_dir / "reference.json").write_text(json.dumps({story: {"title": story, "units": ["Fixture event."]} for story in stories}))
     path = config_dir / "experiment.json"
     path.write_text(json.dumps(config))
     return path
+
+
+@pytest.mark.parametrize("value", [None, -1, True, 0.0, "0"])
+def test_invalid_top_k_fails_preflight(experiment: Path, value) -> None:
+    config = json.loads(experiment.read_text())
+    config["model"]["top_k"] = value
+    experiment.write_text(json.dumps(config))
+    with pytest.raises(ValueError, match="top_k must be an explicit nonnegative integer"):
+        load_experiment_config(experiment)
+
+
+def test_missing_top_k_cannot_silently_inherit_a_default(experiment: Path) -> None:
+    config = json.loads(experiment.read_text())
+    del config["model"]["top_k"]
+    experiment.write_text(json.dumps(config))
+    with pytest.raises(ValueError, match="top_k must be an explicit nonnegative integer"):
+        load_experiment_config(experiment)
 
 
 def test_setup_creates_complete_jobs_without_changing_rosters(experiment: Path, tmp_path: Path) -> None:
@@ -122,6 +158,88 @@ def test_setup_creates_complete_jobs_without_changing_rosters(experiment: Path, 
     manifest = json.loads(prepared.run_manifest_path.read_text())
     assert manifest["input_sha256"]["roster"] == hashlib.sha256(original).hexdigest()
     assert manifest["input_sha256"]["story_reference"] == hashlib.sha256((experiment.parent / "reference.json").read_bytes()).hexdigest()
+
+
+def test_both_stages_receive_cleaned_exemplars_with_source_provenance(experiment: Path, tmp_path: Path) -> None:
+    from icl_pilot.chat.story_unit_semrp import prepare_extracted_story_csv
+    source = tmp_path / "narratives.csv"
+    data = pd.read_csv(source)
+    data["story_text"] = "her xxx (.) runned &=laughs ."
+    data["story_units_json"] = json.dumps(["her xxx (.) runned &=laughs ."])
+    data.to_csv(source, index=False)
+    original = source.read_bytes()
+    output = prepare_extracted_story_csv(source, tmp_path / "ready.csv")
+    config = json.loads(experiment.read_text())
+    config["inputs"]["narratives_csv"] = output.name
+    experiment.write_text(json.dumps(config))
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    row = next(prepared.run_df.itertuples(index=False))
+    for messages in (prepared.prompt_builder.stage1_messages(row),
+                     prepared.prompt_builder.stage2_messages(row, "unchanged parent .")):
+        assert "her runned ." in messages[1]["content"]
+        assert "xxx" not in messages[1]["content"] and "&=" not in messages[1]["content"]
+    manifest = json.loads(prepared.run_manifest_path.read_text())
+    audit = manifest["exemplar_preparation"]
+    assert audit["generation_action"] == "validate_and_select_only"
+    assert audit["performed_at"] == "chat_to_csv_extraction"
+    assert audit["extraction_qc"]["text_preparation"]["changed_stories"] == len(data)
+    assert manifest["input_sha256"]["narratives"] == hashlib.sha256(output.read_bytes()).hexdigest()
+    assert source.read_bytes() == original
+
+
+def test_unusable_exemplars_fail_before_writing_a_run(experiment: Path, tmp_path: Path) -> None:
+    source = tmp_path / "narratives.csv"
+    data = pd.read_csv(source)
+    data.loc[0, "story_text"] = "xxx (.) &=laughs ."
+    data.loc[0, "story_units_json"] = json.dumps(["xxx (.) &=laughs ."])
+    data.to_csv(source, index=False)
+    with pytest.raises(ValueError, match="CHAT-to-CSV extraction"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    assert not (tmp_path / "run").exists()
+
+
+def test_unknown_exemplar_preparation_policy_fails_before_writing_a_run(experiment: Path, tmp_path: Path) -> None:
+    config = json.loads(experiment.read_text())
+    config["exemplar_preparation"]["policy"] = "unknown_policy"
+    experiment.write_text(json.dumps(config))
+    with pytest.raises(ValueError, match="exemplar_preparation policy"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    assert not (tmp_path / "run").exists()
+
+
+def test_generation_only_validates_prepared_text_and_does_not_call_cleaner(experiment, tmp_path, monkeypatch):
+    from icl_pilot.chat import text_cleaning
+    def forbidden(*args, **kwargs):
+        raise AssertionError("cleanup must already have happened during extraction")
+    monkeypatch.setattr(text_cleaning, "prepare_extracted_story", forbidden)
+    prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    assert len(prepared.run_df) == 48
+
+
+@pytest.mark.parametrize("wrong", ["hash", "policy", "stage"])
+def test_generation_checks_available_extraction_audit(experiment, tmp_path, wrong):
+    source = tmp_path / "narratives.csv"
+    qc = {"output_csv_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+          "text_preparation": {"policy": "chat-story-text-v3", "performed_at": "chat_to_csv_extraction"}}
+    if wrong == "hash": qc["output_csv_sha256"] = "wrong"
+    if wrong == "policy": qc["text_preparation"]["policy"] = "wrong"
+    if wrong == "stage": qc["text_preparation"]["performed_at"] = "generation"
+    source.with_suffix(".parsing_qc.json").write_text(json.dumps(qc))
+    with pytest.raises(ValueError, match="extraction QC/policy"):
+        prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
+    assert not (tmp_path / "run").exists()
+
+
+def test_packaged_text_matches_its_definitive_extraction_hashes():
+    import csv
+    source = ROOT / "configs/generation/inputs/story_unit_narratives_enni_2026-10-28.csv"
+    audited = ROOT / "docs/reproducibility/tokenizer_audit/per_story.csv"
+    with source.open() as handle: rows = list(csv.DictReader(handle))
+    with audited.open() as handle: references = list(csv.DictReader(handle))
+    assert len(rows) == len(references) == 2160
+    for row, reference in zip(rows, references):
+        assert hashlib.sha256(row["story_text"].encode()).hexdigest() == reference["prepared_text_sha256"]
+        assert " ".join(json.loads(row["story_units_json"])) == row["story_text"]
 
 
 def test_master_cannot_mix_cohorts_into_one_round(experiment: Path) -> None:
@@ -192,16 +310,16 @@ def test_changed_inputs_cannot_reuse_run_directory(experiment: Path, tmp_path: P
     prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
     manifest = prepared.run_manifest_path.read_bytes()
     config = json.loads(experiment.read_text())
-    config["seed"] += 1
+    config["master_seed"] += 1
     experiment.write_text(json.dumps(config))
-    with pytest.raises(ValueError, match="Run inputs changed"):
+    with pytest.raises(ValueError, match="master_seed=42"):
         prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
     assert prepared.run_manifest_path.read_bytes() == manifest
 
 
 @pytest.mark.parametrize("setting,value", [
     ("max_new_tokens_stage1", 641), ("max_new_tokens_stage2", 641),
-    ("temperature", 0.85), ("top_p", 0.92),
+    ("temperature", 0.85), ("top_p", 0.92), ("top_k", 50),
 ])
 def test_changed_decoding_setting_requires_fresh_run(experiment: Path, tmp_path: Path, setting: str, value) -> None:
     prepared = prepare_colab_generation(experiment, tmp_path, tmp_path / "run")
@@ -274,7 +392,7 @@ def test_exemplar_age_mismatch_is_rejected(experiment: Path, tmp_path: Path) -> 
 
 
 def test_reconciled_pairs_export_known_TD_ages(tmp_path: Path) -> None:
-    roster = pd.read_csv(ROOT / "configs/generation/master_frozen_roster_4_to_7_year_old.csv")
+    roster = pd.read_csv(ROOT / "configs/generation/master_frozen_roster_enni_2026-10-28.csv")
     selected = roster.loc[roster["sli_child_id"].isin([474, 475])]
     rows = [{"bundle_id": row.pair_id + "_rep01", "pair_id": row.pair_id,
              "target_story": "A1", "sli_age": row.sli_age,
@@ -283,9 +401,11 @@ def test_reconciled_pairs_export_known_TD_ages(tmp_path: Path) -> None:
             for row in selected.itertuples(index=False)]
     source = tmp_path / "generation.csv"
     pd.DataFrame(rows).to_csv(source, index=False)
-    output = convert_generated_story_csv_to_cha(input_csv=source, output_dir=tmp_path / "chat")
+    from segmentation_stub import StubSegmenter
+    output = convert_generated_story_csv_to_cha(input_csv=source, output_dir=tmp_path / "chat", segmenter=StubSegmenter(),
+        roster_csv=ROOT / "configs/generation/master_frozen_roster_enni_2026-10-28.csv")
     manifest = pd.read_csv(output["manifest_csv"], keep_default_na=False)
-    assert set(manifest.loc[manifest["stage"] == "stage1_td", "age"]) == {"4;07.26", "4;08.04"}
+    assert set(manifest.loc[manifest["stage"] == "stage1_td", "age"]) == {"4;08.10", "4;08.15"}
 
 
 def test_replicate_override_is_recorded_without_editing_study_config(experiment, tmp_path):

@@ -1,0 +1,16 @@
+{
+  "roster_path": "configs/generation/master_frozen_roster_enni_2026-10-28.csv",
+  "sha256": "b3add45a9918d9a29b8a811b2b4e4fb43d131e2b47be0af6dbb6825b3736b5d7",
+  "pairs": 48,
+  "mean_age_gap_months": 0.10410416666666666,
+  "max_age_gap_months": 0.433,
+  "cohort_pairs": {
+    "4-year-old": 11,
+    "5-year-old": 13,
+    "6-year-old": 11,
+    "7-year-old": 13
+  },
+  "generation_batches": 18,
+  "jobs_per_model": 2880,
+  "narratives_all_three_models": 17280
+}

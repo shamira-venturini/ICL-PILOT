@@ -1,21 +1,13 @@
-# Local CHAT validator
+# CHAT validator
 
-`chatter` is the previously verified Chatter 0.30.0 executable, relocated from
-the temporary conversion audit without changing its bytes. It is ignored by
-Git. [`source.json`](source.json) records its release URL, original platform,
-version output, download hash and executable hash.
+configs/validation/chatter.json pins the native Chatter archive/binary checksums and required validation options. The local executable is ignored by Git.
 
-From the repository root:
+chat.chatter_runtime installs or selects the verified binary. chat.validation runs fresh read-only checks and verifies complete coverage and configuration/source hashes. The annotation wrapper independently enforces input and final-output validation.
 
-```bash
-tools/chatter/chatter validate PATH_TO_CHAT_FILES --force --strict-linkers --format json
-```
+Do not suppress diagnostics or run automatic fix/normalize commands. Chatter establishes structural validity; separate checks establish word/header/tier preservation. Neither certifies linguistic annotation accuracy.
 
-To include the native validator in the formatting regression tests, set
-`ICL_PILOT_CHATTER` to the absolute path of this executable before running
-`tests/test_generated_chat.py`. Other platforms need their corresponding
-Chatter executable; this local copy is the recorded macOS x86-64 build.
-
-Historical validation reports are under `docs/provenance/`; the current
-generated-transcript reports are under `data/qc/`. The full original tool
-download and audit tree remain in the verified external outputs archive.
+Use standard structural and dependent-tier alignment validation. The optional
+`--strict-linkers` mode is not enabled for real or synthetic CHAT: cross-utterance
+quotation/completion marker relationships are outside the study outcomes. Keep
+original markers and utterance boundaries. This choice does not disable parsing,
+alignment, complete fresh coverage or source-preservation checks.

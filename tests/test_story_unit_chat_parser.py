@@ -9,6 +9,7 @@ import pytest
 
 from icl_pilot.chat.story_unit_semrp import (
     _iter_story_utterances, _parse_age_group, extract_story_unit_narratives,
+    prepare_extracted_story_csv,
 )
 
 
@@ -71,9 +72,9 @@ def test_orphan_annotation_blocks_cannot_enter_child_narrative() -> None:
         _iter_story_utterances(text)
 
 
-def test_legacy_surface_policy_is_preserved_instead_of_correcting_child_grammar() -> None:
+def test_extraction_removes_agreed_notation_without_correcting_child_grammar() -> None:
     text = "@G: A1\n*CHI: <her> [//] her runned [: ran] [* m:ed] (.) xxx &=whispers .\n"
-    assert _iter_story_utterances(text) == {"A1": ["her her runned (.) xxx &=whispers ."]}
+    assert _iter_story_utterances(text) == {"A1": ["her her runned ."]}
 
 
 @pytest.mark.parametrize("delimiter,expected", [
@@ -152,3 +153,53 @@ def test_missing_transcript_root_does_not_write_an_empty_table(tmp_path: Path) -
     with pytest.raises(FileNotFoundError, match="transcript root"):
         extract_story_unit_narratives(str(tmp_path / "missing"), str(output))
     assert not output.exists()
+
+
+def test_extraction_csv_is_already_clean_and_reports_deletions(tmp_path):
+    root = tmp_path / "chat"
+    root.mkdir()
+    transcript = root / "410.cha"
+    transcript.write_text('@ID: eng|ENNI|CHI|4;01.00||TD|||\n@G: A1\n'
+                          '*CHI: her xxx [: she] (.) runned [* m:ed] &=whispers .\n'
+                          '*CHI: xxx .\n*CHI: [= annotator comment] .\n'
+                          '*EXA: do not include this .\n%com: do not include this either .\n')
+    source = transcript.read_bytes()
+    path = tmp_path / "stories.csv"
+    extract_story_unit_narratives(str(root), str(path))
+    with path.open() as handle: row = next(csv.DictReader(handle))
+    assert row["story_text"] == "her runned ."
+    assert json.loads(row["story_units_json"]) == ["her runned ."]
+    assert row["story_unit_count"] == "1"
+    qc = json.loads(path.with_suffix(".parsing_qc.json").read_text())
+    assert qc["parser_version"] == "chat-story-v3"
+    assert qc["text_preparation"]["performed_at"] == "chat_to_csv_extraction"
+    audit = qc["sources"][0]["text_preparation"][0]
+    assert audit["source_utterances"] == 3 and audit["dropped_non_speech_utterances"] == 2
+    assert audit["removed"] == {"annotator_annotations": 3, "pause_markers": 1,
+                                "unintelligible_markers": 2, "non_speech_codes": 1}
+    assert transcript.read_bytes() == source
+
+
+def test_preparing_saved_extraction_preserves_identity_and_links_its_origin(tmp_path):
+    source, output = tmp_path / "v2.csv", tmp_path / "v3.csv"
+    fields = ["File_ID", "Group", "Age_Raw", "Age_Month", "transcript_path", "story_id",
+              "story_unit_count", "story_units_json", "story_text"]
+    units = ["her xxx [: she] runned (.) &=laughs .", "xxx ."]
+    original = {"File_ID": "0410", "Group": "SLI", "Age_Raw": "4;01.00", "Age_Month": "49",
+                "transcript_path": "/archived/0410.cha", "story_id": "A1", "story_unit_count": "2",
+                "story_units_json": json.dumps(units), "story_text": " ".join(units)}
+    with source.open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerow(original)
+    before = source.read_bytes()
+    prepare_extracted_story_csv(source, output)
+    with output.open() as handle: actual = next(csv.DictReader(handle))
+    assert actual["story_text"] == "her runned ." and actual["story_unit_count"] == "1"
+    assert {key: actual[key] for key in fields[:6]} == {key: original[key] for key in fields[:6]}
+    assert source.read_bytes() == before
+    qc = json.loads(output.with_suffix(".parsing_qc.json").read_text())
+    assert qc["source_chat_reparsed"] is False
+    assert qc["source_csv_sha256"] == hashlib.sha256(before).hexdigest()
+    assert qc["records"][0]["removed"]["annotator_annotations"] == 1
+    with pytest.raises(FileExistsError): prepare_extracted_story_csv(source, output)

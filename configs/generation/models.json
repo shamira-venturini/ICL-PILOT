@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "models": {
+    "llama3_1_8b": {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "family": "llama",
+      "turn_end_token": "<|eot_id|>",
+      "chat_template_kwargs": {}
+    },
+    "qwen3_8b": {
+      "id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "family": "qwen3",
+      "turn_end_token": "<|im_end|>",
+      "chat_template_kwargs": {"enable_thinking": false}
+    },
+    "gemma2_9b": {
+      "id": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "family": "gemma2",
+      "turn_end_token": "<end_of_turn>",
+      "chat_template_kwargs": {}
+    }
+  }
+}

@@ -258,6 +258,10 @@ def _repair_quote_layout(lines: list[str]) -> list[str]:
 
 
 def _chat_utterance_lines(text: str, *, formatting_changes: list[dict[str, str]] | None = None) -> list[str]:
+    """Historical punctuation/quotation formatter, retained for audit tests only.
+
+    Active CSV conversion uses whole-narrative Batchalign segmentation instead.
+    """
     normalized = _normalize_surface(text)
     if not normalized:
         return []
@@ -332,11 +336,10 @@ def _build_chat_text(
     age: str,
     group: str,
     story_id: str,
-    story_text: str,
+    utterances: list[str],
     comments: list[str],
     formatting_changes: list[dict[str, str]] | None = None,
 ) -> str:
-    utterances = _chat_utterance_lines(story_text, formatting_changes=formatting_changes)
     if not utterances:
         raise ValueError("Cannot write CHAT file for empty story text")
 
@@ -499,13 +502,22 @@ def convert_generated_story_csv_to_cha(
     output_dir: str | Path,
     roster_csv: str | Path | None = FROZEN_ROSTER_CSV,
     corpus_name: str = "ICL-PILOT",
+    segmenter=None,
 ) -> dict[str, Path]:
-    """Validate a complete two-stage CSV, then export to a fresh directory.
+    """Validate a two-stage CSV, segment complete narratives and export CHAT.
 
     Existing transcripts are never overwritten. All rows are checked before
-    writing; an I/O failure can leave a partial new directory for inspection.
+    inference/writing; failures retain new diagnostics for inspection.
     Pass ``roster_csv=None`` only for a CSV containing its own ages and child IDs.
     """
+    plan = plan_generated_story_csv(input_csv=input_csv, output_dir=output_dir,
+                                    roster_csv=roster_csv, corpus_name=corpus_name)
+    return export_chat_plans([plan], segmenter=segmenter)[0]
+
+
+def plan_generated_story_csv(*, input_csv: str | Path, output_dir: str | Path,
+                             roster_csv=FROZEN_ROSTER_CSV, corpus_name="ICL-PILOT") -> dict:
+    """Read-only complete metadata preflight; no model imports or file writes."""
     input_path = Path(input_csv).expanduser().resolve()
     out_dir = Path(output_dir).expanduser().resolve()
     if out_dir.exists():
@@ -523,7 +535,7 @@ def convert_generated_story_csv_to_cha(
         "stage2_sli": out_dir / "stage2_sli",
     }
     manifest_rows: list[dict[str, str]] = []
-    planned_files: dict[Path, str] = {}
+    planned_files: dict[Path, dict] = {}
     seen_prompt_ids: set[str] = set()
     for row_number, row in enumerate(rows, start=2):
         pair_id = _safe_id(row["pair_id"], "pair_id")
@@ -609,20 +621,22 @@ def convert_generated_story_csv_to_cha(
             comments.append(f"source_child_id={child_id}")
             if cohort:
                 comments.append(f"cohort={cohort}")
+            model_metadata = {field: str(row.get(field, "")) for field in
+                              ("run_id", "model_key", "model_id", "model_revision", "master_seed", "seed_policy")}
+            for field, value in model_metadata.items():
+                if re.search(r"[\x00-\x1f\x7f]", value):
+                    raise ValueError(f"Control characters in generated {field} metadata.")
+                if value:
+                    comments.append(f"{field}={value}")
             for field in ("prompt_record_id", "parent_prompt_record_id"):
                 if spec[field]:
                     comments.append(f"{field}={spec[field]}")
 
-            chat_text = _build_chat_text(
-                corpus_name=corpus_name,
-                age=age,
-                group=spec["group"],
-                story_id=story_id,
-                story_text=story_text,
-                comments=comments,
-                formatting_changes=formatting_changes,
-            )
-            planned_files[output_path] = chat_text
+            from .segmentation import prepare_narrative
+            prepare_narrative(story_text)  # All narratives must be tokenizable before inference.
+            planned_files[output_path] = {"corpus_name": corpus_name, "age": age,
+                "group": spec["group"], "story_id": story_id, "story_text": story_text,
+                "comments": comments, "formatting_changes": formatting_changes}
             manifest_rows.append(
                 {
                     "source_csv": str(input_path),
@@ -637,33 +651,101 @@ def convert_generated_story_csv_to_cha(
                     "age": age,
                     "output_path": str(output_path),
                     "cohort": cohort,
+                    **model_metadata,
                     "age_source": age_source,
                     "source_child_id_source": child_source,
                     "prompt_record_id": spec["prompt_record_id"],
                     "parent_prompt_record_id": spec["parent_prompt_record_id"],
                     "source_csv_sha256": source_hash,
-                    "chat_sha256": hashlib.sha256(chat_text.encode("utf-8")).hexdigest(),
                     "source_text_sha256": hashlib.sha256(spec["text"].encode("utf-8")).hexdigest(),
                     "formatting_changes": json.dumps(formatting_changes, ensure_ascii=False, separators=(",", ":")),
                 }
             )
 
-    # No destination is created until the entire input has passed preflight.
-    out_dir.mkdir(parents=True, exist_ok=False)
-    for stage_dir in stage_dirs.values():
-        stage_dir.mkdir()
-    for output_path, chat_text in planned_files.items():
-        with output_path.open("x", encoding="utf-8", newline="") as handle:
-            handle.write(chat_text)
-    manifest_path = out_dir / "chat_manifest.csv"
-    with manifest_path.open("x", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(manifest_rows[0].keys()))
-        writer.writeheader()
-        writer.writerows(manifest_rows)
+    return {"output_dir": out_dir, "stage_dirs": stage_dirs, "planned_files": planned_files,
+            "manifest_rows": manifest_rows, "source_csv": input_path, "source_csv_sha256": source_hash}
 
-    return {
-        "output_dir": out_dir,
-        "manifest_csv": manifest_path,
-        "stage1_td_dir": stage_dirs["stage1_td"],
-        "stage2_sli_dir": stage_dirs["stage2_sli"],
-    }
+
+def export_chat_plans(plans: list[dict], *, segmenter=None, report_dir: str | Path | None = None) -> list[dict]:
+    """Batch all selected cohorts/stages through one segmentation-model load."""
+    from .segmentation import BatchalignSegmenter, POLICY, prepare_narrative, render_segmented_narrative
+    from ..generation.recovery import atomic_json
+    destinations = [plan["output_dir"] for plan in plans]
+    if not plans or len(destinations) != len(set(destinations)):
+        raise ValueError("Select distinct nonempty CHAT export plans.")
+    if any(a in b.parents or b in a.parents for i, a in enumerate(destinations) for b in destinations[i + 1:]):
+        raise ValueError("CHAT export destinations must not overlap.")
+    prompt_ids = [record["prompt_record_id"] for plan in plans for record in plan["manifest_rows"]
+                  if record["prompt_record_id"]]
+    if len(prompt_ids) != len(set(prompt_ids)):
+        raise ValueError("Prompt record IDs are reused across selected CSVs.")
+    for plan in plans:
+        if plan["output_dir"].exists():
+            raise FileExistsError("CHAT output directory already exists; choose a fresh directory: " + str(plan["output_dir"]))
+        if hashlib.sha256(plan["source_csv"].read_bytes()).hexdigest() != plan["source_csv_sha256"]:
+            raise ValueError("Source CSV changed after conversion preflight.")
+    texts = [record["story_text"] for plan in plans for record in plan["planned_files"].values()]
+    # No destination is created until every selected CSV has passed preflight.
+    for destination in destinations:
+        destination.mkdir(parents=True, exist_ok=False)
+    report_dir = Path(report_dir) if report_dir is not None else destinations[0] / "segmentation"
+    results, metadata = (segmenter or BatchalignSegmenter()).segment_many(texts, report_dir)
+    for plan in plans:
+        if hashlib.sha256(plan["source_csv"].read_bytes()).hexdigest() != plan["source_csv_sha256"]:
+            raise ValueError("Source CSV changed during segmentation; no CHAT files exported.")
+    if len(results) != len(texts):
+        raise ValueError("Incomplete segmentation coverage; no CHAT files exported.")
+    # Reconstruct from recorded actions here rather than trusting returned text.
+    checked = []
+    for text, result in zip(texts, results):
+        regenerated = render_segmented_narrative(prepare_narrative(text), result["actions"])
+        if regenerated != result:
+            raise ValueError("Segmentation response changed words or has inconsistent provenance.")
+        checked.append(regenerated)
+    returned, cursor = [], 0
+    for plan in plans:
+        out_dir, stage_dirs = plan["output_dir"], plan["stage_dirs"]
+        records, planned = plan["manifest_rows"], plan["planned_files"]
+        audit = []
+        for index, ((output_path, spec), record) in enumerate(zip(planned.items(), records)):
+            request_index = cursor
+            result = checked[cursor]
+            cursor += 1
+            comments = spec["comments"] + ["segmentation_policy=" + POLICY]
+            chat_text = _build_chat_text(corpus_name=spec["corpus_name"], age=spec["age"],
+                group=spec["group"], story_id=spec["story_id"], utterances=result["utterances"],
+                comments=comments, formatting_changes=spec["formatting_changes"])
+            audit.append({"index": index, "runtime_request_index": request_index, "output_path": str(output_path),
+                          "source_text_sha256": record["source_text_sha256"],
+                          "prepared_text_sha256": result["source_text_sha256"],
+                          **{key: value for key, value in result.items() if key != "source_text_sha256"},
+                          "prompt_record_id": record["prompt_record_id"],
+                          "parent_prompt_record_id": record["parent_prompt_record_id"]})
+            record.update(chat_sha256=hashlib.sha256(chat_text.encode("utf-8")).hexdigest(),
+                          segmentation_policy=POLICY, segmentation_index=index,
+                          segmentation_request_index=request_index,
+                          segmentation_record_sha256=hashlib.sha256(json.dumps(audit[-1], sort_keys=True,
+                              ensure_ascii=False).encode("utf-8")).hexdigest())
+            spec["chat_text"] = chat_text
+        for stage_dir in stage_dirs.values():
+            stage_dir.mkdir()
+        for output_path, spec in planned.items():
+            with output_path.open("x", encoding="utf-8", newline="") as handle:
+                handle.write(spec["chat_text"])
+        audit_path = out_dir / "segmentation_records.jsonl"
+        with audit_path.open("x", encoding="utf-8") as handle:
+            for record in audit:
+                handle.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
+        atomic_json(out_dir / "segmentation_provenance.json", {"policy": POLICY, "runtime": metadata,
+            "report_dir": str(report_dir.resolve()), "records_sha256": hashlib.sha256(audit_path.read_bytes()).hexdigest(),
+            "source_csv_sha256": plan["source_csv_sha256"], "narratives": len(audit),
+            "chat_validation": "pending_required_chatter_gate", "linguistic_boundary_review": "pending"})
+        manifest_path = out_dir / "chat_manifest.csv"
+        with manifest_path.open("x", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(records[0].keys()))
+            writer.writeheader()
+            writer.writerows(records)
+        returned.append({"output_dir": out_dir, "manifest_csv": manifest_path,
+            "stage1_td_dir": stage_dirs["stage1_td"], "stage2_sli_dir": stage_dirs["stage2_sli"],
+            "segmentation_records": audit_path})
+    return returned

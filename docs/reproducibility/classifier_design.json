@@ -1,0 +1,2293 @@
+{
+  "schema_version": 2,
+  "real_children": 238,
+  "TD": 190,
+  "SLI": 48,
+  "real_stories": 1428,
+  "n_classifier_folds": 5,
+  "generation_batches": 18,
+  "split_policy": {
+    "n_splits": 5,
+    "seed": 42,
+    "validation": "next_fold"
+  },
+  "training_sampling": {
+    "method": "stratified_bundle_bootstrap",
+    "unit": "complete_story_bundle",
+    "replacement": true,
+    "match_real_strata": [
+      "cohort_year",
+      "group",
+      "story_id"
+    ]
+  },
+  "primary_sampled_ratio": 10,
+  "main_planned_fits": 120,
+  "ratio_levels": [
+    1,
+    10
+  ],
+  "ratio_block_planned_fits": 135,
+  "additional_fits_after_matching_main": 60,
+  "generation_performed": false,
+  "classifier_fitting_performed": false,
+  "NumPy_version": "2.2.0",
+  "inputs": {
+    "configs/generation/inputs/story_unit_narratives_enni_2026-10-28.csv": "4f1d3afc439b36f5e7e7e743ad6cd5dbd4a00242ac9207da3dd4e3b2c8c7544d",
+    "configs/generation/inputs/enni_participants_2026-10-28.csv": "3f90fbba85c1bdd27dc0277c50eaf2d7a6f6ab633aaad76c7849054df72707f0",
+    "configs/generation/master_frozen_roster_enni_2026-10-28.csv": "b3add45a9918d9a29b8a811b2b4e4fb43d131e2b47be0af6dbb6825b3736b5d7",
+    "configs/evaluation/protocol.json": "2cefaa94cf14175fe9e7d8207c081faae087ce105df8f6c560c6c1fdeae06d43"
+  },
+  "split_implementation_sha256": "12eef7bc8dade12da3dbd81b7784b9a49d44fe0039722ea90fa6192475a1a299",
+  "fold_counts": [
+    {
+      "fold": "fold_01",
+      "train": {
+        "children": 144,
+        "TD": 115,
+        "SLI": 29,
+        "stories": 864
+      },
+      "validation": {
+        "children": 48,
+        "TD": 38,
+        "SLI": 10,
+        "stories": 288
+      },
+      "test": {
+        "children": 46,
+        "TD": 37,
+        "SLI": 9,
+        "stories": 276
+      }
+    },
+    {
+      "fold": "fold_02",
+      "train": {
+        "children": 141,
+        "TD": 113,
+        "SLI": 28,
+        "stories": 846
+      },
+      "validation": {
+        "children": 49,
+        "TD": 39,
+        "SLI": 10,
+        "stories": 294
+      },
+      "test": {
+        "children": 48,
+        "TD": 38,
+        "SLI": 10,
+        "stories": 288
+      }
+    },
+    {
+      "fold": "fold_03",
+      "train": {
+        "children": 141,
+        "TD": 113,
+        "SLI": 28,
+        "stories": 846
+      },
+      "validation": {
+        "children": 48,
+        "TD": 38,
+        "SLI": 10,
+        "stories": 288
+      },
+      "test": {
+        "children": 49,
+        "TD": 39,
+        "SLI": 10,
+        "stories": 294
+      }
+    },
+    {
+      "fold": "fold_04",
+      "train": {
+        "children": 143,
+        "TD": 114,
+        "SLI": 29,
+        "stories": 858
+      },
+      "validation": {
+        "children": 47,
+        "TD": 38,
+        "SLI": 9,
+        "stories": 282
+      },
+      "test": {
+        "children": 48,
+        "TD": 38,
+        "SLI": 10,
+        "stories": 288
+      }
+    },
+    {
+      "fold": "fold_05",
+      "train": {
+        "children": 145,
+        "TD": 115,
+        "SLI": 30,
+        "stories": 870
+      },
+      "validation": {
+        "children": 46,
+        "TD": 37,
+        "SLI": 9,
+        "stories": 276
+      },
+      "test": {
+        "children": 47,
+        "TD": 38,
+        "SLI": 9,
+        "stories": 282
+      }
+    }
+  ],
+  "child_assignments": [
+    {
+      "source_child_id": "474",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli474_td405",
+      "split_group_id": "pair:4:pair_sli474_td405",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "475",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli475_td455",
+      "split_group_id": "pair:4:pair_sli475_td455",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "476",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli476_td471",
+      "split_group_id": "pair:4:pair_sli476_td471",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "477",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli477_td459",
+      "split_group_id": "pair:4:pair_sli477_td459",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "478",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli478_td419",
+      "split_group_id": "pair:4:pair_sli478_td419",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "482",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli482_td411",
+      "split_group_id": "pair:4:pair_sli482_td411",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "523",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli523_td517",
+      "split_group_id": "pair:5:pair_sli523_td517",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "575",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli575_td555",
+      "split_group_id": "pair:5:pair_sli575_td555",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "613",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli613_td620",
+      "split_group_id": "pair:6:pair_sli613_td620",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "413",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli413_td439",
+      "split_group_id": "pair:4:pair_sli413_td439",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "444",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli444_td410",
+      "split_group_id": "pair:4:pair_sli444_td410",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "479",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli479_td472",
+      "split_group_id": "pair:4:pair_sli479_td472",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "529",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli529_td545",
+      "split_group_id": "pair:5:pair_sli529_td545",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "568",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli568_td544",
+      "split_group_id": "pair:5:pair_sli568_td544",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "570",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli570_td530",
+      "split_group_id": "pair:5:pair_sli570_td530",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "572",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli572_td512",
+      "split_group_id": "pair:5:pair_sli572_td512",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "574",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli574_td528",
+      "split_group_id": "pair:5:pair_sli574_td528",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "607",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli607_td634",
+      "split_group_id": "pair:6:pair_sli607_td634",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "609",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli609_td661",
+      "split_group_id": "pair:6:pair_sli609_td661",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "617",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli617_td645",
+      "split_group_id": "pair:6:pair_sli617_td645",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "625",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli625_td660",
+      "split_group_id": "pair:6:pair_sli625_td660",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "678",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli678_td651",
+      "split_group_id": "pair:6:pair_sli678_td651",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "717",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli717_td746",
+      "split_group_id": "pair:7:pair_sli717_td746",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "721",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli721_td758",
+      "split_group_id": "pair:7:pair_sli721_td758",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "725",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli725_td744",
+      "split_group_id": "pair:7:pair_sli725_td744",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "729",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli729_td738",
+      "split_group_id": "pair:7:pair_sli729_td738",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "733",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli733_td711",
+      "split_group_id": "pair:7:pair_sli733_td711",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "777",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli777_td707",
+      "split_group_id": "pair:7:pair_sli777_td707",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "427",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli427_td406",
+      "split_group_id": "pair:4:pair_sli427_td406",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "480",
+      "group": "SLI",
+      "cohort_year": 4,
+      "pair_id": "pair_sli480_td450",
+      "split_group_id": "pair:4:pair_sli480_td450",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "527",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli527_td515",
+      "split_group_id": "pair:5:pair_sli527_td515",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "531",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli531_td565",
+      "split_group_id": "pair:5:pair_sli531_td565",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "535",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli535_td511",
+      "split_group_id": "pair:5:pair_sli535_td511",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "567",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli567_td510",
+      "split_group_id": "pair:5:pair_sli567_td510",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "569",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli569_td532",
+      "split_group_id": "pair:5:pair_sli569_td532",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "576",
+      "group": "SLI",
+      "cohort_year": 5,
+      "pair_id": "pair_sli576_td516",
+      "split_group_id": "pair:5:pair_sli576_td516",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "611",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli611_td670",
+      "split_group_id": "pair:6:pair_sli611_td670",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "667",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli667_td650",
+      "split_group_id": "pair:6:pair_sli667_td650",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "673",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli673_td606",
+      "split_group_id": "pair:6:pair_sli673_td606",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "679",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli679_td677",
+      "split_group_id": "pair:6:pair_sli679_td677",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "680",
+      "group": "SLI",
+      "cohort_year": 6,
+      "pair_id": "pair_sli680_td671",
+      "split_group_id": "pair:6:pair_sli680_td671",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "723",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli723_td771",
+      "split_group_id": "pair:7:pair_sli723_td771",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "727",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli727_td709",
+      "split_group_id": "pair:7:pair_sli727_td709",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "731",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli731_td722",
+      "split_group_id": "pair:7:pair_sli731_td722",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "735",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli735_td769",
+      "split_group_id": "pair:7:pair_sli735_td769",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "739",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli739_td759",
+      "split_group_id": "pair:7:pair_sli739_td759",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "774",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli774_td714",
+      "split_group_id": "pair:7:pair_sli774_td714",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "778",
+      "group": "SLI",
+      "cohort_year": 7,
+      "pair_id": "pair_sli778_td718",
+      "split_group_id": "pair:7:pair_sli778_td718",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "401",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:401",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "402",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:402",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "405",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli474_td405",
+      "split_group_id": "pair:4:pair_sli474_td405",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "406",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli427_td406",
+      "split_group_id": "pair:4:pair_sli427_td406",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "409",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:409",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "410",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli444_td410",
+      "split_group_id": "pair:4:pair_sli444_td410",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "414",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:414",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "417",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:417",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "418",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:418",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "421",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:421",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "425",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:425",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "429",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:429",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "441",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:441",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "448",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:448",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "452",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:452",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "456",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:456",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "457",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:457",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "460",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:460",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "464",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:464",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "468",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:468",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "471",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli476_td471",
+      "split_group_id": "pair:4:pair_sli476_td471",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "501",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:501",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "502",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:502",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "505",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:505",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "506",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:506",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "509",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:509",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "510",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli567_td510",
+      "split_group_id": "pair:5:pair_sli567_td510",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "513",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:513",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "514",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:514",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "517",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli523_td517",
+      "split_group_id": "pair:5:pair_sli523_td517",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "518",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:518",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "522",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:522",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "526",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:526",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "530",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli570_td530",
+      "split_group_id": "pair:5:pair_sli570_td530",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "538",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:538",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "541",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:541",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "544",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli568_td544",
+      "split_group_id": "pair:5:pair_sli568_td544",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "545",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli529_td545",
+      "split_group_id": "pair:5:pair_sli529_td545",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "548",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:548",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "549",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:549",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "553",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:553",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "555",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli575_td555",
+      "split_group_id": "pair:5:pair_sli575_td555",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "559",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:559",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "561",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:561",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "562",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:562",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "564",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:564",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "601",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:601",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "602",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:602",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "605",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:605",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "606",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli673_td606",
+      "split_group_id": "pair:6:pair_sli673_td606",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "610",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:610",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "614",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:614",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "618",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:618",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "622",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:622",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "626",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:626",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "630",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:630",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "634",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli607_td634",
+      "split_group_id": "pair:6:pair_sli607_td634",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "637",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:637",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "641",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:641",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "645",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli617_td645",
+      "split_group_id": "pair:6:pair_sli617_td645",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "649",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:649",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "650",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli667_td650",
+      "split_group_id": "pair:6:pair_sli667_td650",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "653",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:653",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "654",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:654",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "657",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:657",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "660",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli625_td660",
+      "split_group_id": "pair:6:pair_sli625_td660",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "661",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli609_td661",
+      "split_group_id": "pair:6:pair_sli609_td661",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "665",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:665",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "670",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli611_td670",
+      "split_group_id": "pair:6:pair_sli611_td670",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "671",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli680_td671",
+      "split_group_id": "pair:6:pair_sli680_td671",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "677",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli679_td677",
+      "split_group_id": "pair:6:pair_sli679_td677",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "701",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:701",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "702",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:702",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "705",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:705",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "706",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:706",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "709",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli727_td709",
+      "split_group_id": "pair:7:pair_sli727_td709",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "713",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:713",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "714",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli774_td714",
+      "split_group_id": "pair:7:pair_sli774_td714",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "718",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli778_td718",
+      "split_group_id": "pair:7:pair_sli778_td718",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "722",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli731_td722",
+      "split_group_id": "pair:7:pair_sli731_td722",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "726",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:726",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "730",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:730",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "737",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:737",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "738",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli729_td738",
+      "split_group_id": "pair:7:pair_sli729_td738",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "746",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli717_td746",
+      "split_group_id": "pair:7:pair_sli717_td746",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "752",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:752",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "756",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:756",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "757",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:757",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "761",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:761",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "762",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:762",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "765",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:765",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "766",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:766",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "767",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:767",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "769",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli735_td769",
+      "split_group_id": "pair:7:pair_sli735_td769",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "771",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli723_td771",
+      "split_group_id": "pair:7:pair_sli723_td771",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "773",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:773",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "403",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:403",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "404",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:404",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "407",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:407",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "408",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:408",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "411",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli482_td411",
+      "split_group_id": "pair:4:pair_sli482_td411",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "412",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:412",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "415",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:415",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "416",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:416",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "419",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli478_td419",
+      "split_group_id": "pair:4:pair_sli478_td419",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "423",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:423",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "439",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli413_td439",
+      "split_group_id": "pair:4:pair_sli413_td439",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "443",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:443",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "446",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:446",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "450",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli480_td450",
+      "split_group_id": "pair:4:pair_sli480_td450",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "454",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:454",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "455",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli475_td455",
+      "split_group_id": "pair:4:pair_sli475_td455",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "458",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:458",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "459",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli477_td459",
+      "split_group_id": "pair:4:pair_sli477_td459",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "461",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:461",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "463",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:463",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "465",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:465",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "466",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:466",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "469",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "",
+      "split_group_id": "enni:469",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "472",
+      "group": "TD",
+      "cohort_year": 4,
+      "pair_id": "pair_sli479_td472",
+      "split_group_id": "pair:4:pair_sli479_td472",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "503",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:503",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "504",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:504",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "507",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:507",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "508",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:508",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "511",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli535_td511",
+      "split_group_id": "pair:5:pair_sli535_td511",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "512",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli572_td512",
+      "split_group_id": "pair:5:pair_sli572_td512",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "515",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli527_td515",
+      "split_group_id": "pair:5:pair_sli527_td515",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "516",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli576_td516",
+      "split_group_id": "pair:5:pair_sli576_td516",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "520",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:520",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "524",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:524",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "528",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli574_td528",
+      "split_group_id": "pair:5:pair_sli574_td528",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "532",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli569_td532",
+      "split_group_id": "pair:5:pair_sli569_td532",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "533",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:533",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "536",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:536",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "539",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:539",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "543",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:543",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "547",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:547",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "551",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:551",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "557",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:557",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "565",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "pair_sli531_td565",
+      "split_group_id": "pair:5:pair_sli531_td565",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "571",
+      "group": "TD",
+      "cohort_year": 5,
+      "pair_id": "",
+      "split_group_id": "enni:571",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "603",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:603",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "604",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:604",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "608",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:608",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "612",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:612",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "615",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:615",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "616",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:616",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "620",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli613_td620",
+      "split_group_id": "pair:6:pair_sli613_td620",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "624",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:624",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "628",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:628",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "632",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:632",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "636",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:636",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "639",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:639",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "647",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:647",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "648",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:648",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "651",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "pair_sli678_td651",
+      "split_group_id": "pair:6:pair_sli678_td651",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "652",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:652",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "655",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:655",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "656",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:656",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "658",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:658",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "659",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:659",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "663",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:663",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "664",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:664",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "669",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:669",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "676",
+      "group": "TD",
+      "cohort_year": 6,
+      "pair_id": "",
+      "split_group_id": "enni:676",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "704",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:704",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "707",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli777_td707",
+      "split_group_id": "pair:7:pair_sli777_td707",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "708",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:708",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "711",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli733_td711",
+      "split_group_id": "pair:7:pair_sli733_td711",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "712",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:712",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "716",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:716",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "720",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:720",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "724",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:724",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "728",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:728",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "732",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:732",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "736",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:736",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "743",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:743",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "744",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli725_td744",
+      "split_group_id": "pair:7:pair_sli725_td744",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "748",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:748",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "750",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:750",
+      "heldout_fold": "fold_03",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "754",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:754",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "755",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:755",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "758",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli721_td758",
+      "split_group_id": "pair:7:pair_sli721_td758",
+      "heldout_fold": "fold_05",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "759",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "pair_sli739_td759",
+      "split_group_id": "pair:7:pair_sli739_td759",
+      "heldout_fold": "fold_01",
+      "is_prompt_child": true
+    },
+    {
+      "source_child_id": "760",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:760",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "763",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:763",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "764",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:764",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "768",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:768",
+      "heldout_fold": "fold_02",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "770",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:770",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    },
+    {
+      "source_child_id": "772",
+      "group": "TD",
+      "cohort_year": 7,
+      "pair_id": "",
+      "split_group_id": "enni:772",
+      "heldout_fold": "fold_04",
+      "is_prompt_child": false
+    }
+  ]
+}

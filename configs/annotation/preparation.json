@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "policy": "shared-chat-annotation-preparation-v1",
+  "dependent_tiers": "remove_all",
+  "remove_inline": ["error", "replacement", "correction", "gloss", "alternative", "comment", "interruption_comment", "postcode"],
+  "preserve_postcodes": ["bch", "trn"],
+  "preserve_headers": true,
+  "preserve_main_tier_boundaries": true,
+  "unwrap_scopes_without_retained_codes": true,
+  "normalization": "none",
+  "annotation_adjacent_whitespace": "delete_forbidden_only",
+  "retain_source_snapshots": {"real": false, "synthetic": true, "unspecified": true},
+  "provenance": "Common deletion-only preparation before fresh TalkTag/UD annotation of real and synthetic CHAT. Keep produced forms, unknown speech, repetitions/retracing, pauses, fragments, uncertainty, emphasis, actions and overlap notation. Preserve corpus utterance bookkeeping (bch/trn), clause markers and language precodes. Remove old linguistic tiers, error judgments, replacement/correction hints and annotator comments on derived copies only."
+}

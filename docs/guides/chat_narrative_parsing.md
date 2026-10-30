@@ -1,85 +1,27 @@
-# CHAT extraction for generation inputs
+# ENNI source preparation
 
-`src/icl_pilot/chat/story_unit_semrp.py` implements `chat-story-v2`. It reads literal
-CHI metadata and extracts story-bounded CHI main tiers. It follows the
-[TalkBank CHAT manual](https://talkbank.org/0info/manuals/CHAT.html) for ages and
-the distinction between main and dependent tiers.
+The original archive is data/raw/enni/2026-10-28/ENNI.zip. Its SHA-256 is 25e360e43ec5984ccd54e9b4679b5070a5544ff09d98829e9496622c30394dcf. Preserve it and every original member unchanged.
 
-## Rebuild a new input
+## Participant identity
 
-The maintained snapshot and its QC sidecar live in
-`configs/generation/inputs/`. To compare a new extraction, obtain the source
-corpus separately and run from the repository root with a fresh output path:
+Read literal CHI age/group headers. The original 0demo.xls table independently checks group and age year and supplies demographic sex. Retain the literal Sex_CHI value and document any discrepancy. Never infer a clinical label from a folder.
 
-```bash
-PYTHONPATH=src python -m icl_pilot extract-story-unit-narratives \
-  /path/to/source/ENNI \
-  data/inputs/input_rebuild/story_unit_narratives_chat_v2.csv
-```
+The archive contains 361 CHAT files. TD/B/523.cha lacks CHI age/group and shares its numeric ID with the fully identified SLI 523 record. Exclude the incomplete file. The original demographics table identifies 523 as male, age 5.498630137, SLI-A. This exclusion yields 360 usable participant records.
 
-The command writes a new CSV and `story_unit_narratives_chat_v2.parsing_qc.json`.
-Existing CSV/QC outputs are protected: choose a fresh filename for a comparison
-or a new corpus version. `--summary-json` can specify a separate QC path.
-In Colab, the same builder is available as
-`icl_pilot.chat.story_unit_semrp.extract_story_unit_narratives(transcript_root, output_csv)`.
+The study window is 48 <= completed months < 96: 238 children (190 TD, 48 SLI), 1,428 stories. Ages use 12 * years + months from years;months.days. Preserve days without rounding into the next age year. Days/30 is confined to fine within-cohort matching.
 
-`configs/generation/experiment.json` points new generation runs to this input.
-The CSV and QC sidecar were relocated byte-for-byte from
-`data/processed/generation_inputs/` on 16 October 2026. Embedded source paths
-remain historical provenance; generation uses the extracted text directly.
-The former processed CHAT source directory was removed separately at the
-author's request. Rebuilding from a different corpus copy requires comparing
-the new extraction before deliberately changing the maintained input snapshot.
-The historical `phase2/ENNI/measures/story_units/story_unit_narratives.csv`
-remains unchanged inside the external study freeze for original analysis and
-prompt provenance; it is no longer a local input.
+## Narrative extraction
 
-## Parsing rules
+Use story markers and complete CHI main tiers; retain their original utterance boundaries. Keep dependent tiers separate. Remove timing/annotator notation, pauses, unintelligibility markers and non-speech codes using the common extraction preparation. Preserve word forms, repetitions and parenthesized partial words; never infer speech or repair grammar.
 
-- Ages use `years;months.days`. `Age_Month` is `12 * years + months`, with
-  completed months only. The full raw age, including days, is retained.
-  Unknown months, missing ages and malformed ages remain blank and are flagged.
-- Group values come from CHI `@ID` fields. No diagnosis, missing age or group is
-  inferred from a folder, filename, `@Types`, or linguistic measures.
-  Conflicting CHI headers fail rather than selecting one silently.
-- Wrapped CHI main-tier lines are joined before the existing surface cleaner
-  runs. Other speakers, dependent tiers and their continuations are excluded.
-  A story boundary flushes the previous utterance before changing its story.
-- Some processed ENNI files contain orphan dependent-tier continuations.
-  Unbracketed pipe-bearing annotation tokens and redundant delimiter-only
-  continuations after a completed main tier identify such blocks. They are
-  excluded and reported by source file, line, story and speaker. These checks
-  are a safeguard for this malformed processed input; they do not restore tiers.
-- Surface cleaning retains its historical policy. Repetitions and the child's
-  grammatical forms are preserved; correction annotations do not replace the
-  spoken forms. Pause notation, unintelligibility markers and non-speech codes
-  retain their existing treatment. A future normalization change needs a new
-  input version.
-- UTF-8 decoding is strict. Missing/empty transcript roots and existing output
-  files fail explicitly. Raw CHAT bytes are never changed by extraction.
+The prepared CSV retains File_ID, Group, Age_Raw, Age_Month, source path, story ID, utterance count/array, text, source PID and SHA-256. Every usable participant supplies A1–A3 and B1–B3. Its QC sidecar records raw hashes, exclusion reasons and per-story preparation.
 
-The QC sidecar records the parser version, age definition, relative source paths,
-source SHA-256 hashes, unknown metadata and excluded-line details. The CSV retains
-its existing column schema and absolute transcript-path convention for compatibility.
+## Reproduction
 
-## Corpus verification on 14 October 2026
+In a fresh checkout before the versioned outputs exist:
 
-All 361 source CHAT files were rehashed unchanged. The new export contains 2,166
-story rows with identical narrative text and utterance arrays to the historical
-CSV; age months were populated in 2,160 rows. All 564 selected exemplars have
-ages matching the master roster.
+    PYTHONPATH=src python -m icl_pilot.maintenance.enni_corpus /path/to/ENNI.zip --project-root /path/to/ICL-PILOT
 
-`TD/B/523.cha` has empty CHI age/group metadata and an ID collision with an
-SLI-labelled file. Its six story rows remain unknown and are excluded from the
-TD prompt lookup. The parser reports 33,437 orphan annotation continuation lines
-and 948 redundant delimiter continuations across the full source directory.
-These are parsing/QC counts, not linguistic error counts.
+The one-time demographic XLS cross-check requires Rscript with readxl. The builder rejects existing outputs, unsafe archive paths, ambiguous usable IDs, missing metadata and incomplete story sets. It builds the canonical participant/story tables, pair roster and study-only CHAT input directory.
 
-The tier-removal utility was separately repaired to remove the continuations of
-`%mor`, `%gra`, `%umor` and `%ugra` along with their labels. Wrapped main speech
-and other tiers, including `%err`, are retained. This code was tested on fixtures;
-it was not run on corpus files.
-
-The source/CSV comparison and checksums are under
-`docs/provenance/chat_parser_fix_2026-10-14/`. The provenance index identifies
-the external archive of the complete audit and one-off scripts.
+Working copies in data/inputs/enni_verified_2026-10-28/chat_4_to_7/ contain only eligible sources. Their two study-age sex-header adjustments are documented; speech, boundaries and existing tiers are unchanged. [Reproducibility records](../reproducibility/README.md) provide source/input hashes and counts.

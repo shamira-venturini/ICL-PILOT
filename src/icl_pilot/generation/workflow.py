@@ -166,6 +166,7 @@ def _build_story_generation_schedule_from_roster(
     roster: pd.DataFrame,
     counterbalance: pd.DataFrame,
     n_replicates: int,
+    master_seed: int = 42,
 ) -> pd.DataFrame:
     lookup = _counterbalance_lookup(counterbalance)
 
@@ -209,7 +210,8 @@ def _build_story_generation_schedule_from_roster(
                         "prompt_sli_story_e2": prompt_sli_story_e2,
                         "counterbalance_variant_index": variant_index + 1,
                         "counterbalance_variant_total": variant_total,
-                        "generation_seed": replicate_id,
+                        "master_seed": master_seed,
+                        "seed_policy": "run_level",
                         "holdout_policy": "exclude prompt pairs from evaluation in the same round",
                         "notes": "story-level prompt schedule for a fixed frozen child pair",
                     }
@@ -353,6 +355,7 @@ def build_rotating_generation_schedule(
     n_replicates: int = 10,
     pairs_per_round: int = 3,
     output_csv: str | Path | None = None,
+    master_seed: int = 42,
 ) -> pd.DataFrame:
     roster = load_frozen_roster(frozen_roster_csv)
     counterbalance = load_counterbalance_table(counterbalance_csv)
@@ -370,6 +373,7 @@ def build_rotating_generation_schedule(
             roster=prompt_roster,
             counterbalance=counterbalance,
             n_replicates=n_replicates,
+            master_seed=master_seed,
         )
         part["round_id"] = round_id
         part["prompt_pair_count_in_round"] = int(round_df["prompt_pair_count_in_round"].iloc[0])

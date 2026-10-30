@@ -1,0 +1,50 @@
+{
+  "downloads": [
+    {
+      "label": "gemma2_9b",
+      "file": "tokenizer.json",
+      "download_repo": "unsloth/gemma-2-9b-it",
+      "download_revision": "fc7d4737cda11c3a19af2b722319e846670b4d89",
+      "url": "https://huggingface.co/unsloth/gemma-2-9b-it/resolve/fc7d4737cda11c3a19af2b722319e846670b4d89/tokenizer.json",
+      "bytes": 17525357,
+      "sha256": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922",
+      "verified_against_recorded_official_hash": true
+    },
+    {
+      "label": "gemma2_9b",
+      "file": "tokenizer.model",
+      "download_repo": "unsloth/gemma-2-9b-it",
+      "download_revision": "fc7d4737cda11c3a19af2b722319e846670b4d89",
+      "url": "https://huggingface.co/unsloth/gemma-2-9b-it/resolve/fc7d4737cda11c3a19af2b722319e846670b4d89/tokenizer.model",
+      "bytes": 4241003,
+      "sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
+      "verified_against_recorded_official_hash": true
+    },
+    {
+      "label": "llama3_1_8b",
+      "file": "tokenizer.json",
+      "download_repo": "Xenova/Meta-Llama-3.1-Tokenizer",
+      "download_revision": "d49ea33e96b3fcf8738bb79ff9d85da81742fa82",
+      "url": "https://huggingface.co/Xenova/Meta-Llama-3.1-Tokenizer/resolve/d49ea33e96b3fcf8738bb79ff9d85da81742fa82/tokenizer.json",
+      "bytes": 9085657,
+      "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "verified_against_recorded_official_hash": true
+    },
+    {
+      "label": "qwen3_8b",
+      "file": "tokenizer.json",
+      "download_repo": "Qwen/Qwen3-8B",
+      "download_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "verified_against_recorded_official_hash": true
+    }
+  ],
+  "official_model_revisions": {
+    "gemma2_9b": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+    "official_llama_3_1_8b": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "qwen3_8b": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "gemma_files_identical_to_official_lfs_sha256": true
+}

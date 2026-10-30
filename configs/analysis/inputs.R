@@ -1,11 +1,11 @@
-# REVISED STUDY: INPUT PATHS PENDING
-# Update these five entries when the revised files and their paths are known.
+# STUDY INPUTS: INPUT PATHS PENDING
+# Set the four feature paths when revised files are available; the verified roster is set.
 # Paths may be absolute, or relative to the repository root. No historical
 # dataset or roster is selected automatically. See README.md in this folder.
 analysis_input_paths <- list(
   real_features_csv = "",
   synthetic_features_csv = "",
-  frozen_roster_csv = "",
+  frozen_roster_csv = "configs/generation/master_frozen_roster_enni_2026-10-28.csv",
   real_dev_csv = "",
   synthetic_dev_csv = ""
 )
@@ -37,10 +37,10 @@ resolve_analysis_inputs <- function(project_root = ".", paths = analysis_input_p
   pending <- !nzchar(trimws(values))
   if (any(pending)) {
     stop(paste0(
-      "REVISED STUDY: input paths are pending.\n",
+      "STUDY INPUTS: input paths are pending.\n",
       "Update configs/analysis/inputs.R when the revised files and paths are available.\n",
       "Missing entries: ", paste(names(values)[pending], collapse = ", "), ".\n",
-      "No archived Phase 2 inputs are selected automatically."
+      "No scientific inputs are selected automatically."
     ), call. = FALSE)
   }
 

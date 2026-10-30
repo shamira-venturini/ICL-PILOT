@@ -292,20 +292,30 @@ class Batch:
 
 class Tokenizer:
     pad_token_id, eos_token_id = 0, 3
+    unk_token_id = None
     def __init__(self): self.used_prompts = []
     def apply_chat_template(self, messages, **kwargs): return json.dumps(messages) + "<assistant>"
     def __call__(self, prompt, **kwargs):
         self.used_prompts.append(prompt)
         return {"input_ids": Batch()}
     def decode(self, ids, **kwargs): return "  fixture story .\n"
+    def get_vocab(self): return {"<|eot_id|>": 4, "<|im_end|>": 5, "<end_of_turn>": 6}
+    def convert_tokens_to_ids(self, token): return self.get_vocab()[token]
 
 
 def inference_namespace(journal):
-    settings = json.loads((ROOT / "configs/generation/experiment.json").read_text())["model"]
-    model = SimpleNamespace(device="cpu", generate=lambda **kwargs: [Tokens([1, 42, 3, 10, 11])])
+    from icl_pilot.generation.config import load_experiment_config
+    from icl_pilot.generation.inference import GenerationRuntime
+    settings = load_experiment_config(ROOT / "configs/generation/experiment.json")["model"]
+    model = SimpleNamespace(device="cpu", config=SimpleNamespace(max_position_embeddings=8192),
+        generation_config=SimpleNamespace(eos_token_id=[3, 4], to_dict=lambda: {"eos_token_id": [3, 4], "top_k": 50}),
+        generate=lambda **kwargs: [Tokens([1, 42, 3, 10, 11])])
     namespace = {"prompt_journal": journal, "torch": SimpleNamespace(no_grad=nullcontext),
                  "tokenizer": Tokenizer(), "model": model, "DO_SAMPLE": settings["do_sample"],
-                 "TEMPERATURE": settings["temperature"], "TOP_P": settings["top_p"]}
+                 "TEMPERATURE": settings["temperature"], "TOP_P": settings["top_p"],
+                 "TOP_K": settings["top_k"]}
+    namespace["generation_runtime"] = GenerationRuntime(model, namespace["tokenizer"], settings,
+                                                         torch=namespace["torch"])
     notebook = json.loads((ROOT / "notebooks/colab_direct_generation_pipeline.ipynb").read_text())
     source = next(cell for cell in notebook["cells"] if cell.get("id") == "generation-function")
     exec("".join(source["source"]), namespace)
@@ -377,6 +387,8 @@ def test_notebook_loop_exports_prompt_links_and_includes_records_in_the_archive(
     assert [call["max_new_tokens"] for call in calls] == [640, 640]
     assert [r["generation_parameters"]["max_new_tokens"] for r in prompts] == [640, 640]
     assert [(call["temperature"], call["top_p"]) for call in calls] == [(0.8, 0.9), (0.8, 0.9)]
+    assert [call["top_k"] for call in calls] == [0, 0]
+    assert [r["generation_parameters"]["top_k"] for r in prompts] == [0, 0]
     assert [(r["generation_parameters"]["temperature"], r["generation_parameters"]["top_p"])
             for r in prompts] == [(0.8, 0.9), (0.8, 0.9)]
     export = next(c for c in notebook["cells"] if c.get("id") == "export")
@@ -387,7 +399,7 @@ def test_notebook_loop_exports_prompt_links_and_includes_records_in_the_archive(
         assert all(not name.startswith("/") for name in archive.namelist())
 
 
-def test_generation_interruption_retains_stage1_parent_and_requires_a_fresh_run(builder, tmp_path):
+def test_generation_interruption_retains_stage1_parent_and_requires_explicit_resume(builder, tmp_path):
     import pandas as pd
     from icl_pilot.generation.execution import run_generation
     manifest = tmp_path / "run_manifest.json"
@@ -411,5 +423,5 @@ def test_generation_interruption_retains_stage1_parent_and_requires_a_fresh_run(
     state = json.loads(manifest.read_text())
     assert state["status"].startswith("generation_interrupted")
     assert state["completed_generation_jobs"] == 0
-    with pytest.raises(FileExistsError, match="resume is not implemented"):
+    with pytest.raises(FileExistsError, match="explicit resume=True"):
         run_generation(prepared, namespace["generate_from_messages"], run_id="interrupted")

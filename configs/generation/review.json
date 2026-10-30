@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "policy": "generation-review-only-v1",
+  "review_only": true,
+  "exclude_stories": false,
+  "word_run_flag_at": 20,
+  "phrase_min_repeats": 5,
+  "phrase_min_words": 20,
+  "phrase_max_unit_words": 8,
+  "instruction_min_words": 5,
+  "template_files": {"stage1_td": "prompts/stage1.json", "stage2_sli": "prompts/stage2.json"},
+  "role_markers": ["<|im_start|>", "<|start_header_id|>", "<start_of_turn>", "[INST]", "[/INST]"],
+  "provenance": "Screening heuristics for human review only, not clinical norms or exclusion criteria. Word matching is case-insensitive and ignores punctuation between words. No narrative is removed, rewritten, resampled or replaced; all analysis inputs and complete bundles remain unchanged."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "version": "0.30.0",
+  "release_url": "https://github.com/TalkBank/chatter/releases/tag/v0.30.0",
+  "validation_args": ["--force", "--format", "json", "--tui-mode", "disable", "--parser", "tree-sitter", "--jobs", "2"],
+  "assets": {
+    "linux-x86_64": {
+      "name": "talkbank-chatter-x86_64-unknown-linux-musl.tar.xz",
+      "archive_sha256": "2f9a6c3ea72b15881ec9b9e08d17693d3aa4d6b78d97fc41917904d6c4bbc16b",
+      "binary_sha256": "7d9cb31409edee425c58064abc846ee96223e158dbe6a0f80c6657fb871610d8"
+    },
+    "linux-aarch64": {
+      "name": "talkbank-chatter-aarch64-unknown-linux-musl.tar.xz",
+      "archive_sha256": "3ce82d90537882ad7302547f8df6c68e206a77c7448012c80bb706f323ad1d4c",
+      "binary_sha256": "4f8929f131ce4b845425cc87912f95747a027bec2e90b9369630500c39b5b1f0"
+    },
+    "darwin-x86_64": {
+      "name": "talkbank-chatter-x86_64-apple-darwin.tar.xz",
+      "archive_sha256": "e09e1378d5389beb27bd3a6ae1f658cd6730c495a231200199e3ad623146d315",
+      "binary_sha256": "144f00badb92553abb58c1b1b12e1902134f565b3254a077cd85098d8d43a286"
+    },
+    "darwin-aarch64": {
+      "name": "talkbank-chatter-aarch64-apple-darwin.tar.xz",
+      "archive_sha256": "2b62627c3aa0fe1c7e7b97db81f605f7a6408cd3d8190d75aa7a4961e08e03da",
+      "binary_sha256": "ea2bd2bdd8251c366c93348f161b9fd7a3c77f5168eeaf64172a0a991390ebfa"
+    }
+  },
+  "provenance": "Official 0.30.0 release API archive digests checked on 22 October 2026. Extracted executable hashes verified against those archives; Intel Mac executable also matches the existing audited local tool. Standard structural and alignment checks remain enabled, without error suppressions. Optional strict cross-utterance quotation/completion linker checks are not enabled: their consistency is outside the study outcomes, and original markers and boundaries are preserved. This policy applies equally to real and synthetic CHAT."
+}

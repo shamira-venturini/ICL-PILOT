@@ -3,6 +3,7 @@ from __future__ import annotations
 import ast
 import csv
 import json
+import re
 import sys
 import zipfile
 from pathlib import Path
@@ -24,6 +25,21 @@ POSTPROCESS_RAW = "@UTF8\n@Begin\n*CHI:\tMe [* s:r:gc:pro] and a monkey went to 
 @pytest.fixture
 def config():
     return load_annotation_config(ROOT / "configs/annotation/talktag.json")
+
+
+def fake_validator(monkeypatch):
+    """Isolate TalkTag wrapper unit tests; real Chatter gates have integration tests."""
+    from icl_pilot.chat import validation
+    def validate(inputs, output_dir, **kwargs):
+        out = Path(output_dir)
+        out.mkdir(parents=True, exist_ok=False)
+        path = out / "validation_manifest.json"
+        path.write_text(json.dumps({"status": "passed", "fixture": True,
+                                    "files_checked": sum(len(list(Path(root).rglob('*.cha'))) for root in inputs.values())}))
+        return path
+    monkeypatch.setattr(validation, "ensure_chatter", lambda **kwargs: {"path": "fixture_validator"})
+    monkeypatch.setattr(validation, "validate_chat_directories", validate)
+    monkeypatch.setattr(validation, "require_validated_report", lambda ref: json.loads(Path(ref["manifest"]).read_text()))
 
 
 @pytest.mark.parametrize("partial", [False, True])
@@ -72,6 +88,7 @@ def test_annotation_environment_failure_includes_underlying_diagnostic(tmp_path,
 
 
 def fake_tool(monkeypatch, *, mode="normal", limit=0):
+    fake_validator(monkeypatch)
     calls = []
 
     def run(command, **kwargs):
@@ -90,7 +107,7 @@ def fake_tool(monkeypatch, *, mode="normal", limit=0):
             destination.parent.mkdir(parents=True, exist_ok=True)
             if mode == "missing_output":
                 continue
-            annotated = text.replace("go home", "go [* m:03s:a] home")
+            annotated = re.sub(r"go\s+home", "go [* m:03s:a] home", text)
             if mode == "orthography":
                 annotated = "\n".join(
                     line.replace("*CHI:\the", "*CHI:\tHe").replace("home .", "home.")
@@ -199,6 +216,7 @@ def test_annotation_preserves_raw_output_then_applies_strict_qc_to_restored_copy
 
 
 def test_existing_failed_annotation_can_be_postprocessed_without_inference_or_rewriting_artifacts(tmp_path, config, monkeypatch):
+    fake_validator(monkeypatch)
     original = tmp_path / "original.cha"
     original.write_text(POSTPROCESS_SOURCE)
     out = tmp_path / "annotation"
@@ -340,6 +358,9 @@ def test_archives_include_annotation_logs_inputs_and_qc_without_recursive_archiv
 
 @pytest.mark.parametrize("mode,smoke", [("full", False), ("full", True), ("from_csv", False), ("from_chat", False)])
 def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, config, monkeypatch, mode, smoke):
+    from icl_pilot.chat import segmentation
+    from segmentation_stub import StubSegmenter
+    monkeypatch.setattr(segmentation, "BatchalignSegmenter", StubSegmenter)
     calls = fake_tool(monkeypatch)
     monkeypatch.setattr("icl_pilot.chat.annotation.annotation_runtime_metadata",
                         lambda python, cfg: {"source_commit": cfg["revision"]})
@@ -363,10 +384,12 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
         "GENERATION_CSVS": {"age4": source_csv}, "CHAT_INPUT_DIRS": {"existing": source_chat},
         "RUN_OUTPUT_DIR": tmp_path / "run", "RUN_ID": "fixture", "RUN_GENERATION": generate,
         "RUN_CHAT_CONVERSION": convert, "RUN_ANNOTATION": annotate_enabled,
-        "ROSTER_CSV": ROOT / "configs/generation/master_frozen_roster_4_to_7_year_old.csv",
+        "ROSTER_CSV": ROOT / "configs/generation/master_frozen_roster_enni_2026-10-28.csv",
         "ANNOTATION_STAGES": ["stage1_td", "stage2_sli"], "INSTALL_DEPENDENCIES": False,
         "ANNOTATION_ENV": tmp_path / "not_installed_fixture",
         "ANNOTATION_CONFIG_PATH": ROOT / "configs/annotation/talktag.json",
+        "SEGMENTATION_CONFIG_PATH": ROOT / "configs/segmentation/batchalign.json",
+        "SEGMENTATION_ENV": tmp_path / "not_installed_segmentation_fixture",
         "MAKE_ARCHIVE": True, "DOWNLOAD_ARCHIVE": False, "RELEASE_COLAB_RUNTIME": False,
         "IS_COLAB": False,
         "CONFIG_PATH": input_config, "DATA_ROOT": tmp_path, "GENERATION_INPUT_UPLOAD": None,
@@ -375,7 +398,8 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
     }
     notebook = json.loads((ROOT / "notebooks/colab_direct_generation_pipeline.ipynb").read_text())
     ids = ["common-setup", "generation-input", "generation-setup", "generation-model", "generation-function", "generation-preview",
-           "generation-run", "generation-copy-check", "release-generator", "chat-conversion", "annotation-setup", "annotation-run", "export"]
+           "generation-run", "generation-copy-check", "generation-review", "release-generator", "segmentation-setup", "chat-conversion", "annotation-preparation", "chat-validation-before",
+           "annotation-setup", "annotation-run", "chat-validation-after", "export"]
     for name in ids:
         if mode == "full" and name in {"generation-setup", "generation-model", "generation-function", "generation-preview"}:
             # Inference is a fixture; exercise the actual generation runner,
@@ -411,6 +435,8 @@ def test_notebook_can_start_from_saved_inputs_in_a_fresh_namespace(tmp_path, con
     manifest = json.loads((tmp_path / "run/pipeline_manifest.json").read_text())
     assert manifest["stages"]["generation"]["status"] == ("complete" if mode == "full" else "skipped")
     assert manifest["stages"]["annotation"]["status"] == "complete"
+    assert manifest["stages"]["chat_validation_before"]["status"] == "complete"
+    assert manifest["stages"]["chat_validation_after"]["status"] == "complete"
     assert manifest["test_only"] == (smoke and namespace["RUN_GENERATION"])
     assert source_csv.read_bytes() == original_csv and (source_chat / "sample.cha").read_bytes() == original_chat
     annotation = json.loads((tmp_path / "run/annotation/annotation_manifest.json").read_text())
@@ -493,7 +519,9 @@ def test_notebook_input_upload_is_verified_and_reused_without_the_upload(input_n
     ns["GENERATION_INPUT_UPLOAD"] = None  # A later runtime has only the persistent copy.
     exec(notebook_cell("generation-input"), ns)
     assert target.stat().st_mtime_ns == before
-    assert json.loads(manifest_path.read_text())["generation_input"]["action"] == "reused"
+    saved = json.loads(manifest_path.read_text())
+    assert saved["generation_input"]["action"] == "copied_and_verified"  # Preserve original provenance.
+    assert [check["action"] for check in saved["generation_input_checks"]] == ["copied_and_verified", "reused", "reused"]
 
 
 def test_notebook_rejects_different_upload_without_overwriting_existing_input(input_namespace):

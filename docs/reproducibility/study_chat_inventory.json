@@ -1,0 +1,2165 @@
+{
+  "study_chat_dir": "data/inputs/enni_verified_2026-10-28/chat_4_to_7",
+  "files": 238,
+  "sources": [
+    {
+      "File_ID": "474",
+      "Group": "SLI",
+      "Age_Raw": "4;08.18",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/474.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/474.cha",
+      "source_sha256": "ed9b4e161a9c97751d3c5eccf5a15d64d2f7a039fd3108637b08ae1ec0453891",
+      "input_sha256": "ed9b4e161a9c97751d3c5eccf5a15d64d2f7a039fd3108637b08ae1ec0453891"
+    },
+    {
+      "File_ID": "475",
+      "Group": "SLI",
+      "Age_Raw": "4;08.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/475.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/475.cha",
+      "source_sha256": "e13c135faea47cacbf5f215a58b583182418cd483f3c645cbaa00708f76acf34",
+      "input_sha256": "e13c135faea47cacbf5f215a58b583182418cd483f3c645cbaa00708f76acf34"
+    },
+    {
+      "File_ID": "476",
+      "Group": "SLI",
+      "Age_Raw": "4;09.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/476.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/476.cha",
+      "source_sha256": "05eff291a70be77e59b0a237cfcfaf427f460e87eae3cbf5f52c5e796194ad08",
+      "input_sha256": "05eff291a70be77e59b0a237cfcfaf427f460e87eae3cbf5f52c5e796194ad08"
+    },
+    {
+      "File_ID": "477",
+      "Group": "SLI",
+      "Age_Raw": "4;08.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/477.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/477.cha",
+      "source_sha256": "9e0c6391fce7953aa404072a7fdfb1a846e08493305ace3d1670a49ccd14659e",
+      "input_sha256": "9e0c6391fce7953aa404072a7fdfb1a846e08493305ace3d1670a49ccd14659e"
+    },
+    {
+      "File_ID": "478",
+      "Group": "SLI",
+      "Age_Raw": "4;06.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/478.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/478.cha",
+      "source_sha256": "8e03dd536fef91426f26d3710af16e6e46552bd7d7ffa37a46e27ca0a1d639a2",
+      "input_sha256": "8e03dd536fef91426f26d3710af16e6e46552bd7d7ffa37a46e27ca0a1d639a2"
+    },
+    {
+      "File_ID": "482",
+      "Group": "SLI",
+      "Age_Raw": "4;06.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/482.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/482.cha",
+      "source_sha256": "05f359472023d07bd41aa6e003558c11d88727d39fef57f736b85e4ba8227b14",
+      "input_sha256": "05f359472023d07bd41aa6e003558c11d88727d39fef57f736b85e4ba8227b14"
+    },
+    {
+      "File_ID": "523",
+      "Group": "SLI",
+      "Age_Raw": "5;05.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/523.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/523.cha",
+      "source_sha256": "60dabc953ce6a03c5e4c62093312c15846152614d22ab931bd25e2b4cb5565dc",
+      "input_sha256": "60dabc953ce6a03c5e4c62093312c15846152614d22ab931bd25e2b4cb5565dc"
+    },
+    {
+      "File_ID": "575",
+      "Group": "SLI",
+      "Age_Raw": "5;02.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/575.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/575.cha",
+      "source_sha256": "d200ec7a636daf394740dad63cb26ab4579dfc5d647c9906a220281f6a5a52b3",
+      "input_sha256": "d200ec7a636daf394740dad63cb26ab4579dfc5d647c9906a220281f6a5a52b3"
+    },
+    {
+      "File_ID": "613",
+      "Group": "SLI",
+      "Age_Raw": "6;09.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/0noaudio/613.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/0noaudio/613.cha",
+      "source_sha256": "d8805e013019d0e32a354f34af41a95099c2522f1a65e27aaa71b43ada01f777",
+      "input_sha256": "d8805e013019d0e32a354f34af41a95099c2522f1a65e27aaa71b43ada01f777"
+    },
+    {
+      "File_ID": "413",
+      "Group": "SLI",
+      "Age_Raw": "4;10.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/413.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/413.cha",
+      "source_sha256": "25db5a62c14f0fdd8a1511bad688110e1c796ee9857dfeb4154cfa1c02b08675",
+      "input_sha256": "25db5a62c14f0fdd8a1511bad688110e1c796ee9857dfeb4154cfa1c02b08675"
+    },
+    {
+      "File_ID": "444",
+      "Group": "SLI",
+      "Age_Raw": "4;02.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/444.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/444.cha",
+      "source_sha256": "d2481ce4b2730ad1c78f680ca567cee7acf945dcba5cc17d75537c46b66eeed4",
+      "input_sha256": "d2481ce4b2730ad1c78f680ca567cee7acf945dcba5cc17d75537c46b66eeed4"
+    },
+    {
+      "File_ID": "479",
+      "Group": "SLI",
+      "Age_Raw": "4;09.08",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/479.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/479.cha",
+      "source_sha256": "26ff72b31a3ea054c0390783c369a5f4fdddb718a32d163c8b5ee5f2109f9a3b",
+      "input_sha256": "26ff72b31a3ea054c0390783c369a5f4fdddb718a32d163c8b5ee5f2109f9a3b"
+    },
+    {
+      "File_ID": "529",
+      "Group": "SLI",
+      "Age_Raw": "5;01.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/529.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/529.cha",
+      "source_sha256": "4a08146c445a0897416f3335daba3eeeda84cea0cc2c7c3f337027c4493b12df",
+      "input_sha256": "4a08146c445a0897416f3335daba3eeeda84cea0cc2c7c3f337027c4493b12df"
+    },
+    {
+      "File_ID": "568",
+      "Group": "SLI",
+      "Age_Raw": "5;05.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/568.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/568.cha",
+      "source_sha256": "7c41c5c278bf8635aa32b69e69452dc06bd7dcfb8c4073ee4e6f6260b3dc4bc6",
+      "input_sha256": "7c41c5c278bf8635aa32b69e69452dc06bd7dcfb8c4073ee4e6f6260b3dc4bc6"
+    },
+    {
+      "File_ID": "570",
+      "Group": "SLI",
+      "Age_Raw": "5;09.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/570.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/570.cha",
+      "source_sha256": "ed1cd050f09f4ca77c780ead815bc69c797ac251ec56281de069a23a5eca9968",
+      "input_sha256": "ed1cd050f09f4ca77c780ead815bc69c797ac251ec56281de069a23a5eca9968"
+    },
+    {
+      "File_ID": "572",
+      "Group": "SLI",
+      "Age_Raw": "5;05.00",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/572.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/572.cha",
+      "source_sha256": "1604e3173d014c62bb867ad902b0d0d44bbc95f50563d612ff9aed57d7cee941",
+      "input_sha256": "1604e3173d014c62bb867ad902b0d0d44bbc95f50563d612ff9aed57d7cee941"
+    },
+    {
+      "File_ID": "574",
+      "Group": "SLI",
+      "Age_Raw": "5;00.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/574.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/574.cha",
+      "source_sha256": "998b837925cfadb9ef9ded771a02e65fcdcf81e87ca904924c5b115063b60115",
+      "input_sha256": "998b837925cfadb9ef9ded771a02e65fcdcf81e87ca904924c5b115063b60115"
+    },
+    {
+      "File_ID": "607",
+      "Group": "SLI",
+      "Age_Raw": "6;01.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/607.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/607.cha",
+      "source_sha256": "6477d0b5c3d6730c9dd82486fa7dc3d9306e1bfee1a482e2ac6310260c4fc30a",
+      "input_sha256": "6477d0b5c3d6730c9dd82486fa7dc3d9306e1bfee1a482e2ac6310260c4fc30a"
+    },
+    {
+      "File_ID": "609",
+      "Group": "SLI",
+      "Age_Raw": "6;07.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/609.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/609.cha",
+      "source_sha256": "d220f29b7187d105a1874235a4e167bb461c190d1999772d08d14827ae41fd4c",
+      "input_sha256": "d220f29b7187d105a1874235a4e167bb461c190d1999772d08d14827ae41fd4c"
+    },
+    {
+      "File_ID": "617",
+      "Group": "SLI",
+      "Age_Raw": "6;06.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/617.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/617.cha",
+      "source_sha256": "488d157da5b0d2f48968da448fe65fe74ef829b1fc356c93b8e39308cc25bf7c",
+      "input_sha256": "488d157da5b0d2f48968da448fe65fe74ef829b1fc356c93b8e39308cc25bf7c"
+    },
+    {
+      "File_ID": "625",
+      "Group": "SLI",
+      "Age_Raw": "6;08.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/625.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/625.cha",
+      "source_sha256": "3edffb014ba59dff0242fa3fef84297c76b1236e14c0c7c318debb32a2beb37f",
+      "input_sha256": "3edffb014ba59dff0242fa3fef84297c76b1236e14c0c7c318debb32a2beb37f"
+    },
+    {
+      "File_ID": "678",
+      "Group": "SLI",
+      "Age_Raw": "6;10.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/678.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/678.cha",
+      "source_sha256": "eb752a30c7abe51e4d0c4cb1832a9acb4330c745927606daaa9b6fb064ff76ac",
+      "input_sha256": "eb752a30c7abe51e4d0c4cb1832a9acb4330c745927606daaa9b6fb064ff76ac"
+    },
+    {
+      "File_ID": "717",
+      "Group": "SLI",
+      "Age_Raw": "7;04.27",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/717.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/717.cha",
+      "source_sha256": "dab6fc6f5ff3760289ad99109e4da965aa56ea66856328ca5fd62af37def46cb",
+      "input_sha256": "dab6fc6f5ff3760289ad99109e4da965aa56ea66856328ca5fd62af37def46cb"
+    },
+    {
+      "File_ID": "721",
+      "Group": "SLI",
+      "Age_Raw": "7;03.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/721.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/721.cha",
+      "source_sha256": "3a62a2831fbea0c4355e18aaa3d3a3bb950a22b297bd8368e2d04d8848bf530e",
+      "input_sha256": "3a62a2831fbea0c4355e18aaa3d3a3bb950a22b297bd8368e2d04d8848bf530e"
+    },
+    {
+      "File_ID": "725",
+      "Group": "SLI",
+      "Age_Raw": "7;10.30",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/725.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/725.cha",
+      "source_sha256": "b623b61f7c3ab01ae0ceaa1d1acb7e79e9888ca96edc7329b2f13c84716e3ac8",
+      "input_sha256": "b623b61f7c3ab01ae0ceaa1d1acb7e79e9888ca96edc7329b2f13c84716e3ac8"
+    },
+    {
+      "File_ID": "729",
+      "Group": "SLI",
+      "Age_Raw": "7;06.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/729.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/729.cha",
+      "source_sha256": "34b8d660ff781337e9679d2a5805712f7154afb73a4468096a7e98799d27203f",
+      "input_sha256": "34b8d660ff781337e9679d2a5805712f7154afb73a4468096a7e98799d27203f"
+    },
+    {
+      "File_ID": "733",
+      "Group": "SLI",
+      "Age_Raw": "7;07.09",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/733.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/733.cha",
+      "source_sha256": "12d4f448688591a3d7e5af140799b2a393e5ce20f42de124fc0a24d9387007e3",
+      "input_sha256": "12d4f448688591a3d7e5af140799b2a393e5ce20f42de124fc0a24d9387007e3"
+    },
+    {
+      "File_ID": "777",
+      "Group": "SLI",
+      "Age_Raw": "7;04.22",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/A/777.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/A/777.cha",
+      "source_sha256": "29959f49c491dbbfa1add3b5c3816b20fd9079d7f0c26eda5dceb0e1b6a3597b",
+      "input_sha256": "29959f49c491dbbfa1add3b5c3816b20fd9079d7f0c26eda5dceb0e1b6a3597b"
+    },
+    {
+      "File_ID": "427",
+      "Group": "SLI",
+      "Age_Raw": "4;07.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/427.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/427.cha",
+      "source_sha256": "5d6f1c7b574f36a161bede6ff8bdb74ff2a45aaefbcff9fa0097c4f27ffbe524",
+      "input_sha256": "5d6f1c7b574f36a161bede6ff8bdb74ff2a45aaefbcff9fa0097c4f27ffbe524"
+    },
+    {
+      "File_ID": "480",
+      "Group": "SLI",
+      "Age_Raw": "4;04.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/480.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/480.cha",
+      "source_sha256": "bdc86778499c9973245e3fe412c12dacfb57a84b9f9cf603621693b5a3e6238a",
+      "input_sha256": "bdc86778499c9973245e3fe412c12dacfb57a84b9f9cf603621693b5a3e6238a"
+    },
+    {
+      "File_ID": "527",
+      "Group": "SLI",
+      "Age_Raw": "5;10.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/527.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/527.cha",
+      "source_sha256": "a439854db0bf115076344e9ae0b23d48bf1874c8de16f2a048c6763619f76230",
+      "input_sha256": "a439854db0bf115076344e9ae0b23d48bf1874c8de16f2a048c6763619f76230"
+    },
+    {
+      "File_ID": "531",
+      "Group": "SLI",
+      "Age_Raw": "5;04.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/531.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/531.cha",
+      "source_sha256": "53d040764c1ffa18060e0a0354f2975238caa9e8984489a20f6d1d2ee50c9cc5",
+      "input_sha256": "53d040764c1ffa18060e0a0354f2975238caa9e8984489a20f6d1d2ee50c9cc5"
+    },
+    {
+      "File_ID": "535",
+      "Group": "SLI",
+      "Age_Raw": "5;05.09",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/535.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/535.cha",
+      "source_sha256": "f13fc4e425e65b04f13176d889c499b5fd96c5b613fc5820d02d7576931834da",
+      "input_sha256": "f13fc4e425e65b04f13176d889c499b5fd96c5b613fc5820d02d7576931834da"
+    },
+    {
+      "File_ID": "567",
+      "Group": "SLI",
+      "Age_Raw": "5;01.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/567.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/567.cha",
+      "source_sha256": "8b21c1c9688bf7295aec7343679d6a404db84c061fa990ad197d47e42eb29037",
+      "input_sha256": "8b21c1c9688bf7295aec7343679d6a404db84c061fa990ad197d47e42eb29037"
+    },
+    {
+      "File_ID": "569",
+      "Group": "SLI",
+      "Age_Raw": "5;07.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/569.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/569.cha",
+      "source_sha256": "d38255a0068966ccbe3fba1a78249ed7bb4ce02afdb90289661a785307eaab9e",
+      "input_sha256": "d38255a0068966ccbe3fba1a78249ed7bb4ce02afdb90289661a785307eaab9e"
+    },
+    {
+      "File_ID": "576",
+      "Group": "SLI",
+      "Age_Raw": "5;07.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/576.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/576.cha",
+      "source_sha256": "9cdb7a3abfe1bc44c57b95738eb339b284210cdc9358912b9a05a90b915b1412",
+      "input_sha256": "9cdb7a3abfe1bc44c57b95738eb339b284210cdc9358912b9a05a90b915b1412"
+    },
+    {
+      "File_ID": "611",
+      "Group": "SLI",
+      "Age_Raw": "6;10.09",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/611.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/611.cha",
+      "source_sha256": "393bfdb93814b596683837a58490468abcf2253a930ff36be01822794ad845e2",
+      "input_sha256": "393bfdb93814b596683837a58490468abcf2253a930ff36be01822794ad845e2"
+    },
+    {
+      "File_ID": "667",
+      "Group": "SLI",
+      "Age_Raw": "6;05.22",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/667.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/667.cha",
+      "source_sha256": "f1ff0b56b0dbb0b009934e789cba7bf6818e4041b5ed501cf19350f8d2af45ae",
+      "input_sha256": "f1ff0b56b0dbb0b009934e789cba7bf6818e4041b5ed501cf19350f8d2af45ae"
+    },
+    {
+      "File_ID": "673",
+      "Group": "SLI",
+      "Age_Raw": "6;11.08",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/673.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/673.cha",
+      "source_sha256": "8ecb0edef03889e7c71000f9f45d7fe6053755f645f393b0f43456010ea6901f",
+      "input_sha256": "8ecb0edef03889e7c71000f9f45d7fe6053755f645f393b0f43456010ea6901f"
+    },
+    {
+      "File_ID": "679",
+      "Group": "SLI",
+      "Age_Raw": "6;08.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/679.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/679.cha",
+      "source_sha256": "d414b343afbe5b7144598a4467d4a1d69ea8663fa639bcfa74c3a32e4217024c",
+      "input_sha256": "d414b343afbe5b7144598a4467d4a1d69ea8663fa639bcfa74c3a32e4217024c"
+    },
+    {
+      "File_ID": "680",
+      "Group": "SLI",
+      "Age_Raw": "6;03.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/680.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/680.cha",
+      "source_sha256": "095a9309f1178070f4d33e21df1fea1c4698ae5877aba153d819de0f7892e149",
+      "input_sha256": "095a9309f1178070f4d33e21df1fea1c4698ae5877aba153d819de0f7892e149"
+    },
+    {
+      "File_ID": "723",
+      "Group": "SLI",
+      "Age_Raw": "7;03.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/723.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/723.cha",
+      "source_sha256": "3ed99e11827955b4b5af0deebc824481af3ba70966795814092959855de089fd",
+      "input_sha256": "3ed99e11827955b4b5af0deebc824481af3ba70966795814092959855de089fd"
+    },
+    {
+      "File_ID": "727",
+      "Group": "SLI",
+      "Age_Raw": "7;09.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/727.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/727.cha",
+      "source_sha256": "73ba3e9623c20a46357029ff20a86ac14575bd66dafce8cd1df9774c973eb909",
+      "input_sha256": "73ba3e9623c20a46357029ff20a86ac14575bd66dafce8cd1df9774c973eb909"
+    },
+    {
+      "File_ID": "731",
+      "Group": "SLI",
+      "Age_Raw": "7;08.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/731.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/731.cha",
+      "source_sha256": "466dac7d716f7cb404a23852689413e4bcdb08ed3631aea3ce2dbfae41ba83ed",
+      "input_sha256": "466dac7d716f7cb404a23852689413e4bcdb08ed3631aea3ce2dbfae41ba83ed"
+    },
+    {
+      "File_ID": "735",
+      "Group": "SLI",
+      "Age_Raw": "7;09.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/735.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/735.cha",
+      "source_sha256": "bae17387d9b073b5c4490eaf773a699a713605445dc12d9163033ea88f8ad6c2",
+      "input_sha256": "bae17387d9b073b5c4490eaf773a699a713605445dc12d9163033ea88f8ad6c2"
+    },
+    {
+      "File_ID": "739",
+      "Group": "SLI",
+      "Age_Raw": "7;01.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/739.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/739.cha",
+      "source_sha256": "5e0bb4b75653b09df7e8be4fd1b472fa415cab00d01120f20ba7639b8096aae6",
+      "input_sha256": "5e0bb4b75653b09df7e8be4fd1b472fa415cab00d01120f20ba7639b8096aae6"
+    },
+    {
+      "File_ID": "774",
+      "Group": "SLI",
+      "Age_Raw": "7;06.18",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/774.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/774.cha",
+      "source_sha256": "069af7644d4954f2cd3c35e6d5f91f863225333b7740e3ef9a7737c6fa31252a",
+      "input_sha256": "069af7644d4954f2cd3c35e6d5f91f863225333b7740e3ef9a7737c6fa31252a"
+    },
+    {
+      "File_ID": "778",
+      "Group": "SLI",
+      "Age_Raw": "7;09.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/SLI/B/778.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/SLI/B/778.cha",
+      "source_sha256": "4668f6e3eb238f2ba70aad353eb24ad640d579a381b374c96df5404842ea3ec0",
+      "input_sha256": "4668f6e3eb238f2ba70aad353eb24ad640d579a381b374c96df5404842ea3ec0"
+    },
+    {
+      "File_ID": "401",
+      "Group": "TD",
+      "Age_Raw": "4;10.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/401.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/401.cha",
+      "source_sha256": "0209225ad7fda5add61bbcf35d29ed951e986a2d4370193d03107bf2e0f9ab53",
+      "input_sha256": "0209225ad7fda5add61bbcf35d29ed951e986a2d4370193d03107bf2e0f9ab53"
+    },
+    {
+      "File_ID": "402",
+      "Group": "TD",
+      "Age_Raw": "4;07.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/402.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/402.cha",
+      "source_sha256": "317f34086cc1a2199b1c62394449fe31f31a0a5d62f4183bb77cc14eb9a450c0",
+      "input_sha256": "317f34086cc1a2199b1c62394449fe31f31a0a5d62f4183bb77cc14eb9a450c0"
+    },
+    {
+      "File_ID": "405",
+      "Group": "TD",
+      "Age_Raw": "4;08.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/405.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/405.cha",
+      "source_sha256": "cdc1b5bd68d645bba10bd95ff06edcb30984c5d1dd5dadd51f2e2c64f1846f77",
+      "input_sha256": "cdc1b5bd68d645bba10bd95ff06edcb30984c5d1dd5dadd51f2e2c64f1846f77"
+    },
+    {
+      "File_ID": "406",
+      "Group": "TD",
+      "Age_Raw": "4;07.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/406.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/406.cha",
+      "source_sha256": "b3c290665fb5274fd0c8d4dd810a663438ed69f0c2b09094047b3966bdcc3b93",
+      "input_sha256": "b3c290665fb5274fd0c8d4dd810a663438ed69f0c2b09094047b3966bdcc3b93"
+    },
+    {
+      "File_ID": "409",
+      "Group": "TD",
+      "Age_Raw": "4;10.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/409.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/409.cha",
+      "source_sha256": "3f81b5ed478a13e5a632fd2590fa8e22426c45b1263a5a58dee37ab5a08a92b2",
+      "input_sha256": "3f81b5ed478a13e5a632fd2590fa8e22426c45b1263a5a58dee37ab5a08a92b2"
+    },
+    {
+      "File_ID": "410",
+      "Group": "TD",
+      "Age_Raw": "4;01.27",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/410.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/410.cha",
+      "source_sha256": "54edae462805ffaf1c5c21614e9e179c2cc5db7963cbe7725a0fbb1db1eb13fa",
+      "input_sha256": "54edae462805ffaf1c5c21614e9e179c2cc5db7963cbe7725a0fbb1db1eb13fa"
+    },
+    {
+      "File_ID": "414",
+      "Group": "TD",
+      "Age_Raw": "4;11.18",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/414.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/414.cha",
+      "source_sha256": "93cd61121adfa95480b732f4342df1d0f3ac355733ba943f88333ec235aeec2b",
+      "input_sha256": "93cd61121adfa95480b732f4342df1d0f3ac355733ba943f88333ec235aeec2b"
+    },
+    {
+      "File_ID": "417",
+      "Group": "TD",
+      "Age_Raw": "4;07.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/417.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/417.cha",
+      "source_sha256": "c4d5c531a34ec89b5c51abe86eeee1e96207fe564a80c46a967fd9a1ccee6c84",
+      "input_sha256": "c4d5c531a34ec89b5c51abe86eeee1e96207fe564a80c46a967fd9a1ccee6c84"
+    },
+    {
+      "File_ID": "418",
+      "Group": "TD",
+      "Age_Raw": "4;10.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/418.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/418.cha",
+      "source_sha256": "ed710e439bc866533848c30b71c294414856d027d01ad0e1963d4417d01e0140",
+      "input_sha256": "ed710e439bc866533848c30b71c294414856d027d01ad0e1963d4417d01e0140"
+    },
+    {
+      "File_ID": "421",
+      "Group": "TD",
+      "Age_Raw": "4;05.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/421.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/421.cha",
+      "source_sha256": "567bb1eb0c667599f7f674eb0392a61f6084c9407365f52ef901ad2593237c90",
+      "input_sha256": "567bb1eb0c667599f7f674eb0392a61f6084c9407365f52ef901ad2593237c90"
+    },
+    {
+      "File_ID": "425",
+      "Group": "TD",
+      "Age_Raw": "4;09.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/425.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/425.cha",
+      "source_sha256": "c487110764ff8cbdd473fa5d36c6eb2d830e8c27f493e6779e66084bd7935b5c",
+      "input_sha256": "c487110764ff8cbdd473fa5d36c6eb2d830e8c27f493e6779e66084bd7935b5c"
+    },
+    {
+      "File_ID": "429",
+      "Group": "TD",
+      "Age_Raw": "4;10.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/429.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/429.cha",
+      "source_sha256": "777bab8c689aa4b307649dfd1bb5f436a89e96b89f01d0ed13abd8a497a07ba9",
+      "input_sha256": "777bab8c689aa4b307649dfd1bb5f436a89e96b89f01d0ed13abd8a497a07ba9"
+    },
+    {
+      "File_ID": "441",
+      "Group": "TD",
+      "Age_Raw": "4;11.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/441.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/441.cha",
+      "source_sha256": "2dd2c7a057c5d04dc334d055f7a1182cb3ed30694b20c11932f0c7845758e09f",
+      "input_sha256": "2dd2c7a057c5d04dc334d055f7a1182cb3ed30694b20c11932f0c7845758e09f"
+    },
+    {
+      "File_ID": "448",
+      "Group": "TD",
+      "Age_Raw": "4;07.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/448.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/448.cha",
+      "source_sha256": "e835c43fbe4a0421da60e6c8fa799985f631b4f8c31224eb45bdbfb3fdd12a09",
+      "input_sha256": "e835c43fbe4a0421da60e6c8fa799985f631b4f8c31224eb45bdbfb3fdd12a09"
+    },
+    {
+      "File_ID": "452",
+      "Group": "TD",
+      "Age_Raw": "4;00.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/452.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/452.cha",
+      "source_sha256": "bff09291f4be57306d7ea25b11c582f0b90149a85e2a4dd731620df8efe4f367",
+      "input_sha256": "bff09291f4be57306d7ea25b11c582f0b90149a85e2a4dd731620df8efe4f367"
+    },
+    {
+      "File_ID": "456",
+      "Group": "TD",
+      "Age_Raw": "4;01.22",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/456.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/456.cha",
+      "source_sha256": "4c3c67098a69fe429b581313cd34c6f416eb13f7580cc83748e36473c904a39f",
+      "input_sha256": "4c3c67098a69fe429b581313cd34c6f416eb13f7580cc83748e36473c904a39f"
+    },
+    {
+      "File_ID": "457",
+      "Group": "TD",
+      "Age_Raw": "4;07.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/457.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/457.cha",
+      "source_sha256": "5700f5d5d4614d33b33e2a77cc5bd475e3199928db9aa60d76e8aebcf7c22c9f",
+      "input_sha256": "5700f5d5d4614d33b33e2a77cc5bd475e3199928db9aa60d76e8aebcf7c22c9f"
+    },
+    {
+      "File_ID": "460",
+      "Group": "TD",
+      "Age_Raw": "4;08.23",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/460.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/460.cha",
+      "source_sha256": "f41ad8f1386131354bf627e81fe3bc11b5eb610da86b9d9de20830e8c8f3960a",
+      "input_sha256": "94cd6e6f8d6f589ec8ae215d867adc252a731691842b00cca8272602d67c8745"
+    },
+    {
+      "File_ID": "464",
+      "Group": "TD",
+      "Age_Raw": "4;08.09",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/464.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/464.cha",
+      "source_sha256": "922649ae106818ab9778cabec17f2d351c2076517ebbc6a63ff8bebf8c1f41af",
+      "input_sha256": "922649ae106818ab9778cabec17f2d351c2076517ebbc6a63ff8bebf8c1f41af"
+    },
+    {
+      "File_ID": "468",
+      "Group": "TD",
+      "Age_Raw": "4;05.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/468.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/468.cha",
+      "source_sha256": "792b374b1e6fe0f0e3599c1723d6263d411df03812b4577562fdf11224b61784",
+      "input_sha256": "792b374b1e6fe0f0e3599c1723d6263d411df03812b4577562fdf11224b61784"
+    },
+    {
+      "File_ID": "471",
+      "Group": "TD",
+      "Age_Raw": "4;09.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/471.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/471.cha",
+      "source_sha256": "a324f650ee6c321d7c79122a89fc102bc461e4809d138d7cc1c8e185513d9ed7",
+      "input_sha256": "a324f650ee6c321d7c79122a89fc102bc461e4809d138d7cc1c8e185513d9ed7"
+    },
+    {
+      "File_ID": "501",
+      "Group": "TD",
+      "Age_Raw": "5;08.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/501.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/501.cha",
+      "source_sha256": "85c40d04783b461095b4dd59be317a7386ff21be71d950002956872d98c4799b",
+      "input_sha256": "85c40d04783b461095b4dd59be317a7386ff21be71d950002956872d98c4799b"
+    },
+    {
+      "File_ID": "502",
+      "Group": "TD",
+      "Age_Raw": "5;04.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/502.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/502.cha",
+      "source_sha256": "3b0cce6f7b2c05a51830ac7d31b1712fe46ac4cf9b0556463cfe6ee6b9b48c2e",
+      "input_sha256": "3b0cce6f7b2c05a51830ac7d31b1712fe46ac4cf9b0556463cfe6ee6b9b48c2e"
+    },
+    {
+      "File_ID": "505",
+      "Group": "TD",
+      "Age_Raw": "5;02.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/505.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/505.cha",
+      "source_sha256": "95b390f6dabfd5a83535d978ceb9d53840a2710ba90880ba8f82ffe20336daab",
+      "input_sha256": "95b390f6dabfd5a83535d978ceb9d53840a2710ba90880ba8f82ffe20336daab"
+    },
+    {
+      "File_ID": "506",
+      "Group": "TD",
+      "Age_Raw": "5;03.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/506.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/506.cha",
+      "source_sha256": "4ab803ce379698716f6a9451da5a56ad2a3421cf7a4c09899288916472d84f3a",
+      "input_sha256": "4ab803ce379698716f6a9451da5a56ad2a3421cf7a4c09899288916472d84f3a"
+    },
+    {
+      "File_ID": "509",
+      "Group": "TD",
+      "Age_Raw": "5;09.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/509.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/509.cha",
+      "source_sha256": "9237ed28dc731207abac0661bfebe6d25092c2d46a3f16e50737a15f80735160",
+      "input_sha256": "9237ed28dc731207abac0661bfebe6d25092c2d46a3f16e50737a15f80735160"
+    },
+    {
+      "File_ID": "510",
+      "Group": "TD",
+      "Age_Raw": "5;01.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/510.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/510.cha",
+      "source_sha256": "5ec4de313050262342ecfabd375f2f448852557ba2087dd0b8eb76cdd822b26d",
+      "input_sha256": "5ec4de313050262342ecfabd375f2f448852557ba2087dd0b8eb76cdd822b26d"
+    },
+    {
+      "File_ID": "513",
+      "Group": "TD",
+      "Age_Raw": "5;07.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/513.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/513.cha",
+      "source_sha256": "9938370372fe4fe62e4e4815d92e65cfe34b0401b017d7bf5392834b4f1b3674",
+      "input_sha256": "9938370372fe4fe62e4e4815d92e65cfe34b0401b017d7bf5392834b4f1b3674"
+    },
+    {
+      "File_ID": "514",
+      "Group": "TD",
+      "Age_Raw": "5;06.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/514.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/514.cha",
+      "source_sha256": "4fd16677f5bcc69d8660d13960f4d785a8a4022f46dafa11a51c08663c248168",
+      "input_sha256": "4fd16677f5bcc69d8660d13960f4d785a8a4022f46dafa11a51c08663c248168"
+    },
+    {
+      "File_ID": "517",
+      "Group": "TD",
+      "Age_Raw": "5;05.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/517.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/517.cha",
+      "source_sha256": "ed4c52741afa045a6f75c989af3d4cc32cea8d3958384f84fd0a631b25aabba9",
+      "input_sha256": "ed4c52741afa045a6f75c989af3d4cc32cea8d3958384f84fd0a631b25aabba9"
+    },
+    {
+      "File_ID": "518",
+      "Group": "TD",
+      "Age_Raw": "5;06.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/518.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/518.cha",
+      "source_sha256": "f8443a26b45b70a3e9f0a6764a91598d325df0f3fbad7828de85b827cde8b8a8",
+      "input_sha256": "f8443a26b45b70a3e9f0a6764a91598d325df0f3fbad7828de85b827cde8b8a8"
+    },
+    {
+      "File_ID": "522",
+      "Group": "TD",
+      "Age_Raw": "5;05.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/522.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/522.cha",
+      "source_sha256": "3dd7150231c54c0f411cff098f18f5d360c58f08b2a97cb55289f02e90f8be5d",
+      "input_sha256": "3dd7150231c54c0f411cff098f18f5d360c58f08b2a97cb55289f02e90f8be5d"
+    },
+    {
+      "File_ID": "526",
+      "Group": "TD",
+      "Age_Raw": "5;11.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/526.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/526.cha",
+      "source_sha256": "87aef9cb257e011d7894f50e3f57b65a6a1d3f01758a698b4a48d8fb27f54301",
+      "input_sha256": "87aef9cb257e011d7894f50e3f57b65a6a1d3f01758a698b4a48d8fb27f54301"
+    },
+    {
+      "File_ID": "530",
+      "Group": "TD",
+      "Age_Raw": "5;09.13",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/530.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/530.cha",
+      "source_sha256": "45a78ba80dce47125a6429f1c7c157725de17ea49227c66a16b56545a03bb39b",
+      "input_sha256": "45a78ba80dce47125a6429f1c7c157725de17ea49227c66a16b56545a03bb39b"
+    },
+    {
+      "File_ID": "538",
+      "Group": "TD",
+      "Age_Raw": "5;04.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/538.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/538.cha",
+      "source_sha256": "c3d4c3156bb269f098b31e0737a9d5888649add309d3091489a80eec01fb29e1",
+      "input_sha256": "c3d4c3156bb269f098b31e0737a9d5888649add309d3091489a80eec01fb29e1"
+    },
+    {
+      "File_ID": "541",
+      "Group": "TD",
+      "Age_Raw": "5;10.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/541.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/541.cha",
+      "source_sha256": "d3c7b8409badc1ec313cbceba998c66ff187c34bad391faa8498a7bfa481a654",
+      "input_sha256": "d3c7b8409badc1ec313cbceba998c66ff187c34bad391faa8498a7bfa481a654"
+    },
+    {
+      "File_ID": "544",
+      "Group": "TD",
+      "Age_Raw": "5;05.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/544.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/544.cha",
+      "source_sha256": "b96791b10bb1e3036d93f1020d1872b9a1ea93d60033d3d4cf60242ca0cf4680",
+      "input_sha256": "b96791b10bb1e3036d93f1020d1872b9a1ea93d60033d3d4cf60242ca0cf4680"
+    },
+    {
+      "File_ID": "545",
+      "Group": "TD",
+      "Age_Raw": "5;01.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/545.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/545.cha",
+      "source_sha256": "8882c727693415dbb006f302ada370082ce8679de8d0e293337498edb4772225",
+      "input_sha256": "8882c727693415dbb006f302ada370082ce8679de8d0e293337498edb4772225"
+    },
+    {
+      "File_ID": "548",
+      "Group": "TD",
+      "Age_Raw": "5;03.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/548.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/548.cha",
+      "source_sha256": "12b1ba4be5f2fe364b5c3dbe29d167ec2a201497a8c5805c11cdf227488b6f76",
+      "input_sha256": "12b1ba4be5f2fe364b5c3dbe29d167ec2a201497a8c5805c11cdf227488b6f76"
+    },
+    {
+      "File_ID": "549",
+      "Group": "TD",
+      "Age_Raw": "5;08.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/549.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/549.cha",
+      "source_sha256": "d6b7b8d80e105881f0020854fe02f74f2a5c9332caa64c45f408f63c5ef8fe18",
+      "input_sha256": "d6b7b8d80e105881f0020854fe02f74f2a5c9332caa64c45f408f63c5ef8fe18"
+    },
+    {
+      "File_ID": "553",
+      "Group": "TD",
+      "Age_Raw": "5;11.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/553.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/553.cha",
+      "source_sha256": "1e94826af4dbd7642a4adfdf0339db998c70883b2bce25445d9877f85c63b80c",
+      "input_sha256": "1e94826af4dbd7642a4adfdf0339db998c70883b2bce25445d9877f85c63b80c"
+    },
+    {
+      "File_ID": "555",
+      "Group": "TD",
+      "Age_Raw": "5;02.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/555.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/555.cha",
+      "source_sha256": "859e1965d68fc03c317df405e38151258c83d9dd10a39fa4fbf5ac3fd51d1f3c",
+      "input_sha256": "859e1965d68fc03c317df405e38151258c83d9dd10a39fa4fbf5ac3fd51d1f3c"
+    },
+    {
+      "File_ID": "559",
+      "Group": "TD",
+      "Age_Raw": "5;05.23",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/559.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/559.cha",
+      "source_sha256": "8fa06683eda9e37f5b518fc4916dd407f65112f855daaedc79ab39373b1cec49",
+      "input_sha256": "8fa06683eda9e37f5b518fc4916dd407f65112f855daaedc79ab39373b1cec49"
+    },
+    {
+      "File_ID": "561",
+      "Group": "TD",
+      "Age_Raw": "5;02.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/561.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/561.cha",
+      "source_sha256": "1f7d02d7b865da4003206b712fd50f86f8ffd1d5bfed8c3818cdeb6dcd2b035d",
+      "input_sha256": "1f7d02d7b865da4003206b712fd50f86f8ffd1d5bfed8c3818cdeb6dcd2b035d"
+    },
+    {
+      "File_ID": "562",
+      "Group": "TD",
+      "Age_Raw": "5;00.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/562.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/562.cha",
+      "source_sha256": "035d8db2dbd1b245eeba63364d379d5973ffab2d82a46dc79b25ea113bcab1c2",
+      "input_sha256": "035d8db2dbd1b245eeba63364d379d5973ffab2d82a46dc79b25ea113bcab1c2"
+    },
+    {
+      "File_ID": "564",
+      "Group": "TD",
+      "Age_Raw": "5;11.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/564.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/564.cha",
+      "source_sha256": "d6466020491a404fff803d56ce874e599d5d57ccfd0e2981267eef646e3005ed",
+      "input_sha256": "d6466020491a404fff803d56ce874e599d5d57ccfd0e2981267eef646e3005ed"
+    },
+    {
+      "File_ID": "601",
+      "Group": "TD",
+      "Age_Raw": "6;10.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/601.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/601.cha",
+      "source_sha256": "56722199352ea55388384ec0daf17fca5c2edef73a592ac5eb6172d7d593b78a",
+      "input_sha256": "a154625fef60a48498e8cf60a8c529b13bfec61f94aafb7d8ce37b6759abb775"
+    },
+    {
+      "File_ID": "602",
+      "Group": "TD",
+      "Age_Raw": "6;00.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/602.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/602.cha",
+      "source_sha256": "ea5f6ad47a83d23330f5189ddf0d5cef9d4e1a65efd017ab8bfcba0fa56a0b6f",
+      "input_sha256": "ea5f6ad47a83d23330f5189ddf0d5cef9d4e1a65efd017ab8bfcba0fa56a0b6f"
+    },
+    {
+      "File_ID": "605",
+      "Group": "TD",
+      "Age_Raw": "6;09.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/605.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/605.cha",
+      "source_sha256": "1bcd33155e9613bca031de6c4dfa73ee5a0557f8491d6414afdd60d144a5180e",
+      "input_sha256": "1bcd33155e9613bca031de6c4dfa73ee5a0557f8491d6414afdd60d144a5180e"
+    },
+    {
+      "File_ID": "606",
+      "Group": "TD",
+      "Age_Raw": "6;11.09",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/606.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/606.cha",
+      "source_sha256": "6c9c1ae678376a3c941bd0631172cc07db1e63f0ff99124b0b7a4b0eafb839b8",
+      "input_sha256": "6c9c1ae678376a3c941bd0631172cc07db1e63f0ff99124b0b7a4b0eafb839b8"
+    },
+    {
+      "File_ID": "610",
+      "Group": "TD",
+      "Age_Raw": "6;01.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/610.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/610.cha",
+      "source_sha256": "9b95bdc18b220fc8001a99f87453f406465aa17e9bc94d621b059d1e7c923120",
+      "input_sha256": "9b95bdc18b220fc8001a99f87453f406465aa17e9bc94d621b059d1e7c923120"
+    },
+    {
+      "File_ID": "614",
+      "Group": "TD",
+      "Age_Raw": "6;09.30",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/614.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/614.cha",
+      "source_sha256": "36787a310b5bb8441cffad173077d3bbab080c66d45216b133e5013f6c36a0ac",
+      "input_sha256": "36787a310b5bb8441cffad173077d3bbab080c66d45216b133e5013f6c36a0ac"
+    },
+    {
+      "File_ID": "618",
+      "Group": "TD",
+      "Age_Raw": "6;05.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/618.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/618.cha",
+      "source_sha256": "6aa8d5d258bf09ffb45e1ff81aebb54d65c5d795cc6d6c64cc3b7f9dde783cf9",
+      "input_sha256": "6aa8d5d258bf09ffb45e1ff81aebb54d65c5d795cc6d6c64cc3b7f9dde783cf9"
+    },
+    {
+      "File_ID": "622",
+      "Group": "TD",
+      "Age_Raw": "6;07.08",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/622.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/622.cha",
+      "source_sha256": "9b407a6484f84ba6efc38af9222df7d651573e9610e620dec4c7bc338d5a85c1",
+      "input_sha256": "9b407a6484f84ba6efc38af9222df7d651573e9610e620dec4c7bc338d5a85c1"
+    },
+    {
+      "File_ID": "626",
+      "Group": "TD",
+      "Age_Raw": "6;07.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/626.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/626.cha",
+      "source_sha256": "33d9c6fb2a7f5a848bdc311070dc6acbb9ddc2e5db679686935a719d2da3f96c",
+      "input_sha256": "33d9c6fb2a7f5a848bdc311070dc6acbb9ddc2e5db679686935a719d2da3f96c"
+    },
+    {
+      "File_ID": "630",
+      "Group": "TD",
+      "Age_Raw": "6;10.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/630.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/630.cha",
+      "source_sha256": "2cf78fdc8661f8134c9212b20463b39527f044fcedc2ef014a44cf7c16adf213",
+      "input_sha256": "2cf78fdc8661f8134c9212b20463b39527f044fcedc2ef014a44cf7c16adf213"
+    },
+    {
+      "File_ID": "634",
+      "Group": "TD",
+      "Age_Raw": "6;01.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/634.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/634.cha",
+      "source_sha256": "f68aa53ad781b81c03fbac9ab31bc894fd0e55e19f9e0aaceb327fc2b342a4a1",
+      "input_sha256": "f68aa53ad781b81c03fbac9ab31bc894fd0e55e19f9e0aaceb327fc2b342a4a1"
+    },
+    {
+      "File_ID": "637",
+      "Group": "TD",
+      "Age_Raw": "6;01.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/637.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/637.cha",
+      "source_sha256": "7161d62adf46ff5680ece1b1434238a3d407df74c88b2d1ff9a0dee440325a96",
+      "input_sha256": "7161d62adf46ff5680ece1b1434238a3d407df74c88b2d1ff9a0dee440325a96"
+    },
+    {
+      "File_ID": "641",
+      "Group": "TD",
+      "Age_Raw": "6;05.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/641.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/641.cha",
+      "source_sha256": "94c06b60423a16fb7275036c2e1aef7e83e1e4ea58ba19c76c6ac7edf73f7793",
+      "input_sha256": "94c06b60423a16fb7275036c2e1aef7e83e1e4ea58ba19c76c6ac7edf73f7793"
+    },
+    {
+      "File_ID": "645",
+      "Group": "TD",
+      "Age_Raw": "6;06.27",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/645.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/645.cha",
+      "source_sha256": "51bb17b1decfae79229a97f2e44c2acc45159e9ea696920418e7670a61f32dd4",
+      "input_sha256": "51bb17b1decfae79229a97f2e44c2acc45159e9ea696920418e7670a61f32dd4"
+    },
+    {
+      "File_ID": "649",
+      "Group": "TD",
+      "Age_Raw": "6;05.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/649.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/649.cha",
+      "source_sha256": "82c69780a223bbcf21ed1b83ccf21520d9d915e381beb56aa3fb280d596849ad",
+      "input_sha256": "82c69780a223bbcf21ed1b83ccf21520d9d915e381beb56aa3fb280d596849ad"
+    },
+    {
+      "File_ID": "650",
+      "Group": "TD",
+      "Age_Raw": "6;05.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/650.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/650.cha",
+      "source_sha256": "2487eaa6d3420e66a00622aa018ba9538bc414fbda828817bd5092729a5e1844",
+      "input_sha256": "2487eaa6d3420e66a00622aa018ba9538bc414fbda828817bd5092729a5e1844"
+    },
+    {
+      "File_ID": "653",
+      "Group": "TD",
+      "Age_Raw": "6;05.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/653.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/653.cha",
+      "source_sha256": "1ead375971154403a387f5dee0a7ef2939ca136d7398b35cc9bc2f9646b3df3f",
+      "input_sha256": "1ead375971154403a387f5dee0a7ef2939ca136d7398b35cc9bc2f9646b3df3f"
+    },
+    {
+      "File_ID": "654",
+      "Group": "TD",
+      "Age_Raw": "6;01.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/654.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/654.cha",
+      "source_sha256": "7535c932d7135c1a7d5b4bc719db74ea6f3f5e9a91d3b0fa1aabbad0c2b3d08a",
+      "input_sha256": "7535c932d7135c1a7d5b4bc719db74ea6f3f5e9a91d3b0fa1aabbad0c2b3d08a"
+    },
+    {
+      "File_ID": "657",
+      "Group": "TD",
+      "Age_Raw": "6;06.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/657.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/657.cha",
+      "source_sha256": "e4b264f4897fb22ac7fd4b823b4afa698e55e87993422db6b370c000286e8f53",
+      "input_sha256": "e4b264f4897fb22ac7fd4b823b4afa698e55e87993422db6b370c000286e8f53"
+    },
+    {
+      "File_ID": "660",
+      "Group": "TD",
+      "Age_Raw": "6;08.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/660.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/660.cha",
+      "source_sha256": "38f1032679c9018d6619db232f477a8b1d3b15f5bb7e75d2a16b8c39f57b9280",
+      "input_sha256": "38f1032679c9018d6619db232f477a8b1d3b15f5bb7e75d2a16b8c39f57b9280"
+    },
+    {
+      "File_ID": "661",
+      "Group": "TD",
+      "Age_Raw": "6;07.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/661.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/661.cha",
+      "source_sha256": "cd313546fd692a6c66ab34d8aed08227ed84c6ed606b5026e2df7b17ca3da3ee",
+      "input_sha256": "cd313546fd692a6c66ab34d8aed08227ed84c6ed606b5026e2df7b17ca3da3ee"
+    },
+    {
+      "File_ID": "665",
+      "Group": "TD",
+      "Age_Raw": "6;10.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/665.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/665.cha",
+      "source_sha256": "b2b28c206715a29cb7110a82d63e5f2c6104b26dba2141256ca234d90cfe3cd1",
+      "input_sha256": "b2b28c206715a29cb7110a82d63e5f2c6104b26dba2141256ca234d90cfe3cd1"
+    },
+    {
+      "File_ID": "670",
+      "Group": "TD",
+      "Age_Raw": "6;10.08",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/670.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/670.cha",
+      "source_sha256": "852d3510f47a1f0e2d7346b85d211770e9a0bbeed1570308aa4c5e67dd1f8144",
+      "input_sha256": "852d3510f47a1f0e2d7346b85d211770e9a0bbeed1570308aa4c5e67dd1f8144"
+    },
+    {
+      "File_ID": "671",
+      "Group": "TD",
+      "Age_Raw": "6;03.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/671.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/671.cha",
+      "source_sha256": "d28ef4d642d89280c0eabf88bf0e8a3e503c645d0b680597b4a617b16d8e9a7b",
+      "input_sha256": "d28ef4d642d89280c0eabf88bf0e8a3e503c645d0b680597b4a617b16d8e9a7b"
+    },
+    {
+      "File_ID": "677",
+      "Group": "TD",
+      "Age_Raw": "6;08.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/677.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/677.cha",
+      "source_sha256": "32e13fe27fd27ac4fbccb7a24e49764432a70d5359fa9f6e41087cbd45ce0a44",
+      "input_sha256": "32e13fe27fd27ac4fbccb7a24e49764432a70d5359fa9f6e41087cbd45ce0a44"
+    },
+    {
+      "File_ID": "701",
+      "Group": "TD",
+      "Age_Raw": "7;00.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/701.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/701.cha",
+      "source_sha256": "5763cc52d26e9abaf16fe71d27ba82a035e4bae0cacdd02b2b5a12d8caf18daa",
+      "input_sha256": "5763cc52d26e9abaf16fe71d27ba82a035e4bae0cacdd02b2b5a12d8caf18daa"
+    },
+    {
+      "File_ID": "702",
+      "Group": "TD",
+      "Age_Raw": "7;01.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/702.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/702.cha",
+      "source_sha256": "fff4eca1d334dc15dcc6a6cb1b94a05e3fad81da9e5c3aa29b5d8ae2fc0f8c1d",
+      "input_sha256": "fff4eca1d334dc15dcc6a6cb1b94a05e3fad81da9e5c3aa29b5d8ae2fc0f8c1d"
+    },
+    {
+      "File_ID": "705",
+      "Group": "TD",
+      "Age_Raw": "7;05.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/705.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/705.cha",
+      "source_sha256": "e0bbb262934793e4cf04ae735aac51b4f50db807725b633c3f9698f84eb9ae41",
+      "input_sha256": "e0bbb262934793e4cf04ae735aac51b4f50db807725b633c3f9698f84eb9ae41"
+    },
+    {
+      "File_ID": "706",
+      "Group": "TD",
+      "Age_Raw": "7;09.27",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/706.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/706.cha",
+      "source_sha256": "c61969c126dff398886d9e3ba04582c08854197392d148173e90d07cbcd90f38",
+      "input_sha256": "c61969c126dff398886d9e3ba04582c08854197392d148173e90d07cbcd90f38"
+    },
+    {
+      "File_ID": "709",
+      "Group": "TD",
+      "Age_Raw": "7;09.08",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/709.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/709.cha",
+      "source_sha256": "51baaf15fba9bf5ca27a7b2cd25588377da3382cbe75b30d77fb5770a901772f",
+      "input_sha256": "51baaf15fba9bf5ca27a7b2cd25588377da3382cbe75b30d77fb5770a901772f"
+    },
+    {
+      "File_ID": "713",
+      "Group": "TD",
+      "Age_Raw": "7;10.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/713.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/713.cha",
+      "source_sha256": "f0326fe9107b9fd33a5361a594667e3c462db2c00c999c16ef5f8d78693052ff",
+      "input_sha256": "f0326fe9107b9fd33a5361a594667e3c462db2c00c999c16ef5f8d78693052ff"
+    },
+    {
+      "File_ID": "714",
+      "Group": "TD",
+      "Age_Raw": "7;06.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/714.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/714.cha",
+      "source_sha256": "3a4f5843e8e99b7c950f5ef415d8ca5997616069b9103313267747ccd5a9054a",
+      "input_sha256": "3a4f5843e8e99b7c950f5ef415d8ca5997616069b9103313267747ccd5a9054a"
+    },
+    {
+      "File_ID": "718",
+      "Group": "TD",
+      "Age_Raw": "7;09.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/718.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/718.cha",
+      "source_sha256": "6fcebec5de7b48ca9c364f0e7a5c12bdea9f61b850f79c914ec07760319ca1c8",
+      "input_sha256": "6fcebec5de7b48ca9c364f0e7a5c12bdea9f61b850f79c914ec07760319ca1c8"
+    },
+    {
+      "File_ID": "722",
+      "Group": "TD",
+      "Age_Raw": "7;08.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/722.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/722.cha",
+      "source_sha256": "1221e32693c0df0c1796d1a158400dbf86973179791230194b4c1a9f4f66ab7e",
+      "input_sha256": "1221e32693c0df0c1796d1a158400dbf86973179791230194b4c1a9f4f66ab7e"
+    },
+    {
+      "File_ID": "726",
+      "Group": "TD",
+      "Age_Raw": "7;05.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/726.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/726.cha",
+      "source_sha256": "c64133bb1c4b16e6071e75305812efa3db55f93fd3822689fd0fb61eee6a1454",
+      "input_sha256": "c64133bb1c4b16e6071e75305812efa3db55f93fd3822689fd0fb61eee6a1454"
+    },
+    {
+      "File_ID": "730",
+      "Group": "TD",
+      "Age_Raw": "7;08.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/730.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/730.cha",
+      "source_sha256": "a643345bfa6b9d3458d174015143dda7547e247c67455c33b15f7d968f486f8c",
+      "input_sha256": "a643345bfa6b9d3458d174015143dda7547e247c67455c33b15f7d968f486f8c"
+    },
+    {
+      "File_ID": "737",
+      "Group": "TD",
+      "Age_Raw": "7;10.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/737.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/737.cha",
+      "source_sha256": "dd88321c96f164257016a167a5d768245d70a34dc7995ba6fba88e29a09b6a8f",
+      "input_sha256": "dd88321c96f164257016a167a5d768245d70a34dc7995ba6fba88e29a09b6a8f"
+    },
+    {
+      "File_ID": "738",
+      "Group": "TD",
+      "Age_Raw": "7;06.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/738.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/738.cha",
+      "source_sha256": "06bf4f3b9b0622281597052791e10edf5f453d6a8037edec295b810940225eb7",
+      "input_sha256": "06bf4f3b9b0622281597052791e10edf5f453d6a8037edec295b810940225eb7"
+    },
+    {
+      "File_ID": "746",
+      "Group": "TD",
+      "Age_Raw": "7;05.09",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/746.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/746.cha",
+      "source_sha256": "eee6941d1d4c7b0871d8bef112bef1c62fa4c6bdbb2310cd97e48e0121a1f6aa",
+      "input_sha256": "eee6941d1d4c7b0871d8bef112bef1c62fa4c6bdbb2310cd97e48e0121a1f6aa"
+    },
+    {
+      "File_ID": "752",
+      "Group": "TD",
+      "Age_Raw": "7;10.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/752.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/752.cha",
+      "source_sha256": "695672de501106d0275de1d0eabd031720f7c5ab96934179bbeec1c633173b16",
+      "input_sha256": "695672de501106d0275de1d0eabd031720f7c5ab96934179bbeec1c633173b16"
+    },
+    {
+      "File_ID": "756",
+      "Group": "TD",
+      "Age_Raw": "7;07.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/756.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/756.cha",
+      "source_sha256": "499e1371a131c2407cebd2a990fb972281225b90f8893165de8b67c17497c5f4",
+      "input_sha256": "499e1371a131c2407cebd2a990fb972281225b90f8893165de8b67c17497c5f4"
+    },
+    {
+      "File_ID": "757",
+      "Group": "TD",
+      "Age_Raw": "7;05.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/757.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/757.cha",
+      "source_sha256": "2ca798bb4765cc6d87239df4359c8f501558d154f1c3bf0d0e5e8b3283e7e8ce",
+      "input_sha256": "2ca798bb4765cc6d87239df4359c8f501558d154f1c3bf0d0e5e8b3283e7e8ce"
+    },
+    {
+      "File_ID": "761",
+      "Group": "TD",
+      "Age_Raw": "7;06.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/761.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/761.cha",
+      "source_sha256": "b2974ddece9728ad90cbc45a3fabeaf064fc3564043c68701b449e3221410ec4",
+      "input_sha256": "b2974ddece9728ad90cbc45a3fabeaf064fc3564043c68701b449e3221410ec4"
+    },
+    {
+      "File_ID": "762",
+      "Group": "TD",
+      "Age_Raw": "7;04.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/762.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/762.cha",
+      "source_sha256": "2e5948b0131dec6fea4e7e3450c3d809feb5066e07ceaf4ab3ea31ee410cec1a",
+      "input_sha256": "2e5948b0131dec6fea4e7e3450c3d809feb5066e07ceaf4ab3ea31ee410cec1a"
+    },
+    {
+      "File_ID": "765",
+      "Group": "TD",
+      "Age_Raw": "7;00.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/765.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/765.cha",
+      "source_sha256": "4fd3bb07063d146ae5a85e5423b529c80cb6bea8ea8fdb84804415d8880ba9ca",
+      "input_sha256": "4fd3bb07063d146ae5a85e5423b529c80cb6bea8ea8fdb84804415d8880ba9ca"
+    },
+    {
+      "File_ID": "766",
+      "Group": "TD",
+      "Age_Raw": "7;11.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/766.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/766.cha",
+      "source_sha256": "a7ce0d8618f619492c8afba13fbd5e1726c4a4ece80074071117b26ffbd21278",
+      "input_sha256": "a7ce0d8618f619492c8afba13fbd5e1726c4a4ece80074071117b26ffbd21278"
+    },
+    {
+      "File_ID": "767",
+      "Group": "TD",
+      "Age_Raw": "7;06.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/767.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/767.cha",
+      "source_sha256": "b44e5e4b5037cd3822b57d2254bab36dad7136e00c1c2c593867d72fc1813a51",
+      "input_sha256": "b44e5e4b5037cd3822b57d2254bab36dad7136e00c1c2c593867d72fc1813a51"
+    },
+    {
+      "File_ID": "769",
+      "Group": "TD",
+      "Age_Raw": "7;09.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/769.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/769.cha",
+      "source_sha256": "e521e23481dff4f794a53c2824980d4017f8df68acad991c3769c552ab39c813",
+      "input_sha256": "e521e23481dff4f794a53c2824980d4017f8df68acad991c3769c552ab39c813"
+    },
+    {
+      "File_ID": "771",
+      "Group": "TD",
+      "Age_Raw": "7;04.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/771.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/771.cha",
+      "source_sha256": "921501fc3effaff78ba0d05cafdd1f3e10479f77dadcbd8fa2b8a67125248798",
+      "input_sha256": "921501fc3effaff78ba0d05cafdd1f3e10479f77dadcbd8fa2b8a67125248798"
+    },
+    {
+      "File_ID": "773",
+      "Group": "TD",
+      "Age_Raw": "7;05.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/A/773.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/A/773.cha",
+      "source_sha256": "9f9122de1602d14ca5946fcb3f8921ed38d481f1b1f4c7acf8268c833904941d",
+      "input_sha256": "9f9122de1602d14ca5946fcb3f8921ed38d481f1b1f4c7acf8268c833904941d"
+    },
+    {
+      "File_ID": "403",
+      "Group": "TD",
+      "Age_Raw": "4;03.00",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/403.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/403.cha",
+      "source_sha256": "15196b19358ff0c4e2c4f2cb971fba515feacfb59b4ed27e3f71664d7f08802d",
+      "input_sha256": "15196b19358ff0c4e2c4f2cb971fba515feacfb59b4ed27e3f71664d7f08802d"
+    },
+    {
+      "File_ID": "404",
+      "Group": "TD",
+      "Age_Raw": "4;07.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/404.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/404.cha",
+      "source_sha256": "2c4356d29cf7e58a1d3752c5c9038198b57560c5b35036c8d05dee1d625de108",
+      "input_sha256": "2c4356d29cf7e58a1d3752c5c9038198b57560c5b35036c8d05dee1d625de108"
+    },
+    {
+      "File_ID": "407",
+      "Group": "TD",
+      "Age_Raw": "4;02.18",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/407.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/407.cha",
+      "source_sha256": "d9510eded19c3f02d329bc6673a971dcba4e6b3065d2740b5069f8cb9463bd6d",
+      "input_sha256": "d9510eded19c3f02d329bc6673a971dcba4e6b3065d2740b5069f8cb9463bd6d"
+    },
+    {
+      "File_ID": "408",
+      "Group": "TD",
+      "Age_Raw": "4;05.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/408.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/408.cha",
+      "source_sha256": "bc6b91f9f9b2c0ef8c845dd2770765296c759b387f7936284233f8476dfd90ef",
+      "input_sha256": "bc6b91f9f9b2c0ef8c845dd2770765296c759b387f7936284233f8476dfd90ef"
+    },
+    {
+      "File_ID": "411",
+      "Group": "TD",
+      "Age_Raw": "4;06.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/411.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/411.cha",
+      "source_sha256": "8a3ec8f3841e79849a4d66f41e90ccc5589e789ddda667cc4b7ae510dec46a0f",
+      "input_sha256": "8a3ec8f3841e79849a4d66f41e90ccc5589e789ddda667cc4b7ae510dec46a0f"
+    },
+    {
+      "File_ID": "412",
+      "Group": "TD",
+      "Age_Raw": "4;10.08",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/412.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/412.cha",
+      "source_sha256": "3f3343e826c484f1b18b6559aed53a5e41b574b0ec3317a52c21c7c761e32f5f",
+      "input_sha256": "3f3343e826c484f1b18b6559aed53a5e41b574b0ec3317a52c21c7c761e32f5f"
+    },
+    {
+      "File_ID": "415",
+      "Group": "TD",
+      "Age_Raw": "4;08.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/415.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/415.cha",
+      "source_sha256": "a282c743d2be9261698a6fdc7c53fe2f6e2628a49a864d37cdffcc8c0a9a333a",
+      "input_sha256": "a282c743d2be9261698a6fdc7c53fe2f6e2628a49a864d37cdffcc8c0a9a333a"
+    },
+    {
+      "File_ID": "416",
+      "Group": "TD",
+      "Age_Raw": "4;09.27",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/416.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/416.cha",
+      "source_sha256": "8fac0e8b6c9f42114f3a7e2976a85192868562b4a8565650fe1270a616712ebb",
+      "input_sha256": "8fac0e8b6c9f42114f3a7e2976a85192868562b4a8565650fe1270a616712ebb"
+    },
+    {
+      "File_ID": "419",
+      "Group": "TD",
+      "Age_Raw": "4;05.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/419.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/419.cha",
+      "source_sha256": "072d295dd7bf39239151d63401b4579bab4637992f5cfe3f41f47db8e43d5581",
+      "input_sha256": "072d295dd7bf39239151d63401b4579bab4637992f5cfe3f41f47db8e43d5581"
+    },
+    {
+      "File_ID": "423",
+      "Group": "TD",
+      "Age_Raw": "4;06.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/423.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/423.cha",
+      "source_sha256": "6f2d6a57d47ddc106ba3d32e8ce1033ee970558c3de847df0eaea143a012ed49",
+      "input_sha256": "6f2d6a57d47ddc106ba3d32e8ce1033ee970558c3de847df0eaea143a012ed49"
+    },
+    {
+      "File_ID": "439",
+      "Group": "TD",
+      "Age_Raw": "4;11.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/439.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/439.cha",
+      "source_sha256": "123390d6b4b23baf6b6916d5cca4d0e70db4906140c303ac73edbc444733b362",
+      "input_sha256": "123390d6b4b23baf6b6916d5cca4d0e70db4906140c303ac73edbc444733b362"
+    },
+    {
+      "File_ID": "443",
+      "Group": "TD",
+      "Age_Raw": "4;11.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/443.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/443.cha",
+      "source_sha256": "263b471e71bbc85e79e325272d904156053502dda5794f873bb12d424b17f339",
+      "input_sha256": "263b471e71bbc85e79e325272d904156053502dda5794f873bb12d424b17f339"
+    },
+    {
+      "File_ID": "446",
+      "Group": "TD",
+      "Age_Raw": "4;05.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/446.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/446.cha",
+      "source_sha256": "250a848977128e3d1a312512050f85caace9cdb5af7e39f845bcf10ad9f93846",
+      "input_sha256": "250a848977128e3d1a312512050f85caace9cdb5af7e39f845bcf10ad9f93846"
+    },
+    {
+      "File_ID": "450",
+      "Group": "TD",
+      "Age_Raw": "4;03.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/450.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/450.cha",
+      "source_sha256": "f49b22b94ac393b23b811930fd8679a96e412b93df4c4b607966364793685988",
+      "input_sha256": "f49b22b94ac393b23b811930fd8679a96e412b93df4c4b607966364793685988"
+    },
+    {
+      "File_ID": "454",
+      "Group": "TD",
+      "Age_Raw": "4;04.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/454.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/454.cha",
+      "source_sha256": "91f075baed1daf69f3f0c8ddce85ccc06ce600d1dc5b2706f29f66b062612a13",
+      "input_sha256": "91f075baed1daf69f3f0c8ddce85ccc06ce600d1dc5b2706f29f66b062612a13"
+    },
+    {
+      "File_ID": "455",
+      "Group": "TD",
+      "Age_Raw": "4;08.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/455.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/455.cha",
+      "source_sha256": "ae78e1a870efd68d368bedbf9b96abd932aacd7e8dd316b9ecf366c2de542a50",
+      "input_sha256": "ae78e1a870efd68d368bedbf9b96abd932aacd7e8dd316b9ecf366c2de542a50"
+    },
+    {
+      "File_ID": "458",
+      "Group": "TD",
+      "Age_Raw": "4;03.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/458.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/458.cha",
+      "source_sha256": "a3aa1cf484ce290995abaeb29dce076111e2057dd396dcd5c26969b2b35fec40",
+      "input_sha256": "a3aa1cf484ce290995abaeb29dce076111e2057dd396dcd5c26969b2b35fec40"
+    },
+    {
+      "File_ID": "459",
+      "Group": "TD",
+      "Age_Raw": "4;08.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/459.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/459.cha",
+      "source_sha256": "c43beb9e77adc29443d1fc8235ed57026e899166eca80141df919e7a66e0c46b",
+      "input_sha256": "c43beb9e77adc29443d1fc8235ed57026e899166eca80141df919e7a66e0c46b"
+    },
+    {
+      "File_ID": "461",
+      "Group": "TD",
+      "Age_Raw": "4;08.22",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/461.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/461.cha",
+      "source_sha256": "026dcf60ed1519263c4a445e87c6e625567868780c676bf5d5b28527cd6c2c21",
+      "input_sha256": "026dcf60ed1519263c4a445e87c6e625567868780c676bf5d5b28527cd6c2c21"
+    },
+    {
+      "File_ID": "463",
+      "Group": "TD",
+      "Age_Raw": "4;10.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/463.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/463.cha",
+      "source_sha256": "2896ca12ccb71221500d303acfd533df8d20918e0d087eb68d871076394520e6",
+      "input_sha256": "2896ca12ccb71221500d303acfd533df8d20918e0d087eb68d871076394520e6"
+    },
+    {
+      "File_ID": "465",
+      "Group": "TD",
+      "Age_Raw": "4;11.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/465.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/465.cha",
+      "source_sha256": "03a7a1ad192e9d6646cbac548613c4a0611d57e9c0c858c603dc54d469d83160",
+      "input_sha256": "03a7a1ad192e9d6646cbac548613c4a0611d57e9c0c858c603dc54d469d83160"
+    },
+    {
+      "File_ID": "466",
+      "Group": "TD",
+      "Age_Raw": "4;05.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/466.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/466.cha",
+      "source_sha256": "237218a313bd41336f670e45173c64634bd7e2034985a97d45fe12aa9a9f692b",
+      "input_sha256": "237218a313bd41336f670e45173c64634bd7e2034985a97d45fe12aa9a9f692b"
+    },
+    {
+      "File_ID": "469",
+      "Group": "TD",
+      "Age_Raw": "4;07.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/469.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/469.cha",
+      "source_sha256": "053bc0b353b8415e17cf45e95190ae7643b3b0ef04b494256e88c468215cd792",
+      "input_sha256": "053bc0b353b8415e17cf45e95190ae7643b3b0ef04b494256e88c468215cd792"
+    },
+    {
+      "File_ID": "472",
+      "Group": "TD",
+      "Age_Raw": "4;09.07",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/472.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/472.cha",
+      "source_sha256": "b54460a79c80c78dae1d4121020a9173e18734b979a5827fb54cd35995f85aa0",
+      "input_sha256": "b54460a79c80c78dae1d4121020a9173e18734b979a5827fb54cd35995f85aa0"
+    },
+    {
+      "File_ID": "503",
+      "Group": "TD",
+      "Age_Raw": "5;06.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/503.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/503.cha",
+      "source_sha256": "8231c28fbea9f89904a6622a8d6745e87d740baab47eb40780ec4567f0d81092",
+      "input_sha256": "8231c28fbea9f89904a6622a8d6745e87d740baab47eb40780ec4567f0d81092"
+    },
+    {
+      "File_ID": "504",
+      "Group": "TD",
+      "Age_Raw": "5;09.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/504.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/504.cha",
+      "source_sha256": "d2c4d93dcc145fc0cb6a951653c572f44363fc2591449ac7ebc3b3b225498777",
+      "input_sha256": "d2c4d93dcc145fc0cb6a951653c572f44363fc2591449ac7ebc3b3b225498777"
+    },
+    {
+      "File_ID": "507",
+      "Group": "TD",
+      "Age_Raw": "5;05.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/507.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/507.cha",
+      "source_sha256": "4306ea1469287ed102aadd29ee929bb0c136079dd30466b83c8ec465e6b1229a",
+      "input_sha256": "4306ea1469287ed102aadd29ee929bb0c136079dd30466b83c8ec465e6b1229a"
+    },
+    {
+      "File_ID": "508",
+      "Group": "TD",
+      "Age_Raw": "5;08.13",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/508.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/508.cha",
+      "source_sha256": "baf8c234b4568934c26c7f2ada09462d0489dcdd518211a1a18dca609d65ff65",
+      "input_sha256": "baf8c234b4568934c26c7f2ada09462d0489dcdd518211a1a18dca609d65ff65"
+    },
+    {
+      "File_ID": "511",
+      "Group": "TD",
+      "Age_Raw": "5;05.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/511.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/511.cha",
+      "source_sha256": "83485a8c043e6112d36f5c3cb1763b0848eb16eadd2330639bc9906ea79408b2",
+      "input_sha256": "83485a8c043e6112d36f5c3cb1763b0848eb16eadd2330639bc9906ea79408b2"
+    },
+    {
+      "File_ID": "512",
+      "Group": "TD",
+      "Age_Raw": "5;05.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/512.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/512.cha",
+      "source_sha256": "70184ea029454c9e735455d3aea3f8b2d93f37ae881e34086b0fa4abc296c29f",
+      "input_sha256": "70184ea029454c9e735455d3aea3f8b2d93f37ae881e34086b0fa4abc296c29f"
+    },
+    {
+      "File_ID": "515",
+      "Group": "TD",
+      "Age_Raw": "5;10.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/515.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/515.cha",
+      "source_sha256": "a66c91c7aff77cb118037f9eda2d8ca598c434414f012baae036e41de620007c",
+      "input_sha256": "a66c91c7aff77cb118037f9eda2d8ca598c434414f012baae036e41de620007c"
+    },
+    {
+      "File_ID": "516",
+      "Group": "TD",
+      "Age_Raw": "5;07.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/516.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/516.cha",
+      "source_sha256": "6ff72e029a8d58a772936cbf8d6cf3cfa1c76424c737655216a089232369aa28",
+      "input_sha256": "6ff72e029a8d58a772936cbf8d6cf3cfa1c76424c737655216a089232369aa28"
+    },
+    {
+      "File_ID": "520",
+      "Group": "TD",
+      "Age_Raw": "5;09.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/520.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/520.cha",
+      "source_sha256": "6db7156b68367068607f313f95eb61ede6281d4479660c6bd4893b72cefdabca",
+      "input_sha256": "6db7156b68367068607f313f95eb61ede6281d4479660c6bd4893b72cefdabca"
+    },
+    {
+      "File_ID": "524",
+      "Group": "TD",
+      "Age_Raw": "5;08.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/524.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/524.cha",
+      "source_sha256": "c7e1e05a85e094a0c2dcce33d5eed0d9366415ff2e3ba7be93b5407162940d7d",
+      "input_sha256": "c7e1e05a85e094a0c2dcce33d5eed0d9366415ff2e3ba7be93b5407162940d7d"
+    },
+    {
+      "File_ID": "528",
+      "Group": "TD",
+      "Age_Raw": "5;00.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/528.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/528.cha",
+      "source_sha256": "59e89fa03abe9d150007b620d5461518cc097110fb9679d58ba7677e72afb977",
+      "input_sha256": "59e89fa03abe9d150007b620d5461518cc097110fb9679d58ba7677e72afb977"
+    },
+    {
+      "File_ID": "532",
+      "Group": "TD",
+      "Age_Raw": "5;07.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/532.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/532.cha",
+      "source_sha256": "533e330e5970375b2bff13f584235ba0046d9f816ff85274853cb62c52c85218",
+      "input_sha256": "533e330e5970375b2bff13f584235ba0046d9f816ff85274853cb62c52c85218"
+    },
+    {
+      "File_ID": "533",
+      "Group": "TD",
+      "Age_Raw": "5;06.26",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/533.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/533.cha",
+      "source_sha256": "03d0c03f9b46d06d4b3945d7e84e335e241ea76c7a78b403d9d12083d307cc00",
+      "input_sha256": "03d0c03f9b46d06d4b3945d7e84e335e241ea76c7a78b403d9d12083d307cc00"
+    },
+    {
+      "File_ID": "536",
+      "Group": "TD",
+      "Age_Raw": "5;08.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/536.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/536.cha",
+      "source_sha256": "015586834b2f513f6598f4eb0ac878d223611d673c683fd1395ff9cc0fff8333",
+      "input_sha256": "015586834b2f513f6598f4eb0ac878d223611d673c683fd1395ff9cc0fff8333"
+    },
+    {
+      "File_ID": "539",
+      "Group": "TD",
+      "Age_Raw": "5;11.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/539.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/539.cha",
+      "source_sha256": "388d9b8c34cce872aa7dd77c584e60a924d2c061791e43e2592ce4d8819ee39e",
+      "input_sha256": "388d9b8c34cce872aa7dd77c584e60a924d2c061791e43e2592ce4d8819ee39e"
+    },
+    {
+      "File_ID": "543",
+      "Group": "TD",
+      "Age_Raw": "5;11.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/543.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/543.cha",
+      "source_sha256": "bbcf8ff8cc678ecff1102e92c2ab2f9f5e8225740723f98534cf46fe36b6c5e1",
+      "input_sha256": "bbcf8ff8cc678ecff1102e92c2ab2f9f5e8225740723f98534cf46fe36b6c5e1"
+    },
+    {
+      "File_ID": "547",
+      "Group": "TD",
+      "Age_Raw": "5;03.00",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/547.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/547.cha",
+      "source_sha256": "718e153685ed654d9bcb66bc0db1ecaff49dd3c5473031c3d5e43b2bcdd833f8",
+      "input_sha256": "718e153685ed654d9bcb66bc0db1ecaff49dd3c5473031c3d5e43b2bcdd833f8"
+    },
+    {
+      "File_ID": "551",
+      "Group": "TD",
+      "Age_Raw": "5;00.30",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/551.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/551.cha",
+      "source_sha256": "7bd323534f3e094862fca40a3e8f4aee00393cdee8a2f894f24339f3037ef720",
+      "input_sha256": "7bd323534f3e094862fca40a3e8f4aee00393cdee8a2f894f24339f3037ef720"
+    },
+    {
+      "File_ID": "557",
+      "Group": "TD",
+      "Age_Raw": "5;02.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/557.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/557.cha",
+      "source_sha256": "029c92db04c660c6d6de1e96257e46502b2c0c6fb101264acfb2436b94c825de",
+      "input_sha256": "029c92db04c660c6d6de1e96257e46502b2c0c6fb101264acfb2436b94c825de"
+    },
+    {
+      "File_ID": "565",
+      "Group": "TD",
+      "Age_Raw": "5;04.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/565.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/565.cha",
+      "source_sha256": "327e41c3628b5f73a5f04e959fab25d8720858b468827959df2e5e6067fb2abe",
+      "input_sha256": "327e41c3628b5f73a5f04e959fab25d8720858b468827959df2e5e6067fb2abe"
+    },
+    {
+      "File_ID": "571",
+      "Group": "TD",
+      "Age_Raw": "5;04.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/571.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/571.cha",
+      "source_sha256": "ada2966143742b8175030551c1b7ecfed389f460fb5c0bb093f323e469848382",
+      "input_sha256": "ada2966143742b8175030551c1b7ecfed389f460fb5c0bb093f323e469848382"
+    },
+    {
+      "File_ID": "603",
+      "Group": "TD",
+      "Age_Raw": "6;07.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/603.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/603.cha",
+      "source_sha256": "192d92fa3c5d4f94d041c4e8d20fda53be7c636f8046bbafc69966787e8ff68f",
+      "input_sha256": "192d92fa3c5d4f94d041c4e8d20fda53be7c636f8046bbafc69966787e8ff68f"
+    },
+    {
+      "File_ID": "604",
+      "Group": "TD",
+      "Age_Raw": "6;04.13",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/604.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/604.cha",
+      "source_sha256": "caef07527dfa3059d7b2a8c6fa42604d81ecf1d42cd809450149b45054cf639b",
+      "input_sha256": "caef07527dfa3059d7b2a8c6fa42604d81ecf1d42cd809450149b45054cf639b"
+    },
+    {
+      "File_ID": "608",
+      "Group": "TD",
+      "Age_Raw": "6;01.17",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/608.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/608.cha",
+      "source_sha256": "cf0a1cd13d2cf01e32b7aecf6550175afee893ddefa767a3c7ec9856d67dad13",
+      "input_sha256": "cf0a1cd13d2cf01e32b7aecf6550175afee893ddefa767a3c7ec9856d67dad13"
+    },
+    {
+      "File_ID": "612",
+      "Group": "TD",
+      "Age_Raw": "6;07.24",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/612.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/612.cha",
+      "source_sha256": "ac41336912153aecc7f652dea1ad5719116b3b27949f43619873d6fdd737c6ae",
+      "input_sha256": "ac41336912153aecc7f652dea1ad5719116b3b27949f43619873d6fdd737c6ae"
+    },
+    {
+      "File_ID": "615",
+      "Group": "TD",
+      "Age_Raw": "6;06.03",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/615.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/615.cha",
+      "source_sha256": "e7e7114cd1eb9067042c89465003fc16e7afa683d7c95e1cf37611fe6a419f20",
+      "input_sha256": "e7e7114cd1eb9067042c89465003fc16e7afa683d7c95e1cf37611fe6a419f20"
+    },
+    {
+      "File_ID": "616",
+      "Group": "TD",
+      "Age_Raw": "6;00.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/616.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/616.cha",
+      "source_sha256": "d3ec45c140e777165f82daa8832274511c90bd00d9c2f657860e3217b9137244",
+      "input_sha256": "d3ec45c140e777165f82daa8832274511c90bd00d9c2f657860e3217b9137244"
+    },
+    {
+      "File_ID": "620",
+      "Group": "TD",
+      "Age_Raw": "6;09.04",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/620.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/620.cha",
+      "source_sha256": "05a546fdf250113f0ea6bff62b44c1d898b4e8e3b8bae76da437818db9c28cb0",
+      "input_sha256": "05a546fdf250113f0ea6bff62b44c1d898b4e8e3b8bae76da437818db9c28cb0"
+    },
+    {
+      "File_ID": "624",
+      "Group": "TD",
+      "Age_Raw": "6;00.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/624.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/624.cha",
+      "source_sha256": "af46606b8f00ab9aa8037b4198500029a256a69d24b3c4d383bc7cb34fdcf417",
+      "input_sha256": "af46606b8f00ab9aa8037b4198500029a256a69d24b3c4d383bc7cb34fdcf417"
+    },
+    {
+      "File_ID": "628",
+      "Group": "TD",
+      "Age_Raw": "6;07.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/628.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/628.cha",
+      "source_sha256": "867e5444fa99f105fcb9655f3b976f82aa7aa53003369109863b1339f01112da",
+      "input_sha256": "867e5444fa99f105fcb9655f3b976f82aa7aa53003369109863b1339f01112da"
+    },
+    {
+      "File_ID": "632",
+      "Group": "TD",
+      "Age_Raw": "6;02.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/632.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/632.cha",
+      "source_sha256": "0026892713ebde8cd285a5789283c4c82996915ca14f82861176fbf60ed16ebc",
+      "input_sha256": "0026892713ebde8cd285a5789283c4c82996915ca14f82861176fbf60ed16ebc"
+    },
+    {
+      "File_ID": "636",
+      "Group": "TD",
+      "Age_Raw": "6;11.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/636.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/636.cha",
+      "source_sha256": "78964a6e4aeead890f3f4613dd3e1861453d0fe73b4a4dc307e2473c3a8b7988",
+      "input_sha256": "78964a6e4aeead890f3f4613dd3e1861453d0fe73b4a4dc307e2473c3a8b7988"
+    },
+    {
+      "File_ID": "639",
+      "Group": "TD",
+      "Age_Raw": "6;02.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/639.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/639.cha",
+      "source_sha256": "e0da897ff168efa571c1acf0bc0eb3939b4d4a9f063fe9d181f5ac996d0bfbae",
+      "input_sha256": "e0da897ff168efa571c1acf0bc0eb3939b4d4a9f063fe9d181f5ac996d0bfbae"
+    },
+    {
+      "File_ID": "647",
+      "Group": "TD",
+      "Age_Raw": "6;10.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/647.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/647.cha",
+      "source_sha256": "e66d53538ded1b0db3ba688a2d4d461ec3c832f27b9a67e1b4a1e0fe01a32391",
+      "input_sha256": "e66d53538ded1b0db3ba688a2d4d461ec3c832f27b9a67e1b4a1e0fe01a32391"
+    },
+    {
+      "File_ID": "648",
+      "Group": "TD",
+      "Age_Raw": "6;07.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/648.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/648.cha",
+      "source_sha256": "8bb99b4919785b48803780b6a807dfb834382d538f5c875b16263010478146cd",
+      "input_sha256": "8bb99b4919785b48803780b6a807dfb834382d538f5c875b16263010478146cd"
+    },
+    {
+      "File_ID": "651",
+      "Group": "TD",
+      "Age_Raw": "6;10.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/651.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/651.cha",
+      "source_sha256": "a8383a47d51a4c154d05bfb7ec91ce876b235a84aa946c1e1dd2dee67325d821",
+      "input_sha256": "a8383a47d51a4c154d05bfb7ec91ce876b235a84aa946c1e1dd2dee67325d821"
+    },
+    {
+      "File_ID": "652",
+      "Group": "TD",
+      "Age_Raw": "6;01.28",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/652.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/652.cha",
+      "source_sha256": "1d4f526097fd8ed02b25804a6242f914001463684389adf1a4891bbcf1182e88",
+      "input_sha256": "1d4f526097fd8ed02b25804a6242f914001463684389adf1a4891bbcf1182e88"
+    },
+    {
+      "File_ID": "655",
+      "Group": "TD",
+      "Age_Raw": "6;08.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/655.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/655.cha",
+      "source_sha256": "c816d5f71eeb4f0ff9a93230f2032b29125ecd1e88b4328f05134c20a34fbfa6",
+      "input_sha256": "c816d5f71eeb4f0ff9a93230f2032b29125ecd1e88b4328f05134c20a34fbfa6"
+    },
+    {
+      "File_ID": "656",
+      "Group": "TD",
+      "Age_Raw": "6;08.01",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/656.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/656.cha",
+      "source_sha256": "e638695f104f30240ad3a2d8e4f38e7c9aa22f928680627fea6afca50d19f0e2",
+      "input_sha256": "e638695f104f30240ad3a2d8e4f38e7c9aa22f928680627fea6afca50d19f0e2"
+    },
+    {
+      "File_ID": "658",
+      "Group": "TD",
+      "Age_Raw": "6;03.30",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/658.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/658.cha",
+      "source_sha256": "662eb65ba90b00465211f454243f8efbd6236573c29141044676d3b718233a8d",
+      "input_sha256": "662eb65ba90b00465211f454243f8efbd6236573c29141044676d3b718233a8d"
+    },
+    {
+      "File_ID": "659",
+      "Group": "TD",
+      "Age_Raw": "6;11.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/659.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/659.cha",
+      "source_sha256": "c10c37a03263d49a9213e7c1f7996ad5568ac944768eaacea8aa4de171515780",
+      "input_sha256": "c10c37a03263d49a9213e7c1f7996ad5568ac944768eaacea8aa4de171515780"
+    },
+    {
+      "File_ID": "663",
+      "Group": "TD",
+      "Age_Raw": "6;08.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/663.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/663.cha",
+      "source_sha256": "567d3283a09fee96e9942eb887b4dcc617288500059aba1f3545bcef3ee6f602",
+      "input_sha256": "567d3283a09fee96e9942eb887b4dcc617288500059aba1f3545bcef3ee6f602"
+    },
+    {
+      "File_ID": "664",
+      "Group": "TD",
+      "Age_Raw": "6;10.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/664.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/664.cha",
+      "source_sha256": "8b8cfb91a288a7d0463925fe95b60eab0d32900dd494ee9203b91c9bb42f8560",
+      "input_sha256": "8b8cfb91a288a7d0463925fe95b60eab0d32900dd494ee9203b91c9bb42f8560"
+    },
+    {
+      "File_ID": "669",
+      "Group": "TD",
+      "Age_Raw": "6;06.28",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/669.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/669.cha",
+      "source_sha256": "fa9c5943ffcb57815520ae33a2dc918f370e0c6c3d325fe6b02ceaee030e81d4",
+      "input_sha256": "fa9c5943ffcb57815520ae33a2dc918f370e0c6c3d325fe6b02ceaee030e81d4"
+    },
+    {
+      "File_ID": "676",
+      "Group": "TD",
+      "Age_Raw": "6;10.14",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/676.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/676.cha",
+      "source_sha256": "9a73559b25a7ebfce616eeb3ab254bb84c45bcdb62fa31da1cc38dbec973feac",
+      "input_sha256": "9a73559b25a7ebfce616eeb3ab254bb84c45bcdb62fa31da1cc38dbec973feac"
+    },
+    {
+      "File_ID": "704",
+      "Group": "TD",
+      "Age_Raw": "7;02.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/704.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/704.cha",
+      "source_sha256": "82836914dc6469da034f0a2a0895e31ff8632f5695e80aa513ec3b3f4e0a4450",
+      "input_sha256": "82836914dc6469da034f0a2a0895e31ff8632f5695e80aa513ec3b3f4e0a4450"
+    },
+    {
+      "File_ID": "707",
+      "Group": "TD",
+      "Age_Raw": "7;04.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/707.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/707.cha",
+      "source_sha256": "13e7669aa12f98269e545e685dbd582e1678e7068e1b4788ccee6deb04e783e2",
+      "input_sha256": "13e7669aa12f98269e545e685dbd582e1678e7068e1b4788ccee6deb04e783e2"
+    },
+    {
+      "File_ID": "708",
+      "Group": "TD",
+      "Age_Raw": "7;09.28",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/708.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/708.cha",
+      "source_sha256": "0c91f1f62fc14df8f943266a7972bc620f152448d08fd3b2d95d79a23ed1a395",
+      "input_sha256": "0c91f1f62fc14df8f943266a7972bc620f152448d08fd3b2d95d79a23ed1a395"
+    },
+    {
+      "File_ID": "711",
+      "Group": "TD",
+      "Age_Raw": "7;07.06",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/711.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/711.cha",
+      "source_sha256": "7a3f82dbf8e6bfa4aa9d947c0d89867d80cabc6455e4b252e69427f4ce7c89ff",
+      "input_sha256": "7a3f82dbf8e6bfa4aa9d947c0d89867d80cabc6455e4b252e69427f4ce7c89ff"
+    },
+    {
+      "File_ID": "712",
+      "Group": "TD",
+      "Age_Raw": "7;06.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/712.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/712.cha",
+      "source_sha256": "351188408138df28567c7ff21daaf4fbd76cccab53f6dc8da82b96f712cf0570",
+      "input_sha256": "351188408138df28567c7ff21daaf4fbd76cccab53f6dc8da82b96f712cf0570"
+    },
+    {
+      "File_ID": "716",
+      "Group": "TD",
+      "Age_Raw": "7;10.15",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/716.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/716.cha",
+      "source_sha256": "6bcf58b4d1527e4e6f64b93a61ca7fad7da414bbd9f31fd52d1e168d9da8587a",
+      "input_sha256": "6bcf58b4d1527e4e6f64b93a61ca7fad7da414bbd9f31fd52d1e168d9da8587a"
+    },
+    {
+      "File_ID": "720",
+      "Group": "TD",
+      "Age_Raw": "7;10.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/720.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/720.cha",
+      "source_sha256": "c16eec51364b48e8fdefed9cd86a254dc7a309124139ebecda56e60157a41fb7",
+      "input_sha256": "c16eec51364b48e8fdefed9cd86a254dc7a309124139ebecda56e60157a41fb7"
+    },
+    {
+      "File_ID": "724",
+      "Group": "TD",
+      "Age_Raw": "7;07.13",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/724.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/724.cha",
+      "source_sha256": "33f4fbc6243c85571354e30cdbeed98fb7a0a239dff9fa3a8afa2aed10a3bbd3",
+      "input_sha256": "33f4fbc6243c85571354e30cdbeed98fb7a0a239dff9fa3a8afa2aed10a3bbd3"
+    },
+    {
+      "File_ID": "728",
+      "Group": "TD",
+      "Age_Raw": "7;00.12",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/728.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/728.cha",
+      "source_sha256": "9db26fcaed461eee377af0cc842e3355353afaf0c471232caf1a067c7192c20c",
+      "input_sha256": "9db26fcaed461eee377af0cc842e3355353afaf0c471232caf1a067c7192c20c"
+    },
+    {
+      "File_ID": "732",
+      "Group": "TD",
+      "Age_Raw": "7;11.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/732.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/732.cha",
+      "source_sha256": "811bc3ae2b198ec1876ef5ac1d480d61958c79d11dca8f4f7a29e0d76ef71d2c",
+      "input_sha256": "811bc3ae2b198ec1876ef5ac1d480d61958c79d11dca8f4f7a29e0d76ef71d2c"
+    },
+    {
+      "File_ID": "736",
+      "Group": "TD",
+      "Age_Raw": "7;05.19",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/736.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/736.cha",
+      "source_sha256": "7019ab620dad49f2b3e1a06bd4e82690f6de9d3fb1cf5ee7a3df963a83e73006",
+      "input_sha256": "7019ab620dad49f2b3e1a06bd4e82690f6de9d3fb1cf5ee7a3df963a83e73006"
+    },
+    {
+      "File_ID": "743",
+      "Group": "TD",
+      "Age_Raw": "7;00.05",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/743.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/743.cha",
+      "source_sha256": "b86eda83f3ffc8cd2eb163dae28b187d37e91f6265b8ff60073083520141f2a8",
+      "input_sha256": "b86eda83f3ffc8cd2eb163dae28b187d37e91f6265b8ff60073083520141f2a8"
+    },
+    {
+      "File_ID": "744",
+      "Group": "TD",
+      "Age_Raw": "7;11.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/744.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/744.cha",
+      "source_sha256": "24d661a4349c8581d0b7d6cc94414b5383e4af2710044e8944260f035dd78a55",
+      "input_sha256": "24d661a4349c8581d0b7d6cc94414b5383e4af2710044e8944260f035dd78a55"
+    },
+    {
+      "File_ID": "748",
+      "Group": "TD",
+      "Age_Raw": "7;05.20",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/748.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/748.cha",
+      "source_sha256": "6db462a0093d8c0c4454c760c5c7e69a415b2ce47e5cc7f3f1772acb22bc7178",
+      "input_sha256": "6db462a0093d8c0c4454c760c5c7e69a415b2ce47e5cc7f3f1772acb22bc7178"
+    },
+    {
+      "File_ID": "750",
+      "Group": "TD",
+      "Age_Raw": "7;10.16",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/750.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/750.cha",
+      "source_sha256": "f699feebea2354a2de66619ff6742a2513a263b3bb41f15da2552123fc1d9af6",
+      "input_sha256": "f699feebea2354a2de66619ff6742a2513a263b3bb41f15da2552123fc1d9af6"
+    },
+    {
+      "File_ID": "754",
+      "Group": "TD",
+      "Age_Raw": "7;02.29",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/754.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/754.cha",
+      "source_sha256": "26133438bf76b6ca2436fc2533bd731ba6fceff921d1acae79973f34e5b83566",
+      "input_sha256": "26133438bf76b6ca2436fc2533bd731ba6fceff921d1acae79973f34e5b83566"
+    },
+    {
+      "File_ID": "755",
+      "Group": "TD",
+      "Age_Raw": "7;06.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/755.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/755.cha",
+      "source_sha256": "6a73ccba6a5eec229370c05a7e8d4a0f6cf2943d58326b602911e5a7abaacfdf",
+      "input_sha256": "6a73ccba6a5eec229370c05a7e8d4a0f6cf2943d58326b602911e5a7abaacfdf"
+    },
+    {
+      "File_ID": "758",
+      "Group": "TD",
+      "Age_Raw": "7;03.25",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/758.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/758.cha",
+      "source_sha256": "e82b09f0b2cb5c2aba3062d5b957dcf01c2566a78c667e8d5fe8def6bfaff058",
+      "input_sha256": "e82b09f0b2cb5c2aba3062d5b957dcf01c2566a78c667e8d5fe8def6bfaff058"
+    },
+    {
+      "File_ID": "759",
+      "Group": "TD",
+      "Age_Raw": "7;01.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/759.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/759.cha",
+      "source_sha256": "a2478d35019126807ef34c072a7a3b6e82d2459ca8beee3b0c0fe7bcbe827914",
+      "input_sha256": "a2478d35019126807ef34c072a7a3b6e82d2459ca8beee3b0c0fe7bcbe827914"
+    },
+    {
+      "File_ID": "760",
+      "Group": "TD",
+      "Age_Raw": "7;06.02",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/760.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/760.cha",
+      "source_sha256": "0b0ba6748f9c6ece54153e6d87689b7d9effd5bad29a71a00166813ad9f48eb6",
+      "input_sha256": "0b0ba6748f9c6ece54153e6d87689b7d9effd5bad29a71a00166813ad9f48eb6"
+    },
+    {
+      "File_ID": "763",
+      "Group": "TD",
+      "Age_Raw": "7;05.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/763.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/763.cha",
+      "source_sha256": "79ebff67d110979688aa6fbcb3d9ac0dc7931ad7ca067ed6bed63565a7d8d181",
+      "input_sha256": "79ebff67d110979688aa6fbcb3d9ac0dc7931ad7ca067ed6bed63565a7d8d181"
+    },
+    {
+      "File_ID": "764",
+      "Group": "TD",
+      "Age_Raw": "7;08.27",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/764.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/764.cha",
+      "source_sha256": "f41d224dfee17d3146687075b388752aae82b69322b93311a938f949f21f7fd1",
+      "input_sha256": "f41d224dfee17d3146687075b388752aae82b69322b93311a938f949f21f7fd1"
+    },
+    {
+      "File_ID": "768",
+      "Group": "TD",
+      "Age_Raw": "7;06.21",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/768.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/768.cha",
+      "source_sha256": "49bb4dc7975e2898bef805d0d44fd2096338b1a09defe0c43caeaaca044f85ee",
+      "input_sha256": "49bb4dc7975e2898bef805d0d44fd2096338b1a09defe0c43caeaaca044f85ee"
+    },
+    {
+      "File_ID": "770",
+      "Group": "TD",
+      "Age_Raw": "7;05.10",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/770.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/770.cha",
+      "source_sha256": "edebd0e70778f03fb80baa8c9be019140e24232f844d3d688d7bf9c47da9a785",
+      "input_sha256": "edebd0e70778f03fb80baa8c9be019140e24232f844d3d688d7bf9c47da9a785"
+    },
+    {
+      "File_ID": "772",
+      "Group": "TD",
+      "Age_Raw": "7;00.11",
+      "source_path": "data/raw/enni/2026-10-28/transcripts/TD/B/772.cha",
+      "input_path": "data/inputs/enni_verified_2026-10-28/chat_4_to_7/TD/B/772.cha",
+      "source_sha256": "4799e8595ff79cf62c301df6192f69a2c1578f0ec387318bea956aeacc078a0d",
+      "input_sha256": "4799e8595ff79cf62c301df6192f69a2c1578f0ec387318bea956aeacc078a0d"
+    }
+  ],
+  "header_corrections": [
+    {
+      "File_ID": "460",
+      "field": "CHI sex",
+      "previous": "female",
+      "corrected": "male",
+      "basis": "original 0demo.xls"
+    },
+    {
+      "File_ID": "601",
+      "field": "CHI sex",
+      "previous": "male",
+      "corrected": "female",
+      "basis": "original 0demo.xls"
+    }
+  ],
+  "note": "Study working copies; only documented demographic sex-header fixes. Words, boundaries, clinical groups, ages and existing tiers are unchanged. Fresh downstream annotation/features remain pending."
+}

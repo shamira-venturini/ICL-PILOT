@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "parser_version": "chat-story-v3",
+  "source_chat_reparsed": true,
+  "archive_sha256": "25e360e43ec5984ccd54e9b4679b5070a5544ff09d98829e9496622c30394dcf",
+  "archive_path": "data/raw/enni/2026-10-28/ENNI.zip",
+  "text_preparation": {
+    "policy": "chat-story-text-v3",
+    "performed_at": "chat_to_csv_extraction"
+  },
+  "age_month_definition": "12 * completed years + completed months; days do not round cohorts",
+  "transcript_files": 361,
+  "included_participants": 360,
+  "story_rows": 2160,
+  "excluded_sources": [
+    {
+      "transcript_path": "TD/B/523.cha",
+      "File_ID": "523",
+      "Group": "",
+      "Age_Raw": "",
+      "exclusion_reasons": [
+        "missing_or_invalid_chi_age",
+        "missing_or_invalid_chi_group"
+      ]
+    }
+  ],
+  "duplicate_filename_ids": {
+    "523": [
+      "SLI/A/0noaudio/523.cha",
+      "TD/B/523.cha"
+    ]
+  },
+  "group_counts": {
+    "SLI": 75,
+    "TD": 285
+  },
+  "study_counts": [
+    {
+      "cohort_year": 4,
+      "TD": 45,
+      "SLI": 11
+    },
+    {
+      "cohort_year": 5,
+      "TD": 46,
+      "SLI": 13
+    },
+    {
+      "cohort_year": 6,
+      "TD": 49,
+      "SLI": 11
+    },
+    {
+      "cohort_year": 7,
+      "TD": 50,
+      "SLI": 13
+    }
+  ],
+  "study_children": 238,
+  "study_story_rows": 1428,
+  "demographics": {
+    "source": "0demo.xls",
+    "sha256": "8bf0c33e2c924eaede8c9fc1ad6d558d4092caefcdd054e41a54f97d5710075a",
+    "participants": 377,
+    "included_group_age_year_agreements": 360,
+    "sex_authority": "original demographic table; original CHI values retained as Sex_CHI",
+    "sex_corrections": [
+      {
+        "File_ID": "460",
+        "Sex_CHI": "female",
+        "Sex_demographics": "male",
+        "source_path": "TD/A/460.cha",
+        "basis": "original 0demo.xls participant table"
+      },
+      {
+        "File_ID": "601",
+        "Sex_CHI": "male",
+        "Sex_demographics": "female",
+        "source_path": "TD/A/601.cha",
+        "basis": "original 0demo.xls participant table"
+      },
+      {
+        "File_ID": "959",
+        "Sex_CHI": "",
+        "Sex_demographics": "female",
+        "source_path": "TD/B/959.cha",
+        "basis": "original 0demo.xls participant table"
+      }
+    ],
+    "participant_523": {
+      "ID": "523",
+      "sex": "M",
+      "age": "5.4986301369863",
+      "Group": "SLI-A",
+      "NoAudio": "x"
+    }
+  },
+  "output_csv_sha256": "4f1d3afc439b36f5e7e7e743ad6cd5dbd4a00242ac9207da3dd4e3b2c8c7544d",
+  "participant_csv_sha256": "3f90fbba85c1bdd27dc0277c50eaf2d7a6f6ab633aaad76c7849054df72707f0"
+}

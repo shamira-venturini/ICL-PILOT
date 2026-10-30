@@ -10,13 +10,14 @@ import zipfile
 from pathlib import Path
 
 from .chat.annotation import sha256_file
-from .chat.generated_chat import convert_generated_story_csv_to_cha
+from .chat.generated_chat import plan_generated_story_csv, export_chat_plans
 
 
 def stage_flags(mode: str) -> tuple[bool, bool, bool]:
     routes = {"full": (True, True, True), "generation_only": (True, False, False),
               "from_csv": (False, True, True), "convert_only": (False, True, False),
-              "from_chat": (False, False, True)}
+              "from_chat": (False, False, True), "morphosyntax_only": (False, False, False),
+              "prepare_only": (False, False, False), "review_only": (False, False, False)}
     if mode not in routes:
         raise ValueError(f"Unknown pipeline mode: {mode}")
     return routes[mode]
@@ -37,18 +38,28 @@ def checked_sources(sources: dict, *, directories: bool = False) -> dict[str, Pa
 
 
 def begin_pipeline(output_dir: str | Path, *, mode: str, csvs: dict, chat_dirs: dict,
-                   smoke_test: bool = False) -> Path:
+                   smoke_test: bool = False, resume: bool = False) -> Path:
     if type(smoke_test) is not bool:
         raise ValueError("smoke_test must be a boolean")
     generate, convert, annotate = stage_flags(mode)
     csvs, chat_dirs = checked_sources(csvs), checked_sources(chat_dirs, directories=True)
-    if convert and not generate and not csvs:
+    if (convert and not generate or mode == "review_only") and not csvs:
         raise ValueError("This mode requires GENERATION_CSVS")
-    if annotate and not convert and not chat_dirs:
-        raise ValueError("from_chat mode requires CHAT_INPUT_DIRS")
+    if (annotate and not convert or mode in {"morphosyntax_only", "prepare_only"}) and not chat_dirs:
+        raise ValueError("from_chat/morphosyntax_only/prepare_only mode requires CHAT_INPUT_DIRS")
     out = Path(output_dir).expanduser().resolve()
     if any(source == out or source in out.parents or out in source.parents for source in chat_dirs.values()):
         raise ValueError("Pipeline outputs must be separate from CHAT input trees")
+    if resume:
+        manifest = json.loads((out / "pipeline_manifest.json").read_text())
+        if not generate or manifest["mode"] != mode or manifest["test_only"] != smoke_test:
+            raise ValueError("Resume the original generation mode and smoke-test selection.")
+        for stage in ("chat_conversion", "annotation"):
+            if manifest.get("stages", {}).get(stage, {}).get("status") not in (None, "pending", "skipped"):
+                raise ValueError("Generation resume is for interrupted generation. Use from_csv/from_chat in a new run for later stages.")
+        if not (out / "generation_checkpoint.json").is_file():
+            raise FileNotFoundError("This run has no RNG checkpoint; existing outputs preserved.")
+        return out
     out.mkdir(parents=True, exist_ok=False)
     manifest = {"schema_version": 1, "mode": mode, "started_at_utc": datetime.now(timezone.utc).isoformat(),
                 "test_only": smoke_test,
@@ -62,11 +73,14 @@ def begin_pipeline(output_dir: str | Path, *, mode: str, csvs: dict, chat_dirs: 
 def record_stage(output_dir: str | Path, stage: str, status: str, **details) -> None:
     path = Path(output_dir) / "pipeline_manifest.json"
     manifest = json.loads(path.read_text())
+    event = {"stage": stage, "status": status, "recorded_at_utc": datetime.now(timezone.utc).isoformat(), **details}
+    manifest.setdefault("stage_history", []).append(event)
     manifest["stages"][stage] = {"status": status, **details}
-    path.write_text(json.dumps(manifest, indent=2) + "\n")
+    from .generation.recovery import atomic_json
+    atomic_json(path, manifest)
 
 
-def convert_csv_inputs(csvs: dict, output_dir: str | Path, *, roster_csv) -> dict[str, Path]:
+def convert_csv_inputs(csvs: dict, output_dir: str | Path, *, roster_csv, segmenter=None) -> dict[str, Path]:
     sources, out = checked_sources(csvs), Path(output_dir)
     if not sources:
         raise ValueError("Select at least one generation CSV")
@@ -78,12 +92,10 @@ def convert_csv_inputs(csvs: dict, output_dir: str | Path, *, roster_csv) -> dic
                 if key in seen:
                     raise ValueError("Overlapping generation rows selected; use cohort CSVs or their aggregate")
                 seen.add(key)
-    converted = {}
-    for label, path in sources.items():
-        result = convert_generated_story_csv_to_cha(input_csv=path, output_dir=out / "chat" / label,
-                                                   roster_csv=roster_csv)
-        converted[label] = result["output_dir"]
-    return converted
+    plans = [plan_generated_story_csv(input_csv=path, output_dir=out / "chat" / label,
+                                     roster_csv=roster_csv) for label, path in sources.items()]
+    results = export_chat_plans(plans, segmenter=segmenter, report_dir=out / "segmentation")
+    return {label: result["output_dir"] for label, result in zip(sources, results)}
 
 
 def annotation_inputs(chat_dirs: dict, stages: list[str]) -> dict[str, Path]:
@@ -113,8 +125,30 @@ def annotation_inputs(chat_dirs: dict, stages: list[str]) -> dict[str, Path]:
     return result
 
 
+def annotation_collection_metadata(chat_dirs, selected, metadata=None):
+    """Expand explicit root metadata after stage selection; never guess labels."""
+    roots = checked_sources(chat_dirs, directories=True)
+    metadata = metadata or {}
+    if set(metadata) - set(roots):
+        raise ValueError("CHAT_INPUT_METADATA contains unknown collection labels")
+    result = {}
+    for label, value in selected.items():
+        path = Path(value).resolve()
+        owners = [name for name, root in roots.items() if path == root or root in path.parents]
+        if len(owners) != 1:
+            raise ValueError("Selected annotation input has ambiguous source metadata")
+        owner = owners[0]
+        info = dict(metadata.get(owner, {"source_type": "unspecified"}))
+        info["input_collection"] = owner
+        relative = path.relative_to(roots[owner]).as_posix()
+        if relative in {"stage1_td", "stage2_sli"}:
+            info["generation_stage"] = relative
+        result[label] = info
+    return result
+
+
 def sync_run(output_dir: str | Path, destination: str | Path) -> Path:
-    """Copy new run artifacts, without removing existing destination files."""
+    """Copy artifacts and mirror only checksum-verified annotation pruning."""
     source, target = Path(output_dir).resolve(), Path(destination).resolve()
     if source == target or source in target.parents or target in source.parents:
         raise ValueError("Persistent copies must be outside the local run tree")
@@ -128,9 +162,29 @@ def sync_run(output_dir: str | Path, destination: str | Path) -> Path:
         identity = ("started_at_utc", "mode", "source_csvs", "source_chat_dirs", "helper_sha256")
         if any(before.get(key) != after.get(key) for key in identity):
             raise FileExistsError("Persistent destination belongs to a different pipeline run")
+    pruned = []
+    retention = source / "annotation_retention.json"
+    if retention.is_file():
+        from .chat.retention import verify_retained_annotations, _inside
+        pipeline = json.loads((source / "pipeline_manifest.json").read_text())
+        stage = pipeline.get("stages", {}).get("annotation_retention", {})
+        if stage.get("status") != "complete":
+            raise ValueError("Save the completed annotation-retention reference before synchronization")
+        record = verify_retained_annotations(stage, run_root=source)
+        pruned = record["removed"]
+        for item in pruned:
+            existing = _inside(target, item["path"])
+            if existing.exists() and (not existing.is_file() or sha256_file(existing) != item["sha256"]):
+                raise ValueError("Changed persistent intermediate preserved: " + str(existing))
     paths = sorted(source.rglob("*"), key=lambda p: (p.name != "pipeline_manifest.json", str(p)))
+    from .generation.recovery import CHECKPOINT, JOURNAL, sync_generation_checkpoint
+    has_checkpoint = (source / CHECKPOINT).is_file()
     for path in paths:
         if not path.is_file():
+            continue
+        if path.name == "generation.lock":
+            continue
+        if has_checkpoint and path.relative_to(source).as_posix() in (CHECKPOINT, JOURNAL):
             continue
         copied = target / path.relative_to(source)
         copied.parent.mkdir(parents=True, exist_ok=True)
@@ -141,6 +195,14 @@ def sync_run(output_dir: str | Path, destination: str | Path) -> Path:
         if sha256_file(temporary) != sha256_file(path):
             raise OSError(f"Persistent copy failed verification: {copied}")
         temporary.replace(copied)
+    if has_checkpoint:
+        sync_generation_checkpoint(source, target)
+    for item in pruned:
+        existing = _inside(target, item["path"])
+        if existing.is_file():
+            if sha256_file(existing) != item["sha256"]:
+                raise ValueError("Persistent intermediate changed during synchronization")
+            existing.unlink()
     return target
 
 

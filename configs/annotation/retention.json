@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "policy": "validated-annotation-retention-v1",
+  "preserve_failed_runs": true,
+  "archives": {
+    "ENNI": {"path": "data/raw/enni/2026-10-28/ENNI.zip", "sha256": "25e360e43ec5984ccd54e9b4679b5070a5544ff09d98829e9496622c30394dcf"},
+    "Gillam": {"path": "data/raw/gillam/2026-10-28/Gillam.zip", "sha256": "c54a7308e3041fb5ad49062d4026784d6c81320669b42a4e2564a03ffca1d86e"}
+  }
+}

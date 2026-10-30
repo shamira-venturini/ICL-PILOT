@@ -1,12 +1,7 @@
-# Evaluation results
+# Scientific outputs
 
-The previous study's result tables, framework bundle and rendered R reports are
-frozen on TranscendBU. See the [archive index](../docs/provenance/study_freeze_2026-10-16.md).
-There are currently no local scientific result payloads in this folder.
+Write framework runs under framework_based_evaluation/ and domain-analysis outputs under linguistic_evaluation/, each in a fresh uniquely identified directory.
 
-New framework evaluations create fresh run directories under
-`framework_based_evaluation/`; existing names are refused. The retained R Markdown
-writes figures under `linguistic_evaluation/run_<UTC timestamp>/`. Render R reports
-to a chosen directory under `results/` when the revised inputs are available.
-Inputs, models and evaluation choices must belong to the intended experiment.
-No new scientific analyses were run during the restructuring.
+A result must identify its definitive input hashes, protocol, model/checkpoint, sample counts, prediction or measurement units and uncertainty method. Never overwrite completed runs or present software fixtures as empirical findings.
+
+Scientific generation, fresh measurements and evaluation runs remain pending. The repository does not contain reportable results from software validation.

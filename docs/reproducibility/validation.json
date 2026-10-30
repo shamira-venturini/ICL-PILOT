@@ -1,0 +1,44 @@
+{
+  "study": "enni_staged_4_to_7",
+  "software_tests": {
+    "passed": 535,
+    "skipped": 1,
+    "skip": "optional segmentation inference requires ICL_PILOT_SEGMENTATION_PYTHON",
+    "warnings": "two dependency deprecation warnings"
+  },
+  "base_R_inputs": "passed",
+  "Python_3_8_syntax": "passed",
+  "JSON_and_notebook_integrity": "passed",
+  "documentation_links": "passed",
+  "R_code_expressions": 536,
+  "R_statistical_changes_in_cleanup": 0,
+  "scientific_results_produced": false,
+  "independent_fresh_ZIP_reproduction": "canonical participant/story CSVs and roster reproduced byte-for-byte without any other dataset",
+  "protected_data_and_protocol_assets_verified": 615,
+  "study_children": 238,
+  "TD": 190,
+  "SLI": 48,
+  "pairs": 48,
+  "generation_batches": 18,
+  "narratives_all_models": 17280,
+  "classifier_plan": {
+    "usable_rounds": 4,
+    "planned_fits": 96,
+    "scientific_fits_executed": 0
+  },
+  "prepared_tokenizer_audit": {
+    "Gemma_max": 598,
+    "Llama_max": 568,
+    "Qwen_max": 568,
+    "ceiling": 640,
+    "Gemma_independent_sequence_agreements": 2160
+  },
+  "remaining_work": [
+    "full GPU generation and model execution checks",
+    "manual segmentation review",
+    "fresh TalkTag/CLAN measurements",
+    "domain statistical revisions",
+    "scientific classifier and corpus-metric runs",
+    "manuscript results and Methods update after implementation"
+  ]
+}

@@ -6,6 +6,9 @@ Rplots.pdf
 .idea/
 .venv/
 .venv-talktag/
+.venv-segmentation/
+.venv-morphosyntax/
+.cache/stanza_ud/
 __pycache__/
 *.py[cod]
 *.so
@@ -15,15 +18,15 @@ __pycache__/
 # New pipeline outputs should stay reproducible, not versioned.
 
 archive/
-# Keep the documentation index, guides, background and provenance versionable.
+# Keep only definitive-study documentation and reproducibility records versionable.
 docs/*
 !docs/README.md
 !docs/current_strategy_handoff.md
 !docs/guides/
-!docs/background/
-!docs/provenance/
+!docs/reproducibility/
 # Keep the local validator executable out of version control; retain its source record.
 /tools/chatter/chatter
+/tools/chatter/runtime/
 data/*
 !data/README.md
 runs/

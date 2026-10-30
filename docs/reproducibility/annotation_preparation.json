@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "scope": "Software verification and source validation only; no full TalkTag or scientific corpus annotation",
+  "policy_config": "configs/annotation/preparation.json",
+  "real_source": "data/inputs/enni_verified_2026-10-28/chat_4_to_7",
+  "real_files": 238,
+  "original_source_retention": {
+    "checked_on": "2026-10-30",
+    "real_original_backups": false,
+    "synthetic_or_unspecified_original_backups": true,
+    "real_source_checksums_recorded": 238,
+    "real_source_PIDs_recorded": 238,
+    "native_prepared_real_files_passed": 238,
+    "native_original_snapshot_files": 0,
+    "prepared_files_and_deletion_audits_retained": true,
+    "real_originals_required_locally_after_preparation": false,
+    "available_real_sources_still_checksum_verified": true,
+    "regression_tests_passed": 142,
+    "optional_native_UD_tests_skipped": 2
+  },
+  "source_bytes_modified": false,
+  "speech_headers_and_utterance_boundaries_preserved": true,
+  "source_and_prepared_file_diagnostics_identical": true,
+  "chatter_version": "0.30.0",
+  "chatter_result": {
+    "policy": "standard structural and dependent-tier alignment checks",
+    "strict_cross_utterance_linkers": false,
+    "source_valid_files": 238,
+    "prepared_valid_files": 238,
+    "invalid_files": 0,
+    "errors": 0
+  },
+  "full_real_annotation_status": "All 238 real source/prepared files pass required validation; complete TalkTag/UD annotation remains pending",
+  "diagnostics": "docs/reproducibility/annotation_source_diagnostics.csv",
+  "deletion_counts": {
+    "dependent_tier": 51121,
+    "inline_interruption_comment": 281,
+    "inline_replacement": 433,
+    "inline_error": 358,
+    "inline_alternative": 17,
+    "unwrapped_scope_delimiter": 12,
+    "annotation_adjacent_whitespace": 33
+  },
+  "checks": {
+    "targeted_regressions": {
+      "passed": 210,
+      "skipped": 2,
+      "files": [
+        "tests/test_chat_validation.py",
+        "tests/test_annotation_preparation.py",
+        "tests/test_annotation_pipeline.py",
+        "tests/test_annotation_recovery.py",
+        "tests/test_morphosyntax.py",
+        "tests/test_generated_chat.py"
+      ]
+    },
+    "native_joint_notebook_route": {
+      "passed": 1,
+      "files": 4,
+      "collections": [
+        "real_enni",
+        "llama",
+        "qwen",
+        "gemma"
+      ],
+      "talktag": "fixture, one invocation",
+      "ud": "Native pinned Batchalign/Stanza worker, one invocation",
+      "chatter": "native before/after checks",
+      "originals_unchanged": true
+    }
+  },
+  "pending": [
+    "Complete real and synthetic TalkTag/UD annotation",
+    "Colab execution",
+    "Manual linguistic accuracy review",
+    "Compatible feature tables"
+  ],
+  "validation_args": [
+    "--force",
+    "--format",
+    "json",
+    "--tui-mode",
+    "disable",
+    "--parser",
+    "tree-sitter",
+    "--jobs",
+    "2"
+  ],
+  "policy_rationale": "Cross-utterance quotation/completion marker relationships are outside the study outcomes. Preserve original markers, spoken words and utterance boundaries; apply the same standard validation to real and synthetic CHAT.",
+  "source_inventory_sha256": "ba2b2b218ec281c037d10d09f4908c954bcf0352cd5f10d235d96469430e54f1",
+  "policy_config_sha256": "1951a4b36b09c13dccb2abf51cf868d4a5b25d49725a04b53ec236508550eca4"
+}

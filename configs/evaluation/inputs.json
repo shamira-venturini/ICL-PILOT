@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
   "text_records_csv": null,
-  "gillam_external_text_csv": null
+  "gillam_external_text_csv": "data/inputs/gillam/external_story_records.csv"
 }
