@@ -3,6 +3,8 @@
 The generation notebook includes a separately runnable UD block after TalkTag.
 R analyses remain in their own notebook. This annotation block runs no traditional
 MOR/POST/MEGRASP chain, IPSyn, DSS or feature-table calculation.
+The following [domain-feature section](domain_features.md) separately runs
+KIDEVAL/DSS English UD measurement on these final annotations.
 
 ## Run routes
 
@@ -29,7 +31,10 @@ data use the same annotation configuration.
 Stanza 1.15.0, Torch 2.11.0, CPU execution, one pipeline worker, preserved
 tokenization, two Torch threads and a separate seed 42 in the isolated process.
 The source modules, English model catalog and eight model files have checksum
-pins. All actual package, binary and model hashes are written into each manifest.
+pins. Download URLs use immutable repository commits for both the catalog and
+models, because upstream can republish artifacts under a version tag. The
+reviewed catalog and all eight model checksums are unchanged. All actual package,
+binary and model hashes are written into each manifest.
 
 Installation uses a separate `.venv-morphosyntax` locally or
 `/content/icl_pilot_ud_env` on Colab. Models use `.cache/stanza_ud` locally or
@@ -42,8 +47,16 @@ recipe. It selects only tokenize, English GUM MWT, POS, lemma and dependency
 processors, with `package=None` to prevent Stanza from adding unrelated default
 processors. Stanza model downloads are disabled during inference. Retokenization
 is false, utterance splitting is disabled, and result caching is bypassed.
-The backend's catalog refresh is checked against the pinned catalog before any
-input is tagged; a changed catalog stops processing.
+The backend's startup catalog refresh is directed to that same immutable catalog
+commit and checked before any input is tagged; model downloads remain disabled
+during inference. A changed catalog still stops processing.
+
+After a setup download failure, rerun the UD setup cell and the cells below in
+the same kernel. The setup applies checksum-verified upgrades from the original
+smoke bundle, preserving unrecognized source versions. Existing generations and
+TalkTag outputs are reused; no new upload or generation is required. Partial
+`.downloading` files can be replaced by a verified download, while conflicting
+completed cache files remain untouched.
 
 ## Preservation and validation
 
@@ -65,6 +78,13 @@ Whitespace-only record reflow is permitted in native output.
 
 Final `annotated/` files insert fresh UD `%mor`/`%gra` under the original main
 tiers for all speakers, preserving the original record layout and other content.
+Batchalign can replace its own earlier morphosyntax version comment in raw
+output. The wrapper recognizes that specific provenance format, records the
+missing source stamp and the new backend stamp, and restores the exact original
+comment when merging UD tiers. Words, codes, all other headers, punctuation and
+boundaries remain subject to the full preservation checks. Arbitrary comment
+deletions still fail. The source stamp remains historical metadata; the current
+annotation runtime is identified in the manifest.
 Old morphology aliases are replaced, not silently left as stale alternatives.
 CHI coverage is recorded separately. An utterance without morphology is accepted
 only when it contains no alignable lexical speech; its index/speaker is recorded.

@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-02T14:53:42.964026+00:00",
+  "scope": "Actual-data bounded framework smoke execution; not scientific results",
+  "report": "docs/reproducibility/framework_actual_data_20261102.md",
+  "successful_output_directory": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_v3",
+  "test_only": true,
+  "counts": {
+    "full_enni_children": 238,
+    "full_enni_stories": 1428,
+    "full_gillam_children": 182,
+    "full_gillam_stories": 543,
+    "pilot_stories": 24,
+    "training_fold": "fold_01",
+    "classifiers_real_partitions": {
+      "train": {
+        "stories": 198,
+        "children": 33,
+        "group_stories": {
+          "TD": 162,
+          "SLI": 36
+        }
+      },
+      "validation": {
+        "stories": 12,
+        "children": 2,
+        "group_stories": {
+          "SLI": 6,
+          "TD": 6
+        }
+      },
+      "test": {
+        "stories": 12,
+        "children": 2,
+        "group_stories": {
+          "SLI": 6,
+          "TD": 6
+        }
+      }
+    },
+    "external_test_stories": 6,
+    "external_test_children": 2,
+    "corpus_rows_per_source": 24,
+    "prompt_ancestors": [
+      "410",
+      "444"
+    ]
+  },
+  "inputs": {
+    "/Users/shamiraventurini/Downloads/enni_smoke_qwen3_8b_20261102T094720088747Z_20261102T100143090130Z.zip": "a54acbef2c7f5ed39905446eaedd014bd11a677a37aed54d71b5254b474b6dd0",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/inputs/enni_participants_2026-10-28.csv": "3f90fbba85c1bdd27dc0277c50eaf2d7a6f6ab633aaad76c7849054df72707f0",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/inputs/story_unit_narratives_enni_2026-10-28.csv": "4f1d3afc439b36f5e7e7e743ad6cd5dbd4a00242ac9207da3dd4e3b2c8c7544d",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/inputs/gillam/external_story_records.csv": "998f2379b54ac20b13443dcae7bf472d7c2cfe2bea65126b9567e99b11f6f0e0",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/evaluation/protocol.json": "2cefaa94cf14175fe9e7d8207c081faae087ce105df8f6c560c6c1fdeae06d43",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/experiment.json": "60ef9f9426e49acc2d7062e19620dabfbb6e0dd45826dd98563ac204ef128fdb",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/models.json": "acb51ee827d4406815b4588d48f3641263f99766b4c0b7297876dfe699363b6e",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/configs/generation/master_frozen_roster_enni_2026-10-28.csv": "b3add45a9918d9a29b8a811b2b4e4fb43d131e2b47be0af6dbb6825b3736b5d7"
+  },
+  "implementation": {
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/__init__.py": "420ed92679980f1dd092938fac5070d1a922d287368b43ee544cee72716c391f",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/bundle_models.py": "ad9ba3cfcc0e390408bcf24f6f4c5e0d6501ee8a8b35d71b0db4588deafee5e2",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/bundled_text_perplexity.py": "b510eebe57a031ae909ad83bbfe5a9a0e48a66ad61272b1463e5c9fe28f3f59a",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/bundled_text_semantic_eval.py": "b72b24714e8e7447b947c69fa7525dc835b59b1b271c333390114c3cedbb45eb",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_classifier.py": "9cb7017a6f4f728cd47931ccb041883e038d74e4d53d6d1dc2e5c5461fb6a3f2",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_data.py": "cc09815fe5ac6c9738250b1dc5b7c98ad617be0865cd3c4778ddb8f1d8816942",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_descriptive.py": "f68250c1219553ee821425e354a1929e0f3e7c43b4aab2f564880ba846826050",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_metrics.py": "e8e3be2630ba82ef37863c6132a05711e37baa58340f8738f67d770dd11571bf",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_quality.py": "371f4404e7c884288831682f66d8b1ecfcd42f54d0bb70ffa1ebb326a902c18f",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_ratios.py": "53213b2e08144551b40fe024ab0a2b197cc4bde755b51b4f4d139ca907069c20",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_sampling.py": "e1d65486828b00ef710a71fd11ec7fb75fdd93c78c53604753f8dbe01c0c4a79",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_splits.py": "12eef7bc8dade12da3dbd81b7784b9a49d44fe0039722ea90fa6192475a1a299",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/framework_text.py": "5f39f8c724560de2128e57a91764b00c3350f95675efc91c8cbf51daf76ccba5",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/generated_bundle_evaluation.py": "9dc9375a954e258cfccabe55f00424cc3e7612ba44c102c521e0eb4efc82c0ee",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/generated_text_evaluation.py": "7fa2eaf276e531a9e13af909978182de01c5a21844bc9c6c74d35ce6d300998b",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/inputs.py": "af03e459d518a60bce623b3e1ca1e96b215fc0d299217554ef208fb80c45d7d9",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/notebook.py": "83d7183f889d081b01a724c9e53f5a498ef4dfbf24a28cce8fbe221896cc69b4",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/notebook_runtime.py": "a5f6d607478689a630690d3f3aa1519c92414cf365887cf4ff5485d2ded98202",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/real_data_smoke.py": "b42eef81cd7483691e1f1fc2ebff870341f2a77f0cc73ed6ff4b6da9147a861f",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/runs.py": "cf0f1c567f529646378831608e810dc47d93d100de008f703a0d7e8a4acaf50e",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/src/icl_pilot/evaluation/story_text_exports.py": "53dd432dbcf155aa09905719fb8029f5bb94a6d92519c602b9f47244b4bf0dfa"
+  },
+  "input_and_implementation_hashes_still_match": true,
+  "scientific_guard": {
+    "passed": true,
+    "expected_rejection": "Software-fixture generation cannot enter scientific evaluation.",
+    "session": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_v3/scientific_guard/run_20261102T144141877426Z/notebook_session.json"
+  },
+  "blocks": {
+    "classifiers": {
+      "test_only": true,
+      "status": "passed",
+      "action": "classifiers"
+    },
+    "descriptive": {
+      "test_only": true,
+      "status": "passed",
+      "action": "descriptive"
+    },
+    "export": {
+      "test_only": true,
+      "status": "passed",
+      "action": "export"
+    },
+    "inputs": {
+      "test_only": true,
+      "status": "passed",
+      "action": "inputs"
+    },
+    "quality": {
+      "test_only": true,
+      "status": "passed",
+      "action": "quality"
+    },
+    "ratio-plan": {
+      "test_only": true,
+      "status": "passed",
+      "action": "ratio-plan"
+    },
+    "ratio-summary": {
+      "test_only": true,
+      "status": "passed",
+      "action": "ratio-summary"
+    },
+    "ratios": {
+      "test_only": true,
+      "status": "passed",
+      "action": "ratios"
+    },
+    "summary": {
+      "test_only": true,
+      "status": "passed",
+      "action": "summary"
+    }
+  },
+  "actual_bert_fits": 5,
+  "actual_optimizer_steps_per_fit": 1,
+  "bert_execution_device": "cpu",
+  "bert_classifier_seeds": [
+    42
+  ],
+  "bert_checkpoint": {
+    "id": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  "main_story_predictions": 72,
+  "ratio_story_predictions": 90,
+  "all_probabilities_finite_and_normalized": true,
+  "identical_one_update_real_controls_match": true,
+  "actual_gpt2_and_minilm_inference": true,
+  "quality_results_finite": true,
+  "perplexity_metric_cached_sources": {
+    "/Users/shamiraventurini/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--perplexity/2d13ebb2e7fff46bcdb4f6893c83bc434f97a9ef7b23f0ed3e16892256232326/perplexity.py": "793617695a6f8775eb5c0c296387db6c8f4512fe5291226fb82077eeaef932d0"
+  },
+  "model_runtime": {
+    "schema_version": 1,
+    "python": "/private/tmp/icl_framework_20261102/runtime-base/bin/python",
+    "toolkit": true,
+    "synthtexteval_revision": "3d63a172418a985fd0d997e5c993f6a0390c294e",
+    "synthtexteval_source": "/private/tmp/icl_framework_20261102/runtime-base/synthtexteval-src",
+    "transformers_version": "4.57.6",
+    "model_requirements": [
+      "transformers==4.57.6",
+      "datasets==4.0.0",
+      "sentence-transformers==5.2.2",
+      "huggingface-hub==0.36.2",
+      "accelerate>=0.26.0"
+    ],
+    "patched_files": {
+      "synthtexteval/eval/downstream/classify/utils.py": "8f17e1a00c707e389771bc12dee8298d6d3d1d62707e225132089b9ae0a81467",
+      "synthtexteval/eval/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "verified_environment": {
+      "python": "3.12.8",
+      "packages": {
+        "numpy": "2.5.4",
+        "pandas": "3.1.0",
+        "scipy": "1.18.1",
+        "matplotlib": "3.11.2",
+        "torch": "2.15.0",
+        "transformers": "4.57.6",
+        "SynthTextEval": "1.1.1",
+        "datasets": "4.0.0",
+        "sentence-transformers": "5.2.2"
+      }
+    }
+  },
+  "runtime_packages": {
+    "torch": "2.15.0",
+    "transformers": "4.57.6",
+    "datasets": "4.0.0",
+    "sentence-transformers": "5.2.2",
+    "huggingface-hub": "0.36.2",
+    "evaluate": "0.4.6",
+    "accelerate": "1.15.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  },
+  "pip_check": "No broken requirements found.",
+  "fixed_errors": [
+    {
+      "error": "ImportError: BucketNotFoundError after incompatible unconstrained datasets/encoder installation",
+      "fix": "Resolve transformers==4.57.6, datasets==4.0.0, sentence-transformers==5.2.2 and huggingface-hub==0.36.2 together."
+    },
+    {
+      "error": "DatasetGenerationCastError: train and validation metadata schemas differ in synthetic-only fitting",
+      "fix": "Use common output_text/Label package input CSVs; keep full identities and provenance in the independent audits."
+    }
+  ],
+  "export": {
+    "path": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_v3/exports/framework_actual_data_v3_20261102T144252990513Z.zip",
+    "sha256": "aec164475bc6f82d287320e9408700ba0348baf7785f472734a48245a9c159d4",
+    "verified_result_files": 164,
+    "crc_and_member_hashes": "passed"
+  },
+  "support_package": {
+    "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_framework_support_20261102.zip",
+    "sha256": "8ebf595b931c5252d5e069466ab27604506aff1d0097ebf736dcf0e1263a63b1",
+    "bytes": 880738,
+    "files": 30,
+    "upgrade_from_original_and_previous_reviewed_package": "passed"
+  },
+  "notebooks": [
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "b73e02aad7bc59c62e81a1bdf70f7dc4322544a3ec558f7053c27de785d28669"
+    },
+    {
+      "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb",
+      "sha256": "c8cae83b404994a8a674de977e20822468cdc6bddbc4a351b60c408bc8ae57a5"
+    }
+  ],
+  "regression_tests": {
+    "passed": 121,
+    "failed": 0,
+    "warning": "Existing standalone notebook show() under noninteractive Agg backend"
+  },
+  "failed_attempts_preserved": [
+    "data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_v1",
+    "data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_v2",
+    "data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_logs_v2"
+  ],
+  "successful_logs": "data/generated/smoke_diagnostics/2026-11-02/framework_actual_data_logs_v3",
+  "remaining_limits": [
+    "Single generator and prompt pair; one fold and seed; exactly one update per fit.",
+    "Bounded real validation/test subsets; no study performance or uncertainty inference.",
+    "CPU classifier execution does not verify Colab CUDA or full-study GPU memory/runtime."
+  ]
+}

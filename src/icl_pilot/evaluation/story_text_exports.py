@@ -84,7 +84,11 @@ GILLAM_RECORD_COLUMNS: Tuple[str, ...] = (
 
 
 def _relative_path(path: Path, project_root: Path) -> str:
-    return str(path.resolve().relative_to(project_root.resolve()))
+    try:
+        return str(path.resolve().relative_to(project_root.resolve()))
+    except ValueError:
+        # Saved Colab/Drive inputs can live outside the checkout.
+        return str(path.resolve())
 
 
 def _sha256(path: Path) -> str:
@@ -285,7 +289,7 @@ def _select_gillam_sessions(children):
 def _generated_records(
     *,
     source_path: Path,
-    cohort_year: int,
+    cohort_year: Optional[int],
     project_root: Path,
 ) -> List[Dict[str, object]]:
     frame = pd.read_csv(source_path)
@@ -308,6 +312,12 @@ def _generated_records(
     source_csv = _relative_path(source_path, project_root)
     records: List[Dict[str, object]] = []
     for row_index, row in frame.iterrows():
+        row_cohort = cohort_year
+        if row_cohort is None:
+            match = re.fullmatch(r"([4-7])-year-old", str(row.get("cohort_label", "")))
+            if match is None:
+                raise ValueError("Aggregate generation CSV needs literal cohort_label values (4-year-old to 7-year-old).")
+            row_cohort = int(match.group(1))
         parent_value = row.get("stage1_td_story")
         parent = None if pd.isna(parent_value) or not str(parent_value).strip() else str(parent_value)
         if parent is not None:
@@ -325,8 +335,8 @@ def _generated_records(
                 "model_key", "model_id", "model_revision", "run_id", "test_only",
                 "stage1_prompt_record_id", "stage2_prompt_record_id",
                 "stage1_text_sha256", "stage2_parent_text_sha256")},
-            "cohort_year": cohort_year,
-            "cohort_label": row.get("cohort_label", "{}-year-old".format(cohort_year)),
+            "cohort_year": row_cohort,
+            "cohort_label": row.get("cohort_label", "{}-year-old".format(row_cohort)),
             "round_id": row.get("round_id"),
             "bundle_id": row.get("bundle_id"),
             "pair_id": row.get("pair_id"),

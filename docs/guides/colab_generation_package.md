@@ -1,6 +1,46 @@
-# Generation and annotation notebook
+# Generation, annotation and evaluation notebook
 
 Use notebooks/colab_direct_generation_pipeline.ipynb. Select one MODEL_KEY from configs/generation/models.json per fresh run. Run setup from the top after changing code or configuration.
+
+Framework evaluation has its own settings and clickable section 6. Run the
+repository cell, then jump directly there to evaluate saved text without
+generation or annotation. The section is disabled by default; corpus metrics,
+quality-model inference, main BERT fitting and the separate ratio experiment
+have independent switches. Colab results persist incrementally to Drive.
+See the [framework block guide](framework_notebook.md) for inputs, the isolated
+runtime, original-smoke-upload support, resume and compact verified exports.
+
+The linked **domain features** section runs KIDEVAL English UD on completed
+annotations, either from the current processing run or independently from saved
+manifests/ZIPs. Set `RUN_DOMAIN_FEATURES=True` to enable it; the default is off.
+It exports comparable six-story units and does not run IPSyn or R analyses.
+See [domain feature settings and exports](domain_features.md).
+
+## Real ENNI annotation pilot
+
+`RUN_PROFILE="real_enni_pilot"` selects a bounded `from_chat` run with six
+four-year-old children: TD 410/450/419 and SLI 444/480/478. The first three pairs
+in the definitive roster provide 36 narratives and 550 CHI utterances. This is
+a processing pilot, not a representative accuracy estimate. Original real-data
+boundaries remain unchanged. Generation and synthetic segmentation are skipped.
+
+In a fresh Colab GPU runtime, upload both `ICL-PILOT_smoke_bundle.zip` and
+`ICL-PILOT_ENNI_annotation_pilot_inputs.zip`. The active smoke notebook already
+selects this profile; Run All performs shared cleaning, TalkTag, UD, preservation,
+Chatter, retention and export. It verifies the input-package checksum, selection
+manifest and every file, preserves conflicting existing files, and marks the run
+test-only. The original ENNI ZIP is included once as its recovery reference.
+Gillam is not required for this pilot because its external classifier evaluation
+uses narrative text rather than UD features. Corpus ZIPs on the Mac are not
+automatically available in a new Colab runtime.
+
+The archive is copied to `/content/<archive-name>.zip` for downloading through
+VS Code's Colab Contents file menu. Keep the earlier synthetic smoke archive for
+the later annotation-quality comparison. The main notebook keeps the normal
+`RUN_PROFILE="generation"` default, which also permits its existing saved-input
+modes. The smoke notebook can return to the generation test using that profile.
+
+See [pilot selection and checks](../reproducibility/real_annotation_pilot.json).
 
 ## Modes
 
@@ -37,6 +77,20 @@ paired-story HTML page, flags, journal checks and downloadable notes. Every stor
 remains eligible; no story or bundle is discarded or resampled by review.
 
 Release generator resources before the pinned whole-narrative segmentation worker runs. Inspect boundary/runtime records and required Chatter results. The [shared preparation block](shared_annotation_preparation.md) removes old linguistic annotations using one policy for real and synthetic CHAT. TalkTag operates on these checked working snapshots and retains preservation/QC reports.
+
+Generated CHAT conversion records curly-to-ASCII apostrophe replacements before
+segmentation; CHAT does not accept curly apostrophes inside words. Raw generated
+text remains unchanged. The notebook verifies that this rule is available, then
+checks actual CHAT files, replacement logs and source CSV hashes before Chatter.
+The exact older converter from the original smoke upload can receive the
+reviewed four-line correction; both source hashes and the update are recorded
+in `chat_formatting_policy.json`. Unknown older implementations are not patched.
+`chat_formatting_manifest.json` records checked files and replacement counts.
+Hyphens are unchanged. If a later processing step fails, retain that run and
+start a fresh `from_csv` or `from_chat` processing run from the saved inputs.
+Do not rerun generation or the settings cell to recover a later step: the
+settings cell creates a new timestamped run path. Keep smoke-derived processing
+explicitly marked `test_only` and separate from study outputs.
 
 For the joint study run, finish each generator's CHAT conversion, choose
 from_chat, include real ENNI once plus the three generator CHAT roots, and enter

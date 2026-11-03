@@ -99,14 +99,28 @@ recorded separately. Do not leave stale %umor/%ugra as preferred feature inputs.
 Traditional MOR/MEGRASP and IPSyn are not run by this annotation notebook; R
 analyses remain separate. Full corpus execution and manual review remain pending.
 
-Use the pinned validation, segmentation and TalkTag settings. Require complete fresh validation results. Retain failures for review rather than silently skipping files, suppressing errors or replacing words. Annotation works on copies and preserves headers, words, boundaries and existing tiers except explicitly documented preparation.
+Use the pinned validation, segmentation and TalkTag settings. Require complete fresh validation results. Annotation works on copies; the pre-annotation source is authoritative. Automatically restore annotator-side word substitutions, deletions, insertions, punctuation, layout and boundary changes from that recorded source, without manual per-generation processing. Never infer replacement words or repair the source's grammar. Transfer new TalkTag annotations only from unchanged, uniquely aligned tokens; preserve existing source annotations. Record changed/unassessed source words and unmapped or ambiguous tags in the restoration audit, with partial annotation coverage where needed. Do not treat unavailable error annotations as error-free in feature extraction. Retain all stories/bundles; restoration is not a generation filter. Missing/corrupted originals, failed inference and structural validation failures remain distinct from automatically restored text drift.
 
 ## Linguistic features
 
 Retain interpretable structural, lexical, disruption, syntax and morphosyntactic measures. Table names containing severity denote raw features, not a severity/profile model.
 
+Use configs/features/kideval.json and the main notebook's independent domain
+feature block for native KIDEVAL/DSS English UD measurement. It uses +0 +lengu
++t*CHI, raw counts, the native DSS sample requirement, no IPSyn and no normative
+comparisons. Keep one real-child or synthetic model/run/pair/replicate/stage
+six-story unit in canonical story order. Incomplete units remain flagged rows
+with missing features; review flags do not filter units. Remove only media
+headers/timing bullets from derived analysis bundles and retain their counts;
+final annotated sources remain unchanged and checksum-verified. Preserve raw
+tool reports separately from selected analysis columns. Native word/utterance
+error columns are not substitutes for the preposition-excluding study measures.
+Mask DSS sentence scores when TalkTag coverage is partial or unknown. Retain
+pilot test_only flags. Custom error measures and R inference are still pending.
+
 - General error burden, retracing and repetition use per-utterance rates.
 - Bare-marking and pronoun errors use per-word rates.
+- Preposition-error annotations are excluded from analysed error counts. Retain the original words and saved annotation tags for provenance; apply the exclusion when constructing fresh feature tables.
 - Past-overgeneralization opportunities are overt past finite lexical verbs from UD morphology plus explicit bare-past tokens m:0ed and m:base:ed. New annotation uses canonical %mor; older %umor inputs require explicit lineage mapping when fresh feature tables are built.
 - Zero opportunities remain missing, not zero rates.
 - DSS category totals retain their developmental-score meaning.

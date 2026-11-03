@@ -22,9 +22,10 @@ the independent morphosyntax_only route; see [UD annotation](batchalign_annotati
    real corpus, then remove only verified successful-run intermediate CHAT.
    Failed/incomplete runs keep working copies. See
    [verification and recovery](shared_annotation_preparation.md#final-verification-and-storage).
-7. Run compatible measurement tools and build fresh interpretable feature tables
-   with source hashes and tier/tool lineage. Traditional MOR/MEGRASP and IPSyn
-   are not part of the annotation notebook.
+7. Run the notebook's [KIDEVAL English UD feature block](domain_features.md)
+   on the completed annotations to construct six-story-unit tables, retaining
+   source hashes, lineage and coverage. Custom error features remain separate.
+   Traditional MOR/MEGRASP and IPSyn are not part of the pipeline.
 
 Real supplied boundaries remain unchanged. Never segment after annotation or automatically replace words to repair alignment.
 

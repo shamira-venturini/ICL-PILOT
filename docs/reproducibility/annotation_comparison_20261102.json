@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scope": "Preliminary AI-assisted linguistic spot-check, not a human gold-standard accuracy estimate",
+  "blinded": false,
+  "reviewer": "AI assistant linguistic spot-check; not independently adjudicated human gold annotation",
+  "sample_size": 144,
+  "source_real_recovery_record": "docs/reproducibility/enni_ud_provenance_recovery_20261102.json",
+  "synthetic_archive_sha256": "a54acbef2c7f5ed39905446eaedd014bd11a677a37aed54d71b5254b474b6dd0",
+  "reviewed_sample_sha256": "832d2d74be7a5f7577bc3880f5167ed2dee3ec21197b6ea7072973f99976f9ac",
+  "artifact_directory": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/annotation_comparison",
+  "report": "docs/reproducibility/annotation_comparison_20261102.md",
+  "counts": {
+    "real_DLD": {
+      "no_obvious_issue_in_limited_check": 33,
+      "uncertain": 3
+    },
+    "real_TD": {
+      "no_obvious_issue_in_limited_check": 30,
+      "clear_pos_or_finiteness_issue": 3,
+      "uncertain": 3
+    },
+    "synthetic_stage1": {
+      "no_obvious_issue_in_limited_check": 34,
+      "uncertain": 1,
+      "clear_dependency_relation_issue": 1
+    },
+    "synthetic_stage2": {
+      "uncertain": 9,
+      "no_obvious_issue_in_limited_check": 26,
+      "clear_pos_or_finiteness_issue": 1
+    }
+  },
+  "legacy_reader_skipped_valid_utterances": 100,
+  "production_feature_code_changed": false,
+  "limitations": [
+    "Six four-year-old real children; one synthetic prompt pair, one generator and two reversed assignments.",
+    "Judgments were made by an AI assistant seeing the text and predicted annotations, without independent human adjudication.",
+    "No exhaustive word-level or attachment gold labels; no sensitivity/specificity, agreement coefficient, confidence interval or accuracy percentage is established.",
+    "Utterances are clustered and can repeat across stories/conditions; the audit is not an independent-sample experiment.",
+    "Ambiguous or malformed utterances can have more than one defensible analysis.",
+    "Real original boundaries are retained, while generated text uses predicted boundaries; segmentation effects cannot be separated from parsing quality in this comparison."
+  ]
+}

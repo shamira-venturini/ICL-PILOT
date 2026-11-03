@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-30",
+  "test_only": true,
+  "archive_sha256": "788ed6bc47452fe49891102e2556bfd30c9cfe1ae55698ee55f0782a53723d21",
+  "generation_csv_sha256": "2006a1a0843564dbb8f037849e15000bd046c90edcd2d786102e4457ca2768d3",
+  "source_run": "enni_smoke_qwen3_8b_20261030T134558188486Z",
+  "generation": "24 genuine Colab Qwen3-8B outputs, 12 paired-stage jobs",
+  "cause": "Chatter E256: curly single apostrophes are illegal CHAT word characters",
+  "original": {
+    "type": "summary",
+    "directory": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-10-30/qwen3_apostrophes/original_run/enni_smoke_qwen3_8b_20261030T134558188486Z/annotation_preparation/prepared",
+    "outcome": "complete",
+    "total_files": 24,
+    "valid": 20,
+    "invalid": 4,
+    "internal_failures": 0,
+    "cache_hits": 0,
+    "cache_misses": 24,
+    "cache_hit_rate": 0.0,
+    "cache_errors": 0
+  },
+  "corrected": {
+    "type": "summary",
+    "directory": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-10-30/qwen3_apostrophes/corrected_chat",
+    "outcome": "complete",
+    "total_files": 24,
+    "valid": 24,
+    "invalid": 0,
+    "internal_failures": 0,
+    "cache_hits": 0,
+    "cache_misses": 24,
+    "cache_hit_rate": 0.0,
+    "cache_errors": 0
+  },
+  "files_with_apostrophe_normalization": 4,
+  "apostrophes_normalized": 15,
+  "raw_generation_csv_unchanged": true,
+  "boundary_check": "Actual saved Batchalign actions replayed; normalized tokens compared in order; no new boundary inference",
+  "shared_preparation": "24 files passed fresh Chatter validation",
+  "talktag_and_ud": "Not yet run in this smoke test",
+  "diagnostics": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-10-30/qwen3_apostrophes",
+  "converter_sha256": "7e006e63aba9d26f6a870fd91825c7faae15b47cfa41f3f5c18b27c72724fdbf",
+  "regression_tests": {
+    "passed": 202,
+    "skipped": 1,
+    "skip_reason": "Opt-in actual segmentation runtime not configured",
+    "files": [
+      "test_generated_chat.py",
+      "test_segmentation.py",
+      "test_chat_validation.py",
+      "test_annotation_pipeline.py",
+      "test_chat_structure.py"
+    ]
+  },
+  "active_notebooks_check": {
+    "original_upload_bootstrap": "passed",
+    "reviewed_source_upgrade": "passed",
+    "reviewed_annotation_upgrade": "passed",
+    "second_bootstrap_after_upgrade": "passed",
+    "raw_generation_csv_unchanged": true,
+    "active_smoke_and_official_formatting_cells_identical": true,
+    "derived_chat_files": 24,
+    "apostrophes_normalized": 15,
+    "native_chatter": "24/24 passed",
+    "model_execution": "not run; GPU guard stubbed, saved boundary actions replayed"
+  },
+  "updated_notebooks": {
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/notebooks/colab_direct_generation_pipeline.ipynb": {
+      "sha256": "39dda1c23a0c79df9b38ff94e85f358e519e6c20bd069ac5faedaf9e7321844f",
+      "cells": 37
+    },
+    "/Users/shamiraventurini/Documents/Playground/ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb": {
+      "sha256": "fe00393b8b0030103b5b5b2256e15a0b30bf746b0b9912a013ce9289f53cf69b",
+      "cells": 42
+    }
+  },
+  "additional_notebook_tests": {
+    "tests_passed": 4,
+    "targeted_suite_passed": 34,
+    "file": "tests/test_notebook_chat_formatting.py",
+    "native_validation_tests": "passed"
+  },
+  "active_view_recovery": "User closed the older dirty notebook tab without saving; restored the formatting cells, reviewed-source bootstrap allowance, visible revision marker and diagnostic error details in the same notebook, preserving saved outputs. The restored file remained unchanged after 10 seconds."
+}

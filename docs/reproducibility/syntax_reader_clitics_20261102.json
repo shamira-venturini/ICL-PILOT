@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-02T13:35:14.915636+00:00",
+  "scope": "Syntax-reader clitic alignment software correction on saved real and synthetic annotation pilots; not an annotation accuracy assessment",
+  "implementation": "src/icl_pilot/features/syntax_features.py",
+  "implementation_sha256": "6a811e5ff80d7356119b94216fe1f037231e5fa964726451e082f5dee5c82b92",
+  "change": "Expand each whitespace-delimited morphology group on ~ in component order before aligning to dependency nodes. Surface text, annotation labels and dependency indices are unchanged.",
+  "baseline": "Replayed exact previous whitespace-only parser and reproduced legacy_reader_qc.json for all four conditions.",
+  "baseline_record": "data/generated/smoke_diagnostics/2026-11-02/annotation_comparison/legacy_reader_qc.json",
+  "baseline_record_sha256": "a50ccc04dce732976aeb7dcccf4e0663a5060ffd7ef99b61d137ad244e063cc7",
+  "real_recovery_record": "docs/reproducibility/enni_ud_provenance_recovery_20261102.json",
+  "synthetic_archive": "/Users/shamiraventurini/Downloads/enni_smoke_qwen3_8b_20261102T094720088747Z_20261102T100143090130Z.zip",
+  "synthetic_archive_sha256": "a54acbef2c7f5ed39905446eaedd014bd11a677a37aed54d71b5254b474b6dd0",
+  "files_checked": 30,
+  "source_hashes_unchanged": true,
+  "before": {
+    "real_DLD": {
+      "chi_blocks_total": 326,
+      "chi_blocks_analyzed": 293,
+      "chi_blocks_skipped_missing_tiers": 3,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 30
+    },
+    "real_TD": {
+      "chi_blocks_total": 224,
+      "chi_blocks_analyzed": 173,
+      "chi_blocks_skipped_missing_tiers": 0,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 51
+    },
+    "synthetic_stage1": {
+      "chi_blocks_total": 180,
+      "chi_blocks_analyzed": 168,
+      "chi_blocks_skipped_missing_tiers": 0,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 12
+    },
+    "synthetic_stage2": {
+      "chi_blocks_total": 118,
+      "chi_blocks_analyzed": 111,
+      "chi_blocks_skipped_missing_tiers": 0,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 7
+    }
+  },
+  "after": {
+    "real_DLD": {
+      "chi_blocks_total": 326,
+      "chi_blocks_analyzed": 323,
+      "chi_blocks_skipped_missing_tiers": 3,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 0
+    },
+    "real_TD": {
+      "chi_blocks_total": 224,
+      "chi_blocks_analyzed": 224,
+      "chi_blocks_skipped_missing_tiers": 0,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 0
+    },
+    "synthetic_stage1": {
+      "chi_blocks_total": 180,
+      "chi_blocks_analyzed": 180,
+      "chi_blocks_skipped_missing_tiers": 0,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 0
+    },
+    "synthetic_stage2": {
+      "chi_blocks_total": 118,
+      "chi_blocks_analyzed": 118,
+      "chi_blocks_skipped_missing_tiers": 0,
+      "chi_blocks_skipped_parse_errors": 0,
+      "chi_blocks_skipped_token_mismatch": 0
+    }
+  },
+  "totals_before": {
+    "chi_blocks_total": 848,
+    "chi_blocks_analyzed": 745,
+    "chi_blocks_skipped_missing_tiers": 3,
+    "chi_blocks_skipped_token_mismatch": 100
+  },
+  "totals_after": {
+    "chi_blocks_total": 848,
+    "chi_blocks_analyzed": 845,
+    "chi_blocks_skipped_missing_tiers": 3
+  },
+  "valid_utterances_recovered": 100,
+  "remaining_missing_tiers": "Three previously identified nonlexical real DLD utterances remain unanalysed; no synthetic or real text/annotation was changed.",
+  "regression_checks": {
+    "test_file": "tests/test_syntax_features.py",
+    "test_file_sha256": "cb782c08825cb0207a2e930033932169f9b11cef74effc84084882221074d1c0",
+    "passed": 12,
+    "cases": [
+      "ordered pronoun/auxiliary, negative, possessive and three-component clitic expansion",
+      "unchanged uncontracted morphology",
+      "canonical and legacy tier names",
+      "finite auxiliary counted once; participle excluded",
+      "punctuation exclusion and graph distances/depths",
+      "genuine missing nodes, malformed dependencies and missing tiers still rejected",
+      "source transcript bytes unchanged"
+    ]
+  },
+  "python_version": "3.12.8",
+  "model_inference_repeated": false,
+  "annotation_labels_changed": false,
+  "feature_tables_regenerated": false,
+  "r_analyses_run": false,
+  "files": [
+    {
+      "identity": "real_enni/SLI/A/0noaudio/478.cha",
+      "condition": "real_DLD",
+      "sha256": "7170869fee56f02056e898d956b8e44d5a1873c41e1d6fb3bbcd4800d3a474da",
+      "before": {
+        "chi_blocks_total": 58,
+        "chi_blocks_analyzed": 56,
+        "chi_blocks_skipped_missing_tiers": 2,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 58,
+        "chi_blocks_analyzed": 56,
+        "chi_blocks_skipped_missing_tiers": 2,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "real_enni/SLI/A/444.cha",
+      "condition": "real_DLD",
+      "sha256": "71baf34b8d7c7434d88950c0ab7d91d329e742cfab0e11ba799f06cd638fcd34",
+      "before": {
+        "chi_blocks_total": 100,
+        "chi_blocks_analyzed": 89,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 11
+      },
+      "after": {
+        "chi_blocks_total": 100,
+        "chi_blocks_analyzed": 100,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "real_enni/SLI/B/480.cha",
+      "condition": "real_DLD",
+      "sha256": "34d0268824d38c871bb242e7f3fc3c9cea030a8327f1fc1726f9b656ee037720",
+      "before": {
+        "chi_blocks_total": 168,
+        "chi_blocks_analyzed": 148,
+        "chi_blocks_skipped_missing_tiers": 1,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 19
+      },
+      "after": {
+        "chi_blocks_total": 168,
+        "chi_blocks_analyzed": 167,
+        "chi_blocks_skipped_missing_tiers": 1,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "real_enni/TD/A/410.cha",
+      "condition": "real_TD",
+      "sha256": "8f1eae1b315547a844eba914938b6b85bd40d85562429bd3fadd53034c0c0815",
+      "before": {
+        "chi_blocks_total": 64,
+        "chi_blocks_analyzed": 38,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 26
+      },
+      "after": {
+        "chi_blocks_total": 64,
+        "chi_blocks_analyzed": 64,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "real_enni/TD/B/419.cha",
+      "condition": "real_TD",
+      "sha256": "2ecd00e0a0261f7d471518cc3b1b1d5bc337ba661dd6e5dcd8ff6159875a3cf6",
+      "before": {
+        "chi_blocks_total": 95,
+        "chi_blocks_analyzed": 77,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 18
+      },
+      "after": {
+        "chi_blocks_total": 95,
+        "chi_blocks_analyzed": 95,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "real_enni/TD/B/450.cha",
+      "condition": "real_TD",
+      "sha256": "e44cff2bccc15c687a5d993415180a1d2e11ca03af7bdeaa3742d4a798d24bfc",
+      "before": {
+        "chi_blocks_total": 65,
+        "chi_blocks_analyzed": 58,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 7
+      },
+      "after": {
+        "chi_blocks_total": 65,
+        "chi_blocks_analyzed": 65,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep01_A1_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "ce3b46f305798f461d7984b0bea2ad93f3ee3923df9e004d92e883e58cd283da",
+      "before": {
+        "chi_blocks_total": 5,
+        "chi_blocks_analyzed": 5,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 5,
+        "chi_blocks_analyzed": 5,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep01_A2_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "770f8b268705c6de889a09dadcb871245247deff0f0a61c9aa61a2ff021cf2fd",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep01_A3_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "e225fa5683dcb4332ab56563bf4e376681e5ac1ba309fac5709f552b222dcb2c",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep01_B1_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "e33ec06bbed1cb518b592a4e423f175568d45b6e92ce7cac83711b7bdd6a914b",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep01_B2_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "c9643bfde640a7819c3cce70d868ab14f4b9b07c0d0c97c0c253c489d057fafb",
+      "before": {
+        "chi_blocks_total": 11,
+        "chi_blocks_analyzed": 11,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 11,
+        "chi_blocks_analyzed": 11,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep01_B3_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "a3b722076acd3dabeeec184e3c2c002c7332a893a34ff97b610b5b408d7de1cf",
+      "before": {
+        "chi_blocks_total": 9,
+        "chi_blocks_analyzed": 8,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 1
+      },
+      "after": {
+        "chi_blocks_total": 9,
+        "chi_blocks_analyzed": 9,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep02_A1_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "f9c2388b38386bdb1b69245289d4411be3e4002d51d7e18c37a65baa5726f1c1",
+      "before": {
+        "chi_blocks_total": 16,
+        "chi_blocks_analyzed": 8,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 8
+      },
+      "after": {
+        "chi_blocks_total": 16,
+        "chi_blocks_analyzed": 16,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep02_A2_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "5587c1739ea04515c37fcf8d506dd6d9e4728e1bc0a3f9484c90d4d35f40f941",
+      "before": {
+        "chi_blocks_total": 80,
+        "chi_blocks_analyzed": 78,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 2
+      },
+      "after": {
+        "chi_blocks_total": 80,
+        "chi_blocks_analyzed": 80,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep02_A3_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "686b4911f88034b6e57261be4b652e4821fcaf263262c11a7cdb7ed35f7f6d60",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 6,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 1
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep02_B1_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "8a22888957bac461d392a9ee1be6ebfeba1b3dc86e471ffd2d8f5b96ee865b81",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep02_B2_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "536d94ea837085053b5797362db0b6f672697adafe3dd5f1c78cba0201ddad4b",
+      "before": {
+        "chi_blocks_total": 10,
+        "chi_blocks_analyzed": 10,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 10,
+        "chi_blocks_analyzed": 10,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage1_td/pair_sli444_td410_rep02_B3_TD.cha",
+      "condition": "synthetic_stage1",
+      "sha256": "3ad736e49594ef3deeb79e8ba35a1a37899276bad65fa1a10bfa53a390736cfc",
+      "before": {
+        "chi_blocks_total": 14,
+        "chi_blocks_analyzed": 14,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 14,
+        "chi_blocks_analyzed": 14,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep01_A1_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "4944c39443d7284e0af65bee7c386fa96746baebcff96498044ae00b7bea9ef7",
+      "before": {
+        "chi_blocks_total": 9,
+        "chi_blocks_analyzed": 9,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 9,
+        "chi_blocks_analyzed": 9,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep01_A2_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "0591bda13fe76c7e835437fe05b97b4b21fc8a3212afd136d8960d60e3ff36ab",
+      "before": {
+        "chi_blocks_total": 10,
+        "chi_blocks_analyzed": 10,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 10,
+        "chi_blocks_analyzed": 10,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep01_A3_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "e9d545b35208aa7e6863f099b5407ed3fe59778346740bf6fe81eb44b0601376",
+      "before": {
+        "chi_blocks_total": 4,
+        "chi_blocks_analyzed": 4,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 4,
+        "chi_blocks_analyzed": 4,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep01_B1_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "7925ace3e4eae652577159af47792fa0f5b4a7676b179b1882db6448d51e4d05",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep01_B2_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "b5043916e47d70a3b8a0fbf1eac8aa08b1ec2240a14d2a267cb2eebc17b6ae74",
+      "before": {
+        "chi_blocks_total": 11,
+        "chi_blocks_analyzed": 11,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 11,
+        "chi_blocks_analyzed": 11,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep01_B3_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "c80dabce9102880e49a4ef5a79db2130077c44553f4a0f0f087c1b3921178d6d",
+      "before": {
+        "chi_blocks_total": 8,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 1
+      },
+      "after": {
+        "chi_blocks_total": 8,
+        "chi_blocks_analyzed": 8,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep02_A1_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "e3042942844ec2426c986e53df03d65924ba0a76596e7e5c056b73c1c615501d",
+      "before": {
+        "chi_blocks_total": 11,
+        "chi_blocks_analyzed": 6,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 5
+      },
+      "after": {
+        "chi_blocks_total": 11,
+        "chi_blocks_analyzed": 11,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep02_A2_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "dfe67d150bbd9757d35591d4cef794445b8afb5e2ec56647a02860bcf77e0bf9",
+      "before": {
+        "chi_blocks_total": 21,
+        "chi_blocks_analyzed": 20,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 1
+      },
+      "after": {
+        "chi_blocks_total": 21,
+        "chi_blocks_analyzed": 21,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep02_A3_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "63fe6110681b33502bf75ce57362f246758980c6fcc43a08921293e076816207",
+      "before": {
+        "chi_blocks_total": 6,
+        "chi_blocks_analyzed": 6,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 6,
+        "chi_blocks_analyzed": 6,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep02_B1_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "2ae96c6063c21e6dbfa0729aa2e64fde0634f68493be8f9ffbd3120162972525",
+      "before": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 7,
+        "chi_blocks_analyzed": 7,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep02_B2_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "570278d38be00384af2c82a83601a0392cc5c86bc3f3280fae769a5309d64767",
+      "before": {
+        "chi_blocks_total": 10,
+        "chi_blocks_analyzed": 10,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 10,
+        "chi_blocks_analyzed": 10,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    },
+    {
+      "identity": "synthetic/4_year_old_stage2_sli/pair_sli444_td410_rep02_B3_SLI.cha",
+      "condition": "synthetic_stage2",
+      "sha256": "d18eda465770747a88cc88f0d3a0cc01a175b9d30a34cdaff3d1022a2e997a24",
+      "before": {
+        "chi_blocks_total": 14,
+        "chi_blocks_analyzed": 14,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      },
+      "after": {
+        "chi_blocks_total": 14,
+        "chi_blocks_analyzed": 14,
+        "chi_blocks_skipped_missing_tiers": 0,
+        "chi_blocks_skipped_parse_errors": 0,
+        "chi_blocks_skipped_token_mismatch": 0
+      }
+    }
+  ]
+}

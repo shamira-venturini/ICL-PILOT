@@ -77,6 +77,33 @@ retention block. Final CHAT, audits, metadata, logs and validation reports trave
 with Drive/ZIP exports. Real data are processed once, independently of classifier
 folds. Preparation never deletes the selected source inputs or original ZIPs.
 
+TalkTag postprocessing version 3 always rebuilds derived CHAT from the exact
+pre-annotation source. Annotator-side word substitutions, deletions, inserted
+words, punctuation, layout and boundary changes are automatically undone. Source
+grammar, repetitions, transcription codes, existing annotations, headers and
+dependent tiers are retained. New tags are transferred only from unchanged
+tokens with one source position across all optimal token alignments. Repeated
+words with ambiguous positions do not receive arbitrarily relocated tags.
+Raw TalkTag outputs and source snapshots remain unchanged.
+
+The annotation manifest records restoration edits, unmapped tags and unassessed
+source words by utterance. Files with unavailable tag anchors have partial
+annotation coverage, without stopping processing or excluding stories/bundles.
+Error-feature extraction must mark affected utterances' error annotations as
+unavailable rather than interpreting omitted tags as absence of errors. Text,
+lexical and fresh UD measures still use the complete restored source. Final
+preservation checks remain exact on source speech, punctuation and boundaries,
+and Chatter still checks structural validity.
+
+For a completed TalkTag process requiring source restoration, keep the same notebook
+kernel and run settings. Execute the **Source-preservation policy** cell and then
+the annotation-run cell. It verifies retained raw hashes and calls
+`postprocess_annotation_run` to write a fresh reviewed manifest and derived
+output directory, followed by preservation and Chatter checks. It does not
+repeat TalkTag inference or overwrite the failed manifest. Continue through the
+remaining validation/UD/retention cells after this recheck passes. Changed
+settings or prepared-input references prevent this recovery route.
+
 ## Final verification and storage
 
 The notebook defaults to `LEAN_ANNOTATION=True`. Keep one original ENNI ZIP and

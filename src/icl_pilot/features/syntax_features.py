@@ -79,7 +79,14 @@ def _iter_chi_blocks(path: Path) -> list[dict[str, str]]:
 
 
 def _parse_umor_tokens(umor: str) -> list[str]:
-    return [token for token in umor.split() if token]
+    """Return morphology nodes in the order used by the dependency tier.
+
+    A whitespace-delimited CHAT group can contain several clitic components
+    joined by ``~`` (e.g. pronoun + auxiliary). Each has its own dependency
+    node. Keep punctuation and component order so graph indices still align;
+    this expansion does not change surface words or the source transcript.
+    """
+    return [segment for token in umor.split() for segment in token.split("~")]
 
 
 def _parse_ugra_tokens(ugra: str) -> list[tuple[int, int, str]] | None:

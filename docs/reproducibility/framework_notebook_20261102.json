@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-02T14:24:39.625648+00:00",
+  "scope": "Main-notebook framework integration and software verification; not scientific model results",
+  "notebooks": [
+    {
+      "path": "notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "a02899450829af14f15fe19068018b1d4c3ce5070f884a238ef84a2a7b1a8e7f",
+      "framework_cells": 20
+    },
+    {
+      "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb",
+      "sha256": "48d73a613198c17265a1988e68562d9606ad04c20e1d1360edd88b8a0c8b61d4",
+      "framework_cells": 20
+    }
+  ],
+  "support_package": {
+    "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_framework_support_20261102.zip",
+    "sha256": "7192cfc57ad0dd35a5b7e29f8a2a4ecde3015db53ab8c2fb4cfd42f3f27968c4",
+    "bytes": 875464,
+    "files": 29,
+    "zip_crc_and_all_member_hashes": "passed",
+    "contains_original_corpus_archives": false
+  },
+  "original_smoke_package_unchanged": {
+    "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_bundle.zip",
+    "sha256": "33ab0065972db1ef9e8a0b85c8f1584a7446440cc9b6156a33386686c622e980"
+  },
+  "source_hashes": {
+    "src/icl_pilot/evaluation/notebook.py": "83d7183f889d081b01a724c9e53f5a498ef4dfbf24a28cce8fbe221896cc69b4",
+    "src/icl_pilot/evaluation/notebook_runtime.py": "2911bcaee33affe774b3e1d61f4e208e0a35e9b67d7bea06027c39c37997853d",
+    "src/icl_pilot/evaluation/runs.py": "cf0f1c567f529646378831608e810dc47d93d100de008f703a0d7e8a4acaf50e",
+    "src/icl_pilot/evaluation/story_text_exports.py": "53dd432dbcf155aa09905719fb8029f5bb94a6d92519c602b9f47244b4bf0dfa",
+    "tests/test_framework_notebook.py": "1f166b68bce3f98f7ee67fc4a46568bdd2302f2a8965194174f2bcfa951181d6"
+  },
+  "guide": "docs/guides/framework_notebook.md",
+  "entry_route": "Repository cell, then independently runnable framework section 6; generation/annotation setup not required",
+  "inputs": "Explicit generator-labelled saved aggregate/cohort CSVs or a prebuilt common-policy export; canonical ENNI reference and frozen complete generation schedule verified; Gillam separate external test-only",
+  "review_flags": "Review-only, with no story/bundle exclusions; smoke generations remain ineligible for scientific evaluation",
+  "scientific_protocol_changed": false,
+  "default_switches": {
+    "RUN_FRAMEWORK_EVALUATION": false,
+    "RUN_EVAL_TEXT_QUALITY": false,
+    "RUN_EVAL_CLASSIFICATION": false,
+    "RUN_EVAL_RATIOS": false,
+    "INSTALL_FRAMEWORK_TOOLKIT": false
+  },
+  "persistence": "Colab output directories default to Drive and receive results incrementally; local output defaults to results/framework_based_evaluation/",
+  "resume": "Verify source/input hashes; reuse completed classifier fits; record session relocation; preserve partial fits without claiming optimizer-checkpoint continuation",
+  "export": "Compact ZIP with checked member hashes; model/trainer directories preserved outside the portable archive; no automatic runtime disconnection",
+  "runtime": {
+    "kernel_dependencies_changed": false,
+    "base_runtime_setup_imports_and_reuse": "passed in a fresh isolated native local environment",
+    "base_environment": {
+      "python": "3.12.8",
+      "packages": {
+        "numpy": "2.5.4",
+        "pandas": "3.1.0",
+        "scipy": "1.18.1",
+        "matplotlib": "3.11.2",
+        "torch": null,
+        "transformers": null,
+        "SynthTextEval": null,
+        "datasets": null,
+        "sentence-transformers": null
+      }
+    },
+    "synthtexteval_revision": "3d63a172418a985fd0d997e5c993f6a0390c294e",
+    "transformers_version": "4.57.6",
+    "exact_upstream_tokenizer_patch_checked": true,
+    "patched_upstream_utils_sha256": "8f17e1a00c707e389771bc12dee8298d6d3d1d62707e225132089b9ae0a81467",
+    "full_toolkit_installation_locally_tested": false
+  },
+  "tests": {
+    "passed": 111,
+    "failed": 0,
+    "skipped": 0,
+    "headless_plot_backend": "Agg",
+    "warning": "One existing standalone notebook plot calls show under the noninteractive test backend",
+    "coverage": [
+      "Both notebooks: disabled evaluation executes without reading inputs, installing dependencies or loading models",
+      "Saved aggregate CSV and prebuilt export routes, including source paths outside the checkout",
+      "Canonical reference, full schedule, parent ancestry, duplicate/smoke safeguards and review-only meta flags",
+      "Main and ratio classification orchestration with controlled predictions; shared splits/sampling; fit reuse",
+      "Conditional summaries and exported ratio curve",
+      "Changed-input/result rejection, relocated-session resume and incremental persistent output",
+      "Compact ZIP member checksums and checkpoint preservation",
+      "Exact original-smoke support installation, repeat setup and unknown-edit preservation",
+      "Worker CLI input/descriptive execution in the fresh isolated base runtime",
+      "Existing generation/annotation notebook compatibility checks"
+    ]
+  },
+  "actual_bert_fits_run": false,
+  "actual_gpt2_minilm_inference_run": false,
+  "actual_full_study_corpus_metrics_run": false,
+  "pending": "Actual model-runtime setup and full-study GPU evaluation after definitive generator outputs are available; feature construction and R analyses remain separate pending work"
+}

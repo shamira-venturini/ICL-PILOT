@@ -29,6 +29,11 @@ def file_digest(path):
 
 
 def update_budget(n_rows, classifier):
+    if "diagnostic_max_steps" in classifier:
+        steps = classifier["diagnostic_max_steps"]
+        if classifier.get("test_only") is not True or type(steps) is not int or not 1 <= steps <= 2:
+            raise ValueError("A diagnostic update budget requires test_only=True and one or two steps.")
+        return steps
     batches = math.ceil(n_rows / classifier["batch_size"])
     return max(1, math.ceil(classifier["epochs"] * math.ceil(batches / classifier["gradient_accumulation_steps"])))
 
@@ -103,15 +108,41 @@ def _torch_probabilities(model, tokenizer, frame, classifier):
 
 
 def package_backend(job, train, validation, tests, protocol, output):
-    """Real CUDA execution; heavy dependencies are imported only in this function."""
+    """Scientific execution requires the configured single CUDA GPU."""
+    return _fit_package_classifier(job, train, validation, tests, protocol, output, device="cuda")
+
+
+def cpu_diagnostic_backend(job, train, validation, tests, protocol, output):
+    """Actual bounded CPU training; never an alternative scientific backend."""
+    if protocol.get("test_only") is not True or protocol["classifier"].get("test_only") is not True:
+        raise ValueError("CPU diagnostic fitting requires explicitly test-only inputs and protocol.")
+    if type(job["max_steps"]) is not int or not 1 <= job["max_steps"] <= 2:
+        raise ValueError("CPU diagnostics are limited to one or two optimizer updates per fit.")
+    return _fit_package_classifier(job, train, validation, tests, protocol, output, device="cpu")
+
+
+def _write_classifier_dataset(directory, train, validation):
+    """Give the toolkit a shared feature/label schema across both CSV splits.
+
+    Real folds and synthetic bootstrap frames have different provenance columns.
+    The HF CSV builder infers one schema across splits; passing those metadata
+    columns to it can reject synthetic-only or augmented fits. Full identities
+    and membership remain in the input/split/bootstrap/tokenization audits.
+    """
+    for name, frame in (("train", train), ("validation", validation)):
+        frame.loc[:, ["output_text", "Label"]].to_csv(directory / (name + ".csv"), index=False)
+
+
+def _fit_package_classifier(job, train, validation, tests, protocol, output, *, device):
+    """Shared package loading/tokenization/training/prediction implementation."""
     import torch
     from huggingface_hub import snapshot_download
     from transformers import set_seed
     from synthtexteval.eval.downstream.classify import train_classifier as toolkit
 
-    if not torch.cuda.is_available():
+    if device == "cuda" and not torch.cuda.is_available():
         raise RuntimeError("Classifier fitting requires a CUDA-enabled Colab runtime.")
-    if torch.cuda.device_count() != 1:
+    if device == "cuda" and torch.cuda.device_count() != 1:
         raise RuntimeError("Use one visible Colab GPU so update budgets retain their recorded meaning.")
     config = protocol["classifier"]
     checkpoint = snapshot_download(repo_id=config["model_id"], revision=config["revision"],
@@ -121,8 +152,7 @@ def package_backend(job, train, validation, tests, protocol, output):
     set_seed(job["classifier_seed"])
     dataset_dir = output / "dataset"
     dataset_dir.mkdir()
-    train.to_csv(dataset_dir / "train.csv", index=False)
-    validation.to_csv(dataset_dir / "validation.csv", index=False)
+    _write_classifier_dataset(dataset_dir, train, validation)
     args = toolkit.TrainingArguments(
         output_dir=str(output / "trainer"), num_train_epochs=config["epochs"], max_steps=job["max_steps"],
         per_device_train_batch_size=config["batch_size"], per_device_eval_batch_size=config["eval_batch_size"],
@@ -131,6 +161,7 @@ def package_backend(job, train, validation, tests, protocol, output):
         seed=job["classifier_seed"], data_seed=job["classifier_seed"], optim="adamw_torch",
         eval_strategy="epoch", save_strategy="no", logging_strategy="steps", logging_steps=10,
         report_to=[], fp16=False, bf16=False, dataloader_num_workers=0, load_best_model_at_end=False,
+        use_cpu=device == "cpu",
     )
     model_args = toolkit.ModelArguments(model_name=checkpoint, path_to_dataset=str(dataset_dir),
         path_to_model=str(output / "model"), n_labels=2, problem_type="single_label_classification",
@@ -145,7 +176,7 @@ def package_backend(job, train, validation, tests, protocol, output):
         audits.append(tokenize_audit(classifier.tokenizer, frame, config["max_length"],
                                      {"classifier_run_id": job["classifier_run_id"], "split": name}))
     pd.concat(audits, ignore_index=True).to_csv(output / "tokenization_audit.csv", index=False)
-    trainer = toolkit.Trainer(model=classifier.model.to("cuda"), args=args,
+    trainer = toolkit.Trainer(model=classifier.model.to(device), args=args,
         train_dataset=classifier.process_map(classifier.dataset["train"]),
         eval_dataset=classifier.process_map(classifier.dataset["validation"]),
         compute_metrics=classifier.compute_metrics)
@@ -162,15 +193,19 @@ def package_backend(job, train, validation, tests, protocol, output):
     _write_json(output / "training_audit.json", {
         **job, "checkpoint_id": config["model_id"], "checkpoint_revision": config["revision"],
         "resolved_checkpoint": checkpoint, "actual_optimizer_steps": trainer.state.global_step,
-        "training_seconds": time.monotonic() - start, "device": torch.cuda.get_device_name(0),
+        "training_seconds": time.monotonic() - start,
+        "device": torch.cuda.get_device_name(0) if device == "cuda" else "cpu",
+        "test_only": protocol.get("test_only", False),
         "decision_threshold_sli": config["decision_threshold_sli"], "validation_use": "monitoring_only; fixed final update budget",
         "class_weighting": "none", "label_mapping": {"SLI": 0, "TD": 1},
         "model_checkpoints_retained": config["retain_model_checkpoints"],
+        "package_input_columns": ["output_text", "Label"],
         "training_arguments": args.to_dict(),
     })
     del trainer, classifier
     gc.collect()
-    torch.cuda.empty_cache()
+    if device == "cuda":
+        torch.cuda.empty_cache()
     return predictions
 
 

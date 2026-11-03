@@ -2,9 +2,14 @@
 
 The study treats descriptive corpus similarity, linguistic fidelity and classification utility as distinct outcomes. Use configs/evaluation/protocol.json and the framework_* modules. The notebook evaluates all three configured generators separately.
 
+The main Python notebook now contains [independent framework blocks](framework_notebook.md)
+in section 6. Select saved generation CSVs there, or a prebuilt common-policy text
+export. Its own run switches, isolated runtime, persistent output directory and
+resume/export cells do not require running generation or annotation.
+
 ## Inputs and common reference
 
-The text exporter requires explicit new-generation CSVs, the canonical ENNI participant/story CSVs and a fresh destination. Gillam is a separate external-evaluation file. Both paths in configs/evaluation/inputs.json must exist before results are created.
+The text exporter requires explicit new-generation CSVs, the canonical ENNI participant/story CSVs and a fresh destination. Gillam is a separate external-evaluation file. The main notebook assembles those inputs from its own settings. The standalone synthtexteval_demo.ipynb continues to require both paths in configs/evaluation/inputs.json.
 
 The verified Gillam export contains 182 children (91 TD/91 SLI), aged 60--95
 completed months. Repeated visits use one normalized child ID and the earliest
@@ -73,11 +78,13 @@ write tokenization_audit.csv for every train/validation/test input.
 
 ## Separate synthetic-to-real ratio experiment
 
-The notebook's optional ratio block uses framework_ratios.py and defaults to
-synthetic:real ratios (1, 10), plus a shared real-only baseline. Set
-RUN_RATIO_EXPERIMENT=True in that block to fit; its default False writes plans
-without starting BERT. It requires the setup/install/import and input-preparation
-cells, but not the main classifier, descriptive or text-quality cells.
+The optional ratio blocks use framework_ratios.py and default to
+synthetic:real ratios (1, 10), plus a shared real-only baseline. In the main
+notebook set PREPARE_EVAL_RATIO_PLAN=True to plan, RUN_EVAL_RATIOS=True to fit,
+or RUN_EVAL_RATIO_SUMMARIES=True to summarise completed fits. In the standalone
+notebook RUN_RATIO_EXPERIMENT=True enables fitting; its default False writes
+plans only. Both routes require their setup and input-preparation cells, and
+can run without the main classifier, descriptive or text-quality blocks.
 
 Keep real training, validation, ENNI test and Gillam rows fixed. Synthetic draws
 are nested prefixes of the training-only age/group bundle bootstrap. Every ratio

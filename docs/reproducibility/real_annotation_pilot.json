@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded real ENNI annotation pilot; not study results",
+  "input_package": {
+    "path": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/ICL-PILOT-smoke-test-20261030/ICL-PILOT_ENNI_annotation_pilot_inputs.zip",
+    "sha256": "e78db294df80707ff974d801d74c083d64561394f06136daaff32e516fc80a62",
+    "bytes": 2389075,
+    "manifest_sha256": "aa37e2703feb424809d76d5cd6013aab2ec94823f9cc2bc4697701989f2eac07"
+  },
+  "selection": {
+    "schema_version": 1,
+    "policy": "enni-real-annotation-pilot-v1",
+    "test_only": true,
+    "purpose": "Bounded annotation pilot; not a classifier split or clinical estimate",
+    "selection": "First three four-year-old pairs in the definitive frozen roster",
+    "children": [
+      {
+        "File_ID": "410",
+        "Group": "TD",
+        "Age_Raw": "4;01.27",
+        "pair_id": "pair_sli444_td410",
+        "path": "chat/TD/A/410.cha",
+        "source_member": "TD/A/410.cha",
+        "source_pid": "11312/c-00036194-1",
+        "source_sha256": "54edae462805ffaf1c5c21614e9e179c2cc5db7963cbe7725a0fbb1db1eb13fa",
+        "input_sha256": "54edae462805ffaf1c5c21614e9e179c2cc5db7963cbe7725a0fbb1db1eb13fa",
+        "story_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3"
+        ],
+        "chi_utterances": 64
+      },
+      {
+        "File_ID": "444",
+        "Group": "SLI",
+        "Age_Raw": "4;02.04",
+        "pair_id": "pair_sli444_td410",
+        "path": "chat/SLI/A/444.cha",
+        "source_member": "SLI/A/444.cha",
+        "source_pid": "11312/c-00036111-1",
+        "source_sha256": "d2481ce4b2730ad1c78f680ca567cee7acf945dcba5cc17d75537c46b66eeed4",
+        "input_sha256": "d2481ce4b2730ad1c78f680ca567cee7acf945dcba5cc17d75537c46b66eeed4",
+        "story_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3"
+        ],
+        "chi_utterances": 100
+      },
+      {
+        "File_ID": "450",
+        "Group": "TD",
+        "Age_Raw": "4;03.26",
+        "pair_id": "pair_sli480_td450",
+        "path": "chat/TD/B/450.cha",
+        "source_member": "TD/B/450.cha",
+        "source_pid": "11312/c-00036215-1",
+        "source_sha256": "f49b22b94ac393b23b811930fd8679a96e412b93df4c4b607966364793685988",
+        "input_sha256": "f49b22b94ac393b23b811930fd8679a96e412b93df4c4b607966364793685988",
+        "story_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "chi_utterances": 65
+      },
+      {
+        "File_ID": "480",
+        "Group": "SLI",
+        "Age_Raw": "4;04.05",
+        "pair_id": "pair_sli480_td450",
+        "path": "chat/SLI/B/480.cha",
+        "source_member": "SLI/B/480.cha",
+        "source_pid": "11312/c-00036118-1",
+        "source_sha256": "bdc86778499c9973245e3fe412c12dacfb57a84b9f9cf603621693b5a3e6238a",
+        "input_sha256": "bdc86778499c9973245e3fe412c12dacfb57a84b9f9cf603621693b5a3e6238a",
+        "story_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "chi_utterances": 168
+      },
+      {
+        "File_ID": "419",
+        "Group": "TD",
+        "Age_Raw": "4;05.29",
+        "pair_id": "pair_sli478_td419",
+        "path": "chat/TD/B/419.cha",
+        "source_member": "TD/B/419.cha",
+        "source_pid": "11312/c-00036202-1",
+        "source_sha256": "072d295dd7bf39239151d63401b4579bab4637992f5cfe3f41f47db8e43d5581",
+        "input_sha256": "072d295dd7bf39239151d63401b4579bab4637992f5cfe3f41f47db8e43d5581",
+        "story_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "chi_utterances": 95
+      },
+      {
+        "File_ID": "478",
+        "Group": "SLI",
+        "Age_Raw": "4;06.04",
+        "pair_id": "pair_sli478_td419",
+        "path": "chat/SLI/A/0noaudio/478.cha",
+        "source_member": "SLI/A/0noaudio/478.cha",
+        "source_pid": "11312/c-00036116-1",
+        "source_sha256": "8e03dd536fef91426f26d3710af16e6e46552bd7d7ffa37a46e27ca0a1d639a2",
+        "input_sha256": "8e03dd536fef91426f26d3710af16e6e46552bd7d7ffa37a46e27ca0a1d639a2",
+        "story_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3"
+        ],
+        "chi_utterances": 58
+      }
+    ],
+    "child_count": 6,
+    "narrative_count": 36,
+    "clinical_counts": {
+      "TD": 3,
+      "SLI": 3
+    },
+    "files": {
+      "ENNI.zip": "25e360e43ec5984ccd54e9b4679b5070a5544ff09d98829e9496622c30394dcf",
+      "chat/TD/A/410.cha": "54edae462805ffaf1c5c21614e9e179c2cc5db7963cbe7725a0fbb1db1eb13fa",
+      "chat/SLI/A/444.cha": "d2481ce4b2730ad1c78f680ca567cee7acf945dcba5cc17d75537c46b66eeed4",
+      "chat/TD/B/450.cha": "f49b22b94ac393b23b811930fd8679a96e412b93df4c4b607966364793685988",
+      "chat/SLI/B/480.cha": "bdc86778499c9973245e3fe412c12dacfb57a84b9f9cf603621693b5a3e6238a",
+      "chat/TD/B/419.cha": "072d295dd7bf39239151d63401b4579bab4637992f5cfe3f41f47db8e43d5581",
+      "chat/SLI/A/0noaudio/478.cha": "8e03dd536fef91426f26d3710af16e6e46552bd7d7ffa37a46e27ca0a1d639a2"
+    }
+  },
+  "local_checks": {
+    "input_children": 6,
+    "TD": 3,
+    "SLI": 3,
+    "narratives": 36,
+    "chi_utterances": 550,
+    "native_preparation_chatter": "6/6 passed",
+    "raw_zip_and_working_input_hashes": "passed",
+    "original_member_recovery": "6/6 passed",
+    "real_source_snapshots_duplicated": false,
+    "generator_and_segmenter_loaded": false,
+    "actual_talktag_ud_inference": "pending in Colab"
+  },
+  "regression_tests": {
+    "passed": 179,
+    "skipped": 2
+  },
+  "original_upload_compatibility": "Native six-file preparation/recovery and source-policy upgrade passed using the original checksum-verified smoke bundle",
+  "colab_talktag_ud_status": "Inference completed; UD provenance comment replaced by backend; postprocessing recovered locally",
+  "notebooks": {
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/notebooks/colab_direct_generation_pipeline.ipynb": "a6dc72d62e48402fc351ee5cd23e27e497ea953d3c89a2991d021ff75b05ede0",
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb": "c8ac525df1cd4d082e7d9fd4f7482bc98744dc5566689fedd365986640c22b87"
+  },
+  "recovery_record": "docs/reproducibility/enni_ud_provenance_recovery_20261102.json"
+}

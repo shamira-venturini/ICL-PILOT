@@ -108,74 +108,218 @@ def _surface(utterance: str) -> list[str]:
 
 
 _INLINE_ANNOTATION = re.compile(r"\[(?:\*|::?|=)\s+[^\]]*\]")
-_ANNOTATED_TOKEN = re.compile(_INLINE_ANNOTATION.pattern + r"|\w+|[^\w\s]")
+_RESTORATION_TOKEN = re.compile(
+    _INLINE_ANNOTATION.pattern + r"|\[[^\[\]]*\]"
+    r"|\(\s*(?:\.{1,3}|\d+(?:\.\d+)?)\s*\)|&[=+~*][^\s]+"
+    r"|(?:\([A-Za-z]+\))?\w+(?:(?:['‘’:@-]|\([A-Za-z]+\))\w*)*|[^\w\s]"
+)
+
+
+def _restoration_units(bodies):
+    tokens, annotations = [], []
+    for line_index, body in enumerate(bodies):
+        line_start = len(tokens)
+        for match in _RESTORATION_TOKEN.finditer(body):
+            item = {"text": match.group(), "line": line_index,
+                    "start": match.start(), "end": match.end()}
+            if _INLINE_ANNOTATION.fullmatch(match.group()):
+                annotations.append({**item, "anchor": len(tokens), "leading": len(tokens) == line_start})
+            elif match.group() not in {'"', '“', '”'}:
+                tokens.append(item)
+    return tokens, annotations
+
+
+def _is_restoration_word(token):
+    return (not token.startswith(("[", "&")) and not re.fullmatch(r"\([.\d\s]+\)", token)
+            and bool(re.search(r"\w", token)))
+
+
+def _restoration_key(token):
+    return token.lower().replace("‘", "'").replace("’", "'")
+
+
+def _align_restoration_tokens(source, raw):
+    """Return all optimal source anchors, refusing arbitrary repeated-word ties.
+
+    Text always comes from source. Only tags on unchanged, uniquely aligned
+    tokens are transferable; substituted/deleted words remain unassessed.
+    """
+    a, b = [_restoration_key(x["text"]) for x in source], [_restoration_key(x["text"]) for x in raw]
+    n, m = len(a), len(b)
+    if a == b:
+        return [{j} for j in range(m)], [], 0
+
+    def substitution(i, j):
+        if a[i] == b[j]:
+            return 0
+        return 1 if _is_restoration_word(a[i]) and _is_restoration_word(b[j]) else 3
+
+    forward = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n + 1):
+        forward[i][0] = i
+    for j in range(m + 1):
+        forward[0][j] = j
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            forward[i][j] = min(forward[i - 1][j] + 1, forward[i][j - 1] + 1,
+                                forward[i - 1][j - 1] + substitution(i - 1, j - 1))
+    backward = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n, -1, -1):
+        backward[i][m] = n - i
+    for j in range(m, -1, -1):
+        backward[n][j] = m - j
+    for i in range(n - 1, -1, -1):
+        for j in range(m - 1, -1, -1):
+            backward[i][j] = min(backward[i + 1][j] + 1, backward[i][j + 1] + 1,
+                                 backward[i + 1][j + 1] + substitution(i, j))
+    total = forward[n][m]
+    possible = [set() for _ in range(m)]
+    for j in range(m):
+        for i in range(n + 1):
+            if forward[i][j] + 1 + backward[i][j + 1] == total:
+                possible[j].add(None)
+            if i < n and forward[i][j] + substitution(i, j) + backward[i + 1][j + 1] == total:
+                possible[j].add(i)
+    # One reproducible edit path is explanatory only. Tag transfer uses every
+    # optimal path above, so tie-breaking cannot move tags between repetitions.
+    edits, i, j = [], 0, 0
+    while i < n or j < m:
+        if i < n and j < m and backward[i][j] == substitution(i, j) + backward[i + 1][j + 1]:
+            if a[i] != b[j]:
+                edits.append({"kind": "substitution_restored", "source_token": i, "raw_token": j,
+                              "source": source[i]["text"], "raw": raw[j]["text"]})
+            i, j = i + 1, j + 1
+        elif i < n and backward[i][j] == 1 + backward[i + 1][j]:
+            edits.append({"kind": "deletion_restored", "source_token": i, "source": source[i]["text"]})
+            i += 1
+        else:
+            edits.append({"kind": "model_insertion_removed", "raw_token": j, "raw": raw[j]["text"]})
+            j += 1
+    return possible, edits, total
+
+
+def _restore_source_bodies(originals, annotated):
+    source, existing_tags = _restoration_units(originals)
+    raw, raw_tags = _restoration_units(annotated)
+    possible, edits, distance = _align_restoration_tokens(source, raw)
+    confident = {j: next(iter(anchors)) for j, anchors in enumerate(possible)
+                 if len(anchors) == 1 and None not in anchors}
+    confident = {j: i for j, i in confident.items()
+                 if _restoration_key(source[i]["text"]) == _restoration_key(raw[j]["text"])}
+    source_annotations, new_annotations, discarded = {}, {}, []
+    for tag in existing_tags:
+        source_annotations.setdefault((tag["line"], tag["anchor"]), []).append(tag)
+    for tag in raw_tags:
+        previous = tag["anchor"] - 1
+        if tag["leading"] or previous not in confident:
+            discarded.append({"tag": tag["text"], "raw_utterance": tag["line"] + 1,
+                              "raw_anchor": tag["anchor"], "reason": "changed_inserted_or_ambiguous_anchor"})
+            continue
+        index = confident[previous]
+        key = (source[index]["line"], index + 1)
+        new_annotations.setdefault(key, []).append(tag["text"])
+    missing_existing = Counter()
+    for key, existing in source_annotations.items():
+        available = Counter(new_annotations.get(key, []))
+        for tag in existing:
+            if available[tag["text"]]:
+                available[tag["text"]] -= 1
+            else:
+                missing_existing[tag["text"]] += 1
+    insertions, retained = {}, 0
+    for key, tags in sorted(new_annotations.items()):
+        line, anchor = key
+        existing = source_annotations.get(key, [])
+        index = 0
+        for tag in tags:
+            if index < len(existing) and tag == existing[index]["text"]:
+                index += 1
+        if index != len(existing):
+            discarded.extend({"tag": tag, "source_utterance": line + 1,
+                              "reason": "existing_source_annotations_take_precedence"}
+                             for tag in tags if tag not in {x["text"] for x in existing})
+            continue
+        index = 0
+        for tag in tags:
+            if index < len(existing) and tag == existing[index]["text"]:
+                index += 1
+                continue
+            if missing_existing[tag]:
+                missing_existing[tag] -= 1
+                discarded.append({"tag": tag, "source_utterance": line + 1,
+                                  "reason": "existing_source_annotation_moved"})
+                continue
+            if index < len(existing):
+                position, addition = existing[index]["start"], tag + " "
+            elif existing:
+                position, addition = existing[-1]["end"], " " + tag
+            else:
+                position, addition = source[anchor - 1]["end"], " " + tag
+            insertions.setdefault(line, {}).setdefault(position, []).append(addition)
+            retained += 1
+    restored = []
+    for line, body in enumerate(originals):
+        parts, cursor = [], 0
+        for position, additions in sorted(insertions.get(line, {}).items()):
+            parts.extend([body[cursor:position], "".join(additions)])
+            cursor = position
+        parts.append(body[cursor:])
+        restored.append("".join(parts))
+    assessed = set(confident.values())
+    unassessed = [{"source_utterance": token["line"] + 1, "token": token["text"],
+                   "start": token["start"], "end": token["end"]}
+                  for i, token in enumerate(source) if _is_restoration_word(token["text"]) and i not in assessed]
+    word_edits = any(_is_restoration_word(edit.get("source", ""))
+                     or _is_restoration_word(edit.get("raw", ""))
+                     or edit.get("raw", "").startswith(("[*", "[:", "[=")) for edit in edits)
+    return restored, {"edit_distance": distance, "example_edit_path": edits,
+                      "model_word_edits": word_edits,
+                      "annotations_transferred": retained, "unmapped_annotations": discarded,
+                      "unassessed_source_words": unassessed,
+                      "annotation_coverage": "partial" if word_edits or unassessed or discarded else "complete"}
 
 
 def _restore_utterance_surface(original: str, annotated: str) -> str:
-    """Keep annotation anchors while restoring source case and token spacing."""
-    original_tokens, original_annotations = [], {}
-    for match in _ANNOTATED_TOKEN.finditer(original):
-        if _INLINE_ANNOTATION.fullmatch(match.group()):
-            original_annotations.setdefault(len(original_tokens), []).append(match)
-        else:
-            original_tokens.append(match)
-    annotated_tokens, annotations = [], {}
-    for match in _ANNOTATED_TOKEN.finditer(annotated):
-        if _INLINE_ANNOTATION.fullmatch(match.group()):
-            annotations.setdefault(len(annotated_tokens), []).append(match.group())
-        else:
-            annotated_tokens.append(match.group())
-    if ([match.group().lower() for match in original_tokens]
-            != [token.lower() for token in annotated_tokens]):
-        raise ValueError("Surface words, punctuation or their order changed beyond capitalization")
-    if not original_tokens:
-        if original_annotations or annotations:
-            raise ValueError("Cannot anchor annotations to an empty utterance")
-        return original
-    # Insert only new tags into the exact source string. Existing annotations
-    # must form an unchanged subsequence at each surface-token boundary.
-    insertions = {}
-    for anchor in sorted(set(annotations) | set(original_annotations)):
-        existing, index = original_annotations.get(anchor, []), 0
-        for tag in annotations.get(anchor, []):
-            if index < len(existing) and tag == existing[index].group():
-                index += 1
-                continue
-            if index < len(existing):
-                position, addition = existing[index].start(), tag + " "
-            elif existing:
-                position, addition = existing[-1].end(), " " + tag
-            elif anchor:
-                position, addition = original_tokens[anchor - 1].end(), " " + tag
-            else:
-                position, addition = original_tokens[0].start(), tag + " "
-            insertions.setdefault(position, []).append(addition)
-        if index != len(existing):
-            raise ValueError("An existing source annotation was removed, changed or moved")
-    parts, cursor = [], 0
-    for position, additions in sorted(insertions.items()):
-        parts.extend([original[cursor:position], "".join(additions)])
-        cursor = position
-    parts.append(original[cursor:])
-    return "".join(parts)
+    """Always restore source text; copy only uniquely anchored annotation tags."""
+    restored, _ = _restore_source_bodies([original], [annotated])
+    return restored[0]
 
 
-def postprocess_annotated_chat(original: str, annotated: str, *, target: str = "*CHI") -> str:
-    """Restore source orthography in a derived copy; never repair grammar."""
-    source_lines = [line for line in _unfold_target(original, target).splitlines()
-                    if line.startswith(target + ":")]
-    output_lines = _unfold_target(annotated, target).splitlines()
-    if len(source_lines) != sum(line.startswith(target + ":") for line in output_lines):
-        raise ValueError("Target utterance count changed")
-    sources, restored = iter(source_lines), []
-    for line in output_lines:
-        if line.startswith(target + ":"):
-            source = next(sources)
-            body = _restore_utterance_surface(source.split(":", 1)[1], line.split(":", 1)[1])
-            restored.append(target + ":" + body)
-        else:
-            restored.append(line)  # Headers and dependent tiers remain subject to strict QC.
-    return "\n".join(restored) + "\n"
+def postprocess_annotated_chat(original: str, annotated: str, *, target: str = "*CHI", audit=None) -> str:
+    """Rebuild from source, automatically undoing annotator edits and deletions."""
+    source_lines = _unfold_target(original, target).splitlines()
+    indices = [i for i, line in enumerate(source_lines) if line.startswith(target + ":")]
+    originals = [source_lines[i].split(":", 1)[1] for i in indices]
+    try:
+        raw_lines = _unfold_target(annotated, target).splitlines()
+    except ValueError:
+        raw_lines = annotated.splitlines()
+    raw = [line.split(":", 1)[1] for line in raw_lines if line.startswith(target + ":")]
+    reports = []
+    if len(originals) == len(raw):
+        bodies = []
+        for utterance, (before, after) in enumerate(zip(originals, raw), 1):
+            restored, report = _restore_source_bodies([before], [after])
+            bodies.extend(restored)
+            for field in ("unmapped_annotations", "unassessed_source_words"):
+                for item in report[field]:
+                    if "source_utterance" in item:
+                        item["source_utterance"] = utterance
+                    if "raw_utterance" in item:
+                        item["raw_utterance"] = utterance
+            reports.append({"source_utterance": utterance, **report})
+    else:
+        bodies, report = _restore_source_bodies(originals, raw)
+        reports.append({"source_utterance": "global_boundary_recovery", **report})
+    for index, body in zip(indices, bodies):
+        source_lines[index] = target + ":" + body
+    if audit is not None:
+        audit.update(source_utterances=len(originals), raw_utterances=len(raw),
+                     boundaries_restored=len(originals) != len(raw), utterances=reports,
+                     annotation_coverage="partial" if any(r["annotation_coverage"] == "partial" for r in reports) else "complete",
+                     raw_non_target_content_ignored=[line for line in raw_lines if not line.startswith(target + ":")]
+                         != [line for line in source_lines if not line.startswith(target + ":")])
+    return "\n".join(source_lines) + "\n"
 
 
 def _check_and_postprocess(out: Path, manifest: dict, raw: Path, annotated: Path) -> dict:
@@ -201,15 +345,17 @@ def _check_and_postprocess(out: Path, manifest: dict, raw: Path, annotated: Path
             continue
         raw_outputs.append({"relative_path": relative, "sha256": sha256_file(raw_path)})
         before, raw_text = snapshot.read_text(), raw_path.read_text()
+        restoration = {}
         try:
-            after = postprocess_annotated_chat(before, raw_text, target=config["target_speaker"])
+            after = postprocess_annotated_chat(before, raw_text, target=config["target_speaker"], audit=restoration)
         except ValueError as error:
             issues.append({"file": relative, "issue": "target_text_or_boundaries_changed", "detail": str(error)})
             continue  # Retain raw output; do not produce a restored file for this case.
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("x", encoding="utf-8") as handle:
             handle.write(after)
-        records.append({"file": relative, "formatting_restored": after != raw_text})
+        records.append({"file": relative, "formatting_restored": after != raw_text,
+                        "source_restoration": restoration})
         original_tiers = [_surface(x) for x in _target_utterances(before, config["target_speaker"])]
         new_tiers = [_surface(x) for x in _target_utterances(after, config["target_speaker"])]
         if original_tiers != new_tiers:
@@ -226,7 +372,8 @@ def _check_and_postprocess(out: Path, manifest: dict, raw: Path, annotated: Path
             issues.append({"file": relative, "issue": "text_fingerprint_changed", "detail": str(error)})
             fingerprint = text_fingerprint(after)
         outputs.append({"relative_path": relative, "sha256": sha256_file(path),
-                        "text_fingerprint": fingerprint})
+                        "text_fingerprint": fingerprint,
+                        "annotation_coverage": restoration["annotation_coverage"]})
     expected = {item["relative_path"] for item in inventory}
     unexpected = {p.relative_to(raw).as_posix() for p in raw.rglob("*.cha")} - expected
     for path in sorted(unexpected):
@@ -243,7 +390,11 @@ def _check_and_postprocess(out: Path, manifest: dict, raw: Path, annotated: Path
             "expected_target_utterances": total, "reported_target_utterances": report.get("target_lines"),
             "raw_output_directory": raw.name, "annotated_output_directory": annotated.name,
             "tool_report_sha256": sha256_file(report_path) if report_path.is_file() else None,
-            "postprocessing": {"method": "restore_source_case_and_spacing", "version": 1, "files": records},
+            "postprocessing": {"method": "source_authoritative_automatic_restoration", "version": 3,
+                               "word_changes_and_deletions": "automatically_restored_from_source",
+                               "unmapped_tags": "recorded_without_arbitrary_assignment",
+                               "partial_annotation_files": sum(item["annotation_coverage"] == "partial" for item in outputs),
+                               "files": records},
             "qc_comparison": "case_sensitive_surface_tokens_and_utterance_boundaries"}
 
 

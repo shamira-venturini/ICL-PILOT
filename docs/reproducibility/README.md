@@ -18,6 +18,18 @@ These records describe the definitive study and its source integrity.
 | gillam_source_inventory.csv | Source session IDs/PIDs, normalized child IDs, literal ages/sex, groups and transcript hashes for the full Gillam download. |
 | annotation_retention.json | Lean-retention software checks and actual ZIP-backed recovery/reproduction verification; no full corpus annotation. |
 | original_archive_retention.json | Verified removal inventory for redundant expanded originals; canonical ZIPs remain unchanged. |
+| qwen_smoke_apostrophe_fix.json | Genuine 24-story Colab smoke failure, audited CHAT apostrophe fix and fresh native validation of all 24 files using recorded boundary actions; full annotation remains pending. |
+| talktag_quote_restoration.json | Actual saved TalkTag diff, exact restoration of all 16 affected utterances, native CHAT checks and regression tests; Colab reprocessing/UD completion remains pending. |
+| automatic_text_restoration.json | Current automatic source-restoration policy, substitution/deletion/insertion/repetition cases, original-text fingerprints and native Chatter checks; unavailable tag anchors are audited. |
+| ud_resource_pins.json | Colab UD setup checksum failure, exact historical catalog/model revisions, unchanged checksums, startup-refresh and original-upload compatibility checks. |
+| qwen_smoke_review_20261102.md | Actual completed Colab generation-to-export smoke run; independent local integrity/fingerprint checks, generation flags and concrete linguistic annotation limitations. |
+| real_annotation_pilot.json | Frozen six-child ENNI annotation-pilot selection, upload checksums, native preparation/recovery checks and execution status. |
+| enni_ud_provenance_recovery_20261102.json | Actual six-child Colab UD version-comment replacement, unchanged source main tiers, local recovery without inference and fresh Chatter checks. |
+| annotation_comparison_20261102.md | Preliminary AI-assisted review of 144 real/synthetic utterances, case-level findings, limits on reliability claims and a separate syntax-reader compatibility issue. |
+| syntax_reader_clitics_20261102.json | Corrected clitic-to-dependency alignment, 12 regression checks and before/after verification on 30 saved pilot files; all 100 falsely skipped utterances recovered without changing annotations. |
+| framework_notebook_20261102.json | Independent evaluation blocks in both notebooks, isolated runtime, explicit input assembly, persistent/resumable runs, original-upload support and 111 passing checks; full model-based scientific execution remains pending. |
+| framework_actual_data_20261102.md / .json | Actual Qwen-pilot plus real ENNI/Gillam execution, dependency/schema fixes, five one-update BERT CPU fits, GPT-2/MiniLM, ratio reuse, summaries and verified export; 121 regression checks passed. |
+| kideval_notebook_20261102.md / .json | Independent KIDEVAL English UD blocks in both notebooks; native extraction/export from six real children and four synthetic bundles, preserved sources and explicit missingness; 40 focused checks passed. |
 
 Original ZIPs remain under data/raw/enni/2026-10-28/ and data/raw/gillam/2026-10-28/.
 Expanded originals are redundant once member checksums and ZIP-backed readers

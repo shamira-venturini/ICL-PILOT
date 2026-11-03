@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "policy": "enni-six-story-kideval-ud-v1",
+  "archive_url": "https://dali.talkbank.org/clan/unix-clan.zip",
+  "archive_sha256": "a9dabc78eb74b153e5e459b92592d4a310dda54af11cf4de71745c7bd0697706",
+  "archive_path": "data/inputs/tools/unix-clan_2026-09-21.zip",
+  "version": "V 21-Sep-2026 11:00",
+  "language": "engu",
+  "speaker": "*CHI",
+  "story_ids": ["A1", "A2", "A3", "B1", "B2", "B3"],
+  "normative_comparisons": false,
+  "ipsyn": false,
+  "dss_category_tables": true,
+  "incomplete_bundles": "retain_inventory_row_with_missing_features",
+  "word_error_columns": "raw_tool_report_only; custom error features exclude preposition codes",
+  "dss_missing_error_annotation": "preserve_native_report; analysis_score_missing_when_coverage_not_complete"
+}

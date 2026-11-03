@@ -116,6 +116,29 @@ def test_cohorts_and_stages_use_one_predictor_call_and_exact_parent_metadata(tmp
     assert [one.read_bytes(), two.read_bytes()] == before
 
 
+def test_chat_apostrophe_glyph_conversion_is_audited_before_segmentation(tmp_path):
+    text = "they’re playing and he ‘goed’ and they’re happy."
+    source = saved_csv(tmp_path / "source.csv", text=text)
+    before = source.read_bytes()
+    stub = StubSegmenter()
+    roots = convert_csv_inputs({"one": source}, tmp_path / "run", roster_csv=None, segmenter=stub)
+    expected = text.replace("‘", "'").replace("’", "'")
+    assert stub.calls == [[expected, expected]]
+    with (roots["one"] / "chat_manifest.csv").open() as handle:
+        entries = list(csv.DictReader(handle))
+    for entry in entries:
+        changes = json.loads(entry["formatting_changes"])
+        assert changes == [
+            {"kind": "ascii_apostrophe", "before": char, "after": "'"}
+            for char in text if char in "‘’"
+        ]
+        assert entry["source_text_sha256"] == hashlib.sha256(text.encode()).hexdigest()
+        chat = Path(entry["output_path"]).read_text()
+        assert "they're playing and he 'goed' and they're happy ." in chat
+        assert "‘" not in chat and "’" not in chat
+    assert source.read_bytes() == before
+
+
 def test_late_invalid_csv_stops_before_inference_or_any_export(tmp_path):
     one, two = saved_csv(tmp_path / "one.csv"), saved_csv(tmp_path / "two.csv", "2", text="")
     stub = StubSegmenter()

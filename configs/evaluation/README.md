@@ -1,6 +1,9 @@
 # Framework evaluation inputs and protocol
 
-inputs.json requires two explicit files:
+The main notebook's independent section 6 accepts explicit saved generation CSVs
+or a prebuilt text export, plus Gillam. See
+[the main-notebook guide](../../docs/guides/framework_notebook.md).
+The standalone synthtexteval_demo.ipynb uses inputs.json and requires two explicit files:
 
 - text_records_csv: definitive ENNI reference stories and the selected three-model synthetic outputs.
 - gillam_external_text_csv: independently selected external Gillam stories.

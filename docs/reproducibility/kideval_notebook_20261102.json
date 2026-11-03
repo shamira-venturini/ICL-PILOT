@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "status": "software_check_complete",
+  "scientific_results": false,
+  "notebook_hashes": {
+    "notebooks/colab_direct_generation_pipeline.ipynb": "f2c0953232ff868e41276acb646ba9de3fd9e6bf0441b566d02a6b6fea1dc0aa",
+    "ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb": "151733845c05cbca3e7f4cdbeb8459d47f550611edc959fa3785ff8abc21551f"
+  },
+  "support_package": {
+    "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_domain_features_support_20261102.zip",
+    "sha256": "e3348fbd99b5289b4366642b96f2197803c7063ec83654a5eed71421b4555414",
+    "bytes": 21757236,
+    "files": 12
+  },
+  "source_hashes": {
+    "src/icl_pilot/features/__init__.py": "e4805901d5de8cf2e4e66d78950a11fc69d6b04980974a3f64c27f1170db5910",
+    "src/icl_pilot/features/kideval.py": "93af58c27e3b495ae8dec7f4a293cb5fc47aa244519d60347e89d66d25ea7458",
+    "src/icl_pilot/features/kideval_runtime.py": "2610082c1b29b719f44ac3fe4bbb0d170e98f73c5fe2333d15d15d1dcba08112",
+    "src/icl_pilot/features/dss_features.py": "5bf2dc9646cb59ed07a0c306ae3bf4479467644af23fddca5129e80bd26d0b0e",
+    "src/icl_pilot/features/spreadsheetml_measures.py": "d1f0068cb7779c3805a991801b1eba5439835a9dfab63c0955a53c98f1e07bff",
+    "src/icl_pilot/chat/enni_metadata.py": "d44d81eca5033c5ccf8a3fde7e9dc2993281f1cc7400a8e4364b88cb3aebf2c4",
+    "configs/features/kideval.json": "77652639091d4a2d0ff058e4b5531dfea38b6dc44ba7190df48ca985ed79792e",
+    "configs/generation/experiment.json": "60ef9f9426e49acc2d7062e19620dabfbb6e0dd45826dd98563ac204ef128fdb",
+    "configs/generation/models.json": "acb51ee827d4406815b4588d48f3641263f99766b4c0b7297876dfe699363b6e",
+    "configs/generation/master_frozen_roster_enni_2026-10-28.csv": "b3add45a9918d9a29b8a811b2b4e4fb43d131e2b47be0af6dbb6825b3736b5d7",
+    "configs/generation/inputs/enni_participants_2026-10-28.csv": "3f90fbba85c1bdd27dc0277c50eaf2d7a6f6ab633aaad76c7849054df72707f0",
+    "data/inputs/tools/unix-clan_2026-09-21.zip": "a9dabc78eb74b153e5e459b92592d4a310dda54af11cf4de71745c7bd0697706"
+  },
+  "original_smoke_upload": {
+    "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_bundle.zip",
+    "sha256": "33ab0065972db1ef9e8a0b85c8f1584a7446440cc9b6156a33386686c622e980",
+    "unchanged": true
+  },
+  "native_execution": {
+    "platform": "macOS arm64",
+    "linux_colab_build_executed": false,
+    "version": "V 21-Sep-2026 11:00",
+    "archive_sha256": "a9dabc78eb74b153e5e459b92592d4a310dda54af11cf4de71745c7bd0697706",
+    "commands": [
+      [
+        "/private/tmp/icl_kideval_20261102/runtime/source/unix-clan/unix/bin/kideval",
+        "+0",
+        "+lengu",
+        "+t*CHI",
+        "+L/private/tmp/icl_kideval_20261102/runtime/source/unix-clan/lib",
+        "unit_*.cha"
+      ],
+      [
+        "/private/tmp/icl_kideval_20261102/runtime/source/unix-clan/unix/bin/dss",
+        "+0",
+        "+lengu",
+        "+t*CHI",
+        "+L/private/tmp/icl_kideval_20261102/runtime/source/unix-clan/lib",
+        "unit_*.cha"
+      ]
+    ],
+    "feature_manifest": "data/generated/smoke_diagnostics/2026-11-02/kideval_notebook_actual_v5/feature_manifest.json",
+    "feature_manifest_sha256": "716c9166c6466a43f25a5496a4056500f4eadc73db74503ac8e4f61a5497ba17",
+    "inputs": {
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/recovery_manifest.json": "6bf34c1f0d4761c2699534f85816ada4c0c748b15cf9d09c753edc35bcb384b6",
+      "/Users/shamiraventurini/Downloads/ICL-PILOT_ENNI_failed_run.zip": "b0dc622b27a1d7801325f3b97a9d9305a93a53cda1885ece0cfd0242f7b0de0d",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni/SLI/A/0noaudio/478.cha": "7170869fee56f02056e898d956b8e44d5a1873c41e1d6fb3bbcd4800d3a474da",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni/SLI/A/444.cha": "71baf34b8d7c7434d88950c0ab7d91d329e742cfab0e11ba799f06cd638fcd34",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni/SLI/B/480.cha": "34d0268824d38c871bb242e7f3fc3c9cea030a8327f1fc1726f9b656ee037720",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni/TD/A/410.cha": "8f1eae1b315547a844eba914938b6b85bd40d85562429bd3fadd53034c0c0815",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni/TD/B/419.cha": "2ecd00e0a0261f7d471518cc3b1b1d5bc337ba661dd6e5dcd8ff6159875a3cf6",
+      "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni/TD/B/450.cha": "e44cff2bccc15c687a5d993415180a1d2e11ca03af7bdeaa3742d4a798d24bfc",
+      "/Users/shamiraventurini/Downloads/enni_smoke_qwen3_8b_20261102T094720088747Z_20261102T100143090130Z.zip": "a54acbef2c7f5ed39905446eaedd014bd11a677a37aed54d71b5254b474b6dd0"
+    },
+    "source_files": 30,
+    "unit_counts": {
+      "synthetic": 4,
+      "real": 6
+    },
+    "canonical_stories": 60,
+    "rows": 10,
+    "complete_units": 10,
+    "partial_error_coverage_units": 3,
+    "selected_child_utterances": 814,
+    "outside_canonical_child_utterances": 34,
+    "dss_native_eligible": 5,
+    "dss_analysis_available": 3,
+    "ipsyn_computed": false,
+    "source_hashes_preserved": true,
+    "all_rows_test_only": true,
+    "export": "data/generated/smoke_diagnostics/2026-11-02/kideval_notebook_actual_v5/exports/kideval_notebook_actual_v5_20261102T154913095229Z.zip",
+    "export_sha256": "27d353858b03eb412d3aada7dffdd2b21201b7b8c8d9e09158d44a2a873453d5",
+    "export_member_hashes_verified": true
+  },
+  "tests": {
+    "passed": 40,
+    "files": [
+      "tests/test_kideval.py",
+      "tests/test_framework_notebook.py",
+      "tests/test_syntax_features.py"
+    ]
+  },
+  "remaining": [
+    "Full-study extraction",
+    "Custom error and past-opportunity measures",
+    "R statistical revisions"
+  ]
+}

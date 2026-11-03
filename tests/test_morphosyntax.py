@@ -115,6 +115,33 @@ def test_nonlexical_utterances_have_explicit_exclusion_instead_of_missing_lexica
         ud.check_morphosyntax_output(CHAT,CHAT)
 
 
+def test_prior_batchalign_stamp_is_restored_without_changing_source_headers_or_speech():
+    previous = "@Comment:\tbatchalign3 8e6fa18 | morphosyntax: stanza:1.12.2:noretok:native-mwt9 | 2026-09-09T12:23:51Z\n"
+    source = CHAT.replace('@Types:', previous + '@Types:')
+    raw = source.replace(previous, '').replace('home .\n', 'home .\n' + MOR + GRA)
+    raw = raw.replace('@Types:', PROVENANCE + '@Types:')
+    qc = ud.check_morphosyntax_output(source, raw)
+    assert qc['restored_source_provenance'] == [previous.split(':\t', 1)[1].strip()]
+    assert qc['native_added_provenance'] == [PROVENANCE.split(':\t', 1)[1].strip()]
+    final = ud.merge_morphosyntax_tiers(source, raw)
+    assert previous in final and PROVENANCE not in final
+    assert ud._protected(final) == ud._protected(source)
+    assert ud.check_morphosyntax_output(source, final)['restored_source_provenance'] == []
+    with pytest.raises(ValueError, match='changed headers'):
+        ud.check_morphosyntax_output(source, raw.replace('home .', 'away .'))
+
+
+@pytest.mark.parametrize('comment', ['keep this source comment',
+    'batchalign3 8e6fa18 | a different kind of note',
+    'batchalign3 8e6fa18 | morphosyntax: stanza:1.12.2:noretok:native-mwt9 | invalid-date'])
+def test_arbitrary_source_comment_deletions_still_fail(comment):
+    stamp = '@Comment:\t' + comment + '\n'
+    source = CHAT.replace('@Types:', stamp + '@Types:')
+    raw = CHAT.replace('home .\n', 'home .\n' + MOR + GRA)
+    with pytest.raises(ValueError, match='changed headers'):
+        ud.check_morphosyntax_output(source, raw)
+
+
 def test_configuration_refuses_retokenization_and_model_download_never_overwrites_bad_cache(tmp_path):
     config=json.loads((ROOT/'configs/annotation/batchalign.json').read_text())
     config['retokenize']=True

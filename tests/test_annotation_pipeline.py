@@ -13,7 +13,7 @@ import pytest
 
 from icl_pilot.chat.annotation import (annotate_chat_directory, install_annotation_runtime, load_annotation_config,
                                   postprocess_annotated_chat, postprocess_annotation_run, sha256_file, _surface)
-from icl_pilot.pipeline import annotation_inputs, begin_pipeline, convert_csv_inputs, package_run, stage_flags, sync_run
+from icl_pilot.pipeline import annotation_inputs, begin_pipeline, convert_csv_inputs, package_run, record_stage, stage_flags, sync_run
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -112,6 +112,10 @@ def fake_tool(monkeypatch, *, mode="normal", limit=0):
                 annotated = "\n".join(
                     line.replace("*CHI:\the", "*CHI:\tHe").replace("home .", "home.")
                     if line.startswith("*CHI:") else line for line in annotated.splitlines()) + "\n"
+            if mode == "quote_loss":
+                annotated = "\n".join(
+                    line.replace("“", "").replace("”", "") if line.startswith("*CHI:") else line
+                    for line in annotated.splitlines()) + "\n"
             if mode == "text_drift":
                 annotated = annotated.replace("home", "away")
             if mode == "tier_loss":
@@ -160,6 +164,67 @@ def test_postprocessing_restores_user_reported_case_and_spacing_without_changing
     assert _surface("Me .") != _surface("me .")  # Final QC remains case sensitive.
 
 
+@pytest.mark.parametrize("raw_body", ["no running.", '"no running".', "“no running.”"])
+def test_postprocessing_restores_source_double_quotes_without_changing_words(raw_body):
+    source = '@Begin\n*CHI:\tand there\'s a sign that says .\n*CHI:\t“no running” .\n@End\n'
+    raw = '@Begin\n*CHI:\tand there\'s a sign that says.\n*CHI:\t' + raw_body + '\n@End\n'
+    assert postprocess_annotated_chat(source, raw) == source
+
+
+def test_quote_restoration_keeps_existing_and_new_word_annotation_anchors():
+    source = '@Begin\n*CHI:\t“he goed [* m:over]” .\n@End\n'
+    raw = '@Begin\n*CHI:\tHe [* s:r:gc:pro] goed [* m:over].\n@End\n'
+    expected = source.replace('he goed', 'he [* s:r:gc:pro] goed')
+    assert postprocess_annotated_chat(source, raw) == expected
+
+
+@pytest.mark.parametrize("raw_body", ["no running?", "no run.", "no no running.", "running no.", "no [/] running."])
+def test_source_restoration_undoes_punctuation_word_and_code_changes(raw_body):
+    source = '@Begin\n*CHI:\t“no running” .\n@End\n'
+    audit = {}
+    result = postprocess_annotated_chat(source, '@Begin\n*CHI:\t' + raw_body + '\n@End\n', audit=audit)
+    assert result == source
+    assert audit["utterances"][0]["edit_distance"] > 0
+
+
+def test_notebook_rechecks_failed_quote_qc_without_repeating_talktag(tmp_path, config, monkeypatch):
+    from icl_pilot.chat import annotation
+    from test_notebook_chat_formatting import notebook_cell
+    source = tmp_path / "source"
+    source.mkdir()
+    source_text = CHAT.replace("he go\n\thome", "“he go home”")
+    (source / "sample.cha").write_text(source_text)
+    run = begin_pipeline(tmp_path / "run", mode="from_chat", csvs={}, chat_dirs={"source": source}, smoke_test=True)
+    calls = fake_tool(monkeypatch, mode="quote_loss")
+    restored = annotation.postprocess_annotated_chat
+    def old_quote_check(original, raw, **kwargs):
+        if "“" in original and "“" not in raw:
+            raise ValueError("Surface words, punctuation or their order changed beyond capitalization")
+        return restored(original, raw, **kwargs)
+    with monkeypatch.context() as old:
+        old.setattr(annotation, "postprocess_annotated_chat", old_quote_check)
+        with pytest.raises(RuntimeError, match="target_text_or_boundaries_changed"):
+            annotate_chat_directory(source, run / "annotation", config=config, python="fake_python",
+                                    runtime={"source_commit": config["revision"]})
+    original_manifest = run / "annotation/annotation_manifest.json"
+    original_bytes = original_manifest.read_bytes()
+    raw_file = run / "annotation/raw_talktag/sample.cha"
+    raw_bytes = raw_file.read_bytes()
+    namespace = {"RUN_ANNOTATION": True, "RUN_OUTPUT_DIR": run, "annotation_settings": config,
+                 "record_stage": record_stage, "persist_run": lambda: None, "json": json}
+    exec(notebook_cell("annotation-run"), namespace)
+    assert len(calls) == 1  # The recovery cell did not invoke the annotation model.
+    reviewed = namespace["annotation_manifests"][0]
+    result = json.loads(reviewed.read_text())
+    assert result["status"] == "annotation_complete" and result["qc_issues"] == []
+    assert result["postprocessing"]["version"] == 3
+    output = reviewed.parent / result["annotated_output_directory"] / "sample.cha"
+    assert "“he go [* m:03s:a] home” ." in output.read_text()
+    assert raw_file.read_bytes() == raw_bytes and "“" not in raw_file.read_text()
+    assert original_manifest.read_bytes() == original_bytes
+    assert (source / "sample.cha").read_text() == source_text
+
+
 def test_postprocessing_keeps_annotation_anchors_contractions_repetition_and_error_forms():
     source = "@Begin\n*CHI:\tHe he don't goed .\n%mor:\tunchanged\n@End\n"
     raw = "@Begin\n*CHI:\the he [* s:r:gc:pro] don't [:: doesn't] [* m:03s:a] goed [* m:over].\n%mor:\tunchanged\n@End\n"
@@ -182,10 +247,9 @@ def test_postprocessing_preserves_existing_annotations_and_their_exact_source_sp
     "@Begin\n*CHI:\the [* m:over] goed .\n@End\n",
     "@Begin\n*CHI:\the goed [* m:over] [:: went] .\n@End\n",
 ])
-def test_postprocessing_rejects_loss_or_change_of_existing_source_annotations(changed):
+def test_postprocessing_restores_existing_source_annotations_when_talktag_changes_them(changed):
     source = "@Begin\n*CHI:\the goed [:: went] [* m:over] .\n@End\n"
-    with pytest.raises(ValueError, match="existing source annotation"):
-        postprocess_annotated_chat(source, changed)
+    assert postprocess_annotated_chat(source, changed) == source
 
 
 @pytest.mark.parametrize("changed", [
@@ -196,9 +260,12 @@ def test_postprocessing_rejects_loss_or_change_of_existing_source_annotations(ch
     POSTPROCESS_RAW.replace("pool.", "pool?"),
     POSTPROCESS_RAW.replace("and a monkey", "and .\n*CHI:\ta monkey"),
 ])
-def test_postprocessing_rejects_word_punctuation_or_utterance_changes(changed):
-    with pytest.raises(ValueError):
-        postprocess_annotated_chat(POSTPROCESS_SOURCE, changed)
+def test_postprocessing_restores_source_after_word_punctuation_or_boundary_changes(changed):
+    from icl_pilot.chat.preservation import require_text_preserved, text_fingerprint
+    audit = {}
+    result = postprocess_annotated_chat(POSTPROCESS_SOURCE, changed, audit=audit)
+    require_text_preserved(text_fingerprint(POSTPROCESS_SOURCE), result)
+    assert audit["source_utterances"] == 2
 
 
 def test_annotation_preserves_raw_output_then_applies_strict_qc_to_restored_copy(tmp_path, config, monkeypatch):
@@ -262,7 +329,6 @@ def test_postprocessing_rejects_a_changed_recorded_tool_report(tmp_path, config,
 
 
 @pytest.mark.parametrize("mode,issue", [
-    ("text_drift", "target_text_or_boundaries_changed"), ("tier_loss", "non_target_content_changed"),
     ("missing_output", "missing_output"), ("extra_output", "unexpected_output"),
     ("incomplete_coverage", "incomplete_target_coverage"),
 ])

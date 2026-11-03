@@ -1,0 +1,30 @@
+{
+  "bundle": "ICL-PILOT_smoke_bundle.zip",
+  "sha256": "33ab0065972db1ef9e8a0b85c8f1584a7446440cc9b6156a33386686c622e980",
+  "bytes": 997224,
+  "snapshot_files": 109,
+  "notebook": "ICL-PILOT_smoke_test.ipynb",
+  "models_executed": false,
+  "model": "qwen3_8b",
+  "selected_jobs": 12,
+  "generated_stories_per_model": 24,
+  "active_notebook_sha256": "151733845c05cbca3e7f4cdbeb8459d47f550611edc959fa3785ff8abc21551f",
+  "notebook_update": "Real ENNI pilot; independent framework evaluation and KIDEVAL English UD extraction",
+  "real_enni_pilot_inputs": {
+    "path": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/ICL-PILOT-smoke-test-20261030/ICL-PILOT_ENNI_annotation_pilot_inputs.zip",
+    "sha256": "e78db294df80707ff974d801d74c083d64561394f06136daaff32e516fc80a62",
+    "bytes": 2389075,
+    "children": 6,
+    "clinical_counts": {
+      "TD": 3,
+      "SLI": 3
+    },
+    "narratives": 36
+  },
+  "domain_feature_support": {
+    "path": "ICL-PILOT-smoke-test-20261030/ICL-PILOT_domain_features_support_20261102.zip",
+    "sha256": "e3348fbd99b5289b4366642b96f2197803c7063ec83654a5eed71421b4555414",
+    "bytes": 21757236,
+    "files": 12
+  }
+}

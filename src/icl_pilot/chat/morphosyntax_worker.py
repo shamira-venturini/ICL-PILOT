@@ -18,6 +18,17 @@ def file_digest(path, algorithm="sha256"):
     return digest.hexdigest()
 
 
+def pin_catalog_refresh(stanza, config):
+    """Keep Batchalign's startup refresh on the reviewed catalog revision."""
+    common = stanza.resources.common
+    resources = config["resources"]
+    if common.DEFAULT_RESOURCES_VERSION != resources["version"]:
+        raise ValueError("Stanza catalog refresh version differs from the pinned configuration")
+    # The hash-checked Batchalign backend reads this constant at startup.
+    # Its normal refresh may run, but it can only retrieve the same catalog.
+    common.DEFAULT_RESOURCES_URL = resources["url"].rsplit("/", 1)[0]
+
+
 def run_worker(request_path, response_path):
     request = json.loads(request_path.read_text())
     config = request["config"]
@@ -64,6 +75,8 @@ def run_worker(request_path, response_path):
                                         "depparse": "combined_charlm"})
             return settings
 
+    import stanza
+    pin_catalog_refresh(stanza, config)
     backend = EnglishUDBackend(lang="en", retokenize=False, device=config["device"])
     if model_inventory() != models:
         raise ValueError("Stanza resources changed while initializing annotation")
@@ -100,7 +113,8 @@ def run_worker(request_path, response_path):
                "model_files": models, "resources_sha256": config["resources"]["sha256"],
                "retokenize": False, "resegment": False, "device": config["device"],
                "workers": config["workers"], "cache_policy": "Bypass", "torch_threads": torch.get_num_threads(),
-               "adapter": "EnglishUDBackend._lang_config: explicit UD-only processors; downloads disabled"}
+               "catalog_refresh_url": config["resources"]["url"],
+               "adapter": "EnglishUDBackend._lang_config: explicit UD-only processors; downloads disabled; startup catalog refresh pinned"}
     response_path.write_text(json.dumps({"schema_version": 1, "completed_files": completed, "runtime": runtime,
                                          "request_sha256": file_digest(request_path)}, indent=2) + "\n")
 

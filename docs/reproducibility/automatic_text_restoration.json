@@ -1,0 +1,257 @@
+{
+  "test_only": true,
+  "cases": [
+    {
+      "case": "substitution",
+      "audit": {
+        "source_utterances": 1,
+        "raw_utterances": 1,
+        "boundaries_restored": false,
+        "utterances": [
+          {
+            "source_utterance": 1,
+            "edit_distance": 1,
+            "example_edit_path": [
+              {
+                "kind": "substitution_restored",
+                "source_token": 1,
+                "raw_token": 1,
+                "source": "goed",
+                "raw": "went"
+              }
+            ],
+            "model_word_edits": true,
+            "annotations_transferred": 0,
+            "unmapped_annotations": [
+              {
+                "tag": "[* m:over]",
+                "raw_utterance": 1,
+                "raw_anchor": 2,
+                "reason": "changed_inserted_or_ambiguous_anchor"
+              }
+            ],
+            "unassessed_source_words": [
+              {
+                "source_utterance": 1,
+                "token": "goed",
+                "start": 4,
+                "end": 8
+              }
+            ],
+            "annotation_coverage": "partial"
+          }
+        ],
+        "annotation_coverage": "partial",
+        "raw_non_target_content_ignored": false
+      }
+    },
+    {
+      "case": "deletion",
+      "audit": {
+        "source_utterances": 1,
+        "raw_utterances": 1,
+        "boundaries_restored": false,
+        "utterances": [
+          {
+            "source_utterance": 1,
+            "edit_distance": 1,
+            "example_edit_path": [
+              {
+                "kind": "deletion_restored",
+                "source_token": 3,
+                "source": "a"
+              }
+            ],
+            "model_word_edits": true,
+            "annotations_transferred": 1,
+            "unmapped_annotations": [],
+            "unassessed_source_words": [
+              {
+                "source_utterance": 1,
+                "token": "a",
+                "start": 10,
+                "end": 11
+              }
+            ],
+            "annotation_coverage": "partial"
+          }
+        ],
+        "annotation_coverage": "partial",
+        "raw_non_target_content_ignored": false
+      }
+    },
+    {
+      "case": "insertion",
+      "audit": {
+        "source_utterances": 1,
+        "raw_utterances": 1,
+        "boundaries_restored": false,
+        "utterances": [
+          {
+            "source_utterance": 1,
+            "edit_distance": 1,
+            "example_edit_path": [
+              {
+                "kind": "model_insertion_removed",
+                "raw_token": 1,
+                "raw": "really"
+              }
+            ],
+            "model_word_edits": true,
+            "annotations_transferred": 1,
+            "unmapped_annotations": [
+              {
+                "tag": "[* m:over]",
+                "raw_utterance": 1,
+                "raw_anchor": 2,
+                "reason": "changed_inserted_or_ambiguous_anchor"
+              }
+            ],
+            "unassessed_source_words": [],
+            "annotation_coverage": "partial"
+          }
+        ],
+        "annotation_coverage": "partial",
+        "raw_non_target_content_ignored": false
+      }
+    },
+    {
+      "case": "repetition",
+      "audit": {
+        "source_utterances": 1,
+        "raw_utterances": 1,
+        "boundaries_restored": false,
+        "utterances": [
+          {
+            "source_utterance": 1,
+            "edit_distance": 1,
+            "example_edit_path": [
+              {
+                "kind": "deletion_restored",
+                "source_token": 1,
+                "source": "he"
+              }
+            ],
+            "model_word_edits": true,
+            "annotations_transferred": 0,
+            "unmapped_annotations": [
+              {
+                "tag": "[* s:r:gc:pro]",
+                "raw_utterance": 1,
+                "raw_anchor": 1,
+                "reason": "changed_inserted_or_ambiguous_anchor"
+              }
+            ],
+            "unassessed_source_words": [
+              {
+                "source_utterance": 1,
+                "token": "he",
+                "start": 1,
+                "end": 3
+              },
+              {
+                "source_utterance": 1,
+                "token": "he",
+                "start": 4,
+                "end": 6
+              }
+            ],
+            "annotation_coverage": "partial"
+          }
+        ],
+        "annotation_coverage": "partial",
+        "raw_non_target_content_ignored": false
+      }
+    },
+    {
+      "case": "contraction",
+      "audit": {
+        "source_utterances": 1,
+        "raw_utterances": 1,
+        "boundaries_restored": false,
+        "utterances": [
+          {
+            "source_utterance": 1,
+            "edit_distance": 1,
+            "example_edit_path": [
+              {
+                "kind": "substitution_restored",
+                "source_token": 1,
+                "raw_token": 1,
+                "source": "don't",
+                "raw": "doesn't"
+              }
+            ],
+            "model_word_edits": true,
+            "annotations_transferred": 1,
+            "unmapped_annotations": [
+              {
+                "tag": "[* m:03s:a]",
+                "raw_utterance": 1,
+                "raw_anchor": 2,
+                "reason": "changed_inserted_or_ambiguous_anchor"
+              }
+            ],
+            "unassessed_source_words": [
+              {
+                "source_utterance": 1,
+                "token": "don't",
+                "start": 4,
+                "end": 9
+              }
+            ],
+            "annotation_coverage": "partial"
+          }
+        ],
+        "annotation_coverage": "partial",
+        "raw_non_target_content_ignored": false
+      }
+    },
+    {
+      "case": "quoted_tag",
+      "audit": {
+        "source_utterances": 1,
+        "raw_utterances": 1,
+        "boundaries_restored": false,
+        "utterances": [
+          {
+            "source_utterance": 1,
+            "edit_distance": 0,
+            "example_edit_path": [],
+            "model_word_edits": false,
+            "annotations_transferred": 1,
+            "unmapped_annotations": [],
+            "unassessed_source_words": [],
+            "annotation_coverage": "complete"
+          }
+        ],
+        "annotation_coverage": "complete",
+        "raw_non_target_content_ignored": false
+      }
+    }
+  ],
+  "native_chatter": "6/6 passed",
+  "source_fingerprints": "6/6 passed",
+  "model_inference_run": false,
+  "annotation_source_sha256": "045672497b867cf2d712a26ecc525b1d0fa719022d76c84be37a19b911e2213f",
+  "native_validation_source_sha256": "7d1c89eb5cc1f70a4b46c7b89597d37d741ab1f858674cbd99aa92cb39351620",
+  "current_outputs_identical_to_native_validated_files": true,
+  "regression_tests": {
+    "passed": 164,
+    "skipped": 2,
+    "includes": "100 randomized source-edit/boundary variations, safe tag anchoring, raw/checksum recovery, retention and morphology handoff"
+  },
+  "updated_notebooks": {
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/notebooks/colab_direct_generation_pipeline.ipynb": {
+      "sha256": "e355ce8f212bacef784db3ee822d393d3db3e0f88b5614f6bb3ced60d662ff22",
+      "cells": 39
+    },
+    "/Users/shamiraventurini/Documents/Playground/ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb": {
+      "sha256": "59c726f167ddec23c1fc0e31ffd354d492f1d2025e8ebb7965defd2ebebad72a",
+      "cells": 45
+    }
+  },
+  "colab_bundle_compatibility": "Original bundle bootstrap, source upgrades and repeated bootstrap passed with GPU guard stubbed; no model inference",
+  "colab_execution": "New source-restoration policy ready; full Colab completion remains pending",
+  "policy": "Authoritative pre-annotation source; word changes/deletions restored automatically; unchanged unique tag anchors only; missing/error annotations remain unavailable rather than error-free"
+}

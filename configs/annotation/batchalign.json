@@ -25,48 +25,50 @@
   ],
   "resources": {
     "version": "1.15.0",
-    "url": "https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.15.0.json",
+    "revision": "6ddbdc143649e4065dbb769aa661373e8e284a44",
+    "url": "https://raw.githubusercontent.com/stanfordnlp/stanza-resources/6ddbdc143649e4065dbb769aa661373e8e284a44/resources_1.15.0.json",
     "sha256": "b9a397f594aa68b6b09806b0f6f8c95b8f1dd4d1f4459a9ce1553016200d234a"
   },
+  "models_revision": "93906d2c3e3641dbebb0e8739cdc870e4031332d",
   "models": {
     "en/tokenize/combined_nocharlm.pt": {
       "md5": "764639a5f65cc42d84b294566ffa6215",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/tokenize/combined_nocharlm.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/tokenize/combined_nocharlm.pt",
       "sha256": "becae178f59cd8adba655a9dc8b3cac68311e1706da0a331706c7804f0d0c42d"
     },
     "en/mwt/gum.pt": {
       "md5": "85857cef3a7031b5d83b3e123ded0f27",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/mwt/gum.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/mwt/gum.pt",
       "sha256": "eac3f5c64015d8e07906a22a456e5835d2da8053e118c4b1deddecfff1be5b1f"
     },
     "en/pos/combined_charlm.pt": {
       "md5": "a31dbf7269152bc85c3c79c5318ae848",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/pos/combined_charlm.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/pos/combined_charlm.pt",
       "sha256": "c3be39f76a12d58b2e8387475db3915a93a4e4a01867d536306fc84e0218b154"
     },
     "en/backward_charlm/1billion.pt": {
       "md5": "1405948b125b4264fd17509d1b6175ca",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/backward_charlm/1billion.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/backward_charlm/1billion.pt",
       "sha256": "5d8cb2306650e4fc2b4f7517cc0fb33b38269e05bbf8d05e712e481471052225"
     },
     "en/forward_charlm/1billion.pt": {
       "md5": "468b3377455fa0311565d46865f55afb",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/forward_charlm/1billion.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/forward_charlm/1billion.pt",
       "sha256": "8a32ac2226dda8ea5d30f2a15fe3f835639977f299cfda315ce1b8a656596fd2"
     },
     "en/pretrain/conll17.pt": {
       "md5": "c339580492002fb1f759537dfbc57fb2",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/pretrain/conll17.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/pretrain/conll17.pt",
       "sha256": "edde4c195f91ba45aab3f3a6254202011f284559da8a5ead5e62ce522f819c5e"
     },
     "en/lemma/combined_nocharlm.pt": {
       "md5": "c1919a2fd49702ddb93338c3a06c8b18",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/lemma/combined_nocharlm.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/lemma/combined_nocharlm.pt",
       "sha256": "23aa62d98759d04eac42b2e1262a9e1f09e0ca31e99d0cd9965c36acf271f3a4"
     },
     "en/depparse/combined_charlm.pt": {
       "md5": "993a0eb712cefb881c684df8d9934f15",
-      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/depparse/combined_charlm.pt",
+      "url": "https://huggingface.co/stanfordnlp/stanza-en/resolve/93906d2c3e3641dbebb0e8739cdc870e4031332d/models/depparse/combined_charlm.pt",
       "sha256": "e2b22ebadcfd35998f64f2beec01faa6a3854d582ba55d60dc412a1db0010752"
     }
   },

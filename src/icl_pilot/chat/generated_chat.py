@@ -68,6 +68,10 @@ def _normalize_generated_notation(text: str) -> tuple[str, list[dict[str, str]]]
 
         text = re.sub(pattern, apply, text)
 
+    # CHAT rejects typographic single quotes even inside contractions (E256).
+    # Normalize their glyphs in derived text only, before segmentation, and
+    # retain each replacement alongside the unchanged source-text checksum.
+    substitute(r"[‘’]", lambda m: "'", "ascii_apostrophe")
     substitute(r"\(\s*(\.{1,3}|\d+(?:\.\d+)?)\s*\)", lambda m: "(" + m[1] + ")", "pause_spacing")
     # An isolated omitted suffix belongs to its preceding word, not a new word.
     substitute(r"\b([A-Za-z][A-Za-z'’]*)\s+\((s|ed|ing)\)",

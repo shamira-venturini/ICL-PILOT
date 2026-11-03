@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "scope": "Saved real ENNI pilot UD postprocessing recovery; annotation accuracy review remains pending",
+  "source_archive": "/Users/shamiraventurini/Downloads/ICL-PILOT_ENNI_failed_run.zip",
+  "source_archive_sha256": "b0dc622b27a1d7801325f3b97a9d9305a93a53cda1885ece0cfd0242f7b0de0d",
+  "cause": "Batchalign replaced one old morphosyntax-version @Comment per file; strict source-header comparison rejected the omission",
+  "main_tiers_compared": 712,
+  "main_tiers_unchanged": 712,
+  "source_version_comments_restored": 6,
+  "input_files": 6,
+  "recovered_files": 6,
+  "chi_utterances": 550,
+  "tagged_chi_utterances": 547,
+  "nonlexical_chi_utterances": 3,
+  "talktag_restoration": {
+    "changed_words_restored": 3,
+    "unassessed_error_label_words": 3,
+    "unmapped_tags": 0,
+    "instruction": "Unavailable error labels must remain missing in derived error measures"
+  },
+  "model_inference_repeated": false,
+  "native_chatter": "6/6 passed",
+  "source_fingerprints": "6/6 passed",
+  "recovered_output_directory": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/annotated/real_enni",
+  "recovery_manifest": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-11-02/enni_real_ud_recovered_2026-11-02T12:08:10.551426+00:00/recovery_manifest.json",
+  "recovery_manifest_sha256": "6bf34c1f0d4761c2699534f85816ada4c0c748b15cf9d09c753edc35bcb384b6",
+  "original_failed_manifests_changed": false,
+  "regression_tests": {
+    "passed": 184,
+    "skipped": 2
+  },
+  "updated_notebooks": [
+    {
+      "path": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/notebooks/colab_direct_generation_pipeline.ipynb",
+      "sha256": "a6dc72d62e48402fc351ee5cd23e27e497ea953d3c89a2991d021ff75b05ede0"
+    },
+    {
+      "path": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb",
+      "sha256": "c8ac525df1cd4d082e7d9fd4f7482bc98744dc5566689fedd365986640c22b87"
+    }
+  ]
+}

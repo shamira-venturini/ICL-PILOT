@@ -1,0 +1,31 @@
+{
+  "test_only": true,
+  "cause": "TalkTag omitted double quotation marks around no running; period spacing also differed",
+  "evidence": "All 16 before/after CHI lines from the saved Colab diff; unchanged headers taken from the earlier validated copy of the same story",
+  "affected_file": "4_year_old_stage1_td/pair_sli444_td410_rep02_A1_TD.cha",
+  "affected_colab_run": "enni_smoke_qwen3_8b_20261030T145541959827Z",
+  "source_restored_exactly": true,
+  "utterances": 16,
+  "source_and_restored_native_chatter": "2/2 passed",
+  "model_inference_repeated": false,
+  "regression_tests": {
+    "passed": 146,
+    "skipped": 2
+  },
+  "annotation_source_sha256": "d4ac35ccab272fcda64d4ec2dd41e43438d5cdc1b33a3ed56f4b1355f439cf13",
+  "raw_colab_reprocessing": "Ready in the same notebook; not yet executed in Colab",
+  "diagnostics": "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/data/generated/smoke_diagnostics/2026-10-30/talktag_quotes",
+  "updated_notebooks": {
+    "/Users/shamiraventurini/PycharmProjects/ICL-PILOT/notebooks/colab_direct_generation_pipeline.ipynb": {
+      "sha256": "31987a9c3cb06259db5144fba6ed3526e191a970219e5ccc4eef750cea1a88cb",
+      "cells": 39
+    },
+    "/Users/shamiraventurini/Documents/Playground/ICL-PILOT-smoke-test-20261030/ICL-PILOT_smoke_test.ipynb": {
+      "sha256": "36222b78ce4deb7d6442b1f9aeabde57111282409d75b4f6b3800cc4f006667b",
+      "cells": 45
+    }
+  },
+  "notebook_revision": "CHAT formatting fix 2",
+  "verified_recovery_test": "A completed TalkTag process stopped by quote-only QC was reprocessed through the actual notebook annotation cell; no additional TalkTag invocation, no raw/source or original-manifest edits.",
+  "original_colab_bundle_compatibility": "Verified both checksum-pinned helper updates and a repeated bootstrap after those updates, with the original upload"
+}

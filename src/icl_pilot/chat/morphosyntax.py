@@ -19,6 +19,9 @@ from .morphosyntax_worker import file_digest
 ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_CONFIG = ROOT / "configs/annotation/batchalign.json"
 MORPH_TIERS = {"%mor", "%gra", "%umor", "%ugra"}
+_SOURCE_UD_PROVENANCE = re.compile(
+    r"batchalign(?:3)? [a-f0-9]{7,40} \| morphosyntax: "
+    r"stanza:\d+\.\d+\.\d+:noretok:native-mwt\d+ \| [0-9T:Z.+-]+")
 
 
 def load_morphosyntax_config(path=DEFAULT_CONFIG):
@@ -34,11 +37,20 @@ def load_morphosyntax_config(path=DEFAULT_CONFIG):
     if (len(config.get("models", {})) != 8 or not config.get("source_sha256")
             or not re.fullmatch(r"[a-f0-9]{64}", config.get("resources", {}).get("sha256", ""))):
         raise ValueError("Annotation requires model/catalog/source provenance")
+    resources = config["resources"]
+    if (resources.get("version") != config["stanza_version"]
+            or not re.fullmatch(r"[a-f0-9]{40}", resources.get("revision", ""))
+            or resources.get("url") != "https://raw.githubusercontent.com/stanfordnlp/stanza-resources/"
+                + resources["revision"] + "/resources_" + resources["version"] + ".json"
+            or not re.fullmatch(r"[a-f0-9]{40}", config.get("models_revision", ""))):
+        raise ValueError("Annotation downloads require immutable catalog/model revisions")
+    model_prefix = ("https://huggingface.co/stanfordnlp/stanza-en/resolve/"
+                    + config["models_revision"] + "/models/")
     for name, spec in config["models"].items():
         if (not name.startswith("en/") or ".." in Path(name).parts
                 or not re.fullmatch(r"[a-f0-9]{32}", spec.get("md5", ""))
                 or not re.fullmatch(r"[a-f0-9]{64}", spec.get("sha256", ""))
-                or not spec.get("url", "").startswith("https://huggingface.co/stanfordnlp/stanza-en/resolve/v1.15.0/models/")):
+                or spec.get("url") != model_prefix + name[3:]):
             raise ValueError("Invalid English Stanza model pin")
     return config
 
@@ -78,8 +90,11 @@ def prepare_morphosyntax_models(model_dir, config_path=DEFAULT_CONFIG, *, downlo
         temporary = path.with_suffix(path.suffix + ".downloading")
         with urlopen(spec["url"], timeout=60) as source, temporary.open("wb") as out:
             shutil.copyfileobj(source, out)
-        if file_digest(temporary, algorithm) != spec[algorithm]:
-            raise ValueError("Annotation download checksum mismatch: " + str(temporary))
+        actual = file_digest(temporary, algorithm)
+        if actual != spec[algorithm]:
+            raise ValueError("Annotation download checksum mismatch: " + str(temporary)
+                             + "; expected " + spec[algorithm] + "; received " + actual
+                             + "; source " + spec["url"])
         temporary.rename(path)
     return root
 
@@ -146,8 +161,22 @@ def _has_alignable_speech(main):
 
 def check_morphosyntax_output(source, output):
     original = _protected(source)
-    projected, added, index = [], [], 0
+    projected, added, restored, index = [], [], [], 0
+
+    def restore_source_provenance(next_record=None):
+        nonlocal index
+        # Batchalign replaces its earlier tool-version comment. The final
+        # merger copies the complete original header, so account explicitly
+        # for that metadata-only omission in the raw backend output.
+        while (index < len(original) and original[index] != next_record
+               and original[index][0] == "@Comment"
+               and _SOURCE_UD_PROVENANCE.fullmatch(original[index][1])):
+            projected.append(original[index])
+            restored.append(original[index][1])
+            index += 1
+
     for tier, body in _protected(output):
+        restore_source_provenance((tier, body))
         if index < len(original) and (tier, body) == original[index]:
             projected.append((tier, body))
             index += 1
@@ -156,6 +185,7 @@ def check_morphosyntax_output(source, output):
             added.append(body)
         else:
             raise ValueError("Batchalign changed headers, words, codes, punctuation, order or utterance boundaries")
+    restore_source_provenance()
     if original != projected or len(added) > 1:
         raise ValueError("Batchalign changed headers, words, codes, punctuation, order or utterance boundaries")
     blocks = _speaker_blocks(output)
@@ -171,7 +201,8 @@ def check_morphosyntax_output(source, output):
             excluded.append({"speaker_utterance_index": index, "speaker": block["speaker"]})
     return {"target_utterances": len(_target_blocks(output)), "tagged_utterances": tagged,
             "all_speaker_utterances": len(blocks),
-            "nonlexical_utterance_indices": excluded, "native_added_provenance": added}
+            "nonlexical_utterance_indices": excluded, "native_added_provenance": added,
+            "restored_source_provenance": restored}
 
 
 def merge_morphosyntax_tiers(source, raw):
@@ -311,6 +342,7 @@ def annotate_morphosyntax(inputs, output_dir, *, python, model_dir, config_path=
             manifest["outputs"].append({"relative_path": item["relative_path"], "sha256": sha256_file(target),
                                         "raw_sha256": sha256_file(raw_path), **check_morphosyntax_output(source, final),
                                         "native_added_provenance": raw_qc["native_added_provenance"],
+                                        "restored_source_provenance": raw_qc["restored_source_provenance"],
                                         "text_fingerprint": final_fingerprint})
         report = validation.validate_chat_directories({"annotated": annotated}, output / "validation/after", validator=selected)
         manifest["chatter"]["after"] = validation.validation_reference(report)
